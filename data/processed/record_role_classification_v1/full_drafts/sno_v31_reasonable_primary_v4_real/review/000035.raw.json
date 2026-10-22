@@ -1,0 +1,28 @@
+{
+  "id": "cd8317d2-4edc-4b01-b752-41366c8d8e52",
+  "object": "chat.completion",
+  "created": 1791880273,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-02cad02c9930d4535610\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-82153ec8c0539a6549be\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3cf70924382c7e8a7baf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1da8196e450388b45b1f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8bce73d839ff3e6b7160\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-10ff6f111d672ecfcf15\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-96afbc61a930ee58ac66\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2d8a08124b968c1556cc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-37f4f696f906756a6862\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ccfaa8f7c9ffcb812503\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-818034a3391c36e1337e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e56a6a40e39f8dfa69ec\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e15e2e49e61f90fe53f8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-fe49ea7730f9842d4ec1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2d4ea9dd0ada87109898\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0f2b651fe2048adbf0f1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-089a523ead70185a9b6b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-91cb8884d83a005dc129\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f2404071ec17c5e9b7b8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4b932f3e6d12698d1d92\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19764,
+    "completion_tokens": 740,
+    "total_tokens": 20504,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3252
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,31 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-970d4980d5f5294ae474",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-970d4980d5f5294ae474",
+    "case": "A",
+    "child_titles": [
+      "专业技术（水利工程）",
+      "专业技术（工程管理）",
+      "专业技术（应用经济学）",
+      "专业技术（应用统计）",
+      "专业技术（土木类）",
+      "专业技术（公共管理类）",
+      "专业技术（电气工程）",
+      "专业技术（理论经济学）",
+      "专业技术（金融）",
+      "专业技术（工商管理学）",
+      "专业技术（会计相关专业）"
+    ],
+    "source_spans": [
+      {
+        "text": "专业技术（水利工程、工程管理、应用经济学、应用统计、土木类、公共管理类、电气工程、理论经济学、金融、工商管理学、会计相关专业）",
+        "start": 0,
+        "end": 58
+      }
+    ],
+    "reason": "括号内顿号分隔多个专业方向，每个方向可独立作为岗位，符合拆分条件。"
+  }
+}

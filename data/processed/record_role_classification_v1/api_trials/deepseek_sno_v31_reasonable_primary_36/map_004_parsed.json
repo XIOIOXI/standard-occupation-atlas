@@ -1,0 +1,88 @@
+{
+  "raw_response_file": "map_004_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-7f7213e5e772f5f3216c",
+      "status": "mapped",
+      "target_category_id": "L04-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "品质检验管培生",
+      "level_3_evidence": null,
+      "reason": "标题明确品质检验职能，管培生为身份修饰，归生产质量管理。"
+    },
+    {
+      "occupation_id": "SNO-ac88016e507fd573963d",
+      "status": "mapped",
+      "target_category_id": "L14-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "业态门店管培生",
+      "level_3_evidence": null,
+      "reason": "标题明确门店业务运营方向，管培生为身份修饰，归线下业务与场所运营。"
+    },
+    {
+      "occupation_id": "SNO-5dfa66abc1c47b16487d",
+      "status": "mapped",
+      "target_category_id": "L13-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "商务拓展管培生",
+      "level_3_evidence": null,
+      "reason": "标题明确商务拓展职能，管培生为身份修饰，归商务拓展与合作。"
+    },
+    {
+      "occupation_id": "SNO-e11eeca361a5252ac60a",
+      "status": "mapped",
+      "target_category_id": "L23-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "生产技术",
+      "level_3_evidence": null,
+      "reason": "标题明确生产制造技术职能但具体工种未说明，归通用生产技术与作业。"
+    },
+    {
+      "occupation_id": "SNO-871c94bf8fa894de8d42",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "EGG管培生",
+      "level_3_evidence": null,
+      "reason": "EGG为业务缩写，无法确定具体专业职能，仅能确认管培生身份，候选为综合培养与轮岗岗位。"
+    },
+    {
+      "occupation_id": "SNO-dde28d3ac66cd93e91d5",
+      "status": "mapped",
+      "target_category_id": "L18-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "组织管理",
+      "level_3_evidence": null,
+      "reason": "标题明确组织管理职能，归人才发展与组织发展。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17183,
+    "cached_input_tokens": 16768,
+    "uncached_input_tokens": 415,
+    "output_tokens": 526,
+    "reasoning_tokens": 0,
+    "total_tokens": 17709
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000428154
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

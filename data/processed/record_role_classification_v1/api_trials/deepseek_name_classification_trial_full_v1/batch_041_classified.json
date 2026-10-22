@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 41,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "d76c1556-dd8b-4f67-811c-1ee381d3d978",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750839,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25002,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1706,
+    "output_tokens": 3910,
+    "reasoning_tokens": 0,
+    "total_tokens": 28912
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002671788
+  },
+  "observed_at_utc": "2026-10-11T20:34:00.055728+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-255c26a833774ce66c33",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "核岛系统调试属于工业自动化设备与系统现场调试，归入自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-668fb861a77dd7af5527",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分行机构综合柜员是银行网点零售业务岗位，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-12ad64e6e8b0b884e0b8",
+      "target_category_id": "咨询/翻译/法律/consult-french/fr-translation-written",
+      "status": "mapped",
+      "reason": "法语翻译名称明确，默认归入法语笔译与本地化。"
+    },
+    {
+      "occupation_id": "SNO-aeae1edb90a6c5f36d94",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "数学主讲老师属于基础学科教学，归入基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-468e046621448d63588c",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-machining",
+      "status": "mapped",
+      "reason": "CNC数控工程师核心为数控机床加工与设备操作，归入机械加工与设备操作。"
+    },
+    {
+      "occupation_id": "SNO-47d3a05e19fcdd74872f",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "芯片研发核心为芯片设计开发，归入芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-04f29da544bb92f9c4b8",
+      "target_category_id": "房地产/建筑/estate-property/property-mgmt-facility",
+      "status": "mapped",
+      "reason": "公共设施工程师负责设施运行维护，归入商办设施与工程管理。"
+    },
+    {
+      "occupation_id": "SNO-c2b275cfc643db830c89",
+      "target_category_id": "教育培训/edu-admin/edu-admin-institution",
+      "status": "mapped",
+      "reason": "农业产业学院工作人员属于教育机构行政事务，归入教育机构行政。"
+    },
+    {
+      "occupation_id": "SNO-fa13d8dda48021680097",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "职能管培生通常为人力资源或综合职能方向，结合公司背景归入员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-26a59f85b3eb5fc497b2",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-operations",
+      "status": "mapped",
+      "reason": "贸易岗位核心为进出口业务操作，归入进出口业务与单证。"
+    },
+    {
+      "occupation_id": "SNO-d2c8576739e011e1c90e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "经理名称过于宽泛，缺少行业、职能或团队管理方向信息，无法确定具体职业类别。"
+    },
+    {
+      "occupation_id": "SNO-f195f7e8ce47976c2504",
+      "target_category_id": "产品/product-internet/product-user",
+      "status": "mapped",
+      "reason": "产品经理管培生/校招生默认归入互联网产品经理下的用户与增长产品。"
+    },
+    {
+      "occupation_id": "SNO-6c95551bfe90b6ea80c6",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "status": "mapped",
+      "reason": "AI云平台研发工程师核心为云平台后端研发，归入平台与中间件开发。"
+    },
+    {
+      "occupation_id": "SNO-c8176d39d6c4bb433512",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "创意设计管培生核心为创意视觉设计，归入品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-a12bafc93b9c914f1d64",
+      "target_category_id": "设计/design-user-research/research-insight",
+      "status": "mapped",
+      "reason": "产品体验分析师（座舱）负责用户体验洞察，归入体验洞察与策略。"
+    },
+    {
+      "occupation_id": "SNO-c31dc46e7300a60667a7",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "ETF指数研究员属于证券研究岗位，归入证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-097e88a0d3ec35037361",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "岗研究名称不完整，缺少具体研究领域或行业信息，无法确定职业类别。"
+    },
+    {
+      "occupation_id": "SNO-2f9c6a1094874f5d9fb0",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "全栈研发核心包含后端服务开发，归入业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-08c35798d920be4674d0",
+      "target_category_id": "财务/审计/税务/finance-analysis/finance-bp-analysis",
+      "status": "mapped",
+      "reason": "财务系统管理属于财务分析与系统管理结合，归入经营与财务分析。"
+    },
+    {
+      "occupation_id": "SNO-03bc4bba497817555261",
+      "target_category_id": "金融/financial-banking/bank-investment",
+      "status": "mapped",
+      "reason": "浙银理财综合培养岗属于银行理财与资产管理方向，归入投行与资产管理。"
+    },
+    {
+      "occupation_id": "SNO-b3a3ffa04fe0d6bfbf30",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件开发工程师（测试装备开发）核心为硬件电路设计开发，归入电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-4e427e1b617872f5aee9",
+      "target_category_id": "人力/行政/法务/people-hr/hr-recruiting",
+      "status": "mapped",
+      "reason": "人力资源管培生（医药研发）核心为人力资源方向，归入招聘与人才获取。"
+    },
+    {
+      "occupation_id": "SNO-e8484bb77156e6e8bc49",
+      "target_category_id": "互联网/AI/internet-python/python-backend",
+      "status": "mapped",
+      "reason": "Python开发工程师核心为Python后端开发，归入后端与应用开发。"
+    },
+    {
+      "occupation_id": "SNO-ab3437b020d248475e20",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "服务保障名称过于宽泛，缺少具体服务领域或保障对象信息，无法确定职业类别。"
+    },
+    {
+      "occupation_id": "SNO-88ba2365c9a96824df38",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "计算机网络技术员核心为网络与基础设施维护，归入基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-d2b54ef6a52fd99f9875",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "半导体器件工艺工程师核心为半导体制造工艺，归入制造工艺。"
+    },
+    {
+      "occupation_id": "SNO-61e4ed1994dc521aabc8",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "学术讲师通常为高等教育机构教学岗位，归入高等教育教学。"
+    },
+    {
+      "occupation_id": "SNO-fcc0251f9651f6887f20",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "设备技术工程师核心为设备维修与安装，归入设备维修与安装。"
+    },
+    {
+      "occupation_id": "SNO-0355510df9f97741b0e0",
+      "target_category_id": "运营/客服/ops-copywriting/copy-content",
+      "status": "mapped",
+      "reason": "文化宣传专员核心为内容与新媒体文案，归入内容与新媒体文案。"
+    },
+    {
+      "occupation_id": "SNO-b6d5dbcd24873bfb26e3",
+      "target_category_id": "运营/客服/ops-seo/search-sem",
+      "status": "mapped",
+      "reason": "海外广告优化师核心为搜索营销与投放，归入搜索营销与投放。"
+    },
+    {
+      "occupation_id": "SNO-0e1daf6b4e46fbf9eec0",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "外贸采购助理核心为采购执行与合同管理，归入采购执行与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-8d3feb945ae3884e6365",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "校园品牌宣传员核心为品牌与市场策略，归入品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-9d0fc623adbc9f786327",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "钻井液工程师属于能源开发与工程，归入能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-4cace4179a62b7439428",
+      "target_category_id": "设计/design-art-3d-animation/art-3d",
+      "status": "mapped",
+      "reason": "渲染设计核心为三维建模与材质渲染，归入三维建模与材质。"
+    },
+    {
+      "occupation_id": "SNO-92c67ba1aaa025d782eb",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "地质技术研究核心为地质勘查与测绘，归入地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-1b53821236f1890adb15",
+      "target_category_id": "运营/客服/ops-domestic-ecommerce/domestic-ecom-platform",
+      "status": "mapped",
+      "reason": "电商运营管培生核心为国内电商平台店铺运营，归入平台店铺运营。"
+    },
+    {
+      "occupation_id": "SNO-47cc95b8de65b92ea206",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "财富管理培训生核心为财富与理财销售，归入财富与理财销售。"
+    },
+    {
+      "occupation_id": "SNO-4a29bd536ce7f3a02f17",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "PSAI管培生（时尚AI视觉）核心为视觉设计，归入品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-800566f7ab422a018027",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气技术研究员核心为电气控制与自动化设计，归入电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-596d60653bf93790b639",
+      "target_category_id": "能源/环保/农业/energy-aquaculture/aquaculture-fishery",
+      "status": "mapped",
+      "reason": "渔船管理工作属于水产养殖与渔业管理，归入水产养殖技术。"
+    },
+    {
+      "occupation_id": "SNO-3eff6d5a4ac1c637aa5c",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "党群综合办公室行政事务核心为文档与档案文员，归入文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-96d1a0b974ef5e1d7c30",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源部人事助理核心为员工关系与人力运营，归入员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-34cb1907fdde31d0be78",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气助理工程师核心为电气控制与自动化设计，归入电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-cc63de4ba65a265095c7",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "调研服务保障名称不明确，缺少具体调研领域或服务保障内容，无法确定职业类别。"
+    },
+    {
+      "occupation_id": "SNO-822a397ed4fd6898717a",
+      "target_category_id": "财务/审计/税务/finance-analysis/finance-bp-analysis",
+      "status": "mapped",
+      "reason": "财务数智化核心为财务分析与数字化结合，归入经营与财务分析。"
+    },
+    {
+      "occupation_id": "SNO-2aacbda9c5218aba205f",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "安评事务（分子生物）高级研究员核心为生物医药研发，归入生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-9449dd5705caf9109633",
+      "target_category_id": "医疗健康/health-doctor/medical-technical",
+      "status": "mapped",
+      "reason": "放射医生核心为医学影像技术，归入医学检验与影像技术。"
+    },
+    {
+      "occupation_id": "SNO-7aa88d5b41fe24b328a8",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-planning",
+      "status": "mapped",
+      "reason": "规划事务核心为规划设计与报批，归入规划设计与报批。"
+    },
+    {
+      "occupation_id": "SNO-6eee830efa645f13bfb1",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "基础设施研发工程师核心为基础设施与云运维，归入基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-79dd325ecd478c652368",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "排水专业设计师核心为建筑方案与施工图设计，归入建筑方案与施工图设计。"
+    }
+  ]
+}

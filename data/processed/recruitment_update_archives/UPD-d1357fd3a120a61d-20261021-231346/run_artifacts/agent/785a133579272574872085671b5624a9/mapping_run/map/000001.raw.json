@@ -1,0 +1,28 @@
+{
+  "id": "0c5f9ae6-8305-43f8-b7ae-e9cf74c131fc",
+  "object": "chat.completion",
+  "created": 1792571317,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-785a133579272574872085671b5624a9\",\"status\":\"mapped\",\"target_category_id\":\"L20-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L20-08\"],\"title_evidence\":\"专职柜员岗，银行柜面业务操作\",\"level_3_evidence\":null,\"reason\":\"银行专职柜员属于柜面业务操作，归金融运营与交易清算（L20-08）。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16939,
+    "completion_tokens": 108,
+    "total_tokens": 17047,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

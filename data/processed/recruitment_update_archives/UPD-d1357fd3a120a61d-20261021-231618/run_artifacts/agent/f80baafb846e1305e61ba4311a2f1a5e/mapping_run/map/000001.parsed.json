@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-f80baafb846e1305e61ba4311a2f1a5e",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-07-01",
+        "L06-07-02",
+        "L06-07-03",
+        "L21-07-01",
+        "L21-07-02",
+        "L21-07-03",
+        "L04-04-02"
+      ],
+      "title_evidence": "研发实习生，公司为医疗/医药/生物行业（英科新创），研发方向可能涉及生物技术、药物研发或临床研究",
+      "level_3_evidence": null,
+      "reason": "标题仅表明研发实习，未说明具体研发方向；结合医疗/医药/生物行业背景，可能对应生物技术研发、药物发现、药物制剂、临床研究运营、医学事务或药物安全等方向，也可能涉及检测实验，无法唯一确定二级或三级类别，需人工复核。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16938,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 298,
+    "output_tokens": 210,
+    "reasoning_tokens": 0,
+    "total_tokens": 17148
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00044124
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

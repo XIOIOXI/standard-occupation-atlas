@@ -1,0 +1,28 @@
+{
+  "id": "f35c91c2-7bff-4ab1-b76b-a69f05ac9d66",
+  "object": "chat.completion",
+  "created": 1791821934,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-9c54faf19f7e6b05f087\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"管培生为培训项目而非职业，方向为分公司总经理但业务领域不明，无法确认任何一级或二级类别。\"},{\"entry_id\":\"SNO-9c65ef8bcddfd89b4459\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出行政文秘、法律、财务审计、人力资源管理等互不兼容的独立职业，且无共同可确认的一级或二级上级。\"},{\"entry_id\":\"SNO-9c8eb75c7e58b49786a4\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"策略岗位过于宽泛，缺少业务方向，无法确认任何一级或二级类别。\"},{\"entry_id\":\"SNO-9c926ddd1eefc9ba2ee5\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"工作人员名称过泛，无法判断职业，不能确认任何类别。\"},{\"entry_id\":\"SNO-9c93d718e76537a1aba1\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"运行管理名称较泛，缺少具体行业或职能方向，无法确认任何一级或二级类别。\"},{\"entry_id\":\"SNO-9ca44538310df3ffe4ac\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"研发科学家未说明研发领域，管培方向为培训项目，无法确认任何一级或二级类别。\"},{\"entry_id\":\"SNO-9cf590b9b8ffc0c788b9\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"集团总部管理培训生为培训项目，未明确具体职能方向，无法确认任何类别。\"},{\"entry_id\":\"SNO-9cf9654f9af156ed08f9\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-python/python-data\",\"reason\":\"AI应用工程师名称可确认属于互联网/AI下Python数据与人工智能开发方向，但三级归属需人工确认。\"},{\"entry_id\":\"SNO-9cff70e66d22da394818\",\"status\":\"multi_role\",\"target_category_id\":\"互联网/AI\",\"reason\":\"名称明确列出大模型研发与大数据研发两个互不兼容的独立职业，共同上级可确认至互联网/AI。\"},{\"entry_id\":\"SNO-9db958971d0a37d07b3b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"经营性人才管培生为培训项目，职责方向不明确，无法确认任何类别。\"},{\"entry_id\":\"SNO-9dc3dbc91c1ce13d478a\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时包含财务管理部专员和法律两个互不兼容的独立职业，无共同可确认的一级或二级上级。\"},{\"entry_id\":\"SNO-9dd05149fc2d1b28ea1f\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"策划设计未说明策划或设计的具体领域，无法确认任何一级或二级类别。\"},{\"entry_id\":\"SNO-9dd5913eec1105577d41\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"消费者管理培训生为培训项目，小语种-俄语为语言方向而非职业，无法确认任何类别。\"},{\"entry_id\":\"SNO-9de53d91a2222defd2e0\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"建设管理事业部业务员职责不明确，可能涉及工程管理或业务运营，无法确认任何类别。\"},{\"entry_id\":\"SNO-9df352a9a24138dc1793\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明显列出跨境电商运营、国内电商运营、产品经理、电商设计、三维渲染等多个互不兼容的独立职业，无共同可确认的一级或二级上级。\"},{\"entry_id\":\"SNO-9e0b6d4999e8e6957177\",\"status\":\"multi_role\",\"target_category_id\":\"生产制造\",\"reason\":\"名称列出生产系统设计、质量管理、工业工程、安全工程、生产管理等多个互不兼容的独立职业，共同上级可确认至生产制造。\"},{\"entry_id\":\"SNO-9e12c7caf8ca31ce33f7\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"绽放生为管培生项目名称，未说明具体职业方向，无法确认任何类别。\"},{\"entry_id\":\"SNO-9e1413d7f62dcbfacee6\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"AI编译优化工程师可确认属于互联网/AI算法工程师方向，但三级归属需人工确认。\"},{\"entry_id\":\"SNO-9e5491aee517ec885a69\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称仅为/副总经理，缺少行业与职能信息，无法确认任何类别。\"},{\"entry_id\":\"SNO-9e8a9455cdf0cdae71d1\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"党工团岗位职业清晰，但冻结目录无对应类别，且无法确认任何一级或二级上级。\"},{\"entry_id\":\"SNO-9e914617e6660b295629\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"通用方向管理培训生为培训项目，轮岗方向不明确，无法确认任何类别。\"},{\"entry_id\":\"SNO-9ec428625fee9e42ef47\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"开发为泛称，缺少技术栈或方向，无法确认任何一级或二级类别。\"},{\"entry_id\":\"SNO-9eded43d19c97e20ea9c\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"载荷总体设计师职业清晰，但冻结目录无航天/航空器总体设计对应类别，且无法确认任何一级或二级上级。\"},{\"entry_id\":\"SNO-9ee3b8fb7d9aa5f78b62\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出海外财务管理、海外物流管理、海外工厂管理、审计稽核等多个互不兼容的独立职业，无共同可确认的一级或二级上级。\"},{\"entry_id\":\"SNO-9efdf0b331aaec0980a4\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"城区综合业务职责范围不明确，缺少具体业务方向信息，无法确认任何类别。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29604,
+    "completion_tokens": 1432,
+    "total_tokens": 31036,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2212
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

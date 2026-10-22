@@ -1,0 +1,268 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-6f94c83295df81a3f708",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-07",
+        "L13-09"
+      ],
+      "title_evidence": "海外营销工程师",
+      "level_3_evidence": null,
+      "reason": "标题含“营销”，属市场职能，但未明确具体营销方向，归通用市场营销。"
+    },
+    {
+      "occupation_id": "TG-2ce049c2d34991ac9318",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "辅助岗位",
+      "level_3_evidence": null,
+      "reason": "标题仅表明辅助性质，未说明具体职能，无法归类。"
+    },
+    {
+      "occupation_id": "TG-f8a931d59cb8cab2062a",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-04",
+        "L14-11",
+        "L16-01"
+      ],
+      "title_evidence": "外贸业务开发外卖业务维护采购",
+      "level_3_evidence": null,
+      "reason": "标题包含外贸业务开发、外卖业务维护、采购等多个不同职能，无法归入单一类别。"
+    },
+    {
+      "occupation_id": "TG-553438d63691ace1eaac",
+      "status": "mapped",
+      "target_category_id": "L02-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-03"
+      ],
+      "title_evidence": "总行信息技术部数据开发岗",
+      "level_3_evidence": null,
+      "reason": "标题明确为数据开发岗，属数据工程与数据平台开发，但未细分至三级。"
+    },
+    {
+      "occupation_id": "TG-bb5f9498d34d17abadd5",
+      "status": "mapped",
+      "target_category_id": "L24-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L24-01-01"
+      ],
+      "title_evidence": "建筑施工图专业助理",
+      "level_3_evidence": "建筑施工图专业助理",
+      "reason": "标题含“建筑施工图”，直接对应建筑设计三级。"
+    },
+    {
+      "occupation_id": "TG-eaf37161caaf6707760a",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "管培生技术类供应链运营类 职能类",
+      "level_3_evidence": null,
+      "reason": "标题包含技术类、供应链运营类、职能类等多个方向，属跨职能管培生，无法归入单一类别。"
+    },
+    {
+      "occupation_id": "TG-d3fb6f26ea9c95197c9f",
+      "status": "mapped",
+      "target_category_id": "L02-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-09"
+      ],
+      "title_evidence": "数据技术岗",
+      "level_3_evidence": null,
+      "reason": "标题明确数据技术职能，但方向未说明，归通用数据与人工智能工作。"
+    },
+    {
+      "occupation_id": "TG-030eedf8ee85996c7ec8",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L22-02"
+      ],
+      "title_evidence": "启智素养教师",
+      "level_3_evidence": null,
+      "reason": "标题为教师，属学科与通识教学，但未明确具体学科，停在二级。"
+    },
+    {
+      "occupation_id": "TG-8f7155014f47d16193aa",
+      "status": "mapped",
+      "target_category_id": "L05-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-04"
+      ],
+      "title_evidence": "机器狗运动控制工程师",
+      "level_3_evidence": null,
+      "reason": "标题含运动控制，属自动化与控制工程。"
+    },
+    {
+      "occupation_id": "TG-743e366d29364716230b",
+      "status": "mapped",
+      "target_category_id": "L25-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-09"
+      ],
+      "title_evidence": "新能源产品开发",
+      "level_3_evidence": null,
+      "reason": "标题含新能源产品开发，属能源资源与环境技术，但方向未明确，归通用。"
+    },
+    {
+      "occupation_id": "TG-2a06ffc6a3be8ba273f0",
+      "status": "mapped",
+      "target_category_id": "L11-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L11-04-01"
+      ],
+      "title_evidence": "AI战略咨询实习生",
+      "level_3_evidence": "AI战略咨询实习生",
+      "reason": "标题含战略咨询，直接对应战略与管理咨询三级。"
+    },
+    {
+      "occupation_id": "TG-9c0484a3ea1c42b47a68",
+      "status": "mapped",
+      "target_category_id": "L32-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-02"
+      ],
+      "title_evidence": "包装工程管培生",
+      "level_3_evidence": null,
+      "reason": "标题为管培生，但仅行业领域（包装工程）不足以确定职能，归综合储备与业务培养。"
+    },
+    {
+      "occupation_id": "TG-87682a1d256390b5f66a",
+      "status": "mapped",
+      "target_category_id": "L25-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-02"
+      ],
+      "title_evidence": "矿业项目支持岗",
+      "level_3_evidence": null,
+      "reason": "标题含矿业，属采矿与资源开采。"
+    },
+    {
+      "occupation_id": "TG-61585e854bc263878b6a",
+      "status": "mapped",
+      "target_category_id": "L20-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-01-01"
+      ],
+      "title_evidence": "固收研究岗",
+      "level_3_evidence": "固收研究岗",
+      "reason": "标题含固收研究，直接对应证券与市场研究三级。"
+    },
+    {
+      "occupation_id": "TG-4d09149b7fd4be5cf9b7",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-08-01"
+      ],
+      "title_evidence": "机加工艺工程师",
+      "level_3_evidence": "机加工艺工程师",
+      "reason": "标题含机加工艺，直接对应制造制程工程三级。"
+    },
+    {
+      "occupation_id": "TG-40d720e6b282093cb0db",
+      "status": "mapped",
+      "target_category_id": "L20-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-02-02"
+      ],
+      "title_evidence": "融资融券业务产品岗",
+      "level_3_evidence": "融资融券业务产品岗",
+      "reason": "标题含融资融券业务，属金融交易执行，直接对应金融交易三级。"
+    },
+    {
+      "occupation_id": "TG-1466874c38901686dd4e",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-02"
+      ],
+      "title_evidence": "液路工程师",
+      "level_3_evidence": null,
+      "reason": "标题含液路，属热流体与动力工程。"
+    },
+    {
+      "occupation_id": "TG-28b3db9dc748b4cef89c",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09"
+      ],
+      "title_evidence": "营销管培生（流体机械、机电、流体力学、自动化、机械、流体、材料、市场营销相关专业）",
+      "level_3_evidence": null,
+      "reason": "标题含营销管培生，属销售职能，但客户类型未明确，归通用销售。"
+    },
+    {
+      "occupation_id": "TG-9d56841d1ef9adebc035",
+      "status": "mapped",
+      "target_category_id": "L16-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-03"
+      ],
+      "title_evidence": "物料计划专员",
+      "level_3_evidence": null,
+      "reason": "标题含物料计划，属需求与物料计划。"
+    },
+    {
+      "occupation_id": "TG-f94d17939078325b98df",
+      "status": "mapped",
+      "target_category_id": "L12-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-02"
+      ],
+      "title_evidence": "品牌公关管培生",
+      "level_3_evidence": null,
+      "reason": "标题含品牌公关，属品牌管理。"
+    }
+  ],
+  "raw_response_file": "000235.raw.json",
+  "usage": {
+    "input_tokens": 17373,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 861,
+    "output_tokens": 2336,
+    "reasoning_tokens": 0,
+    "total_tokens": 19709
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0031605719999999995
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

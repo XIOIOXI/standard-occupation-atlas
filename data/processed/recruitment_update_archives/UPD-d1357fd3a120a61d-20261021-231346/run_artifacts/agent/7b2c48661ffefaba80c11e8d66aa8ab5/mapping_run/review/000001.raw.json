@@ -1,0 +1,28 @@
+{
+  "id": "cddcd71d-4509-4fcd-874f-00bb011107de",
+  "object": "chat.completion",
+  "created": 1792571299,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-7b2c48661ffefaba80c11e8d66aa8ab5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行基层网点综合服务岗方向未明，候选L20-08/L14-07/L13-02均合理，review状态可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17020,
+    "completion_tokens": 85,
+    "total_tokens": 17105,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 508
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

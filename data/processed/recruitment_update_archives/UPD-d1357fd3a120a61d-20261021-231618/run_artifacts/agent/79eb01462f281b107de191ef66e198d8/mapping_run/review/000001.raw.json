@@ -1,0 +1,28 @@
+{
+  "id": "831cac40-b79e-40d3-8eeb-a78ba5479e91",
+  "object": "chat.completion",
+  "created": 1792571943,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-79eb01462f281b107de191ef66e198d8\", \"verdict\": \"correction_required\", \"suggested_target_category_id\": \"L06-08\", \"issue\": \"半导体公司的“产品工程师”通常负责产品量产导入、良率提升、制程与产品工程化，而非芯片电路设计（数字/模拟/验证/物理设计）。归入 L05-02 芯片与集成电路设计属明显错分；更合理的主归属为 L06-08 工艺与制造工程（含芯片制程/量产工程），或至少 L06-08-02 工业化与生产导入。若强调产品工程化与量产管控，L06-08 更贴切。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17040,
+    "completion_tokens": 174,
+    "total_tokens": 17214,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 528
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

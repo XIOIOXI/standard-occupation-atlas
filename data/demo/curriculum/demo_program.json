@@ -1,0 +1,39 @@
+{
+  "program_id": "demo-it-practice-program",
+  "program_name": "Demo IT Practice Curriculum",
+  "description": "MVP demonstration curriculum. Course names are referenced in the project research paper; descriptions, outcomes and assessments below are minimal sample text for deterministic mapping only, not official university syllabus content.",
+  "provenance": {
+    "course_name_source": "Xi Xi n11507152.docx, Sections 3.4 and 4, which name IFN712 Research in IT Practice and IFN711 Industry Project.",
+    "content_status": "demo_sample_not_official_syllabus"
+  },
+  "courses": [
+    {
+      "course_id": "IFN712-demo",
+      "course_name": "IFN712 Research in IT Practice",
+      "description": "A demo research-practice course using data analysis to investigate an IT problem and communicate evidence-based findings.",
+      "learning_outcomes": [
+        "Apply data analysis to investigate a defined IT practice problem.",
+        "Communicate research findings and limitations to a technical audience.",
+        "Plan a small research activity and present an evidence-based report."
+      ],
+      "assessments": [
+        "Data analysis report.",
+        "Research presentation."
+      ]
+    },
+    {
+      "course_id": "IFN711-demo",
+      "course_name": "IFN711 Industry Project",
+      "description": "A demo team industry project course centred on software development, project management, team collaboration and communication.",
+      "learning_outcomes": [
+        "Plan and deliver a team software development project.",
+        "Apply project management to organise project work and milestones.",
+        "Demonstrate team collaboration and communication with project stakeholders."
+      ],
+      "assessments": [
+        "Team software development project.",
+        "Project management plan and final presentation."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 147,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "19aa33e6-9c0b-403e-a783-a32342d4e53b",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751560,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25050,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1754,
+    "output_tokens": 2699,
+    "reasoning_tokens": 0,
+    "total_tokens": 27749
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001952388
+  },
+  "observed_at_utc": "2026-10-11T20:46:01.167113+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-e06a363c5571757c1b04",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "数值模式工程师属于气象/环境数值模拟领域，目录无对应类别"
+    },
+    {
+      "occupation_id": "SNO-6625c3771af8eb64a67e",
+      "target_category_id": "销售/sales-realestate/estate-sales-leasing",
+      "status": "mapped",
+      "reason": "产业招商核心为商业招商与租赁"
+    },
+    {
+      "occupation_id": "SNO-461fc83d0b417fe603a6",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "软件开发/实施工程师核心为项目交付与实施"
+    },
+    {
+      "occupation_id": "SNO-ac6a333010e95b592938",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "采购培训生核心为采购执行"
+    },
+    {
+      "occupation_id": "SNO-d02390d377550108a3d8",
+      "target_category_id": "设计/design-fashion/fashion-apparel",
+      "status": "mapped",
+      "reason": "服装与服饰设计核心为服装款式设计"
+    },
+    {
+      "occupation_id": "SNO-e5acde2f38947a5db5f2",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产计划专员核心为生产计划与调度"
+    },
+    {
+      "occupation_id": "SNO-d721ac69c9d850749c4a",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "结构工程师核心为机械结构设计"
+    },
+    {
+      "occupation_id": "SNO-8a7697751f67d73a9d3b",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出工艺与设备两个独立方向"
+    },
+    {
+      "occupation_id": "SNO-153f5bc1e62c975b1e66",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出销售、技术支持、研发、生产技术多个独立职业"
+    },
+    {
+      "occupation_id": "SNO-45692e27768f6cd6aab5",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "经销销售工程师核心为客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-b00a866043c04f2a3217",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "NLP算法属于大模型与生成式AI方向"
+    },
+    {
+      "occupation_id": "SNO-95e87aa245fbcb12b9d8",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "银行保险部管培生核心为零售与综合银行"
+    },
+    {
+      "occupation_id": "SNO-a108d9a50a4beba91129",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-operations",
+      "status": "mapped",
+      "reason": "大宗商贸业务员核心为进出口业务"
+    },
+    {
+      "occupation_id": "SNO-23ea7f3bd9acf3ceb31d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "status": "mapped",
+      "reason": "语音大模型方向属于语音与音频算法"
+    },
+    {
+      "occupation_id": "SNO-218060a5df4bcbb7476e",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "交易分析师核心为证券交易与运营"
+    },
+    {
+      "occupation_id": "SNO-b37da46f586b5a203ae3",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "status": "mapped",
+      "reason": "语音算法工程师核心为语音与音频算法"
+    },
+    {
+      "occupation_id": "SNO-146972d566fd0c56b8dd",
+      "target_category_id": "销售/sales-realestate/estate-sales-leasing",
+      "status": "mapped",
+      "reason": "产业招商推介核心为商业招商与租赁"
+    },
+    {
+      "occupation_id": "SNO-47d17c74345359ea9e20",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "网络管理员核心为基础设施与网络运维"
+    },
+    {
+      "occupation_id": "SNO-123f8a716db7ce3a48ea",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "机/电工工艺设计核心为机械制造与工艺"
+    },
+    {
+      "occupation_id": "SNO-8e2f846072786a9f7dc3",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-growth",
+      "status": "mapped",
+      "reason": "增长营销经理核心为增长与数字营销"
+    },
+    {
+      "occupation_id": "SNO-6e52abbf8b4e9865244b",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "马克思主义学院专任教师属于高等教育教学"
+    },
+    {
+      "occupation_id": "SNO-23a92613704113897f90",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出算法、HRBP、Java开发、AI产品经理、财务行政等多个独立职业"
+    },
+    {
+      "occupation_id": "SNO-bd1fbd0e7a0ff2d3c696",
+      "target_category_id": "医疗健康/health-care-worker/care-worker-elderly",
+      "status": "mapped",
+      "reason": "养老护理员核心为老年照护"
+    },
+    {
+      "occupation_id": "SNO-eb0e44382f7d9144a4aa",
+      "target_category_id": "影视/传媒/media-film/film-post",
+      "status": "mapped",
+      "reason": "AI视频制作师后期制造核心为后期剪辑与特效"
+    },
+    {
+      "occupation_id": "SNO-81e6ff6e1d75cf784c17",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "智能云网工程师核心为通信网络建设与维护"
+    },
+    {
+      "occupation_id": "SNO-9d37f1bbdbb1840cda9c",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "AI应用工程师核心为通用算法应用"
+    },
+    {
+      "occupation_id": "SNO-0212f3de51f1e3c45853",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机器人机械工程师核心为机械结构设计"
+    },
+    {
+      "occupation_id": "SNO-51f5e780348980537922",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "智能制造专员核心为生产运营与精益改善"
+    },
+    {
+      "occupation_id": "SNO-443012035dfa57d11d72",
+      "target_category_id": "教育培训/edu-tutor/tutoring-subject",
+      "status": "mapped",
+      "reason": "1对1高中物理教师核心为学科辅导"
+    },
+    {
+      "occupation_id": "SNO-a2c769531ca82b7445e4",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "互联网运营助理核心为业务流程运营"
+    },
+    {
+      "occupation_id": "SNO-e624b03229d13750ed55",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "多层片式工艺设计属于半导体制造工艺"
+    },
+    {
+      "occupation_id": "SNO-77cd7b5588b91342485c",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "射频工程师核心为电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-43cabca3f54e9b6eacfc",
+      "target_category_id": "教育培训/edu-vocational/vocational-training-corporate",
+      "status": "mapped",
+      "reason": "专职讲师核心为企业与管理培训"
+    },
+    {
+      "occupation_id": "SNO-29f8789a52e1d94b1d1a",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "透平膨胀机技术研发核心为机械产品设计"
+    },
+    {
+      "occupation_id": "SNO-da4f2ac5fe32dadb744d",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "液体火箭总体设计师属于航天领域，目录无对应类别"
+    },
+    {
+      "occupation_id": "SNO-f01995d838d2728fd479",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "纺织测试工程师核心为质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-b451fa0643f86487bf11",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "AIforFab算法工程师核心为通用算法应用"
+    },
+    {
+      "occupation_id": "SNO-b28e55b5e281c92f20f6",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "销售业务员核心为客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-46adea33b74a924a8f97",
+      "target_category_id": "人力/行政/法务/people-hr/hr-recruiting",
+      "status": "mapped",
+      "reason": "人力资源类管培生核心为人力资源方向"
+    },
+    {
+      "occupation_id": "SNO-7209bf3e1eb34175237f",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "LLM大模型算法工程师核心为大模型与生成式AI"
+    },
+    {
+      "occupation_id": "SNO-8a5d33d7809a20a88d30",
+      "target_category_id": "生活服务/零售/service-retail/retail-store",
+      "status": "mapped",
+      "reason": "山姆门店管培生核心为门店运营与导购"
+    },
+    {
+      "occupation_id": "SNO-6c92c467a2f60ea8e575",
+      "target_category_id": "医疗健康/health-pharma-production/pharma-manufacturing-process",
+      "status": "mapped",
+      "reason": "制剂研发工程师核心为药品生产与工艺"
+    },
+    {
+      "occupation_id": "SNO-38ea7245ff6fe02faec7",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出经营管理、研发技术、种植管理多个独立职业"
+    },
+    {
+      "occupation_id": "SNO-b0a167e702525ececf3d",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "自动化控制高级工程师核心为电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-57079ff666bd417a7349",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "行业助理研究员核心为市场与社会调研"
+    },
+    {
+      "occupation_id": "SNO-5bd3299d026257789310",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法模型开发工程师核心为通用算法"
+    },
+    {
+      "occupation_id": "SNO-aeda0b2156b74e2cd825",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": "国际业务专员核心为国际市场与客户开发"
+    },
+    {
+      "occupation_id": "SNO-d1fd1da8d503e513fb4a",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "总部管培生未说明具体职能方向，缺少信息"
+    },
+    {
+      "occupation_id": "SNO-428eb29b4be5ed210d56",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气开发核心为电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-3af4f1e629f184246029",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气专业设计工程师核心为电气控制与自动化设计"
+    }
+  ]
+}

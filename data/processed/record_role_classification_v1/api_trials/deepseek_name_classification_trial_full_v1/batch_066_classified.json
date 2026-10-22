@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 66,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "e384c0b7-39ea-4b49-ae70-6afaf7e2d25f",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751333,
+    "finish_reason": "stop"
+  },
+  "attempts": 0,
+  "validation_retry_count": 2,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25160,
+    "cached_input_tokens": 24960,
+    "uncached_input_tokens": 200,
+    "output_tokens": 2692,
+    "reasoning_tokens": 0,
+    "total_tokens": 27852
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00172008
+  },
+  "observed_at_utc": "2026-10-11T20:38:29+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-435aa6a2a3ed64664fa6",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分行运营培训生属于银行零售与综合运营方向"
+    },
+    {
+      "occupation_id": "SNO-1e4174eaaa60abd85816",
+      "target_category_id": "医疗健康/health-care-worker/care-worker-elderly",
+      "status": "mapped",
+      "reason": "养老机构运营核心为老年照护服务运营"
+    },
+    {
+      "occupation_id": "SNO-930355c8cab11ad182b7",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出电气、土建、能源、人力、安全、宣传等多个独立职业"
+    },
+    {
+      "occupation_id": "SNO-965916312f882f5e7394",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "图像信号处理算法属于计算机视觉与图像算法方向"
+    },
+    {
+      "occupation_id": "SNO-632d4cdb9cfb0e64bd9d",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "产品技术表述宽泛，缺少具体产品方向或技术职责信息"
+    },
+    {
+      "occupation_id": "SNO-471a559b1b42f9e78cfe",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "路桥设计与研究属于建筑与土木工程设计方向"
+    },
+    {
+      "occupation_id": "SNO-dd91cf8d8a7959b29a1f",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "研发助理工程师涵盖高分子、生物化学、电气自动化、机械等多个专业方向"
+    },
+    {
+      "occupation_id": "SNO-ac720f7d009d9507f61e",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "机电工程技术偏向自动化设备与现场调试"
+    },
+    {
+      "occupation_id": "SNO-ba7a63a247a72ef04be2",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "集团本部管培生未说明具体职能方向，无法确定职业类别"
+    },
+    {
+      "occupation_id": "SNO-c958d0482f9a79114d6f",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "固件开发工程师属于嵌入式与固件开发方向"
+    },
+    {
+      "occupation_id": "SNO-bf5358bc948fde3b08ef",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "给排水设计属于建筑与市政工程设计方向"
+    },
+    {
+      "occupation_id": "SNO-49e0a24543d5b51c0e23",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "省分行本部业务管理属于银行综合业务管理方向"
+    },
+    {
+      "occupation_id": "SNO-4c44172069af6734fc35",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "喷涂工程师属于机械制造表面处理工艺方向"
+    },
+    {
+      "occupation_id": "SNO-e923aee78607595fdac6",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资专员属于股权投资与投资分析方向"
+    },
+    {
+      "occupation_id": "SNO-41eb8d53715c08e2ede1",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "营销管培生核心为客户开发与销售方向"
+    },
+    {
+      "occupation_id": "SNO-5a388e08e744dc40b774",
+      "target_category_id": "影视/传媒/media-performer/performer-acting",
+      "status": "mapped",
+      "reason": "打击乐演奏员属于表演艺术演出方向"
+    },
+    {
+      "occupation_id": "SNO-12071130c7507588e611",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "视觉跟踪算法属于计算机视觉算法方向"
+    },
+    {
+      "occupation_id": "SNO-ff1bb1a5aeebca7cf0f9",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "海外产品专员属于互联网平台与企业产品方向"
+    },
+    {
+      "occupation_id": "SNO-7eb863121c27f532ce7d",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "系统规划工程师偏向基础设施与系统规划运维"
+    },
+    {
+      "occupation_id": "SNO-3e1e379b3aeeeb4619e1",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "高校毕业生未说明具体岗位或职能方向"
+    },
+    {
+      "occupation_id": "SNO-c1442857ff55addb637e",
+      "target_category_id": "影视/传媒/media-film/film-production",
+      "status": "mapped",
+      "reason": "舞美工作人员属于影视舞台制作与制片方向"
+    },
+    {
+      "occupation_id": "SNO-428e27f8847c79f4ea2c",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "细胞实验员属于生物医药研发实验方向"
+    },
+    {
+      "occupation_id": "SNO-6896154dec14147697c7",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法务助理属于公司法务与合规支持方向"
+    },
+    {
+      "occupation_id": "SNO-45da4cc4d32b93f4c9b9",
+      "target_category_id": "产品/product-cosmetics/beauty-rd",
+      "status": "mapped",
+      "reason": "化妆品功效测试主管属于化妆品产品研发与测试方向"
+    },
+    {
+      "occupation_id": "SNO-86e95695bfa3b71e46ce",
+      "target_category_id": "产品/product-internet/product-ai",
+      "status": "mapped",
+      "reason": "人工智能产品经理属于人工智能与数据产品方向"
+    },
+    {
+      "occupation_id": "SNO-ac0b4a38283eea26274a",
+      "target_category_id": "人力/行政/法务/people-reception/reception-visitor",
+      "status": "mapped",
+      "reason": "前台接待属于来访接待与会务方向"
+    },
+    {
+      "occupation_id": "SNO-89f0c9f77db77fa08f76",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "车架开发工程师属于汽车整车与零部件研发方向"
+    },
+    {
+      "occupation_id": "SNO-df0522b572e75ed8a5f9",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "公司会计属于总账与财务核算方向"
+    },
+    {
+      "occupation_id": "SNO-295d7dae69607738f4a2",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "器件/电极开发偏向半导体器件与工艺开发"
+    },
+    {
+      "occupation_id": "SNO-e3688629c6e7a64a5bd8",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "QC实验员属于质量检验与过程控制方向"
+    },
+    {
+      "occupation_id": "SNO-31ac8f7db68b5a5d75ee",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "技术支持工程师属于技术支持与客户交付方向"
+    },
+    {
+      "occupation_id": "SNO-45e7d1fa760f6cec2d99",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "监控工程管理工程师偏向施工现场工程管理"
+    },
+    {
+      "occupation_id": "SNO-c77e4517584f3565fd47",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "制造工艺工程师属于机械制造与工艺方向"
+    },
+    {
+      "occupation_id": "SNO-7692527549b4d116ee51",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "绝缘材料研发属于化工材料工艺与研发方向"
+    },
+    {
+      "occupation_id": "SNO-b0855539acb702c5b2af",
+      "target_category_id": "人力/行政/法务/people-hr/hr-recruiting",
+      "status": "mapped",
+      "reason": "猎头管培生属于招聘与人才获取方向"
+    },
+    {
+      "occupation_id": "SNO-9283d4350412d5bf9630",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "考研数学老师属于高等教育教学方向"
+    },
+    {
+      "occupation_id": "SNO-529ef26a460ebf8b9113",
+      "target_category_id": "互联网/AI/internet-project-management/project-product",
+      "status": "mapped",
+      "reason": "产品项目经理属于产品项目管理方向"
+    },
+    {
+      "occupation_id": "SNO-07d96452393ed3d9a980",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "综合岗专员职责范围不明确，缺少具体职能信息"
+    },
+    {
+      "occupation_id": "SNO-bae66b1e2d4551a5da82",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法研发属于通用算法研究方向"
+    },
+    {
+      "occupation_id": "SNO-8391d677976eb35d18d4",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "国际管培生车辆相关理工科优先，偏向汽车研发制造方向"
+    },
+    {
+      "occupation_id": "SNO-373b6e581f0677d9b958",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "零售金融方向营销培训生属于财富与理财销售方向"
+    },
+    {
+      "occupation_id": "SNO-c9c86643defda0effbee",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "采购工程师国际方向属于供应商开发与寻源方向"
+    },
+    {
+      "occupation_id": "SNO-64ec382dfa976eb4965a",
+      "target_category_id": "金融/financial-banking/bank-technology",
+      "status": "mapped",
+      "reason": "信息科技岗在银行语境下属于银行金融科技方向"
+    },
+    {
+      "occupation_id": "SNO-a349a4c9c426b748b308",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "学习机主讲教师属于基础教育教学方向"
+    },
+    {
+      "occupation_id": "SNO-04e453a8be0b5cf95431",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "柜员经理属于银行零售与综合业务方向"
+    },
+    {
+      "occupation_id": "SNO-16c81982cc5f25c97842",
+      "target_category_id": "金融/financial-risk/finance-control-risk",
+      "status": "mapped",
+      "reason": "授信审查属于金融风险与合规管理方向"
+    },
+    {
+      "occupation_id": "SNO-605f853917c1d704d122",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "涉外律师属于公司法务与合规方向"
+    },
+    {
+      "occupation_id": "SNO-e66c86336be25e573f02",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "status": "mapped",
+      "reason": "C++客户端开发偏向系统与底层客户端开发"
+    },
+    {
+      "occupation_id": "SNO-119b3968ba612a5a40a3",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "职能管理类涵盖化学、药学、会计、国际贸易、财务管理等多个独立职业方向"
+    },
+    {
+      "occupation_id": "SNO-c5a4d343ff54ac28a903",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "渠道管理助理属于销售支持与商务协调方向"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "batch_number": 20,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "72ad9bf6-038c-4349-96bc-3177a4dab8d3",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821768,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29659,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2267,
+    "output_tokens": 1573,
+    "reasoning_tokens": 0,
+    "total_tokens": 31232
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0013660259999999998
+  },
+  "results": [
+    {
+      "entry_id": "SNO-21f9cc46d24807fdb297",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出生产管理、计划管理、采购三个互不兼容的独立职业方向，且分属生产制造与采购/贸易等不同一级，无共同上级可填。"
+    },
+    {
+      "entry_id": "SNO-22092131c6eb166ceb88",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "平台开发工程师缺少技术栈或平台方向信息，无法确定三级类别，也不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-223847fcc5ca608a75d8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出财富、固收、RWA、战略投资、科技研发、研究、合规、产品运营、人力等多个独立职业方向，分属金融、互联网、人力等不同一级，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-2246ff492ccfb441ee51",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“部-管理”过于模糊，缺少具体职能或行业信息，无法确认任何一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-22532b4442f5e13f03b2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "动力技术方向不明确，缺少具体技术领域信息，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-227672428f434225f461",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出法律与审计两个独立职业，分属咨询/翻译/法律与财务/审计/税务两个一级，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-22c3aa2daec946345a2a",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "应用软件工程师仅能确认属于互联网/AI后端开发方向，但“应用软件”不足以确证为业务服务端开发三级，建议复核。"
+    },
+    {
+      "entry_id": "SNO-239a3f2d06f803ffdb6e",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出前期管理与会计两个独立职业，分属房地产/建筑与财务/审计/税务两个一级，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-23a92613704113897f90",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出大模型算法、推理Infra、行业应用算法、HRBP、Java开发、AI产品经理、财务行政等多个独立职业，分属互联网/AI、人力、财务等不同一级，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-23bcf9d78c7bfc60e898",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "质量/生产管培生为复合方向且含管培生字样，缺少具体岗位侧重，无法确认三级，也不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-23d7367b1386024f097d",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "防伪技术研究科研职业清晰，但冻结目录无对应三级类别，也无法确认合适的一级或二级。"
+    },
+    {
+      "entry_id": "SNO-240e8640e9726f579cdd",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "光电子能谱研究员职业清晰，但冻结目录无物理研究相关三级类别，也无法确认合适的一级或二级。"
+    },
+    {
+      "entry_id": "SNO-24622b6909a5a12d8a2b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "规划设计可能指城市规划、建筑设计或景观规划，缺少具体领域，无法确认三级，也不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-249817a2927fc24b1b94",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含财务BP与运维工程师两个独立职业，分属财务/审计/税务与互联网/AI两个一级，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-251c4ffd50bc78e60b92",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“下属各单位”非具体岗位名称，无法判断职业职责，不能确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-252144b1fbf057a55828",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“及专业技术工作人员”名称截断且缺少具体职业信息，无法确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-25412c40044dca83aee1",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "信息化设备管理员仅能确认属于互联网/AI运维/技术支持方向，但“设备管理”不足以确证为技术支持与客户交付三级，建议复核。"
+    },
+    {
+      "entry_id": "SNO-25cde5a76b408c0f5e53",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出采购、销售、法务、财务等多个独立职业方向，分属采购/贸易、销售、咨询/翻译/法律、财务/审计/税务等不同一级，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-25d55c3c857dbf972a6f",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时涵盖IT软件与硬件开发两个独立方向，分属互联网/AI与电子/电气/通信两个一级，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-260b7be0a7ac290479ba",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“运检人员”缺少行业或设备类型信息，无法确定具体运维检修方向，也不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-2619e2dd97af176ea93f",
+      "status": "review",
+      "target_category_id": "咨询/翻译/法律/consult-other-language/other-translation-written",
+      "reason": "外语翻译未指明语种，可归入其他语种翻译，但笔译或口译方向不明，建议复核。"
+    },
+    {
+      "entry_id": "SNO-2659f7a7c02a06b11d73",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“核心开发”未明确技术栈或业务方向，无法归入具体类别，也不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-26afb08eddeb29462c7b",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "数字孪生工程师仅能确认属于互联网/AI算法工程师方向，但“数字孪生”不足以确证为算法研究与通用算法三级，建议复核。"
+    },
+    {
+      "entry_id": "SNO-26dc9c0a6db8521f1ea7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "原理研发未说明技术领域或产品方向，无法确定具体研发类别，也不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-26fbcf7f3a669e410582",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“中央农担”名称过短且含义不明确，无法判断具体职业职责，不能确认任何类别。"
+    }
+  ]
+}

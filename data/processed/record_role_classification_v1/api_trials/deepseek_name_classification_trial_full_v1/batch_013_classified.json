@@ -1,0 +1,339 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 13,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "9ec4eafd-6d71-4724-9fc2-050e63dd4b20",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750248,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25052,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1756,
+    "output_tokens": 3525,
+    "reasoning_tokens": 0,
+    "total_tokens": 28577
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002448288
+  },
+  "observed_at_utc": "2026-10-11T20:24:08.837579+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-198388c3b59237931a3d",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时包含软件产品经理和硬件产品经理两个独立职业方向，无法由单一三级类别承接。"
+    },
+    {
+      "occupation_id": "SNO-12448c362cca2d7fa28c",
+      "target_category_id": "人力/行政/法务/people-hr/hr-reward",
+      "status": "mapped",
+      "reason": "薪酬激励专员核心职责属于人力资源中的薪酬福利。"
+    },
+    {
+      "occupation_id": "SNO-cb3f688080f823d50571",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "综合支撑类岗位(法务)核心为法务支持，归入公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-33efb74ea16c1cf8ec12",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "光电工程师通常涉及光电硬件与电路设计，归入电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-b64544335f42fccdcbfd",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "技术产品经理通常负责技术平台或企业产品，归入平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-0741aeea9e4df813750a",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "智能制造工程师核心为生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-3b9920e1bd930602289e",
+      "target_category_id": "教育培训/edu-vocational/vocational-training-technical",
+      "status": "mapped",
+      "reason": "理疗培训师属于职业技能培训。"
+    },
+    {
+      "occupation_id": "SNO-5f60279101a66e9149d4",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "大模型算法工程师明确属于大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-7ddaeffb4285624bbfed",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时包含油气储运与新能源开发两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-48128f088c011b557ad4",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "造价管理属于工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-9da987f91dddbdd0be3a",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "营销岗位核心为品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-4b00e131b3ba8c0d4e70",
+      "target_category_id": "教育培训/edu-tutor/tutoring-subject",
+      "status": "mapped",
+      "reason": "奥数管培生核心为学科辅导。"
+    },
+    {
+      "occupation_id": "SNO-0b17a353fb77dfb4aae3",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "管培生(邮务方向)缺少具体职业职责信息，无法确定归入运营、物流还是其他类别。"
+    },
+    {
+      "occupation_id": "SNO-e641cd52c654308f2b2b",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "外贸业务员核心为海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-b9729ee5f1d6ad458f05",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "服务端研发属于业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-93dd663962a384ef5d76",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "科技管培生缺少具体技术方向，无法确定归入研发、产品还是其他科技岗位。"
+    },
+    {
+      "occupation_id": "SNO-565e7d72b69f817a0630",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "战略分析师核心为管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-ba40326e52f6907d38a4",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "模拟研发工程师通常指模拟芯片设计，归入芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-9380088e8af3a3272e22",
+      "target_category_id": "互联网/AI/internet-java/java-server",
+      "status": "mapped",
+      "reason": "Java软件开发工程师属于服务端与企业应用开发。"
+    },
+    {
+      "occupation_id": "SNO-e508622ab04b18a30a97",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "电芯开发工程师通常涉及电池制造工艺，归入制造工艺。"
+    },
+    {
+      "occupation_id": "SNO-70870fd9db399e215e65",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "实验设施设备维护属于设备维修与安装。"
+    },
+    {
+      "occupation_id": "SNO-680e5ca7224f08c4db29",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场经理(管培生)核心为品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-3f89d239f6f4eccd510f",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-applied",
+      "status": "mapped",
+      "reason": "AI工程师通常属于机器学习应用。"
+    },
+    {
+      "occupation_id": "SNO-03af444e8709e7f02e27",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "智能驾驶深度学习算法工程师属于自动驾驶与智能交通。"
+    },
+    {
+      "occupation_id": "SNO-3dac4872d6514ef54811",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时包含算法和FPGA两个独立技术方向。"
+    },
+    {
+      "occupation_id": "SNO-b2bc37259c275d225ef8",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-fulfilment",
+      "status": "mapped",
+      "reason": "供应链质量专业培训生核心为供应链履约与优化。"
+    },
+    {
+      "occupation_id": "SNO-b0fbd2d14d09139918d2",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "运营管培生核心为业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-46b23e2fe277d65afd59",
+      "target_category_id": "医疗健康/health-nurse/nursing-clinical",
+      "status": "mapped",
+      "reason": "口腔护士属于临床护理。"
+    },
+    {
+      "occupation_id": "SNO-181dfcc6cc2e5743f2f4",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "测试工程师通常属于功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-342483f3e3a6e384df81",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "业务管培生(小微普惠)属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-8316a718c4015e45e867",
+      "target_category_id": "设计/design-fashion/fashion-textile",
+      "status": "mapped",
+      "reason": "色彩面料设计师属于面料与纺织设计。"
+    },
+    {
+      "occupation_id": "SNO-945702410de88969fdde",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时包含机械、电气、算法、电池热管理等多个独立研发方向。"
+    },
+    {
+      "occupation_id": "SNO-779429dd4c39fbf27cf3",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时包含舞台设计和戏剧演艺两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-5120c6a79c194f39493b",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-machining",
+      "status": "mapped",
+      "reason": "助理工程师-压机属于机械加工与设备操作。"
+    },
+    {
+      "occupation_id": "SNO-85fe5f10722830fa7e4a",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "智能运维工程师属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-b4f236e77982ca73ac43",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "海洋工程设计属于建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-729d866e6fe8a5081ef6",
+      "target_category_id": "教育培训/edu-tutor/tutoring-subject",
+      "status": "mapped",
+      "reason": "线下一对一老师核心为学科辅导。"
+    },
+    {
+      "occupation_id": "SNO-96684568c4e017c2cc34",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "地质灾害工程师属于地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-fe950316f419537b6c0e",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "团青工作属于员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-c39e89d76794b9344dad",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "助理Agent开发工程师属于大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-02cad02c9930d4535610",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "复材结构或强度设计工程师属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-82153ec8c0539a6549be",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "化学工程师属于化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-3cf70924382c7e8a7baf",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "前端冷却开发工程师属于整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-1da8196e450388b45b1f",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "FPGA设计开发工程师属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-820159af9bf4d9fb9010",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "质量管理岗核心为质量体系与审核。"
+    },
+    {
+      "occupation_id": "SNO-ccfaa8f7c9ffcb812503",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-fulfilment",
+      "status": "mapped",
+      "reason": "订单履行工程师属于供应链履约与优化。"
+    },
+    {
+      "occupation_id": "SNO-dabfb71f73b865d5aefc",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "宋元考古研究属于市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-e56a6a40e39f8dfa69ec",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-e15e2e49e61f90fe53f8",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "机器人决策规划算法工程师属于机器人与具身智能。"
+    },
+    {
+      "occupation_id": "SNO-fe49ea7730f9842d4ec1",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "建筑施工图设计师属于建筑方案与施工图设计。"
+    }
+  ]
+}

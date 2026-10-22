@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-d55b71519a1608608aaf5b4da1fa2670",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-01",
+        "L06-08",
+        "L04-03",
+        "L16-01",
+        "L18-03",
+        "L13-01",
+        "L10-02",
+        "L08-02"
+      ],
+      "title_evidence": "产品助理机电一体化；原始组合岗位含电机助理工程师、传动助理工程师、工艺助理工程师、IE助理工程师、品质助理工程师、采购助理工程师、培训助理、销售助理工程师、项目助理、产品助理等多个不同职能岗位",
+      "level_3_evidence": null,
+      "reason": "该输入为多个职能方向差异明显的岗位组合（机械设计、工艺、品质、采购、培训、销售、项目、产品等），无法归入单一职业类别，应作为多角色组合处理，需拆分后分别归类。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16957,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 317,
+    "output_tokens": 207,
+    "reasoning_tokens": 0,
+    "total_tokens": 17164
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00044333999999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

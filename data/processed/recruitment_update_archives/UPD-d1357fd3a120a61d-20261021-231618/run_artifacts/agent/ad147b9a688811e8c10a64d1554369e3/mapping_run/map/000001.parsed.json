@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-ad147b9a688811e8c10a64d1554369e3",
+      "status": "mapped",
+      "target_category_id": "L23-09-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L23-09-02",
+        "L23-09-01",
+        "L16-01-02"
+      ],
+      "title_evidence": "机电物资部设备管理业务员岗：机电物资部+设备管理，指向工业/机电设备的管理与维护保全",
+      "level_3_evidence": "工业设备维修保全：工厂设备检修维护与保全",
+      "reason": "岗位在机电物资部负责设备管理，属工业设备管理维护方向，最直接匹配L23-09-02工业设备维修保全；若侧重采购可考虑L16-01-02，但标题以设备管理为主。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16977,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 337,
+    "output_tokens": 181,
+    "reasoning_tokens": 0,
+    "total_tokens": 17158
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00041814
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

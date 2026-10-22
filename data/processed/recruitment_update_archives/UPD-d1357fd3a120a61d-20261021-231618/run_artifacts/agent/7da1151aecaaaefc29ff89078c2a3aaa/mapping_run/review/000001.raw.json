@@ -1,0 +1,28 @@
+{
+  "id": "449d15c7-80c0-49e9-b055-9836c93abbc5",
+  "object": "chat.completion",
+  "created": 1792571646,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-7da1151aecaaaefc29ff89078c2a3aaa\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L09-01\", \"issue\": \"品牌视觉设计实习生归L09-01视觉与品牌设计合理，二级直达，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17039,
+    "completion_tokens": 86,
+    "total_tokens": 17125,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 527
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-f651eba7e0dc5630cc81a296d63ca0d8",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-04",
+        "L32-01"
+      ],
+      "title_evidence": "标题明确为“人力管培生”，职能方向为人力资源",
+      "level_3_evidence": null,
+      "reason": "“人力”直接指向人力资源职能，管培生为培养标签而非跨职能轮岗证据；归人力资源综合管理 L18-04。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16979,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 339,
+    "output_tokens": 127,
+    "reasoning_tokens": 0,
+    "total_tokens": 17106
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00035394000000000007
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

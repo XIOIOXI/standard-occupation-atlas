@@ -1,0 +1,28 @@
+{
+  "id": "9a003ac7-4a37-4d01-90b4-caa29b12bfbc",
+  "object": "chat.completion",
+  "created": 1792596343,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-5cc33ec7a0c42635f829993cd58a255e\",\"status\":\"mapped\",\"target_category_id\":\"L19-05\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L19-05-01\",\"L19-05-02\"],\"title_evidence\":\"岗位名称为“审计”，属于财务审计职能；公司为银行，但审计职责明确。\",\"level_3_evidence\":null,\"reason\":\"“审计”直接对应 L19-05 审计；内部/外部审计方向未说明，停在二级。\"},{\"occupation_id\":\"UP-04052dd3c9d7423c410b7a830364928c\",\"status\":\"mapped\",\"target_category_id\":\"L15-02\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L15-02-01\",\"L15-02-02\",\"L15-02-03\"],\"title_evidence\":\"“理科编辑”为出版编辑岗位，理科为内容领域标签。\",\"level_3_evidence\":null,\"reason\":\"编辑出版职能明确，但图书出版/数字专业内容/校对方向未说明，归 L15-02 二级。\"},{\"occupation_id\":\"UP-f16a7b7014a9049ac30b479671b63948\",\"status\":\"mapped\",\"target_category_id\":\"L15-02\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L15-02-01\",\"L15-02-02\",\"L15-02-03\"],\"title_evidence\":\"“文科编辑”为出版编辑岗位，文科为内容领域标签。\",\"level_3_evidence\":null,\"reason\":\"编辑出版职能明确，具体编辑方向未说明，归 L15-02 二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17245,
+    "completion_tokens": 385,
+    "total_tokens": 17630,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 605
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

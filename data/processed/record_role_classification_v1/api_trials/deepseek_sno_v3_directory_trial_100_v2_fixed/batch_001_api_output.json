@@ -1,0 +1,28 @@
+{
+  "id": "224c861e-75b0-4f10-8601-383a055221ad",
+  "object": "chat.completion",
+  "created": 1791832776,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-142a6a0c7fd85c77a653\",\"status\":\"mapped\",\"target_category_id\":\"L03-03\",\"reason\":\"标题明确通信网络运维，核心为网络设备配置与运行维护，归网络工程与运维。\"},{\"occupation_id\":\"SNO-19b7e6668ce6eadf9d5f\",\"status\":\"mapped\",\"target_category_id\":\"L05-02-03\",\"reason\":\"CPU IP验证属芯片设计阶段功能验证，标题明确芯片验证方向。\"},{\"occupation_id\":\"SNO-d1af927837398df0da3d\",\"status\":\"review\",\"target_category_id\":\"L12-07\",\"reason\":\"仅“市场职能”，未说明策略、品牌、投放或公关等具体方向，证据不足。\"},{\"occupation_id\":\"SNO-39a924b725bec1208288\",\"status\":\"mapped\",\"target_category_id\":\"L19-01\",\"reason\":\"会计专员属财务会计核算，标题未细分总账成本往来，归会计核算二级。\"},{\"occupation_id\":\"SNO-1c1d5e776a3e369d86a2\",\"status\":\"non_role_text\",\"target_category_id\":null,\"reason\":\"标题为招聘批次说明，非岗位名称，无职业职能信息。\"},{\"occupation_id\":\"SNO-fd53b86bbab3f0c4fc37\",\"status\":\"mapped\",\"target_category_id\":\"L21-01-02\",\"reason\":\"外科医师明确外科手术诊疗，归外科与手术诊疗。\"},{\"occupation_id\":\"SNO-76216600279c895f3d7b\",\"status\":\"mapped\",\"target_category_id\":\"L05-03\",\"reason\":\"电气工程师核心为电气专业，交付技术为场景标签，归电气工程。\"},{\"occupation_id\":\"SNO-869c600119685247c114\",\"status\":\"mapped\",\"target_category_id\":\"L14-07\",\"reason\":\"客服培训生专业方向为客服，培养身份仅标签，归客服与客户支持。\"},{\"occupation_id\":\"SNO-22b51b65e4b0767a3b10\",\"status\":\"mapped\",\"target_category_id\":\"L04-03\",\"reason\":\"DQE为质量工程师，电气为产品领域标签，归生产质量管理。\"},{\"occupation_id\":\"SNO-ddfc61f055c9d52b6b4c\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"标题含语文、英语、物理、化学、地理多个学科教师岗位，属多岗位。\"},{\"occupation_id\":\"SNO-ff3014992f3f2405a5f2\",\"status\":\"mapped\",\"target_category_id\":\"L06-02\",\"reason\":\"燃烧室设计属热流体与动力工程，标题明确燃烧室专业方向。\"},{\"occupation_id\":\"SNO-512bfb7e1b0de33fe20f\",\"status\":\"mapped\",\"target_category_id\":\"L06-03\",\"reason\":\"车辆控制工程师属车辆与交通装备工程，标题明确车辆控制方向。\"},{\"occupation_id\":\"SNO-d2e913e342d9f76cd823\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"数字化仿真应用未说明仿真对象与领域，无法确定归研发还是IT等。\"},{\"occupation_id\":\"SNO-5574ea8bd6b623356ccd\",\"status\":\"mapped\",\"target_category_id\":\"L16-04\",\"reason\":\"国际贸易经理核心为国际贸易履约与外贸业务，归进出口与贸易执行。\"},{\"occupation_id\":\"SNO-18b965c9c5b9e53030cc\",\"status\":\"mapped\",\"target_category_id\":\"L23-09\",\"reason\":\"设备技术员通常为工业设备安装维修保全，标题未明确客户售后。\"},{\"occupation_id\":\"SNO-96d890047d86358d7739\",\"status\":\"mapped\",\"target_category_id\":\"L06-02\",\"reason\":\"动力总成研发属动力工程，标题明确动力总成方向。\"},{\"occupation_id\":\"SNO-0f7a6e58e0396fa5a5d3\",\"status\":\"mapped\",\"target_category_id\":\"L06-08-02\",\"reason\":\"总装工艺员属制造工艺，总装为生产导入环节，归工业化与生产导入。\"},{\"occupation_id\":\"SNO-1f45fd778a1c2fee3330\",\"status\":\"review\",\"target_category_id\":\"L03-05\",\"reason\":\"安全研究工程师未说明是安全攻防、算法还是其他，方向证据不足。\"},{\"occupation_id\":\"SNO-4148c03ab66b5a3c7e86\",\"status\":\"mapped\",\"target_category_id\":\"L14-03\",\"reason\":\"社媒运营核心为内容与新媒体运营，日语为语言标签。\"},{\"occupation_id\":\"SNO-eb279b03901806c234c1\",\"status\":\"mapped\",\"target_category_id\":\"L05-03\",\"reason\":\"电气类管培生专业方向明确为电气，培养身份仅标签，归电气工程。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16361,
+    "completion_tokens": 1093,
+    "total_tokens": 17454,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 16361
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

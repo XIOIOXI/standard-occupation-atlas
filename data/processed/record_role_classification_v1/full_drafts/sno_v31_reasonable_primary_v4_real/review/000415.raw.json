@@ -1,0 +1,28 @@
+{
+  "id": "e2a4ccac-40f1-4b7e-a0eb-97c85e7b77b1",
+  "object": "chat.completion",
+  "created": 1791881504,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-6b5539435ceea47ee205\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"水厂调度归能源运行与调度合理。\"},{\"occupation_id\":\"TG-135f51986b808c977e2c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"公司业务培训生方向未明，review合理。\"},{\"occupation_id\":\"TG-f34a7c47db35bb3fdd8a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"行业项目经理归通用项目管理合理。\"},{\"occupation_id\":\"TG-d667199e22e041e58636\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运营类管培生归综合储备培养合理。\"},{\"occupation_id\":\"TG-8b2d504a435d4767742c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"IC逻辑验证归芯片设计验证合理。\"},{\"occupation_id\":\"TG-a270b56f37f57880c5e3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合通识教学归L22-02-04合理。\"},{\"occupation_id\":\"TG-7577fdd22f0374eed593\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"IC仿真归芯片设计验证合理。\"},{\"occupation_id\":\"TG-d7c8e8e019b421923991\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"文化遗产保护归文博与文化遗产保护合理。\"},{\"occupation_id\":\"TG-9d476b95baf3f379aeaa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"解决方案工程师归售前解决方案设计合理。\"},{\"occupation_id\":\"TG-61fbd3a8126ae37a0f30\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"高中小组课教师学科未明，停在L22-02合理。\"},{\"occupation_id\":\"TG-bd4ebdd8cdb78b7f3b77\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"建筑方案设计师归建筑设计合理。\"},{\"occupation_id\":\"TG-d5b059579954f6a1bab0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品规划经理产品类型未明，归通用产品规划合理。\"},{\"occupation_id\":\"TG-bd8d3c406114f5d11cb9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合文秘归秘书助理与文书事务合理。\"},{\"occupation_id\":\"TG-6f9a42139aaa8aaf812f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"新零售销售归门店导购与营业销售合理。\"},{\"occupation_id\":\"TG-4c005754e7408a35e2d3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"分行校招生方向未明，review合理。\"},{\"occupation_id\":\"TG-ff0b2e5a5a58bff91513\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"注塑工程师归制造制程工程合理。\"},{\"occupation_id\":\"TG-c6b7c9bf5bd1b12a5ee9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"B端产品经理归企业与业务系统产品合理。\"},{\"occupation_id\":\"TG-2302f391fa2b5ebfb2dd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"外贸业务员归进出口与贸易执行合理。\"},{\"occupation_id\":\"TG-8a2951737518bd18d72d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"零售业务培训生方向未明，review合理。\"},{\"occupation_id\":\"TG-920d9566c713587e6ee8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"算计技术研究岗疑似计算技术研究，归通用软件研发可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19382,
+    "completion_tokens": 939,
+    "total_tokens": 20321,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2870
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "48db06f4-29ff-45c9-96d9-d297a5e81e26",
+  "object": "chat.completion",
+  "created": 1792596327,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"UP-085716e4a54746e81815872f9ee3d809\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数据运营专员归产品与平台运营合理，数据为运营对象，非纯数据分析。\"},{\"occupation_id\":\"UP-375890b0ff703d9790fdb4328cbaa3f9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合能源产品专员归工业与专业设备产品合理。\"},{\"occupation_id\":\"UP-18bfc0b61dd153e1a377a7fe65986c19\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"测试工程师方向未明，归通用测试与质量工作合理。\"},{\"occupation_id\":\"UP-ad681dc128024c3b8f1f950d60be13db\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运维工程师方向未明，归通用信息技术运维合理。\"},{\"occupation_id\":\"UP-34a58e01f9991e0dbdde2efe913972ba\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"售后工程师归售后技术服务合理。\"},{\"occupation_id\":\"UP-c67f7f6cb96dd4c800032b5c8892432d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电力量化策略研究员归运筹优化与决策算法合理，属优化决策算法研发。\"},{\"occupation_id\":\"UP-be6b2bbec67a0123a1dc304491e9068c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"建筑设计岗归建筑设计合理。\"},{\"occupation_id\":\"UP-8a73a4e72980d1c7cf80aa7e2d309f3f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国企内部审计岗归内部审计合理。\"},{\"occupation_id\":\"UP-50780ba30fdd901b5e658635b9bd101f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"经营管理岗归经营分析与流程改善合理。\"},{\"occupation_id\":\"UP-9bf45486eabd7efab7252e0c163882ad\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国资集团投资岗归投资发展与产业合作合理。\"},{\"occupation_id\":\"UP-b66e1202153a4eed66a5dc4b0cbbb1d9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"建筑类国企招标采购岗归工程招采与商务合理。\"},{\"occupation_id\":\"UP-9cf7e6b9b0d6739246bc3be17aae8c8d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"土建工程岗归施工组织与工程管理合理。\"},{\"occupation_id\":\"UP-527ab137c558813ce9185ca02640a4ee\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国际商务岗归进出口与贸易执行合理。\"},{\"occupation_id\":\"UP-0c7a56a546076cb401b201850283ee41\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"宣传文秘岗以文秘事务为主，归秘书助理与文书事务合理。\"},{\"occupation_id\":\"UP-4467e967157e9f70df7e5897d4f001eb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"通用会计岗归总账与财务会计合理。\"},{\"occupation_id\":\"UP-d0343ab5f286045963b0e04789795b4a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"集团内部审计岗归内部审计合理。\"},{\"occupation_id\":\"UP-622b75d9579f6e803f10a05dcbe46a72\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"对公储备生最终职能未明，review合理。\"},{\"occupation_id\":\"UP-fb28a5b10543b717ab198f8db73858a7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"零售储备生最终职能未明，review合理。\"},{\"occupation_id\":\"UP-fc8c1cb1eb7c25ddea70cd69fa5acf3e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金融科技储备生技术方向未明，review合理。\"},{\"occupation_id\":\"UP-d756853ebacb56f9a5c4b24f803d1615\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"化学工程与工艺归化学合成与反应开发合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22435,
+    "completion_tokens": 1095,
+    "total_tokens": 23530,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 5923
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

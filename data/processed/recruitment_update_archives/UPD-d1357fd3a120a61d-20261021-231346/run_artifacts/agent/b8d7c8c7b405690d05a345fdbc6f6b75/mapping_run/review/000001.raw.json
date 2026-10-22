@@ -1,0 +1,28 @@
+{
+  "id": "90d1c4c3-5e33-4983-9f5e-0679525ebeff",
+  "object": "chat.completion",
+  "created": 1792571744,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-b8d7c8c7b405690d05a345fdbc6f6b75\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L02-03-03\", \"issue\": \"数据运维开发工程师归入数据计算平台（数据平台基础设施）合理；标题含数据平台与开发要素，L02-03-03 与 L03-02 均可接受，不构成明显错分。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17061,
+    "completion_tokens": 116,
+    "total_tokens": 17177,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 549
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

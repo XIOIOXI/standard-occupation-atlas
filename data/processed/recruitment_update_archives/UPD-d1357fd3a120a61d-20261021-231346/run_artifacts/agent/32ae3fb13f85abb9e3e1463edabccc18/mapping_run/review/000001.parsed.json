@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-32ae3fb13f85abb9e3e1463edabccc18",
+      "verdict": "pass",
+      "suggested_target_category_id": "L13-09",
+      "issue": "标题明确为销售部门管理培训生，属部门定向培养而非跨职能轮岗，归L13-09通用销售合理；客户类型未说明，无需下探三级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17066,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 554,
+    "output_tokens": 103,
+    "reasoning_tokens": 0,
+    "total_tokens": 17169
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038887199999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

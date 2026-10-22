@@ -1,0 +1,28 @@
+{
+  "id": "78343ff4-922a-4157-9e57-cfea8b96cc2c",
+  "object": "chat.completion",
+  "created": 1791813083,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-c06c5ecbefe1604dd339\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列财务与人力资源两个独立职业方向，确为多职业。\"},{\"occupation_id\":\"SNO-4b91e485b275dd6b8414\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"仅“软件开发工程师(应用)”无法确认具体技术栈或方向，归入业务服务端开发依据不足，但可确认属互联网软件开发，保留最深可确认上级。\"},{\"occupation_id\":\"SNO-537145fb36beecb26006\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列设计与营销管理两个独立职业方向。\"},{\"occupation_id\":\"SNO-1bf33099bbe4e1cec7d1\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"“软件应用工程师”未注明技术栈或具体方向，归入业务服务端开发依据不足，仅可确认属互联网软件开发。\"},{\"occupation_id\":\"SNO-f79ac6684e9e00871727\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"名称列出C++/PHP/Go多种语言，属技术栈列表而非多职业，但未明确服务端方向，归入业务服务端开发依据不足。\"},{\"occupation_id\":\"SNO-a5b01c196424e80524e8\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"Agentic AI Engineer核心为智能体与大模型方向，归入大模型与生成式AI合理。\"},{\"occupation_id\":\"SNO-c1f0489ef50e1056d85c\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"网关开发属平台与中间件开发，归类合理。\"},{\"occupation_id\":\"SNO-0b1cbadb04e9046f30d8\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列软件与硬件研发两个独立职业方向。\"},{\"occupation_id\":\"SNO-fb7324d81563d70da3ce\",\"decision\":\"keep\",\"target_category_id\":\"生产制造/manufacturing-textile/textile-design-textile\",\"reason\":\"纺织材料工程师核心为纺织面料与工艺，归类合理。\"},{\"occupation_id\":\"SNO-00297868a45bf5331086\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-system\",\"reason\":\"“二进制翻译”未注明C++或系统底层方向，归入C++系统与底层开发依据不足，仅可确认属互联网技术类。\"},{\"occupation_id\":\"SNO-4cd0c0b3acd26b891424\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"通用软件与数据库方向属方向列表而非多职业，但未明确服务端，归入业务服务端开发依据不足。\"},{\"occupation_id\":\"SNO-7360eaa2972ec1b0f3f9\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列审计、税务、咨询、交易等多个独立服务职业。\"},{\"occupation_id\":\"SNO-2dcc7786942af2c42b6b\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"“AI策略开发”未明确大模型方向，归入大模型与生成式AI依据不足，仅可确认属算法类。\"},{\"occupation_id\":\"SNO-6bd4e419a443eadad126\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-graphics\",\"reason\":\"AI计算库开发未注明C++，归入C++图形与高性能计算依据不足，仅可确认属高性能计算方向。\"},{\"occupation_id\":\"SNO-4d3cce865aa3b1f521f3\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明显并列零售、电商运营、技术、人力、行政、财务、法务、设计、供应链质量等多个独立职业。\"},{\"occupation_id\":\"SNO-700be5289373f403ad3b\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列税务日语组与审计日语组两个独立职能。\"},{\"occupation_id\":\"SNO-cd32d7fc9891d198722c\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"“数学研究员”未明确算法方向，归入算法研究与通用算法依据不足，仅可确认属研究类。\"},{\"occupation_id\":\"SNO-5b659180a923f92a0c67\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"云计算研究员未明确算法方向，归入算法研究与通用算法依据不足，仅可确认属研究类。\"},{\"occupation_id\":\"SNO-b85c6b910db90ba6d130\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列研发实验员、检验员、国际销售三个独立职业。\"},{\"occupation_id\":\"SNO-441459bd1c49322e9852\",\"decision\":\"keep\",\"target_category_id\":\"销售/sales-trade/trade-sales-development\",\"reason\":\"国际业务岗(法语)核心为海外客户开发与国际贸易，归类合理。\"},{\"occupation_id\":\"SNO-64123a41f7226081a23e\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"“AI开发工程师”未明确大模型方向，归入大模型与生成式AI依据不足，仅可确认属算法类。\"},{\"occupation_id\":\"SNO-cbb4336b514b62e669ef\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-graphics\",\"reason\":\"超算技术开发未注明C++，归入C++图形与高性能计算依据不足，仅可确认属高性能计算方向。\"},{\"occupation_id\":\"SNO-9093485d2915d97f29e7\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"AI开发工程师(射频测试环境)未明确大模型方向，归入大模型与生成式AI依据不足，仅可确认属算法类。\"},{\"occupation_id\":\"SNO-d0f517b7491e0cda26c2\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列法务与风控两个独立职业方向。\"},{\"occupation_id\":\"SNO-67714415471e6749e67d\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"人工智能研究与应用工程师核心为算法研究与通用算法，归类合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30969,
+    "completion_tokens": 1594,
+    "total_tokens": 32563,
+    "prompt_tokens_details": {
+      "cached_tokens": 27264
+    },
+    "prompt_cache_hit_tokens": 27264,
+    "prompt_cache_miss_tokens": 3705
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

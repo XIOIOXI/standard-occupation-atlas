@@ -1,0 +1,28 @@
+{
+  "id": "ff044368-a66f-4bbb-bd78-deba335a1e9c",
+  "object": "chat.completion",
+  "created": 1791836543,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-3350d766577dab09fb5d\",\"status\":\"mapped\",\"target_category_id\":\"L02-05\",\"reason\":\"标题明确为信号处理算法工程师，属算法研发；超声方向不足以确定具体三级。\"},{\"occupation_id\":\"SNO-a7d3e79a496e5c4850b0\",\"status\":\"review\",\"target_category_id\":\"L26-04\",\"reason\":\"标题为兽医师助理，属兽医与动物医疗，但助理身份且未说明伴侣或生产动物方向。\"},{\"occupation_id\":\"SNO-13d600d1826857919714\",\"status\":\"non_role_text\",\"target_category_id\":null,\"reason\":\"“官方未说明招聘”不是岗位名称，无职业信息。\"},{\"occupation_id\":\"SNO-c7c2b86fee993f894bd4\",\"status\":\"mapped\",\"target_category_id\":\"L02-01\",\"reason\":\"标题明确为商业经营分析师，核心为经营数据分析，属数据分析。\"},{\"occupation_id\":\"SNO-06d5a21783d857ffc369\",\"status\":\"review\",\"target_category_id\":\"L18-06\",\"reason\":\"标题为日语商务助理，助理身份且商务方向不明，缺少具体职能证据。\"},{\"occupation_id\":\"SNO-09b70120c117f7063fcc\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“平度办事处业务”仅说明地点和业务，未说明具体职业职能。\"},{\"occupation_id\":\"SNO-6f0b61c2a8aa884ad401\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“多媒体工程师”方向不明，无法判断是开发、设计还是内容制作。\"},{\"occupation_id\":\"SNO-bc68850afd71e00c4d95\",\"status\":\"mapped\",\"target_category_id\":\"L12-01\",\"reason\":\"标题明确为营销推广专员，核心为营销策划与推广，属市场策略与营销策划。\"},{\"occupation_id\":\"SNO-8793e25372a32cf93896\",\"status\":\"mapped\",\"target_category_id\":\"L06-01\",\"reason\":\"标题明确为机械工程，属机械与结构设计；具体三级方向未说明。\"},{\"occupation_id\":\"SNO-a38c7e2de09fbe6cb5ec\",\"status\":\"review\",\"target_category_id\":\"L05-06\",\"reason\":\"铁路电务操作技能属通信或电子电气现场作业，但具体方向不明。\"},{\"occupation_id\":\"SNO-cc125b61530a02724f63\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“无人系统总体设计”跨机械、电子、控制等，核心职能方向不明确。\"},{\"occupation_id\":\"SNO-6d35c8d1f3c7f41b351a\",\"status\":\"mapped\",\"target_category_id\":\"L02-01\",\"reason\":\"管培生身份不独立，经营分析方向明确，归经营与财务数据分析。\"},{\"occupation_id\":\"SNO-bbe87102b8ccb92e4231\",\"status\":\"mapped\",\"target_category_id\":\"L04-03\",\"reason\":\"标题明确为制造质量工程师，属生产质量管理；具体三级未说明。\"},{\"occupation_id\":\"SNO-3c4d285367a397cfde25\",\"status\":\"review\",\"target_category_id\":\"L30-04\",\"reason\":\"国际注册专员可能属知识产权或合规注册，标题未明确具体注册职能。\"},{\"occupation_id\":\"SNO-961bea0f39be287f0d18\",\"status\":\"review\",\"target_category_id\":\"L14-11\",\"reason\":\"“运营经理”仅说明运营管理，未说明产品、用户、电商等具体方向。\"},{\"occupation_id\":\"SNO-372c9815ce356b008ddf\",\"status\":\"mapped\",\"target_category_id\":\"L20-02\",\"reason\":\"标题明确为私人投资顾问，核心为投资与资产管理服务。\"},{\"occupation_id\":\"SNO-b0bb22d7a889d08cc304\",\"status\":\"mapped\",\"target_category_id\":\"L25-04\",\"reason\":\"标题明确为电厂运行工程师，属能源运行与调度。\"},{\"occupation_id\":\"SNO-f0efb5a7839e8cf596aa\",\"status\":\"mapped\",\"target_category_id\":\"L06-07\",\"reason\":\"标题明确为抗体工程高级研究员，属生物与药物研发；抗体工程归生物技术研发。\"},{\"occupation_id\":\"SNO-affd0edede1eda86ee01\",\"status\":\"mapped\",\"target_category_id\":\"L13-01\",\"reason\":\"标题明确为销售工程师，核心为销售；日语为语言标签，客户类型未明但销售方向明确。\"},{\"occupation_id\":\"SNO-7a131914fb8b9992a9a8\",\"status\":\"mapped\",\"target_category_id\":\"L01-02\",\"reason\":\"标题明确为后端软件开发工程师，属后端开发；具体三级未说明。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16367,
+    "completion_tokens": 1081,
+    "total_tokens": 17448,
+    "prompt_tokens_details": {
+      "cached_tokens": 15488
+    },
+    "prompt_cache_hit_tokens": 15488,
+    "prompt_cache_miss_tokens": 879
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

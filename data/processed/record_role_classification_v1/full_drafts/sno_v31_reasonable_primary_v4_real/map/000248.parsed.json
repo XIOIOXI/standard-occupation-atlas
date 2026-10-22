@@ -1,0 +1,288 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-85bd97217e5daf14c46b",
+      "status": "mapped",
+      "target_category_id": "L19-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L19-01-01",
+        "L19-06"
+      ],
+      "title_evidence": "总账和税务管理岗",
+      "level_3_evidence": "总账与财务会计",
+      "reason": "标题明确包含总账和税务管理，总账对应总账与财务会计三级，税务管理对应税务二级，但总账为主要职责，故映射至总账与财务会计。"
+    },
+    {
+      "occupation_id": "TG-dbada555997aa825f2b6",
+      "status": "mapped",
+      "target_category_id": "L02-05-07",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-07",
+        "L02-06"
+      ],
+      "title_evidence": "多模态大模型工程师",
+      "level_3_evidence": "多模态算法",
+      "reason": "标题明确为多模态大模型工程师，多模态算法三级直接对应，大模型工程可能涉及但多模态算法更直接。"
+    },
+    {
+      "occupation_id": "TG-1e6e41f0b25aa5eb8e13",
+      "status": "mapped",
+      "target_category_id": "L01-04-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-04-03",
+        "L01-04-01"
+      ],
+      "title_evidence": "鸿蒙应用开发工程师",
+      "level_3_evidence": "跨平台移动开发",
+      "reason": "鸿蒙应用开发属于移动应用开发，鸿蒙为跨平台操作系统，故映射至跨平台移动开发三级。"
+    },
+    {
+      "occupation_id": "TG-5cd489309a412192fde4",
+      "status": "mapped",
+      "target_category_id": "L19-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-05",
+        "L19-01"
+      ],
+      "title_evidence": "财会审计类",
+      "level_3_evidence": null,
+      "reason": "标题明确包含财会和审计，审计为二级类别，财会为会计核算，但审计更直接，故映射至审计二级。"
+    },
+    {
+      "occupation_id": "TG-525cfff9c1c3b8f97028",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-04",
+        "L18-01",
+        "L18-02",
+        "L18-03"
+      ],
+      "title_evidence": "管培生（人力资源）",
+      "level_3_evidence": null,
+      "reason": "标题明确为人力资源管培生，人力资源综合管理二级涵盖HRBP和人事综合，适合管培生轮岗性质。"
+    },
+    {
+      "occupation_id": "TG-f00ad28fe72bfb74ec00",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01",
+        "L11-01"
+      ],
+      "title_evidence": "企业管理管培生",
+      "level_3_evidence": null,
+      "reason": "标题为企业管理管培生，属于跨职能管理培训与轮岗，最终职业方向未明确，故映射至跨职能管理培训与轮岗。"
+    },
+    {
+      "occupation_id": "TG-2d4e56fe58cf82feddc3",
+      "status": "mapped",
+      "target_category_id": "L14-04-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L14-04-02",
+        "L16-01-03"
+      ],
+      "title_evidence": "商品专员",
+      "level_3_evidence": "商品与品类运营",
+      "reason": "商品专员通常负责商品运营，包括商品组合、品类经营等，故映射至商品与品类运营三级。"
+    },
+    {
+      "occupation_id": "TG-d504702d91364a1707a0",
+      "status": "mapped",
+      "target_category_id": "L06-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-07-02",
+        "L21-03-01"
+      ],
+      "title_evidence": "药物分析研究员",
+      "level_3_evidence": "药物发现与药理",
+      "reason": "药物分析研究员属于药物研发中的药理及非临床研究，故映射至药物发现与药理三级。"
+    },
+    {
+      "occupation_id": "TG-b9de00871acffd43307f",
+      "status": "mapped",
+      "target_category_id": "L25-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-07",
+        "L03-05"
+      ],
+      "title_evidence": "安全监督部安全管理岗",
+      "level_3_evidence": null,
+      "reason": "安全监督部安全管理岗通常指企业安全生产管理，属于安全健康与职业防护二级。"
+    },
+    {
+      "occupation_id": "TG-b0dae4e540182c5a7720",
+      "status": "mapped",
+      "target_category_id": "L08-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-07",
+        "L32-01"
+      ],
+      "title_evidence": "产品企划（管培生）",
+      "level_3_evidence": null,
+      "reason": "产品企划属于产品规划职能，管培生为培养标签，产品类型未说明，故映射至通用产品规划二级。"
+    },
+    {
+      "occupation_id": "TG-897c917aa96071082943",
+      "status": "mapped",
+      "target_category_id": "L17-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L17-01",
+        "L17-05"
+      ],
+      "title_evidence": "配载监装员",
+      "level_3_evidence": null,
+      "reason": "配载监装员负责货物配载和监装，属于物流调度与运输管理二级。"
+    },
+    {
+      "occupation_id": "TG-0c2b0fd08fb4b654a182",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-03",
+        "L02-06"
+      ],
+      "title_evidence": "AI内容运营实习生",
+      "level_3_evidence": null,
+      "reason": "AI内容运营实习生主要职责为内容运营，AI为领域标签，故映射至内容与新媒体运营二级。"
+    },
+    {
+      "occupation_id": "TG-e13656d77be2966787c1",
+      "status": "mapped",
+      "target_category_id": "L06-03-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-03-02",
+        "L05-04"
+      ],
+      "title_evidence": "底盘电控工程师（域控）",
+      "level_3_evidence": "底盘与车辆工程",
+      "reason": "底盘电控工程师属于车辆底盘工程，故映射至底盘与车辆工程三级。"
+    },
+    {
+      "occupation_id": "TG-556936edbce79789770c",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03",
+        "L25-03"
+      ],
+      "title_evidence": "电力工程岗",
+      "level_3_evidence": null,
+      "reason": "电力工程岗属于电气工程二级，涵盖电气设备、配电等。"
+    },
+    {
+      "occupation_id": "TG-208e8f02fc5a102430a7",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L31-01",
+        "L14-06"
+      ],
+      "title_evidence": "市管员",
+      "level_3_evidence": null,
+      "reason": "市管员可能指市场管理员或城市管理，职责不明确，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-c06a006add311130e6fa",
+      "status": "mapped",
+      "target_category_id": "L07-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L07-05",
+        "L07-01"
+      ],
+      "title_evidence": "应用基础研究室科研人员",
+      "level_3_evidence": null,
+      "reason": "应用基础研究室科研人员属于科学研究，但具体领域未说明，故映射至通用科学研究二级。"
+    },
+    {
+      "occupation_id": "TG-9752d442779a08d8fda8",
+      "status": "mapped",
+      "target_category_id": "L02-05-05",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-05",
+        "L02-05-01"
+      ],
+      "title_evidence": "智能传感算法工程师",
+      "level_3_evidence": "预测与统计学习",
+      "reason": "智能传感算法工程师通常涉及信号处理和预测算法，属于预测与统计学习三级。"
+    },
+    {
+      "occupation_id": "TG-d97c7f5733d3e52d2a45",
+      "status": "mapped",
+      "target_category_id": "L20-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-01-01",
+        "L11-05"
+      ],
+      "title_evidence": "宏观研究员",
+      "level_3_evidence": "证券与市场研究",
+      "reason": "宏观研究员通常从事宏观经济研究，服务于证券投资，故映射至证券与市场研究三级。"
+    },
+    {
+      "occupation_id": "TG-ad293059d7ab763e40ce",
+      "status": "mapped",
+      "target_category_id": "L12-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L12-01-01",
+        "L13-04"
+      ],
+      "title_evidence": "市场分析与开发",
+      "level_3_evidence": "市场策略规划",
+      "reason": "市场分析与开发属于市场策略规划，故映射至市场策略规划三级。"
+    },
+    {
+      "occupation_id": "TG-e1e6fa9088bc60a368c8",
+      "status": "mapped",
+      "target_category_id": "L15-11-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L15-11-02",
+        "L15-11-01"
+      ],
+      "title_evidence": "驻外法语翻译",
+      "level_3_evidence": "口译",
+      "reason": "驻外翻译通常涉及现场口译，故映射至口译三级。"
+    }
+  ],
+  "raw_response_file": "000248.raw.json",
+  "usage": {
+    "input_tokens": 17346,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 834,
+    "output_tokens": 2610,
+    "reasoning_tokens": 0,
+    "total_tokens": 19956
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003481272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

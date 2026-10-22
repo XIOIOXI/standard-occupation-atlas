@@ -1,0 +1,28 @@
+{
+  "id": "2e80e791-db28-48db-a74f-415f759dc9e1",
+  "object": "chat.completion",
+  "created": 1791880985,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-a7487eab524910241300\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-601ff6332c293473bc24\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3dd8f0e01acd4f1f3808\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4bf2bae47884f6acc7e6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-bd325b65bf42158ae58c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d1b34099303c7f1c0b74\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-089a98bc3eba0aa35be3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-628c1ad1b389f572f47e\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L03-03\",\"issue\":\"无线网络运营工程师核心为网络运行维护，应归网络工程与运维，而非无线与射频技术研发。\"},{\"occupation_id\":\"TG-7a94018830fb108ebdc8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8cb44d038ee0778f5f39\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0c55d6e3e71f24c1a8bf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-aa48a8d73102bd227d09\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-323ade390e6b45cadd20\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-74a61f53d613500717c1\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L22-02-04\",\"issue\":\"中学心理健康教师属于综合与通识教学，但更准确应为心理教学；目录无独立心理教学三级，L22-02-04可接受，但需注意其scope要求标题明确综合/通识，此处存在轻微冲突。\"},{\"occupation_id\":\"TG-6eba15d4bbb39bf8dc26\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c4c1c2f14471597569b4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e5727a39cf4717f6cc6a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d20786f9b9561392eca9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-7e5d9b376fdfbd06b451\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-7e06e6add355ad1e8bc0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19329,
+    "completion_tokens": 824,
+    "total_tokens": 20153,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2817
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

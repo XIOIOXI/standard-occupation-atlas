@@ -1,0 +1,28 @@
+{
+  "id": "be607307-34ac-437a-984a-c3d0ac0512e1",
+  "object": "chat.completion",
+  "created": 1792571304,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-aa3a632b0a74f43685f5a86effa226ea\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"银行信息科技岗仅表明IT技术职能，方向未明确，review状态合理；候选L01-11/L03-08/L02-09均为合法通用类，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17003,
+    "completion_tokens": 101,
+    "total_tokens": 17104,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 491
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

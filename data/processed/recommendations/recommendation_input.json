@@ -1,0 +1,913 @@
+{
+  "metadata": {
+    "model": "gpt-4.1-mini",
+    "prompt_version": "curriculum-recommendation-prompt-v2-structured",
+    "input_fingerprint": "6296887ee40fb90cd997992f5aea9e5fb5d2e6cd464a23cb31bd76f4f3827ed1",
+    "api_request_limit": 1
+  },
+  "input": {
+    "input_schema_version": "curriculum-recommendation-input-v1",
+    "program": {
+      "program_id": "demo-it-practice-program",
+      "program_name": "Demo IT Practice Curriculum",
+      "description": "MVP demonstration curriculum. Course names are referenced in the project research paper; descriptions, outcomes and assessments below are minimal sample text for deterministic mapping only, not official university syllabus content.",
+      "provenance": {
+        "course_name_source": "Xi Xi n11507152.docx, Sections 3.4 and 4, which name IFN712 Research in IT Practice and IFN711 Industry Project.",
+        "content_status": "demo_sample_not_official_syllabus"
+      },
+      "courses": [
+        {
+          "course_id": "IFN712-demo",
+          "course_name": "IFN712 Research in IT Practice",
+          "learning_outcomes": [
+            "Apply data analysis to investigate a defined IT practice problem.",
+            "Communicate research findings and limitations to a technical audience.",
+            "Plan a small research activity and present an evidence-based report."
+          ],
+          "assessments": [
+            "Data analysis report.",
+            "Research presentation."
+          ]
+        },
+        {
+          "course_id": "IFN711-demo",
+          "course_name": "IFN711 Industry Project",
+          "learning_outcomes": [
+            "Plan and deliver a team software development project.",
+            "Apply project management to organise project work and milestones.",
+            "Demonstrate team collaboration and communication with project stakeholders."
+          ],
+          "assessments": [
+            "Team software development project.",
+            "Project management plan and final presentation."
+          ]
+        }
+      ]
+    },
+    "market_evidence": [
+      {
+        "market_evidence_id": "market-gap-01",
+        "normalized_skill": "软件开发",
+        "skill_type": "hard",
+        "skill_scope": "occupation_core",
+        "demand_weight": 385,
+        "supporting_job_group_count": 54,
+        "representative_job_group_ids": [
+          "JG2-9c1fa55e314b5ce5",
+          "JG2-515971026fd212b2",
+          "JG2-b94238d79f707e02",
+          "JG2-129a7a7ae8cbb180",
+          "JG2-c8b6c1f57826acbd"
+        ],
+        "representative_domains": [
+          "l1:信息技术与数字产业",
+          "l1:电子信息与通信产业",
+          "raw:科技"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-02",
+        "normalized_skill": "网络安全与隐私保护",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "demand_weight": 251,
+        "supporting_job_group_count": 18,
+        "representative_job_group_ids": [
+          "JG2-9c1fa55e314b5ce5",
+          "JG2-a7bd96a8a891cfc4",
+          "JG2-515971026fd212b2",
+          "JG2-b94238d79f707e02",
+          "JG2-129a7a7ae8cbb180"
+        ],
+        "representative_domains": [
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-03",
+        "normalized_skill": "数据分析",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "demand_weight": 203,
+        "supporting_job_group_count": 51,
+        "representative_job_group_ids": [
+          "JG2-649aee4463df48a8",
+          "JG2-70da0f8d95ae8984",
+          "JG2-0df99ba69d815c60",
+          "JG2-2f4bfd150d0974e6",
+          "JG2-7864b5aaa6e7d81a"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-04",
+        "normalized_skill": "算法设计与优化",
+        "skill_type": "hard",
+        "skill_scope": "occupation_core",
+        "demand_weight": 142,
+        "supporting_job_group_count": 11,
+        "representative_job_group_ids": [
+          "JG2-9f8eb045334dace3",
+          "JG2-a7bd96a8a891cfc4",
+          "JG2-8de3d38be8aa2734",
+          "JG2-c8b6c1f57826acbd",
+          "JG2-58f049baa3bd4f8c"
+        ],
+        "representative_domains": [
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业",
+          "raw:科技"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-05",
+        "normalized_skill": "嵌入式系统开发",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "demand_weight": 100,
+        "supporting_job_group_count": 22,
+        "representative_job_group_ids": [
+          "JG2-f9abf8f22e597d25",
+          "JG2-7ad23c82502b4836",
+          "JG2-b1affb353aaed046",
+          "JG2-89e834f80ce78924",
+          "JG2-08a4bdf168b0be9a"
+        ],
+        "representative_domains": [
+          "raw:科技",
+          "l1:信息技术与数字产业",
+          "l1:电子信息与通信产业"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-06",
+        "normalized_skill": "AI模型开发",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "demand_weight": 100,
+        "supporting_job_group_count": 7,
+        "representative_job_group_ids": [
+          "JG2-9c1fa55e314b5ce5",
+          "JG2-b94238d79f707e02",
+          "JG2-249729682184e92a",
+          "JG2-da3f3c00e8908b65",
+          "JG2-62eb635d2b4f2d44"
+        ],
+        "representative_domains": [
+          "l1:信息技术与数字产业",
+          "l1:电子信息与通信产业",
+          "raw:信息数据"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-07",
+        "normalized_skill": "软件测试",
+        "skill_type": "hard",
+        "skill_scope": "occupation_core",
+        "demand_weight": 97,
+        "supporting_job_group_count": 18,
+        "representative_job_group_ids": [
+          "JG2-3a8be819fb5593d2",
+          "JG2-d3609ea8f58c255b",
+          "JG2-f369fb4eb492c19b",
+          "JG2-b5514ddf132c6608",
+          "JG2-0ece4c8c1ff145f2"
+        ],
+        "representative_domains": [
+          "raw:科技",
+          "l1:信息技术与数字产业",
+          "raw:国企"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-08",
+        "normalized_skill": "算法设计与优化",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "demand_weight": 96,
+        "supporting_job_group_count": 9,
+        "representative_job_group_ids": [
+          "JG2-b94238d79f707e02",
+          "JG2-249729682184e92a",
+          "JG2-da3f3c00e8908b65",
+          "JG2-e644ca759eed2990",
+          "JG2-9a5b6955c606fd01"
+        ],
+        "representative_domains": [
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业",
+          "raw:智能硬件机器人"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-09",
+        "normalized_skill": "软件开发",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "demand_weight": 88,
+        "supporting_job_group_count": 17,
+        "representative_job_group_ids": [
+          "JG2-db98606f1e07cfdf",
+          "JG2-da3f3c00e8908b65",
+          "JG2-2be160f656882e78",
+          "JG2-2f4bfd150d0974e6",
+          "JG2-6fa0b26052d191ab"
+        ],
+        "representative_domains": [
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业",
+          "raw:科技"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-10",
+        "normalized_skill": "数据分析与处理",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "demand_weight": 83,
+        "supporting_job_group_count": 4,
+        "representative_job_group_ids": [
+          "JG2-9f8eb045334dace3",
+          "JG2-8de3d38be8aa2734",
+          "JG2-83e0df86395b72cf",
+          "JG2-35b90f6416a97069"
+        ],
+        "representative_domains": [
+          "l1:信息技术与数字产业",
+          "raw:科技",
+          "l1:金融与金融科技"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-11",
+        "normalized_skill": "问题解决",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "demand_weight": 1151,
+        "supporting_job_group_count": 244,
+        "representative_job_group_ids": [
+          "JG2-b94238d79f707e02",
+          "JG2-6421bc59aa9444ca",
+          "JG2-8de3d38be8aa2734",
+          "JG2-3d700d9abeb667b0",
+          "JG2-4c95e9164a79bee1"
+        ],
+        "representative_domains": [
+          "raw:科技",
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-12",
+        "normalized_skill": "沟通能力",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "demand_weight": 368,
+        "supporting_job_group_count": 61,
+        "representative_job_group_ids": [
+          "JG2-6ac667674719b9d3",
+          "JG2-f9ba2c4fd86ab926",
+          "JG2-cd8d9e5763ec3c3a",
+          "JG2-c9c0ad50915f6a42",
+          "JG2-3d700d9abeb667b0"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "raw:事业单位",
+          "raw:国企"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-13",
+        "normalized_skill": "沟通协调能力",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "demand_weight": 352,
+        "supporting_job_group_count": 74,
+        "representative_job_group_ids": [
+          "JG2-3ac538b0ed6989a5",
+          "JG2-d3609ea8f58c255b",
+          "JG2-f369fb4eb492c19b",
+          "JG2-dc7ea0e6e7d04a12",
+          "JG2-41143b5095eeaa91"
+        ],
+        "representative_domains": [
+          "raw:国企",
+          "l1:金融与金融科技",
+          "raw:科技"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-14",
+        "normalized_skill": "Communication Skills",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "demand_weight": 303,
+        "supporting_job_group_count": 65,
+        "representative_job_group_ids": [
+          "JG2-812565c012b3d547",
+          "JG2-25a47ecffa18e507",
+          "JG2-f9e6495f0eb1ba76",
+          "JG2-ac0603b707dc3a88",
+          "JG2-114d7cb3d8b8fd31"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "raw:事业单位",
+          "l1:电子信息与通信产业"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-15",
+        "normalized_skill": "项目管理",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "demand_weight": 242,
+        "supporting_job_group_count": 50,
+        "representative_job_group_ids": [
+          "JG2-4c95e9164a79bee1",
+          "JG2-3f7904a687ab3816",
+          "JG2-80926f8c81c1303b",
+          "JG2-649aee4463df48a8",
+          "JG2-e34c692480c1dddc"
+        ],
+        "representative_domains": [
+          "raw:科技",
+          "raw:国企",
+          "l1:电子信息与通信产业"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-16",
+        "normalized_skill": "跨部门协作",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "demand_weight": 193,
+        "supporting_job_group_count": 43,
+        "representative_job_group_ids": [
+          "JG2-3173f8ac038e59a2",
+          "JG2-e34c692480c1dddc",
+          "JG2-0df99ba69d815c60",
+          "JG2-ab4d43128176b9b7",
+          "JG2-b8b1a6403785e28a"
+        ],
+        "representative_domains": [
+          "l1:电子信息与通信产业",
+          "l1:金融与金融科技",
+          "l1:信息技术与数字产业"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-17",
+        "normalized_skill": "Attention to Detail",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "demand_weight": 160,
+        "supporting_job_group_count": 33,
+        "representative_job_group_ids": [
+          "JG2-812565c012b3d547",
+          "JG2-25a47ecffa18e507",
+          "JG2-ac0603b707dc3a88",
+          "JG2-114d7cb3d8b8fd31",
+          "JG2-71ec3f0b830fac34"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "raw:国企",
+          "raw:科技"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-18",
+        "normalized_skill": "跨部门沟通协调",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "demand_weight": 158,
+        "supporting_job_group_count": 33,
+        "representative_job_group_ids": [
+          "JG2-a23785ca8fa78e6b",
+          "JG2-5d98c1dbae8d5e22",
+          "JG2-19017177ded06f52",
+          "JG2-7ad23c82502b4836",
+          "JG2-7f6f51e1ff255f6e"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "raw:科技",
+          "l1:信息技术与数字产业"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-19",
+        "normalized_skill": "金融产品知识",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "demand_weight": 156,
+        "supporting_job_group_count": 12,
+        "representative_job_group_ids": [
+          "JG2-6ac667674719b9d3",
+          "JG2-f9ba2c4fd86ab926",
+          "JG2-cd8d9e5763ec3c3a",
+          "JG2-c9c0ad50915f6a42",
+          "JG2-baa613f8119eb08d"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "l1:智能制造与工业"
+        ]
+      },
+      {
+        "market_evidence_id": "market-gap-20",
+        "normalized_skill": "跨团队协作",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "demand_weight": 146,
+        "supporting_job_group_count": 26,
+        "representative_job_group_ids": [
+          "JG2-a7bd96a8a891cfc4",
+          "JG2-249729682184e92a",
+          "JG2-64ba1e5b54bfec37",
+          "JG2-61657789a343df46",
+          "JG2-62eb635d2b4f2d44"
+        ],
+        "representative_domains": [
+          "l1:信息技术与数字产业",
+          "l1:电子信息与通信产业",
+          "raw:科技"
+        ]
+      }
+    ],
+    "curriculum_evidence": [
+      {
+        "curriculum_evidence_id": "curriculum-01",
+        "normalized_skill": "团队协作",
+        "supporting_course_ids": [
+          "IFN711-demo"
+        ],
+        "supporting_learning_outcomes": [
+          "Demonstrate team collaboration and communication with project stakeholders.",
+          "Demonstrate team collaboration and communication with project stakeholders."
+        ],
+        "evidence_count": 4
+      },
+      {
+        "curriculum_evidence_id": "curriculum-02",
+        "normalized_skill": "Project Management",
+        "supporting_course_ids": [
+          "IFN711-demo"
+        ],
+        "supporting_learning_outcomes": [
+          "Apply project management to organise project work and milestones."
+        ],
+        "evidence_count": 3
+      },
+      {
+        "curriculum_evidence_id": "curriculum-03",
+        "normalized_skill": "Software development",
+        "supporting_course_ids": [
+          "IFN711-demo"
+        ],
+        "supporting_learning_outcomes": [
+          "Plan and deliver a team software development project."
+        ],
+        "evidence_count": 3
+      },
+      {
+        "curriculum_evidence_id": "curriculum-04",
+        "normalized_skill": "data analysis",
+        "supporting_course_ids": [
+          "IFN712-demo"
+        ],
+        "supporting_learning_outcomes": [
+          "Apply data analysis to investigate a defined IT practice problem."
+        ],
+        "evidence_count": 3
+      },
+      {
+        "curriculum_evidence_id": "curriculum-05",
+        "normalized_skill": "Collaboration and Communication",
+        "supporting_course_ids": [
+          "IFN711-demo"
+        ],
+        "supporting_learning_outcomes": [
+          "Demonstrate team collaboration and communication with project stakeholders."
+        ],
+        "evidence_count": 2
+      },
+      {
+        "curriculum_evidence_id": "curriculum-06",
+        "normalized_skill": "Communication",
+        "supporting_course_ids": [
+          "IFN711-demo"
+        ],
+        "supporting_learning_outcomes": [
+          "Demonstrate team collaboration and communication with project stakeholders."
+        ],
+        "evidence_count": 2
+      }
+    ],
+    "structural_gaps": [
+      {
+        "gap_id": "gap-01",
+        "market_evidence_id": "market-gap-01",
+        "normalized_skill": "软件开发",
+        "skill_type": "hard",
+        "skill_scope": "occupation_core",
+        "priority": "high",
+        "market_demand_weight": 385,
+        "program_relevance": "high",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "program_keyword_relevance",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-02",
+        "market_evidence_id": "market-gap-02",
+        "normalized_skill": "网络安全与隐私保护",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "priority": "high",
+        "market_demand_weight": 251,
+        "program_relevance": "high",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "domain_specific",
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "program_keyword_relevance",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-03",
+        "market_evidence_id": "market-gap-03",
+        "normalized_skill": "数据分析",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "priority": "high",
+        "market_demand_weight": 203,
+        "program_relevance": "high",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "domain_specific",
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "program_keyword_relevance",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-04",
+        "market_evidence_id": "market-gap-04",
+        "normalized_skill": "算法设计与优化",
+        "skill_type": "hard",
+        "skill_scope": "occupation_core",
+        "priority": "high",
+        "market_demand_weight": 142,
+        "program_relevance": "high",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "program_keyword_relevance",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-05",
+        "market_evidence_id": "market-gap-05",
+        "normalized_skill": "嵌入式系统开发",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "priority": "high",
+        "market_demand_weight": 100,
+        "program_relevance": "high",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "domain_specific",
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "program_keyword_relevance",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-06",
+        "market_evidence_id": "market-gap-06",
+        "normalized_skill": "AI模型开发",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "priority": "high",
+        "market_demand_weight": 100,
+        "program_relevance": "high",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "domain_specific",
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "program_keyword_relevance",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-07",
+        "market_evidence_id": "market-gap-07",
+        "normalized_skill": "软件测试",
+        "skill_type": "hard",
+        "skill_scope": "occupation_core",
+        "priority": "high",
+        "market_demand_weight": 97,
+        "program_relevance": "high",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "program_keyword_relevance",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-08",
+        "market_evidence_id": "market-gap-08",
+        "normalized_skill": "算法设计与优化",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "priority": "high",
+        "market_demand_weight": 96,
+        "program_relevance": "high",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "domain_specific",
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "program_keyword_relevance",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-09",
+        "market_evidence_id": "market-gap-09",
+        "normalized_skill": "软件开发",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "priority": "high",
+        "market_demand_weight": 88,
+        "program_relevance": "high",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "domain_specific",
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "program_keyword_relevance",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-10",
+        "market_evidence_id": "market-gap-10",
+        "normalized_skill": "数据分析与处理",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "priority": "high",
+        "market_demand_weight": 83,
+        "program_relevance": "high",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "domain_specific",
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "program_keyword_relevance",
+          "relevant_domain"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-11",
+        "market_evidence_id": "market-gap-11",
+        "normalized_skill": "问题解决",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "priority": "medium",
+        "market_demand_weight": 1151,
+        "program_relevance": "medium",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-12",
+        "market_evidence_id": "market-gap-12",
+        "normalized_skill": "沟通能力",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "priority": "medium",
+        "market_demand_weight": 368,
+        "program_relevance": "medium",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-13",
+        "market_evidence_id": "market-gap-13",
+        "normalized_skill": "沟通协调能力",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "priority": "medium",
+        "market_demand_weight": 352,
+        "program_relevance": "medium",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-14",
+        "market_evidence_id": "market-gap-14",
+        "normalized_skill": "Communication Skills",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "priority": "medium",
+        "market_demand_weight": 303,
+        "program_relevance": "medium",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-15",
+        "market_evidence_id": "market-gap-15",
+        "normalized_skill": "项目管理",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "priority": "medium",
+        "market_demand_weight": 242,
+        "program_relevance": "medium",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-16",
+        "market_evidence_id": "market-gap-16",
+        "normalized_skill": "跨部门协作",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "priority": "medium",
+        "market_demand_weight": 193,
+        "program_relevance": "medium",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-17",
+        "market_evidence_id": "market-gap-17",
+        "normalized_skill": "Attention to Detail",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "priority": "medium",
+        "market_demand_weight": 160,
+        "program_relevance": "medium",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-18",
+        "market_evidence_id": "market-gap-18",
+        "normalized_skill": "跨部门沟通协调",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "priority": "medium",
+        "market_demand_weight": 158,
+        "program_relevance": "medium",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-19",
+        "market_evidence_id": "market-gap-19",
+        "normalized_skill": "金融产品知识",
+        "skill_type": "hard",
+        "skill_scope": "domain_specific",
+        "priority": "medium",
+        "market_demand_weight": 156,
+        "program_relevance": "medium",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "domain_specific",
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      },
+      {
+        "gap_id": "gap-20",
+        "market_evidence_id": "market-gap-20",
+        "normalized_skill": "跨团队协作",
+        "skill_type": "soft",
+        "skill_scope": "occupation_core",
+        "priority": "medium",
+        "market_demand_weight": 146,
+        "program_relevance": "medium",
+        "curriculum_status": "not_observed",
+        "reason_codes": [
+          "high_market_demand",
+          "not_observed_in_curriculum",
+          "occupation_core",
+          "relevant_domain",
+          "strong_recruitment_evidence"
+        ],
+        "curriculum_evidence_count": 0
+      }
+    ],
+    "evidence_boundary": {
+      "market_skills": "Candidate skills inferred from recruitment role context; demand weights were calculated deterministically from persisted results.",
+      "curriculum": "MVP demo/sample curriculum content, not an official syllabus.",
+      "not_observed": "No supplied curriculum-text evidence was observed; this does not confirm absence from teaching.",
+      "recommendations": "Decision-support suggestions, not authoritative curriculum decisions."
+    }
+  }
+}

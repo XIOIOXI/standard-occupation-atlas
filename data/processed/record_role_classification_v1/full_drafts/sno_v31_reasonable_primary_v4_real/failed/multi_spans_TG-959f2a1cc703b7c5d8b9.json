@@ -1,0 +1,22 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-959f2a1cc703b7c5d8b9",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-959f2a1cc703b7c5d8b9",
+    "case": "A",
+    "child_titles": [
+      "设备维修员",
+      "生产计划专员"
+    ],
+    "source_spans": [
+      {
+        "text": "设备维修员生产计划专员",
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "reason": "标题由两个独立岗位名称直接拼接，可拆分。"
+  }
+}

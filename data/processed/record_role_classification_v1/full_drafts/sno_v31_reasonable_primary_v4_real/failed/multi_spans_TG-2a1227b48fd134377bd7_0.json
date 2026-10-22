@@ -1,0 +1,35 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-2a1227b48fd134377bd7",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "前端/后端开发工程师（各2人）",
+  "child_title": "前端开发工程师",
+  "source_span": {
+    "text": "前端",
+    "start": 0,
+    "end": 2
+  },
+  "raw_decision": {
+    "original_record_id": "TG-2a1227b48fd134377bd7",
+    "case": "A",
+    "child_titles": [
+      "前端开发工程师",
+      "后端开发工程师"
+    ],
+    "source_spans": [
+      {
+        "text": "前端",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "后端开发工程师",
+        "start": 3,
+        "end": 10
+      }
+    ],
+    "reason": "标题由斜杠分隔的两个独立岗位组成，可拆分为前端开发工程师和后端开发工程师。"
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-c4a50810fd4598cba5bd",
+      "status": "mapped",
+      "target_category_id": "L21-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "内科医师 外科医师妇产科医师麻醉科医师急诊科医师重症医学科医师骨科康复医师神经康复医师耳鼻喉科医师病理科医师 全科医师 超声科医师 国际医疗医师放射科医师 核医学科医师",
+      "level_3_evidence": null,
+      "reason": "标题列举多个临床专科医师，属于临床诊疗职能，但未限定单一专科，故映射至L21-01临床诊疗。"
+    },
+    {
+      "occupation_id": "TG-67324faed76407baf765",
+      "status": "mapped",
+      "target_category_id": "L14-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电商运营（校招生）",
+      "level_3_evidence": null,
+      "reason": "电商运营明确属于电商与商品运营，校招生为培养标签，不影响职能归类。"
+    },
+    {
+      "occupation_id": "TG-4fe9bfdce4bc39254c8d",
+      "status": "mapped",
+      "target_category_id": "L06-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "药物评价研究员",
+      "level_3_evidence": "药物发现与药理",
+      "reason": "药物评价属于药物发现与药理研究，直接匹配L06-07-02。"
+    },
+    {
+      "occupation_id": "TG-9c6451278565eace88cf",
+      "status": "mapped",
+      "target_category_id": "L20-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "岗风险经理",
+      "level_3_evidence": null,
+      "reason": "风险经理属于金融风险与信用评估，标题未明确具体风险类型，故映射至L20-07。"
+    },
+    {
+      "occupation_id": "TG-7ce72afe18b1c3dfa9ec",
+      "status": "mapped",
+      "target_category_id": "L05-05-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "通信算法工程师",
+      "level_3_evidence": "通信协议与系统",
+      "reason": "通信算法工程师从事通信协议与系统算法研发，直接匹配L05-05-03。"
+    },
+    {
+      "occupation_id": "TG-9fcb3466f837fa696b00",
+      "status": "mapped",
+      "target_category_id": "L08-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "食品产品管培生",
+      "level_3_evidence": "消费产品管理",
+      "reason": "食品产品管培生属于消费产品管理，管培生为培养标签，职能明确为产品管理。"
+    },
+    {
+      "occupation_id": "TG-e9285940f616eca7d0f0",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "JAVA开发",
+      "level_3_evidence": null,
+      "reason": "仅明确Java语言开发，方向未说明，归入通用软件研发L01-11。"
+    },
+    {
+      "occupation_id": "TG-cd45b59184e106d9b826",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "管理培训生（通用方向）",
+      "level_3_evidence": null,
+      "reason": "管理培训生通用方向，无明确职能，属于跨职能管理培训与轮岗。"
+    },
+    {
+      "occupation_id": "TG-edd772e89a3fc43de54b",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "青少素养教师（专业要求：语文、数学、英语、物理、化学、生物、政治、历史、地理）",
+      "level_3_evidence": null,
+      "reason": "青少素养教师涉及多学科教学，未限定单一学科，故映射至L22-02学科与通识教学。"
+    },
+    {
+      "occupation_id": "TG-d187f168e96b447fe0a1",
+      "status": "mapped",
+      "target_category_id": "L04-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "测试工程师（TE）",
+      "level_3_evidence": null,
+      "reason": "测试工程师属于软件测试与质量保障，未明确具体测试类型，故映射至L04-01。"
+    },
+    {
+      "occupation_id": "TG-ab5df449d1d7d1b4418e",
+      "status": "mapped",
+      "target_category_id": "L01-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "嵌入式设计",
+      "level_3_evidence": null,
+      "reason": "嵌入式设计属于嵌入式与固件开发，未明确应用或底层，故映射至L01-06。"
+    },
+    {
+      "occupation_id": "TG-dc05fe49b396a1bb23c9",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "传热模拟及科技研发岗",
+      "level_3_evidence": null,
+      "reason": "传热模拟属于热流体与动力工程，直接匹配L06-02。"
+    },
+    {
+      "occupation_id": "TG-c322cec73cad0f66d32b",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L20-11"
+      ],
+      "title_evidence": "长沙分行培训生",
+      "level_3_evidence": null,
+      "reason": "银行分行培训生，仅行业为银行，未明确具体职能，需人工确认是否属于跨职能轮岗或金融业务。"
+    },
+    {
+      "occupation_id": "TG-1becb059aac91e48ca8e",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "人力资源岗(1名)",
+      "level_3_evidence": null,
+      "reason": "人力资源岗属于人力资源综合管理，未明确具体模块，故映射至L18-04。"
+    },
+    {
+      "occupation_id": "TG-2a755c733d6fa9bba9cb",
+      "status": "mapped",
+      "target_category_id": "L14-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "超市运营",
+      "level_3_evidence": null,
+      "reason": "超市运营属于线下业务与场所运营，直接匹配L14-06。"
+    },
+    {
+      "occupation_id": "TG-7496419c9ef79c05da00",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "不限业务领域实习生",
+      "level_3_evidence": null,
+      "reason": "标题为不限业务领域实习生，未指明任何具体职能，无法归类。"
+    },
+    {
+      "occupation_id": "TG-c0892cd929f26bd0c7dd",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "人资【管培生】(J23788)",
+      "level_3_evidence": null,
+      "reason": "人资管培生，职能明确为人力资源，管培生为培养标签，归入人力资源综合管理L18-04。"
+    },
+    {
+      "occupation_id": "TG-4717058fa501580f1abf",
+      "status": "mapped",
+      "target_category_id": "L19-01-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "应付会计",
+      "level_3_evidence": "业务往来会计",
+      "reason": "应付会计属于业务往来会计，直接匹配L19-01-03。"
+    },
+    {
+      "occupation_id": "TG-464c708b5d2f8a52b145",
+      "status": "mapped",
+      "target_category_id": "L11-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "新能源战略规划",
+      "level_3_evidence": null,
+      "reason": "新能源战略规划属于战略与经营规划，直接匹配L11-02。"
+    },
+    {
+      "occupation_id": "TG-1f79f9227f93cb81023d",
+      "status": "mapped",
+      "target_category_id": "L14-04-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "零售商品岗",
+      "level_3_evidence": "商品与品类运营",
+      "reason": "零售商品岗属于商品与品类运营，直接匹配L14-04-02。"
+    }
+  ],
+  "raw_response_file": "000208.raw.json",
+  "usage": {
+    "input_tokens": 17420,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 908,
+    "output_tokens": 2356,
+    "reasoning_tokens": 0,
+    "total_tokens": 19776
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0031986719999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

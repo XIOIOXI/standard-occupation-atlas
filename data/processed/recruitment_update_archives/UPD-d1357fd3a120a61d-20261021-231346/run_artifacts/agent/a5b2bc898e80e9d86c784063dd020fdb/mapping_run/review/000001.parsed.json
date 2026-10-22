@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-a5b2bc898e80e9d86c784063dd020fdb",
+      "verdict": "unresolved",
+      "suggested_target_category_id": "L02-05",
+      "issue": "“应用科学家”在育种企业语境下方向不明确，可能为机器学习/统计建模应用（L02-05），也可能为生物技术研发（L06-07-01）或科研（L07-01）；现有证据不足以确认核心为算法模型研发，建议标记review而非直接归L02-05。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17025,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 513,
+    "output_tokens": 125,
+    "reasoning_tokens": 0,
+    "total_tokens": 17150
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000402972
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

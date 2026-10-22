@@ -1,0 +1,28 @@
+{
+  "id": "189b93ac-b4c4-47da-8430-e75dffc52404",
+  "object": "chat.completion",
+  "created": 1791821719,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"ABNORMAL:RRG-fc4d2e9f30cdc4431f87\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出市场类、产品类、运营类、视觉类、语言类、综合类等多个互不兼容的独立职业方向，且为管培生，无法确定共同上级。\"},{\"entry_id\":\"ABNORMAL:RRG-fc6aa7eb987c76be7f77\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称截断且括号内列出测控、机械、电气工程等多个专业方向，信息化主管职责不明确，无法确定归属类别。\"},{\"entry_id\":\"ABNORMAL:RRG-fdb3692ead52eeb12c00\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出数字化科技类、职能类、营销管理类、金融产品筛选类、法务/风控/合规类、产品存续类等多个互不兼容的独立职业方向，无法确定共同上级。\"},{\"entry_id\":\"SNO-00297868a45bf5331086\",\"status\":\"mapped\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-system\",\"reason\":\"二进制翻译属系统与底层开发，映射到C++系统与底层开发三级类别。\"},{\"entry_id\":\"SNO-00911bab98b6da28a5d8\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"中台管培生未明确具体职能方向，无法确定归属类别。\"},{\"entry_id\":\"SNO-00ae7e696a582e4b71e3\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"运营专员兼董秘为运营与董秘两个独立职责，无法确定共同上级。\"},{\"entry_id\":\"SNO-00d405adcdac12ede826\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"科研技术岗范围宽泛，缺少具体技术方向或行业信息，无法确定三级分类。\"},{\"entry_id\":\"SNO-00e90292b267d70e4408\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"土地资源管理研究属于土地资源管理领域，目录中无对应类别。\"},{\"entry_id\":\"SNO-013bd6757f2ae663af51\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"话剧研究所专业技术未说明具体岗位职责，无法确定职业类别。\"},{\"entry_id\":\"SNO-01cb38a76bca4b314e25\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"岗位名称列出电子信息类、会计学、财务管理等多个独立专业方向，无法确定共同上级。\"},{\"entry_id\":\"SNO-0200e64ab2b1c107466c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"海外技术服务及管理人员职责不明确，缺少技术领域信息。\"},{\"entry_id\":\"SNO-0210c68eef7d5a8689b1\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"职能方向管培生具体职能不明确。\"},{\"entry_id\":\"SNO-023244de084f9bae1e3b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"案管审理可能属于法律或行政，但名称不完整，缺少机构或业务背景。\"},{\"entry_id\":\"SNO-02604d67b3459ef28634\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"总体工程师职责范围不明确，缺少行业或技术方向信息。\"},{\"entry_id\":\"SNO-0275177a9e64b6aaede3\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"博士生名称过于宽泛，缺少具体研究领域或职业方向信息。\"},{\"entry_id\":\"SNO-027672879585457ed1ff\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"音频策划可确认属于互联网/AI一级，但三级方向不明确，暂填一级。\"},{\"entry_id\":\"SNO-027ab6f15f82a6656e0b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“一线员工”缺少行业与具体职能信息。\"},{\"entry_id\":\"SNO-027fd1c7f61246aba8e1\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"管培生同时列出行政、人力、财务多个独立职能方向，无法确定共同上级。\"},{\"entry_id\":\"SNO-029e69210d84ea4386a3\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"六性工程师为行业特定术语，缺少具体技术方向信息。\"},{\"entry_id\":\"SNO-02b707a2b24274fc289d\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出专题研究员、机械技术员、电气技术员、炉窑技术员、理化检测员等多个独立岗位，无法确定共同上级。\"},{\"entry_id\":\"SNO-02d44306fd5fd41c73d8\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“抽卡”名称含义不明确，无法判断具体职业职责。\"},{\"entry_id\":\"SNO-02e18e4cf436d125b40e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"全球拓展管培生缺少具体职能方向，无法确定职业类别。\"},{\"entry_id\":\"SNO-02f8ec2a620d2af743aa\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“检测开发”缺少行业与检测对象信息，无法确定具体检测开发方向。\"},{\"entry_id\":\"SNO-0448a3d59564b6f043d0\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"船舶管理属于航运专业，目录无对应类别。\"},{\"entry_id\":\"SNO-04635af5f0e72851f5c6\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"定岗培训生未明确具体职能方向，缺少信息以确定职业类别。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29570,
+    "completion_tokens": 1311,
+    "total_tokens": 30881,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2178
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

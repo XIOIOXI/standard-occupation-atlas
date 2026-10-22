@@ -1,0 +1,152 @@
+{
+  "raw": {
+    "id": "2130d6f5-7b42-4ed0-aaad-5e03757c39a0",
+    "object": "chat.completion",
+    "created": 1791838786,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"SNO-3f3280f8e22e45e88d2e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-6bbb262fcc9a1361569b\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L04-02\",\"issue\":\"自动驾驶车辆调试属于实物产品性能与验证测试，归硬件与产品测试更合适；L23-09-01为工业设备安装调试，与车辆调试不符。\"},{\"occupation_id\":\"SNO-a7d5ca5627cba3772493\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-e79890c96ee6f0c5d401\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-b10910d57a4a1093750c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-68a002873e86caf507aa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-4ec5b3fa4078c733f67a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-4808e7a15d2091bb129f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-4120740026214e819645\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-5f60279101a66e9149d4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-b6d5dbcd24873bfb26e3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-20e4bf98b15b2370f4bd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-589c668952b03ca39dd6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-7c0732fd2f45acca834c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-1b88b6662847653c2beb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-9481066cd1f5ddcb344c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-9dbb0161689ec5608d17\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-8d1e2c49023dc51d8e1d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-c55c5b03e585d2c0fda8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-a155656ddb942f8c1228\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19576,
+      "completion_tokens": 805,
+      "total_tokens": 20381,
+      "prompt_tokens_details": {
+        "cached_tokens": 16512
+      },
+      "prompt_cache_hit_tokens": 16512,
+      "prompt_cache_miss_tokens": 3064
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-3f3280f8e22e45e88d2e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-6bbb262fcc9a1361569b",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L04-02",
+      "issue": "自动驾驶车辆调试属于实物产品性能与验证测试，归硬件与产品测试更合适；L23-09-01为工业设备安装调试，与车辆调试不符。"
+    },
+    {
+      "occupation_id": "SNO-a7d5ca5627cba3772493",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-e79890c96ee6f0c5d401",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-b10910d57a4a1093750c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-68a002873e86caf507aa",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-4ec5b3fa4078c733f67a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-4808e7a15d2091bb129f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-4120740026214e819645",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-5f60279101a66e9149d4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-b6d5dbcd24873bfb26e3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-589c668952b03ca39dd6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-7c0732fd2f45acca834c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-1b88b6662847653c2beb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-9481066cd1f5ddcb344c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-9dbb0161689ec5608d17",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-c55c5b03e585d2c0fda8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-a155656ddb942f8c1228",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ]
+}

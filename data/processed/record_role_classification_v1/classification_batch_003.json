@@ -1,0 +1,758 @@
+{
+  "schema_version": "record-role-classification-v1",
+  "mapping_method": "codex_semantic_judgment",
+  "model": "Codex (GPT-5)",
+  "processed_at": "2026-10-11T16:08:47.892Z",
+  "classifications": [
+    {
+      "record_role_id": "RR-95921b9fd627968e1d01",
+      "source_record_id": "59b9891c0bf0656d60b1070a",
+      "source_atomic_unit_id": "77acabb21d766f342f7245f9",
+      "source_title": "PCB 工程师",
+      "level_1": "电子/电气/通信",
+      "level_2": "电子/硬件开发",
+      "level_3": "电路与硬件设计",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "海外电商业务经理,硬件研发工程师（储能）,声学工程师,PCB 工程师,机器人 - 电子工程师 电子硬件实习生 3D 技术美术实习生 结构工程师实习生（IOT 安防） 具身物理世界模型算法工程师 硬件测......",
+        "reason": "Codex manual review: PCB 工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-7b74e06c458c1c254e0a",
+      "source_record_id": "9f7c9228f581790c1c776323",
+      "source_atomic_unit_id": "f6c1aeea25441b6a73973782",
+      "source_title": "软件工程师",
+      "level_1": "互联网/AI",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "仿真分析工程师软件工程师嵌入式硬件设计工程师A1算法工程师 机械工程师系统测试工程师 助理机器人焊接应用支持海外销售",
+        "reason": "Codex manual review: 软件工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-cab1d1400d27d44bb7d1",
+      "source_record_id": "f8381a54deda2ae1a315d976",
+      "source_atomic_unit_id": "ffa0cebef7bdf8d7279bc45d",
+      "source_title": "软件工程师",
+      "level_1": "互联网/AI",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "气动工程师总体工程师飞控工程师 软件工程师 通信工程师 电气工程师 动力工程师 结构工程师适航工程师",
+        "reason": "Codex manual review: 软件工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-99d20ccd4808fd1db4c1",
+      "source_record_id": "0a08750c6b51c8dbf44eebdf",
+      "source_atomic_unit_id": "fd24cc48e0bdbfa17c346275",
+      "source_title": "软件工程师",
+      "level_1": "互联网/AI",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "整机测试工程师 强化学习算法工程师嵌入式软件工程师 硬件工程师 系统集成工程师 机械仿真工程师机械设计工程师算法工程师 软件工程师 电气设计工程师",
+        "reason": "Codex manual review: 软件工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-5220a1edd9f5617a65dd",
+      "source_record_id": "3c16ffea21ad2d5fadd3f0e5",
+      "source_atomic_unit_id": "ac03a35c944efbc55bd8cf3a",
+      "source_title": "现场技术应用工程师（嵌入式方向）",
+      "level_1": "互联网/AI",
+      "level_2": "销售技术支持",
+      "level_3": "客户技术支持",
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "设备工程师、工艺工程师、质量工程师、产品工程师、现场技术应用工程师（嵌入式方向）、现场技术应用工程师（模拟方向）、模拟IC设计工程师、人力资源发展项目、客户运营、",
+        "reason": "Codex manual review: 现场技术应用工程师（嵌入式方向）; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-a0f14d74f05756136537",
+      "source_record_id": "ed8661a61264c1d1c83024a2",
+      "source_atomic_unit_id": "e7ff1d0e2999c843c2ead4c4",
+      "source_title": "发电部采制样员",
+      "level_1": "能源/环保/农业",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "法务岗，机电技术员，财务会计，财务岗，风电场运维人员，运行部集控运行值班员，市场营销部电力交易办事员，集控运行值班员，发电部集控巡检，发电部采制样员，发电部辅控副值岗，电力交易员，设备管理部点检员，生......",
+        "reason": "Codex manual review: 发电部采制样员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-f59d544703359a3e863c",
+      "source_record_id": "e04fe103a1bd78f56ea8f95d",
+      "source_atomic_unit_id": "aae31cde8d79f0e16ec9e8df",
+      "source_title": "经营部采购",
+      "level_1": "采购/贸易",
+      "level_2": "采购",
+      "level_3": "采购执行与合同管理",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "巡检岗、会计岗、新能源集控运行岗，检修分公司热控技术员岗，检修分公司机务技术员岗，检修分公司电气技术员岗，财务部核算会计岗，经营部采购管理岗，皖能(墨玉)能源有限公司会计岗，合规管理岗，建设运营岗，项目开发岗，无为皖能新能源科技发展有限公司，淮南皖能小能综合能源服务有限公司，初审会计岗，合规管理专职，财务会计岗，经营分析统计专职，电力交易员岗，热控检修工岗，电气检修工岗，电气点检员，化学点检员，机务点检员，金属监督专职，化学运行岗，集控运行岗，安全监督岗，信息专工，煤炭交易业务岗，经营管理岗",
+        "reason": "Codex manual review: 经营部采购; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-3f68bbfe554c13f7a105",
+      "source_record_id": "28786cf4e49e33df05c18c11",
+      "source_atomic_unit_id": "5f9e46eac7bdb2da1aabea69",
+      "source_title": "经营部采购",
+      "level_1": "采购/贸易",
+      "level_2": "采购",
+      "level_3": "采购执行与合同管理",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "巡检岗、会计岗、新能源集控运行岗、检修分公司热控技术员岗、检修分公司机务技术员岗、检修分公司电气技术员岗、财务部核算会计岗、经营部采购管理岗、皖能(墨玉)能源有限公司会计岗、合规管理岗、建设运营岗、项目开发岗、无为皖能新能源科技发展有限公司会计岗、淮南皖小能综合能源服务有限公司项目开发岗、初审会计岗、合规管理专职、财务会计岗、经营分析统计专职、电力交易员岗、热控检修工岗、电气检修工岗、电气点检备员、化学点检备员、机务点检备员、金属监督专职、化学运行岗、集控运行岗、安全监督岗、信息专工、煤炭交易业务岗、经营管理岗",
+        "reason": "Codex manual review: 经营部采购; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-b0435d8da3e69b8a5ccf",
+      "source_record_id": "7a613e079405e6351e7b6f24",
+      "source_atomic_unit_id": "a7e23e37c5056d46d72627a9",
+      "source_title": "销售工程师",
+      "level_1": "销售",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "动力电池测试工程师、报告编制员、研发工程师、销售工程师、项目工程师、管理培训生",
+        "reason": "Codex manual review: 销售工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-c73432ef99db8da69b78",
+      "source_record_id": "1f68ec19ecb550707edb1777",
+      "source_atomic_unit_id": "2de0c774576bac6676bbe3b0",
+      "source_title": "发行岗",
+      "level_1": "产品",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "策划岗,程序岗,发行岗,测试岗",
+        "reason": "Codex manual review: 发行岗; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-cab6cb6524e49033fb9c",
+      "source_record_id": "ce3dbffd81b99350f7e4c728",
+      "source_atomic_unit_id": "04a0d6805a3f371543a115b3",
+      "source_title": "创新业务中心设计师",
+      "level_1": "设计",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "规划设计岗、国土空间规划、信息化岗、给排水或环境工程设计师、城市更新所建筑设计师、城市更新所规划设计师、创新业务中心设计师、项目管理人员、投标管理岗",
+        "reason": "Codex manual review: 创新业务中心设计师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-92ce5c593db98f26ba7b",
+      "source_record_id": "0099f8ae7c593bc351f688d9",
+      "source_atomic_unit_id": "fcb2dda76ed0de0ce48ac60d",
+      "source_title": "芯片测试实习生",
+      "level_1": "电子/电气/通信",
+      "level_2": "半导体/芯片",
+      "level_3": "封装与测试",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "人力资源;芯片运营;AE工程师;芯片测试员;电子工程师;采购工程师;嵌入式工程师;数字IC设计工程师;采购实习生;IT实习生;人力资源实习生;嵌入式实习生;芯片测试实习生;电子工程实习生",
+        "reason": "Codex manual review: 芯片测试实习生; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-89918e0cef5d6c1605c2",
+      "source_record_id": "6da22dc2cc7004ce461105db",
+      "source_atomic_unit_id": "21e0817c86016ecb1baa2918",
+      "source_title": "编辑（计算机科学、网络安全、信息安全、通信工程、数学、物理、化学、生物、古代文学、古代史、古典文献学、文科）",
+      "level_1": "影视/传媒",
+      "level_2": "新闻/编辑",
+      "level_3": "内容编辑与审校",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "网络安全、智库研究员、管培生、编辑（计算机科学、网络安全、信息安全、通信工程、数学、物理、化学、生物、古代文学、古代史、古典文献学、文科）",
+        "reason": "Codex manual review: 编辑（计算机科学、网络安全、信息安全、通信工程、数学、物理、化学、生物、古代文学、古代史、古典文献学、文科）; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-31a2996a8d9cfe8d2b48",
+      "source_record_id": "24b9a155361be1ddecf178b9",
+      "source_atomic_unit_id": "6b254df229cb38c8abf07f4a",
+      "source_title": "工程咨询员（2人）",
+      "level_1": "咨询/翻译/法律",
+      "level_2": "咨询/调研",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "造价（预算）员（5人）;工程咨询员（2人）;会计（2人）;审计助理（3人）",
+        "reason": "Codex manual review: 工程咨询员（2人）; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-b5324e6d8f72bc8becf0",
+      "source_record_id": "b6ae1836e6bd6c420a3b1a8c",
+      "source_atomic_unit_id": "349a4863cc645f34fe2fa185",
+      "source_title": "发射机械设计师......",
+      "level_1": "生产制造",
+      "level_2": "机械设计/制造",
+      "level_3": "机械结构与产品设计",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "液体火箭总体设计师,固体火箭总体设计师,气动与热环境设计师,结构仿真工程师,结构设计师,防热设计师,动力系统设计师,动力系统总装设计师,姿轨控发动机系统设计师,姿轨控发动机推力室设计师,发射机械设计师......",
+        "reason": "Codex manual review: 发射机械设计师......; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-b43fd4e5769377920f00",
+      "source_record_id": "3bbb6db938e0980e7a617e9c",
+      "source_atomic_unit_id": "e9b35fc5b6e22a19eca92e47",
+      "source_title": "运营专员",
+      "level_1": "运营/客服",
+      "level_2": "业务运营",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "管培生,销售专员,采购专员,医学信息沟通专员,软件开发专员,软件实施专员,人工智能工程师,QA专员,QC专员,生产工艺员,审计专员,运营专员,招聘专员,物流储备专员（药学类、中药学类、制药工程、生物工......",
+        "reason": "Codex manual review: 运营专员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-48db1de95c56f4259597",
+      "source_record_id": "7ff9258c35f3f1896cf52bd0",
+      "source_atomic_unit_id": "4a03d89dc4612695e16feeb9",
+      "source_title": "SDK开发工程师",
+      "level_1": "互联网/AI",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "CPUIP系统开发工程师、CPUIP设计工程师、CPUIP验证工程师、编译器开发工程师、仿真开发工程师、SDK开发工程师、数字IC设计工程师;",
+        "reason": "Codex manual review: SDK开发工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-2531e716c527f3b03834",
+      "source_record_id": "7131b03b11539ca1cdd9ff74",
+      "source_atomic_unit_id": "a22ba0c04328ee83816a512b",
+      "source_title": "销售管培生（暖通空调、低温制冷、热能动力、建筑环境与能源工程、电气自动化等相关专业）",
+      "level_1": "销售",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "销售管培生（暖通空调、低温制冷、热能动力、建筑环境与能源工程、电气自动化等相关专业）",
+        "reason": "Codex manual review: 销售管培生（暖通空调、低温制冷、热能动力、建筑环境与能源工程、电气自动化等相关专业）; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-fccf2f6624f35d2706b0",
+      "source_record_id": "fd9375ee8a847111ed56b314",
+      "source_atomic_unit_id": "31119bac165f556d4d52b115",
+      "source_title": "交易员",
+      "level_1": "金融",
+      "level_2": "证券/基金/期货",
+      "level_3": "基金期货交易与运营",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "主动量化研究员；量化策略研究员；宏观利率研究员；资产配置策略研究员；多资产研究员(工银瑞投)；信用研究员；指数研究员；宏观研究员；行业研究员；可转债研究员；营销岗(北京)；营销岗(上海)；营销岗(深圳)；营销岗(互联网)；营销岗(直销APP)；产品岗；交易员；基金会计；定量分析师；法律合规岗；人力资源岗；投资者保护岗；AI工程师；研发工程师；数据开发工程师",
+        "reason": "Codex manual review: 交易员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-1f697fb55d472062c518",
+      "source_record_id": "7dc839d73b653ffd1eff016d",
+      "source_atomic_unit_id": "e47ea4500b7b3ee66dee741f",
+      "source_title": "交易员",
+      "level_1": "金融",
+      "level_2": "证券/基金/期货",
+      "level_3": "基金期货交易与运营",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "出纳、智能运营工程师、AI产品经理、股权承做、债券承做、销售管理、信息系统管理、宏观助理研究员、策略助理研究员、固定收益助理研究员、海外经济助理研究员、行业助理研究员、机构销售助理、销售交易业务、AI策略开发、投资经理助理、投资经理、量化研究员、固收研究员、营销管理、产品运营经理、交易员、金融科技、合规助理、助理财富顾问",
+        "reason": "Codex manual review: 交易员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-b59f7ef83099620c70ca",
+      "source_record_id": "bf4db6c477699d9fafc4ca13",
+      "source_atomic_unit_id": "f9e9906b40f38c7b5614851b",
+      "source_title": "交易员",
+      "level_1": "金融",
+      "level_2": "证券/基金/期货",
+      "level_3": "基金期货交易与运营",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "指数研究员,量化研究员,指数AI研究员,固收信用研究员,固收量化研究员,固收转债研究员,交易员,行业研究员,机构销售岗,营销支持岗,产品岗,渠道销售岗,互联网运营助理,运营经理（渠道总对总）,券商销售......",
+        "reason": "Codex manual review: 交易员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-1c0de982c2929a928372",
+      "source_record_id": "28fc737cbd9026585f632619",
+      "source_atomic_unit_id": "9803a1d7010c7888fd2ee847",
+      "source_title": "交易员",
+      "level_1": "金融",
+      "level_2": "证券/基金/期货",
+      "level_3": "基金期货交易与运营",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "交易员,SE工程师",
+        "reason": "Codex manual review: 交易员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-fae9580d4f7311ae59bc",
+      "source_record_id": "c1076e0f4610b1e93b943446",
+      "source_atomic_unit_id": "47f83cdf5baf9b396eee84f3",
+      "source_title": "交易员",
+      "level_1": "金融",
+      "level_2": "证券/基金/期货",
+      "level_3": "基金期货交易与运营",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "行业研究员,互联网运营岗,营销岗（浙江）,营销岗（深圳）,交易员,投资合规监控岗,法律合规岗,基金会计,研发工程师,科技风险监控岗",
+        "reason": "Codex manual review: 交易员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-28fb05f2aa96cd1656b3",
+      "source_record_id": "c8fee9dbd12b7431512fc6ae",
+      "source_atomic_unit_id": "52d00f0097862b9e924f8573",
+      "source_title": "交易员",
+      "level_1": "金融",
+      "level_2": "证券/基金/期货",
+      "level_3": "基金期货交易与运营",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "量化策略研究员; 产业研究员; 产品助理; 交易员; IT支持专员; 财务助理; 人事助理; 综合行政助理; 管培生",
+        "reason": "Codex manual review: 交易员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-0a22a2438dc0331c1876",
+      "source_record_id": "064d331d9192a27933daf022",
+      "source_atomic_unit_id": "b0c7fdd0d1e03aef1f20d384",
+      "source_title": "人力资源管理岗",
+      "level_1": "人力/行政/法务",
+      "level_2": "人力资源",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "全面风险管理岗 人力资源管理岗交易助理岗涉外法律管理岗;",
+        "reason": "Codex manual review: 人力资源管理岗; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-3f1e504b48ac394b3902",
+      "source_record_id": "c66810febc375262586d740d",
+      "source_atomic_unit_id": "134e97c65c4c535de84f6e1b",
+      "source_title": "电气储备生",
+      "level_1": "电子/电气/通信",
+      "level_2": "电气/自动化",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "电力岗,电气岗,电气储备生,机械类储备生,冶金储备生,印尼语储备生,化工类储备生,仪器仪表储备生",
+        "reason": "Codex manual review: 电气储备生; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-46a85336bd675ce57d0d",
+      "source_record_id": "b53b2693a1de6f0bb1dec222",
+      "source_atomic_unit_id": "6c57f2554526b9b1fb3a00ed",
+      "source_title": "海外售后技术支持工程师（金龙联合汽车（工业）苏州有限公司）",
+      "level_1": "互联网/AI",
+      "level_2": "销售技术支持",
+      "level_3": "客户技术支持",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "综合管理岗（集团总部）,人力资源部主办（集团总部）,审计部主办（集团总部）,风控法务部主办（集团总部）,资金财务部主办（集团总部）,海外销售经理（厦门金龙联合汽车工业有限公司）,海外售后服务工程师（厦门金龙联合汽车工业有限公司）,国内售后服务工程师（厦门金龙联合汽车工业有限公司）,技术开发工程师（厦门金龙联合汽车工业有限公司）,质量/工艺/采购工程师（厦门金龙联合汽车工业有限公司）,技术中心研发工程师储备（厦门金龙旅行车有限公司）,工艺管理部工艺管理（厦门金龙旅行车有限公司）,国内外销售业务员储备（厦门金龙旅行车有限公司）,国内外技术服务工程师储备（厦门金龙旅行车有限公司）,技术管培生（厦门金龙汽车智能科技有限公司）,职能管培生（厦门金龙汽车智能科技有限公司）,技能学徒（厦门金龙汽车智能科技有限公司）,商用车系统设计工程师（金龙联合汽车（工业）苏州有限公司）,海外销售客户经理（金龙联合汽车（工业）苏州有限公司）,国内销售客户经理（金龙联合汽车（工业）苏州有限公司）,国内技术售后工程师（金龙联合汽车（工业）苏州有限公司）,品质管理工程师（金龙联合汽车（工业）苏州有限公司）,海外售后技术支持工程师（金龙联合汽车（工业）苏州有限公司）",
+        "reason": "Codex manual review: 海外售后技术支持工程师（金龙联合汽车（工业）苏州有限公司）; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-47e5a1eb1569bbee64e6",
+      "source_record_id": "e1f6cf63f58273900f95f963",
+      "source_atomic_unit_id": "265e825494007944a758b770",
+      "source_title": "管培生",
+      "level_1": null,
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "管培生,研发员,配方师,动物疾病检测师,技术服务员,储备品控经理,饲料营销,服务营销,储备生产经理,储备采购经理,储备养殖场长,放养经理,驻场实证员,储备财务经理,数据运营助理,储备销售管理主任,储备......",
+        "reason": "Codex manual review: 管培生; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-2dcd8b106375b69cb765",
+      "source_record_id": "e6f5c2e09b03210185d6dbac",
+      "source_atomic_unit_id": "041e8404d8ac70faaf587464",
+      "source_title": "豆腐乳制作岗",
+      "level_1": "生产制造",
+      "level_2": "生产营运",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "自动机台操作岗成品外包装岗豆腐乳制作岗原料处理岗;",
+        "reason": "Codex manual review: 豆腐乳制作岗; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-ec01badb10209b6a286b",
+      "source_record_id": "791d6c9748cdc87e5f776b91",
+      "source_atomic_unit_id": "136768429d11f6b9331f4745",
+      "source_title": "市场专员",
+      "level_1": "市场/公关/广告",
+      "level_2": "市场/营销",
+      "level_3": "品牌与市场策略",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "实习律师;市场实习生;运营;品牌实习生;市场专员;咨询顾问;市场实习生;文化活动;法律秘书;管培生;校招大使",
+        "reason": "Codex manual review: 市场专员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-74fb8368aa2918cf1cc1",
+      "source_record_id": "57ec0d0bf25b9a676af59a68",
+      "source_atomic_unit_id": "99a7380d140c7cbba95256d6",
+      "source_title": "项目管工程师",
+      "level_1": "互联网/AI",
+      "level_2": "技术项目管理",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "销售工程师 市场应用工程师客户产品理管理工程师技术应用工程师项目管工程师品质工程师 PE工程师",
+        "reason": "Codex manual review: 项目管工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-3c9ad820c0144dcd8107",
+      "source_record_id": "35f4dd62abd68d0c02350942",
+      "source_atomic_unit_id": "c386d7cc808c6866ff30b387",
+      "source_title": "学业规划师",
+      "level_1": "教育培训",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "高中教师，学习机教师，素养类教师，雅思/托福教师，考研教师，国际课程老师，学术讲师，课程顾问，留学顾问，学习管理师，学业规划师，AI产品经理，教学管培生(全国)，集团管培生",
+        "reason": "Codex manual review: 学业规划师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-aac68a8300fac2eefd47",
+      "source_record_id": "2a79a881cb2435b632cb835f",
+      "source_atomic_unit_id": "62d144c5e58d331c12ebdfac",
+      "source_title": "学业规划师",
+      "level_1": "教育培训",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "小初高文化课老师,奥赛老师,班主任,课程顾问,学业规划师",
+        "reason": "Codex manual review: 学业规划师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-3b7c7e7d2bcdefc46908",
+      "source_record_id": "b72a6a0b93e7a14e5206a2a0",
+      "source_atomic_unit_id": "e1f45f0a097fc26d5e466f77",
+      "source_title": "学业规划师",
+      "level_1": "教育培训",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "学业规划师,校园市场运营",
+        "reason": "Codex manual review: 学业规划师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-01dc764c6aa80b5ba63e",
+      "source_record_id": "71be605db3f77cbf4357a59d",
+      "source_atomic_unit_id": "00e80752a15d87dc258ebb04",
+      "source_title": "嵌入式/上位机软件开发工程师",
+      "level_1": "互联网/AI",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "软件工程师,硬件工程师,算法工程师,光学工程师,机械结构工程师,电气工程师,材料工程师,工艺工程师,工业设计工程师,临床应用工程师,解决方案工程师,义齿云设计师,嵌入式/上位机软件开发工程师,国际商务经理,审计、会计,人力资源,质量工程师,三维动画设计",
+        "reason": "Codex manual review: 嵌入式/上位机软件开发工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-632d69f1ed171f4b6377",
+      "source_record_id": "ffd07324f7caab7f56537ad2",
+      "source_atomic_unit_id": "7d7b0671d9513f823a35d4ec",
+      "source_title": "电机质量工程师",
+      "level_1": "生产制造",
+      "level_2": "质量管理",
+      "level_3": "质量检验与过程控制",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "电机研发工程师;电机设计工程师;电机工艺工程师;电机质量工程师;电机售后工程师;算法工程师;销售工程师;海外销售工程师;项目经理;制造培训生;电气技术工程师;电机数字化工程师",
+        "reason": "Codex manual review: 电机质量工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-44e2d574b4545e843fc8",
+      "source_record_id": "59754272ad763efe1c762b61",
+      "source_atomic_unit_id": "5e72c8a2de8f41336f67c0f0",
+      "source_title": "咨询顾问（内控与风险管......",
+      "level_1": "咨询/翻译/法律",
+      "level_2": "咨询/调研",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "财务审计助理,税务顾问,AI应用开发助理,交易咨询顾问,企业投融资顾问,财务审计助理（金融服务方向）,咨询顾问（金融服务方向）,咨询顾问（政务方向）,咨询顾问（财务与会计方向）,咨询顾问（内控与风险管......",
+        "reason": "Codex manual review: 咨询顾问（内控与风险管......; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-a4261d8e4c4a6259b6a9",
+      "source_record_id": "a941ffbcd54ca0cbedb4f1ec",
+      "source_atomic_unit_id": "5d102504ce627befbf5f635d",
+      "source_title": "小语种外贸业务员",
+      "level_1": "销售",
+      "level_2": "外贸销售",
+      "level_3": "海外客户开发",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "外贸业务员,外贸业务跟单,外贸业务助理,小语种外贸业务员,外贸采购员,外贸采购助理,结构设计师,工业设计师,平面设计师,人事助理,跨境电商运营,运营管培生",
+        "reason": "Codex manual review: 小语种外贸业务员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-63587bca4f460f02d607",
+      "source_record_id": "18b4819663f6bf28ef79836d",
+      "source_atomic_unit_id": "a1466fc0d99852340a51181f",
+      "source_title": "工商管理类法学类财会审计类语言文学类新闻类电气类土建水文类工程管理类 计算机类通信类电气类",
+      "level_1": null,
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "工商管理类法学类财会审计类语言文学类新闻类电气类土建水文类工程管理类 计算机类通信类电气类;",
+        "reason": "Codex manual review: 工商管理类法学类财会审计类语言文学类新闻类电气类土建水文类工程管理类 计算机类通信类电气类; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-da048b1d4d2a20605de3",
+      "source_record_id": "db897eda68249ed7864a0609",
+      "source_atomic_unit_id": "6b79def2eb52fc2b8f879b50",
+      "source_title": "流体动力研究员",
+      "level_1": "生产制造",
+      "level_2": "机械设计/制造",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "流体流变研究员,微流体仿真研究员,材料研究员,工艺研究员,流体动力研究员,产品结构工程师,AI应用研究员,投融资&战略发展管培生,交付中心管培生",
+        "reason": "Codex manual review: 流体动力研究员; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-f694022ab1dc0156726c",
+      "source_record_id": "a1502d82d544eb2e60403000",
+      "source_atomic_unit_id": "126dbfe54db510eb8c62076e",
+      "source_title": "咨询策划管培生",
+      "level_1": "咨询/翻译/法律",
+      "level_2": "咨询/调研",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "营销策划管培生销售精英管培生新媒体营销管培生咨询策划管培生法务管培生资产评估管培生",
+        "reason": "Codex manual review: 咨询策划管培生; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-d952ce7f65847f01d255",
+      "source_record_id": "9b5fe9cb463123c2338b0d45",
+      "source_atomic_unit_id": "18397f3c93c9a250e3b1ad29",
+      "source_title": "前端开发",
+      "level_1": "互联网/AI",
+      "level_2": "前端/移动开发",
+      "level_3": "Web 与前端开发",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "AI 全栈工程师、AI 应用工程师、Agent 开发工程师、算法‑推荐算法方向、算法‑机器学习方向、算法‑数据科学方向、算法‑其他方向、后台开发、前端开发、AI 产品经理、金融风险管理、商业分析、产品策划、内容运营、Tencent",
+        "reason": "Codex manual review: 前端开发; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-89a2b52df6272aa866f7",
+      "source_record_id": "4f734ceb64102318b5b631f1",
+      "source_atomic_unit_id": "60efab75b67da810f734a31e",
+      "source_title": "前端开发",
+      "level_1": "互联网/AI",
+      "level_2": "前端/移动开发",
+      "level_3": "Web 与前端开发",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "前端开发,后端开发,数据库开发,移动端开发,人工智能,大数据,云计算,物联网,区块链,分布式技术,量子计算,大模型,金融算法研究,信息安全,量子安全及密码算法研究,运维开发工程师,应用环境运行,系统技......",
+        "reason": "Codex manual review: 前端开发; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-800c8e3a50c3918b7ff4",
+      "source_record_id": "50b2cff6a9a17d24ae64be5a",
+      "source_atomic_unit_id": "c3f26f8cd6a1272838f6eca1",
+      "source_title": "前端开发工程师",
+      "level_1": "互联网/AI",
+      "level_2": "前端/移动开发",
+      "level_3": "Web 与前端开发",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "AI产研实习生,AI应用实习生,HR实习生,AI大模型工程师,后台开发工程师,研发项目助理,软件测试工程师,前端开发工程师,AI产品助理（金融经济类、数理统计类、信息技术类）",
+        "reason": "Codex manual review: 前端开发工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-bdcf815d302420737d17",
+      "source_record_id": "ee3e040ca796173af74eee1b",
+      "source_atomic_unit_id": "f8ea2703badbecd3c93d12dc",
+      "source_title": "前端开发工程师",
+      "level_1": "互联网/AI",
+      "level_2": "前端/移动开发",
+      "level_3": "Web 与前端开发",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "营销培训生、产品方案培训生、后端开发工程师、测试开发工程师、前端开发工程师、运营管培生",
+        "reason": "Codex manual review: 前端开发工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-1aea6dbedddd837a6942",
+      "source_record_id": "41535a8d675b1dbc7a51cdc1",
+      "source_atomic_unit_id": "21e84f49bf5fc8e5a4675da2",
+      "source_title": "前端开发工程师",
+      "level_1": "互联网/AI",
+      "level_2": "前端/移动开发",
+      "level_3": "Web 与前端开发",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "量化研究员,研究助理,AI开发工程师,前端开发工程师,数据开发工程师,基金销售,基金产品运营",
+        "reason": "Codex manual review: 前端开发工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-b99d439fe7b2073fb0a1",
+      "source_record_id": "d874e00d63b71e5b8d7403d9",
+      "source_atomic_unit_id": "e47feb89770ab872db50d911",
+      "source_title": "前端开发工程师",
+      "level_1": "互联网/AI",
+      "level_2": "前端/移动开发",
+      "level_3": "Web 与前端开发",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "前端开发工程师;C++开发工程师;JAVA开发工程师;算法开发工程师;数据开发工程师;测试开发工程师",
+        "reason": "Codex manual review: 前端开发工程师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-4df4889eae588a63b6ce",
+      "source_record_id": "72fe014e89d30cf0f5de6a57",
+      "source_atomic_unit_id": "7dd4819f99b90072f637e0c1",
+      "source_title": "市场管理培训生",
+      "level_1": "市场/公关/广告",
+      "level_2": "市场/营销",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "项目管培生,市场管理培训生,投标预算岗,BIM技术岗,机电深化设计岗,结构计算岗,投标设计岗,采购岗,开发工程师,产品工程师,法务专员,人力资源岗,财务岗",
+        "reason": "Codex manual review: 市场管理培训生; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-2a28abacad5bc7e1545b",
+      "source_record_id": "35f4dd62abd68d0c02350942",
+      "source_atomic_unit_id": "76af772f8974e1923561d4ae",
+      "source_title": "考研教师",
+      "level_1": "教育培训",
+      "level_2": "教师",
+      "level_3": "基础教育教学",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "高中教师，学习机教师，素养类教师，雅思/托福教师，考研教师，国际课程老师，学术讲师，课程顾问，留学顾问，学习管理师，学业规划师，AI产品经理，教学管培生(全国)，集团管培生",
+        "reason": "Codex manual review: 考研教师; industry retained separately and not used as occupational default."
+      }
+    },
+    {
+      "record_role_id": "RR-cac44e12791a64e7b8a1",
+      "source_record_id": "b493753535211269dcde52c4",
+      "source_atomic_unit_id": "76929ef557a5c84c1671fd39",
+      "source_title": "外贸订单管理员",
+      "level_1": "采购/贸易",
+      "level_2": "外贸文员",
+      "level_3": "外贸单证与资料管理",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "药化研究员,合成研究员,助理工程师,制剂外贸业务员,原料外贸业务员,项目管理工程师,医学经理,医学代表,设备采购专员,生产管培生,仓库管培生,外贸订单管理员,设备技术员,QC,人力资源专员,生产技术员......",
+        "reason": "Codex manual review: 外贸订单管理员; industry retained separately and not used as occupational default."
+      }
+    }
+  ]
+}

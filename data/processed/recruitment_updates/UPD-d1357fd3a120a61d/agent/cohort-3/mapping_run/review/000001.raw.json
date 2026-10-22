@@ -1,0 +1,28 @@
+{
+  "id": "f3184ae0-85b2-4bc4-9d38-34bbc5b1e705",
+  "object": "chat.completion",
+  "created": 1792596155,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-cf82e5a7159dfc5e92d680da9910064e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"化妆品研发测试属实物产品测试，L04-02合理。\"},{\"occupation_id\":\"UP-c6e55ab61296d597798dd644aef1e17e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"混料工艺技术员归制造制程工程合理。\"},{\"occupation_id\":\"UP-8cfa527ec5b9934d969d9a1196d80109\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务员客户类型未明，review合理。\"},{\"occupation_id\":\"UP-9969514bcc1d7df0c46654101e57cb84\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"项目专员领域未明，review合理。\"},{\"occupation_id\":\"UP-bfe9ecb8f71d5e542d8b6ac9d98bbd5d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电商运营归电商店铺运营合理。\"},{\"occupation_id\":\"UP-b484a35e4588bf5d9c4bcdaa249ed72e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电机设计归电气工程合理。\"},{\"occupation_id\":\"UP-473e2e266735c6313f0ac3b2b4dce92e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"传动设计归机械机构与传动合理。\"},{\"occupation_id\":\"UP-63cda6dc897dde71286823ab22e4ad4c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"制造工艺归制造制程工程合理。\"},{\"occupation_id\":\"UP-60e59cf1279a17e4e58e4316d96836f9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"IE归工业化与生产导入合理。\"},{\"occupation_id\":\"UP-853773ae9309ce1175a53465ed9ca6e0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"制造品质归过程质量管理合理。\"},{\"occupation_id\":\"UP-a8f658e7806932eeac08e2b42964e914\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"制造业采购归直接物料采购合理。\"},{\"occupation_id\":\"UP-7fb8e8d25d26f96afaa11c91d4773656\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"内部培训归员工培训与学习发展合理。\"},{\"occupation_id\":\"UP-2b71097ac56aab1a5a24c1dfea3b0e33\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"制造业B2B销售归直客销售合理。\"},{\"occupation_id\":\"UP-e96de106c9db354bc8e801a50282af1a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"项目助理领域未明，review合理。\"},{\"occupation_id\":\"UP-d55b71519a1608608aaf5b4da1fa2670\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机电一体化产品助理归工业与专业设备产品合理。\"},{\"occupation_id\":\"UP-0dd0fae3a1953bdaaf771b56c447b22e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机电物资管理归间接采购与服务采购合理。\"},{\"occupation_id\":\"UP-5b7be57d86084b907816d1989f6ed8aa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"计划合同业务归商务合同与订单支持合理。\"},{\"occupation_id\":\"UP-e324397adf3e37434cc591140423836b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"安全环保与劳动监察归EHS合理。\"},{\"occupation_id\":\"UP-a4a6212cfb041e796b5eb91ddd3ac2ea\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"能源企业生产运维归能源运行与调度合理。\"},{\"occupation_id\":\"UP-228a79a60ee6dd92da725d15222ce698\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工程部业务员归施工组织与工程管理合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22248,
+    "completion_tokens": 1059,
+    "total_tokens": 23307,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 5736
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

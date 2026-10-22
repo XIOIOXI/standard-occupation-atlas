@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-99f2c0bb489bcc1e87660d3a3b82b43d",
+      "verdict": "pass",
+      "suggested_target_category_id": "L16-01",
+      "issue": "供应商开发工程师归采购与供应商管理合理；虽候选含供应商质量管理，但标题未体现质量审核职责，主归属L16-01可接受。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17024,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 512,
+    "output_tokens": 92,
+    "reasoning_tokens": 0,
+    "total_tokens": 17116
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000363072
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

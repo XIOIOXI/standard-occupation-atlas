@@ -1,0 +1,28 @@
+{
+  "id": "442247a6-2cc6-4cee-a464-c327ad94336c",
+  "object": "chat.completion",
+  "created": 1791821821,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-3cc4a9d8641abdc17937\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"现场操作缺少行业与设备信息，无法确认任何一级或二级类别。\"},{\"entry_id\":\"SNO-3cf925810572c1a683dc\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"技术管理员职责范围过泛，缺少具体技术方向，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-3d34f7a216a45ec514fb\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"营运培训生为培训生身份且缺少行业与具体营运方向，无法确认类别。\"},{\"entry_id\":\"SNO-3d97f845079938bf5def\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"公共气象服务职业清晰，但冻结目录无气象服务相关类别，也无法确认一级或二级。\"},{\"entry_id\":\"SNO-3dac09136ef91482d053\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出Java、Python、Go多个独立技术方向，无共同三级，且跨语言无共同二级。\"},{\"entry_id\":\"SNO-3dac4872d6514ef54811\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时包含算法和FPGA两个独立技术方向，无共同三级或二级。\"},{\"entry_id\":\"SNO-3dfa5a3ebcc03ab9b2ea\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"科学研究范围过泛，缺少具体学科或行业方向，无法确认类别。\"},{\"entry_id\":\"SNO-3e1e379b3aeeeb4619e1\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"高校毕业生为身份而非职业，未说明具体岗位或职能方向。\"},{\"entry_id\":\"SNO-3e88d6376ab01925e931\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称同时含AI应用开发和软件开发，未限定语言，无法确认单一三级；仅可确认互联网/AI一级但无对应一级ID可填。\"},{\"entry_id\":\"SNO-3e93b436c3bf02d53793\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"广播影视政策研究偏政策研究，目录无对应研究类，无法确认三级或二级。\"},{\"entry_id\":\"SNO-3ee0566b2774b507d4d6\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"生成管理管培生方向不明确，缺少具体职能信息，无法确认类别。\"},{\"entry_id\":\"SNO-3ee6836cfef88e5f348c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"地理信息平台开发未限定语言或技术栈，无法确认具体三级类别。\"},{\"entry_id\":\"SNO-3ee9f74eb1a77ccfe7fc\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"业务员和会计学为两个独立职业方向，无共同三级或二级。\"},{\"entry_id\":\"SNO-3eee1eec8efc97a0a78a\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"顾问、设计、工程管培生多个方向并列，无共同三级或二级。\"},{\"entry_id\":\"SNO-3f2e70021f0e6b817874\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"工程师名称重复且无方向，无法确认类别。\"},{\"entry_id\":\"SNO-3f5900d7d88b02757d4b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"综合服务职责范围不明确，缺少具体服务内容信息，无法确认类别。\"},{\"entry_id\":\"SNO-3f7c1a2af621a8128353\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"群众文化可能涉及文化馆或群文活动，目录无明确承接，无法确认三级或二级。\"},{\"entry_id\":\"SNO-3f8b96c2416416a12076\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"储备干部为培训生身份，方向不明确且涉及多个专业类别，无法确认类别。\"},{\"entry_id\":\"SNO-3fa609427b95c525d5c4\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出财务管理和安全工程师两个独立职业，无共同三级或二级。\"},{\"entry_id\":\"SNO-3faec00b30a0f3a35de4\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出AI工程&全栈方向、AIAgent开发工程师、AI产品运营等多个独立职业，无共同三级或二级。\"},{\"entry_id\":\"SNO-3feb66b45176cfb3ec2e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"平台工程师缺少具体技术栈或平台方向，无法确认三级类别。\"},{\"entry_id\":\"SNO-3ff43e5398206e44eb84\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"管培生(海外储备)为培训生身份且未说明具体职能方向，无法确认类别。\"},{\"entry_id\":\"SNO-3ffbe73a8998b42451f6\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出工程师和产品专员两个独立职业，无共同三级或二级。\"},{\"entry_id\":\"SNO-40522934839bc9fea5af\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"理论模拟研究员缺少具体学科或行业方向，无法确认类别。\"},{\"entry_id\":\"SNO-4060b274415170aaa2ec\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"系统软件助理工程师未限定语言或平台，无法确认具体三级类别。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29572,
+    "completion_tokens": 1282,
+    "total_tokens": 30854,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2180
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

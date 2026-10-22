@@ -1,0 +1,32 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-0857fe17d81675489ea1",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-0857fe17d81675489ea1",
+    "case": "A",
+    "child_titles": [
+      "大模型算法",
+      "端到端算法",
+      "VLA算法",
+      "规划控制算法",
+      "决策算法",
+      "预测算法",
+      "系统算法",
+      "环境感知算法",
+      "定位及建图算法",
+      "云平台后端开发(Go/Python)",
+      "嵌入式系统开发(C++)",
+      "智能驾驶平台软件开发"
+    ],
+    "source_spans": [
+      {
+        "text": "大模型算法端到端算法VLA算法 规划控制算法决策算法预测算法系统算法环境感知算法定位及建图算法云平台后端开发(Go/Python)嵌入式系统开发(C++)智能驾驶平台软件开发",
+        "start": 0,
+        "end": 78
+      }
+    ],
+    "reason": "多个算法和开发岗位并列，可独立作为岗位，符合拆分条件。"
+  }
+}

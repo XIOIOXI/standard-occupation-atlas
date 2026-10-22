@@ -1,0 +1,185 @@
+{
+  "batch_number": 34,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "8ecf9f8c-7c7c-46be-9a68-2b64519fe90d",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813382,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30862,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 3470,
+    "output_tokens": 1919,
+    "reasoning_tokens": 0,
+    "total_tokens": 32781
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001754076
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-8c147bcfa8ec680f888b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-risk",
+      "reason": "QuantDeveloper核心为量化开发，与金融与风控算法方向合理匹配。"
+    },
+    {
+      "occupation_id": "SNO-c0a946f91276367c657d",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列能源动力、电气、管理、会计、金融、法学、审计、安全等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-757273c2b55517770d58",
+      "decision": "keep",
+      "target_category_id": "影视/传媒/media-performer/performer-acting",
+      "reason": "男声声部演员核心为表演，归入演员/配音/模特-表演与影视演出合理。"
+    },
+    {
+      "occupation_id": "SNO-e727160722ecdd1e610e",
+      "decision": "keep",
+      "target_category_id": "财务/审计/税务/finance-risk/risk-credit",
+      "reason": "风控专项核心为风险控制，归入风控-信用与业务风险合理。"
+    },
+    {
+      "occupation_id": "SNO-129e2332ee45e9210fa3",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列理科文字编辑与会计两个独立职业，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-4bdfab95b6a1152d56f4",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列营销方向与导游领队两个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-a0e11ad0fcbead9da3fe",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列商品运营、后端产品开发工程师、门店运营多个独立职业，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-fdf7695440284c445660",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "系统设计师名称过泛，未注明技术栈或系统类型，无法确认具体为后端平台开发，仅能确认互联网/AI下最深有效上级。"
+    },
+    {
+      "occupation_id": "SNO-d618d4a788b04982d09a",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "民警察属公共安全与执法，目录无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-c58077437ab087866a05",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "精密运动控制研究员与机器人与具身智能算法方向合理匹配。"
+    },
+    {
+      "occupation_id": "SNO-d9d07f0c58278cdc1a9a",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "信息软件管培生未注明具体技术方向，无法确认后端开发，仅能确认互联网/AI下最深有效上级。"
+    },
+    {
+      "occupation_id": "SNO-f7fcc47ac24229473ab6",
+      "decision": "keep",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-freight",
+      "reason": "零售物流核心为物流操作，归入货运与物流操作合理。"
+    },
+    {
+      "occupation_id": "SNO-8dc9bf98ea0e15814cd1",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列市场管培生与医学管培生两个独立方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-86969602c8fd6b254aa4",
+      "decision": "keep",
+      "target_category_id": "酒店/旅游/hotel-manager/hotel-manager-operations",
+      "reason": "海外酒店直签管培生核心为酒店运营管理，归属合理。"
+    },
+    {
+      "occupation_id": "SNO-ca80fd0ddbe8a77618ec",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "通用软件开发工程师未注明技术栈或方向，无法确认后端开发，仅能确认互联网/AI下最深有效上级。"
+    },
+    {
+      "occupation_id": "SNO-6b313756313b9d19a93e",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "采矿工程师属矿业工程，目录无采矿/矿业相关类别。"
+    },
+    {
+      "occupation_id": "SNO-909e265ece38c1dec37b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "全栈开发工程师(数据平台)核心为数据平台开发，归入平台与中间件开发合理。"
+    },
+    {
+      "occupation_id": "SNO-6ffd7c687f7a2a5b35fb",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "通用软件开发工程师未注明技术栈或方向，无法确认后端开发，仅能确认互联网/AI下最深有效上级。"
+    },
+    {
+      "occupation_id": "SNO-2eebf28a4945e09d64c2",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "reason": "感知与决策规划属自动驾驶核心方向，归属合理。"
+    },
+    {
+      "occupation_id": "SNO-a72f1524060ae4aa12c0",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列新媒体运营与人事行政管培生两个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-57fae0e98840df61d7b5",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列销售管理、媒体运营、政企客户经理多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列保险、金融、营销、信息科技、工程、运输、医疗健康等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-689788b18ecda6d1d68d",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "Linux内核研发属系统与底层开发，归入C++系统与底层开发合理。"
+    },
+    {
+      "occupation_id": "SNO-6c1e338f08b8e2088288",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "Linux内核开发属系统与底层开发，归入C++系统与底层开发合理。"
+    },
+    {
+      "occupation_id": "SNO-869120927e2558b2810e",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "IT软件工程师名称过泛，未注明技术栈或方向，无法确认后端开发，仅能确认互联网/AI下最深有效上级。"
+    }
+  ]
+}

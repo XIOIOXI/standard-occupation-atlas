@@ -1,0 +1,28 @@
+{
+  "id": "5af78eb3-9348-419a-9c61-3f54cb22edec",
+  "object": "chat.completion",
+  "created": 1791880354,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-1fea78ad5d4907b65741\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-04b2af99db03e554d33d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0a1eecb51ac20a986bf5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-9946bff6769eb073d17f\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L08-04-01\",\"issue\":\"UE策划通常指虚幻引擎游戏策划，涉及游戏系统/玩法/关卡设计，应归游戏系统与数值策划或游戏关卡与叙事策划，而非其他互动内容策划。\"},{\"occupation_id\":\"TG-4f0ebdb337a6a4943cfd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-6288f629d4edf1ccbd92\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-161def81b4cb1057491f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1e38e2578ff0c036f763\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-03858e688db0059d26bf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-b1b8aca47464dd6f55ff\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0b1bd389f6ece4eb7c26\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-763c7b0dea4e9d8c1b36\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-bc63a52aa6457d8dae9e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8c2584fbb814e53b00a1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-faf9a1797ba8f8fcc7af\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-55c06b9adb66911d3d4a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c8a347b27a865a5fb542\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-bcf6922883bf209eb0dd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-7b7413e9e55c13813681\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3b3cab12516fdc707e9d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19406,
+    "completion_tokens": 790,
+    "total_tokens": 20196,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2894
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

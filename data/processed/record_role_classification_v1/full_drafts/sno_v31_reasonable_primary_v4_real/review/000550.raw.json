@@ -1,0 +1,28 @@
+{
+  "id": "3c1a4548-5508-4089-bd9f-91889eee025f",
+  "object": "chat.completion",
+  "created": 1791881930,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-650a8d0f8e795b8da291\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅“助理”无法判断职能，review合理。\"},{\"occupation_id\":\"TG-d890b4198ea74c4163b3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“总体设计师”方向不明确，review合理。\"},{\"occupation_id\":\"TG-e36ba1023f0ef5090eaa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"环保专员归L25-07合理。\"},{\"occupation_id\":\"TG-24648385af0e25b36419\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"法务类归L30-05合理。\"},{\"occupation_id\":\"TG-58557c8118505f4bb9f5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"制剂研究员归L06-07-03合理。\"},{\"occupation_id\":\"TG-75f34a8e9eab40088ce0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"出纳员归L19-02合理。\"},{\"occupation_id\":\"TG-7aff39015d5f47411ce3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"储备出纳员已明确出纳职能，归L19-02合理。\"},{\"occupation_id\":\"TG-9b4e1a002357234a651c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"审计类归L19-05合理。\"},{\"occupation_id\":\"TG-baaef97790e208b74c91\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"装配工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-3dbebbe9a9464f946b7b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"口腔医生归L21-01-04合理。\"},{\"occupation_id\":\"TG-a4ffa41854098d21d759\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"油气田开发归L25-03合理。\"},{\"occupation_id\":\"TG-361170edf183170c813c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"人事专员归L18-04合理。\"},{\"occupation_id\":\"TG-a16bbae775d8d8ec951c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"命题管理岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-be5e30de4861e9232e26\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI产品方向管培生归L08-01-03合理。\"},{\"occupation_id\":\"TG-a9402681130a492c61c2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI产品方向管培生归L08-01-03合理。\"},{\"occupation_id\":\"TG-3302bbfe4079f0b660d9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅语言名称的软件开发归L01-11合理。\"},{\"occupation_id\":\"TG-4f8091f48f581a33a9a3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅语言名称的软件开发归L01-11合理。\"},{\"occupation_id\":\"TG-b149286b34fcd20e0d80\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅语言名称的软件开发归L01-11合理。\"},{\"occupation_id\":\"TG-a7e31a6c32f2e0719ce5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"历史教师归L22-02-03合理。\"},{\"occupation_id\":\"TG-6f306e8dabd51332e0ca\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字设计工程师方向不明确，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19453,
+    "completion_tokens": 939,
+    "total_tokens": 20392,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2941
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

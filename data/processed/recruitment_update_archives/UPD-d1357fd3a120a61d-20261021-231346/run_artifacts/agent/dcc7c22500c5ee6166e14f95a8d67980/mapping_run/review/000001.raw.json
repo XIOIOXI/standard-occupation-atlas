@@ -1,0 +1,28 @@
+{
+  "id": "437cf6c6-5e7e-4ae6-a872-4528f1029e20",
+  "object": "chat.completion",
+  "created": 1792571566,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-dcc7c22500c5ee6166e14f95a8d67980\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-04\",\"issue\":\"业务发展经理对应商务拓展与合作，主归属合理；行业背景不改变职能归属。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17005,
+    "completion_tokens": 75,
+    "total_tokens": 17080,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 493
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-1a36a30feb6b5b2a048be4b482558b5d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "标题为“管理培训生”，原始组合岗位含信息技术及人工智能、运营及健康管理、精算及产品开发、财务及投资管理、合规及风险管理、储备青年岗等多个方向",
+      "level_3_evidence": null,
+      "reason": "“管理培训生”为培养项目标签，原始组合岗位列出多个职能方向，未确定单一主要职能；仅行业（金融业）不足以确定职能，符合L32-01说明中应标review的情形，候选为跨职能管理培训与轮岗及综合储备培养。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16958,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 318,
+    "output_tokens": 182,
+    "reasoning_tokens": 0,
+    "total_tokens": 17140
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00041364
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

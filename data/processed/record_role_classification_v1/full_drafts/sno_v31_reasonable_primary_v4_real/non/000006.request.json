@@ -1,0 +1,31 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "仅标题确认non_role_text，JSON results: original_record_id,decision(exclude_non_role|restore_title_and_map|hold),reason,recovered_title。无法确认hold；剔除不删除源记录。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-aab860a9c74c329304c8\", \"title\": \"下属单位岗位\"}, {\"original_record_id\": \"TG-5c2953d7ba2f2b3a34a6\", \"title\": \"/助理\"}, {\"original_record_id\": \"TG-153ac7ebbd12cf70f5c6\", \"title\": \"下属各单位岗位\"}, {\"original_record_id\": \"TG-9c926ddd1eefc9ba2ee5\", \"title\": \"工作人员\"}, {\"original_record_id\": \"TG-5d9257ee1ca4be5ea414\", \"title\": \"具体招聘岗位\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-aab860a9c74c329304c8",
+    "TG-5c2953d7ba2f2b3a34a6",
+    "TG-153ac7ebbd12cf70f5c6",
+    "TG-9c926ddd1eefc9ba2ee5",
+    "TG-5d9257ee1ca4be5ea414"
+  ]
+}

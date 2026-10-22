@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-91b9cee4887b8695966136a6391952d3",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L14-11",
+        "L14-01"
+      ],
+      "title_evidence": "综合运营管培生：含“综合运营”与“管培生”，未说明具体运营方向或轮岗职能",
+      "level_3_evidence": null,
+      "reason": "“管培生”不能单独推断跨职能轮岗，且“综合运营”方向未明确，无法确定是产品/平台运营、用户运营还是其他运营；候选为跨职能管理培训轮岗(L32-01)、综合储备培养(L32-02)及通用业务运营(L14-11)/产品平台运营(L14-01)，需人工确认培养性质与运营方向。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16981,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 341,
+    "output_tokens": 197,
+    "reasoning_tokens": 0,
+    "total_tokens": 17178
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00043853999999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

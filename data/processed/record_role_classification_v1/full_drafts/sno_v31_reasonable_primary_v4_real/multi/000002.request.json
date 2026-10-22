@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-945702410de88969fdde\", \"title\": \"研发工程师(机械、电气、算法、电池热管理等方向)\"}, {\"original_record_id\": \"TG-cc1c559113b8e0d3ac3d\", \"title\": \"选矿项目研究员选矿项目试验员冶金项目试验员分析检测员\"}, {\"original_record_id\": \"TG-8394151e9cd3df213554\", \"title\": \"项目交付及测试工程师岗（交通工程、土木工程、自动化等工科类相关专业 大数据、人工智能、软件开发、信息工程等相关专业 工程造价、工程管理、土木工程、招投标相关专业 车......\"}, {\"original_record_id\": \"TG-959f2a1cc703b7c5d8b9\", \"title\": \"设备维修员生产计划专员\"}, {\"original_record_id\": \"TG-9524e647738f9b430bc8\", \"title\": \"市场助理（期刊推广/新媒体运营）\"}, {\"original_record_id\": \"TG-53b2bcb741a114f61bc5\", \"title\": \"营运方向 人力方向行政/非经营采购审计方向\"}, {\"original_record_id\": \"TG-15eaa3babe2614bb1c6d\", \"title\": \"信息调研员新药化学研究员\"}, {\"original_record_id\": \"TG-9dc3dbc91c1ce13d478a\", \"title\": \"财务管理部专员\\\\\\\\法律\"}, {\"original_record_id\": \"TG-c61ee738873b0f41f284\", \"title\": \"行政/文秘/人事岗\"}, {\"original_record_id\": \"TG-133a5d9e265960c90f78\", \"title\": \"营养师 饲料生产管培生（预防兽医学、遗传育种、动物医学、动物科学、贸易、食品、农业、种业）\"}, {\"original_record_id\": \"TG-ae494d8e988d492afe1c\", \"title\": \"市场营销管理储备新媒体运营电商直播运营摄影专员\"}, {\"original_record_id\": \"TG-cff12f206cd2b7af6838\", \"title\": \"u培生(销售精英)客户服务经理\"}, {\"original_record_id\": \"TG-196a3fb772db92e60495\", \"title\": \"储备职能岗—法务/人资\"}, {\"original_record_id\": \"TG-0ab8530c388677a98900\", \"title\": \"技术研发 法务事务 销售业务 包装设计 纪检员 招标管理 计量检测 绿色低碳应用与研究 财务管理 安全管理 能源管理 采供管理 展陈设计 信息管理 风险管控 质量检测 工程管理 设备管理 综合管理（生......\"}, {\"original_record_id\": \"TG-e4b0e6822232fbea71a5\", \"title\": \"住院医师护理应届生技师 物理师\"}, {\"original_record_id\": \"TG-9841ee5cfaa89c3a8109\", \"title\": \"审计风控法务岗\"}, {\"original_record_id\": \"TG-ebf97e522c49e551363d\", \"title\": \"视觉营销品牌营销产品研发销售运营商品营运 用户运营\"}, {\"original_record_id\": \"TG-7b7413e9e55c13813681\", \"title\": \"会计 工程管理 法律事务 英语翻译（相关专业：会计、工程管理、法学、英语）\"}, {\"original_record_id\": \"TG-fc4d2e9f30cdc4431f87\", \"title\": \"位市场类&产品类运营类视觉类语言类综合类管培生\"}, {\"original_record_id\": \"TG-98640e650da83d0710af\", \"title\": \"国际业务部产品中信 咖啡供应中心营销中心用户增长中心质量管理部 人力资源部岗位\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-945702410de88969fdde",
+    "TG-cc1c559113b8e0d3ac3d",
+    "TG-8394151e9cd3df213554",
+    "TG-959f2a1cc703b7c5d8b9",
+    "TG-9524e647738f9b430bc8",
+    "TG-53b2bcb741a114f61bc5",
+    "TG-15eaa3babe2614bb1c6d",
+    "TG-9dc3dbc91c1ce13d478a",
+    "TG-c61ee738873b0f41f284",
+    "TG-133a5d9e265960c90f78",
+    "TG-ae494d8e988d492afe1c",
+    "TG-cff12f206cd2b7af6838",
+    "TG-196a3fb772db92e60495",
+    "TG-0ab8530c388677a98900",
+    "TG-e4b0e6822232fbea71a5",
+    "TG-9841ee5cfaa89c3a8109",
+    "TG-ebf97e522c49e551363d",
+    "TG-7b7413e9e55c13813681",
+    "TG-fc4d2e9f30cdc4431f87",
+    "TG-98640e650da83d0710af"
+  ]
+}

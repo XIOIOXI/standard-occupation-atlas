@@ -1,0 +1,41 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-821823384d801f4d10ca",
+  "child_index": 1,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "私人教练团课全职/兼职教练职能/技术岗",
+  "child_title": "团课全职/兼职教练",
+  "source_span": {
+    "text": "团课全职/兼职教练",
+    "start": 4,
+    "end": 12
+  },
+  "raw_decision": {
+    "original_record_id": "TG-821823384d801f4d10ca",
+    "case": "A",
+    "child_titles": [
+      "私人教练",
+      "团课全职/兼职教练",
+      "职能/技术岗"
+    ],
+    "source_spans": [
+      {
+        "text": "私人教练",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "团课全职/兼职教练",
+        "start": 4,
+        "end": 12
+      },
+      {
+        "text": "职能/技术岗",
+        "start": 12,
+        "end": 17
+      }
+    ],
+    "reason": "标题由多个独立岗位名称拼接，可拆分为私人教练、团课全职/兼职教练和职能/技术岗。"
+  }
+}

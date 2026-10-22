@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 73,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "95a7af18-3259-4891-9e59-b6c031d6bf9d",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751402,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25002,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1706,
+    "output_tokens": 3996,
+    "reasoning_tokens": 0,
+    "total_tokens": 28998
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0027233879999999998
+  },
+  "observed_at_utc": "2026-10-11T20:43:23.114772+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-83b374b8b79ce9710135",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "战略发展规划主管职责可能涉及企业战略、市场研究或运营，但名称未明确具体职能领域，无法确定唯一分类。"
+    },
+    {
+      "occupation_id": "SNO-612ae6923b3ab0367b9e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "科技风险管理可能属于金融风控、IT安全或合规，但名称未明确行业或技术方向，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-2ef7e884410e722e9712",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "大健康信息挖掘研究员涉及健康数据和信息挖掘，但目录中无直接对应类别，需明确是医疗健康、数据分析还是生物医药。"
+    },
+    {
+      "occupation_id": "SNO-c58e406897e40753c762",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-freight",
+      "status": "mapped",
+      "reason": "海运部物流核心职责为海运货运与物流操作，归入物流/运输下的货运与物流操作。"
+    },
+    {
+      "occupation_id": "SNO-74eb7d11d99e9132b8e4",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "全球拓展管培生为管理培训生项目，职责方向不明确，无法确定具体职业类别。"
+    },
+    {
+      "occupation_id": "SNO-23763710bb6f8196c582",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "立体视觉算法工程师核心职责为计算机视觉与三维感知算法，归入算法工程师下的计算机视觉与三维感知。"
+    },
+    {
+      "occupation_id": "SNO-decb15e84c6e6d8d2d7d",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "城市/客户研究可能涉及市场研究、用户研究或城市规划，名称未明确具体方向，无法确定类别。"
+    },
+    {
+      "occupation_id": "SNO-06c183e665370232d663",
+      "target_category_id": "财务/审计/税务/finance-tax/tax-planning",
+      "status": "mapped",
+      "reason": "税务合伙人核心职责为税务筹划与咨询，归入税务下的税务筹划与咨询。"
+    },
+    {
+      "occupation_id": "SNO-8a5edab282632443219e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "岗位名称为“/”，无法识别职业内容，需补充有效名称。"
+    },
+    {
+      "occupation_id": "SNO-2933411f70ccb072368b",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "海外采购创优生核心职责为海外供应商开发与寻源，归入采购下的供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-1414f33a727d28f1b40a",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-analysis",
+      "status": "mapped",
+      "reason": "分析技术员（色谱、免疫、分子生物）核心职责为化学分析与质量控制，归入化工下的化学分析与质量控制。"
+    },
+    {
+      "occupation_id": "SNO-6c54114af084e0bad7c4",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "风险技术可能涉及金融风控、IT安全或技术风险管理，名称未明确具体领域，无法确定类别。"
+    },
+    {
+      "occupation_id": "SNO-604657e420b9628806ae",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "金融咨询助理顾问核心职责为金融管理咨询，归入咨询/调研下的管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-4dbaf7bbfc9172a5f2be",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "数字控制器软件工程师核心职责为电气控制与自动化设计，归入电气/自动化下的电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-7c48f81842e59d7ac2b9",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "建筑材料检测核心职责为工程材料质量检测，归入工程管理下的工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-d10e05fda274313f2d83",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务核算相关核心职责为总账与财务核算，归入会计下的总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-d2a2b10040f6ddc041f9",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "台区经理可能涉及电力、通信或区域管理，名称未明确行业和职责，无法确定类别。"
+    },
+    {
+      "occupation_id": "SNO-a14e5641050e7f58cc68",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "竞赛教练/清北教师核心职责为基础教育阶段学科竞赛教学，归入教师下的基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-1d3cce5452a462136335",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "航空部件失效分析助理研究实习员核心职责为机械部件失效分析，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-f33176e56e668bcf6a05",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "全栈研发工程师核心职责为业务服务端开发，归入后端开发下的业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-473d2042b0a34c35e8bb",
+      "target_category_id": "生活服务/零售/service-retail/retail-store",
+      "status": "mapped",
+      "reason": "零售专员核心职责为门店运营与导购，归入零售下的门店运营与导购。"
+    },
+    {
+      "occupation_id": "SNO-41329764c645c65cffa5",
+      "target_category_id": "运营/客服/ops-cross-border/cross-platform",
+      "status": "mapped",
+      "reason": "跨境电商运营助理核心职责为跨境平台运营，归入跨境电商运营下的跨境平台运营。"
+    },
+    {
+      "occupation_id": "SNO-1905373a2ae6df1a1bb1",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "规划设计师核心职责为建筑方案与施工图设计，归入建筑/规划设计下的建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-01a769dcde3a375dcc1b",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "IT资产管理核心职责为IT基础设施与云运维，归入运维/技术支持下的基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-aa848b0f89e8de94275c",
+      "target_category_id": "生活服务/零售/service-retail/retail-merchandise",
+      "status": "mapped",
+      "reason": "商品管理员核心职责为商品管理与零售供应链，归入零售下的商品管理与零售供应链。"
+    },
+    {
+      "occupation_id": "SNO-e51153b71f58aacbbedb",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "岗位名称明确列出质量、工艺、采购三个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-c3973ec16d77da52eaf1",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "岗位名称明确列出生产与质量两个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-8b2552ba2d5576a65241",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "附件开发未明确技术方向或行业，无法确定具体开发类别。"
+    },
+    {
+      "occupation_id": "SNO-1cb676165ac8d0c9270f",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "网络运维核心职责为网络基础设施运维，归入运维/技术支持下的基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-85ce111dde19423d31eb",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "产品营销类为宽泛类别，未明确具体产品领域或营销职能，无法确定类别。"
+    },
+    {
+      "occupation_id": "SNO-11bb6d4d587dde12a387",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "数学思维老师核心职责为基础教育阶段数学教学，归入教师下的基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-edaf67379d9fe6d77f4d",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "BIM正向设计核心职责为建筑信息模型设计，归入建筑/规划设计下的建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-69d9b98da526fd1bb597",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "自动化控制工程师核心职责为电气控制与自动化设计，归入电气/自动化下的电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-d2e7d24d66a89f91c081",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "岗位名称明确列出柜员与金融客户经理两个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-749fff22a3023e0f0ddb",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "供应链技术工程师核心职责为供应链计划与采购协同，归入供应链下的供应链计划与采购协同。"
+    },
+    {
+      "occupation_id": "SNO-cb40e1ff4dbb790477d1",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "建筑设计工程师核心职责为建筑方案与施工图设计，归入建筑/规划设计下的建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-8a6d3b8e877cc8d785e3",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "监控硬件工程师核心职责为电路与硬件设计，归入电子/硬件开发下的电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-d9f37b0991244a577fed",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "电气技术员/电气维修员核心职责为自动化设备与现场调试，归入电气/自动化下的自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-7bcd7be31f33d64100ef",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "系统与大数据工程师核心职责为数据工程与数仓，归入数据开发下的数据工程与数仓。"
+    },
+    {
+      "occupation_id": "SNO-e3837ad7a55477ba1fe3",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "机械设备管理核心职责为机械制造与工艺，归入机械设计/制造下的机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-9de53d91a2222defd2e0",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "建设管理事业部业务员职责不明确，可能涉及工程管理或业务运营，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-d822e502895ab771badb",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "ADC科学家（项目方向）核心职责为生物医药研发，归入生物医药下的生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-151a135c25ebebf78993",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "status": "mapped",
+      "reason": "门店运营管培生核心职责为门店与现场运营，归入线下运营下的门店与现场运营。"
+    },
+    {
+      "occupation_id": "SNO-349986f45f023ebbe6e7",
+      "target_category_id": "运营/客服/ops-service/service-frontline",
+      "status": "mapped",
+      "reason": "客服助理核心职责为一线客服与客户支持，归入客服下的一线客服与客户支持。"
+    },
+    {
+      "occupation_id": "SNO-9aeca5e5c130f2cf4d76",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产培训生核心职责为生产计划与调度，归入生产营运下的生产计划与调度。"
+    },
+    {
+      "occupation_id": "SNO-4bed0b2c4919341f8af1",
+      "target_category_id": "销售/sales-management/sales-management-strategy",
+      "status": "mapped",
+      "reason": "营销管理岗（金昌县域）核心职责为销售策略与渠道管理，归入销售管理下的销售策略与渠道管理。"
+    },
+    {
+      "occupation_id": "SNO-993a8cb24df5259259f2",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "网格算法工程师核心职责为通用算法研究与开发，归入算法工程师下的算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-e46101e0e94cc8f997c4",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场营销实习生（日语、德语）核心职责为品牌与市场策略，归入市场/营销下的品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-6b195d59b06563239447",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "催化工程师核心职责为化工工艺与生产，归入化工下的化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-10a4cd18f998ee844cba",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资运营部职员核心职责为股权与投资分析，归入投融资下的股权与投资分析。"
+    }
+  ]
+}

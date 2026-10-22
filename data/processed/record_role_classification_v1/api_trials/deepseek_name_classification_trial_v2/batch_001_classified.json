@@ -1,0 +1,158 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 1,
+  "processing_method": "deepseek_api_name_only",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "8794826d-70ab-4a90-a9b8-dece641dd5b5",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791747345,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 20,
+  "usage": {
+    "input_tokens": 23527,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 23527,
+    "output_tokens": 955,
+    "reasoning_tokens": 0,
+    "total_tokens": 24482
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0041020499999999994
+  },
+  "observed_at_utc": "2026-10-11T19:35:45.580611+00:00",
+  "results": [
+    {
+      "standard_occupation_id": "SNO-142a6a0c7fd85c77a653",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-19b7e6668ce6eadf9d5f",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-verification",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-d1af927837398df0da3d",
+      "target_category_id": "市场/公关",
+      "status": "review",
+      "reason": "仅能确定到市场/公关一级"
+    },
+    {
+      "standard_occupation_id": "SNO-39a924b725bec1208288",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1c1d5e776a3e369d86a2",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称非职业，无法分类"
+    },
+    {
+      "standard_occupation_id": "SNO-fd53b86bbab3f0c4fc37",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-76216600279c895f3d7b",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-869c600119685247c114",
+      "target_category_id": "运营/客服/ops-service/service-frontline",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-22b51b65e4b0767a3b10",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-ddfc61f055c9d52b6b4c",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "含多学科教师及招聘信息"
+    },
+    {
+      "standard_occupation_id": "SNO-ff3014992f3f2405a5f2",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-512bfb7e1b0de33fe20f",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-d2e913e342d9f76cd823",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "仿真应用方向不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-5574ea8bd6b623356ccd",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-18b965c9c5b9e53030cc",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-96d890047d86358d7739",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-0f7a6e58e0396fa5a5d3",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-manufacturing",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1f45fd778a1c2fee3330",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-4148c03ab66b5a3c7e86",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-eb279b03901806c234c1",
+      "target_category_id": "电子/电气",
+      "status": "review",
+      "reason": "仅能确定到电子/电气一级"
+    }
+  ]
+}

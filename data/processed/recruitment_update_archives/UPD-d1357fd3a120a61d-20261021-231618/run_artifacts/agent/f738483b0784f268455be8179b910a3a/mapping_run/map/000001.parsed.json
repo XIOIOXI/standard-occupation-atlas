@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-f738483b0784f268455be8179b910a3a",
+      "status": "mapped",
+      "target_category_id": "L02-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-04",
+        "L02-03"
+      ],
+      "title_evidence": "标题明确为“数据治理开发工程师”，核心职能是数据治理（数据标准、质量、元数据、数据资产），同时含开发属性",
+      "level_3_evidence": null,
+      "reason": "“数据治理”直接对应 L02-04 数据治理与数据管理（数据标准、主数据、质量、元数据与数据资产管理），该二级无三级细分，故目标为 L02-04；虽含“开发”字样，但治理职能为主，不归数据平台开发 L02-03。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16934,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 294,
+    "output_tokens": 184,
+    "reasoning_tokens": 0,
+    "total_tokens": 17118
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00040884000000000005
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

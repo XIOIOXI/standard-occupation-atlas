@@ -1,0 +1,28 @@
+{
+  "id": "259f207b-5ec1-457a-ac3f-4daf5a2bd955",
+  "object": "chat.completion",
+  "created": 1792571268,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-aca345f88d513784de242d6826c42013\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管理培训生（金融管理方向）属真实培养项目且最终职能未明确，主归属L32-01合理；候选L20-11亦为合理备选，review状态可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17032,
+    "completion_tokens": 91,
+    "total_tokens": 17123,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 520
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

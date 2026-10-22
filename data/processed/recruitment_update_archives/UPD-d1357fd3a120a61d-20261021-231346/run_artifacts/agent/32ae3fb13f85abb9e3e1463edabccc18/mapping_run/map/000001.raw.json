@@ -1,0 +1,28 @@
+{
+  "id": "a2287440-3121-4212-ad4b-27c2027cece8",
+  "object": "chat.completion",
+  "created": 1792571511,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-32ae3fb13f85abb9e3e1463edabccc18\",\"status\":\"mapped\",\"target_category_id\":\"L13-09\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L13-09\",\"L13-07\",\"L32-01\"],\"title_evidence\":\"标题明确为“销售部门管理培训生”，职能方向为销售，且属于部门定向培养而非跨职能轮岗。\",\"level_3_evidence\":null,\"reason\":\"标题已明确销售职能，按规则“已明确销售等职能时归专业目录并加培养标签”，不归 L32 跨职能轮岗；客户类型与销售方向未说明，故归 L13-09 通用销售。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16974,
+    "completion_tokens": 166,
+    "total_tokens": 17140,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

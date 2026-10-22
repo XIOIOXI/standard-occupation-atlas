@@ -1,0 +1,28 @@
+{
+  "id": "07da4724-833e-4bf8-bf1e-2a07748d59e4",
+  "object": "chat.completion",
+  "created": 1791841179,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"SNO-dd7895e5e84778756394\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械工程技术归入机械与结构设计，标题依据充分，符合目录范围。\"},{\"occupation_id\":\"SNO-584e24c6f00c1445a600\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"射频开发工程师归入通信技术研发下的无线与射频技术，标题直接对应，合理。\"},{\"occupation_id\":\"SNO-f89fbbf86af6673e7d2e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械工程管理归入机械与结构设计，管理为修饰，无更直接专门类别，合理。\"},{\"occupation_id\":\"SNO-6d63b8c0a9675c9c7f84\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"量化研究员（风险管理方向）归入精算与金融定价，量化研究属金融量化业务模型，合理。\"},{\"occupation_id\":\"SNO-e8bfbc191cd79e446be9\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"标题仅“办公室”，无明确职能线索，无法确认合理归属。\"},{\"occupation_id\":\"SNO-a9879979224acefa4023\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信息化工程师归入信息化管理，符合组织信息化规划与IT管理范围。\"},{\"occupation_id\":\"SNO-83350230913adba41a77\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外商务代表归入商务拓展与合作，以商业合作拓展为主，合理。\"},{\"occupation_id\":\"SNO-dcdd04b6f48bbcc58adb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"硬件/软件开发为多角色岗位，保留multi_role合理。\"},{\"occupation_id\":\"SNO-99e434a425847e9fba18\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"标题仅“管培生”，无明确职能或行业线索，无法确认合理归属。\"},{\"occupation_id\":\"SNO-57e5a659f33a342b8372\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"资产审计归入审计，符合财务审计范围，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10724,
+    "completion_tokens": 546,
+    "total_tokens": 11270,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "prompt_cache_hit_tokens": 9216,
+    "prompt_cache_miss_tokens": 1508
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

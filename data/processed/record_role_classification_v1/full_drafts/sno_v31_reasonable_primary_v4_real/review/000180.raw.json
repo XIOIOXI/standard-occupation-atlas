@@ -1,0 +1,28 @@
+{
+  "id": "e96c7691-b3af-4f0c-98e1-b469ef039224",
+  "object": "chat.completion",
+  "created": 1791880737,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-6347d3bde62c85b02102\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"标题为生产操作但括号内列出多个不相关专业，实际职能方向无法确定，维持review。\"},{\"occupation_id\":\"TG-9a1106e91e8f0d097756\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"养猪生产管培生归畜禽养殖合理，管培标签不改变职能。\"},{\"occupation_id\":\"TG-c90f9105e40d39ed1579\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电力电气类测试工程师归硬件与产品测试合理。\"},{\"occupation_id\":\"TG-3724b2ba96053b3dd148\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售方向实习生未说明客户类型，归通用销售合理。\"},{\"occupation_id\":\"TG-e1513dd5cd712f3aed8c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海洋测绘师归测绘与地理信息合理。\"},{\"occupation_id\":\"TG-9124cae36717490ff061\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"科研部研究岗领域未说明，归通用科学研究合理。\"},{\"occupation_id\":\"TG-61bb43a38ee982d20d9f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"税务专员归税务合理。\"},{\"occupation_id\":\"TG-6b80c66bab19dc9275ef\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"能效工程师归能源系统与工艺工程合理。\"},{\"occupation_id\":\"TG-1d6462b685a248c1534a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"评级项目管理岗归信用风险与资信评估合理。\"},{\"occupation_id\":\"TG-e5b2fc767d57cd957f4c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"抖音运营助理归内容与新媒体运营合理。\"},{\"occupation_id\":\"TG-4cd4a7c2ca5f96e13f7b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"法务管理类归企业法务合理。\"},{\"occupation_id\":\"TG-27ea9609f4e177390218\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构计算岗归土木结构与岩土工程合理。\"},{\"occupation_id\":\"TG-56938d187e80c788c720\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"控制器机械工程师归机械设备设计合理。\"},{\"occupation_id\":\"TG-dc97f6a1fa851e71f768\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"姿轨控设计师归自动化与控制工程合理。\"},{\"occupation_id\":\"TG-a25778411294dc901cdc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行分行培训生仅行业明确，职能未说明，维持review合理。\"},{\"occupation_id\":\"TG-49f590952e7554742c1b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国际素养教师归综合与通识教学合理。\"},{\"occupation_id\":\"TG-b9812d8bc55cb2fe155a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术研究员领域未说明，归通用科学研究合理。\"},{\"occupation_id\":\"TG-626c92fc92d8c6f5fc33\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务部财务岗方向未说明，归通用财务工作合理。\"},{\"occupation_id\":\"TG-69e65a45d0db268f5bb4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"物流研究岗归供应链规划与管理合理。\"},{\"occupation_id\":\"TG-834ff3d45f81f629d8ee\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行分行公司培训生仅行业明确，职能未说明，维持review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19528,
+    "completion_tokens": 961,
+    "total_tokens": 20489,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3016
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

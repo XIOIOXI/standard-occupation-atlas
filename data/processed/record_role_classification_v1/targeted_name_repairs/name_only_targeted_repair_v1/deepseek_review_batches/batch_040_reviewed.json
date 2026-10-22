@@ -1,0 +1,71 @@
+{
+  "batch_number": 40,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 6,
+  "response_metadata": {
+    "request_id": "02aeb768-51cd-402c-b70a-ff692e4c6af9",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813422,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 28360,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 1096,
+    "output_tokens": 389,
+    "reasoning_tokens": 0,
+    "total_tokens": 28749
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000479592
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-64d343ddffa7285f2341",
+      "decision": "reclassify",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "QT开发工程师核心是使用C++/Qt进行客户端或系统应用开发，名称未体现图形与高性能计算，归入C++系统与底层开发更合理。"
+    },
+    {
+      "occupation_id": "SNO-858ca9f112edad04a6a5",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "编译器开发属于系统与底层开发，当前C++系统与底层开发类别合理。"
+    },
+    {
+      "occupation_id": "SNO-fbb1786a43d74d3ff687",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "编译器工程师属于系统与底层开发，当前C++系统与底层开发类别合理。"
+    },
+    {
+      "occupation_id": "SNO-161332dd5ba244f14566",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm",
+      "reason": "“人工智能”名称过于宽泛，无法确认具体是算法研究、机器学习应用还是其他方向，三级依据不足，最深可确认有效上级为算法工程师。"
+    },
+    {
+      "occupation_id": "SNO-f15ca706c766aa102f6d",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "后台工程师即后端开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-58012eb32551873609a6",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "后台开发工程师即后端开发，归入业务服务端开发合理。"
+    }
+  ]
+}

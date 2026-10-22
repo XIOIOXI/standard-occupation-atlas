@@ -1,0 +1,159 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 1,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "improved_v3",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "88853575-e345-4e92-905c-87d260bacee1",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791748556,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 20,
+  "usage": {
+    "input_tokens": 24083,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 24083,
+    "output_tokens": 1084,
+    "reasoning_tokens": 0,
+    "total_tokens": 25167
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0042628499999999995
+  },
+  "observed_at_utc": "2026-10-11T19:55:56.913702+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-142a6a0c7fd85c77a653",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "通信网络运维明确属于通信网络建设与维护"
+    },
+    {
+      "occupation_id": "SNO-19b7e6668ce6eadf9d5f",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-verification",
+      "status": "mapped",
+      "reason": "CPU IP验证属于芯片验证"
+    },
+    {
+      "occupation_id": "SNO-d1af927837398df0da3d",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "市场职能过于笼统，无法判断具体市场方向"
+    },
+    {
+      "occupation_id": "SNO-39a924b725bec1208288",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "会计专员属于总账与财务核算"
+    },
+    {
+      "occupation_id": "SNO-1c1d5e776a3e369d86a2",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称截断且为招聘批次描述，无法识别职业"
+    },
+    {
+      "occupation_id": "SNO-fd53b86bbab3f0c4fc37",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": "外科医师属于临床诊疗"
+    },
+    {
+      "occupation_id": "SNO-76216600279c895f3d7b",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "电气工程师交付技术偏向自动化设备现场调试"
+    },
+    {
+      "occupation_id": "SNO-869c600119685247c114",
+      "target_category_id": "运营/客服/ops-service/service-frontline",
+      "status": "mapped",
+      "reason": "客服培训生属于一线客服与客户支持"
+    },
+    {
+      "occupation_id": "SNO-22b51b65e4b0767a3b10",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "DQE为质量工程师，电气方向偏向质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-ddfc61f055c9d52b6b4c",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中学招聘教师属于基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-ff3014992f3f2405a5f2",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "燃烧室设计属于机械结构与产品设计"
+    },
+    {
+      "occupation_id": "SNO-512bfb7e1b0de33fe20f",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "车辆控制工程师属于整车与零部件研发"
+    },
+    {
+      "occupation_id": "SNO-d2e913e342d9f76cd823",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "数字化仿真应用工程师偏向机械产品设计仿真"
+    },
+    {
+      "occupation_id": "SNO-5574ea8bd6b623356ccd",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": "国际贸易经理偏向国际市场与客户开发"
+    },
+    {
+      "occupation_id": "SNO-18b965c9c5b9e53030cc",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "设备技术员偏向设备维修与安装"
+    },
+    {
+      "occupation_id": "SNO-96d890047d86358d7739",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "动力总成研发属于整车与零部件研发"
+    },
+    {
+      "occupation_id": "SNO-0f7a6e58e0396fa5a5d3",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-manufacturing",
+      "status": "mapped",
+      "reason": "总装工艺员属于汽车制造与工艺"
+    },
+    {
+      "occupation_id": "SNO-1f45fd778a1c2fee3330",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "安全研究工程师偏向应用与数据安全"
+    },
+    {
+      "occupation_id": "SNO-4148c03ab66b5a3c7e86",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": "社媒运营属于社交媒体运营"
+    },
+    {
+      "occupation_id": "SNO-eb279b03901806c234c1",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气类管培生偏向电气控制与自动化设计"
+    }
+  ]
+}

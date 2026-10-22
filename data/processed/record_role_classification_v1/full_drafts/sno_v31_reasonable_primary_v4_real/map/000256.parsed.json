@@ -1,0 +1,239 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-548082b4cec03b89ee5d",
+      "status": "mapped",
+      "target_category_id": "L04-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "航空认证审核员",
+      "level_3_evidence": null,
+      "reason": "标题明确为航空领域的认证审核工作，属于标准认证与质量体系范畴，直接映射到 L04-05。"
+    },
+    {
+      "occupation_id": "TG-a8145fa0b45e53512b79",
+      "status": "mapped",
+      "target_category_id": "L03-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "信息工程师",
+      "level_3_evidence": null,
+      "reason": "信息工程师通常指信息技术支持与运维，但方向未明确，归入通用信息技术运维 L03-08。"
+    },
+    {
+      "occupation_id": "TG-349a2afb40c1fca1481f",
+      "status": "mapped",
+      "target_category_id": "L32-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "工艺/研发管培生",
+      "level_3_evidence": null,
+      "reason": "标题包含“管培生”，且涉及工艺/研发方向，但未明确具体职能，属于综合储备与业务培养，归入 L32-02。"
+    },
+    {
+      "occupation_id": "TG-daa170f38b58c5303397",
+      "status": "mapped",
+      "target_category_id": "L01-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "量子计算系统结构设计",
+      "level_3_evidence": null,
+      "reason": "量子计算系统结构设计属于系统与基础软件研发范畴，但未明确细分方向，归入 L01-07。"
+    },
+    {
+      "occupation_id": "TG-94ec846b8d0356b7e986",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "直销销售助理",
+      "level_3_evidence": null,
+      "reason": "标题为销售助理，但未明确客户类型，归入通用销售 L13-09。"
+    },
+    {
+      "occupation_id": "TG-da3e3528ebc516e2510e",
+      "status": "mapped",
+      "target_category_id": "L15-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "教辅图书编辑",
+      "level_3_evidence": "图书与出版编辑",
+      "reason": "教辅图书编辑属于图书出版编辑，直接映射到 L15-02-01。"
+    },
+    {
+      "occupation_id": "TG-b10ca4809d2fcfeac8a0",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "作动产品工艺工程师",
+      "level_3_evidence": "制造制程工程",
+      "reason": "作动产品工艺工程师负责制造工艺，属于制造制程工程，映射到 L06-08-01。"
+    },
+    {
+      "occupation_id": "TG-0b8dd30ff5e9a0a43528",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L25-03",
+        "L25-04",
+        "L25-07",
+        "L25-05",
+        "L25-06"
+      ],
+      "title_evidence": "储备能源动力/电气/安全/环境/消防工程师",
+      "level_3_evidence": null,
+      "reason": "标题包含多个专业方向（能源动力、电气、安全、环境、消防），无法归入单一类别，属于多角色岗位。"
+    },
+    {
+      "occupation_id": "TG-65834f3ebe1598ab8949",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "学习机教师（语文/数学/英语/物理）",
+      "level_3_evidence": null,
+      "reason": "学习机教师教授语文、数学、英语、物理等学科，属于学科与通识教学，但未明确单一学科，归入 L22-02。"
+    },
+    {
+      "occupation_id": "TG-bb3f5c107e604b2e9aa4",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L05-05",
+        "L05-06",
+        "L24-03"
+      ],
+      "title_evidence": "线路开发",
+      "level_3_evidence": null,
+      "reason": "“线路开发”可能指通信线路开发或交通线路开发，方向不明确，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-448f0595d71eb60193f7",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "2D视觉算法工程师",
+      "level_3_evidence": "计算机视觉",
+      "reason": "2D视觉算法工程师专注于计算机视觉算法，直接映射到 L02-05-01。"
+    },
+    {
+      "occupation_id": "TG-cfa93f65085151f69c90",
+      "status": "mapped",
+      "target_category_id": "L14-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "产品与解决方案工程师",
+      "level_3_evidence": null,
+      "reason": "产品与解决方案工程师通常负责售前技术方案，属于售前技术与解决方案，归入 L14-09。"
+    },
+    {
+      "occupation_id": "TG-1465a1b53d7b1fb1634d",
+      "status": "mapped",
+      "target_category_id": "L16-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "pmc助理",
+      "level_3_evidence": null,
+      "reason": "PMC助理通常负责生产物料控制，属于需求与物料计划，归入 L16-03。"
+    },
+    {
+      "occupation_id": "TG-a206dacda73b8937740e",
+      "status": "mapped",
+      "target_category_id": "L32-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "管培生（物流、供应链、交通运输等）",
+      "level_3_evidence": null,
+      "reason": "标题为管培生，涉及物流、供应链、交通运输等方向，但未明确具体职能，属于综合储备与业务培养，归入 L32-02。"
+    },
+    {
+      "occupation_id": "TG-18eabf03c93e9340ebb3",
+      "status": "mapped",
+      "target_category_id": "L01-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "系统论证与设计工程师",
+      "level_3_evidence": null,
+      "reason": "系统论证与设计工程师负责系统架构设计，属于软件架构，归入 L01-09。"
+    },
+    {
+      "occupation_id": "TG-5d9c9693ffbf4b7b7780",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "媒体运营",
+      "level_3_evidence": null,
+      "reason": "媒体运营属于内容与新媒体运营，直接映射到 L14-03。"
+    },
+    {
+      "occupation_id": "TG-32370c37e852318708c9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "青岛分行公司业务培训生",
+      "level_3_evidence": null,
+      "reason": "标题为银行公司业务培训生，但未明确具体金融业务方向，且可能为管培生性质，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-4f466acae4ce6ff867c4",
+      "status": "mapped",
+      "target_category_id": "L09-06-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "游戏原画设计师",
+      "level_3_evidence": "插画与原画",
+      "reason": "游戏原画设计师属于插画与原画，直接映射到 L09-06-01。"
+    },
+    {
+      "occupation_id": "TG-9fa9f3b805b8388aad64",
+      "status": "mapped",
+      "target_category_id": "L01-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "嵌入式/软件工程师",
+      "level_3_evidence": null,
+      "reason": "嵌入式/软件工程师涉及嵌入式开发，但未明确细分方向，归入嵌入式与固件开发 L01-06。"
+    },
+    {
+      "occupation_id": "TG-09a4a6ea6de56c1a0940",
+      "status": "mapped",
+      "target_category_id": "L25-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "供电设备检修与维护岗",
+      "level_3_evidence": null,
+      "reason": "供电设备检修与维护属于能源运行与调度，直接映射到 L25-04。"
+    }
+  ],
+  "raw_response_file": "000256.raw.json",
+  "usage": {
+    "input_tokens": 17379,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 867,
+    "output_tokens": 2434,
+    "reasoning_tokens": 0,
+    "total_tokens": 19813
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003279972
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

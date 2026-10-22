@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 90,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "51a603c1-28c5-47d7-91f9-22b1fbbdc3a4",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751580,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25012,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1716,
+    "output_tokens": 2697,
+    "reasoning_tokens": 0,
+    "total_tokens": 27709
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001945488
+  },
+  "observed_at_utc": "2026-10-11T20:46:20.447096+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-990d42f3f31baf0dea4b",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "采购SQA工程师核心职责为供应商质量管理，归入质量体系与审核。"
+    },
+    {
+      "occupation_id": "SNO-b042df62694ec36412ed",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "机器人底盘控制算法属于机器人算法方向。"
+    },
+    {
+      "occupation_id": "SNO-7ee40cf84d83c274497c",
+      "target_category_id": "房地产/建筑/estate-property/property-mgmt-facility",
+      "status": "mapped",
+      "reason": "物业工程部物业专员属于商办设施与工程管理。"
+    },
+    {
+      "occupation_id": "SNO-be2767531bb17a9b68ce",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "草坪养护属于农业/林业技术中的农作物与农业技术。"
+    },
+    {
+      "occupation_id": "SNO-46f9c83059a5e4106125",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "运维操作属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-901df86306a9e1faa8b7",
+      "target_category_id": "销售/sales-course/course-sales-education",
+      "status": "mapped",
+      "reason": "课程顾问属于教育课程销售。"
+    },
+    {
+      "occupation_id": "SNO-647164ee1b032ca27917",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "IT管培生涵盖电气、暖通、计算机、财务等多个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-78da449dd39aaaabb573",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "安全服务工程师通常从事应用与数据安全服务。"
+    },
+    {
+      "occupation_id": "SNO-e5d0d655ac4f580b0278",
+      "target_category_id": "影视/传媒/media-news/news-reporting",
+      "status": "mapped",
+      "reason": "国际新闻部新闻采编属于新闻采编与报道。"
+    },
+    {
+      "occupation_id": "SNO-0632dc7064485bf8a66d",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-litigation",
+      "status": "mapped",
+      "reason": "法官助理属于诉讼与争议解决法律辅助。"
+    },
+    {
+      "occupation_id": "SNO-b7d93c0722e063a1466b",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "煤矿专业技术岗属于能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-4d3f9a7aaa8d6a9a1de4",
+      "target_category_id": "教育培训/edu-arts/arts-training-performing",
+      "status": "mapped",
+      "reason": "思辨与口才教师属于表演与音乐培训中的口才培训。"
+    },
+    {
+      "occupation_id": "SNO-e79366c3070825d6f6a2",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "测量试验属于施工现场管理中的测量试验工作。"
+    },
+    {
+      "occupation_id": "SNO-94438a15e01e44c4d2d5",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "研发/设计工程师通常属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-4929a4734faec53a100d",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "啤酒采购管培生核心为采购寻源。"
+    },
+    {
+      "occupation_id": "SNO-0cf5e7cc995943055a73",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "销售培训生属于客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-f2188bbf6a17d4388167",
+      "target_category_id": "教育培训/edu-arts/arts-training-performing",
+      "status": "mapped",
+      "reason": "音乐(声乐)教师属于表演与音乐培训。"
+    },
+    {
+      "occupation_id": "SNO-0fdcac24c34c1b36b956",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "桥梁工程师属于建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-358bfd9bf1fef434d0a8",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "拖拉机研发属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-fabb914ddcb001146016",
+      "target_category_id": "设计/design-industrial-home/industrial-home",
+      "status": "mapped",
+      "reason": "家居设计属于家居与家具设计。"
+    },
+    {
+      "occupation_id": "SNO-6edc21a82af405a585e2",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "数据分析助理属于商业与业务分析。"
+    },
+    {
+      "occupation_id": "SNO-be0a1b77fa4db4bc6ac9",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "验证助理工程师通常属于质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-a2b2dd7a66ead1f843d4",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气系统试飞技术属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-6b7873ec87810fe6cc2f",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "飞控算法属于机器人与具身智能算法。"
+    },
+    {
+      "occupation_id": "SNO-b8c4b209b99e4aff154c",
+      "target_category_id": "设计/design-user-research/research-qualitative",
+      "status": "mapped",
+      "reason": "用户与市场研究员属于定性用户研究。"
+    },
+    {
+      "occupation_id": "SNO-efd3837087fa39c4fee9",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-freight",
+      "status": "mapped",
+      "reason": "物流配送中心相关属于货运与物流操作。"
+    },
+    {
+      "occupation_id": "SNO-43e7773bf9d06e594308",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "AI算法安全研究员属于应用与数据安全。"
+    },
+    {
+      "occupation_id": "SNO-906045a5a228abfae7a3",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "存储工程师属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-7eb8b06739ad80945d00",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "硕博为学历描述，缺少具体职业职责信息。"
+    },
+    {
+      "occupation_id": "SNO-e6ee681101ad0449e5d6",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "纪检监察类管培生属于公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-c61e86c1949770f416be",
+      "target_category_id": "采购/贸易/trade-clerk/trade-clerk-coordination",
+      "status": "mapped",
+      "reason": "外贸跟单员属于外贸跟单与客户协调。"
+    },
+    {
+      "occupation_id": "SNO-9bf0b769de931adfa33b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "实习人员未说明具体职业方向，无法归类。"
+    },
+    {
+      "occupation_id": "SNO-7ecb47fb3e72a287f3a9",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "销售技术支持属于售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-cfc216c942f863d99ba1",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "Windows客户端开发属于移动端与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-88709d6e428e55d0d8e2",
+      "target_category_id": "教育培训/edu-product/edu-product-curriculum",
+      "status": "mapped",
+      "reason": "教研产品研发属于课程与内容研发。"
+    },
+    {
+      "occupation_id": "SNO-fcf23d87080587086dda",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "AI数据分析培训生属于商业与业务分析。"
+    },
+    {
+      "occupation_id": "SNO-b4c11cf5497563af20bd",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出海外社媒运营、电商平台用户运营、采购等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-cf6e00dc0a05b466ceb9",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法规管理员属于公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-fcffcbc9d32f9b600551",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "教师招考科目教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-5a06b98b21528d307de5",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "status": "mapped",
+      "reason": "SAP通常属于平台与中间件开发。"
+    },
+    {
+      "occupation_id": "SNO-a80d7c59876aa84f4910",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "营销技术支持属于售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-d38575f11d6cac7c7f15",
+      "target_category_id": "设计/design-art-3d-animation/art-animation",
+      "status": "mapped",
+      "reason": "三维动画设计属于动画与特效。"
+    },
+    {
+      "occupation_id": "SNO-0ed74d86e80be58c64f9",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "意向为无效职业名称，缺少具体职责信息。"
+    },
+    {
+      "occupation_id": "SNO-ccb618e501a81ca10d3a",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-engineering",
+      "status": "mapped",
+      "reason": "环境工程师属于环保工程与治理。"
+    },
+    {
+      "occupation_id": "SNO-90c24cb5b1e80e5838e4",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "搜推算法工程师属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-61640e200578e0d6ef8d",
+      "target_category_id": "医疗健康/health-sales/medical-sales-pharma",
+      "status": "mapped",
+      "reason": "药品项目销售属于医药与诊断销售。"
+    },
+    {
+      "occupation_id": "SNO-247f5cb1e05c493aab76",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-planning",
+      "status": "mapped",
+      "reason": "规划用地管理专员属于国土与城市规划。"
+    },
+    {
+      "occupation_id": "SNO-67ad1b36772927442f32",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "冶金工艺工程师属于化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-73af4b2a5ee797c01821",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "通信工属于通信网络建设与维护。"
+    },
+    {
+      "occupation_id": "SNO-c4fae091e34800905359",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "商务专员属于销售支持与商务协调。"
+    }
+  ]
+}

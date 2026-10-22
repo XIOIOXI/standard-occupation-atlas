@@ -1,0 +1,28 @@
+{
+  "id": "c249a4e3-8a0e-4fc7-818a-04db35df6438",
+  "object": "chat.completion",
+  "created": 1792571779,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-387e85291ca3e2e9dd4d75d164129f77\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L20-05\", \"issue\": \"车物核损属保险理赔核定，归入保险核保与理赔（L20-05）合理，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17041,
+    "completion_tokens": 93,
+    "total_tokens": 17134,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 529
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "de09135c-76a3-4ddc-833f-2cb0570fc862",
+  "object": "chat.completion",
+  "created": 1792571369,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-858ecfa0b7ec1e4b582c86916f5910ca\",\"status\":\"mapped\",\"target_category_id\":\"L19-05\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L19-05-01\",\"L19-05-02\"],\"title_evidence\":\"标题为“审计”，明确属于审计职能\",\"level_3_evidence\":null,\"reason\":\"标题仅说明审计职能，未区分内部审计或外部审计；结合企业集团背景更可能为内部审计，但缺乏直接证据，故映射至二级“审计”，不强行细分三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16955,
+    "completion_tokens": 139,
+    "total_tokens": 17094,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

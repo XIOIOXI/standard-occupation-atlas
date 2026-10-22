@@ -1,0 +1,84 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-3951da0dbbf4348c1db17d59fb51ee8b",
+      "status": "mapped",
+      "target_category_id": "L19-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-01",
+        "L19-08"
+      ],
+      "title_evidence": "标题为“会计学”，属于财务/会计专业方向，对应会计核算职能",
+      "level_3_evidence": null,
+      "reason": "“会计学”明确指向会计核算职能，但未细分总账、成本或往来会计，故归 L19-01 会计核算（二级）。"
+    },
+    {
+      "occupation_id": "UP-f3c01bac8537fd766774ed3b646094b1",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L20-11"
+      ],
+      "title_evidence": "标题为“总行管培生”，属银行总行管理培训生项目，最终职业方向未明确",
+      "level_3_evidence": null,
+      "reason": "“管培生”为培养项目标签，银行总行管培生可能轮岗多个金融职能，最终方向未明确；按 L32-01 说明，仅行业（银行）不足以确定职能，应标 review，候选 L32-01 与 L20-11。"
+    },
+    {
+      "occupation_id": "UP-691447ca56b5141bbb0566d7c83d4ce1",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L08-01-03",
+        "L02-05-05",
+        "L04-01-01",
+        "L02-05",
+        "L02-01",
+        "L08-01-01"
+      ],
+      "title_evidence": "标题并列包含产品经理、策略模型、测试运营、AI研发、线上渠道产品、数据分析等多个方向",
+      "level_3_evidence": null,
+      "reason": "同一岗位名称内并列多个差异明显的职能方向（产品、算法、测试、数据分析等），无法归入单一正式目标，标 multi_role 并给出各方向候选。"
+    },
+    {
+      "occupation_id": "UP-39c7cd3cb85474c0f31fcabd9a9a0074",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-02",
+        "L20-11",
+        "L13-02"
+      ],
+      "title_evidence": "标题为“分支行储备生”，属银行分支行储备培养岗位，主要职能未明确",
+      "level_3_evidence": null,
+      "reason": "“储备生”为培养性质标签，分支行储备可能涉及柜面运营、营销等，主要固定职能未明确；按 L32 说明不能仅凭“储备”推断，标 review，候选 L32-02、L20-11、L13-02。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17477,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 837,
+    "output_tokens": 609,
+    "reasoning_tokens": 0,
+    "total_tokens": 18086
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00054087
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

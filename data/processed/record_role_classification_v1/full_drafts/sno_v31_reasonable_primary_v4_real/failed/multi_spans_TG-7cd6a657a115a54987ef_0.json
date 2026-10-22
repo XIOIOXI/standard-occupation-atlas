@@ -1,0 +1,35 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-7cd6a657a115a54987ef",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "电气/机械研发工程师",
+  "child_title": "电气研发工程师",
+  "source_span": {
+    "text": "电气",
+    "start": 0,
+    "end": 2
+  },
+  "raw_decision": {
+    "original_record_id": "TG-7cd6a657a115a54987ef",
+    "case": "A",
+    "child_titles": [
+      "电气研发工程师",
+      "机械研发工程师"
+    ],
+    "source_spans": [
+      {
+        "text": "电气",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "机械研发工程师",
+        "start": 3,
+        "end": 10
+      }
+    ],
+    "reason": "标题由斜杠分隔的两个独立岗位组成，可拆分为电气研发工程师和机械研发工程师。"
+  }
+}

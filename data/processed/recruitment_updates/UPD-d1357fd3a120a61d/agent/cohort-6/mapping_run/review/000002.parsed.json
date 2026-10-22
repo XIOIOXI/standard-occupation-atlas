@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-f651eba7e0dc5630cc81a296d63ca0d8",
+      "verdict": "pass",
+      "suggested_target_category_id": "L18-04",
+      "issue": "人力管培生明确人力资源职能，管培为培养标签，归人力资源综合管理合理。"
+    },
+    {
+      "occupation_id": "UP-03bd419861affba91ebd57c19554ad6e",
+      "verdict": "pass",
+      "suggested_target_category_id": "L16-01",
+      "issue": "采购管培生明确采购职能，归采购与供应商管理合理，具体物料方向未说明停二级。"
+    },
+    {
+      "occupation_id": "UP-06a2e8b1bb4811e76e129c85f232dfed",
+      "verdict": "pass",
+      "suggested_target_category_id": "L19-08",
+      "issue": "财务管培生明确财务职能但方向未说明，归通用财务工作合理。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17697,
+    "cached_input_tokens": 16768,
+    "uncached_input_tokens": 929,
+    "output_tokens": 232,
+    "reasoning_tokens": 0,
+    "total_tokens": 17929
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000328854
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

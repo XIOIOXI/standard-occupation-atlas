@@ -1,0 +1,368 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-024acedbc1688c4b88af",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L20-11"
+      ],
+      "title_evidence": "长沙分行公司业务培训生",
+      "level_3_evidence": null,
+      "reason": "标题含'培训生'且限定'公司业务'，但未明确具体职能（如客户经理、信贷、运营等），无法确定是跨职能轮岗还是特定业务方向，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-3746aff0081cce7c3c44",
+      "status": "mapped",
+      "target_category_id": "L10-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L10-03",
+        "L13-08"
+      ],
+      "title_evidence": "履约经理",
+      "level_3_evidence": null,
+      "reason": "'履约经理'通常指合同履约与交付管理，最直接对应客户实施与交付管理。"
+    },
+    {
+      "occupation_id": "TG-da9c1420e527cf5df0b6",
+      "status": "mapped",
+      "target_category_id": "L08-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-02",
+        "L06-09"
+      ],
+      "title_evidence": "产品开发工程师",
+      "level_3_evidence": null,
+      "reason": "'产品开发工程师'通常指实体产品开发，但未明确产品类型，归实体产品管理。"
+    },
+    {
+      "occupation_id": "TG-c56c6fba3180c16adfe2",
+      "status": "mapped",
+      "target_category_id": "L23-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-09",
+        "L24-12-02"
+      ],
+      "title_evidence": "设备管理员",
+      "level_3_evidence": null,
+      "reason": "'设备管理员'通常指工业设备管理维护，归设备安装维修与保全。"
+    },
+    {
+      "occupation_id": "TG-578600dfe3bdecdec298",
+      "status": "mapped",
+      "target_category_id": "L18-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-06",
+        "L18-05"
+      ],
+      "title_evidence": "综合办公岗位",
+      "level_3_evidence": null,
+      "reason": "'综合办公岗位'通常指秘书、文员等综合办公支持，归秘书助理与文书事务。"
+    },
+    {
+      "occupation_id": "TG-2b7716418b5aa1abf9a8",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L09-08",
+        "L06-01",
+        "L24-01-01"
+      ],
+      "title_evidence": "设计技术岗",
+      "level_3_evidence": null,
+      "reason": "'设计技术岗'过于宽泛，可能指工业设计、建筑设计、机械设计等，无法确定具体设计方向。"
+    },
+    {
+      "occupation_id": "TG-dd380f936663d4f551e3",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L04-03",
+        "L08-02",
+        "L11-03"
+      ],
+      "title_evidence": "产品管控岗",
+      "level_3_evidence": null,
+      "reason": "'产品管控岗'含义模糊，可能指产品质量管控、产品管理或流程管控，无法确定核心职能。"
+    },
+    {
+      "occupation_id": "TG-896ccf982e3bac4680fa",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L22-10"
+      ],
+      "title_evidence": "精品小课堂管培生",
+      "level_3_evidence": null,
+      "reason": "'精品小课堂管培生'含'管培生'但'精品小课堂'可能指教育业务，未明确具体职能，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-4648f0f3aab50e0d9856",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L20-11"
+      ],
+      "title_evidence": "总行运营储备生",
+      "level_3_evidence": null,
+      "reason": "'总行运营储备生'含'储备生'且限定银行运营，但未明确具体职能方向，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-e31624700aef0a533b1d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-07",
+        "L14-01",
+        "L03-06"
+      ],
+      "title_evidence": "终端管理专员",
+      "level_3_evidence": null,
+      "reason": "'终端管理专员'含义模糊，可能指销售终端管理、IT终端管理或零售终端运营，无法确定核心职能。"
+    },
+    {
+      "occupation_id": "TG-772937ff6e2deb70cfe3",
+      "status": "mapped",
+      "target_category_id": "L14-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-11",
+        "L14-01"
+      ],
+      "title_evidence": "北亚运营",
+      "level_3_evidence": null,
+      "reason": "'北亚运营'指区域业务运营，未明确具体运营方向，归通用业务运营。"
+    },
+    {
+      "occupation_id": "TG-c58ff3b875eafcc21c30",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L21-09",
+        "L04-05",
+        "L06-07"
+      ],
+      "title_evidence": "审评员（生物科学类、电气类、电子信息和计算机类、临床医学类、中医学类、药学类、生物医学工程、生物工程）",
+      "level_3_evidence": null,
+      "reason": "'审评员'涉及多学科背景，可能指药品审评、医疗器械审评或技术审评，无法确定具体审评领域。"
+    },
+    {
+      "occupation_id": "TG-a4da316ae873613615d6",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L02-09"
+      ],
+      "title_evidence": "数字孪生技术岗",
+      "level_3_evidence": null,
+      "reason": "'数字孪生技术岗'通常涉及软件开发与建模，但未明确具体技术方向，归通用软件研发。"
+    },
+    {
+      "occupation_id": "TG-eb87e644994d5c7dafa7",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08",
+        "L05-04"
+      ],
+      "title_evidence": "数字化产线研发工程师",
+      "level_3_evidence": null,
+      "reason": "'数字化产线研发工程师'指产线数字化与制造工艺研发，归工艺与制造工程。"
+    },
+    {
+      "occupation_id": "TG-f885367b57048e38049c",
+      "status": "mapped",
+      "target_category_id": "L02-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-09",
+        "L01-11"
+      ],
+      "title_evidence": "数智化应用工程师",
+      "level_3_evidence": null,
+      "reason": "'数智化应用工程师'指数据与AI技术应用，但未明确具体方向，归通用数据与人工智能工作。"
+    },
+    {
+      "occupation_id": "TG-5ced0f2eaa25fe03ded0",
+      "status": "mapped",
+      "target_category_id": "L02-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-01",
+        "L11-03"
+      ],
+      "title_evidence": "数字经营岗",
+      "level_3_evidence": null,
+      "reason": "'数字经营岗'通常指经营数据分析，归数据分析。"
+    },
+    {
+      "occupation_id": "TG-ee969ebb5154018c7f85",
+      "status": "mapped",
+      "target_category_id": "L11-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-01",
+        "L23-01"
+      ],
+      "title_evidence": "生产经营中心业务经理",
+      "level_3_evidence": null,
+      "reason": "'生产经营中心业务经理'指生产经营综合管理，归企业与业务综合管理。"
+    },
+    {
+      "occupation_id": "TG-8ab1a587878b1bb27194",
+      "status": "mapped",
+      "target_category_id": "L31-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L31-06",
+        "L14-11"
+      ],
+      "title_evidence": "文旅融合发展服务助理",
+      "level_3_evidence": null,
+      "reason": "'文旅融合发展服务助理'指文旅公共服务，归通用公共与社会服务。"
+    },
+    {
+      "occupation_id": "TG-24bd229513e6f7c1f8a7",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L12-07",
+        "L20-11"
+      ],
+      "title_evidence": "管培生（市场及投资方向）",
+      "level_3_evidence": null,
+      "reason": "'管培生（市场及投资方向）'含两个方向，无法确定主要职能，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-aeb8cd69d52b91dfa794",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L06-09"
+      ],
+      "title_evidence": "工程技术类管培生",
+      "level_3_evidence": null,
+      "reason": "'工程技术类管培生'含'管培生'且限定工程技术类，但未明确具体工程方向，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-e34193ba9f957fc83d30",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L06-07"
+      ],
+      "title_evidence": "医药技术管培生",
+      "level_3_evidence": null,
+      "reason": "'医药技术管培生'含'管培生'且限定医药技术，但未明确具体职能方向，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-83f4a215b6496a95c355",
+      "status": "mapped",
+      "target_category_id": "L27-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L27-05",
+        "L32-01"
+      ],
+      "title_evidence": "酒店经营管培生",
+      "level_3_evidence": null,
+      "reason": "'酒店经营管培生'明确指向酒店经营管理，归住宿经营与管理。"
+    },
+    {
+      "occupation_id": "TG-3b9d51f04de6b09439c2",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L01-11"
+      ],
+      "title_evidence": "技术研发培训生",
+      "level_3_evidence": null,
+      "reason": "'技术研发培训生'含'培训生'且限定技术研发，但未明确具体技术方向，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-e03dc3d66671ed769e22",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L20-11"
+      ],
+      "title_evidence": "定向培养生（邯郸分行-筹）",
+      "level_3_evidence": null,
+      "reason": "'定向培养生（邯郸分行-筹）'含'培养生'且限定银行分行，但未明确具体职能方向，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-a64df990f2fc5e21a155",
+      "status": "mapped",
+      "target_category_id": "L03-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-06",
+        "L23-09-02"
+      ],
+      "title_evidence": "故障排查员",
+      "level_3_evidence": null,
+      "reason": "'故障排查员'通常指IT或设备故障排查，未明确领域，归信息技术支持。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17640,
+    "cached_input_tokens": 17408,
+    "uncached_input_tokens": 232,
+    "output_tokens": 3192,
+    "reasoning_tokens": 0,
+    "total_tokens": 20832
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0020022239999999995
+  },
+  "response_metadata": {
+    "request_id": "0df22621-249a-40ab-b42a-3a42c7c64674",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791895125,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

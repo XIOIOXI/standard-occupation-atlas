@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-91d1f5d161ae7ad0d14b122888f00269",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“产品管培生”仅表明产品方向与培养性质，未明确具体产品职能或轮岗安排；标 review 并保留 L32-01/L32-02/L08-02 候选合理，符合不得仅凭“管培”推断跨职能轮岗的规则。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17093,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 581,
+    "output_tokens": 123,
+    "reasoning_tokens": 0,
+    "total_tokens": 17216
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000420972
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c99f8670-a7b1-41c4-89c7-388775da9aa0",
+  "object": "chat.completion",
+  "created": 1792571685,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-c1961fcd4b368879fc1f754d445742fc\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L23-09-02\", \"issue\": \"设备技术员在制造业语境下归工业设备维修保全合理；候选含安装调试与机械设备设计，属可接受的多义范围，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17042,
+    "completion_tokens": 97,
+    "total_tokens": 17139,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 530
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

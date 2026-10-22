@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-94ce0a64f9fa0c150a52165e2e82283d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-07",
+        "L24-12",
+        "L23-09",
+        "L10-06"
+      ],
+      "title_evidence": "工程实习生",
+      "level_3_evidence": null,
+      "reason": "仅“工程实习生”无法判断工程方向（施工管理、设施维护、设备安装或项目统筹等），且公司为消费品/服装企业，工程职能可能为设施或门店工程，证据不足，需人工确认。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16980,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 340,
+    "output_tokens": 139,
+    "reasoning_tokens": 0,
+    "total_tokens": 17119
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036864
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 4,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "improved_v3",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "d9134d0a-6feb-4239-b399-8c33eb5aef82",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791748568,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 20,
+  "usage": {
+    "input_tokens": 24083,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 787,
+    "output_tokens": 1152,
+    "reasoning_tokens": 0,
+    "total_tokens": 25235
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008791379999999999
+  },
+  "observed_at_utc": "2026-10-11T19:56:09.057369+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-3278ea5e459dd3a6833e",
+      "target_category_id": "财务/审计/税务/finance-risk/risk-credit",
+      "status": "mapped",
+      "reason": "风控创优生核心为风险控制，归入风控下的信用与业务风险。"
+    },
+    {
+      "occupation_id": "SNO-c03f8539d51207af0c9d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法集成工程师属算法工程，缺乏细分方向，归入算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-f695c0780e0d47200402",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "光学算法工程师涉及光学与视觉算法，归入计算机视觉与三维感知。"
+    },
+    {
+      "occupation_id": "SNO-3b2136e836af1dba2456",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-test",
+      "status": "mapped",
+      "reason": "DFT可测性设计属芯片设计与测试环节，归入封装与测试。"
+    },
+    {
+      "occupation_id": "SNO-fe326e2a66e9de2a564e",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "检测员核心为质量检验，归入质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-89a4e92af365046c381f",
+      "target_category_id": "财务/审计/税务/finance-advisor/finance-advisory-transaction",
+      "status": "mapped",
+      "reason": "股权融资及财务顾问属交易与融资顾问。"
+    },
+    {
+      "occupation_id": "SNO-25610785c7097a11c51f",
+      "target_category_id": "教育培训/edu-teacher/teacher-vocational",
+      "status": "mapped",
+      "reason": "专业课教师属职业与技能教学。"
+    },
+    {
+      "occupation_id": "SNO-3820b0a9f1fc2ec4b9d5",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件研发工程师核心为电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-969c4b609b7d6b9c231c",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "review",
+      "reason": "总裁助理职责可能涵盖行政、文秘或业务支持，缺少具体职责信息。"
+    },
+    {
+      "occupation_id": "SNO-f798f466da536c71f5e0",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "管培生岗位明确涵盖研发、职能、商业化、生产与供应链多个方向。"
+    },
+    {
+      "occupation_id": "SNO-eb948c14cc98114d8a6b",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "证券事务经理属证券基金期货领域的运营与事务管理。"
+    },
+    {
+      "occupation_id": "SNO-d4bfaa71f3fd126a2ed1",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "教学科研岗属高等教育教学。"
+    },
+    {
+      "occupation_id": "SNO-2c46ed9676c2ed0f87ee",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "理财经理核心为财富与理财销售。"
+    },
+    {
+      "occupation_id": "SNO-2ce8813b2951bcfa826a",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源储备属人力资源方向，缺乏细分，归入员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-7aa8337f42c770081967",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "基础设施互联互通促进中心专技职责不明确，缺少具体工作内容。"
+    },
+    {
+      "occupation_id": "SNO-7be74dbf3e482a24ab2d",
+      "target_category_id": "生活服务/零售/service-fitness/fitness-training",
+      "status": "mapped",
+      "reason": "私人教练团课教练属健身与体能教练。"
+    },
+    {
+      "occupation_id": "SNO-7ddaeffb4285624bbfed",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "油气储运与新能源开发属能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-bc8d911bdde59f0aabf1",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "mapped",
+      "reason": "财务内控属内部控制与内审。"
+    },
+    {
+      "occupation_id": "SNO-1ee6e8b56f32b3181ae8",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "status": "mapped",
+      "reason": "媒体算法工程师涉及音视频媒体处理，归入语音与音频算法。"
+    },
+    {
+      "occupation_id": "SNO-85d56bf4d4229ac85b31",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "工程岗位名称过于宽泛，缺少具体工程方向信息。"
+    }
+  ]
+}

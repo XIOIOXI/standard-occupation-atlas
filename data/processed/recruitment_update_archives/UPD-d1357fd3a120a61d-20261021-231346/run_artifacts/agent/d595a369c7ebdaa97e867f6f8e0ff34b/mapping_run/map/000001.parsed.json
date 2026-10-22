@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-d595a369c7ebdaa97e867f6f8e0ff34b",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L13-05",
+        "L13-07"
+      ],
+      "title_evidence": "零售管培生RMT，含零售与管培生字样，但未说明具体职能方向",
+      "level_3_evidence": null,
+      "reason": "零售管培生属于培养项目，最终职能方向未明确；零售可能指向门店销售/零售管理，但无直接证据确定具体职能，按规则不得仅凭管培推断，标review并给出跨职能培养与零售销售管理候选。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16984,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 344,
+    "output_tokens": 164,
+    "reasoning_tokens": 0,
+    "total_tokens": 17148
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039984000000000005
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

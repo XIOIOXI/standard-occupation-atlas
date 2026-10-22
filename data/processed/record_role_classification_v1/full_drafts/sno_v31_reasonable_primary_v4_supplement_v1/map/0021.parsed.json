@@ -1,0 +1,369 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-e7747281885ffe7d7d66",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L20-02-01"
+      ],
+      "title_evidence": "资产管理管培生",
+      "level_3_evidence": null,
+      "reason": "“管培生”为培养性质标签，不能替代专业职能；“资产管理”可能指金融资产管理（L20-02-01）或企业实物资产管理，方向不明确，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-54665adec2c78b483e4a",
+      "status": "mapped",
+      "target_category_id": "L13-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-02",
+        "L20-11"
+      ],
+      "title_evidence": "石家庄分行零售业务培训生",
+      "level_3_evidence": null,
+      "reason": "“零售业务”在银行语境下通常指面向个人客户的零售业务，培训生为培养标签，核心职能为个人客户销售/业务，归 L13-02 个人客户销售。"
+    },
+    {
+      "occupation_id": "TG-e14abcfd8af8230b2cf2",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "2026实习生岗位",
+      "level_3_evidence": null,
+      "reason": "仅说明为实习生，无任何职能线索，无法归类。"
+    },
+    {
+      "occupation_id": "TG-19203c7525560fd3c9d2",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-07",
+        "L12-03"
+      ],
+      "title_evidence": "海外线上推广管培生",
+      "level_3_evidence": null,
+      "reason": "“海外线上推广”核心职能为市场推广，管培生为培养标签；未明确为付费广告投放，故归通用市场营销 L12-07。"
+    },
+    {
+      "occupation_id": "TG-1c19c97898fb22ae4a29",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-11",
+        "L19-08",
+        "L20-11"
+      ],
+      "title_evidence": "运营岗（会计、金融、经济）",
+      "level_3_evidence": null,
+      "reason": "“运营岗”方向不明确，括号内专业背景不能确定具体职能，可能为业务运营、财务或金融运营，无法唯一归类。"
+    },
+    {
+      "occupation_id": "TG-7ea99b985f05b15388c4",
+      "status": "mapped",
+      "target_category_id": "L12-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-01",
+        "L12-07"
+      ],
+      "title_evidence": "战略营销培训生",
+      "level_3_evidence": null,
+      "reason": "“战略营销”核心职能为市场策略与营销策划，培训生为培养标签，归 L12-01 市场策略与营销策划。"
+    },
+    {
+      "occupation_id": "TG-e624868bb28b86d90302",
+      "status": "mapped",
+      "target_category_id": "L14-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-11",
+        "L14-01"
+      ],
+      "title_evidence": "营运管理员",
+      "level_3_evidence": null,
+      "reason": "“营运管理员”核心职能为业务运营管理，但具体运营方向未说明，归通用业务运营 L14-11。"
+    },
+    {
+      "occupation_id": "TG-23bbc356dd5c0266f97c",
+      "status": "mapped",
+      "target_category_id": "L14-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-11",
+        "L11-03"
+      ],
+      "title_evidence": "运营管理部专员",
+      "level_3_evidence": null,
+      "reason": "“运营管理部专员”核心职能为业务运营管理，具体方向未说明，归通用业务运营 L14-11。"
+    },
+    {
+      "occupation_id": "TG-053b997651071493c041",
+      "status": "mapped",
+      "target_category_id": "L04-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-02",
+        "L06-09"
+      ],
+      "title_evidence": "寿命技术工程师",
+      "level_3_evidence": null,
+      "reason": "“寿命技术工程师”通常指产品寿命/可靠性测试与验证，归硬件与产品测试 L04-02。"
+    },
+    {
+      "occupation_id": "TG-c013d0369586affcd63b",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L01-01",
+        "L01-02",
+        "L01-04",
+        "L01-06",
+        "L01-08"
+      ],
+      "title_evidence": "软件开发工程师(C++、Java、web前端、Android、嵌入式驱动开发、图形图像、网络通信、仿真验证)",
+      "level_3_evidence": null,
+      "reason": "标题列出多个软件开发方向，未明确唯一方向，归通用软件研发 L01-11。"
+    },
+    {
+      "occupation_id": "TG-8a5f3233034ff14d6fee",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "非长沙地区分行校招生（经济学类、管理学类、数学与统计类、电子信息与计算机类、人工智能与自动化类、法学类、汉语言文学与新闻传播类、专业不限）",
+      "level_3_evidence": null,
+      "reason": "“分行校招生”为银行校园招聘培养项目，专业范围极广，未明确具体职能，无法唯一归类。"
+    },
+    {
+      "occupation_id": "TG-ef07076a92381e6ddeae",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L19-08",
+        "L30-05",
+        "L18-09",
+        "L03-08",
+        "L23-10",
+        "L24-13",
+        "L27-08-01",
+        "L23-09"
+      ],
+      "title_evidence": "财务管理法务管理党群管理信息技术业务管理生产管理工程管理轮机驾驶设备管理航运管理",
+      "level_3_evidence": null,
+      "reason": "标题包含财务、法务、党群、信息技术、业务、生产、工程、轮机驾驶、设备、航运等多个不同职能，属于多角色混合岗位。"
+    },
+    {
+      "occupation_id": "TG-da6930f6c561cba87c8d",
+      "status": "mapped",
+      "target_category_id": "L18-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-09",
+        "L11-07"
+      ],
+      "title_evidence": "综合管理岗 （工商管理类、管理科学与工程类、公共管理类、会计学、会计、审计）",
+      "level_3_evidence": null,
+      "reason": "“综合管理岗”核心职能为综合组织支持与管理，具体方向未说明，归通用组织支持 L18-09。"
+    },
+    {
+      "occupation_id": "TG-1e15b7de944b80697132",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L11-01"
+      ],
+      "title_evidence": "U培生（经营管理）",
+      "level_3_evidence": null,
+      "reason": "“U培生”为培养项目，“经营管理”方向较宽泛，可能为跨职能管理培训或综合经营，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-87c1d667239b32e24a55",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-09",
+        "L32-02"
+      ],
+      "title_evidence": "业务定向生",
+      "level_3_evidence": null,
+      "reason": "“业务定向生”未明确具体业务职能，可能为销售、运营或其他业务方向，无法唯一归类。"
+    },
+    {
+      "occupation_id": "TG-ea1a4ca0ff150f28c983",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "上海总部管理培训生",
+      "level_3_evidence": null,
+      "reason": "“管理培训生”为培养项目，未明确最终职业方向，无法唯一归类。"
+    },
+    {
+      "occupation_id": "TG-ef4a374d1f9ed10b898f",
+      "status": "mapped",
+      "target_category_id": "L16-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-02",
+        "L16-06"
+      ],
+      "title_evidence": "集成供应链管培生",
+      "level_3_evidence": null,
+      "reason": "“集成供应链”核心职能为供应链规划与管理，管培生为培养标签，归 L16-02 供应链规划与管理。"
+    },
+    {
+      "occupation_id": "TG-13ac20d2cac5effe8761",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L14-11",
+        "L16-06"
+      ],
+      "title_evidence": "资源管理岗",
+      "level_3_evidence": null,
+      "reason": "“资源管理岗”未明确资源类型（人力资源、供应链资源、数据资源等），无法唯一归类。"
+    },
+    {
+      "occupation_id": "TG-30a44ca3967668afb6b2",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L14-11"
+      ],
+      "title_evidence": "职能部门业务专员",
+      "level_3_evidence": null,
+      "reason": "“职能部门业务专员”未明确具体职能方向，无法唯一归类。"
+    },
+    {
+      "occupation_id": "TG-32f222285e3795e09021",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L01-11",
+        "L06-09"
+      ],
+      "title_evidence": "研发类管培生",
+      "level_3_evidence": null,
+      "reason": "“研发类管培生”仅说明研发方向，未明确具体研发领域（软件、硬件、材料等），无法唯一归类。"
+    },
+    {
+      "occupation_id": "TG-aff7c2ff71673011d9ac",
+      "status": "mapped",
+      "target_category_id": "L24-13",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-13",
+        "L10-06"
+      ],
+      "title_evidence": "工程技术管理岗",
+      "level_3_evidence": null,
+      "reason": "“工程技术管理岗”核心职能为工程技术管理，通常属建筑工程领域，归通用建筑与工程工作 L24-13。"
+    },
+    {
+      "occupation_id": "TG-4f5dc23685a12174c9ee",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L13-09"
+      ],
+      "title_evidence": "商业管培生",
+      "level_3_evidence": null,
+      "reason": "“商业管培生”为培养项目，未明确具体商业职能方向，无法唯一归类。"
+    },
+    {
+      "occupation_id": "TG-daf26498033a1f7c87a5",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L20-11"
+      ],
+      "title_evidence": "宁波分行公司业务培训生",
+      "level_3_evidence": null,
+      "reason": "“公司业务”在银行语境下指面向企业客户的业务，培训生为培养标签，核心职能为企业客户销售，归 L13-01 企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-c2c800c292b59ca7d7d9",
+      "status": "mapped",
+      "target_category_id": "L24-13",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-13",
+        "L24-01"
+      ],
+      "title_evidence": "工程设计（新疆公司）",
+      "level_3_evidence": null,
+      "reason": "“工程设计”核心职能为工程设计，具体专业方向未说明，归通用建筑与工程工作 L24-13。"
+    },
+    {
+      "occupation_id": "TG-9b080c4b2656a9c65c77",
+      "status": "mapped",
+      "target_category_id": "L24-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-07",
+        "L24-13"
+      ],
+      "title_evidence": "工程部 工程管理岗",
+      "level_3_evidence": null,
+      "reason": "“工程部 工程管理岗”核心职能为工程管理，归施工组织与工程管理 L24-07。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17710,
+    "cached_input_tokens": 17536,
+    "uncached_input_tokens": 174,
+    "output_tokens": 3357,
+    "reasoning_tokens": 0,
+    "total_tokens": 21067
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002092908
+  },
+  "response_metadata": {
+    "request_id": "04397c19-1c09-4293-8db5-2c2e937aede3",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791894856,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

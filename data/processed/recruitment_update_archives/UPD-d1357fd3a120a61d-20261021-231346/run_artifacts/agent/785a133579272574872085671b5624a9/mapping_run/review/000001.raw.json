@@ -1,0 +1,28 @@
+{
+  "id": "dd523ae0-8d01-4da3-b5fd-ce97a79f8949",
+  "object": "chat.completion",
+  "created": 1792571318,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-785a133579272574872085671b5624a9\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L20-08\", \"issue\": \"银行专职柜员属柜面业务操作，归金融运营与交易清算（L20-08）合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16971,
+    "completion_tokens": 85,
+    "total_tokens": 17056,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 459
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

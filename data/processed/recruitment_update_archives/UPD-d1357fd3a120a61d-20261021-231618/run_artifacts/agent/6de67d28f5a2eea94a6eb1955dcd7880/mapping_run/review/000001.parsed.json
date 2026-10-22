@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-6de67d28f5a2eea94a6eb1955dcd7880",
+      "verdict": "pass",
+      "suggested_target_category_id": "L01-02",
+      "issue": "标题明确为后端研发工程师，主归属后端开发（L01-02）合理；未说明业务服务或基础设施方向，停在二级恰当。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17005,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 493,
+    "output_tokens": 99,
+    "reasoning_tokens": 0,
+    "total_tokens": 17104
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000365772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

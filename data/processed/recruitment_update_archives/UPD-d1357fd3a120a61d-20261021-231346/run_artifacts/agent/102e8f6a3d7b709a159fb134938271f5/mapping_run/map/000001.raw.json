@@ -1,0 +1,28 @@
+{
+  "id": "b10b9ac5-96af-41a7-9753-fc0c789b9927",
+  "object": "chat.completion",
+  "created": 1792571307,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-102e8f6a3d7b709a159fb134938271f5\",\"status\":\"mapped\",\"target_category_id\":\"L13-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L13-01\",\"L13-02\",\"L20-08\"],\"title_evidence\":\"标题为“客户经理岗”，银行客户经理以企业/机构客户关系维护与业务拓展为主\",\"level_3_evidence\":null,\"reason\":\"银行客户经理核心职责为客户关系维护与业务拓展，属企业客户销售（L13-01）；虽可能涉及个人客户或柜面业务，但标题未明确，按最直接职能归L13-01。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16943,
+    "completion_tokens": 163,
+    "total_tokens": 17106,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

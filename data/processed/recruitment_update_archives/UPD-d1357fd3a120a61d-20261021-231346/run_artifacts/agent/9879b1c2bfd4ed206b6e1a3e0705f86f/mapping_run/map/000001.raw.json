@@ -1,0 +1,28 @@
+{
+  "id": "c6065f17-3cc1-49a8-b828-ed812a418b7e",
+  "object": "chat.completion",
+  "created": 1792571678,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-9879b1c2bfd4ed206b6e1a3e0705f86f\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L04-03\",\"L04-05\",\"L04-06\"],\"title_evidence\":\"质量实习生\",\"level_3_evidence\":null,\"reason\":\"标题仅含“质量”，未说明是生产质量管理、质量体系认证还是其他质量职能；公司为医疗/医药/生物行业，可能涉及生产质量或质量体系，但证据不足，无法确定唯一二级目标，列为review。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16941,
+    "completion_tokens": 140,
+    "total_tokens": 17081,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 301
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

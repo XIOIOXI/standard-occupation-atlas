@@ -1,0 +1,28 @@
+{
+  "id": "06ba5b3e-8bcb-495c-8410-5e88199b1959",
+  "object": "chat.completion",
+  "created": 1792571878,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-857290fa9410ece4186d8b2f2d5f57ab\",\"status\":\"mapped\",\"target_category_id\":\"L16-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L16-01-01\",\"L16-01-02\",\"L16-01-03\"],\"title_evidence\":\"标题为“采购专员”，明确采购职能；公司为半导体制造企业，但标题未说明采购物料类型\",\"level_3_evidence\":null,\"reason\":\"采购专员属采购与供应商管理（L16-01）；标题未提供直接物料/间接采购/零售买手等三级细分证据，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16956,
+    "completion_tokens": 153,
+    "total_tokens": 17109,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 316
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

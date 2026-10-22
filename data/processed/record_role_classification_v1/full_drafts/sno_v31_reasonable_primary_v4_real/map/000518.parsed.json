@@ -1,0 +1,271 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-5e9c994296849c7fc70f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-09",
+        "L14-11"
+      ],
+      "title_evidence": "业务岗",
+      "level_3_evidence": null,
+      "reason": "仅“业务岗”无法判断是销售还是运营，候选为通用销售或通用业务运营，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-840f2b5329e704e2b204",
+      "status": "mapped",
+      "target_category_id": "L14-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-02"
+      ],
+      "title_evidence": "用户运营专员",
+      "level_3_evidence": null,
+      "reason": "用户运营专员直接对应用户与社群运营，但未明确生命周期或会员社群细分，停在二级。"
+    },
+    {
+      "occupation_id": "TG-321154af19bc49bcac7f",
+      "status": "mapped",
+      "target_category_id": "L04-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L04-04-01"
+      ],
+      "title_evidence": "无损检测工程师",
+      "level_3_evidence": "物理性能与可靠性检测",
+      "reason": "无损检测属于物理性能与可靠性检测，直接匹配三级。"
+    },
+    {
+      "occupation_id": "TG-6216de165c42184011b8",
+      "status": "mapped",
+      "target_category_id": "L05-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-01"
+      ],
+      "title_evidence": "数字前端设计工程师",
+      "level_3_evidence": "数字芯片设计",
+      "reason": "数字前端设计属于数字芯片设计，直接匹配三级。"
+    },
+    {
+      "occupation_id": "TG-9557e100c34fe9f66363",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-08-01",
+        "L05-02-03",
+        "L05-02-04"
+      ],
+      "title_evidence": "整合工程师",
+      "level_3_evidence": null,
+      "reason": "“整合工程师”可能指芯片整合、制造整合等，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-2b6433202874147b2880",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09"
+      ],
+      "title_evidence": "销售顾问",
+      "level_3_evidence": null,
+      "reason": "销售顾问未明确客户类型，归通用销售。"
+    },
+    {
+      "occupation_id": "TG-6a140da1b2fbd0988398",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09"
+      ],
+      "title_evidence": "初级销售顾问",
+      "level_3_evidence": null,
+      "reason": "初级销售顾问未明确客户类型，归通用销售。"
+    },
+    {
+      "occupation_id": "TG-fb2f4efd84e7f43c3d35",
+      "status": "mapped",
+      "target_category_id": "L07-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L07-05"
+      ],
+      "title_evidence": "研究员",
+      "level_3_evidence": null,
+      "reason": "研究员未说明研究领域，归通用科学研究。"
+    },
+    {
+      "occupation_id": "TG-c525ce090e7c202f03d9",
+      "status": "mapped",
+      "target_category_id": "L07-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L07-05"
+      ],
+      "title_evidence": "初级研究员",
+      "level_3_evidence": null,
+      "reason": "初级研究员未说明研究领域，归通用科学研究。"
+    },
+    {
+      "occupation_id": "TG-7b96ba9972d0b232ca8e",
+      "status": "mapped",
+      "target_category_id": "L07-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L07-05"
+      ],
+      "title_evidence": "高级研究员",
+      "level_3_evidence": null,
+      "reason": "高级研究员未说明研究领域，归通用科学研究。"
+    },
+    {
+      "occupation_id": "TG-87def184ba6e7f81b64a",
+      "status": "mapped",
+      "target_category_id": "L07-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L07-02"
+      ],
+      "title_evidence": "政策研究岗",
+      "level_3_evidence": null,
+      "reason": "政策研究属于社会科学与人文研究。"
+    },
+    {
+      "occupation_id": "TG-32d4f5c889aa377c22f5",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09"
+      ],
+      "title_evidence": "国际 / 国内销售",
+      "level_3_evidence": null,
+      "reason": "国际/国内销售未明确客户类型，归通用销售。"
+    },
+    {
+      "occupation_id": "TG-04ad9bd590eed9d01e77",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09"
+      ],
+      "title_evidence": "国际/国内销售",
+      "level_3_evidence": null,
+      "reason": "国际/国内销售未明确客户类型，归通用销售。"
+    },
+    {
+      "occupation_id": "TG-be798c1bcc9a2b9595f2",
+      "status": "mapped",
+      "target_category_id": "L14-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-11"
+      ],
+      "title_evidence": "区域运营",
+      "level_3_evidence": null,
+      "reason": "区域运营未明确具体运营方向，归通用业务运营。"
+    },
+    {
+      "occupation_id": "TG-0fae4b62459334239eb7",
+      "status": "mapped",
+      "target_category_id": "L02-06-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-06-02"
+      ],
+      "title_evidence": "Agent开发工程师",
+      "level_3_evidence": "智能体与工具编排",
+      "reason": "Agent开发工程师直接对应智能体与工具编排。"
+    },
+    {
+      "occupation_id": "TG-529f70ace99876ad1268",
+      "status": "mapped",
+      "target_category_id": "L02-06-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-06-02"
+      ],
+      "title_evidence": "Agent 开发工程师",
+      "level_3_evidence": "智能体与工具编排",
+      "reason": "Agent开发工程师直接对应智能体与工具编排。"
+    },
+    {
+      "occupation_id": "TG-adc0c4b84137ba0ad934",
+      "status": "mapped",
+      "target_category_id": "L02-06-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-06-02"
+      ],
+      "title_evidence": "Agent工程师",
+      "level_3_evidence": "智能体与工具编排",
+      "reason": "Agent工程师直接对应智能体与工具编排。"
+    },
+    {
+      "occupation_id": "TG-922fb717326478efb0d6",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-11",
+        "L20-02-01",
+        "L14-11"
+      ],
+      "title_evidence": "资产运营岗",
+      "level_3_evidence": null,
+      "reason": "资产运营可能指房地产资产运营、金融资产管理或一般资产运营，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-607e6fd68b6d375f78cf",
+      "status": "mapped",
+      "target_category_id": "L14-09-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L14-09-01"
+      ],
+      "title_evidence": "解决方案工程师",
+      "level_3_evidence": "解决方案设计",
+      "reason": "解决方案工程师直接对应售前解决方案设计。"
+    },
+    {
+      "occupation_id": "TG-99ce5c9d47a1b2290605",
+      "status": "mapped",
+      "target_category_id": "L14-09-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L14-09-01"
+      ],
+      "title_evidence": "解决方案工程师（上海、苏州、广州、北京、成都、西安，本科）",
+      "level_3_evidence": "解决方案设计",
+      "reason": "解决方案工程师直接对应售前解决方案设计，地点学历为标签。"
+    }
+  ],
+  "raw_response_file": "000518.raw.json",
+  "usage": {
+    "input_tokens": 17335,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 823,
+    "output_tokens": 2272,
+    "reasoning_tokens": 0,
+    "total_tokens": 19607
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0030723720000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

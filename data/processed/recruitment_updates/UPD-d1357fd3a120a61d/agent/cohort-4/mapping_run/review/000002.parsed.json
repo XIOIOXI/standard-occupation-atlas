@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-91b9cee4887b8695966136a6391952d3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“综合运营管培生”方向不明确，管培标签不足以推断跨职能轮岗，标 review 合理，候选 L32-01/L32-02/L14-11 均可接受。"
+    },
+    {
+      "occupation_id": "UP-b1e9386de2a018d19301f465e2c06741",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "电商助理归 L14-04-01 电商店铺运营合理，属电商运营范畴，二级直达与三级细分均成立。"
+    },
+    {
+      "occupation_id": "UP-b246990aed669aebbb7197f224ef1b5d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "女装设计助理归 L09-04 服装饰品与纺织设计合理，该二级无三级细分，目标为二级正确。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17737,
+    "cached_input_tokens": 16768,
+    "uncached_input_tokens": 969,
+    "output_tokens": 258,
+    "reasoning_tokens": 0,
+    "total_tokens": 17995
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00035045399999999993
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

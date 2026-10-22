@@ -1,0 +1,28 @@
+{
+  "id": "117778c5-dc5a-451b-86ab-75dcb94e9867",
+  "object": "chat.completion",
+  "created": 1791747363,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"standard_occupation_id\":\"SNO-036b2f67b7c481989cb9\",\"target_category_id\":\"市场/公关/广告/marketing-pr/pr-media-public-relations\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-1476ab7132e27b3b52f9\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"名称笼统，无法确定具体检测领域\"},{\"standard_occupation_id\":\"SNO-8972962f317be77a6636\",\"target_category_id\":\"生产制造/manufacturing-operations/manufacturing-ops-planning\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-09956061a81b7808defe\",\"target_category_id\":\"生产制造/manufacturing-general-worker/general-worker-assembly\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-1080766dda240d9f40f4\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"售后助理职责范围不明确\"},{\"standard_occupation_id\":\"SNO-728bc2389338077e635f\",\"target_category_id\":\"咨询/翻译/法律/consult-legal/legal-corporate\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-d0f517b7491e0cda26c2\",\"target_category_id\":null,\"status\":\"multi_role\",\"reason\":\"法务与风控两个职业粘连\"},{\"standard_occupation_id\":\"SNO-412c6d36ed5c331b18ca\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"方案解决领域不明确\"},{\"standard_occupation_id\":\"SNO-e6d1a4c799fe50b4446b\",\"target_category_id\":null,\"status\":\"multi_role\",\"reason\":\"文案与德语英语翻译多职业粘连\"},{\"standard_occupation_id\":\"SNO-1e56d7605dec22111d2b\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"企管法规指向不明确\"},{\"standard_occupation_id\":\"SNO-990a2d3c791707b2e775\",\"target_category_id\":null,\"status\":\"multi_role\",\"reason\":\"化工与外贸业务员多职业粘连\"},{\"standard_occupation_id\":\"SNO-919ea4e5168775cd451c\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"名称过于笼统无法分类\"},{\"standard_occupation_id\":\"SNO-60a6932da8bc0fb9a9cb\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-14a4bd81059099693d70\",\"target_category_id\":\"销售/sales-business/sales-admin-order\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-33c886a363ccb7000512\",\"target_category_id\":null,\"status\":\"multi_role\",\"reason\":\"零售管培与产研技术职能多方向粘连\"},{\"standard_occupation_id\":\"SNO-117dba594b0d6e53eb1d\",\"target_category_id\":\"金融/financial-banking/bank-retail\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-34d86fa9c3f1f82c24cc\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"纪检归属不明确\"},{\"standard_occupation_id\":\"SNO-2796afcf7a07b87d58c6\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"样品管理员行业不明确\"},{\"standard_occupation_id\":\"SNO-e31af1e216b33714e647\",\"target_category_id\":\"市场/公关/广告/marketing-general/marketing-channel\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-435aa6a2a3ed64664fa6\",\"target_category_id\":\"金融/financial-banking/bank-retail\",\"status\":\"mapped\",\"reason\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 23493,
+    "completion_tokens": 906,
+    "total_tokens": 24399,
+    "prompt_tokens_details": {
+      "cached_tokens": 22528
+    },
+    "prompt_cache_hit_tokens": 22528,
+    "prompt_cache_miss_tokens": 965
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

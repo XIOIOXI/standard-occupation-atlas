@@ -1,0 +1,339 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 26,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "3c788975-7e8d-41fc-8a71-25ebf75525fb",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750393,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25054,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1758,
+    "output_tokens": 3605,
+    "reasoning_tokens": 0,
+    "total_tokens": 28659
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0024965879999999997
+  },
+  "observed_at_utc": "2026-10-11T20:26:34.224048+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-93e97cc6f745ee92d026",
+      "target_category_id": "采购/贸易/trade-buyer/buyer-merchandise",
+      "status": "mapped",
+      "reason": "选品师核心职责为商品选品，归入商品买手与选品。"
+    },
+    {
+      "occupation_id": "SNO-a798826dcab1ec94a0f5",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "档案编研属于文档与档案管理，归入文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-c98a99864d617aa02888",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI软件工程师通常涉及AI模型开发，归入大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-e1d65ec9a883853a4b8a",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-engineering",
+      "status": "mapped",
+      "reason": "环保项目助理支持环保工程项目，归入环保工程与治理。"
+    },
+    {
+      "occupation_id": "SNO-5ec109e702c2d4ad689d",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称“定向通用”含义模糊，缺少具体职业职责信息。"
+    },
+    {
+      "occupation_id": "SNO-30a7552b3f4f7f2b3d92",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "助理公司客户经理属于银行公司业务，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-8a831152c0c08bb6a2f4",
+      "target_category_id": "房地产/建筑/estate-property/property-mgmt-facility",
+      "status": "mapped",
+      "reason": "工程物业管培生涉及物业工程管理，归入商办设施与工程管理。"
+    },
+    {
+      "occupation_id": "SNO-633c1fb430cd399b4492",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称“位管理培训生”疑似截断，缺少具体职能方向。"
+    },
+    {
+      "occupation_id": "SNO-a83b26ec6f775368b11c",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "项目经理定向委培生指向项目交付与实施方向。"
+    },
+    {
+      "occupation_id": "SNO-5100c71efe68f19f0f63",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出国际业务、产品、营销、用户增长、质量管理、人力资源等多个独立职能。"
+    },
+    {
+      "occupation_id": "SNO-f4ef9f63be44e2c2723b",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "智慧学习教师教授数英物语，属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-8da87d4ff5b954faae12",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "项目管理专员负责项目交付与实施。"
+    },
+    {
+      "occupation_id": "SNO-87cdbd2f554563aa3acf",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "固定收益量化研究属于证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-31fc532a84da70ca7d4c",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财经专员核心为财务核算，小语种为语言能力修饰。"
+    },
+    {
+      "occupation_id": "SNO-6f84b28f812b731a6293",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "各分行培训生属于银行零售与综合业务培训。"
+    },
+    {
+      "occupation_id": "SNO-68477f3b747bcaafa793",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "初级文控专员负责文档控制，归入文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-65b281c2f34b6f3f08b2",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-channel",
+      "status": "mapped",
+      "reason": "营销项目管培生涉及营销活动与渠道，归入渠道与营销活动。"
+    },
+    {
+      "occupation_id": "SNO-4c091e499758e64196be",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "职能类管培生未指明具体职能方向，无法确定细分职业。"
+    },
+    {
+      "occupation_id": "SNO-1653d8acedf508463163",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-environment",
+      "status": "mapped",
+      "reason": "职业卫生评价工程师属于环境与职业健康管理。"
+    },
+    {
+      "occupation_id": "SNO-22e1154730993ebc99ee",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-environment",
+      "status": "mapped",
+      "reason": "安全环保专员负责安全环保，归入环境与职业健康管理。"
+    },
+    {
+      "occupation_id": "SNO-cec8162a53facff5dab9",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "生物检测工程师属于生物医药研发检测方向。"
+    },
+    {
+      "occupation_id": "SNO-0d92c09d07deee600dc9",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出主播、设计、产品等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-656fb690112b2d3d808f",
+      "target_category_id": "产品/product-internet/product-user",
+      "status": "mapped",
+      "reason": "产品策划助理支持互联网产品策划，归入用户与增长产品。"
+    },
+    {
+      "occupation_id": "SNO-1087bb538b8f11121741",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "平台技术支持属于技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-2b41b7fdb9fa2b39594f",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务专员核心为财务核算，归入总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-b5ba5a9d2dbce62a00ce",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "佛山分行运营培训生属于银行零售与综合运营。"
+    },
+    {
+      "occupation_id": "SNO-3a4338b53c311ec77db3",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "验证岗涉及飞控系统测试，归入功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-b8ec3bfdca7b45e37357",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "工程管理工程师负责施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-b446a6f44a5b55474fb5",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "地质设计属于地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-9c052b7ad5907c8e0a97",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出Java、Web、Android、鸿蒙、AI产品经理等多个独立技术方向。"
+    },
+    {
+      "occupation_id": "SNO-aaa4a82a88151b1079e8",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出海外营销和运营两个独立职能。"
+    },
+    {
+      "occupation_id": "SNO-1f3d8b1a56b6d8827f91",
+      "target_category_id": "运营/客服/ops-product/prodops-user",
+      "status": "mapped",
+      "reason": "海外用户运营属于用户与会员运营，印尼语为语言能力。"
+    },
+    {
+      "occupation_id": "SNO-ab6c0d24878a00cbee1d",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "哈尔滨分行零售业务培训生属于银行零售业务。"
+    },
+    {
+      "occupation_id": "SNO-3278ea5e459dd3a6833e",
+      "target_category_id": "财务/审计/税务/finance-risk/risk-credit",
+      "status": "mapped",
+      "reason": "风控创优生属于信用与业务风险方向。"
+    },
+    {
+      "occupation_id": "SNO-3c4d4b2ae32aac02f219",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "status": "mapped",
+      "reason": "iC++开发工程师属于C++系统与底层开发。"
+    },
+    {
+      "occupation_id": "SNO-60ee38d2ea9a01dadd2e",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "移动网络运营属于通信网络建设与维护。"
+    },
+    {
+      "occupation_id": "SNO-5342cdab4578d480d22b",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "后勤综合管理偏向行政文档与事务，归入文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-360f292a472585df963b",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量研究实验员属于质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-11bfcf3b750ecac7082f",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出集团公司总部管理培训生和子公司生产两个独立方向。"
+    },
+    {
+      "occupation_id": "SNO-3ffbe73a8998b42451f6",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出工程师和产品专员两个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-825f06701f5a9f5f99e6",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "地质灾害调查巡查员属于地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-5b46860a8e8bde1df098",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "建筑岗位归入建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-e920f47d0c054a85ceb7",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "隧道管理属于施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-25ea85cea6c9fe4f03e3",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "产品运维经理负责产品运维，归入基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-fce074a12a3e21abd1eb",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "status": "mapped",
+      "reason": "设计研发员通常涉及工业产品设计。"
+    },
+    {
+      "occupation_id": "SNO-329b2a9315a9baf63bdb",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "语言大模型工程师属于大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-8dab2819a0051be5c1ea",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "集团战略管培生偏向战略咨询与管理咨询。"
+    },
+    {
+      "occupation_id": "SNO-14793b1076a10d485967",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "商业运营属于业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-77c7eb4b1ca6da4eab4c",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "生成式AI研究员属于大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-278b9ba50e8adfc72f26",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "mapped",
+      "reason": "复核员通常负责内部复核，归入内部控制与内审。"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-b6b11ee8a631f9186d41",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "消费者管理培训生(小语种)",
+      "level_3_evidence": null,
+      "reason": "标题含“管理培训生”，但“消费者”仅指向行业或领域，未明确具体职能（如销售、市场、运营等），无法确定专业归属，按规则标 review。"
+    },
+    {
+      "occupation_id": "TG-45aa849a572cacc853f5",
+      "status": "mapped",
+      "target_category_id": "L22-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "理科思维教师",
+      "level_3_evidence": "理科思维教师",
+      "reason": "标题明确为教师，且“理科”直接对应数学与自然科学教学，符合 L22-02-02 的 scope。"
+    },
+    {
+      "occupation_id": "TG-6e00a507a1457be97dab",
+      "status": "mapped",
+      "target_category_id": "L05-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电机驱动控制工程师",
+      "level_3_evidence": null,
+      "reason": "电机驱动控制属于自动化与控制工程范畴，L05-04 明确涵盖工业控制与控制系统集成，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-198e3cacb192e089d95d",
+      "status": "mapped",
+      "target_category_id": "L02-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "模型验证工程师",
+      "level_3_evidence": "模型验证工程师",
+      "reason": "模型验证属于机器学习平台中的评估环节，L02-07-02 明确包含评估平台及 MLOps 工程。"
+    },
+    {
+      "occupation_id": "TG-fed78f9ba22cdc585cf7",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "营销管培生(5人)",
+      "level_3_evidence": null,
+      "reason": "标题含“管培生”，但“营销”可能对应市场或销售职能，未明确具体方向，无法确定专业归属，按规则标 review。"
+    },
+    {
+      "occupation_id": "TG-687c433f8021ad2977ba",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "深圳分行培训生",
+      "level_3_evidence": null,
+      "reason": "标题仅表明银行分行培训生，未明确具体职能（如柜员、客户经理、风控等），按规则标 review。"
+    },
+    {
+      "occupation_id": "TG-d520532653504a663806",
+      "status": "mapped",
+      "target_category_id": "L03-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "机器人运维工程师",
+      "level_3_evidence": null,
+      "reason": "机器人运维属于系统与服务器运维范畴，L03-01 涵盖操作系统、服务器及基础系统运行维护，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-b8d69d637d48c6576a49",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电子研发工程师",
+      "level_3_evidence": null,
+      "reason": "电子研发工程师属于电子硬件研发，L05-01 涵盖电路、PCB、电子系统与硬件方案设计，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-0b9f23af2b60711b76d1",
+      "status": "mapped",
+      "target_category_id": "L24-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "给排水助理工程师（给排水科学与工程等相关专业，本科及以上）",
+      "level_3_evidence": null,
+      "reason": "给排水属于建筑机电与设备工程，L24-04 明确涵盖建筑给排水，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-7c9685a13b76b7bd3e08",
+      "status": "mapped",
+      "target_category_id": "L18-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "文字综合专员",
+      "level_3_evidence": null,
+      "reason": "文字综合专员属于秘书助理与文书事务，L18-06 涵盖文员、资料及综合办公支持，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-0299b331f7c2b9d5094b",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "全球销售管培生（营销管理类、商务经贸类、市场营销类、电子商务类、经济贸易类）",
+      "level_3_evidence": null,
+      "reason": "标题含“管培生”，且专业要求宽泛，未明确具体销售职能方向，按规则标 review。"
+    },
+    {
+      "occupation_id": "TG-7f828e157f648ba80aa8",
+      "status": "mapped",
+      "target_category_id": "L16-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "生产供应链主管",
+      "level_3_evidence": null,
+      "reason": "生产供应链主管属于供应链规划与管理，L16-02 涵盖供需协同、供应链策略与网络规划，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-c45be2ebdcac9421d5a5",
+      "status": "mapped",
+      "target_category_id": "L20-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "投研分析师Analyst（专业不限）",
+      "level_3_evidence": null,
+      "reason": "投研分析师属于投资研究与分析，L20-01 涵盖金融证券、资产与投资研究，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-68e3942af0d1a2d6617d",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "国内水产饲料技术服务工程师",
+      "level_3_evidence": null,
+      "reason": "水产饲料技术服务工程师属于售后技术服务，L14-10 涵盖客户设备或产品安装、调试与售后技术服务，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-237c5b6205e497b8fa33",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "AI算法工程师",
+      "level_3_evidence": null,
+      "reason": "AI算法工程师属于机器学习与算法研发，L02-05 涵盖推荐、搜索、预测、优化、视觉、语音、NLP 等模型与算法研发，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-679f06d16a60ed727b2f",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "工艺工程师（材料、高分子材料相关专业、复合材料相关专业）",
+      "level_3_evidence": null,
+      "reason": "工艺工程师属于工艺与制造工程，L06-08 涵盖工业化、制造工艺、制程、模具工艺及工艺优化，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-58124133f9527e8bca53",
+      "status": "mapped",
+      "target_category_id": "L24-10-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "土建技术员",
+      "level_3_evidence": "土建技术员",
+      "reason": "土建技术员直接对应土建施工工种，L24-10-01 明确涵盖砌筑钢筋模板混凝土等。"
+    },
+    {
+      "occupation_id": "TG-82bedf1b1557c9adae90",
+      "status": "mapped",
+      "target_category_id": "L24-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "建筑施工岗",
+      "level_3_evidence": null,
+      "reason": "建筑施工岗属于建筑施工与装修作业，L24-10 涵盖建筑工人、装修施工、工程机械操作，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-4918ba7b6545e0ed6739",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "销售专员（供应链相关专业、专业不限）",
+      "level_3_evidence": null,
+      "reason": "销售专员未明确客户类型或销售方向，按规则归入通用销售 L13-09。"
+    },
+    {
+      "occupation_id": "TG-103b711bf3a9563733fd",
+      "status": "mapped",
+      "target_category_id": "L02-08-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "智能视觉算法评测工程师",
+      "level_3_evidence": "智能视觉算法评测工程师",
+      "reason": "智能视觉算法评测属于模型人工评价与行为测试，L02-08-02 明确涵盖模型人工评价反馈及行为测试。"
+    }
+  ],
+  "raw_response_file": "000017.raw.json",
+  "usage": {
+    "input_tokens": 17402,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 890,
+    "output_tokens": 2516,
+    "reasoning_tokens": 0,
+    "total_tokens": 19918
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003385272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only"
+}

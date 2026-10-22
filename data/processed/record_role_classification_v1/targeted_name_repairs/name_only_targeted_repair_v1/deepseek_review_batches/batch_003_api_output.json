@@ -1,0 +1,28 @@
+{
+  "id": "35af633f-da90-4ffc-b1ee-935929083a85",
+  "object": "chat.completion",
+  "created": 1791813060,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-881027c34587609b6458\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-graphics\",\"reason\":\"GPU软件架构师核心为图形与高性能计算，与C++图形与高性能计算类别边界一致，保留。\"},{\"occupation_id\":\"SNO-198388c3b59237931a3d\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列软件产品经理与硬件产品经理两个独立职业方向，确为multi_role。\"},{\"occupation_id\":\"SNO-7ddaeffb4285624bbfed\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列油气储运与新能源开发两个独立职业方向，确为multi_role。\"},{\"occupation_id\":\"SNO-3dac4872d6514ef54811\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列算法与FPGA两个独立技术方向，确为multi_role。\"},{\"occupation_id\":\"SNO-945702410de88969fdde\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列机械、电气、算法、电池热管理等多个独立研发方向，确为multi_role。\"},{\"occupation_id\":\"SNO-779429dd4c39fbf27cf3\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列舞台设计与戏剧演艺两个独立职业方向，确为multi_role。\"},{\"occupation_id\":\"SNO-c39e89d76794b9344dad\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"Agent开发工程师核心为大模型与生成式AI应用开发，归入大模型与生成式AI合理，保留。\"},{\"occupation_id\":\"SNO-3457f5686cb6f8350ba9\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列音乐人工智能教学与多个学科方向，属多个独立职业方向并列，确为multi_role。\"},{\"occupation_id\":\"SNO-5159d971b31339dd5d86\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"飞控与导航设计核心为机器人/无人系统的控制与导航算法，归入机器人与具身智能合理，保留。\"},{\"occupation_id\":\"SNO-cc1c559113b8e0d3ac3d\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列选矿项目研究员、试验员、冶金试验员、分析检测员等多个独立岗位，确为multi_role。\"},{\"occupation_id\":\"SNO-18de41214fd75c03d27e\",\"decision\":\"reclassify\",\"target_category_id\":\"生产制造/manufacturing-technician/skilled-worker-maintenance\",\"reason\":\"设备管理核心为设备维护与安装，归入生产制造技工-设备维修与安装比生活服务维修更贴切。\"},{\"occupation_id\":\"SNO-022cfcd57f4c6281a0ef\",\"decision\":\"keep\",\"target_category_id\":\"运营/客服/ops-business/business-ops-growth\",\"reason\":\"零售运营分析核心为业务运营与增长分析，归入业务增长与策略运营合理，保留。\"},{\"occupation_id\":\"SNO-c4d0026e3781c5d078b6\",\"decision\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"史前考古研究属考古研究，目录无对应承接类别，确为taxonomy_gap。\"},{\"occupation_id\":\"SNO-4c39ab32eed25c8fa737\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列技术文控与点胶工艺工程师两个独立职业方向，确为multi_role。\"},{\"occupation_id\":\"SNO-dce55d76fa5da64b11de\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人后训练工程师核心为机器人与具身智能算法，归入机器人与具身智能合理，保留。\"},{\"occupation_id\":\"SNO-bdf546f27a619daaf04a\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"灵巧手与末端操作控制工程师核心为机器人与具身智能算法，归入机器人与具身智能合理，保留。\"},{\"occupation_id\":\"SNO-959f2a1cc703b7c5d8b9\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列设备维修员与生产计划专员两个独立职业，确为multi_role。\"},{\"occupation_id\":\"SNO-854bbfb103f0b7333c0e\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列前端与后端两个独立开发方向，确为multi_role。\"},{\"occupation_id\":\"SNO-6eea4be8d5e0f7a0fa67\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列营运、人力、行政、采购、审计等多个独立职业方向，确为multi_role。\"},{\"occupation_id\":\"SNO-6480eba58adebd961f26\",\"decision\":\"keep\",\"target_category_id\":\"教育培训/edu-sports/sports-training-sports\",\"reason\":\"教练员通常指运动专项教练，归入专项运动训练合理，保留。\"},{\"occupation_id\":\"SNO-4e5a908c6d62ce157b6b\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列AI产品与全栈工程师两个独立职业方向，确为multi_role。\"},{\"occupation_id\":\"SNO-15eaa3babe2614bb1c6d\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列信息调研员与新药化学研究员两个独立职业，确为multi_role。\"},{\"occupation_id\":\"SNO-9dc3dbc91c1ce13d478a\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列财务管理部专员与法律两个独立职业方向，确为multi_role。\"},{\"occupation_id\":\"SNO-477de91fc6dab44b8bab\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"AI编译器研究员核心为算法与编译技术研究，归入算法研究与通用算法合理，保留。\"},{\"occupation_id\":\"SNO-161abe5f5dbaddd664a9\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列行政、文秘、人事三个独立职业方向，确为multi_role。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30516,
+    "completion_tokens": 1474,
+    "total_tokens": 31990,
+    "prompt_tokens_details": {
+      "cached_tokens": 27264
+    },
+    "prompt_cache_hit_tokens": 27264,
+    "prompt_cache_miss_tokens": 3252
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "61da6f5d-aace-4d42-844c-dd3eee5c09de",
+  "object": "chat.completion",
+  "created": 1792571481,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-228a79a60ee6dd92da725d15222ce698\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L10-06\",\"L24-07\",\"L14-11\"],\"title_evidence\":\"工程部业务员：仅含“工程部”部门与泛化“业务员”，无具体职责描述\",\"level_3_evidence\":null,\"reason\":\"“业务员”为泛化称谓，工程部可能涉及工程项目管理、施工组织或业务运营，无法确定唯一职能方向，需人工确认具体职责\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16971,
+    "completion_tokens": 138,
+    "total_tokens": 17109,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 331
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

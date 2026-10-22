@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "prompt_version": "sno-v3.1-reasonable-primary-v2-full",
+    "taxonomy_version": "sno-v3.1-local-revision",
+    "taxonomy_sha256": "90629daf20448950f94fe1d15804db35af11fe64e4b388140c377f6f45ceecc3",
+    "source_record_count": 20964,
+    "distinct_title_count": 11933,
+    "budget_usd": 0.0
+  },
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "仅原岗位标题。JSON {\"results\":[{\"original_record_id\":\"RR-x\",\"case\":\"A\",\"child_titles\":[\"岗位甲\",\"岗位乙\"],\"source_spans\":[{\"text\":\"岗位甲\",\"start\":0,\"end\":3},{\"text\":\"岗位乙\",\"start\":4,\"end\":7}],\"reason\":\"原文明确独立岗位\"}]}。case仅A|B|C|D，只有A拆分；斜杠/顿号/多词不能单独证明A。child_titles字符串数组；source_spans对象数组一一对应，Unicode start含end不含，text必须等于原文切片；B/C/D无子岗位。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"RR-sim-multi\", \"title\": \"岗位甲、岗位乙\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  }
+}

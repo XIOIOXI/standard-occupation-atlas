@@ -1,0 +1,292 @@
+{
+  "results": [
+    {
+      "occupation_id": "CR-0250233c23a67e7cbf0f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L07-03",
+        "L23-10"
+      ],
+      "title_evidence": "研发技术员",
+      "level_3_evidence": null,
+      "reason": "标题仅表明研发技术员，未说明具体行业或技术方向，无法确定归属L06、L07或L23等类别。"
+    },
+    {
+      "occupation_id": "CR-c9b55e8ee629def84dbd",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08",
+        "L23-10"
+      ],
+      "title_evidence": "工艺技术员",
+      "level_3_evidence": null,
+      "reason": "工艺技术员通常负责制造工艺，符合L06-08工艺与制造工程的范围。"
+    },
+    {
+      "occupation_id": "CR-2717440f981bb63e8bdb",
+      "status": "mapped",
+      "target_category_id": "L23-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-09",
+        "L06-08"
+      ],
+      "title_evidence": "设备技术员",
+      "level_3_evidence": null,
+      "reason": "设备技术员通常负责工业设备的安装、调试与维护，符合L23-09设备安装维修与保全。"
+    },
+    {
+      "occupation_id": "CR-cda19494169cbb0c7a2a",
+      "status": "mapped",
+      "target_category_id": "L05-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-04",
+        "L05-03"
+      ],
+      "title_evidence": "仪表技术员",
+      "level_3_evidence": null,
+      "reason": "仪表技术员通常涉及工业自动化仪表的维护与调试，符合L05-04自动化与控制工程。"
+    },
+    {
+      "occupation_id": "CR-8f62d5361826c0397a87",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03",
+        "L05-04"
+      ],
+      "title_evidence": "电气技术员",
+      "level_3_evidence": null,
+      "reason": "电气技术员负责电气设备与系统的维护，符合L05-03电气工程。"
+    },
+    {
+      "occupation_id": "CR-d5286ed57bdeae8ef18d",
+      "status": "mapped",
+      "target_category_id": "L17-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L17-02",
+        "L16-02"
+      ],
+      "title_evidence": "储运技术员",
+      "level_3_evidence": null,
+      "reason": "储运技术员通常负责仓储与运输操作，符合L17-02仓储与库存作业。"
+    },
+    {
+      "occupation_id": "CR-0f0c1fb229ffc62f48b5",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L16-04"
+      ],
+      "title_evidence": "外贸业务员",
+      "level_3_evidence": null,
+      "reason": "外贸业务员主要职责是开发海外客户并完成销售，属于企业客户销售。"
+    },
+    {
+      "occupation_id": "CR-536d48c772c1033d60fb",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L15-10"
+      ],
+      "title_evidence": "短剧管培生",
+      "level_3_evidence": null,
+      "reason": "标题含“管培生”，但未明确最终职能方向，且“短剧”可能指向内容制作，需进一步确认。"
+    },
+    {
+      "occupation_id": "CR-7d707710ad345108d57c",
+      "status": "mapped",
+      "target_category_id": "L09-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-07",
+        "L09-06"
+      ],
+      "title_evidence": "AI动画生成师",
+      "level_3_evidence": null,
+      "reason": "AI动画生成师负责动画制作，符合L09-07动画与动态视觉设计。"
+    },
+    {
+      "occupation_id": "CR-5ff44926b36d54283e75",
+      "status": "mapped",
+      "target_category_id": "L15-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L15-06",
+        "L09-07"
+      ],
+      "title_evidence": "AI动画剪辑师",
+      "level_3_evidence": null,
+      "reason": "AI动画剪辑师负责剪辑与后期制作，符合L15-06剪辑与影视后期。"
+    },
+    {
+      "occupation_id": "CR-89eddc4a0354a3b68b71",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L32-01"
+      ],
+      "title_evidence": "U培生(销售类方向)",
+      "level_3_evidence": null,
+      "reason": "标题明确销售方向，但未说明客户类型，归入通用销售。"
+    },
+    {
+      "occupation_id": "CR-0fce7c6332aeec13cc36",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L32-01"
+      ],
+      "title_evidence": "u培生(信息科技方向)",
+      "level_3_evidence": null,
+      "reason": "标题明确信息科技方向，但未说明具体开发领域，归入通用软件研发。"
+    },
+    {
+      "occupation_id": "CR-004cdcfa177d61a77e2c",
+      "status": "mapped",
+      "target_category_id": "L14-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-07",
+        "L14-08"
+      ],
+      "title_evidence": "客户服务经理",
+      "level_3_evidence": null,
+      "reason": "客户服务经理通常负责客服团队管理，符合L14-07客服与客户支持。"
+    },
+    {
+      "occupation_id": "CR-ba52bcc8ddd7575ca0a2",
+      "status": "mapped",
+      "target_category_id": "L20-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-08",
+        "L19-02"
+      ],
+      "title_evidence": "柜员",
+      "level_3_evidence": null,
+      "reason": "柜员通常指银行柜面业务操作，符合L20-08金融运营与交易清算。"
+    },
+    {
+      "occupation_id": "CR-ceb3ddc187982b546b36",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L02-09",
+        "L03-08"
+      ],
+      "title_evidence": "数字化科技类",
+      "level_3_evidence": null,
+      "reason": "标题过于宽泛，未明确具体技术方向，无法确定归属。"
+    },
+    {
+      "occupation_id": "CR-9a245b8dbfc332ccaaf3",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L19-08",
+        "L30-05"
+      ],
+      "title_evidence": "职能类",
+      "level_3_evidence": null,
+      "reason": "标题仅表明职能类，未说明具体职能，无法确定归属。"
+    },
+    {
+      "occupation_id": "CR-25d490feb074401285e3",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-07",
+        "L13-07"
+      ],
+      "title_evidence": "营销管理类",
+      "level_3_evidence": null,
+      "reason": "营销管理类通常属于市场营销职能，归入通用市场营销。"
+    },
+    {
+      "occupation_id": "CR-4d0477087115b6221988",
+      "status": "mapped",
+      "target_category_id": "L20-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-01",
+        "L08-03"
+      ],
+      "title_evidence": "金融产品筛选类",
+      "level_3_evidence": null,
+      "reason": "金融产品筛选通常涉及投资研究与分析，符合L20-01投资研究与分析。"
+    },
+    {
+      "occupation_id": "CR-8e6cca4ea93d758fef01",
+      "status": "mapped",
+      "target_category_id": "L30-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L30-05",
+        "L30-03"
+      ],
+      "title_evidence": "法务/风控/合规类",
+      "level_3_evidence": null,
+      "reason": "标题包含法务、风控、合规，属于法律合规与知识产权职能，归入通用法律与合规工作。"
+    },
+    {
+      "occupation_id": "CR-50216cec7c83d1beb08b",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-08",
+        "L14-08",
+        "L08-03"
+      ],
+      "title_evidence": "产品存续类",
+      "level_3_evidence": null,
+      "reason": "产品存续类可能涉及金融产品存续期管理，但具体职能不明确，需进一步确认。"
+    }
+  ],
+  "raw_response_file": "000021.raw.json",
+  "usage": {
+    "input_tokens": 17347,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 835,
+    "output_tokens": 2451,
+    "reasoning_tokens": 0,
+    "total_tokens": 19798
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003290772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

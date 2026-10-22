@@ -1,0 +1,35 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-7e8d65be483d9fb8bce5",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "硬件/软件技术支持工程师",
+  "child_title": "硬件技术支持工程师",
+  "source_span": {
+    "text": "硬件",
+    "start": 0,
+    "end": 2
+  },
+  "raw_decision": {
+    "original_record_id": "TG-7e8d65be483d9fb8bce5",
+    "case": "A",
+    "child_titles": [
+      "硬件技术支持工程师",
+      "软件技术支持工程师"
+    ],
+    "source_spans": [
+      {
+        "text": "硬件",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "软件技术支持工程师",
+        "start": 3,
+        "end": 11
+      }
+    ],
+    "reason": "标题由斜杠分隔的两个独立岗位组成，可拆分为硬件技术支持工程师和软件技术支持工程师。"
+  }
+}

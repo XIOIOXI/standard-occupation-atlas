@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-15e96f98bd762d75dbf8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "Unity开发工程师归入引擎系统开发，合理。"
+    },
+    {
+      "occupation_id": "TG-a06af1652457c51bdcaa",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "天线工程师归入无线与射频技术，合理。"
+    },
+    {
+      "occupation_id": "TG-e24d1e9d58fed3885451",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L05-05-01",
+      "issue": "阵列前端设计师中的“前端”指天线阵列前端，属无线与射频技术，不应归Web前端。"
+    },
+    {
+      "occupation_id": "TG-7c4a0cbe708681cf3bae",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "工艺技术员归入制造制程工程，合理。"
+    },
+    {
+      "occupation_id": "TG-d31a20f53d6348ef0c10",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "投资岗归入投资组合与资产管理，合理。"
+    },
+    {
+      "occupation_id": "TG-8d5f3411c4ec021d5f28",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "专业技术人员过于宽泛，review合理。"
+    },
+    {
+      "occupation_id": "TG-2e9494fdda57c0cb4ddc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "焊接工艺岗归入焊接钣金与金属加工，合理。"
+    },
+    {
+      "occupation_id": "TG-906a813f5de41e4175a9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "焊接工艺归入焊接钣金与金属加工，合理。"
+    },
+    {
+      "occupation_id": "TG-9bc89c1ca006f6b701d0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "强化学习算法工程师归入运筹优化与决策算法，合理。"
+    },
+    {
+      "occupation_id": "TG-cbd1259fd59fdc84d543",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "成本会计岗归入成本会计，合理。"
+    },
+    {
+      "occupation_id": "TG-709a95cad6bdb689fb4f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "成本会计归入成本会计，合理。"
+    },
+    {
+      "occupation_id": "TG-e450fb0d88c7eb63a0d4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "现场管理专员领域未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-e0e32e93bdeaf26b093e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品开发岗产品类型未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-e72c7e85de3bfb4aeaab",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "京剧演员归入表演配音与模特，合理。"
+    },
+    {
+      "occupation_id": "TG-e2a2d71401a996595832",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "京剧演员岗归入表演配音与模特，合理。"
+    },
+    {
+      "occupation_id": "TG-46a0b1ca7255da98267f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "装调工程师领域未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-749cb807076f1e618656",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "动漫游戏大数据工具及产品开发岗归入通用软件研发，合理。"
+    },
+    {
+      "occupation_id": "TG-3709175fd7cad179ee4f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仿真开发领域未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-2c0db80248ce31e88528",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "初级仿真工程师领域未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-99b27449614896209ab6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "高级仿真工程师领域未明确，review合理。"
+    }
+  ],
+  "raw_response_file": "000556.raw.json",
+  "usage": {
+    "input_tokens": 19491,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2979,
+    "output_tokens": 961,
+    "reasoning_tokens": 0,
+    "total_tokens": 20452
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002145972
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

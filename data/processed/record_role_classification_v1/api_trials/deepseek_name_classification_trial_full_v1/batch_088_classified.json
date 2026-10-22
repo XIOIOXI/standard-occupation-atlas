@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 88,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "c9d1cde5-4134-4cd8-bbf6-5e02c9acb946",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751558,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25103,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1807,
+    "output_tokens": 4058,
+    "reasoning_tokens": 0,
+    "total_tokens": 29161
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002775738
+  },
+  "observed_at_utc": "2026-10-11T20:45:59.238434+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-e41907b2819818ed32b2",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“企划”职责范围宽泛，可能涉及市场、产品、运营等方向，缺少具体行业或职能信息，无法确定唯一类别。"
+    },
+    {
+      "occupation_id": "SNO-d1cfe446eeb551c2e1f2",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "市场综合监管辅助员属于市场监管辅助类岗位，目录中无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-166b9e24afcbf3ee3b3d",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "售前策划核心为售前方案与解决方案支持，归入销售技术支持下的售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-b86b66acdabdea0319c8",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "有色冶金设计属于冶金工程设计方向，目录中无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-ca869a0b26da0dd87089",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "销售经理核心为客户开发与销售管理，智慧农业方向为行业修饰，归入销售下的客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-593f6de190e26afd54d9",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时包含创新投融资研究和项目策划两个独立职责方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-97cede0c6f7997c8a8ef",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机械臂设计属于机械结构与产品设计，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-9170b111decf5a940895",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "供试品配置/管理通用类管培生职责方向不明确，缺少具体岗位职能信息。"
+    },
+    {
+      "occupation_id": "SNO-99dbdce76a6853e556dc",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "上位机软件开发工程师核心为业务服务端/应用软件开发，归入后端开发下的业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-cccd358647a03a105014",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "射频工程师核心为无线与通信系统研发，归入通信下的无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-c0e875eb6f9a74d85324",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "天风财富分支机构业务属于证券基金期货业务运营，归入证券/基金/期货下的基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-07a9045d768f7752fbd1",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "制冷售后技术支持工程师核心为技术支持与客户交付，归入运维/技术支持下的技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-5a53b27d8df3e2a7d7b7",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-external",
+      "status": "mapped",
+      "reason": "审计专业核心为外部与财务审计，归入审计下的外部与财务审计。"
+    },
+    {
+      "occupation_id": "SNO-8c85ed091709593a3763",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "机载测试设备研发工程师核心为电路与硬件设计，归入电子/硬件开发下的电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-291ba8af7bbe5ea9c17e",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "研究院研究助理核心为调研与研究支持，归入咨询/调研下的市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-c1fb9c8a12e0a908e397",
+      "target_category_id": "运营/客服/ops-social-media/media-video",
+      "status": "mapped",
+      "reason": "达播运营核心为直播运营，归入新媒体运营下的短视频与直播运营。"
+    },
+    {
+      "occupation_id": "SNO-d503ce7715e5daa60036",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "海外注册专员属于产品注册/合规方向，目录中无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-5d7c556825976eb9c53c",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "4D重建算法工程师核心为三维感知与视觉算法，归入算法工程师下的计算机视觉与三维感知。"
+    },
+    {
+      "occupation_id": "SNO-ff4d014f2ee3b9dc96e5",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出服装设计助理、新媒体运营、门店服装导购三个独立职业，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-27c9ed7d775560fe0830",
+      "target_category_id": "销售/sales-business/sales-admin-order",
+      "status": "mapped",
+      "reason": "订单处理专员核心为订单与合同管理，归入销售行政/商务下的订单与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-e4b142f30b2c30dcfec0",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件技术工程师核心为电路与硬件设计，电源/电池方向为细分方向，归入电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-2cbfc99ac32a92f7d46f",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "status": "mapped",
+      "reason": "软件总体设计工程师核心为平台与系统架构设计，归入后端开发下的平台与中间件开发。"
+    },
+    {
+      "occupation_id": "SNO-9d83a47d83334aa92369",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "基金运营岗核心为基金运营与交易支持，归入证券/基金/期货下的基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-558b851fea1ce82aa3a3",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "CAE分析工程师核心为机械结构与产品仿真设计，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-55ca89625ebdef0f1d16",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "特殊教育教师属于基础教育教学范畴，归入教师下的基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-bf7fe0ecdbb9845b28d1",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "营销宣传高级经理核心为品牌与市场策略，AI/新媒体方向为修饰，归入市场/营销下的品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-07d4da3be24b42b1b431",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "数提运营软件产品经理核心为平台与企业产品，归入互联网产品经理下的平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-99ce2a9811dfe1af67ad",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时列出管培生(业务方向)和管培生(研究方向)两个不同方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-e9ab8a781273a6f131bd",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "小初素质类教师属于基础教育教学，归入教师下的基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-fa7515217babde706dae",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "AA制程开发核心为生产制程开发与改善，归入生产营运下的生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-83a0cf9bc63225c8d121",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气工程师核心为电气控制与自动化设计，归入电气/自动化下的电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-3d22480a08c9b1dc2b6b",
+      "target_category_id": "金融/financial-internet/fintech-product",
+      "status": "mapped",
+      "reason": "高级分析师(创新金融)核心为金融科技产品与运营分析，归入互联网金融下的金融科技产品与运营。"
+    },
+    {
+      "occupation_id": "SNO-f51245ee1aada5de1aac",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "系统优化工程师核心为低碳智能燃煤发电系统优化，归入能源/地质下的能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-2e900a86e8423fb64f0a",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "产品专员方向核心为互联网产品工作，归入互联网产品经理下的平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-d4c5773a765bcebdccca",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "通信算法高级工程师核心为无线与通信系统算法研发，归入通信下的无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-6f9c985d116e16b82abb",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "党群人力管培生核心为人力资源与员工关系工作，归入人力资源下的员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-a264210571d4536623e1",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "施工经理核心为施工现场管理，总装项目为项目类型修饰，归入工程管理下的施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-755246b13ff60268d0f1",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "储备生产品质/测量/客户品质工程师核心为质量检验与过程控制，归入质量管理下的质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-519553bae15f45a6cafd",
+      "target_category_id": "影视/传媒/media-film/film-production",
+      "status": "mapped",
+      "reason": "艺术生产统筹核心为影视制作与制片统筹，归入影视媒体下的影视制作与制片。"
+    },
+    {
+      "occupation_id": "SNO-8f7eeda938147d910a3e",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-operations",
+      "status": "mapped",
+      "reason": "国际贸易业务员核心为进出口业务与单证操作，归入进出口贸易下的进出口业务与单证。"
+    },
+    {
+      "occupation_id": "SNO-f5786d83ffc6b6dd3686",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-transport",
+      "status": "mapped",
+      "reason": "车务段车务运转操作技能核心为运输调度与线路运营，归入物流/运输下的运输调度与线路运营。"
+    },
+    {
+      "occupation_id": "SNO-6ba7d0a9118dd2485189",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "机电综合设计核心为电气控制与自动化设计，归入电气/自动化下的电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-272bc7546b40c225b371",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "status": "mapped",
+      "reason": "画廊运营核心为门店与现场运营，归入线下运营下的门店与现场运营。"
+    },
+    {
+      "occupation_id": "SNO-b0c7405e5958eb634e92",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "先进材料开发工程师核心为材料工艺与生产开发，归入化工下的化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-864fd7b61c046f18cbca",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "芯片运营核心为半导体制造工艺与运营，归入半导体/芯片下的制造工艺。"
+    },
+    {
+      "occupation_id": "SNO-80b62dbe429b02759add",
+      "target_category_id": "运营/客服/ops-copywriting/copy-brand",
+      "status": "mapped",
+      "reason": "客户策划专员核心为品牌与广告策划，归入文案策划下的品牌与广告文案。"
+    },
+    {
+      "occupation_id": "SNO-53a8912f053e8e1c7f52",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "政企客户经理核心为客户开发与直销，归入销售下的客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-fbcf53f2b2139018d029",
+      "target_category_id": "财务/审计/税务/finance-cashier/cashier-payment",
+      "status": "mapped",
+      "reason": "业务结算专员核心为资金收付与结算，归入出纳下的资金收付与结算。"
+    },
+    {
+      "occupation_id": "SNO-e5b6665bfe9a83fb40dc",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "量子计算科学家核心为算法研究与通用算法，归入算法工程师下的算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-29a1c5bcc9d1459d2927",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "客户营销岗核心为客户开发与营销，对公/产业链为业务方向修饰，归入销售下的客户开发与直销。"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "batch_number": 16,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18195,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 1555,
+    "output_tokens": 959,
+    "reasoning_tokens": 0,
+    "total_tokens": 19154
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008585699999999999
+  },
+  "results": [
+    {
+      "entry_id": "SNO-e17bbff0c3f399eb0b01",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“科技研发”为宽泛称谓，未指明具体技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-e18ad30b37f4f103a3dd",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含专业清单且为复合岗位，无法唯一映射到某一三级。"
+    },
+    {
+      "entry_id": "SNO-e22e3b5acc489e7d4645",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“QA研究员”为宽泛称谓，未明确具体质量或测试方向。"
+    },
+    {
+      "entry_id": "SNO-e2f82628c6ec8e309d45",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含特殊符号且“勘察设计”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-e3094932b3cfba28bfcb",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“初级技术工程师”为宽泛称谓，未指明具体技术方向。"
+    },
+    {
+      "entry_id": "SNO-e531cd9d33f894693a19",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“博士后研究人员”为宽泛称谓，未指明具体研究领域。"
+    },
+    {
+      "entry_id": "SNO-e57f861cfbcafd4c4fe9",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“光学分析工程师”未在目录中明确对应唯一三级。"
+    },
+    {
+      "entry_id": "SNO-e70b4238affa390279ab",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程技术专员”为宽泛称谓，未指明具体工程方向。"
+    },
+    {
+      "entry_id": "SNO-e72c54a9de0dcdb48df1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“资源专业设计工程师”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-e809fbb6172bfc5f72b5",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发员”为宽泛称谓，未指明具体技术方向。"
+    },
+    {
+      "entry_id": "SNO-ec8de10eb6a28b65714e",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发工程师(sp面议)”为宽泛称谓且含截断信息，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-ecd8b3193d30c264065e",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“先期开发”为宽泛称谓，未指明具体技术方向。"
+    },
+    {
+      "entry_id": "SNO-eebd6f3022109c7f15c5",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含专业清单且为复合岗位，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-ef20bcdd89b55bfef22e",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“各专业设计工程师”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-efb27f284f4b594eadb6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“行星舵机工程师”未在目录中明确对应唯一三级。"
+    },
+    {
+      "entry_id": "SNO-efd0ad63eb8e68338034",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“静装(备)设计”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f02080963af8f12396c6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“性能优化工程师”为宽泛称谓，未指明具体技术方向。"
+    },
+    {
+      "entry_id": "SNO-f03e79853b6d88b73e61",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“售后工程师”为宽泛称谓，未指明具体产品领域。"
+    },
+    {
+      "entry_id": "SNO-f0673b7c89afd34a1a4b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含“组织发展oD”与“售后服务工程师”复合，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f07c322b1cbd1785178b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“策略研究员”为宽泛称谓，未指明具体研究领域。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7769ef2f-2322-4813-afff-3445261b80a9",
+  "object": "chat.completion",
+  "created": 1792571861,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-ffbe1f245ba6d2bc0b7f6e0b99217237\",\"status\":\"mapped\",\"target_category_id\":\"L13-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L13-03\",\"L13-09\",\"L32-01\"],\"title_evidence\":\"渠道管培生：标题明确为渠道方向，属渠道销售与经销管理\",\"level_3_evidence\":null,\"reason\":\"渠道管培生指向渠道销售/经销管理职能，已明确职能方向，归 L13-03；虽含管培标签，但职能已明确，不归 L32。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16982,
+    "completion_tokens": 148,
+    "total_tokens": 17130,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 342
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

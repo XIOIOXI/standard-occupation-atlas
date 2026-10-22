@@ -1,0 +1,17 @@
+{
+  "from_version": "sno-v3-directory-design",
+  "to_version": "sno-v3.1-local-revision",
+  "retired_ids": {
+    "L13-02-01": {
+      "name": "远程与电话销售",
+      "status": "retired",
+      "replacement": "sales_method_tag + reclassify customer type from title"
+    },
+    "L13-02-02": {
+      "name": "现场与顾问销售",
+      "status": "retired",
+      "replacement": "sales_method_tag + reclassify customer type from title"
+    }
+  },
+  "rule": "No bulk migration; reclassify title and preserve legacy placement as review context."
+}

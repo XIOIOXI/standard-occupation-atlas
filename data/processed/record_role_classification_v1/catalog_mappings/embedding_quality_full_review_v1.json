@@ -1,0 +1,3446 @@
+{
+  "schema_version": "embedding-quality-full-review-v1",
+  "method": "name-only review of occupation name and supplied top-three category labels; no vector/model recomputation",
+  "reviewed_sample_count": 231,
+  "calibration_statistics": {
+    "sample_count": 159,
+    "first_candidate_reasonable_count": 142,
+    "top3_contains_reasonable_count": 142,
+    "name_insufficient_count": 17,
+    "candidate_plausible_count": 142
+  },
+  "validation_statistics": {
+    "sample_count": 72,
+    "first_candidate_reasonable_count": 63,
+    "top3_contains_reasonable_count": 63,
+    "name_insufficient_count": 9,
+    "candidate_plausible_count": 63
+  },
+  "reviews": [
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ab12360844a529a826ee",
+      "standard_name": "粘合剂生产运营管理培训生-智能制造方向",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "生产营运",
+        "level_3": "生产运营与精益改善"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "生产运营与精益改善/生产计划与调度/设备维修与安装"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-0fec0916b1586edb2040",
+      "standard_name": "工艺研究",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "食品/饮料研发",
+        "level_3": "食品工艺与质量研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "食品工艺与质量研发/汽车制造与工艺/工艺与材料设计"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-462744a5fe1d0e6607ea",
+      "standard_name": "化学药物分析研究员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "化工",
+        "level_3": "化学分析与质量控制"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "化学分析与质量控制/生物医药研发/产品研发与配方"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-8d9cec2e72c328b12241",
+      "standard_name": "数字设计",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "视觉/交互设计",
+        "level_3": "动态与数字媒体设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "动态与数字媒体设计/游戏体验与交互设计/定量与数据研究"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-1e3022e355a71bbeeed5",
+      "standard_name": "创新业务中心设计师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "展示/照明设计",
+        "level_3": "展陈项目设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "展陈项目设计/城市设计与更新/展示与空间设计"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-6e279079e3c06e6c5a35",
+      "standard_name": "平面设计助理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "视觉/交互设计",
+        "level_3": "动态与数字媒体设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "动态与数字媒体设计/品牌与视觉设计/交互与体验设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-43e37ae07b5ade05eabb",
+      "standard_name": "总裁助理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "酒店/旅游",
+        "level_2": "酒店经理",
+        "level_3": "酒店运营管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "酒店运营管理/行政前台与总机/销售支持与商务协调"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-f4aaae23f4dba32458fe",
+      "standard_name": "酒店营运管理管培生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "酒店/旅游",
+        "level_2": "酒店经理",
+        "level_3": "酒店运营管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "酒店运营管理/门店运营与人员管理/餐厅运营管理"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-0c7cfd30061541d78301",
+      "standard_name": "组合经理助理",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "酒店运营管理/酒店收益与市场管理/销售与成本经营管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-e319511479d50194bf66",
+      "standard_name": "FAE现场技术支持工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "销售技术支持",
+        "level_3": "客户技术支持"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "客户技术支持/售前与解决方案支持/交付与实施支持"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-1f52a6421ab5f6649234",
+      "standard_name": "Linux客户端开发工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "Java",
+        "level_3": "客户端与嵌入式开发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "客户端与嵌入式开发/平台与中间件开发/业务服务端开发"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-b6e6a62cd4853b08483e",
+      "standard_name": "现场技术应用工程师(嵌入式方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "C++",
+        "level_3": "嵌入式与实时开发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "嵌入式与实时开发/客户端与嵌入式开发/嵌入式与固件开发"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-31eba648f0ba4df9a4c9",
+      "standard_name": "研究助理(国际)",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "管理与行业咨询/市场与社会调研/证券研究与投资顾问"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-63b6744edd48cf86049d",
+      "standard_name": "咨询策划管培生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "咨询/翻译/法律",
+        "level_2": "咨询/调研",
+        "level_3": "管理与行业咨询"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "管理与行业咨询/财务规划与咨询/税务筹划与咨询"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-f99e4f00affe3ec75882",
+      "standard_name": "英语商务助理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "咨询/翻译/法律",
+        "level_2": "英语翻译",
+        "level_3": "英语口译与商务沟通"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "英语口译与商务沟通/西班牙语口译与商务沟通/德语口译与商务沟通"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-b2622db6a89587834ab0",
+      "standard_name": "低温工程师",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": null,
+      "status": "name_insufficient",
+      "reason": "名称与候选存在明显跨领域或职责错位，不能据名称确认三级。",
+      "top3_categories": "水产养殖技术/工业电子与设备维修/环保工程与治理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-3eee42eda6c4ca2210c0",
+      "standard_name": "流体动力研究员",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": null,
+      "status": "name_insufficient",
+      "reason": "名称与候选存在明显跨领域或职责错位，不能据名称确认三级。",
+      "top3_categories": "水产养殖技术/畜禽养殖技术/定性用户研究"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-04d216378fd7dab3cda1",
+      "standard_name": "井下煤炭开采技术",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": null,
+      "status": "name_insufficient",
+      "reason": "名称与候选存在明显跨领域或职责错位，不能据名称确认三级。",
+      "top3_categories": "水产养殖技术/畜禽养殖技术/农作物与农业技术"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-56b2a20b48c394407aef",
+      "standard_name": "地方频道全媒体记者/编辑(天津/浙江/陕西/广东)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "影视/传媒",
+        "level_2": "新闻/编辑",
+        "level_3": "新闻采编与报道"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "新闻采编与报道/图书与出版编辑/新媒体新闻传播"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-302d2bf539f19dba4628",
+      "standard_name": "研发AI应用动漫剧产运投放/素材新媒体编导/导演职能/支持",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "影视/传媒",
+        "level_2": "采编/写作/出版",
+        "level_3": "选题与内容策划"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "选题与内容策划/动画与特效/内容写作与撰稿"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-01e4a315619a434e8c3c",
+      "standard_name": "视觉视频采编",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "影视/传媒",
+        "level_2": "新闻/编辑",
+        "level_3": "新闻采编与报道"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "新闻采编与报道/选题与内容策划/图书与出版编辑"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-46f22b50a8ca6cf1c610",
+      "standard_name": "嵌入式工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "电子/硬件开发",
+        "level_3": "嵌入式与固件开发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "嵌入式与固件开发/嵌入式与实时开发/客户端与嵌入式开发"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-a3f3587af1e3d9cc3a5c",
+      "standard_name": "PCB工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "半导体/芯片",
+        "level_3": "制造工艺"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "制造工艺/芯片设计/工业电子与设备维修"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-70f9b0308a6caece3df0",
+      "standard_name": "芯片测试",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "半导体/芯片",
+        "level_3": "芯片验证"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "芯片验证/封装与测试/芯片设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-8cabe38d46d6a45d1f8c",
+      "standard_name": "软件工程师",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": null,
+      "status": "name_insufficient",
+      "reason": "名称与候选存在明显跨领域或职责错位，不能据名称确认三级。",
+      "top3_categories": "软件开发培训/硬件项目与交付/硬件产品规划"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-f15e209a0b8706c5337f",
+      "standard_name": "管理培训生",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": null,
+      "status": "name_insufficient",
+      "reason": "名称与候选存在明显跨领域或职责错位，不能据名称确认三级。",
+      "top3_categories": "企业与管理培训/教学事务管理/课程运营与学员服务"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-76e4ae9baff8565798bc",
+      "standard_name": "学业规划师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "教育培训",
+        "level_2": "就业老师",
+        "level_3": "职业规划与就业辅导"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "职业规划与就业辅导/规划设计与报批/国土与城市规划"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-e96c319c6a6bff7f9be5",
+      "standard_name": "发电部采制样员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "半导体/芯片",
+        "level_3": "制造工艺"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "制造工艺/芯片验证/供应商开发与寻源"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-31b1ba0b9e85fb29af42",
+      "standard_name": "MICU工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "半导体/芯片",
+        "level_3": "芯片设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "芯片设计/工业电子与设备维修/数据标注与质检"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-8534013a3617e376a6c8",
+      "standard_name": "IPD",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": null,
+      "status": "name_insufficient",
+      "reason": "名称与候选存在明显跨领域或职责错位，不能据名称确认三级。",
+      "top3_categories": "芯片设计/芯片验证/系统与底层开发"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-46c669a46261f4bd6a0d",
+      "standard_name": "经营部采购",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "采购",
+        "level_3": "采购执行与合同管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "采购执行与合同管理/供应商开发与寻源/商品买手与选品"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-9c0806cffc2cbabca1ff",
+      "standard_name": "小语种外贸业务员",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": null,
+      "status": "name_insufficient",
+      "reason": "名称与候选存在明显跨领域或职责错位，不能据名称确认三级。",
+      "top3_categories": "外贸单证与资料管理/外贸跟单与客户协调/海外客户开发"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-e41100618ab6b48d127b",
+      "standard_name": "设备采购专员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "买手",
+        "level_3": "商品买手与选品"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "商品买手与选品/外贸单证与资料管理/采购执行与合同管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-eb3fe78cecabbf731f07",
+      "standard_name": "销售工程师",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": null,
+      "status": "name_insufficient",
+      "reason": "名称与候选存在明显跨领域或职责错位，不能据名称确认三级。",
+      "top3_categories": "企业培训课程销售/房产销售与置业顾问/教育课程顾问"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-12768d32c6543c9d9996",
+      "standard_name": "销售管培生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "销售",
+        "level_2": "课程销售",
+        "level_3": "企业培训课程销售"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "企业培训课程销售/销售团队管理/销售策略与渠道管理"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-43f417598fd7ee753d5b",
+      "standard_name": "市场管理培训生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "销售",
+        "level_2": "课程销售",
+        "level_3": "企业培训课程销售"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "企业培训课程销售/企业与管理培训/销售策略与渠道管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-a2a41a1d7535ba100abf",
+      "standard_name": "发行",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": null,
+      "status": "name_insufficient",
+      "reason": "名称与候选存在明显跨领域或职责错位，不能据名称确认三级。",
+      "top3_categories": "银行金融科技/零售与综合银行/婚礼设计与现场执行"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-00a5364664bbc4e5c22f",
+      "standard_name": "市场金融培训生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "金融",
+        "level_2": "证券/基金/期货",
+        "level_3": "证券研究与投资顾问"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "证券研究与投资顾问/零售与财富金融产品/汽车金融与后市场销售"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-dbc2fb736bc84f364842",
+      "standard_name": "投资经理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "金融",
+        "level_2": "银行",
+        "level_3": "投行与资产管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "投行与资产管理/证券研究与投资顾问/股权与投资分析"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-67f5ff8012aece3796fe",
+      "standard_name": "工程咨询员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "房产评估师",
+        "level_3": "资产评估与咨询"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "资产评估与咨询/管理与行业咨询/工程造价与合同管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-3c543dba858d2bbc1ae3",
+      "standard_name": "项目管工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "工程管理",
+        "level_3": "施工现场管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "施工现场管理/工程造价与合同管理/研发项目管理"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-22449282395b183140a0",
+      "standard_name": "城市更新工作管理员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "城市规划设计",
+        "level_3": "城市设计与更新"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "城市设计与更新/门店运营与人员管理/房产销售与置业顾问"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-58e02b87d4f63db76a79",
+      "standard_name": "运营专员",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "用户与会员运营/商品与活动运营/线下活动运营"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-2f783ef366783349dae1",
+      "standard_name": "资本运营",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": null,
+      "status": "name_insufficient",
+      "reason": "名称与候选存在明显跨领域或职责错位，不能据名称确认三级。",
+      "top3_categories": "商品与活动运营/线下活动运营/平台店铺运营"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-474cb63d9a40a31b7d43",
+      "standard_name": "岗营销策划",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "运营/客服",
+        "level_2": "文案策划",
+        "level_3": "活动与营销策划"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "活动与营销策划/品牌与市场策略/旅游活动与营销策划"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-e230e7c5418bb0c9c9f1",
+      "standard_name": "交易员",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "交易与融资顾问/基金期货交易与运营/外贸跟单与客户协调"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-a1f7512fa33c9de95af3",
+      "standard_name": "碳咨询专员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "财务/审计/税务",
+        "level_2": "税务",
+        "level_3": "税务筹划与咨询"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "税务筹划与咨询/财务规划与咨询/资产评估与咨询"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-f3288c126e41baba8df0",
+      "standard_name": "交易服务",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "交易与融资顾问/客户成功与技术支持/客运跟车服务"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-6ff43c99212c516be8af",
+      "standard_name": "人力资源管理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "人力/行政/法务",
+        "level_2": "人力资源",
+        "level_3": "员工关系与人力运营"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "员工关系与人力运营/招聘与人才获取/薪酬福利"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-bd3b28a281030bfb8b0c",
+      "standard_name": "人力资源(管理科学与工程类,工商管理类,工商管理,会计学,财务管理,人力资源管理)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "人力/行政/法务",
+        "level_2": "人力资源",
+        "level_3": "员工关系与人力运营"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "员工关系与人力运营/招聘与人才获取/培训与人才发展"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-bc077e8d1e74999593b2",
+      "standard_name": "人力资源管培生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "人力/行政/法务",
+        "level_2": "人力资源",
+        "level_3": "培训与人才发展"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "培训与人才发展/员工关系与人力运营/招聘与人才获取"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-3731e48a3e8b1e8e073f",
+      "standard_name": "豆腐乳制作",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "餐饮",
+        "level_2": "甜点/烘焙",
+        "level_3": "西点与甜品制作"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "西点与甜品制作/烘焙与饮品制作学习/面包烘焙与产品研发"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-7c11b1a6100adbad98eb",
+      "standard_name": "啤酒营销管培生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "餐饮",
+        "level_2": "餐饮店长",
+        "level_3": "销售与成本经营管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "销售与成本经营管理/企业培训课程销售/酒店运营管理"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-5342cdab4578d480d22b",
+      "standard_name": "后勤综合管理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "餐饮",
+        "level_2": "帮厨",
+        "level_3": "后厨备料与配餐"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "后厨备料与配餐/畜牧养殖与生产管理/行政前台与总机"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-87940de849b716c46f34",
+      "standard_name": "市场专员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "市场/公关/广告",
+        "level_2": "市场/营销",
+        "level_3": "市场研究与消费者洞察"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "市场研究与消费者洞察/品牌与市场策略/用户与市场数据分析"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ff94d63267d2cea14a41",
+      "standard_name": "品牌与行销",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "市场/公关/广告",
+        "level_2": "市场/营销",
+        "level_3": "品牌与市场策略"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "品牌与市场策略/品牌与市场产品/渠道与营销活动"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-c68b84bfa37aa57a98f6",
+      "standard_name": "招标分析师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "市场/公关/广告",
+        "level_2": "商业数据分析",
+        "level_3": "经营与商业分析"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "经营与商业分析/商业招商与租赁/资产评估与咨询"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-08b71f7e720980c5bb98",
+      "standard_name": "外贸订单管理员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "外贸文员",
+        "level_3": "外贸单证与资料管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "外贸单证与资料管理/外贸跟单与客户协调/外贸订单与跟单"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-a10538dc331741ee6515",
+      "standard_name": "外贸采购员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "外贸文员",
+        "level_3": "外贸跟单与客户协调"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "外贸跟单与客户协调/外贸单证与资料管理/国际市场与客户开发"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-e641cd52c654308f2b2b",
+      "standard_name": "外贸业务员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "外贸文员",
+        "level_3": "外贸单证与资料管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "外贸单证与资料管理/外贸跟单与客户协调/海外客户开发"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-dde16c53f58c12c50161",
+      "standard_name": "RCS-有机合成研究员-RCS能力技术平台-武汉",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "机器学习",
+        "level_3": "机器学习平台与工程"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "机器学习平台与工程/深度学习与模型训练/机器学习应用"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-79a2201e3573af06efda",
+      "standard_name": "传动系统开发",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "C++",
+        "level_3": "系统与底层开发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "系统与底层开发/无线与通信系统研发/嵌入式与固件开发"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-33c14a8c4eac5e5bfc5e",
+      "standard_name": "生长模型研究员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "算法工程师",
+        "level_3": "大模型与生成式 AI"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "大模型与生成式 AI/食品配方与产品研发/影视舞台造型"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-aa5d28b0df4fd159137d",
+      "standard_name": "小号演奏",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "影视/传媒",
+        "level_2": "演员/配音/模特",
+        "level_3": "配音与平面展示"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "配音与平面展示/表演与影视演出/表演与音乐培训"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-fab872f80018a1661078",
+      "standard_name": "长号演奏员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "影视/传媒",
+        "level_2": "演员/配音/模特",
+        "level_3": "配音与平面展示"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "配音与平面展示/表演与影视演出/直播与音频节目"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-013bd6757f2ae663af51",
+      "standard_name": "话剧研究所专业技术",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "影视/传媒",
+        "level_2": "演员/配音/模特",
+        "level_3": "表演与影视演出"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "表演与影视演出/图书与出版编辑/内容写作与撰稿"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-345897933b2d1a83ba59",
+      "standard_name": "造型",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "影视舞台造型/彩妆与形象造型/剪发与造型设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ba8a7274567514acd1bd",
+      "standard_name": "网管软件工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生活服务/零售",
+        "level_2": "网吧网管",
+        "level_3": "网络与终端维护"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "网络与终端维护/网吧运营与客户服务/网络与基础设施培训"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-9194c8693ae2d04594a9",
+      "standard_name": "光电/射频智能探测设计师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生活服务/零售",
+        "level_2": "验光师",
+        "level_3": "视光检查与验配"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "视光检查与验配/照明与光环境设计/模型训练与评测"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-f8c42336e5de083f5882",
+      "standard_name": "材料类管培生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "外贸文员",
+        "level_3": "外贸单证与资料管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "外贸单证与资料管理/质量体系与审核/食品工艺与质量研发"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-fe950316f419537b6c0e",
+      "standard_name": "团青工作",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "外贸文员",
+        "level_3": "外贸跟单与客户协调"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "外贸跟单与客户协调/销售团队管理/内容编辑与审校"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-a35f105143c03eca81a0",
+      "standard_name": "藏品征集",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "买手",
+        "level_3": "商品买手与选品"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "商品买手与选品/品类规划与选品/供应商开发与寻源"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ca4f90c4f64b1f053f2e",
+      "standard_name": "土地储备业务",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "仓储",
+        "level_3": "出库与仓配作业"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "出库与仓配作业/土地与项目投资拓展/住宅销售与置业服务"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-31155461371cd14681fa",
+      "standard_name": "供应链培训生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "供应链",
+        "level_3": "供应链计划与采购协同"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "供应链计划与采购协同/供应链履约与优化/出库与仓配作业"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-ced444c5ae3e58300f9d",
+      "standard_name": "客舱乘务员市场管理类培训生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "驾驶员",
+        "level_3": "客运与商务驾驶"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "客运与商务驾驶/客运跟车服务/收银与客户服务"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-aea82737cc01867d9d23",
+      "standard_name": "产品",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "平台与企业产品/产品研发与配方/用户与增长产品"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-8e7f61cb5d0d729e1951",
+      "standard_name": "设备员",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "智能终端与设备产品/设备维修与安装/工业电子与设备维修"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-a20ea205b68bfa304e29",
+      "standard_name": "EDA产品经理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "产品",
+        "level_2": "硬件产品经理",
+        "level_3": "硬件产品规划"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "硬件产品规划/渠道与电商产品/品牌与市场产品"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-6da8acfa5c3adbc8f25f",
+      "standard_name": "奥赛老师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "销售",
+        "level_2": "课程销售",
+        "level_3": "教育课程顾问"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "教育课程顾问/少儿课程与活动教学/专项运动训练"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-346071787ecf1ae3a27c",
+      "standard_name": "天津分行培训生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "销售",
+        "level_2": "课程销售",
+        "level_3": "企业培训课程销售"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "企业培训课程销售/教育课程顾问/课程运营与学员服务"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-7c68a0890705b76d2a00",
+      "standard_name": "粘合剂销售",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "销售",
+        "level_2": "销售",
+        "level_3": "渠道与经销销售"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "渠道与经销销售/宠物店服务与用品销售/销售支持与商务协调"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-e5143584f7591e8cc5bf",
+      "standard_name": "产品经理(硬件方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "产品",
+        "level_2": "硬件产品经理",
+        "level_3": "硬件产品规划"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "硬件产品规划/硬件项目与交付/智能终端与设备产品"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-fcca481a5d00e8668dca",
+      "standard_name": "产品经理(AI方向)(计算机科学与技术、软件工程、人工智能、自动化、电子信息工程、数学与应用数学)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "产品",
+        "level_2": "互联网产品经理",
+        "level_3": "人工智能与数据产品"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "人工智能与数据产品/产品与用户分析/产品项目管理"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-7d3d6a5be1e5df669ef8",
+      "standard_name": "数字化产品经理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "产品",
+        "level_2": "金融产品经理",
+        "level_3": "数字金融产品"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "数字金融产品/人工智能与数据产品/平台与企业产品"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-6874c1ced87f091a7a74",
+      "standard_name": "治炼工艺技术员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "技工",
+        "level_3": "设备维修与安装"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "设备维修与安装/工程机械驾驶操作/畜禽养殖技术"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-b67384d33bc1755d00fe",
+      "standard_name": "反相制备研究员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "食品/饮料研发",
+        "level_3": "食品工艺与质量研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "食品工艺与质量研发/食品配方与产品研发/封装与测试"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-b16f7c3ff5b1d103619d",
+      "standard_name": "精度实验工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "质量管理",
+        "level_3": "质量检验与过程控制"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "质量检验与过程控制/芯片验证/准备金与风险评估"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-3dd607cb99ac94fd88e1",
+      "standard_name": "车辆动力学开发与整车集成工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "汽车",
+        "level_2": "汽车研发/制造",
+        "level_3": "整车与零部件研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "整车与零部件研发/汽车制造与工艺/工程机械驾驶操作"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-6b9b3d7840ef815dba3a",
+      "standard_name": "真空研发工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "汽车",
+        "level_2": "汽车研发/制造",
+        "level_3": "整车与零部件研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "整车与零部件研发/食品工艺与质量研发/研发项目管理"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-d5837ca92cec42db7039",
+      "standard_name": "保养工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "汽车",
+        "level_2": "汽车服务",
+        "level_3": "汽车维修与保养"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "汽车维修与保养/设备维修与安装/水产养殖技术"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-f74b4335b018ed5a2e49",
+      "standard_name": "DigitalDesignEngineer",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "市场/公关/广告",
+        "level_2": "广告制作",
+        "level_3": "影视与数字广告制作"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "影视与数字广告制作/动态与数字媒体设计/客户技术支持"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-4690effa4d062cdcf725",
+      "standard_name": "县域综合业务",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "市场/公关/广告",
+        "level_2": "政府事务",
+        "level_3": "项目申报与公共事务"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "项目申报与公共事务/住宅销售与置业服务/零售与综合银行"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-bf4fcf0100331720a2f3",
+      "standard_name": "试玩广告开发",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "市场/公关/广告",
+        "level_2": "广告制作",
+        "level_3": "广告创意与设计制作"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "广告创意与设计制作/广告策划与创意/品牌与广告文案"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-3f765cd4b01bbbef55ea",
+      "standard_name": "电气维修员/电气技术员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "电子维修技术员",
+        "level_3": "工业电子与设备维修"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "工业电子与设备维修/消费电子维修/设备与机电维修"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-305521f61b54fb36fd86",
+      "standard_name": "高分子新材料研发实验室技术研发人员等。技术工程类:制造系统操作员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "半导体/芯片",
+        "level_3": "制造工艺"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "制造工艺/食品工艺与质量研发/工业电子与设备维修"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-2dfe3b927f7abdf31f41",
+      "standard_name": "电子工程师(物理学、光学、低温工程、机械工程、集成电路工程、控制工程、仪器仪表、自动化、电子信息)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "半导体/芯片",
+        "level_3": "制造工艺"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "制造工艺/工业电子与设备维修/电气控制与自动化设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-1b21ff3332bc0be4dfe6",
+      "standard_name": "射频工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生活服务/零售",
+        "level_2": "验光师",
+        "level_3": "视光检查与验配"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "视光检查与验配/直播与音频节目/语音与音频算法"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-a73fa18e6c89b2224af1",
+      "standard_name": "食安",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "安防监控与安全服务/餐厅楼面与服务管理/平台即时配送"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-e7775146ab8db11695d5",
+      "standard_name": "FirmwareDesignEngineer",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生活服务/零售",
+        "level_2": "纹绣师",
+        "level_3": "半永久与美容纹饰"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "半永久与美容纹饰/智能终端与设备产品/工业产品设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-fc165988c4d94eff165e",
+      "standard_name": "投后管理部投后专员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "金融",
+        "level_2": "银行",
+        "level_3": "投行与资产管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "投行与资产管理/前厅接待与收银/股权与投资分析"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ca415a64df345ce3b16b",
+      "standard_name": "良率精进工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "金融",
+        "level_2": "保险精算师",
+        "level_3": "准备金与风险评估"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "准备金与风险评估/生产运营与精益改善/规划设计与报批"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-bcf6922883bf209eb0dd",
+      "standard_name": "实习生",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "证券研究与投资顾问/婚礼设计与现场执行/项目交付与实施"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-d7a97207744cad6278ae",
+      "standard_name": "减速器研发工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "汽车",
+        "level_2": "汽车研发/制造",
+        "level_3": "整车与零部件研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "整车与零部件研发/食品工艺与质量研发/汽车制造与工艺"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-3cf729e6ad947910ab47",
+      "standard_name": "技术中心研发工程师储备(厦门金龙旅行车有限公司)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "汽车",
+        "level_2": "汽车研发/制造",
+        "level_3": "整车与零部件研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "整车与零部件研发/旅游产品设计/客运跟车服务"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-5a317adc2bbd2b59eeb7",
+      "standard_name": "装配试车工艺",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "汽车",
+        "level_2": "汽车研发/制造",
+        "level_3": "汽车制造与工艺"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "汽车制造与工艺/装配与生产线作业/叉车与厂内物流操作"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-a61a3ff6ca23463a7398",
+      "standard_name": "算法工程师(图像/AI/控制)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "算法工程师",
+        "level_3": "金融与风控算法"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "金融与风控算法/语音与音频算法/算法研究与通用算法"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-637ba71c6e80fb506697",
+      "standard_name": "算法工程师(软件算法/感知算法/通信算法/控制算法/仿真算法)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "算法工程师",
+        "level_3": "算法研究与通用算法"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "算法研究与通用算法/语音与音频算法/金融与风控算法"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-3433875a592fd75d7766",
+      "standard_name": "机器人AI算法工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "算法工程师",
+        "level_3": "机器人与具身智能"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "机器人与具身智能/语音与音频算法/大模型与生成式 AI"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-506c068a2a1eb95aabf5",
+      "standard_name": "财务",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "总账与财务核算/报表与财务报告/税务会计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-603a7449df6e76abfd5c",
+      "standard_name": "财务核算人员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "财务/审计/税务",
+        "level_2": "会计",
+        "level_3": "总账与财务核算"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "总账与财务核算/资金收付与结算/现金与银行管理"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-b6a60fc5f9591de62d77",
+      "standard_name": "咨询顾问(财务与会计方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "财务/审计/税务",
+        "level_2": "财务顾问",
+        "level_3": "财务规划与咨询"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "财务规划与咨询/交易与融资顾问/税务筹划与咨询"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-faa16169152507a04c85",
+      "standard_name": "全日制民办学校初高中类教师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "教育培训",
+        "level_2": "教师",
+        "level_3": "高等教育教学"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "高等教育教学/基础教育教学/校企合作与招聘服务"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-a4df492404b439a5caf0",
+      "standard_name": "伊利2026届校招-行政培训生(酸奶东北)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "教育培训",
+        "level_2": "教育行政",
+        "level_3": "教育机构行政"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "教育机构行政/课程运营与学员服务/学科辅导"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-4246037cf26c9358663a",
+      "standard_name": "分行本部管培生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "教育培训",
+        "level_2": "教育行政",
+        "level_3": "教学事务管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "教学事务管理/投行与资产管理/企业与管理培训"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-99e87f6d6868bee3c002",
+      "standard_name": "金融科技岗(总行)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "金融",
+        "level_2": "银行",
+        "level_3": "银行金融科技"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "银行金融科技/金融科技产品与运营/数字金融产品"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-c79066ce631ad759977e",
+      "standard_name": "助理研究员(金融方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "金融",
+        "level_2": "证券/基金/期货",
+        "level_3": "证券研究与投资顾问"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "证券研究与投资顾问/交易与融资顾问/金融与风险分析"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-54bbd506656b2d60ee3b",
+      "standard_name": "证券/期货研究员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "金融",
+        "level_2": "证券/基金/期货",
+        "level_3": "证券研究与投资顾问"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "证券研究与投资顾问/基金期货交易与运营/交易与融资顾问"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-1e17a665a4f1cdaa9544",
+      "standard_name": "农业中心技术员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "能源/环保/农业",
+        "level_2": "农业/林业技术员",
+        "level_3": "农作物与农业技术"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "农作物与农业技术/畜禽养殖技术/水产养殖技术"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-d74eb1759cad039fcf27",
+      "standard_name": "机械/热能工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "能源/环保/农业",
+        "level_2": "能源/地质",
+        "level_3": "能源开发与工程"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "能源开发与工程/机械制造与工艺/机械加工与设备操作"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-cac69e020e5db8b1284c",
+      "standard_name": "给排水助理工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "能源/环保/农业",
+        "level_2": "禽畜/水产养殖技术员",
+        "level_3": "水产养殖技术"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "水产养殖技术/环保工程与治理/能源开发与工程"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-7e70648a9c915145e33d",
+      "standard_name": "价格管理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "餐饮",
+        "level_2": "餐饮管理",
+        "level_3": "餐饮供应链与成本管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "餐饮供应链与成本管理/销售与成本经营管理/工程造价与合同管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-d4100822f1f3f7804f67",
+      "standard_name": "门店管理培训生(顾客体验方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "餐饮",
+        "level_2": "餐饮店长",
+        "level_3": "门店运营与人员管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "门店运营与人员管理/收银与客户服务/门店运营与导购"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-680e5ca7224f08c4db29",
+      "standard_name": "市场经理(管培生)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "餐饮",
+        "level_2": "餐饮店长",
+        "level_3": "销售与成本经营管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "销售与成本经营管理/酒店收益与市场管理/销售策略与渠道管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-417f9d3ebb269b41d237",
+      "standard_name": "纪检专员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "人力/行政/法务",
+        "level_2": "文员",
+        "level_3": "文档与档案文员"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "文档与档案文员/外贸单证与资料管理/客房检查与服务协调"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-a4400c3118719d25c4ca",
+      "standard_name": "社保中台",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "人力/行政/法务",
+        "level_2": "前台",
+        "level_3": "来访接待与会务"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "来访接待与会务/行政前台与总机/现金与银行管理"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-ac7694c185ca76e4dc9f",
+      "standard_name": "人寿江苏分公司企划岗(2026年校招)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "人力/行政/法务",
+        "level_2": "人力资源",
+        "level_3": "员工关系与人力运营"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "员工关系与人力运营/招聘与人才获取/商业招商与租赁"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-1f9252fa69af71f6bb28",
+      "standard_name": "固井工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "工程管理",
+        "level_3": "施工现场管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "施工现场管理/嵌入式与固件开发/景观施工与工程设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-687c433f8021ad2977ba",
+      "standard_name": "深圳分行培训生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "装饰装修",
+        "level_3": "装修施工与深化"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "装修施工与深化/企业培训课程销售/管理与行业咨询"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-7c65986e818c46aec629",
+      "standard_name": "烧结工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "建筑/装修工人",
+        "level_3": "土建与结构施工"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "土建与结构施工/烘焙与饮品制作学习/染烫与头皮护理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-8faa1cf3bd651b75dd5d",
+      "standard_name": "土建工程师(结构工程、土木工程等专业方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "建筑/装修工人",
+        "level_3": "土建与结构施工"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "土建与结构施工/景观施工与工程设计/建筑方案与施工图设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-fe49ea7730f9842d4ec1",
+      "standard_name": "建筑施工图设计师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "建筑/规划设计",
+        "level_3": "建筑方案与施工图设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "建筑方案与施工图设计/景观施工与工程设计/规划设计与报批"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-aa87400e0ec465b9cdfd",
+      "standard_name": "施工现场管理员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "工程管理",
+        "level_3": "施工现场管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "施工现场管理/商办设施与工程管理/工程造价与合同管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-04ab6af31e6a0fa7d65a",
+      "standard_name": "国际电商平台运营",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "运营/客服",
+        "level_2": "国内电商运营",
+        "level_3": "平台店铺运营"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "平台店铺运营/商品与活动运营/平台与商家运营"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-53d32fdc490b64741d51",
+      "standard_name": "运营策划",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "运营/客服",
+        "level_2": "文案策划",
+        "level_3": "活动与营销策划"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "活动与营销策划/业务增长与策略运营/内容编辑与策划"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-1433b0e66934d788559c",
+      "standard_name": "运营",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "线下活动运营/商品与活动运营/平台店铺运营"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-0c2481cfc8ceea6299fa",
+      "standard_name": "航海类持证教师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "无人机飞手",
+        "level_3": "航拍与测绘飞行"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "航拍与测绘飞行/课程运营与学员服务/行业应用飞行作业"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-0a729998d15e3ffb355d",
+      "standard_name": "冷链工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "供应链",
+        "level_3": "供应链履约与优化"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "供应链履约与优化/供应链计划与采购协同/工业电子与设备维修"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-4477e4f472a65cd76b2d",
+      "standard_name": "绘图员",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "航拍与测绘飞行/动画与特效/二维美术与原画"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-dab91aee80f4decb27b6",
+      "standard_name": "钞券小自动化操作员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "产品",
+        "level_2": "金融产品经理",
+        "level_3": "数字金融产品"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "数字金融产品/企业账款催收/银行金融科技"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-a62fa03b30ea0e7d1dab",
+      "standard_name": "金融市场橙光",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "产品",
+        "level_2": "金融产品经理",
+        "level_3": "零售与财富金融产品"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "零售与财富金融产品/数字金融产品/汽车金融与后市场销售"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-089af57771ce8de88730",
+      "standard_name": "数字化获客",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "产品",
+        "level_2": "金融产品经理",
+        "level_3": "数字金融产品"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "数字金融产品/搜索引擎优化/客户成功与技术支持"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-0f3a252a51c6e6bb17ca",
+      "standard_name": "设计类:产品体验设计",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "视觉/交互设计",
+        "level_3": "交互与体验设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "交互与体验设计/品牌与视觉设计/游戏体验与交互设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-c13eaa46650a88061726",
+      "standard_name": "游戏UI设计师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "游戏设计",
+        "level_3": "游戏体验与交互设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "游戏体验与交互设计/游戏系统与玩法设计/游戏剧情与叙事设计"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-d899dc659326782e2af6",
+      "standard_name": "工艺设计工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "工业/家居设计",
+        "level_3": "工艺与材料设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "工艺与材料设计/工业产品设计/制版与工艺设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-e33dddc9727c01fe6cb8",
+      "standard_name": "城市规划与设计(含:风景园林规划与设计)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "城市规划设计",
+        "level_3": "国土与城市规划"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "国土与城市规划/城市设计与更新/景观方案与植物设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ad03b6452d43cfe1f862",
+      "standard_name": "设计师(建筑学、城市规划、工民建、暖通、给排水、电气等)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "建筑/规划设计",
+        "level_3": "建筑方案与施工图设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "建筑方案与施工图设计/规划设计与报批/国土与城市规划"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-cb40e1ff4dbb790477d1",
+      "standard_name": "建筑设计工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "房地产/建筑",
+        "level_2": "建筑/规划设计",
+        "level_3": "建筑方案与施工图设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "建筑方案与施工图设计/景观施工与工程设计/景观方案与植物设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-952450359ecc356cb317",
+      "standard_name": "生物医药项目经理(生物背景)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "医疗健康",
+        "level_2": "生物医药",
+        "level_3": "生物医药研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "生物医药研发/生物工艺与生产/药品生产与工艺"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-19c530da2c2a03800c0b",
+      "standard_name": "健康与社会照护专业教师(三)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "医疗健康",
+        "level_2": "护士",
+        "level_3": "专科与社区护理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "专科与社区护理/医院陪护与生活照料/老年照护"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-6eafe7ce9ffce6530935",
+      "standard_name": "医生(内科)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "医疗健康",
+        "level_2": "医药编辑",
+        "level_3": "医学内容编辑"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "医学内容编辑/临床诊疗/门诊导诊服务"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-f04b061471b1fd165d7a",
+      "standard_name": "销售",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "企业培训课程销售/客户开发与直销/渠道与经销销售"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-208d084019a76b3992dc",
+      "standard_name": "海外市场开发业务员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "销售",
+        "level_2": "外贸销售",
+        "level_3": "海外客户开发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "海外客户开发/国际市场与客户开发/外贸单证与资料管理"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-06abc50398fad2d13561",
+      "standard_name": "销售经理(外贸)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "销售",
+        "level_2": "外贸销售",
+        "level_3": "海外客户开发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "海外客户开发/外贸订单与跟单/销售策略与渠道管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-4d43fa510151313d9fab",
+      "standard_name": "商周考古研究",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "咨询/翻译/法律",
+        "level_2": "咨询/调研",
+        "level_3": "市场与社会调研"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "市场与社会调研/商办设施与工程管理/定量与数据研究"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-7d4ea76dc7e4338bc46c",
+      "standard_name": "物探调查",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "咨询/翻译/法律",
+        "level_2": "咨询/调研",
+        "level_3": "市场与社会调研"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "市场与社会调研/视光检查与验配/自动化设备与现场调试"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-76b9daa9e171c8fde225",
+      "standard_name": "独立律师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "咨询/翻译/法律",
+        "level_2": "法律服务",
+        "level_3": "公司法务与合规"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "公司法务与合规/诉讼与争议解决/法语口译与商务沟通"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-743e9eb895af9b7c9d26",
+      "standard_name": "党风廉政建设",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "财务/审计/税务",
+        "level_2": "风控",
+        "level_3": "风险模型与策略"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "风险模型与策略/信用与业务风险/房地产价值评估"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-4850450f936d9d2a15d8",
+      "standard_name": "外延工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "财务/审计/税务",
+        "level_2": "审计",
+        "level_3": "外部与财务审计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "外部与财务审计/航拍与测绘飞行/土建与结构施工"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-a5a73d71c61ae10513c7",
+      "standard_name": "共计",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "总账与财务核算/业务伙伴与绩效管理/资金收付与结算"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-544bb2ece912541e201a",
+      "standard_name": "系留浮空器系统总体设计",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "展示/照明设计",
+        "level_3": "展示与空间设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "展示与空间设计/游戏系统与玩法设计/工业产品设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-63d4ac1a7bf2a43b20c3",
+      "standard_name": "固体火箭总体设计师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "视觉/交互设计",
+        "level_3": "动态与数字媒体设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "动态与数字媒体设计/二维美术与原画/三维建模与材质"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-b4f236e77982ca73ac43",
+      "standard_name": "海洋工程设计",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "展示/照明设计",
+        "level_3": "展陈项目设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "展陈项目设计/照明与光环境设计/景观施工与工程设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-2ede729969d66b4170da",
+      "standard_name": "咨询业务",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "咨询/翻译/法律",
+        "level_2": "咨询/调研",
+        "level_3": "管理与行业咨询"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "管理与行业咨询/财务规划与咨询/税务筹划与咨询"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-c59166364b44d15e22ad",
+      "standard_name": "俄语翻译",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "咨询/翻译/法律",
+        "level_2": "俄语翻译",
+        "level_3": "俄语笔译与本地化"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "俄语笔译与本地化/俄语口译与商务沟通/韩语笔译与本地化"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-09512dd0c18c8563cf62",
+      "standard_name": "商务经理(英语/葡萄牙语/西班牙语)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "咨询/翻译/法律",
+        "level_2": "西班牙语翻译",
+        "level_3": "西班牙语口译与商务沟通"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "西班牙语口译与商务沟通/英语口译与商务沟通/德语口译与商务沟通"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-d4ee971189990779290d",
+      "standard_name": "管培生岗位(酒店运营、行政、人力、财务方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "酒店/旅游",
+        "level_2": "酒店经理",
+        "level_3": "酒店运营管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "酒店运营管理/门店运营与人员管理/商办设施与工程管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ac0b4a38283eea26274a",
+      "standard_name": "前台接待",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "酒店/旅游",
+        "level_2": "酒店前台/迎宾",
+        "level_3": "前台接待与预订"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "前台接待与预订/前厅接待与收银/来访接待与会务"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-591cbf8af1cd64271a8a",
+      "standard_name": "酒店经理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "酒店/旅游",
+        "level_2": "酒店经理",
+        "level_3": "酒店运营管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "酒店运营管理/酒店收益与市场管理/礼宾与客户关系服务"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-729d866e6fe8a5081ef6",
+      "standard_name": "线下一对一老师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "运营/客服",
+        "level_2": "客服",
+        "level_3": "一线客服与客户支持"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "一线客服与客户支持/线下活动运营/校企合作与招聘服务"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-c380d851a6549ae8249f",
+      "standard_name": "海外运营创优生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "运营/客服",
+        "level_2": "国内电商运营",
+        "level_3": "平台店铺运营"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "平台店铺运营/商品与活动运营/海外客户开发"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-e3b0c44298fc1c149afb",
+      "standard_name": "",
+      "first_candidate_reasonable": false,
+      "top3_contains_reasonable_target": false,
+      "confirmed_or_deepest_level": {
+        "level_1": null,
+        "level_2": null,
+        "level_3": null
+      },
+      "status": "name_insufficient",
+      "reason": "名称过宽泛或缩略，无法仅凭名称确认职业三级。",
+      "top3_categories": "客户成功与技术支持/房地产开发与报建/客服管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-0f2b651fe2048adbf0f1",
+      "standard_name": "药店业务与技术服务人员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "医疗健康",
+        "level_2": "药店",
+        "level_3": "药品调剂与用药服务"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "药品调剂与用药服务/药店运营与陈列/药品质量与验证"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-19246f89bf580135bd08",
+      "standard_name": "药物研发工程师(医学方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "医疗健康",
+        "level_2": "生物医药",
+        "level_3": "生物医药研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "生物医药研发/食品配方与产品研发/药品生产与工艺"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-f4220c3a103f5a78784e",
+      "standard_name": "护士(内科学(重症医学方向)、临床医学、内科学(神经内科方向)、临床医学(营养学方向)、外科学、中医学、中西医结合、中医内科学、急诊医学、医学影像学、医疗信息管理、护理学、公共卫生)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "医疗健康",
+        "level_2": "护士",
+        "level_3": "专科与社区护理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "专科与社区护理/临床护理/临床诊疗"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-d2c2ad56dce9fd35e721",
+      "standard_name": "AI模型工程师(端侧大模型方向、Agent技术方向、AI算法方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "算法工程师",
+        "level_3": "大模型与生成式 AI"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "大模型与生成式 AI/深度学习与模型训练/模型训练与评测"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-84eb3144b5ff2674104c",
+      "standard_name": "计算机视觉算法工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "算法工程师",
+        "level_3": "计算机视觉与三维感知"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "计算机视觉与三维感知/语音与音频算法/算法研究与通用算法"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-582e9958f3ba42868b0c",
+      "standard_name": "AI大模型开发工程师(AI方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "互联网/AI",
+        "level_2": "算法工程师",
+        "level_3": "大模型与生成式 AI"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "大模型与生成式 AI/模型训练与评测/深度学习与模型训练"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-8941577e7d196d0f9c9b",
+      "standard_name": "数字芯片验证工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "半导体/芯片",
+        "level_3": "芯片验证"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "芯片验证/数据标注与质检/芯片设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-32c42efc6bcf97c65ccc",
+      "standard_name": "技术研究工程师(无线通信/网络技术)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "通信",
+        "level_3": "无线与通信系统研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "无线与通信系统研发/研发项目管理/工业电子与设备维修"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-45d57e63372fba028cfa",
+      "standard_name": "芯片验证工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "电子/电气/通信",
+        "level_2": "半导体/芯片",
+        "level_3": "芯片验证"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "芯片验证/芯片设计/制造工艺"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-732f459483581058d00c",
+      "standard_name": "档案科学技术研究所专业技术",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "医疗健康",
+        "level_2": "医生/医技",
+        "level_3": "医学检验与影像技术"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "医学检验与影像技术/水产养殖技术/畜禽养殖技术"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-5339d88b5e132eb5ea11",
+      "standard_name": "探伤/探伤技术员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "医疗健康",
+        "level_2": "医生/医技",
+        "level_3": "医学检验与影像技术"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "医学检验与影像技术/消费电子维修/工业电子与设备维修"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-ddc7bed7a17f0fbb9c9f",
+      "standard_name": "TIDES-寡核苷酸有机合成研究员-武汉",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "医疗健康",
+        "level_2": "生物医药",
+        "level_3": "生物医药研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "生物医药研发/定性用户研究/研发项目管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-6a5e6a64112622c1f38c",
+      "standard_name": "供应链管培生(含采购、计划方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "供应链",
+        "level_3": "供应链计划与采购协同"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "供应链计划与采购协同/供应商开发与寻源/供应链履约与优化"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ab7681521f545af557cf",
+      "standard_name": "供应链计划工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "供应链",
+        "level_3": "供应链计划与采购协同"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "供应链计划与采购协同/供应链履约与优化/客运与商务驾驶"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-c1d5b435a14d31d55e3e",
+      "standard_name": "供应链计划员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "供应链",
+        "level_3": "供应链计划与采购协同"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "供应链计划与采购协同/供应链履约与优化/末端配送服务"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-532738293e79a6f274be",
+      "standard_name": "供应链运输运营",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "物流/运输",
+        "level_3": "运输调度与线路运营"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "运输调度与线路运营/货运与物流操作/货运跟车与装卸协同"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-cf9cbafa6576fe6f9ead",
+      "standard_name": "管培生(物流、供应链、交通运输等)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "物流/运输",
+        "level_3": "货运与物流操作"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "货运与物流操作/货运与配送驾驶/运输调度与线路运营"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-24b6a000b3147d7017b1",
+      "standard_name": "集团战略管培生-供应链(采购、物流、计划)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "供应链/物流",
+        "level_2": "供应链",
+        "level_3": "供应链计划与采购协同"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "供应链计划与采购协同/供应链履约与优化/货运与物流操作"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-df87250bcedd1a65b2ce",
+      "standard_name": "主要职能:生产各工序的技术培训生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "技工",
+        "level_3": "机械加工与设备操作"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "机械加工与设备操作/设备维修与安装/机械制造与工艺"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ed9b93bc45ac1da00239",
+      "standard_name": "生产工艺工程师(招聘专业:机械工程,材料科学与工程,冶金工程,金属材料工程)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "机械设计/制造",
+        "level_3": "机械制造与工艺"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "机械制造与工艺/化工工艺与生产/机械加工与设备操作"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-6d5348ec631802d4516a",
+      "standard_name": "主要职能:生产各工序的管理培训生",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "生产安全",
+        "level_3": "安全生产管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "安全生产管理/质量检验与过程控制/质量体系与审核"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-30a92a55bf17d2788d64",
+      "standard_name": "机坪监察员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "酒店/旅游",
+        "level_2": "客房服务员",
+        "level_3": "客房检查与服务协调"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "客房检查与服务协调/工程机械驾驶操作/行政前台与总机"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-839a352b9010aada0f51",
+      "standard_name": "OTA车型策划",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "酒店/旅游",
+        "level_2": "旅游产品开发/策划",
+        "level_3": "旅游活动与营销策划"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "旅游活动与营销策划/活动与营销策划/内容与剧情策划"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-af516eb2feca0c2c93f3",
+      "standard_name": "巡察协调",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "酒店/旅游",
+        "level_2": "客房服务员",
+        "level_3": "客房检查与服务协调"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "客房检查与服务协调/场所秩序与巡逻安保/市场与社会调研"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-b3f04f4175e7cbb0cf63",
+      "standard_name": "二维动画设计师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "美术/3D/动画",
+        "level_3": "二维美术与原画"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "二维美术与原画/动画与特效/三维建模与材质"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-1175ec13252066a8dafe",
+      "standard_name": "交互设计",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "设计",
+        "level_2": "视觉/交互设计",
+        "level_3": "交互与体验设计"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "交互与体验设计/游戏体验与交互设计/品牌与视觉设计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ffea993552a9962b0034",
+      "standard_name": "采购管理与业务综合",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "采购",
+        "level_3": "采购执行与合同管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "采购执行与合同管理/外贸单证与资料管理/商品买手与选品"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-c057872cb66572068f7a",
+      "standard_name": "执行采购",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "采购",
+        "level_3": "采购执行与合同管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "采购执行与合同管理/商品买手与选品/供应商开发与寻源"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-4edd07c2b708d567ba66",
+      "standard_name": "采购管理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "采购/贸易",
+        "level_2": "采购",
+        "level_3": "采购执行与合同管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "采购执行与合同管理/外贸单证与资料管理/商品买手与选品"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-cf48df7d55da4d461242",
+      "standard_name": "商业分析",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "市场/公关/广告",
+        "level_2": "商业数据分析",
+        "level_3": "经营与商业分析"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "经营与商业分析/商业与业务分析/用户与市场数据分析"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-c7c2b86fee993f894bd4",
+      "standard_name": "商业经营分析师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "市场/公关/广告",
+        "level_2": "商业数据分析",
+        "level_3": "经营与商业分析"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "经营与商业分析/商业与业务分析/经营与财务分析"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-cdf4bc9c51d1be4322b6",
+      "standard_name": "营销代表",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "市场/公关/广告",
+        "level_2": "市场/营销",
+        "level_3": "渠道与营销活动"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "渠道与营销活动/增长与数字营销/搜索营销与投放"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-9f5a33f7f1124f957563",
+      "standard_name": "客户经理类(金融科技方向、金融业务方向)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "金融",
+        "level_2": "银行",
+        "level_3": "银行金融科技"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "银行金融科技/金融科技产品与运营/数字金融产品"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-860c3bfb3f6e4afd9212",
+      "standard_name": "信息技术岗(经济、金融、法律、会计、财务管理、计算机、数学、统计)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "金融",
+        "level_2": "银行",
+        "level_3": "银行金融科技"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "银行金融科技/金融与风险分析/商业与业务分析"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-677268d4d3e0dd12195e",
+      "standard_name": "运营岗(会计、金融、经济)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "金融",
+        "level_2": "互联网金融",
+        "level_3": "金融科技产品与运营"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "金融科技产品与运营/基金期货交易与运营/经营与财务分析"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-3efb1c1ec904fb1e0e61",
+      "standard_name": "直销销售代表",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "销售",
+        "level_2": "销售",
+        "level_3": "客户开发与直销"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "客户开发与直销/企业服务销售/渠道与经销销售"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-056468f1ebb2ea85e1c6",
+      "standard_name": "海外客户代表",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "销售",
+        "level_2": "外贸销售",
+        "level_3": "海外客户开发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "海外客户开发/国际市场与客户开发/外贸跟单与客户协调"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-49a07fc3cbd782af17f4",
+      "standard_name": "海外销售(英语)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "销售",
+        "level_2": "外贸销售",
+        "level_3": "海外客户开发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "海外客户开发/外贸订单与跟单/国际市场与客户开发"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-2bba3755a2d671b3ad54",
+      "standard_name": "畜禽饲料技术服务工程师(动物营养与饲料科学、水产养殖、渔业发展、动物医学、畜牧、畜禽、英语、西班牙语、葡萄牙语、俄语、语言类专业)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "能源/环保/农业",
+        "level_2": "禽畜/水产养殖技术员",
+        "level_3": "畜禽养殖技术"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "畜禽养殖技术/水产养殖技术/畜牧养殖与生产管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-0b95a1c731b9cc5a0363",
+      "standard_name": "环保工程师(环境科学与工程,化学类)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "能源/环保/农业",
+        "level_2": "环保",
+        "level_3": "环保工程与治理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "环保工程与治理/环境监测与评估/能源开发与工程"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-21cd61bf4d0b1d98d366",
+      "standard_name": "职能岗(物理、化学、光伏、机械工程、材料科学与工程、安全管理、土木工程、计划管理、人力资源、法学类、人文社科、经济类、财会类、市场营销类等)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "能源/环保/农业",
+        "level_2": "能源/地质",
+        "level_3": "能源开发与工程"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "能源开发与工程/地质勘查与测绘/农作物与农业技术"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-646f7c67c319a3e171dc",
+      "standard_name": "财务与内控审计",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "财务/审计/税务",
+        "level_2": "审计",
+        "level_3": "内部控制与内审"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "内部控制与内审/外部与财务审计/总账与财务核算"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-b4b0506894f5090c5ed5",
+      "standard_name": "报表会计",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "财务/审计/税务",
+        "level_2": "会计",
+        "level_3": "报表与财务报告"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "报表与财务报告/总账与财务核算/成本与管理会计"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-948debea359b46e4dc48",
+      "standard_name": "总账和税务管理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "财务/审计/税务",
+        "level_2": "会计",
+        "level_3": "总账与财务核算"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "总账与财务核算/现金与银行管理/成本与管理会计"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-c2f680002c47b878365c",
+      "standard_name": "化妆品研发工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "产品",
+        "level_2": "化妆品产品经理",
+        "level_3": "产品研发与配方"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "产品研发与配方/品牌与市场产品/食品工艺与质量研发"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-aca584facfe60b6eab5b",
+      "standard_name": "游戏系统策划",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "产品",
+        "level_2": "游戏策划/制作",
+        "level_3": "游戏系统与玩法策划"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "游戏系统与玩法策划/内容与剧情策划/游戏制作与项目管理"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-b48db66880ccd3b08f25",
+      "standard_name": "课程研发",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "教育培训",
+        "level_2": "教育产品研发",
+        "level_3": "课程与内容研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "课程与内容研发/教育产品与平台研发/教育课程顾问"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-f4d1a3bfd0cc8733609d",
+      "standard_name": "教学管理",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "教育培训",
+        "level_2": "教育行政",
+        "level_3": "教学事务管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "教学事务管理/学科辅导/企业与管理培训"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-77620f95fcca40ce44ec",
+      "standard_name": "生产运营类精益改善工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "生产营运",
+        "level_3": "生产运营与精益改善"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "生产运营与精益改善/生产计划与调度/品类增长与经营"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-08a2fc97f9323b8bbe60",
+      "standard_name": "生产调度",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生产制造",
+        "level_2": "生产营运",
+        "level_3": "生产计划与调度"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "生产计划与调度/生产运营与精益改善/服装生产跟单与质控"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-e13542114146aa70220c",
+      "standard_name": "薪酬福利",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "人力/行政/法务",
+        "level_2": "人力资源",
+        "level_3": "薪酬福利"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "薪酬福利/招聘与人才获取/资金收付与结算"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-ce3e7b09df31cb0d6753",
+      "standard_name": "培训生岗位(管理方向、技术方向、运营管理)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "教育培训",
+        "level_2": "助教",
+        "level_3": "课程运营与学员服务"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "课程运营与学员服务/企业与管理培训/软件开发培训"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-b47a8e65404433f02edb",
+      "standard_name": "研学教学业务代表",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "教育培训",
+        "level_2": "教育产品研发",
+        "level_3": "课程与内容研发"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "课程与内容研发/教育产品与平台研发/教学事务管理"
+    },
+    {
+      "sample_role": "validation",
+      "standard_occupation_id": "SNO-4ce1c5d715edc56f2ab6",
+      "standard_name": "幼儿园教师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "教育培训",
+        "level_2": "幼儿/少儿教师",
+        "level_3": "幼儿园与学前教育"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "幼儿园与学前教育/少儿课程与活动教学/学前与少儿教育"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-4936af5e1ea763ad2187",
+      "standard_name": "专科护理人员",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "医疗健康",
+        "level_2": "护士",
+        "level_3": "专科与社区护理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "专科与社区护理/临床护理/医院陪护与生活照料"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-01c854ce2347a7a864fb",
+      "standard_name": "化妆造型",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生活服务/零售",
+        "level_2": "化妆/造型师",
+        "level_3": "彩妆与形象造型"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "彩妆与形象造型/影视舞台造型/美睫与眼部造型"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-c4373fa2bc90ca7b76f8",
+      "standard_name": "零售代表",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "生活服务/零售",
+        "level_2": "零售",
+        "level_3": "商品管理与零售供应链"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "商品管理与零售供应链/门店运营与导购/零售与综合银行"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-b57081c6686f14edd1b4",
+      "standard_name": "门店运营管理培训生(销售管理、顾客服务、团队管理)",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "餐饮",
+        "level_2": "餐饮店长",
+        "level_3": "门店运营与人员管理"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "门店运营与人员管理/门店与现场运营/门店运营与导购"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-b462fda741e30bd0eec5",
+      "standard_name": "管理咨询",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "咨询/翻译/法律",
+        "level_2": "咨询/调研",
+        "level_3": "管理与行业咨询"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "管理与行业咨询/心理咨询与干预/财务规划与咨询"
+    },
+    {
+      "sample_role": "calibration",
+      "standard_occupation_id": "SNO-98f062aa9608b062f3b1",
+      "standard_name": "能源工程师",
+      "first_candidate_reasonable": true,
+      "top3_contains_reasonable_target": true,
+      "confirmed_or_deepest_level": {
+        "level_1": "能源/环保/农业",
+        "level_2": "能源/地质",
+        "level_3": "能源开发与工程"
+      },
+      "status": "candidate_plausible_review",
+      "reason": "名称与第一候选的核心职业词一致；仍不构成自动接受或概率结论。",
+      "top3_categories": "能源开发与工程/地质勘查与测绘/环保工程与治理"
+    }
+  ]
+}

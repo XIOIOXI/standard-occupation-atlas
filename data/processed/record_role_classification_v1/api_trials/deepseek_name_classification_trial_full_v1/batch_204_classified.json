@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 204,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "06e5c3e1-4c21-4280-b1ec-d8021804b94a",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751568,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24962,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1666,
+    "output_tokens": 3480,
+    "reasoning_tokens": 0,
+    "total_tokens": 28442
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002407788
+  },
+  "observed_at_utc": "2026-10-11T20:46:08.439380+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-750c1b842df7fc41823f",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "信息科技范围过宽，无法确定具体技术方向，需补充岗位职责或技术栈。"
+    },
+    {
+      "occupation_id": "SNO-8b73a6dbb7df6f0bd1fc",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "信息化管理可能涉及IT管理、系统运维或项目管理，缺少具体职责信息。"
+    },
+    {
+      "occupation_id": "SNO-1463fae1ac4bae90b791",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "暖通设计属于建筑机电设计，目录中无暖通或建筑设备细分承接类别。"
+    },
+    {
+      "occupation_id": "SNO-4ccd658169d569ce433c",
+      "target_category_id": "运营/客服/ops-cross-border/cross-platform",
+      "status": "mapped",
+      "reason": "亚马逊运营核心为跨境电商平台店铺运营。"
+    },
+    {
+      "occupation_id": "SNO-2c2e1fa8f03854bffd22",
+      "target_category_id": "运营/客服/ops-cross-border/cross-platform",
+      "status": "mapped",
+      "reason": "高级亚马逊运营仍属跨境电商平台运营，职级修饰不影响核心职业。"
+    },
+    {
+      "occupation_id": "SNO-05ada2469f885cf7128b",
+      "target_category_id": "生活服务/零售/service-retail/retail-store",
+      "status": "mapped",
+      "reason": "零售管培生核心为门店零售运营与导购管理培养。"
+    },
+    {
+      "occupation_id": "SNO-0c7bac0208dd330b2880",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "商务经理职责范围较广，可能涉及销售、采购、合作等，缺少具体方向。"
+    },
+    {
+      "occupation_id": "SNO-4b139d4f2503f80383e8",
+      "target_category_id": "运营/客服/ops-seo/search-sem",
+      "status": "mapped",
+      "reason": "FB优化师核心为Facebook广告投放与优化，属搜索营销与投放。"
+    },
+    {
+      "occupation_id": "SNO-a7ef88f84a55c909de7d",
+      "target_category_id": "运营/客服/ops-seo/search-sem",
+      "status": "mapped",
+      "reason": "高级FB优化师仍属广告投放优化，职级修饰不影响核心职业。"
+    },
+    {
+      "occupation_id": "SNO-a52a08335185f048cd45",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "翻译未指明语种，无法确定具体翻译类别。"
+    },
+    {
+      "occupation_id": "SNO-cd56612314b5552afb56",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "矿业投资分析员核心为投资分析与评估。"
+    },
+    {
+      "occupation_id": "SNO-b2f11d08eb20cf0aed90",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电力电子硬件工程师核心为电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-01b91fc88ba4bcd395cb",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场营销助理核心为市场与营销支持。"
+    },
+    {
+      "occupation_id": "SNO-7a9f625e8acf0516914a",
+      "target_category_id": "影视/传媒/media-news/news-reporting",
+      "status": "mapped",
+      "reason": "新闻采编核心为新闻采编与报道。"
+    },
+    {
+      "occupation_id": "SNO-2e07a15d55b1fdfe2f34",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件研发核心为电子硬件开发。"
+    },
+    {
+      "occupation_id": "SNO-0b1c4f771264c9ad5ec6",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "数据开发工程师核心为数据工程与数仓开发。"
+    },
+    {
+      "occupation_id": "SNO-0bb0c4666418e9f21fd8",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "数据开发核心为数据工程与数仓开发。"
+    },
+    {
+      "occupation_id": "SNO-1c835b6082b480945b2a",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "计划管理可能涉及生产计划、供应链计划或项目计划，缺少行业或职能信息。"
+    },
+    {
+      "occupation_id": "SNO-18f39e62ad7e77ac6efc",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "视觉应用工程师可能指机器视觉应用或视觉设计应用，缺少技术方向。"
+    },
+    {
+      "occupation_id": "SNO-58e0c3afa16a9b63399c",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "微波电路设计师核心为电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-79fca08e7d1f450ccd29",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "行政综合核心为行政事务与文档处理。"
+    },
+    {
+      "occupation_id": "SNO-ebb6c46f2e5f8e8bd61b",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "初中美术教师属基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-10d197112feaa8c69926",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "云计算服务工程师核心为云基础设施运维与支持。"
+    },
+    {
+      "occupation_id": "SNO-81b7ade55f5b15b98f93",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "科员为通用行政职级称谓，缺少具体职能信息。"
+    },
+    {
+      "occupation_id": "SNO-bc68850afd71e00c4d95",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-growth",
+      "status": "mapped",
+      "reason": "营销推广专员核心为市场推广与营销。"
+    },
+    {
+      "occupation_id": "SNO-1087610aa02f3d0c13cc",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": "临床医师核心为临床诊疗。"
+    },
+    {
+      "occupation_id": "SNO-2480eea9fa7b9c704cfc",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌入式软硬件工程师核心为嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-496d669d4d6feab125a4",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌入式软硬件开发工程师核心为嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-8f785fe6b76359fecbf6",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "数字化工程师职责范围较广，可能涉及IT、数据或业务数字化，缺少具体方向。"
+    },
+    {
+      "occupation_id": "SNO-07449447725a63f01465",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "下属单位为组织称谓而非职业名称，无法判断具体岗位。"
+    },
+    {
+      "occupation_id": "SNO-34b4e571f40e8f8b2049",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中学数学教师属基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-24622b6909a5a12d8a2b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "规划设计可能指城市规划、建筑设计或景观规划，缺少具体领域。"
+    },
+    {
+      "occupation_id": "SNO-ff71c4276a18ea176f95",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "采购寻源核心为供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-d5c1089a443f290e8c22",
+      "target_category_id": "运营/客服/ops-domestic-ecommerce/domestic-ecom-platform",
+      "status": "mapped",
+      "reason": "拼多多运营核心为国内电商平台店铺运营。"
+    },
+    {
+      "occupation_id": "SNO-a5658f8a34c155da296b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "品质运营可能指质量管理或运营质量，缺少行业与具体职责。"
+    },
+    {
+      "occupation_id": "SNO-8565565a39399b3574ba",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "供应链核心为供应链计划与协同。"
+    },
+    {
+      "occupation_id": "SNO-f91c03e8f4111edd63f8",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "地理教师属基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-fd7e195cce80d7150a95",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机械工程师(结构)核心为机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-e3e21e2552450ddb916a",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量与可靠性工程师核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-36f6bfb177e5e20506e5",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "平面设计核心为品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-1f02bb046a79398fe445",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-environment",
+      "status": "mapped",
+      "reason": "EHS工程师核心为环境与职业健康管理。"
+    },
+    {
+      "occupation_id": "SNO-8a4bd8a4a5a941ca09e4",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质检核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-77de1f789b69de2a102b",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机电技术研发核心为机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-8289e67df525e14fa3fb",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "科研为泛称，缺少具体学科或研究方向。"
+    },
+    {
+      "occupation_id": "SNO-7a0c79f3f833ba2f5741",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "纪律检查属于纪检监察职能，目录中无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-d5df564082f90f0ee1a6",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "大模型算法研究员核心为大模型与生成式AI算法。"
+    },
+    {
+      "occupation_id": "SNO-cd982d2a0a4cd57951b8",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "项目管理工程师核心为项目交付与实施管理。"
+    },
+    {
+      "occupation_id": "SNO-2b7bc6bff63c224c7433",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法设计师核心为算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-9bb882c6229ac143d2c0",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "数据管理可能涉及数据治理、数据开发或数据运营，缺少具体方向。"
+    },
+    {
+      "occupation_id": "SNO-9de4f939294bc2a65cb2",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "海外商务专员核心为销售支持与商务协调。"
+    }
+  ]
+}

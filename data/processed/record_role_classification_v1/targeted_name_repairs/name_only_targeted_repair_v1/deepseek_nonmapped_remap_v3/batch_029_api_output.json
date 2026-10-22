@@ -1,0 +1,28 @@
+{
+  "id": "3dadf3c9-30a6-42bc-b3e7-f40833480fb9",
+  "object": "chat.completion",
+  "created": 1791821835,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-4a67b2c8018fcb13d88a\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"基地管培生为培养项目，未指明具体职能方向，无法确认职业类别。\"},{\"entry_id\":\"SNO-4a8d16def4956cfc5f70\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"管培生(寄递方向)为培养项目，寄递方向不足以确认具体三级职业。\"},{\"entry_id\":\"SNO-4aa1a3c6743f7d8e154a\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"仅写技术，无法判断具体技术岗位。\"},{\"entry_id\":\"SNO-4ab8278ed44d7b5510af\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"推荐助理名称不足以确认是算法岗位，可能为推荐运营或助理，无法确定三级。\"},{\"entry_id\":\"SNO-4aba7ffef501413f7dad\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"综合岗职责不明确，缺少具体工作内容信息。\"},{\"entry_id\":\"SNO-4ae1f1a9cb685cb73b6f\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"战略级管培生为培养项目，缺少具体职能方向，无法确定职业类别。\"},{\"entry_id\":\"SNO-4b05dcdf1cfb0b1aee62\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出达人BD运营海外、国内及AI产品专员多个独立职业，无共同可确认上级。\"},{\"entry_id\":\"SNO-4b330dfedecf5471acce\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"支持中心管培生职责方向不明确，缺少具体职能信息。\"},{\"entry_id\":\"SNO-4b38e905bbe552808b68\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"职能支持类海外老挝，职能方向不明确，缺少具体岗位信息。\"},{\"entry_id\":\"SNO-4b561f3396a1da80771b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"锦星管培生方向不明确，无法确定具体职业类别。\"},{\"entry_id\":\"SNO-4b584b570f3bd03d7553\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"技术工程师未说明具体技术方向，无法确定职业类别。\"},{\"entry_id\":\"SNO-4b67b5941a6e33023637\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"综合部数字化技术职责范围宽泛，缺少具体技术方向或岗位职责。\"},{\"entry_id\":\"SNO-4b91e485b275dd6b8414\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"软件开发工程师(应用)未明确技术栈，不能仅凭应用推断为后端服务端开发。\"},{\"entry_id\":\"SNO-4b987c5b83772ba75497\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"校招管培生缺乏具体职能方向，无法确定职业类别。\"},{\"entry_id\":\"SNO-4bbbe1489a8a153aad0b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"放行工程师行业背景不明确，无法确定类别。\"},{\"entry_id\":\"SNO-4bc0df701112b6b2c53a\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"标准制定缺少行业与技术领域信息，无法确定类别。\"},{\"entry_id\":\"SNO-4bdaf76cb6aa81a6a854\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"专业研究未说明研究领域，无法确定具体类别。\"},{\"entry_id\":\"SNO-4bdfab95b6a1152d56f4\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时列出营销方向和导游领队两个独立职业方向，无共同可确认上级。\"},{\"entry_id\":\"SNO-4c091e499758e64196be\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"职能类管培生未指明具体职能方向，无法确定细分职业。\"},{\"entry_id\":\"SNO-4c39ab32eed25c8fa737\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时包含技术文控与点胶工艺工程师，属于复合岗位，无共同可确认上级。\"},{\"entry_id\":\"SNO-4c65718137daaeb497ac\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"真空技术工程师职业清晰，但冻结目录无对应三级类别，也无法确认合适一级二级。\"},{\"entry_id\":\"SNO-4c880707fb8519096f9d\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"国内管培生为通用管培项目，缺少具体职能方向，无法确定职业类别。\"},{\"entry_id\":\"SNO-4cd0c0b3acd26b891424\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"软件开发工程师(通用软件方向、数据库方向)未明确技术栈，不能仅凭通用软件推断为后端服务端开发。\"},{\"entry_id\":\"SNO-4ce0b3ef7a9098db0d90\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"法学类专业管培生为轮岗培养项目，具体职业方向不明确。\"},{\"entry_id\":\"SNO-4cfccb05071ef700073f\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"藏品统筹职责不明确，可能涉及文博管理或运营，目录无对应类别。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29582,
+    "completion_tokens": 1246,
+    "total_tokens": 30828,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2190
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

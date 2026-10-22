@@ -1,0 +1,28 @@
+{
+  "id": "b5723068-dfa4-4550-815f-a94f23c850b9",
+  "object": "chat.completion",
+  "created": 1792596141,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-e57f2d0bb6a0fc23d3910591a8f430c5\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-06-02\",\"issue\":\"化妆品企业研发样品工程师，归日化与个护研发合理；样品制作与配方支持属该二级范围，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17059,
+    "completion_tokens": 88,
+    "total_tokens": 17147,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 547
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

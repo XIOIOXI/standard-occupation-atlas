@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e07893caf310230ae6fd7003ea0a2228",
+      "status": "mapped",
+      "target_category_id": "L03-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-04",
+        "L01-07-03"
+      ],
+      "title_evidence": "岗位名称明确为“数据库管理岗”，属于数据库运行维护方向",
+      "level_3_evidence": null,
+      "reason": "“数据库管理”直接对应数据库运维（运行、备份、性能与故障管理），归 L03-04；虽在保险公司，但岗位为数据库管理而非数据库内核研发，故不选 L01-07-03。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16963,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 323,
+    "output_tokens": 151,
+    "reasoning_tokens": 0,
+    "total_tokens": 17114
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037794
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

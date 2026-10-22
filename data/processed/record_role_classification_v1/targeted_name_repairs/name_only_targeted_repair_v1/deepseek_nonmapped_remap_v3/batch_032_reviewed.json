@@ -1,0 +1,185 @@
+{
+  "batch_number": 32,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "d6216bae-7839-4355-a2cc-d02206a8756f",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821851,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29466,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2074,
+    "output_tokens": 1355,
+    "reasoning_tokens": 0,
+    "total_tokens": 30821
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0012062759999999998
+  },
+  "results": [
+    {
+      "entry_id": "SNO-55b802dc580ccaa8f2b5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "英语管培生为培训生项目名称，未明确具体职业方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-562fe6170e7d2bc5eb9f",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器人部署调试工程师明确属于机器人与具身智能方向，可归入该三级类别。"
+    },
+    {
+      "entry_id": "SNO-5683144807521ebcf70c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科技管理管培生为培训生项目，缺少具体技术或管理方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-56903fe0b608e5b7f495",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "reason": "音频工程师明确对应语音与音频算法方向，可归入该三级类别。"
+    },
+    {
+      "entry_id": "SNO-56b7f4ce8c31cdbc564d",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "协议栈软件开发工程师属于底层网络协议栈开发，可归入C++系统与底层开发。"
+    },
+    {
+      "entry_id": "SNO-56bcf48c250e831621f1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "海外校招生为招聘项目名称，缺少具体职业方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-56e9b70d01362ea15625",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "创新管理职责宽泛，缺少具体职能方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-56eedb42f91dedc72c48",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "船舶技术缺少具体方向，无法判断是设计、制造还是维修，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-56f38e90ad6ecc1bab02",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管网技术缺少具体行业与职责方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-5794ad54dffff9bf1d5f",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出生产管培与工程管培两个方向，但无法确认共同的一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-57bf0a2f592a252429c1",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "专职纪检工作人员职业清晰，但冻结目录无纪检监察对应类别，也无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-57c573f6de39d7985c09",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器人全栈工程师涉及机器人多个技术栈，可确认属于机器人与具身智能方向，但全栈职责超出单一三级。"
+    },
+    {
+      "entry_id": "SNO-57ef269898b448c0c0ae",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "现场作业专员职责范围不明确，缺少行业或具体作业内容，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-57fae0e98840df61d7b5",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出销售管理、媒体运营、政企客户经理等多个独立职业方向，无法确认共同的一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-582b69c9f4fb92c4f34f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "IP项目创优生为管培生项目，具体职业方向不明确，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-5842455a58231e0877d5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "拟招聘管培生未说明具体职能方向，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-584b755cdc0acf5be083",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "架构工程师核心为平台与中间件架构开发，可归入该三级类别。"
+    },
+    {
+      "entry_id": "SNO-590845eda21a70df2656",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "仕官生为特定企业管培生项目名称，缺少具体职能方向，无法确定分类。"
+    },
+    {
+      "entry_id": "SNO-592d124fe7eeb4c98b87",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "商务管理培训生为培训生项目，未明确具体职业方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-59373f904a4fc86ae718",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "专业培养生未说明具体培养方向或职能，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-593f6de190e26afd54d9",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含创新投融资研究和项目策划两个独立职责方向，无法确认共同的一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-5954bb18b0cf71aead2c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "国际数据治理合作研究缺少具体行业或技术方向，无法确定归入数据治理、咨询调研或政府事务。"
+    },
+    {
+      "entry_id": "SNO-597a2b6e200df2660528",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“数智科技”名称过于宽泛，缺少具体技术或业务方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-59ca5395f7ffb34d84ff",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "高级研发专员缺少技术方向，无法确定具体研发类别。"
+    },
+    {
+      "entry_id": "SNO-5a06b98b21528d307de5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "SAP为产品/系统名称，未明确具体职业方向，无法确认类别。"
+    }
+  ]
+}

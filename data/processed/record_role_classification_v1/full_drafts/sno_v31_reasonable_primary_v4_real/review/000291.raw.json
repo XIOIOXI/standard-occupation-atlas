@@ -1,0 +1,28 @@
+{
+  "id": "f8a05f9d-cf22-4559-bce0-0b49425964b5",
+  "object": "chat.completion",
+  "created": 1791881094,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-85d3248f86594d526d11\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2e5037d1ddeb2e9c726a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1216249f8e232e07ab69\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L13-09\",\"issue\":\"标题为营销培训生，含公司金融/小微金融/零售金融多方向，客户类型不唯一，不应归L13-02个人客户销售，应归L13-09通用销售。\"},{\"occupation_id\":\"TG-272e1df6e568b9492454\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L13-09\",\"issue\":\"同TG-1216249f8e232e07ab69，多方向营销培训生客户类型不唯一，应归L13-09通用销售。\"},{\"occupation_id\":\"TG-15363512f5f6d55c30a7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-718ac24d86e9fcbaba52\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-761244dcd7be6084cdf7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c8c459ebc545d86afed0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-caa9c6afc1b8a9de077b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-66176edbc848b4185aeb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3a525f40fb41a7f52427\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0dc6069ae0c00310393f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e6f6968c65ae68ed0182\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3e47d1262efef7cea3a5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-070747c645ac63e762b1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-00cb16cb233325c619eb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-dca504de04aefb1fa116\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-226cfd4ea6984359285d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4e4a3a105f78ab3827ca\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e91491c8137421471400\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19718,
+    "completion_tokens": 815,
+    "total_tokens": 20533,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3206
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

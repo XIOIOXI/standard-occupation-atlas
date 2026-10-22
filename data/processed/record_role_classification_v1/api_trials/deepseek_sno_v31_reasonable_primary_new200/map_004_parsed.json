@@ -1,0 +1,263 @@
+{
+  "raw_response_file": "map_004_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-dd8ea6f5e325b593584a",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "变电一次设计",
+      "level_3_evidence": null,
+      "reason": "变电一次设计属于电气工程中的变电电气一次设计，归入电气工程。"
+    },
+    {
+      "occupation_id": "SNO-e7360edb140ba1a4784c",
+      "status": "mapped",
+      "target_category_id": "L08-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-01"
+      ],
+      "title_evidence": "产品经理(储备)",
+      "level_3_evidence": null,
+      "reason": "产品经理为产品规划职能，储备为身份修饰，未说明产品类型，归通用产品规划。"
+    },
+    {
+      "occupation_id": "SNO-ae08793ba8c42f3a377a",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "-销售",
+      "level_3_evidence": null,
+      "reason": "仅明确销售职能，客户类型与方向未说明，归通用销售。"
+    },
+    {
+      "occupation_id": "SNO-60fca6cfbb12dd17e92f",
+      "status": "mapped",
+      "target_category_id": "L14-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-04-01",
+        "L14-04-02"
+      ],
+      "title_evidence": "博+牛电商运营管培生",
+      "level_3_evidence": null,
+      "reason": "电商运营管培生，管培为身份修饰，已明确电商运营职能，归电商与商品运营。"
+    },
+    {
+      "occupation_id": "SNO-bf99a22a0a96167b5c6f",
+      "status": "mapped",
+      "target_category_id": "L01-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-08-01"
+      ],
+      "title_evidence": "图形/图像软件开发工程师",
+      "level_3_evidence": null,
+      "reason": "图形/图像软件开发属于图形与引擎开发，未明确渲染或引擎系统，落二级。"
+    },
+    {
+      "occupation_id": "SNO-09a9beb236659c0f044f",
+      "status": "mapped",
+      "target_category_id": "L05-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-02-01",
+        "L05-02-02"
+      ],
+      "title_evidence": "硅光芯片研究员",
+      "level_3_evidence": null,
+      "reason": "硅光芯片研究员属于芯片与集成电路设计，未明确数字或模拟，落二级。"
+    },
+    {
+      "occupation_id": "SNO-cb3427e6336f2ef70906",
+      "status": "mapped",
+      "target_category_id": "L24-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-06-01",
+        "L24-06-02"
+      ],
+      "title_evidence": "项目机料",
+      "level_3_evidence": null,
+      "reason": "项目机料通常指工程项目材料管理，属于工程造价与招采范畴，未明确造价或招采，落二级。"
+    },
+    {
+      "occupation_id": "SNO-b904ca21fa5778983d45",
+      "status": "mapped",
+      "target_category_id": "L11-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-01",
+        "L11-04"
+      ],
+      "title_evidence": "科技服务部经理",
+      "level_3_evidence": null,
+      "reason": "科技服务部经理为部门管理岗，职能方向未明确，归通用经营与咨询工作。"
+    },
+    {
+      "occupation_id": "SNO-fb6749ff90f81d75754d",
+      "status": "mapped",
+      "target_category_id": "L06-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-05-01",
+        "L06-05-02"
+      ],
+      "title_evidence": "化工工艺及管道设计师(天元公司)",
+      "level_3_evidence": null,
+      "reason": "化工工艺及管道设计属于化学化工研发，未明确合成或配方，落二级。"
+    },
+    {
+      "occupation_id": "SNO-14e20adb5dc57663797f",
+      "status": "mapped",
+      "target_category_id": "L11-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-04-01",
+        "L11-04-02"
+      ],
+      "title_evidence": "咨询顾问(商业分析、市场营销、统计、数学、社会学、心理学、英语、广告、新闻学、计算机、药学、公共卫生、医学、生物学、教育学、人类学、商科)",
+      "level_3_evidence": null,
+      "reason": "咨询顾问属于管理与专业咨询，括号内为专业背景标签，未明确战略或行业，落二级。"
+    },
+    {
+      "occupation_id": "SNO-3ced5c43ea3b2ec5fb7b",
+      "status": "mapped",
+      "target_category_id": "L24-06-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "安装造价师",
+      "level_3_evidence": "安装造价师直接对应工程造价与预算中的安装工程造价。",
+      "reason": "安装造价师明确为安装工程造价预算，归工程造价与预算。"
+    },
+    {
+      "occupation_id": "SNO-57cab55464eb54e86335",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L22-02-02",
+        "L22-02-03",
+        "L22-02-04"
+      ],
+      "title_evidence": "托管教师(初中方向)",
+      "level_3_evidence": null,
+      "reason": "托管教师为学科教学，初中方向未明确具体学科，落学科与通识教学二级。"
+    },
+    {
+      "occupation_id": "SNO-11bb6d4d587dde12a387",
+      "status": "mapped",
+      "target_category_id": "L22-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "数学思维老师",
+      "level_3_evidence": "数学思维老师直接对应数学与自然科学教学。",
+      "reason": "数学思维老师明确为数学教学，归数学与自然科学教学。"
+    },
+    {
+      "occupation_id": "SNO-e8ea39a22b89370126f0",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "管培生视频内容管培生",
+      "level_3_evidence": null,
+      "reason": "视频内容管培生，管培为身份修饰，已明确视频内容运营职能，归内容与新媒体运营。"
+    },
+    {
+      "occupation_id": "SNO-b2bb0759aeed784841cd",
+      "status": "mapped",
+      "target_category_id": "L18-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "行政管理人员",
+      "level_3_evidence": null,
+      "reason": "行政管理人员明确为行政与办公事务。"
+    },
+    {
+      "occupation_id": "SNO-4a0d167c153ce126c2db",
+      "status": "mapped",
+      "target_category_id": "L08-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-01",
+        "L08-02",
+        "L08-04"
+      ],
+      "title_evidence": "产品策划经理",
+      "level_3_evidence": null,
+      "reason": "产品策划经理为产品规划职能，未说明产品类型，归通用产品规划。"
+    },
+    {
+      "occupation_id": "SNO-677d6bd8842d15f03ce7",
+      "status": "mapped",
+      "target_category_id": "L07-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "仿真模拟与训练技术研究实习员",
+      "level_3_evidence": null,
+      "reason": "研究实习员属于科研技术支持，仿真模拟与训练技术为研究方向，归实验与科研技术支持。"
+    },
+    {
+      "occupation_id": "SNO-6e1f412867ef9face30d",
+      "status": "mapped",
+      "target_category_id": "L19-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-01",
+        "L19-03",
+        "L19-07"
+      ],
+      "title_evidence": "财务管理",
+      "level_3_evidence": null,
+      "reason": "财务管理为财务职能，方向未明确，归通用财务工作。"
+    },
+    {
+      "occupation_id": "SNO-b454cba2a98c9c19bf27",
+      "status": "mapped",
+      "target_category_id": "L03-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-01",
+        "L03-02",
+        "L03-03"
+      ],
+      "title_evidence": "基础设施管理",
+      "level_3_evidence": null,
+      "reason": "基础设施管理通常指IT基础设施运维，方向未明确，归通用信息技术运维。"
+    },
+    {
+      "occupation_id": "SNO-d95e4ffc32ab9faa72c6",
+      "status": "mapped",
+      "target_category_id": "L26-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "营林技术",
+      "level_3_evidence": null,
+      "reason": "营林技术属于林业与生态管护。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17506,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 866,
+    "output_tokens": 2533,
+    "reasoning_tokens": 0,
+    "total_tokens": 20039
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00169962
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

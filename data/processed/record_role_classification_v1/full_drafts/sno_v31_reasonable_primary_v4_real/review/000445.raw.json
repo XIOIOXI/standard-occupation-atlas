@@ -1,0 +1,28 @@
+{
+  "id": "1aa1f4e7-ecab-4245-b136-7b49f4f3179f",
+  "object": "chat.completion",
+  "created": 1791881605,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-db28092a79192db4aed7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1e3217c07a1b59bb040f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5802e8be706c2e785171\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1c825d25fc2febf0fe6b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2786706647457c0f395d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1711ac147fa3baeafcaf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0a76f6a01aceb6f46ee4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-460aff4f5cc5eee22336\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-68f66924a95bffa44faa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-520003188509f4f57c89\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-52d48d557116035b0f22\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a52907df9e6a89231f34\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-b1513e47d838c56cfe6a\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L13-07\",\"issue\":\"店长/城市经理方向属于销售团队与门店经营管理，应归销售管理L13-07，而非门店导购L13-05。\"},{\"occupation_id\":\"TG-24a77874caa237a62b16\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-be48a8ec35b2db558479\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-66dad17b52f567e3fd03\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-7c7bae2f148b07011ef8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3825e95a4a6774835143\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L02-05-01\",\"issue\":\"SLAM/导航定位算法属于计算机视觉与空间感知，应归计算机视觉L02-05-01，而非运筹优化与决策算法L02-05-06。\"},{\"occupation_id\":\"TG-aa5e93041e7f20764165\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-583382636305fb5e2341\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19414,
+    "completion_tokens": 812,
+    "total_tokens": 20226,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2902
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

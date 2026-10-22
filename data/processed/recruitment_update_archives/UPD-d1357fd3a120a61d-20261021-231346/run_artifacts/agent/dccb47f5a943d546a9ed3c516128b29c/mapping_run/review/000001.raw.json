@@ -1,0 +1,28 @@
+{
+  "id": "5aee99b1-9618-4fb1-8d48-a88921f8828f",
+  "object": "chat.completion",
+  "created": 1792571763,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-dccb47f5a943d546a9ed3c516128b29c\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L20-06\", \"issue\": \"准备金评估属保险精算与金融定价职能，主归属L20-06合理；二级直达，无需三级细分。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17031,
+    "completion_tokens": 92,
+    "total_tokens": 17123,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 519
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

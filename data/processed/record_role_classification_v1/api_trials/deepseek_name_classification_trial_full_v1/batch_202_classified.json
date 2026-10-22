@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 202,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "9e0976c8-584d-42c3-aa1f-a19908568066",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751551,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24943,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1647,
+    "output_tokens": 2664,
+    "reasoning_tokens": 0,
+    "total_tokens": 27607
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0019153379999999997
+  },
+  "observed_at_utc": "2026-10-11T20:45:52.021051+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-117f9801a24cf9a1081d",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "核算管理核心为财务核算，归总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-5d8020be008f237faab5",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "工艺管理属生产制造工艺运营与改善。"
+    },
+    {
+      "occupation_id": "SNO-c057872cb66572068f7a",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "执行采购对应采购执行与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-0347bb57dd4c657222ac",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "产业研究员属咨询调研类行业研究。"
+    },
+    {
+      "occupation_id": "SNO-4e6abf0fad01c952eb3d",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "大客户销售属客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-4edd07c2b708d567ba66",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "采购管理对应采购执行与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-e644479b1bf8e07f3671",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "FPGA开发属嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-352ba0a195cb95600e5c",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "FPGA工程师属嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-e4744a3275a4534de58c",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "FPGA软件工程师属嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-1db61d1b51bed1fd703c",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "fpga开发属嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-bbce219fff5f0c53b712",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "芯片设计对应芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-28da1066d97195db8041",
+      "target_category_id": "互联网/AI/internet-data-development/data-platform",
+      "status": "mapped",
+      "reason": "数据治理工程师属大数据平台与治理。"
+    },
+    {
+      "occupation_id": "SNO-a5de42db1a517a399e29",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "status": "mapped",
+      "reason": "造型设计属工业产品设计。"
+    },
+    {
+      "occupation_id": "SNO-8d0e9c2de3809c183b93",
+      "target_category_id": "产品/product-internet/product-user",
+      "status": "mapped",
+      "reason": "产品经理助理属互联网产品经理用户与增长方向。"
+    },
+    {
+      "occupation_id": "SNO-2e89b0b2661bb72906bb",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "软件设计师属业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-9207fabb4e16c31045bd",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机械工程师属机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-76ab7d3b41f2326d7999",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": "生产属装配与生产线作业。"
+    },
+    {
+      "occupation_id": "SNO-22539716a511c7ff39d0",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "无线网络工程师属通信网络建设与维护。"
+    },
+    {
+      "occupation_id": "SNO-2bba14c6783a0cc9d35c",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安全员属安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-df7bb020e50557c98a4c",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "信号与信息处理设计师属无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-4ac614f572ea9c017c26",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "Layout工程师属电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-fe5b6c74d4bd68697ce7",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "高级Layout工程师属电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-deae8e3c5c5e7a8be712",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-engineering",
+      "status": "mapped",
+      "reason": "环保工程设计人员属环保工程与治理。"
+    },
+    {
+      "occupation_id": "SNO-e3d44fc5bf5cc97ec6ca",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "交通检测技术人员属施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-3dfa5a3ebcc03ab9b2ea",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "科学研究范围过泛，缺少具体学科或行业方向。"
+    },
+    {
+      "occupation_id": "SNO-257e21331c49ec77401a",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "数字化项目开发管理人员属项目交付与实施。"
+    },
+    {
+      "occupation_id": "SNO-0ed82895e4df97d00c34",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "数智化名称过泛，缺少具体技术或业务方向。"
+    },
+    {
+      "occupation_id": "SNO-b51f96385d34f4d56492",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "外饰开发属整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-401eddb45b4f3c00461d",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-verification",
+      "status": "mapped",
+      "reason": "数字IC验证工程师属芯片验证。"
+    },
+    {
+      "occupation_id": "SNO-c80a334742b4496ce261",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "材料研发缺少具体材料或行业方向。"
+    },
+    {
+      "occupation_id": "SNO-679c2fc42749b92448ec",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "PLC开发工程师属电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-0b837d8d73e2ec90a7d5",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "PLC开发工程师属电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-3842680e60d17a5d58d8",
+      "target_category_id": "电子/电气/通信/electronic-repair/electronics-repair-industrial",
+      "status": "mapped",
+      "reason": "电气检修属工业电子与设备维修。"
+    },
+    {
+      "occupation_id": "SNO-750ce3f31270a16d0d8a",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "三维重建算法工程师属计算机视觉与三维感知。"
+    },
+    {
+      "occupation_id": "SNO-9f4dcc4816690ff16285",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "产品测试工程师属功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-23e08b3a5e2f4848f112",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "产品测试开发工程师属功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-965152ee1ba6c334dee4",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-manufacturing",
+      "status": "mapped",
+      "reason": "涂装工艺工程师属汽车制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-1f4e1a0096860e1fc21d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法优化工程师属算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-f64bf9369976bfe46a03",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "status": "mapped",
+      "reason": "系统架构师属平台与中间件开发。"
+    },
+    {
+      "occupation_id": "SNO-355640918f5270ce9f1a",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "数字工程师名称过泛，缺少具体技术方向。"
+    },
+    {
+      "occupation_id": "SNO-c06599156d452f90d19c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "数字研发工程师名称过泛，缺少具体技术方向。"
+    },
+    {
+      "occupation_id": "SNO-790b5be91efee5e7069d",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-transport",
+      "status": "mapped",
+      "reason": "调度专员属运输调度与线路运营。"
+    },
+    {
+      "occupation_id": "SNO-2ed1056a31b43630c854",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "status": "mapped",
+      "reason": "产品设计师属工业产品设计。"
+    },
+    {
+      "occupation_id": "SNO-ed5f525f7d02cd1916d0",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "高功率微波总体/防护技术设计师属无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-6679f83dc435082e7106",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "招标专员属采购执行与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-f85570fbceebdd280884",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产储备工程师属生产计划与调度。"
+    },
+    {
+      "occupation_id": "SNO-ded4589b1305eccfdbd5",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安全专员属安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-7834389f21b9a90344a3",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "焊接工艺工程师属机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-1524f8db969e8ce47e22",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "保密管理缺少具体行业或职能方向。"
+    },
+    {
+      "occupation_id": "SNO-3088bc255a2aea2ca403",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "软件开发高级工程师属业务服务端开发。"
+    }
+  ]
+}

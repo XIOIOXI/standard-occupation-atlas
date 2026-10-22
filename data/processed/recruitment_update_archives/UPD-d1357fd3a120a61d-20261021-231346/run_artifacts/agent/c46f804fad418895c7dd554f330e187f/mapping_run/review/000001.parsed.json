@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-c46f804fad418895c7dd554f330e187f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机电物资部业务员岗，物资/设备管理方向，候选L16-01采购与供应商管理、L16-02供应链规划、L17-02仓储库存均属合理可能，review状态合理，无需修正。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17047,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 535,
+    "output_tokens": 98,
+    "reasoning_tokens": 0,
+    "total_tokens": 17145
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000377172
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

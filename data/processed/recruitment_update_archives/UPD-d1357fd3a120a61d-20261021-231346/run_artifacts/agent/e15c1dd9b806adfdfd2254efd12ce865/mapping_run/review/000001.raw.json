@@ -1,0 +1,28 @@
+{
+  "id": "52019ef3-a56f-4121-a359-86ea0c27d6c1",
+  "object": "chat.completion",
+  "created": 1792571273,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-e15c1dd9b806adfdfd2254efd12ce865\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"金融科技岗未明确具体技术方向，review状态与候选L01-11/L02-09/L03-08合理，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17018,
+    "completion_tokens": 91,
+    "total_tokens": 17109,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 506
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

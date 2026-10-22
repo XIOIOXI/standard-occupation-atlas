@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 163,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "5ec873c5-b5ff-4c2c-a0e7-1346d457f411",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751743,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25048,
+    "cached_input_tokens": 24832,
+    "uncached_input_tokens": 216,
+    "output_tokens": 2826,
+    "reasoning_tokens": 0,
+    "total_tokens": 27874
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0018024959999999998
+  },
+  "observed_at_utc": "2026-10-11T20:48:55.607565+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-fff04fa9565c5e5e7730",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "能源技术核心为能源开发与工程，归入能源/地质下的能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-5fb1a799b70e35bf401f",
+      "target_category_id": "房地产/建筑/estate-property/property-mgmt-community",
+      "status": "mapped",
+      "reason": "小区经理助理属于住宅物业运营支持，归入住宅物业运营。"
+    },
+    {
+      "occupation_id": "SNO-ac30a262659d48ed099f",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "大数据开发核心为数据工程与数仓建设。"
+    },
+    {
+      "occupation_id": "SNO-856ba0f8e06e8b5de758",
+      "target_category_id": "医疗健康/health-sales/medical-sales-pharma",
+      "status": "mapped",
+      "reason": "医药零售代表属于医药销售，归入医药与诊断销售。"
+    },
+    {
+      "occupation_id": "SNO-c84407e36154000d7896",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出冶炼、发电、化工、人力资源、环境、采矿、法务、安全管理、投融资等多个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-1d69886114b3642164fa",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "基金管理属于基金运营与投资管理，归入基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-ee5858e13a2e5cf5ab20",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "无机非金属材料研发偏材料化工工艺研发，归入化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-6eb3094c89aab5d6b780",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产计划员核心为生产计划与调度。"
+    },
+    {
+      "occupation_id": "SNO-094699931cfc6518d0b1",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "机电监理工程师属于施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-e89d6e88d568b177bd23",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“本次校园”名称截断且缺少职业职责信息，无法判断具体职业。"
+    },
+    {
+      "occupation_id": "SNO-ce796fc7b5707669363e",
+      "target_category_id": "教育培训/edu-teacher/teacher-vocational",
+      "status": "mapped",
+      "reason": "雅思授课教师属于语言考试教学，归入职业与技能教学。"
+    },
+    {
+      "occupation_id": "SNO-89d6916bd0771814c931",
+      "target_category_id": "设计/design-art-3d-animation/art-animation",
+      "status": "mapped",
+      "reason": "2D/3D动作设计核心为动画与动作制作。"
+    },
+    {
+      "occupation_id": "SNO-2910323c50ba247b33a5",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "生产运营核心为生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-310a3cc3581483f0049f",
+      "target_category_id": "金融/financial-claims/claims-life",
+      "status": "mapped",
+      "reason": "管培生(核保核赔)核心方向为保险核保核赔，归入人身与健康险理赔。"
+    },
+    {
+      "occupation_id": "SNO-3e0ef8813898c0fd96dd",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "平面/3D设计核心为品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-1165efa4bc795a07f2c9",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "有机合成研究员属于生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-f85dcc40fc585d43d6b0",
+      "target_category_id": "设计/design-art-3d-animation/art-3d",
+      "status": "mapped",
+      "reason": "次世代角色内培生核心为三维角色建模与材质。"
+    },
+    {
+      "occupation_id": "SNO-596b8cd11d2ac833f74d",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-transport",
+      "status": "mapped",
+      "reason": "物流管理核心为运输调度与线路运营。"
+    },
+    {
+      "occupation_id": "SNO-2680be5e9b29c239c2f2",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "高级高压系统工程师偏电气控制与高压系统设计。"
+    },
+    {
+      "occupation_id": "SNO-7a21064c06e969cb77b2",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "电机工艺工程师核心为机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-f0290ae74391571dda40",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "外部照明开发属于汽车整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-222a0f1e040838a666f5",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场业务核心为品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-97e591b272b3b9e36a78",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "产前准备属于生产计划与调度准备。"
+    },
+    {
+      "occupation_id": "SNO-cef18ad1d4575c8294e9",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "CPU逻辑设计工程师属于芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-697b1f746265b72fb9ab",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中地理科学竞赛教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-f43a0451f0cbbf14f7c8",
+      "target_category_id": "运营/客服/ops-business/business-ops-growth",
+      "status": "mapped",
+      "reason": "运营推广专员核心为业务增长与策略运营。"
+    },
+    {
+      "occupation_id": "SNO-bab0c45a941444054602",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“岗工程”名称截断且缺少具体工程方向，无法判断职业类别。"
+    },
+    {
+      "occupation_id": "SNO-e03fe57725afa59d1ca0",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法务与风险管理核心为公司法律与合规。"
+    },
+    {
+      "occupation_id": "SNO-d59f2b93b956245345ed",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "PM开发项目经理核心为研发项目管理。"
+    },
+    {
+      "occupation_id": "SNO-70c816db51586095b823",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "NPI工程师核心为新产品导入与生产运营改善。"
+    },
+    {
+      "occupation_id": "SNO-2e25ce964c32eca8056c",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-operations",
+      "status": "mapped",
+      "reason": "贸易运营核心为进出口业务与单证运营。"
+    },
+    {
+      "occupation_id": "SNO-b135eb8f1bcf03310fcb",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "化工工艺设计师核心为化工工艺与生产设计。"
+    },
+    {
+      "occupation_id": "SNO-edaf799071f0023a51f2",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "动力基础设施运营属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-e94c04c18a1022a9cf1a",
+      "target_category_id": "设计/design-art-3d-animation/art-animation",
+      "status": "mapped",
+      "reason": "动作设计核心为动画与动作制作。"
+    },
+    {
+      "occupation_id": "SNO-800bb28a04ea90955e96",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "权益研究员属于证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-e8c9f627fac21bda4425",
+      "target_category_id": "设计/design-visual-interaction/design-motion",
+      "status": "mapped",
+      "reason": "AI特效设计师核心为动态与数字媒体设计。"
+    },
+    {
+      "occupation_id": "SNO-a09bc0e5e73646276ed9",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出工艺、质量、运营、管理等多个独立制造职能，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-372c9815ce356b008ddf",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "私人投资顾问属于证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-712110317571d7b1441f",
+      "target_category_id": "能源/环保/农业/energy-veterinary/animal-health-production",
+      "status": "mapped",
+      "reason": "畜牧师核心为畜牧养殖与生产管理。"
+    },
+    {
+      "occupation_id": "SNO-826d7530996bffdb7609",
+      "target_category_id": "房地产/建筑/estate-property/property-mgmt-facility",
+      "status": "mapped",
+      "reason": "动力暖通工程师偏商办设施与工程管理。"
+    },
+    {
+      "occupation_id": "SNO-806929cc2ea38e7d21f9",
+      "target_category_id": "教育培训/edu-teacher/teacher-vocational",
+      "status": "mapped",
+      "reason": "雅思教师属于语言考试教学，归入职业与技能教学。"
+    },
+    {
+      "occupation_id": "SNO-a7aba0237d379a2fa405",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "业务项目经理(国际贸易)核心为项目交付与实施。"
+    },
+    {
+      "occupation_id": "SNO-fc03b452d9b14f671e0d",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "学科运营+大班主讲教师核心为基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-64f12215e5331feb9524",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "工程造价技术员核心为工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-f3bc92d7f9b134ee2b5f",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "商业推广策划管培生核心为品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-4b0450e876819c558daa",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-test",
+      "status": "mapped",
+      "reason": "硅光芯片光电封装工程师核心为封装与测试。"
+    },
+    {
+      "occupation_id": "SNO-ef6338e818dc793c2ef6",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-fulfilment",
+      "status": "mapped",
+      "reason": "供应链流程管理工程师核心为供应链履约与优化。"
+    },
+    {
+      "occupation_id": "SNO-81d4859dac66cd917c4c",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机械类工程师核心为机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-68b9c7d8ba6bafd9554c",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投管运营核心为投资管理与运营，归入股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-99f3ce9b3337928dfb97",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "FPGA开发工程师(电力电子方向)核心为嵌入式与固件开发。"
+    }
+  ]
+}

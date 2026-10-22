@@ -1,0 +1,28 @@
+{
+  "id": "6e0f207f-b211-4beb-a4f4-5e5f022fcbcb",
+  "object": "chat.completion",
+  "created": 1791822008,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-d8f81c5b6cd42194aa38\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“商业培训生”为培训生项目，方向不明确，无法确认具体职业类别。\"},{\"entry_id\":\"SNO-d913888cf9151b06511d\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出技术研发、电商平台、销售用户运营、供应链职能支持等多个互不兼容的独立职业方向，且无共同可确认的上级。\"},{\"entry_id\":\"SNO-d93373f81363e3cc82f2\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“支持”名称过于笼统，无法判断具体职业方向。\"},{\"entry_id\":\"SNO-d94d9e685b47825d8e9b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“工程助理”缺少具体工程领域，无法确定细分方向。\"},{\"entry_id\":\"SNO-d9bca267a652a7c6ff86\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“涉案”名称截断，无法识别职业内容。\"},{\"entry_id\":\"SNO-d9d07f0c58278cdc1a9a\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“信息软件管培生”为培训生项目，方向不明确，不能无依据归入具体三级类别。\"},{\"entry_id\":\"SNO-da275204ddeb6fbf8f1d\",\"status\":\"mapped\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-system\",\"reason\":\"“系统程序员”名称支持系统与底层开发方向。\"},{\"entry_id\":\"SNO-da2e709eb8394385c723\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出临床、医技、护理、管培生等多个互不兼容的独立职业方向，且无共同可确认的上级。\"},{\"entry_id\":\"SNO-da462cc76f2b3d84c8f7\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“仿真设计”缺少行业或技术方向，无法确定具体仿真领域。\"},{\"entry_id\":\"SNO-da4f2ac5fe32dadb744d\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"“液体火箭总体设计师”职业清晰，但冻结目录无航天/火箭总体设计对应类别，也无法确认合适一级或二级。\"},{\"entry_id\":\"SNO-da9bbc82b31e26818a28\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“量子理论/量子纠错科学家”属量子物理研究，不能无依据归入互联网算法工程师类别。\"},{\"entry_id\":\"SNO-da9c1420e527cf5df0b6\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“产品开发工程师”未指明行业或产品类型，无法确定具体三级类别。\"},{\"entry_id\":\"SNO-da9e88f98c0a2c6ab604\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“研发岗(一)”名称过于笼统，缺少技术方向或行业信息，无法确定具体研发类别。\"},{\"entry_id\":\"SNO-daa170f38b58c5303397\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"“量子计算系统结构设计”职业清晰，但冻结目录无量子计算对应类别，也无法确认合适一级或二级。\"},{\"entry_id\":\"SNO-daa20bf5423e78f53fb1\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“产业服务专员”职责范围不明确，缺少具体行业或职能信息。\"},{\"entry_id\":\"SNO-daf972d0db179b47e44e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"管理培训生计划方向为业务领袖，缺乏具体职能信息，无法确定职业类别。\"},{\"entry_id\":\"SNO-db2ab29e12822f2d1659\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"“核保”职业清晰，但冻结目录金融类无核保承接类别，也无法确认合适一级或二级。\"},{\"entry_id\":\"SNO-db4b7b2c9300a5f114ce\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称仅描述招聘单位范围，未表达具体职业职责。\"},{\"entry_id\":\"SNO-db5e92b6d81fe393faf7\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“超级实习生”未说明岗位方向，无法归类。\"},{\"entry_id\":\"SNO-db5e9609b969014fb631\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“教字中路检证工程师”名称疑似有误或截断，无法识别具体职业。\"},{\"entry_id\":\"SNO-dc8f3925a35030bafda6\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“标准法规管理”涉及标准与法规，但缺少行业或职能方向，无法确定具体类别。\"},{\"entry_id\":\"SNO-dc97f6a1fa851e71f768\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“姿轨控设计师”属航天器姿态轨道控制，不能无依据归入互联网机器人与具身智能算法类别。\"},{\"entry_id\":\"SNO-dcaf48aa9c467c4e271c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“管理培训生项目”缺少具体职能方向，无法确定职业类别。\"},{\"entry_id\":\"SNO-dcb774635de0ac88c20d\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“或经理”名称不完整，无法识别具体职业。\"},{\"entry_id\":\"SNO-dcdd04b6f48bbcc58adb\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"“硬件/软件开发”明确列出硬件与软件两个互不兼容的独立职业方向，且无共同可确认的上级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29617,
+    "completion_tokens": 1324,
+    "total_tokens": 30941,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2225
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

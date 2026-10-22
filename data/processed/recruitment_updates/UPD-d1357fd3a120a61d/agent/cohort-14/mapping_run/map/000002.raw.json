@@ -1,0 +1,28 @@
+{
+  "id": "293d4ab4-5162-435d-b7ed-5d35453dd216",
+  "object": "chat.completion",
+  "created": 1792596350,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-bcf6362581217c2fda9dcef25ef42e8b\",\"status\":\"mapped\",\"target_category_id\":\"L13-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L13-01\",\"L20-04\",\"L32-02\"],\"title_evidence\":\"分行培训生(客户经理方向)：明确客户经理方向，属银行企业客户销售/客户关系拓展\",\"level_3_evidence\":null,\"reason\":\"标题明确客户经理方向，银行对公客户经理以企业客户销售与关系维护为主，归企业客户销售；培训生为培养标签不改变职能。\"},{\"occupation_id\":\"UP-51b65048e119fa10692925a8c4df3d67\",\"status\":\"mapped\",\"target_category_id\":\"L20-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L20-08\",\"L14-07\"],\"title_evidence\":\"分行培训生(柜面运营方向)：柜面运营属银行柜面业务操作\",\"level_3_evidence\":null,\"reason\":\"柜面运营方向明确为银行柜面业务操作，归金融运营与交易清算。\"},{\"occupation_id\":\"UP-d097ead9ca5c58d165998ea6b7106624\",\"status\":\"mapped\",\"target_category_id\":\"L13-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L13-01\",\"L13-02\",\"L20-04\"],\"title_evidence\":\"鹿城农商银行客户经理，银行客户经理以企业/机构客户信贷与关系维护为主\",\"level_3_evidence\":null,\"reason\":\"银行客户经理核心为客户拓展与信贷业务销售，归企业客户销售；无个人客户或信贷操作细分证据，停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17204,
+    "completion_tokens": 397,
+    "total_tokens": 17601,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 564
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

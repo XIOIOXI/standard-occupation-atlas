@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-ed44c03406a745fb182024e2fb244b56",
+      "status": "mapped",
+      "target_category_id": "L19-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-08",
+        "L19-01",
+        "L19-03"
+      ],
+      "title_evidence": "标题为“财务专员”，明确财务职能但未说明具体方向（核算、分析、资金等）",
+      "level_3_evidence": null,
+      "reason": "“财务专员”仅确认财务职能，未提供会计核算、财务分析等具体方向证据，按规则归入通用财务工作 L19-08。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16952,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 312,
+    "output_tokens": 140,
+    "reasoning_tokens": 0,
+    "total_tokens": 17092
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036144
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

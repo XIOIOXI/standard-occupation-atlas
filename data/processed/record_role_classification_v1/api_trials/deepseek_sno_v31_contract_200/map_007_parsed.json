@@ -1,0 +1,234 @@
+{
+  "raw_response_file": "map_007_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-6913cf728cce5a17c986",
+      "status": "mapped",
+      "target_category_id": "L12-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "市场推广/运营经理",
+      "level_3_evidence": "",
+      "reason": "标题明确包含市场推广，属于市场策略与营销策划范畴，但未细分到具体三级方向。"
+    },
+    {
+      "occupation_id": "SNO-89822d20bc6df73a6b3d",
+      "status": "mapped",
+      "target_category_id": "L05-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "雷达信号处理工程师",
+      "level_3_evidence": "雷达信号处理属于无线与射频技术范畴。",
+      "reason": "雷达信号处理是无线射频技术的典型应用，标题明确指向该三级方向。"
+    },
+    {
+      "occupation_id": "SNO-15fd8cd7f875b6f39ee1",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L19-07",
+        "L19-05"
+      ],
+      "title_evidence": "财务管理/审计\\\\材料类",
+      "level_3_evidence": "",
+      "reason": "标题同时包含财务管理和审计两个不同职能方向，且材料类为行业标签，无法归入单一类别。"
+    },
+    {
+      "occupation_id": "SNO-29ff7f3b4ede9d7ddd5a",
+      "status": "mapped",
+      "target_category_id": "L07-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "实验教学中心实验师",
+      "level_3_evidence": "",
+      "reason": "实验师在实验教学中心从事实验操作与技术支持，属于实验与科研技术支持。"
+    },
+    {
+      "occupation_id": "SNO-2b27cd42b158f9bc158c",
+      "status": "mapped",
+      "target_category_id": "L12-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "宣传策划专员",
+      "level_3_evidence": "宣传策划属于营销活动策划范畴。",
+      "reason": "宣传策划专员的核心工作是策划宣传活动，符合营销活动策划三级定义。"
+    },
+    {
+      "occupation_id": "SNO-8c4f744aff124269939c",
+      "status": "mapped",
+      "target_category_id": "L20-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "股票交易",
+      "level_3_evidence": "股票交易属于金融交易执行。",
+      "reason": "股票交易直接对应金融交易三级方向。"
+    },
+    {
+      "occupation_id": "SNO-1fa795a93f9883104945",
+      "status": "mapped",
+      "target_category_id": "L20-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "指数与量化投资分析师",
+      "level_3_evidence": "指数与量化投资分析属于证券与市场研究。",
+      "reason": "指数与量化投资分析师从事证券市场研究分析，符合证券与市场研究三级。"
+    },
+    {
+      "occupation_id": "SNO-dde28d3ac66cd93e91d5",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-03-02",
+        "L11-03"
+      ],
+      "title_evidence": "组织管理",
+      "level_3_evidence": "",
+      "reason": "组织管理可能指组织发展或经营管理，方向不明确，需进一步确认。"
+    },
+    {
+      "occupation_id": "SNO-39dc3f441c70cd4a55c6",
+      "status": "mapped",
+      "target_category_id": "L06-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "体外药理研究员",
+      "level_3_evidence": "体外药理研究属于药物发现与药理。",
+      "reason": "体外药理研究员从事药物筛选与药理研究，符合药物发现与药理三级。"
+    },
+    {
+      "occupation_id": "SNO-c8003f957ac160fd85bb",
+      "status": "mapped",
+      "target_category_id": "L23-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "数控车铣操作员",
+      "level_3_evidence": "",
+      "reason": "数控车铣操作属于机械加工与数控操作，二级明确但无三级细分。"
+    },
+    {
+      "occupation_id": "SNO-a949b076007be649591c",
+      "status": "mapped",
+      "target_category_id": "L24-10-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "土建专员",
+      "level_3_evidence": "土建专员从事土建施工工种。",
+      "reason": "土建专员直接对应土建施工工种三级。"
+    },
+    {
+      "occupation_id": "SNO-2486e3a35cb363629511",
+      "status": "mapped",
+      "target_category_id": "L13-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "资管-渠道销售",
+      "level_3_evidence": "",
+      "reason": "渠道销售属于渠道销售与经销管理，二级明确但无三级细分。"
+    },
+    {
+      "occupation_id": "SNO-6ff7f3177acc6e5c9970",
+      "status": "mapped",
+      "target_category_id": "L02-05-07",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "世界模型研究员",
+      "level_3_evidence": "世界模型研究属于多模态算法范畴。",
+      "reason": "世界模型通常涉及多模态融合理解与生成，符合多模态算法三级。"
+    },
+    {
+      "occupation_id": "SNO-a9819e23df3f69b6a9fd",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "职能管培生",
+      "level_3_evidence": "",
+      "reason": "职能管培生属于跨职能管理培训与轮岗，最终方向未明确。"
+    },
+    {
+      "occupation_id": "SNO-73e78a33c129b97ab94e",
+      "status": "mapped",
+      "target_category_id": "L06-07-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "生物催化研究员",
+      "level_3_evidence": "生物催化研究属于生物技术研发。",
+      "reason": "生物催化研究员从事生物技术应用研究，符合生物技术研发三级。"
+    },
+    {
+      "occupation_id": "SNO-a0ef9eb371f606789726",
+      "status": "mapped",
+      "target_category_id": "L06-07-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "生物/微生物研发员",
+      "level_3_evidence": "生物/微生物研发属于生物技术研发。",
+      "reason": "生物/微生物研发员从事生物工程及生物技术应用，符合生物技术研发三级。"
+    },
+    {
+      "occupation_id": "SNO-c716ed2d9f6c2fcac8f0",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L16-01-03",
+        "L14-04-02"
+      ],
+      "title_evidence": "海外商品创优生",
+      "level_3_evidence": "",
+      "reason": "海外商品创优生可能涉及零售选品或商品运营，方向不明确，需进一步确认。"
+    },
+    {
+      "occupation_id": "SNO-a7e94537eeefd036a434",
+      "status": "mapped",
+      "target_category_id": "L19-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "财务综合",
+      "level_3_evidence": "",
+      "reason": "财务综合属于财务综合管理，二级明确但无三级细分。"
+    },
+    {
+      "occupation_id": "SNO-a2fca5e868380f906715",
+      "status": "mapped",
+      "target_category_id": "L25-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "集控站维操员",
+      "level_3_evidence": "",
+      "reason": "集控站维操员从事能源设施运行与调度，属于能源运行与调度。"
+    },
+    {
+      "occupation_id": "SNO-547912e64ed07162694e",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "Labview软件工程师",
+      "level_3_evidence": "",
+      "reason": "Labview软件工程师明确为软件开发，但方向未说明，归通用软件研发。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17370,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 730,
+    "output_tokens": 2304,
+    "reasoning_tokens": 0,
+    "total_tokens": 19674
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00154182
+  },
+  "attempts": 1,
+  "post_processing": "none"
+}

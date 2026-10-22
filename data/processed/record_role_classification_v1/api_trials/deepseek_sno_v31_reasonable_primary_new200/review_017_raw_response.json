@@ -1,0 +1,28 @@
+{
+  "id": "38ea2b79-e3c8-4281-b70c-f10ce78a80ac",
+  "object": "chat.completion",
+  "created": 1791841194,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"SNO-7a94018830fb108ebdc8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"现场技术支持工程师归 L14-10 售后技术服务，符合目录范围，候选合理。\"},{\"occupation_id\":\"SNO-a64fac47e61efb09aa00\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"预测端到端算法工程师归 L02-05-05 预测与统计学习，标题证据直接，符合三级细分。\"},{\"occupation_id\":\"SNO-7c48f81842e59d7ac2b9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"建筑材料检测归 L04-04-01 物理性能与可靠性检测，符合检验检测范围。\"},{\"occupation_id\":\"SNO-c49ee5c8dcbc443a03a7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工艺助理工程师A归 L06-08 工艺与制造工程，方向未明落二级合理。\"},{\"occupation_id\":\"SNO-3022b1b5a6dfea105cdf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"税务筹划归 L19-06 税务，直接对应，符合目录。\"},{\"occupation_id\":\"SNO-b75889b054140dc66afb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"安全管理归 L25-07 安全健康与职业防护，符合安全生产范围。\"},{\"occupation_id\":\"SNO-154d05c6a66042b86ec0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电机应用工程师归 L05-03 电气工程，涉及电机电气应用，合理。\"},{\"occupation_id\":\"SNO-b4dafb025c438820c86a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"预备操纵员归 L25-04 能源运行与调度，符合能源设施运行操纵岗位。\"},{\"occupation_id\":\"SNO-19687be7bdf72a72e741\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户服务工程师归 L14-10 售后技术服务，符合客户设备售后支持。\"},{\"occupation_id\":\"SNO-6f2b2b5f684defa5e23c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"总行管培生仅说明银行行业与培养身份，未明确职能，review 合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11075,
+    "completion_tokens": 573,
+    "total_tokens": 11648,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "prompt_cache_hit_tokens": 9216,
+    "prompt_cache_miss_tokens": 1859
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

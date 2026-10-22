@@ -1,0 +1,28 @@
+{
+  "id": "4a0998e6-6acc-4b27-84ff-4b17063d6c36",
+  "object": "chat.completion",
+  "created": 1792596267,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-e78ff29a7fb416f04012558bcdb810b4\",\"status\":\"mapped\",\"target_category_id\":\"L05-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L05-04\",\"L05-01\"],\"title_evidence\":\"仪表工程师：工业仪表与自动化控制相关岗位，属自动化与控制工程范畴\",\"level_3_evidence\":null,\"reason\":\"仪表工程师主要负责工业测量仪表、控制系统（DCS/PLC）的选型、安装调试与维护，属于自动化与控制工程（L05-04）；虽涉及电子硬件，但核心为工业控制仪表与系统，故归 L05-04。\"},{\"occupation_id\":\"UP-504f64ccda5c0cd689b13611585056a9\",\"status\":\"mapped\",\"target_category_id\":\"L06-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L06-01\",\"L23-09\"],\"title_evidence\":\"机械工程师：机械设计、设备维护与机械系统相关岗位\",\"level_3_evidence\":null,\"reason\":\"机械工程师在造纸制造企业中通常负责机械设备的设计、选型、安装调试与维护，属机械与结构设计（L06-01）；未明确为设备维修保全，故不归 L23-09。\"},{\"occupation_id\":\"UP-362d62cd8923d9d84a964caf327eef75\",\"status\":\"mapped\",\"target_category_id\":\"L25-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L25-04\",\"L25-03\"],\"title_evidence\":\"电厂技术员：电厂运行与能源设施技术岗位\",\"level_3_evidence\":null,\"reason\":\"电厂技术员主要负责电厂设备运行、维护与调度，属能源运行与调度（L25-04）；未明确为能源系统设计工艺，故不归 L25-03。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17303,
+    "completion_tokens": 418,
+    "total_tokens": 17721,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 663
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

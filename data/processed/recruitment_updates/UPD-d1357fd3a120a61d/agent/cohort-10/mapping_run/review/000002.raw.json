@@ -1,0 +1,28 @@
+{
+  "id": "1f367a96-fff7-472b-b5e0-8913737892f7",
+  "object": "chat.completion",
+  "created": 1792596292,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-d0122e6e3069b452c32b00201918437e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场专员方向未明确，归L12-07通用市场营销合理。\"},{\"occupation_id\":\"UP-e8f321e4f846f30ef629cc1d810901f1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"咨询专员职能方向不明，保留review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17304,
+    "completion_tokens": 118,
+    "total_tokens": 17422,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 792
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

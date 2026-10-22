@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-4da52d121d276dfc3363965a9700d37d",
+      "status": "mapped",
+      "target_category_id": "L02-05-05",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-05",
+        "L07-03",
+        "L26-01"
+      ],
+      "title_evidence": "标题含“统计遗传分析师”，核心为统计遗传学分析与建模，属预测与统计学习方向；实验员为辅助标签",
+      "level_3_evidence": "预测与统计学习",
+      "reason": "统计遗传分析以统计学习/遗传数据分析建模为核心产出，归机器学习与算法研发下的预测与统计学习；实验员成分不改变主要职能，故不选科研技术支持。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16938,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 298,
+    "output_tokens": 166,
+    "reasoning_tokens": 0,
+    "total_tokens": 17104
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038844
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

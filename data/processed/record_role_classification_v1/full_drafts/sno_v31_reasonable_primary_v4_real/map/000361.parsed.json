@@ -1,0 +1,238 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-8440e04cb443df9c2972",
+      "status": "mapped",
+      "target_category_id": "L16-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "采购工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确采购职能，专业要求为采购对象领域，未细分直接/间接采购，归采购与供应商管理。"
+    },
+    {
+      "occupation_id": "TG-8c8ef0701034a0378f15",
+      "status": "mapped",
+      "target_category_id": "L19-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "财务工作员",
+      "level_3_evidence": null,
+      "reason": "标题明确财务职能但方向未说明，归通用财务工作。"
+    },
+    {
+      "occupation_id": "TG-45667967ab515c955ad4",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "此次招聘涉及19个岗位",
+      "level_3_evidence": null,
+      "reason": "标题为招聘公告描述，非具体岗位。"
+    },
+    {
+      "occupation_id": "TG-85126257b9c3ac57d7cc",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "农业培训生",
+      "level_3_evidence": null,
+      "reason": "标题含培训生但未明确具体职能，仅行业为农业，不足以确定专业方向，建议复核。"
+    },
+    {
+      "occupation_id": "TG-d40e509472d4aff47091",
+      "status": "mapped",
+      "target_category_id": "L11-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "战略项目和企业经营管理岗",
+      "level_3_evidence": null,
+      "reason": "标题明确战略项目和企业经营管理，归战略与经营规划。"
+    },
+    {
+      "occupation_id": "TG-0d871f25d02f31a08ced",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "种植储备生",
+      "level_3_evidence": null,
+      "reason": "标题含储备生但未明确具体职能，仅行业为种植，不足以确定专业方向，建议复核。"
+    },
+    {
+      "occupation_id": "TG-2c2b044fac608399b2dd",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-01",
+        "L08-01"
+      ],
+      "title_evidence": "市场类（政企客户经理、业务和产品管理等）",
+      "level_3_evidence": null,
+      "reason": "标题包含多个不同职能岗位（政企客户经理、业务和产品管理等），无法归入单一类别。"
+    },
+    {
+      "occupation_id": "TG-66e19cde4355c6868968",
+      "status": "mapped",
+      "target_category_id": "L02-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "产品数据岗",
+      "level_3_evidence": null,
+      "reason": "标题明确产品数据，核心为数据分析，归数据分析。"
+    },
+    {
+      "occupation_id": "TG-baa69b09d99725da82a8",
+      "status": "mapped",
+      "target_category_id": "L11-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "工业经济研究部工作人员",
+      "level_3_evidence": null,
+      "reason": "标题明确工业经济研究，归商业研究与市场调研。"
+    },
+    {
+      "occupation_id": "TG-5cc38534aa65b6cc0577",
+      "status": "mapped",
+      "target_category_id": "L14-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "盐城县公司业务和产品运营岗",
+      "level_3_evidence": null,
+      "reason": "标题明确业务和产品运营，归产品与平台运营。"
+    },
+    {
+      "occupation_id": "TG-2d9b8a42764745e1893e",
+      "status": "mapped",
+      "target_category_id": "L03-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "分行本部信息科技培养生",
+      "level_3_evidence": null,
+      "reason": "标题明确信息科技培养生，属IT运维支持方向未说明，归通用信息技术运维。"
+    },
+    {
+      "occupation_id": "TG-328750d44533f9faaffe",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "具身智能算法研究员",
+      "level_3_evidence": null,
+      "reason": "标题明确具身智能算法研究，属机器学习与算法研发，未细分具体算法方向。"
+    },
+    {
+      "occupation_id": "TG-3ff21aa9a78334e64bda",
+      "status": "mapped",
+      "target_category_id": "L13-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "营业大客户经理",
+      "level_3_evidence": "重点客户管理",
+      "reason": "标题明确大客户经理，归企业客户销售下的重点客户管理。"
+    },
+    {
+      "occupation_id": "TG-34a607d3f176ede69458",
+      "status": "mapped",
+      "target_category_id": "L30-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "固定收益合规岗",
+      "level_3_evidence": null,
+      "reason": "标题明确合规岗，归合规与内部控制。"
+    },
+    {
+      "occupation_id": "TG-f99c89c7e7a6ce9dc7e6",
+      "status": "mapped",
+      "target_category_id": "L11-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "商业管理专员",
+      "level_3_evidence": null,
+      "reason": "标题明确商业管理，归企业与业务综合管理。"
+    },
+    {
+      "occupation_id": "TG-20347a5d83d3e2b39eb0",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "消费金融定向生（专业不限、计算机、软件工程、电子通信）",
+      "level_3_evidence": null,
+      "reason": "标题含定向生但未明确具体职能，仅行业为消费金融，不足以确定专业方向，建议复核。"
+    },
+    {
+      "occupation_id": "TG-06aec6d2b21a59633c3d",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "继电保护工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确继电保护，属电气工程。"
+    },
+    {
+      "occupation_id": "TG-02597cb5ddcc3c1e741e",
+      "status": "mapped",
+      "target_category_id": "L22-02-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "道德与法治教师",
+      "level_3_evidence": "人文与社会学科教学",
+      "reason": "标题明确道德与法治教师，归人文与社会学科教学。"
+    },
+    {
+      "occupation_id": "TG-7b638cd100d4ff468c9e",
+      "status": "mapped",
+      "target_category_id": "L10-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "项目助理PMO",
+      "level_3_evidence": null,
+      "reason": "标题明确PMO，归项目管理办公室。"
+    },
+    {
+      "occupation_id": "TG-c2347db6d967e685c9cc",
+      "status": "mapped",
+      "target_category_id": "L31-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "党建事务管理岗",
+      "level_3_evidence": null,
+      "reason": "标题明确党建事务管理，归公共事务与基层治理。"
+    }
+  ],
+  "raw_response_file": "000361.raw.json",
+  "usage": {
+    "input_tokens": 17387,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 875,
+    "output_tokens": 2216,
+    "reasoning_tokens": 0,
+    "total_tokens": 19603
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003020772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

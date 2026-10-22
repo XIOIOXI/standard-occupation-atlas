@@ -1,0 +1,28 @@
+{
+  "id": "3f82e0ab-ae84-4c33-8042-6e9e1428e272",
+  "object": "chat.completion",
+  "created": 1791881853,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-cc6d53b4902fd9a0ea46\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题仅“设计工程师”，设计对象不明，review合理。\"},{\"occupation_id\":\"TG-06abca2836afb635d4e9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"材料工艺归L06-08合理。\"},{\"occupation_id\":\"TG-a94cce926e5d0345b7c9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"材料工艺归L06-08合理。\"},{\"occupation_id\":\"TG-e70426c5b35432991710\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电商运营归L14-04合理。\"},{\"occupation_id\":\"TG-80c706184349ee588f17\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"分析师领域不明，review合理。\"},{\"occupation_id\":\"TG-26433635a67566065d16\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"分析师领域不明，review合理。\"},{\"occupation_id\":\"TG-17fae551bbfc943d0f9b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生态拓展归L13-04合理。\"},{\"occupation_id\":\"TG-08e08454ad888b258bd1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"招商归L13-06合理。\"},{\"occupation_id\":\"TG-8f9f1ad7d52c8b13dcc7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"培训课程开发归L22-07合理。\"},{\"occupation_id\":\"TG-194986ee5401b2ed949a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金融数据工程师归L02-03合理。\"},{\"occupation_id\":\"TG-2dcc06104248a1f41b89\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金融数据开发归L02-03合理。\"},{\"occupation_id\":\"TG-2d89ccbf4e1634c6912e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国际销售客户类型不明，归L13-09合理。\"},{\"occupation_id\":\"TG-5581c37caf0e20d9fe3b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"区域销售客户类型不明，归L13-09合理。\"},{\"occupation_id\":\"TG-fe65933d1c010db96cda\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"区域销售客户类型不明，归L13-09合理。\"},{\"occupation_id\":\"TG-5d04140a9e7e7f2aaf07\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"器件方向不明，review合理。\"},{\"occupation_id\":\"TG-923b86473e73f0cd5604\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"器件研发方向不明，review合理。\"},{\"occupation_id\":\"TG-9fc655ea7c5fc0f0a837\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"伺服控制归L05-04合理。\"},{\"occupation_id\":\"TG-772a7abbf2b97aba4ee7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"中学生物教师归L22-02-02合理。\"},{\"occupation_id\":\"TG-3f5a8d5bb8214e602da8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI应用工程师归L02-06合理。\"},{\"occupation_id\":\"TG-635e7563bf144e70ae86\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI应用工程师归L02-06合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19495,
+    "completion_tokens": 918,
+    "total_tokens": 20413,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2983
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

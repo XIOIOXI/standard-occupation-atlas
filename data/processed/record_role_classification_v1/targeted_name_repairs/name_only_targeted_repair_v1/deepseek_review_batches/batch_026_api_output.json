@@ -1,0 +1,28 @@
+{
+  "id": "96d8316f-8bab-441d-8810-73b463f706be",
+  "object": "chat.completion",
+  "created": 1791813329,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-9e9fb1a01f10bdc8eb93\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-ops-support/ops-support\",\"reason\":\"售后支持工程师核心职责为技术支持与客户交付，与当前类别一致；名称未限定行业，但技术支持与客户交付类别可承接。\"},{\"occupation_id\":\"SNO-9c44d44492da1e3076e9\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-system\",\"reason\":\"内核驱动开发属于系统与底层开发，当前C++系统与底层开发类别合理；名称未注明语言，但内核驱动本身即系统底层方向。\"},{\"occupation_id\":\"SNO-ac843d5f22051fe55170\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列活动策划执行、平面设计师、新媒体运营三个独立职业，符合multi_role。\"},{\"occupation_id\":\"SNO-2146f192c0eb3d36bda8\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称包含AI内容创作者与营销管培生两个独立职业方向，符合multi_role。\"},{\"occupation_id\":\"SNO-de2b6eab7752699b125d\",\"decision\":\"fallback_review\",\"target_category_id\":null,\"reason\":\"原子物理科学家为科研职业，目录无对应物理科研类别，且不能确认归入互联网算法研究与通用算法，三级依据不足。\"},{\"occupation_id\":\"SNO-c978a93f88ea9c0d6501\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列文旅讲师、导游、摄影师三个独立职业，符合multi_role。\"},{\"occupation_id\":\"SNO-01f195b49b6974940ad0\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人运动控制工程师属于机器人与具身智能方向，当前类别合理。\"},{\"occupation_id\":\"SNO-219071a60de6abae0812\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出研发与产品创新、营销、质量管控、制造与精益工程多个独立方向，符合multi_role。\"},{\"occupation_id\":\"SNO-992af508d52224f092ba\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时包含电商运营和机械/工艺工程师两个独立职业方向，符合multi_role。\"},{\"occupation_id\":\"SNO-1076169eb6391448a1f0\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出服装设计、商品企划、版师工艺师等多个独立职业方向，符合multi_role。\"},{\"occupation_id\":\"SNO-10d57a933892b4543b19\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出电子、仿真、测试、产品开发、研究、项目管理等多个独立方向，符合multi_role。\"},{\"occupation_id\":\"SNO-2852272d6819416f5003\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"AI应用开发工程师(Agent方向)属于大模型与生成式AI方向，当前类别合理。\"},{\"occupation_id\":\"SNO-f26a75507c42865986c3\",\"decision\":\"fallback_review\",\"target_category_id\":null,\"reason\":\"初级软件工程师未注明语言或技术栈，专业要求列表不等于职业方向，不能确认归入后端业务服务端开发，三级依据不足。\"},{\"occupation_id\":\"SNO-e117accd3c131b2e54ae\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出项目管理、生活服务、人力资源、法务、财务管理多个独立职业方向，符合multi_role。\"},{\"occupation_id\":\"SNO-f90e582de3475a879f80\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-graphics\",\"reason\":\"游戏渲染开发工程师属于图形与高性能计算方向，当前类别合理。\"},{\"occupation_id\":\"SNO-23cb5c6ba306c82adb9d\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-system\",\"reason\":\"Runtime/PCle驱动工程师属于系统与底层开发，当前类别合理。\"},{\"occupation_id\":\"SNO-1c1b269f7b38f2a269b3\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列JAVA开发、WEB前端开发、测试工程师三个独立职业，符合multi_role。\"},{\"occupation_id\":\"SNO-e6565f1a239360e52261\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"Agent技术工程师涉及大模型与生成式AI，当前类别合理。\"},{\"occupation_id\":\"SNO-8a2d60d4e9b22b55ace9\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出研发、产品、AI三个独立职业方向，符合multi_role。\"},{\"occupation_id\":\"SNO-abea0267d9361ceebf6b\",\"decision\":\"fallback_review\",\"target_category_id\":null,\"reason\":\"智能系统总体设计工程师职责宽泛，不能确认属于机器人与具身智能算法，三级依据不足。\"},{\"occupation_id\":\"SNO-4445241ffa69f41c022b\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列销售员和机械设计两个独立职业，符合multi_role。\"},{\"occupation_id\":\"SNO-e06a363c5571757c1b04\",\"decision\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"数值模式工程师属于气象/环境数值模拟领域，目录无对应类别，职业明确但无法承接。\"},{\"occupation_id\":\"SNO-8a7697751f67d73a9d3b\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出工艺与设备两个独立方向，符合multi_role。\"},{\"occupation_id\":\"SNO-153f5bc1e62c975b1e66\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出销售、技术支持、研发、生产技术多个独立职业，符合multi_role。\"},{\"occupation_id\":\"SNO-23a92613704113897f90\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明显列出算法、HRBP、Java开发、AI产品经理、财务行政等多个独立职业，符合multi_role。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30637,
+    "completion_tokens": 1446,
+    "total_tokens": 32083,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 3245
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "196bccbb-b8dd-4a12-93d1-93e3125d9286",
+  "object": "chat.completion",
+  "created": 1792571538,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-11b052c321e2b06db756c44a73087bdc\",\"status\":\"mapped\",\"target_category_id\":\"L26-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L26-01\",\"L06-07-01\"],\"title_evidence\":\"标题为“育种研发工程师”，公司行业为农林牧渔，核心职责指向育种研发。\",\"level_3_evidence\":null,\"reason\":\"育种研发属于农业与种植技术（L26-01）范畴，标题明确为育种研发，行业背景一致；虽涉及生物技术，但育种是农业技术核心，故归L26-01。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16936,
+    "completion_tokens": 155,
+    "total_tokens": 17091,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 296
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

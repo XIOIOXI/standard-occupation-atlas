@@ -1,0 +1,28 @@
+{
+  "id": "db9f12f5-aba2-4ede-9080-90398930800d",
+  "object": "chat.completion",
+  "created": 1792571787,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-f3e64234117375d43141f9f4913b532d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“客户经理”为泛化标题，无客户类型或业务方向证据；保险行业客户经理可能涉及销售、客户服务或保险业务，当前review状态合理，候选L13-01/L13-02/L20-05/L14-08均属合理范围，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17057,
+    "completion_tokens": 121,
+    "total_tokens": 17178,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 545
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2e616474-3199-4a77-9ab2-df81b1838d95",
+  "object": "chat.completion",
+  "created": 1791881957,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"TG-30fae2dadb1ab9546ca2\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"电子光学工程师归入L05-01电子硬件研发合理，二级归属恰当。\"}, {\"occupation_id\": \"TG-7a131914fb8b9992a9a8\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"后端软件开发工程师归入L01-02后端开发合理，二级归属恰当。\"}, {\"occupation_id\": \"TG-159ac646124485780740\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"后端软件开发工程师（校招/实习生）归入L01-02后端开发合理，招聘标签不影响职能归类。\"}, {\"occupation_id\": \"TG-15f2ab2f05a5ff145db6\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"值班员职责不明确，review合理。\"}, {\"occupation_id\": \"TG-7d0a0bf68c729f2c98e9\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"综合运营归入L14-11通用业务运营合理，方向未明确。\"}, {\"occupation_id\": \"TG-8254b8f1e5aae3edb677\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"综合调研岗职责不明确，review合理。\"}, {\"occupation_id\": \"TG-dbd1650135043cbb998c\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"质量专员归入L04-06通用测试与质量工作合理，方向未明确。\"}, {\"occupation_id\": \"TG-500794e291a02fe1393c\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"信息化专员归入L03-07信息化管理合理。\"}, {\"occupation_id\": \"TG-2804b190025a71166209\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"AI模型工程师归入L02-05机器学习与算法研发合理，方向未明确。\"}, {\"occupation_id\": \"TG-8ce26e279323c413a2da\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"AI模型工程师归入L02-05机器学习与算法研发合理，方向未明确。\"}, {\"occupation_id\": \"TG-92f82343344d840e86a4\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"视频设计师归入L09-07动画与动态视觉设计合理。\"}, {\"occupation_id\": \"TG-cad7a465af2bc2fd8ce0\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"商务岗职责不明确，review合理。\"}, {\"occupation_id\": \"TG-091cd937cce4d7dd0115\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"AI应用研究员归入L02-05机器学习与算法研发合理，方向未明确。\"}, {\"occupation_id\": \"TG-5b194c57b756598ac12d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"AI应用研究员归入L02-05机器学习与算法研发合理，方向未明确。\"}, {\"occupation_id\": \"TG-384a4341b50583a46aaa\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"化验室分析员归入L04-04-02化学与生物检测合理，三级归属恰当。\"}, {\"occupation_id\": \"TG-a6939cde41dbe722049e\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"硬件开发岗归入L05-01电子硬件研发合理，方向未细分。\"}, {\"occupation_id\": \"TG-bee8da96af36aa126c95\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"综合业务岗职责不明确，review合理。\"}, {\"occupation_id\": \"TG-01f9f8fbad8de21c4555\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"新能源研发岗归入L25-03能源系统与工艺工程合理。\"}, {\"occupation_id\": \"TG-eaddecb11789bd952df3\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"市场监管岗归入L31-01公共事务与基层治理合理。\"}, {\"occupation_id\": \"TG-1849a412d0b03739ecac\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"业务支持职责不明确，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19445,
+    "completion_tokens": 1170,
+    "total_tokens": 20615,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2933
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,147 @@
+{
+  "batch_number": 17,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18156,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 1516,
+    "output_tokens": 1018,
+    "reasoning_tokens": 0,
+    "total_tokens": 19174
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008881199999999998
+  },
+  "results": [
+    {
+      "entry_id": "SNO-f1bf0af01a12429b8677",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工具研发”仅含泛词研发，未指明技术栈或领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f240b0ebb77128509662",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“大健工程师(大健康)”为宽泛称谓，未明确对应任何三级职业。"
+    },
+    {
+      "entry_id": "SNO-f2be2c7e61f4e79426b7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“应用开发”过于宽泛，未指明语言或平台，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f30ec024911cd17a63a2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“生产制造”为宽泛领域称谓，非具体岗位，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f368c540e65eb1f476d5",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术/研发”为复合宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f3756af4152689bb0611",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“AI全栈工程师”为复合岗位，跨多个方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f38cff8bdd0e2d9e342b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“系统工程师”为宽泛称谓，未指明具体系统领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f3b14b74bfce682623d2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“设计助理工程师”为宽泛称谓，未指明设计领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f3d0973b1fa3b4c42c90",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“青年研究员”为宽泛称谓，未指明研究领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f64bf9369976bfe46a03",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“系统架构师”为宽泛称谓，未指明技术栈或领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f74cb56c0a45d47b2f13",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“勘察设计”为宽泛称谓，未指明具体设计方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f79ac6684e9e00871727",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“C++/PHP/Go研发工程师”为多语言复合岗位，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-f8a6e3513963be3772f2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“创新研发”为宽泛称谓，未指明领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-fa96b0dea7ed3c6575a9",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“数字管理研发工程师计算机”为复合宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-fb3778e44096904068eb",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术开发”为宽泛称谓，未指明技术栈，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-fb71bb61fe9ee35fb03d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程数字技术”为宽泛称谓，未指明具体方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-fbe0f1835f11b4fe005d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“新能源技术岗(电气工程、动力工程及工程热物理、车辆工程、能源与动力工程、交通运输工程)”为专业清单式复合岗位，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-fc2080eb6fc3cfd61dfe",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“助理工程师”为宽泛称谓，未指明领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-fc9ada7a9cd922eb7abc",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“科研技术”为宽泛称谓，未指明领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-fcc7586a11c9b63d8aaa",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“助理研发工程师”为宽泛称谓，未指明领域，无法唯一映射。"
+    }
+  ]
+}

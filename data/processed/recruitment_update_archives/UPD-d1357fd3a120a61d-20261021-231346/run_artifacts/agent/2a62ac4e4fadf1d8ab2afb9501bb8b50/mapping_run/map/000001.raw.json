@@ -1,0 +1,28 @@
+{
+  "id": "2f299cf2-a4c3-47ad-b7b0-9f89298ba8bc",
+  "object": "chat.completion",
+  "created": 1792571900,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-2a62ac4e4fadf1d8ab2afb9501bb8b50\",\"status\":\"mapped\",\"target_category_id\":\"L23-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L23-01\",\"L16-03\"],\"title_evidence\":\"生产计划工程师：生产计划与现场管理，工厂计划、排产\",\"level_3_evidence\":null,\"reason\":\"标题明确为生产计划，核心职责为工厂生产计划与排产管理，归L23-01生产计划与现场管理；虽与需求物料计划相关，但生产计划更直接对应L23-01。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16961,
+    "completion_tokens": 150,
+    "total_tokens": 17111,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 321
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

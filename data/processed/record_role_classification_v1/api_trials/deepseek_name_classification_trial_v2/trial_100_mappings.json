@@ -1,0 +1,616 @@
+{
+  "schema_version": "deepseek-name-classification-trial-mappings-v1",
+  "input_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "input_v4_sha256": "a813f045d8214d92cf26e370bcfcaa034f49ced077be3eedab885949085196a4",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "taxonomy_sha256": "78fbeaebfacfdca4fbb0676aeafbfdecb427544ac4421bdc78c64fdd2c600aee",
+  "selected_standard_occupation_count": 100,
+  "status_counts": {
+    "mapped": 47,
+    "review": 45,
+    "multi_role": 8
+  },
+  "results": [
+    {
+      "standard_occupation_id": "SNO-142a6a0c7fd85c77a653",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-19b7e6668ce6eadf9d5f",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-verification",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-d1af927837398df0da3d",
+      "target_category_id": "市场/公关",
+      "status": "review",
+      "reason": "仅能确定到市场/公关一级"
+    },
+    {
+      "standard_occupation_id": "SNO-39a924b725bec1208288",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1c1d5e776a3e369d86a2",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称非职业，无法分类"
+    },
+    {
+      "standard_occupation_id": "SNO-fd53b86bbab3f0c4fc37",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-76216600279c895f3d7b",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-869c600119685247c114",
+      "target_category_id": "运营/客服/ops-service/service-frontline",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-22b51b65e4b0767a3b10",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-ddfc61f055c9d52b6b4c",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "含多学科教师及招聘信息"
+    },
+    {
+      "standard_occupation_id": "SNO-ff3014992f3f2405a5f2",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-512bfb7e1b0de33fe20f",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-d2e913e342d9f76cd823",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "仿真应用方向不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-5574ea8bd6b623356ccd",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-18b965c9c5b9e53030cc",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-96d890047d86358d7739",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-0f7a6e58e0396fa5a5d3",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-manufacturing",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1f45fd778a1c2fee3330",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-4148c03ab66b5a3c7e86",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-eb279b03901806c234c1",
+      "target_category_id": "电子/电气",
+      "status": "review",
+      "reason": "仅能确定到电子/电气一级"
+    },
+    {
+      "standard_occupation_id": "SNO-d92d4a0afc2c7e920354",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-d34cf0bb21a90c4eee42",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-5f43b78cf7549e2ea3a4",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-risk",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-b12ff0d486dd937b291b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称仅泛化业务管理，无法确定具体职能"
+    },
+    {
+      "standard_occupation_id": "SNO-27e63eba60eb4d40d1ac",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-3e62029d76df087822b2",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-49e5d5a10ab7fd7da7dd",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "材料基因工程师名称不足以确定具体目录"
+    },
+    {
+      "standard_occupation_id": "SNO-49ed7f695146c6e75112",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "环境可靠性工程师名称不足以确定具体目录"
+    },
+    {
+      "standard_occupation_id": "SNO-d1cfe446eeb551c2e1f2",
+      "target_category_id": "市场/公关/广告/marketing-government/government-affairs-compliance",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-7dc9e0fc04e3c2a69224",
+      "target_category_id": "教育培训/edu-admin/edu-admin-institution",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1303fde314c3e122be68",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-a47b055ca7ccc6f1a475",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-e77e5a9120d0e52cbf8c",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-2763e7df87bfddf62a76",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-ac05f2f92fe9337ef6e6",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-e98479e69fcbd3b4d3ef",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-6e9243e293d1fb83d9c1",
+      "target_category_id": "运营/客服/ops-content/content-video",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-35347c0451abe64eba4c",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-3954f99d48d0d086082a",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-d97c7f5733d3e52d2a45",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1838711f7b15f0cf9ba1",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1ee0cba93e878e612df1",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "review",
+      "reason": "工艺设备可归机械制造，但名称偏泛"
+    },
+    {
+      "standard_occupation_id": "SNO-246a72f535b0fb633f71",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-4d430387182dba25e4fb",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "review",
+      "reason": "市场营销员可归市场/营销，但具体方向不明"
+    },
+    {
+      "standard_occupation_id": "SNO-133566bc51aa96f3062c",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-32e09c84e82e718ed544",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "财务管理与项目管理两方向粘连"
+    },
+    {
+      "standard_occupation_id": "SNO-6aa8f49cc992dfd75a11",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "review",
+      "reason": "测试可归互联网测试，但行业方向不明"
+    },
+    {
+      "standard_occupation_id": "SNO-e8ec877c8da553d3c55b",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-afa906e58fbae1a1ec23",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "review",
+      "reason": "投后管理可归投融资，但具体职能不明"
+    },
+    {
+      "standard_occupation_id": "SNO-0ec7605e63aece2ec4af",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "缩写英文无法判断职业"
+    },
+    {
+      "standard_occupation_id": "SNO-b8b67433bb430ff655d7",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-media",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-dc86ef160a514ebc2b8c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "机务工程师行业不明"
+    },
+    {
+      "standard_occupation_id": "SNO-fc42de8ced809920dbb0",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "管培生专项计划非具体职业"
+    },
+    {
+      "standard_occupation_id": "SNO-c3497b19b50f99cfbbbe",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "业务管理过于宽泛"
+    },
+    {
+      "standard_occupation_id": "SNO-a06b900e474184960f35",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-be992e432c8abf4f0cc3",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "status": "review",
+      "reason": "线上运营主管可归运营，但具体方向不明"
+    },
+    {
+      "standard_occupation_id": "SNO-51f5e780348980537922",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "智能制造专员职责不明"
+    },
+    {
+      "standard_occupation_id": "SNO-333fdf9f05504bdf318d",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "review",
+      "reason": "助理软件工程师方向不明"
+    },
+    {
+      "standard_occupation_id": "SNO-ed36359f03cb66de8943",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "review",
+      "reason": "CAD/CAM软件开发可归C++图形，但语言未明"
+    },
+    {
+      "standard_occupation_id": "SNO-2ef446313012ae14a0d6",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "review",
+      "reason": "计划控制工程师行业不明"
+    },
+    {
+      "standard_occupation_id": "SNO-3278ea5e459dd3a6833e",
+      "target_category_id": "财务/审计/税务/finance-risk/risk-credit",
+      "status": "review",
+      "reason": "风控创优生名称仅指向风控方向，无法确定三级"
+    },
+    {
+      "standard_occupation_id": "SNO-c03f8539d51207af0c9d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "review",
+      "reason": "算法集成工程师可归算法，但集成方向三级不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-f695c0780e0d47200402",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "review",
+      "reason": "光学算法工程师偏视觉算法，但三级无法唯一确定"
+    },
+    {
+      "standard_occupation_id": "SNO-3b2136e836af1dba2456",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-verification",
+      "status": "review",
+      "reason": "DFT可测性设计属芯片验证方向，但三级不完全匹配"
+    },
+    {
+      "standard_occupation_id": "SNO-fe326e2a66e9de2a564e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "检测员名称过于宽泛，无法确定行业与三级"
+    },
+    {
+      "standard_occupation_id": "SNO-89a4e92af365046c381f",
+      "target_category_id": "财务/审计/税务/finance-advisor/finance-advisory-transaction",
+      "status": "review",
+      "reason": "股权融资及财务顾问跨投融资与财务顾问，三级不唯一"
+    },
+    {
+      "standard_occupation_id": "SNO-25610785c7097a11c51f",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "review",
+      "reason": "专业课教师可归教师，但教学层级三级不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-3820b0a9f1fc2ec4b9d5",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "review",
+      "reason": "硬件研发工程师可归硬件开发，三级方向不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-969c4b609b7d6b9c231c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "总经办总裁助理名称不足以确定具体职业类别"
+    },
+    {
+      "standard_occupation_id": "SNO-f798f466da536c71f5e0",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "管培生涵盖研发、职能、商业化、生产供应链多方向"
+    },
+    {
+      "standard_occupation_id": "SNO-eb948c14cc98114d8a6b",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "review",
+      "reason": "证券事务经理偏证券运营，三级无法唯一确定"
+    },
+    {
+      "standard_occupation_id": "SNO-d4bfaa71f3fd126a2ed1",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "review",
+      "reason": "教学科研岗含多学科方向，三级无法唯一确定"
+    },
+    {
+      "standard_occupation_id": "SNO-2c46ed9676c2ed0f87ee",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "review",
+      "reason": "岗理财经理疑似理财经理，三级方向不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-2ce8813b2951bcfa826a",
+      "target_category_id": "人力/行政/法务/people-hr/hr-recruiting",
+      "status": "review",
+      "reason": "人力资源储备仅指向人力资源，三级方向不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-7aa8337f42c770081967",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "基础设施互联互通促进中心专技名称不足以分类"
+    },
+    {
+      "standard_occupation_id": "SNO-7be74dbf3e482a24ab2d",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "私人教练团课全职兼职教练职能技术粘连多角色"
+    },
+    {
+      "standard_occupation_id": "SNO-7ddaeffb4285624bbfed",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "review",
+      "reason": "油气储运与新能源开发跨能源储运与开发，三级不唯一"
+    },
+    {
+      "standard_occupation_id": "SNO-bc8d911bdde59f0aabf1",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "review",
+      "reason": "财务内控偏内控内审，三级无法唯一确定"
+    },
+    {
+      "standard_occupation_id": "SNO-1ee6e8b56f32b3181ae8",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "review",
+      "reason": "算法工程师媒体算法方向，三级无法唯一确定"
+    },
+    {
+      "standard_occupation_id": "SNO-85d56bf4d4229ac85b31",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "工程名称过于宽泛，无法确定具体职业类别"
+    },
+    {
+      "standard_occupation_id": "SNO-036b2f67b7c481989cb9",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1476ab7132e27b3b52f9",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称笼统，无法确定具体检测领域"
+    },
+    {
+      "standard_occupation_id": "SNO-8972962f317be77a6636",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-09956061a81b7808defe",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1080766dda240d9f40f4",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "售后助理职责范围不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-728bc2389338077e635f",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-d0f517b7491e0cda26c2",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "法务与风控两个职业粘连"
+    },
+    {
+      "standard_occupation_id": "SNO-412c6d36ed5c331b18ca",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "方案解决领域不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-e6d1a4c799fe50b4446b",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "文案与德语英语翻译多职业粘连"
+    },
+    {
+      "standard_occupation_id": "SNO-1e56d7605dec22111d2b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "企管法规指向不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-990a2d3c791707b2e775",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "化工与外贸业务员多职业粘连"
+    },
+    {
+      "standard_occupation_id": "SNO-919ea4e5168775cd451c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称过于笼统无法分类"
+    },
+    {
+      "standard_occupation_id": "SNO-60a6932da8bc0fb9a9cb",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-14a4bd81059099693d70",
+      "target_category_id": "销售/sales-business/sales-admin-order",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-33c886a363ccb7000512",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "零售管培与产研技术职能多方向粘连"
+    },
+    {
+      "standard_occupation_id": "SNO-117dba594b0d6e53eb1d",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-34d86fa9c3f1f82c24cc",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "纪检归属不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-2796afcf7a07b87d58c6",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "样品管理员行业不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-e31af1e216b33714e647",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-channel",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-435aa6a2a3ed64664fa6",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": null
+    }
+  ],
+  "atomic_linkage_note": "Each standard_occupation_id resolves to untouched atomic/source links in v4; no source links were sent to the API."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "3be4e5e8-aff7-4420-a038-c52dbc30a5df",
+  "object": "chat.completion",
+  "created": 1791881982,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-1fc2d06abe302bb33b88\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L24-04\",\"issue\":\"给排水（市政方向）属于建筑机电与设备工程中的给排水专业，而非水利工程；应归L24-04。\"},{\"occupation_id\":\"TG-153ac7ebbd12cf70f5c6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"泛指文本，非具体岗位，non_role_text合理。\"},{\"occupation_id\":\"TG-e48df07f02519aa3db59\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"学术期刊图像设计归插画与原画，合理。\"},{\"occupation_id\":\"TG-277dad67e52e85cd21dc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI项目工程师方向未明确，归L02-06合理。\"},{\"occupation_id\":\"TG-def4e10ceaeee2bb5dd9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI项目工程师校招，方向未明确，归L02-06合理。\"},{\"occupation_id\":\"TG-ec2b45a099909164922f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI Agent研发直接对应智能体与工具编排，合理。\"},{\"occupation_id\":\"TG-035788f93ef3af160018\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI Agent开发归智能体与工具编排，合理。\"},{\"occupation_id\":\"TG-247543392be79dd123b9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI Agent开发工程师归智能体与工具编排，合理。\"},{\"occupation_id\":\"TG-91c88c387b6827d291e1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI Agent开发工程师归智能体与工具编排，合理。\"},{\"occupation_id\":\"TG-ff32ecbb976848614642\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI Agent开发归智能体与工具编排，合理。\"},{\"occupation_id\":\"TG-f084943472df392fc407\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"人力资源助理归人力资源综合管理，合理。\"},{\"occupation_id\":\"TG-c70012c7e6befc2ee275\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"地理信息设计岗归测绘与地理信息，合理。\"},{\"occupation_id\":\"TG-6522c925cdcf025cdc83\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"图形学算法工程师归图形渲染开发，合理。\"},{\"occupation_id\":\"TG-61c11e2d6ba3b9fa062c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构设计师通常指产品结构设计，合理。\"},{\"occupation_id\":\"TG-39241007ba002d365d2d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"法务风控类归企业法务，合理。\"},{\"occupation_id\":\"TG-7514acba232bf000ee7d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"商品采购归零售选品与买手，合理。\"},{\"occupation_id\":\"TG-f14d039bc7e32b8ad993\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"小学语文教师归人文与社会学科教学，合理。\"},{\"occupation_id\":\"TG-5cab899ff2fa6b90dc02\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"咨询顾问归管理与专业咨询，合理。\"},{\"occupation_id\":\"TG-39b1137ccfd38e909742\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术文档工程师归数字与专业内容编辑，合理。\"},{\"occupation_id\":\"TG-cda73d71ea414a4bf027\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"施工管理岗归施工组织与工程管理，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19576,
+    "completion_tokens": 952,
+    "total_tokens": 20528,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3064
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

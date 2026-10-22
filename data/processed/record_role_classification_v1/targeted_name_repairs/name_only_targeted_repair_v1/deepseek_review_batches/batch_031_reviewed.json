@@ -1,0 +1,185 @@
+{
+  "batch_number": 31,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "b6b10bd1-fb15-49da-8b9c-4063b9289d00",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813361,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30819,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3555,
+    "output_tokens": 1951,
+    "reasoning_tokens": 0,
+    "total_tokens": 32770
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0017856419999999998
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-2816d2e8d320378a2aa7",
+      "decision": "keep",
+      "target_category_id": "咨询/翻译/法律/consult-korean/ko-translation-interpreting",
+      "reason": "韩语商务助理核心为韩语口译与商务沟通，与当前韩语口译与商务沟通类别匹配。"
+    },
+    {
+      "occupation_id": "SNO-aa13052283df7ea4c78b",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列海外技术支持、小语种运营推广、商业信息分析师多个独立职业，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-f13bba48abbeca213a1b",
+      "decision": "keep",
+      "target_category_id": "运营/客服/ops-seo/search-sem",
+      "reason": "投放运营核心为搜索营销与投放，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-ee9c722cf81f50bfd39e",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "全栈工程师名称未注明具体技术栈，不能仅凭名称确认后端方向；可确认属于互联网/AI开发，最深可确认有效上级为后端开发下的业务服务端开发，但依据不足需复核。"
+    },
+    {
+      "occupation_id": "SNO-3c15e77ccdb00f60ebcc",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "AI视觉生成工程师核心为计算机视觉与生成式AI算法，当前归属计算机视觉与三维感知合理。"
+    },
+    {
+      "occupation_id": "SNO-25412c40044dca83aee1",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "信息化设备管理员名称未明确互联网技术支持职责，可能属于企业内部IT设备管理，当前归属依据不足需复核。"
+    },
+    {
+      "occupation_id": "SNO-c3961fabf970cac4cb16",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列销售与产品两个独立职业，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-125b014b36e2200a0ce4",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "监控软件工程师名称未注明技术栈或具体方向，不能确认属于业务服务端开发，依据不足需复核。"
+    },
+    {
+      "occupation_id": "SNO-476d6498eeee5e8d9970",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列电商运营、新媒体运营、跨境电商运营、后期制作、产品开发、采购专员等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-7cfbcd3d000399c0a851",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "渲染算法工程师名称未注明编程语言，不能确认属于C++图形与高性能计算，依据不足需复核。"
+    },
+    {
+      "occupation_id": "SNO-62bfa182eeb2f20554ef",
+      "decision": "keep",
+      "target_category_id": "运营/客服/ops-category/category-ops-planning",
+      "reason": "电商产品专员核心为品类规划与选品，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-3b77c19efa31c7351228",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "核心系统软件开发名称未注明技术栈或具体方向，不能确认属于业务服务端开发，依据不足需复核。"
+    },
+    {
+      "occupation_id": "SNO-60a6932da8bc0fb9a9cb",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器人系统开发工程师核心为机器人与具身智能，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-83e7348b0249fad8d2e3",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "应用工程师(软件)名称未注明技术栈或具体方向，不能确认属于业务服务端开发，依据不足需复核。"
+    },
+    {
+      "occupation_id": "SNO-2c8cc6beba4473a5319b",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列前端与后端两个独立开发岗位，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-99490ab914b52e268177",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列研发设计、生产质量、行政、技术员等多个独立岗位。"
+    },
+    {
+      "occupation_id": "SNO-85e40a9ad75026ddf8ba",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列管培生、畜禽技术服务专家、现场品管等多个独立岗位。"
+    },
+    {
+      "occupation_id": "SNO-b366126779b445d83f12",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "渲染开发研究员名称未注明编程语言，不能确认属于C++图形与高性能计算，依据不足需复核。"
+    },
+    {
+      "occupation_id": "SNO-188a23e431289adc14bc",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列财务管理、法务管理、人力资源管理、综合行政等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-ce3e7b09df31cb0d6753",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "培训生岗位明确列出管理、技术、运营管理多个方向，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-63cec1aa2e2ad5db21cd",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列测试、自动驾驶感知、视觉、多传感器融合定位、决策规划控制等多个算法方向。"
+    },
+    {
+      "occupation_id": "SNO-b166fadc3ff456fd71fa",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列软件研发、应用、实施、算法等多个独立职责方向。"
+    },
+    {
+      "occupation_id": "SNO-d82ceb6e0a94d2b0502f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列算法、运营、产品、工程、测试、运维、职能等多个职业方向。"
+    },
+    {
+      "occupation_id": "SNO-480606d52d30cfb3dd42",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "reason": "Linux驱动移植/研发工程师名称未注明编程语言，不能确认属于C++嵌入式与实时开发，依据不足需复核。"
+    },
+    {
+      "occupation_id": "SNO-ee38fcda6f9f417c3ca4",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "售后助理工程师名称未明确互联网技术支持职责，可能属于其他行业售后，当前归属依据不足需复核。"
+    }
+  ]
+}

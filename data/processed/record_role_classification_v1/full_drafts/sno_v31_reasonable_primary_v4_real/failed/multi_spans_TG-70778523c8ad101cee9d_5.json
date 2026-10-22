@@ -1,0 +1,77 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-70778523c8ad101cee9d",
+  "child_index": 5,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "卡牌策划 平面设计师 原画师 工艺研发市场营销策划TCG运营技术研发与工程类生产运营与管理类项目与业务支持类",
+  "child_title": "TCG运营",
+  "source_span": {
+    "text": "TCG运营",
+    "start": 25,
+    "end": 31
+  },
+  "raw_decision": {
+    "original_record_id": "TG-70778523c8ad101cee9d",
+    "case": "A",
+    "child_titles": [
+      "卡牌策划",
+      "平面设计师",
+      "原画师",
+      "工艺研发",
+      "市场营销策划",
+      "TCG运营",
+      "技术研发与工程类",
+      "生产运营与管理类",
+      "项目与业务支持类"
+    ],
+    "source_spans": [
+      {
+        "text": "卡牌策划",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "平面设计师",
+        "start": 5,
+        "end": 10
+      },
+      {
+        "text": "原画师",
+        "start": 11,
+        "end": 14
+      },
+      {
+        "text": "工艺研发",
+        "start": 15,
+        "end": 19
+      },
+      {
+        "text": "市场营销策划",
+        "start": 19,
+        "end": 25
+      },
+      {
+        "text": "TCG运营",
+        "start": 25,
+        "end": 31
+      },
+      {
+        "text": "技术研发与工程类",
+        "start": 31,
+        "end": 39
+      },
+      {
+        "text": "生产运营与管理类",
+        "start": 39,
+        "end": 47
+      },
+      {
+        "text": "项目与业务支持类",
+        "start": 47,
+        "end": 55
+      }
+    ],
+    "reason": "标题由多个独立岗位或岗位类别名称以空格分隔，可拆分为多个子岗位。"
+  }
+}

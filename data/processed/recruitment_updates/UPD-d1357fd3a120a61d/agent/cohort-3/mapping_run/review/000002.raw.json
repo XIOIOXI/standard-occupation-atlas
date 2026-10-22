@@ -1,0 +1,28 @@
+{
+  "id": "8442ce5b-fb71-4cc9-b015-6f2b87c0bc91",
+  "object": "chat.completion",
+  "created": 1792596158,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-c46f804fad418895c7dd554f330e187f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机电物资部业务员岗方向不明确，review状态合理；候选L16-01/L16-02/L16-06/L23-09均可能，无需修正。\"},{\"occupation_id\":\"UP-d627a9f142709ba854981fdd3da57d43\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"计划合同部业务员岗职责不明确，review状态合理；候选L24-06/L13-08/L10-06均可能，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17364,
+    "completion_tokens": 160,
+    "total_tokens": 17524,
+    "prompt_tokens_details": {
+      "cached_tokens": 16768
+    },
+    "prompt_cache_hit_tokens": 16768,
+    "prompt_cache_miss_tokens": 596
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

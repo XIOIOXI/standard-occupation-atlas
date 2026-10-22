@@ -1,0 +1,245 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-93d9df550ae7908760a0",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "C#软件开发工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确为软件开发，但仅给出编程语言C#，未说明具体方向，符合L01-11通用软件研发定义。"
+    },
+    {
+      "occupation_id": "TG-31854016a49801dba928",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L05-03",
+        "L05-04",
+        "L24-04",
+        "L23-09"
+      ],
+      "title_evidence": "工程师（自动化、电气、基建、设备）",
+      "level_3_evidence": null,
+      "reason": "标题包含自动化、电气、基建、设备多个方向，无法确定唯一主归属，属于多角色岗位。"
+    },
+    {
+      "occupation_id": "TG-d441c3c586bdb3a426c8",
+      "status": "mapped",
+      "target_category_id": "L02-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "业务分析师实习（可留用）",
+      "level_3_evidence": null,
+      "reason": "业务分析师核心产出为分析结论，属于数据分析职能，未明确具体分析方向，归L02-01数据分析。"
+    },
+    {
+      "occupation_id": "TG-8b6fec90b070a91949a7",
+      "status": "mapped",
+      "target_category_id": "L05-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "GPU架构建模工程师",
+      "level_3_evidence": null,
+      "reason": "GPU架构属于芯片与集成电路设计范畴，但未明确数字/模拟/验证/物理设计等三级方向，归L05-02芯片与集成电路设计。"
+    },
+    {
+      "occupation_id": "TG-194fdaaf2568cca8b787",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L07-01",
+        "L01-07"
+      ],
+      "title_evidence": "量子计算工程师",
+      "level_3_evidence": null,
+      "reason": "量子计算工程师可能从事基础研究或系统软件研发，标题未明确具体工作内容，需人工判断。"
+    },
+    {
+      "occupation_id": "TG-1597d72f5ee8a14b7fd5",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电气系统调试",
+      "level_3_evidence": null,
+      "reason": "电气系统调试属于电气工程范畴，归L05-03电气工程。"
+    },
+    {
+      "occupation_id": "TG-1c148b3f28569ba20070",
+      "status": "mapped",
+      "target_category_id": "L26-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "驻外营林技术岗",
+      "level_3_evidence": null,
+      "reason": "营林技术属于林业与生态管护，归L26-02林业与生态管护。"
+    },
+    {
+      "occupation_id": "TG-347628cf13d95de82ace",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "器械管培生",
+      "level_3_evidence": null,
+      "reason": "器械管培生可能为医疗器械行业管理培训生，但未明确具体职能方向，需人工判断是否属于跨职能轮岗或综合储备。"
+    },
+    {
+      "occupation_id": "TG-2ed5d08113b90759cbdf",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-01",
+        "L11-07"
+      ],
+      "title_evidence": "管理岗位",
+      "level_3_evidence": null,
+      "reason": "管理岗位过于宽泛，未明确管理领域和层级，需人工判断具体归属。"
+    },
+    {
+      "occupation_id": "TG-93d2216aaab9f81d84a1",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "硬件技术工程师（电源/功率器件）",
+      "level_3_evidence": null,
+      "reason": "电源/功率器件属于电子硬件研发，但未明确电路板级或系统集成，归L05-01电子硬件研发。"
+    },
+    {
+      "occupation_id": "TG-56a778cd01a2cb39dc51",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电气专业储备岗",
+      "level_3_evidence": null,
+      "reason": "电气专业储备岗明确电气专业方向，归L05-03电气工程。"
+    },
+    {
+      "occupation_id": "TG-46572d2869a684db62a5",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "项目管培生",
+      "level_3_evidence": null,
+      "reason": "项目管培生可能为项目管理方向培养，但未明确具体行业或职能，需人工判断。"
+    },
+    {
+      "occupation_id": "TG-42f5f41b7166118e7721",
+      "status": "mapped",
+      "target_category_id": "L15-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "漫剧剪辑实习生",
+      "level_3_evidence": null,
+      "reason": "漫剧剪辑属于影音剪辑与影视后期，归L15-06剪辑与影视后期。"
+    },
+    {
+      "occupation_id": "TG-47f8f460d09368a89b6e",
+      "status": "mapped",
+      "target_category_id": "L01-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "视觉软件工程师",
+      "level_3_evidence": null,
+      "reason": "视觉软件工程师通常涉及图形渲染或计算机视觉，但未明确具体方向，归L01-08图形与引擎开发。"
+    },
+    {
+      "occupation_id": "TG-906ce9b09d33c90add14",
+      "status": "mapped",
+      "target_category_id": "L20-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "助理指数研究员",
+      "level_3_evidence": null,
+      "reason": "指数研究员属于金融投资研究，归L20-01投资研究与分析。"
+    },
+    {
+      "occupation_id": "TG-95444aa435e933c5e710",
+      "status": "mapped",
+      "target_category_id": "L11-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "战略运营助理",
+      "level_3_evidence": null,
+      "reason": "战略运营助理涉及经营分析与流程改善，归L11-03经营分析与流程改善。"
+    },
+    {
+      "occupation_id": "TG-30a92a55bf17d2788d64",
+      "status": "mapped",
+      "target_category_id": "L27-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "机坪监察员",
+      "level_3_evidence": null,
+      "reason": "机坪监察员属于机场地面服务与交通运行组织，归L27-07交通运行与地面服务。"
+    },
+    {
+      "occupation_id": "TG-2d7e94cc83e4a1de10be",
+      "status": "mapped",
+      "target_category_id": "L11-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "中国工业经济联合会工业经济研究部全职工作人员",
+      "level_3_evidence": null,
+      "reason": "工业经济研究部工作人员从事行业与市场研究，归L11-05商业研究与市场调研。"
+    },
+    {
+      "occupation_id": "TG-62aec06549f80f698c06",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "A1算法工程师",
+      "level_3_evidence": null,
+      "reason": "A1算法工程师属于机器学习与算法研发，但未明确具体算法方向，归L02-05机器学习与算法研发。"
+    },
+    {
+      "occupation_id": "TG-f63ac49b4832b1f16778",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L04-03"
+      ],
+      "title_evidence": "研发与品控专员",
+      "level_3_evidence": null,
+      "reason": "标题包含研发与品控两个不同职能，无法确定唯一主归属，属于多角色岗位。"
+    }
+  ],
+  "raw_response_file": "000101.raw.json",
+  "usage": {
+    "input_tokens": 17362,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 850,
+    "output_tokens": 2352,
+    "reasoning_tokens": 0,
+    "total_tokens": 19714
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003176472
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only"
+}

@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-28369df84d898721bf4a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-1ce75d11155ad65ddc78",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-8cc6f69b7fa5f604aeb5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-c2ad3714c4c505ff3279",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L02-05-06",
+      "issue": "AEB（自动紧急制动）算法属于车辆控制/决策规划，应归入运筹优化与决策算法（L02-05-06），而非预测与统计学习（L02-05-05）。"
+    },
+    {
+      "occupation_id": "TG-5ab844d3c12c2aacd38a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-18be04690b937a5aa27e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-1f978d5fcf7a9f9ee473",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-0df22c5846b7d5952c6a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-6fa1e1366f21f3cdbcd6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-30a190f728da507d6597",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-064a977cc31a825bdb2d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-596864129f63bb9b1f75",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-29b79273a573d8be0dff",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-2794b6c6380f33163f6a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-0d771702e7f0ed10ce43",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-3401f8580527247a9f77",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-4a9cdf5c71511ee775bb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-b61f26718b52fcd07bff",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-de8182622f6ccec36156",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-63fbfd3ecc1d47dbb71e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ],
+  "raw_response_file": "000049.raw.json",
+  "usage": {
+    "input_tokens": 19872,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3360,
+    "output_tokens": 798,
+    "reasoning_tokens": 0,
+    "total_tokens": 20670
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002064672
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

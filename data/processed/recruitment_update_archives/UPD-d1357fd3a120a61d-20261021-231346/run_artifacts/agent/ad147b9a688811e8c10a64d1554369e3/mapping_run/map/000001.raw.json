@@ -1,0 +1,28 @@
+{
+  "id": "10a78f08-68bb-43be-8baf-c4f2aa5e9af0",
+  "object": "chat.completion",
+  "created": 1792571501,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-ad147b9a688811e8c10a64d1554369e3\",\"status\":\"mapped\",\"target_category_id\":\"L23-09-02\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L23-09-02\",\"L23-09-01\",\"L16-01-02\"],\"title_evidence\":\"机电物资部设备管理业务员岗：机电物资部+设备管理，指向工业/机电设备的管理与维护保全\",\"level_3_evidence\":\"工业设备维修保全：工厂设备检修维护与保全\",\"reason\":\"岗位在机电物资部负责设备管理，属工业设备管理维护方向，最直接匹配L23-09-02工业设备维修保全；若侧重采购可考虑L16-01-02，但标题以设备管理为主。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16977,
+    "completion_tokens": 181,
+    "total_tokens": 17158,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 337
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

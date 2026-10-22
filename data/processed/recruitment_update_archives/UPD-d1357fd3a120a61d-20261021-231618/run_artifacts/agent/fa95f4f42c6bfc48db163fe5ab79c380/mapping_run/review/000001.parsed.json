@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-fa95f4f42c6bfc48db163fe5ab79c380",
+      "verdict": "pass",
+      "suggested_target_category_id": "L22-02",
+      "issue": "高中教师属学科与通识教学，未说明具体学科停在L22-02合理；非高校教学不归L22-05。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16997,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 485,
+    "output_tokens": 96,
+    "reasoning_tokens": 0,
+    "total_tokens": 17093
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000359772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

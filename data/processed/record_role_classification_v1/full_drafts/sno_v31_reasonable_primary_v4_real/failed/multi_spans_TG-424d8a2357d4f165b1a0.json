@@ -1,0 +1,22 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-424d8a2357d4f165b1a0",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-424d8a2357d4f165b1a0",
+    "case": "A",
+    "child_titles": [
+      "信息技术开发岗（应用开发）",
+      "信息技术开发岗（数据研发）"
+    ],
+    "source_spans": [
+      {
+        "text": "信息技术开发岗（应用开发/数据研发）",
+        "start": 0,
+        "end": 17
+      }
+    ],
+    "reason": "括号内斜杠分隔的两个方向可独立作为岗位，符合拆分条件。"
+  }
+}

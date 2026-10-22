@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 129,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "dda672a1-284f-4804-9f2f-11be64fc1639",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751377,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25000,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1704,
+    "output_tokens": 3698,
+    "reasoning_tokens": 0,
+    "total_tokens": 28698
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0025442879999999996
+  },
+  "observed_at_utc": "2026-10-11T20:42:58.344231+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-2d1c599b8a8aa8012e18",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "光电探测系统工程师核心职责为光电探测系统硬件电路设计，归入电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-4014c6bca1df41804d42",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场运营经理核心职责为市场运营与品牌策略，英语翻译仅为语言要求修饰。"
+    },
+    {
+      "occupation_id": "SNO-f885367b57048e38049c",
+      "target_category_id": "互联网/AI/internet-data-development/data-application",
+      "status": "mapped",
+      "reason": "数智化应用工程师核心职责为数据应用与数字化开发，归入数据应用与分析开发。"
+    },
+    {
+      "occupation_id": "SNO-446e7ad7b1a0a2408a56",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "天线维护属于通信网络建设与维护范畴。"
+    },
+    {
+      "occupation_id": "SNO-0a49a71c6657ca93951a",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "咨询规划工程师核心职责为管理咨询与规划，归入管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-687736cc37bd01895d00",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质控工程师核心职责为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-d19eae6557176923c57e",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "专升本学科讲师属于高等教育教学范畴。"
+    },
+    {
+      "occupation_id": "SNO-69117ca5800f8ade5657",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "数字IC设计工程师核心职责为芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-acf745de1876dc808113",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "产品合规工程师核心职责为产品合规与法规遵从，归入公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-7ff3ab184fe6c9ecbce0",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "产业规划核心职责为产业研究与规划咨询，归入管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-1a589de1e7a5f9f431f6",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": "公共关系助理核心职责为品牌公关与传播支持。"
+    },
+    {
+      "occupation_id": "SNO-d0baf60f784bc5a8b2cd",
+      "target_category_id": "能源/环保/农业/energy-veterinary/animal-health-production",
+      "status": "mapped",
+      "reason": "动物营养技术培训生核心职责为畜牧养殖与生产管理中的动物营养技术。"
+    },
+    {
+      "occupation_id": "SNO-6a189d41154724a8c227",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "数字经营核心职责为业务流程运营与数字化经营。"
+    },
+    {
+      "occupation_id": "SNO-8d263b093fe03ff4c179",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "主讲教师（语/数/英/科）属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-ee969ebb5154018c7f85",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产经营中心业务经理核心职责为生产计划与调度运营。"
+    },
+    {
+      "occupation_id": "SNO-a8a2015ab9eddbff9dea",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "IT工程师核心职责为技术支持与客户交付，归入技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-bb6894ebd74a02deca44",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "智算网络技术研究员核心职责为无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-8086b79e60ef32545de7",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "mapped",
+      "reason": "图形学工程师核心职责为图形与高性能计算开发。"
+    },
+    {
+      "occupation_id": "SNO-7188255c5d0106a4d337",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "SQE工程师核心职责为供应商质量体系与审核。"
+    },
+    {
+      "occupation_id": "SNO-aaaf092f1fa07674fb0e",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "失效分析助理工程师核心职责为质量检验与失效分析。"
+    },
+    {
+      "occupation_id": "SNO-3bc04687149b7272e8ce",
+      "target_category_id": "市场/公关/广告/marketing-events/events-planning",
+      "status": "mapped",
+      "reason": "国际会展业务核心职责为会展策划与项目执行。"
+    },
+    {
+      "occupation_id": "SNO-e298c2b2c34731e69819",
+      "target_category_id": "互联网/AI/internet-test/test-security",
+      "status": "mapped",
+      "reason": "网络安全测试工程师核心职责为安全与专项测试。"
+    },
+    {
+      "occupation_id": "SNO-e0c58356f7906d8aa1a7",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "整车测评工程师核心职责为整车研发与虚拟仿真测评。"
+    },
+    {
+      "occupation_id": "SNO-313c4cc6585d8cfbe5be",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-analysis",
+      "status": "mapped",
+      "reason": "检验员/化验技术员核心职责为化学分析与质量控制。"
+    },
+    {
+      "occupation_id": "SNO-0a0eba2e97081616e11e",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中美术教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-8ab1a587878b1bb27194",
+      "target_category_id": "酒店/旅游/travel-service/tourism-service-consulting",
+      "status": "mapped",
+      "reason": "文旅融合发展服务助理核心职责为旅游咨询与服务。"
+    },
+    {
+      "occupation_id": "SNO-bbdde8bc88e097ee3a7d",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "测绘工程师核心职责为地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-3654ee54ca6a895baa81",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "管培生（市场及投资方向）核心方向为市场与品牌策略。"
+    },
+    {
+      "occupation_id": "SNO-aeb8cd69d52b91dfa794",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "工程技术类管培生核心方向为生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-78784b661192234fe69b",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "内外饰及电子分析工程师核心职责为整车与零部件研发分析。"
+    },
+    {
+      "occupation_id": "SNO-e34193ba9f957fc83d30",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "医药技术管培生核心方向为生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-2d00e29ccaf8230b31b9",
+      "target_category_id": "能源/环保/农业/energy-veterinary/animal-health-veterinary",
+      "status": "mapped",
+      "reason": "兽医核心职责为动物诊疗与防疫。"
+    },
+    {
+      "occupation_id": "SNO-e366865405571af188ce",
+      "target_category_id": "生产制造/manufacturing-machinery/heavy-equipment-operation",
+      "status": "mapped",
+      "reason": "垃圾吊操作员核心职责为工程机械驾驶操作。"
+    },
+    {
+      "occupation_id": "SNO-83f4a215b6496a95c355",
+      "target_category_id": "酒店/旅游/hotel-manager/hotel-manager-operations",
+      "status": "mapped",
+      "reason": "酒店经营管培生核心方向为酒店运营管理。"
+    },
+    {
+      "occupation_id": "SNO-fdef39a37aff821dde8b",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "国际商用内部销售核心职责为客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-847e817546cb9cfbe68a",
+      "target_category_id": "教育培训/edu-arts/arts-training-performing",
+      "status": "mapped",
+      "reason": "莱芜梆子弦乐演奏员核心职责为表演与音乐培训。"
+    },
+    {
+      "occupation_id": "SNO-ce9a56aebee8d3134306",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "技术研究工程师（无线通信方向）核心职责为无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-1f9420eaa7aa12510012",
+      "target_category_id": "运营/客服/ops-domestic-ecommerce/domestic-ecom-platform",
+      "status": "mapped",
+      "reason": "电商运营岗（天猫）核心职责为平台店铺运营。"
+    },
+    {
+      "occupation_id": "SNO-3b9d51f04de6b09439c2",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "技术研发培训生核心方向为生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-082d156b37b80fa09992",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-growth",
+      "status": "mapped",
+      "reason": "海外营销核心职责为增长与数字营销。"
+    },
+    {
+      "occupation_id": "SNO-fe9743d49810fbe672d7",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "初级采购核心职责为采购执行与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-1301021320e5a2ddf9c8",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "定向培养生（邯郸分行）核心方向为零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-1d47a1e00876ed20e519",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "软件开发专员核心职责为业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-886f63582bd71bffdfe8",
+      "target_category_id": "医疗健康/health-pharma-production/pharma-manufacturing-quality",
+      "status": "mapped",
+      "reason": "理化测试工程师—药品实验室核心职责为药品质量与验证。"
+    },
+    {
+      "occupation_id": "SNO-eeed3689a8ecbe1b1264",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "蛋白研发工程师核心职责为生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-9ef3e70b8c8bd44d9abd",
+      "target_category_id": "产品/product-game/game-planning",
+      "status": "mapped",
+      "reason": "游戏策划师核心职责为游戏系统与玩法策划。"
+    },
+    {
+      "occupation_id": "SNO-eb23b674330ce9374bc6",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "量化私募研究员核心职责为证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-a64df990f2fc5e21a155",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "故障排查员核心职责为技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-0ee36d610f0d34de0aa1",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "检修分公司机务技术员核心职责为设备维修与安装。"
+    },
+    {
+      "occupation_id": "SNO-e63b35c514aaa3db5cbe",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "配网设计核心职责为电气控制与自动化设计。"
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 118,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "3f946df8-40fe-4dc9-ac06-74f3be77f432",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751264,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25071,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1775,
+    "output_tokens": 3645,
+    "reasoning_tokens": 0,
+    "total_tokens": 28716
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002523138
+  },
+  "observed_at_utc": "2026-10-11T20:41:04.648505+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-316ef9942a3f8329273c",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "思想政治教师属于基础教育教学，归入教师-基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-6bc6898b68dfbc1c66f3",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "数字IC工程师核心职责为芯片设计，归入半导体/芯片-芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-e1128c3f2d3cd8fe8c8c",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "数字Ic工程师与数字IC工程师同义，归入芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-9c407607c31af6040abc",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "网络安全与隐私保护工程师涉及数据安全与隐私保护，归入应用与数据安全。"
+    },
+    {
+      "occupation_id": "SNO-1963713df22b043bd83d",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌入式系统工程师核心为嵌入式开发，归入嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-93f07f9fe2e01d8e7458",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "3D打印材料研发工程师（光固化方向）涉及材料研发与化工工艺，归入化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-2e20b7887ac35be3984e",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务管理岗核心为财务核算与管理，归入总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-06737c3cc06f8ac392a9",
+      "target_category_id": "金融/financial-internet/fintech-product",
+      "status": "mapped",
+      "reason": "助理金融工程师涉及金融科技产品与运营，归入金融科技产品与运营。"
+    },
+    {
+      "occupation_id": "SNO-5a317adc2bbd2b59eeb7",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": "装配试车工艺属于装配与生产线作业，归入普工-装配与生产线作业。"
+    },
+    {
+      "occupation_id": "SNO-34fa1541163be3c44243",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "海外采购核心为供应商开发与寻源，归入采购-供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-7d5c12c4be0b6dc3b442",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "电机结构工程师属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-8f5af31f09ac1ae5bede",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "线下教师类属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-61a2cda8c76c23e010b9",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "教学岗位通常为教师，归入基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-020b39aba4852a106041",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "钙钛矿研发工程师涉及化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-ff294c441734e9e10188",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "超表面工程师涉及电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-2bc7d3c85a60403cbc78",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "底软开发工程师属于嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-b6bdeb2e83386adafddb",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "status": "mapped",
+      "reason": "软件开发工程师（应用/BSP）涉及嵌入式与实时开发。"
+    },
+    {
+      "occupation_id": "SNO-8cfe6f6adfdb26b9a212",
+      "target_category_id": "供应链/物流/supply-warehouse/warehouse-inbound",
+      "status": "mapped",
+      "reason": "物料管制专员属于入库与库存管理。"
+    },
+    {
+      "occupation_id": "SNO-72a51ebaabb9e8bd67e3",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分支机构工作人员通常为银行零售与综合银行岗位。"
+    },
+    {
+      "occupation_id": "SNO-c80f3b94c8274710d78e",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "厂务工程师属于生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-6eeecf9c260fb5d4c26e",
+      "target_category_id": "互联网/AI/internet-project-management/project-product",
+      "status": "mapped",
+      "reason": "需求分析工程师属于产品项目管理。"
+    },
+    {
+      "occupation_id": "SNO-c891a396d5ed0074d0fa",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "热沉产品研发工程师属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-d0fdff82ba424fe4bf50",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "精品课堂素养教师（数/理/化/英）属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-6a3281c6e14aecf92c44",
+      "target_category_id": "医疗健康/health-sales/medical-sales-pharma",
+      "status": "mapped",
+      "reason": "创新药事业部精卫产品销售属于医药与诊断销售。"
+    },
+    {
+      "occupation_id": "SNO-fed88411bf97f50047c7",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "工程师培训生通常为生产运营与精益改善方向。"
+    },
+    {
+      "occupation_id": "SNO-740459a7a439074d2599",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "伺服控制工程师属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-1aac65212fa8af7c828a",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "造价工程师属于工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-4ec9a776ab98ee5c8ef3",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "承载网运营属于通信网络建设与维护。"
+    },
+    {
+      "occupation_id": "SNO-ef36a38b0a386863dce7",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件设计师属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-e15ddc698dfddcf144b1",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "研发助理工程师涉及晶圆制造和测试生产线故障分析，属于制造工艺。"
+    },
+    {
+      "occupation_id": "SNO-f08ad9cdb8493f2b4275",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "海外销售（西语）属于海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-0452a65eb3c751e73b6c",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "核算会计员属于总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-cc56e399234cfbe77c35",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "综合管理岗（七级职员及以下、管理岗）属于文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-bf219de63151a7bd3dc2",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": "国际业务岗（阿语）属于国际市场与客户开发。"
+    },
+    {
+      "occupation_id": "SNO-46275e6b7717498adb17",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中教师（语文/数学/英语/理化）属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-951dbca905d80ae49e89",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "会计学/财务管理属于总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-7695036c463ed1d02f85",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "AI网络安全工程师属于应用与数据安全。"
+    },
+    {
+      "occupation_id": "SNO-173eafea28d182d43375",
+      "target_category_id": "生产制造/manufacturing-food-rd/food-rd-process",
+      "status": "mapped",
+      "reason": "茶叶深加工属于食品工艺与质量研发。"
+    },
+    {
+      "occupation_id": "SNO-a959edc8b42bcfa275c1",
+      "target_category_id": "销售/sales-general/general-sales-channel",
+      "status": "mapped",
+      "reason": "渠道销售（日语）属于渠道与经销销售。"
+    },
+    {
+      "occupation_id": "SNO-ce70d410b9ea4d68ac28",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "生信算法工程师属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-66185f41249da2de8fb4",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "EMC技术主管属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-a75c0f8272ecab7a1c4d",
+      "target_category_id": "产品/product-internet/product-user",
+      "status": "mapped",
+      "reason": "搜索增长产品经理属于用户与增长产品。"
+    },
+    {
+      "occupation_id": "SNO-002443bb9d79a36f6477",
+      "target_category_id": "运营/客服/ops-business/business-ops-growth",
+      "status": "mapped",
+      "reason": "企划运营属于业务增长与策略运营。"
+    },
+    {
+      "occupation_id": "SNO-fce476ca9db7b0c2cf28",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "弱电设计师属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-27cde89d85d79511c1eb",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "办事员属于文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-09abbe86b720ea22c932",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": "社媒运营（法语）属于社交媒体运营。"
+    },
+    {
+      "occupation_id": "SNO-66f95eac8807c95e2caf",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "IT运维工程师属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-e4008c01a66212f5ddab",
+      "target_category_id": "人力/行政/法务/people-hr/hr-learning",
+      "status": "mapped",
+      "reason": "组织人事与培训鉴定专员属于培训与人才发展。"
+    },
+    {
+      "occupation_id": "SNO-591cbf8af1cd64271a8a",
+      "target_category_id": "酒店/旅游/hotel-manager/hotel-manager-operations",
+      "status": "mapped",
+      "reason": "酒店经理属于酒店运营管理。"
+    },
+    {
+      "occupation_id": "SNO-b60868f4bfc401ef68e0",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "教师岗4属于基础教育教学。"
+    }
+  ]
+}

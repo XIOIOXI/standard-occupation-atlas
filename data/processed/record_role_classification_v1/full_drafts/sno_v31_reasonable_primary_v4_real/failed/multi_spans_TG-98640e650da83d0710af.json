@@ -1,0 +1,23 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-98640e650da83d0710af",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-98640e650da83d0710af",
+    "case": "A",
+    "child_titles": [
+      "国际业务部产品中信",
+      "咖啡供应中心营销中心用户增长中心质量管理部",
+      "人力资源部岗位"
+    ],
+    "source_spans": [
+      {
+        "text": "国际业务部产品中信 咖啡供应中心营销中心用户增长中心质量管理部 人力资源部岗位",
+        "start": 0,
+        "end": 40
+      }
+    ],
+    "reason": "标题由多个部门岗位名称用空格分隔，可拆分。"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "batch_number": 7,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18162,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 1522,
+    "output_tokens": 989,
+    "reasoning_tokens": 0,
+    "total_tokens": 19151
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008716199999999999
+  },
+  "results": [
+    {
+      "entry_id": "SNO-4364a9850c9760910973",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“仿真系统工程师”未指明具体技术栈或领域，无法唯一映射到现有三级。"
+    },
+    {
+      "entry_id": "SNO-451bf0942837c433b3f6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研究开发”为宽泛称谓，未指明具体职业方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-459ef2a3e4b3514cfbcf",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含专业清单且为宽泛研发工程师，无法唯一映射到现有三级。"
+    },
+    {
+      "entry_id": "SNO-46d61ea3acfaaf744783",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“低空设计师”为宽泛/新兴称谓，目录中无明确对应三级。"
+    },
+    {
+      "entry_id": "SNO-4884c2e8a608ba2278d7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术开发岗(研发)”为宽泛称谓，未指明具体技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-4996a2088757ff737621",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含公告附件说明且为宽泛技术开发岗，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-4aa1a3c6743f7d8e154a",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术”为极宽泛称谓，无法唯一映射到现有三级。"
+    },
+    {
+      "entry_id": "SNO-4b584b570f3bd03d7553",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术工程师”为宽泛称谓，未指明具体技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-4b67b5941a6e33023637",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“综合部数字化技术”为复合/宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-4bbbe1489a8a153aad0b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“放行工程师”未指明具体行业或技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-4bdaf76cb6aa81a6a854",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“专业研究”为宽泛称谓，无法唯一映射到现有三级。"
+    },
+    {
+      "entry_id": "SNO-4d9aabf39883bcdd9f3d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“SE工程师”为缩写/宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-4ff0f1dda80ff5936c46",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研究”为极宽泛称谓，无法唯一映射到现有三级。"
+    },
+    {
+      "entry_id": "SNO-5001773e21bbab822c94",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研究生”为学历/身份称谓，非明确职业，无法映射。"
+    },
+    {
+      "entry_id": "SNO-521ff8ce16b7067d00a8",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“主任工程师助理”为宽泛助理称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-523847be8bdc9ba2fb75",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程研究”为宽泛称谓，无法唯一映射到现有三级。"
+    },
+    {
+      "entry_id": "SNO-557220d51ffbe1544716",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术员”为宽泛称谓，未指明具体技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-56eedb42f91dedc72c48",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“船舶技术”未指明具体技术方向，无法唯一映射到现有三级。"
+    },
+    {
+      "entry_id": "SNO-56f38e90ad6ecc1bab02",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“管网技术”未指明具体技术方向，无法唯一映射到现有三级。"
+    },
+    {
+      "entry_id": "SNO-5954bb18b0cf71aead2c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“国际数据治理合作研究”为复合/宽泛称谓，无法唯一映射。"
+    }
+  ]
+}

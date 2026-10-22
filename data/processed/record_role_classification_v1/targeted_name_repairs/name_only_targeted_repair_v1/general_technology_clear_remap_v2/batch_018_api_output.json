@@ -1,0 +1,28 @@
+{
+  "id": "ce1208df-5f44-47cd-937e-ce3380f69fda",
+  "object": "chat.completion",
+  "created": 1791828513,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-fdc839f6e1dd34a9fea2\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“系统工程”为宽泛职业领域称谓，无法明确对应唯一三级或二级方向。\"},{\"entry_id\":\"SNO-fe01c2b93215181ca705\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“研发设计工程师1”含泛词且带编号，无法明确职业领域或细分方向。\"},{\"entry_id\":\"SNO-ff84f8c0c5b97c53e22f\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“身开发”名称疑似截断且语义不完整，无法明确对应职业目录。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25456,
+    "completion_tokens": 161,
+    "total_tokens": 25617,
+    "prompt_tokens_details": {
+      "cached_tokens": 25088
+    },
+    "prompt_cache_hit_tokens": 25088,
+    "prompt_cache_miss_tokens": 368
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

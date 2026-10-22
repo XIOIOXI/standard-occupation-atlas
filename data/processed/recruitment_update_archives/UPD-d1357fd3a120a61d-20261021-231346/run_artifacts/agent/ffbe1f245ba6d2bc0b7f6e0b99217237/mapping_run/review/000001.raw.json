@@ -1,0 +1,28 @@
+{
+  "id": "308bc690-12e8-4f8a-89ba-56a1b74a1b2a",
+  "object": "chat.completion",
+  "created": 1792571862,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-ffbe1f245ba6d2bc0b7f6e0b99217237\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L13-03\", \"issue\": \"渠道管培生职能方向明确为渠道销售与经销管理，归 L13-03 合理；管培标签不改变已明确职能，无需归 L32。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17056,
+    "completion_tokens": 104,
+    "total_tokens": 17160,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 544
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

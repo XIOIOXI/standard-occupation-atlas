@@ -1,0 +1,28 @@
+{
+  "id": "5c64bd46-3b31-4b7f-ac59-e4404b28e0f4",
+  "object": "chat.completion",
+  "created": 1792571419,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-60e59cf1279a17e4e58e4316d96836f9\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-08\",\"issue\":\"IE助理工程师归工艺与制造工程（L06-08）合理，标题未明确三级方向，停二级恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17038,
+    "completion_tokens": 83,
+    "total_tokens": 17121,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 526
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

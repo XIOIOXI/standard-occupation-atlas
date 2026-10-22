@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-aa376a42c8b90b287808",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "管理培训生且方向未明确，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-d5d404f01192b0c6d256",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "合同管理与商品规划跨职能，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-93c2e3520d2589939a4a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "测绘专业技术岗位归L24-09合理。"
+    },
+    {
+      "occupation_id": "TG-339a974fd40b6339fdd0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "防腐蚀试验归物理性能与可靠性检测合理。"
+    },
+    {
+      "occupation_id": "TG-0ed73965f31fc41f1b66",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "软件开发、AI算法、测试多职能，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-463506e0e33dd0620e60",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "理科竞赛教师归数学与自然科学教学合理。"
+    },
+    {
+      "occupation_id": "TG-6c93177e4a1ab663b030",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "电机数字化工程师归电气工程合理。"
+    },
+    {
+      "occupation_id": "TG-2101d31537f261b1a901",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "成本管控、体系管理、销售多职能，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-51b7526b009ee3baa0bb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "学习顾问归教学辅助与学员服务合理。"
+    },
+    {
+      "occupation_id": "TG-aa9906fc7e0967e9f556",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机器人研发工程师归自动化与控制工程合理。"
+    },
+    {
+      "occupation_id": "TG-10e1fb3180a3584ef1e7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "团队项目管理岗归通用项目管理合理。"
+    },
+    {
+      "occupation_id": "TG-d8258b763be8ced8c28f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "经办岗职责宽泛，review合理。"
+    },
+    {
+      "occupation_id": "TG-dc282c3d93a0ed11ccf7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "模拟机维护工程师归工业设备维修保全合理。"
+    },
+    {
+      "occupation_id": "TG-01deb040f48495a344e1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "造型内饰设计师归工业与产品外观设计合理。"
+    },
+    {
+      "occupation_id": "TG-7a330a889ab7f199aa7d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "企业指导岗位职责不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-97d1c17ebfd814fe3c8b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "基金销售归个人客户销售合理。"
+    },
+    {
+      "occupation_id": "TG-1624b0259b161ea9773d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "生技管培生方向未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-2a3a26534efdb5aa0a5e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "多教学方向，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-c27c661980f3d6fea827",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "物流管理岗归物流调度与运输管理合理。"
+    },
+    {
+      "occupation_id": "TG-12128ff2849cd92f4c89",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "海外服务运营归售后技术服务合理。"
+    }
+  ],
+  "raw_response_file": "000360.raw.json",
+  "usage": {
+    "input_tokens": 19728,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3216,
+    "output_tokens": 925,
+    "reasoning_tokens": 0,
+    "total_tokens": 20653
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002173872
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

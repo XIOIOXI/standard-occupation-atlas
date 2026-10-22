@@ -1,0 +1,308 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-1db2905abf0193c7c958fe3e825ddf6b",
+      "status": "mapped",
+      "target_category_id": "L19-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L19-05-01",
+        "L19-05-02",
+        "L19-05"
+      ],
+      "title_evidence": "审计管培生：标题明确审计职能，管培生为培养标签",
+      "level_3_evidence": "内部审计：企业内设审计岗位，属组织内部独立审计",
+      "reason": "消费品企业内设审计管培生，职能为审计，按内部审计归类；管培生标签不改变职能。"
+    },
+    {
+      "occupation_id": "UP-cc0b9caf93237047eb5132c392c507ee",
+      "status": "mapped",
+      "target_category_id": "L30-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L30-02",
+        "L30-01",
+        "L30-03"
+      ],
+      "title_evidence": "法务管培生：标题明确法务职能",
+      "level_3_evidence": null,
+      "reason": "企业内法务岗位，归企业法务；管培生为培养标签。"
+    },
+    {
+      "occupation_id": "UP-ffbe1f245ba6d2bc0b7f6e0b99217237",
+      "status": "mapped",
+      "target_category_id": "L13-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-03",
+        "L12-06",
+        "L13-09"
+      ],
+      "title_evidence": "渠道管培生：标题明确渠道方向",
+      "level_3_evidence": null,
+      "reason": "渠道管培生通常承担经销商/渠道销售管理，归渠道销售与经销管理；若仅为渠道推广则属L12-06，但渠道销售管理更直接。"
+    },
+    {
+      "occupation_id": "UP-dd6784564eab3ce18091e9ed904d5099",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L02-09",
+        "L03-07",
+        "L32-01"
+      ],
+      "title_evidence": "数字化管培生：仅表明数字化方向，未说明具体技术或业务职能",
+      "level_3_evidence": null,
+      "reason": "“数字化”可对应软件开发、数据分析、IT信息化等多种职能，证据不足以确定唯一二级，列候选待复核。"
+    },
+    {
+      "occupation_id": "UP-a6708c762b8abc625e4f9b21f161404a",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L13-01",
+        "L13-02"
+      ],
+      "title_evidence": "销售管培生：标题明确销售职能，未说明客户类型",
+      "level_3_evidence": null,
+      "reason": "销售职能明确但客户类型未说明，归通用销售；管培生为培养标签。"
+    },
+    {
+      "occupation_id": "UP-857290fa9410ece4186d8b2f2d5f57ab",
+      "status": "mapped",
+      "target_category_id": "L16-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-01",
+        "L16-01-01",
+        "L16-01-02"
+      ],
+      "title_evidence": "采购专员：标题明确采购职能",
+      "level_3_evidence": null,
+      "reason": "采购专员归采购与供应商管理；半导体企业采购可能涉及直接物料，但标题未细分，停在二级。"
+    },
+    {
+      "occupation_id": "UP-4bad99f11c12febb2ab1f98f858ad9cf",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L01-02",
+        "L01-01"
+      ],
+      "title_evidence": "IT软件开发工程师：明确软件开发，未说明前后端方向",
+      "level_3_evidence": null,
+      "reason": "软件开发方向未说明，按通用软件研发归类。"
+    },
+    {
+      "occupation_id": "UP-1134d2f21b945fc2779714a7787b028e",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-04",
+        "L18-01",
+        "L18-02",
+        "L18-03"
+      ],
+      "title_evidence": "人力资源培训生项目：明确人力资源职能",
+      "level_3_evidence": null,
+      "reason": "人力资源培训生项目属HR综合培养，方向未细分，归人力资源综合管理。"
+    },
+    {
+      "occupation_id": "UP-a8df83a34a6df660892a021fb3ab90e9",
+      "status": "mapped",
+      "target_category_id": "L16-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-02",
+        "L16-03",
+        "L17-01"
+      ],
+      "title_evidence": "供应链专员：明确供应链职能",
+      "level_3_evidence": null,
+      "reason": "供应链专员归供应链规划与管理；未细分到需求物料计划。"
+    },
+    {
+      "occupation_id": "UP-2a62ac4e4fadf1d8ab2afb9501bb8b50",
+      "status": "mapped",
+      "target_category_id": "L16-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-03",
+        "L23-01"
+      ],
+      "title_evidence": "生产计划工程师：明确生产计划职能",
+      "level_3_evidence": null,
+      "reason": "生产计划属需求与物料计划（车间排产归L23，但生产计划工程师通常为供应链计划职能），归L16-03。"
+    },
+    {
+      "occupation_id": "UP-ed44c03406a745fb182024e2fb244b56",
+      "status": "mapped",
+      "target_category_id": "L19-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-08",
+        "L19-01",
+        "L19-03"
+      ],
+      "title_evidence": "财务专员：明确财务职能，未细分方向",
+      "level_3_evidence": null,
+      "reason": "财务专员方向未说明，归通用财务工作。"
+    },
+    {
+      "occupation_id": "UP-7e405cb82c7e6999021b54567853c51f",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-01",
+        "L06-08-01",
+        "L04-03-01"
+      ],
+      "title_evidence": "量产产品生产管控工程师：明确量产生产管控",
+      "level_3_evidence": null,
+      "reason": "量产产品生产管控属生产现场管理与计划控制，归生产计划与现场管理。"
+    },
+    {
+      "occupation_id": "UP-e71c97d2a65ef805c6e5ebf652d90db7",
+      "status": "mapped",
+      "target_category_id": "L04-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-02",
+        "L05-02-03",
+        "L04-01-03"
+      ],
+      "title_evidence": "模拟芯片测试工程师：明确芯片测试",
+      "level_3_evidence": null,
+      "reason": "芯片为实物产品，测试属硬件与产品测试；非软件测试。"
+    },
+    {
+      "occupation_id": "UP-b5a8f6fcb9f3d15d2c587fdbb9ba5b38",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-08-01",
+        "L05-02-04",
+        "L06-08"
+      ],
+      "title_evidence": "封装工程师：半导体封装工艺",
+      "level_3_evidence": "制造制程工程：封装属半导体制造制程工艺开发",
+      "reason": "封装工程师从事半导体封装工艺制程，归制造制程工程。"
+    },
+    {
+      "occupation_id": "UP-4121e661cb81f181e31b49a171e7fbac",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-01",
+        "L06-08-02"
+      ],
+      "title_evidence": "制造部生产主管：明确生产现场管理",
+      "level_3_evidence": null,
+      "reason": "制造部生产主管属车间生产管理，归生产计划与现场管理。"
+    },
+    {
+      "occupation_id": "UP-53dc90458bd32e4d5914e02ac0e1b80a",
+      "status": "mapped",
+      "target_category_id": "L04-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-03",
+        "L04-03-01",
+        "L04-03-03"
+      ],
+      "title_evidence": "质量工程师：制造质量职能",
+      "level_3_evidence": null,
+      "reason": "半导体制造企业质量工程师属生产质量管理；未细分过程/供应商/客诉，停在二级。"
+    },
+    {
+      "occupation_id": "UP-79eb01462f281b107de191ef66e198d8",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L05-01-02",
+        "L06-08-01",
+        "L08-02-02",
+        "L04-02"
+      ],
+      "title_evidence": "产品工程师：半导体行业产品工程师，方向不明确",
+      "level_3_evidence": null,
+      "reason": "产品工程师在半导体企业可能指产品工程/新产品导入/产品管理，证据不足以确定唯一二级，列候选待复核。"
+    },
+    {
+      "occupation_id": "UP-569039bf80de6bd466473c5730a09c31",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-08-01",
+        "L06-08"
+      ],
+      "title_evidence": "工艺工程师：明确工艺职能",
+      "level_3_evidence": "制造制程工程：制造过程参数及制程开发",
+      "reason": "半导体企业工艺工程师从事制程工艺，归制造制程工程。"
+    },
+    {
+      "occupation_id": "UP-966c5b5cb2d93b6e4ea005883d76bab9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-08",
+        "L20-11",
+        "L20-04",
+        "L13-02"
+      ],
+      "title_evidence": "金融业务人员：仅表明金融业务，未说明具体方向",
+      "level_3_evidence": null,
+      "reason": "“金融业务人员”过于泛化，可能为柜面运营、信贷或金融销售，证据不足，列候选待复核。"
+    },
+    {
+      "occupation_id": "UP-7ba372733427179acbd6d326443c9ae8",
+      "status": "mapped",
+      "target_category_id": "L30-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L30-02",
+        "L30-01",
+        "L30-03"
+      ],
+      "title_evidence": "法务岗：明确法务职能",
+      "level_3_evidence": null,
+      "reason": "企业法务岗归企业法务。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 20132,
+    "cached_input_tokens": 16768,
+    "uncached_input_tokens": 3364,
+    "output_tokens": 2354,
+    "reasoning_tokens": 0,
+    "total_tokens": 22486
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001967304
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

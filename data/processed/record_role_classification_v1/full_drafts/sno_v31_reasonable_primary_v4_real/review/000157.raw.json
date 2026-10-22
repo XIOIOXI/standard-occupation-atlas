@@ -1,0 +1,28 @@
+{
+  "id": "0649a26f-da3b-4034-9a3c-1ddc7dc0db2d",
+  "object": "chat.completion",
+  "created": 1791880660,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-e624868bb28b86d90302\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"营运管理员方向不明确，review合理。\"},{\"occupation_id\":\"TG-00e2d2a54c3e3bd6831f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"硅光工艺归工艺与制造工程合理。\"},{\"occupation_id\":\"TG-23bbc356dd5c0266f97c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运营管理部专员方向不明确，review合理。\"},{\"occupation_id\":\"TG-37d1657eb29b7c3d0ba8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"中学体育教师归体育教学合理。\"},{\"occupation_id\":\"TG-3b1171a4f4ef46d50d7c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"医技岗归医学检验与医技合理。\"},{\"occupation_id\":\"TG-8d2ef9a91c48a23a6438\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"售后件采购归间接采购合理。\"},{\"occupation_id\":\"TG-7c8c36c09356aebcc0b4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"土地开发利用项目助理归房地产开发与资产运营合理。\"},{\"occupation_id\":\"TG-09857af4925a8c8400bf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构生物学研究归自然科学基础研究合理。\"},{\"occupation_id\":\"TG-053b997651071493c041\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"寿命技术工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-e9dd6678afe3eefaa635\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"Java开发工程师归后端开发合理。\"},{\"occupation_id\":\"TG-d1b43b63362514e53c98\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"广告学设计归视觉与品牌设计合理。\"},{\"occupation_id\":\"TG-c013d0369586affcd63b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多方向软件开发，multi_role合理。\"},{\"occupation_id\":\"TG-3c33bd67c71be0016e16\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"总部管培生归跨职能管理培训与轮岗合理。\"},{\"occupation_id\":\"TG-e62f4da73e7d59395602\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"植物代谢/农药残留归配方与应用化学合理。\"},{\"occupation_id\":\"TG-969d6e46ca8804fe6ddc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"大气业务支撑归环境监测与评价合理。\"},{\"occupation_id\":\"TG-8a5f3233034ff14d6fee\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行分行校招生专业不限，review合理。\"},{\"occupation_id\":\"TG-ef07076a92381e6ddeae\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多职能方向，multi_role合理。\"},{\"occupation_id\":\"TG-da6930f6c561cba87c8d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合管理岗方向宽泛，review合理。\"},{\"occupation_id\":\"TG-b6e286eac344a8874356\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国内零售管培生归综合储备与业务培养合理。\"},{\"occupation_id\":\"TG-d27873a15c3a21ffea50\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机构销售归企业客户销售合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19713,
+    "completion_tokens": 914,
+    "total_tokens": 20627,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3201
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

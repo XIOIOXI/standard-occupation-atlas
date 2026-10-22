@@ -1,0 +1,24 @@
+{
+  "source_projection": "data/processed/record_role_classification_v1/targeted_name_repairs/name_only_targeted_repair_v1/display_projection_v8.json",
+  "output_projection": "data/processed/record_role_classification_v1/targeted_name_repairs/name_only_targeted_repair_v1/display_projection_v9.json",
+  "changes": [
+    {
+      "kind": "level_3_category",
+      "id": "销售/sales-general/general-sales-customer",
+      "canonical_level_2": "销售",
+      "display_level_2": "销售业务"
+    },
+    {
+      "kind": "level_3_category",
+      "id": "销售/sales-general/general-sales-channel",
+      "canonical_level_2": "销售",
+      "display_level_2": "销售业务"
+    },
+    {
+      "kind": "level_2_other_bucket",
+      "id": "other:level_2:销售/sales-general",
+      "canonical_level_2": "销售",
+      "display_level_2": "销售业务"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_006_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-45f8f899bbabd4cdbb0f",
+      "verdict": "pass",
+      "suggested_target_category_id": "L20-07",
+      "issue": "标题“运营风控”含风控线索，归入金融风险与信用评估在目录范围内，无更直接专门类别，判 pass。"
+    },
+    {
+      "occupation_id": "SNO-0b1d9a739c7e90b63cb0",
+      "verdict": "pass",
+      "suggested_target_category_id": "L10-03",
+      "issue": "标题“实施交付”与客户实施与交付管理范围一致，判 pass。"
+    },
+    {
+      "occupation_id": "SNO-71587e7f793855dc1589",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-11",
+      "issue": "标题“业务管理运营”属业务运营但方向未明确，归通用业务运营合理，判 pass。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11386,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 634,
+    "output_tokens": 197,
+    "reasoning_tokens": 0,
+    "total_tokens": 11583
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00024555599999999996
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9f9ae2e7-e2fb-4821-9454-d789cf3c4f47",
+  "object": "chat.completion",
+  "created": 1792571869,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-dd6784564eab3ce18091e9ed904d5099\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字化管培生方向未明确且具培养轮岗性质，review并保留L32-01/L32-02等候选合理，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17115,
+    "completion_tokens": 82,
+    "total_tokens": 17197,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 603
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "name-pair-review-v1",
+  "scope": "Name-only semantic review. No recruitment description, industry, or taxonomy mapping was read.",
+  "decisions": [
+    {"decision":"merge","left_group_id":"RRG-8056c8da62eb4992b38c","right_group_id":"RRG-420599c1461f5a7f4135","source_group_id":"RRG-8056c8da62eb4992b38c","target_standard_name":"安全工程师","reason":"括号内容仅为学历／专业要求；职业主体与“安全工程师”相同。"},
+    {"decision":"merge","left_group_id":"RRG-144742b59a560c355115","right_group_id":"RRG-420599c1461f5a7f4135","source_group_id":"RRG-144742b59a560c355115","target_standard_name":"安全工程师","reason":"括号内容仅为专业要求；职业主体与“安全工程师”相同。"},
+    {"decision":"merge","left_group_id":"RRG-38d8019ad996c9e54e61","right_group_id":"RRG-f712e8ba7b30306fbef2","source_group_id":"RRG-38d8019ad996c9e54e61","target_standard_name":"AI安全与隐私工程师","reason":"括号列出同一职位可覆盖的方向，不改变标题中的核心职业。"},
+    {"decision":"merge","left_group_id":"RRG-971b218136b52f77ac4b","right_group_id":"RRG-f712e8ba7b30306fbef2","source_group_id":"RRG-971b218136b52f77ac4b","target_standard_name":"AI安全与隐私工程师","reason":"括号列出同一职位可覆盖的方向，不改变标题中的核心职业。"},
+    {"decision":"merge","left_group_id":"RRG-74c1c73e3887f1ec98f9","right_group_id":"RRG-858ca9f112edad04a6a5","source_group_id":"RRG-74c1c73e3887f1ec98f9","target_standard_name":"编译器开发工程师","reason":"“编译器开发”是“编译器开发工程师”的同一核心职业简称。"},
+    {"decision":"merge","left_group_id":"RRG-aefc843638a3f6bb7bc9","right_group_id":"RRG-bd418e0c9284ec220193","source_group_id":"RRG-aefc843638a3f6bb7bc9","target_standard_name":"材料研发工程师","reason":"数量注释不改变“材料研发工程师”核心职业。"},
+    {"decision":"merge","left_group_id":"RRG-9886f6a8a0e7c0afe257","right_group_id":"RRG-3a232022b5f96ddb94e0","source_group_id":"RRG-9886f6a8a0e7c0afe257","target_standard_name":"职能部门管培生","reason":"括号为投递资格注释；保留“职能部门管培生”职业名称。"},
+    {"decision":"not_merge","left_group_id":"RRG-da9ced2540bde2217ab2","right_group_id":"RRG-420599c1461f5a7f4135","reason":"网络安全是明确专业方向；不能与未限定方向的安全工程师视为同一职业。"},
+    {"decision":"not_merge","left_group_id":"RRG-7190ac57b523ef4f32a0","right_group_id":"RRG-420599c1461f5a7f4135","reason":"AI应用安全是明确技术方向；不能并入通用安全工程师。"},
+    {"decision":"not_merge","left_group_id":"RRG-97f6cefef7d243921df1","right_group_id":"RRG-420599c1461f5a7f4135","reason":"CPU安全是明确技术对象；不能并入通用安全工程师。"},
+    {"decision":"not_merge","left_group_id":"RRG-2d9d1de8df2bd2fd7cf1","right_group_id":"RRG-777b01347d67419fe046","reason":"macOS是明确技术平台；不能仅据共享“安全开发工程师”片段合并。"},
+    {"decision":"not_merge","left_group_id":"RRG-d678b5212ab096012010","right_group_id":"RRG-a1755b6f01112493056d","reason":"“后端/版图”是复合职责表达；不能只按“版图工程师”片段并入。"},
+    {"decision":"not_merge","left_group_id":"RRG-3503241759dd8702cfd7","right_group_id":"RRG-a1755b6f01112493056d","reason":"模拟IC是明确技术方向；保持与通用版图工程师分开。"},
+    {"decision":"not_merge","left_group_id":"RRG-f4306cd35b787203421b","right_group_id":"RRG-51d53485ea43ad1fa494","reason":"Windows是明确技术平台；保持与未限定的安全研究员分开。"},
+    {"decision":"not_merge","left_group_id":"RRG-a645e90016a883f672ea","right_group_id":"RRG-88fd8c7385400ece8c34","reason":"纪检办公室限定了职责领域；不能与通用办公室文员合并。"},
+    {"decision":"review","left_group_id":"RRG-63aaf9dc4f6aab01a23d","right_group_id":"RRG-9ac9643d3a3128ebd82d","reason":"“安全工程技术员”与“安全工程技术”职称层级／实体不一致，仅凭名称无法确认同一职业。"},
+    {"decision":"review","left_group_id":"RRG-e10bfa947316e6971af1","right_group_id":"RRG-2a38ad56491659959ef7","reason":"“安全消防应急专”疑似截断名称，不能猜补并入。"},
+    {"decision":"review","left_group_id":"RRG-4bdaec28f26ffd219f62","right_group_id":"RRG-b44a283ed9a91849d6e3","reason":"产业园限定可能改变安全管理职责范围；名称层无法确认是否同一职业。"},
+    {"decision":"merge","left_group_id":"RRG-68999299e5e3e5b2350a","right_group_id":"RRG-da9ced2540bde2217ab2","source_group_id":"RRG-68999299e5e3e5b2350a","target_standard_name":"网络安全工程师","reason":"清除招聘地点与学历注释后，名称与“网络安全工程师”完全相同。"},
+    {"decision":"merge","left_group_id":"RRG-19b1e8f7f2f7c1a21ead","right_group_id":"RRG-ceebab530113bb880341","source_group_id":"RRG-19b1e8f7f2f7c1a21ead","target_standard_name":"本部信息科技","reason":"“省分行”仅为组织／地域层级，不改变“本部信息科技”名称所表达的核心岗位。"},
+    {"decision":"merge","left_group_id":"RRG-f048b1138ac715ea1457","right_group_id":"RRG-ceebab530113bb880341","source_group_id":"RRG-f048b1138ac715ea1457","target_standard_name":"本部信息科技","reason":"“省市分行”仅为组织／地域层级，不改变“本部信息科技”名称所表达的核心岗位。"},
+    {"decision":"merge","left_group_id":"RRG-cca9569ff656374dc316","right_group_id":"RRG-ceebab530113bb880341","source_group_id":"RRG-cca9569ff656374dc316","target_standard_name":"本部信息科技","reason":"“市分行”仅为组织／地域层级，不改变“本部信息科技”名称所表达的核心岗位。"}
+  ]
+}

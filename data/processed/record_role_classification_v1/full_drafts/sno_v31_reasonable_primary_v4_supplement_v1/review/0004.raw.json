@@ -1,0 +1,28 @@
+{
+  "id": "1dc524dd-faa3-45f8-aa93-7a358a3d768b",
+  "object": "chat.completion",
+  "created": 1791895520,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-581051e89cb8b8f7cf1b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题明确列出多个不同专业方向，无法归入单一职业类别，多角色处理合理。\"},{\"occupation_id\":\"TG-f500c6f37b2061b1a23c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题包含工艺、分析检测、实验员三个不同职能方向，无法确定唯一主归属，多角色处理合理。\"},{\"occupation_id\":\"TG-e7339598d5b62aad22ef\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"科研工程师属于科学研究职能，未说明具体领域，归入L07-05通用科学研究合理。\"},{\"occupation_id\":\"TG-62f748b3bd1b0ccd84b8\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L18-05\",\"issue\":\"安全后勤专员中后勤为行政后勤职能，安全为辅助修饰，主归属应为行政与办公事务L18-05，而非安全健康与职业防护L25-07。\"},{\"occupation_id\":\"TG-06fab31654a677ce10f3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题同时包含法学和审计两个不同专业职能，无法确定唯一主归属，多角色处理合理。\"},{\"occupation_id\":\"TG-27a87d94f97792a0b3fc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国际商务管培生可能指向商务拓展或国际贸易执行，标题未明确具体职能，review合理。\"},{\"occupation_id\":\"TG-b72e1a0bb26709efaa1a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"策划助理未说明策划领域，可能为市场策划、产品策划或内容策划，无法确定唯一归属，review合理。\"},{\"occupation_id\":\"TG-ac6ed45fd91e3cd3b8cf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"公司业务培训生属于银行企业客户业务方向，归入企业客户销售L13-01合理。\"},{\"occupation_id\":\"TG-bd587f2f7e625281fb9a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运营专员职责方向未明确，相关专业跨度大，无法确定具体运营领域，review合理。\"},{\"occupation_id\":\"TG-2b11237755b4b0f1d539\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"助理岗位涉及采矿、测绘、地质、化工、材料、环境等多个专业方向，无法确定唯一主归属，review合理。\"},{\"occupation_id\":\"TG-71ca778fa2ef26a2020c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术研发工程师岗属于工业技术研发，未说明具体技术方向，归入L06-09通用工业技术研发合理。\"},{\"occupation_id\":\"TG-92e25a3c941fc0db0796\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"公司业务培训生属于银行企业客户业务方向，归入企业客户销售L13-01合理。\"},{\"occupation_id\":\"TG-df80a24712ceaffc52f8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发管培生未说明研发领域，可能为软件、工业或生物医药研发，无法确定唯一归属，review合理。\"},{\"occupation_id\":\"TG-3242828a4bb7055f9db7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行支行储备生可能为个人客户销售或金融运营，标题未明确具体业务方向，review合理。\"},{\"occupation_id\":\"TG-86e75d879cd2b3b50410\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户经理方向明确为面向客户的销售职能，绿色金融为行业标签，归入企业客户销售L13-01合理。\"},{\"occupation_id\":\"TG-2bddf566138dfed49603\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题包含BD和产品技术工程师，核心为售前技术方案与产品技术支持，归入售前技术与解决方案L14-09合理。\"},{\"occupation_id\":\"TG-1a0eb00f0c3d907884e3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"咨询业务岗属于管理与专业咨询，未说明具体咨询领域，归入L11-04二级类别合理。\"},{\"occupation_id\":\"TG-74515aa7d13e956f7967\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"总行业务储备生未说明具体业务方向，可能为企业客户销售、个人客户销售或金融运营，review合理。\"},{\"occupation_id\":\"TG-ee63460cc70fee1cc548\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"话剧研究所专业技术岗属于文化艺术研究领域，归入图书文博与文化遗产L31-04合理。\"},{\"occupation_id\":\"TG-d4ee971189990779290d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题明确列出酒店运营、行政、人力、财务四个不同方向，无法归入单一职业类别，多角色处理合理。\"},{\"occupation_id\":\"TG-f38cff8bdd0e2d9e342b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"系统工程师可能指系统软件研发、系统运维或电子系统集成，标题未明确具体方向，review合理。\"},{\"occupation_id\":\"TG-a1f45c2b1e267423fe9f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"分行运营管培生属于银行运营业务操作，归入金融运营与交易清算L20-08合理。\"},{\"occupation_id\":\"TG-33f139ec64621806d528\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"邮务方向可能涉及物流作业或业务运营，标题未明确具体职能，review合理。\"},{\"occupation_id\":\"TG-93dd663962a384ef5d76\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"科技管培生通常指向软件开发等技术岗位，未说明具体技术方向，归入通用软件研发L01-11合理。\"},{\"occupation_id\":\"TG-5ddca723ce7e1980e6f6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发专员未说明研发领域，可能为软件、工业或生物医药研发，无法确定唯一归属，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 20426,
+    "completion_tokens": 1521,
+    "total_tokens": 21947,
+    "prompt_tokens_details": {
+      "cached_tokens": 20224
+    },
+    "prompt_cache_hit_tokens": 20224,
+    "prompt_cache_miss_tokens": 202
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

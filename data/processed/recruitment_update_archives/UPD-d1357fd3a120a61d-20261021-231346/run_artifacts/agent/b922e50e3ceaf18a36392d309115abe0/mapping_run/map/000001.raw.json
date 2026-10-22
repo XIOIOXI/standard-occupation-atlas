@@ -1,0 +1,28 @@
+{
+  "id": "6ae0db73-d265-47a2-914d-74bff36dd078",
+  "object": "chat.completion",
+  "created": 1792571216,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-b922e50e3ceaf18a36392d309115abe0\",\"status\":\"mapped\",\"target_category_id\":\"L03-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L03-08\",\"L03-01\",\"L03-02\",\"L03-06\",\"L01-11\"],\"title_evidence\":\"岗位名称明确为“信息技术岗”，属于IT技术职能，但未说明具体方向（开发/运维/支持）\",\"level_3_evidence\":null,\"reason\":\"“信息技术岗”确认IT技术职能但方向未说明，按目录归入L03-08通用信息技术运维；若实际为软件开发则可能属L01-11，但标题无开发证据，故不选三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16945,
+    "completion_tokens": 175,
+    "total_tokens": 17120,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

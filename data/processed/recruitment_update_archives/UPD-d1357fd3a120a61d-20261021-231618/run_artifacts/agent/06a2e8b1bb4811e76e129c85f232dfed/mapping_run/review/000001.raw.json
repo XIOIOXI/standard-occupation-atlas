@@ -1,0 +1,28 @@
+{
+  "id": "642f1991-f749-48e4-ba83-2222ccb6b0db",
+  "object": "chat.completion",
+  "created": 1792571845,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-06a2e8b1bb4811e76e129c85f232dfed\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L19-08\", \"issue\": \"标题明确财务职能，归L19-08通用财务工作合理；管培生为培养标签，不改变职能归属，无需归L32。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17066,
+    "completion_tokens": 99,
+    "total_tokens": 17165,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 554
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

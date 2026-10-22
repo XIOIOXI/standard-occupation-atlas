@@ -1,0 +1,47 @@
+.occupation-sheet .location-job-browser { display:grid; grid-template-columns:minmax(0,1.3fr) minmax(340px,1fr); gap:32px; align-items:start; margin-top:36px; }
+.occupation-sheet .location-job-browser .location-distribution { min-width:0; padding:0; }
+.occupation-sheet .location-job-browser .location-distribution-heading { padding-top:0; }
+.occupation-sheet .location-job-browser .province-map { width:100%; height:clamp(420px,64vh,700px); }
+.location-job-sidebar { min-width:0; border:1px solid var(--light-line,var(--hair)); border-radius:6px; }
+.location-job-filter { display:flex; align-items:center; gap:16px; padding:16px; border-bottom:1px solid var(--light-line,var(--hair)); font-size:14px; }
+.location-job-filter select { flex:1; min-width:0; min-height:42px; padding:8px; border:1px solid var(--light-line,var(--hair)); border-radius:4px; font:inherit; }
+.location-job-results { max-height:clamp(420px,64vh,700px); overflow-y:auto; padding:0 20px 20px; scrollbar-gutter:stable; }
+.location-job-status { margin:16px 0; font-size:13px; }
+.occupation-sheet .location-job-results .evidence-list.sno-evidence-list { margin:0; padding:0; max-width:none; }
+.occupation-sheet .location-job-results .sno-evidence-list h3 { font-size:20px; line-height:1.5; letter-spacing:0; }
+.occupation-sheet .location-job-results .sno-evidence-list h3 small { display:block; margin-top:6px; }
+.occupation-sheet .location-job-results .sno-evidence-row { display:block; padding:20px 0; }
+.occupation-sheet .location-job-results .sno-evidence-row>span { display:block; margin-top:8px; }
+.occupation-sheet .location-job-results .sno-evidence-row>p { margin-top:10px; }
+@media(max-width:900px) {
+ .occupation-sheet .location-job-browser { grid-template-columns:minmax(0,1fr); gap:24px; }
+ .occupation-sheet .location-job-browser .province-map { height:400px; }
+ .location-job-results { max-height:560px; }
+ .location-job-filter select { font-size:16px; }
+}
+
+/* Detail pages use the viewport; only the record pane scrolls. */
+#root:has(.location-job-browser) { display:flex; flex-direction:column; height:100dvh; overflow:hidden; }
+#root:has(.location-job-browser)>.topbar { flex:0 0 auto; }
+body .market-main:has(.location-job-browser) { flex:1; min-height:0; padding-bottom:16px; overflow:hidden; }
+.market-main>.sno-explorer:has(.location-job-browser) { display:flex; flex-direction:column; height:100%; min-height:0; }
+.sno-explorer:has(.location-job-browser)>.breadcrumbs { flex:0 0 auto; min-height:40px; max-height:15dvh; overflow:auto; }
+.sno-explorer .occupation-sheet:has(.location-job-browser) { display:flex; flex-direction:column; flex:1; min-height:0; padding-top:0; animation:none; }
+.occupation-sheet:has(.location-job-browser)>.occupation-hero { flex:0 0 auto; max-width:none; padding:12px 0 16px; }
+.occupation-sheet:has(.location-job-browser)>.occupation-hero h1 { margin:0; font-size:36px; line-height:1.25; letter-spacing:-.02em; }
+.occupation-sheet:has(.location-job-browser)>.occupation-hero .occupation-meta { margin:10px 0 0; line-height:1.5; font-size:13px; }
+.occupation-sheet .location-job-browser { flex:1; min-height:0; grid-template-rows:minmax(0,1fr); align-items:stretch; margin-top:20px; }
+.occupation-sheet .location-job-browser .location-distribution { display:grid; grid-template-rows:auto minmax(0,1fr); min-height:0; }
+.occupation-sheet .location-job-browser .location-distribution-heading { padding:0 0 12px; }
+.occupation-sheet .location-job-browser .location-distribution-heading h2 { margin:0; font-size:24px; line-height:1.4; letter-spacing:0; }
+.occupation-sheet .location-job-browser .province-map { min-height:0; height:100%; margin:0; }
+.location-job-browser .location-job-sidebar { display:flex; flex-direction:column; min-height:0; overflow:hidden; }
+.location-job-browser .location-job-filter { flex:0 0 auto; padding:12px 16px; }
+.location-job-browser .location-job-results { flex:1; min-height:0; max-height:none; overscroll-behavior:contain; }
+@media(max-width:900px) {
+ .occupation-sheet .location-job-browser { grid-template-rows:minmax(0,2fr) minmax(0,3fr); gap:12px; margin-top:12px; }
+ .occupation-sheet:has(.location-job-browser)>.occupation-hero h1 { font-size:26px; }
+ .occupation-sheet:has(.location-job-browser)>.occupation-hero { padding:8px 0 12px; }
+ .occupation-sheet .location-job-browser .location-distribution-heading h2 { font-size:18px; }
+ .occupation-sheet .location-job-browser .province-map { height:100%; }
+}

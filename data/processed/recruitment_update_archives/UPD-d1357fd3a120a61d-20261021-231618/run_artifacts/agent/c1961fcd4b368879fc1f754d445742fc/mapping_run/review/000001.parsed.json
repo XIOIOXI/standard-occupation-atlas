@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-c1961fcd4b368879fc1f754d445742fc",
+      "verdict": "pass",
+      "suggested_target_category_id": "L23-09-02",
+      "issue": "设备技术员在制造业语境下归工业设备维修保全合理；候选含安装调试与机械设备设计，属可接受的多义范围，无需修正。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17042,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 530,
+    "output_tokens": 97,
+    "reasoning_tokens": 0,
+    "total_tokens": 17139
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000374472
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ba20f330-c341-4b60-a88e-a59080e49833",
+  "object": "chat.completion",
+  "created": 1791881443,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-b00545bd43296c3bc727\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题仅表明培养生身份，未说明职能或行业，review合理。\"},{\"occupation_id\":\"TG-86056cd39fd2d4f6f447\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题同时包含市场运营、品牌、公关多个方向，multi_role合理。\"},{\"occupation_id\":\"TG-648df9dfe05da0d70519\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"变电/接触网检修归能源运行与调度合理。\"},{\"occupation_id\":\"TG-0a71166f7c8cb9ef6f34\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"高中语文教师归人文与社会学科教学合理。\"},{\"occupation_id\":\"TG-9473f894d9a3f4a3dd13\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"创新行业经理职责不明确，review合理。\"},{\"occupation_id\":\"TG-ae867c0035d33782620c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"辅导老师归教学辅助与学员服务合理。\"},{\"occupation_id\":\"TG-6b80e545b2dc26fc9c4c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品调试工程师归工业设备安装调试合理。\"},{\"occupation_id\":\"TG-df9221e0ae31be595b67\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI助理研究员归机器学习与算法研发合理。\"},{\"occupation_id\":\"TG-72ed531f776136a189ff\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"前端设计归界面视觉设计合理。\"},{\"occupation_id\":\"TG-3bb9060dc3c40979b5c8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"CAD/CAM软件算法工程师归中间件与基础框架合理。\"},{\"occupation_id\":\"TG-73019a6f9547e4c35a7b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"车门设计归底盘与车辆工程合理。\"},{\"occupation_id\":\"TG-1f962984f350640928db\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行公司业务培训生方向未明确，review合理。\"},{\"occupation_id\":\"TG-e5a8e041762f0512b344\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"大数据开发岗归数据工程与数据平台开发合理。\"},{\"occupation_id\":\"TG-1902782fbba51ee1f94d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"网络安全专员归信息安全合理。\"},{\"occupation_id\":\"TG-530dfd90e1d401b9aa84\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"政企大客户经理归重点客户管理合理。\"},{\"occupation_id\":\"TG-3742f7d62b5175d37936\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"审计税务同时含审计与税务，multi_role合理。\"},{\"occupation_id\":\"TG-bd8fb8a784b09b92f55c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合柜员客户经理涉及金融运营与销售，multi_role合理。\"},{\"occupation_id\":\"TG-4f1b822067e4c6aab0e2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"团队搭建岗职责不明确，review合理。\"},{\"occupation_id\":\"TG-301c48d38a23eb3f42b1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产工艺技术员归制造制程工程合理。\"},{\"occupation_id\":\"TG-b6f449e7f2b865e87697\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信息化建设一体化解决方案主管归信息化建设项目管理合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19546,
+    "completion_tokens": 949,
+    "total_tokens": 20495,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3034
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

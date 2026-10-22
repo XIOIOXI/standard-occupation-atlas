@@ -1,0 +1,28 @@
+{
+  "id": "007347e5-060f-478a-bf59-4cafeab5d25a",
+  "object": "chat.completion",
+  "created": 1792571235,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-daad5dae4e1c20072b1f781c5effe583\",\"status\":\"mapped\",\"target_category_id\":\"L06-02\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L06-02\",\"L06-01-03\",\"L05-03\"],\"title_evidence\":\"燃气动力机组新产品开发工程师：燃气动力机组属动力设备，新产品开发为动力/热流体技术研发\",\"level_3_evidence\":null,\"reason\":\"燃气动力机组为动力机械，核心职责为动力机组新产品开发，归热流体与动力工程（L06-02）；无直接细分三级证据，故停二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16950,
+    "completion_tokens": 152,
+    "total_tokens": 17102,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 310
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "15fab38d-0f39-44df-a80c-2f7927c963de",
+  "object": "chat.completion",
+  "created": 1791880588,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-d4d4d5d7464cfa02f19e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"智能制造校招生为培养项目且具体职能未明确，review合理。\"},{\"occupation_id\":\"TG-142a6a0c7fd85c77a653\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"通信网络运维工程师归L03-03合理。\"},{\"occupation_id\":\"TG-4fb9416d5176388c69be\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数智化产品实施顾问归L01-10-01合理。\"},{\"occupation_id\":\"TG-b2c9a63f21ca2669ccba\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"高质量数据集研究岗归L02-08-01合理。\"},{\"occupation_id\":\"TG-31d6456d87704982e03e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"行业研究员归L11-05合理。\"},{\"occupation_id\":\"TG-70f17239f9500edfb9b3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"无机材料工艺工程师归L06-08-01合理。\"},{\"occupation_id\":\"TG-e28706d04e9685e213d3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运营管理室经理归L14-06合理。\"},{\"occupation_id\":\"TG-06922be2b119cf53e44a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"大连分行运营培训生为培养项目且职能未明确，review合理。\"},{\"occupation_id\":\"TG-f81e0e7091a270f2dbae\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务部业务岗职能不明确，review合理。\"},{\"occupation_id\":\"TG-6ee130ec9a20b30791ce\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"并网逆变器算法工程师归L05-03合理。\"},{\"occupation_id\":\"TG-442948eec8dea49b1bf1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"饲料化验员归L04-04-02合理。\"},{\"occupation_id\":\"TG-4aead4bf76d49b08f2d1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品数字化运营管培生为培养项目且职能未明确，review合理。\"},{\"occupation_id\":\"TG-0161ebf05dbf4323c52e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务管理部出纳岗归L19-02合理。\"},{\"occupation_id\":\"TG-dd5fda2f410c03c9f511\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"科创金融事业总部运营培训生（综合柜员方向）归L20-08合理。\"},{\"occupation_id\":\"TG-39d6753a45737a37195f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采油/生产工程师归L25-02合理。\"},{\"occupation_id\":\"TG-731b391759b97e3b15c8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电路与电源设计归L05-01-01合理。\"},{\"occupation_id\":\"TG-f79e24e3ac002a5bb2f0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生\\\\会计学为培养项目且职能未明确，review合理。\"},{\"occupation_id\":\"TG-91a1923b36d799872365\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"激光理论仿真设计师归L07-01合理。\"},{\"occupation_id\":\"TG-94c818b01dda24671c1d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"文秘归L18-06合理。\"},{\"occupation_id\":\"TG-b76b8db4cbf4d16f8b93\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"全球管培生为培养项目且职能未明确，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19582,
+    "completion_tokens": 989,
+    "total_tokens": 20571,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3070
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

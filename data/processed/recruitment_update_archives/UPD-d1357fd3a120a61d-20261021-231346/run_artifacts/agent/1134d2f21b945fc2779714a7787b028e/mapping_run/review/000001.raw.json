@@ -1,0 +1,28 @@
+{
+  "id": "b4099337-cdf2-4f4e-88fd-b3fb72dda578",
+  "object": "chat.completion",
+  "created": 1792571890,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-1134d2f21b945fc2779714a7787b028e\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L18-04\",\"issue\":\"标题明确为人力资源培训生项目，职能已明确为HR，归L18-04人力资源综合管理合理；培养属性可加标签，无需改判。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17039,
+    "completion_tokens": 89,
+    "total_tokens": 17128,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 527
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

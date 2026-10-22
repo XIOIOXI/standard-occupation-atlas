@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-4f03da33c876d43639f4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-63e096990bcd340d1c98",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-90f9e7263c7463ed79b4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-ec0df88837323acb7a37",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-3ef037e7af767784e3a7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-9eb316348c781c9e2daf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-616fb5663e8d2988776f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-b3773cfc70a605bbaf64",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L09-06-02",
+      "issue": "渲染设计师通常为美术/数字资产方向，归入L09-06-02更合理；L01-08-01为图形渲染编程开发，与设计师岗位不符。"
+    },
+    {
+      "occupation_id": "TG-e6367fe5c9b491ead436",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-bf3faf8bfbe2b4f92b75",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-28b73ec131fef139985a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-9e85dac329892d005b2a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-229d5f8b26b8187f03ba",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-b90a138581b29f1910bd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-b1d75ad1ef7334220019",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-57bf0a2f592a252429c1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-1eb9cfeb3623eaa876fc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-ea8dad7710c5bb4f65c8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-f882a3cc327e9682b0e0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-42b4bbd475cce3fe3f2d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ],
+  "raw_response_file": "000412.raw.json",
+  "usage": {
+    "input_tokens": 19609,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3097,
+    "output_tokens": 783,
+    "reasoning_tokens": 0,
+    "total_tokens": 20392
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.001967772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

@@ -1,0 +1,147 @@
+{
+  "batch_number": 3,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 26603,
+    "cached_input_tokens": 25088,
+    "uncached_input_tokens": 1515,
+    "output_tokens": 1002,
+    "reasoning_tokens": 0,
+    "total_tokens": 27605
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0009037139999999999
+  },
+  "results": [
+    {
+      "entry_id": "SNO-00d405adcdac12ede826",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“科研技术岗”为宽泛称谓，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-013bd6757f2ae663af51",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“话剧研究所专业技术”为复合且宽泛称谓，无法明确唯一职业目录。"
+    },
+    {
+      "entry_id": "SNO-0200e64ab2b1c107466c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“海外技术服务及管理人员”为复合岗位，无法明确唯一职业目录。"
+    },
+    {
+      "entry_id": "SNO-02604d67b3459ef28634",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“总体工程师”为宽泛称谓，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-029e69210d84ea4386a3",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“六性工程师”为专业术语且宽泛，无法明确唯一职业目录。"
+    },
+    {
+      "entry_id": "SNO-02f8ec2a620d2af743aa",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“检测开发”为宽泛称谓，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-058bd4c93f0b5f5a97bf",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“数字化技术工程师”为宽泛称谓，无法明确唯一职业目录。"
+    },
+    {
+      "entry_id": "SNO-064b507e5e95bff5f5fa",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“高级应用工程师”为宽泛称谓，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-07d1a7552b8cab4b4420",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工艺研究员”为宽泛称谓，无法明确具体行业或细分方向。"
+    },
+    {
+      "entry_id": "SNO-097e88a0d3ec35037361",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“岗研究”名称截断且宽泛，无法明确职业目录。"
+    },
+    {
+      "entry_id": "SNO-0bcad86b7b40812a1db4",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“助理研究员岗1”为宽泛称谓，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-0c2607ef981f33680559",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发类”为宽泛类别称谓，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-0d6bae3d92d2a0255034",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“实验室工程师”为宽泛称谓，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-0e241a6b7fcda870530a",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“设计研发岗(工程管理、通信工程、自动化、计算机科学与技术、软件工程、电子信息)”为专业清单复合岗位，无法明确唯一职业目录。"
+    },
+    {
+      "entry_id": "SNO-0ec7605e63aece2ec4af",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“/ERBP研发人员”名称截断且宽泛，无法明确职业目录。"
+    },
+    {
+      "entry_id": "SNO-0fc8ff6d373752bf7add",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“高级工程师”为宽泛称谓，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-102eefdaea19155a8c58",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“TFS工程师”为缩写且宽泛，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-10b74147d25a97016e6e",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“海外工程”为宽泛称谓，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-114003c0e8e945c324b3",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“设计管理”为宽泛称谓，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-117ff7ed55e522caa5bb",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“数字化技术开发”为宽泛称谓，无法明确唯一职业目录。"
+    }
+  ]
+}

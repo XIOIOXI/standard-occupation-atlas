@@ -1,0 +1,28 @@
+{
+  "id": "569f3045-32ea-4f70-bd24-7148b35d0a75",
+  "object": "chat.completion",
+  "created": 1791881652,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-5aaa8e289928f73cd726\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅项目名称，无职能/行业证据，review合理。\"},{\"occupation_id\":\"TG-f209d210f84291c2c52d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多职能并列，multi_role合理。\"},{\"occupation_id\":\"TG-52875da0a8904dbde4ef\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"经销商客户运营归L14-05合理。\"},{\"occupation_id\":\"TG-cccab2580cd08e41930f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多培养方向并列，multi_role合理。\"},{\"occupation_id\":\"TG-40175d820c351305f9e5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量管理储备归L04-03合理。\"},{\"occupation_id\":\"TG-4c70e0d1457acccf5c97\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"体内肿瘤药效研究归L06-07-02合理。\"},{\"occupation_id\":\"TG-9020e6102000ada03f60\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI应用方向归L02-06合理。\"},{\"occupation_id\":\"TG-d1317dbdbe99b3b73194\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"安全质量专员归L25-07合理。\"},{\"occupation_id\":\"TG-e9c832e665a80c561b0d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"花色设计归L09-04合理。\"},{\"occupation_id\":\"TG-2b5657b0dedb3f56fe4f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"品牌内容运营归L14-03合理。\"},{\"occupation_id\":\"TG-5eb054cede088c6fb61b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"小微金融方向营销培训生归L13-02合理。\"},{\"occupation_id\":\"TG-3fab1c958b730b3f43ea\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国际业务职能未明，review合理。\"},{\"occupation_id\":\"TG-11e2514cf283f8d229fd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品总监归L08-01合理。\"},{\"occupation_id\":\"TG-2c63a883689e5bf8a00a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采销管培生归L16-01合理。\"},{\"occupation_id\":\"TG-c2d77650572e565b9e15\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"啤酒酿造归L23-07合理。\"},{\"occupation_id\":\"TG-dd741f1288527c454a64\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"先进电池开发归L25-03合理。\"},{\"occupation_id\":\"TG-62880dcc22e5fdfb4549\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数智化系统工程师归L01-11合理。\"},{\"occupation_id\":\"TG-4fc46783c65103f15146\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工程管理方向项目管理归L24-07合理。\"},{\"occupation_id\":\"TG-3c76635bb06c1d234c74\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"摄像头工艺工程师归L06-08-01合理。\"},{\"occupation_id\":\"TG-3ad76857a6a51cc9ae89\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运营支持岗归L14-11合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19732,
+    "completion_tokens": 920,
+    "total_tokens": 20652,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3220
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

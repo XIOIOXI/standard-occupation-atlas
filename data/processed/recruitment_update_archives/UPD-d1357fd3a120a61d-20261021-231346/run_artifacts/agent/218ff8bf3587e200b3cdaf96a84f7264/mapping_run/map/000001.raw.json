@@ -1,0 +1,28 @@
+{
+  "id": "f641efc4-cd37-492b-a124-c1045c7ea3f5",
+  "object": "chat.completion",
+  "created": 1792571554,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-218ff8bf3587e200b3cdaf96a84f7264\",\"status\":\"mapped\",\"target_category_id\":\"L06-07-01\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L06-07-01\",\"L02-01-04\",\"L07-03\"],\"title_evidence\":\"生信分析师：生物信息分析，属生物技术研发中的数据分析应用\",\"level_3_evidence\":\"生物技术研发：生物工程及生物技术应用\",\"reason\":\"生信分析师核心为生物信息学分析，服务于育种与蛋白研发，归生物技术研发下的生物技术研发三级；非纯业务数据分析，也非实验操作支持。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16936,
+    "completion_tokens": 156,
+    "total_tokens": 17092,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 296
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

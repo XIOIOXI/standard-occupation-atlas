@@ -1,0 +1,28 @@
+{
+  "id": "26af254c-5b51-4821-8379-0087f63637f5",
+  "object": "chat.completion",
+  "created": 1791828468,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-36d060febceb222c8d80\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称以斜杠开头且仅含泛称“高级工程师”，无法确认职业领域。\"},{\"entry_id\":\"SNO-3709175fd7cad179ee4f\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“仿真开发”为宽泛技术称谓，无法明确归入具体二级或三级方向。\"},{\"entry_id\":\"SNO-37134457309ef4d70c07\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“工程设计工程师”为宽泛工程称谓，无法确认具体职业领域。\"},{\"entry_id\":\"SNO-374ca76c4ecbfa4d66f2\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“青年科学家”为宽泛称谓，无法确认具体职业领域。\"},{\"entry_id\":\"SNO-3bebcae811e8db9775c1\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含专业清单，属复合宽泛岗位，无法唯一归类。\"},{\"entry_id\":\"SNO-3c27e263a6cfc6383516\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“博士研究员”为宽泛称谓，无法确认具体职业领域。\"},{\"entry_id\":\"SNO-3c3396ec43fc69504523\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“研发部创新工程师”为宽泛研发称谓，无法确认具体领域。\"},{\"entry_id\":\"SNO-3c3c5d77cd3c1989883c\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含公告附件说明，属截断/宽泛岗位，无法唯一归类。\"},{\"entry_id\":\"SNO-3cf925810572c1a683dc\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“技术管理员”为宽泛技术管理称谓，无法确认具体职业领域。\"},{\"entry_id\":\"SNO-3dfa5a3ebcc03ab9b2ea\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“科学研究”为宽泛称谓，无法确认具体职业领域。\"},{\"entry_id\":\"SNO-3e88d6376ab01925e931\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含AI应用开发与软件开发，属复合宽泛岗位，无法唯一归类。\"},{\"entry_id\":\"SNO-3e93b436c3bf02d53793\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“广播影视政策研究”为宽泛研究称谓，无法明确归入具体二级或三级。\"},{\"entry_id\":\"SNO-3ee6836cfef88e5f348c\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“地理信息平台开发”为宽泛开发称谓，无法确认具体二级或三级方向。\"},{\"entry_id\":\"SNO-3f2e70021f0e6b817874\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称以斜杠重复“工程师”，属宽泛称谓，无法确认职业领域。\"},{\"entry_id\":\"SNO-3feb66b45176cfb3ec2e\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“平台工程师”为宽泛技术称谓，无法确认具体职业领域。\"},{\"entry_id\":\"SNO-40522934839bc9fea5af\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“理论模拟研究员”为宽泛研究称谓，无法确认具体职业领域。\"},{\"entry_id\":\"SNO-4128fb8c3892b96bf629\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“实验室技术员”为宽泛称谓，无法确认具体职业领域。\"},{\"entry_id\":\"SNO-420599c1461f5a7f4135\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“安全工程师”为宽泛称谓，无法确认具体安全领域。\"},{\"entry_id\":\"SNO-42a10e0d38e78ab4a373\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“数字技术”为宽泛称谓，无法确认具体职业领域。\"},{\"entry_id\":\"SNO-42ed97eb85990224e107\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“公用工程”为宽泛工程称谓，无法确认具体职业领域。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 26625,
+    "completion_tokens": 977,
+    "total_tokens": 27602,
+    "prompt_tokens_details": {
+      "cached_tokens": 25088
+    },
+    "prompt_cache_hit_tokens": 25088,
+    "prompt_cache_miss_tokens": 1537
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

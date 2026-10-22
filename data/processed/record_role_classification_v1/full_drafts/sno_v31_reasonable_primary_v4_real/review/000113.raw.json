@@ -1,0 +1,28 @@
+{
+  "id": "7cb3f838-013f-4125-a2a7-8a9816552dd7",
+  "object": "chat.completion",
+  "created": 1791880519,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-14b7be717de8034b48ee\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"主题策划方向不明确，候选类别均合法，review合理。\"},{\"occupation_id\":\"TG-89df508025ca72d283c6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"模拟电路工程师归模拟与混合信号设计，合理。\"},{\"occupation_id\":\"TG-a0158487db2c004a645c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术销售专员归直客销售，合理。\"},{\"occupation_id\":\"TG-f0e4d7cd77ed34d83469\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"实施顾问管培生归客户实施与交付管理，合理。\"},{\"occupation_id\":\"TG-253a700e69d906d59ec9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"教学科研岗归高等教育教学，合理。\"},{\"occupation_id\":\"TG-a61228f480f68af271b8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"固废资源化技术研发工程师归固废与土壤治理，合理。\"},{\"occupation_id\":\"TG-d07cdc697f9951cf96e4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术平台管理岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-d1fd93c79651425f6deb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"法律编辑归数字与专业内容编辑，合理。\"},{\"occupation_id\":\"TG-badb44bad4a178167578\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采购类管培生归采购与供应商管理，合理。\"},{\"occupation_id\":\"TG-177ba18c328f61a1ef0b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"Linux驱动开发工程师归固件与底层驱动，合理。\"},{\"occupation_id\":\"TG-c61bfbce629b9cb67f4a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"营林工程检查验收员归林业与生态管护，合理。\"},{\"occupation_id\":\"TG-fa2045ae6238eebaa0fd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"软件测试方向未说明，归软件测试与质量保障，合理。\"},{\"occupation_id\":\"TG-ce509786bf1fe81fd2d0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI运营策划归产品与平台运营，合理。\"},{\"occupation_id\":\"TG-8e5773d4c79ef4a88c79\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"SI仿真工程师归电子系统集成，合理。\"},{\"occupation_id\":\"TG-37f9f31d024337782187\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"教学质控实习生归教学辅助与学员服务，合理。\"},{\"occupation_id\":\"TG-715eda920f14a2e8188b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机器人决策规划归运筹优化与决策算法，合理。\"},{\"occupation_id\":\"TG-346e3e7d0c3da7a611a2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"大模型训推框架优化归训练评估与平台工程，合理。\"},{\"occupation_id\":\"TG-2a1445a86a914401470a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"角色原画设计归插画与原画，合理。\"},{\"occupation_id\":\"TG-1e1b73adda9bee1e2745\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"回购管理岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-27171d3c6bd28765fdc9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"算法工程化工程师归模型推理与服务，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19659,
+    "completion_tokens": 956,
+    "total_tokens": 20615,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3147
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-93d9df550ae7908760a0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-31854016a49801dba928",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-d441c3c586bdb3a426c8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-8b6fec90b070a91949a7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-194fdaaf2568cca8b787",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-1597d72f5ee8a14b7fd5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-1c148b3f28569ba20070",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-347628cf13d95de82ace",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-2ed5d08113b90759cbdf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-93d2216aaab9f81d84a1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-56a778cd01a2cb39dc51",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-46572d2869a684db62a5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-42f5f41b7166118e7721",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-47f8f460d09368a89b6e",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L02-05-01",
+      "issue": "视觉软件工程师通常指计算机视觉算法/软件开发，应归L02-05-01计算机视觉，而非L01-08图形与引擎开发。"
+    },
+    {
+      "occupation_id": "TG-906ce9b09d33c90add14",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-95444aa435e933c5e710",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-30a92a55bf17d2788d64",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-2d7e94cc83e4a1de10be",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-62aec06549f80f698c06",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-f63ac49b4832b1f16778",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ],
+  "raw_response_file": "000101.raw.json",
+  "usage": {
+    "input_tokens": 19478,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2966,
+    "output_tokens": 773,
+    "reasoning_tokens": 0,
+    "total_tokens": 20251
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0019164719999999998
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4ad10ac2-53e8-4483-9b0e-80ec50599596",
+  "object": "chat.completion",
+  "created": 1792571929,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-4121e661cb81f181e31b49a171e7fbac\",\"status\":\"mapped\",\"target_category_id\":\"L23-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L23-01\"],\"title_evidence\":\"制造部生产主管：制造部门生产现场管理岗位\",\"level_3_evidence\":null,\"reason\":\"标题明确为制造部生产主管，属工厂生产现场与班组管理，归生产计划与现场管理（L23-01）；无更细三级证据。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16957,
+    "completion_tokens": 129,
+    "total_tokens": 17086,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

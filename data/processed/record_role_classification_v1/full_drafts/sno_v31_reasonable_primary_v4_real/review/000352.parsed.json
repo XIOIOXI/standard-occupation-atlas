@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-3e0074b2a83bcd36e04f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-9cf590b9b8ffc0c788b9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-e426befeb7cbdf6a94a4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-4d5a4a3a7bc8dddb8b0e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-ab798cf00fd5483dcc74",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-b2e6645614d00dc985fc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-33dde7f442f5fcf04b89",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-6c1b0ba401fa4eaaef5a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-88878dd62b4bfc1630fc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-42b77c066ca71154ffd7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-0935b731f55bcdb57ddc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-c31f0147400183293e61",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-29b39bf9a79024e4496c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-f052250514dd1dd18512",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-df091e44fa1aedb96b15",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-b2e8b2864e3ddc95406f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-60015a40661d1b1bdbac",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L25-02",
+      "issue": "矿山设计项目助理属于采矿与资源开采技术及现场作业，应归L25-02，而非通用建筑与工程工作L24-13。"
+    },
+    {
+      "occupation_id": "TG-91ec618b3a6ad288d591",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-c7ac18f1f0bfc85c67f0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-f911838c06e926b65397",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ],
+  "raw_response_file": "000352.raw.json",
+  "usage": {
+    "input_tokens": 19309,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2797,
+    "output_tokens": 778,
+    "reasoning_tokens": 0,
+    "total_tokens": 20087
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0018717719999999998
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

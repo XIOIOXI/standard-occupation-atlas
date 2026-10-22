@@ -1,0 +1,28 @@
+{
+  "id": "be4e038f-c12e-4320-b276-6c64322b4026",
+  "object": "chat.completion",
+  "created": 1792571428,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-a8f658e7806932eeac08e2b42964e914\",\"status\":\"mapped\",\"target_category_id\":\"L16-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L16-01\",\"L16-01-01\",\"L16-01-02\"],\"title_evidence\":\"岗位名称明确为“采购助理工程师”，核心职能为采购与供应商管理；助理为职级标签，不改变采购职能。\",\"level_3_evidence\":null,\"reason\":\"标题直接指向采购职能，归入采购与供应商管理（L16-01）。因未说明采购物料类型（直接物料或间接服务），不细分至三级，停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16955,
+    "completion_tokens": 164,
+    "total_tokens": 17119,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,310 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-089557b178e1c2fa6b7a",
+      "status": "mapped",
+      "target_category_id": "L23-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L23-02-01",
+        "L23-02-02"
+      ],
+      "title_evidence": "装配技师",
+      "level_3_evidence": "产品装配",
+      "reason": "标题明确为装配技师，属于产品零部件装配作业，直接对应L23-02-01产品装配。"
+    },
+    {
+      "occupation_id": "TG-422446d036d495f90c63",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-01",
+        "L12-02",
+        "L12-04",
+        "L12-07"
+      ],
+      "title_evidence": "宣传业务岗",
+      "level_3_evidence": null,
+      "reason": "宣传业务岗属于市场品牌与公共关系职能，但具体方向未明确，归入L12-07通用市场营销。"
+    },
+    {
+      "occupation_id": "TG-ecc8919b1772e760eadd",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-01",
+        "L20-02",
+        "L20-03",
+        "L20-07",
+        "L14-01",
+        "L18-04",
+        "L30-03",
+        "L02-05"
+      ],
+      "title_evidence": "财富星耀生 固收星耀生 星途星耀生RWA业务星耀生战略投资星耀生科技研发星耀生星链星耀生研究星耀生 合规星耀生产品运营星耀生 人力星耀生",
+      "level_3_evidence": null,
+      "reason": "标题包含多个不同职能方向（财富、固收、战略投资、科技研发、研究、合规、产品运营、人力等），无法归入单一职业类别。"
+    },
+    {
+      "occupation_id": "TG-f3509ea913e82c06de10",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-06",
+        "L01-02",
+        "L01-04"
+      ],
+      "title_evidence": "软件开发工程师(嵌入式、JAVA、Android)",
+      "level_3_evidence": null,
+      "reason": "标题同时包含嵌入式、JAVA、Android三个不同开发方向，无法归入单一职业类别。"
+    },
+    {
+      "occupation_id": "TG-38b79c9d49d9ec61d43a",
+      "status": "mapped",
+      "target_category_id": "L09-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L09-02-01",
+        "L09-02-02"
+      ],
+      "title_evidence": "产品UI设计师",
+      "level_3_evidence": "界面视觉设计",
+      "reason": "产品UI设计师核心职责为界面视觉设计，直接对应L09-02-01界面视觉设计。"
+    },
+    {
+      "occupation_id": "TG-068975fdd8324451959f",
+      "status": "mapped",
+      "target_category_id": "L14-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-09",
+        "L13-01",
+        "L12-06"
+      ],
+      "title_evidence": "技术推广工程师",
+      "level_3_evidence": null,
+      "reason": "技术推广工程师通常负责售前技术方案、演示与客户技术推广，归入L14-09售前技术与解决方案。"
+    },
+    {
+      "occupation_id": "TG-caddb03c7f1d3cfa8e2f",
+      "status": "mapped",
+      "target_category_id": "L06-03-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-03-02",
+        "L06-03-01"
+      ],
+      "title_evidence": "汽车结构工程师",
+      "level_3_evidence": "底盘与车辆工程",
+      "reason": "汽车结构工程师属于车辆专业工程，直接对应L06-03-02底盘与车辆工程。"
+    },
+    {
+      "occupation_id": "TG-d56041ee101955d48d0c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L13-04"
+      ],
+      "title_evidence": "全球拓展管培生（校招）",
+      "level_3_evidence": null,
+      "reason": "全球拓展管培生可能为跨职能轮岗或商务拓展方向，但标题未明确具体职能，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-32534765fc748cee9ccd",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-10",
+        "L23-09-01",
+        "L23-09-02"
+      ],
+      "title_evidence": "服务工程师（机械）",
+      "level_3_evidence": null,
+      "reason": "服务工程师（机械）通常负责客户设备安装调试与售后技术服务，归入L14-10售后技术服务。"
+    },
+    {
+      "occupation_id": "TG-b5de457bd845f072ba04",
+      "status": "mapped",
+      "target_category_id": "L04-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-02",
+        "L04-04-01"
+      ],
+      "title_evidence": "自动光学检测工程师",
+      "level_3_evidence": null,
+      "reason": "自动光学检测工程师属于硬件与产品测试，归入L04-02硬件与产品测试。"
+    },
+    {
+      "occupation_id": "TG-4fd2554f8280cf19e32e",
+      "status": "mapped",
+      "target_category_id": "L26-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L26-08",
+        "L26-01",
+        "L26-02"
+      ],
+      "title_evidence": "林化技术员",
+      "level_3_evidence": null,
+      "reason": "林化技术员属于农林牧渔领域，但具体方向未明确，归入L26-08通用农林牧渔工作。"
+    },
+    {
+      "occupation_id": "TG-6364b590b5de680273d1",
+      "status": "mapped",
+      "target_category_id": "L19-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-08",
+        "L19-01",
+        "L19-02",
+        "L19-03"
+      ],
+      "title_evidence": "财务类实习生",
+      "level_3_evidence": null,
+      "reason": "财务类实习生属于财务职能，但具体方向未明确，归入L19-08通用财务工作。"
+    },
+    {
+      "occupation_id": "TG-e21a24616914676b12c6",
+      "status": "mapped",
+      "target_category_id": "L06-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-09",
+        "L06-08",
+        "L05-04"
+      ],
+      "title_evidence": "智能制造助理工程师",
+      "level_3_evidence": null,
+      "reason": "智能制造助理工程师属于工业技术研发，但具体方向未明确，归入L06-09通用工业技术研发。"
+    },
+    {
+      "occupation_id": "TG-cad5a2114d9edadd6f85",
+      "status": "mapped",
+      "target_category_id": "L03-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-08",
+        "L03-01",
+        "L03-02",
+        "L03-06"
+      ],
+      "title_evidence": "信息技术运维岗",
+      "level_3_evidence": null,
+      "reason": "信息技术运维岗属于IT运维支持，但具体方向未明确，归入L03-08通用信息技术运维。"
+    },
+    {
+      "occupation_id": "TG-72d4e5bbf2c037de0177",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L02-05-01",
+        "L01-08-01",
+        "L04-02"
+      ],
+      "title_evidence": "图像调试",
+      "level_3_evidence": null,
+      "reason": "图像调试可能涉及计算机视觉算法、图形渲染或硬件测试，具体方向不明确，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-03058aad54f747718de8",
+      "status": "mapped",
+      "target_category_id": "L06-05-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-05-02",
+        "L06-05-01",
+        "L06-06-01",
+        "L06-06-02"
+      ],
+      "title_evidence": "配方设计工程师",
+      "level_3_evidence": "配方与应用化学",
+      "reason": "配方设计工程师核心职责为化工配方设计，直接对应L06-05-02配方与应用化学。"
+    },
+    {
+      "occupation_id": "TG-56903fe0b608e5b7f495",
+      "status": "mapped",
+      "target_category_id": "L15-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L15-07",
+        "L05-05-03"
+      ],
+      "title_evidence": "音频工程师",
+      "level_3_evidence": null,
+      "reason": "音频工程师属于音频与音乐制作，归入L15-07音频与音乐制作。"
+    },
+    {
+      "occupation_id": "TG-49407ef638d07dc5a68a",
+      "status": "mapped",
+      "target_category_id": "L20-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-01-02",
+        "L20-01-01",
+        "L20-02-01"
+      ],
+      "title_evidence": "私募股权投资岗",
+      "level_3_evidence": "项目与股权投资研究",
+      "reason": "私募股权投资岗核心职责为项目股权投资研究，直接对应L20-01-02项目与股权投资研究。"
+    },
+    {
+      "occupation_id": "TG-2e7a03c18a9ab53e1387",
+      "status": "mapped",
+      "target_category_id": "L23-09-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L23-09-02",
+        "L23-09-01",
+        "L05-03"
+      ],
+      "title_evidence": "电气维护岗",
+      "level_3_evidence": "工业设备维修保全",
+      "reason": "电气维护岗核心职责为工业设备电气维修保全，直接对应L23-09-02工业设备维修保全。"
+    },
+    {
+      "occupation_id": "TG-2dfb57d72fd9c53e0822",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-03",
+        "L11-02",
+        "L11-07"
+      ],
+      "title_evidence": "综合改革岗",
+      "level_3_evidence": null,
+      "reason": "综合改革岗可能涉及经营分析、流程改善或战略规划，具体职能不明确，需进一步确认。"
+    }
+  ],
+  "raw_response_file": "000488.raw.json",
+  "usage": {
+    "input_tokens": 17390,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 878,
+    "output_tokens": 2764,
+    "reasoning_tokens": 0,
+    "total_tokens": 20154
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003679272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

@@ -1,0 +1,35 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-4fd1cfc724f2c0ee45d9",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "卓越领头人计划(兽医育种营养环保智能研发职能类) 储备干部计划(生鲜客户经理养殖生产储备干部兽医师肉食生产储备干部)",
+  "child_title": "卓越领头人计划(兽医育种营养环保智能研发职能类)",
+  "source_span": {
+    "text": "卓越领头人计划(兽医育种营养环保智能研发职能类)",
+    "start": 0,
+    "end": 25
+  },
+  "raw_decision": {
+    "original_record_id": "TG-4fd1cfc724f2c0ee45d9",
+    "case": "A",
+    "child_titles": [
+      "卓越领头人计划(兽医育种营养环保智能研发职能类)",
+      "储备干部计划(生鲜客户经理养殖生产储备干部兽医师肉食生产储备干部)"
+    ],
+    "source_spans": [
+      {
+        "text": "卓越领头人计划(兽医育种营养环保智能研发职能类)",
+        "start": 0,
+        "end": 25
+      },
+      {
+        "text": "储备干部计划(生鲜客户经理养殖生产储备干部兽医师肉食生产储备干部)",
+        "start": 26,
+        "end": 62
+      }
+    ],
+    "reason": "标题由两个独立计划名称以空格分隔，可拆分为两个子岗位。"
+  }
+}

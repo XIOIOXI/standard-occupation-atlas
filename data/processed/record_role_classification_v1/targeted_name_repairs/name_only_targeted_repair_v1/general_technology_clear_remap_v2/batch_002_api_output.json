@@ -1,0 +1,28 @@
+{
+  "id": "39ef27f3-33da-4123-8b41-6e62304ef157",
+  "object": "chat.completion",
+  "created": 1791828453,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"ABNORMAL:RRG-b0cea02045a1f93d999b\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，且“调试工程师”跨电气、自动化、计算机、软件，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-b15475facd212cf707f8\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，FAE应用工程师领域不明确，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-b19012a5e99f6eadb902\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业要求跨理工科多类，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-b27db71ebda64cdf3909\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-b784bed17f8a5091475e\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-b7e4e505e8d5139eb745\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，且为复合岗位，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-b7eddf81f0331c670336\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-b8ba4bfb45bca9c0a29a\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-bc25ddac0bf8fb5c482c\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-bcae5fb01408235f767d\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称截断且“销售工程师”为宽泛复合称谓，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-bda1083b79099a2a8046\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-bfbe483bd9c1121dac80\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-c08fa86af6299d5d5e71\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-c1af79dffbc9af0b0a27\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-d20965e14904e861130a\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称截断且“计划工程师”为宽泛称谓，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-d3aabff664519d500c0f\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称截断且“视觉工程师”为宽泛称谓，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-d48a6b56835a141d1a2e\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-d58723747aaf56b95dec\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称截断且“研发工程师”为宽泛称谓，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-de2790a464a3cda9b554\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"},{\"entry_id\":\"ABNORMAL:RRG-fc6aa7eb987c76be7f77\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含截断专业清单，专业范围跨多领域，无法唯一归类\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 27156,
+    "completion_tokens": 1058,
+    "total_tokens": 28214,
+    "prompt_tokens_details": {
+      "cached_tokens": 25088
+    },
+    "prompt_cache_hit_tokens": 25088,
+    "prompt_cache_miss_tokens": 2068
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

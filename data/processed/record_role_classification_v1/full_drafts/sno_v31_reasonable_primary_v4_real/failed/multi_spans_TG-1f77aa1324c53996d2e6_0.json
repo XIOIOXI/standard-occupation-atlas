@@ -1,0 +1,35 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-1f77aa1324c53996d2e6",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "AI导演/制作AI研发工程师",
+  "child_title": "AI导演",
+  "source_span": {
+    "text": "AI导演",
+    "start": 0,
+    "end": 5
+  },
+  "raw_decision": {
+    "original_record_id": "TG-1f77aa1324c53996d2e6",
+    "case": "A",
+    "child_titles": [
+      "AI导演",
+      "制作AI研发工程师"
+    ],
+    "source_spans": [
+      {
+        "text": "AI导演",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "制作AI研发工程师",
+        "start": 6,
+        "end": 15
+      }
+    ],
+    "reason": "标题由斜杠分隔的两个独立岗位组成，可拆分。"
+  }
+}

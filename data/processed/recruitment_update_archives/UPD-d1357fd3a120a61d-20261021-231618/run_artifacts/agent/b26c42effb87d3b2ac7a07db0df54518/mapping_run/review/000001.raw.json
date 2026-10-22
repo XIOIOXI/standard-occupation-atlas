@@ -1,0 +1,28 @@
+{
+  "id": "2f427da4-ee01-4a3c-9aaf-3e8cbf3182ca",
+  "object": "chat.completion",
+  "created": 1792571823,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-b26c42effb87d3b2ac7a07db0df54518\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L12-07\", \"issue\": \"“营销支持管培生”明确指向市场营销职能，归 L12-07 通用市场营销合理；管培生为培养标签，不改变职能归属。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17058,
+    "completion_tokens": 100,
+    "total_tokens": 17158,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 546
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

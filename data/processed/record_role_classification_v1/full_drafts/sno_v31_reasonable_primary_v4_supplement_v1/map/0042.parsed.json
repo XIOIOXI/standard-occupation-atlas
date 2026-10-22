@@ -1,0 +1,365 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-3eee1eec8efc97a0a78a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L11-04",
+        "L09-08",
+        "L06-09"
+      ],
+      "title_evidence": "顾问/设计/工程管培生",
+      "level_3_evidence": null,
+      "reason": "标题包含顾问、设计、工程多个方向且为管培生，无法确定唯一主要职能，候选为跨职能管培或咨询、设计、工业技术研发。"
+    },
+    {
+      "occupation_id": "TG-fca89f2ae4e1dd4bdc42",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01",
+        "L23-01"
+      ],
+      "title_evidence": "PE/IE 管培生",
+      "level_3_evidence": null,
+      "reason": "PE/IE 通常指产品工艺与工业工程，属于工艺与制造工程职能，管培生不改变专业职能归属。"
+    },
+    {
+      "occupation_id": "TG-3f2e70021f0e6b817874",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L05-07",
+        "L01-11"
+      ],
+      "title_evidence": "工程师/工程师",
+      "level_3_evidence": null,
+      "reason": "仅重复“工程师”，无专业领域或职能线索，无法确定具体工程方向。"
+    },
+    {
+      "occupation_id": "TG-e39988bad19db6956fb8",
+      "status": "mapped",
+      "target_category_id": "L20-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01",
+        "L11-06"
+      ],
+      "title_evidence": "管培生（投资运营方向）",
+      "level_3_evidence": null,
+      "reason": "投资运营方向明确指向投资交易与资产管理职能，管培生不替代专业职能。"
+    },
+    {
+      "occupation_id": "TG-d6b77242f32f9d984e52",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-08",
+        "L06-01",
+        "L10-02",
+        "L05-03",
+        "L02-05-01"
+      ],
+      "title_evidence": "工程师（方向：工业（IE）、产品工艺（PE）、制程（ME）、模具设计、项目管理、电气、机械、视觉）",
+      "level_3_evidence": null,
+      "reason": "标题列出工业工程、产品工艺、制程、模具设计、项目管理、电气、机械、视觉等多个明确方向，属于多角色岗位。"
+    },
+    {
+      "occupation_id": "TG-9778a41abcea7e803237",
+      "status": "mapped",
+      "target_category_id": "L24-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L10-06",
+        "L14-06"
+      ],
+      "title_evidence": "建设运营岗",
+      "level_3_evidence": null,
+      "reason": "建设运营通常指建设项目或地产资产运营，最直接归房地产开发与资产运营。"
+    },
+    {
+      "occupation_id": "TG-075ba0406080f8a1e83a",
+      "status": "mapped",
+      "target_category_id": "L20-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-02",
+        "L20-08"
+      ],
+      "title_evidence": "交易岗",
+      "level_3_evidence": "交易岗明确指向金融交易执行，符合金融交易三级范围。",
+      "reason": "交易岗通常指金融资产交易执行，直接归金融交易。"
+    },
+    {
+      "occupation_id": "TG-7d42b9640051a520d3ab",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L02-05-02",
+        "L02-05-01",
+        "L02-05"
+      ],
+      "title_evidence": "机器学习/数据检理自然语言处理工程计算机视觉算法研发工程师",
+      "level_3_evidence": null,
+      "reason": "标题同时包含自然语言处理、计算机视觉及机器学习算法研发，属于多个算法方向。"
+    },
+    {
+      "occupation_id": "TG-5b86e44475c7cf5630c7",
+      "status": "mapped",
+      "target_category_id": "L20-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-04",
+        "L20-11"
+      ],
+      "title_evidence": "线下同业岗",
+      "level_3_evidence": null,
+      "reason": "线下同业岗通常指金融机构同业业务操作，归金融运营与交易清算。"
+    },
+    {
+      "occupation_id": "TG-c7ee46c6e08d636d3f90",
+      "status": "mapped",
+      "target_category_id": "L20-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-02",
+        "L11-06"
+      ],
+      "title_evidence": "储备干部（投资运营方向）（社会政治类，计算机类，公共卫生类，数学与统计类，财务财会类，法律类，审计类，经济类，公共管理类）",
+      "level_3_evidence": null,
+      "reason": "投资运营方向明确指向投资交易与资产管理职能，储备干部不替代专业职能。"
+    },
+    {
+      "occupation_id": "TG-4ee034aea36ef0564ebe",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "管培生（食品 农学 机电 日语 化学 生物 市场营销 艺术设计等相关专业）",
+      "level_3_evidence": null,
+      "reason": "标题仅列出多个专业背景，未说明具体职能方向，无法确定主要职能。"
+    },
+    {
+      "occupation_id": "TG-96dcd07aede1daf01fb2",
+      "status": "mapped",
+      "target_category_id": "L14-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L12-06"
+      ],
+      "title_evidence": "技术营销工程师",
+      "level_3_evidence": null,
+      "reason": "技术营销工程师通常承担售前技术支持与方案职能，归售前技术与解决方案。"
+    },
+    {
+      "occupation_id": "TG-76d779e444e8b4ed8a6c",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01",
+        "L13-09"
+      ],
+      "title_evidence": "全球销售管培生（市场营销类、工商管理类、电子商务类、经济贸易类）",
+      "level_3_evidence": null,
+      "reason": "全球销售管培生明确为销售职能，未限定客户类型，归企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-5c8c42ccba2b6840571f",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-01",
+        "L24-04"
+      ],
+      "title_evidence": "机械&暖通工程师",
+      "level_3_evidence": null,
+      "reason": "标题同时包含机械与暖通两个专业方向，分属机械结构设计和建筑机电设备工程。"
+    },
+    {
+      "occupation_id": "TG-d5a7395505d3f7bd3f8a",
+      "status": "mapped",
+      "target_category_id": "L20-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-04",
+        "L24-06"
+      ],
+      "title_evidence": "评估工程师",
+      "level_3_evidence": null,
+      "reason": "评估工程师通常指资产评估，归资产评估与处置。"
+    },
+    {
+      "occupation_id": "TG-684b3c57bba5757bb3fb",
+      "status": "mapped",
+      "target_category_id": "L11-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-03",
+        "L12-01"
+      ],
+      "title_evidence": "人寿-上海分公司-企划岗（2026校招）",
+      "level_3_evidence": null,
+      "reason": "保险公司企划岗通常负责业务规划与经营策划，归战略与经营规划。"
+    },
+    {
+      "occupation_id": "TG-d77a6c031b730aede985",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-06",
+        "L13-04",
+        "L16-01"
+      ],
+      "title_evidence": "资源开发",
+      "level_3_evidence": null,
+      "reason": "资源开发含义宽泛，可能指产业资源拓展、商务合作或采购寻源，无法确定唯一职能。"
+    },
+    {
+      "occupation_id": "TG-168aa65fa72e95f0efca",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-09",
+        "L03-06"
+      ],
+      "title_evidence": "技术服务岗（一）",
+      "level_3_evidence": null,
+      "reason": "技术服务岗通常指客户售后技术支持与服务，归售后技术服务。"
+    },
+    {
+      "occupation_id": "TG-fea9fe564ee26132043f",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01",
+        "L14-07"
+      ],
+      "title_evidence": "售后管培生",
+      "level_3_evidence": null,
+      "reason": "售后管培生明确为售后技术服务方向，管培生不替代专业职能。"
+    },
+    {
+      "occupation_id": "TG-5e283ebdb7e42e532e97",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-07",
+        "L01-06"
+      ],
+      "title_evidence": "EC 工程师",
+      "level_3_evidence": null,
+      "reason": "EC 工程师通常指电子电路工程师，归电子硬件研发。"
+    },
+    {
+      "occupation_id": "TG-44d3de583e69db52f412",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "博士培训生",
+      "level_3_evidence": null,
+      "reason": "仅说明博士培训生，未提供具体职能或专业方向，无法确定归属。"
+    },
+    {
+      "occupation_id": "TG-4b445d433bd1d2e453e5",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L11-07"
+      ],
+      "title_evidence": "综合职能岗",
+      "level_3_evidence": null,
+      "reason": "综合职能岗未说明具体职能方向，无法确定唯一归属。"
+    },
+    {
+      "occupation_id": "TG-8362020871e0def6f568",
+      "status": "mapped",
+      "target_category_id": "L05-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-01",
+        "L06-09"
+      ],
+      "title_evidence": "阵列设计岗",
+      "level_3_evidence": null,
+      "reason": "阵列设计通常指芯片或显示面板阵列设计，归芯片与集成电路设计。"
+    },
+    {
+      "occupation_id": "TG-a395bcba7e82b131ce8e",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08",
+        "L14-06"
+      ],
+      "title_evidence": "制造运营",
+      "level_3_evidence": null,
+      "reason": "制造运营通常负责工厂生产计划与现场管理，归生产计划与现场管理。"
+    },
+    {
+      "occupation_id": "TG-b861507e902973427477",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L08-01",
+        "L09-08",
+        "L15-12",
+        "L04-06"
+      ],
+      "title_evidence": "技术产品艺术发行质量等岗位",
+      "level_3_evidence": null,
+      "reason": "标题列出技术产品、艺术、发行、质量等多个不同职能方向，属于多角色岗位。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17724,
+    "cached_input_tokens": 17536,
+    "uncached_input_tokens": 188,
+    "output_tokens": 3178,
+    "reasoning_tokens": 0,
+    "total_tokens": 20902
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001987608
+  },
+  "response_metadata": {
+    "request_id": "35bbc496-1e8b-4e05-8e7d-06517f54de49",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791895092,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

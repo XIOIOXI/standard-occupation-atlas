@@ -1,0 +1,152 @@
+{
+  "raw": {
+    "id": "1d786d2f-08a4-465b-a2f2-5f04a44f323f",
+    "object": "chat.completion",
+    "created": 1791838769,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"SNO-1f4e1a0096860e1fc21d\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L02-05\",\"issue\":\"算法优化工程师方向未细分，停在L02-05二级合理。\"},{\"occupation_id\":\"SNO-ad75b05b0c4e14fde23d\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"空港物流仅表明领域，无法确定调度、仓储、配送等具体作业方向，保持review合理。\"},{\"occupation_id\":\"SNO-b65e1b6f9bd49e8b8a44\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-02\",\"issue\":\"营业网点营销服务属个人客户销售，映射L13-02合理。\"},{\"occupation_id\":\"SNO-7abcd404c614c408f9af\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L24-07\",\"issue\":\"土建质量员属施工组织与工程管理现场质量岗位，L24-07合理。\"},{\"occupation_id\":\"SNO-dc102a15d3ada0126162\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L24-04\",\"issue\":\"算力设施暖通工程师属建筑机电与设备工程，L24-04合理。\"},{\"occupation_id\":\"SNO-f6c5e273afe72ac33c47\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L22-02\",\"issue\":\"高复全科教师未明确学科，停在L22-02二级合理，不应选综合通识三级。\"},{\"occupation_id\":\"SNO-312342748278bb43b524\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-01-02\",\"issue\":\"开关柜结构设计明确为产品结构设计，三级合理。\"},{\"occupation_id\":\"SNO-bbc6f9d1b0d139523695\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L02-05-07\",\"issue\":\"VLA方向涉及视觉-语言-动作多模态融合，L02-05-07合理。\"},{\"occupation_id\":\"SNO-9274d63948e8c7c66253\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-05-01\",\"issue\":\"有机合成高级研究员属化学合成与反应开发，三级合理。\"},{\"occupation_id\":\"SNO-93ffb87ac5a6a3ae38fd\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L02-05\",\"issue\":\"算法工程师未明确方向，停在L02-05二级合理。\"},{\"occupation_id\":\"SNO-8f6f32893e82aa928050\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L08-01\",\"issue\":\"AI方向产品经理属数字与软件产品管理，未明确产品类型停在二级合理。\"},{\"occupation_id\":\"SNO-f0947d368b70d02363bd\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L19-01\",\"issue\":\"财会实习生核心为会计核算，映射L19-01二级合理。\"},{\"occupation_id\":\"SNO-18d0e05d910ecfaf252c\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"运营班操作可能为生产现场操作，但工种未明确，保持review合理。\"},{\"occupation_id\":\"SNO-3b283eed98a79c466ec4\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-01\",\"issue\":\"游戏运营属产品与平台运营，L14-01合理。\"},{\"occupation_id\":\"SNO-63163982cb6463468861\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L12-07\",\"issue\":\"市场营销支持方向未说明，L12-07通用市场营销合理。\"},{\"occupation_id\":\"SNO-b2ac28211b24b1a7f7fd\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L29-07-02\",\"issue\":\"客车运维操作技能属车辆维修与养护，三级合理。\"},{\"occupation_id\":\"SNO-8d2d2381e456e923ce46\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"智能建造可能涉及施工管理、施工技术或软件研发，无法确定唯一方向，保持review合理。\"},{\"occupation_id\":\"SNO-5c7433887a97a533145f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L08-01\",\"issue\":\"测评产品经理属数字与软件产品管理，未明确产品类型停在二级合理。\"},{\"occupation_id\":\"SNO-169c5690d158a4e4e0cb\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-02\",\"issue\":\"流体力学仿真工程师属热流体与动力工程，L06-02合理。\"},{\"occupation_id\":\"SNO-74e8841c43022c18448b\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L26-01\",\"issue\":\"农艺师属农业与种植技术，L26-01合理。\"}]}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19445,
+      "completion_tokens": 1149,
+      "total_tokens": 20594,
+      "prompt_tokens_details": {
+        "cached_tokens": 16512
+      },
+      "prompt_cache_hit_tokens": 16512,
+      "prompt_cache_miss_tokens": 2933
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-1f4e1a0096860e1fc21d",
+      "verdict": "pass",
+      "suggested_target_category_id": "L02-05",
+      "issue": "算法优化工程师方向未细分，停在L02-05二级合理。"
+    },
+    {
+      "occupation_id": "SNO-ad75b05b0c4e14fde23d",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "空港物流仅表明领域，无法确定调度、仓储、配送等具体作业方向，保持review合理。"
+    },
+    {
+      "occupation_id": "SNO-b65e1b6f9bd49e8b8a44",
+      "verdict": "pass",
+      "suggested_target_category_id": "L13-02",
+      "issue": "营业网点营销服务属个人客户销售，映射L13-02合理。"
+    },
+    {
+      "occupation_id": "SNO-7abcd404c614c408f9af",
+      "verdict": "pass",
+      "suggested_target_category_id": "L24-07",
+      "issue": "土建质量员属施工组织与工程管理现场质量岗位，L24-07合理。"
+    },
+    {
+      "occupation_id": "SNO-dc102a15d3ada0126162",
+      "verdict": "pass",
+      "suggested_target_category_id": "L24-04",
+      "issue": "算力设施暖通工程师属建筑机电与设备工程，L24-04合理。"
+    },
+    {
+      "occupation_id": "SNO-f6c5e273afe72ac33c47",
+      "verdict": "pass",
+      "suggested_target_category_id": "L22-02",
+      "issue": "高复全科教师未明确学科，停在L22-02二级合理，不应选综合通识三级。"
+    },
+    {
+      "occupation_id": "SNO-312342748278bb43b524",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-01-02",
+      "issue": "开关柜结构设计明确为产品结构设计，三级合理。"
+    },
+    {
+      "occupation_id": "SNO-bbc6f9d1b0d139523695",
+      "verdict": "pass",
+      "suggested_target_category_id": "L02-05-07",
+      "issue": "VLA方向涉及视觉-语言-动作多模态融合，L02-05-07合理。"
+    },
+    {
+      "occupation_id": "SNO-9274d63948e8c7c66253",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-05-01",
+      "issue": "有机合成高级研究员属化学合成与反应开发，三级合理。"
+    },
+    {
+      "occupation_id": "SNO-93ffb87ac5a6a3ae38fd",
+      "verdict": "pass",
+      "suggested_target_category_id": "L02-05",
+      "issue": "算法工程师未明确方向，停在L02-05二级合理。"
+    },
+    {
+      "occupation_id": "SNO-8f6f32893e82aa928050",
+      "verdict": "pass",
+      "suggested_target_category_id": "L08-01",
+      "issue": "AI方向产品经理属数字与软件产品管理，未明确产品类型停在二级合理。"
+    },
+    {
+      "occupation_id": "SNO-f0947d368b70d02363bd",
+      "verdict": "pass",
+      "suggested_target_category_id": "L19-01",
+      "issue": "财会实习生核心为会计核算，映射L19-01二级合理。"
+    },
+    {
+      "occupation_id": "SNO-18d0e05d910ecfaf252c",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "运营班操作可能为生产现场操作，但工种未明确，保持review合理。"
+    },
+    {
+      "occupation_id": "SNO-3b283eed98a79c466ec4",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-01",
+      "issue": "游戏运营属产品与平台运营，L14-01合理。"
+    },
+    {
+      "occupation_id": "SNO-63163982cb6463468861",
+      "verdict": "pass",
+      "suggested_target_category_id": "L12-07",
+      "issue": "市场营销支持方向未说明，L12-07通用市场营销合理。"
+    },
+    {
+      "occupation_id": "SNO-b2ac28211b24b1a7f7fd",
+      "verdict": "pass",
+      "suggested_target_category_id": "L29-07-02",
+      "issue": "客车运维操作技能属车辆维修与养护，三级合理。"
+    },
+    {
+      "occupation_id": "SNO-8d2d2381e456e923ce46",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "智能建造可能涉及施工管理、施工技术或软件研发，无法确定唯一方向，保持review合理。"
+    },
+    {
+      "occupation_id": "SNO-5c7433887a97a533145f",
+      "verdict": "pass",
+      "suggested_target_category_id": "L08-01",
+      "issue": "测评产品经理属数字与软件产品管理，未明确产品类型停在二级合理。"
+    },
+    {
+      "occupation_id": "SNO-169c5690d158a4e4e0cb",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-02",
+      "issue": "流体力学仿真工程师属热流体与动力工程，L06-02合理。"
+    },
+    {
+      "occupation_id": "SNO-74e8841c43022c18448b",
+      "verdict": "pass",
+      "suggested_target_category_id": "L26-01",
+      "issue": "农艺师属农业与种植技术，L26-01合理。"
+    }
+  ]
+}

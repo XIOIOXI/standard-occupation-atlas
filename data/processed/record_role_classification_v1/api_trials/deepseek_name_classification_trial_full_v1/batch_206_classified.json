@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 206,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "65745732-23ab-466a-9434-a88e3106fe61",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751587,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24927,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1631,
+    "output_tokens": 3460,
+    "reasoning_tokens": 0,
+    "total_tokens": 28387
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002390538
+  },
+  "observed_at_utc": "2026-10-11T20:46:27.504771+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-b62485f1eac59123baf5",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法设计属于算法工程师的通用算法研究方向。"
+    },
+    {
+      "occupation_id": "SNO-f6b3e938eedcddbba873",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "市场销售核心为销售客户开发。"
+    },
+    {
+      "occupation_id": "SNO-0da352fd3ce71cfa29cb",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "售前技术支持对应售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-ee5b2f918f5d06395998",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "集控运行属于电气控制与自动化运行。"
+    },
+    {
+      "occupation_id": "SNO-1fc774f14942078f4839",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "干部管理属于人力资源员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-de0fd9e5a5de46401230",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "化工研发工程师对应化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-836ab4557285ede89205",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件助理工程师属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-7eb3ba8a2f6945c06c84",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "智算开发工程师对应机器学习平台与工程。"
+    },
+    {
+      "occupation_id": "SNO-398d3373dca218f4934a",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "智算工程师对应机器学习平台与工程。"
+    },
+    {
+      "occupation_id": "SNO-1175ec13252066a8dafe",
+      "target_category_id": "设计/design-visual-interaction/design-interaction",
+      "status": "mapped",
+      "reason": "交互设计对应交互与体验设计。"
+    },
+    {
+      "occupation_id": "SNO-2eb3ddc4dbe07c96251a",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "CAD应用工程师属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-eb50446d3b76f167f7c4",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "AIInfra研究员对应机器学习平台与工程。"
+    },
+    {
+      "occupation_id": "SNO-fd0ead2b0b109ebdad61",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "钻探属于地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-90721ab2aefb36f46c38",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "机电管理对应自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-c0aa1db181f54e3136bf",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "工艺设计师属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-90acdb06af428459d96c",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "mapped",
+      "reason": "内控审计对应内部控制与内审。"
+    },
+    {
+      "occupation_id": "SNO-b33188006e309daa2250",
+      "target_category_id": "销售/sales-business/sales-admin-order",
+      "status": "mapped",
+      "reason": "招投标属于订单与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-9f74d881475ccd58e704",
+      "target_category_id": "金融/financial-internet/fintech-product",
+      "status": "mapped",
+      "reason": "电商互金助理对应金融科技产品与运营。"
+    },
+    {
+      "occupation_id": "SNO-adc4c7f304a90f7642d4",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "智能体研发属于大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-2b6cc5c27ca0d483491a",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "智能体研发工程师属于大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-21919cd6395e444f1a80",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "信息管理员对应技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-c678a36c5c8836bdb335",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "装备研发工程师属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-0d9678eaf9c2fe72aa92",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "装备开发工程师属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-e32b6b590a5d6b787376",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "装备工程师属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-2996c1f0e9f0868654af",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "工艺助理工程师属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-e5c3e921bbe290e923a9",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "总体设计属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-eb8bb03c922871b310a8",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "视觉设计对应品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-28e47e8fbdd606c3382a",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-channel",
+      "status": "mapped",
+      "reason": "市场拓展专员对应渠道与营销活动。"
+    },
+    {
+      "occupation_id": "SNO-ad6583aa873caa0c2624",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "选矿技术员属于地质勘查与测绘相关。"
+    },
+    {
+      "occupation_id": "SNO-9159a6ed4fd9ff021a88",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI大模型算法工程师属于大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-d6dd1c6d65f95ea55f3c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "特别研究助理职责不明确，缺少具体研究领域信息。"
+    },
+    {
+      "occupation_id": "SNO-12e92092dd193b189848",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "status": "mapped",
+      "reason": "工业设计工程师对应工业产品设计。"
+    },
+    {
+      "occupation_id": "SNO-490086389583d61df91f",
+      "target_category_id": "互联网/AI/internet-security/security-network",
+      "status": "mapped",
+      "reason": "网信安全工程师对应网络与基础设施安全。"
+    },
+    {
+      "occupation_id": "SNO-771439ae460cb7636c4d",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "高级增材制造工程师属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-c3f8c9557bd7683afe1a",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "增材制造工程师属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-63d7c41cd5f4e41137d4",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "精益工程师对应生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-cdf6b8f3929e59872c29",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "AI研究员对应算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-9ed285a6831d547e8a7d",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "工艺储备工程师属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-52a784c84d5cf0423d91",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "物控计划专员对应供应链计划与采购协同。"
+    },
+    {
+      "occupation_id": "SNO-d44a4452bd8d8f9394a9",
+      "target_category_id": "运营/客服/ops-domestic-ecommerce/domestic-ecom-platform",
+      "status": "mapped",
+      "reason": "京东运营对应平台店铺运营。"
+    },
+    {
+      "occupation_id": "SNO-9cd622c09a6463320c21",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中物理教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-dccab446a103dd174cfd",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "计算生物学研究员对应生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-e191231ef91b4f7fd679",
+      "target_category_id": "金融/financial-risk/finance-control-risk",
+      "status": "mapped",
+      "reason": "风险管理对应金融风险与合规管理。"
+    },
+    {
+      "occupation_id": "SNO-e1b75487f88ea975ee45",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "大数据研发工程师对应数据工程与数仓。"
+    },
+    {
+      "occupation_id": "SNO-5d0225a149c05bacdd6a",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "大数据工程师对应数据工程与数仓。"
+    },
+    {
+      "occupation_id": "SNO-e64ca138572508264b1b",
+      "target_category_id": "生活服务/零售/service-repair/repair-industrial",
+      "status": "mapped",
+      "reason": "售后维修工程师对应设备与机电维修。"
+    },
+    {
+      "occupation_id": "SNO-4a84470ce93245aadc7c",
+      "target_category_id": "产品/product-game/game-planning",
+      "status": "mapped",
+      "reason": "系统策划对应游戏系统与玩法策划。"
+    },
+    {
+      "occupation_id": "SNO-e40d4d71a9538034ad2c",
+      "target_category_id": "互联网/AI/internet-security/security-network",
+      "status": "mapped",
+      "reason": "网络信息安全工程师对应网络与基础设施安全。"
+    },
+    {
+      "occupation_id": "SNO-114a497f112ce5ceb508",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "运营管理部职员对应业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-56712c1e5bfa02349611",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机械开发属于机械结构与产品设计。"
+    }
+  ]
+}

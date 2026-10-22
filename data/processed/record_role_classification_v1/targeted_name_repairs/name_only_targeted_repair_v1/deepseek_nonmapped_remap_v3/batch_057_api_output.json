@@ -1,0 +1,28 @@
+{
+  "id": "c0048561-79a0-48a2-ada4-763c52e5e959",
+  "object": "chat.completion",
+  "created": 1791821979,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-c2608f4a5a93d74b32a6\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"纪检监察属党政监督职能，冻结目录无对应一级或二级类别，无法承接。\"},{\"entry_id\":\"SNO-c26d305abaca8dfba0c2\",\"status\":\"review\",\"target_category_id\":\"医疗健康/health-editor/medical-editing-scientific\",\"reason\":\"医学专员名称仅能确认与医学相关，可能对应医学内容编辑，但不足以确证三级，保留二级医疗健康/医药编辑更稳妥。\"},{\"entry_id\":\"SNO-c2ff315d4fc178bdc432\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"核心技能为笼统描述，非具体职业名称，无法确认任何类别。\"},{\"entry_id\":\"SNO-c3641f8544d7c02f3580\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为无意义符号“@”，无法识别职业内容。\"},{\"entry_id\":\"SNO-c3939643b4d6c66f6100\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"软件开发技术仅能确认属软件开发方向，无法确证具体语言或领域，归入后端业务服务端开发为最接近三级。\"},{\"entry_id\":\"SNO-c393fede0bb63906f7fb\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"专员名称过于宽泛，缺少职能或行业信息，无法确定类别。\"},{\"entry_id\":\"SNO-c3961fabf970cac4cb16\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出销售与产品两个互不兼容的独立职业，无共同可确认上级。\"},{\"entry_id\":\"SNO-c3973ec16d77da52eaf1\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出生产与质量两个独立职业方向，无共同可确认上级。\"},{\"entry_id\":\"SNO-c3c9b98591d9e2524c2c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"综合管理职责宽泛，缺少具体职能信息，无法确定类别。\"},{\"entry_id\":\"SNO-c3f4f4e38920f803df52\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"GIS软件开发工程师仅能确认属软件开发，无法确证具体领域，归入后端业务服务端开发为最接近三级。\"},{\"entry_id\":\"SNO-c4ab06ae9ae56e52df73\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"智数管培生方向不明确，且管培生非职业，缺少具体职能信息。\"},{\"entry_id\":\"SNO-c4b3a01fbe6a2bcb9a86\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出前端与后端两个独立开发岗位，无共同可确认三级上级。\"},{\"entry_id\":\"SNO-c4b8d693ccc1ad45699a\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出项目管理、运营、客户、资产、人力、法务、财务等多个独立职业，无共同可确认上级。\"},{\"entry_id\":\"SNO-c4d0026e3781c5d078b6\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"史前考古研究职业清晰，但冻结目录无考古或研究对应类别。\"},{\"entry_id\":\"SNO-c532469ace63b98f5edb\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时列出国际货运与设备管理两个方向，属复合岗位，无共同可确认上级。\"},{\"entry_id\":\"SNO-c53c4eeb715e75bf80ec\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"IPI工程师含义不明确，缺少具体技术方向或职责信息。\"},{\"entry_id\":\"SNO-c5e310ecccec42373939\",\"status\":\"review\",\"target_category_id\":\"咨询/翻译/法律/consult-russian/ru-translation-interpreting\",\"reason\":\"俄语管培生核心为俄语方向，管培生非职业，仅能确认俄语翻译方向，归入口译与商务沟通。\"},{\"entry_id\":\"SNO-c602fd8fdfbcfbe75aa2\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出食品、机械、电气、农业、营养、生物、化学、畜牧、动物科学等多个独立专业方向，无共同可确认上级。\"},{\"entry_id\":\"SNO-c6168a6013e73f99afa4\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"仅写合规部，未说明具体合规领域，无法确定三级分类。\"},{\"entry_id\":\"SNO-c676526b4eafb663efeb\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"部经理缺少行业与职能信息，无法判断具体管理领域。\"},{\"entry_id\":\"SNO-c688bccc5e72cc605358\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"职能储备为通用储备岗位，缺少具体职能方向，无法确定类别。\"},{\"entry_id\":\"SNO-c698342bf3d9b98862d1\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"专卖稽查员行业与专卖品类不明，缺少信息，无法确定类别。\"},{\"entry_id\":\"SNO-c6bafb90d5514cbc0966\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"数字化解决方案管培生方向不明确，且管培生非职业，缺少具体领域信息。\"},{\"entry_id\":\"SNO-c6eee52ad97dba74d795\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"驻场实证员缺少行业与具体职责信息，无法确定类别。\"},{\"entry_id\":\"SNO-c73adce8e2dcb3d4f115\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出跨境电商运营、产品设计、供应链管理、产品经理等多个独立职业，无共同可确认上级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29492,
+    "completion_tokens": 1353,
+    "total_tokens": 30845,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2100
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

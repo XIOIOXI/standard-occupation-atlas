@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 40,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "6b220729-d5c7-40ee-806d-435034e903a7",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750826,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25014,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1718,
+    "output_tokens": 3883,
+    "reasoning_tokens": 0,
+    "total_tokens": 28897
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002657388
+  },
+  "observed_at_utc": "2026-10-11T20:33:46.463046+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-2ce8813b2951bcfa826a",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源储备属于人力资源方向，储备生通常从人力运营与员工关系等基础模块轮岗，归入员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-d212894a3480e7afba20",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "游戏测试开发核心是测试开发，名称未限定性能或安全，归入功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-52687968f4814d17989b",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出煤矿采掘、地质、水文、通风防尘、新能源巡检等多个独立岗位，不能由同一三级目录承接。"
+    },
+    {
+      "occupation_id": "SNO-c73adce8e2dcb3d4f115",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出跨境电商运营、产品设计、供应链管理、产品经理等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-09b70120c117f7063fcc",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "办事处业务通常承担区域客户开发与业务拓展，归入客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-0cb1a97cb064715f3be7",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "基础软件开发工程师未限定语言或方向，按通用软件开发归入业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-86eb9c557f3f4a9ec361",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "城区办事处业务通常承担区域客户开发与业务拓展，归入客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-5821d046d4cc05cffddb",
+      "target_category_id": "销售/sales-finance/financial-sales-insurance",
+      "status": "mapped",
+      "reason": "农险业务属于保险销售方向，归入保险与信贷销售。"
+    },
+    {
+      "occupation_id": "SNO-a9879979224acefa4023",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "信息化工程师通常负责企业信息化系统与基础设施运维，归入基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-fd23b67f11b2370f93ba",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出人力、行政、市场三个独立职能方向，不能由同一三级目录承接。"
+    },
+    {
+      "occupation_id": "SNO-5b2ea10c485dfabe8629",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-analysis",
+      "status": "mapped",
+      "reason": "固定相研发工程师通常涉及色谱固定相材料研发与分析，归入化学分析与质量控制。"
+    },
+    {
+      "occupation_id": "SNO-4060b274415170aaa2ec",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "系统软件助理工程师未限定语言或平台，按通用系统软件开发归入业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-d80f6217514c4e2962d8",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "设备工程师通常负责生产设备维护、安装与调试，归入设备维修与安装。"
+    },
+    {
+      "occupation_id": "SNO-45306287c3fa24d1a68c",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌入式软件开发（固件开发）明确属于嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-932c9343c9fb1ea1d12e",
+      "target_category_id": "教育培训/edu-arts/arts-training-visual",
+      "status": "mapped",
+      "reason": "设计培训师属于设计类技能培训，归入美术与创意培训。"
+    },
+    {
+      "occupation_id": "SNO-eed4361177cc3bfeebe0",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "计划与物流培训生核心在供应链计划与物流协同，归入供应链计划与采购协同。"
+    },
+    {
+      "occupation_id": "SNO-bc436ad6d2d9b9516170",
+      "target_category_id": "咨询/翻译/法律/consult-psychology/counselling-psychology",
+      "status": "mapped",
+      "reason": "心理咨询老师核心是心理咨询与干预，归入心理咨询与干预。"
+    },
+    {
+      "occupation_id": "SNO-3b15fa5b2ac08ae5e71e",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "结构岗位通常指结构设计，归入机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-50245cec84578aa34003",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "光学工程师在研发管培方向，通常涉及光学硬件设计与电路集成，归入电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-c9b444fe6e5092ac4733",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件工程师通常负责电路与硬件设计，归入电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-a6b13696309afa3de73f",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "综合文秘核心是文档与行政事务处理，归入文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-9d68dbcbb5b1f91f8c6d",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "过程质量管理助理工程师核心是过程质量控制，归入质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-e286f4ca46584b0a3c86",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-freight",
+      "status": "mapped",
+      "reason": "船燃加注属于船舶燃料供应与物流操作，归入货运与物流操作。"
+    },
+    {
+      "occupation_id": "SNO-a51fbdf9a0ebdfc497e4",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "运维开发核心是运维平台与基础设施开发，归入基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-f078492902275dd3cfc4",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "IE（工业工程）核心是生产运营与精益改善，归入生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-8cfd6a2ccf7150ecfc14",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "巡检岗位通常负责生产现场安全巡查，归入安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-3c3c5d77cd3c1989883c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "研发专员未限定技术方向或行业，无法判断具体研发类别，需补充专业领域。"
+    },
+    {
+      "occupation_id": "SNO-bf4fcf0100331720a2f3",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-web",
+      "status": "mapped",
+      "reason": "试玩广告开发通常涉及互动广告前端开发，归入Web与前端开发。"
+    },
+    {
+      "occupation_id": "SNO-6c9af53f99b5b08fed1b",
+      "target_category_id": "医疗健康/health-sales/medical-sales-device",
+      "status": "mapped",
+      "reason": "医疗科技销售培训生属于医疗器械销售方向，归入医疗器械销售。"
+    },
+    {
+      "occupation_id": "SNO-7f9b42ac57cfd13c148e",
+      "target_category_id": "医疗健康/health-device/medical-device-service",
+      "status": "mapped",
+      "reason": "临床应用岗位通常负责医疗器械临床应用支持与售后，归入器械应用与售后服务。"
+    },
+    {
+      "occupation_id": "SNO-542d4451f31cab8ef9a7",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "文学素养教师属于基础教育阶段学科教学，归入基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-e89e1b88433e21bedf5a",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "专利情报工程师核心是专利信息调研与分析，归入市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-897011f3115fff927919",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "研发支持未限定技术方向或行业，无法判断具体支持类别，需补充专业领域。"
+    },
+    {
+      "occupation_id": "SNO-47e6e4511e3ee062d465",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "工程管培生通常面向施工现场管理方向培养，归入施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-abe69bf3766e690c3337",
+      "target_category_id": "销售/sales-management/sales-management-strategy",
+      "status": "mapped",
+      "reason": "业务管理方向定向培养生核心是业务与销售管理培养，归入销售策略与渠道管理。"
+    },
+    {
+      "occupation_id": "SNO-7740d65109a5b8b3f5e6",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "土建设计师属于建筑结构设计，归入建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-e8b9dba142606f5b8cd2",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "战略机构销售（养老金）属于金融财富与机构销售，归入财富与理财销售。"
+    },
+    {
+      "occupation_id": "SNO-074115bc8b1c94d4d818",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "高级技术规划工程师核心是技术研发规划与项目管理，归入研发项目管理。"
+    },
+    {
+      "occupation_id": "SNO-250877fd730727bdc942",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "制前设计工程师通常负责产品制造前的结构设计，归入机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-d6f84796fe2733ebe443",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "钻探项目管理员属于地质勘查项目管理，归入地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-99a41c0971bb4eec2b92",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "施工工程师核心是施工现场管理，归入施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-93730a135033dc49f2fa",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出研发、工艺、应用、营销等多个独立方向，不能由同一三级目录承接。"
+    },
+    {
+      "occupation_id": "SNO-a91b18ea9974a4124dcd",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "工艺研发岗（光气）属于化工工艺研发，归入化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-f0d4aef37964b5f1ab5d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "自动驾驶VLA算法研究员明确属于自动驾驶算法方向，归入自动驾驶与智能交通。"
+    },
+    {
+      "occupation_id": "SNO-ad65f4e954bebb31aaaf",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "BOM工程师方向通常负责产品结构与物料清单设计，归入机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-f03b55371175f93919c0",
+      "target_category_id": "运营/客服/ops-content/content-community",
+      "status": "mapped",
+      "reason": "海外生态内容运营核心是社区与用户内容运营，归入社区与用户内容运营。"
+    },
+    {
+      "occupation_id": "SNO-db178dca0fbfa03c392c",
+      "target_category_id": "运营/客服/ops-business/business-ops-growth",
+      "status": "mapped",
+      "reason": "集采事业部市场运营核心是业务增长与策略运营，归入业务增长与策略运营。"
+    },
+    {
+      "occupation_id": "SNO-57052c0fff49c00a49a5",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "仿真工程师通常负责机械结构仿真分析，归入机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-e4f2c5866c77c4803f01",
+      "target_category_id": "房地产/建筑/estate-landscape/landscape-design",
+      "status": "mapped",
+      "reason": "管培生（景观设计）明确属于景观设计方向，归入景观方案与植物设计。"
+    },
+    {
+      "occupation_id": "SNO-dc118b908dac92f026fa",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "省市分行本部业务管理属于银行零售与综合业务管理，归入零售与综合银行。"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-5cc33ec7a0c42635f829993cd58a255e",
+      "verdict": "pass",
+      "suggested_target_category_id": "L19-05",
+      "issue": "审计岗位归L19-05合理；银行背景不改变审计职能归属，内部/外部方向未明停二级恰当。"
+    },
+    {
+      "occupation_id": "UP-04052dd3c9d7423c410b7a830364928c",
+      "verdict": "pass",
+      "suggested_target_category_id": "L15-02",
+      "issue": "理科编辑为出版编辑，理科为内容领域标签，归L15-02合理；三级方向未明停二级恰当。"
+    },
+    {
+      "occupation_id": "UP-f16a7b7014a9049ac30b479671b63948",
+      "verdict": "pass",
+      "suggested_target_category_id": "L15-02",
+      "issue": "文科编辑为出版编辑，文科为内容领域标签，归L15-02合理；三级方向未明停二级恰当。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17589,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 1077,
+    "output_tokens": 225,
+    "reasoning_tokens": 0,
+    "total_tokens": 17814
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000346086
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-8a51525d59e075934826\", \"title\": \"平台研发工程师（包括分析、人工智能、应用开发、工艺工程）\"}, {\"original_record_id\": \"TG-bedb21516ec84e9a0c9e\", \"title\": \"专员财务BPHRBPKA销售\"}, {\"original_record_id\": \"TG-8070f8b73d986c86736c\", \"title\": \"跨境电商运营 跨境电商推广国内电商运营产品经理电商设计 三维渲染\"}, {\"original_record_id\": \"TG-a312b4aa9deb64b3c675\", \"title\": \"供应链管培生（工艺、质量、关务、计划）\"}, {\"original_record_id\": \"TG-b25df70905a3999a58cb\", \"title\": \"新媒体内容策划制作与数据分析岗\"}, {\"original_record_id\": \"TG-0b8dd30ff5e9a0a43528\", \"title\": \"储备能源动力/电气/安全/环境/消防工程师\"}, {\"original_record_id\": \"TG-9c08bc65fbacd3e3b836\", \"title\": \"PMC/仓库/采购（供应链管理部）\"}, {\"original_record_id\": \"TG-4a29cbaf49d913348090\", \"title\": \"信息科技类岗（人工智能、数据科学、软件工程、金融科技、专业不限）\"}, {\"original_record_id\": \"TG-d72ce971c8cfead7370d\", \"title\": \"-前端/后端/数据/全栈/Web大模型算法科学家\"}, {\"original_record_id\": \"TG-ceaa350d8bf26f94eb15\", \"title\": \"机电工程师 信息技术类 新媒体电商类\"}, {\"original_record_id\": \"TG-12db6c63da0d3e2c565c\", \"title\": \"文案策划/AE助理签约经纪人商务IF插画师/IP动画师小红书视频编导(娱乐影视方向）\"}, {\"original_record_id\": \"TG-a13ae023ff48dbb5984a\", \"title\": \"C/c++开发嵌入式开发Web开发移动应用开发软件测试硬件开发营销管培生\"}, {\"original_record_id\": \"TG-f1c669478f4fb836e490\", \"title\": \"充电桩嵌入式软件/硬件开发工程师\"}, {\"original_record_id\": \"TG-91c2cf92882d5aa13f24\", \"title\": \"跨境电商运营海外渠道销售\"}, {\"original_record_id\": \"TG-6210223f25d20f2108bb\", \"title\": \"新媒体创意策划专员\\\\\\\\土木类\"}, {\"original_record_id\": \"TG-49ddb25479f89b267d01\", \"title\": \"管培生 销售类 研发类 市场类 职能类\"}, {\"original_record_id\": \"TG-ae314f0da3d77f81b258\", \"title\": \"管培生兼总经办助理\"}, {\"original_record_id\": \"TG-e0fd4f5ec414f321159d\", \"title\": \"产品研发......营销类：市场营销岗\"}, {\"original_record_id\": \"TG-80bf2051d34b991a220a\", \"title\": \"电气工程师\\\\\\\\化学工程与工艺\"}, {\"original_record_id\": \"TG-6291d1094ccc066b538a\", \"title\": \"硬件/软件/算法类国内/国际市场类供应链/技术支持/专业类博士后工作站岗位\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-8a51525d59e075934826",
+    "TG-bedb21516ec84e9a0c9e",
+    "TG-8070f8b73d986c86736c",
+    "TG-a312b4aa9deb64b3c675",
+    "TG-b25df70905a3999a58cb",
+    "TG-0b8dd30ff5e9a0a43528",
+    "TG-9c08bc65fbacd3e3b836",
+    "TG-4a29cbaf49d913348090",
+    "TG-d72ce971c8cfead7370d",
+    "TG-ceaa350d8bf26f94eb15",
+    "TG-12db6c63da0d3e2c565c",
+    "TG-a13ae023ff48dbb5984a",
+    "TG-f1c669478f4fb836e490",
+    "TG-91c2cf92882d5aa13f24",
+    "TG-6210223f25d20f2108bb",
+    "TG-49ddb25479f89b267d01",
+    "TG-ae314f0da3d77f81b258",
+    "TG-e0fd4f5ec414f321159d",
+    "TG-80bf2051d34b991a220a",
+    "TG-6291d1094ccc066b538a"
+  ]
+}

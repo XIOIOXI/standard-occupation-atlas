@@ -1,0 +1,339 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 12,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "e19ce614-a881-49f0-acb2-2561867cf8c6",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750236,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25055,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1759,
+    "output_tokens": 3497,
+    "reasoning_tokens": 0,
+    "total_tokens": 28552
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002431938
+  },
+  "observed_at_utc": "2026-10-11T20:23:56.798491+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-544bb2ece912541e201a",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "系留浮空器系统总体设计属于航空航天/特种装备总体设计，目录无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-63d4ac1a7bf2a43b20c3",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "固体火箭总体设计师属于航天/火箭总体设计，目录无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-d3b0d111dd5f29f1d960",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "后端研发工程师核心为业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-cf08515337be5641e04d",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "mapped",
+      "reason": "图形图像工程师通常涉及图形与高性能计算开发。"
+    },
+    {
+      "occupation_id": "SNO-39aabb717113de9cb612",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "换热设计工程师属于机械结构与产品设计方向。"
+    },
+    {
+      "occupation_id": "SNO-ae045142f3e5e3b3e739",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "车身域控电子工程师核心为嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-2ede729969d66b4170da",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "咨询业务对应管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-4378461ae54df7ce5632",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出开发、算法、产品、运营多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-90a36d51819e050cb3a9",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": "品牌宣传核心为品牌公关与传播。"
+    },
+    {
+      "occupation_id": "SNO-fdccec618e51d00ed878",
+      "target_category_id": "生活服务/零售/service-repair/repair-industrial",
+      "status": "mapped",
+      "reason": "消防设备设施检修与维护属于设备与机电维修。"
+    },
+    {
+      "occupation_id": "SNO-78a6f6c996aa9f283df6",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "数字IC设计工程师对应芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-a9bfd4236bf4ff74d6dc",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "status": "mapped",
+      "reason": "AI中台开发工程师核心为平台与中间件开发。"
+    },
+    {
+      "occupation_id": "SNO-56c4154fb4cd808f99c3",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电机研发及工艺涉及电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-46bdc8609d6d434df84e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "集团管培生未说明具体职能方向，无法确定唯一职业类别。"
+    },
+    {
+      "occupation_id": "SNO-bb655bb7674a9e1e7506",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "总行业务通常对应银行零售与综合银行业务。"
+    },
+    {
+      "occupation_id": "SNO-613a67b3007a276a6629",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "全球销售管培生核心为客户开发与直销，葡萄牙语为语言修饰。"
+    },
+    {
+      "occupation_id": "SNO-349d1c5325d70131bdac",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "status": "mapped",
+      "reason": "Linux/嵌入式工程师对应嵌入式与实时开发。"
+    },
+    {
+      "occupation_id": "SNO-f90252087b9d1b17472e",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "轧钢工艺工程师属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-013bd6757f2ae663af51",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "话剧研究所专业技术未说明具体岗位职责，无法确定职业类别。"
+    },
+    {
+      "occupation_id": "SNO-a435dfbaa2f562d2bca7",
+      "target_category_id": "运营/客服/ops-cross-border/cross-platform",
+      "status": "mapped",
+      "reason": "跨境电商运营对应跨境平台运营。"
+    },
+    {
+      "occupation_id": "SNO-7173c66fbb709f4be2bf",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "无源器件研发工程师核心为电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-c59166364b44d15e22ad",
+      "target_category_id": "咨询/翻译/法律/consult-russian/ru-translation-written",
+      "status": "mapped",
+      "reason": "俄语翻译可归入俄语笔译与本地化。"
+    },
+    {
+      "occupation_id": "SNO-030c13fab101624993c6",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "国际课程老师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-a816c889401ec716858e",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-transport",
+      "status": "mapped",
+      "reason": "物流规划工程师对应运输调度与线路运营。"
+    },
+    {
+      "occupation_id": "SNO-d4ee971189990779290d",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出酒店运营、行政、人力、财务多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-e13c0b87a10a336edc70",
+      "target_category_id": "医疗健康/health-sales/medical-sales-pharma",
+      "status": "mapped",
+      "reason": "制剂/原料药/益生菌销售专员属于医药与诊断销售。"
+    },
+    {
+      "occupation_id": "SNO-0ea0e4e82cf2e3014bb1",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "mapped",
+      "reason": "体系管培生（审计方向）对应内部控制与内审。"
+    },
+    {
+      "occupation_id": "SNO-6eafe7ce9ffce6530935",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": "医生（内科）属于临床诊疗。"
+    },
+    {
+      "occupation_id": "SNO-013a5d43a1e04cd1c860",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "营销管培生核心为客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-e9dab70364f7b3637d7f",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机械设计师对应机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-4d9602dd4c9f679d9375",
+      "target_category_id": "销售/sales-service/service-sales-enterprise",
+      "status": "mapped",
+      "reason": "工业销售工程师属于企业服务销售。"
+    },
+    {
+      "occupation_id": "SNO-55944a00199cea23ce7d",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "技术销售（客户经理）核心为客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-b803444dfff2e239eb67",
+      "target_category_id": "市场/公关/广告/marketing-analytics/business-analytics-operations",
+      "status": "mapped",
+      "reason": "商业分析师对应经营与商业分析。"
+    },
+    {
+      "occupation_id": "SNO-4d59fcb9487a72155c07",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投研助理对应股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-f18a7dcd2d00f52ef735",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "传播内容认知工程实验室助理研究员属于市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-28d81827c63dcd2eb94e",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "育种工程师对应农作物与农业技术。"
+    },
+    {
+      "occupation_id": "SNO-0349fa243aed472d8ae7",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法工程师（控制算法、仿真算法）属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-9a798bfc4fd940e546fd",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "基础研究员未说明研究领域，无法确定具体职业类别。"
+    },
+    {
+      "occupation_id": "SNO-e353d6b8d758871b8887",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "机电控制技术研发对应电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-f38cff8bdd0e2d9e342b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "系统工程师未说明系统领域，无法确定具体职业类别。"
+    },
+    {
+      "occupation_id": "SNO-e082180eeb3402d9c28c",
+      "target_category_id": "销售/sales-service/service-sales-enterprise",
+      "status": "mapped",
+      "reason": "环保营销工程师核心为企业服务销售。"
+    },
+    {
+      "occupation_id": "SNO-16da7ad4e6e5a96686bc",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "塔尖（双语）教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-dd6c2d8b13b60a504614",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出兽医、育种、营养、环保、智能研发、客户经理、养殖生产等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-853da10ef2c47a1c8ef9",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "品质管理工程师对应质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-22c3aa2daec946345a2a",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "应用软件工程师核心为业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-ae893c873abd6a25b259",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "商务业务岗核心为销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-848fcb5c02b99bfe65d6",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中小学教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-a1f45c2b1e267423fe9f",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分行运营管培生对应零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-881027c34587609b6458",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "mapped",
+      "reason": "GPU软件架构师核心为图形与高性能计算。"
+    },
+    {
+      "occupation_id": "SNO-6e063801856b35f0478c",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "产品解决方案工程师对应售前与解决方案支持。"
+    }
+  ]
+}

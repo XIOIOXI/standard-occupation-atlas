@@ -1,0 +1,21 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v1-full-draft",
+  "taxonomy_version": "sno-v3.1-local-revision",
+  "taxonomy_sha256": "90629daf20448950f94fe1d15804db35af11fe64e4b388140c377f6f45ceecc3",
+  "source_path": "C:\\Users\\25223\\Desktop\\AI-Curriculum-Intelligence-Agent\\data\\processed\\record_role_classification_v1\\record_roles.json",
+  "source_record_count": 20964,
+  "distinct_title_count": 11933,
+  "batch_size": 20,
+  "budget_usd": 20.0,
+  "estimated_cost_usd_from_new200_mapping_and_review": 1.88102516193,
+  "estimate_note": "linear extrapolation by distinct title using the new-200 mapping+review run; special-state calls/retries excluded and must fit configured budget",
+  "stages": [
+    "initial_mapping",
+    "validation_and_nullable_normalization",
+    "non_role_confirmation",
+    "multi_role_decision",
+    "child_mapping_for_case_A",
+    "optional_review",
+    "merge_and_statistics"
+  ]
+}

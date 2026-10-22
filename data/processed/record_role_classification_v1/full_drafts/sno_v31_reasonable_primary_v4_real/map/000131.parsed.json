@@ -1,0 +1,272 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-47b288ecc1820d23fa0f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L12-01",
+        "L13-09",
+        "L14-07"
+      ],
+      "title_evidence": "营销业务员咨询岗",
+      "level_3_evidence": null,
+      "reason": "标题同时包含营销、业务员、咨询，职能方向不明确，无法唯一确定归属。"
+    },
+    {
+      "occupation_id": "TG-e230c6a237724c71f1c4",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L03-08",
+        "L02-09"
+      ],
+      "title_evidence": "信息技术相关岗位",
+      "level_3_evidence": null,
+      "reason": "仅说明信息技术相关，未明确是研发、运维还是数据AI方向。"
+    },
+    {
+      "occupation_id": "TG-5ca4aa28689644df2456",
+      "status": "mapped",
+      "target_category_id": "L06-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-04"
+      ],
+      "title_evidence": "耗材研发工程师",
+      "level_3_evidence": null,
+      "reason": "耗材研发属于材料研发范畴，但未明确材料类型，归 L06-04。"
+    },
+    {
+      "occupation_id": "TG-1385e3130e8f5b2d2a54",
+      "status": "mapped",
+      "target_category_id": "L21-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L21-04"
+      ],
+      "title_evidence": "中药师岗",
+      "level_3_evidence": null,
+      "reason": "中药师属于药学与药事服务，归 L21-04。"
+    },
+    {
+      "occupation_id": "TG-ce1e027a6cfe5eb6fa39",
+      "status": "mapped",
+      "target_category_id": "L25-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-03"
+      ],
+      "title_evidence": "生产集输工程师",
+      "level_3_evidence": null,
+      "reason": "生产集输属于油气能源系统与工艺工程，归 L25-03。"
+    },
+    {
+      "occupation_id": "TG-04f04f4a5d2c1247cd69",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "英才岗",
+      "level_3_evidence": null,
+      "reason": "英才岗通常为培养项目，但未明确职能方向，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-bf495f6297043e406cfa",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "转正实习生",
+      "level_3_evidence": null,
+      "reason": "转正实习生为身份状态描述，非具体职业岗位。"
+    },
+    {
+      "occupation_id": "TG-8012c8354997ebc564e2",
+      "status": "mapped",
+      "target_category_id": "L23-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-05"
+      ],
+      "title_evidence": "提取技术员",
+      "level_3_evidence": null,
+      "reason": "提取技术员通常指化工或制药流程中的提取操作，归 L23-05。"
+    },
+    {
+      "occupation_id": "TG-265ae72b74b8b0bb61f5",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-01"
+      ],
+      "title_evidence": "自动驾驶算法工程师（感知 / 端到端）",
+      "level_3_evidence": "感知",
+      "reason": "自动驾驶感知算法属于计算机视觉，归 L02-05-01。"
+    },
+    {
+      "occupation_id": "TG-90562c8b49ec10e505b0",
+      "status": "mapped",
+      "target_category_id": "L05-05-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-05-02"
+      ],
+      "title_evidence": "光通信系统总体设计师",
+      "level_3_evidence": "光通信",
+      "reason": "光通信系统总体设计属于有线与光通信技术，归 L05-05-02。"
+    },
+    {
+      "occupation_id": "TG-c18a4e2f076759c70b44",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L20-11"
+      ],
+      "title_evidence": "金融类管培生",
+      "level_3_evidence": null,
+      "reason": "金融类管培生可能为跨职能轮岗，也可能最终定岗金融业务，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-259ad2d6be70d6bad94d",
+      "status": "mapped",
+      "target_category_id": "L06-03-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-03-02"
+      ],
+      "title_evidence": "造型可研工程师",
+      "level_3_evidence": "造型",
+      "reason": "汽车造型可研属于底盘与车辆工程中的车辆专业工程，归 L06-03-02。"
+    },
+    {
+      "occupation_id": "TG-50d86b4856f81cd780af",
+      "status": "mapped",
+      "target_category_id": "L02-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-01"
+      ],
+      "title_evidence": "商业分析实习生",
+      "level_3_evidence": null,
+      "reason": "商业分析属于数据分析，但未明确具体分析方向，归 L02-01。"
+    },
+    {
+      "occupation_id": "TG-7711f5c8356f4a9ee68f",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-10"
+      ],
+      "title_evidence": "海外FAE管培生-技术支持",
+      "level_3_evidence": null,
+      "reason": "FAE技术支持属于售后技术服务，归 L14-10。"
+    },
+    {
+      "occupation_id": "TG-1ed12a3bb475e0cbdb42",
+      "status": "mapped",
+      "target_category_id": "L01-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-05-01"
+      ],
+      "title_evidence": "QT系统软件工程师",
+      "level_3_evidence": "QT",
+      "reason": "QT常用于桌面客户端开发，归桌面业务应用 L01-05-01。"
+    },
+    {
+      "occupation_id": "TG-5385993720035bd3fd5a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-04-02",
+        "L12-01-02"
+      ],
+      "title_evidence": "项目包装策划咨询岗",
+      "level_3_evidence": null,
+      "reason": "项目包装策划咨询可能属于咨询或营销策划，方向不明确。"
+    },
+    {
+      "occupation_id": "TG-ca7b68b0d86a7caf6cd4",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-08-01"
+      ],
+      "title_evidence": "电子产品工艺工程师",
+      "level_3_evidence": "工艺",
+      "reason": "电子产品工艺工程师属于制造制程工程，归 L06-08-01。"
+    },
+    {
+      "occupation_id": "TG-a9819e23df3f69b6a9fd",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "职能管培生",
+      "level_3_evidence": null,
+      "reason": "职能管培生未明确具体职能方向，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-c682ced9b54750a0e11f",
+      "status": "mapped",
+      "target_category_id": "L06-05-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-05-02"
+      ],
+      "title_evidence": "配方开发工程师",
+      "level_3_evidence": "配方",
+      "reason": "配方开发属于配方与应用化学，归 L06-05-02。"
+    },
+    {
+      "occupation_id": "TG-3a68d719e2290a5f28b8",
+      "status": "mapped",
+      "target_category_id": "L06-07-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-07-03"
+      ],
+      "title_evidence": "制剂工艺开发研究员",
+      "level_3_evidence": "制剂",
+      "reason": "制剂工艺开发属于药物制剂开发，归 L06-07-03。"
+    }
+  ],
+  "raw_response_file": "000131.raw.json",
+  "usage": {
+    "input_tokens": 17366,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 854,
+    "output_tokens": 2335,
+    "reasoning_tokens": 0,
+    "total_tokens": 19701
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003157272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

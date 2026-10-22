@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-6b323a9fab0688119230",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题同时含法务与审计，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-7a0d8606df6941cbd69f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "综合保障员职责不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-541b9106627ece047c5a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机器人算法研究归L02-05合理，未明确三级可停二级。"
+    },
+    {
+      "occupation_id": "TG-5ac039f97030b9eed92f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "营销综合岗市场/销售不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-8c2994e4dd49e48b44ab",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "销售计划运营归L13-08-01合理。"
+    },
+    {
+      "occupation_id": "TG-1f9610dae738b55a9a29",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L06-05-01",
+      "issue": "计算化学科学家(MD/QM)属化学合成与反应开发，L06-05-01合理；但计算化学也可归L07-01基础研究，当前映射可接受，无需修正。"
+    },
+    {
+      "occupation_id": "TG-455429fe6ba83756b719",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "多部门实习岗，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-5279eaaba55e209f4910",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标准化工程技术人员归L04-05合理。"
+    },
+    {
+      "occupation_id": "TG-dba696af9523c88495c7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "大数据工程师归L02-03合理，未明确三级可停二级。"
+    },
+    {
+      "occupation_id": "TG-9aaa9d52b522c4ab2d08",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "资金会计归L19-02合理。"
+    },
+    {
+      "occupation_id": "TG-418af3b032b608a767d1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "小核酸研发归L06-07-02合理。"
+    },
+    {
+      "occupation_id": "TG-13002889673cd6317824",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "研发/技术人员领域不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-728b51e39bd654cf24f8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "模拟IC电路工程师归L05-02-02合理。"
+    },
+    {
+      "occupation_id": "TG-16c363f8493b5960d25d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "公司业务培训生职能不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-6d423d3f255f7efd4a78",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "热控设计归L06-02合理。"
+    },
+    {
+      "occupation_id": "TG-9bccdefa776bae8033fb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "GPGPU通信库开发归L01-07-04合理。"
+    },
+    {
+      "occupation_id": "TG-30db883d40a8b183fd4a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "质量管理员与推广代表双职能，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-a6a74aef5bde8c3727ae",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "全过程咨询专员归L24-06-02合理。"
+    },
+    {
+      "occupation_id": "TG-26fc21143ebe7bddd0fd",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L24-02",
+      "issue": "钢结构设计制造岗应归土木结构与岩土工程L24-02，而非机械设备设计L06-01-03。"
+    },
+    {
+      "occupation_id": "TG-850cb2596b302ca1f26b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "供应体系管理工程师归L16-02合理。"
+    }
+  ],
+  "raw_response_file": "000292.raw.json",
+  "usage": {
+    "input_tokens": 19498,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2986,
+    "output_tokens": 1011,
+    "reasoning_tokens": 0,
+    "total_tokens": 20509
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002208072
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

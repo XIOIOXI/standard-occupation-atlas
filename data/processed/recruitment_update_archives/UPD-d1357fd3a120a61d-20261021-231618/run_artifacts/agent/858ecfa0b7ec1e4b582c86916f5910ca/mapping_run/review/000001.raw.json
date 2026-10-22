@@ -1,0 +1,28 @@
+{
+  "id": "57607717-a254-4b29-a2bc-06785079762b",
+  "object": "chat.completion",
+  "created": 1792571371,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-858ecfa0b7ec1e4b582c86916f5910ca\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L19-05\",\"issue\":\"标题“审计”明确对应审计职能，映射至L19-05合理；未强行细分内部/外部审计，符合二级直达原则。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17019,
+    "completion_tokens": 86,
+    "total_tokens": 17105,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 507
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

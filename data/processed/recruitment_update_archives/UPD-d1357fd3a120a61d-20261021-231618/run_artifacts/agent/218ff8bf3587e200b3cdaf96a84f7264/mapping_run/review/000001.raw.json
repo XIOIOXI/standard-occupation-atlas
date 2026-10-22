@@ -1,0 +1,28 @@
+{
+  "id": "0276ebf6-4aa7-44dc-bd2f-755a86766520",
+  "object": "chat.completion",
+  "created": 1792571555,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-218ff8bf3587e200b3cdaf96a84f7264\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-07-01\",\"issue\":\"生信分析师归生物技术研发（L06-07-01）合理；虽涉及数据分析，但核心为生物信息学在育种/蛋白研发中的应用，主归属生物研发方向可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17019,
+    "completion_tokens": 99,
+    "total_tokens": 17118,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 507
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

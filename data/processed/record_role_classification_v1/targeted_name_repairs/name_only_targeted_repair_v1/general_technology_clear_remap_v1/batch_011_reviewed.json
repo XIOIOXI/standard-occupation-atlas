@@ -1,0 +1,147 @@
+{
+  "batch_number": 11,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18139,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 1499,
+    "output_tokens": 996,
+    "reasoning_tokens": 0,
+    "total_tokens": 19135
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00087237
+  },
+  "results": [
+    {
+      "entry_id": "SNO-8b77589c8dceec7561de",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“产品研发工程师”为宽泛研发称谓，未指明技术栈或产品领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8baa2f79d04df506c03d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“科研技术员”为宽泛科研称谓，未指明具体学科或技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8c55f4a61d493571071f",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“初级开发工程师”仅含泛词开发，未指明语言或方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8d05173086b170d9ad24",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“算子开发”名称截断且未指明技术栈或平台，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8d249669d7b10ed50c1e",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程设计”为宽泛工程称谓，未指明专业领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8d5f3411c4ec021d5f28",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“专业技术人员”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8d6202ae70543ecbad33",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程设计(北京公司)”含地点且为宽泛工程称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8d8a73e047365e9e1311",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“规划论证工程师”为宽泛论证称谓，未指明领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8f785fe6b76359fecbf6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“数字化工程师”为宽泛数字化称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8fabe8a2c55d658a48d2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“仪器系统工程师”未指明技术栈或方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-90de32ea891cf27a4430",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发分析”为宽泛研发分析称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-91a1923b36d799872365",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“激光理论仿真设计师”为专业细分领域，目录无对应三级，无法映射。"
+    },
+    {
+      "entry_id": "SNO-921a373b6edff5a57940",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“产品业务类:产品工程师”为复合岗位且含泛词，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-93cf1c4095f851ca8ec5",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“系统论证岗”为宽泛论证称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-943a39afa92964736bc5",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“信息化技术”为宽泛技术称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-94730a1a9213d3bb57f4",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“原子制造大科学装置研究员”为专业细分领域，目录无对应三级，无法映射。"
+    },
+    {
+      "entry_id": "SNO-960b4afb3c44ca81fb60",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“系统研发工程师”仅含泛词系统研发，未指明方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-99f5e9c0d4bb749aced6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“质量研究员”为宽泛质量研究称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-9a798bfc4fd940e546fd",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“基础研究员”为宽泛研究称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-9dd05149fc2d1b28ea1f",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“策划设计”为宽泛策划设计称谓，无法唯一映射。"
+    }
+  ]
+}

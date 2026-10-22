@@ -1,0 +1,28 @@
+{
+  "id": "40608edf-5d0b-4513-853d-73e31c70fce7",
+  "object": "chat.completion",
+  "created": 1791813065,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-49c1bd5e0cfedbb32fbe\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-vision\",\"reason\":\"名称含“视觉”，与计算机视觉与三维感知方向核心职责匹配，可保留。\"},{\"occupation_id\":\"SNO-ad42db5adf4adf9fd3bd\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称并列营养师与饲料生产管培生两个独立职业方向，括号内专业要求不构成多职业但已存在两个独立岗位。\"},{\"occupation_id\":\"SNO-de613462064067a8c099\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"大模型推理框架研发属于大模型与生成式AI方向，核心职责匹配。\"},{\"occupation_id\":\"SNO-9ba60ae1a047e6f5aedd\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-frontend-mobile/frontend-visual\",\"reason\":\"仪表板开发属于交互与可视化开发，核心职责匹配。\"},{\"occupation_id\":\"SNO-3f1b65ae915563f0d0f3\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"云存储开发属于平台与中间件开发，核心职责匹配。\"},{\"occupation_id\":\"SNO-ae494d8e988d492afe1c\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列市场营销、新媒体运营、电商直播运营、摄影专员等多个独立职业。\"},{\"occupation_id\":\"SNO-cff12f206cd2b7af6838\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称并列销售精英与客户服务经理两个独立岗位。\"},{\"occupation_id\":\"SNO-196a3fb772db92e60495\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列法务与人资两个独立职业方向。\"},{\"occupation_id\":\"SNO-853cc70a8c2b545e6889\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"AI大模型对应大模型与生成式AI方向，核心职责匹配。\"},{\"occupation_id\":\"SNO-a66778e24289c3eee0eb\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"终端AI软件开发工程师偏向AI大模型与生成式AI应用开发，可保留。\"},{\"occupation_id\":\"SNO-41266583b7c4e6e1d865\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"AI研发属于通用人工智能算法研发，核心职责匹配。\"},{\"occupation_id\":\"SNO-589c668952b03ca39dd6\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"服务器Delphi开发属于业务服务端开发，核心职责匹配。\"},{\"occupation_id\":\"SNO-3bd095e44d7b3284c654\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-vision\",\"reason\":\"开发工程师(视觉)偏向计算机视觉与三维感知，核心职责匹配。\"},{\"occupation_id\":\"SNO-db2ab29e12822f2d1659\",\"decision\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"核保属保险承保专业岗位，目录金融类无核保承接类别。\"},{\"occupation_id\":\"SNO-ae4d6ca7a5a59aea3f09\",\"decision\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"专职党建工作人员属党务/政工岗位，目录无对应类别。\"},{\"occupation_id\":\"SNO-43614eabac2037197591\",\"decision\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"董事会事务专员属公司治理/证券事务岗，目录无对应类别。\"},{\"occupation_id\":\"SNO-3a3bd0ac866b21e1b444\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列投行、研究、投资、机构业务、金融科技、中后台、财富等多条线多个独立岗位。\"},{\"occupation_id\":\"SNO-23d7367b1386024f097d\",\"decision\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"防伪技术研究科研属特定技术研发，目录无对应承接类别。\"},{\"occupation_id\":\"SNO-bd3221dfd2d28cac7c8e\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列住院医师、护理、技师、物理师等多个独立医疗岗位。\"},{\"occupation_id\":\"SNO-d821464933132251ee2e\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列审计、风控、法务三个独立职业。\"},{\"occupation_id\":\"SNO-e4f4ff58ff318beea869\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列视觉营销、品牌营销、产品研发、销售运营、商品营运、用户运营等多个独立岗位。\"},{\"occupation_id\":\"SNO-6886e9261504f2080345\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-finance\",\"reason\":\"交易系统开发通常为金融行业后端开发，核心职责匹配。\"},{\"occupation_id\":\"SNO-3d81a36197a7afc3845e\",\"decision\":\"reclassify\",\"target_category_id\":\"生产制造/manufacturing-technician/skilled-worker-maintenance\",\"reason\":\"工艺售后工程师属设备/工艺现场售后维护，不应归入互联网技术支持，改到设备维修与安装更贴合。\"},{\"occupation_id\":\"SNO-ff77a7cd4472d99b2e09\",\"decision\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"冶金考古古金属研究在目录中无对应类别。\"},{\"occupation_id\":\"SNO-138157abf89625debbbe\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"职能管培生涵盖国贸、理工、人力、财务、IT、设计、新媒体等多个独立职能方向。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30736,
+    "completion_tokens": 1402,
+    "total_tokens": 32138,
+    "prompt_tokens_details": {
+      "cached_tokens": 27264
+    },
+    "prompt_cache_hit_tokens": 27264,
+    "prompt_cache_miss_tokens": 3472
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

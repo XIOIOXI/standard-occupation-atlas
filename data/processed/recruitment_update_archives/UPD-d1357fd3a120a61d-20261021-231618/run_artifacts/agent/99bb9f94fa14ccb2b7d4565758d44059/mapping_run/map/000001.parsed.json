@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-99bb9f94fa14ccb2b7d4565758d44059",
+      "status": "mapped",
+      "target_category_id": "L29-04-04",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L29-04-04",
+        "L13-05",
+        "L09-01"
+      ],
+      "title_evidence": "助理形象顾问：形象顾问属于化妆与形象造型服务",
+      "level_3_evidence": "化妆与形象造型：化妆形象及现场造型",
+      "reason": "形象顾问核心为个人形象造型与搭配建议，归生活服务中的化妆与形象造型；零售门店销售属性不占主导。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16980,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 340,
+    "output_tokens": 143,
+    "reasoning_tokens": 0,
+    "total_tokens": 17123
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037344
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

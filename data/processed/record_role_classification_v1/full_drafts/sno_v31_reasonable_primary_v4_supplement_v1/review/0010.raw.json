@@ -1,0 +1,28 @@
+{
+  "id": "ec252e15-929c-4953-b2a6-d9ef31dc7364",
+  "object": "chat.completion",
+  "created": 1791895554,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-ab14301fa6a22a88efce\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"标题同时包含设计与营销两个不同职能方向，无法确定唯一主归属。\"},{\"occupation_id\":\"TG-56478faad53eb79649a3\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"低空飞行管理可能涉及交通运行管理或航空专业操作，标题未明确具体职责。\"},{\"occupation_id\":\"TG-9e0e40d2e6771547d880\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"标题同时包含品牌管理和商务运营两个职能方向，无法确定唯一主归属。\"},{\"occupation_id\":\"TG-a7f7770576ca1ab335ed\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"商务管培生可能指向商务拓展或销售方向，也可能为跨职能培养项目，标题未明确具体职能。\"},{\"occupation_id\":\"TG-423ec143dd87f8c29d8a\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"运营业务培训生可能为业务运营方向或综合培养项目，标题未明确具体运营领域。\"},{\"occupation_id\":\"TG-04457541c8a62a8060b5\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"秩序管培生可能指向安保秩序维护方向，也可能为综合培养项目，标题未明确具体职能。\"},{\"occupation_id\":\"TG-306f8aa9297e59dbe9a5\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"集成工程师可能涉及软件系统集成、电子系统集成或自动化系统集成，标题未明确技术领域。\"},{\"occupation_id\":\"TG-7e01c64f64d27c2cce3d\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"银行分行培训生可能为金融业务方向或跨职能培养项目，标题未明确具体职能。\"},{\"occupation_id\":\"TG-08a472c2be4d0a3208a0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"新媒体明确指向内容与新媒体运营职能，管培生为培养标签不改变专业职能归属。\"},{\"occupation_id\":\"TG-ef6f0c1792614f4839d8\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"设计管培生可能为视觉设计、界面设计、工业设计等多个设计方向，标题未明确具体设计领域。\"},{\"occupation_id\":\"TG-5bdd9e6392e8f2fb9247\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"海外业务支持工程师可能为售后技术服务或售前技术支持，标题未明确具体支持类型。\"},{\"occupation_id\":\"TG-99d93dfa10d77c0ddc0f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数据智能明确指向数据与人工智能技术职能，但具体方向未说明，归通用数据与人工智能工作。\"},{\"occupation_id\":\"TG-5842455a58231e0877d5\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"标题仅说明招聘管培生，未提供任何职能或行业线索，无法确定专业方向。\"},{\"occupation_id\":\"TG-4996a2088757ff737621\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术开发岗明确为软件开发职能，但具体技术方向未说明，归通用软件研发。\"},{\"occupation_id\":\"TG-8eb8e2b1627b097cdb1c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"零售管理培训生明确指向零售门店销售管理方向，管理培训生为培养标签不改变专业职能归属。\"},{\"occupation_id\":\"TG-92d93c8d5452cdf42d7b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字技术岗明确为技术开发职能，但具体方向未说明，归通用软件研发。\"},{\"occupation_id\":\"TG-9886f6a8a0e7c0afe257\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"职能部门管培生未明确具体职能方向，无法确定专业归属。\"},{\"occupation_id\":\"TG-8370c12e8b3e61e3c84e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金融事业部业务助理明确为金融业务职能，但具体方向未说明，归通用金融专业业务。\"},{\"occupation_id\":\"TG-8953c87b7d27f809fe2e\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"研发设计工程师可能涉及机械设计、电子硬件设计或工业设计，标题未明确技术领域。\"},{\"occupation_id\":\"TG-7dd674f7f4abb6305554\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"技术管培生可能为软件开发、电子硬件等多个技术方向，标题未明确具体技术职能。\"},{\"occupation_id\":\"TG-a29491c7b2269542f828\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"工管部管理员可能为工程管理或生产管理方向，标题未明确具体管理领域。\"},{\"occupation_id\":\"TG-a4ec7f2f4c49994ff50a\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"数智管理岗可能为数据智能技术方向或信息化管理方向，标题未明确具体职能。\"},{\"occupation_id\":\"TG-ee8a31626b39cf3f91f9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品管培生明确为产品规划管理职能，但产品类型未说明，归通用产品规划。\"},{\"occupation_id\":\"TG-1433b0e66934d788559c\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"运营岗位未明确具体运营领域，无法确定专业归属。\"},{\"occupation_id\":\"TG-7400608d12bad3e1c1b1\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"产品技术员可能为机械、电子等多个工业技术方向，标题未明确具体技术领域。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 20281,
+    "completion_tokens": 1466,
+    "total_tokens": 21747,
+    "prompt_tokens_details": {
+      "cached_tokens": 20096
+    },
+    "prompt_cache_hit_tokens": 20096,
+    "prompt_cache_miss_tokens": 185
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

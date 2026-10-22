@@ -1,0 +1,185 @@
+{
+  "batch_number": 30,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "0e1a96e4-4c84-4cb9-ae89-f399c66e7f03",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813355,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30842,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3578,
+    "output_tokens": 1509,
+    "reasoning_tokens": 0,
+    "total_tokens": 32351
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0015238919999999998
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-644de11cfaf9fd47eeab",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列国内销售与海外销售两个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-2d7fc0b3be3e8b46100c",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列电气、能源动力、机械、俄语/法语/西班牙语、自动化、土木、船舶、财务、新闻传播等多个独立专业方向，属多职业。"
+    },
+    {
+      "occupation_id": "SNO-3fa609427b95c525d5c4",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列财务管理师与安全工程师两个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-33b575b250e968b1e2a9",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列能源动力、电气、人工智能、自动化、财务审计、法律、计算机等多个独立专业领域，属多职业。"
+    },
+    {
+      "occupation_id": "SNO-ce77cb49fbb8d4a690ca",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "reason": "智驾模型开发核心为自动驾驶模型算法，归入自动驾驶与智能交通合理。"
+    },
+    {
+      "occupation_id": "SNO-7365ce9b17070f1f9265",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列井下采掘与化学工程与工艺两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-c602fd8fdfbcfbe75aa2",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "管培生后并列食品、机械、电气、农业、营养、生物、化学、畜牧、动物科学等多个独立专业方向，属多职业。"
+    },
+    {
+      "occupation_id": "SNO-ea8b224c8f3e8bf9f4a8",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列国际销售与国内销售，且括号内列出化学、机械、电子、多语种、金融等多个独立专业方向，属多职业。"
+    },
+    {
+      "occupation_id": "SNO-56d8f4f1ef32474176b1",
+      "decision": "keep",
+      "target_category_id": "采购/贸易/trade-buyer/buyer-merchandise",
+      "reason": "海外商品核心为商品选品与采购，归入商品买手与选品合理。"
+    },
+    {
+      "occupation_id": "SNO-052faba333041b034646",
+      "decision": "reclassify",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "reason": "名称强调技术方案工程师，核心为售前与解决方案支持，而非算法研发，改入售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-898071bd5dc72b0e6217",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列研发、工艺、质量、EHS等多个独立职能，属多职业。"
+    },
+    {
+      "occupation_id": "SNO-faf3d9c8ed53a0ba730d",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列营销策划、交易员、基金会计三个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-39c551c5d228c0f2d8ae",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "物联网开发工程师未注明语言或具体技术栈，无法确认归入后端开发，最深可确认有效上级为互联网/AI。"
+    },
+    {
+      "occupation_id": "SNO-00f67951a89b3aabac61",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "海外售后技术支持核心为技术支持与客户交付，归入该类别合理。"
+    },
+    {
+      "occupation_id": "SNO-06fb40815c98fb3b9a0a",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列数字技术、人力资源、资产管理、法务等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-d42463b92ce92ba13fb9",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称并列西班牙语业务、葡萄牙语业务助理、中南美海外业务、中南美国内业务等多个独立岗位方向。"
+    },
+    {
+      "occupation_id": "SNO-7491b14d4c30612d7356",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "车联网软件开发未注明语言或具体技术栈，无法确认归入后端开发，最深可确认有效上级为互联网/AI。"
+    },
+    {
+      "occupation_id": "SNO-86b346b1dd1036127c51",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "空间智能工程师涉及机器人空间感知与智能，归入机器人与具身智能合理。"
+    },
+    {
+      "occupation_id": "SNO-3137db26482dbbdc0fab",
+      "decision": "keep",
+      "target_category_id": "金融/financial-asset/asset-appraisal-valuation",
+      "reason": "评估管理核心为资产评估，归入企业与无形资产评估合理。"
+    },
+    {
+      "occupation_id": "SNO-172516ed276f82014d18",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确为多个岗位，无法归入单一职业类别。"
+    },
+    {
+      "occupation_id": "SNO-07b300f0f0da4c4be0d5",
+      "decision": "reclassify",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "reason": "雷达信号处理嵌入式开发核心为嵌入式与固件开发，归入电子/硬件开发更贴切，而非C++语言类别。"
+    },
+    {
+      "occupation_id": "SNO-653367d33ccd2db0a188",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型Agent架构工程师核心为大模型与生成式AI，归入该类别合理。"
+    },
+    {
+      "occupation_id": "SNO-8908f5e0101d1608786d",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "智能体平台工程师属于大模型与生成式AI方向，归入该类别合理。"
+    },
+    {
+      "occupation_id": "SNO-3a4ce93858299671e513",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "RPA开发工程师未注明使用Python，无法确认归入Python自动化，最深可确认有效上级为互联网/AI。"
+    },
+    {
+      "occupation_id": "SNO-9336999c7961a475449d",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "硬件售后支持核心为技术支持与客户交付，归入该类别合理。"
+    }
+  ]
+}

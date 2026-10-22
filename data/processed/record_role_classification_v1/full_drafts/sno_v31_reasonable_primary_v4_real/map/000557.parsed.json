@@ -1,0 +1,311 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-dfcea39f66b048c43aab",
+      "status": "mapped",
+      "target_category_id": "L01-08-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-08-02",
+        "L01-08-01",
+        "L01-11"
+      ],
+      "title_evidence": "仿真开发工程师",
+      "level_3_evidence": "引擎系统开发",
+      "reason": "仿真开发属于引擎/图形系统开发范畴，标题明确为开发工程师，归入引擎系统开发。"
+    },
+    {
+      "occupation_id": "TG-ef02d3727985c352f0fa",
+      "status": "mapped",
+      "target_category_id": "L25-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-07",
+        "L03-05-04"
+      ],
+      "title_evidence": "安全管理员",
+      "level_3_evidence": null,
+      "reason": "安全管理员通常指生产安全/EHS管理，归入安全健康与职业防护；若为网络安全则归L03，但标题无技术安全证据。"
+    },
+    {
+      "occupation_id": "TG-67b1091ec475801aa3ba",
+      "status": "mapped",
+      "target_category_id": "L06-03-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-03-01",
+        "L05-04",
+        "L02-05-06"
+      ],
+      "title_evidence": "智驾系统工程师",
+      "level_3_evidence": "整车与装备集成",
+      "reason": "智驾系统工程师属于车辆与交通装备工程中的整车与装备集成方向。"
+    },
+    {
+      "occupation_id": "TG-86881e03209930acfb1e",
+      "status": "mapped",
+      "target_category_id": "L06-03-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-03-01",
+        "L05-04",
+        "L02-05-06"
+      ],
+      "title_evidence": "智驾系统开发",
+      "level_3_evidence": "整车与装备集成",
+      "reason": "智驾系统开发属于车辆与交通装备工程中的整车与装备集成方向。"
+    },
+    {
+      "occupation_id": "TG-944ea1961d467308c7b5",
+      "status": "mapped",
+      "target_category_id": "L17-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L17-02-01",
+        "L17-01",
+        "L16-02"
+      ],
+      "title_evidence": "仓储物流",
+      "level_3_evidence": "仓库与库存管理",
+      "reason": "仓储物流直接对应仓储与库存作业中的仓库与库存管理。"
+    },
+    {
+      "occupation_id": "TG-70cf90aa3a18a55f38f6",
+      "status": "mapped",
+      "target_category_id": "L06-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-01-02",
+        "L06-01-01",
+        "L06-01-03"
+      ],
+      "title_evidence": "结构设计工程师",
+      "level_3_evidence": "产品结构设计",
+      "reason": "结构设计工程师通常负责产品结构设计，归入产品结构设计。"
+    },
+    {
+      "occupation_id": "TG-6335e5346077a03e095d",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L01-02",
+        "L01-01"
+      ],
+      "title_evidence": "应用开发岗",
+      "level_3_evidence": null,
+      "reason": "应用开发岗未明确前后端或移动端方向，归入通用软件研发。"
+    },
+    {
+      "occupation_id": "TG-f6dcd222a730ba895932",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L12-07",
+        "L14-09",
+        "L13-04"
+      ],
+      "title_evidence": "海外营销/技术支持",
+      "level_3_evidence": null,
+      "reason": "标题包含营销和技术支持两个职能，无法确定单一主归属。"
+    },
+    {
+      "occupation_id": "TG-55ea7d300a85a1be7c8d",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L12-07",
+        "L14-09",
+        "L13-04"
+      ],
+      "title_evidence": "海外营销 / 技术支持",
+      "level_3_evidence": null,
+      "reason": "标题包含营销和技术支持两个职能，无法确定单一主归属。"
+    },
+    {
+      "occupation_id": "TG-264ea8e3805512c4d4b4",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-04",
+        "L18-01",
+        "L18-02",
+        "L18-03"
+      ],
+      "title_evidence": "HR实习生",
+      "level_3_evidence": null,
+      "reason": "HR实习生属于人力资源综合管理，方向未细分。"
+    },
+    {
+      "occupation_id": "TG-b69831fa3e5d03104478",
+      "status": "mapped",
+      "target_category_id": "L16-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-01",
+        "L16-01-01",
+        "L16-01-02",
+        "L16-01-03"
+      ],
+      "title_evidence": "采购开发",
+      "level_3_evidence": null,
+      "reason": "采购开发属于采购与供应商管理，未明确采购物料类型。"
+    },
+    {
+      "occupation_id": "TG-9712afa906fac5d359fe",
+      "status": "mapped",
+      "target_category_id": "L16-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-01",
+        "L16-01-01",
+        "L16-01-02",
+        "L16-01-03"
+      ],
+      "title_evidence": "采购开发工程师",
+      "level_3_evidence": null,
+      "reason": "采购开发工程师属于采购与供应商管理，未明确采购物料类型。"
+    },
+    {
+      "occupation_id": "TG-72be3682acfb105dfa22",
+      "status": "mapped",
+      "target_category_id": "L16-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-01",
+        "L16-01-01",
+        "L16-01-02",
+        "L16-01-03"
+      ],
+      "title_evidence": "采购工程师（2026 届校招）",
+      "level_3_evidence": null,
+      "reason": "采购工程师属于采购与供应商管理，未明确采购物料类型。"
+    },
+    {
+      "occupation_id": "TG-426103a67a3ccb56cf31",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L22-02",
+        "L22-02-01",
+        "L22-02-02",
+        "L22-02-03",
+        "L22-02-04"
+      ],
+      "title_evidence": "线上一对一老师",
+      "level_3_evidence": null,
+      "reason": "线上一对一老师属于学科与通识教学，未明确具体学科。"
+    },
+    {
+      "occupation_id": "TG-0169c0fb3837276797c8",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-10",
+        "L23-09-01",
+        "L23-09-02"
+      ],
+      "title_evidence": "见习售后工程师",
+      "level_3_evidence": null,
+      "reason": "见习售后工程师属于售后技术服务。"
+    },
+    {
+      "occupation_id": "TG-d8099aeea05c42d46a96",
+      "status": "mapped",
+      "target_category_id": "L20-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-01-02",
+        "L20-01-01",
+        "L11-06"
+      ],
+      "title_evidence": "油气投资分析员",
+      "level_3_evidence": "项目与股权投资研究",
+      "reason": "油气投资分析员属于项目与股权投资研究。"
+    },
+    {
+      "occupation_id": "TG-d4c548f34cbd5c75f3a5",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-03",
+        "L12-07",
+        "L15-12"
+      ],
+      "title_evidence": "社媒运营",
+      "level_3_evidence": null,
+      "reason": "社媒运营属于内容与新媒体运营。"
+    },
+    {
+      "occupation_id": "TG-635cffeab9a6baf72cc6",
+      "status": "mapped",
+      "target_category_id": "L03-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-02",
+        "L03-03",
+        "L05-05-03"
+      ],
+      "title_evidence": "算网工程师",
+      "level_3_evidence": null,
+      "reason": "算网工程师通常指算力网络运维，归入云平台与可靠性运维。"
+    },
+    {
+      "occupation_id": "TG-28f79907ed0ad2fc28ee",
+      "status": "mapped",
+      "target_category_id": "L03-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-02",
+        "L03-03",
+        "L05-05-03"
+      ],
+      "title_evidence": "算网开发工程师",
+      "level_3_evidence": null,
+      "reason": "算网开发工程师通常指算力网络开发运维，归入云平台与可靠性运维。"
+    },
+    {
+      "occupation_id": "TG-e531cd9d33f894693a19",
+      "status": "mapped",
+      "target_category_id": "L07-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L07-05",
+        "L07-01",
+        "L07-02"
+      ],
+      "title_evidence": "博士后研究人员",
+      "level_3_evidence": null,
+      "reason": "博士后研究人员属于通用科学研究，研究领域未说明。"
+    }
+  ],
+  "raw_response_file": "000557.raw.json",
+  "usage": {
+    "input_tokens": 17329,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 817,
+    "output_tokens": 2583,
+    "reasoning_tokens": 0,
+    "total_tokens": 19912
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003443772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

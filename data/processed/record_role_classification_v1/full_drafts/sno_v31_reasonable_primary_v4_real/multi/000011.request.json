@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-970d4980d5f5294ae474\", \"title\": \"专业技术（水利工程、工程管理、应用经济学、应用统计、土木类、公共管理类、电气工程、理论经济学、金融、工商管理学、会计相关专业）\"}, {\"original_record_id\": \"TG-7d42b9640051a520d3ab\", \"title\": \"机器学习/数据检理自然语言处理工程计算机视觉算法研发工程师\"}, {\"original_record_id\": \"TG-96dcd07aede1daf01fb2\", \"title\": \"技术营销工程师\"}, {\"original_record_id\": \"TG-5c8c42ccba2b6840571f\", \"title\": \"机械&暖通工程师\"}, {\"original_record_id\": \"TG-1efe1448cb2a85def823\", \"title\": \"灵活用工业务管培生(招聘方向服务方向销售方向人事运营方向)\"}, {\"original_record_id\": \"TG-242f4ee3d9015f5823e6\", \"title\": \"识能管理类市场营销类软件研发类机务维修类气象管制类航空医学类明珠工程师 直升机飞行员\"}, {\"original_record_id\": \"TG-e9398c27083622e4a3a8\", \"title\": \"金融网点理财经历金融网点柜员寄递业务客户经理\"}, {\"original_record_id\": \"TG-5ee22c172a096006596c\", \"title\": \"助理兽医师 / 助理水产工程师\"}, {\"original_record_id\": \"TG-d8c20b6daa23bd83fe4e\", \"title\": \"会计\\\\\\\\热动\"}, {\"original_record_id\": \"TG-e0a9a29e99cb48f45df9\", \"title\": \"品牌发展与产品开发\"}, {\"original_record_id\": \"TG-0857fe17d81675489ea1\", \"title\": \"大模型算法端到端算法VLA算法 规划控制算法决策算法预测算法系统算法环境感知算法定位及建图算法云平台后端开发(Go/Python)嵌入式系统开发(C++)智能驾驶平台软件开发\"}, {\"original_record_id\": \"TG-5e529d1a85f0c23262a9\", \"title\": \"软件研发与敏捷项目管培生\"}, {\"original_record_id\": \"TG-505b509542fd7df4a6d8\", \"title\": \"游戏策划游戏开发商务管培生\"}, {\"original_record_id\": \"TG-7d63dc1d6bffbf67458b\", \"title\": \"财务中心（会计、税务）\"}, {\"original_record_id\": \"TG-1e8030da84776b45800e\", \"title\": \"电学专利代理师(培养)机械专利代理师(培养) 涉外专利代理师(培养)律师助理\"}, {\"original_record_id\": \"TG-424d8a2357d4f165b1a0\", \"title\": \"信息技术开发岗（应用开发/数据研发）\"}, {\"original_record_id\": \"TG-66f46ffaf853eed2d450\", \"title\": \"法务/风控主管\"}, {\"original_record_id\": \"TG-effb9d72f7a9ed6c24aa\", \"title\": \"金融财审岗\"}, {\"original_record_id\": \"TG-7ec9b74290ab9000b351\", \"title\": \"电商销售与运营\"}, {\"original_record_id\": \"TG-b47132b28c8b91f43d75\", \"title\": \"技术研发电商平台&销售用户运营供应链 职能支持\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-970d4980d5f5294ae474",
+    "TG-7d42b9640051a520d3ab",
+    "TG-96dcd07aede1daf01fb2",
+    "TG-5c8c42ccba2b6840571f",
+    "TG-1efe1448cb2a85def823",
+    "TG-242f4ee3d9015f5823e6",
+    "TG-e9398c27083622e4a3a8",
+    "TG-5ee22c172a096006596c",
+    "TG-d8c20b6daa23bd83fe4e",
+    "TG-e0a9a29e99cb48f45df9",
+    "TG-0857fe17d81675489ea1",
+    "TG-5e529d1a85f0c23262a9",
+    "TG-505b509542fd7df4a6d8",
+    "TG-7d63dc1d6bffbf67458b",
+    "TG-1e8030da84776b45800e",
+    "TG-424d8a2357d4f165b1a0",
+    "TG-66f46ffaf853eed2d450",
+    "TG-effb9d72f7a9ed6c24aa",
+    "TG-7ec9b74290ab9000b351",
+    "TG-b47132b28c8b91f43d75"
+  ]
+}

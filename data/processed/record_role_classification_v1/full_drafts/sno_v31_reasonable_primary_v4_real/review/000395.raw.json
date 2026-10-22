@@ -1,0 +1,28 @@
+{
+  "id": "53b24a3c-3649-4c50-a210-4a3a09dc7512",
+  "object": "chat.completion",
+  "created": 1791881434,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-86e7f2a2e006d034a1a2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"IT管培生方向未明确，review合理。\"},{\"occupation_id\":\"TG-8b02e8de71c967f204cc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"法律事务岗归企业法务合理。\"},{\"occupation_id\":\"TG-1725290aa9b0baa204e0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI系统测试归软件测试合理。\"},{\"occupation_id\":\"TG-c1826b9a21b41ed0edf3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"物理教师归数学与自然科学教学合理。\"},{\"occupation_id\":\"TG-735c24c7031509c9c6e2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务管理与审计归财务综合管理合理。\"},{\"occupation_id\":\"TG-8ca932dfd132aaf4adf6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电路开发归电路与板级设计合理。\"},{\"occupation_id\":\"TG-aeaeae5420c6496bfc2d\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L05-07\",\"issue\":\"导航产品研发方向不明确，归入通信协议与系统证据不足，应归通用电子电气通信技术。\"},{\"occupation_id\":\"TG-a201efb5743c8f7b934e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"媒资专员方向未明确，归通用内容与传媒工作合理。\"},{\"occupation_id\":\"TG-a8ad4f8218c926d50ebf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"软件工程师方向未明确，归通用软件研发合理。\"},{\"occupation_id\":\"TG-4834d93708ec45994e79\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"物流解决方案工程师归解决方案设计合理。\"},{\"occupation_id\":\"TG-560a8304396e5cb05fb8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"土建施工员归土建施工工种合理。\"},{\"occupation_id\":\"TG-171ecf460312dfc60c22\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"发酵技术员归化工与流程生产操作合理。\"},{\"occupation_id\":\"TG-7f225f96fe4951296aea\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"类目运营归商品与品类运营合理。\"},{\"occupation_id\":\"TG-9445780d344f03c14082\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"SAP实施运维归业务系统实施配置合理。\"},{\"occupation_id\":\"TG-ecb9d7deb4aa033530ac\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"游戏客户端与后端开发归全栈开发合理。\"},{\"occupation_id\":\"TG-7926f89e33cdb6199a5b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工艺管道设计归建筑机电与设备工程合理。\"},{\"occupation_id\":\"TG-5726fa00563c54f26152\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"实习岗无职能信息，non_role_text合理。\"},{\"occupation_id\":\"TG-f4dfc49304af518f0c85\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量工程师归产品质量与客诉管理合理。\"},{\"occupation_id\":\"TG-687fadd679e39d84c4ad\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"造型色彩设计师归工业与产品外观设计合理。\"},{\"occupation_id\":\"TG-cc15d9fdf28805f8aa86\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"PDK工程师归芯片物理设计合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19679,
+    "completion_tokens": 944,
+    "total_tokens": 20623,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3167
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

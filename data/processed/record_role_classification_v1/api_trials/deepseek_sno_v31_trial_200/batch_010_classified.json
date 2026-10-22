@@ -1,0 +1,155 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-batch-v2",
+  "batch_number": 10,
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 20,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "5d90ccba-cfb5-4141-bc12-5474668df332",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791836587,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 16383,
+    "cached_input_tokens": 15488,
+    "uncached_input_tokens": 895,
+    "output_tokens": 996,
+    "reasoning_tokens": 0,
+    "total_tokens": 17379
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0007783140000000001
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-350657dfbbe0cb0202be",
+      "status": "mapped",
+      "target_category_id": "L08-04-01",
+      "reason": "标题明确为游戏策划，小游戏/UGC指向游戏系统与数值策划。"
+    },
+    {
+      "occupation_id": "SNO-10069680f69154a0a22d",
+      "status": "mapped",
+      "target_category_id": "L24-04",
+      "reason": "管网设计岗(热力)属建筑暖通给排水及楼宇设备工程。"
+    },
+    {
+      "occupation_id": "SNO-2a079fdf33f2973ed82c",
+      "status": "mapped",
+      "target_category_id": "L22-06",
+      "reason": "学员运营属教学辅助与学员服务，围绕学习过程服务。"
+    },
+    {
+      "occupation_id": "SNO-73019a6f9547e4c35a7b",
+      "status": "mapped",
+      "target_category_id": "L06-03-02",
+      "reason": "车门设计属车辆底盘车身及车辆专业工程。"
+    },
+    {
+      "occupation_id": "SNO-b847a102de5b08fba0ae",
+      "status": "mapped",
+      "target_category_id": "L30-03",
+      "reason": "法务合规管理明确为合规与内部控制职能。"
+    },
+    {
+      "occupation_id": "SNO-f3a551d78495c24ba751",
+      "status": "review",
+      "target_category_id": "L20-11",
+      "reason": "公司业务培训生仅银行领域，未明确具体金融业务方向。"
+    },
+    {
+      "occupation_id": "SNO-5eb63505d39cfb06954e",
+      "status": "mapped",
+      "target_category_id": "L19-07",
+      "reason": "财务管理储备明确财务职能，储备为培养标签，归财务综合管理。"
+    },
+    {
+      "occupation_id": "SNO-43da2d2c2cb18f13f030",
+      "status": "review",
+      "target_category_id": "L14-11",
+      "reason": "指数运营经理助理未说明运营对象与业务方向。"
+    },
+    {
+      "occupation_id": "SNO-2b6c68dcb56575e256cd",
+      "status": "mapped",
+      "target_category_id": "L25-02",
+      "reason": "非常规油气开发属采矿与资源开采技术。"
+    },
+    {
+      "occupation_id": "SNO-9170b111decf5a940895",
+      "status": "mapped",
+      "target_category_id": "L07-03",
+      "reason": "供试品配置/管理属实验与科研技术支持，管培为标签。"
+    },
+    {
+      "occupation_id": "SNO-bf2d4b216aaed8943ae0",
+      "status": "review",
+      "target_category_id": "L32-02",
+      "reason": "综合培训生未明确最终职业方向，仅培养身份。"
+    },
+    {
+      "occupation_id": "SNO-a655a94e560c7200e7e4",
+      "status": "mapped",
+      "target_category_id": "L13-05",
+      "reason": "门店零售管培生明确门店零售销售，管培为标签。"
+    },
+    {
+      "occupation_id": "SNO-62e6a086b0ed09ebc940",
+      "status": "mapped",
+      "target_category_id": "L06-03-02",
+      "reason": "混动变速箱设计属车辆底盘与车辆专业工程。"
+    },
+    {
+      "occupation_id": "SNO-ec426ee068c250f50146",
+      "status": "mapped",
+      "target_category_id": "L08-01-03",
+      "reason": "产品经理岗(人工智能)属平台与技术产品管理。"
+    },
+    {
+      "occupation_id": "SNO-aedddffaec83b265fcbf",
+      "status": "mapped",
+      "target_category_id": "L16-02",
+      "reason": "物流管理工程师属供应链规划与管理。"
+    },
+    {
+      "occupation_id": "SNO-df16c289488eb76d85b8",
+      "status": "review",
+      "target_category_id": "L07-05",
+      "reason": "科研部门科研/技术未说明研究领域与方向。"
+    },
+    {
+      "occupation_id": "SNO-f726e823532c0682f85b",
+      "status": "review",
+      "target_category_id": "L32-02",
+      "reason": "品类发展管培生未明确品类职能方向，仅培养身份。"
+    },
+    {
+      "occupation_id": "SNO-aec3c619309faf22c05b",
+      "status": "mapped",
+      "target_category_id": "L01-04-02",
+      "reason": "iOS应用工程师明确为iOS应用开发。"
+    },
+    {
+      "occupation_id": "SNO-0fbafd406fa2200df437",
+      "status": "review",
+      "target_category_id": "L18-09",
+      "reason": "办公室综合未说明具体人事行政或文书方向。"
+    },
+    {
+      "occupation_id": "SNO-4e427e1b617872f5aee9",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "reason": "人力资源管培生明确人力资源职能，医药研发为行业标签。"
+    }
+  ]
+}

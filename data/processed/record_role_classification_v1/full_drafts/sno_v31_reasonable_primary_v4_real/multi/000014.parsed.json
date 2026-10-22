@@ -1,0 +1,573 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-99017f620737821ff3c5",
+      "case": "A",
+      "child_titles": [
+        "审计及鉴证服务",
+        "税务服务",
+        "咨询服务"
+      ],
+      "source_spans": [
+        {
+          "text": "审计及鉴证服务",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "text": "税务服务",
+          "start": 7,
+          "end": 11
+        },
+        {
+          "text": "咨询服务",
+          "start": 11,
+          "end": 15
+        }
+      ],
+      "reason": "标题由三个独立岗位名称直接拼接，无连接词，可拆分为三个子岗位。"
+    },
+    {
+      "original_record_id": "TG-2bf1557e6f98b8398ae5",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位描述，括号内为工作内容，非独立岗位名称。"
+    },
+    {
+      "original_record_id": "TG-ea8dad7710c5bb4f65c8",
+      "case": "A",
+      "child_titles": [
+        "材料研发类",
+        "检测分析类",
+        "计算机开发类",
+        "仪器研发类",
+        "综合评价工程师",
+        "业务支持类"
+      ],
+      "source_spans": [
+        {
+          "text": "材料研发类",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "检测分析类",
+          "start": 6,
+          "end": 11
+        },
+        {
+          "text": "计算机开发类",
+          "start": 12,
+          "end": 18
+        },
+        {
+          "text": "仪器研发类",
+          "start": 18,
+          "end": 23
+        },
+        {
+          "text": "综合评价工程师",
+          "start": 23,
+          "end": 30
+        },
+        {
+          "text": "业务支持类",
+          "start": 30,
+          "end": 35
+        }
+      ],
+      "reason": "标题由多个独立岗位类别拼接，空格分隔，可拆分为六个子岗位。"
+    },
+    {
+      "original_record_id": "TG-267966dbd18f2a91ea94",
+      "case": "A",
+      "child_titles": [
+        "采购",
+        "营销员"
+      ],
+      "source_spans": [
+        {
+          "text": "采购",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "营销员",
+          "start": 5,
+          "end": 8
+        }
+      ],
+      "reason": "标题由斜杠分隔的两个独立岗位名称组成，可拆分。"
+    },
+    {
+      "original_record_id": "TG-3612a62d6728fd9a1502",
+      "case": "A",
+      "child_titles": [
+        "现场管理师",
+        "设备安装师",
+        "园林绿化师",
+        "设计规划师",
+        "财务金融岗"
+      ],
+      "source_spans": [
+        {
+          "text": "现场管理师",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "设备安装师",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "园林绿化师",
+          "start": 10,
+          "end": 15
+        },
+        {
+          "text": "设计规划师",
+          "start": 15,
+          "end": 20
+        },
+        {
+          "text": "财务金融岗",
+          "start": 20,
+          "end": 25
+        }
+      ],
+      "reason": "标题由五个独立岗位名称直接拼接，无连接词，可拆分。"
+    },
+    {
+      "original_record_id": "TG-9ee3b8fb7d9aa5f78b62",
+      "case": "A",
+      "child_titles": [
+        "海外财务管理",
+        "海外物流管理",
+        "海外工厂管理(日化)",
+        "审计稽核"
+      ],
+      "source_spans": [
+        {
+          "text": "海外财务管理",
+          "start": 4,
+          "end": 10
+        },
+        {
+          "text": "海外物流管理",
+          "start": 10,
+          "end": 16
+        },
+        {
+          "text": "海外工厂管理(日化)",
+          "start": 16,
+          "end": 26
+        },
+        {
+          "text": "审计稽核",
+          "start": 26,
+          "end": 30
+        }
+      ],
+      "reason": "标题为校招生类别下的多个独立岗位名称，可拆分。"
+    },
+    {
+      "original_record_id": "TG-b91f5834edcf420fdcd5",
+      "case": "A",
+      "child_titles": [
+        "生产管理",
+        "工艺工程",
+        "订单计划",
+        "成本会计",
+        "质量管理",
+        "销售",
+        "信息技术",
+        "人力资源",
+        "仓储管理"
+      ],
+      "source_spans": [
+        {
+          "text": "生产管理",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "工艺工程",
+          "start": 5,
+          "end": 9
+        },
+        {
+          "text": "订单计划",
+          "start": 10,
+          "end": 14
+        },
+        {
+          "text": "成本会计",
+          "start": 15,
+          "end": 19
+        },
+        {
+          "text": "质量管理",
+          "start": 20,
+          "end": 24
+        },
+        {
+          "text": "销售",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "text": "信息技术",
+          "start": 28,
+          "end": 32
+        },
+        {
+          "text": "人力资源",
+          "start": 33,
+          "end": 37
+        },
+        {
+          "text": "仓储管理",
+          "start": 38,
+          "end": 42
+        }
+      ],
+      "reason": "标题由空格分隔的多个独立岗位名称组成，可拆分。"
+    },
+    {
+      "original_record_id": "TG-e941787bdb609a45c1f1",
+      "case": "A",
+      "child_titles": [
+        "化学研发类",
+        "化工研发类",
+        "生物研发类",
+        "生产类",
+        "分析类",
+        "制剂类",
+        "专业职能类",
+        "集团管培生"
+      ],
+      "source_spans": [
+        {
+          "text": "化学研发类",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "化工研发类",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "生物研发类",
+          "start": 10,
+          "end": 15
+        },
+        {
+          "text": "生产类",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "text": "分析类",
+          "start": 18,
+          "end": 21
+        },
+        {
+          "text": "制剂类",
+          "start": 21,
+          "end": 24
+        },
+        {
+          "text": "专业职能类",
+          "start": 24,
+          "end": 29
+        },
+        {
+          "text": "集团管培生",
+          "start": 29,
+          "end": 34
+        }
+      ],
+      "reason": "标题由多个独立岗位类别直接拼接，无连接词，可拆分。"
+    },
+    {
+      "original_record_id": "TG-2df058fb017a169e6f5d",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为专业要求，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-962b4adad0a45450fe80",
+      "case": "A",
+      "child_titles": [
+        "学习机语文教师",
+        "学习机英语教师",
+        "学习机物理教师",
+        "学习机化学教师"
+      ],
+      "source_spans": [
+        {
+          "text": "学习机语文",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "英语",
+          "start": 6,
+          "end": 8
+        },
+        {
+          "text": "物理",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "text": "化学",
+          "start": 12,
+          "end": 14
+        }
+      ],
+      "reason": "标题由反斜杠分隔的学科教师岗位组成，可拆分为四个子岗位。"
+    },
+    {
+      "original_record_id": "TG-7e46a95143fb4e132a2f",
+      "case": "A",
+      "child_titles": [
+        "机电管理",
+        "投资拓展岗"
+      ],
+      "source_spans": [
+        {
+          "text": "机电管理",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "投资拓展岗",
+          "start": 5,
+          "end": 10
+        }
+      ],
+      "reason": "标题由斜杠分隔的两个独立岗位名称组成，可拆分。"
+    },
+    {
+      "original_record_id": "TG-5bb12d0a6add81cd3b76",
+      "case": "A",
+      "child_titles": [
+        "营销管培生类",
+        "工业设计类",
+        "项目管理类",
+        "职能类",
+        "商务造价类",
+        "运营交付类",
+        "国际化类"
+      ],
+      "source_spans": [
+        {
+          "text": "营销管培生类",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "工业设计类",
+          "start": 6,
+          "end": 11
+        },
+        {
+          "text": "项目管理类",
+          "start": 11,
+          "end": 16
+        },
+        {
+          "text": "职能类",
+          "start": 16,
+          "end": 19
+        },
+        {
+          "text": "商务造价类",
+          "start": 19,
+          "end": 24
+        },
+        {
+          "text": "运营交付类",
+          "start": 24,
+          "end": 29
+        },
+        {
+          "text": "国际化类",
+          "start": 29,
+          "end": 33
+        }
+      ],
+      "reason": "标题由多个独立岗位类别直接拼接，无连接词，可拆分。"
+    },
+    {
+      "original_record_id": "TG-ee33f8f1b7615d6a3aad",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为方向说明，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-fc03b452d9b14f671e0d",
+      "case": "A",
+      "child_titles": [
+        "学科运营",
+        "大班主讲教师"
+      ],
+      "source_spans": [
+        {
+          "text": "学科运营",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "大班主讲教师",
+          "start": 5,
+          "end": 11
+        }
+      ],
+      "reason": "标题由加号分隔的两个独立岗位名称组成，可拆分。"
+    },
+    {
+      "original_record_id": "TG-bdcb5cb4f331bf1ce826",
+      "case": "A",
+      "child_titles": [
+        "大模型算法",
+        "多模态算法",
+        "语音算法",
+        "数据挖掘",
+        "测试开发",
+        "体验设计"
+      ],
+      "source_spans": [
+        {
+          "text": "大模型算法",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "多模态算法",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "语音算法",
+          "start": 10,
+          "end": 14
+        },
+        {
+          "text": "数据挖掘",
+          "start": 14,
+          "end": 18
+        },
+        {
+          "text": "测试开发",
+          "start": 18,
+          "end": 22
+        },
+        {
+          "text": "体验设计",
+          "start": 22,
+          "end": 26
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接拼接，无连接词，可拆分。"
+    },
+    {
+      "original_record_id": "TG-ad5fb949ef8c800c51e0",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位类别，括号内为具体岗位示例，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-3fa609427b95c525d5c4",
+      "case": "A",
+      "child_titles": [
+        "财务管理师",
+        "安全工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "财务管理师",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "安全工程师",
+          "start": 5,
+          "end": 10
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接拼接，无连接词，可拆分。"
+    },
+    {
+      "original_record_id": "TG-5c4fa727516e88a661ec",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，包含职责描述，非多个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-3237a1864dbef180f04f",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为多个岗位名称的概括性描述，非明确拆分。"
+    },
+    {
+      "original_record_id": "TG-faf3d9c8ed53a0ba730d",
+      "case": "A",
+      "child_titles": [
+        "营销策划",
+        "交易员",
+        "基金会计"
+      ],
+      "source_spans": [
+        {
+          "text": "营销策划",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "交易员",
+          "start": 4,
+          "end": 7
+        },
+        {
+          "text": "基金会计",
+          "start": 7,
+          "end": 11
+        }
+      ],
+      "reason": "标题由三个独立岗位名称直接拼接，无连接词，可拆分。"
+    }
+  ],
+  "raw_response_file": "000014.raw.json",
+  "usage": {
+    "input_tokens": 873,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 873,
+    "output_tokens": 3463,
+    "reasoning_tokens": 0,
+    "total_tokens": 4336
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.004417499999999999
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

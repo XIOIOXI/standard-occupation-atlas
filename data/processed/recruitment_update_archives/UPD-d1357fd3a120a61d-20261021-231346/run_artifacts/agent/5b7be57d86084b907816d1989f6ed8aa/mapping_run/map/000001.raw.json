@@ -1,0 +1,28 @@
+{
+  "id": "21930419-dd15-49a8-86d6-9fd5eba7b4ea",
+  "object": "chat.completion",
+  "created": 1792571466,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-5b7be57d86084b907816d1989f6ed8aa\",\"status\":\"mapped\",\"target_category_id\":\"L13-08-02\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L13-08-02\",\"L13-08\",\"L24-06-02\"],\"title_evidence\":\"标题为“计划合同业务员岗”，核心职责指向合同与商务事务支持\",\"level_3_evidence\":\"商务合同与订单支持：合同报价订单及商务投标事务\",\"reason\":\"“计划合同业务员”以合同计划、商务事务为主，最直接对应销售运营与商务支持下的商务合同与订单支持三级；虽处能源行业工程语境，但无造价计量或招投标工程商务的直接证据，故不选工程招采。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16975,
+    "completion_tokens": 181,
+    "total_tokens": 17156,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 335
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

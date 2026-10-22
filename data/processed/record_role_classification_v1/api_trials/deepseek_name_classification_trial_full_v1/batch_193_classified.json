@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 193,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "adc33166-8348-4578-8f7f-061f8d2587a5",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751465,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24962,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1666,
+    "output_tokens": 2695,
+    "reasoning_tokens": 0,
+    "total_tokens": 27657
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001936788
+  },
+  "observed_at_utc": "2026-10-11T20:44:26.106051+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-58ff5f3d7b3ba315db0d",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "风机风道设计属于机械结构与产品设计"
+    },
+    {
+      "occupation_id": "SNO-a78ed127ec1b75873de6",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "ESG/CSR助理无对应目录类别"
+    },
+    {
+      "occupation_id": "SNO-46fc85f811bb834e2fb1",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "流体仿真属于机械产品设计中的仿真分析"
+    },
+    {
+      "occupation_id": "SNO-bbd1938b12a35fa52249",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "动力工程师核心为动力系统机械设计"
+    },
+    {
+      "occupation_id": "SNO-f0aa7b3c2a219e2889f5",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "交易助理属于证券基金期货交易运营支持"
+    },
+    {
+      "occupation_id": "SNO-816841a210e6e78b5c68",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电机研发属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-2be8e36f4b11e6dbb62a",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "高级电机工程师仍属电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-461d6beae246fbaea95a",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电机开发属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-6106ee014e138aad7126",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电机工程师属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-047b28c2c89032d5f5f7",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "消防管理属于安全生产管理"
+    },
+    {
+      "occupation_id": "SNO-0301b3260580b0b181d4",
+      "target_category_id": "采购/贸易/trade-clerk/trade-clerk-coordination",
+      "status": "mapped",
+      "reason": "跟单专员通常为外贸跟单与客户协调"
+    },
+    {
+      "occupation_id": "SNO-0b335de6fc8f39801922",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "售前解决方案专员属于售前与解决方案支持"
+    },
+    {
+      "occupation_id": "SNO-76b10975f024de69cb5d",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中体育教师属于基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-9af1f638bca85b2f0e19",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "制程工艺属于生产运营与工艺改善"
+    },
+    {
+      "occupation_id": "SNO-beb55d6a84f5daba34db",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "整机工艺工程师属于生产运营与工艺改善"
+    },
+    {
+      "occupation_id": "SNO-b47b4f8a836de6195367",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "声学研发属于电子硬件电路与器件设计"
+    },
+    {
+      "occupation_id": "SNO-26d4adf46d714a7384f7",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "声学工程师属于电子硬件开发"
+    },
+    {
+      "occupation_id": "SNO-116b806ddfb60a7b13b5",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-external",
+      "status": "mapped",
+      "reason": "审计专员属于外部与财务审计"
+    },
+    {
+      "occupation_id": "SNO-42c19144f109b760cdab",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "运维主管属于基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-39518cb48e60d9c1e2f3",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "储备运维经理属于基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-a07e16685e40127e5cfc",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "AI算法研究属于算法研究与通用算法"
+    },
+    {
+      "occupation_id": "SNO-550e9f25ea297de08253",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "国际销售工程师属于海外客户开发"
+    },
+    {
+      "occupation_id": "SNO-7c0b4bbb61f7430bd380",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "冶化研究所博士研究员属于化工工艺与生产研究"
+    },
+    {
+      "occupation_id": "SNO-657e5991d09f2f7a6ba9",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "营运属于业务流程运营"
+    },
+    {
+      "occupation_id": "SNO-7a12532546b6c39eaf43",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "综合文秘属于文档与档案文员"
+    },
+    {
+      "occupation_id": "SNO-f9994cae3491f596c567",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "智能化设计属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-dcaf48aa9c467c4e271c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "管理培训生项目缺少具体职能方向，无法确定职业类别"
+    },
+    {
+      "occupation_id": "SNO-d2d7a3083e37d7b28dfb",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "供应商质量管理属于质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-2e21ecab36b22afd5d52",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "机载软件属于嵌入式与固件开发"
+    },
+    {
+      "occupation_id": "SNO-6057faa977b494869142",
+      "target_category_id": "销售/sales-general/general-sales-channel",
+      "status": "mapped",
+      "reason": "渠道销售属于渠道与经销销售"
+    },
+    {
+      "occupation_id": "SNO-56e76966786e7dbf3c94",
+      "target_category_id": "销售/sales-general/general-sales-channel",
+      "status": "mapped",
+      "reason": "渠道销售岗属于渠道与经销销售"
+    },
+    {
+      "occupation_id": "SNO-6ac380cbd71688297b36",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人事属于员工关系与人力运营"
+    },
+    {
+      "occupation_id": "SNO-7095f6634f1330200918",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "采矿技术员属于地质勘查与测绘"
+    },
+    {
+      "occupation_id": "SNO-5440f7424f2865bf2bee",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "数据岗位名称过于笼统，缺少具体方向"
+    },
+    {
+      "occupation_id": "SNO-eeb2ec954fd496da7fdd",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "自控工程师属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-6c08ffb425d7cdf2e054",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务管理专员属于总账与财务核算"
+    },
+    {
+      "occupation_id": "SNO-d6e3485e77c7bf8d04cf",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "数控系统开发属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-4746eb96b44d71d5424d",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-external",
+      "status": "mapped",
+      "reason": "审计员属于外部与财务审计"
+    },
+    {
+      "occupation_id": "SNO-7d3d218934fe97bcd8bf",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电力电子软件属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-0b2d7f4bbec184ed56f3",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电力电子工程师属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-29e9e610c55962f748ed",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "营运管理属于业务流程运营"
+    },
+    {
+      "occupation_id": "SNO-87897b6b39f55b071d55",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "云服务开发属于基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-14a9d936fe34eb5a3013",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "艺术设计属于品牌与视觉设计"
+    },
+    {
+      "occupation_id": "SNO-81418f30c2760d5e1f83",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "芯片工艺属于半导体制造工艺"
+    },
+    {
+      "occupation_id": "SNO-15cc3f92a1718abb40d8",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "芯片工艺研发属于半导体制造工艺"
+    },
+    {
+      "occupation_id": "SNO-3546cf5031d8aca8853a",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "点云处理属于计算机视觉与三维感知"
+    },
+    {
+      "occupation_id": "SNO-07462b5abfb51c0dcde1",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-planning",
+      "status": "mapped",
+      "reason": "水利规划属于国土与城市规划"
+    },
+    {
+      "occupation_id": "SNO-0def3d0020109f89fa6c",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中化学教师属于基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-b57685d2f6912094c5d5",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "status": "mapped",
+      "reason": "音频算法属于语音与音频算法"
+    },
+    {
+      "occupation_id": "SNO-fc0f3cf90dc972425614",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "status": "mapped",
+      "reason": "高级音频算法属于语音与音频算法"
+    }
+  ]
+}

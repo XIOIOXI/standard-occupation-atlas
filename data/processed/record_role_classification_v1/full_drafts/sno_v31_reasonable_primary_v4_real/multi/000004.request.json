@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-6bd53cd199ae218832a1\", \"title\": \"科研助理制种技术员品管员\"}, {\"original_record_id\": \"TG-4b05dcdf1cfb0b1aee62\", \"title\": \"达人BD运营(海外方向)达人BD运营(国内方向)产品专员(AI产品方向)\"}, {\"original_record_id\": \"TG-a5f1781e4d9488cb01ce\", \"title\": \"英才生（对公业务营销、零售业务营销、运营、财会、风险专业管理）\"}, {\"original_record_id\": \"TG-16518f246394c368951d\", \"title\": \"综合管理类法务类招商运营类信息技术类\"}, {\"original_record_id\": \"TG-68a002873e86caf507aa\", \"title\": \"售后调试算法研发软件设计机构设计电气设计光学设计财务管培生\"}, {\"original_record_id\": \"TG-b7de5b4145f9b066548f\", \"title\": \"多职能队员\"}, {\"original_record_id\": \"TG-31854016a49801dba928\", \"title\": \"工程师（自动化、电气、基建、设备）\"}, {\"original_record_id\": \"TG-f63ac49b4832b1f16778\", \"title\": \"研发与品控专员\"}, {\"original_record_id\": \"TG-52687968f4814d17989b\", \"title\": \"煤矿采掘见习技术员煤矿地质见习技术员煤矿水文分析员煤矿通风防尘员新能源巡检员\"}, {\"original_record_id\": \"TG-c73adce8e2dcb3d4f115\", \"title\": \"跨境电商运营产品设计供应链管理产品经理\"}, {\"original_record_id\": \"TG-ba9dd6181eab4ba0da07\", \"title\": \"人力/行政/市场实习生\"}, {\"original_record_id\": \"TG-6a94244ace3227189418\", \"title\": \"算法类软件研发类硬件研发类其他研发类技术支持\"}, {\"original_record_id\": \"TG-efb8bfb5f84dc3d2c5c7\", \"title\": \"天风自营-销售岗/交易员\"}, {\"original_record_id\": \"TG-fee766030ebf02444e13\", \"title\": \"采购与数据分析师（初级）\"}, {\"original_record_id\": \"TG-cbcd1e910e6a10bebd8b\", \"title\": \"软件开发员网络安全员信息设备维修员超高压电力运行维护员综合能源管理员职员\"}, {\"original_record_id\": \"TG-7ac69089d026c50792fe\", \"title\": \"市场营销与平台运营测试和技术支持岗\"}, {\"original_record_id\": \"TG-227672428f434225f461\", \"title\": \"法律与审计\"}, {\"original_record_id\": \"TG-191a268c2ce53e6628e4\", \"title\": \"博士后 材料研发 工艺技术 生产品质 装备管理 市场开发 人力资源 其他岗位\"}, {\"original_record_id\": \"TG-4a8bbe83834964647852\", \"title\": \"电力电子软件 / 硬件工程师\"}, {\"original_record_id\": \"TG-066dc651253aa6bd690c\", \"title\": \"主播/直播运营\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-6bd53cd199ae218832a1",
+    "TG-4b05dcdf1cfb0b1aee62",
+    "TG-a5f1781e4d9488cb01ce",
+    "TG-16518f246394c368951d",
+    "TG-68a002873e86caf507aa",
+    "TG-b7de5b4145f9b066548f",
+    "TG-31854016a49801dba928",
+    "TG-f63ac49b4832b1f16778",
+    "TG-52687968f4814d17989b",
+    "TG-c73adce8e2dcb3d4f115",
+    "TG-ba9dd6181eab4ba0da07",
+    "TG-6a94244ace3227189418",
+    "TG-efb8bfb5f84dc3d2c5c7",
+    "TG-fee766030ebf02444e13",
+    "TG-cbcd1e910e6a10bebd8b",
+    "TG-7ac69089d026c50792fe",
+    "TG-227672428f434225f461",
+    "TG-191a268c2ce53e6628e4",
+    "TG-4a8bbe83834964647852",
+    "TG-066dc651253aa6bd690c"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "938d82ac-e8da-40ac-b2ee-442ec0dc3705",
+  "object": "chat.completion",
+  "created": 1792571452,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-1a36a30feb6b5b2a048be4b482558b5d\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L32-01\",\"L32-02\"],\"title_evidence\":\"标题为“管理培训生”，原始组合岗位含信息技术及人工智能、运营及健康管理、精算及产品开发、财务及投资管理、合规及风险管理、储备青年岗等多个方向\",\"level_3_evidence\":null,\"reason\":\"“管理培训生”为培养项目标签，原始组合岗位列出多个职能方向，未确定单一主要职能；仅行业（金融业）不足以确定职能，符合L32-01说明中应标review的情形，候选为跨职能管理培训与轮岗及综合储备培养。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16958,
+    "completion_tokens": 182,
+    "total_tokens": 17140,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 318
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

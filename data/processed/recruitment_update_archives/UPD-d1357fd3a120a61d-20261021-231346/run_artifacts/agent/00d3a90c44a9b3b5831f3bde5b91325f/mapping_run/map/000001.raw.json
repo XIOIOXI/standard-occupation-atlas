@@ -1,0 +1,28 @@
+{
+  "id": "ab9af9e4-3939-45b2-84ae-cb6ffa235966",
+  "object": "chat.completion",
+  "created": 1792571197,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-00d3a90c44a9b3b5831f3bde5b91325f\",\"status\":\"mapped\",\"target_category_id\":\"L32-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L32-01\",\"L32-02\"],\"title_evidence\":\"集团管培生，属集团层面培养项目，未明确最终职能方向\",\"level_3_evidence\":null,\"reason\":\"标题为集团管培生，属真实培养项目且最终职业方向未明确，符合跨职能管理培训与轮岗定义；原始组合岗位中其他职能岗为并列岗位，不改变本岗位培养性质。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16954,
+    "completion_tokens": 151,
+    "total_tokens": 17105,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 314
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

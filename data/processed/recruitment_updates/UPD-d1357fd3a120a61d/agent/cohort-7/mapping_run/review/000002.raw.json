@@ -1,0 +1,28 @@
+{
+  "id": "d47e9c14-740a-40eb-b590-16506192951b",
+  "object": "chat.completion",
+  "created": 1792596235,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-0e6a4a8d59eef0b905ebb3277a1eb6e3\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“产业发展部办事员”职责未明，候选L11-06/L11-03/L11-02合理，review状态可保留。\"}, {\"occupation_id\": \"UP-e013e0d9fe564d4b2c4c4d4faca82acd\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“技术员”方向未明，结合农林牧渔行业列L26-01/L26-03/L26-07/L26-08候选合理，review状态可保留。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17411,
+    "completion_tokens": 187,
+    "total_tokens": 17598,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 899
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,185 @@
+{
+  "batch_number": 64,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "690b4d03-6305-48a0-bbce-e160c059bd6b",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791822013,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29661,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2269,
+    "output_tokens": 1368,
+    "reasoning_tokens": 0,
+    "total_tokens": 31029
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0012433260000000001
+  },
+  "results": [
+    {
+      "entry_id": "SNO-dd21d0b5798b8d8842f7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "专项科研工程师缺少具体技术方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-dd3bfff7229924411074",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "终端管理职责不明确，缺少行业或管理对象信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-dd6c2d8b13b60a504614",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出兽医、育种、营养、环保、智能研发、客户经理、养殖生产等多个互不兼容的独立职业，且无共同一级或二级上级。"
+    },
+    {
+      "entry_id": "SNO-dd88e054b32502cafd68",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "Rust开发工程师职业清晰，但冻结目录无Rust语言类别，且无法确认共同一级或二级上级。"
+    },
+    {
+      "entry_id": "SNO-dd8dbbdd353963df3e65",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管理培训生（总经理办公室）为培训生名称，缺乏具体职能方向，无法确认职业类别。"
+    },
+    {
+      "entry_id": "SNO-dd91cf8d8a7959b29a1f",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出高分子材料、生物化学、电气自动化、机械设计与制造等多个互不兼容的独立专业方向，且无共同一级或二级上级。"
+    },
+    {
+      "entry_id": "SNO-de2b6eab7752699b125d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "原子物理科学家为科研岗位，目录无对应物理科研三级类别，且无法确认一级或二级上级。"
+    },
+    {
+      "entry_id": "SNO-de59e855ccd595431f7d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "建阳事业部职员未明确具体岗位职责，无法确认职业类别。"
+    },
+    {
+      "entry_id": "SNO-de6642b5618e4da0e587",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "reason": "嵌入式软件工程师核心为嵌入式开发，名称足以支持C++嵌入式与实时开发三级类别。"
+    },
+    {
+      "entry_id": "SNO-decb15e84c6e6d8d2d7d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "城市/客户研究可能涉及市场研究、用户研究或城市规划，名称未明确具体方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-df0c91dd460c568f1b73",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "数智信息名称过于宽泛，缺少具体技术或业务方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-df16c289488eb76d85b8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科研部门科研/技术职责不明确，缺少具体科研方向信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-df62401f57af5d759226",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出安全/质量工程师与会计员/成本管理两个互不兼容的独立职业，且无共同一级或二级上级。"
+    },
+    {
+      "entry_id": "SNO-df72156d3f6441d0dd85",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "开发助理职责不明确，无法确认具体开发方向，不能归入业务服务端开发。"
+    },
+    {
+      "entry_id": "SNO-df80a24712ceaffc52f8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "研发管培生为培训生名称，缺少具体技术方向，无法确认三级类别。"
+    },
+    {
+      "entry_id": "SNO-dfcea39f66b048c43aab",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "仿真开发工程师方向不明确，无法确认属于算法研究或其他开发类别。"
+    },
+    {
+      "entry_id": "SNO-dff9be304b6c81fcdc4c",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出销售、信息科技、客户服务、柜员等多个互不兼容的独立职业，且无共同一级或二级上级。"
+    },
+    {
+      "entry_id": "SNO-e0459d257f739d9a3791",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "戏曲研究所专业技术职责不明确，缺少具体岗位信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-e06a363c5571757c1b04",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "数值模式工程师职业清晰，但冻结目录无气象/环境数值模拟对应三级类别，且无法确认一级或二级上级。"
+    },
+    {
+      "entry_id": "SNO-e0757e0ee4f75b9882b6",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "海外管培生（综合类）为培训生名称，缺少具体职能方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-e0a6e3f2d0d0df8f4ecd",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "战略推进缺少行业与具体职责信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-e0c8860be32cc8ea6706",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含产品市场与运营两个互不兼容的独立职业方向，且无共同一级或二级上级。"
+    },
+    {
+      "entry_id": "SNO-e0d3580f2a73e74c3faa",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "优才生为通用管培生名称，缺少具体职能方向，无法确认职业类别。"
+    },
+    {
+      "entry_id": "SNO-e117accd3c131b2e54ae",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出项目管理、生活服务、人力资源、法务、财务管理多个互不兼容的独立职业方向，且无共同一级或二级上级。"
+    },
+    {
+      "entry_id": "SNO-e123fe22b88fd11df8a5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "厂区技术岗位职责不明确，缺少具体技术方向，无法确认类别。"
+    }
+  ]
+}

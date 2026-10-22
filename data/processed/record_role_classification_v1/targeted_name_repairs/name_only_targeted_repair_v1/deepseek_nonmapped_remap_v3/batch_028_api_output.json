@@ -1,0 +1,28 @@
+{
+  "id": "5d4eb49e-bef6-48be-b42f-eff58a2f7642",
+  "object": "chat.completion",
+  "created": 1791821830,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-459ef2a3e4b3514cfbcf\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"研发工程师仅列学科背景（物理、化学、材料、能源动力），未说明具体研发方向，无法确定三级类别。\"},{\"entry_id\":\"SNO-45b258c51d274a821c27\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"社会福利工作属社会服务领域，冻结目录无对应一级或二级类别。\"},{\"entry_id\":\"SNO-4605546c11e9beaa3210\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"供应链/制造研发管培生为管培生项目，具体职业方向不明确，无法确定类别。\"},{\"entry_id\":\"SNO-461dbd32f4d5773a72df\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"公司级管理培训生未明确具体职能方向，无法确定职业类别。\"},{\"entry_id\":\"SNO-4690effa4d062cdcf725\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"县域综合业务范围过宽，缺少具体业务方向信息，无法确定类别。\"},{\"entry_id\":\"SNO-46bdc8609d6d434df84e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"集团管培生未说明具体职能方向，无法确定唯一职业类别。\"},{\"entry_id\":\"SNO-46d61ea3acfaaf744783\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"低空设计师缺少具体设计方向，无法确定类别。\"},{\"entry_id\":\"SNO-46eb892d812ae575b566\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"总部高级经理职责不明确，缺少具体管理领域，无法确定类别。\"},{\"entry_id\":\"SNO-47665e63e44b257656c9\",\"status\":\"mapped\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"量子计算技术研究员属算法研究与通用算法方向。\"},{\"entry_id\":\"SNO-476d6498eeee5e8d9970\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出电商运营、新媒体运营、跨境电商运营、后期制作、产品开发、采购专员等多个互不兼容的独立职业，无共同上级。\"},{\"entry_id\":\"SNO-47b36c65451d262eeb2e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"2027应届生未表达具体职业职责，无法分类。\"},{\"entry_id\":\"SNO-480606d52d30cfb3dd42\",\"status\":\"mapped\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-embedded\",\"reason\":\"Linux驱动移植与研发属嵌入式与实时开发方向。\"},{\"entry_id\":\"SNO-4825fef82551e81cc35a\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"综合支持职责不明确，缺少具体工作内容信息，无法确定类别。\"},{\"entry_id\":\"SNO-4860cc4528ac87011e08\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“00102低空科技”不是明确岗位名称，缺少职业职责信息。\"},{\"entry_id\":\"SNO-4884c2e8a608ba2278d7\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"技术开发岗(研发)缺少具体技术方向，无法确定三级类别。\"},{\"entry_id\":\"SNO-4885c656a527751de63d\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-algorithm\",\"reason\":\"管培生(人工智能方向)可确认属算法工程师二级，但具体三级方向不明确。\"},{\"entry_id\":\"SNO-48de96acce9ab20f8a20\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时包含生管和采购管理师两个独立职业方向，无共同上级。\"},{\"entry_id\":\"SNO-48ea81f4a31cd17adfec\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"方案助理未明确行业或职能方向，无法确定类别。\"},{\"entry_id\":\"SNO-4921030a67ee50a17ec6\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"空勤技师指向航空领域，冻结目录无航空维修或空勤技术类别。\"},{\"entry_id\":\"SNO-498238278fdb186cc5b1\",\"status\":\"multi_role\",\"target_category_id\":\"互联网/AI\",\"reason\":\"名称列出应用开发与数据研发两个独立技术方向，共同上级为互联网/AI。\"},{\"entry_id\":\"SNO-499625933ebfe06a5f1c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"助理实习生缺少具体岗位职责和方向，无法确定类别。\"},{\"entry_id\":\"SNO-4996a2088757ff737621\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"技术开发岗未说明技术方向，无法确定具体开发类别。\"},{\"entry_id\":\"SNO-49f90fc8661eb4391d23\",\"status\":\"multi_role\",\"target_category_id\":\"财务/审计/税务\",\"reason\":\"名称同时包含出纳与税务专员两个独立财务职业，共同上级为财务/审计/税务。\"},{\"entry_id\":\"SNO-4a0d4edef9c7bfdd16e4\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“综合”名称过于笼统，缺少具体职责信息，无法判断职业类别。\"},{\"entry_id\":\"SNO-4a38d2981e004fa196e5\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"软件开发工程师可确认属互联网/AI一级，但具体语言或方向不明确，无法确定三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29535,
+    "completion_tokens": 1271,
+    "total_tokens": 30806,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2143
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

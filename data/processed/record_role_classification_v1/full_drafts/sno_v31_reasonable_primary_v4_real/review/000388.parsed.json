@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-a108d9a50a4beba91129",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "大宗商贸业务员在销售拓展与贸易执行间存在合理歧义，review状态可接受。"
+    },
+    {
+      "occupation_id": "TG-df342c910dde2de9a455",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "语音大模型方向归语音与音频算法，合理。"
+    },
+    {
+      "occupation_id": "TG-218060a5df4bcbb7476e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "交易分析师归证券与市场研究，合理。"
+    },
+    {
+      "occupation_id": "TG-4e22fa1bf5af52b8302a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "语音算法工程师归语音与音频算法，合理。"
+    },
+    {
+      "occupation_id": "TG-391eb3dca5c3c599ac50",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "认知决策智能架构师归机器学习与算法研发二级，方向未明，合理。"
+    },
+    {
+      "occupation_id": "TG-f6868f1f100977358be8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产业招商推介归招商与租赁销售，合理。"
+    },
+    {
+      "occupation_id": "TG-47d17c74345359ea9e20",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "网络管理员归信息技术支持，合理。"
+    },
+    {
+      "occupation_id": "TG-cf63034cd7912fc52576",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务管理岗归财务综合管理，合理。"
+    },
+    {
+      "occupation_id": "TG-22288a955bceee6b9a36",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机/电工工艺设计归工装模具与工艺装备，合理。"
+    },
+    {
+      "occupation_id": "TG-8e2f846072786a9f7dc3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "增长营销经理归市场策略与营销策划，合理。"
+    },
+    {
+      "occupation_id": "TG-6e52abbf8b4e9865244b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "马克思主义学院专任教师归高等教育教学，合理。"
+    },
+    {
+      "occupation_id": "TG-23a92613704113897f90",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含多个职能岗位，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-bd1fbd0e7a0ff2d3c696",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "养老护理员归养老与生活照护，合理。"
+    },
+    {
+      "occupation_id": "TG-8bbfc455191280008c17",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI视频制作与后期归剪辑与影视后期，合理。"
+    },
+    {
+      "occupation_id": "TG-81e6ff6e1d75cf784c17",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智能云网工程师归网络工程与运维，合理。"
+    },
+    {
+      "occupation_id": "TG-d8d87c846e59ef3c0762",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI应用工程师归大模型与智能应用工程二级，方向未明，合理。"
+    },
+    {
+      "occupation_id": "TG-c951787697514359962b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机器人机械工程师归机械与结构设计二级，方向未明，合理。"
+    },
+    {
+      "occupation_id": "TG-51f5e780348980537922",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智能制造专员归工艺与制造工程二级，方向未明，合理。"
+    },
+    {
+      "occupation_id": "TG-6e208cdbdfde6f3bb153",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "高中物理教师归数学与自然科学教学，合理。"
+    },
+    {
+      "occupation_id": "TG-08d1ccf55dfef6ef6373",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "外贸业务管培生归进出口与贸易执行，合理。"
+    }
+  ],
+  "raw_response_file": "000388.raw.json",
+  "usage": {
+    "input_tokens": 19418,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2906,
+    "output_tokens": 967,
+    "reasoning_tokens": 0,
+    "total_tokens": 20385
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002131272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

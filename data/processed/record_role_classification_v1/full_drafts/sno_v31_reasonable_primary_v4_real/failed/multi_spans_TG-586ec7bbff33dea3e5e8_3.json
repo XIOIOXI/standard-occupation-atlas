@@ -1,0 +1,65 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-586ec7bbff33dea3e5e8",
+  "child_index": 3,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "初级技术动画初级关卡美术初级商业化策划 初级游戏逻辑程序员初级技术动画初级动画师初级游戏策划",
+  "child_title": "初级游戏逻辑程序员",
+  "source_span": {
+    "text": "初级游戏逻辑程序员",
+    "start": 19,
+    "end": 28
+  },
+  "raw_decision": {
+    "original_record_id": "TG-586ec7bbff33dea3e5e8",
+    "case": "A",
+    "child_titles": [
+      "初级技术动画",
+      "初级关卡美术",
+      "初级商业化策划",
+      "初级游戏逻辑程序员",
+      "初级技术动画",
+      "初级动画师",
+      "初级游戏策划"
+    ],
+    "source_spans": [
+      {
+        "text": "初级技术动画",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "初级关卡美术",
+        "start": 6,
+        "end": 12
+      },
+      {
+        "text": "初级商业化策划",
+        "start": 12,
+        "end": 19
+      },
+      {
+        "text": "初级游戏逻辑程序员",
+        "start": 19,
+        "end": 28
+      },
+      {
+        "text": "初级技术动画",
+        "start": 28,
+        "end": 34
+      },
+      {
+        "text": "初级动画师",
+        "start": 34,
+        "end": 39
+      },
+      {
+        "text": "初级游戏策划",
+        "start": 39,
+        "end": 45
+      }
+    ],
+    "reason": "标题由多个独立岗位名称连续拼接而成，可拆分为多个岗位。"
+  }
+}

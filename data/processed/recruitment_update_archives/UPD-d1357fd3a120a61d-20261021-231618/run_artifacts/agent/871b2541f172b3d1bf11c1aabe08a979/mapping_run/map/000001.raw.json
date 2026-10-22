@@ -1,0 +1,28 @@
+{
+  "id": "8dde03b0-af82-490e-9e76-7d0aaa0c78a2",
+  "object": "chat.completion",
+  "created": 1792571827,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-871b2541f172b3d1bf11c1aabe08a979\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L06-06-01\",\"L06-09\",\"L32-01\",\"L32-02\"],\"title_evidence\":\"研发管培生；公司为消费品（乳制品）企业，研发方向可能为食品饮料研发，但标题仅写“研发”未明确研发领域\",\"level_3_evidence\":null,\"reason\":\"“研发管培生”为培养/轮岗性质岗位，且研发方向未明确（消费品企业可能对应食品饮料研发 L06-06-01，也可能为通用工业技术研发 L06-09），同时存在跨职能培养属性，无法唯一确定正式目标，列为 review。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16980,
+    "completion_tokens": 185,
+    "total_tokens": 17165,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 340
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

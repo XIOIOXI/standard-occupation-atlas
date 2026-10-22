@@ -1,0 +1,28 @@
+{
+  "id": "f6486ae1-e842-4e54-887a-0ea33149ae00",
+  "object": "chat.completion",
+  "created": 1792571389,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-130126473a40ff7b540be60ee9743cdb\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L06-08-01\", \"issue\": \"灌包装工艺工程师归制造制程工程合理，主归属与三级直达均成立。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17052,
+    "completion_tokens": 84,
+    "total_tokens": 17136,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 540
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

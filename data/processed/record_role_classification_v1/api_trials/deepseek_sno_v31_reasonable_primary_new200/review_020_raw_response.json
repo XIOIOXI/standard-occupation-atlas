@@ -1,0 +1,28 @@
+{
+  "id": "eb4b0894-e1c5-4de2-bbf2-ae5efd17f1cb",
+  "object": "chat.completion",
+  "created": 1791841201,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"SNO-0755d97a8e933794e00f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-69ebe18a65bd15ea5754\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-1677f2a71e5fb299b80c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-c87435b3ad5e3fe5ee41\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-282a305da96912400de6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-9a0e64c99e5596385e71\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-0c2481cfc8ceea6299fa\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L22-03\",\"issue\":\"目录中不存在三级分类 L22-03-02，应归入二级分类 L22-03 职业与技术教学。\"},{\"occupation_id\":\"SNO-f283fb7f5fd6ce0f348b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-7eeb75487eaea4cbcc40\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-ce83ab178012f55eea35\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L01-07\",\"issue\":\"目录中不存在三级分类 L01-07-04，且射频仿真软件算法开发更符合系统与基础软件研发，应归入 L01-07。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10756,
+    "completion_tokens": 448,
+    "total_tokens": 11204,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "prompt_cache_hit_tokens": 9216,
+    "prompt_cache_miss_tokens": 1540
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

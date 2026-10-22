@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 85,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "b65b31ef-0fe4-4c18-9f1a-a8e6dbce513e",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751528,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25024,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1728,
+    "output_tokens": 3599,
+    "reasoning_tokens": 0,
+    "total_tokens": 28623
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002488488
+  },
+  "observed_at_utc": "2026-10-11T20:45:29.206223+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-2bc477e61d0293d67e6c",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "素养教师属于基础教育阶段教学岗位，归入教师-基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-5b0f5882b61ff517ad7e",
+      "target_category_id": "医疗健康/health-nurse/nursing-specialist",
+      "status": "mapped",
+      "reason": "文旅营地护士核心职责为护理服务，场景特殊但职业本质为专科与社区护理。"
+    },
+    {
+      "occupation_id": "SNO-a40861f54aac9da46aad",
+      "target_category_id": "运营/客服/ops-content/content-editorial",
+      "status": "mapped",
+      "reason": "宣传管理员通常负责内容编辑与宣传策划，归入内容编辑与策划。"
+    },
+    {
+      "occupation_id": "SNO-e77e5a9120d0e52cbf8c",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电源设计工程师属于电路与硬件设计方向。"
+    },
+    {
+      "occupation_id": "SNO-d4afe2883eb018281ac5",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "人工智能开发工程师，结合招聘专业软件工程、人工智能，归入大模型与生成式AI方向。"
+    },
+    {
+      "occupation_id": "SNO-1fc61d3a70120ced1131",
+      "target_category_id": "运营/客服/ops-social-media/media-video",
+      "status": "mapped",
+      "reason": "电商带货主播新媒体赋能专员核心为短视频与直播运营。"
+    },
+    {
+      "occupation_id": "SNO-4cdc9f99abf3cd21971a",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "杭银理财培训生属于银行零售与综合银行业务方向。"
+    },
+    {
+      "occupation_id": "SNO-d8d42cc98d96cefa9fb0",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "底盘开发属于汽车整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-eeed02f78f92ae4f2dc2",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "Kubernetes系统工程师属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-43e7dacd5eff240ea254",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财会专员核心为总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-4fbaead50cc4e4359036",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-growth",
+      "status": "mapped",
+      "reason": "数字营销经理属于增长与数字营销方向。"
+    },
+    {
+      "occupation_id": "SNO-2fc3e7aa34157a589866",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投融资部工作人员核心为股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-93f1d3a4409f37f46332",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "饲料品控管培生核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-26afb08eddeb29462c7b",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "数字孪生工程师涉及算法研究与通用算法方向。"
+    },
+    {
+      "occupation_id": "SNO-e520c9d919d79ad47f33",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "算法工程师（智能体方向）属于大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-2c46ed9676c2ed0f87ee",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "岗理财经理核心为财富与理财销售。"
+    },
+    {
+      "occupation_id": "SNO-db7f8b9dada19f303453",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-channel",
+      "status": "mapped",
+      "reason": "市场渠道专员属于渠道与营销活动。"
+    },
+    {
+      "occupation_id": "SNO-47f903de130bbeab04fc",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资管理一部投资专员核心为股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-c1d86fa846cec959fee3",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": "市场运营与公关专员核心为品牌公关与传播。"
+    },
+    {
+      "occupation_id": "SNO-eb1c64939426de91e9e3",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "客户质量管理工程师核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-c1cfeea11255e1ef35e2",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "语文教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-e0efc57c3f23f1069bec",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "双语阅读教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-b95055df604d9aebbe70",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "化工设备工程师核心为机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-585c13269d1fa7399dac",
+      "target_category_id": "财务/审计/税务/finance-analysis/finance-bp-analysis",
+      "status": "mapped",
+      "reason": "业财融合岗核心为经营与财务分析。"
+    },
+    {
+      "occupation_id": "SNO-ae917145177b53e79601",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "管理培训生（研发方向）在制造语境下归入生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-8ebf15eb1287bb65309d",
+      "target_category_id": "互联网/AI/internet-project-management/project-product",
+      "status": "mapped",
+      "reason": "美术PM助理属于产品项目管理。"
+    },
+    {
+      "occupation_id": "SNO-6447eb4aa710aea449dc",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "高级硅芯片工程师（有源）属于芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-1eefd0a771b573457d0a",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "QE开发品质工程师核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-3602e0c21a7f823cb084",
+      "target_category_id": "运营/客服/ops-business/business-ops-growth",
+      "status": "mapped",
+      "reason": "经营发展核心为业务增长与策略运营。"
+    },
+    {
+      "occupation_id": "SNO-8c82cf3f160c91660bf9",
+      "target_category_id": "房地产/建筑/estate-landscape/landscape-design",
+      "status": "mapped",
+      "reason": "景观设计属于景观方案与植物设计。"
+    },
+    {
+      "occupation_id": "SNO-be81b985fcbbcb7dd7bb",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出课程顾问、市场运营、学习管理师、新媒体流量项目运营等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-c997b9992950032124da",
+      "target_category_id": "金融/financial-internet/fintech-risk",
+      "status": "mapped",
+      "reason": "供应链金融核心为互联网信贷与风险管理。"
+    },
+    {
+      "occupation_id": "SNO-fcfca7939c3230353504",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "金融综合属于零售与综合银行方向。"
+    },
+    {
+      "occupation_id": "SNO-e6d4033bd9a46dce6a98",
+      "target_category_id": "医疗健康/health-editor/medical-editing-scientific",
+      "status": "mapped",
+      "reason": "医学经理（储备）核心为医学内容编辑。"
+    },
+    {
+      "occupation_id": "SNO-77dcee33c60146d70f88",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "图像处理算法工程师（内镜）属于计算机视觉与三维感知。"
+    },
+    {
+      "occupation_id": "SNO-b6c3295f91370207a021",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "功能安全工程师核心为安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-869c600119685247c114",
+      "target_category_id": "运营/客服/ops-service/service-frontline",
+      "status": "mapped",
+      "reason": "客服培训生属于一线客服与客户支持。"
+    },
+    {
+      "occupation_id": "SNO-585bcbc77f5e20307f9c",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-monitoring",
+      "status": "mapped",
+      "reason": "监测员（A）在环保语境下归入环境监测与评估。"
+    },
+    {
+      "occupation_id": "SNO-1c618cd67311f267b394",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "生成式AI研究员（图形学方向）属于大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-673cbea538fac28d8fba",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "无人机飞行器总体工程师核心为机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-27e7bd3a8e1affe49105",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力主管核心为员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-6c70433d5c684c7b51a5",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电力工程师属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-6c217b494e2919aa769d",
+      "target_category_id": "运营/客服/ops-editor/editing-content",
+      "status": "mapped",
+      "reason": "新媒体编辑核心为内容编辑与审校。"
+    },
+    {
+      "occupation_id": "SNO-a4aab29ba01589447070",
+      "target_category_id": "生产制造/manufacturing-textile/textile-design-apparel",
+      "status": "mapped",
+      "reason": "版师属于服装设计与制版。"
+    },
+    {
+      "occupation_id": "SNO-047ace3a2a03e446d955",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "新能源设计属于能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-cff857c2cfee2ec40fae",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "24V系统工程师属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-4c8b3d3a2484d1d879c4",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产辅料调度员核心为生产计划与调度。"
+    },
+    {
+      "occupation_id": "SNO-b9d600b55f09d4926081",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "面型工程师核心为机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-e6121adcdb521b6c5222",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "工程管理岗属于施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-c3f4f4e38920f803df52",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "GIS软件开发工程师核心为业务服务端开发。"
+    }
+  ]
+}

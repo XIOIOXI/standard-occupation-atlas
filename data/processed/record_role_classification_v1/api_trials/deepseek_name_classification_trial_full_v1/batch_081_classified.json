@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 81,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "059b191e-779c-481c-aa2c-285008cd0425",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751488,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25010,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1714,
+    "output_tokens": 3510,
+    "reasoning_tokens": 0,
+    "total_tokens": 28520
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0024329879999999996
+  },
+  "observed_at_utc": "2026-10-11T20:44:49.189973+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-05d506919ed0ef05a4f5",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时包含财务BP与网络与信息安全工程师两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-99f5e9c0d4bb749aced6",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "质量研究员所属行业不明确，无法判断是生产制造、医药还是其他领域。"
+    },
+    {
+      "occupation_id": "SNO-b1fc56c24e893475517f",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "安全质量管理专员核心职责为质量体系与安全管理。"
+    },
+    {
+      "occupation_id": "SNO-d95e4ffc32ab9faa72c6",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-forestry",
+      "status": "mapped",
+      "reason": "营林技术属于林业与生态技术方向。"
+    },
+    {
+      "occupation_id": "SNO-62c34767cc8fe09c4446",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "软件工程师未明确技术栈或开发方向，无法归入具体三级类别。"
+    },
+    {
+      "occupation_id": "SNO-28e8d92328eba4a10e40",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "国际方向计算机教师属于高等教育教学方向。"
+    },
+    {
+      "occupation_id": "SNO-908f2c74657ac112bff0",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "小学班课主讲教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-3c16c48d7d7bca202956",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "金属产品研发工程师属于机械结构与产品设计方向。"
+    },
+    {
+      "occupation_id": "SNO-9a83f1f53989bb73ef90",
+      "target_category_id": "生活服务/零售/service-retail/retail-store",
+      "status": "mapped",
+      "reason": "优衣库经营管理培训生核心为零售门店运营管理。"
+    },
+    {
+      "occupation_id": "SNO-84256e57af7fbe91c0c9",
+      "target_category_id": "生产制造/manufacturing-garment-production/garment-production-cutting",
+      "status": "mapped",
+      "reason": "助理纸样师管培生属于服装裁剪与缝制生产方向。"
+    },
+    {
+      "occupation_id": "SNO-a85ea12123753041a9e9",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "质量管理系统工程师核心为质量体系与审核。"
+    },
+    {
+      "occupation_id": "SNO-a2b49f98b626846672ea",
+      "target_category_id": "供应链/物流/supply-warehouse/warehouse-inbound",
+      "status": "mapped",
+      "reason": "仓储管培生属于仓储入库与库存管理方向。"
+    },
+    {
+      "occupation_id": "SNO-5c027cbf18e484ead29f",
+      "target_category_id": "互联网/AI/internet-security/security-network",
+      "status": "mapped",
+      "reason": "IT战略管培生(网络系统信安方向)核心为网络与基础设施安全。"
+    },
+    {
+      "occupation_id": "SNO-c750372116fda1654c6a",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": "新媒体运营(商务BD方向)核心为社交媒体运营。"
+    },
+    {
+      "occupation_id": "SNO-0835d4d2b7c006b559db",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "双语分级阅读教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-28da68ec843c64efbaac",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "社会工作服务在目录中无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-57dac82f8b6bf4ab5465",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "status": "mapped",
+      "reason": "C++开发工程师属于系统与底层开发方向。"
+    },
+    {
+      "occupation_id": "SNO-9003d4f0163f44284903",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "智慧学习教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-e8a5652fb754268f2bb4",
+      "target_category_id": "医疗健康/health-pharma-production/pharma-manufacturing-process",
+      "status": "mapped",
+      "reason": "合成/制剂/中药工艺研究员属于药品生产与工艺方向。"
+    },
+    {
+      "occupation_id": "SNO-cddbd32c4806ed3e7c16",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "车载算法验证工程师属于自动驾驶与智能交通算法方向。"
+    },
+    {
+      "occupation_id": "SNO-079994158e812cf04c0e",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量(QE)工程师/测量工程师核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-84970ac2dddb8c49bc26",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "AI0S研究员属于算法研究与通用算法方向。"
+    },
+    {
+      "occupation_id": "SNO-646f7c67c319a3e171dc",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "mapped",
+      "reason": "财务与内控审计属于内部控制与内审方向。"
+    },
+    {
+      "occupation_id": "SNO-e0c8860be32cc8ea6706",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时包含产品市场与运营两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-868326d50d0cb792325b",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "管道工程管理属于施工现场管理方向。"
+    },
+    {
+      "occupation_id": "SNO-5f1eaca3c4fb3c484730",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "动力环境工程师(电源、暖通方向)属于自动化设备与现场调试方向。"
+    },
+    {
+      "occupation_id": "SNO-caa3ccc3d1fdbc840f41",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-external",
+      "status": "mapped",
+      "reason": "审计管培生属于外部与财务审计方向。"
+    },
+    {
+      "occupation_id": "SNO-d5525f6d7f39aea51a04",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "研发岗(二)未明确技术方向或行业，无法归入具体类别。"
+    },
+    {
+      "occupation_id": "SNO-7c45a9ef7079e0130a69",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "产品经营管培生属于平台与企业产品方向。"
+    },
+    {
+      "occupation_id": "SNO-7612c5bbe65a76285262",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "QC研究员核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-30dff024464ba445ca69",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "销售方向管培生属于客户开发与直销方向。"
+    },
+    {
+      "occupation_id": "SNO-ca77ec470e0934289a16",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力行政管培生属于员工关系与人力运营方向。"
+    },
+    {
+      "occupation_id": "SNO-3b7d7f680430c875f15f",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "反不正当竞争研究属于公司法务与合规方向。"
+    },
+    {
+      "occupation_id": "SNO-3b8ab7d4988d4b563333",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-operations",
+      "status": "mapped",
+      "reason": "锡镍贸易业务属于进出口业务与单证方向。"
+    },
+    {
+      "occupation_id": "SNO-004f85831b232bd3537e",
+      "target_category_id": "互联网/AI/internet-security/security-network",
+      "status": "mapped",
+      "reason": "网络安全员属于网络与基础设施安全方向。"
+    },
+    {
+      "occupation_id": "SNO-afabacbf5dcbe349bd7b",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "肿瘤免疫高级研究员属于生物医药研发方向。"
+    },
+    {
+      "occupation_id": "SNO-902aa29d2f3e2942e346",
+      "target_category_id": "教育培训/edu-teacher/teacher-vocational",
+      "status": "mapped",
+      "reason": "护理学教师属于职业与技能教学方向。"
+    },
+    {
+      "occupation_id": "SNO-7adfa9868c1c238b656e",
+      "target_category_id": "互联网/AI/internet-security/security-governance",
+      "status": "mapped",
+      "reason": "网络安全咨询设计工程师属于安全治理与合规方向。"
+    },
+    {
+      "occupation_id": "SNO-d16493d89efe656b8998",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": "社区医生属于临床诊疗方向。"
+    },
+    {
+      "occupation_id": "SNO-f5051b02d16ee17c301a",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "自动化开发属于电气控制与自动化设计方向。"
+    },
+    {
+      "occupation_id": "SNO-a0ef9eb371f606789726",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "生物/微生物研发员属于生物医药研发方向。"
+    },
+    {
+      "occupation_id": "SNO-2aa35284add04f35bfbd",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "产品采购专员属于采购执行与合同管理方向。"
+    },
+    {
+      "occupation_id": "SNO-b593f46933c7d1291c1f",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "无人机感知算法工程师属于机器人与具身智能算法方向。"
+    },
+    {
+      "occupation_id": "SNO-e0f17eefe421752390a1",
+      "target_category_id": "运营/客服/ops-product/prodops-platform",
+      "status": "mapped",
+      "reason": "平台运营属于平台与商家运营方向。"
+    },
+    {
+      "occupation_id": "SNO-86247f1727f74877312a",
+      "target_category_id": "金融/financial-risk/finance-control-risk",
+      "status": "mapped",
+      "reason": "量化风险研究员属于金融风险与合规管理方向。"
+    },
+    {
+      "occupation_id": "SNO-d1c59b6b2b2042d9eab1",
+      "target_category_id": "互联网/AI/internet-python/python-data",
+      "status": "mapped",
+      "reason": "数据抓取工程师属于Python数据与人工智能开发方向。"
+    },
+    {
+      "occupation_id": "SNO-f03e79853b6d88b73e61",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "售后工程师属于技术支持与客户交付方向。"
+    },
+    {
+      "occupation_id": "SNO-89f84cb81a04dca39425",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "班课高中英语教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-66c064a23d8d18732997",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "海洋前沿部署工程师职责方向不明确，无法判断具体类别。"
+    },
+    {
+      "occupation_id": "SNO-6e3b25c0e58434d934f2",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "生物样本库研究员属于生物医药研发方向。"
+    }
+  ]
+}

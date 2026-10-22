@@ -1,0 +1,288 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-2dcda7c9c890c9552550",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-02",
+        "L20-01",
+        "L32-01"
+      ],
+      "title_evidence": "大宗交易分析培训生",
+      "level_3_evidence": null,
+      "reason": "标题含“大宗交易”指向金融交易，但“培训生”表明培养性质且最终职能未明确，无法唯一确定归属。"
+    },
+    {
+      "occupation_id": "TG-5b29ef13775618428c2d",
+      "status": "mapped",
+      "target_category_id": "L04-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L04-01-01",
+        "L04-01-02"
+      ],
+      "title_evidence": "业务测试岗",
+      "level_3_evidence": "功能与业务测试",
+      "reason": "“业务测试”直接对应功能与业务测试，归入软件测试与质量保障下的功能与业务测试。"
+    },
+    {
+      "occupation_id": "TG-984bc94d19a1ecaecb55",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-10",
+        "L03-06"
+      ],
+      "title_evidence": "技术支持工程师\\理工类",
+      "level_3_evidence": null,
+      "reason": "技术支持工程师通常面向客户提供产品售后技术支持，归入售后技术服务；若为企业内部IT支持则归L03-06，但标题未明确。"
+    },
+    {
+      "occupation_id": "TG-912783b7411fe6219f66",
+      "status": "mapped",
+      "target_category_id": "L06-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-09",
+        "L05-07",
+        "L01-08"
+      ],
+      "title_evidence": "光学仿真工程师",
+      "level_3_evidence": null,
+      "reason": "光学仿真属于工业技术研发范畴，但具体方向未明确，归入通用工业技术研发。"
+    },
+    {
+      "occupation_id": "TG-11cce0f54ac3615c6ef2",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-01",
+        "L14-11",
+        "L32-01"
+      ],
+      "title_evidence": "数字化运营管培生",
+      "level_3_evidence": null,
+      "reason": "“数字化运营”指向运营职能，但“管培生”表明培养性质且最终方向未明确，无法唯一确定归属。"
+    },
+    {
+      "occupation_id": "TG-62bfa182eeb2f20554ef",
+      "status": "mapped",
+      "target_category_id": "L14-04-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L14-04-02",
+        "L08-01-01"
+      ],
+      "title_evidence": "电商产品专员",
+      "level_3_evidence": "商品与品类运营",
+      "reason": "电商产品专员通常负责商品运营，归入电商与商品运营下的商品与品类运营。"
+    },
+    {
+      "occupation_id": "TG-772bc8133b2f593e9601",
+      "status": "mapped",
+      "target_category_id": "L03-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L03-05-01"
+      ],
+      "title_evidence": "渗透测试工程师",
+      "level_3_evidence": "渗透攻防漏洞挖掘",
+      "reason": "渗透测试直接对应安全攻防与漏洞研究。"
+    },
+    {
+      "occupation_id": "TG-c01829290a7671f7c646",
+      "status": "mapped",
+      "target_category_id": "L11-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-02",
+        "L11-05"
+      ],
+      "title_evidence": "战略研究专员",
+      "level_3_evidence": null,
+      "reason": "战略研究专员从事企业战略研究，归入战略与经营规划。"
+    },
+    {
+      "occupation_id": "TG-59b82222a57c95fc2ea2",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L14-09"
+      ],
+      "title_evidence": "技术销售工程师（计算机、自然科学、人文社科）",
+      "level_3_evidence": null,
+      "reason": "技术销售工程师以销售为主要职责，归入企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-323251f0826551173c3d",
+      "status": "mapped",
+      "target_category_id": "L01-06-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-06-01",
+        "L01-06-02"
+      ],
+      "title_evidence": "嵌入式助理工程师",
+      "level_3_evidence": "嵌入式应用开发",
+      "reason": "嵌入式助理工程师通常从事嵌入式应用开发，归入嵌入式应用开发。"
+    },
+    {
+      "occupation_id": "TG-57cf9315998403c073f1",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-02",
+        "L13-02",
+        "L32-01"
+      ],
+      "title_evidence": "经纪管培生",
+      "level_3_evidence": null,
+      "reason": "“经纪”可能指向金融经纪或销售，但“管培生”表明培养性质且最终职能未明确，无法唯一确定归属。"
+    },
+    {
+      "occupation_id": "TG-75bd25a7fe8206ea157c",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L01-06-01"
+      ],
+      "title_evidence": "Labview 软件工程师",
+      "level_3_evidence": null,
+      "reason": "Labview 是软件开发语言/工具，但未明确具体开发方向，归入通用软件研发。"
+    },
+    {
+      "occupation_id": "TG-8b051fe1b2dc69021592",
+      "status": "mapped",
+      "target_category_id": "L10-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L10-01-01",
+        "L10-01-02"
+      ],
+      "title_evidence": "技术项目经理 - TPM（2026 届校招）",
+      "level_3_evidence": "软件开发项目",
+      "reason": "技术项目经理通常负责软件研发项目统筹，归入软件开发项目。"
+    },
+    {
+      "occupation_id": "TG-bc032e4dd43ee6c0b0c9",
+      "status": "mapped",
+      "target_category_id": "L06-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-09",
+        "L05-07"
+      ],
+      "title_evidence": "仿真分析工程师",
+      "level_3_evidence": null,
+      "reason": "仿真分析属于工业技术研发范畴，但具体方向未明确，归入通用工业技术研发。"
+    },
+    {
+      "occupation_id": "TG-96b06ef31dc621ac4545",
+      "status": "mapped",
+      "target_category_id": "L20-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-10",
+        "L20-04"
+      ],
+      "title_evidence": "债务重组业务岗",
+      "level_3_evidence": null,
+      "reason": "债务重组业务涉及不良资产处置，归入催收与不良资产管理。"
+    },
+    {
+      "occupation_id": "TG-1a2e235061d465ab77a2",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-07",
+        "L16-04"
+      ],
+      "title_evidence": "空运市场专员",
+      "level_3_evidence": null,
+      "reason": "空运市场专员从事市场职能，但具体方向未明确，归入通用市场营销。"
+    },
+    {
+      "occupation_id": "TG-437e0c865c9383447270",
+      "status": "mapped",
+      "target_category_id": "L05-02-04",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-04",
+        "L05-02-03"
+      ],
+      "title_evidence": "封装设计/仿真工程师",
+      "level_3_evidence": "芯片物理设计",
+      "reason": "封装设计属于芯片物理设计范畴，归入芯片物理设计。"
+    },
+    {
+      "occupation_id": "TG-f0e84a8bfac9e2cd5808",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L12-07"
+      ],
+      "title_evidence": "综合营销岗（江北地区）",
+      "level_3_evidence": null,
+      "reason": "综合营销岗通常以销售为主，但客户类型与方向未明确，归入通用销售。"
+    },
+    {
+      "occupation_id": "TG-b1d0cda315f0920fcd2a",
+      "status": "mapped",
+      "target_category_id": "L19-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L19-01-01",
+        "L19-01-03"
+      ],
+      "title_evidence": "助理会计",
+      "level_3_evidence": "总账与财务会计",
+      "reason": "助理会计通常从事财务会计核算，归入总账与财务会计。"
+    },
+    {
+      "occupation_id": "TG-17e704b659c87b8e67fe",
+      "status": "mapped",
+      "target_category_id": "L19-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-06"
+      ],
+      "title_evidence": "税务核算岗",
+      "level_3_evidence": null,
+      "reason": "税务核算岗从事税务相关工作，归入税务。"
+    }
+  ],
+  "raw_response_file": "000453.raw.json",
+  "usage": {
+    "input_tokens": 17356,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 844,
+    "output_tokens": 2516,
+    "reasoning_tokens": 0,
+    "total_tokens": 19872
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003371472
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

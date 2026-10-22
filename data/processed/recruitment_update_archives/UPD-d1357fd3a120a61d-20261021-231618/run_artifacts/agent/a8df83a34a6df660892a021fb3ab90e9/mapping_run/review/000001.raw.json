@@ -1,0 +1,28 @@
+{
+  "id": "ab250dd6-7183-4232-8c80-0b3aa1586273",
+  "object": "chat.completion",
+  "created": 1792571896,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-a8df83a34a6df660892a021fb3ab90e9\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L16-02\",\"issue\":\"标题“供应链专员”明确属供应链职能，未说明具体方向，归L16-02供应链规划与管理合理；停在二级不虚构三级，符合规则。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17028,
+    "completion_tokens": 89,
+    "total_tokens": 17117,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 516
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

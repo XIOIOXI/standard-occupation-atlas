@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-0938be81d35ba28514b8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-041933ac878a60576283",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-256e2df6c67e32ae721a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-c041221c906bdd6aba96",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-6d05cfd1a2e04b94484a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-aaac9cb80cd0465f923c",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L01-11",
+      "issue": "CAM软件开发工程师属于通用软件开发，方向未明确，应归L01-11而非L01-07-04中间件与基础框架。"
+    },
+    {
+      "occupation_id": "TG-c8d929df3bae012cb5f7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-577816742a98d72d6332",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-f3da16c3c822b16e0597",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-2f66c9f33b54a259b4e5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-c40d51463d8380c497e9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-4b348d31f829f39248e7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-6532f7d2763ff1c5038c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-9b5393b30da4515b5839",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-7ac659aa9131ca484ffb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-dbdad42461e87f095343",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-8284f5c8a6ec1b03eccd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-056468f1ebb2ea85e1c6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-bd130daf893c5a0871b6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-8c78c26bd2705f199d00",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ],
+  "raw_response_file": "000171.raw.json",
+  "usage": {
+    "input_tokens": 19380,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2868,
+    "output_tokens": 772,
+    "reasoning_tokens": 0,
+    "total_tokens": 20152
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0018858719999999998
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

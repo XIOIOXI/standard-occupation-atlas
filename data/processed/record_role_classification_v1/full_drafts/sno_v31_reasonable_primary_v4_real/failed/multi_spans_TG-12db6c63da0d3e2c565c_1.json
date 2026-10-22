@@ -1,0 +1,65 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-12db6c63da0d3e2c565c",
+  "child_index": 1,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "文案策划/AE助理签约经纪人商务IF插画师/IP动画师小红书视频编导(娱乐影视方向）",
+  "child_title": "AE助理",
+  "source_span": {
+    "text": "AE助理",
+    "start": 5,
+    "end": 10
+  },
+  "raw_decision": {
+    "original_record_id": "TG-12db6c63da0d3e2c565c",
+    "case": "A",
+    "child_titles": [
+      "文案策划",
+      "AE助理",
+      "签约经纪人",
+      "商务",
+      "IF插画师",
+      "IP动画师",
+      "小红书视频编导(娱乐影视方向）"
+    ],
+    "source_spans": [
+      {
+        "text": "文案策划",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "AE助理",
+        "start": 5,
+        "end": 10
+      },
+      {
+        "text": "签约经纪人",
+        "start": 10,
+        "end": 15
+      },
+      {
+        "text": "商务",
+        "start": 15,
+        "end": 17
+      },
+      {
+        "text": "IF插画师",
+        "start": 17,
+        "end": 22
+      },
+      {
+        "text": "IP动画师",
+        "start": 23,
+        "end": 28
+      },
+      {
+        "text": "小红书视频编导(娱乐影视方向）",
+        "start": 28,
+        "end": 43
+      }
+    ],
+    "reason": "斜杠分隔多个独立岗位，可拆分"
+  }
+}

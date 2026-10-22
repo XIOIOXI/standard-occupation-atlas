@@ -1,0 +1,236 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-f0b0c5995db2f9711744",
+      "status": "mapped",
+      "target_category_id": "L18-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "企业文化助理",
+      "level_3_evidence": null,
+      "reason": "企业文化属于组织支持职能，助理岗位归入通用组织支持。"
+    },
+    {
+      "occupation_id": "TG-f90e582de3475a879f80",
+      "status": "mapped",
+      "target_category_id": "L01-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "游戏渲染开发工程师",
+      "level_3_evidence": "游戏渲染开发工程师",
+      "reason": "游戏渲染开发直接对应图形渲染开发。"
+    },
+    {
+      "occupation_id": "TG-075d453772ce9c215b78",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L20-11"
+      ],
+      "title_evidence": "管理培训生金融投资类金融科技类金融业务类",
+      "level_3_evidence": null,
+      "reason": "标题含管理培训生及多个金融方向，最终职能未明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-94e99c28f6d8392f9566",
+      "status": "mapped",
+      "target_category_id": "L13-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "药店店长/店员",
+      "level_3_evidence": null,
+      "reason": "药店店员属于门店导购与营业销售，店长含管理但整体归入门店销售。"
+    },
+    {
+      "occupation_id": "TG-373e8b48335f7183b88e",
+      "status": "mapped",
+      "target_category_id": "L01-06-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "嵌入式软件开发岗",
+      "level_3_evidence": "嵌入式软件开发岗",
+      "reason": "嵌入式软件开发直接对应嵌入式应用开发。"
+    },
+    {
+      "occupation_id": "TG-50e97b2fba55103746df",
+      "status": "mapped",
+      "target_category_id": "L22-03-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "机械专业教师",
+      "level_3_evidence": "机械专业教师",
+      "reason": "机械专业教学属于工业与职业技能教学。"
+    },
+    {
+      "occupation_id": "TG-261b2077866aae6b9b75",
+      "status": "mapped",
+      "target_category_id": "L01-06-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "Runtime/PCle 驱动工程师",
+      "level_3_evidence": "Runtime/PCle 驱动工程师",
+      "reason": "驱动工程师直接对应固件与底层驱动。"
+    },
+    {
+      "occupation_id": "TG-1c1b269f7b38f2a269b3",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-02",
+        "L01-01",
+        "L04-01"
+      ],
+      "title_evidence": "JAVA开发WEB前端开发测试工程师",
+      "level_3_evidence": null,
+      "reason": "标题包含后端、前端、测试多个不同职能，无法归入单一类别。"
+    },
+    {
+      "occupation_id": "TG-369839ec27843e2e7b5d",
+      "status": "mapped",
+      "target_category_id": "L06-08-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "EIT Manufacturing Engineer",
+      "level_3_evidence": "EIT Manufacturing Engineer",
+      "reason": "制造工程师（EIT）通常负责生产导入与工艺，归入工业化与生产导入。"
+    },
+    {
+      "occupation_id": "TG-0ed4d5fc7ee765f6c957",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "人力资源岗(专员)",
+      "level_3_evidence": null,
+      "reason": "人力资源专员未指明具体模块，归入人力资源综合管理。"
+    },
+    {
+      "occupation_id": "TG-d342c4987fc575ed0d03",
+      "status": "mapped",
+      "target_category_id": "L24-13",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "BIM工程师",
+      "level_3_evidence": null,
+      "reason": "BIM工程师属于建筑工程领域，但具体方向未明确，归入通用建筑与工程工作。"
+    },
+    {
+      "occupation_id": "TG-10da7f41239c9717b0b1",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "员工（客户经理方向）",
+      "level_3_evidence": null,
+      "reason": "客户经理方向明确为销售职能，未指明客户类型，归入企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-df0c0829a135a1801468",
+      "status": "mapped",
+      "target_category_id": "L18-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "文秘管培生",
+      "level_3_evidence": null,
+      "reason": "文秘管培生已明确文秘职能，归入秘书助理与文书事务。"
+    },
+    {
+      "occupation_id": "TG-1d8e29fa8d7cb79686a5",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "商务管培生-电商",
+      "level_3_evidence": null,
+      "reason": "商务管培生方向为电商，但具体销售或运营职能未明确，归入通用销售。"
+    },
+    {
+      "occupation_id": "TG-a07a3c254f4c1136f9f0",
+      "status": "mapped",
+      "target_category_id": "L22-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "研学营地生活导师",
+      "level_3_evidence": null,
+      "reason": "研学营地生活导师属于教学辅助与学员服务。"
+    },
+    {
+      "occupation_id": "TG-e6565f1a239360e52261",
+      "status": "mapped",
+      "target_category_id": "L02-06-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "Agent技术工程师",
+      "level_3_evidence": "Agent技术工程师",
+      "reason": "Agent技术工程师直接对应智能体与工具编排。"
+    },
+    {
+      "occupation_id": "TG-7fa82ec5424a9dfc34a1",
+      "status": "mapped",
+      "target_category_id": "L08-01-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "车辆数据产品工程师",
+      "level_3_evidence": "车辆数据产品工程师",
+      "reason": "车辆数据产品工程师属于平台与技术产品管理。"
+    },
+    {
+      "occupation_id": "TG-512bfb7e1b0de33fe20f",
+      "status": "mapped",
+      "target_category_id": "L06-03-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "车辆控制工程师",
+      "level_3_evidence": "车辆控制工程师",
+      "reason": "车辆控制工程师属于底盘与车辆工程。"
+    },
+    {
+      "occupation_id": "TG-49af46dcaf69ee9157e6",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "整机工艺设计",
+      "level_3_evidence": "整机工艺设计",
+      "reason": "整机工艺设计属于制造制程工程。"
+    },
+    {
+      "occupation_id": "TG-944d6d806fcd21f612b9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L07-05",
+        "L32-01"
+      ],
+      "title_evidence": "博士生岗位",
+      "level_3_evidence": null,
+      "reason": "博士生岗位可能为科研或培养项目，具体职能未明确，需人工确认。"
+    }
+  ],
+  "raw_response_file": "000385.raw.json",
+  "usage": {
+    "input_tokens": 17369,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 857,
+    "output_tokens": 2237,
+    "reasoning_tokens": 0,
+    "total_tokens": 19606
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003040572
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

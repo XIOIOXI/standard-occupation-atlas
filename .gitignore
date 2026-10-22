@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+
+# Local dependencies and generated caches
+.venv*/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.vite/
+coverage/
+*.log
+
+# Local build previews, test sandboxes, and temporary files
+frontend/dist/
+frontend/.preview-build/
+outputs/
+.tmp*/
+backend/tests/.tmp/
+
+# Personal documents unrelated to the application
+/*.docx
+/fill_resume_template.py

@@ -1,0 +1,283 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-31b903ebaa6fa328238f",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01",
+        "L01-11"
+      ],
+      "title_evidence": "仿真工程师",
+      "level_3_evidence": null,
+      "reason": "仿真工程师通常属于机械与结构设计范畴，但标题未明确具体三级方向，故映射至L06-01机械与结构设计。"
+    },
+    {
+      "occupation_id": "TG-4ab8212520b86a2435fe",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01",
+        "L07-01"
+      ],
+      "title_evidence": "机械系统研究员",
+      "level_3_evidence": null,
+      "reason": "机械系统研究员属于机械与结构设计领域，但未明确三级方向，故映射至L06-01。"
+    },
+    {
+      "occupation_id": "TG-0cc6b2ef6f6475862d32",
+      "status": "mapped",
+      "target_category_id": "L03-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-07",
+        "L01-10"
+      ],
+      "title_evidence": "数智部信息化岗",
+      "level_3_evidence": null,
+      "reason": "信息化岗通常负责组织信息化规划与管理，属于L03-07信息化管理。"
+    },
+    {
+      "occupation_id": "TG-d74eb1759cad039fcf27",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-02",
+        "L06-01"
+      ],
+      "title_evidence": "机械/热能工程师",
+      "level_3_evidence": null,
+      "reason": "标题包含热能，属于热流体与动力工程，故映射至L06-02。"
+    },
+    {
+      "occupation_id": "TG-d0850a4454070f14702d",
+      "status": "mapped",
+      "target_category_id": "L03-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-03"
+      ],
+      "title_evidence": "网络维护工程师",
+      "level_3_evidence": null,
+      "reason": "网络维护工程师属于网络工程与运维，映射至L03-03。"
+    },
+    {
+      "occupation_id": "TG-dc80aab9102cb6ee5d74",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L23-10",
+        "L23-09",
+        "L19-08",
+        "L18-09",
+        "L03-07"
+      ],
+      "title_evidence": "生产技术类 设备管理类 财务管理类 职能管理类 信息化类（轻化工程 制浆造纸 电气工程及自动化 机械设计制造 过程装备与控制工程 会计学 经济学 税务学 审计学 工商管理 人力资源管理 企业管理 法学......",
+      "level_3_evidence": null,
+      "reason": "标题列出多个职能类别，无法确定单一主归属，属于多角色岗位。"
+    },
+    {
+      "occupation_id": "TG-46e7b7cb6b623dc33a7c",
+      "status": "mapped",
+      "target_category_id": "L03-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-05",
+        "L02-06"
+      ],
+      "title_evidence": "AI安全技术工程师",
+      "level_3_evidence": null,
+      "reason": "AI安全技术工程师属于信息安全领域，映射至L03-05。"
+    },
+    {
+      "occupation_id": "TG-68886a35880943432e43",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L19-08",
+        "L02-09",
+        "L25-06"
+      ],
+      "title_evidence": "综合气象观测(会计学，财务管理，会计，财务会计类，遥感技术与应用，遥感科学与技术，地理环境遥感，农业遥感，信息技术类，数据智能分析与应用，智能计算及其应用，机器学习......",
+      "level_3_evidence": null,
+      "reason": "标题包含气象观测、会计、信息技术等多个方向，无法确定单一主归属。"
+    },
+    {
+      "occupation_id": "TG-f99e4f00affe3ec75882",
+      "status": "mapped",
+      "target_category_id": "L18-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-06",
+        "L15-11"
+      ],
+      "title_evidence": "英语商务助理",
+      "level_3_evidence": null,
+      "reason": "商务助理属于秘书助理与文书事务，映射至L18-06。"
+    },
+    {
+      "occupation_id": "TG-9c566d4d0fa521fbe9aa",
+      "status": "mapped",
+      "target_category_id": "L19-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-03",
+        "L32-01"
+      ],
+      "title_evidence": "财务计划与分析培训生",
+      "level_3_evidence": null,
+      "reason": "财务计划与分析培训生明确属于财务规划与分析，映射至L19-03。"
+    },
+    {
+      "occupation_id": "TG-04ab6af31e6a0fa7d65a",
+      "status": "mapped",
+      "target_category_id": "L14-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-04",
+        "L14-01"
+      ],
+      "title_evidence": "国际电商平台运营",
+      "level_3_evidence": null,
+      "reason": "国际电商平台运营属于电商与商品运营，映射至L14-04。"
+    },
+    {
+      "occupation_id": "TG-37bdf194db6d1a1f32fc",
+      "status": "mapped",
+      "target_category_id": "L25-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-02"
+      ],
+      "title_evidence": "井下煤炭开采技术岗",
+      "level_3_evidence": null,
+      "reason": "井下煤炭开采技术岗属于采矿与资源开采，映射至L25-02。"
+    },
+    {
+      "occupation_id": "TG-5511cfd16db835b1798e",
+      "status": "mapped",
+      "target_category_id": "L25-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-07",
+        "L06-07"
+      ],
+      "title_evidence": "生物安全专员",
+      "level_3_evidence": null,
+      "reason": "生物安全专员属于安全健康与职业防护，映射至L25-07。"
+    },
+    {
+      "occupation_id": "TG-5336a3725fb86552e3b4",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "实习生（专业不限）",
+      "level_3_evidence": null,
+      "reason": "标题为实习生且专业不限，无法确定具体职能，属于非角色文本。"
+    },
+    {
+      "occupation_id": "TG-b885356a6aac675c00be",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-02",
+        "L06-01"
+      ],
+      "title_evidence": "热管理功能品开发工程师（相关专业：汽车工程，电子，自动化，机械工程，机械设计制造及自动......",
+      "level_3_evidence": null,
+      "reason": "热管理功能品开发工程师属于热流体与动力工程，映射至L06-02。"
+    },
+    {
+      "occupation_id": "TG-93303a0c26f31d200053",
+      "status": "mapped",
+      "target_category_id": "L06-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-04",
+        "L05-01"
+      ],
+      "title_evidence": "电芯设计工程师",
+      "level_3_evidence": null,
+      "reason": "电芯设计工程师属于材料研发领域，映射至L06-04。"
+    },
+    {
+      "occupation_id": "TG-a5f2a563b90249e2c396",
+      "status": "mapped",
+      "target_category_id": "L12-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-01"
+      ],
+      "title_evidence": "岗营销策划岗",
+      "level_3_evidence": null,
+      "reason": "营销策划岗属于市场策略与营销策划，映射至L12-01。"
+    },
+    {
+      "occupation_id": "TG-d32de3864fac406dd77c",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-01",
+        "L06-01"
+      ],
+      "title_evidence": "光学工程师",
+      "level_3_evidence": null,
+      "reason": "光学工程师通常属于电子硬件研发，映射至L05-01。"
+    },
+    {
+      "occupation_id": "TG-e7c8ca29232fb926eea6",
+      "status": "mapped",
+      "target_category_id": "L14-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-11",
+        "L14-06"
+      ],
+      "title_evidence": "一线营运人员",
+      "level_3_evidence": null,
+      "reason": "一线营运人员属于通用业务运营，映射至L14-11。"
+    },
+    {
+      "occupation_id": "TG-f26d0c8a56eb746a59fa",
+      "status": "mapped",
+      "target_category_id": "L08-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-02",
+        "L08-01"
+      ],
+      "title_evidence": "产品专员(生化医药农食相关专业、生物医药类相关专业、生化相关专业)",
+      "level_3_evidence": null,
+      "reason": "产品专员涉及生化医药农食，属于实体产品管理，映射至L08-02。"
+    }
+  ],
+  "raw_response_file": "000013.raw.json",
+  "usage": {
+    "input_tokens": 17468,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 956,
+    "output_tokens": 2518,
+    "reasoning_tokens": 0,
+    "total_tokens": 19986
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003407472
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only"
+}

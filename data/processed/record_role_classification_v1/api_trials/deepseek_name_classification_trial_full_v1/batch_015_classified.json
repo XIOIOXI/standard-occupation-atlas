@@ -1,0 +1,339 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 15,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "c261f9f1-1849-4456-9d67-392ae4e6d432",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750273,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25034,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1738,
+    "output_tokens": 3585,
+    "reasoning_tokens": 0,
+    "total_tokens": 28619
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002481588
+  },
+  "observed_at_utc": "2026-10-11T20:24:33.463614+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-a97082f3834b7dee99a9",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "新药研发研究员核心职责为生物医药研发，归入生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-208d084019a76b3992dc",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "海外市场开发业务员核心为海外客户开发，归入外贸销售。"
+    },
+    {
+      "occupation_id": "SNO-27e63eba60eb4d40d1ac",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "结构材料工程师从事机械结构设计，归入机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-46b168cb4c1760c42084",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "技术服务工程师核心为技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-1f98a40d74833bb705d0",
+      "target_category_id": "运营/客服/ops-social-media/media-video",
+      "status": "mapped",
+      "reason": "新媒体短视频运营专员核心为短视频与直播运营。"
+    },
+    {
+      "occupation_id": "SNO-0aa4084313e9108d99f0",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "产品营销经理核心为品牌与市场策略，海外西葡为修饰。"
+    },
+    {
+      "occupation_id": "SNO-fa8d5d6acb67fed6532a",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "营运管培生(销售方向)核心为销售客户开发。"
+    },
+    {
+      "occupation_id": "SNO-2a3f81424450e8a80ce9",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "工艺开发工程师核心为机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-dce55d76fa5da64b11de",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "机器人后训练工程师核心为机器人与具身智能算法。"
+    },
+    {
+      "occupation_id": "SNO-2ee4f1b7f7c339826607",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "班课初中元素原理教师核心为基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-384cdfac7f171fc8be05",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "零售金融市场营销岗核心为财富与理财销售。"
+    },
+    {
+      "occupation_id": "SNO-bdf546f27a619daaf04a",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "灵巧手与末端操作控制工程师核心为机器人与具身智能算法。"
+    },
+    {
+      "occupation_id": "SNO-e277c18c867a0b392a6b",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "汽车底盘类项目经理核心为整车与零部件研发项目管理。"
+    },
+    {
+      "occupation_id": "SNO-f7757cdb3c4d00cbb195",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-monitoring",
+      "status": "mapped",
+      "reason": "环保/水文技术核心为环境监测与评估。"
+    },
+    {
+      "occupation_id": "SNO-959f2a1cc703b7c5d8b9",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出设备维修员和生产计划专员两个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-2f561812728116dcc4ab",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "电气售后技术支持工程师核心为自动化设备现场调试与支持。"
+    },
+    {
+      "occupation_id": "SNO-74be99cd0064a0476114",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "生鲜品营销管培生核心为品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-b91618f94fcc13c99b77",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安全环保监察核心为安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-41534d94094e20234a73",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "status": "mapped",
+      "reason": "新零售运营核心为门店与现场运营。"
+    },
+    {
+      "occupation_id": "SNO-854bbfb103f0b7333c0e",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出前端和后端两个独立开发方向。"
+    },
+    {
+      "occupation_id": "SNO-65143b7a4a61146c36fe",
+      "target_category_id": "医疗健康/health-clinical/clinical-trial-monitoring",
+      "status": "mapped",
+      "reason": "临床监查员核心为临床监查与数据管理。"
+    },
+    {
+      "occupation_id": "SNO-8eeca842ecd0437b887d",
+      "target_category_id": "运营/客服/ops-editor/editing-content",
+      "status": "mapped",
+      "reason": "文科编辑核心为内容编辑与审校。"
+    },
+    {
+      "occupation_id": "SNO-cd376a0c56f0e1857136",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称仅为招聘计划描述，缺少具体岗位职责信息。"
+    },
+    {
+      "occupation_id": "SNO-d24a17507fc718d2d6bf",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "研究岗(创新策略)核心为市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-d5dfde96d79b07dbbbc9",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "检测鉴定核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-f791081e72abbd0d4a80",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-engineering",
+      "status": "mapped",
+      "reason": "环保管培生核心为环保工程与治理。"
+    },
+    {
+      "occupation_id": "SNO-15ac56d3489612b48b94",
+      "target_category_id": "销售/sales-management/sales-management-strategy",
+      "status": "mapped",
+      "reason": "渠道管理管培生核心为销售策略与渠道管理。"
+    },
+    {
+      "occupation_id": "SNO-a05495cb29991c5fd9a1",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "钢构工程师核心为建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-f7123fa9fe0e0c8aa01b",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务培训生核心为总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-c33ff6ec46336a2a535b",
+      "target_category_id": "设计/design-art-3d-animation/art-3d",
+      "status": "mapped",
+      "reason": "三维设计师核心为三维建模与材质。"
+    },
+    {
+      "occupation_id": "SNO-5ffd726876f05e3a0f57",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌软工程师核心为嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-73a83d5f406a7778f046",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "实习生(股票日内高频)核心为基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-c00a08a3d007ce29b7f6",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "测试工程师核心为功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-aa3cc59bf9b9dabddfd9",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "数字产品师核心为平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-d54bc85905ce2b16e1d5",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "LNG应急储气库专业技术核心为能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-65f4def8eed4a34efa84",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场助理(期刊推广/新媒体运营)核心为品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-b5c9aeb2c806f63793ab",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": "肿瘤科医生核心为临床诊疗。"
+    },
+    {
+      "occupation_id": "SNO-2d930dd0009a4a95dad3",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌入式软件工程师(Linux应用)核心为嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-10e34683b40480e187b1",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "车联网研发工程师核心为无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-54e7c08fe636af5abadf",
+      "target_category_id": "医疗健康/health-clinical/clinical-trial-operations",
+      "status": "mapped",
+      "reason": "管理培训生医学类核心为临床试验运营。"
+    },
+    {
+      "occupation_id": "SNO-d07704cd720053240f80",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产管理培训生核心为生产计划与调度。"
+    },
+    {
+      "occupation_id": "SNO-a81082f90ef2bda3d9a3",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法工程师-运筹优化方向核心为算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-270b98c43dcf37e3097c",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "交付技术工程师核心为项目交付与实施。"
+    },
+    {
+      "occupation_id": "SNO-93883743dbc31eabd135",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "设备师核心为设备维修与安装。"
+    },
+    {
+      "occupation_id": "SNO-178684220e1577b42e5f",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "物理设计工程师核心为芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-c4f5726465e520e1183c",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "探伤工/探伤技术员核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-f4cf8465e32b1803c21d",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "车载无线通信技术支持核心为通信网络建设与维护。"
+    },
+    {
+      "occupation_id": "SNO-7973b012743921fb2f9a",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称仅为专员/技术员/助理，缺少具体职业方向信息。"
+    },
+    {
+      "occupation_id": "SNO-fixed-v2-00750",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源培训生核心为员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-adbe4bc5b0f34ffa63a8",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "算法工程师(计算光刻)核心为半导体制造工艺。"
+    }
+  ]
+}

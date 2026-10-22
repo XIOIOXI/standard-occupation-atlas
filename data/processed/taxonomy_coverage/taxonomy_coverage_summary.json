@@ -1,0 +1,35 @@
+{
+  "analysis_version": "reference-taxonomy-coverage-v3-unit-level-quality-gate",
+  "core_principle": "Reference Taxonomy defines the classification space; recruitment data is mapped into that space.",
+  "snapshot_id": "24923444-9eb3-4f4e-a2eb-e611b964287b",
+  "market_analysis_record_count": 6163,
+  "distinct_raw_job_title_count": 5919,
+  "generated_title_unit_count": 34185,
+  "accepted_title_unit_count": 20964,
+  "review_required_title_unit_count": 8642,
+  "rejected_non_job_fragment_title_unit_count": 4579,
+  "average_generated_units_per_record": 5.5468,
+  "average_accepted_units_per_record": 3.4016,
+  "records_with_more_than_10_generated_units": 1021,
+  "records_with_more_than_10_accepted_units": 519,
+  "mapped_title_unit_count": 20964,
+  "taxonomy_level_3_count": 452,
+  "level_1": {
+    "mapped_count": 11229,
+    "unmapped_count": 9735,
+    "coverage_rate": 0.5356
+  },
+  "level_2": {
+    "mapped_count": 2039,
+    "unmapped_count": 18925,
+    "coverage_rate": 0.0973
+  },
+  "level_3": {
+    "exact_standard_mapped": 1741,
+    "alias_mapped": 0,
+    "semantic_manual_review": 298,
+    "unmapped": 18925,
+    "coverage_rate": 0.083,
+    "mapped_occupation_count": 160
+  }
+}

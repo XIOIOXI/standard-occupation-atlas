@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-7524af5678324388a73e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题仅含商务专员，候选L13-08/L13-04/L13-01均合理，review状态恰当。"
+    },
+    {
+      "occupation_id": "TG-c54b774665dc9c660372",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "资本运作岗归L20-03投行业务与资本市场，合理。"
+    },
+    {
+      "occupation_id": "TG-8410f6eb7eef30633766",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "节能评审咨询归L25-08碳管理与可持续发展，合理。"
+    },
+    {
+      "occupation_id": "TG-048364c9ed19e3148202",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "组织人事岗归L18-04人力资源综合管理，合理。"
+    },
+    {
+      "occupation_id": "TG-3340904243755550b966",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "核算专员归L19-01会计核算，合理。"
+    },
+    {
+      "occupation_id": "TG-12895ffb22c2fef03373",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务会计归L19-01-01总账与财务会计，合理。"
+    },
+    {
+      "occupation_id": "TG-d684ca8fc62e6f12d10b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务/会计归L19-01-01，合理。"
+    },
+    {
+      "occupation_id": "TG-61ee9832c205fdfc43bd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "技术销售工程师归L13-01企业客户销售，合理。"
+    },
+    {
+      "occupation_id": "TG-4533345ca4b1393864b0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "技术销售工程师归L13-01，合理。"
+    },
+    {
+      "occupation_id": "TG-68c9c8775156c0f74ae0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数控加工工艺师归L06-08-01制造制程工程，合理。"
+    },
+    {
+      "occupation_id": "TG-05670447f496141dc88c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "PCB设计工程师归L05-01-01电路与板级设计，合理。"
+    },
+    {
+      "occupation_id": "TG-b99f1dccb184a295e082",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "PCB设计工程师归L05-01-01，合理。"
+    },
+    {
+      "occupation_id": "TG-6b15f5a359b853f1e2de",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机械工艺工程师归L06-08-01制造制程工程，合理。"
+    },
+    {
+      "occupation_id": "TG-fe735218994ed20e14f9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机械工艺研发工程师归L06-08-01，合理。"
+    },
+    {
+      "occupation_id": "TG-88f2d430189451eebc2c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "工程造价岗归L24-06-01工程造价与预算，合理。"
+    },
+    {
+      "occupation_id": "TG-0f6f556ba6f6fe863b9a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "验证工程师领域不明，候选L04-01/L04-02/L05-02-03均合理，review恰当。"
+    },
+    {
+      "occupation_id": "TG-64c429a646d0c5fca4b3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "外籍业务岗职责不明，候选L13-01/L13-04/L16-04均合理，review恰当。"
+    },
+    {
+      "occupation_id": "TG-1662ef758e80fcf2146f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "项目助理可能为项目管理支持或行政文书，候选L10-06/L18-06均合理，review恰当。"
+    },
+    {
+      "occupation_id": "TG-8443d1ad3c74c15c3995",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "视觉算法工程师归L02-05-01计算机视觉，合理。"
+    },
+    {
+      "occupation_id": "TG-ee4f7358ce28bb5aa5ea",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "资金专员归L19-02出纳与资金结算，合理。"
+    }
+  ],
+  "raw_response_file": "000536.raw.json",
+  "usage": {
+    "input_tokens": 19383,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2871,
+    "output_tokens": 1046,
+    "reasoning_tokens": 0,
+    "total_tokens": 20429
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0022155720000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

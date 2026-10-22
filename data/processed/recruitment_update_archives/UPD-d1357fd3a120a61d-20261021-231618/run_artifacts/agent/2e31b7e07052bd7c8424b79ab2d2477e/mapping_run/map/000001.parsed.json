@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-2e31b7e07052bd7c8424b79ab2d2477e",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L20-08",
+        "L14-07"
+      ],
+      "title_evidence": "总行部门经办岗：银行总行部门经办，未说明具体金融业务方向",
+      "level_3_evidence": null,
+      "reason": "“经办岗”为银行内部泛化事务岗位，未明确具体职能（如信贷、清算、运营或客户服务），仅凭银行行业背景不足以确定金融专业方向，按规则标 review 并给出候选。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16928,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 288,
+    "output_tokens": 151,
+    "reasoning_tokens": 0,
+    "total_tokens": 17079
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036744
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

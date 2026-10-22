@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-098b08b02b9d2ced823de47f79f5b230",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-08",
+        "L20-11"
+      ],
+      "title_evidence": "直属中心操作岗",
+      "level_3_evidence": null,
+      "reason": "银行直属中心操作岗通常指向金融运营/后台操作类业务，但标题未明确具体业务方向（柜面、清算、登记等），无法确定唯一二级归属；候选为金融运营与交易清算及通用金融专业业务，需进一步确认。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16925,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 285,
+    "output_tokens": 142,
+    "reasoning_tokens": 0,
+    "total_tokens": 17067
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00035574
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

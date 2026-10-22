@@ -1,0 +1,28 @@
+{
+  "id": "2226cb1e-5b6c-46a6-a20f-c249f164f03a",
+  "object": "chat.completion",
+  "created": 1791881283,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-b868584757eade612172\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生且方向未明确，review合理。\"},{\"occupation_id\":\"TG-93960ad287118400972e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"项目策划管理领域未说明，归通用项目管理合理。\"},{\"occupation_id\":\"TG-e3c2b8683a6b62ea2d5b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"行政助理主职能明确，归行政与办公事务合理。\"},{\"occupation_id\":\"TG-5828e381f8e3ef630988\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合电气设计归电气工程合理。\"},{\"occupation_id\":\"TG-099e7fb88305d53de9a8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"学术推广管培生职能不明确，review合理。\"},{\"occupation_id\":\"TG-69d2a1776d104c290a4d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产工艺员归工艺与制造工程合理。\"},{\"occupation_id\":\"TG-e54976c518b25a58e654\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"转化医学专员归临床试验与医学事务合理。\"},{\"occupation_id\":\"TG-fccf3d86d474f2c4ce7e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"软件设计方向未明确，归通用软件研发合理。\"},{\"occupation_id\":\"TG-1406b0cab9ce3c4674a3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"车身开发归车辆与交通装备工程合理。\"},{\"occupation_id\":\"TG-f8af508391b6229f2640\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"分支机构管培生职能不明确，review合理。\"},{\"occupation_id\":\"TG-47101c977edb2be17145\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"项目助理领域未说明，归通用项目管理合理。\"},{\"occupation_id\":\"TG-6b69d85ac59ae7a6de33\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"混塔工艺岗归工艺与制造工程合理。\"},{\"occupation_id\":\"TG-381e69fd61db9b9fe1fc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机务点检备员归设备安装维修与保全合理。\"},{\"occupation_id\":\"TG-c8a9b5c8a36962209c38\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产业金融岗方向未明确，归通用金融专业业务合理。\"},{\"occupation_id\":\"TG-b722c7cbddfe0b4d53ee\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"智能制造操作岗具体工种未说明，归通用生产技术与作业合理。\"},{\"occupation_id\":\"TG-7875e9d4ac6e9a5b57d9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"施工管理岗归施工组织与工程管理合理。\"},{\"occupation_id\":\"TG-9ad97e626c3d6639cbf7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"视觉引导算法归计算机视觉合理。\"},{\"occupation_id\":\"TG-e81cef0296dc82020428\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"养殖技术工程师归畜牧与水产养殖合理。\"},{\"occupation_id\":\"TG-bd21a0bd4a04659b50eb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"IC设计归芯片与集成电路设计合理。\"},{\"occupation_id\":\"TG-e56cda518515f8cd161f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产技术管理岗归生产计划与现场管理合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19323,
+    "completion_tokens": 941,
+    "total_tokens": 20264,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2811
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

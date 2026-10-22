@@ -1,0 +1,28 @@
+{
+  "id": "2baf7c5f-fa2f-4fcd-8ca0-445d6a47a22b",
+  "object": "chat.completion",
+  "created": 1792571379,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-fa95f4f42c6bfc48db163fe5ab79c380\",\"status\":\"mapped\",\"target_category_id\":\"L22-02\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L22-02\",\"L22-05\"],\"title_evidence\":\"标题为高中教师，属于学科与通识教学范畴；公司为教育培训机构，非高校教学\",\"level_3_evidence\":null,\"reason\":\"高中教师明确为学科教学岗位，未说明具体学科，按规则停在 L22-02 学科与通识教学，不选三级；非高等教育，故不归 L22-05。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16924,
+    "completion_tokens": 148,
+    "total_tokens": 17072,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 284
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

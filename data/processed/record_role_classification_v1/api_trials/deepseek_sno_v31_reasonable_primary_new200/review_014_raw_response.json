@@ -1,0 +1,28 @@
+{
+  "id": "a3268bc2-8d41-4b3c-962d-5561ee6bbb7f",
+  "object": "chat.completion",
+  "created": 1791841188,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"SNO-5c1581a20027dec35fb1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-fc3c0d884bdccf30e9df\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-13757b55fc273246f2db\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"“人管业管”含义不明确，无法确认主职能，当前 review 处理合理。\"},{\"occupation_id\":\"SNO-2e78151c69bbd264c2cb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-9e9fb1a01f10bdc8eb93\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-6274dc1dd7b2cf0c5479\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-5dd9b639cfcb79919ebe\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-2fcfa9d7506b3c1e6ae0\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L06-08\",\"issue\":\"目录中不存在 level_3 分类，L06-08-01 为无效目标；应归入 L06-08 工艺与制造工程。\"},{\"occupation_id\":\"SNO-988b3efaea2e7459ef28\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-0c0bd9a23240e8c456b0\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L02-05\",\"issue\":\"目录中不存在 level_3 分类，L02-05-06 为无效目标；小脑算法开发属于机器学习与算法研发，应归入 L02-05。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10722,
+    "completion_tokens": 491,
+    "total_tokens": 11213,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "prompt_cache_hit_tokens": 9216,
+    "prompt_cache_miss_tokens": 1506
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-d55b71519a1608608aaf5b4da1fa2670",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "该输入为多个职能差异明显的岗位组合（电机/传动/工艺/IE/品质/采购/培训/销售/项目/产品助理），无法归入单一类别，标记为 multi_role 合理；候选类别覆盖了各职能方向，无需修正。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17093,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 581,
+    "output_tokens": 116,
+    "reasoning_tokens": 0,
+    "total_tokens": 17209
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00041257199999999994
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

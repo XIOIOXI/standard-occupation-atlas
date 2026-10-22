@@ -1,0 +1,147 @@
+{
+  "batch_number": 2,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18698,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 2058,
+    "output_tokens": 1003,
+    "reasoning_tokens": 0,
+    "total_tokens": 19701
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0009604199999999999
+  },
+  "results": [
+    {
+      "entry_id": "ABNORMAL:RRG-b0cea02045a1f93d999b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，且“调试工程师”未明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-b15475facd212cf707f8",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，FAE应用工程师为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-b19012a5e99f6eadb902",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，电气设计工程师未明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-b27db71ebda64cdf3909",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，12V&48V系统工程师为复合宽泛称谓。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-b784bed17f8a5091475e",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，传统图像算法工程师无法唯一映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-b7e4e505e8d5139eb745",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，财务数字化经理(产品经理方向)为复合岗位。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-b7eddf81f0331c670336",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，电子工程师为宽泛称谓。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-b8ba4bfb45bca9c0a29a",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，氢能技术工程师无法唯一映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-bc25ddac0bf8fb5c482c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，生产学员为宽泛称谓。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-bcae5fb01408235f767d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "销售工程师为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-bda1083b79099a2a8046",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，采购专员为宽泛称谓。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-bfbe483bd9c1121dac80",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，行业国际化发展岗为宽泛复合岗位。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-c08fa86af6299d5d5e71",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，结构工程师无法唯一映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-c1af79dffbc9af0b0a27",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，总经理秘书为宽泛称谓。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-d20965e14904e861130a",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "计划工程师为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-d3aabff664519d500c0f",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "视觉工程师为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-d48a6b56835a141d1a2e",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，航空器适航试验助理工程师无法唯一映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-d58723747aaf56b95dec",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "研发工程师为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-de2790a464a3cda9b554",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，助理为宽泛称谓。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-fc6aa7eb987c76be7f77",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断专业清单，信息化主管无法唯一映射。"
+    }
+  ]
+}

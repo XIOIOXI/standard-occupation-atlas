@@ -1,0 +1,185 @@
+{
+  "batch_number": 12,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "7edd4d32-c0d7-4299-bbb2-9390f74f3780",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813229,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 31104,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3840,
+    "output_tokens": 1985,
+    "reasoning_tokens": 0,
+    "total_tokens": 33089
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001848792
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-bcc49144d7dcf1c44649",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出工商管理、管理科学与工程、公共管理、会计、审计等多个独立职业方向，属于多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-48de96acce9ab20f8a20",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含生管与采购管理师两个独立职业方向，属于多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-1cccd7c603ae202a430c",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "reason": "Cocos开发工程师核心为移动端/游戏客户端开发，归入移动端与客户端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-05bd9c0f0118122a5b8e",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "系统全栈开发以服务端与系统开发为主，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-7bcec095ff6d348955ce",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "篆刻院专业技术属文化艺术专业，目录无对应类别可承接。"
+    },
+    {
+      "occupation_id": "SNO-bbd4c036fef19ad03d2d",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "党委组织部党建业务属党务工作，目录无对应类别可承接。"
+    },
+    {
+      "occupation_id": "SNO-8df149f79de0fc9d0364",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "全栈开发工程师核心为业务服务端开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-99023a1a9feabdd35163",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出车身设计、内外饰设计、底盘设计、电子开发、动力总成、试验试制、项目管理等多个独立汽车研发岗位，属于多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-e14eee65f488e308896e",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "售后服务工程师核心为技术支持与客户交付，韩语为语言修饰，归入技术支持与客户交付合理。"
+    },
+    {
+      "occupation_id": "SNO-e2dab295bf1069eede59",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时列出前后端开发与财务助理两个独立职业方向，属于多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-3cf0b91efe7844bb92cb",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "ICOS开发工程师核心为业务服务端开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-3f078481d3524f9f5a4a",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "算力大模型调优工程师属于大模型与生成式AI方向，归入大模型与生成式AI合理。"
+    },
+    {
+      "occupation_id": "SNO-25cde5a76b408c0f5e53",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出采购、销售、法务、财务等多个独立职业方向，属于多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-7f8ad4820a848c7a0473",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "软件架构师偏向平台与中间件开发，归入平台与中间件开发合理。"
+    },
+    {
+      "occupation_id": "SNO-2274070983a94fa7a3d9",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "医学图像处理研究工程师核心为计算机视觉与图像算法，归入计算机视觉与三维感知合理。"
+    },
+    {
+      "occupation_id": "SNO-2bc5bf11b87b7a076672",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出先进工艺设计、光学设计、电子功能材料、整机工艺设计等多个独立方向，属于多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-aaac9cb80cd0465f923c",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "CAM软件开发工程师核心为图形与高性能计算开发，归入图形与高性能计算合理。"
+    },
+    {
+      "occupation_id": "SNO-1e4174eaaa60abd85816",
+      "decision": "reclassify",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "reason": "养老机构运营属于机构运营管理，不应归为一线老年照护，应改到线下运营下的门店与现场运营。"
+    },
+    {
+      "occupation_id": "SNO-930355c8cab11ad182b7",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出电气技术员、土建技术员、能源技术员、人力资源专员、安全专职、宣传专职等多个独立职业，属于多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-dd91cf8d8a7959b29a1f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出高分子材料、高分子加工、复合材料、生物化学、合成生物学、精细化工、化学、材料类、电气自动化、自动化、机械设计与制造等多个独立专业方向，属于多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-119b3968ba612a5a40a3",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出化学类、药物化学、药事管理、药物制剂、药学、生物制药、制药工程、会计类、国际贸易、化学工程与工艺、财务管理等多个独立职业方向，属于多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-25e686fd2703afcef6d5",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "组合优化研究员核心为算法研究与通用算法，归入算法研究与通用算法合理。"
+    },
+    {
+      "occupation_id": "SNO-fa76bbd7ff0cbfe04dc6",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "ros开发核心为机器人操作系统开发，归入机器人与具身智能合理。"
+    },
+    {
+      "occupation_id": "SNO-556de0e7f5cf95182251",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "reason": "软件开发(嵌入式‐应用、BSP)核心为嵌入式与实时开发，归入嵌入式与实时开发合理。"
+    },
+    {
+      "occupation_id": "SNO-04d45b60cb81a29d2497",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "智能编图技术研发核心为计算机视觉与图像算法，归入计算机视觉与三维感知合理。"
+    }
+  ]
+}

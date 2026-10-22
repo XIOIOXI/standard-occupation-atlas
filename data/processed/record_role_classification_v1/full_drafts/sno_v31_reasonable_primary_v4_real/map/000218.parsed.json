@@ -1,0 +1,269 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-8f5d69986f5357c1b381",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "业务类管培生",
+      "level_3_evidence": null,
+      "reason": "标题仅表明管培生且方向为业务类，未明确具体职能，符合L32-01或L32-02的候选特征，但无法唯一确定，故标review。"
+    },
+    {
+      "occupation_id": "TG-a741d14892e9a5d1006f",
+      "status": "mapped",
+      "target_category_id": "L05-05-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-05-02"
+      ],
+      "title_evidence": "6光模块设计工程师",
+      "level_3_evidence": "光模块设计属于有线与光通信技术",
+      "reason": "光模块设计工程师直接对应有线与光通信技术，归入L05-05-02。"
+    },
+    {
+      "occupation_id": "TG-d8f81c5b6cd42194aa38",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "商业培训生",
+      "level_3_evidence": null,
+      "reason": "商业培训生未明确具体职能，可能为跨职能培养或综合储备，需进一步确认，故标review。"
+    },
+    {
+      "occupation_id": "TG-69facf97d6bd70dbbccc",
+      "status": "mapped",
+      "target_category_id": "L05-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-04"
+      ],
+      "title_evidence": "电机驱动开发工程师",
+      "level_3_evidence": null,
+      "reason": "电机驱动开发属于自动化与控制工程范畴，归入L05-04。"
+    },
+    {
+      "occupation_id": "TG-56107e400bae2522c7a6",
+      "status": "mapped",
+      "target_category_id": "L25-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-08"
+      ],
+      "title_evidence": "碳中和领域助理",
+      "level_3_evidence": null,
+      "reason": "碳中和领域助理直接对应碳管理与可持续发展，归入L25-08。"
+    },
+    {
+      "occupation_id": "TG-107eb5bba53364f7fa80",
+      "status": "mapped",
+      "target_category_id": "L02-07-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-07-01"
+      ],
+      "title_evidence": "具身智能模型推理优化工程师",
+      "level_3_evidence": "模型推理优化属于模型推理与服务",
+      "reason": "具身智能模型推理优化工程师专注于推理优化，归入L02-07-01。"
+    },
+    {
+      "occupation_id": "TG-be8d16efdcc2a1bf8212",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "人寿-上海分公司-人员",
+      "level_3_evidence": null,
+      "reason": "标题仅为公司及人员，未表明具体职业角色，视为非岗位文本。"
+    },
+    {
+      "occupation_id": "TG-22132637b23ddf147c28",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-01",
+        "L13-02",
+        "L14-07",
+        "L14-08"
+      ],
+      "title_evidence": "客户顾问",
+      "level_3_evidence": null,
+      "reason": "客户顾问可能涉及销售或客户服务，但具体职能不明确，需进一步确认，故标review。"
+    },
+    {
+      "occupation_id": "TG-315769271314db2e886e",
+      "status": "mapped",
+      "target_category_id": "L31-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L31-01"
+      ],
+      "title_evidence": "渔港管理工作岗",
+      "level_3_evidence": null,
+      "reason": "渔港管理属于公共事务与基层治理，归入L31-01。"
+    },
+    {
+      "occupation_id": "TG-1d91f51afd008094b129",
+      "status": "mapped",
+      "target_category_id": "L20-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-01-01"
+      ],
+      "title_evidence": "商品研究岗",
+      "level_3_evidence": "商品研究属于证券与市场研究",
+      "reason": "商品研究岗通常涉及金融市场研究，归入L20-01-01。"
+    },
+    {
+      "occupation_id": "TG-2c4c6e4e3b39cabc7c7b",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01"
+      ],
+      "title_evidence": "研发管培生(裸线方向)",
+      "level_3_evidence": null,
+      "reason": "研发管培生明确为培养项目且方向为裸线研发，但具体职能未细化，归入跨职能管理培训与轮岗。"
+    },
+    {
+      "occupation_id": "TG-61182709e299fe983b7d",
+      "status": "mapped",
+      "target_category_id": "L08-01-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L08-01-03"
+      ],
+      "title_evidence": "AI产品助理（金融经济类、数理统计类、信息技术类）",
+      "level_3_evidence": "AI产品属于平台与技术产品",
+      "reason": "AI产品助理负责AI产品规划，归入平台与技术产品。"
+    },
+    {
+      "occupation_id": "TG-b98c79538cd9bd85cb47",
+      "status": "mapped",
+      "target_category_id": "L15-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L15-06"
+      ],
+      "title_evidence": "视频剪辑实习生",
+      "level_3_evidence": null,
+      "reason": "视频剪辑实习生直接对应剪辑与影视后期，归入L15-06。"
+    },
+    {
+      "occupation_id": "TG-8e3d940428414d761692",
+      "status": "mapped",
+      "target_category_id": "L03-05-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L03-05-03"
+      ],
+      "title_evidence": "模型与数据安全工程师",
+      "level_3_evidence": "模型与数据安全属于安全架构与工程",
+      "reason": "模型与数据安全工程师专注于安全架构与工程，归入L03-05-03。"
+    },
+    {
+      "occupation_id": "TG-384b64227ad57f6ebc85",
+      "status": "mapped",
+      "target_category_id": "L02-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-07-02"
+      ],
+      "title_evidence": "智算支撑经理",
+      "level_3_evidence": "智算支撑涉及训练评估与平台工程",
+      "reason": "智算支撑经理负责智能计算平台支撑，归入L02-07-02。"
+    },
+    {
+      "occupation_id": "TG-a2b8de26514c068f59e5",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11"
+      ],
+      "title_evidence": "主任软件工程师",
+      "level_3_evidence": null,
+      "reason": "主任软件工程师未明确具体开发方向，归入通用软件研发。"
+    },
+    {
+      "occupation_id": "TG-dbce998e1487b246cbb5",
+      "status": "mapped",
+      "target_category_id": "L14-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-01"
+      ],
+      "title_evidence": "数字化运营工程师",
+      "level_3_evidence": null,
+      "reason": "数字化运营工程师负责数字化产品运营，归入产品与平台运营。"
+    },
+    {
+      "occupation_id": "TG-bcb43a6504f62006d1fd",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-08-01"
+      ],
+      "title_evidence": "光学镀膜工艺研发岗",
+      "level_3_evidence": "光学镀膜工艺属于制造制程工程",
+      "reason": "光学镀膜工艺研发岗专注于制程开发，归入L06-08-01。"
+    },
+    {
+      "occupation_id": "TG-615564f852e957313db2",
+      "status": "mapped",
+      "target_category_id": "L05-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-01"
+      ],
+      "title_evidence": "数字芯片工程师",
+      "level_3_evidence": "数字芯片设计属于数字芯片设计",
+      "reason": "数字芯片工程师直接对应数字芯片设计，归入L05-02-01。"
+    },
+    {
+      "occupation_id": "TG-a25494575af66215fbd7",
+      "status": "mapped",
+      "target_category_id": "L05-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-04"
+      ],
+      "title_evidence": "仪表与自控工程师",
+      "level_3_evidence": null,
+      "reason": "仪表与自控工程师属于自动化与控制工程，归入L05-04。"
+    }
+  ],
+  "raw_response_file": "000218.raw.json",
+  "usage": {
+    "input_tokens": 17356,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 844,
+    "output_tokens": 2437,
+    "reasoning_tokens": 0,
+    "total_tokens": 19793
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003276672
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

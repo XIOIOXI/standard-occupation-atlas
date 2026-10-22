@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 35,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "97a498c0-c226-4063-a6d9-19d59cc22eb9",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750770,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25053,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1757,
+    "output_tokens": 2767,
+    "reasoning_tokens": 0,
+    "total_tokens": 27820
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001993638
+  },
+  "observed_at_utc": "2026-10-11T20:32:50.786007+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-dac681773d44926f3aa3",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "水文技术员属于地质勘查与测绘相关技术岗位。"
+    },
+    {
+      "occupation_id": "SNO-4546e48b634f9cfcfe8a",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出财富、资管、自营、投行、研究、信息技术、职能等多个独立方向，无法由单一职业类别承接。"
+    },
+    {
+      "occupation_id": "SNO-27026fe2c16187059afd",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "策略助理研究员核心职责为证券研究与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-c2d7501933581cabcb5d",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "教师岗3为教学岗位，未限定学段，按基础教育教师归类。"
+    },
+    {
+      "occupation_id": "SNO-dfde4aa410883c5120aa",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI模型工程师(AI算法)核心为大模型与生成式AI算法开发。"
+    },
+    {
+      "occupation_id": "SNO-8848c934deb305fff505",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "智能驾驶感知算法工程师属于自动驾驶与智能交通算法方向。"
+    },
+    {
+      "occupation_id": "SNO-dcd6ca406be4baeec0bb",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场经理核心职责为品牌与市场策略管理。"
+    },
+    {
+      "occupation_id": "SNO-3cb749c8bd1efe400dac",
+      "target_category_id": "生活服务/零售/service-retail/retail-store",
+      "status": "mapped",
+      "reason": "门店经营管培生面向门店运营与导购管理。"
+    },
+    {
+      "occupation_id": "SNO-8433b57b8c021c2f2e92",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "技术支持与质量安全部售前支持属于售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-b0d0043cf9ddaa466aaa",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "集成营销部项目管理核心为项目交付与实施管理。"
+    },
+    {
+      "occupation_id": "SNO-21ea6cd0395b9318f02b",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "公司会计属于总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-87171966df5517d71e16",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "布局布线算法工程师属于芯片设计方向。"
+    },
+    {
+      "occupation_id": "SNO-ea3751324d6c4762870d",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-applied",
+      "status": "mapped",
+      "reason": "技术研究岗(人工智能应用)核心为机器学习应用。"
+    },
+    {
+      "occupation_id": "SNO-e1fe03a6b0bc178fd2b9",
+      "target_category_id": "影视/传媒/media-performer/performer-acting",
+      "status": "mapped",
+      "reason": "演奏员属于表演与影视演出类。"
+    },
+    {
+      "occupation_id": "SNO-fc5e177a6afa03cf779a",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "应用开发工程师通常指业务服务端应用开发。"
+    },
+    {
+      "occupation_id": "SNO-d8b1334dadfafebe62e1",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "管培生(金融方向)通常面向银行零售与综合业务培养。"
+    },
+    {
+      "occupation_id": "SNO-44aeb53d8cf4e44584ca",
+      "target_category_id": "运营/客服/ops-product/prodops-user",
+      "status": "mapped",
+      "reason": "会员运营属于用户与会员运营。"
+    },
+    {
+      "occupation_id": "SNO-875f599c57099c0b7e6b",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "status": "mapped",
+      "reason": "嵌入式Linux开发属于嵌入式与实时开发。"
+    },
+    {
+      "occupation_id": "SNO-862086270ad43ffdfa63",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资经理助理/交易员核心为投资分析与交易。"
+    },
+    {
+      "occupation_id": "SNO-6280675d0891b1a17853",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "博文教师通常指高校或研究机构教学岗位。"
+    },
+    {
+      "occupation_id": "SNO-deb426fb2ec070da5108",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "消防安全属于安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-0aad22b24a4cea4e6d69",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "信息化运维与AI应用开发工程师核心为基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-d9094e195af8efab4e65",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "营销定向生通常为销售客户开发方向。"
+    },
+    {
+      "occupation_id": "SNO-29b7da3db6d061839d73",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "IT项目支持属于技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-686c305a689aa97264fe",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "status": "mapped",
+      "reason": "即时零售创优生面向门店与现场运营。"
+    },
+    {
+      "occupation_id": "SNO-dcd2e08f970058b7cfff",
+      "target_category_id": "房地产/建筑/estate-landscape/landscape-construction",
+      "status": "mapped",
+      "reason": "生态绿化技术属于景观施工与工程设计。"
+    },
+    {
+      "occupation_id": "SNO-9ec28e5c0633e067d55c",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中班组课教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-0caf47d5cd6aaf21e66b",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资分析核心为股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-f712e8ba7b30306fbef2",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "AI安全与隐私工程师属于应用与数据安全。"
+    },
+    {
+      "occupation_id": "SNO-194f63219f1efa6dcd91",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-external",
+      "status": "mapped",
+      "reason": "财务与审计属于外部与财务审计。"
+    },
+    {
+      "occupation_id": "SNO-1c3bb7d4231842084c9b",
+      "target_category_id": "人力/行政/法务/people-hr/hr-recruiting",
+      "status": "mapped",
+      "reason": "就业见习招聘顾问属于招聘与人才获取。"
+    },
+    {
+      "occupation_id": "SNO-eb4293a37efc1d309668",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "分子实验员属于生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-228066d97610ce75a825",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气技术员/助理工程师属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-7f1e23a3fd10ff68110a",
+      "target_category_id": "生活服务/零售/service-retail/retail-store",
+      "status": "mapped",
+      "reason": "门店管培生面向门店运营与导购管理。"
+    },
+    {
+      "occupation_id": "SNO-15541d2bf6b11b4a0832",
+      "target_category_id": "教育培训/edu-tutor/tutoring-subject",
+      "status": "mapped",
+      "reason": "1对1高中化学教师属于学科辅导。"
+    },
+    {
+      "occupation_id": "SNO-1d50b86e4d9641ff1039",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产经营科职员属于生产计划与调度。"
+    },
+    {
+      "occupation_id": "SNO-5de5c398c40c6b1b1b22",
+      "target_category_id": "销售/sales-course/course-sales-education",
+      "status": "mapped",
+      "reason": "网课销售顾问属于教育课程顾问。"
+    },
+    {
+      "occupation_id": "SNO-a6276a39665395da047c",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "产品专员(生物医药相关)属于平台与企业产品方向。"
+    },
+    {
+      "occupation_id": "SNO-935ea6d7784e39b91bf7",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "传控工程师属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-9d114c76e4ae358d5a6d",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "管培生计划分行青年银行家计划属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-0e7973e99237b57b83da",
+      "target_category_id": "人力/行政/法务/people-reception/reception-administration",
+      "status": "mapped",
+      "reason": "前台经理属于行政前台与总机管理。"
+    },
+    {
+      "occupation_id": "SNO-b790902bcaea4ff3e9e2",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "总行管理培训生通常面向银行综合业务培养。"
+    },
+    {
+      "occupation_id": "SNO-6f011b3bfb7158f6ba42",
+      "target_category_id": "人力/行政/法务/people-hr/hr-learning",
+      "status": "mapped",
+      "reason": "人寿分公司培训管理岗属于培训与人才发展。"
+    },
+    {
+      "occupation_id": "SNO-c290ba96391b423eeb59",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "基层财务属于总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-ed9b93bc45ac1da00239",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "生产工艺工程师(机械/材料/冶金)属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-81df26f58e9b807a75bd",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "行业研究核心为证券研究与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-8e2d52daea5bffb465ef",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "项目管理培训生属于项目交付与实施。"
+    },
+    {
+      "occupation_id": "SNO-d9a5b033d4c8185111ff",
+      "target_category_id": "影视/传媒/media-performer/performer-acting",
+      "status": "mapped",
+      "reason": "民乐队演奏员属于表演与影视演出。"
+    },
+    {
+      "occupation_id": "SNO-2dd49faee21d2967587a",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "物理教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-06170d4941bfd9ee0db3",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": "骨科医师属于临床诊疗。"
+    }
+  ]
+}

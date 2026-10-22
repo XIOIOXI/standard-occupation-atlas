@@ -1,0 +1,28 @@
+{
+  "id": "7c71db1b-81aa-4881-9b18-6e2e22564d12",
+  "object": "chat.completion",
+  "created": 1792571350,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-2466e7e1d68a0e04fddcb9c809579dbd\",\"status\":\"mapped\",\"target_category_id\":\"L02-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L02-03\",\"L02-03-01\",\"L02-03-02\",\"L02-03-03\"],\"title_evidence\":\"岗位名称明确为“数据工程师”，属于数据工程与数据平台开发职能\",\"level_3_evidence\":null,\"reason\":\"“数据工程师”直接对应数据工程与数据平台开发（L02-03），但标题未说明是数仓建模、数据集成管道还是数据计算平台，无法确定三级，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17008,
+    "completion_tokens": 167,
+    "total_tokens": 17175,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 368
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

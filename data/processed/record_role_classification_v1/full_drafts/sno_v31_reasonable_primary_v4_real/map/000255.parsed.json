@@ -1,0 +1,284 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-aaaa5e8baa8f795eb898",
+      "status": "mapped",
+      "target_category_id": "L18-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-01",
+        "L32-01"
+      ],
+      "title_evidence": "猎头管培生",
+      "level_3_evidence": null,
+      "reason": "猎头属于招聘与人才配置职能，管培生为培养标签，不改变职能归属，故归 L18-01。"
+    },
+    {
+      "occupation_id": "TG-1c26b6ef6800ba96d8fa",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L14-09"
+      ],
+      "title_evidence": "助理机器人焊接应用支持海外销售",
+      "level_3_evidence": null,
+      "reason": "标题明确为海外销售，机器人焊接应用支持为产品领域，核心职能为企业客户销售，归 L13-01。"
+    },
+    {
+      "occupation_id": "TG-c3b985fc97b55521322a",
+      "status": "mapped",
+      "target_category_id": "L02-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-06",
+        "L02-07",
+        "L01-09"
+      ],
+      "title_evidence": "AI工程化主管",
+      "level_3_evidence": null,
+      "reason": "AI工程化主管通常负责大模型应用工程化落地，包括模型适配、RAG、Agent等，归 L02-06。"
+    },
+    {
+      "occupation_id": "TG-fb64724956da1d8eb316",
+      "status": "mapped",
+      "target_category_id": "L03-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-07",
+        "L03-01",
+        "L03-02"
+      ],
+      "title_evidence": "市分行本部信息科技岗",
+      "level_3_evidence": null,
+      "reason": "银行市分行本部信息科技岗通常负责分行信息化规划、IT服务与资产管理，归 L03-07。"
+    },
+    {
+      "occupation_id": "TG-f2e1fd722f8477416c87",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-01"
+      ],
+      "title_evidence": "视觉AI算法工程师",
+      "level_3_evidence": "视觉AI算法工程师",
+      "reason": "标题明确为视觉AI算法，直接对应计算机视觉三级，归 L02-05-01。"
+    },
+    {
+      "occupation_id": "TG-6c86f1f75910ce715676",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L03-07",
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "省行/市行本部岗位",
+      "level_3_evidence": null,
+      "reason": "仅说明银行本部岗位，未明确具体职能，无法确定唯一归属，建议人工复核。"
+    },
+    {
+      "occupation_id": "TG-d8751a82e0f42edbe5d5",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01"
+      ],
+      "title_evidence": "职能方向管培生",
+      "level_3_evidence": null,
+      "reason": "职能方向管培生未明确具体职能，属于跨职能管理培训与轮岗，归 L32-01。"
+    },
+    {
+      "occupation_id": "TG-3e6747253887ad982c09",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L32-01"
+      ],
+      "title_evidence": "销售管培生（专业要求:预防兽医、临床兽医、基础兽医、动物药学、兽医、兽医生物信息学、兽医公共卫生学）",
+      "level_3_evidence": null,
+      "reason": "标题明确为销售管培生，专业要求为兽医相关，核心职能为企业客户销售，归 L13-01。"
+    },
+    {
+      "occupation_id": "TG-1b6af80a72e64225b77b",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-06",
+        "L11-07",
+        "L14-11"
+      ],
+      "title_evidence": "协同与综合事务岗",
+      "level_3_evidence": null,
+      "reason": "协同与综合事务岗职责宽泛，可能涉及行政、运营或综合管理，无法确定唯一职能，建议人工复核。"
+    },
+    {
+      "occupation_id": "TG-6351ee479e8fd58a2bcc",
+      "status": "mapped",
+      "target_category_id": "L01-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-01"
+      ],
+      "title_evidence": "Web前端研发工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确为Web前端研发，归前端开发 L01-01。"
+    },
+    {
+      "occupation_id": "TG-88df7131aa2b8ca64a91",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-07",
+        "L14-09",
+        "L14-10"
+      ],
+      "title_evidence": "服务咨询工程师",
+      "level_3_evidence": null,
+      "reason": "服务咨询工程师可能涉及客服、售前或售后技术支持，无法确定唯一归属，建议人工复核。"
+    },
+    {
+      "occupation_id": "TG-ae7db63c1defedefdae7",
+      "status": "mapped",
+      "target_category_id": "L09-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-07",
+        "L09-06"
+      ],
+      "title_evidence": "动作设计师",
+      "level_3_evidence": null,
+      "reason": "动作设计师通常负责动画与动态视觉设计，归 L09-07。"
+    },
+    {
+      "occupation_id": "TG-f742740abfb6b7709a5e",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01"
+      ],
+      "title_evidence": "集团管培生-数字化智能化方向（中旅免税）",
+      "level_3_evidence": null,
+      "reason": "集团管培生-数字化智能化方向，未明确具体职能，属于跨职能管理培训与轮岗，归 L32-01。"
+    },
+    {
+      "occupation_id": "TG-3c45cfee02b3c4bfb356",
+      "status": "mapped",
+      "target_category_id": "L24-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-05"
+      ],
+      "title_evidence": "风景园林设计师助理",
+      "level_3_evidence": null,
+      "reason": "风景园林设计师助理属于园林与景观工程，归 L24-05。"
+    },
+    {
+      "occupation_id": "TG-0d634b30c7873545883d",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L32-01"
+      ],
+      "title_evidence": "销售类管培生(区域销售行业销售市场运营管理)",
+      "level_3_evidence": null,
+      "reason": "销售类管培生，方向包括区域销售、行业销售、市场运营管理，核心为销售职能但客户类型未明确，归通用销售 L13-09。"
+    },
+    {
+      "occupation_id": "TG-328c8e423ced704abe79",
+      "status": "mapped",
+      "target_category_id": "L21-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L21-08",
+        "L21-03-02"
+      ],
+      "title_evidence": "视光中心验光辅助人员",
+      "level_3_evidence": null,
+      "reason": "视光中心验光辅助人员属于医疗辅助与患者服务，归 L21-08。"
+    },
+    {
+      "occupation_id": "TG-61b7be571f9c956ce4b8",
+      "status": "mapped",
+      "target_category_id": "L20-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-07",
+        "L30-03"
+      ],
+      "title_evidence": "风险评审岗(1名)",
+      "level_3_evidence": null,
+      "reason": "风险评审岗通常属于金融风险与信用评估，归 L20-07。"
+    },
+    {
+      "occupation_id": "TG-91ff48329c14064c241a",
+      "status": "mapped",
+      "target_category_id": "L30-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L30-02"
+      ],
+      "title_evidence": "省内外施工项目法务岗",
+      "level_3_evidence": null,
+      "reason": "施工项目法务岗属于企业法务，归 L30-02。"
+    },
+    {
+      "occupation_id": "TG-16a73b5940902d352763",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-05",
+        "L06-07-01"
+      ],
+      "title_evidence": "生信分析师",
+      "level_3_evidence": null,
+      "reason": "生信分析师通常利用机器学习与算法进行生物信息分析，归机器学习与算法研发 L02-05。"
+    },
+    {
+      "occupation_id": "TG-a4d74301421a99da02d8",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11"
+      ],
+      "title_evidence": "IT系统开发实习生",
+      "level_3_evidence": null,
+      "reason": "IT系统开发实习生，方向未明确，归通用软件研发 L01-11。"
+    }
+  ],
+  "raw_response_file": "000255.raw.json",
+  "usage": {
+    "input_tokens": 17403,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 891,
+    "output_tokens": 2545,
+    "reasoning_tokens": 0,
+    "total_tokens": 19948
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0034203719999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

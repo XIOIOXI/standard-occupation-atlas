@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-538109db12a5c42cc7f7\", \"title\": \"运行指挥员调度指挥员通导机务员乌击防范技术员机电设备维修员防火专员\"}, {\"original_record_id\": \"TG-5cc56d2579a9e15f7b37\", \"title\": \"产品开发员质量工程师\"}, {\"original_record_id\": \"TG-ba74af83bd8e2de8d851\", \"title\": \"数字化运营与证件专员\"}, {\"original_record_id\": \"TG-dc80aab9102cb6ee5d74\", \"title\": \"生产技术类 设备管理类 财务管理类 职能管理类 信息化类（轻化工程 制浆造纸 电气工程及自动化 机械设计制造 过程装备与控制工程 会计学 经济学 税务学 审计学 工商管理 人力资源管理 企业管理 法学......\"}, {\"original_record_id\": \"TG-68886a35880943432e43\", \"title\": \"综合气象观测(会计学，财务管理，会计，财务会计类，遥感技术与应用，遥感科学与技术，地理环境遥感，农业遥感，信息技术类，数据智能分析与应用，智能计算及其应用，机器学习......\"}, {\"original_record_id\": \"TG-8c0e2b5e8ed21a504ece\", \"title\": \"高分子新材料研发实验室技术研发人员等。技术工程类：制造系统操作员\"}, {\"original_record_id\": \"TG-b56050d11fa2545ca6cf\", \"title\": \"软/硬件工程师\"}, {\"original_record_id\": \"TG-70778523c8ad101cee9d\", \"title\": \"卡牌策划 平面设计师 原画师 工艺研发市场营销策划TCG运营技术研发与工程类生产运营与管理类项目与业务支持类\"}, {\"original_record_id\": \"TG-ca03eb5390ed445ea68d\", \"title\": \"软件/硬件测试工程师\"}, {\"original_record_id\": \"TG-31fe40440ec92ff3ac30\", \"title\": \"法务&投资类\"}, {\"original_record_id\": \"TG-d5255b2ee156c31bce22\", \"title\": \"软/硬件开发\"}, {\"original_record_id\": \"TG-581051e89cb8b8f7cf1b\", \"title\": \"管培生（数据分析方向、项目管理方向财务方向、法务方向、产品经理方向）\"}, {\"original_record_id\": \"TG-e36a6f9b19540eae3f72\", \"title\": \"电气工程/新能源类 土木工程类 岩体工程/水资源类 测绘科学与技术类 技术经济类管理科学与工程审计类公共管理学类 工商管理类\"}, {\"original_record_id\": \"TG-f500c6f37b2061b1a23c\", \"title\": \"工艺/分析检测/实验员\"}, {\"original_record_id\": \"TG-90465add5a1c596a9f4e\", \"title\": \"测试T程师JAVA开发工程师\"}, {\"original_record_id\": \"TG-c447f7f971752c7da65f\", \"title\": \"营销销售储备生海外营销储备生整车研发储备生智能制造储备生 职能运营储备生\"}, {\"original_record_id\": \"TG-a60126dd35d319f56c23\", \"title\": \"电商平台运营剪辑专员\"}, {\"original_record_id\": \"TG-4378461ae54df7ce5632\", \"title\": \"管培生开发算法产品运营\"}, {\"original_record_id\": \"TG-d4ee971189990779290d\", \"title\": \"管培生岗位(酒店运营、行政、人力、财务方向)\"}, {\"original_record_id\": \"TG-4fd1cfc724f2c0ee45d9\", \"title\": \"卓越领头人计划(兽医育种营养环保智能研发职能类) 储备干部计划(生鲜客户经理养殖生产储备干部兽医师肉食生产储备干部)\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-538109db12a5c42cc7f7",
+    "TG-5cc56d2579a9e15f7b37",
+    "TG-ba74af83bd8e2de8d851",
+    "TG-dc80aab9102cb6ee5d74",
+    "TG-68886a35880943432e43",
+    "TG-8c0e2b5e8ed21a504ece",
+    "TG-b56050d11fa2545ca6cf",
+    "TG-70778523c8ad101cee9d",
+    "TG-ca03eb5390ed445ea68d",
+    "TG-31fe40440ec92ff3ac30",
+    "TG-d5255b2ee156c31bce22",
+    "TG-581051e89cb8b8f7cf1b",
+    "TG-e36a6f9b19540eae3f72",
+    "TG-f500c6f37b2061b1a23c",
+    "TG-90465add5a1c596a9f4e",
+    "TG-c447f7f971752c7da65f",
+    "TG-a60126dd35d319f56c23",
+    "TG-4378461ae54df7ce5632",
+    "TG-d4ee971189990779290d",
+    "TG-4fd1cfc724f2c0ee45d9"
+  ]
+}

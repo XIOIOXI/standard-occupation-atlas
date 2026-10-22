@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-c33184aaf9ac3a33de2c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题并列多个职能方向，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-75ac61bd860b61a7706a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "设备电气岗归电气工程合理。"
+    },
+    {
+      "occupation_id": "TG-a502e73f4aeb5ad94a40",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品策划与运营并列，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-a2f2770f7ff7bf1b92a4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "低延迟系统开发归服务端基础设施开发合理。"
+    },
+    {
+      "occupation_id": "TG-c57e97dedb27e2bf02fd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅语言名称的开发岗归通用软件研发合理。"
+    },
+    {
+      "occupation_id": "TG-f94b292b6a904fb9862f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行网点综合服务归金融运营合理。"
+    },
+    {
+      "occupation_id": "TG-d2563f6872e3f6772662",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行网点综合服务归金融运营合理。"
+    },
+    {
+      "occupation_id": "TG-f80cd634e6f40720de6a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "固装/租赁销售归招商与租赁销售合理。"
+    },
+    {
+      "occupation_id": "TG-6e2775aeaaaba2fd88a7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "人事行政助理归人力资源综合管理合理。"
+    },
+    {
+      "occupation_id": "TG-b49fe75ec984d593e7d0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "技术经济专员方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-fd4c18b98afd241b48eb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "创客教师归信息技术教学合理。"
+    },
+    {
+      "occupation_id": "TG-6ae048cd0748e61baf8e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数据安全应用岗归安全架构与工程合理。"
+    },
+    {
+      "occupation_id": "TG-865cf66717bc549f4695",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "Infra基建开发归服务端基础设施开发合理。"
+    },
+    {
+      "occupation_id": "TG-c3d8d7b269054204bfc1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "Infra基建开发归服务端基础设施开发合理。"
+    },
+    {
+      "occupation_id": "TG-562fe6170e7d2bc5eb9f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机器人部署调试归工业设备安装调试合理。"
+    },
+    {
+      "occupation_id": "TG-499a13fb22d6cb2fa497",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数字化开发方向未说明，归通用软件研发合理。"
+    },
+    {
+      "occupation_id": "TG-c1688e15808b3b8efdb7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "总行IT培训生方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-0914030575e83a185a8a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "Amazon运营归电商店铺运营合理。"
+    },
+    {
+      "occupation_id": "TG-468b9550d58c99e12cab",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "内勤岗方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-662c91c30ad6dd772858",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "暖通与电气并列，multi_role合理。"
+    }
+  ],
+  "raw_response_file": "000140.raw.json",
+  "usage": {
+    "input_tokens": 19456,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2944,
+    "output_tokens": 916,
+    "reasoning_tokens": 0,
+    "total_tokens": 20372
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0020814719999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

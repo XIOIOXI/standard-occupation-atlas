@@ -1,0 +1,431 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-538109db12a5c42cc7f7",
+      "case": "A",
+      "child_titles": [
+        "运行指挥员",
+        "调度指挥员",
+        "通导机务员",
+        "乌击防范技术员",
+        "机电设备维修员",
+        "防火专员"
+      ],
+      "source_spans": [
+        {
+          "text": "运行指挥员",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "调度指挥员",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "通导机务员",
+          "start": 10,
+          "end": 15
+        },
+        {
+          "text": "乌击防范技术员",
+          "start": 15,
+          "end": 22
+        },
+        {
+          "text": "机电设备维修员",
+          "start": 22,
+          "end": 29
+        },
+        {
+          "text": "防火专员",
+          "start": 29,
+          "end": 33
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接拼接，无分隔符，但每个片段均为完整岗位名称，可拆分为多个子岗位。"
+    },
+    {
+      "original_record_id": "TG-5cc56d2579a9e15f7b37",
+      "case": "A",
+      "child_titles": [
+        "产品开发员",
+        "质量工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "产品开发员",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "质量工程师",
+          "start": 5,
+          "end": 10
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接拼接，无分隔符，可拆分为两个子岗位。"
+    },
+    {
+      "original_record_id": "TG-ba74af83bd8e2de8d851",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，包含“与”连接但整体为一个岗位，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-dc80aab9102cb6ee5d74",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为类别名称及专业列表，非具体岗位名称，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-68886a35880943432e43",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称及专业要求，非多个岗位，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-8c0e2b5e8ed21a504ece",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题包含描述性文字和类别，非明确多个独立岗位，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-b56050d11fa2545ca6cf",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为“软/硬件工程师”，斜杠表示或关系，整体为一个岗位类别，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-70778523c8ad101cee9d",
+      "case": "A",
+      "child_titles": [
+        "卡牌策划",
+        "平面设计师",
+        "原画师",
+        "工艺研发",
+        "市场营销策划",
+        "TCG运营",
+        "技术研发与工程类",
+        "生产运营与管理类",
+        "项目与业务支持类"
+      ],
+      "source_spans": [
+        {
+          "text": "卡牌策划",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "平面设计师",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "原画师",
+          "start": 11,
+          "end": 14
+        },
+        {
+          "text": "工艺研发",
+          "start": 15,
+          "end": 19
+        },
+        {
+          "text": "市场营销策划",
+          "start": 19,
+          "end": 25
+        },
+        {
+          "text": "TCG运营",
+          "start": 25,
+          "end": 31
+        },
+        {
+          "text": "技术研发与工程类",
+          "start": 31,
+          "end": 39
+        },
+        {
+          "text": "生产运营与管理类",
+          "start": 39,
+          "end": 47
+        },
+        {
+          "text": "项目与业务支持类",
+          "start": 47,
+          "end": 55
+        }
+      ],
+      "reason": "标题由多个独立岗位或岗位类别名称以空格分隔，可拆分为多个子岗位。"
+    },
+    {
+      "original_record_id": "TG-ca03eb5390ed445ea68d",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为“软件/硬件测试工程师”，斜杠表示或关系，整体为一个岗位类别，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-31fe40440ec92ff3ac30",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为“法务&投资类”，表示一个岗位类别，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-d5255b2ee156c31bce22",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为“软/硬件开发”，斜杠表示或关系，整体为一个岗位类别，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-581051e89cb8b8f7cf1b",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位“管培生”并注明方向，整体为一个岗位，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-e36a6f9b19540eae3f72",
+      "case": "A",
+      "child_titles": [
+        "电气工程/新能源类",
+        "土木工程类",
+        "岩体工程/水资源类",
+        "测绘科学与技术类",
+        "技术经济类",
+        "管理科学与工程",
+        "审计类",
+        "公共管理学类",
+        "工商管理类"
+      ],
+      "source_spans": [
+        {
+          "text": "电气工程/新能源类",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "土木工程类",
+          "start": 10,
+          "end": 15
+        },
+        {
+          "text": "岩体工程/水资源类",
+          "start": 16,
+          "end": 25
+        },
+        {
+          "text": "测绘科学与技术类",
+          "start": 26,
+          "end": 34
+        },
+        {
+          "text": "技术经济类",
+          "start": 35,
+          "end": 40
+        },
+        {
+          "text": "管理科学与工程",
+          "start": 40,
+          "end": 47
+        },
+        {
+          "text": "审计类",
+          "start": 47,
+          "end": 50
+        },
+        {
+          "text": "公共管理学类",
+          "start": 50,
+          "end": 56
+        },
+        {
+          "text": "工商管理类",
+          "start": 57,
+          "end": 62
+        }
+      ],
+      "reason": "标题由多个岗位类别以空格分隔，可拆分为多个子岗位。"
+    },
+    {
+      "original_record_id": "TG-f500c6f37b2061b1a23c",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为“工艺/分析检测/实验员”，斜杠表示或关系，整体为一个岗位类别，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-90465add5a1c596a9f4e",
+      "case": "A",
+      "child_titles": [
+        "测试T程师",
+        "JAVA开发工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "测试T程师",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "JAVA开发工程师",
+          "start": 5,
+          "end": 13
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接拼接，无分隔符，可拆分为两个子岗位。"
+    },
+    {
+      "original_record_id": "TG-c447f7f971752c7da65f",
+      "case": "A",
+      "child_titles": [
+        "营销销售储备生",
+        "海外营销储备生",
+        "整车研发储备生",
+        "智能制造储备生",
+        "职能运营储备生"
+      ],
+      "source_spans": [
+        {
+          "text": "营销销售储备生",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "text": "海外营销储备生",
+          "start": 7,
+          "end": 14
+        },
+        {
+          "text": "整车研发储备生",
+          "start": 14,
+          "end": 21
+        },
+        {
+          "text": "智能制造储备生",
+          "start": 21,
+          "end": 28
+        },
+        {
+          "text": "职能运营储备生",
+          "start": 29,
+          "end": 36
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接拼接，无分隔符，可拆分为多个子岗位。"
+    },
+    {
+      "original_record_id": "TG-a60126dd35d319f56c23",
+      "case": "A",
+      "child_titles": [
+        "电商平台运营",
+        "剪辑专员"
+      ],
+      "source_spans": [
+        {
+          "text": "电商平台运营",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "剪辑专员",
+          "start": 6,
+          "end": 10
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接拼接，无分隔符，可拆分为两个子岗位。"
+    },
+    {
+      "original_record_id": "TG-4378461ae54df7ce5632",
+      "case": "A",
+      "child_titles": [
+        "管培生",
+        "开发",
+        "算法",
+        "产品运营"
+      ],
+      "source_spans": [
+        {
+          "text": "管培生",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "开发",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "text": "算法",
+          "start": 5,
+          "end": 7
+        },
+        {
+          "text": "产品运营",
+          "start": 7,
+          "end": 11
+        }
+      ],
+      "reason": "标题由多个独立岗位或方向名称直接拼接，无分隔符，可拆分为多个子岗位。"
+    },
+    {
+      "original_record_id": "TG-d4ee971189990779290d",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位“管培生”并注明方向，整体为一个岗位，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-4fd1cfc724f2c0ee45d9",
+      "case": "A",
+      "child_titles": [
+        "卓越领头人计划(兽医育种营养环保智能研发职能类)",
+        "储备干部计划(生鲜客户经理养殖生产储备干部兽医师肉食生产储备干部)"
+      ],
+      "source_spans": [
+        {
+          "text": "卓越领头人计划(兽医育种营养环保智能研发职能类)",
+          "start": 0,
+          "end": 25
+        },
+        {
+          "text": "储备干部计划(生鲜客户经理养殖生产储备干部兽医师肉食生产储备干部)",
+          "start": 26,
+          "end": 62
+        }
+      ],
+      "reason": "标题由两个独立计划名称以空格分隔，可拆分为两个子岗位。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 971,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 971,
+    "output_tokens": 2920,
+    "reasoning_tokens": 0,
+    "total_tokens": 3891
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0037953
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

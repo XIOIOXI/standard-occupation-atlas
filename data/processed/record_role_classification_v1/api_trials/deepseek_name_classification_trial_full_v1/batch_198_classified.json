@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 198,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "2bbfa1b3-48b7-46e6-b870-b9d42d5b764f",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751512,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24930,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1634,
+    "output_tokens": 2745,
+    "reasoning_tokens": 0,
+    "total_tokens": 27675
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001961988
+  },
+  "observed_at_utc": "2026-10-11T20:45:13.061660+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-2dcc06104248a1f41b89",
+      "target_category_id": "互联网/AI/internet-data-development/data-application",
+      "status": "mapped",
+      "reason": "金融数据开发属于数据开发方向，金融行业修饰不改变核心职责，归入数据应用与分析开发。"
+    },
+    {
+      "occupation_id": "SNO-2d89ccbf4e1634c6912e",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "国际销售核心为海外客户开发，归入外贸销售下的海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-923b86473e73f0cd5604",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "器件研发工程师通常指电子元器件/电路设计，归入电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-9fc655ea7c5fc0f0a837",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "伺服控制设计师属于电气控制与自动化设计方向。"
+    },
+    {
+      "occupation_id": "SNO-772a7abbf2b97aba4ee7",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中学生物教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-fef00d8f676015382134",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI应用开发通常涉及大模型与生成式AI应用，归入大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-b22dd572aa0be113d47d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI应用开发工程师核心为大模型与生成式AI应用开发。"
+    },
+    {
+      "occupation_id": "SNO-09da0107796bf3c171fb",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI应用研发工程师核心为大模型与生成式AI应用研发。"
+    },
+    {
+      "occupation_id": "SNO-6eaef17f7ed67c811bc8",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI应用工程师核心为大模型与生成式AI应用。"
+    },
+    {
+      "occupation_id": "SNO-c294237e434e315ab0ce",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "AgentInfra研发工程师属于机器学习平台与工程基础设施方向。"
+    },
+    {
+      "occupation_id": "SNO-fa1651eab7e72707dee1",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "AgentInfra工程师属于机器学习平台与工程基础设施方向。"
+    },
+    {
+      "occupation_id": "SNO-4fccecee6d5ea0785793",
+      "target_category_id": "电子/电气/通信/electronic-repair/electronics-repair-industrial",
+      "status": "mapped",
+      "reason": "电修技术员属于工业电子与设备维修。"
+    },
+    {
+      "occupation_id": "SNO-b8e148cf9bcfe9e0304e",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-web",
+      "status": "mapped",
+      "reason": "WebGIS前端工程师属于Web与前端开发。"
+    },
+    {
+      "occupation_id": "SNO-4f9b10513399696667e0",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-web",
+      "status": "mapped",
+      "reason": "webgis前端开发属于Web与前端开发。"
+    },
+    {
+      "occupation_id": "SNO-8884de439da7dd344061",
+      "target_category_id": "金融/financial-risk/finance-control-clearing",
+      "status": "mapped",
+      "reason": "估值核算属于金融清算与运营结算。"
+    },
+    {
+      "occupation_id": "SNO-38c037b625614d050b64",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "纪检监察专员属于员工关系与人力运营范畴。"
+    },
+    {
+      "occupation_id": "SNO-ef986c67dd89ba0febd2",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "软件助理工程师通常为业务服务端开发，归入后端开发。"
+    },
+    {
+      "occupation_id": "SNO-93ecfe4f71c01e023575",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "传感器工程师属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-3aa8833c5c5f2f9f53ea",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "传感器开发工程师属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-e59c5580361d662ec6fd",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "传感器开发属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-098ee74bc6ef60c98626",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "合约管理属于工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-7a9510a03d10deb1f0a2",
+      "target_category_id": "房地产/建筑/estate-worker/construction-worker-structural",
+      "status": "mapped",
+      "reason": "土建技术属于土建与结构施工。"
+    },
+    {
+      "occupation_id": "SNO-40fb4ecd0dc267223445",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务资产属于总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-45ed943ae63914d1a0ba",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "咨询专员属于管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-78fffc7761726f7eac88",
+      "target_category_id": "销售/sales-service/service-sales-enterprise",
+      "status": "mapped",
+      "reason": "技术销售属于企业服务销售。"
+    },
+    {
+      "occupation_id": "SNO-44921a0400829ee2545e",
+      "target_category_id": "运营/客服/ops-cross-border/cross-platform",
+      "status": "mapped",
+      "reason": "海外游戏运营属于跨境平台运营。"
+    },
+    {
+      "occupation_id": "SNO-6fcf8fb54ac70dc40b44",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "AIInfra工程师属于机器学习平台与工程基础设施。"
+    },
+    {
+      "occupation_id": "SNO-b99ced2fd8fe3d3ed294",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "AIinfra工程师属于机器学习平台与工程基础设施。"
+    },
+    {
+      "occupation_id": "SNO-4a16f1b63fdb18e2fb09",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "AIinfra研发工程师属于机器学习平台与工程基础设施。"
+    },
+    {
+      "occupation_id": "SNO-436b978d1fcfaf6c1cb6",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "AIInfra研发工程师属于机器学习平台与工程基础设施。"
+    },
+    {
+      "occupation_id": "SNO-101eedd50b46b244bf50",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "AIInfra研发属于机器学习平台与工程基础设施。"
+    },
+    {
+      "occupation_id": "SNO-c041eecbc648381ce469",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "采购助理工程师属于采购执行与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-1174622c9916e52ccc18",
+      "target_category_id": "运营/客服/ops-domestic-ecommerce/domestic-ecom-platform",
+      "status": "mapped",
+      "reason": "国内游戏运营属于平台店铺运营。"
+    },
+    {
+      "occupation_id": "SNO-dcb72d6b84da52fc51d7",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场营销属于品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-918bba4b940d44129337",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "AI安全工程师属于应用与数据安全。"
+    },
+    {
+      "occupation_id": "SNO-1a01ee7aee5b45fb9136",
+      "target_category_id": "人力/行政/法务/people-hr/hr-learning",
+      "status": "mapped",
+      "reason": "培训属于培训与人才发展。"
+    },
+    {
+      "occupation_id": "SNO-85c28110486fd6fb5744",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-analysis",
+      "status": "mapped",
+      "reason": "分析工程师通常指化学分析，归入化学分析与质量控制。"
+    },
+    {
+      "occupation_id": "SNO-b197f065253d3676f459",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-analysis",
+      "status": "mapped",
+      "reason": "分析研发工程师属于化学分析与质量控制。"
+    },
+    {
+      "occupation_id": "SNO-24e993d29bb77eca559b",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "APP开发工程师属于移动端与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-e617532a0eb73e0e648e",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "APP软件工程师属于移动端与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-3a4e0e9793b5fdcba40b",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "决策规划算法工程师属于自动驾驶与智能交通。"
+    },
+    {
+      "occupation_id": "SNO-98e44d2f203ff603ee4e",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "Cocos2d-x开发工程师属于移动端与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-351657ba7a7cec0b4e0d",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "数字后端设计工程师属于芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-f70ab3a6916918de046d",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "测量技术员属于施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-917132965c78e3432f50",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "产业研究属于市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-ca9eed67f80eb1842b18",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "现场工程师属于施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-b4390c07f152a0936beb",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "施工员属于施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-442abd7d03c3243a2a36",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "智能传感工程师属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-974583c8215a963e87bf",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "金融柜员属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-c688bccc5e72cc605358",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "职能储备为通用储备岗位，缺少具体职能方向，无法确定职业类别。"
+    }
+  ]
+}

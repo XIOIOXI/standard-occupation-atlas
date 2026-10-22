@@ -1,0 +1,28 @@
+{
+  "id": "6eeaccb4-cf85-4386-bdf1-ee86e2909f94",
+  "object": "chat.completion",
+  "created": 1792571777,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-387e85291ca3e2e9dd4d75d164129f77\",\"status\":\"mapped\",\"target_category_id\":\"L20-05\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L20-05\",\"L20-09\",\"L20-07\"],\"title_evidence\":\"车物核损岗：保险理赔中对车辆及财产损失进行核定，属保险核损理赔业务\",\"level_3_evidence\":null,\"reason\":\"车物核损是保险公司理赔环节对车辆与财产损失的核定，直接对应保险核保与理赔（L20-05）；非资产评估或反欺诈专职。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16968,
+    "completion_tokens": 152,
+    "total_tokens": 17120,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 328
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

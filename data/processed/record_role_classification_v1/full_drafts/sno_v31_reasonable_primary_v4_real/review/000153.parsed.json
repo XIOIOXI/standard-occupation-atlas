@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-329e56c40f1f0c9be512",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-919c1e1b56ef8353b2da",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L10-06",
+      "issue": "金融项目管理岗属于金融领域项目管理，L10-01为信息技术项目管理，领域不符；应归L10-06通用项目管理。"
+    },
+    {
+      "occupation_id": "TG-4dbd848ae6fa76b82cae",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-15cbe7e1fa009ce4a5d9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-e6d01bccc6469c254f6f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-6bbb262fcc9a1361569b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-4329aa12e54730d444f9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-7c9ef78c6591790869cf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-5697994b4a8a1dfeb85f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-2784bb1833fb45c6bcbd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-6e3203a77985e53e15ef",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-f97d06a17b8c6a9a5f0b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-ec6789a6eb3b9ba41b9e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-e70b1c0f48eeb21933a9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-e36b989eb0cd8d4bd084",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L19-08",
+      "issue": "财务管培生已明确财务职能，应归财务专业目录并加培养标签，而非L32-01跨职能轮岗。"
+    },
+    {
+      "occupation_id": "TG-3809b00cc57cbee16899",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-3d328d1b31d95f7c8127",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-8d05173086b170d9ad24",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-bc5d460016f6b3c3239e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-47d7dbc7bab12dd80576",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ],
+  "raw_response_file": "000153.raw.json",
+  "usage": {
+    "input_tokens": 19833,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3321,
+    "output_tokens": 817,
+    "reasoning_tokens": 0,
+    "total_tokens": 20650
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002075772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

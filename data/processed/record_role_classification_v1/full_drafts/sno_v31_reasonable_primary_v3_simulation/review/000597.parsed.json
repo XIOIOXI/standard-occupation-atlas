@@ -1,0 +1,103 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-b5be8bc6558e102f51e8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-07d709821e1f94a6e252",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-283bfbb5e3cc1e38c520",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-63d3b61a5fd52c79076d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-39a924b725bec1208288",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-11427993d2dd6d277138",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-f15ca706c766aa102f6d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-58012eb32551873609a6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-a040d97afcfd8c244f16",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-5d9257ee1ca4be5ea414",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-840593aec957c4ef8d4d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-a7e43c55c0f5a29bbbc0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    },
+    {
+      "occupation_id": "TG-f265f41ee51c4aa99c0e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "sim"
+    }
+  ],
+  "raw_response_file": "000597.raw.json",
+  "usage": {
+    "input_tokens": 0,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "total_tokens": 0
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0
+  },
+  "attempts": 0,
+  "normalization": "nullable whitespace only"
+}

@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "仅标题确认non_role_text，JSON results: original_record_id,decision(exclude_non_role|restore_title_and_map|hold),reason,recovered_title。无法确认hold；剔除不删除源记录。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-7b43244102c2b85a925f\", \"title\": \"冶炼相关发电相关 化工相关人力资源环境相关采矿相关法务安全管理投融资相关\"}, {\"original_record_id\": \"TG-7e9f1931d1ae03f3c0bc\", \"title\": \"本次校园招聘11个岗位\"}, {\"original_record_id\": \"TG-626b8118ef83e5089ea9\", \"title\": \"其他岗\"}, {\"original_record_id\": \"TG-f50fd107109a3681951c\", \"title\": \"电气工程能源与动力工程/新能源科学与工程 机械工程/过程装备与控制/机械电子 俄语/法语/西班牙语控制科学与工程/自动化十木工程/十木水利船舶与海洋工程/轮机工程财务管理/会计学新闻传播学\"}, {\"original_record_id\": \"TG-33b575b250e968b1e2a9\", \"title\": \"能源动力工程电气工程人工智能自动化财务审计法律计算机\"}, {\"original_record_id\": \"TG-5e44518a09a845fb2a1d\", \"title\": \"本次计划招聘585人。招聘的岗位\"}, {\"original_record_id\": \"TG-6a3bd9154c87584db20d\", \"title\": \"核心技能岗\"}, {\"original_record_id\": \"TG-7d4b2878d98df13920f0\", \"title\": \"工作人员（多个岗位）\"}, {\"original_record_id\": \"TG-36df18ed9cac387a0b0f\", \"title\": \"本次招聘共设置9个岗位\"}, {\"original_record_id\": \"TG-d38108bb33a553a2c765\", \"title\": \"未提及具体岗位\"}, {\"original_record_id\": \"TG-5001773e21bbab822c94\", \"title\": \"研究生\"}, {\"original_record_id\": \"TG-1cdfb00228317c6c5a5e\", \"title\": \"策划类 技术类 美术类 运营类 法务类 表现类\"}, {\"original_record_id\": \"TG-022b47de7008bf8ee4dd\", \"title\": \"大专/本科岗位\"}, {\"original_record_id\": \"TG-8cdf81260d5d06340d19\", \"title\": \"管理等岗位\"}, {\"original_record_id\": \"TG-636873b32d2c98338c9c\", \"title\": \"能源与动力工程电气工程及其自动化管理科学与工程 储能科学与工程工商管理 会计学财务管理人力资源管理金融学法学审计学安全工程\"}, {\"original_record_id\": \"TG-909d930116bcd2665cf1\", \"title\": \"未明确招聘岗位\"}, {\"original_record_id\": \"TG-d1f8b2515ec375c1252a\", \"title\": \"具体岗位\"}, {\"original_record_id\": \"TG-4db4aad92575edc580d0\", \"title\": \"子公司岗位\"}, {\"original_record_id\": \"TG-a0cb99b262081856daab\", \"title\": \"此次招聘涉及3个岗位\"}, {\"original_record_id\": \"TG-b0b70a008d9a2734373b\", \"title\": \"下属各部门岗位\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-7b43244102c2b85a925f",
+    "TG-7e9f1931d1ae03f3c0bc",
+    "TG-626b8118ef83e5089ea9",
+    "TG-f50fd107109a3681951c",
+    "TG-33b575b250e968b1e2a9",
+    "TG-5e44518a09a845fb2a1d",
+    "TG-6a3bd9154c87584db20d",
+    "TG-7d4b2878d98df13920f0",
+    "TG-36df18ed9cac387a0b0f",
+    "TG-d38108bb33a553a2c765",
+    "TG-5001773e21bbab822c94",
+    "TG-1cdfb00228317c6c5a5e",
+    "TG-022b47de7008bf8ee4dd",
+    "TG-8cdf81260d5d06340d19",
+    "TG-636873b32d2c98338c9c",
+    "TG-909d930116bcd2665cf1",
+    "TG-d1f8b2515ec375c1252a",
+    "TG-4db4aad92575edc580d0",
+    "TG-a0cb99b262081856daab",
+    "TG-b0b70a008d9a2734373b"
+  ]
+}

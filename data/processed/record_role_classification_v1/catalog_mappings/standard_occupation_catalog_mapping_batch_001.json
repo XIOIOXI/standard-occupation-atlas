@@ -1,0 +1,17 @@
+{
+  "schema_version": "standard-occupation-catalog-mapping-v1",
+  "source_snapshot": "standard_occupation_to_original_names_final_deterministic_v4.json",
+  "scope": "Name-only independent catalog mapping; no old display classification reused.",
+  "mappings": [
+    {"standard_name":"Java开发工程师","level_1":"互联网/AI","level_2":"Java","level_3":null,"status":"review","reason":"名称仅确认 Java 开发；未体现服务端、平台或客户端方向。"},
+    {"standard_name":"Web前端开发工程师","level_1":"互联网/AI","level_2":"前端/移动开发","level_3":"Web 与前端开发","status":"mapped","reason":"完整名称明确为 Web 前端开发。"},
+    {"standard_name":"人力资源专员","level_1":"人力/行政/法务","level_2":"人力资源","level_3":null,"status":"review","reason":"名称确认人力资源职能，但未说明招聘、薪酬或员工关系方向。"},
+    {"standard_name":"人力资源培训生","level_1":"人力/行政/法务","level_2":"人力资源","level_3":"培训与人才发展","status":"mapped","reason":"名称明确为人力资源培训生。"},
+    {"standard_name":"现场应用工程师(FAE)","level_1":"互联网/AI","level_2":"销售技术支持","level_3":null,"status":"review","reason":"FAE 确认现场应用／技术支持职业，名称不足以判定售前、交付或客户支持细分。"},
+    {"standard_name":"UI设计师","level_1":"设计","level_2":"视觉/交互设计","level_3":"品牌与视觉设计","status":"mapped","reason":"UI 明确为界面视觉设计；不与 UX 合并。"},
+    {"standard_name":"用户体验设计师","level_1":"设计","level_2":"视觉/交互设计","level_3":"交互与体验设计","status":"mapped","reason":"名称明确为用户体验／UX 设计。"},
+    {"standard_name":"管理培训生","level_1":null,"level_2":null,"level_3":null,"status":"review","reason":"培养项目名称未表达稳定职业职能，保留待复核兜底。"},
+    {"standard_name":"软件开发工程师","level_1":"互联网/AI","level_2":null,"level_3":null,"status":"review","reason":"名称确认软件研发职能，但未体现语言或前后端方向。"},
+    {"standard_name":"新媒体运营","level_1":"运营/客服","level_2":"新媒体运营","level_3":null,"status":"review","reason":"名称确认新媒体运营；未说明社交、短视频或品牌细分。"}
+  ]
+}

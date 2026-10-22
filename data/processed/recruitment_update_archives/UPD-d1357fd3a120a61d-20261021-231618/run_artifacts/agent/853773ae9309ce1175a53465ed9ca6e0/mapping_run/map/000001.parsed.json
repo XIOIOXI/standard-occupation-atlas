@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-853773ae9309ce1175a53465ed9ca6e0",
+      "status": "mapped",
+      "target_category_id": "L04-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-03",
+        "L04-03-01",
+        "L04-03-03"
+      ],
+      "title_evidence": "品质助理工程师，品质即质量职能，制造业现场质量方向",
+      "level_3_evidence": null,
+      "reason": "品质助理工程师属于生产质量管理职能，但标题未明确是过程质量、供应商质量还是产品质量客诉，故映射到二级 L04-03，不强行细分三级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16955,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 315,
+    "output_tokens": 142,
+    "reasoning_tokens": 0,
+    "total_tokens": 17097
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036474
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

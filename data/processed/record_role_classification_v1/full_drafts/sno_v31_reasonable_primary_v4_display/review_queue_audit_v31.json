@@ -1,0 +1,871 @@
+{
+  "taxonomy_version": "sno-v3.1-local-revision",
+  "scope": "latest display projection source final.json",
+  "counts": {
+    "initial_review": {
+      "title_groups": 1687,
+      "source_records": 3082
+    },
+    "review_unresolved_while_effective_mapped": {
+      "title_groups": 15,
+      "source_records": 15,
+      "note": "These are not treated as review in the current display projection; they require a separate reasonableness decision before either retaining or withdrawing."
+    },
+    "program_hold_original_groups": {
+      "title_groups": 86,
+      "source_records": 87
+    },
+    "unclassified_child_roles": 100,
+    "restored_titles_without_followup_mapping": 14
+  },
+  "rule_audit": {
+    "initial_review_reasons_containing_nonunique_language": 288,
+    "initial_review_reasons_containing_trainee_identity_language": 596,
+    "interpretation": "These are flag counts, not automatic error counts. Under reasonable-primary policy, non-unique alternatives alone cannot justify review; trainee identity alone cannot justify review when the title states a professional function."
+  },
+  "top_30_initial_review_title_groups": [
+    {
+      "rank": 1,
+      "title_group_id": "TG-cdc966998c5964be920f",
+      "title": "研发工程师",
+      "source_record_count": 85,
+      "reason": "研发工程师未说明具体研发领域，无法确定归属，需人工复核。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": true,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 2,
+      "title_group_id": "TG-11f3297df7bd33b92946",
+      "title": "质量工程师",
+      "source_record_count": 64,
+      "reason": "质量工程师可能涉及生产质量、软件测试或硬件测试，需进一步明确。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 3,
+      "title_group_id": "TG-c1c4d7fdfe08cee0681e",
+      "title": "客户经理",
+      "source_record_count": 59,
+      "reason": "客户经理可能为企业客户销售、客户成功或信贷业务，方向不明确，需人工确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 4,
+      "title_group_id": "TG-d80f6217514c4e2962d8",
+      "title": "设备工程师",
+      "source_record_count": 46,
+      "reason": "设备工程师可能从事机械设备设计或设备安装维修，方向不明确，需人工确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 5,
+      "title_group_id": "TG-bc5930a98f3b851ffefd",
+      "title": "产品工程师",
+      "source_record_count": 43,
+      "reason": "产品工程师可能涉及产品管理或研发，方向不明确，需人工判断。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 6,
+      "title_group_id": "TG-3177dbbd7352ead60b89",
+      "title": "综合管理岗",
+      "source_record_count": 36,
+      "reason": "标题仅表明综合管理，未明确具体职能方向，可能涉及企业综合管理或人事行政综合管理，需进一步确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 7,
+      "title_group_id": "TG-cd6dfa0ae55e442cedfb",
+      "title": "工程技术岗",
+      "source_record_count": 23,
+      "reason": "“工程技术岗”过于宽泛，可能属于工业技术研发、建筑工程或生产制造等不同领域，无法唯一确定。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": true,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 8,
+      "title_group_id": "TG-33fa9b6e049b10cde37d",
+      "title": "数字金融岗",
+      "source_record_count": 21,
+      "reason": "数字金融岗可能为金融业务、数据分析或软件开发，方向不明确，需人工确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 9,
+      "title_group_id": "TG-1662ef758e80fcf2146f",
+      "title": "项目助理",
+      "source_record_count": 21,
+      "reason": "项目助理可能为项目管理支持或行政文书助理，缺乏明确职责证据，无法唯一确定正式目标。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": true,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 10,
+      "title_group_id": "TG-e6915c8f6d37e132c075",
+      "title": "技术研究工程师",
+      "source_record_count": 19,
+      "reason": "标题仅表明技术研究职能，未说明具体技术领域，无法确定唯一归属。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": true,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 11,
+      "title_group_id": "TG-bd130daf893c5a0871b6",
+      "title": "管理岗",
+      "source_record_count": 19,
+      "reason": "管理岗过于宽泛，可能涉及综合管理、人力资源或财务管理等。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 12,
+      "title_group_id": "TG-f38cff8bdd0e2d9e342b",
+      "title": "系统工程师",
+      "source_record_count": 19,
+      "reason": "系统工程师可能指系统架构、系统运维、电子系统等，方向不明确，需进一步确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 13,
+      "title_group_id": "TG-385716a825841db6e311",
+      "title": "技术岗",
+      "source_record_count": 18,
+      "reason": "仅“技术岗”无法确定具体技术领域，可能属于软件、电子、机械或科研等，需补充信息。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": true,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 14,
+      "title_group_id": "TG-42af605a2995d2a25e7a",
+      "title": "运营支持岗",
+      "source_record_count": 18,
+      "reason": "“运营支持”未说明具体业务方向，可能属于业务运营支持、销售运营支持或组织支持，无法唯一确定二级归属。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": true,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 15,
+      "title_group_id": "TG-13cdc88c30dc34a55224",
+      "title": "结构与材料工程师",
+      "source_record_count": 17,
+      "reason": "结构与材料工程师可能侧重机械结构设计或材料研发，职责方向不明确，需人工判断。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 16,
+      "title_group_id": "TG-eeae066d800b339b30db",
+      "title": "应用工程师",
+      "source_record_count": 16,
+      "reason": "应用工程师可能为售前技术支持、软件开发或电子应用工程，方向不明确。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 17,
+      "title_group_id": "TG-46b168cb4c1760c42084",
+      "title": "技术服务工程师",
+      "source_record_count": 16,
+      "reason": "技术服务工程师可能涉及售前技术支持、售后技术服务或设备安装维修，需进一步明确。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 18,
+      "title_group_id": "TG-62e959c329247651e291",
+      "title": "技术研发岗",
+      "source_record_count": 16,
+      "reason": "技术研发岗未说明具体技术领域，可能属于软件、机械、电子等，需进一步确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 19,
+      "title_group_id": "TG-206f234740b8b829b1b6",
+      "title": "专业技术岗",
+      "source_record_count": 15,
+      "reason": "标题过于宽泛，无法确定具体专业职能，可能为综合培养或轮岗，需进一步信息。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": true,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 20,
+      "title_group_id": "TG-5e9c994296849c7fc70f",
+      "title": "业务岗",
+      "source_record_count": 15,
+      "reason": "仅“业务岗”无法判断是销售还是运营，候选为通用销售或通用业务运营，需人工确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 21,
+      "title_group_id": "TG-e3380c22de689d452f0e",
+      "title": "定向培养生",
+      "source_record_count": 15,
+      "reason": "定向培养生属于培养项目，但最终职业方向未明确，需进一步确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 22,
+      "title_group_id": "TG-8d249669d7b10ed50c1e",
+      "title": "工程设计",
+      "source_record_count": 15,
+      "reason": "工程设计范围宽泛，可能涉及建筑、结构、机电等，需进一步明确。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 23,
+      "title_group_id": "TG-6b97014f46fdfad1a841",
+      "title": "技术支持",
+      "source_record_count": 15,
+      "reason": "“技术支持”未说明是内部IT支持、售后技术服务还是售前技术支持，无法唯一确定。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": true,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 24,
+      "title_group_id": "TG-3134b1aa43fd0ff6b795",
+      "title": "分行培训生",
+      "source_record_count": 14,
+      "reason": "分行培训生未明确具体职能，可能为银行跨职能轮岗或综合培养，需进一步确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": true
+    },
+    {
+      "rank": 25,
+      "title_group_id": "TG-df80a24712ceaffc52f8",
+      "title": "研发管培生",
+      "source_record_count": 14,
+      "reason": "研发管培生可能为跨职能培养项目，但具体研发方向未明确，需进一步确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": true
+    },
+    {
+      "rank": 26,
+      "title_group_id": "TG-557220d51ffbe1544716",
+      "title": "技术员",
+      "source_record_count": 13,
+      "reason": "“技术员”过于宽泛，可能属于生产制造、工业技术研发或建筑工程等不同领域，无法唯一确定。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": true,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 27,
+      "title_group_id": "TG-27dcb036a06b87abb903",
+      "title": "研发助理",
+      "source_record_count": 13,
+      "reason": "研发助理未说明具体研发领域，可能为科研辅助、工业研发或软件研发，需进一步确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 28,
+      "title_group_id": "TG-113b1a7abc5615249c8b",
+      "title": "业务管培生",
+      "source_record_count": 12,
+      "reason": "业务管培生可能为销售或综合业务方向，但具体职能未明确，需进一步确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": true
+    },
+    {
+      "rank": 29,
+      "title_group_id": "TG-cf5630b7a88aad8a2568",
+      "title": "业务管理岗",
+      "source_record_count": 12,
+      "reason": "业务管理岗职责范围宽泛，可能涉及综合管理、经营分析或业务运营，无法唯一确定归属，需进一步明确。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": true,
+      "trainee_identity_flag": false
+    },
+    {
+      "rank": 30,
+      "title_group_id": "TG-ee8a31626b39cf3f91f9",
+      "title": "产品管培生",
+      "source_record_count": 12,
+      "reason": "产品管培生为培养项目，但最终职业方向未明确，可能为产品管理或其他职能，需进一步确认。",
+      "review_verdict": "pass",
+      "nonunique_language_flag": false,
+      "trainee_identity_flag": true
+    }
+  ],
+  "review_unresolved_effective_mapped": [
+    {
+      "title_group_id": "TG-cc613b5e3698c0e63410",
+      "title": "生产运维岗",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-cc613b5e3698c0e63410",
+        "status": "mapped",
+        "target_category_id": "L03-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L03-01",
+          "L25-04"
+        ],
+        "title_evidence": "生产运维岗",
+        "level_3_evidence": null,
+        "reason": "生产运维岗通常指IT系统或生产系统的运行维护，归入系统与服务器运维。"
+      },
+      "review_result": {
+        "occupation_id": "TG-cc613b5e3698c0e63410",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "“生产运维岗”可能指IT系统运维（L03-01）或生产设备运维（L23-09），标题证据不足以确定方向，建议补充岗位描述。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-cc613b5e3698c0e63410",
+        "status": "mapped",
+        "target_category_id": "L03-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L03-01",
+          "L25-04"
+        ],
+        "title_evidence": "生产运维岗",
+        "level_3_evidence": null,
+        "reason": "生产运维岗通常指IT系统或生产系统的运行维护，归入系统与服务器运维。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-d2e913e342d9f76cd823",
+      "title": "数字化仿真应用工程师",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-d2e913e342d9f76cd823",
+        "status": "mapped",
+        "target_category_id": "L01-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L01-07",
+          "L06-01"
+        ],
+        "title_evidence": "数字化仿真应用工程师",
+        "level_3_evidence": null,
+        "reason": "数字化仿真应用工程师属于系统与基础软件研发，负责仿真软件应用开发。"
+      },
+      "review_result": {
+        "occupation_id": "TG-d2e913e342d9f76cd823",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "“数字化仿真应用工程师”可能指仿真软件研发（L01-07）或工程仿真分析（L06-01），标题证据不足以确定方向，建议补充岗位描述。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-d2e913e342d9f76cd823",
+        "status": "mapped",
+        "target_category_id": "L01-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L01-07",
+          "L06-01"
+        ],
+        "title_evidence": "数字化仿真应用工程师",
+        "level_3_evidence": null,
+        "reason": "数字化仿真应用工程师属于系统与基础软件研发，负责仿真软件应用开发。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-d6d58e268d956b754130",
+      "title": "新媒体客户经理",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-d6d58e268d956b754130",
+        "status": "mapped",
+        "target_category_id": "L13-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "新媒体客户经理",
+        "level_3_evidence": null,
+        "reason": "客户经理通常为企业客户销售角色，归入L13-01企业客户销售。"
+      },
+      "review_result": {
+        "occupation_id": "TG-d6d58e268d956b754130",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "“新媒体客户经理”中“客户经理”可能指销售、客户服务或客户成功，标题未明确客户类型与职责，归L13-01企业客户销售证据不足。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-d6d58e268d956b754130",
+        "status": "mapped",
+        "target_category_id": "L13-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "新媒体客户经理",
+        "level_3_evidence": null,
+        "reason": "客户经理通常为企业客户销售角色，归入L13-01企业客户销售。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-c3640e65494082f0f180",
+      "title": "品牌客户业务专员",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-c3640e65494082f0f180",
+        "status": "mapped",
+        "target_category_id": "L13-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "品牌客户业务专员",
+        "level_3_evidence": null,
+        "reason": "品牌客户业务专员通常为企业客户销售角色，归L13-01企业客户销售。"
+      },
+      "review_result": {
+        "occupation_id": "TG-c3640e65494082f0f180",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "“品牌客户业务专员”可能为销售、客户服务或品牌商务，标题未明确客户类型与职责，归L13-01企业客户销售证据不足。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-c3640e65494082f0f180",
+        "status": "mapped",
+        "target_category_id": "L13-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "品牌客户业务专员",
+        "level_3_evidence": null,
+        "reason": "品牌客户业务专员通常为企业客户销售角色，归L13-01企业客户销售。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-abc210dc5b7b063263fa",
+      "title": "项目总工程师",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-abc210dc5b7b063263fa",
+        "status": "mapped",
+        "target_category_id": "L10-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "项目总工程师",
+        "level_3_evidence": null,
+        "reason": "项目总工程师负责研发项目组织管理，归入研发项目管理。"
+      },
+      "review_result": {
+        "occupation_id": "TG-abc210dc5b7b063263fa",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "项目总工程师可能为建筑工程项目总工，归入研发项目管理证据不足，需确认项目领域。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-abc210dc5b7b063263fa",
+        "status": "mapped",
+        "target_category_id": "L10-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "项目总工程师",
+        "level_3_evidence": null,
+        "reason": "项目总工程师负责研发项目组织管理，归入研发项目管理。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-ffa5b6e13d8ea1a1de86",
+      "title": "巡检员",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-ffa5b6e13d8ea1a1de86",
+        "status": "mapped",
+        "target_category_id": "L25-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L25-04",
+          "L03-01",
+          "L24-12-02"
+        ],
+        "title_evidence": "巡检员",
+        "level_3_evidence": null,
+        "reason": "巡检员通常负责设备或设施的定期巡查，在能源、电力等领域常见，归入能源运行与调度。"
+      },
+      "review_result": {
+        "occupation_id": "TG-ffa5b6e13d8ea1a1de86",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "巡检员未说明行业与对象，能源运行与调度证据不足，建议review"
+      },
+      "effective_result": {
+        "occupation_id": "TG-ffa5b6e13d8ea1a1de86",
+        "status": "mapped",
+        "target_category_id": "L25-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L25-04",
+          "L03-01",
+          "L24-12-02"
+        ],
+        "title_evidence": "巡检员",
+        "level_3_evidence": null,
+        "reason": "巡检员通常负责设备或设施的定期巡查，在能源、电力等领域常见，归入能源运行与调度。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-fd9262fa3188c46e983c",
+      "title": "新能源业务岗",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-fd9262fa3188c46e983c",
+        "status": "mapped",
+        "target_category_id": "L25-09",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L25-09",
+          "L25-03",
+          "L13-04"
+        ],
+        "title_evidence": "新能源业务岗",
+        "level_3_evidence": null,
+        "reason": "新能源业务岗属于能源与环境技术领域，但具体方向未明确，归入通用能源与环境技术。"
+      },
+      "review_result": {
+        "occupation_id": "TG-fd9262fa3188c46e983c",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "新能源业务岗未说明技术或业务方向，无法确认属能源技术还是业务拓展，建议review"
+      },
+      "effective_result": {
+        "occupation_id": "TG-fd9262fa3188c46e983c",
+        "status": "mapped",
+        "target_category_id": "L25-09",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L25-09",
+          "L25-03",
+          "L13-04"
+        ],
+        "title_evidence": "新能源业务岗",
+        "level_3_evidence": null,
+        "reason": "新能源业务岗属于能源与环境技术领域，但具体方向未明确，归入通用能源与环境技术。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-5c9f52e099d29e471b80",
+      "title": "空管设计师",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-5c9f52e099d29e471b80",
+        "status": "mapped",
+        "target_category_id": "L05-05-03",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "空管设计师",
+        "level_3_evidence": "空管设计涉及通信协议与系统，归入L05-05-03。",
+        "reason": "空管设计师从事通信协议与系统设计，归入通信协议与系统。"
+      },
+      "review_result": {
+        "occupation_id": "TG-5c9f52e099d29e471b80",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "空管设计师通常指空中交通管制系统/空管自动化系统设计，与通信协议与系统（L05-05-03）关联较弱，建议人工确认实际工作内容。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-5c9f52e099d29e471b80",
+        "status": "mapped",
+        "target_category_id": "L05-05-03",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "空管设计师",
+        "level_3_evidence": "空管设计涉及通信协议与系统，归入L05-05-03。",
+        "reason": "空管设计师从事通信协议与系统设计，归入通信协议与系统。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-70446d841e4b9a422719",
+      "title": "资产运营管理岗",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-70446d841e4b9a422719",
+        "status": "mapped",
+        "target_category_id": "L20-02-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "资产运营管理岗",
+        "level_3_evidence": "资产运营管理属于投资组合与资产管理，归入L20-02-01。",
+        "reason": "资产运营管理直接对应投资组合与资产管理三级。"
+      },
+      "review_result": {
+        "occupation_id": "TG-70446d841e4b9a422719",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "资产运营管理岗可能指企业资产运营或房地产资产运营，而非金融投资组合管理，归入L20-02-01依据不足，建议人工确认。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-70446d841e4b9a422719",
+        "status": "mapped",
+        "target_category_id": "L20-02-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "资产运营管理岗",
+        "level_3_evidence": "资产运营管理属于投资组合与资产管理，归入L20-02-01。",
+        "reason": "资产运营管理直接对应投资组合与资产管理三级。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-396fabb174c8e4ee6c75",
+      "title": "信号处理设计师",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-396fabb174c8e4ee6c75",
+        "status": "mapped",
+        "target_category_id": "L05-05-03",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "信号处理设计师",
+        "level_3_evidence": "信号处理设计属于通信协议与系统，归入L05-05-03。",
+        "reason": "信号处理设计师从事通信协议与系统设计，归入通信协议与系统。"
+      },
+      "review_result": {
+        "occupation_id": "TG-396fabb174c8e4ee6c75",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "信号处理设计师可能属于电子硬件、通信或算法研发，归入通信协议与系统（L05-05-03）依据不足，建议人工确认。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-396fabb174c8e4ee6c75",
+        "status": "mapped",
+        "target_category_id": "L05-05-03",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "信号处理设计师",
+        "level_3_evidence": "信号处理设计属于通信协议与系统，归入L05-05-03。",
+        "reason": "信号处理设计师从事通信协议与系统设计，归入通信协议与系统。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-be0a1b77fa4db4bc6ac9",
+      "title": "验证助理工程师",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-be0a1b77fa4db4bc6ac9",
+        "status": "mapped",
+        "target_category_id": "L05-02-03",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "验证助理工程师",
+        "level_3_evidence": "验证助理工程师",
+        "reason": "在芯片设计语境下，验证通常指芯片设计验证，归芯片设计验证。"
+      },
+      "review_result": {
+        "occupation_id": "TG-be0a1b77fa4db4bc6ac9",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "标题仅“验证助理工程师”，未说明行业或产品领域，无法确认是芯片设计验证还是其他验证，建议复核。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-be0a1b77fa4db4bc6ac9",
+        "status": "mapped",
+        "target_category_id": "L05-02-03",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "验证助理工程师",
+        "level_3_evidence": "验证助理工程师",
+        "reason": "在芯片设计语境下，验证通常指芯片设计验证，归芯片设计验证。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-9477c2d686cf5860788a",
+      "title": "等离子研发工程师",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-9477c2d686cf5860788a",
+        "status": "mapped",
+        "target_category_id": "L06-05-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L06-05-01",
+          "L06-05-02"
+        ],
+        "title_evidence": "等离子研发工程师",
+        "level_3_evidence": "化学合成与反应开发",
+        "reason": "等离子研发涉及化学化工反应工艺，归入化学合成与反应开发。"
+      },
+      "review_result": {
+        "occupation_id": "TG-9477c2d686cf5860788a",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "等离子研发可能属材料、电子或化工方向，仅凭标题无法确定，建议review。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-9477c2d686cf5860788a",
+        "status": "mapped",
+        "target_category_id": "L06-05-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L06-05-01",
+          "L06-05-02"
+        ],
+        "title_evidence": "等离子研发工程师",
+        "level_3_evidence": "化学合成与反应开发",
+        "reason": "等离子研发涉及化学化工反应工艺，归入化学合成与反应开发。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-4bcce9eb6cd9a9f58df1",
+      "title": "健康顾问(10人)",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-4bcce9eb6cd9a9f58df1",
+        "status": "mapped",
+        "target_category_id": "L21-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L21-06",
+          "L29-05",
+          "L14-07"
+        ],
+        "title_evidence": "健康顾问(10人)",
+        "level_3_evidence": null,
+        "reason": "健康顾问通常从事专业健康管理，归入公共卫生与健康管理；非医疗保健按摩归L29，客服归L14，但标题更符合健康管理。"
+      },
+      "review_result": {
+        "occupation_id": "TG-4bcce9eb6cd9a9f58df1",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "健康顾问职责不明确，可能为健康管理、保健按摩或客服，需补充职责信息"
+      },
+      "effective_result": {
+        "occupation_id": "TG-4bcce9eb6cd9a9f58df1",
+        "status": "mapped",
+        "target_category_id": "L21-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L21-06",
+          "L29-05",
+          "L14-07"
+        ],
+        "title_evidence": "健康顾问(10人)",
+        "level_3_evidence": null,
+        "reason": "健康顾问通常从事专业健康管理，归入公共卫生与健康管理；非医疗保健按摩归L29，客服归L14，但标题更符合健康管理。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-dfd0bad785843cd289ef",
+      "title": "精度算法工程师",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-dfd0bad785843cd289ef",
+        "status": "mapped",
+        "target_category_id": "L02-05-05",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "精度算法工程师",
+        "level_3_evidence": "精度算法属于预测与统计学习",
+        "reason": "精度算法工程师属于预测与统计学习。"
+      },
+      "review_result": {
+        "occupation_id": "TG-dfd0bad785843cd289ef",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "“精度算法工程师”方向不明确，无法判断是软件算法、控制算法还是测量算法，建议补充证据。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-dfd0bad785843cd289ef",
+        "status": "mapped",
+        "target_category_id": "L02-05-05",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "精度算法工程师",
+        "level_3_evidence": "精度算法属于预测与统计学习",
+        "reason": "精度算法工程师属于预测与统计学习。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    },
+    {
+      "title_group_id": "TG-059059e76eba7a737912",
+      "title": "全国分支机构业务经理岗",
+      "source_record_count": 1,
+      "initial_result": {
+        "occupation_id": "TG-059059e76eba7a737912",
+        "status": "mapped",
+        "target_category_id": "L13-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L13-07"
+        ],
+        "title_evidence": "全国分支机构业务经理岗",
+        "level_3_evidence": null,
+        "reason": "业务经理岗通常承担销售团队管理职责，归入销售管理。"
+      },
+      "review_result": {
+        "occupation_id": "TG-059059e76eba7a737912",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "标题仅含“业务经理”，未明确销售团队管理职责，归入销售管理证据不足，建议复核。"
+      },
+      "effective_result": {
+        "occupation_id": "TG-059059e76eba7a737912",
+        "status": "mapped",
+        "target_category_id": "L13-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L13-07"
+        ],
+        "title_evidence": "全国分支机构业务经理岗",
+        "level_3_evidence": null,
+        "reason": "业务经理岗通常承担销售团队管理职责，归入销售管理。"
+      },
+      "processing_state": "completed",
+      "display_eligibility": "eligible"
+    }
+  ]
+}

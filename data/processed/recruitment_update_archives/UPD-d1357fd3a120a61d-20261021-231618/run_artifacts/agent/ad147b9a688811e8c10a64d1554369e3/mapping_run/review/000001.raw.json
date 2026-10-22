@@ -1,0 +1,28 @@
+{
+  "id": "1e968f54-b754-4fb4-95c1-a4551f5fa9b8",
+  "object": "chat.completion",
+  "created": 1792571502,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-ad147b9a688811e8c10a64d1554369e3\", \"verdict\": \"correction_required\", \"suggested_target_category_id\": \"L16-01-02\", \"issue\": \"标题为“机电物资部设备管理业务员岗”，属物资部门业务员，核心为设备/物资的采购与供应商商务管理，而非工厂设备检修维护保全（L23-09-02）。建议归L16-01-02间接采购与服务采购（设备办公及服务采购）；若确为现场设备维护则L23-09-02可保留，但标题证据更偏采购管理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17085,
+    "completion_tokens": 157,
+    "total_tokens": 17242,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 573
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

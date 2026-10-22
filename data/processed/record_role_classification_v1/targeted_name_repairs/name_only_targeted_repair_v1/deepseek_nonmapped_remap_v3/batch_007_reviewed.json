@@ -1,0 +1,185 @@
+{
+  "batch_number": 7,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "74b847d1-3708-40ef-8443-454dcada7f5e",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821690,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 30473,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 3081,
+    "output_tokens": 1562,
+    "reasoning_tokens": 0,
+    "total_tokens": 32035
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001481526
+  },
+  "results": [
+    {
+      "entry_id": "ABNORMAL:RRG-95ad3723641c1e01f59b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“管培生”属于培训生身份而非具体职业，且名称截断，无法确认任何一级或二级类别。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-95c42bd129d57249145f",
+      "status": "review",
+      "target_category_id": "供应链/物流/supply-chain",
+      "reason": "“物控计划专员”可指向供应链计划方向，但名称截断且未明确三级，只能确认到二级供应链。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-99c08b70f5a870df6c0d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“生产操作”后接大量专业清单且截断，职业名称本身不完整，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-9bf84d32768c0c364866",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“职能类管培生”为培训生身份加职能泛称，且专业清单截断，无法确认具体职业类别。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-9eb26c29bb711247f37c",
+      "status": "review",
+      "target_category_id": "电子/电气/通信/electronic-automation",
+      "reason": "“控制研发工程师”可指向电气/自动化方向，但专业括号截断，无法确认三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-9ef1119983fdf3801d3f",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出专业技术类、经济金融类、职能管理类等多个互不兼容职业方向，且无共同上级可确认。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a190b169d1fcc3eff19e",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出识能管理、市场营销、软件研发、机务维修、气象管制、航空医学、飞行员等多个独立职业，无共同上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a2f666c286efb838d24f",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "“GIS软件工程师”可指向互联网/AI软件研发，但专业清单截断且无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a30b41629bd33478d1d1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“信息管理培训生”为培训生身份，专业清单截断，无法确认具体职业类别。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a49ab3617cbc141348b0",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "“应用软件开发工程师”可指向互联网/AI软件开发，但名称截断且无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a577ed8c8150493d9914",
+      "status": "review",
+      "target_category_id": "销售/sales-business",
+      "reason": "“商务专员”可指向销售行政/商务，但专业清单截断且无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a593c58094d98dabc4a0",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "“职能管理岗”后列电气、土木、法务、行政、财务、人资等多个互不兼容方向，无共同上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a5d3ef2d74a95cedf59a",
+      "status": "review",
+      "target_category_id": "市场/公关/广告/marketing-general",
+      "reason": "“营销岗”可指向市场/营销，但专业清单截断且无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a759a388f5471facaae8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出总部八大业务类、中后台类、资产管理类、科技赋能类、职能管理类等多个独立方向，无共同上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a84a1f16a0b00226e674",
+      "status": "review",
+      "target_category_id": "电子/电气/通信/electronic-communication",
+      "reason": "“射频工程师”可指向通信方向，但专业清单截断且无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a9748559ccf161d87511",
+      "status": "review",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor",
+      "reason": "“模拟版图工程师”可指向半导体/芯片方向，但专业清单截断且无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-a9aa25122c1ed52c2537",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“总经理助理”为泛管理支持岗位，专业要求截断，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-aaff483b86d6241fd22b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“董秘助理岗”为泛管理支持岗位，专业要求截断，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-abedac64b31317253956",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“项目储备经理”为储备身份加泛项目岗，专业清单截断，无法确认具体职业类别。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-ad497f5fef9b5cee4f57",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-algorithm",
+      "reason": "“认知决策智能架构师”可指向算法工程师方向，但专业清单截断且无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-ae22e4a0db967a95f360",
+      "status": "review",
+      "target_category_id": "教育培训/edu-teacher",
+      "reason": "“全日制民办学校初高中类教师”可指向教师，但学科清单截断且无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-aeeceb694a05bdcfcee4",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“经办岗”为泛称，专业清单截断，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-af700bd4fc84f9e23d44",
+      "status": "review",
+      "target_category_id": "咨询/翻译/法律/consult-legal",
+      "reason": "“子企业法务”可指向法律服务，但名称截断且无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-afd5078e486a6e611fd3",
+      "status": "review",
+      "target_category_id": "供应链/物流",
+      "reason": "“物流专员”可指向供应链/物流，但专业清单截断且无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-b04d3b2edf831bd776ad",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend",
+      "reason": "“后端研发工程师”可指向后端开发，但专业要求截断且无法确认具体三级。"
+    }
+  ]
+}

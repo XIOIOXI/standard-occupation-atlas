@@ -1,0 +1,28 @@
+{
+  "id": "a157b02a-b6b5-4be9-841a-624e0888f52e",
+  "object": "chat.completion",
+  "created": 1791880496,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-abe69bf3766e690c3337\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"定向培养生未明确具体业务职能，review合理。\"},{\"occupation_id\":\"TG-7740d65109a5b8b3f5e6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"土建设计师归土木结构与岩土工程合理。\"},{\"occupation_id\":\"TG-642846bcd4dfd4515732\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机构销售归企业客户销售合理。\"},{\"occupation_id\":\"TG-074115bc8b1c94d4d818\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术规划领域未明，review合理。\"},{\"occupation_id\":\"TG-250877fd730727bdc942\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"制前设计归工装模具与工艺装备合理。\"},{\"occupation_id\":\"TG-d6f84796fe2733ebe443\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"钻探项目管理归采矿与资源开采合理。\"},{\"occupation_id\":\"TG-99a41c0971bb4eec2b92\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"施工工程师归施工组织与工程管理合理。\"},{\"occupation_id\":\"TG-0a104b6a14a406129f41\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"零售管培生最终职能未明，review合理。\"},{\"occupation_id\":\"TG-93730a135033dc49f2fa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多方向管培生最终职能未明，review合理。\"},{\"occupation_id\":\"TG-6d837677f12f717a059f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"光气工艺研发归化学合成与反应开发合理。\"},{\"occupation_id\":\"TG-f0d4aef37964b5f1ab5d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"VLA算法核心为视觉感知，归计算机视觉合理。\"},{\"occupation_id\":\"TG-ad65f4e954bebb31aaaf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"BOM工程师归工业化与生产导入合理。\"},{\"occupation_id\":\"TG-f03b55371175f93919c0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"内容运营归内容与新媒体运营合理。\"},{\"occupation_id\":\"TG-8a138e5bcfb1abb103e7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多专业管培生最终职能未明，review合理。\"},{\"occupation_id\":\"TG-7334392790cf76161476\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场运营归产品与平台运营合理。\"},{\"occupation_id\":\"TG-4596d7bb22e5b94931d0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仿真工程师领域未明，review合理。\"},{\"occupation_id\":\"TG-932e076770294dbb9445\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"景观设计管培生归园林与景观工程合理。\"},{\"occupation_id\":\"TG-00d4dc69493325f16a8f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行业务管理岗职能未明，review合理。\"},{\"occupation_id\":\"TG-255c26a833774ce66c33\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"核岛系统调试归能源运行与调度合理。\"},{\"occupation_id\":\"TG-00e76de3dffed8a4f268\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合柜员归金融运营与交易清算合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19562,
+    "completion_tokens": 925,
+    "total_tokens": 20487,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3050
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

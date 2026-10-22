@@ -1,0 +1,28 @@
+{
+  "id": "7f8e098c-1e60-4862-9d87-ddb4cb373f22",
+  "object": "chat.completion",
+  "created": 1792571757,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-e07893caf310230ae6fd7003ea0a2228\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L03-04\",\"issue\":\"数据库管理岗归数据库运维L03-04合理，与数据库内核研发L01-07-03区分正确。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17034,
+    "completion_tokens": 78,
+    "total_tokens": 17112,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 522
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

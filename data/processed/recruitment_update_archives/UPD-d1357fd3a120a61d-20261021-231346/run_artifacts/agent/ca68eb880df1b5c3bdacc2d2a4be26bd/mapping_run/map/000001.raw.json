@@ -1,0 +1,28 @@
+{
+  "id": "1d0b24c3-3328-4c8d-af41-22d4df48ddd6",
+  "object": "chat.completion",
+  "created": 1792571248,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-ca68eb880df1b5c3bdacc2d2a4be26bd\",\"status\":\"mapped\",\"target_category_id\":\"L14-10\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L14-10\",\"L23-09-02\"],\"title_evidence\":\"售后服务工程师，面向客户设备的售后技术服务\",\"level_3_evidence\":null,\"reason\":\"售后服务工程师属于客户设备安装调试与售后技术服务，归 L14-10 售后技术服务；非工厂内部设备保全，故不选 L23-09。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16947,
+    "completion_tokens": 130,
+    "total_tokens": 17077,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 307
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

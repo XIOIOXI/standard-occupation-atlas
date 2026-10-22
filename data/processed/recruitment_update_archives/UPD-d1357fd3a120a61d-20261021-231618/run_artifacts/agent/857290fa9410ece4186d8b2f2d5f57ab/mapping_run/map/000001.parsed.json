@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-857290fa9410ece4186d8b2f2d5f57ab",
+      "status": "mapped",
+      "target_category_id": "L16-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-01-01",
+        "L16-01-02",
+        "L16-01-03"
+      ],
+      "title_evidence": "标题为“采购专员”，明确采购职能；公司为半导体制造企业，但标题未说明采购物料类型",
+      "level_3_evidence": null,
+      "reason": "采购专员属采购与供应商管理（L16-01）；标题未提供直接物料/间接采购/零售买手等三级细分证据，故停在二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16956,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 316,
+    "output_tokens": 153,
+    "reasoning_tokens": 0,
+    "total_tokens": 17109
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037824
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

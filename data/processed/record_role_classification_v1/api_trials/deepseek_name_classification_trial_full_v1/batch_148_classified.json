@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 148,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "efc20a5f-2b53-42dd-a80e-d1f2f5b02bf6",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751569,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25054,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1758,
+    "output_tokens": 4002,
+    "reasoning_tokens": 0,
+    "total_tokens": 29056
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0027347879999999997
+  },
+  "observed_at_utc": "2026-10-11T20:46:09.511210+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-a370f83b7208233f1235",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "检测分析工程师核心职责为质量检验与分析，归入质量管理下的质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-c8d1c3bd7a81a5da2287",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明确列出市场与研发两个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-cbecfc4a111892b3504d",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "高管助理核心为行政与文档支持，归入文员下的文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-7881a660788aa73a3c7e",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-processing",
+      "status": "mapped",
+      "reason": "砼管工艺属于混凝土制品生产工艺操作，归入普工下的加工与包装作业。"
+    },
+    {
+      "occupation_id": "SNO-1838d8e28d23d599d40a",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "文科类教师属于基础教育教学，归入教师下的基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-29b23823f0c6ed8ac785",
+      "target_category_id": "产品/product-game/game-planning",
+      "status": "mapped",
+      "reason": "游戏策划助理核心为游戏策划支持，归入游戏策划/制作下的游戏系统与玩法策划。"
+    },
+    {
+      "occupation_id": "SNO-eb3f962441950ee35ca6",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "人工智能工程师核心为AI算法研发，归入算法工程师下的算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-197251b083cfb329830f",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "技培生(营销)核心为营销销售培养，归入销售下的客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-0e6c5695235a71020ae5",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "声学器件工程师属于电子硬件设计，归入电子/硬件开发下的电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-eb77432e063a79556b34",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "综合行政助理核心为行政文档支持，归入文员下的文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-fc3a33c3fd2ec8e0d836",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "产品经理(运营风险监测方向)属于互联网产品经理，归入平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-412c6d36ed5c331b18ca",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "方案解决高级工程师核心为售前方案支持，归入销售技术支持下的售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-ef1e1a44829f931d8e7e",
+      "target_category_id": "人力/行政/法务/people-hr/hr-reward",
+      "status": "mapped",
+      "reason": "薪酬绩效属于人力资源薪酬福利模块。"
+    },
+    {
+      "occupation_id": "SNO-84a82c78c0cee256c8a7",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": "大宗商品业务员核心为进出口贸易业务开发，归入进出口贸易下的国际市场与客户开发。"
+    },
+    {
+      "occupation_id": "SNO-34a1ea7afacc17868bc2",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "交易员助理(交易管理部)属于证券交易运营，归入证券/基金/期货下的基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-a455015942b70d98ec68",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "农业农村规划中心专业技术属于农业技术规划，归入农业/林业技术员下的农作物与农业技术。"
+    },
+    {
+      "occupation_id": "SNO-73097a6c5bc0c3636ec6",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "技术经理核心为研发技术管理，归入技术项目管理下的研发项目管理。"
+    },
+    {
+      "occupation_id": "SNO-088046f6902ca5957181",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "采购管理工程师核心为采购执行与管理，归入采购下的采购执行与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-755ae5df1743a93f9c9f",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "自动化专责属于电气自动化控制，归入电气/自动化下的电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-2d179a03b69773dc5b63",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "status": "mapped",
+      "reason": "C++系统开发工程师明确为C++系统开发，归入C++下的系统与底层开发。"
+    },
+    {
+      "occupation_id": "SNO-7bba1d3ad35b3b40a497",
+      "target_category_id": "金融/financial-investment/investment-financing-financing",
+      "status": "mapped",
+      "reason": "融资租赁客户经理核心为融资业务，归入投融资下的融资与资本运作。"
+    },
+    {
+      "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "精益智造管培生核心为精益生产改善，归入生产营运下的生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-53985cc1c8203c3a6d7f",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-security",
+      "status": "mapped",
+      "reason": "技术运维工程师(安全方向)属于运维安全，归入运维/技术支持下的运维安全与监控。"
+    },
+    {
+      "occupation_id": "SNO-d72fbbdc8545029f5f16",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "常规岛系统调试属于自动化设备现场调试，归入电气/自动化下的自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-ef0fd88bf128f04214bb",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "井筒工程师属于能源开发工程，归入能源/地质下的能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-b73438fb5b5a8b8e70e0",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "IC模拟设计工程师属于芯片设计，归入半导体/芯片下的芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-413bd961ab995b702b44",
+      "target_category_id": "采购/贸易/trade-clerk/trade-clerk-coordination",
+      "status": "mapped",
+      "reason": "外贸外勤专员核心为外贸跟单与客户协调，归入外贸文员下的外贸跟单与客户协调。"
+    },
+    {
+      "occupation_id": "SNO-c90bf9b3fcf0c6bdfd95",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "运维实施工程师核心为技术支持与交付，归入运维/技术支持下的技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-1e822757768e2aa74c0f",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出关卡策划、文案策划、战斗策划、2D场景设计等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-495f60f57fd0bc389b99",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "检验工程师培训生核心为质量检验，归入质量管理下的质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-a28969cb45a53b5b6a56",
+      "target_category_id": "销售/sales-course/course-sales-education",
+      "status": "mapped",
+      "reason": "分校未来星计划-销售顾问方向属于教育课程销售，归入课程销售下的教育课程顾问。"
+    },
+    {
+      "occupation_id": "SNO-2246ff492ccfb441ee51",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称“部-管理”过于模糊，缺少具体职能或行业信息，无法确定职业类别。"
+    },
+    {
+      "occupation_id": "SNO-252c15fd5497cbbe9f61",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "企业管理专员核心为业务流程运营管理，归入业务运营下的业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-b44a283ed9a91849d6e3",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安全管理专员核心为安全生产管理，归入生产安全下的安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-98d6145877274c9b3992",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出机电联调、PLC调试、机床检测、操作编程、技术支持等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-a8f7a72652b9af635b74",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "status": "mapped",
+      "reason": "产业园运营核心为线下园区运营，归入线下运营下的门店与现场运营。"
+    },
+    {
+      "occupation_id": "SNO-a23c092dcf8b7e0168f0",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "驻外销售工程师核心为销售客户开发，归入销售下的客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-3af766837f31895b3a85",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "汉唐考古研究属于调研咨询，归入咨询/调研下的市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-adbd806bb47268ce6491",
+      "target_category_id": "销售/sales-clerk/retail-clerk-sales",
+      "status": "mapped",
+      "reason": "门店陈列管培生核心为门店销售与陈列，归入店员/营业员下的门店销售与陈列。"
+    },
+    {
+      "occupation_id": "SNO-f68b713103dc1ca0fd46",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "烟叶技术员属于农业技术，归入农业/林业技术员下的农作物与农业技术。"
+    },
+    {
+      "occupation_id": "SNO-ac5e7c3f6e1adec1027c",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出光学设计、集成调试、软件开发、固件开发、测校开发、技术支持、光学测试、算法开发、光机结构设计、应付会计等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-659d4313af09f589c9d1",
+      "target_category_id": "人力/行政/法务/people-hr/hr-learning",
+      "status": "mapped",
+      "reason": "用户支持培训专员核心为培训与人才发展，归入人力资源下的培训与人才发展。"
+    },
+    {
+      "occupation_id": "SNO-e592425c58410fe30e58",
+      "target_category_id": "金融/financial-credit/credit-assessment-corporate",
+      "status": "mapped",
+      "reason": "研究员(信用分析岗)核心为企业信用评估，归入资信评估下的企业信用评估。"
+    },
+    {
+      "occupation_id": "SNO-10b72c49c2d62e2b19df",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "产业管理核心为产业运营管理，归入业务运营下的业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-2c2bcedc419d1efe2b38",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "数字逻辑设计属于芯片设计，归入半导体/芯片下的芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-539db7d52a65163097b0",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "工程建设部-工程岗(土木工程类、工程管理)核心为施工现场管理，归入工程管理下的施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-48564c2e584c0640deb4",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI算子编译器工程师属于大模型与生成式AI方向，归入算法工程师下的大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-2d8b3611b541ef3d007e",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": "首饰制造管培生核心为首饰制造装配，归入普工下的装配与生产线作业。"
+    },
+    {
+      "occupation_id": "SNO-4d3b9d8ada27b0b9f2e1",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称“后评价”过于模糊，缺少具体职能或行业信息，无法确定职业类别。"
+    },
+    {
+      "occupation_id": "SNO-b18b832658448a3daa64",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "实习生(法学)核心为法律事务支持，归入法律服务下的公司法务与合规。"
+    }
+  ]
+}

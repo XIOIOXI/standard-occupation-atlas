@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-6de67d28f5a2eea94a6eb1955dcd7880",
+      "status": "mapped",
+      "target_category_id": "L01-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-02-01",
+        "L01-02-02"
+      ],
+      "title_evidence": "标题明确为“后端研发工程师”，属于服务端业务系统与接口开发方向",
+      "level_3_evidence": null,
+      "reason": "后端研发工程师直接对应后端开发（L01-02）；标题未说明是业务服务还是服务端基础设施，故停在二级，不强行细分三级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16939,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 299,
+    "output_tokens": 146,
+    "reasoning_tokens": 0,
+    "total_tokens": 17085
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036474
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

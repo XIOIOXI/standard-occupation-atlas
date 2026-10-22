@@ -1,0 +1,28 @@
+{
+  "id": "227f9398-0e06-4b28-b3e6-e245a3bc62ad",
+  "object": "chat.completion",
+  "created": 1792571236,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-daad5dae4e1c20072b1f781c5effe583\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-02\",\"issue\":\"燃气动力机组新产品开发属动力设备研发，归热流体与动力工程合理；无明确三级细分证据，停二级恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17028,
+    "completion_tokens": 84,
+    "total_tokens": 17112,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 516
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

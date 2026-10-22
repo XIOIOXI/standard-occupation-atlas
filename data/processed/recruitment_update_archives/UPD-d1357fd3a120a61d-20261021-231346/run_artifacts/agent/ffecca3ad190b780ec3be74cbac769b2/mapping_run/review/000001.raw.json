@@ -1,0 +1,28 @@
+{
+  "id": "2f415845-b31c-45fc-9fa6-0113ccc895d4",
+  "object": "chat.completion",
+  "created": 1792571625,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-ffecca3ad190b780ec3be74cbac769b2\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L09-04\",\"issue\":\"男装设计实习生明确为服装设计，归L09-04服装饰品与纺织设计合理；该二级无三级细分，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17018,
+    "completion_tokens": 84,
+    "total_tokens": 17102,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 506
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

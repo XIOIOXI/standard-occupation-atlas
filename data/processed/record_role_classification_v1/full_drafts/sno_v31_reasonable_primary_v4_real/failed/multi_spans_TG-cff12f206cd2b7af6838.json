@@ -1,0 +1,22 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-cff12f206cd2b7af6838",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-cff12f206cd2b7af6838",
+    "case": "A",
+    "child_titles": [
+      "u培生(销售精英)",
+      "客户服务经理"
+    ],
+    "source_spans": [
+      {
+        "text": "u培生(销售精英)客户服务经理",
+        "start": 0,
+        "end": 15
+      }
+    ],
+    "reason": "标题由两个独立岗位名称直接拼接，可拆分。"
+  }
+}

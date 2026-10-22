@@ -1,0 +1,28 @@
+{
+  "id": "c7987c40-644a-4699-8d64-2f9a20914bf4",
+  "object": "chat.completion",
+  "created": 1792571930,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-4121e661cb81f181e31b49a171e7fbac\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L23-01\", \"issue\": \"制造部生产主管属工厂生产现场与班组管理，归L23-01合理；无更细三级证据，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17005,
+    "completion_tokens": 93,
+    "total_tokens": 17098,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 493
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

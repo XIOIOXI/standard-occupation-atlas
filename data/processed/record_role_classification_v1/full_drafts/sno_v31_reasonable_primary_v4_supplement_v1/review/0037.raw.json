@@ -1,0 +1,28 @@
+{
+  "id": "77c07fce-76d5-46f7-a605-e0c6ce59f4f7",
+  "object": "chat.completion",
+  "created": 1791895708,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-4099220e861be8a4e293\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题明确为运营管理，企划设计为辅助描述，核心职能为业务运营，归入通用业务运营合理。\"},{\"occupation_id\":\"TG-aa6a0fc736af1f001f89\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管理培训生且专业方向覆盖多个职能领域，最终职业方向未明确，符合跨职能管理培训与轮岗特征，当前review合理。\"},{\"occupation_id\":\"TG-0a7c9aded2a695bd7fc9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"科技储备生，有培养性质但具体职能方向未明确，当前review合理。\"},{\"occupation_id\":\"TG-ae314f0da3d77f81b258\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生兼总经办助理，兼具培养与行政助理职能，最终职业方向未明确，当前review合理。\"},{\"occupation_id\":\"TG-e0d3580f2a73e74c3faa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"优才生，通常为综合培养项目，但具体职能方向未明确，当前review合理。\"},{\"occupation_id\":\"TG-63ffd8b4f5801c5f9cdb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务型管培生，覆盖多个业务职能方向，最终职业方向未明确，当前review合理。\"},{\"occupation_id\":\"TG-b4bfadc64a17ed7677d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"职能管理培训生，培养性质明确但具体职能方向未说明，当前review合理。\"},{\"occupation_id\":\"TG-e9c2a1db2594727f4265\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"专技岗，专业技术岗位但具体专业领域未说明，无法确定职能方向。\"},{\"occupation_id\":\"TG-09554b6aef43614cd0f6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务审查岗，通常指合规或内控审查，归入合规与内部控制合理。\"},{\"occupation_id\":\"TG-df72156d3f6441d0dd85\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"开发助理，明确为软件开发辅助岗位，方向未说明，归入通用软件研发合理。\"},{\"occupation_id\":\"TG-100c46b41445b72999c4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行零售业务培训生，核心为个人客户销售，归入个人客户销售合理。\"},{\"occupation_id\":\"TG-72c58840e7767af78385\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"总行职能培训生，培养性质明确但具体职能方向未说明，当前review合理。\"},{\"occupation_id\":\"TG-2362e7719c19bb32a4ed\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"物流管培生，专业要求物流管理相关，核心职能为供应链规划与管理，归入供应链规划与管理合理。\"},{\"occupation_id\":\"TG-888a2b57cf55be22059b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生，仅薪资信息，无职能方向线索，当前review合理。\"},{\"occupation_id\":\"TG-6a60fe4d4b69e353e3e5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产管培生，明确为生产方向，归入生产计划与现场管理合理。\"},{\"occupation_id\":\"TG-f41de293cb0dffdf89c1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品管培生，方向为硬件/智能设备，归入实体产品管理合理。\"},{\"occupation_id\":\"TG-6ca45953748c40ebecee\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行分行运营培训生，核心为金融运营业务操作，归入金融运营与交易清算合理。\"},{\"occupation_id\":\"TG-693d0caf8e5ea2eab838\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"消费者管理培训生，面向个人消费者，归入个人客户销售合理。\"},{\"occupation_id\":\"TG-fcb8db5fe5f8907010d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"OPC技培生，技术培训生但具体技术方向未说明，当前review合理。\"},{\"occupation_id\":\"TG-33c886a363ccb7000512\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"零售管培生职能定向生，覆盖产研、技术、职能等多个方向，最终方向未明确，当前review合理。\"},{\"occupation_id\":\"TG-ef49b75c8a22d310b3a1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行零售业务培训生，核心为个人客户销售，归入个人客户销售合理。\"},{\"occupation_id\":\"TG-97272737624c86d8450d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"服务管理岗，通常指客户服务管理，归入客服与客户支持合理。\"},{\"occupation_id\":\"TG-33ba0c80227a0348a6b8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"总行管培生，专业方向覆盖多个领域，最终职业方向未明确，当前review合理。\"},{\"occupation_id\":\"TG-8618426964004b58b4b4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"调度员，通常指物流调度，归入物流调度与运输管理合理。\"},{\"occupation_id\":\"TG-649b1741a93352a5508c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务协同岗，核心为商业合作拓展，归入商务拓展与合作合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 20365,
+    "completion_tokens": 1422,
+    "total_tokens": 21787,
+    "prompt_tokens_details": {
+      "cached_tokens": 20224
+    },
+    "prompt_cache_hit_tokens": 20224,
+    "prompt_cache_miss_tokens": 141
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

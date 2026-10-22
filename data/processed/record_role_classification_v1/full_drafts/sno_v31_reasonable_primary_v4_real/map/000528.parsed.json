@@ -1,0 +1,275 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-b197f065253d3676f459",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-05",
+        "L06-04",
+        "L06-07"
+      ],
+      "title_evidence": "分析研发工程师",
+      "level_3_evidence": null,
+      "reason": "标题仅表明分析研发职能，未说明具体行业或技术方向，无法唯一确定二级类别。"
+    },
+    {
+      "occupation_id": "TG-24e993d29bb77eca559b",
+      "status": "mapped",
+      "target_category_id": "L01-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-04"
+      ],
+      "title_evidence": "APP开发工程师",
+      "level_3_evidence": null,
+      "reason": "APP开发属于移动应用开发，但未明确Android、iOS或跨平台，故归二级。"
+    },
+    {
+      "occupation_id": "TG-e617532a0eb73e0e648e",
+      "status": "mapped",
+      "target_category_id": "L01-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-04"
+      ],
+      "title_evidence": "APP软件工程师",
+      "level_3_evidence": null,
+      "reason": "APP软件工程师从事移动应用开发，未明确具体平台，归移动应用开发二级。"
+    },
+    {
+      "occupation_id": "TG-4db4aad92575edc580d0",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "子公司岗位",
+      "level_3_evidence": null,
+      "reason": "标题仅为组织描述，未表明任何职业职能，无法归类。"
+    },
+    {
+      "occupation_id": "TG-3a4e0e9793b5fdcba40b",
+      "status": "mapped",
+      "target_category_id": "L02-05-06",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-06"
+      ],
+      "title_evidence": "决策规划算法工程师",
+      "level_3_evidence": "决策规划算法工程师",
+      "reason": "决策规划算法属于运筹优化与决策算法范畴，直接匹配三级。"
+    },
+    {
+      "occupation_id": "TG-96705952f9dc868bce17",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-03"
+      ],
+      "title_evidence": "直播运营",
+      "level_3_evidence": null,
+      "reason": "直播运营属于内容与新媒体运营，归内容运营二级。"
+    },
+    {
+      "occupation_id": "TG-19f8c3a8cf0c0715968b",
+      "status": "mapped",
+      "target_category_id": "L01-05-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-05-02"
+      ],
+      "title_evidence": "Cocos2d -x开发工程师",
+      "level_3_evidence": "Cocos2d-x 开发工程师",
+      "reason": "Cocos2d-x 是游戏开发引擎，该岗位属于游戏客户端开发。"
+    },
+    {
+      "occupation_id": "TG-246e46b453b1ed898ebc",
+      "status": "mapped",
+      "target_category_id": "L01-05-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-05-02"
+      ],
+      "title_evidence": "Cocos2d-x 开发工程师",
+      "level_3_evidence": "Cocos2d-x 开发工程师",
+      "reason": "Cocos2d-x 是游戏开发引擎，该岗位属于游戏客户端开发。"
+    },
+    {
+      "occupation_id": "TG-351657ba7a7cec0b4e0d",
+      "status": "mapped",
+      "target_category_id": "L05-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-01"
+      ],
+      "title_evidence": "数字后端设计工程师",
+      "level_3_evidence": "数字后端设计工程师",
+      "reason": "数字后端设计属于数字芯片设计流程，归数字芯片设计三级。"
+    },
+    {
+      "occupation_id": "TG-f70ab3a6916918de046d",
+      "status": "mapped",
+      "target_category_id": "L24-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-09"
+      ],
+      "title_evidence": "测量技术员",
+      "level_3_evidence": null,
+      "reason": "测量技术员从事测绘测量工作，归测绘与地理信息二级。"
+    },
+    {
+      "occupation_id": "TG-c8df8b31733e2b6ed083",
+      "status": "mapped",
+      "target_category_id": "L11-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-05"
+      ],
+      "title_evidence": "产业研究岗",
+      "level_3_evidence": null,
+      "reason": "产业研究属于商业研究与市场调研，归该二级。"
+    },
+    {
+      "occupation_id": "TG-ca9eed67f80eb1842b18",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-07",
+        "L23-09-01",
+        "L14-10"
+      ],
+      "title_evidence": "现场工程师",
+      "level_3_evidence": null,
+      "reason": "现场工程师可能涉及施工管理、设备安装或售后技术服务，行业背景不明，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-b4390c07f152a0936beb",
+      "status": "mapped",
+      "target_category_id": "L24-10-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L24-10-01"
+      ],
+      "title_evidence": "施工员",
+      "level_3_evidence": "施工员",
+      "reason": "施工员属于土建施工工种，归建筑施工与装修作业下的土建施工工种。"
+    },
+    {
+      "occupation_id": "TG-442abd7d03c3243a2a36",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L05-01-01",
+        "L05-01-02",
+        "L05-05-01"
+      ],
+      "title_evidence": "智能传感工程师",
+      "level_3_evidence": null,
+      "reason": "智能传感工程师可能涉及电路设计、电子系统集成或无线射频技术，具体方向不明确。"
+    },
+    {
+      "occupation_id": "TG-8d82bab48c239f30f82f",
+      "status": "mapped",
+      "target_category_id": "L20-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-08"
+      ],
+      "title_evidence": "金融柜员岗",
+      "level_3_evidence": null,
+      "reason": "金融柜员属于银行柜面业务，归金融运营与交易清算二级。"
+    },
+    {
+      "occupation_id": "TG-974583c8215a963e87bf",
+      "status": "mapped",
+      "target_category_id": "L20-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-08"
+      ],
+      "title_evidence": "金融柜员",
+      "level_3_evidence": null,
+      "reason": "金融柜员属于银行柜面业务，归金融运营与交易清算二级。"
+    },
+    {
+      "occupation_id": "TG-6c4f23f85414e8db08cc",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "职能储备岗",
+      "level_3_evidence": null,
+      "reason": "职能储备岗可能为跨职能轮岗或综合储备，但未明确具体职能，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-409f20d2c3db447112d3",
+      "status": "mapped",
+      "target_category_id": "L09-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L09-02-02"
+      ],
+      "title_evidence": "UX设计师",
+      "level_3_evidence": "UX设计师",
+      "reason": "UX设计师从事交互与体验设计，归交互与体验设计三级。"
+    },
+    {
+      "occupation_id": "TG-042ea56bd02a5ad2bafa",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L10-06",
+        "L10-02",
+        "L10-01"
+      ],
+      "title_evidence": "项目工程师 (育英计划)",
+      "level_3_evidence": null,
+      "reason": "项目工程师可能涉及项目管理，但领域未明确，且育英计划可能为培养项目，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-be2988d579e371fb9e42",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L10-06",
+        "L10-02",
+        "L10-01"
+      ],
+      "title_evidence": "项目工程师（育英计划）",
+      "level_3_evidence": null,
+      "reason": "项目工程师可能涉及项目管理，但领域未明确，且育英计划可能为培养项目，需进一步确认。"
+    }
+  ],
+  "raw_response_file": "000528.raw.json",
+  "usage": {
+    "input_tokens": 17343,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 831,
+    "output_tokens": 2370,
+    "reasoning_tokens": 0,
+    "total_tokens": 19713
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0031923719999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

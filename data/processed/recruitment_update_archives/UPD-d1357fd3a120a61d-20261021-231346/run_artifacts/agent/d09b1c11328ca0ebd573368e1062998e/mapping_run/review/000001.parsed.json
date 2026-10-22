@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-d09b1c11328ca0ebd573368e1062998e",
+      "verdict": "pass",
+      "suggested_target_category_id": "L12-04",
+      "issue": "公关管培生明确为公关职能，归L12-04合理；管培生为培养标签，不构成跨职能轮岗证据，无需归L32。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17054,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 542,
+    "output_tokens": 90,
+    "reasoning_tokens": 0,
+    "total_tokens": 17144
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036967200000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

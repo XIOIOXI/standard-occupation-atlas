@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-228a79a60ee6dd92da725d15222ce698",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L10-06",
+        "L24-07",
+        "L14-11"
+      ],
+      "title_evidence": "工程部业务员：仅含“工程部”部门与泛化“业务员”，无具体职责描述",
+      "level_3_evidence": null,
+      "reason": "“业务员”为泛化称谓，工程部可能涉及工程项目管理、施工组织或业务运营，无法确定唯一职能方向，需人工确认具体职责"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16971,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 331,
+    "output_tokens": 138,
+    "reasoning_tokens": 0,
+    "total_tokens": 17109
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036474
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

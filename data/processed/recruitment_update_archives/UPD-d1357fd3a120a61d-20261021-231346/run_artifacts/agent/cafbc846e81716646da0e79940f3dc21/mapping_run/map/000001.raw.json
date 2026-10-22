@@ -1,0 +1,28 @@
+{
+  "id": "a52915f7-d1ac-4640-b853-63842b2f7ac9",
+  "object": "chat.completion",
+  "created": 1792571345,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-cafbc846e81716646da0e79940f3dc21\",\"status\":\"mapped\",\"target_category_id\":\"L18-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L18-04\",\"L18-01\",\"L18-02\",\"L18-03\"],\"title_evidence\":\"标题为“人力资源岗”，明确人力资源职能，未细分招聘/薪酬/培训方向\",\"level_3_evidence\":null,\"reason\":\"“人力资源岗”为人力资源综合职能，方向未细分，归 L18-04 人力资源综合管理；招聘、薪酬绩效、人才发展等为候选细分但无直接证据。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17003,
+    "completion_tokens": 149,
+    "total_tokens": 17152,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 363
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

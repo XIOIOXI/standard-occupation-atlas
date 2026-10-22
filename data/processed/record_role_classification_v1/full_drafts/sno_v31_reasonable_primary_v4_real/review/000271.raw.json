@@ -1,0 +1,28 @@
+{
+  "id": "c43d93a0-d400-460a-a953-4b7556c65b18",
+  "object": "chat.completion",
+  "created": 1791881029,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-28303e87e9f732b5f00d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-669762714286998cb9f7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0e88e0b2109f1ef538b4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0897e31bdc86c27d0987\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-22888235d60bcb1273e4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2144b93f263bf8ea7d20\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cb9529cd925242991f30\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8826dbf3a574e62f22fa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-369f022d348786191213\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5fba093f030bb29fab01\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-86a8ce36a9e3f63aa531\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-b7c634ea84412df16fe1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-04e58d17a15b5f1caf6c\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L06-01-03\",\"issue\":\"设备开发属于机械设备设计研发，而非工业设备安装调试作业，应归入L06-01-03机械设备设计。\"},{\"occupation_id\":\"TG-f979b39483265dec86e7\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L24-10-02\",\"issue\":\"幕墙生产拆单属于建筑装修施工范畴，归入L23-08印刷与包装作业明显错分，应归入L24-10-02装修与安装工种。\"},{\"occupation_id\":\"TG-774c8d1bb7ce21121397\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-dd8feaa32fbf2c62905a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-62ffc40ed6184d59fae1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ea0c9255e857f5066f48\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0efb3a20951d2d3ff2f6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-51526e1a532bd2761c9e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19545,
+    "completion_tokens": 814,
+    "total_tokens": 20359,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3033
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

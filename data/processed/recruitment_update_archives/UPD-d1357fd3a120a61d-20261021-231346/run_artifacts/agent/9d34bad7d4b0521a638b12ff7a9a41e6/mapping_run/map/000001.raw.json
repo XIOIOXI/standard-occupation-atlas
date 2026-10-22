@@ -1,0 +1,28 @@
+{
+  "id": "f67954ec-600d-4f39-927c-8ea5ea86117f",
+  "object": "chat.completion",
+  "created": 1792571953,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-9d34bad7d4b0521a638b12ff7a9a41e6\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L32-01\",\"L20-11\"],\"title_evidence\":\"标题为“管理培训生”，原始组合岗位含“金融业务人员”，公司为南海农商银行（金融业）\",\"level_3_evidence\":null,\"reason\":\"“管理培训生”本身不能证明跨职能轮岗；行业为银行但未说明具体金融业务方向，按目录规则仅“银行管培生”不能视为已明确金融业务，故不能直接映射到L20-11或L32-01，需人工确认培养性质与最终职能方向。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16907,
+    "completion_tokens": 173,
+    "total_tokens": 17080,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 267
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

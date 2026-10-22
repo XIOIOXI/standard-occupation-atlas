@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 196,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "98cf9db1-3271-4489-b360-731f8b44e251",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751492,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24940,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1644,
+    "output_tokens": 3982,
+    "reasoning_tokens": 0,
+    "total_tokens": 28922
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0027056879999999995
+  },
+  "observed_at_utc": "2026-10-11T20:44:52.599289+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-88f0e153b470937ddff5",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电机控制工程师核心职责为电气控制与自动化设计，归入电气/自动化下的电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-84738f60d5d4ab10ef09",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "电机控制软件工程师侧重嵌入式与固件开发，归入电子/硬件开发下的嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-16045dd17530910dff11",
+      "target_category_id": "房地产/建筑/estate-decoration/decoration-residential",
+      "status": "mapped",
+      "reason": "室内设计属于装饰装修领域，归入住宅与商业空间装修。"
+    },
+    {
+      "occupation_id": "SNO-0150ba44a392c969b578",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "工程管理通常指施工现场管理，归入工程管理下的施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-8b8e6ed182dca8d05481",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "需求分析师通常负责产品需求分析，归入互联网产品经理下的平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-79ea459a6072ea1efefa",
+      "target_category_id": "销售/sales-management/sales-management-strategy",
+      "status": "mapped",
+      "reason": "业务发展经理核心为销售策略与渠道管理，归入销售管理下的销售策略与渠道管理。"
+    },
+    {
+      "occupation_id": "SNO-aa501e194680498f1880",
+      "target_category_id": "运营/客服/ops-service/service-success",
+      "status": "mapped",
+      "reason": "客服工程师侧重客户成功与技术支持，归入客服下的客户成功与技术支持。"
+    },
+    {
+      "occupation_id": "SNO-687f9cf309a6ba52eaf5",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法律合规属于公司法务与合规，归入法律服务下的公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-c4cf2bf41d12780315d7",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "会计核算属于总账与财务核算，归入会计下的总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-89c758c889f74c5e2e94",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "模具设计属于机械结构与产品设计，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-a971a21d524657283527",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "国外销售核心为海外客户开发，归入外贸销售下的海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-5b27632ed15514249ef2",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力岗位通常涵盖员工关系与人力运营，归入人力资源下的员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-3bb77e496cb6e1cc490b",
+      "target_category_id": "设计/design-visual-interaction/design-motion",
+      "status": "mapped",
+      "reason": "视频设计属于动态与数字媒体设计，归入视觉/交互设计下的动态与数字媒体设计。"
+    },
+    {
+      "occupation_id": "SNO-8232fe6ce8dcb9357014",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中生物教师属于基础教育教学，归入教师下的基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-b26390854ae85b4be0b3",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中历史教师属于基础教育教学，归入教师下的基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-4c43013c633860cad47d",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "驻外会计仍属总账与财务核算，归入会计下的总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-70be37ef164a6b9bcf71",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "海外业务核心为海外客户开发，归入外贸销售下的海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-7117ba37f1e0268bd19b",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-planning",
+      "status": "mapped",
+      "reason": "人文地理与城乡规划属于国土与城市规划，归入城市规划设计下的国土与城市规划。"
+    },
+    {
+      "occupation_id": "SNO-f08a2ddfe334d657dc71",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "SMT工艺师涉及电路板组装工艺，归入电子/硬件开发下的电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-f71502c6599c5a25edd8",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "销售计划专员属于销售支持与商务协调，归入销售行政/商务下的销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-41403b328edbb3f4cba6",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "研发(助理)工程师通常从事机械结构与产品设计，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-851b90cb05d18efb6c97",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "mapped",
+      "reason": "内审专员属于内部控制与内审，归入审计下的内部控制与内审。"
+    },
+    {
+      "occupation_id": "SNO-6d710560c7a8033d9d47",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中信息技术教师属于基础教育教学，归入教师下的基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-a89733bda057b09ad60b",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "数据分析工程师核心为商业与业务分析，归入数据分析师下的商业与业务分析。"
+    },
+    {
+      "occupation_id": "SNO-ea9d1c203ca7498f7b9b",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "审计法务明显列出审计与法务两个独立职业，无法由同一目录承接。"
+    },
+    {
+      "occupation_id": "SNO-7b1800b13dca8a998d3a",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI应用算法工程师核心为大模型与生成式AI，归入算法工程师下的大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-201b79404e23ba450a9f",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "策划岗位名称过于宽泛，缺少具体行业或职能方向，无法确定细分归属。"
+    },
+    {
+      "occupation_id": "SNO-2b378c195a0127dbb52f",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-test",
+      "status": "mapped",
+      "reason": "芯片测试工程师属于封装与测试，归入半导体/芯片下的封装与测试。"
+    },
+    {
+      "occupation_id": "SNO-bd2511a654ea50438119",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-test",
+      "status": "mapped",
+      "reason": "芯片测试开发工程师属于封装与测试，归入半导体/芯片下的封装与测试。"
+    },
+    {
+      "occupation_id": "SNO-722f54f23dbda9f19d98",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": "党建宣传属于品牌公关与传播，归入公关媒介下的品牌公关与传播。"
+    },
+    {
+      "occupation_id": "SNO-d6c8d8002fc7261db019",
+      "target_category_id": "财务/审计/税务/finance-analysis/finance-bp-analysis",
+      "status": "mapped",
+      "reason": "经营分析属于经营与财务分析，归入财务分析/财务BP下的经营与财务分析。"
+    },
+    {
+      "occupation_id": "SNO-f6ee0572730c9f71f07e",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中英语教师属于基础教育教学，归入教师下的基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-848b1b96e1e8429b9174",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "系统管理属于基础设施与云运维，归入运维/技术支持下的基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-6871546633c21b768af5",
+      "target_category_id": "产品/product-game/game-planning",
+      "status": "mapped",
+      "reason": "执行策划通常指游戏系统与玩法策划，归入游戏策划/制作下的游戏系统与玩法策划。"
+    },
+    {
+      "occupation_id": "SNO-b948c4e772ca58ffc5fd",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "海外施工项目商务管理属于工程造价与合同管理，归入工程管理下的工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-4f08fff833224f5c7f33",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "文秘属于文档与档案文员，归入文员下的文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-0c0b03c7fffd52cd0a37",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "模拟设计属于芯片设计，归入半导体/芯片下的芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-5d203674437b20b1ca2f",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "供应链管理专员属于供应链计划与采购协同，归入供应链下的供应链计划与采购协同。"
+    },
+    {
+      "occupation_id": "SNO-2928c896f71c16a91452",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-data",
+      "status": "mapped",
+      "reason": "信息专员通常负责数据与业务文员工作，归入文员下的数据与业务文员。"
+    },
+    {
+      "occupation_id": "SNO-625010aeffff456efab6",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "研发工艺工程师属于机械制造与工艺，归入机械设计/制造下的机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-a9839fa6afd32e4fd2d9",
+      "target_category_id": "运营/客服/ops-business/business-ops-growth",
+      "status": "mapped",
+      "reason": "渠道运营属于业务增长与策略运营，归入业务运营下的业务增长与策略运营。"
+    },
+    {
+      "occupation_id": "SNO-1b9d86906a9d83c7a515",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "产品结构工程师属于机械结构与产品设计，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-8c75f90af1f8e0ed1c75",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "采选研究所博士研究员属于地质勘查与测绘，归入能源/地质下的地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-475f72a5dcc9629cec28",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "地质技术属于地质勘查与测绘，归入能源/地质下的地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-f519a3cc4c2f1a7df71b",
+      "target_category_id": "互联网/AI/internet-security/security-network",
+      "status": "mapped",
+      "reason": "网络攻防工程师属于网络与基础设施安全，归入网络/系统安全下的网络与基础设施安全。"
+    },
+    {
+      "occupation_id": "SNO-ad00c6b0ecf752e4bf63",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "智能驾驶规控算法工程师属于自动驾驶与智能交通，归入算法工程师下的自动驾驶与智能交通。"
+    },
+    {
+      "occupation_id": "SNO-ae3668c6ab1aae8ab09f",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产运行属于生产计划与调度，归入生产营运下的生产计划与调度。"
+    },
+    {
+      "occupation_id": "SNO-697c9d4b28ff97b49842",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "应用技术工程师属于技术支持与客户交付，归入运维/技术支持下的技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-9031fd500550262edeb2",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "mapped",
+      "reason": "高性能计算研发工程师属于图形与高性能计算，归入C++下的图形与高性能计算。"
+    },
+    {
+      "occupation_id": "SNO-0532b95d3b23c12b3c36",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "mapped",
+      "reason": "高性能计算工程师属于图形与高性能计算，归入C++下的图形与高性能计算。"
+    }
+  ]
+}

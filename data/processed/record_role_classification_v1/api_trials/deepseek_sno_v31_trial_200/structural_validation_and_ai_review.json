@@ -1,0 +1,3017 @@
+{
+  "schema_version": "sno-v3.1-200-validation-v1",
+  "taxonomy_version": "sno-v3.1-local-revision",
+  "summary": {
+    "sample_size": 200,
+    "mapped_count": 137,
+    "review_count": 54,
+    "mapped_ratio": 0.685,
+    "review_ratio": 0.27,
+    "level_2_direct_count": 90,
+    "level_3_count": 47,
+    "structural_failures": 0,
+    "semantic_precision": "not asserted: every title-only mapping remains evidence-insufficient until individual adjudication"
+  },
+  "rows": [
+    {
+      "sample_id": "SNO-85f16f998b2f78f1ad48",
+      "model_output": {
+        "occupation_id": "SNO-85f16f998b2f78f1ad48",
+        "status": "mapped",
+        "target_category_id": "L25-07",
+        "reason": "标题明确为项目安全管理，属安全健康与职业防护。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-70a3c398dfd4eab9aac5",
+      "model_output": {
+        "occupation_id": "SNO-70a3c398dfd4eab9aac5",
+        "status": "mapped",
+        "target_category_id": "L14-03",
+        "reason": "标题明确为内容运营，属内容与新媒体运营。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-5aa77086ed58873669f7",
+      "model_output": {
+        "occupation_id": "SNO-5aa77086ed58873669f7",
+        "status": "mapped",
+        "target_category_id": "L20-08",
+        "reason": "结算托管部结算运维，属金融运营与交易清算。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-d4c548f34cbd5c75f3a5",
+      "model_output": {
+        "occupation_id": "SNO-d4c548f34cbd5c75f3a5",
+        "status": "mapped",
+        "target_category_id": "L14-03",
+        "reason": "社媒运营属内容与新媒体运营。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-d0478c9cb1688deb98d6",
+      "model_output": {
+        "occupation_id": "SNO-d0478c9cb1688deb98d6",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "reason": "能源电力算法工程师，算法研发但具体三级方向未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-41fb42bd815f7cc808cd",
+      "model_output": {
+        "occupation_id": "SNO-41fb42bd815f7cc808cd",
+        "status": "mapped",
+        "target_category_id": "L23-09-02",
+        "reason": "电气点检员属工业设备维修保全。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "电气点检员属工业设备维修保全。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-cc15d9fdf28805f8aa86",
+      "model_output": {
+        "occupation_id": "SNO-cc15d9fdf28805f8aa86",
+        "status": "review",
+        "target_category_id": "L05-02",
+        "reason": "PDK工程师属芯片设计，但标题未说明数字/模拟/验证等具体三级。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-3190f6de453a9f1f9a0f",
+      "model_output": {
+        "occupation_id": "SNO-3190f6de453a9f1f9a0f",
+        "status": "mapped",
+        "target_category_id": "L03-05",
+        "reason": "加密算法工程师核心为信息安全，具体三级方向未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-4aa1a3c6743f7d8e154a",
+      "model_output": {
+        "occupation_id": "SNO-4aa1a3c6743f7d8e154a",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "标题仅“技术”，无任何职能方向信息。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-e5d340f2b9ee3320f200",
+      "model_output": {
+        "occupation_id": "SNO-e5d340f2b9ee3320f200",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "运营培训生仅银行行业与培养身份，职能方向未明确。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-c31f0147400183293e61",
+      "model_output": {
+        "occupation_id": "SNO-c31f0147400183293e61",
+        "status": "mapped",
+        "target_category_id": "L04-02",
+        "reason": "器件测试工程师属硬件与产品测试。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-c943178c1ab0c5bfbfd8",
+      "model_output": {
+        "occupation_id": "SNO-c943178c1ab0c5bfbfd8",
+        "status": "mapped",
+        "target_category_id": "L05-04",
+        "reason": "自控设计属自动化与控制工程。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-408c4da1f973481aaad6",
+      "model_output": {
+        "occupation_id": "SNO-408c4da1f973481aaad6",
+        "status": "mapped",
+        "target_category_id": "L12-03",
+        "reason": "国际广告投放属广告投放与效果营销，具体媒体三级未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-8e29e6449e6af5728974",
+      "model_output": {
+        "occupation_id": "SNO-8e29e6449e6af5728974",
+        "status": "mapped",
+        "target_category_id": "L23-03",
+        "reason": "CNC技术员属机械加工与数控操作。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-eced4716e5da147de2dd",
+      "model_output": {
+        "occupation_id": "SNO-eced4716e5da147de2dd",
+        "status": "mapped",
+        "target_category_id": "L13-02",
+        "reason": "课程销售顾问属个人客户销售。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-9c0806cffc2cbabca1ff",
+      "model_output": {
+        "occupation_id": "SNO-9c0806cffc2cbabca1ff",
+        "status": "mapped",
+        "target_category_id": "L16-04",
+        "reason": "小语种外贸业务员属进出口与贸易执行。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-07fcf24c852fd77ff0d4",
+      "model_output": {
+        "occupation_id": "SNO-07fcf24c852fd77ff0d4",
+        "status": "non_role_text",
+        "target_category_id": null,
+        "reason": "“本次招聘涉及”不是岗位名称。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "status_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-99b27449614896209ab6",
+      "model_output": {
+        "occupation_id": "SNO-99b27449614896209ab6",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "高级仿真工程师未说明仿真领域，无法确定一级归属。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-aaaf092f1fa07674fb0e",
+      "model_output": {
+        "occupation_id": "SNO-aaaf092f1fa07674fb0e",
+        "status": "mapped",
+        "target_category_id": "L04-04",
+        "reason": "失效分析助理工程师属检验检测与实验分析，具体三级未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-7196eec8684a5a8e5af9",
+      "model_output": {
+        "occupation_id": "SNO-7196eec8684a5a8e5af9",
+        "status": "mapped",
+        "target_category_id": "L20-09",
+        "reason": "资产评估管培生专业方向明确为资产评估，培养身份仅作标签。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-3350d766577dab09fb5d",
+      "model_output": {
+        "occupation_id": "SNO-3350d766577dab09fb5d",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "reason": "标题明确为信号处理算法工程师，属算法研发；超声方向不足以确定具体三级。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a7d3e79a496e5c4850b0",
+      "model_output": {
+        "occupation_id": "SNO-a7d3e79a496e5c4850b0",
+        "status": "review",
+        "target_category_id": "L26-04",
+        "reason": "标题为兽医师助理，属兽医与动物医疗，但助理身份且未说明伴侣或生产动物方向。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-13d600d1826857919714",
+      "model_output": {
+        "occupation_id": "SNO-13d600d1826857919714",
+        "status": "non_role_text",
+        "target_category_id": null,
+        "reason": "“官方未说明招聘”不是岗位名称，无职业信息。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "status_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-c7c2b86fee993f894bd4",
+      "model_output": {
+        "occupation_id": "SNO-c7c2b86fee993f894bd4",
+        "status": "mapped",
+        "target_category_id": "L02-01",
+        "reason": "标题明确为商业经营分析师，核心为经营数据分析，属数据分析。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-06d5a21783d857ffc369",
+      "model_output": {
+        "occupation_id": "SNO-06d5a21783d857ffc369",
+        "status": "review",
+        "target_category_id": "L18-06",
+        "reason": "标题为日语商务助理，助理身份且商务方向不明，缺少具体职能证据。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-09b70120c117f7063fcc",
+      "model_output": {
+        "occupation_id": "SNO-09b70120c117f7063fcc",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“平度办事处业务”仅说明地点和业务，未说明具体职业职能。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-6f0b61c2a8aa884ad401",
+      "model_output": {
+        "occupation_id": "SNO-6f0b61c2a8aa884ad401",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“多媒体工程师”方向不明，无法判断是开发、设计还是内容制作。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-bc68850afd71e00c4d95",
+      "model_output": {
+        "occupation_id": "SNO-bc68850afd71e00c4d95",
+        "status": "mapped",
+        "target_category_id": "L12-01",
+        "reason": "标题明确为营销推广专员，核心为营销策划与推广，属市场策略与营销策划。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-8793e25372a32cf93896",
+      "model_output": {
+        "occupation_id": "SNO-8793e25372a32cf93896",
+        "status": "mapped",
+        "target_category_id": "L06-01",
+        "reason": "标题明确为机械工程，属机械与结构设计；具体三级方向未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a38c7e2de09fbe6cb5ec",
+      "model_output": {
+        "occupation_id": "SNO-a38c7e2de09fbe6cb5ec",
+        "status": "review",
+        "target_category_id": "L05-06",
+        "reason": "铁路电务操作技能属通信或电子电气现场作业，但具体方向不明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-cc125b61530a02724f63",
+      "model_output": {
+        "occupation_id": "SNO-cc125b61530a02724f63",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“无人系统总体设计”跨机械、电子、控制等，核心职能方向不明确。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-6d35c8d1f3c7f41b351a",
+      "model_output": {
+        "occupation_id": "SNO-6d35c8d1f3c7f41b351a",
+        "status": "mapped",
+        "target_category_id": "L02-01",
+        "reason": "管培生身份不独立，经营分析方向明确，归经营与财务数据分析。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-bbe87102b8ccb92e4231",
+      "model_output": {
+        "occupation_id": "SNO-bbe87102b8ccb92e4231",
+        "status": "mapped",
+        "target_category_id": "L04-03",
+        "reason": "标题明确为制造质量工程师，属生产质量管理；具体三级未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-3c4d285367a397cfde25",
+      "model_output": {
+        "occupation_id": "SNO-3c4d285367a397cfde25",
+        "status": "review",
+        "target_category_id": "L30-04",
+        "reason": "国际注册专员可能属知识产权或合规注册，标题未明确具体注册职能。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-961bea0f39be287f0d18",
+      "model_output": {
+        "occupation_id": "SNO-961bea0f39be287f0d18",
+        "status": "review",
+        "target_category_id": "L14-11",
+        "reason": "“运营经理”仅说明运营管理，未说明产品、用户、电商等具体方向。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-372c9815ce356b008ddf",
+      "model_output": {
+        "occupation_id": "SNO-372c9815ce356b008ddf",
+        "status": "mapped",
+        "target_category_id": "L20-02",
+        "reason": "标题明确为私人投资顾问，核心为投资与资产管理服务。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-b0bb22d7a889d08cc304",
+      "model_output": {
+        "occupation_id": "SNO-b0bb22d7a889d08cc304",
+        "status": "mapped",
+        "target_category_id": "L25-04",
+        "reason": "标题明确为电厂运行工程师，属能源运行与调度。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-f0efb5a7839e8cf596aa",
+      "model_output": {
+        "occupation_id": "SNO-f0efb5a7839e8cf596aa",
+        "status": "mapped",
+        "target_category_id": "L06-07",
+        "reason": "标题明确为抗体工程高级研究员，属生物与药物研发；抗体工程归生物技术研发。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-affd0edede1eda86ee01",
+      "model_output": {
+        "occupation_id": "SNO-affd0edede1eda86ee01",
+        "status": "mapped",
+        "target_category_id": "L13-01",
+        "reason": "标题明确为销售工程师，核心为销售；日语为语言标签，客户类型未明但销售方向明确。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-7a131914fb8b9992a9a8",
+      "model_output": {
+        "occupation_id": "SNO-7a131914fb8b9992a9a8",
+        "status": "mapped",
+        "target_category_id": "L01-02",
+        "reason": "标题明确为后端软件开发工程师，属后端开发；具体三级未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-75c42924a70e3bbd7ebe",
+      "model_output": {
+        "occupation_id": "SNO-75c42924a70e3bbd7ebe",
+        "status": "mapped",
+        "target_category_id": "L26-02",
+        "reason": "标题含林业规划设计，属林业与生态管护，方向明确。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-3dd73911e09235373671",
+      "model_output": {
+        "occupation_id": "SNO-3dd73911e09235373671",
+        "status": "mapped",
+        "target_category_id": "L09-03",
+        "reason": "标题含珠宝设计，属实体产品外观与工业设计。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-d3d69d94f79fca0088f4",
+      "model_output": {
+        "occupation_id": "SNO-d3d69d94f79fca0088f4",
+        "status": "mapped",
+        "target_category_id": "L16-01-02",
+        "reason": "标题含设备/机电采购，属间接采购与服务采购。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题含设备/机电采购，属间接采购与服务采购。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-f8266357708df0ebd785",
+      "model_output": {
+        "occupation_id": "SNO-f8266357708df0ebd785",
+        "status": "review",
+        "target_category_id": "L32-02",
+        "reason": "养殖管培生仅明确培养身份与养殖领域，未明确具体养殖职能。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-e24d1e9d58fed3885451",
+      "model_output": {
+        "occupation_id": "SNO-e24d1e9d58fed3885451",
+        "status": "review",
+        "target_category_id": "L09-02-01",
+        "reason": "阵列前端设计师中“阵列”含义不明，无法确认是界面视觉还是其他设计。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "阵列前端设计师中“阵列”含义不明，无法确认是界面视觉还是其他设计。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-58d3cfca511995f45082",
+      "model_output": {
+        "occupation_id": "SNO-58d3cfca511995f45082",
+        "status": "review",
+        "target_category_id": "L32-01",
+        "reason": "学科校长管培生项目仅明确培养身份，最终职能方向未明确。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-f7538f218c7f1dfd7fc7",
+      "model_output": {
+        "occupation_id": "SNO-f7538f218c7f1dfd7fc7",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "客户主管未说明是销售、客服还是客户成功，职能方向不足。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-0b1cbadb04e9046f30d8",
+      "model_output": {
+        "occupation_id": "SNO-0b1cbadb04e9046f30d8",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "reason": "标题含软硬件研发工程师，软件方向未说明，归通用软件研发。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-9e0e40d2e6771547d880",
+      "model_output": {
+        "occupation_id": "SNO-9e0e40d2e6771547d880",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "品牌与商务运营跨品牌和运营，主职能不明确。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-3b56d111001870ccc4d3",
+      "model_output": {
+        "occupation_id": "SNO-3b56d111001870ccc4d3",
+        "status": "mapped",
+        "target_category_id": "L27-08-03",
+        "reason": "标题含机务乘务操作技能，属轨道驾驶与专业操作。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题含机务乘务操作技能，属轨道驾驶与专业操作。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-1e410bfbb964a2c2ba95",
+      "model_output": {
+        "occupation_id": "SNO-1e410bfbb964a2c2ba95",
+        "status": "mapped",
+        "target_category_id": "L23-09-02",
+        "reason": "标题含供电设备检修与维护，属工业设备维修保全。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题含供电设备检修与维护，属工业设备维修保全。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a264210571d4536623e1",
+      "model_output": {
+        "occupation_id": "SNO-a264210571d4536623e1",
+        "status": "mapped",
+        "target_category_id": "L24-07",
+        "reason": "标题含施工经理(总装项目)，属施工组织与工程管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-8a63742b9a75ea975cf1",
+      "model_output": {
+        "occupation_id": "SNO-8a63742b9a75ea975cf1",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "reason": "标题含算法工程师，属机器学习与算法研发，具体三级未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-c6bafb90d5514cbc0966",
+      "model_output": {
+        "occupation_id": "SNO-c6bafb90d5514cbc0966",
+        "status": "review",
+        "target_category_id": "L32-01",
+        "reason": "数字化解决方案管培生仅明确培养身份，最终职能方向未明确。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-5b7db7391c26f662c558",
+      "model_output": {
+        "occupation_id": "SNO-5b7db7391c26f662c558",
+        "status": "mapped",
+        "target_category_id": "L13-08-02",
+        "reason": "标题为投标，属商务合同与订单支持。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题为投标，属商务合同与订单支持。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-61202ded83b18dad1954",
+      "model_output": {
+        "occupation_id": "SNO-61202ded83b18dad1954",
+        "status": "mapped",
+        "target_category_id": "L06-07-01",
+        "reason": "标题含细胞发酵工艺开发研究员，属生物技术研发。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题含细胞发酵工艺开发研究员，属生物技术研发。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-ef82f15da435061df15a",
+      "model_output": {
+        "occupation_id": "SNO-ef82f15da435061df15a",
+        "status": "mapped",
+        "target_category_id": "L02-05-02",
+        "reason": "标题含LLM算法工程师，属自然语言处理与大模型训练。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题含LLM算法工程师，属自然语言处理与大模型训练。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-d7d11ed288fa9fd54af1",
+      "model_output": {
+        "occupation_id": "SNO-d7d11ed288fa9fd54af1",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "reason": "标题含算法工程师(密码方向)，属算法研发，三级未明确。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-3014d406743eb7141fa4",
+      "model_output": {
+        "occupation_id": "SNO-3014d406743eb7141fa4",
+        "status": "mapped",
+        "target_category_id": "L14-01",
+        "reason": "标题含OTA平台运营专员，属产品与平台运营。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-f4bf3e2d9cab9773b1d2",
+      "model_output": {
+        "occupation_id": "SNO-f4bf3e2d9cab9773b1d2",
+        "status": "mapped",
+        "target_category_id": "L14-10",
+        "reason": "标题含大客户技术支持，属售后技术服务。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-557c56ce296ee59109ec",
+      "model_output": {
+        "occupation_id": "SNO-557c56ce296ee59109ec",
+        "status": "mapped",
+        "target_category_id": "L05-02-02",
+        "reason": "标题明确模拟芯片设计，归芯片与集成电路设计的模拟与混合信号设计。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题明确模拟芯片设计，归芯片与集成电路设计的模拟与混合信号设计。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-d1c6b4d9dbf9e71b4f7f",
+      "model_output": {
+        "occupation_id": "SNO-d1c6b4d9dbf9e71b4f7f",
+        "status": "mapped",
+        "target_category_id": "L05-02-01",
+        "reason": "标题“数字电路”明确数字芯片设计方向，归数字芯片设计。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题“数字电路”明确数字芯片设计方向，归数字芯片设计。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-188a23e431289adc14bc",
+      "model_output": {
+        "occupation_id": "SNO-188a23e431289adc14bc",
+        "status": "multi_role",
+        "target_category_id": null,
+        "reason": "标题含财务、法务、人力、行政多个独立职能，属多岗位。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "status_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-1ab0775d2a94e054c105",
+      "model_output": {
+        "occupation_id": "SNO-1ab0775d2a94e054c105",
+        "status": "review",
+        "target_category_id": "L30-04",
+        "reason": "“国际注册专员”未说明是产品注册还是知识产权注册，缺少注册对象证据。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-b34d318554be524ed36a",
+      "model_output": {
+        "occupation_id": "SNO-b34d318554be524ed36a",
+        "status": "review",
+        "target_category_id": "L32-01",
+        "reason": "IP运营管培生，IP指知识产权还是互联网产品不明，培养方向未明确。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-c4be2ca11be7dbd3e317",
+      "model_output": {
+        "occupation_id": "SNO-c4be2ca11be7dbd3e317",
+        "status": "mapped",
+        "target_category_id": "L02-05-06",
+        "reason": "标题明确机械臂力控算法，属运筹优化与决策算法中的控制决策。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题明确机械臂力控算法，属运筹优化与决策算法中的控制决策。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-c5f00ededc0d555d97e5",
+      "model_output": {
+        "occupation_id": "SNO-c5f00ededc0d555d97e5",
+        "status": "mapped",
+        "target_category_id": "L05-03",
+        "reason": "新能源变压器研发属电气设备设计，归电气工程。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-9456905b1b73f939b88e",
+      "model_output": {
+        "occupation_id": "SNO-9456905b1b73f939b88e",
+        "status": "mapped",
+        "target_category_id": "L05-03",
+        "reason": "电机电磁技术属电气设备电磁设计，归电气工程。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-2bdacfb9b882930e09e8",
+      "model_output": {
+        "occupation_id": "SNO-2bdacfb9b882930e09e8",
+        "status": "mapped",
+        "target_category_id": "L24-04",
+        "reason": "机电设计师属建筑机电与设备工程，归建筑机电。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a53a80229d6f53ed2313",
+      "model_output": {
+        "occupation_id": "SNO-a53a80229d6f53ed2313",
+        "status": "mapped",
+        "target_category_id": "L16-04",
+        "reason": "铜精矿贸易业务属进出口与贸易执行，归贸易执行。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-3d81a36197a7afc3845e",
+      "model_output": {
+        "occupation_id": "SNO-3d81a36197a7afc3845e",
+        "status": "review",
+        "target_category_id": "L14-10",
+        "reason": "“工艺售后工程师”售后对象与是否技术安装维修不明，缺少证据。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-0efdba063aa9c7df639b",
+      "model_output": {
+        "occupation_id": "SNO-0efdba063aa9c7df639b",
+        "status": "mapped",
+        "target_category_id": "L12-01",
+        "reason": "市场推广管培生，专业方向明确为市场推广，培养身份仅作标签。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-40221954ae855fa39330",
+      "model_output": {
+        "occupation_id": "SNO-40221954ae855fa39330",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“技能操作”未说明具体工种或行业，无法确定职业方向。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-2e6e48e3280e8474a2ea",
+      "model_output": {
+        "occupation_id": "SNO-2e6e48e3280e8474a2ea",
+        "status": "review",
+        "target_category_id": "L14-11",
+        "reason": "“技术运营”未说明运营对象与职能方向，缺少具体证据。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-090f212a5b1a26d2a6cb",
+      "model_output": {
+        "occupation_id": "SNO-090f212a5b1a26d2a6cb",
+        "status": "multi_role",
+        "target_category_id": null,
+        "reason": "标题含现场管理、设备安装、园林绿化、设计规划、财务金融多个岗位。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "status_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-5d203674437b20b1ca2f",
+      "model_output": {
+        "occupation_id": "SNO-5d203674437b20b1ca2f",
+        "status": "mapped",
+        "target_category_id": "L16-02",
+        "reason": "供应链管理专员属供应链规划与管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-2ed03a97e5d92ae99e2f",
+      "model_output": {
+        "occupation_id": "SNO-2ed03a97e5d92ae99e2f",
+        "status": "mapped",
+        "target_category_id": "L10-06",
+        "reason": "分公司管理中心项目管理属通用项目管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-d6087a47e528741b0653",
+      "model_output": {
+        "occupation_id": "SNO-d6087a47e528741b0653",
+        "status": "mapped",
+        "target_category_id": "L01-07-02",
+        "reason": "AI编译工程师属编译器与语言工具，归系统与基础软件研发。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "AI编译工程师属编译器与语言工具，归系统与基础软件研发。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-b3cecc46c8b0f6b523f7",
+      "model_output": {
+        "occupation_id": "SNO-b3cecc46c8b0f6b523f7",
+        "status": "mapped",
+        "target_category_id": "L05-02-02",
+        "reason": "模拟电路工程师属模拟与混合信号芯片设计。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "模拟电路工程师属模拟与混合信号芯片设计。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-741a768f67a709a3a54b",
+      "model_output": {
+        "occupation_id": "SNO-741a768f67a709a3a54b",
+        "status": "review",
+        "target_category_id": "L25-09",
+        "reason": "新能源研发工程师未说明具体技术方向，缺少研发对象证据。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-1f4e1a0096860e1fc21d",
+      "model_output": {
+        "occupation_id": "SNO-1f4e1a0096860e1fc21d",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "reason": "标题为算法优化工程师，核心是算法研发，但未说明视觉/NLP/推荐等具体方向，停在二级。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-ad75b05b0c4e14fde23d",
+      "model_output": {
+        "occupation_id": "SNO-ad75b05b0c4e14fde23d",
+        "status": "review",
+        "target_category_id": "L17-01",
+        "reason": "空港物流仅说明物流领域，未明确是调度运输、仓储还是其他物流作业方向。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-b65e1b6f9bd49e8b8a44",
+      "model_output": {
+        "occupation_id": "SNO-b65e1b6f9bd49e8b8a44",
+        "status": "mapped",
+        "target_category_id": "L13-02",
+        "reason": "营业网点业务岗(营销服务)核心为营销服务，面向个人客户，归个人客户销售。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-7abcd404c614c408f9af",
+      "model_output": {
+        "occupation_id": "SNO-7abcd404c614c408f9af",
+        "status": "mapped",
+        "target_category_id": "L24-08",
+        "reason": "土建质量员核心为土建工程质量检查验收，归工程监理与验收。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-dc102a15d3ada0126162",
+      "model_output": {
+        "occupation_id": "SNO-dc102a15d3ada0126162",
+        "status": "mapped",
+        "target_category_id": "L24-04",
+        "reason": "算力设施暖通工程师核心为暖通专业，归建筑机电与设备工程。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-f6c5e273afe72ac33c47",
+      "model_output": {
+        "occupation_id": "SNO-f6c5e273afe72ac33c47",
+        "status": "mapped",
+        "target_category_id": "L22-02",
+        "reason": "高复全科教师核心为学科教学，但未说明具体学科，停在学科与通识教学二级。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-312342748278bb43b524",
+      "model_output": {
+        "occupation_id": "SNO-312342748278bb43b524",
+        "status": "mapped",
+        "target_category_id": "L06-01-02",
+        "reason": "开关柜结构设计属于产品结构设计，归机械与结构设计下的产品结构设计。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "开关柜结构设计属于产品结构设计，归机械与结构设计下的产品结构设计。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-bbc6f9d1b0d139523695",
+      "model_output": {
+        "occupation_id": "SNO-bbc6f9d1b0d139523695",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "reason": "具身智能VLA方向核心为视觉语言动作模型算法研发，但目录无对应三级，停在算法研发二级。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-9274d63948e8c7c66253",
+      "model_output": {
+        "occupation_id": "SNO-9274d63948e8c7c66253",
+        "status": "mapped",
+        "target_category_id": "L06-05-01",
+        "reason": "有机合成高级研究员核心为有机合成反应开发，归化学合成与反应开发。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "有机合成高级研究员核心为有机合成反应开发，归化学合成与反应开发。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-93ffb87ac5a6a3ae38fd",
+      "model_output": {
+        "occupation_id": "SNO-93ffb87ac5a6a3ae38fd",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "reason": "算法工程师仅说明算法研发职能，未说明具体算法方向，停在机器学习与算法研发二级。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-8f6f32893e82aa928050",
+      "model_output": {
+        "occupation_id": "SNO-8f6f32893e82aa928050",
+        "status": "mapped",
+        "target_category_id": "L08-01",
+        "reason": "产品经理(AI方向)核心为AI应用产品管理，归数字与软件产品管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-f0947d368b70d02363bd",
+      "model_output": {
+        "occupation_id": "SNO-f0947d368b70d02363bd",
+        "status": "mapped",
+        "target_category_id": "L19-08",
+        "reason": "财会实习生涉及财务管理、会计、审计、资产管理等，方向未明确，归通用财务工作。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-18d0e05d910ecfaf252c",
+      "model_output": {
+        "occupation_id": "SNO-18d0e05d910ecfaf252c",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "运营班操作仅说明运营操作，未明确是生产、物流还是其他运营方向。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-3b283eed98a79c466ec4",
+      "model_output": {
+        "occupation_id": "SNO-3b283eed98a79c466ec4",
+        "status": "mapped",
+        "target_category_id": "L14-01",
+        "reason": "游戏运营核心为游戏产品与平台运营，归产品与平台运营。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-63163982cb6463468861",
+      "model_output": {
+        "occupation_id": "SNO-63163982cb6463468861",
+        "status": "mapped",
+        "target_category_id": "L12-07",
+        "reason": "市场营销支持核心为市场营销职能，但未说明策略、品牌或投放等具体方向。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-b2ac28211b24b1a7f7fd",
+      "model_output": {
+        "occupation_id": "SNO-b2ac28211b24b1a7f7fd",
+        "status": "mapped",
+        "target_category_id": "L23-09-02",
+        "reason": "客车运维操作技能核心为车辆设备维修保全，归工业设备维修保全。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "客车运维操作技能核心为车辆设备维修保全，归工业设备维修保全。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-8d2d2381e456e923ce46",
+      "model_output": {
+        "occupation_id": "SNO-8d2d2381e456e923ce46",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "智能建造仅说明建造领域，未明确是设计、施工、造价还是其他工程方向。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-5c7433887a97a533145f",
+      "model_output": {
+        "occupation_id": "SNO-5c7433887a97a533145f",
+        "status": "mapped",
+        "target_category_id": "L08-01",
+        "reason": "测评产品经理核心为测评类数字产品管理，归数字与软件产品管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-169c5690d158a4e4e0cb",
+      "model_output": {
+        "occupation_id": "SNO-169c5690d158a4e4e0cb",
+        "status": "mapped",
+        "target_category_id": "L06-02",
+        "reason": "流体力学仿真工程师核心为流体与热流体工程，归热流体与动力工程。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-74e8841c43022c18448b",
+      "model_output": {
+        "occupation_id": "SNO-74e8841c43022c18448b",
+        "status": "mapped",
+        "target_category_id": "L26-01",
+        "reason": "农艺师核心为农业种植技术，归农业与种植技术。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-d890b4198ea74c4163b3",
+      "model_output": {
+        "occupation_id": "SNO-d890b4198ea74c4163b3",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“总体设计师”未说明设计对象，无法判断是产品、建筑还是其他设计职能。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-23501452d85ba0038944",
+      "model_output": {
+        "occupation_id": "SNO-23501452d85ba0038944",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“医学市场管培生”含医学与市场两方向，培养身份不能确定核心职能。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-dab696d4fe1613cbde0e",
+      "model_output": {
+        "occupation_id": "SNO-dab696d4fe1613cbde0e",
+        "status": "mapped",
+        "target_category_id": "L18-04",
+        "reason": "“总部人力资源”明确人力资源职能，方向未细分，归人力资源综合管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-45f8f899bbabd4cdbb0f",
+      "model_output": {
+        "occupation_id": "SNO-45f8f899bbabd4cdbb0f",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“运营风控”未说明是金融风控还是业务运营风险，缺少行业与职能证据。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-0b935291ac8588011dfe",
+      "model_output": {
+        "occupation_id": "SNO-0b935291ac8588011dfe",
+        "status": "mapped",
+        "target_category_id": "L22-02-02",
+        "reason": "“学习机数学教师”明确数学教学，归数学与自然科学教学。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“学习机数学教师”明确数学教学，归数学与自然科学教学。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-1efb9713cdd0db50fc3a",
+      "model_output": {
+        "occupation_id": "SNO-1efb9713cdd0db50fc3a",
+        "status": "mapped",
+        "target_category_id": "L09-03",
+        "reason": "“内/外饰设计”为车辆内外饰造型设计，归工业与产品外观设计。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-0b1d9a739c7e90b63cb0",
+      "model_output": {
+        "occupation_id": "SNO-0b1d9a739c7e90b63cb0",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“实施交付”未说明是软件实施还是客户交付，缺少对象与职能证据。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-71587e7f793855dc1589",
+      "model_output": {
+        "occupation_id": "SNO-71587e7f793855dc1589",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“业务管理运营”过于笼统，未说明业务类型与运营方向。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-9c2d196943352a89383e",
+      "model_output": {
+        "occupation_id": "SNO-9c2d196943352a89383e",
+        "status": "mapped",
+        "target_category_id": "L08-01",
+        "reason": "“助理AI产品”明确AI产品方向，助理为身份标签，归数字与软件产品管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-238504f997ffc832178f",
+      "model_output": {
+        "occupation_id": "SNO-238504f997ffc832178f",
+        "status": "mapped",
+        "target_category_id": "L22-04-02",
+        "reason": "“公共体育部专任教师”明确体育教学，归体育教学。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“公共体育部专任教师”明确体育教学，归体育教学。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-7f7213e5e772f5f3216c",
+      "model_output": {
+        "occupation_id": "SNO-7f7213e5e772f5f3216c",
+        "status": "mapped",
+        "target_category_id": "L04-03",
+        "reason": "“品质检验管培生”明确品质检验职能，管培为标签，归生产质量管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-6b195d59b06563239447",
+      "model_output": {
+        "occupation_id": "SNO-6b195d59b06563239447",
+        "status": "mapped",
+        "target_category_id": "L06-05-01",
+        "reason": "“催化工程师”明确催化反应方向，归化学合成与反应开发。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“催化工程师”明确催化反应方向，归化学合成与反应开发。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-ac88016e507fd573963d",
+      "model_output": {
+        "occupation_id": "SNO-ac88016e507fd573963d",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“业态门店管培生”仅说明门店与培养身份，未明确销售、运营等核心职能。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-db28092a79192db4aed7",
+      "model_output": {
+        "occupation_id": "SNO-db28092a79192db4aed7",
+        "status": "mapped",
+        "target_category_id": "L03-01",
+        "reason": "“Linux运维工程师”明确Linux系统运维，归系统与服务器运维。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-5dfa66abc1c47b16487d",
+      "model_output": {
+        "occupation_id": "SNO-5dfa66abc1c47b16487d",
+        "status": "mapped",
+        "target_category_id": "L13-04",
+        "reason": "“商务拓展管培生”明确商务拓展职能，管培为标签，归商务拓展与合作。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-8ab2ff0f292e5b533a52",
+      "model_output": {
+        "occupation_id": "SNO-8ab2ff0f292e5b533a52",
+        "status": "mapped",
+        "target_category_id": "L22-02-03",
+        "reason": "“人文素养教师”明确人文社会学科教学，归人文与社会学科教学。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“人文素养教师”明确人文社会学科教学，归人文与社会学科教学。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-e11eeca361a5252ac60a",
+      "model_output": {
+        "occupation_id": "SNO-e11eeca361a5252ac60a",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“生产技术”未说明是生产操作还是工艺技术，方向不明确。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-ca131654e0df9eea714e",
+      "model_output": {
+        "occupation_id": "SNO-ca131654e0df9eea714e",
+        "status": "mapped",
+        "target_category_id": "L04-03-01",
+        "reason": "“电芯过程质量工程师”明确制造过程质量，归过程质量管理。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“电芯过程质量工程师”明确制造过程质量，归过程质量管理。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-ba8e0573b972270ab2b3",
+      "model_output": {
+        "occupation_id": "SNO-ba8e0573b972270ab2b3",
+        "status": "mapped",
+        "target_category_id": "L19-05-01",
+        "reason": "“经责审计工作员”明确经济责任审计，归内部审计。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“经责审计工作员”明确经济责任审计，归内部审计。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-871c94bf8fa894de8d42",
+      "model_output": {
+        "occupation_id": "SNO-871c94bf8fa894de8d42",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“EGG管培生”缩写无明确职能信息，仅培养身份，无法归类。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-6913cf728cce5a17c986",
+      "model_output": {
+        "occupation_id": "SNO-6913cf728cce5a17c986",
+        "status": "mapped",
+        "target_category_id": "L12-01",
+        "reason": "标题含市场推广与运营经理，核心为市场推广策划，归市场策略与营销策划。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-89822d20bc6df73a6b3d",
+      "model_output": {
+        "occupation_id": "SNO-89822d20bc6df73a6b3d",
+        "status": "mapped",
+        "target_category_id": "L05-05-01",
+        "reason": "雷达信号处理属无线与射频技术，标题明确雷达信号处理工程师。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "雷达信号处理属无线与射频技术，标题明确雷达信号处理工程师。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-15fd8cd7f875b6f39ee1",
+      "model_output": {
+        "occupation_id": "SNO-15fd8cd7f875b6f39ee1",
+        "status": "multi_role",
+        "target_category_id": null,
+        "reason": "标题同时含财务管理与审计，且材料类指向不明，属多个独立岗位。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "status_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-29ff7f3b4ede9d7ddd5a",
+      "model_output": {
+        "occupation_id": "SNO-29ff7f3b4ede9d7ddd5a",
+        "status": "mapped",
+        "target_category_id": "L07-03",
+        "reason": "实验教学中心实验师，核心为实验教学与科研技术支持。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-2b27cd42b158f9bc158c",
+      "model_output": {
+        "occupation_id": "SNO-2b27cd42b158f9bc158c",
+        "status": "mapped",
+        "target_category_id": "L12-01-02",
+        "reason": "宣传策划专员，核心为宣传与营销活动策划。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "宣传策划专员，核心为宣传与营销活动策划。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-8c4f744aff124269939c",
+      "model_output": {
+        "occupation_id": "SNO-8c4f744aff124269939c",
+        "status": "mapped",
+        "target_category_id": "L20-02-02",
+        "reason": "股票交易，核心为金融资产交易执行。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "股票交易，核心为金融资产交易执行。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-1fa795a93f9883104945",
+      "model_output": {
+        "occupation_id": "SNO-1fa795a93f9883104945",
+        "status": "mapped",
+        "target_category_id": "L20-01-01",
+        "reason": "指数与量化投资分析师，核心为证券市场与投资研究。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "指数与量化投资分析师，核心为证券市场与投资研究。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-dde28d3ac66cd93e91d5",
+      "model_output": {
+        "occupation_id": "SNO-dde28d3ac66cd93e91d5",
+        "status": "review",
+        "target_category_id": "L18-03-02",
+        "reason": "组织管理指向组织发展，但缺少是否人力资源或经营管理的具体证据。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "组织管理指向组织发展，但缺少是否人力资源或经营管理的具体证据。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-39dc3f441c70cd4a55c6",
+      "model_output": {
+        "occupation_id": "SNO-39dc3f441c70cd4a55c6",
+        "status": "mapped",
+        "target_category_id": "L06-07-02",
+        "reason": "体外药理研究员，核心为药理及非临床研究。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "体外药理研究员，核心为药理及非临床研究。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-c8003f957ac160fd85bb",
+      "model_output": {
+        "occupation_id": "SNO-c8003f957ac160fd85bb",
+        "status": "mapped",
+        "target_category_id": "L23-03",
+        "reason": "数控车铣操作员，核心为数控机床操作与机械加工。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a949b076007be649591c",
+      "model_output": {
+        "occupation_id": "SNO-a949b076007be649591c",
+        "status": "mapped",
+        "target_category_id": "L24-02",
+        "reason": "土建专员，核心为土木结构工程技术。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-2486e3a35cb363629511",
+      "model_output": {
+        "occupation_id": "SNO-2486e3a35cb363629511",
+        "status": "mapped",
+        "target_category_id": "L13-03",
+        "reason": "资管渠道销售，核心为渠道销售与经销管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-6ff7f3177acc6e5c9970",
+      "model_output": {
+        "occupation_id": "SNO-6ff7f3177acc6e5c9970",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "reason": "世界模型研究员，核心为机器学习与算法研发，但三级方向未明确。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a9819e23df3f69b6a9fd",
+      "model_output": {
+        "occupation_id": "SNO-a9819e23df3f69b6a9fd",
+        "status": "mapped",
+        "target_category_id": "L32-01",
+        "reason": "职能管培生，真实培养项目且最终职业方向未明确。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-73e78a33c129b97ab94e",
+      "model_output": {
+        "occupation_id": "SNO-73e78a33c129b97ab94e",
+        "status": "mapped",
+        "target_category_id": "L06-07-01",
+        "reason": "生物催化研究员，核心为生物技术研发。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "生物催化研究员，核心为生物技术研发。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a0ef9eb371f606789726",
+      "model_output": {
+        "occupation_id": "SNO-a0ef9eb371f606789726",
+        "status": "mapped",
+        "target_category_id": "L06-07-01",
+        "reason": "生物/微生物研发员，核心为生物技术研发。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "生物/微生物研发员，核心为生物技术研发。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-c716ed2d9f6c2fcac8f0",
+      "model_output": {
+        "occupation_id": "SNO-c716ed2d9f6c2fcac8f0",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "海外商品创优生，仅知商品与培养身份，缺少采购、运营或销售等职能证据。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a7e94537eeefd036a434",
+      "model_output": {
+        "occupation_id": "SNO-a7e94537eeefd036a434",
+        "status": "mapped",
+        "target_category_id": "L19-08",
+        "reason": "财务综合，确认财务职能但具体方向未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a2fca5e868380f906715",
+      "model_output": {
+        "occupation_id": "SNO-a2fca5e868380f906715",
+        "status": "mapped",
+        "target_category_id": "L25-04",
+        "reason": "集控站维操员，核心为能源设施运行与调度。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-547912e64ed07162694e",
+      "model_output": {
+        "occupation_id": "SNO-547912e64ed07162694e",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "reason": "Labview软件工程师，明确软件开发但方向未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a1f75950577ae6603b38",
+      "model_output": {
+        "occupation_id": "SNO-a1f75950577ae6603b38",
+        "status": "mapped",
+        "target_category_id": "L22-02-03",
+        "reason": "标题明确为高中政治教师，属人文与社会学科教学。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题明确为高中政治教师，属人文与社会学科教学。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-5801c19e621a43665a6b",
+      "model_output": {
+        "occupation_id": "SNO-5801c19e621a43665a6b",
+        "status": "mapped",
+        "target_category_id": "L16-01-03",
+        "reason": "零售商品培训生，专业方向为零售选品买手，培养身份仅作标签。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "零售商品培训生，专业方向为零售选品买手，培养身份仅作标签。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-8826dbf3a574e62f22fa",
+      "model_output": {
+        "occupation_id": "SNO-8826dbf3a574e62f22fa",
+        "status": "mapped",
+        "target_category_id": "L06-04-01",
+        "reason": "标题明确稀贵稀散金属研究，属金属与无机材料研发。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题明确稀贵稀散金属研究，属金属与无机材料研发。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-5acd569030c9dfdae2c6",
+      "model_output": {
+        "occupation_id": "SNO-5acd569030c9dfdae2c6",
+        "status": "non_role_text",
+        "target_category_id": null,
+        "reason": "标题仅为“/经理”，无具体职业职能信息。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "status_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-864fd7b61c046f18cbca",
+      "model_output": {
+        "occupation_id": "SNO-864fd7b61c046f18cbca",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“芯片运营”未说明是生产、供应链还是业务运营，方向不明。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-1913c4fcaecf2ecc7ac2",
+      "model_output": {
+        "occupation_id": "SNO-1913c4fcaecf2ecc7ac2",
+        "status": "mapped",
+        "target_category_id": "L14-10",
+        "reason": "标题明确售后工程师且含安装调试，属售后技术服务。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-697c9d4b28ff97b49842",
+      "model_output": {
+        "occupation_id": "SNO-697c9d4b28ff97b49842",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“应用技术工程师”未说明具体技术方向，无法确定二级。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-99017f620737821ff3c5",
+      "model_output": {
+        "occupation_id": "SNO-99017f620737821ff3c5",
+        "status": "multi_role",
+        "target_category_id": null,
+        "reason": "标题并列审计鉴证、税务、咨询多个独立岗位。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "status_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-504136786d57e3f5dd9f",
+      "model_output": {
+        "occupation_id": "SNO-504136786d57e3f5dd9f",
+        "status": "mapped",
+        "target_category_id": "L06-04",
+        "reason": "标题明确先进材料工程开发，属材料研发，三级方向未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-5914036aadfca790f788",
+      "model_output": {
+        "occupation_id": "SNO-5914036aadfca790f788",
+        "status": "mapped",
+        "target_category_id": "L05-01-01",
+        "reason": "电子设计工程师，属电路与板级设计。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "电子设计工程师，属电路与板级设计。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-08ebc4449421242f3675",
+      "model_output": {
+        "occupation_id": "SNO-08ebc4449421242f3675",
+        "status": "mapped",
+        "target_category_id": "L14-04-01",
+        "reason": "亚马逊英语运营专员，属电商店铺运营，英语为标签。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "亚马逊英语运营专员，属电商店铺运营，英语为标签。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-df3b618ed3e18631f5c9",
+      "model_output": {
+        "occupation_id": "SNO-df3b618ed3e18631f5c9",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“质量与运营”未说明质量类型或运营对象，方向不明。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-bc99af2718d587a60eff",
+      "model_output": {
+        "occupation_id": "SNO-bc99af2718d587a60eff",
+        "status": "mapped",
+        "target_category_id": "L22-06",
+        "reason": "教务运营属教学辅助与学员服务。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-e89d6e88d568b177bd23",
+      "model_output": {
+        "occupation_id": "SNO-e89d6e88d568b177bd23",
+        "status": "non_role_text",
+        "target_category_id": null,
+        "reason": "“本次校园”不是岗位名称，无职业信息。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "status_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-2742eeab9ee29e675a47",
+      "model_output": {
+        "occupation_id": "SNO-2742eeab9ee29e675a47",
+        "status": "mapped",
+        "target_category_id": "L01-07-04",
+        "reason": "分布式存储开发工程师，属中间件与基础框架。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "分布式存储开发工程师，属中间件与基础框架。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-b3ec0e590c66e26a70d9",
+      "model_output": {
+        "occupation_id": "SNO-b3ec0e590c66e26a70d9",
+        "status": "mapped",
+        "target_category_id": "L01-06-01",
+        "reason": "控制系统软件开发，属嵌入式应用开发。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "控制系统软件开发，属嵌入式应用开发。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-63138d3fb03b5a3bcfeb",
+      "model_output": {
+        "occupation_id": "SNO-63138d3fb03b5a3bcfeb",
+        "status": "mapped",
+        "target_category_id": "L02-01",
+        "reason": "大数据分析高级研究员，属数据分析，三级方向未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-c5ab66ba05cff1d680fb",
+      "model_output": {
+        "occupation_id": "SNO-c5ab66ba05cff1d680fb",
+        "status": "mapped",
+        "target_category_id": "L13-01-01",
+        "reason": "客户经理属企业客户销售直客，小语种为标签。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "客户经理属企业客户销售直客，小语种为标签。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-22132637b23ddf147c28",
+      "model_output": {
+        "occupation_id": "SNO-22132637b23ddf147c28",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“客户顾问”未说明是销售、客服还是咨询，方向不明。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-ee38fcda6f9f417c3ca4",
+      "model_output": {
+        "occupation_id": "SNO-ee38fcda6f9f417c3ca4",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "售后助理工程师不能推断技术安装维修，方向不明。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-3f3280f8e22e45e88d2e",
+      "model_output": {
+        "occupation_id": "SNO-3f3280f8e22e45e88d2e",
+        "status": "mapped",
+        "target_category_id": "L12-01-02",
+        "reason": "标题含“素材创意策划”，属营销活动创意策划；海外为地域标签。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题含“素材创意策划”，属营销活动创意策划；海外为地域标签。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-6bbb262fcc9a1361569b",
+      "model_output": {
+        "occupation_id": "SNO-6bbb262fcc9a1361569b",
+        "status": "mapped",
+        "target_category_id": "L04-02",
+        "reason": "“车辆调试工程师”指向实物车辆调试测试，归硬件与产品测试。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a7d5ca5627cba3772493",
+      "model_output": {
+        "occupation_id": "SNO-a7d5ca5627cba3772493",
+        "status": "mapped",
+        "target_category_id": "L16-04",
+        "reason": "“国际贸易出口业务员”明确外贸履约执行，归进出口与贸易执行。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-e79890c96ee6f0c5d401",
+      "model_output": {
+        "occupation_id": "SNO-e79890c96ee6f0c5d401",
+        "status": "mapped",
+        "target_category_id": "L18-05",
+        "reason": "标题仅“行政”，明确行政办公事务职能。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-b10910d57a4a1093750c",
+      "model_output": {
+        "occupation_id": "SNO-b10910d57a4a1093750c",
+        "status": "mapped",
+        "target_category_id": "L04-03-03",
+        "reason": "“产品检验员”指向出厂产品质量检验，归产品质量管理。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“产品检验员”指向出厂产品质量检验，归产品质量管理。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-68a002873e86caf507aa",
+      "model_output": {
+        "occupation_id": "SNO-68a002873e86caf507aa",
+        "status": "multi_role",
+        "target_category_id": null,
+        "reason": "标题并列售后调试、算法、软件、机构、电气、光学设计及财务管培等多个独立岗位。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "status_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-4ec5b3fa4078c733f67a",
+      "model_output": {
+        "occupation_id": "SNO-4ec5b3fa4078c733f67a",
+        "status": "mapped",
+        "target_category_id": "L16-02",
+        "reason": "“供应链计划主管”明确供应链规划与管理职能。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-4808e7a15d2091bb129f",
+      "model_output": {
+        "occupation_id": "SNO-4808e7a15d2091bb129f",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“海外研发/产品应用”未说明研发对象或产品应用职能，方向不明。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-4120740026214e819645",
+      "model_output": {
+        "occupation_id": "SNO-4120740026214e819645",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“数字金融方向定向培养生”仅领域与培养身份，未明确具体金融职能。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-5f60279101a66e9149d4",
+      "model_output": {
+        "occupation_id": "SNO-5f60279101a66e9149d4",
+        "status": "mapped",
+        "target_category_id": "L02-05-02",
+        "reason": "“大模型算法工程师”明确大模型算法研发，归自然语言处理。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“大模型算法工程师”明确大模型算法研发，归自然语言处理。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-b6d5dbcd24873bfb26e3",
+      "model_output": {
+        "occupation_id": "SNO-b6d5dbcd24873bfb26e3",
+        "status": "mapped",
+        "target_category_id": "L12-03-02",
+        "reason": "“海外广告优化师”属付费数字广告优化投放。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“海外广告优化师”属付费数字广告优化投放。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-20e4bf98b15b2370f4bd",
+      "model_output": {
+        "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“精益智造管培生”仅培养身份与制造领域，未明确具体职能。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-589c668952b03ca39dd6",
+      "model_output": {
+        "occupation_id": "SNO-589c668952b03ca39dd6",
+        "status": "mapped",
+        "target_category_id": "L01-02-01",
+        "reason": "“服务器Delphi开发”明确服务端业务系统开发。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“服务器Delphi开发”明确服务端业务系统开发。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-7c0732fd2f45acca834c",
+      "model_output": {
+        "occupation_id": "SNO-7c0732fd2f45acca834c",
+        "status": "mapped",
+        "target_category_id": "L22-02",
+        "reason": "“高中部分学科教师”明确学科教学，但未指定单一学科，停在二级。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-1b88b6662847653c2beb",
+      "model_output": {
+        "occupation_id": "SNO-1b88b6662847653c2beb",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“信息化市场开发”未说明是市场职能还是销售拓展，方向不明。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-9481066cd1f5ddcb344c",
+      "model_output": {
+        "occupation_id": "SNO-9481066cd1f5ddcb344c",
+        "status": "mapped",
+        "target_category_id": "L24-02",
+        "reason": "“岩土工程师”明确岩土工程专业技术。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-9dbb0161689ec5608d17",
+      "model_output": {
+        "occupation_id": "SNO-9dbb0161689ec5608d17",
+        "status": "mapped",
+        "target_category_id": "L06-04-01",
+        "reason": "“电池材料研发工程师”属金属与无机材料研发，电芯安全为方向。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "“电池材料研发工程师”属金属与无机材料研发，电芯安全为方向。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-8d1e2c49023dc51d8e1d",
+      "model_output": {
+        "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "“分公司管理培训生”仅列行业领域，未明确最终职业职能。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-c55c5b03e585d2c0fda8",
+      "model_output": {
+        "occupation_id": "SNO-c55c5b03e585d2c0fda8",
+        "status": "review",
+        "target_category_id": null,
+        "reason": "标题仅“加工”，未说明加工对象或工种，方向不明。"
+      },
+      "target_level": null,
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a155656ddb942f8c1228",
+      "model_output": {
+        "occupation_id": "SNO-a155656ddb942f8c1228",
+        "status": "mapped",
+        "target_category_id": "L02-09",
+        "reason": "“大数据与人工智能工程师”确认数据与AI技术职能，方向未说明。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-350657dfbbe0cb0202be",
+      "model_output": {
+        "occupation_id": "SNO-350657dfbbe0cb0202be",
+        "status": "mapped",
+        "target_category_id": "L08-04-01",
+        "reason": "标题明确为游戏策划，小游戏/UGC指向游戏系统与数值策划。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "标题明确为游戏策划，小游戏/UGC指向游戏系统与数值策划。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-10069680f69154a0a22d",
+      "model_output": {
+        "occupation_id": "SNO-10069680f69154a0a22d",
+        "status": "mapped",
+        "target_category_id": "L24-04",
+        "reason": "管网设计岗(热力)属建筑暖通给排水及楼宇设备工程。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-2a079fdf33f2973ed82c",
+      "model_output": {
+        "occupation_id": "SNO-2a079fdf33f2973ed82c",
+        "status": "mapped",
+        "target_category_id": "L22-06",
+        "reason": "学员运营属教学辅助与学员服务，围绕学习过程服务。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-73019a6f9547e4c35a7b",
+      "model_output": {
+        "occupation_id": "SNO-73019a6f9547e4c35a7b",
+        "status": "mapped",
+        "target_category_id": "L06-03-02",
+        "reason": "车门设计属车辆底盘车身及车辆专业工程。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "车门设计属车辆底盘车身及车辆专业工程。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-b847a102de5b08fba0ae",
+      "model_output": {
+        "occupation_id": "SNO-b847a102de5b08fba0ae",
+        "status": "mapped",
+        "target_category_id": "L30-03",
+        "reason": "法务合规管理明确为合规与内部控制职能。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-f3a551d78495c24ba751",
+      "model_output": {
+        "occupation_id": "SNO-f3a551d78495c24ba751",
+        "status": "review",
+        "target_category_id": "L20-11",
+        "reason": "公司业务培训生仅银行领域，未明确具体金融业务方向。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-5eb63505d39cfb06954e",
+      "model_output": {
+        "occupation_id": "SNO-5eb63505d39cfb06954e",
+        "status": "mapped",
+        "target_category_id": "L19-07",
+        "reason": "财务管理储备明确财务职能，储备为培养标签，归财务综合管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-43da2d2c2cb18f13f030",
+      "model_output": {
+        "occupation_id": "SNO-43da2d2c2cb18f13f030",
+        "status": "review",
+        "target_category_id": "L14-11",
+        "reason": "指数运营经理助理未说明运营对象与业务方向。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-2b6c68dcb56575e256cd",
+      "model_output": {
+        "occupation_id": "SNO-2b6c68dcb56575e256cd",
+        "status": "mapped",
+        "target_category_id": "L25-02",
+        "reason": "非常规油气开发属采矿与资源开采技术。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-9170b111decf5a940895",
+      "model_output": {
+        "occupation_id": "SNO-9170b111decf5a940895",
+        "status": "mapped",
+        "target_category_id": "L07-03",
+        "reason": "供试品配置/管理属实验与科研技术支持，管培为标签。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-bf2d4b216aaed8943ae0",
+      "model_output": {
+        "occupation_id": "SNO-bf2d4b216aaed8943ae0",
+        "status": "review",
+        "target_category_id": "L32-02",
+        "reason": "综合培训生未明确最终职业方向，仅培养身份。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-a655a94e560c7200e7e4",
+      "model_output": {
+        "occupation_id": "SNO-a655a94e560c7200e7e4",
+        "status": "mapped",
+        "target_category_id": "L13-05",
+        "reason": "门店零售管培生明确门店零售销售，管培为标签。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-62e6a086b0ed09ebc940",
+      "model_output": {
+        "occupation_id": "SNO-62e6a086b0ed09ebc940",
+        "status": "mapped",
+        "target_category_id": "L06-03-02",
+        "reason": "混动变速箱设计属车辆底盘与车辆专业工程。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "混动变速箱设计属车辆底盘与车辆专业工程。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-ec426ee068c250f50146",
+      "model_output": {
+        "occupation_id": "SNO-ec426ee068c250f50146",
+        "status": "mapped",
+        "target_category_id": "L08-01-03",
+        "reason": "产品经理岗(人工智能)属平台与技术产品管理。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "产品经理岗(人工智能)属平台与技术产品管理。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-aedddffaec83b265fcbf",
+      "model_output": {
+        "occupation_id": "SNO-aedddffaec83b265fcbf",
+        "status": "mapped",
+        "target_category_id": "L16-02",
+        "reason": "物流管理工程师属供应链规划与管理。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-df16c289488eb76d85b8",
+      "model_output": {
+        "occupation_id": "SNO-df16c289488eb76d85b8",
+        "status": "review",
+        "target_category_id": "L07-05",
+        "reason": "科研部门科研/技术未说明研究领域与方向。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-f726e823532c0682f85b",
+      "model_output": {
+        "occupation_id": "SNO-f726e823532c0682f85b",
+        "status": "review",
+        "target_category_id": "L32-02",
+        "reason": "品类发展管培生未明确品类职能方向，仅培养身份。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-aec3c619309faf22c05b",
+      "model_output": {
+        "occupation_id": "SNO-aec3c619309faf22c05b",
+        "status": "mapped",
+        "target_category_id": "L01-04-02",
+        "reason": "iOS应用工程师明确为iOS应用开发。"
+      },
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "level_3_evidence": "iOS应用工程师明确为iOS应用开发。",
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-0fbafd406fa2200df437",
+      "model_output": {
+        "occupation_id": "SNO-0fbafd406fa2200df437",
+        "status": "review",
+        "target_category_id": "L18-09",
+        "reason": "办公室综合未说明具体人事行政或文书方向。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "reasonable_review_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    },
+    {
+      "sample_id": "SNO-4e427e1b617872f5aee9",
+      "model_output": {
+        "occupation_id": "SNO-4e427e1b617872f5aee9",
+        "status": "mapped",
+        "target_category_id": "L18-04",
+        "reason": "人力资源管培生明确人力资源职能，医药研发为行业标签。"
+      },
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "level_3_evidence": null,
+      "structural_valid": true,
+      "ai_semantic_review_verdict": "evidence_insufficient_pending_confirmation",
+      "audit_basis": "AI title-only re-review; model reason is not accepted as evidence. No external title context available."
+    }
+  ]
+}

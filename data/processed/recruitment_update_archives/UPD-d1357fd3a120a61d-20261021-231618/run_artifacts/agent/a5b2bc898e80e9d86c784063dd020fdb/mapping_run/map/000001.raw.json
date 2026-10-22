@@ -1,0 +1,28 @@
+{
+  "id": "74656d43-a7b2-42a2-9911-bc412bccf38b",
+  "object": "chat.completion",
+  "created": 1792571559,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-a5b2bc898e80e9d86c784063dd020fdb\",\"status\":\"mapped\",\"target_category_id\":\"L02-05\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L02-05\",\"L06-07-01\",\"L07-01\"],\"title_evidence\":\"应用科学家，结合公司为农林牧渔/育种行业，属将算法与模型应用于生物育种数据的研发岗位\",\"level_3_evidence\":null,\"reason\":\"“应用科学家”在育种企业语境下通常指将机器学习/统计建模应用于生物数据，核心为算法模型研发，归机器学习与算法研发；具体子方向（视觉/NLP/推荐等）无证据，停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16935,
+    "completion_tokens": 164,
+    "total_tokens": 17099,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 295
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

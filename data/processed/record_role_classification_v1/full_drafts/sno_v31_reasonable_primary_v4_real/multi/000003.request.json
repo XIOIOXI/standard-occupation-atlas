@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-4bb1357e746e4e4f0b25\", \"title\": \"/主播/设计/产品岗\"}, {\"original_record_id\": \"TG-684b41c66bb1adf005b1\", \"title\": \"研发类管培生(JAVA WEB Android鸿蒙AI产品经理)\"}, {\"original_record_id\": \"TG-aaa4a82a88151b1079e8\", \"title\": \"海外营销/运营\"}, {\"original_record_id\": \"TG-194da3a5a799db6e243e\", \"title\": \"新闻采编 专题文艺 国际传播 媒体技术 经营管理 台属公司岗位\"}, {\"original_record_id\": \"TG-435b51d1a7fb8d7cf18b\", \"title\": \"新事业发展部文创实设计师勘测所测绘技术员\"}, {\"original_record_id\": \"TG-a7c16a0ba2b827d85d1f\", \"title\": \"工艺技术方向研发设计方向智能制造方向厂务环安方向IE方向质量方向信息技术方向项目管理方向生产计划方向供应链方向人力&法务知识产权万问\"}, {\"original_record_id\": \"TG-ec78152917d0195fe97a\", \"title\": \"综合类（财务管理、会计、普法管理等）\"}, {\"original_record_id\": \"TG-188d970f0e6e2d5e50b4\", \"title\": \"速递管培生（财务 人力资源）\"}, {\"original_record_id\": \"TG-ab14301fa6a22a88efce\", \"title\": \"设计/营销管理岗\"}, {\"original_record_id\": \"TG-9e0e40d2e6771547d880\", \"title\": \"品牌与商务运营\"}, {\"original_record_id\": \"TG-7360eaa2972ec1b0f3f9\", \"title\": \"审计及鉴证服务税务服务咨询服务交易服务\"}, {\"original_record_id\": \"TG-4d3cce865aa3b1f521f3\", \"title\": \"零售/商务拓展电商运营/技术人力资源/行政/财务/法务视觉/交互/设计供应链质量\"}, {\"original_record_id\": \"TG-ce4777ee22a1f6c22d3f\", \"title\": \"税务日语组 审计日语组\"}, {\"original_record_id\": \"TG-b85c6b910db90ba6d130\", \"title\": \"研发实验员检验员国际销售\"}, {\"original_record_id\": \"TG-e2aa90219f9d67e98048\", \"title\": \"生产主控文秘算法工程师\"}, {\"original_record_id\": \"TG-4b08a3156e54991318ae\", \"title\": \"外销业务员商务专员\"}, {\"original_record_id\": \"TG-bb392fe6fdce5751a4ee\", \"title\": \"工程师流程运营专员\"}, {\"original_record_id\": \"TG-0aad22b24a4cea4e6d69\", \"title\": \"信息化运维与AI应用开发工程师\"}, {\"original_record_id\": \"TG-194f63219f1efa6dcd91\", \"title\": \"财务与审计\"}, {\"original_record_id\": \"TG-0da45872386ff2fb283d\", \"title\": \"总监（综合管理部、市场部、经营部）\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-4bb1357e746e4e4f0b25",
+    "TG-684b41c66bb1adf005b1",
+    "TG-aaa4a82a88151b1079e8",
+    "TG-194da3a5a799db6e243e",
+    "TG-435b51d1a7fb8d7cf18b",
+    "TG-a7c16a0ba2b827d85d1f",
+    "TG-ec78152917d0195fe97a",
+    "TG-188d970f0e6e2d5e50b4",
+    "TG-ab14301fa6a22a88efce",
+    "TG-9e0e40d2e6771547d880",
+    "TG-7360eaa2972ec1b0f3f9",
+    "TG-4d3cce865aa3b1f521f3",
+    "TG-ce4777ee22a1f6c22d3f",
+    "TG-b85c6b910db90ba6d130",
+    "TG-e2aa90219f9d67e98048",
+    "TG-4b08a3156e54991318ae",
+    "TG-bb392fe6fdce5751a4ee",
+    "TG-0aad22b24a4cea4e6d69",
+    "TG-194f63219f1efa6dcd91",
+    "TG-0da45872386ff2fb283d"
+  ]
+}

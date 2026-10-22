@@ -1,0 +1,606 @@
+{
+  "schema_version": "fixed-baseline-alias-merge-details-v1",
+  "baseline_standard_name_count": 11055,
+  "overlay_standard_name_count": 11028,
+  "standard_name_reduction": 27,
+  "detail_count": 27,
+  "details": [
+    {
+      "prior_standard_occupation_id": "SNO-b0788e753b91ec6fdd16",
+      "prior_standard_name": "前端开发工程师",
+      "target_standard_names": [
+        "Web前端开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-cec9fab01d912171c17f"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-d3f2c6606b26c8a50cde",
+          "original_name": "前端开发",
+          "format_match_key": "前端开发",
+          "target_standard_name": "Web前端开发工程师",
+          "rule_variant": "前端开发"
+        },
+        {
+          "record_role_group_id": "RRG-b0788e753b91ec6fdd16",
+          "original_name": "前端开发工程师",
+          "format_match_key": "前端开发工程师",
+          "target_standard_name": "Web前端开发工程师",
+          "rule_variant": "前端开发工程师"
+        },
+        {
+          "record_role_group_id": "RRG-4a2e9b6a3c62620ac346",
+          "original_name": "Web前端开发",
+          "format_match_key": "web前端开发",
+          "target_standard_name": "Web前端开发工程师",
+          "rule_variant": "Web前端开发"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-550a573bf6d570e68400",
+      "prior_standard_name": "JAVA开发工程师",
+      "target_standard_names": [
+        "Java开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-2fbee0d9684352b21177"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-550a573bf6d570e68400",
+          "original_name": "JAVA开发工程师",
+          "format_match_key": "java开发工程师",
+          "target_standard_name": "Java开发工程师",
+          "rule_variant": "java开发工程师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-10ff6f111d672ecfcf15",
+      "prior_standard_name": "软件开发工程师(JAVA)",
+      "target_standard_names": [
+        "Java开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-2fbee0d9684352b21177"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-10ff6f111d672ecfcf15",
+          "original_name": "软件开发工程师(JAVA)",
+          "format_match_key": "软件开发工程师(java)",
+          "target_standard_name": "Java开发工程师",
+          "rule_variant": "软件开发工程师(JAVA)"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-d255707d607944d033f1",
+      "prior_standard_name": "HRTrainee",
+      "target_standard_names": [
+        "人力资源培训生"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-b6835717785deb03d768"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-d255707d607944d033f1",
+          "original_name": "HRTrainee",
+          "format_match_key": "hrtrainee",
+          "target_standard_name": "人力资源培训生",
+          "rule_variant": "HRTrainee"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-5e97586fd21feb71554d",
+      "prior_standard_name": "web前端开发工程师",
+      "target_standard_names": [
+        "Web前端开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-cec9fab01d912171c17f"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-5e97586fd21feb71554d",
+          "original_name": "web前端开发工程师",
+          "format_match_key": "web前端开发工程师",
+          "target_standard_name": "Web前端开发工程师",
+          "rule_variant": "web前端开发工程师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-6cef52642199aa4b899a",
+      "prior_standard_name": "UI界面设计师",
+      "target_standard_names": [
+        "UI设计师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-bfcf8c78d101fd33a986"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-6cef52642199aa4b899a",
+          "original_name": "UI界面设计师",
+          "format_match_key": "ui界面设计师",
+          "target_standard_name": "UI设计师",
+          "rule_variant": "UI界面设计师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-875b7fe136a5487fe5a3",
+      "prior_standard_name": "Web前端工程师",
+      "target_standard_names": [
+        "Web前端开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-cec9fab01d912171c17f"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-875b7fe136a5487fe5a3",
+          "original_name": "Web前端工程师",
+          "format_match_key": "web前端工程师",
+          "target_standard_name": "Web前端开发工程师",
+          "rule_variant": "Web前端工程师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-cd3afbfb3437fcf99284",
+      "prior_standard_name": "人力培训生",
+      "target_standard_names": [
+        "人力资源培训生"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-b6835717785deb03d768"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-cd3afbfb3437fcf99284",
+          "original_name": "人力培训生",
+          "format_match_key": "人力培训生",
+          "target_standard_name": "人力资源培训生",
+          "rule_variant": "人力培训生"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-b332a05249c3b2353608",
+      "prior_standard_name": "HRTrainee(HR培训生)",
+      "target_standard_names": [
+        "人力资源培训生"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-b6835717785deb03d768"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-b332a05249c3b2353608",
+          "original_name": "HRTrainee(HR培训生)",
+          "format_match_key": "hrtrainee(hr培训生)",
+          "target_standard_name": "人力资源培训生",
+          "rule_variant": "HRTrainee(HR培训生)"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-e51c92d179881cfe1f6b",
+      "prior_standard_name": "java开发工程师",
+      "target_standard_names": [
+        "Java开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-2fbee0d9684352b21177"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-e51c92d179881cfe1f6b",
+          "original_name": "java开发工程师",
+          "format_match_key": "java开发工程师",
+          "target_standard_name": "Java开发工程师",
+          "rule_variant": "java开发工程师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-e9285940f616eca7d0f0",
+      "prior_standard_name": "JAVA开发",
+      "target_standard_names": [
+        "Java开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-2fbee0d9684352b21177"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-e9285940f616eca7d0f0",
+          "original_name": "JAVA开发",
+          "format_match_key": "java开发",
+          "target_standard_name": "Java开发工程师",
+          "rule_variant": "JAVA开发"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-57b048c66f0fde1c716c",
+      "prior_standard_name": "UX设计",
+      "target_standard_names": [
+        "用户体验设计师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-fixed-01204"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-57b048c66f0fde1c716c",
+          "original_name": "UX设计",
+          "format_match_key": "ux设计",
+          "target_standard_name": "用户体验设计师",
+          "rule_variant": "UX设计"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-988d02df0dbed639793b",
+      "prior_standard_name": "HR专员",
+      "target_standard_names": [
+        "人力资源专员"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-fixed-00208"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-988d02df0dbed639793b",
+          "original_name": "HR专员",
+          "format_match_key": "hr专员",
+          "target_standard_name": "人力资源专员",
+          "rule_variant": "HR专员"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-c7c9dc628283aa135bd5",
+      "prior_standard_name": "FAE(现场应用工程师)",
+      "target_standard_names": [
+        "现场应用工程师(FAE)"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-04f6aa9d0475984365fc"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-c7c9dc628283aa135bd5",
+          "original_name": "FAE(现场应用工程师)",
+          "format_match_key": "fae(现场应用工程师)",
+          "target_standard_name": "现场应用工程师(FAE)",
+          "rule_variant": "FAE(现场应用工程师)"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-591607e7f70930e2e20c",
+      "prior_standard_name": "管培生5名",
+      "target_standard_names": [
+        "管理培训生"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-f15e209a0b8706c5337f"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-591607e7f70930e2e20c",
+          "original_name": "管培生5名",
+          "format_match_key": "管培生",
+          "target_standard_name": "管理培训生",
+          "rule_variant": "管培生"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-cdb08fba5a6a992b7d1c",
+      "prior_standard_name": "前端开发工程师(Web)",
+      "target_standard_names": [
+        "Web前端开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-cec9fab01d912171c17f"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-cdb08fba5a6a992b7d1c",
+          "original_name": "前端开发工程师(Web)",
+          "format_match_key": "前端开发工程师(web)",
+          "target_standard_name": "Web前端开发工程师",
+          "rule_variant": "前端开发工程师(Web)"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-3f9615b97781597c4e35",
+      "prior_standard_name": "前端开发工程师2人",
+      "target_standard_names": [
+        "Web前端开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-cec9fab01d912171c17f"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-3f9615b97781597c4e35",
+          "original_name": "前端开发工程师2人",
+          "format_match_key": "前端开发工程师",
+          "target_standard_name": "Web前端开发工程师",
+          "rule_variant": "前端开发工程师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-e1f4eed99a0125ab26e7",
+      "prior_standard_name": "JAVA软件开发工程师",
+      "target_standard_names": [
+        "Java开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-2fbee0d9684352b21177"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-e1f4eed99a0125ab26e7",
+          "original_name": "JAVA软件开发工程师",
+          "format_match_key": "java软件开发工程师",
+          "target_standard_name": "Java开发工程师",
+          "rule_variant": "JAVA软件开发工程师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-eaac955bc829d17d7711",
+      "prior_standard_name": "软件开发工程师(Java方向)",
+      "target_standard_names": [
+        "Java开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-2fbee0d9684352b21177"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-eaac955bc829d17d7711",
+          "original_name": "软件开发工程师(Java方向)",
+          "format_match_key": "软件开发工程师(java方向)",
+          "target_standard_name": "Java开发工程师",
+          "rule_variant": "软件开发工程师(JAVA方向)"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-828c2514d3023259cfe4",
+      "prior_standard_name": "软件开发工程师(JAVA方向)",
+      "target_standard_names": [
+        "Java开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-2fbee0d9684352b21177"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-828c2514d3023259cfe4",
+          "original_name": "软件开发工程师(JAVA方向)",
+          "format_match_key": "软件开发工程师(java方向)",
+          "target_standard_name": "Java开发工程师",
+          "rule_variant": "软件开发工程师(JAVA方向)"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-45bed786caed2a354515",
+      "prior_standard_name": "UI设计",
+      "target_standard_names": [
+        "UI设计师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-bfcf8c78d101fd33a986"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-45bed786caed2a354515",
+          "original_name": "UI设计",
+          "format_match_key": "ui设计",
+          "target_standard_name": "UI设计师",
+          "rule_variant": "UI设计"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-409f20d2c3db447112d3",
+      "prior_standard_name": "UX设计师",
+      "target_standard_names": [
+        "用户体验设计师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-fixed-01204"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-409f20d2c3db447112d3",
+          "original_name": "UX设计师",
+          "format_match_key": "ux设计师",
+          "target_standard_name": "用户体验设计师",
+          "rule_variant": "UX设计师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-b15e97d0d86438564580",
+      "prior_standard_name": "现场应用工程师",
+      "target_standard_names": [
+        "现场应用工程师(FAE)"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-04f6aa9d0475984365fc"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-b15e97d0d86438564580",
+          "original_name": "现场应用工程师",
+          "format_match_key": "现场应用工程师",
+          "target_standard_name": "现场应用工程师(FAE)",
+          "rule_variant": "现场应用工程师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-3e58579abae767bdcfe9",
+      "prior_standard_name": "uI设计师",
+      "target_standard_names": [
+        "UI设计师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-bfcf8c78d101fd33a986"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-3e58579abae767bdcfe9",
+          "original_name": "uI设计师",
+          "format_match_key": "ui设计师",
+          "target_standard_name": "UI设计师",
+          "rule_variant": "uI设计师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-6d9ed5869438e8273537",
+      "prior_standard_name": "软件开发(JAVA)",
+      "target_standard_names": [
+        "Java开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-2fbee0d9684352b21177"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-6d9ed5869438e8273537",
+          "original_name": "软件开发(JAVA)",
+          "format_match_key": "软件开发(java)",
+          "target_standard_name": "Java开发工程师",
+          "rule_variant": "软件开发(JAVA)"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-15e2fb4026ee4816c416",
+      "prior_standard_name": "软件开发(JAVA)(2026届校招)",
+      "target_standard_names": [
+        "Java开发工程师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-2fbee0d9684352b21177"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-15e2fb4026ee4816c416",
+          "original_name": "软件开发(JAVA)(2026届校招)",
+          "format_match_key": "软件开发(java)",
+          "target_standard_name": "Java开发工程师",
+          "rule_variant": "软件开发(JAVA)"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-952d6ce98c6560438228",
+      "prior_standard_name": "FAE工程师",
+      "target_standard_names": [
+        "现场应用工程师(FAE)"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-04f6aa9d0475984365fc"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-952d6ce98c6560438228",
+          "original_name": "FAE工程师",
+          "format_match_key": "fae工程师",
+          "target_standard_name": "现场应用工程师(FAE)",
+          "rule_variant": "FAE工程师"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    }
+  ],
+  "non_reducing_canonical_rename_count": 2,
+  "non_reducing_canonical_renames": [
+    {
+      "prior_standard_occupation_id": "SNO-3ab9af7186d1e4152f57",
+      "prior_standard_name": "用户体验设计",
+      "target_standard_names": [
+        "用户体验设计师"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-fixed-01204"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-3ab9af7186d1e4152f57",
+          "original_name": "用户体验设计",
+          "format_match_key": "用户体验设计",
+          "target_standard_name": "用户体验设计师",
+          "rule_variant": "用户体验设计"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    },
+    {
+      "prior_standard_occupation_id": "SNO-121ae2c89dc20bd111a3",
+      "prior_standard_name": "人力资源部专员",
+      "target_standard_names": [
+        "人力资源专员"
+      ],
+      "target_standard_occupation_ids": [
+        "SNO-fixed-00208"
+      ],
+      "matched_groups": [
+        {
+          "record_role_group_id": "RRG-121ae2c89dc20bd111a3",
+          "original_name": "人力资源部专员",
+          "format_match_key": "人力资源部专员",
+          "target_standard_name": "人力资源专员",
+          "rule_variant": "人力资源部专员"
+        }
+      ],
+      "reduction_reason": "all baseline members were reassigned through exact format-normalized alias rules"
+    }
+  ]
+}

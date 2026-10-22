@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-4bad99f11c12febb2ab1f98f858ad9cf",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L01-02",
+        "L01-03"
+      ],
+      "title_evidence": "标题为“IT软件开发工程师”，明确为软件开发职能，但未说明前端、后端、移动端等具体方向",
+      "level_3_evidence": null,
+      "reason": "标题仅体现通用软件开发，无具体技术方向证据，按目录规则归入“通用软件研发”L01-11；公司行业为半导体不影响软件岗位归类。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16957,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 317,
+    "output_tokens": 150,
+    "reasoning_tokens": 0,
+    "total_tokens": 17107
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037494
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

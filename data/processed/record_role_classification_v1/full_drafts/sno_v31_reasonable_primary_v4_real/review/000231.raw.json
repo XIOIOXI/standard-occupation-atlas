@@ -1,0 +1,28 @@
+{
+  "id": "0e968b91-47bc-4f40-af05-c8143c07f995",
+  "object": "chat.completion",
+  "created": 1791880905,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-d738395a34056c7ebc8e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"企划方向不明确，review合理。\"},{\"occupation_id\":\"TG-d1cfe446eeb551c2e1f2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场综合监管辅助归公共事务与基层治理合理。\"},{\"occupation_id\":\"TG-166b9e24afcbf3ee3b3d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"售前策划归售前技术与解决方案合理。\"},{\"occupation_id\":\"TG-552f3c82e9c94931149a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"有色冶金设计归工艺与制造工程合理。\"},{\"occupation_id\":\"TG-ca869a0b26da0dd87089\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售经理归企业客户销售合理。\"},{\"occupation_id\":\"TG-435313f814b24c6abac6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"投融资研究与项目策划归投资研究与分析合理。\"},{\"occupation_id\":\"TG-9a0997eed4bc1b41e8b7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"合规风控归合规与内部控制合理。\"},{\"occupation_id\":\"TG-97cede0c6f7997c8a8ef\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械臂设计归机械与结构设计合理。\"},{\"occupation_id\":\"TG-9170b111decf5a940895\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生归综合储备与业务培养合理。\"},{\"occupation_id\":\"TG-99dbdce76a6853e556dc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"上位机软件开发归嵌入式与固件开发合理。\"},{\"occupation_id\":\"TG-b51d799dc9740b0c31c3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"射频工程师归通信技术研发合理。\"},{\"occupation_id\":\"TG-5cc41e18246b255e5830\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"分支机构业务岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-07a9045d768f7752fbd1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"制冷售后技术支持归售后技术服务合理。\"},{\"occupation_id\":\"TG-5a53b27d8df3e2a7d7b7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"审计专业归审计合理。\"},{\"occupation_id\":\"TG-8c85ed091709593a3763\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机载测试设备研发归电子硬件研发合理。\"},{\"occupation_id\":\"TG-291ba8af7bbe5ea9c17e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研究院研究助理归实验与科研技术支持合理。\"},{\"occupation_id\":\"TG-c1fb9c8a12e0a908e397\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"达播运营归内容与新媒体运营合理。\"},{\"occupation_id\":\"TG-d503ce7715e5daa60036\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L30-03\",\"issue\":\"海外注册专员通常指产品海外市场准入注册，属合规与法规事务，归知识产权不当。\"},{\"occupation_id\":\"TG-5d7c556825976eb9c53c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"4D重建算法工程师归计算机视觉合理。\"},{\"occupation_id\":\"TG-ff4d014f2ee3b9dc96e5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多角色岗位，multi_role合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19587,
+    "completion_tokens": 937,
+    "total_tokens": 20524,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3075
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

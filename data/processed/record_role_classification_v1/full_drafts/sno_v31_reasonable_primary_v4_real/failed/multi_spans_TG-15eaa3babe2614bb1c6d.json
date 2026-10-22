@@ -1,0 +1,22 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-15eaa3babe2614bb1c6d",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-15eaa3babe2614bb1c6d",
+    "case": "A",
+    "child_titles": [
+      "信息调研员",
+      "新药化学研究员"
+    ],
+    "source_spans": [
+      {
+        "text": "信息调研员新药化学研究员",
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "reason": "标题由两个独立岗位名称直接拼接，可拆分。"
+  }
+}

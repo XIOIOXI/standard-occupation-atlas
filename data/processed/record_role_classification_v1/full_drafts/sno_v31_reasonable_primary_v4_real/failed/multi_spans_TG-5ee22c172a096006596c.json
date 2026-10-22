@@ -1,0 +1,22 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-5ee22c172a096006596c",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-5ee22c172a096006596c",
+    "case": "A",
+    "child_titles": [
+      "助理兽医师",
+      "助理水产工程师"
+    ],
+    "source_spans": [
+      {
+        "text": "助理兽医师 / 助理水产工程师",
+        "start": 0,
+        "end": 15
+      }
+    ],
+    "reason": "斜杠分隔的两个岗位名称可独立，符合拆分条件。"
+  }
+}

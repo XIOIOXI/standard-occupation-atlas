@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-8437f0b1b354f0b28c2154f1d71dd663",
+      "verdict": "pass",
+      "suggested_target_category_id": "L11-02",
+      "issue": "岗位含“规划发展”，主归属战略与经营规划合理；市场开发部为部门背景，不构成明显错分。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17076,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 564,
+    "output_tokens": 95,
+    "reasoning_tokens": 0,
+    "total_tokens": 17171
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000382272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

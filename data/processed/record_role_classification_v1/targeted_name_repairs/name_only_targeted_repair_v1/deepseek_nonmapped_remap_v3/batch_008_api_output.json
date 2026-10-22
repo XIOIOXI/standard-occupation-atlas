@@ -1,0 +1,28 @@
+{
+  "id": "ae2329aa-f5d3-446f-9f14-2c6769ccde32",
+  "object": "chat.completion",
+  "created": 1791821697,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"ABNORMAL:RRG-b0b99ffadee6b7d4e345\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称被截断，仅能看出'版图工程师'，括号内为专业清单且不完整；版图工程师通常属半导体/芯片方向，但截断无法确认具体三级，且目录中半导体/芯片下无版图对应三级，故无法确认。\"},{\"entry_id\":\"ABNORMAL:RRG-b0bd1aa90c4490a379f5\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'法律管培生'中'管培生'非职业，法律方向可指向法律服务，但名称被截断且括号内为专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-b0cea02045a1f93d999b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'调试工程师'名称被截断，括号内为电气、自动化、计算机、软件等专业清单，无法确认具体技术方向与三级。\"},{\"entry_id\":\"ABNORMAL:RRG-b15475facd212cf707f8\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'FAE应用工程师'名称被截断，括号内为电子、通信等专业清单；FAE可对应客户技术支持，但截断且无明确三级依据。\"},{\"entry_id\":\"ABNORMAL:RRG-b19012a5e99f6eadb902\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'电气设计工程师'名称被截断，括号内为理工科、机械、材料等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-b27db71ebda64cdf3909\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'12V&48V系统工程师'名称被截断，括号内为跨领域专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-b453295ac147306cfa8d\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称为会计类、法律类、信息技术类、金融经济类、党建内管类、研究类等多个互不兼容职业类别的并列清单，无共同上级可确认。\"},{\"entry_id\":\"ABNORMAL:RRG-b46b935f4de23a14758e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'粘合剂生产运营管理培训生'中'培训生'非职业，名称被截断，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-b4c0b0d19121ae5e0b74\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称为技术研发、法务、销售、包装设计、纪检、招标、计量检测、财务、安全、能源、采购、展陈设计、信息管理、风险管控、质量检测、工程管理、设备管理、综合管理等多个互不兼容职业的并列清单，无共同上级。\"},{\"entry_id\":\"ABNORMAL:RRG-b784bed17f8a5091475e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'传统图像算法工程师'名称被截断，括号内为SMT、自动化、机械、电子、计算机等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-b7e4e505e8d5139eb745\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'财务数字化经理(产品经理方向)'名称被截断，括号内为会计、金融、外语等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-b7eddf81f0331c670336\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'电子工程师'名称被截断，括号内为电力电子、电气、控制、电子信息、机械、自动化等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-b8b5c0b8fd069cd9d7aa\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'物流管培生'中'管培生'非职业，名称被截断，括号内为专业不限及多专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-b8ba4bfb45bca9c0a29a\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'氢能技术工程师'名称被截断，括号内为经济学、金融、化工、大数据等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-b9d32b8d638379050f3f\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'酒店公司职员(储备干部)'名称被截断，括号内为法学、会计、财务管理等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-bc25ddac0bf8fb5c482c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'生产学员'中'学员'非职业，名称被截断，括号内为化学、化工、机械、材料、环境、电气等大量专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-bcae5fb01408235f767d\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'销售工程师......'名称被截断，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-bda1083b79099a2a8046\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'采购专员'名称被截断，括号内为环境、市政、化工、机械、电气等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-bf5fa04178004204f6c2\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'核算会计岗'名称被截断，括号内为经济学、金融、管理学、法学等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-bfa479c6d62a0d0eb04d\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'物流储备专员'名称被截断，括号内为药学、中药学、制药工程、生物工程等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-bfbe483bd9c1121dac80\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'行业国际化发展岗'名称被截断，括号内为会计、审计、通信、计算机、软件、网络空间安全等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-c0621f74a5dea9687f3f\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称为算法类、软件研发类、产品类、解决方案/项目类、职能类、海外等多个互不兼容职业类别的并列清单，无共同上级。\"},{\"entry_id\":\"ABNORMAL:RRG-c08fa86af6299d5d5e71\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'结构工程师'名称被截断，括号内为电气、自动化、电子信息、机械、控制等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-c1af79dffbc9af0b0a27\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"'总经理秘书'名称被截断，括号内为电气、机械、数学、信号处理、计算机、人工智能等专业清单，无法确认具体三级。\"},{\"entry_id\":\"ABNORMAL:RRG-c3ab9510f2c91720ae47\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称为基础设施类、房屋建筑类、职能管理类、科技研发类、管培生岗位等多个互不兼容职业类别的并列清单，无共同上级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30677,
+    "completion_tokens": 1750,
+    "total_tokens": 32427,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 3285
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

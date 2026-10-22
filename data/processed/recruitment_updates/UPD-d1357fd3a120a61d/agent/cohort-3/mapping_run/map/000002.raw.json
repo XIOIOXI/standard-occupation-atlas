@@ -1,0 +1,28 @@
+{
+  "id": "59ecb69a-4727-44b9-8d09-1ffce1632582",
+  "object": "chat.completion",
+  "created": 1792596153,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-c46f804fad418895c7dd554f330e187f\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L16-01\",\"L16-02\",\"L16-06\",\"L23-09\"],\"title_evidence\":\"机电物资部业务员岗：部门为机电物资部，岗位为业务员，涉及机电设备与物资管理\",\"level_3_evidence\":null,\"reason\":\"标题仅表明在机电物资部从事物资/设备相关业务，无法确定是采购寻源、供应链规划还是设备管理维修，方向不明确，需人工复核\"},{\"occupation_id\":\"UP-d627a9f142709ba854981fdd3da57d43\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L24-06\",\"L13-08\",\"L10-06\"],\"title_evidence\":\"计划合同部业务员岗：部门为计划合同部，岗位为业务员\",\"level_3_evidence\":null,\"reason\":\"计划合同部可能涉及工程造价招采、商务合同支持或项目计划管理，标题未提供直接职责证据，无法唯一确定二级归属，需复核\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17152,
+    "completion_tokens": 277,
+    "total_tokens": 17429,
+    "prompt_tokens_details": {
+      "cached_tokens": 16768
+    },
+    "prompt_cache_hit_tokens": 16768,
+    "prompt_cache_miss_tokens": 384
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

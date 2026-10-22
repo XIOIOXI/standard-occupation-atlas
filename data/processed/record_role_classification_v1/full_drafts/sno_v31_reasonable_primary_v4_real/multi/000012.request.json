@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-e426befeb7cbdf6a94a4\", \"title\": \"公关专员//采矿工程\"}, {\"original_record_id\": \"TG-bac019f4e464269067a3\", \"title\": \"设计研发岗（工程管理、通信工程、自动化、计算机科学与技术、软件工程、电子信息）\"}, {\"original_record_id\": \"TG-cc50f2f6f604da7def17\", \"title\": \"图书传媒文秘岗\"}, {\"original_record_id\": \"TG-586ec7bbff33dea3e5e8\", \"title\": \"初级技术动画初级关卡美术初级商业化策划 初级游戏逻辑程序员初级技术动画初级动画师初级游戏策划\"}, {\"original_record_id\": \"TG-249817a2927fc24b1b94\", \"title\": \"财务BP运维工程师\"}, {\"original_record_id\": \"TG-821823384d801f4d10ca\", \"title\": \"私人教练团课全职/兼职教练职能/技术岗\"}, {\"original_record_id\": \"TG-aa376a42c8b90b287808\", \"title\": \"人才储备库管理培训生专业技术类职 能管理类\"}, {\"original_record_id\": \"TG-d5d404f01192b0c6d256\", \"title\": \"合同管理等 商品类 商品规划\"}, {\"original_record_id\": \"TG-0ed73965f31fc41f1b66\", \"title\": \"金融科技岗(软件开发,AI算法,测试.....)\"}, {\"original_record_id\": \"TG-2101d31537f261b1a901\", \"title\": \"成本管控员体系管理员销售\"}, {\"original_record_id\": \"TG-2a3a26534efdb5aa0a5e\", \"title\": \"小初素质类教师（少儿编程、多元思维、奇点溯源、文学美育、双语文化、嘀嗒文学、社会科学）\"}, {\"original_record_id\": \"TG-2c2b044fac608399b2dd\", \"title\": \"市场类（政企客户经理、业务和产品管理等）\"}, {\"original_record_id\": \"TG-ec6b270336955e5281a8\", \"title\": \"导演编剧编导AI剪辑师AI制作师制作实习生\"}, {\"original_record_id\": \"TG-fadc2a56fbfb38951768\", \"title\": \"管理培训生（专业不限、市场营销、药学、中药学、质管、人力、财务、信息技术类）\"}, {\"original_record_id\": \"TG-4e54de539141b193d109\", \"title\": \"经营方向 运营方向 客户服务类 体验保障类 解决方案类 产品类 运营规划类 人力资源类 科技类 财务类 审计监察类 公共行政类\"}, {\"original_record_id\": \"TG-cd56c92bc5360bc9477e\", \"title\": \"船舶设计 工程管理创新数字化技术人力资源管理党建群团 法险风控博士岗位\"}, {\"original_record_id\": \"TG-2a1227b48fd134377bd7\", \"title\": \"前端/后端开发工程师（各2人）\"}, {\"original_record_id\": \"TG-1769ce9d7f6da2300f16\", \"title\": \"自动化测试与AI应用开发工程师\"}, {\"original_record_id\": \"TG-6441cddacac37af77a70\", \"title\": \"黑马工程计划 创优生计划 买手创优生国家商品创优生(西语)国家计划创优生商品计划创优生海外采购创优生海外财经BP创优生运营创优生(国内)\"}, {\"original_record_id\": \"TG-d7079f7a69f30c52e346\", \"title\": \"财务主办业务主办技术员设计工程师\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-e426befeb7cbdf6a94a4",
+    "TG-bac019f4e464269067a3",
+    "TG-cc50f2f6f604da7def17",
+    "TG-586ec7bbff33dea3e5e8",
+    "TG-249817a2927fc24b1b94",
+    "TG-821823384d801f4d10ca",
+    "TG-aa376a42c8b90b287808",
+    "TG-d5d404f01192b0c6d256",
+    "TG-0ed73965f31fc41f1b66",
+    "TG-2101d31537f261b1a901",
+    "TG-2a3a26534efdb5aa0a5e",
+    "TG-2c2b044fac608399b2dd",
+    "TG-ec6b270336955e5281a8",
+    "TG-fadc2a56fbfb38951768",
+    "TG-4e54de539141b193d109",
+    "TG-cd56c92bc5360bc9477e",
+    "TG-2a1227b48fd134377bd7",
+    "TG-1769ce9d7f6da2300f16",
+    "TG-6441cddacac37af77a70",
+    "TG-d7079f7a69f30c52e346"
+  ]
+}

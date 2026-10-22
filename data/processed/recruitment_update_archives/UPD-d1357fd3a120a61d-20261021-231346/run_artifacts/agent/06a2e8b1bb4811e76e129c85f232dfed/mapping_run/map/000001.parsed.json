@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-06a2e8b1bb4811e76e129c85f232dfed",
+      "status": "mapped",
+      "target_category_id": "L19-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-08",
+        "L19-01",
+        "L19-03",
+        "L32-01"
+      ],
+      "title_evidence": "标题明确为“财务管培生”，财务职能已确认",
+      "level_3_evidence": null,
+      "reason": "“财务管培生”已明确财务职能，按规则已明确职能时归专业目录并加培养标签，不应归入L32跨职能轮岗；财务方向未细分，归L19-08通用财务工作。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16981,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 341,
+    "output_tokens": 158,
+    "reasoning_tokens": 0,
+    "total_tokens": 17139
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039174
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

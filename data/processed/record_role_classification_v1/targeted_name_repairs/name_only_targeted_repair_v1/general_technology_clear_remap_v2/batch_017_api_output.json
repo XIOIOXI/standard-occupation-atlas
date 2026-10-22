@@ -1,0 +1,28 @@
+{
+  "id": "04bc1a6b-fac8-42d2-8512-682484e70ab9",
+  "object": "chat.completion",
+  "created": 1791828509,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-f1bf0af01a12429b8677\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“工具研发”仅泛称研发，无法确认职业领域或二级方向。\"},{\"entry_id\":\"SNO-f240b0ebb77128509662\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“大健工程师(大健康)”为宽泛复合称谓，无法明确对应目录。\"},{\"entry_id\":\"SNO-f2be2c7e61f4e79426b7\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“应用开发”过于宽泛，无法确认具体开发方向。\"},{\"entry_id\":\"SNO-f30ec024911cd17a63a2\",\"decision\":\"map_l1\",\"target_category_id\":\"生产制造\",\"reason\":\"名称本身明确指向生产制造一级领域。\"},{\"entry_id\":\"SNO-f368c540e65eb1f476d5\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“技术/研发”为宽泛复合称谓，无法确认职业领域。\"},{\"entry_id\":\"SNO-f3756af4152689bb0611\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“AI全栈工程师”为复合岗位，无法唯一细分三级。\"},{\"entry_id\":\"SNO-f38cff8bdd0e2d9e342b\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“系统工程师”为宽泛称谓，无法确认具体方向。\"},{\"entry_id\":\"SNO-f3b14b74bfce682623d2\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“设计助理工程师”为宽泛复合称谓，无法确认设计领域。\"},{\"entry_id\":\"SNO-f3d0973b1fa3b4c42c90\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“青年研究员”为宽泛称谓，无法确认职业领域。\"},{\"entry_id\":\"SNO-f64bf9369976bfe46a03\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“系统架构师”为宽泛称谓，无法确认具体技术方向。\"},{\"entry_id\":\"SNO-f74cb56c0a45d47b2f13\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“勘察设计”为宽泛复合称谓，无法唯一细分。\"},{\"entry_id\":\"SNO-f79ac6684e9e00871727\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含多语言专业清单，属复合岗位，无法唯一细分。\"},{\"entry_id\":\"SNO-f8a6e3513963be3772f2\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“创新研发”为宽泛称谓，无法确认职业领域。\"},{\"entry_id\":\"SNO-fa96b0dea7ed3c6575a9\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“数字管理研发工程师计算机”为复合宽泛称谓，无法唯一细分。\"},{\"entry_id\":\"SNO-fb3778e44096904068eb\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“技术开发”过于宽泛，无法确认具体开发方向。\"},{\"entry_id\":\"SNO-fb71bb61fe9ee35fb03d\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“工程数字技术”为宽泛复合称谓，无法确认职业领域。\"},{\"entry_id\":\"SNO-fbe0f1835f11b4fe005d\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"名称含多专业清单，属复合岗位，无法唯一细分。\"},{\"entry_id\":\"SNO-fc2080eb6fc3cfd61dfe\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“助理工程师”为宽泛称谓，无法确认职业领域。\"},{\"entry_id\":\"SNO-fc9ada7a9cd922eb7abc\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“科研技术”为宽泛称谓，无法确认职业领域。\"},{\"entry_id\":\"SNO-fcc7586a11c9b63d8aaa\",\"decision\":\"keep\",\"target_category_id\":null,\"reason\":\"“助理研发工程师”为宽泛称谓，无法确认职业领域。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 26614,
+    "completion_tokens": 932,
+    "total_tokens": 27546,
+    "prompt_tokens_details": {
+      "cached_tokens": 25088
+    },
+    "prompt_cache_hit_tokens": 25088,
+    "prompt_cache_miss_tokens": 1526
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

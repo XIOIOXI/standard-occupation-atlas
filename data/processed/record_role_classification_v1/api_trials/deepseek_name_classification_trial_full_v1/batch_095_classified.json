@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 95,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "03b18b97-9b2c-446c-a85d-e7f3baf88a46",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751627,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24992,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1696,
+    "output_tokens": 3836,
+    "reasoning_tokens": 0,
+    "total_tokens": 28828
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002625888
+  },
+  "observed_at_utc": "2026-10-11T20:47:07.581088+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-b42b28f824201b7df916",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "国内营销经理核心职责为市场与营销管理，归入市场/营销下的品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-55d87af8026e3f67cdc0",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "咨询助理属于咨询/调研类，归入管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-8e62162ee049e71004f7",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "status": "mapped",
+      "reason": "场馆运营属于线下运营，归入门店与现场运营。"
+    },
+    {
+      "occupation_id": "SNO-fca48fad3837b8ecbb7a",
+      "target_category_id": "供应链/物流/supply-warehouse/warehouse-inbound",
+      "status": "mapped",
+      "reason": "质管员(仓储)核心为仓储质量管理，归入仓储下的入库与库存管理。"
+    },
+    {
+      "occupation_id": "SNO-9423f958262ddcd73131",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "过程控制工程师培训生属于自动化控制方向，归入电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-1975277091e9007024e5",
+      "target_category_id": "设计/design-display-lighting/exhibit-lighting",
+      "status": "mapped",
+      "reason": "内部照明开发核心为照明设计，归入照明与光环境设计。"
+    },
+    {
+      "occupation_id": "SNO-909b9ccea480b68765d2",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-monitoring",
+      "status": "mapped",
+      "reason": "水环境监测属于环保领域，归入环境监测与评估。"
+    },
+    {
+      "occupation_id": "SNO-47957d432a5b0a972133",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "运营管理部储备管理核心为业务运营管理，归入业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-547d7686b8d3a6b410fe",
+      "target_category_id": "销售/sales-business/sales-admin-order",
+      "status": "mapped",
+      "reason": "订单交付属于销售行政/商务，归入订单与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-48e7465c1d85efe373db",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": "国际合作涉及进出口贸易与国际市场开发，归入国际市场与客户开发。"
+    },
+    {
+      "occupation_id": "SNO-7d1a81af863e382c8308",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "科技保障部信息化管理属于IT运维与基础设施管理，归入基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-1b3a74b6a14b2812c8ba",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "专业柜员属于银行零售业务岗位，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-80b6dd920c2458abef68",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": "国际业务岗(印尼语)核心为进出口贸易与国际市场开发，归入国际市场与客户开发。"
+    },
+    {
+      "occupation_id": "SNO-994ba3f5040d794e9e45",
+      "target_category_id": "咨询/翻译/法律/consult-other-language/other-translation-written",
+      "status": "mapped",
+      "reason": "印尼语审核实习生(短剧相关)核心为印尼语笔译与本地化审核，归入其他语种笔译与本地化。"
+    },
+    {
+      "occupation_id": "SNO-7504eaba43a184491f0d",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "项目管理管培生属于技术项目管理，归入研发项目管理。"
+    },
+    {
+      "occupation_id": "SNO-411eca9636071cb936ab",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "物资业务人员(电子商务)核心为采购执行，归入采购执行与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-646f64d1e22c16b50b1b",
+      "target_category_id": "金融/financial-investment/investment-financing-financing",
+      "status": "mapped",
+      "reason": "债务及结构化融资业务属于投融资，归入融资与资本运作。"
+    },
+    {
+      "occupation_id": "SNO-6765034ef7109fbb426b",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "高级军工销售经理核心为客户开发与直销，归入客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-4304585fd8f8eb4761c6",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "status": "mapped",
+      "reason": "设计技术员属于工业产品设计方向，归入工业产品设计。"
+    },
+    {
+      "occupation_id": "SNO-2b543bd28da6a3846781",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "国际高中备考教师属于基础教育教学，归入基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-d0478c9cb1688deb98d6",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "能源电力算法工程师属于算法研究与通用算法，归入算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-122b13a1968fb1670b31",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "业务储备生(华亭支行)属于银行零售业务岗位，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-ca59232cc49f56c19b14",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "光学薄膜设计属于电子硬件电路与器件设计，归入电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-89339b8441ce299028e3",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中学学习机各科教师属于基础教育教学，归入基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-fd5be13326552fd71471",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源管理储备人员属于人力资源，归入员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-d6293ae3a93c885dd85b",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "助理嵌入式软件工程师属于嵌入式与固件开发，归入嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-5421cabe8c31f1813c05",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "县区分公司代理金融网点理财经理属于金融销售，归入财富与理财销售。"
+    },
+    {
+      "occupation_id": "SNO-a772486605bc84fe6ed0",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分支机构经办属于银行零售业务岗位，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-ce62dd3a5123476f4b03",
+      "target_category_id": "财务/审计/税务/finance-analysis/finance-bp-analysis",
+      "status": "mapped",
+      "reason": "FMP财务管培生属于财务分析方向，归入经营与财务分析。"
+    },
+    {
+      "occupation_id": "SNO-6095879264f67bec7605",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "助理研究员属于咨询/调研，归入市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-45071c715e06d0a1d08d",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "科研管理属于咨询/调研中的管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-9f366bbc5cfb506994b2",
+      "target_category_id": "运营/客服/ops-content/content-community",
+      "status": "mapped",
+      "reason": "母婴内容运营属于内容运营，归入社区与用户内容运营。"
+    },
+    {
+      "occupation_id": "SNO-255dbf75bd6a299056f1",
+      "target_category_id": "生产制造/manufacturing-textile/textile-design-apparel",
+      "status": "mapped",
+      "reason": "服装开发属于服装纺织设计，归入服装设计与制版。"
+    },
+    {
+      "occupation_id": "SNO-e63dbfa92c9dd11a92d8",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "行业客户经理核心为客户开发与直销，归入客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-c72cb078fe1082ddff55",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "品牌策划属于市场/营销，归入品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-8bdb1d94f57668314d05",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "见习航空工程师属于汽车研发/制造中的整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-499d5486bc1309e34ae4",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量技术工程师属于质量管理，归入质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-1accac6f4161438b66f2",
+      "target_category_id": "设计/design-fashion/fashion-apparel",
+      "status": "mapped",
+      "reason": "男装设计师属于服装设计，归入服装款式设计。"
+    },
+    {
+      "occupation_id": "SNO-02d0453e143831461f6f",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "设计编审部-邮品设计属于视觉设计，归入品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-bedb21516ec84e9a0c9e",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出财务BP、HRBP、KA销售等多个独立职业，无法由单一目录承接。"
+    },
+    {
+      "occupation_id": "SNO-b4df185696cf9cd2bd22",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "EITTestEngineer属于测试岗位，归入功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-e2b8f7594aefdc033c3f",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "status": "mapped",
+      "reason": "算法研究员(大健康/音频/助听器)核心为音频算法，归入语音与音频算法。"
+    },
+    {
+      "occupation_id": "SNO-940e7f3088da9b9ca32a",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-transport",
+      "status": "mapped",
+      "reason": "物流运营属于物流/运输，归入运输调度与线路运营。"
+    },
+    {
+      "occupation_id": "SNO-994c3089a4d2d2e6cb1c",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "视觉传达设计师属于视觉设计，归入品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-2d7d5bebafe8205d4946",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "status": "mapped",
+      "reason": "卖场运营见习主管属于线下运营，归入门店与现场运营。"
+    },
+    {
+      "occupation_id": "SNO-b5647c46d73c33ba23f4",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "助理项目工程师属于技术项目管理，归入项目交付与实施。"
+    },
+    {
+      "occupation_id": "SNO-1e229463ce3f79ea5bee",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "转化医学经理属于生物医药研发，归入生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-3b10e7ad967b26696737",
+      "target_category_id": "产品/product-internet/product-user",
+      "status": "mapped",
+      "reason": "路线策略产品经理属于互联网产品经理，归入用户与增长产品。"
+    },
+    {
+      "occupation_id": "SNO-302fe43197a2779a2f75",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "南宁分行公司业务培训生属于银行零售业务岗位，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-242cc971a34d6dd5844c",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "信息技术研发储备人员属于IT运维与基础设施管理，归入基础设施与云运维。"
+    }
+  ]
+}

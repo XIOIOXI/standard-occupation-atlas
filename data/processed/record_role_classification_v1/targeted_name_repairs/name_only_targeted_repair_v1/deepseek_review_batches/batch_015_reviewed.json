@@ -1,0 +1,185 @@
+{
+  "batch_number": 15,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "6574bd4b-f19f-4dcd-ae32-cc05bc16065f",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813250,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30874,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3610,
+    "output_tokens": 1879,
+    "reasoning_tokens": 0,
+    "total_tokens": 32753
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001750692
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-9e0d1247e71d4e7177b6",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器人关节设计研究员核心为机器人本体关节设计研究，与机器人与具身智能方向合理匹配。"
+    },
+    {
+      "occupation_id": "SNO-073f1a015f08fc27d0fc",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列营业跟单与CAM数据处理两个独立职责，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-8b9c01d3acc9e463538c",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "编译器性能分析与设计属于系统与底层开发，当前C++系统与底层开发类别合理。"
+    },
+    {
+      "occupation_id": "SNO-8d1b6f04448ea65caa9b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "飞控系统设计属于机器人/具身智能相关算法与控制方向，当前类别合理。"
+    },
+    {
+      "occupation_id": "SNO-05d506919ed0ef05a4f5",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列财务BP与网络与信息安全工程师两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-28da68ec843c64efbaac",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "社会工作服务在冻结目录中无对应类别，职业明确但目录不能承接。"
+    },
+    {
+      "occupation_id": "SNO-84970ac2dddb8c49bc26",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "AI0S研究员名称含义不明确，无法确认具体算法方向，仅可确认算法研究上级类别。"
+    },
+    {
+      "occupation_id": "SNO-e0c8860be32cc8ea6706",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列产品市场与运营两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-d1c59b6b2b2042d9eab1",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-python/python-data",
+      "reason": "数据抓取工程师核心为数据采集与处理，当前Python数据与人工智能开发类别合理。"
+    },
+    {
+      "occupation_id": "SNO-f03e79853b6d88b73e61",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "售后工程师未注明行业或技术方向，无法确认是否属于互联网技术支持，仅可确认技术支持与客户交付上级类别。"
+    },
+    {
+      "occupation_id": "SNO-937e9f074dca20856097",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列金融、市场、物流三个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-031e24bb146fd9a0cda3",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-finance",
+      "reason": "交易执行开发工程师核心为金融交易系统开发，当前金融与行业后端开发类别合理。"
+    },
+    {
+      "occupation_id": "SNO-107eb5bba53364f7fa80",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "具身智能模型推理优化工程师属于机器人与具身智能算法方向，当前类别合理。"
+    },
+    {
+      "occupation_id": "SNO-555f899904a4298d3f3a",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-finance",
+      "reason": "总行信息科技部应用开发属于银行金融行业后端开发，当前类别合理。"
+    },
+    {
+      "occupation_id": "SNO-695adbac613e51659574",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "具身智能导航规划属于机器人与具身智能算法方向，当前类别合理。"
+    },
+    {
+      "occupation_id": "SNO-84902c450abbb91fada7",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列信息科技类与市场营销类两个独立校招岗位方向。"
+    },
+    {
+      "occupation_id": "SNO-9f180980b6325622924d",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列软件与硬件两个独立研发岗位方向。"
+    },
+    {
+      "occupation_id": "SNO-eb2a76a07f1c1c04e3cb",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列算法、产品、解决方案工程师多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-234eba8d4112535eacc0",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "博士后科研人员从事智能机器人等研发，与机器人与具身智能方向合理匹配。"
+    },
+    {
+      "occupation_id": "SNO-d43482a6023b2c8c3fba",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "高级软件架构师核心为软件系统架构设计，当前平台与中间件开发类别合理。"
+    },
+    {
+      "occupation_id": "SNO-027fd1c7f61246aba8e1",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列行政、人力、财务多个独立职能方向。"
+    },
+    {
+      "occupation_id": "SNO-f1e0d71faeed1779edfb",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "数据产品组业务架构师职责方向不明确，无法确认具体技术栈或产品方向，仅可确认后端平台上级类别。"
+    },
+    {
+      "occupation_id": "SNO-d4afe2883eb018281ac5",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "人工智能开发工程师未注明具体方向，招聘专业不等于大模型方向，仅可确认算法研究上级类别。"
+    },
+    {
+      "occupation_id": "SNO-26afb08eddeb29462c7b",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "数字孪生工程师涉及多领域，无法确认具体算法方向，仅可确认算法研究上级类别。"
+    },
+    {
+      "occupation_id": "SNO-be81b985fcbbcb7dd7bb",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列课程顾问、市场运营、学习管理师、新媒体流量项目运营等多个独立职业。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "4a03ede9-9a51-41a3-bb74-2487320b40ad",
+  "object": "chat.completion",
+  "created": 1792571327,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-8e538529eae762d7bd274a263b2a0e3b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“储备站长岗”为储备培养性质，结合万物云物业行业背景，候选 L24-12-01（物业运营管理）、L14-06（线下业务与场所运营）、L32-02（综合储备与业务培养）均合理，当前 review 状态与多候选记录恰当，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17104,
+    "completion_tokens": 130,
+    "total_tokens": 17234,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 592
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

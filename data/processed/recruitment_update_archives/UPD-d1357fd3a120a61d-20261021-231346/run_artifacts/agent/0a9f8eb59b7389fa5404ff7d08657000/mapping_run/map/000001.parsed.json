@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-0a9f8eb59b7389fa5404ff7d08657000",
+      "status": "mapped",
+      "target_category_id": "L19-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-03",
+        "L19-01",
+        "L19-08"
+      ],
+      "title_evidence": "财务运营岗：标题含“财务”，指向财务职能；“运营”在此为财务运营，非业务运营。",
+      "level_3_evidence": null,
+      "reason": "“财务运营”属于财务职能内的运营/分析类工作，最直接对应财务规划与分析（L19-03）；无明确总账核算或出纳证据，故不选三级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17007,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 367,
+    "output_tokens": 155,
+    "reasoning_tokens": 0,
+    "total_tokens": 17162
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039594
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

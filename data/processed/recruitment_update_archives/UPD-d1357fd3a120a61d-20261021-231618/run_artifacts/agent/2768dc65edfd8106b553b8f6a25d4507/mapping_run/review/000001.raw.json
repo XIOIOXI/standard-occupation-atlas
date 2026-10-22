@@ -1,0 +1,28 @@
+{
+  "id": "153dd9ed-9c61-4b90-b5ec-ca28d79ac29b",
+  "object": "chat.completion",
+  "created": 1792571651,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-2768dc65edfd8106b553b8f6a25d4507\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-04-01\",\"issue\":\"电商实习生归入电商店铺运营合理；实习为阶段标签，不影响职能归属。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17053,
+    "completion_tokens": 76,
+    "total_tokens": 17129,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 541
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

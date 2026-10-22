@@ -1,0 +1,28 @@
+{
+  "id": "c9eb775e-0a4d-4ebb-9dd9-7ffdde2c2212",
+  "object": "chat.completion",
+  "created": 1792596274,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-e78ff29a7fb416f04012558bcdb810b4\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L05-04\", \"issue\": \"仪表工程师归自动化与控制工程，合理。\"}, {\"occupation_id\": \"UP-504f64ccda5c0cd689b13611585056a9\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L06-01\", \"issue\": \"机械工程师归机械与结构设计，合理。\"}, {\"occupation_id\": \"UP-362d62cd8923d9d84a964caf327eef75\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L25-04\", \"issue\": \"电厂技术员归能源运行与调度，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17678,
+    "completion_tokens": 199,
+    "total_tokens": 17877,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 1166
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

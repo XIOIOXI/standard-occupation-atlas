@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_009_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-c716ed2d9f6c2fcac8f0",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "标题仅表明海外商品相关且为培养生身份，未明确采购选品、商品运营或销售等具体职能，无可用职能线索。"
+    },
+    {
+      "occupation_id": "SNO-864fd7b61c046f18cbca",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "标题仅表明芯片运营，未明确生产制造运营、业务运营或工艺运营等具体职能方向，无可用职能线索。"
+    },
+    {
+      "occupation_id": "SNO-697c9d4b28ff97b49842",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "标题仅表明应用技术工程师，未明确售前方案、售后技术支持或应用软件开发等具体职能方向，无可用职能线索。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11443,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 691,
+    "output_tokens": 209,
+    "reasoning_tokens": 0,
+    "total_tokens": 11652
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000261306
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

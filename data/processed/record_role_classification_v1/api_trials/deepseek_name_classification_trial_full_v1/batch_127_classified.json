@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 127,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "bedeaec8-1f60-4517-ad42-5fe0530b453e",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751359,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25102,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1806,
+    "output_tokens": 2807,
+    "reasoning_tokens": 0,
+    "total_tokens": 27909
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002024988
+  },
+  "observed_at_utc": "2026-10-11T20:42:39.591536+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-ddfa1f464cbed1431c4d",
+      "target_category_id": "设计/design-display-lighting/exhibit-space",
+      "status": "mapped",
+      "reason": "空间设计师核心为空间与展示设计，归入展示与空间设计。"
+    },
+    {
+      "occupation_id": "SNO-9ed424cc5f931dd78d12",
+      "target_category_id": "产品/product-internet/product-user",
+      "status": "mapped",
+      "reason": "产品经理培训生核心为产品经理，培训生为修饰，归入互联网产品经理。"
+    },
+    {
+      "occupation_id": "SNO-726e040eb33a3c65d56d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "status": "mapped",
+      "reason": "语音交互算法工程师核心为语音与音频算法。"
+    },
+    {
+      "occupation_id": "SNO-b5366ed2ccd6b470d7cd",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分行运营培训生(综合柜员方向)核心为银行柜面运营，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-31882611d74f7f63df63",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "逻辑(FPGA)工程师核心为数字逻辑与硬件电路设计。"
+    },
+    {
+      "occupation_id": "SNO-1e56d7605dec22111d2b",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "企管法规核心为企业法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-49d4a285060ff7f5db0f",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-operations",
+      "status": "mapped",
+      "reason": "大宗商品期现业务员核心为大宗商品贸易与期现业务操作。"
+    },
+    {
+      "occupation_id": "SNO-8ec136875553b1707bdc",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件工程师核心为硬件电路设计，元库设计为修饰。"
+    },
+    {
+      "occupation_id": "SNO-e5d340f2b9ee3320f200",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "武汉分行运营培训生核心为银行运营，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-85d56bf4d4229ac85b31",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“工程”过于宽泛，缺少具体工程方向信息。"
+    },
+    {
+      "occupation_id": "SNO-5f7f6e245f53f1e08fd0",
+      "target_category_id": "教育培训/edu-product/edu-product-curriculum",
+      "status": "mapped",
+      "reason": "学习机研发教师核心为教育课程与内容研发。"
+    },
+    {
+      "occupation_id": "SNO-994b5219d344d9c61b81",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出大模型、端到端、VLA、规划控制、决策、预测、系统、环境感知、定位建图、云平台后端、嵌入式、智能驾驶平台等多个独立技术岗位。"
+    },
+    {
+      "occupation_id": "SNO-bfb0eb3468316079b4e1",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "造价(预算)员核心为工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-07e6d5ee933a37c29cb0",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资发展部职员核心为投资分析与发展。"
+    },
+    {
+      "occupation_id": "SNO-17a75d2ad5b35bd432f2",
+      "target_category_id": "市场/公关/广告/marketing-advertising/advertising-media",
+      "status": "mapped",
+      "reason": "媒介策划核心为媒介投放与广告策划。"
+    },
+    {
+      "occupation_id": "SNO-5e529d1a85f0c23262a9",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "软件研发与敏捷项目管培生核心为研发项目管理。"
+    },
+    {
+      "occupation_id": "SNO-0402ff3bf10354812452",
+      "target_category_id": "生活服务/零售/service-therapy/wellness-therapy",
+      "status": "mapped",
+      "reason": "理疗师核心为理疗与康复服务。"
+    },
+    {
+      "occupation_id": "SNO-27676cfe7c0b7499128a",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“分支行本部”为银行机构描述，缺少具体岗位职责信息。"
+    },
+    {
+      "occupation_id": "SNO-18fd432847aaa6cc5d20",
+      "target_category_id": "产品/product-internet/product-user",
+      "status": "mapped",
+      "reason": "产品经理核心为互联网产品经理，括号内为项目修饰。"
+    },
+    {
+      "occupation_id": "SNO-fa932479e82e9612277f",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“洛阳分行本部业务管理”为银行机构与业务管理描述，缺少具体岗位方向。"
+    },
+    {
+      "occupation_id": "SNO-2cf8961889a15e78f8a7",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "海外销售运营核心为海外客户开发与销售运营。"
+    },
+    {
+      "occupation_id": "SNO-202e6cc6f5e1ac82aae0",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-processing",
+      "status": "mapped",
+      "reason": "成品外包装核心为加工与包装作业。"
+    },
+    {
+      "occupation_id": "SNO-b809d9f868f1b9b45966",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "PCB设计核心为电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-2f1dc70a4752757a669c",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "项目运营管理核心为业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-8421139fdc473ea76aac",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "软件集成验证工程师核心为功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-1257d767890473b0a0be",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "运营工艺工程师核心为生产运营与工艺改善。"
+    },
+    {
+      "occupation_id": "SNO-c161d7183311b7220c8b",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "制冷设计师核心为机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-07db165d02a59bc9a432",
+      "target_category_id": "财务/审计/税务/finance-analysis/finance-bp-analysis",
+      "status": "mapped",
+      "reason": "预算专员核心为经营与财务分析。"
+    },
+    {
+      "occupation_id": "SNO-3c9aedbe7f8dfbdf326f",
+      "target_category_id": "人力/行政/法务/people-hr/hr-recruiting",
+      "status": "mapped",
+      "reason": "助理猎头顾问核心为招聘与人才获取。"
+    },
+    {
+      "occupation_id": "SNO-e1c014c32615668f7d6c",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "mapped",
+      "reason": "审计督察核心为内部控制与内审。"
+    },
+    {
+      "occupation_id": "SNO-ec207e8b32c534861b86",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-freight",
+      "status": "mapped",
+      "reason": "海运操作专员核心为货运与物流操作。"
+    },
+    {
+      "occupation_id": "SNO-67a28ebea7cdf4213546",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "企划专员核心为品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-1a0be8d56c46c3cb932c",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "status": "mapped",
+      "reason": "智能架构开发核心为平台与中间件开发。"
+    },
+    {
+      "occupation_id": "SNO-3a8466bb6345eb118e95",
+      "target_category_id": "财务/审计/税务/finance-risk/risk-credit",
+      "status": "mapped",
+      "reason": "风险管理助理核心为信用与业务风险。"
+    },
+    {
+      "occupation_id": "SNO-e70b4238affa390279ab",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“工程技术专员”过于宽泛，缺少具体工程方向。"
+    },
+    {
+      "occupation_id": "SNO-d0d39cee92a2744edda2",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "status": "mapped",
+      "reason": "语音交互大模型工程师核心为语音与音频算法。"
+    },
+    {
+      "occupation_id": "SNO-7c38d7a7839807c9b906",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-test",
+      "status": "mapped",
+      "reason": "ATE工程师核心为芯片封装与测试。"
+    },
+    {
+      "occupation_id": "SNO-012c51c036bf9743b0bb",
+      "target_category_id": "财务/审计/税务/finance-analysis/finance-bp-analysis",
+      "status": "mapped",
+      "reason": "资管-财务运营核心为经营与财务分析。"
+    },
+    {
+      "occupation_id": "SNO-9e05a9c2c7b96fc85a26",
+      "target_category_id": "酒店/旅游/travel-service/tourism-service-consulting",
+      "status": "mapped",
+      "reason": "旅客服核心为旅游咨询与旅客服务。"
+    },
+    {
+      "occupation_id": "SNO-a91757b2e54612d509a9",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“工程技术研发工程师”过于宽泛，缺少具体技术方向。"
+    },
+    {
+      "occupation_id": "SNO-f30784bf093820b21ac3",
+      "target_category_id": "运营/客服/ops-social-media/media-video",
+      "status": "mapped",
+      "reason": "直播培训生核心为短视频与直播运营。"
+    },
+    {
+      "occupation_id": "SNO-f4d70e7ef8a2f6af36f8",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "端到端模型算法工程师核心为自动驾驶与智能交通算法。"
+    },
+    {
+      "occupation_id": "SNO-8683e963cc87b00cc2af",
+      "target_category_id": "金融/financial-banking/bank-technology",
+      "status": "mapped",
+      "reason": "总行科技核心为银行金融科技。"
+    },
+    {
+      "occupation_id": "SNO-6a3c96a2f24bfd9aacf7",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "有机工艺研究员核心为化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-ccf122853f49af46d3da",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "中台管理运营核心为业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-79aa5560dc1fc4eba4d2",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "网格处理/几何算法工程师核心为算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-10de23252c625d69b0d4",
+      "target_category_id": "金融/financial-asset/asset-appraisal-valuation",
+      "status": "mapped",
+      "reason": "产权交易业务专员核心为资产评估与产权交易。"
+    },
+    {
+      "occupation_id": "SNO-e7b70e12eef17ed454a4",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "法务风控岗同时包含法务与风控两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-d106107da473f24c584d",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场培训生核心为市场与品牌营销。"
+    },
+    {
+      "occupation_id": "SNO-6337f9dd5f9b4a2c2f64",
+      "target_category_id": "产品/product-cosmetics/beauty-rd",
+      "status": "mapped",
+      "reason": "化妆品注册备案工程师核心为化妆品产品研发与合规注册。"
+    }
+  ]
+}

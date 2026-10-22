@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-07b91307ced733888564",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "竞赛服务保障管理岗可能涉及活动项目执行或场所运营，review合理。"
+    },
+    {
+      "occupation_id": "TG-4a29cbaf49d913348090",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题列出多个技术方向，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-6a417dc6dc7330b35d55",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "目标检测跟踪算法归计算机视觉，合理。"
+    },
+    {
+      "occupation_id": "TG-4237f180a6b322e558eb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "会计方向财务培训生归总账与财务会计，合理。"
+    },
+    {
+      "occupation_id": "TG-23fe0a083b175bb5fcc3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "项目经理未说明领域，review合理。"
+    },
+    {
+      "occupation_id": "TG-74c375a9043a56610bb1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "气动与热环境设计归热流体与动力工程，合理。"
+    },
+    {
+      "occupation_id": "TG-d72ce971c8cfead7370d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题列出多个技术方向，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-d7886d421db5eee903cf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务创优生未明确细分方向，归通用财务工作合理。"
+    },
+    {
+      "occupation_id": "TG-866a6b01a939f5ff5324",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "外贸业务管培生归进出口与贸易执行，合理。"
+    },
+    {
+      "occupation_id": "TG-12b46e31f4ecd9a92814",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "初中道德与法治教师归人文与社会学科教学，合理。"
+    },
+    {
+      "occupation_id": "TG-aab053b67e9bee5deb93",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "研发及工艺未明确方向，review合理。"
+    },
+    {
+      "occupation_id": "TG-549b63fb8ae74e4f5855",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "项目管理岗未说明领域，归通用项目管理合理。"
+    },
+    {
+      "occupation_id": "TG-d27274dcf95c30a195d5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数据分析工程师归数据分析，合理。"
+    },
+    {
+      "occupation_id": "TG-9160056970810c9aa560",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "生产运营专员可能涉及生产管理或业务运营，review合理。"
+    },
+    {
+      "occupation_id": "TG-dec571ad4f3fa538d062",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "策划运营岗可能涉及产品运营或营销策划，review合理。"
+    },
+    {
+      "occupation_id": "TG-fbca76c4f5fea81cfd22",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题为岗位数量统计，非具体职业角色，non_role_text合理。"
+    },
+    {
+      "occupation_id": "TG-57f86ce66ba3cb42a954",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "系统工程师未明确领域，review合理。"
+    },
+    {
+      "occupation_id": "TG-12b9e1123ecafdc1fa6d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "业务分析师归数据分析，合理。"
+    },
+    {
+      "occupation_id": "TG-49c2030e1f4a1fcf9536",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "水土保持技术人员归环境监测与评价，合理。"
+    },
+    {
+      "occupation_id": "TG-900615befb160bfe0743",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "药效研究员归药物发现与药理，合理。"
+    }
+  ],
+  "raw_response_file": "000264.raw.json",
+  "usage": {
+    "input_tokens": 19512,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3000,
+    "output_tokens": 1084,
+    "reasoning_tokens": 0,
+    "total_tokens": 20596
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0022998719999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

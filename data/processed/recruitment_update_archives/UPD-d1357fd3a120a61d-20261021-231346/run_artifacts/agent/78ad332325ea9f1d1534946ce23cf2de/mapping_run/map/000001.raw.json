@@ -1,0 +1,28 @@
+{
+  "id": "2f91d4d3-bffa-4733-a203-6e734d9c121c",
+  "object": "chat.completion",
+  "created": 1792571809,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-78ad332325ea9f1d1534946ce23cf2de\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L32-01\",\"L32-02\",\"L13-04\",\"L16-04\"],\"title_evidence\":\"标题为“国际业务管培生”，含“管培生”培养性质，但“国际业务”未明确是商务拓展、外贸执行还是其他职能\",\"level_3_evidence\":null,\"reason\":\"管培生身份明确，但“国际业务”方向模糊，可能对应跨职能轮岗培养（L32-01/02），也可能偏向商务拓展（L13-04）或进出口贸易执行（L16-04），无法唯一确定正式目标，需人工复核。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16979,
+    "completion_tokens": 180,
+    "total_tokens": 17159,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 339
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

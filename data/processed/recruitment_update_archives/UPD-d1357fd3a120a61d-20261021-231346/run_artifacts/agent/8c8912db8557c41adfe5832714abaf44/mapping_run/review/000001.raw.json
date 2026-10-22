@@ -1,0 +1,28 @@
+{
+  "id": "f4d46736-5d34-4700-9f2c-8df243ec8691",
+  "object": "chat.completion",
+  "created": 1792571656,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-8c8912db8557c41adfe5832714abaf44\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-03\",\"issue\":\"新媒体实习归内容与新媒体运营合理，方向明确，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17063,
+    "completion_tokens": 69,
+    "total_tokens": 17132,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 551
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

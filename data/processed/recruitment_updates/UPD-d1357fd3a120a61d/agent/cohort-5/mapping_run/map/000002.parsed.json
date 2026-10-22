@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e40a8f85f0a30ad4b1dfcb58a4d0ad6b",
+      "status": "mapped",
+      "target_category_id": "L02-03-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-03-03",
+        "L02-03-02",
+        "L01-11"
+      ],
+      "title_evidence": "车端大数据组件开发工程师：车端大数据组件开发，属于数据平台/计算组件开发",
+      "level_3_evidence": "数据计算平台：批流计算及数据平台基础设施，车端大数据组件属于数据平台组件开发",
+      "reason": "标题明确为大数据组件开发，核心为数据平台组件与计算基础设施开发，归数据计算平台；非纯业务后端或通用软件。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 16943,
+    "cached_input_tokens": 16768,
+    "uncached_input_tokens": 175,
+    "output_tokens": 175,
+    "reasoning_tokens": 0,
+    "total_tokens": 17118
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000181554
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

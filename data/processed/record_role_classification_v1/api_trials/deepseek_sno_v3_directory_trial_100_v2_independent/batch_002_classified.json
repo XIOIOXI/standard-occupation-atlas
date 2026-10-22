@@ -1,0 +1,155 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-batch-v2",
+  "batch_number": 2,
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 20,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "03426ffa-c88f-4394-93df-07ccce18dce7",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791833109,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 16301,
+    "cached_input_tokens": 15360,
+    "uncached_input_tokens": 941,
+    "output_tokens": 1186,
+    "reasoning_tokens": 0,
+    "total_tokens": 17487
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008988300000000001
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-35ef17455687d998efb0",
+      "status": "mapped",
+      "target_category_id": "L26-04-01",
+      "reason": "标题“助理兽医”核心职能为动物诊疗，助理为身份标签，归伴侣动物诊疗。"
+    },
+    {
+      "occupation_id": "SNO-a5321c249c8bafa84c2e",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "reason": "“划片工艺工程师”核心为制造制程工艺，划片属芯片制程，归制造制程工程。"
+    },
+    {
+      "occupation_id": "SNO-715eda920f14a2e8188b",
+      "status": "mapped",
+      "target_category_id": "L02-05-06",
+      "reason": "“机器人决策规划”核心为决策规划算法，归运筹优化与决策算法。"
+    },
+    {
+      "occupation_id": "SNO-44fa68e2c6e3e41075be",
+      "status": "mapped",
+      "target_category_id": "L13-02-01",
+      "reason": "“电话销售”明确为远程电话成交，归个人客户销售下的远程与电话销售。"
+    },
+    {
+      "occupation_id": "SNO-09437c473ce14038bfda",
+      "status": "mapped",
+      "target_category_id": "L22-02-02",
+      "reason": "“物理实验教师”核心为物理学科教学，实验为教学形式，归数学与自然科学教学。"
+    },
+    {
+      "occupation_id": "SNO-e36662a6eaca45f3fac2",
+      "status": "mapped",
+      "target_category_id": "L02-05-05",
+      "reason": "“GNSS算法工程师”核心为定位算法，属预测与统计学习类算法研发。"
+    },
+    {
+      "occupation_id": "SNO-aa87400e0ec465b9cdfd",
+      "status": "mapped",
+      "target_category_id": "L24-07",
+      "reason": "“施工现场管理员”核心为施工现场组织管理，归施工组织与工程管理。"
+    },
+    {
+      "occupation_id": "SNO-7c7f349093c7e55cb4fa",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "reason": "“生产/工艺工程师(涂布机经验)”核心为制造工艺，涂布机为设备经验，归制造制程工程。"
+    },
+    {
+      "occupation_id": "SNO-76a7f00ce817f3c1568f",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "标题同时含“电力电子软件/硬件工程师”，软件与硬件为两个独立岗位方向。"
+    },
+    {
+      "occupation_id": "SNO-0b6325044ca8d02cb851",
+      "status": "mapped",
+      "target_category_id": "L20-11",
+      "reason": "“管理培训生(绿色金融方向)”方向明确为金融业务，但未说明具体金融子方向，归通用金融专业业务。"
+    },
+    {
+      "occupation_id": "SNO-298813e5a2ec9cd246eb",
+      "status": "review",
+      "target_category_id": "L20-02-01",
+      "reason": "“航线收益”可能指航空收益管理或投资组合，标题缺少行业与业务证据，无法确定。"
+    },
+    {
+      "occupation_id": "SNO-9854f48ab673e1857eb8",
+      "status": "mapped",
+      "target_category_id": "L01-05",
+      "reason": "“客户端研发”明确为客户端开发，但未说明桌面或游戏等具体方向，归桌面与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-a5de42db1a517a399e29",
+      "status": "review",
+      "target_category_id": "L09-03",
+      "reason": "“造型设计”可能指工业产品外观或汽车造型，标题缺少产品对象证据。"
+    },
+    {
+      "occupation_id": "SNO-2fc9b33579741819f682",
+      "status": "mapped",
+      "target_category_id": "L30-01",
+      "reason": "“律师助理(法学)”核心为法律服务，法学为专业标签，归法律服务与诉讼。"
+    },
+    {
+      "occupation_id": "SNO-a727de0259b66297a2f0",
+      "status": "mapped",
+      "target_category_id": "L04-04-02",
+      "reason": "“化验技术员”核心为化学化验检测，归化学与生物检测。"
+    },
+    {
+      "occupation_id": "SNO-ac4b16fc76b84232b695",
+      "status": "mapped",
+      "target_category_id": "L24-08",
+      "reason": "“电力监理工程师”核心为工程监理，电力为专业领域，归工程监理与验收。"
+    },
+    {
+      "occupation_id": "SNO-4be9d0f7a5005ed7c54e",
+      "status": "mapped",
+      "target_category_id": "L04-05",
+      "reason": "“检测认证工程师”核心为检测认证，海康消防为业务标签，归标准认证与质量体系。"
+    },
+    {
+      "occupation_id": "SNO-3ea566c36c3b06e49c4b",
+      "status": "mapped",
+      "target_category_id": "L30-04-02",
+      "reason": "“知识产权管理与运营专员”核心为知识产权事务，未细分专利，归商标版权与综合知识产权。"
+    },
+    {
+      "occupation_id": "SNO-201b79404e23ba450a9f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“策划”过于宽泛，可能为营销、游戏、活动或产品策划，缺少具体方向证据。"
+    },
+    {
+      "occupation_id": "SNO-c7e48b8e6d7768cf6710",
+      "status": "mapped",
+      "target_category_id": "L25-04",
+      "reason": "“供电管理”核心为电力供应运行管理，归能源运行与调度。"
+    }
+  ]
+}

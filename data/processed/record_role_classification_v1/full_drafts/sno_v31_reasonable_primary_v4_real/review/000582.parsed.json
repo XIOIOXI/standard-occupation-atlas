@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-e2fa732c91e404ce0b82",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "资源开发岗方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-421eadeb31f7c91955a3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "政治教师归人文与社会学科教学，合理。"
+    },
+    {
+      "occupation_id": "TG-f5cd659445e8f7c658bd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "品质工程师归生产质量管理，合理。"
+    },
+    {
+      "occupation_id": "TG-04ff769217b8125c538d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "高级品质工程师归生产质量管理，合理。"
+    },
+    {
+      "occupation_id": "TG-276676414ecf012dba5e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "品质工程师储备归生产质量管理，合理。"
+    },
+    {
+      "occupation_id": "TG-29e9cf31762890afa22d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅C++语言开发归通用软件研发，合理。"
+    },
+    {
+      "occupation_id": "TG-47734d3eb558338da043",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅C++语言开发归通用软件研发，合理。"
+    },
+    {
+      "occupation_id": "TG-56b1fe39bbc9eff5a21f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "化学工程与工艺归化学化工研发，合理。"
+    },
+    {
+      "occupation_id": "TG-a5e50c397bb0f3aee4c1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机器学习算法工程师归机器学习与算法研发，合理。"
+    },
+    {
+      "occupation_id": "TG-7be8807fdd27f3ccd55c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "人工智能算法工程师归机器学习与算法研发，合理。"
+    },
+    {
+      "occupation_id": "TG-307aae7c825c8a8ad8c6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "工业工程师归工艺与制造工程，合理。"
+    },
+    {
+      "occupation_id": "TG-4652092390c96c497f34",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "高中数学教师归数学与自然科学教学，合理。"
+    },
+    {
+      "occupation_id": "TG-aa9b8cfbecf341a77f09",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L13-09",
+      "issue": "海外销售专员未明确客户类型，不应推断为个人客户销售，应归通用销售L13-09。"
+    },
+    {
+      "occupation_id": "TG-3dcc37f9c792adad55c9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "系统架构工程师归软件架构，合理。"
+    },
+    {
+      "occupation_id": "TG-d0e1cb0ae09dc93f2117",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "嵌入式硬件开发归电子硬件研发，合理。"
+    },
+    {
+      "occupation_id": "TG-551db9386f7cea6bea39",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "嵌入式硬件研发归电子硬件研发，合理。"
+    },
+    {
+      "occupation_id": "TG-253b15467aa7bf7cbd64",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "运控算法工程师归运筹优化与决策算法，合理。"
+    },
+    {
+      "occupation_id": "TG-dfaaf3a9db8a647e00da",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "PMC专员归需求与物料计划，合理。"
+    },
+    {
+      "occupation_id": "TG-37c375601c20285d23e2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "PMC专员归需求与物料计划，合理。"
+    },
+    {
+      "occupation_id": "TG-571baea61326a8642bc5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "外饰设计师归工业与产品外观设计，合理。"
+    }
+  ],
+  "raw_response_file": "000582.raw.json",
+  "usage": {
+    "input_tokens": 19447,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2935,
+    "output_tokens": 941,
+    "reasoning_tokens": 0,
+    "total_tokens": 20388
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002108772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

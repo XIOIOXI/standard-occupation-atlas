@@ -1,0 +1,276 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-8f1955fa693c699ed140",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-01",
+        "L12-02",
+        "L12-03",
+        "L12-04",
+        "L12-06",
+        "L12-07"
+      ],
+      "title_evidence": "市场专员",
+      "level_3_evidence": null,
+      "reason": "标题明确为市场职能，但未说明具体方向（策略、品牌、广告、公关等），归入通用市场营销。"
+    },
+    {
+      "occupation_id": "TG-abfc5a0fa7889cf274a2",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-01"
+      ],
+      "title_evidence": "算法工程师（CV方向）",
+      "level_3_evidence": "CV方向",
+      "reason": "标题明确为算法工程师且方向为计算机视觉（CV），直接归入计算机视觉三级。"
+    },
+    {
+      "occupation_id": "TG-959375647430c01a9584",
+      "status": "mapped",
+      "target_category_id": "L20-07-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-07-03"
+      ],
+      "title_evidence": "操作风险管理岗",
+      "level_3_evidence": "操作风险",
+      "reason": "操作风险属于金融业务风险控制范畴，归入反欺诈与业务风险三级。"
+    },
+    {
+      "occupation_id": "TG-d8605b45840cd6729db7",
+      "status": "mapped",
+      "target_category_id": "L25-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-02"
+      ],
+      "title_evidence": "矿业运营优化岗",
+      "level_3_evidence": null,
+      "reason": "矿业运营优化属于采矿与资源开采领域的运营技术工作，归入采矿与资源开采。"
+    },
+    {
+      "occupation_id": "TG-8635f649de0f6f25721b",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-02",
+        "L24-01-02",
+        "L08-07"
+      ],
+      "title_evidence": "规划岗",
+      "level_3_evidence": null,
+      "reason": "标题仅“规划岗”，未说明规划领域（战略、城乡、产品等），无法确定唯一目标，需人工审核。"
+    },
+    {
+      "occupation_id": "TG-1cbb63cb712982fc12bd",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L11-07",
+        "L14-11"
+      ],
+      "title_evidence": "综合专员",
+      "level_3_evidence": null,
+      "reason": "标题仅“综合专员”，未说明具体职能方向，无法确定唯一目标，需人工审核。"
+    },
+    {
+      "occupation_id": "TG-33b575b250e968b1e2a9",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "能源动力工程电气工程人工智能自动化财务审计法律计算机",
+      "level_3_evidence": null,
+      "reason": "标题为多个专业名称的罗列，非具体岗位名称，无法映射到单一职业类别。"
+    },
+    {
+      "occupation_id": "TG-ce77cb49fbb8d4a690ca",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-01"
+      ],
+      "title_evidence": "智驾模型开发",
+      "level_3_evidence": "智驾模型",
+      "reason": "智驾模型开发属于计算机视觉在自动驾驶领域的应用，归入计算机视觉三级。"
+    },
+    {
+      "occupation_id": "TG-74b41d00b652adf96f4c",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11"
+      ],
+      "title_evidence": "信息科技岗（计算机、软件工程、电子工程、通讯工程、信息工程、自动化、网络与安全、物联网、大数据、人工智能、数学、统计等理工类相关专业毕业生）",
+      "level_3_evidence": null,
+      "reason": "标题为信息科技岗，专业要求宽泛，未明确具体技术方向，归入通用软件研发。"
+    },
+    {
+      "occupation_id": "TG-cb148d392f929340883b",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-08",
+        "L13-08",
+        "L14-07"
+      ],
+      "title_evidence": "中央单位区域交易分中心交易服务岗",
+      "level_3_evidence": null,
+      "reason": "交易服务岗可能涉及金融交易操作、商务支持或客户服务，方向不明确，需人工审核。"
+    },
+    {
+      "occupation_id": "TG-519ea24494ab5535bf6b",
+      "status": "mapped",
+      "target_category_id": "L06-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-01-02"
+      ],
+      "title_evidence": "结构设计工程师",
+      "level_3_evidence": "结构设计",
+      "reason": "结构设计工程师通常指产品结构设计，归入产品结构设计三级。"
+    },
+    {
+      "occupation_id": "TG-49dc7dd78ff751587f59",
+      "status": "mapped",
+      "target_category_id": "L06-08-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-08-02"
+      ],
+      "title_evidence": "服装IE工程师助理",
+      "level_3_evidence": "IE工程师",
+      "reason": "服装IE工程师负责工业化生产导入与效率优化，归入工业化与生产导入三级。"
+    },
+    {
+      "occupation_id": "TG-e12e0bdd1538fd609a70",
+      "status": "mapped",
+      "target_category_id": "L16-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-01"
+      ],
+      "title_evidence": "采购部-采购专员",
+      "level_3_evidence": null,
+      "reason": "标题明确为采购专员，但未说明采购物料类型，归入采购与供应商管理二级。"
+    },
+    {
+      "occupation_id": "TG-1de8f99d49db1e5c1876",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-01"
+      ],
+      "title_evidence": "视觉工程师（2026 届校招）",
+      "level_3_evidence": "视觉工程师",
+      "reason": "视觉工程师通常指计算机视觉方向，归入计算机视觉三级。"
+    },
+    {
+      "occupation_id": "TG-7365ce9b17070f1f9265",
+      "status": "mapped",
+      "target_category_id": "L25-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-02"
+      ],
+      "title_evidence": "生产技能井下采掘\\化学工程与工艺",
+      "level_3_evidence": null,
+      "reason": "标题包含井下采掘，属于采矿与资源开采现场作业，归入采矿与资源开采。"
+    },
+    {
+      "occupation_id": "TG-8e192b3ca844d44004a3",
+      "status": "mapped",
+      "target_category_id": "L23-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-05"
+      ],
+      "title_evidence": "炼钢工程师",
+      "level_3_evidence": null,
+      "reason": "炼钢属于化工与流程生产操作，归入化工与流程生产操作。"
+    },
+    {
+      "occupation_id": "TG-bb39fa312561266786ca",
+      "status": "mapped",
+      "target_category_id": "L07-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L07-01"
+      ],
+      "title_evidence": "北京市震灾风险防治中心密集台阵探测岗",
+      "level_3_evidence": null,
+      "reason": "密集台阵探测属于地球物理科学研究，归入自然科学基础研究。"
+    },
+    {
+      "occupation_id": "TG-5b2d8054e9c787447bd4",
+      "status": "mapped",
+      "target_category_id": "L03-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-01"
+      ],
+      "title_evidence": "基础设施运维岗",
+      "level_3_evidence": null,
+      "reason": "基础设施运维通常指系统与服务器运维，归入系统与服务器运维。"
+    },
+    {
+      "occupation_id": "TG-a6c4b27fd734c6e8caab",
+      "status": "mapped",
+      "target_category_id": "L14-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L14-04-01"
+      ],
+      "title_evidence": "店铺运营",
+      "level_3_evidence": "店铺运营",
+      "reason": "店铺运营通常指电商店铺运营，归入电商店铺运营三级。"
+    },
+    {
+      "occupation_id": "TG-9f1fa7e8ac3ef29e896a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "管培生（食品、机械、电气、农业、营养、生物、化学、畜牧、动物科学）",
+      "level_3_evidence": null,
+      "reason": "标题为管培生，专业方向宽泛，未明确最终职能，需人工审核确认是否属于跨职能轮岗培养。"
+    }
+  ],
+  "raw_response_file": "000439.raw.json",
+  "usage": {
+    "input_tokens": 17436,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 924,
+    "output_tokens": 2576,
+    "reasoning_tokens": 0,
+    "total_tokens": 20012
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0034674719999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

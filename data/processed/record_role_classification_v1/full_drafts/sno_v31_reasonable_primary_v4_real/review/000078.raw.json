@@ -1,0 +1,28 @@
+{
+  "id": "167696b5-004a-4c28-b26a-65d4d0ed890c",
+  "object": "chat.completion",
+  "created": 1791880408,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-8eb8e2b1627b097cdb1c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"零售管理培训生方向未明，review合理。\"},{\"occupation_id\":\"TG-a2ffcaea83739ef3d1cb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"撬装设计归机械设备设计合理。\"},{\"occupation_id\":\"TG-00297868a45bf5331086\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"二进制翻译归编译器与语言工具合理。\"},{\"occupation_id\":\"TG-569e488ba49f38da315f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多方向AI模型研发归L02-05二级合理。\"},{\"occupation_id\":\"TG-c5ab66ba05cff1d680fb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户经理归企业客户销售合理。\"},{\"occupation_id\":\"TG-434daa323b60b8cb7a3d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"视频后期剪辑归L15-06合理。\"},{\"occupation_id\":\"TG-92d93c8d5452cdf42d7b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字技术岗方向未明，review合理。\"},{\"occupation_id\":\"TG-9886f6a8a0e7c0afe257\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"职能部门管培生方向未明，review合理。\"},{\"occupation_id\":\"TG-f45d71e4c3a23ec92532\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"通用软件方向归L01-11合理。\"},{\"occupation_id\":\"TG-514a2d1a1df52d640661\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"竞赛教练员归体育教学合理。\"},{\"occupation_id\":\"TG-2aa73803ced57c5abe70\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工程数字档案管理归L18-08合理。\"},{\"occupation_id\":\"TG-906a34779c85d44f3b15\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"推荐产品运营归L14-01合理。\"},{\"occupation_id\":\"TG-8370c12e8b3e61e3c84e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金融事业部业务助理职责不明，review合理。\"},{\"occupation_id\":\"TG-8953c87b7d27f809fe2e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发设计工程师方向未明，review合理。\"},{\"occupation_id\":\"TG-6bca3f6c4c52f65d3193\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"食安管培生归生产质量管理合理。\"},{\"occupation_id\":\"TG-4c2bc432df10970e1f0d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品GTM经理归通用产品规划合理。\"},{\"occupation_id\":\"TG-44e784f822bbb02538bc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"计划助理归需求与物料计划合理。\"},{\"occupation_id\":\"TG-7360eaa2972ec1b0f3f9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多专业服务方向，multi_role合理。\"},{\"occupation_id\":\"TG-ef818ba1bb64427e134e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户服务与支持工程师归售后技术服务合理。\"},{\"occupation_id\":\"TG-51d9250ba74606316a67\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"嵌入式开发研究员归嵌入式应用开发合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19789,
+    "completion_tokens": 922,
+    "total_tokens": 20711,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3277
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

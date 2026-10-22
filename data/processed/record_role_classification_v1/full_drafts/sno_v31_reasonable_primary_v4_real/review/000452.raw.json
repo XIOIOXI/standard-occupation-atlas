@@ -1,0 +1,28 @@
+{
+  "id": "0a278686-aa54-4768-90be-82290948f299",
+  "object": "chat.completion",
+  "created": 1791881626,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-34d46c77256194481121\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题同时含销售与产品，multi_role合理。\"},{\"occupation_id\":\"TG-0d23cc034177a0e66d68\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"科技类管培生方向未明，review合理。\"},{\"occupation_id\":\"TG-c9ba499ac78790fdc68a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"云与AI系统工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-2d6881062d6f579a0bb4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"商业管理培训生职能未明，review合理。\"},{\"occupation_id\":\"TG-6d8ea96a3b45a5082b74\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"总账报表会计归总账与财务会计，合理。\"},{\"occupation_id\":\"TG-604f9868696e8f7fdf45\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场与品牌部管培生方向未明，review合理。\"},{\"occupation_id\":\"TG-06acd657eb6599ac79bb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"安全类管培生方向不明确，review合理。\"},{\"occupation_id\":\"TG-8419d1ef0061dcf9a65c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"转化医学与数字化创新管培生职能不明确，review合理。\"},{\"occupation_id\":\"TG-abe6943027b640efe527\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"冶金储备生具体工种未明，review合理。\"},{\"occupation_id\":\"TG-964e37f2ef4480aaee6c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械臂运动规划算法归运筹优化与决策算法，合理。\"},{\"occupation_id\":\"TG-e98d4c6b3c265edee95a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"FA/PE/PQE归制造制程工程，合理。\"},{\"occupation_id\":\"TG-72de6b7a9770f61878d7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"毫米波测试归硬件与产品测试，合理。\"},{\"occupation_id\":\"TG-125b014b36e2200a0ce4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"监控软件工程师方向未明，归通用软件研发合理。\"},{\"occupation_id\":\"TG-476d6498eeee5e8d9970\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题含多个职能，multi_role合理。\"},{\"occupation_id\":\"TG-0522bc4562d620ef0bb0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"期权交易员归金融交易，合理。\"},{\"occupation_id\":\"TG-5a554855f6de80bcefbb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"玻璃成型工艺员归制造制程工程，合理。\"},{\"occupation_id\":\"TG-da3eb7ef0e2f4a5b2646\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"FPGA原型工程师归芯片设计验证，合理。\"},{\"occupation_id\":\"TG-7cfbcd3d000399c0a851\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"渲染算法工程师归图形渲染开发，合理。\"},{\"occupation_id\":\"TG-7433039636f1712f6c2a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产调度岗归生产计划与现场管理，合理。\"},{\"occupation_id\":\"TG-c9e09f80a742eb537f96\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"营销管培生方向未明，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19480,
+    "completion_tokens": 955,
+    "total_tokens": 20435,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2968
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

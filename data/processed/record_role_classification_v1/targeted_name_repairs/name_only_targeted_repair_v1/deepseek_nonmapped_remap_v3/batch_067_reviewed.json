@@ -1,0 +1,185 @@
+{
+  "batch_number": 67,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "418d20f2-c4b7-4342-988d-917ae1b1e421",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791822027,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29743,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2351,
+    "output_tokens": 1417,
+    "reasoning_tokens": 0,
+    "total_tokens": 31160
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0012850259999999999
+  },
+  "results": [
+    {
+      "entry_id": "SNO-e8a393d61d465ca700e0",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "选矿设计工程师职业清晰，但冻结目录无矿业/选矿相关类别，也无法确认合适一级或二级。"
+    },
+    {
+      "entry_id": "SNO-e8f17a49d03ff0d0e2d1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "应用研发管培生未明确研发方向，且管培生本身不是职业，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-e9066501315ce5399ff7",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出设计培训师、室内设计、短视频编导等多个互不兼容的独立职业，且无共同一级或二级。"
+    },
+    {
+      "entry_id": "SNO-e9398c27083622e4a3a8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出理财经理、柜员、客户经理等多个独立岗位，分属金融、销售等不同类别，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-e9b66a64562719545081",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "AI架构师可确认属于互联网/AI一级，但架构师方向不足以确定具体三级类别。"
+    },
+    {
+      "entry_id": "SNO-e9b8067a7b27d4c2b7df",
+      "status": "review",
+      "target_category_id": "咨询/翻译/法律",
+      "reason": "涉外联络专员可确认属于咨询/翻译/法律一级，但无法确定具体语种或笔译/口译三级。"
+    },
+    {
+      "entry_id": "SNO-ea1a4ca0ff150f28c983",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "上海总部管理培训生方向不明确，管培生不是职业，无法确认任何一级或二级。"
+    },
+    {
+      "entry_id": "SNO-ea489855b5e6e8584549",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "自然资源利用职业清晰，但冻结目录无自然资源管理相关类别，也无法确认合适一级或二级。"
+    },
+    {
+      "entry_id": "SNO-ea4e801ba8bea0d4d7a9",
+      "status": "review",
+      "target_category_id": "咨询/翻译/法律",
+      "reason": "小语种翻译岗可确认属于咨询/翻译/法律一级，但未指明具体语种，无法确定三级。"
+    },
+    {
+      "entry_id": "SNO-ea8b224c8f3e8bf9f4a8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出国际/国内销售及多个专业方向，属多角色且无共同一级或二级。"
+    },
+    {
+      "entry_id": "SNO-ea9d1c203ca7498f7b9b",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "审计法务明确列出审计与法务两个独立职业，分属不同一级，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-eb2a76a07f1c1c04e3cb",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出算法、产品、解决方案工程师多个独立职业方向，无共同一级或二级。"
+    },
+    {
+      "entry_id": "SNO-eb2fa05c561df7b33948",
+      "status": "review",
+      "target_category_id": "电子/电气/通信",
+      "reason": "光学系统集成工艺/测校研发可确认属于电子/电气/通信一级，但无法确定具体三级。"
+    },
+    {
+      "entry_id": "SNO-eb44b489625cddad0f06",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出人工智能、无人系统、计算机电子、光学陀螺、液压、机电、软件测试、机械加工、企业管理、机械结构设计等多个独立职业，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-ebf29396a4533fc1f42a",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "管理培训生列出总助、法务、财务、商务、采购等多个独立职能方向，无共同一级或二级。"
+    },
+    {
+      "entry_id": "SNO-ec309ab207ef7fa31b13",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "服务名称过于宽泛，缺少具体服务方向，无法确认任何一级或二级。"
+    },
+    {
+      "entry_id": "SNO-ec8de10eb6a28b65714e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "研发工程师未说明技术方向，无法确定具体类别或一级二级。"
+    },
+    {
+      "entry_id": "SNO-ec9818eae4a2e78f9532",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出技术、产品、艺术、发行、质量等多个独立职业方向，无共同一级或二级。"
+    },
+    {
+      "entry_id": "SNO-eca6dc6941f22e5ec4f1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "计算机类管培生为轮岗培养项目，具体职业方向不明确，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-ecd8b3193d30c264065e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "先期开发名称过于宽泛，缺少具体技术或业务方向，无法确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-ed0958b150f9f622565c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "海外渠道管培生缺少具体行业或职能方向，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-ed16b4b2173ea76a2cf0",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "储备职能岗明确列出行政、人资、财务、法务、供应链、采购等多个独立职能方向，无共同一级或二级。"
+    },
+    {
+      "entry_id": "SNO-ee38fcda6f9f417c3ca4",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "售后助理工程师可确认属于互联网/AI一级，但售后方向不足以确定具体三级类别。"
+    },
+    {
+      "entry_id": "SNO-ee3b2e015051fc99d764",
+      "status": "review",
+      "target_category_id": "咨询/翻译/法律",
+      "reason": "技能竞赛翻译可确认属于咨询/翻译/法律一级，但未指明语种，无法确定具体三级。"
+    },
+    {
+      "entry_id": "SNO-ee518f1667e70b41ffb0",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "对标管理缺少具体职能领域，无法确定职业类别或一级二级。"
+    }
+  ]
+}

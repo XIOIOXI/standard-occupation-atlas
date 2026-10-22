@@ -1,0 +1,26 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-ebf97e522c49e551363d",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-ebf97e522c49e551363d",
+    "case": "A",
+    "child_titles": [
+      "视觉营销",
+      "品牌营销",
+      "产品研发",
+      "销售运营",
+      "商品营运",
+      "用户运营"
+    ],
+    "source_spans": [
+      {
+        "text": "视觉营销品牌营销产品研发销售运营商品营运 用户运营",
+        "start": 0,
+        "end": 25
+      }
+    ],
+    "reason": "标题由多个独立岗位名称拼接，可拆分。"
+  }
+}

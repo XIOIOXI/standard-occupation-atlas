@@ -1,0 +1,155 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-batch-v2",
+  "batch_number": 5,
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 20,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "8c7d8bcb-6173-4c69-80c8-07a55c0f7c7f",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791833123,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 16285,
+    "cached_input_tokens": 15360,
+    "uncached_input_tokens": 925,
+    "output_tokens": 1175,
+    "reasoning_tokens": 0,
+    "total_tokens": 17460
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008898299999999999
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-3defea64b8d57f98bb41",
+      "status": "review",
+      "target_category_id": "L20-08",
+      "reason": "“投资运营”可能指投资管理或金融运营，标题未说明具体职责，缺少交易、清算或资产管理证据。"
+    },
+    {
+      "occupation_id": "SNO-4e99a11290cecceb8c2e",
+      "status": "review",
+      "target_category_id": "L18-06",
+      "reason": "“签证助理”可能为行政文书或专业签证办理，标题未说明具体事务，缺少职能证据。"
+    },
+    {
+      "occupation_id": "SNO-d6a9c3d3f89f85f6658d",
+      "status": "mapped",
+      "target_category_id": "L05-01-01",
+      "reason": "“硬件单板设计”明确为电路板级硬件设计，归电子硬件研发下电路与板级设计。"
+    },
+    {
+      "occupation_id": "SNO-a9c65d6e65ff1f9e5e70",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "reason": "“农化管培生”为管培生身份，农化方向未明确具体职能，属跨职能培养轮岗。"
+    },
+    {
+      "occupation_id": "SNO-ea040912c5e1271988fc",
+      "status": "mapped",
+      "target_category_id": "L06-07-02",
+      "reason": "“小分子药化研究员”明确为小分子药物化学研究，归药物发现与药理。"
+    },
+    {
+      "occupation_id": "SNO-146aef12894890894bca",
+      "status": "mapped",
+      "target_category_id": "L02-05-05",
+      "reason": "“预测算法工程师”明确为预测算法研发，归预测与统计学习。"
+    },
+    {
+      "occupation_id": "SNO-eae0efe236c3fe680dcf",
+      "status": "mapped",
+      "target_category_id": "L14-07",
+      "reason": "“客服”明确为客户服务职能，但未说明咨询或投诉方向，归客服与客户支持。"
+    },
+    {
+      "occupation_id": "SNO-dad9b18893cb51aa0ba3",
+      "status": "mapped",
+      "target_category_id": "L22-02-01",
+      "reason": "“托福教研老师”明确为托福语言教学与教研，归语言教学。"
+    },
+    {
+      "occupation_id": "SNO-72319d1977c756508c55",
+      "status": "mapped",
+      "target_category_id": "L24-07",
+      "reason": "“施工助理工程师”明确为施工组织与工程管理，助理为身份标签。"
+    },
+    {
+      "occupation_id": "SNO-07e24c7efc3acf9a757e",
+      "status": "review",
+      "target_category_id": "L23-09",
+      "reason": "“厂务助理”可能为工厂设施维护或行政支持，标题未说明具体职责，缺少证据。"
+    },
+    {
+      "occupation_id": "SNO-1c3d351e8249df3e98b0",
+      "status": "mapped",
+      "target_category_id": "L04-01",
+      "reason": "“研发测试工程师”明确为软件测试与质量保障，但未说明功能或自动化方向。"
+    },
+    {
+      "occupation_id": "SNO-ffe193dcd9d68882df17",
+      "status": "review",
+      "target_category_id": "L11-04-02",
+      "reason": "“业务顾问”可能为管理咨询或销售支持，标题未说明具体业务方向，缺少证据。"
+    },
+    {
+      "occupation_id": "SNO-2ae46e86339923de3b81",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "reason": "“芯片销售经理”明确为企业客户销售，芯片为行业标签，经理为管理身份。"
+    },
+    {
+      "occupation_id": "SNO-8f43236f714c401ac79c",
+      "status": "mapped",
+      "target_category_id": "L04-03-03",
+      "reason": "“客诉工程师”明确为产品质量与客诉管理，归生产质量管理。"
+    },
+    {
+      "occupation_id": "SNO-4b1e31db35b34f36182e",
+      "status": "mapped",
+      "target_category_id": "L02-05-03",
+      "reason": "“语音交互算法”明确为语音与音频算法研发，归机器学习与算法研发。"
+    },
+    {
+      "occupation_id": "SNO-2368e9bece6320dad438",
+      "status": "mapped",
+      "target_category_id": "L24-01-01",
+      "reason": "“建筑设计”明确为建筑方案及设计，归建筑与城乡规划设计。"
+    },
+    {
+      "occupation_id": "SNO-ed21f39ef0b9584fb76e",
+      "status": "review",
+      "target_category_id": "L24-04",
+      "reason": "“环控系统工程师”可能为建筑暖通或工业环境控制，标题未说明应用场景，缺少证据。"
+    },
+    {
+      "occupation_id": "SNO-c09bb1f5979c299ad08e",
+      "status": "review",
+      "target_category_id": "L11-01",
+      "reason": "“机构管理”可能为组织管理或机构业务管理，标题未说明具体职能，缺少证据。"
+    },
+    {
+      "occupation_id": "SNO-64ee99c0d47ef7686855",
+      "status": "mapped",
+      "target_category_id": "L24-03-01",
+      "reason": "“高速公路养护站养护技术”明确为市政交通工程养护技术，归市政与交通工程。"
+    },
+    {
+      "occupation_id": "SNO-4f08fff833224f5c7f33",
+      "status": "mapped",
+      "target_category_id": "L18-06",
+      "reason": "“文秘”明确为秘书文书事务，归秘书助理与文书事务。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0f365d2a-e010-4a82-a00e-230fae363f70",
+  "object": "chat.completion",
+  "created": 1792571532,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-8607216cce20f0d2b8584a87ac4c8fc8\",\"status\":\"mapped\",\"target_category_id\":\"L06-07-01\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L06-07-01\",\"L06-05-02\"],\"title_evidence\":\"试剂研发工程师：从事试剂（生物检测/生化试剂）配方与产品开发\",\"level_3_evidence\":\"生物技术研发：生物工程及生物技术应用，试剂属生物技术产品开发\",\"reason\":\"试剂研发属生物技术/生化试剂产品开发，归生物技术研发；公司为农林牧渔行业但岗位为研发职能，不按行业归类。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16939,
+    "completion_tokens": 164,
+    "total_tokens": 17103,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

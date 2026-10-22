@@ -1,0 +1,28 @@
+{
+  "id": "ae2bad6e-bcc4-44e3-8e6b-a31adf2666ae",
+  "object": "chat.completion",
+  "created": 1792571534,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-8607216cce20f0d2b8584a87ac4c8fc8\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L06-07-01\", \"issue\": \"试剂研发（生物检测/生化试剂）归生物技术研发合理；L06-05-02配方与应用化学为可接受备选，不构成明显错分。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17024,
+    "completion_tokens": 106,
+    "total_tokens": 17130,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 512
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

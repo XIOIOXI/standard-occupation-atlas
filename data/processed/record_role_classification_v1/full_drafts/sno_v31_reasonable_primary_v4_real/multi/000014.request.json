@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-99017f620737821ff3c5\", \"title\": \"审计及鉴证服务税务服务咨询服务\"}, {\"original_record_id\": \"TG-2bf1557e6f98b8398ae5\", \"title\": \"位工作人员（图书馆日常运营、短视频拍摄剪辑、文案撰写）\"}, {\"original_record_id\": \"TG-ea8dad7710c5bb4f65c8\", \"title\": \"材料研发类 检测分析类 计算机开发类仪器研发类综合评价工程师业务支持类\"}, {\"original_record_id\": \"TG-267966dbd18f2a91ea94\", \"title\": \"采购 / 营销员\"}, {\"original_record_id\": \"TG-3612a62d6728fd9a1502\", \"title\": \"现场管理师设备安装师园林绿化师设计规划师财务金融岗\"}, {\"original_record_id\": \"TG-9ee3b8fb7d9aa5f78b62\", \"title\": \"校招生:海外财务管理海外物流管理海外工厂管理(日化)审计稽核\"}, {\"original_record_id\": \"TG-b91f5834edcf420fdcd5\", \"title\": \"生产管理 工艺工程 订单计划 成本会计 质量管理 销售 信息技术 人力资源 仓储管理\"}, {\"original_record_id\": \"TG-e941787bdb609a45c1f1\", \"title\": \"化学研发类化工研发类生物研发类生产类分析类制剂类专业职能类集团管培生\"}, {\"original_record_id\": \"TG-2df058fb017a169e6f5d\", \"title\": \"生产管理管培生（财会、财务相关专业、专业不限、人资行政相关专业）\"}, {\"original_record_id\": \"TG-962b4adad0a45450fe80\", \"title\": \"学习机语文\\\\英语\\\\物理\\\\化学教师\"}, {\"original_record_id\": \"TG-7e46a95143fb4e132a2f\", \"title\": \"机电管理/投资拓展岗\"}, {\"original_record_id\": \"TG-5bb12d0a6add81cd3b76\", \"title\": \"营销管培生类工业设计类项目管理类职能类商务造价类运营交付类国际化类\"}, {\"original_record_id\": \"TG-ee33f8f1b7615d6a3aad\", \"title\": \"海外制造岗（工艺/质量/运营/管理）\"}, {\"original_record_id\": \"TG-fc03b452d9b14f671e0d\", \"title\": \"学科运营+大班主讲教师\"}, {\"original_record_id\": \"TG-bdcb5cb4f331bf1ce826\", \"title\": \"大模型算法多模态算法语音算法数据挖掘测试开发体验设计\"}, {\"original_record_id\": \"TG-ad5fb949ef8c800c51e0\", \"title\": \"供应链类（供应链储干、原料工程师）\"}, {\"original_record_id\": \"TG-3fa609427b95c525d5c4\", \"title\": \"财务管理师安全工程师\"}, {\"original_record_id\": \"TG-5c4fa727516e88a661ec\", \"title\": \"出纳及税务管理岗\"}, {\"original_record_id\": \"TG-3237a1864dbef180f04f\", \"title\": \"研发工艺质量EHs等岗位\"}, {\"original_record_id\": \"TG-faf3d9c8ed53a0ba730d\", \"title\": \"营销策划交易员基金会计\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-99017f620737821ff3c5",
+    "TG-2bf1557e6f98b8398ae5",
+    "TG-ea8dad7710c5bb4f65c8",
+    "TG-267966dbd18f2a91ea94",
+    "TG-3612a62d6728fd9a1502",
+    "TG-9ee3b8fb7d9aa5f78b62",
+    "TG-b91f5834edcf420fdcd5",
+    "TG-e941787bdb609a45c1f1",
+    "TG-2df058fb017a169e6f5d",
+    "TG-962b4adad0a45450fe80",
+    "TG-7e46a95143fb4e132a2f",
+    "TG-5bb12d0a6add81cd3b76",
+    "TG-ee33f8f1b7615d6a3aad",
+    "TG-fc03b452d9b14f671e0d",
+    "TG-bdcb5cb4f331bf1ce826",
+    "TG-ad5fb949ef8c800c51e0",
+    "TG-3fa609427b95c525d5c4",
+    "TG-5c4fa727516e88a661ec",
+    "TG-3237a1864dbef180f04f",
+    "TG-faf3d9c8ed53a0ba730d"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "batch_number": 32,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "e3ce37e5-ee89-47e0-8ac8-cad88c5450d4",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813369,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30893,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 3501,
+    "output_tokens": 1993,
+    "reasoning_tokens": 0,
+    "total_tokens": 32886
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001803126
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-49f90fc8661eb4391d23",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列“出纳”与“税务专员”两个独立财务职业，分别对应出纳和税务类别，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-3584dd146c18b7305192",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列“光学镀膜工艺师”与“会计”两个独立职业，分属生产制造与财务领域，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-9e8a9455cdf0cdae71d1",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "党工团岗位在冻结目录中无对应党群工作类别，职业明确但目录不能承接。"
+    },
+    {
+      "occupation_id": "SNO-f209d210f84291c2c52d",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列研发技术员、工艺技术员、设备技术员、仪表技术员、电气技术员、储运技术员、外贸业务员等多个独立职业，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-cccab2580cd08e41930f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列工艺技术管理、设备技术管理、信息管理三个独立培训生方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-d3acce47a5e789684924",
+      "decision": "keep",
+      "target_category_id": "医疗健康/health-clinical/clinical-trial-operations",
+      "reason": "国际临床专员核心职责为临床试验运营，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-0d0c56b526a6b3b61993",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "售后技术支持核心为技术支持与客户交付，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-65ba1d9190b8e5687aea",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "博士后科研人员方向含计算机、软件工程、人工智能、地理信息、信息安全、通信工程、电子信息、数学、物理等多学科，仅凭名称无法确认核心职责为算法研究，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-d89ffa6c7d4e110defee",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型及人工智能工程师核心方向为大模型与生成式AI，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-071afd0277c25aa0cad2",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "通用软件开发工程师未注明语言或技术栈，无法确认属于后端业务服务端开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-2a4a822f38348704e5df",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列会计、审计信息化、投资分析、综合文秘、组织人事等多个独立方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-3d97f845079938bf5def",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "公共气象服务在冻结目录中无对应气象服务类别，职业明确但目录不能承接。"
+    },
+    {
+      "occupation_id": "SNO-ab8b816eed749a36d099",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列短剧管培生、AI动画生成师、AI动画剪辑师多个独立职业，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-bbc6f9d1b0d139523695",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "具身智能工程师(VLA方向)核心为机器人与具身智能，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-da2e709eb8394385c723",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列临床类、医技类、护理类、管培生等多个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-9cff70e66d22da394818",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列“大模型研发”与“大数据研发”两个独立方向，分属算法与数据开发领域，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-bf99a22a0a96167b5c6f",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "图形/图像软件开发工程师未注明编程语言，无法确认属于C++图形与高性能计算，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-dff9be304b6c81fcdc4c",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列销售类方向、信息科技方向、客户服务经理、柜员等多个独立职业，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-a092d99ba5e3fb291bc4",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "人工智能工程师未注明具体技术方向，无法确认属于算法研究与通用算法，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-90a9bc289d69c7f2b362",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "信号处理工程师(LiDAR)核心为激光雷达三维感知，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-c8ac31a41e3e0a6865f7",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "信息系统应用与开发未注明技术栈或具体方向，无法确认属于后端业务服务端开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-9e0b6d4999e8e6957177",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列生产系统设计、质量管理、工业工程、安全工程、生产管理等多个独立方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-eef2c062f4c02dd23cfe",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列生产、工程、质量控制三个独立职能方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-52abb9d7f343eeb016b5",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "飞控工程师核心为飞行器控制系统，是否归入机器人与具身智能算法依据不足，需复核。"
+    },
+    {
+      "occupation_id": "SNO-67c3da8344d6095694ca",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列实习量化研究员与新媒体&渠道运营两个独立职业方向，无法由单一类别承接。"
+    }
+  ]
+}

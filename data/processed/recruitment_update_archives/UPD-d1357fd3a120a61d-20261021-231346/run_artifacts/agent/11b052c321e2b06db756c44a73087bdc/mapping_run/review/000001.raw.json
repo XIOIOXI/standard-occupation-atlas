@@ -1,0 +1,28 @@
+{
+  "id": "5122550a-fb37-4ce8-8ae5-b10f1037b967",
+  "object": "chat.completion",
+  "created": 1792571540,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-11b052c321e2b06db756c44a73087bdc\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L26-01\",\"issue\":\"育种研发工程师归农业与种植技术L26-01合理；生物技术候选L06-07-01亦不冲突，主归属可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17011,
+    "completion_tokens": 87,
+    "total_tokens": 17098,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 499
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

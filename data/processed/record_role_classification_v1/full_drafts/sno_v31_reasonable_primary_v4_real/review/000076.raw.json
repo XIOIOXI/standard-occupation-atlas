@@ -1,0 +1,28 @@
+{
+  "id": "fb65b37c-9c5c-4e7b-b203-224a63053262",
+  "object": "chat.completion",
+  "created": 1791880400,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-306f8aa9297e59dbe9a5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"集成对象未明确，review合理。\"},{\"occupation_id\":\"TG-7e01c64f64d27c2cce3d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅银行培训生，职能未明，review合理。\"},{\"occupation_id\":\"TG-fb7324d81563d70da3ce\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"纺织材料归高分子与复合材料，合理。\"},{\"occupation_id\":\"TG-08a472c2be4d0a3208a0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"新媒体管培生方向未定，review合理。\"},{\"occupation_id\":\"TG-5ad8e759e3037e3a9570\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"投顾支持归证券与市场研究，合理。\"},{\"occupation_id\":\"TG-178ac18785b176736470\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"铅锌矿贸易归进出口与贸易执行，合理。\"},{\"occupation_id\":\"TG-90963845fff8a2228fad\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"通信系统总体设计归通信协议与系统，合理。\"},{\"occupation_id\":\"TG-ef6f0c1792614f4839d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"设计管培生方向未定，review合理。\"},{\"occupation_id\":\"TG-31826d306388cc1fe69f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"钎焊归焊接钣金与金属加工，合理。\"},{\"occupation_id\":\"TG-445916747d77ad3ba214\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售管培生客户类型未明，归通用销售合理。\"},{\"occupation_id\":\"TG-dec3eb8206dc7082267c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"HR实习生归人力资源综合管理，合理。\"},{\"occupation_id\":\"TG-5bdd9e6392e8f2fb9247\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外业务支持职责未明，review合理。\"},{\"occupation_id\":\"TG-2db2de13197287025a3e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"NPI归工业化与生产导入，合理。\"},{\"occupation_id\":\"TG-e24a1e4316e3e24b4366\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"土壤污染修复归固废与土壤治理，合理。\"},{\"occupation_id\":\"TG-6500111ca72150ff96e5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务会计岗归总账与财务会计，合理。\"},{\"occupation_id\":\"TG-bffe67503c2434696d14\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"流式技术员归临床检验与病理，合理。\"},{\"occupation_id\":\"TG-fe4f68951848e27b6dd5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"风险监测与量化分析归市场与流动性风险，合理。\"},{\"occupation_id\":\"TG-8ab2ff0f292e5b533a52\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"人文素养教师归人文与社会学科教学，合理。\"},{\"occupation_id\":\"TG-6687d14fc36fac6ec2e4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"规划咨询归行业与业务咨询，合理。\"},{\"occupation_id\":\"TG-5c1566b89a3b46132788\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"中央企业监督检查归合规与内部控制，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19504,
+    "completion_tokens": 936,
+    "total_tokens": 20440,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2992
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

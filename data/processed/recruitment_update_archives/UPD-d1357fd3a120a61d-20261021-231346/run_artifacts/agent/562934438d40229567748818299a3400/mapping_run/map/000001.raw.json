@@ -1,0 +1,28 @@
+{
+  "id": "1c9b15fc-2568-4620-802d-7e57c8a00fc1",
+  "object": "chat.completion",
+  "created": 1792571258,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-562934438d40229567748818299a3400\",\"status\":\"mapped\",\"target_category_id\":\"L12-07\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L12-07\",\"L12-01\",\"L12-02\"],\"title_evidence\":\"岗位名称“市场副经理”，明确属于市场职能，但未说明具体方向（策略、品牌、投放等）\",\"level_3_evidence\":null,\"reason\":\"“市场副经理”直接体现市场职能，但无具体细分方向证据，归入通用市场营销 L12-07；候选 L12-01/L12-02 仅为可能方向，不能作为目标。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16941,
+    "completion_tokens": 158,
+    "total_tokens": 17099,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 301
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

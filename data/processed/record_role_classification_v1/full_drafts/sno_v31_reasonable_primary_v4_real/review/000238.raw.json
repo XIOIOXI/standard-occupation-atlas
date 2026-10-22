@@ -1,0 +1,28 @@
+{
+  "id": "6fb7e04c-8781-411a-bdee-862502e85b74",
+  "object": "chat.completion",
+  "created": 1791880927,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"TG-cfc216c942f863d99ba1\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"Windows客户端开发归入桌面业务应用，合理。\"}, {\"occupation_id\": \"TG-53f9c0b34efc49ae0628\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"教研产品研发归入课程与教学研发，合理。\"}, {\"occupation_id\": \"TG-fcf23d87080587086dda\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"AI数据分析培训生归入数据分析，合理。\"}, {\"occupation_id\": \"TG-b4c11cf5497563af20bd\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"多职能岗位标记为multi_role，合理。\"}, {\"occupation_id\": \"TG-cf6e00dc0a05b466ceb9\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"法规管理员归入合规与内部控制，合理。\"}, {\"occupation_id\": \"TG-fcffcbc9d32f9b600551\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"教师招考科目教师未明确学科，归入学科与通识教学，合理。\"}, {\"occupation_id\": \"TG-25c8f587199aa3f6f503\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"客户经理归入企业客户销售，合理。\"}, {\"occupation_id\": \"TG-ba86e05ab46f2ed8c857\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"SAP岗归入企业应用实施与配置开发，合理。\"}, {\"occupation_id\": \"TG-a80d7c59876aa84f4910\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"营销技术支持归入售前技术与解决方案，合理。\"}, {\"occupation_id\": \"TG-d38575f11d6cac7c7f15\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"三维动画设计归入动画与动态视觉设计，合理。\"}, {\"occupation_id\": \"TG-506027cc6a68ec68b80c\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"意向实习生未明确职能，标记review，合理。\"}, {\"occupation_id\": \"TG-ccb618e501a81ca10d3a\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"环境工程师归入环境治理工程，合理。\"}, {\"occupation_id\": \"TG-90c24cb5b1e80e5838e4\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"搜推算法工程师归入推荐搜索与广告算法，合理。\"}, {\"occupation_id\": \"TG-51264e059bc75a651d7e\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"药品项目销售归入企业客户销售，合理。\"}, {\"occupation_id\": \"TG-247f5cb1e05c493aab76\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"规划用地管理专员归入城乡规划，合理。\"}, {\"occupation_id\": \"TG-1f4078b5064010785470\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"冶金工艺工程师归入制造制程工程，合理。\"}, {\"occupation_id\": \"TG-be07d774741cf7507eca\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"通信工岗归入通信工程建设与维护，合理。\"}, {\"occupation_id\": \"TG-c4fae091e34800905359\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"商务专员归入商务合同与订单支持，合理。\"}, {\"occupation_id\": \"TG-620962fedc9be59e757f\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"工程工程师标题宽泛，标记review，合理。\"}, {\"occupation_id\": \"TG-948fe30d28d598c1970b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"财务专员未明确方向，归入通用财务工作，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19412,
+    "completion_tokens": 1093,
+    "total_tokens": 20505,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2900
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

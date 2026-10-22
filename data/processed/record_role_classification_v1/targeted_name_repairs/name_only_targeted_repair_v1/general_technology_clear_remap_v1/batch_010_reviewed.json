@@ -1,0 +1,147 @@
+{
+  "batch_number": 10,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18131,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 1491,
+    "output_tokens": 1019,
+    "reasoning_tokens": 0,
+    "total_tokens": 19150
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00088497
+  },
+  "results": [
+    {
+      "entry_id": "SNO-7590cb054ca37af72a13",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“产品开发”为宽泛称谓，未明确技术方向或职业类别，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-759549fe8c047a6a03eb",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“A01-开发工程师类”为编号加泛类名称，未明确具体技术栈或方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-75dc7f1014de4654d6e3",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研究院技术”为宽泛称谓，未明确具体技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-793118ffbfad5194c0b9",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术助理”为宽泛辅助岗位，未明确技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-7973b012743921fb2f9a",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“专员/技术员/助理”为多岗位并列清单，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-7ab8043d98394b9be856",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“网络数字孪生研究员”为复合专业方向，目录无对应唯一三级，无法映射。"
+    },
+    {
+      "entry_id": "SNO-7af4729b4941a1c956f1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术代表”为宽泛称谓，未明确技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-7dfc2e023a32518bf793",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“预先研究”为宽泛研究称谓，未明确领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-7e19b7086587d29c4ed8",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“ODR验证工程师”为特定缩写验证岗位，目录无对应唯一三级，无法映射。"
+    },
+    {
+      "entry_id": "SNO-7e708dd49f0a4215f9f1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“设备管理”为宽泛职能称谓，未明确行业或设备类型，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-80046bec7e60d9e825d2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“禁片研发”为特定领域研发称谓，目录无对应唯一三级，无法映射。"
+    },
+    {
+      "entry_id": "SNO-811fea51f7b1e029e70d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发技术”为宽泛称谓，未明确技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-81a1452df80159431d3d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“高级研发工程师(课题负责人)”为宽泛研发称谓，未明确技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-85bd1b578e67598634cd",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“定向工程师”为特定领域称谓，目录无对应唯一三级，无法映射。"
+    },
+    {
+      "entry_id": "SNO-85d56bf4d4229ac85b31",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程”为极宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-87de17771c8787acf72c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“吉安分院专业技术”为机构加宽泛技术称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-88b2c1272227ea36474e",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程技术”为宽泛称谓，未明确技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-897011f3115fff927919",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发支持”为宽泛支持称谓，未明确技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8afe68f2ca18752e4d5b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“信息技术相关”为宽泛类别称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-8b2552ba2d5576a65241",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“附件开发”为特定对象开发称谓，目录无对应唯一三级，无法映射。"
+    }
+  ]
+}

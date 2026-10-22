@@ -1,0 +1,28 @@
+{
+  "id": "ac59bd71-7fb5-4c41-8461-ed8b66616ca2",
+  "object": "chat.completion",
+  "created": 1791813415,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-b5178721727b68229105\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-graphics\",\"reason\":\"异构计算工程师核心为高性能计算，与C++图形与高性能计算边界一致，名称未限定语言但高性能计算归属合理。\"},{\"occupation_id\":\"SNO-221c8036886f09b065f3\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"计算技术研究员属算法研究与通用算法，名称未限定具体方向，通用算法研究归属合理。\"},{\"occupation_id\":\"SNO-412f2116fa03f98fe8e5\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"C#软件工程师通常从事业务服务端开发，名称未限定行业，后端业务服务归属合理。\"},{\"occupation_id\":\"SNO-909b99b3d841b9cfc1da\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"C#开发工程师通常从事业务服务端开发，归属合理。\"},{\"occupation_id\":\"SNO-6ea65d54367914d9c57d\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"C#软件工程师通常从事业务服务端开发，归属合理。\"},{\"occupation_id\":\"SNO-4e68c6acf597ab6bcd60\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"软件研发名称过于宽泛，未限定语言或方向，无法确认具体为业务服务端开发，但可确认属互联网/AI后端开发上级。\"},{\"occupation_id\":\"SNO-2742eeab9ee29e675a47\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"分布式存储开发工程师属平台与中间件开发，归属合理。\"},{\"occupation_id\":\"SNO-c81206b4fb35fc843be6\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"上位机开发工程师通常涉及工业控制与嵌入式方向，归入业务服务端开发依据不足，但可确认属互联网/AI后端开发上级。\"},{\"occupation_id\":\"SNO-cf355d329f705808a7fd\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"AI大模型工程师核心为大模型与生成式AI，归属合理。\"},{\"occupation_id\":\"SNO-8aa0eadb31985823642e\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"AI大模型开发工程师核心为大模型与生成式AI开发，归属合理。\"},{\"occupation_id\":\"SNO-11427993d2dd6d277138\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"后台开发核心为业务服务端开发，归属合理。\"},{\"occupation_id\":\"SNO-26e75de7b86c0c6dcac8\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-test/test-functional\",\"reason\":\"测试助理工程师属功能与自动化测试，归属合理。\"},{\"occupation_id\":\"SNO-b5aca4b206c148495842\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人软件工程师核心为机器人与具身智能，归属合理。\"},{\"occupation_id\":\"SNO-e52f89f637c3fd8993a4\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人开发核心为机器人与具身智能，归属合理。\"},{\"occupation_id\":\"SNO-459606658600321e8e6e\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人开发工程师核心为机器人与具身智能，归属合理。\"},{\"occupation_id\":\"SNO-3dcc37f9c792adad55c9\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"系统架构工程师偏平台与系统架构，归入平台与中间件开发合理。\"},{\"occupation_id\":\"SNO-4465e39c8606ced6cdd3\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-ops-support/ops-infrastructure\",\"reason\":\"信息化设备运行与维护属基础设施与运维，归属合理。\"},{\"occupation_id\":\"SNO-c7b2b48ca79a69a23af0\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"软件设计名称过于宽泛，未限定语言或方向，无法确认具体为业务服务端开发，但可确认属互联网/AI后端开发上级。\"},{\"occupation_id\":\"SNO-99285bcc47371b81bb53\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"业务平台工程师属平台与中间件开发，归属合理。\"},{\"occupation_id\":\"SNO-2e9f2ecf528f71ecdb9b\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"IT管培生(AI技术方向)为管培生身份，AI技术方向宽泛，无法确认具体算法方向，但可确认属互联网/AI算法工程师上级。\"},{\"occupation_id\":\"SNO-2caa1b5aa9826ad81121\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"风控法务同时包含风控与法务两个独立职业，确为多角色。\"},{\"occupation_id\":\"SNO-4e4470a2c12b5e6deefa\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"法务风控同时包含法务与风控两个独立职业，确为多角色。\"},{\"occupation_id\":\"SNO-c26d305abaca8dfba0c2\",\"decision\":\"fallback_review\",\"target_category_id\":\"医疗健康/health-editor/medical-editing-scientific\",\"reason\":\"医学专员名称宽泛，可能为医学事务、医学编辑或临床支持，无法确认具体为医学内容编辑，但可确认属医疗健康医药编辑上级。\"},{\"occupation_id\":\"SNO-f3756af4152689bb0611\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"AI全栈工程师名称含全栈，未限定具体技术栈，无法确认仅为业务服务端开发，但可确认属互联网/AI后端开发上级。\"},{\"occupation_id\":\"SNO-c0d2ba95df2ee34caf9b\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"AI全栈研发工程师名称含全栈，未限定具体技术栈，无法确认仅为业务服务端开发，但可确认属互联网/AI后端开发上级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 31093,
+    "completion_tokens": 1617,
+    "total_tokens": 32710,
+    "prompt_tokens_details": {
+      "cached_tokens": 27264
+    },
+    "prompt_cache_hit_tokens": 27264,
+    "prompt_cache_miss_tokens": 3829
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

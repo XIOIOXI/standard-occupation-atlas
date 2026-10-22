@@ -1,0 +1,28 @@
+{
+  "id": "73cc7bdc-88f1-425e-b699-1dec133ad4d2",
+  "object": "chat.completion",
+  "created": 1792571206,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-6f2cf21b852f7c00b58fa33db9108441\",\"status\":\"mapped\",\"target_category_id\":\"L27-07\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L27-07\",\"L27-09\"],\"title_evidence\":\"机场运行岗，机场地面运行组织与服务\",\"level_3_evidence\":null,\"reason\":\"机场运行岗属于交通运行与地面服务，归 L27-07；无更具体三级证据，停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16949,
+    "completion_tokens": 124,
+    "total_tokens": 17073,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

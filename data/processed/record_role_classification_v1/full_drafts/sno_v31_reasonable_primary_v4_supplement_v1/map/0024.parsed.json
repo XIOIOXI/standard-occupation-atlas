@@ -1,0 +1,298 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-1cc886c42ecb5fc7e075",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "综合岗（专员）",
+      "level_3_evidence": null,
+      "reason": "标题仅表明综合岗位，未提供任何具体职能线索，无法确定归属。"
+    },
+    {
+      "occupation_id": "TG-b6355e52eab52fe95f0d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "国际管培生（车辆相关理工科专业优先）",
+      "level_3_evidence": null,
+      "reason": "国际管培生为培养项目，但最终职业方向未明确；车辆相关理工科专业优先仅提示行业领域，不足以确定具体职能，按规则标 review。"
+    },
+    {
+      "occupation_id": "TG-d454c402ad9f1934e9eb",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "管理培训生（文件规定毕业2年内的择业期毕业生，视同应届生）",
+      "level_3_evidence": null,
+      "reason": "管理培训生为培养项目，但未说明具体职能方向，无法确定专业归属，按规则标 review。"
+    },
+    {
+      "occupation_id": "TG-651d121106b8236398f6",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "职能管理类（专业要求：化学类、药物化学、药事管理、药物制剂、药学、生物制药、制药工程、会计类、国际贸易、化学工程与工艺、财务管理）",
+      "level_3_evidence": null,
+      "reason": "职能管理类为宽泛职能类别，专业要求涵盖化学、药学、会计、国际贸易、财务管理等多个方向，无法确定具体职能归属。"
+    },
+    {
+      "occupation_id": "TG-85982994bfa789a54e8b",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "终端业务员",
+      "level_3_evidence": null,
+      "reason": "终端业务员通常指面向终端客户的销售业务人员，但客户类型未明确，归入通用销售。"
+    },
+    {
+      "occupation_id": "TG-d5b822081c98fc7e5520",
+      "status": "mapped",
+      "target_category_id": "L11-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "产品研究员-2026应届毕业生(中后台条线)",
+      "level_3_evidence": null,
+      "reason": "产品研究员通常从事产品、市场或商业研究，中后台条线进一步支持研究属性，归入商业研究与市场调研。"
+    },
+    {
+      "occupation_id": "TG-766733731bf79a3a5230",
+      "status": "mapped",
+      "target_category_id": "L11-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "Associate(助理顾问)",
+      "level_3_evidence": null,
+      "reason": "助理顾问属于咨询岗位，但未说明具体咨询领域，归入管理与专业咨询。"
+    },
+    {
+      "occupation_id": "TG-5cd5671e0c82c38051df",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "人机工程岗",
+      "level_3_evidence": null,
+      "reason": "人机工程通常涉及产品与人的交互设计、工效学分析，属于机械与结构设计范畴。"
+    },
+    {
+      "occupation_id": "TG-a616567c62e658e9d503",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "昆明分行培训生",
+      "level_3_evidence": null,
+      "reason": "分行培训生为银行培养项目，但未明确具体业务方向，仅行业不足以确定职能，按规则标 review。"
+    },
+    {
+      "occupation_id": "TG-3980c303592cbd11a29d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "国家商品创优生",
+      "level_3_evidence": null,
+      "reason": "国家商品创优生含义不明确，无法识别具体职能，标 review。"
+    },
+    {
+      "occupation_id": "TG-36a609f5edc289280ca2",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "苏州分行公司业务培训生",
+      "level_3_evidence": null,
+      "reason": "公司业务培训生明确指向银行公司业务，属于企业客户销售方向，归入企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-6964e9d5cad262f328fd",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "应用服务工程师",
+      "level_3_evidence": null,
+      "reason": "应用服务工程师通常负责客户现场的产品安装、调试与售后技术支持，归入售后技术服务。"
+    },
+    {
+      "occupation_id": "TG-af397a4df515fd5209de",
+      "status": "mapped",
+      "target_category_id": "L18-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "文秘综合岗（兼人事综合岗）",
+      "level_3_evidence": null,
+      "reason": "文秘综合岗以文书事务为主，兼人事综合岗，主职能为秘书助理与文书事务。"
+    },
+    {
+      "occupation_id": "TG-0d045fa1f1200c61bcb5",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "设备电仪类（相关专业：高分子材料、化工、化学、人力资源、企管、工管、财务、会计、信息、计算机、工程管理、安全工程、物流、纺织、市场营销、英语、印尼语、金属材......",
+      "level_3_evidence": null,
+      "reason": "设备电仪类为宽泛岗位类别，相关专业涵盖多个领域，无法确定具体职能归属。"
+    },
+    {
+      "occupation_id": "TG-2e6e48e3280e8474a2ea",
+      "status": "mapped",
+      "target_category_id": "L14-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "技术运营",
+      "level_3_evidence": null,
+      "reason": "技术运营通常指数字产品或平台的技术运营，归入产品与平台运营。"
+    },
+    {
+      "occupation_id": "TG-764b4a04c67870bb7d6f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "电子信息类 通信技术类 光电类 计算机软件类 测绘遥感类 飞行器设计",
+      "level_3_evidence": null,
+      "reason": "标题列出多个专业类别，未明确具体岗位职能，无法确定归属。"
+    },
+    {
+      "occupation_id": "TG-d7bc8a1af1604e3c7773",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "物理管培生",
+      "level_3_evidence": null,
+      "reason": "物理管培生为培养项目，但未说明具体职能方向，仅专业背景不足以确定职能，按规则标 review。"
+    },
+    {
+      "occupation_id": "TG-7ec48b057f4300620dbb",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "管理培训生 (分支行)",
+      "level_3_evidence": null,
+      "reason": "管理培训生为培养项目，分支行仅提示行业领域，未明确具体职能，按规则标 review。"
+    },
+    {
+      "occupation_id": "TG-28aab04f2ff7105005ee",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "兰州分行公司业务培训生",
+      "level_3_evidence": null,
+      "reason": "公司业务培训生明确指向银行公司业务，属于企业客户销售方向，归入企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-af6edc0145ee7a28f93b",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "全球生产运营",
+      "level_3_evidence": null,
+      "reason": "全球生产运营通常负责生产计划、现场管理与运营，归入生产计划与现场管理。"
+    },
+    {
+      "occupation_id": "TG-6347d3bde62c85b02102",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "生产操作（相关专业：人力资源管理、劳动与社会保障相关专业，会计、税务、审计相关专业，安全科学与工程相关专业，应用统计、管理科学与工程相关专业，物流管理、物流工程相关专业，经济学、法学、政治学......",
+      "level_3_evidence": null,
+      "reason": "生产操作岗位但相关专业涵盖人力资源、会计、安全、物流、经济、法学等多个领域，无法确定具体职能归属。"
+    },
+    {
+      "occupation_id": "TG-a25778411294dc901cdc",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "兰州分行培训生",
+      "level_3_evidence": null,
+      "reason": "分行培训生为银行培养项目，但未明确具体业务方向，仅行业不足以确定职能，按规则标 review。"
+    },
+    {
+      "occupation_id": "TG-834ff3d45f81f629d8ee",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "福州分行公司培训生",
+      "level_3_evidence": null,
+      "reason": "公司培训生明确指向银行公司业务，属于企业客户销售方向，归入企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-02d87a9aab05bf7767de",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "物理模型设计岗",
+      "level_3_evidence": null,
+      "reason": "物理模型设计通常涉及物理建模、仿真与算法研发，归入机器学习与算法研发。"
+    },
+    {
+      "occupation_id": "TG-f98ea341efbf3e44cba0",
+      "status": "mapped",
+      "target_category_id": "L10-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "智能网联汽车/无人机领域技术经理",
+      "level_3_evidence": null,
+      "reason": "技术经理在智能网联汽车/无人机领域通常负责研发项目管理，归入研发项目管理。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17803,
+    "cached_input_tokens": 17664,
+    "uncached_input_tokens": 139,
+    "output_tokens": 3059,
+    "reasoning_tokens": 0,
+    "total_tokens": 20862
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001909242
+  },
+  "response_metadata": {
+    "request_id": "dc4232fe-b581-4b42-bfb5-6c0a5971e3d6",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791894891,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

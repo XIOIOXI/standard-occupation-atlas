@@ -1,0 +1,301 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-0405374eac3b027fb07c",
+      "case": "A",
+      "child_titles": [
+        "电气",
+        "土木",
+        "市政",
+        "能动",
+        "机械",
+        "光伏",
+        "海工",
+        "材料环化",
+        "工程造价",
+        "工程管理",
+        "安全",
+        "物流",
+        "计算机科学与技术",
+        "党务",
+        "法务",
+        "行政",
+        "财务",
+        "人资",
+        "工商管理",
+        "市场商务",
+        "英语",
+        "俄"
+      ],
+      "source_spans": [
+        {
+          "text": "电气",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "text": "土木",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "text": "市政",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "text": "能动",
+          "start": 16,
+          "end": 18
+        },
+        {
+          "text": "机械",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "text": "光伏",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "text": "海工",
+          "start": 25,
+          "end": 27
+        },
+        {
+          "text": "材料环化",
+          "start": 28,
+          "end": 32
+        },
+        {
+          "text": "工程造价",
+          "start": 33,
+          "end": 37
+        },
+        {
+          "text": "工程管理",
+          "start": 38,
+          "end": 42
+        },
+        {
+          "text": "安全",
+          "start": 43,
+          "end": 45
+        },
+        {
+          "text": "物流",
+          "start": 46,
+          "end": 48
+        },
+        {
+          "text": "计算机科学与技术",
+          "start": 49,
+          "end": 58
+        },
+        {
+          "text": "党务",
+          "start": 59,
+          "end": 61
+        },
+        {
+          "text": "法务",
+          "start": 62,
+          "end": 64
+        },
+        {
+          "text": "行政",
+          "start": 65,
+          "end": 67
+        },
+        {
+          "text": "财务",
+          "start": 68,
+          "end": 70
+        },
+        {
+          "text": "人资",
+          "start": 71,
+          "end": 73
+        },
+        {
+          "text": "工商管理",
+          "start": 74,
+          "end": 78
+        },
+        {
+          "text": "市场商务",
+          "start": 79,
+          "end": 83
+        },
+        {
+          "text": "英语",
+          "start": 84,
+          "end": 86
+        },
+        {
+          "text": "俄",
+          "start": 87,
+          "end": 88
+        }
+      ],
+      "reason": "标题为职能管理岗，括号内列出多个独立专业方向，用逗号分隔，每个方向可视为独立子岗位，符合A拆分条件。"
+    },
+    {
+      "original_record_id": "TG-027fd1c7f61246aba8e1",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为管培生-行政/人力/财务，斜杠分隔的多个词属于同一管培生岗位下的方向，不构成独立子岗位，不能单独证明A拆分。"
+    },
+    {
+      "original_record_id": "TG-d94a45c18aa6557e9939",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为市场类生产技术类职能类技术类海外校招生，多个类别词连写无分隔，无法明确拆分边界，且可能为同一校招项目的类别描述，不满足A拆分条件。"
+    },
+    {
+      "original_record_id": "TG-7507090d5d5678b64584",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为课程顾问 市场运营学习管理师 新媒体流量项目运营，空格分隔的短语可能为同一岗位的职责描述或不同岗位，但缺乏明确分隔符，不能单独证明A拆分。"
+    },
+    {
+      "original_record_id": "TG-9357e081a57a39f2851d",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为市场助理（期刊推广 / 新媒体运营 / 会议论文），括号内斜杠分隔的多个方向属于市场助理岗位下的细分方向，不构成独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-f105777e08ae16c58b1f",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为产品企划类 研发技术类 管培生类 职能支持类 创新设计类 营销管理类 供应链类 制造技术类，空格分隔的多个类别词可能为同一招聘项目的类别，不能单独证明A拆分。"
+    },
+    {
+      "original_record_id": "TG-9c65ef8bcddfd89b4459",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为产数以及综合支撑(行政文秘、法律、财务审计、人力资源管理等)，括号内顿号分隔的多个方向属于综合支撑岗位下的细分，不构成独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-df62401f57af5d759226",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为安全/质量工程师会计员/成本管理，斜杠分隔的多个词可能为同一岗位的职责或不同岗位，但缺乏明确分隔，不能单独证明A拆分。"
+    },
+    {
+      "original_record_id": "TG-ff4d014f2ee3b9dc96e5",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为服装设计助理新媒体运营门店服装导购，多个词连写无分隔，无法明确拆分边界，不满足A拆分条件。"
+    },
+    {
+      "original_record_id": "TG-c8e70bcf6040e23eba0a",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为渔业系统大数据和基因编辑，可能为同一岗位的技术方向描述，不构成独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-702b4413aa6c49baa97c",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为运营类(平台运营 直播运营 海外运营用户运营数据分析投放推广)技术类(算法工程师)创意及设计类(内容营销文案编导设计拍摄剪辑)产品与市场类(产品企划达人商务) 职能支持类(供应链财经人力资源)，多个类别词及括号内细分方向，属于同一招聘项目的类别描述，不构成独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-f8a931d59cb8cab2062a",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为外贸业务开发外卖业务维护采购，多个词连写无分隔，无法明确拆分边界，不满足A拆分条件。"
+    },
+    {
+      "original_record_id": "TG-eaf37161caaf6707760a",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为管培生技术类供应链运营类 职能类，多个类别词可能为同一管培生项目的方向，不构成独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-b4c11cf5497563af20bd",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为海外社媒运营电商平台用户运营采购，多个词连写无分隔，无法明确拆分边界，不满足A拆分条件。"
+    },
+    {
+      "original_record_id": "TG-74c8b08a238110cf7da4",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为机务见习技术员炉务见习技术员电气习技术员员运化技术员法律合规专责会计，多个岗位词连写无分隔，无法明确拆分边界，不满足A拆分条件。"
+    },
+    {
+      "original_record_id": "TG-239a3f2d06f803ffdb6e",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为前期管理\\\\会计，反斜杠分隔的两个词可能为同一岗位的职责或不同岗位，但缺乏明确分隔，不能单独证明A拆分。"
+    },
+    {
+      "original_record_id": "TG-19f60353e187ae8c7f2c",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为财务会计 信息技术经营管理其他，空格分隔的多个词可能为同一岗位的职责或不同岗位，但缺乏明确分隔，不能单独证明A拆分。"
+    },
+    {
+      "original_record_id": "TG-00ae7e696a582e4b71e3",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为运营专员兼董秘，为单一岗位名称，不包含多个独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-5c4a487d96c048cd910c",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为软硬件开发，为单一岗位方向，不包含多个独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-4b0b638f362747769e2f",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为硬件开发工程师(电路设计、FPGA开发、结构设计)，括号内顿号分隔的多个方向属于硬件开发工程师岗位下的细分，不构成独立子岗位。"
+    }
+  ],
+  "raw_response_file": "000008.raw.json",
+  "usage": {
+    "input_tokens": 937,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 937,
+    "output_tokens": 2468,
+    "reasoning_tokens": 0,
+    "total_tokens": 3405
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0032427
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

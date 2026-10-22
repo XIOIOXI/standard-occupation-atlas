@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-8297263ddb87da3b7273",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-5feeb8d28baf56d33838",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-d659870b08921cb68ed6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-b094cd63d6fdca1e7a73",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L07-05",
+      "issue": "副研究员未说明研究领域，应归通用科学研究L07-05而非自然科学基础研究L07-01"
+    },
+    {
+      "occupation_id": "TG-90bd724beff6d54388b0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-fe289fc0c1ae35ef31cf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-08dd148a8e78a771296b",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L21-03",
+      "issue": "口腔技师属于医学技术类，但临床检验与病理L21-03-01不匹配，应归医学检验与医技L21-03"
+    },
+    {
+      "occupation_id": "TG-666703d5eccbf2861d8c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-0e9f7f743927c7e2e65e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-dbab3291de8b02fbd227",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-28a4b0699d660af4085d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-25aa579317d039a8d02e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-2c9f6012146fbccc03b4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-466388cc19dc4f427104",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-84a05a2b3a3fa532dcb4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-279641cc803eb5f6145c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-cc8453602b9440d79ee4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-91437180b7dddd972f63",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-ddb12a5c4e31bd67d01e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-d50fa1beeeb190d7f56e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ],
+  "raw_response_file": "000593.raw.json",
+  "usage": {
+    "input_tokens": 19511,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2999,
+    "output_tokens": 798,
+    "reasoning_tokens": 0,
+    "total_tokens": 20309
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.001956372
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

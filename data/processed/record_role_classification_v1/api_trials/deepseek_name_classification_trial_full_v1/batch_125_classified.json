@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 125,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "07a75138-d909-49b8-a653-c453fbfbe542",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751335,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25059,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1763,
+    "output_tokens": 3465,
+    "reasoning_tokens": 0,
+    "total_tokens": 28524
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0024133379999999997
+  },
+  "observed_at_utc": "2026-10-11T20:42:16.002580+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-f42d0407bbb99bf8b046",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "审核专员职责范围广，可能涉及内容审核、财务审核、合规审核等，缺少具体领域信息。"
+    },
+    {
+      "occupation_id": "SNO-f1491eb0d0ea68fba617",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "智能排程算法工程师核心为算法研发，属于通用算法研究范畴。"
+    },
+    {
+      "occupation_id": "SNO-41cedd778281713ba610",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "经营经理职责宽泛，可能涉及业务运营、销售管理、综合管理等，缺少具体职能信息。"
+    },
+    {
+      "occupation_id": "SNO-2df936c7a55e97fa3625",
+      "target_category_id": "影视/传媒/media-performer/performer-acting",
+      "status": "mapped",
+      "reason": "男声声部演员属于表演艺术人员，归入表演与影视演出。"
+    },
+    {
+      "occupation_id": "SNO-3056c2ba5807deb3603b",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "供应商质量和新产品导入主管核心为质量管理体系与供应商质量管控。"
+    },
+    {
+      "occupation_id": "SNO-cffd6d2353117520c69f",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "住房和建设领域法务属于公司法务与合规方向。"
+    },
+    {
+      "occupation_id": "SNO-8dec96bb3e9095150f31",
+      "target_category_id": "影视/传媒/media-publishing/publish-editing",
+      "status": "mapped",
+      "reason": "教材事业部编辑（化学）属于图书与出版编辑。"
+    },
+    {
+      "occupation_id": "SNO-7ab8043d98394b9be856",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "网络数字孪生研究员涉及网络与数字孪生交叉领域，缺少具体技术方向信息。"
+    },
+    {
+      "occupation_id": "SNO-5f7c9327a4696f61097d",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "应用工程师涵盖生命科学、理化、数字化多个方向，职责范围不明确。"
+    },
+    {
+      "occupation_id": "SNO-ea736009c49bee6b5316",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "AI软件测试工程师核心为软件功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-9dd5913eec1105577d41",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "消费者管理培训生（小语种-俄语）为管培生项目，具体职业方向不明确。"
+    },
+    {
+      "occupation_id": "SNO-b421914abe3e4b2b11b7",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "人管培生名称截断或含义不明，无法判断具体职业方向。"
+    },
+    {
+      "occupation_id": "SNO-2b1e395a028336d03a03",
+      "target_category_id": "影视/传媒/media-publishing/publish-editing",
+      "status": "mapped",
+      "reason": "教材事业部编辑（生物）属于图书与出版编辑。"
+    },
+    {
+      "occupation_id": "SNO-d39a63f1168d774889c0",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "中心项目助理职责范围宽泛，可能涉及项目管理、行政支持等，缺少具体信息。"
+    },
+    {
+      "occupation_id": "SNO-582b69c9f4fb92c4f34f",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "IP项目创优生为管培生项目，具体职业方向不明确。"
+    },
+    {
+      "occupation_id": "SNO-e2d17149e90dba890c8f",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "签派工程师属于航空运行控制领域，目录中无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-d7ca8b0fc664e9cdb02d",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "有机工艺研究员核心为化工工艺研发与生产。"
+    },
+    {
+      "occupation_id": "SNO-27420a11f0b11eb0a73f",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "车身及外饰集成属于汽车整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-be936c3ff93cd7a19593",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "科研销售核心为客户开发与直销，属于通用销售。"
+    },
+    {
+      "occupation_id": "SNO-e3d07a0b389629955cf9",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "信息平台建设职责宽泛，可能涉及IT基础设施、软件开发、产品管理等，缺少具体信息。"
+    },
+    {
+      "occupation_id": "SNO-e87260850c5f33a9eb7f",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "mapped",
+      "reason": "Graphics C++软件工程师核心为图形与高性能计算开发。"
+    },
+    {
+      "occupation_id": "SNO-15e34c4810e2d4c82c39",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "营销储备岗涵盖多个专业方向，具体职业方向不明确。"
+    },
+    {
+      "occupation_id": "SNO-e7de680a9054b8a11f3a",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "单板工艺工程师（研发）核心为电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-6b6de23975f83a555e76",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "管理人员名称过于宽泛，无法判断具体职业方向。"
+    },
+    {
+      "occupation_id": "SNO-548acf169a3beb3ea8f7",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "渠道营销管培生为管培生项目，具体职业方向不明确。"
+    },
+    {
+      "occupation_id": "SNO-d11d579b1693c7ea5f67",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "销售助理实习生（生命科学-翻译服务）同时涉及销售助理与翻译服务两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-e0fbd2b91e2f77622ff6",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "特种电源技术工程师核心为电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-3439d267dc880da61c33",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "和应届管培生名称不完整或含义不明，无法判断具体职业方向。"
+    },
+    {
+      "occupation_id": "SNO-a5606214450b6c38efc5",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "数字IC前端工程师核心为芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-646208f7f242084e9852",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "采矿类管培生为管培生项目，具体职业方向不明确。"
+    },
+    {
+      "occupation_id": "SNO-451bf0942837c433b3f6",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "研究开发名称过于宽泛，无法判断具体技术领域。"
+    },
+    {
+      "occupation_id": "SNO-b1c7b1849b20b787ce96",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "空间底座工程师职责不明确，可能涉及GIS、数字孪生、基础设施等。"
+    },
+    {
+      "occupation_id": "SNO-a796a61f0fd3e72805d2",
+      "target_category_id": "运营/客服/ops-product/prodops-platform",
+      "status": "mapped",
+      "reason": "商家运营核心为平台与商家运营。"
+    },
+    {
+      "occupation_id": "SNO-5ba860e42950bf385e32",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "海外电商运营管培生为管培生项目，具体职业方向不明确。"
+    },
+    {
+      "occupation_id": "SNO-a7d5ca5627cba3772493",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "材料试验装备国际贸易出口业务员核心为海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-d793bb13cd4ecec4c98c",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中小学心理健康教育教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-5b41f37653dc6ac26851",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "系统总体工程师职责宽泛，可能涉及多个技术领域，缺少具体行业或技术方向。"
+    },
+    {
+      "occupation_id": "SNO-0e1977bde4f1d659007a",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "产品检测工程师核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-4605546c11e9beaa3210",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "供应链/制造研发管培生为管培生项目，具体职业方向不明确。"
+    },
+    {
+      "occupation_id": "SNO-28d0db659d8cbe9bf07a",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "测试控制总体设计师职责宽泛，可能涉及测试系统设计、控制系统设计等，缺少具体信息。"
+    },
+    {
+      "occupation_id": "SNO-60f52ab1ffb0ef4bd3e4",
+      "target_category_id": "医疗健康/health-doctor/medical-technical",
+      "status": "mapped",
+      "reason": "体外技术员核心为医学检验技术。"
+    },
+    {
+      "occupation_id": "SNO-b60014f268b13d13aaaf",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "路基路面设计师属于建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-8ab2acda08704b63dfac",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "工艺工程师（TD）核心为机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-bcbaaf291a4d35b595fe",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "技术人员名称过于宽泛，无法判断具体职业方向。"
+    },
+    {
+      "occupation_id": "SNO-7daa96fc8027f530efab",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌入式硬件设计工程师核心为嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-1bd9ae36cd8f765f869d",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "集团管培生-数字化智能化方向为管培生项目，具体职业方向不明确。"
+    },
+    {
+      "occupation_id": "SNO-ec03ca2e3f8e8d948774",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "mapped",
+      "reason": "合规审计核心为内部控制与内审。"
+    },
+    {
+      "occupation_id": "SNO-132d036df1499c06798b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "产品工程师（国内/海外）职责宽泛，可能涉及产品管理、研发、销售等，缺少具体信息。"
+    },
+    {
+      "occupation_id": "SNO-cda19e69cbfa04734029",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "供电与伺服设计核心为电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-bb26c7ab8ef6f1c3c7ae",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "思政教师属于高等教育教学。"
+    }
+  ]
+}

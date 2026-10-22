@@ -1,0 +1,28 @@
+{
+  "id": "d071762b-cd5f-4414-8e4a-c80b451fe69c",
+  "object": "chat.completion",
+  "created": 1791881979,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-c966cf6d0faca39eb0b1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题含市场营销与工程师，职能方向不唯一，review合理。\"},{\"occupation_id\":\"TG-2218e2bb762731bce540\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构仿真设计归机械与结构设计L06-01合理。\"},{\"occupation_id\":\"TG-bcab6ca92618eaeeaaff\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"实验室测试工程师归硬件与产品测试L04-02合理。\"},{\"occupation_id\":\"TG-f5a4b6ae32693e3d3384\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"培训生岗位无明确职能，归L32-02合理。\"},{\"occupation_id\":\"TG-bac2bb292068ac21d4da\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"光技术研究员归通信技术研发L05-05合理。\"},{\"occupation_id\":\"TG-295ba7ae3cca6377ae09\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外销售经理归企业客户销售L13-01合理。\"},{\"occupation_id\":\"TG-358e6feba806e734f0a2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机器学习研究员归L02-05合理。\"},{\"occupation_id\":\"TG-bc74e9c2871370ec92e9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"功能测试归L04-01-01合理。\"},{\"occupation_id\":\"TG-bee761f27dee7e35b795\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"造价员归L24-06-01合理。\"},{\"occupation_id\":\"TG-a15da9cbb00aada6c828\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"化学教师归L22-02-02合理。\"},{\"occupation_id\":\"TG-97a51a48bbde987d20d6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"模拟版图工程师归芯片物理设计L05-02-04合理。\"},{\"occupation_id\":\"TG-835d069f85861b78c189\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI产品经理归数字与软件产品管理L08-01合理。\"},{\"occupation_id\":\"TG-c21aea09621448fad46d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"城乡规划设计岗归L24-01-02合理。\"},{\"occupation_id\":\"TG-c3c67ba1ad3ff3e74487\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"城乡规划设计归L24-01-02合理。\"},{\"occupation_id\":\"TG-4e0fd1d5b876632d371e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"纪检监察岗归属不唯一，review合理。\"},{\"occupation_id\":\"TG-afe87d0dfd85df38e6c4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"合同商务经理归L13-08-02合理。\"},{\"occupation_id\":\"TG-d4c5a9dcfcade2807d57\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"兽医师归L26-04合理。\"},{\"occupation_id\":\"TG-1245e8458f8c8d68f5aa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"储备兽医师归L26-04合理。\"},{\"occupation_id\":\"TG-02d8af67b5a6e6bd8485\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数据产品经理归L08-01-03合理。\"},{\"occupation_id\":\"TG-81511f5f385928473962\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"给排水市政方向归L24-04合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19426,
+    "completion_tokens": 954,
+    "total_tokens": 20380,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2914
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

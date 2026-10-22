@@ -1,0 +1,28 @@
+{
+  "id": "ea7eabf4-4d36-455d-85f1-9adb6b7d3228",
+  "object": "chat.completion",
+  "created": 1791880888,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-fa96b0dea7ed3c6575a9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题方向不明确，review合理。\"},{\"occupation_id\":\"TG-a38a2dc9829f750052a8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"大模型工程师归NLP含大模型训练，合理。\"},{\"occupation_id\":\"TG-66c68f337bf5a8f54595\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"自动控制工程技术人员归自动化与控制工程，合理。\"},{\"occupation_id\":\"TG-2819c0e907701702750f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"供应链中心集团管培生，最终方向未明确，归跨职能管培合理。\"},{\"occupation_id\":\"TG-a19283b87dad1407b28f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"出纳岗归出纳与资金结算，合理。\"},{\"occupation_id\":\"TG-2ed498ee8e41d0ee4c11\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国际素养小班主讲教师归语言教学，合理。\"},{\"occupation_id\":\"TG-9357e081a57a39f2851d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多职责岗位，multi_role合理。\"},{\"occupation_id\":\"TG-589a09e6954730d00501\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场拓展室经理归销售管理，合理。\"},{\"occupation_id\":\"TG-6a339fc443ccf4f6c4c5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"登记业务岗领域不明确，review合理。\"},{\"occupation_id\":\"TG-d27a907e5872afb22368\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"聚合研发员归化学合成与反应开发，合理。\"},{\"occupation_id\":\"TG-3503241759dd8702cfd7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"模拟IC版图工程师归芯片物理设计，合理。\"},{\"occupation_id\":\"TG-b4ef54b7606a139a8096\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"品管岗归生产质量管理，合理。\"},{\"occupation_id\":\"TG-c77b705c05132b25913c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"植保园艺工程师归农业与种植技术，合理。\"},{\"occupation_id\":\"TG-219d3eec6fa5d3711037\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"道德与法治教师归人文与社会学科教学，合理。\"},{\"occupation_id\":\"TG-3dd80b4771d3b55c1be1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电气设备仿真工程师归电气工程，合理。\"},{\"occupation_id\":\"TG-b2001a03d64bd5c3872d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"整车性能集成工程师归整车与装备集成，合理。\"},{\"occupation_id\":\"TG-f66bad090406a01dd876\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"物流送装督导管培生，最终方向未明确，归跨职能管培合理。\"},{\"occupation_id\":\"TG-0880e595bd68d305679d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"品质管理管培生，最终方向未明确，归跨职能管培合理。\"},{\"occupation_id\":\"TG-9106c9e26e03d61543ae\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"底盘主动安全控制工程师归底盘与车辆工程，合理。\"},{\"occupation_id\":\"TG-0486ce9a4b5d29c5dda8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"理科脑力思维教师归数学与自然科学教学，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19557,
+    "completion_tokens": 960,
+    "total_tokens": 20517,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3045
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

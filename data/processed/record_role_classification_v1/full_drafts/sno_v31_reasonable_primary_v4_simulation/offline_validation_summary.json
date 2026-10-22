@@ -1,0 +1,41 @@
+{
+  "full_simulation_completed": true,
+  "source_records": 20964,
+  "distinct_exact_titles": 11933,
+  "record_backfill_unique": true,
+  "ABC_D_actual_fixture_checks": [
+    {
+      "case": "A",
+      "passed": true,
+      "generated_children": 2
+    },
+    {
+      "case": "B",
+      "passed": true,
+      "generated_children": 0
+    },
+    {
+      "case": "C",
+      "passed": true,
+      "generated_children": 0
+    },
+    {
+      "case": "D",
+      "passed": true,
+      "generated_children": 0
+    }
+  ],
+  "all_fixture_checks_pass": true,
+  "resume_check": {
+    "parsed_mapping_batches": 597,
+    "parsed_review_batches": 597,
+    "final_after_batches": true
+  },
+  "budget_stop_check": {
+    "actual_new_call_blocked_at_zero_budget": true
+  },
+  "legal_level3_conflict_check": {
+    "actual_directory_lookup": "L01-01-01",
+    "expected_action": "log_only_no_auto_downgrade"
+  }
+}

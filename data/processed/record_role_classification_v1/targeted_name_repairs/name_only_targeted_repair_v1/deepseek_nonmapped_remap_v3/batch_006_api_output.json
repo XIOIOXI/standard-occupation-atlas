@@ -1,0 +1,28 @@
+{
+  "id": "88fdd59c-5a25-43f3-8638-2de4af61bbdc",
+  "object": "chat.completion",
+  "created": 1791821681,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"ABNORMAL:RRG-7f80296f2e43fa32ca03\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称截断为“前期开发项目助理......”，无法确认具体职业方向，仅能看出项目助理性质，不足以映射到任何三级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-80115197a4798d453a09\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-sales-support/presales-solution\",\"reason\":\"“解决方案工程师”可对应售前与解决方案支持，但名称被截断且未说明行业，按保守原则仅可确认到售前解决方案方向，填该三级ID。\"},{\"entry_id\":\"ABNORMAL:RRG-804f6f5ad1abfb8e179c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“数据管理专员”过于宽泛，无法判断是数据治理、数据开发还是文员类数据管理，三级不足且二级也不唯一。\"},{\"entry_id\":\"ABNORMAL:RRG-805387f788b24b9459e8\",\"status\":\"review\",\"target_category_id\":\"生产制造/manufacturing-operations/manufacturing-ops-planning\",\"reason\":\"PMC专员通常指生产计划与物料控制，可对应生产计划与调度，但名称截断且未明确行业，按生产营运二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-819369364daf48e25127\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称是多个学科专业清单（电气、土木、测绘、审计、工商管理等），并非单一职业，且无共同可确认的一级或二级职业类别。\"},{\"entry_id\":\"ABNORMAL:RRG-844fb33aadd746543bf8\",\"status\":\"review\",\"target_category_id\":\"销售/sales-management/sales-management-team\",\"reason\":\"“销售经理岗(......”可确认销售管理方向，但截断无法判断是团队管理还是策略渠道，按销售管理三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-85456441c5137447f886\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"“综合营销岗”后接大量专业清单，属于专业要求而非明确职业，且综合营销本身跨多个职能，无法确认共同职业类别。\"},{\"entry_id\":\"ABNORMAL:RRG-855e176be5bd572f4302\",\"status\":\"taxonomy_gap\",\"target_category_id\":\"生产制造/manufacturing-mechanical/mechanical-design\",\"reason\":\"行星滚柱丝杠工程师属于机械传动部件设计制造，冻结目录无对应三级，可归入机械设计/制造二级下机械结构与产品设计。\"},{\"entry_id\":\"ABNORMAL:RRG-85e0294e0a0ac7ea7950\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-data-development/data-platform\",\"reason\":\"数据治理工程师可对应大数据平台与治理，但名称截断且未明确行业，按数据开发二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-866d424562104d97fbb0\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出市场类、投研类、运营类、科技类、综合类、互金运营等多个互不兼容职能，无法确认共同一级或二级。\"},{\"entry_id\":\"ABNORMAL:RRG-86e71077b6e1e4c50b33\",\"status\":\"review\",\"target_category_id\":\"采购/贸易/trade-procurement/procurement-purchasing\",\"reason\":\"“采购工程师”可对应采购执行与合同管理，但括号内为专业要求且截断，按采购二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-8796e24cb28ecead110d\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“管培生”不是职业，括号内“成本工程”截断，无法确认具体职业方向，不能映射。\"},{\"entry_id\":\"ABNORMAL:RRG-880d83435de5020ef0b6\",\"status\":\"review\",\"target_category_id\":\"汽车/auto-rd-manufacturing/automotive-rd-rd\",\"reason\":\"热管理功能品开发工程师属于汽车零部件研发，可对应整车与零部件研发，但名称截断且括号为专业要求，按汽车研发制造三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-894871c0866993f4bd6e\",\"status\":\"review\",\"target_category_id\":\"能源/环保/农业/energy-environment/environment-engineering\",\"reason\":\"水处理工艺设计师可对应环保工程与治理，但名称截断且带公司名，按环保二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-896c5f97752ae1ad115a\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-security/security-application\",\"reason\":\"AI安全工程师可对应应用与数据安全，但名称截断且未明确行业，按网络安全二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-89b1968626454a8ef194\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-test/test-functional\",\"reason\":\"测试开发助理可对应功能与自动化测试，但名称截断且未明确行业，按测试二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-8a0475d77701ddf7db23\",\"status\":\"review\",\"target_category_id\":\"电子/电气/通信/electronic-semiconductor/chip-verification\",\"reason\":\"应用验证工程师括号为集成电路相关专业，可对应芯片验证，但名称截断且专业清单不完整，按半导体二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-8b53c7e939002f895b2f\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"适航工程师属于航空适航领域，冻结目录无航空/适航相关类别，且无法确认共同上级。\"},{\"entry_id\":\"ABNORMAL:RRG-8ca190d6b58b2be76273\",\"status\":\"review\",\"target_category_id\":\"运营/客服/ops-product/prodops-user\",\"reason\":\"产品与用户运营顾问可对应用户与会员运营，但名称截断且带MP后缀，按产品运营二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-8db838ee36fa179a49ab\",\"status\":\"review\",\"target_category_id\":\"电子/电气/通信/electronic-automation/automation-control\",\"reason\":\"电气工程师可对应电气控制与自动化设计，但括号为专业要求且涉及光伏储能，按电气自动化二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-8f9ba3f90bb441ea8ffd\",\"status\":\"review\",\"target_category_id\":\"房地产/建筑/estate-management/engineering-mgmt-site\",\"reason\":\"项目经理括号为道路、土木、供热等工程专业，可对应施工现场管理，但名称截断且专业清单不完整，按工程管理二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-9108e73602d7a79c9184\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"发射机械设计师属于航天发射机械领域，冻结目录无航天/航空相关类别，无法确认共同上级。\"},{\"entry_id\":\"ABNORMAL:RRG-91427a79264e9d64f866\",\"status\":\"review\",\"target_category_id\":\"财务/审计/税务/finance-accounting/acct-general\",\"reason\":\"财务专员可对应总账与财务核算，但括号为专业要求且截断，按会计二级下三级映射。\"},{\"entry_id\":\"ABNORMAL:RRG-94b1ccd8a46158adeba1\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"“设备电仪类”后接大量跨职能专业清单，属于专业要求而非单一职业，无法确认共同职业类别。\"},{\"entry_id\":\"ABNORMAL:RRG-9521d475785ca7b4390f\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出产品企划、研发技术、管培生、职能支持、创新设计、营销管理、供应链、制造技术等多个互不兼容职能，无法确认共同上级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30076,
+    "completion_tokens": 1824,
+    "total_tokens": 31900,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2684
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

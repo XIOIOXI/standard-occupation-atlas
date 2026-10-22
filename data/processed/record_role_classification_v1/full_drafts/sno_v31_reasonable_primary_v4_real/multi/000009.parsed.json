@@ -1,0 +1,651 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-8a51525d59e075934826",
+      "case": "A",
+      "child_titles": [
+        "分析",
+        "人工智能",
+        "应用开发",
+        "工艺工程"
+      ],
+      "source_spans": [
+        {
+          "text": "分析",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "text": "人工智能",
+          "start": 13,
+          "end": 17
+        },
+        {
+          "text": "应用开发",
+          "start": 18,
+          "end": 22
+        },
+        {
+          "text": "工艺工程",
+          "start": 23,
+          "end": 27
+        }
+      ],
+      "reason": "括号内顿号分隔多个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-bedb21516ec84e9a0c9e",
+      "case": "A",
+      "child_titles": [
+        "专员",
+        "财务BP",
+        "HRBP",
+        "KA销售"
+      ],
+      "source_spans": [
+        {
+          "text": "专员",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "财务BP",
+          "start": 2,
+          "end": 5
+        },
+        {
+          "text": "HRBP",
+          "start": 5,
+          "end": 9
+        },
+        {
+          "text": "KA销售",
+          "start": 9,
+          "end": 13
+        }
+      ],
+      "reason": "无分隔符但明显为多个独立岗位拼接，可拆分"
+    },
+    {
+      "original_record_id": "TG-8070f8b73d986c86736c",
+      "case": "A",
+      "child_titles": [
+        "跨境电商运营",
+        "跨境电商推广",
+        "国内电商运营",
+        "产品经理",
+        "电商设计",
+        "三维渲染"
+      ],
+      "source_spans": [
+        {
+          "text": "跨境电商运营",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "跨境电商推广",
+          "start": 7,
+          "end": 13
+        },
+        {
+          "text": "国内电商运营",
+          "start": 13,
+          "end": 19
+        },
+        {
+          "text": "产品经理",
+          "start": 19,
+          "end": 23
+        },
+        {
+          "text": "电商设计",
+          "start": 23,
+          "end": 27
+        },
+        {
+          "text": "三维渲染",
+          "start": 28,
+          "end": 32
+        }
+      ],
+      "reason": "空格分隔多个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-a312b4aa9deb64b3c675",
+      "case": "A",
+      "child_titles": [
+        "工艺",
+        "质量",
+        "关务",
+        "计划"
+      ],
+      "source_spans": [
+        {
+          "text": "工艺",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "text": "质量",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "text": "关务",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "text": "计划",
+          "start": 16,
+          "end": 18
+        }
+      ],
+      "reason": "括号内顿号分隔多个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-b25df70905a3999a58cb",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "单一岗位，不可拆分"
+    },
+    {
+      "original_record_id": "TG-0b8dd30ff5e9a0a43528",
+      "case": "A",
+      "child_titles": [
+        "储备能源动力工程师",
+        "电气工程师",
+        "安全工程师",
+        "环境工程师",
+        "消防工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "储备能源动力",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "电气",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "text": "安全",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "text": "环境",
+          "start": 13,
+          "end": 15
+        },
+        {
+          "text": "消防",
+          "start": 16,
+          "end": 18
+        }
+      ],
+      "reason": "斜杠分隔多个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-9c08bc65fbacd3e3b836",
+      "case": "A",
+      "child_titles": [
+        "PMC",
+        "仓库",
+        "采购"
+      ],
+      "source_spans": [
+        {
+          "text": "PMC",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "仓库",
+          "start": 4,
+          "end": 6
+        },
+        {
+          "text": "采购",
+          "start": 7,
+          "end": 9
+        }
+      ],
+      "reason": "斜杠分隔多个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-4a29cbaf49d913348090",
+      "case": "A",
+      "child_titles": [
+        "人工智能",
+        "数据科学",
+        "软件工程",
+        "金融科技",
+        "专业不限"
+      ],
+      "source_spans": [
+        {
+          "text": "人工智能",
+          "start": 8,
+          "end": 12
+        },
+        {
+          "text": "数据科学",
+          "start": 13,
+          "end": 17
+        },
+        {
+          "text": "软件工程",
+          "start": 18,
+          "end": 22
+        },
+        {
+          "text": "金融科技",
+          "start": 23,
+          "end": 27
+        },
+        {
+          "text": "专业不限",
+          "start": 28,
+          "end": 32
+        }
+      ],
+      "reason": "括号内顿号分隔多个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-d72ce971c8cfead7370d",
+      "case": "A",
+      "child_titles": [
+        "前端",
+        "后端",
+        "数据",
+        "全栈",
+        "Web大模型算法科学家"
+      ],
+      "source_spans": [
+        {
+          "text": "前端",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "text": "后端",
+          "start": 4,
+          "end": 6
+        },
+        {
+          "text": "数据",
+          "start": 7,
+          "end": 9
+        },
+        {
+          "text": "全栈",
+          "start": 10,
+          "end": 12
+        },
+        {
+          "text": "Web大模型算法科学家",
+          "start": 13,
+          "end": 24
+        }
+      ],
+      "reason": "斜杠分隔多个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-ceaa350d8bf26f94eb15",
+      "case": "A",
+      "child_titles": [
+        "机电工程师",
+        "信息技术类",
+        "新媒体电商类"
+      ],
+      "source_spans": [
+        {
+          "text": "机电工程师",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "信息技术类",
+          "start": 6,
+          "end": 11
+        },
+        {
+          "text": "新媒体电商类",
+          "start": 12,
+          "end": 18
+        }
+      ],
+      "reason": "空格分隔多个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-12db6c63da0d3e2c565c",
+      "case": "A",
+      "child_titles": [
+        "文案策划",
+        "AE助理",
+        "签约经纪人",
+        "商务",
+        "IF插画师",
+        "IP动画师",
+        "小红书视频编导(娱乐影视方向）"
+      ],
+      "source_spans": [
+        {
+          "text": "文案策划",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "AE助理",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "签约经纪人",
+          "start": 10,
+          "end": 15
+        },
+        {
+          "text": "商务",
+          "start": 15,
+          "end": 17
+        },
+        {
+          "text": "IF插画师",
+          "start": 17,
+          "end": 22
+        },
+        {
+          "text": "IP动画师",
+          "start": 23,
+          "end": 28
+        },
+        {
+          "text": "小红书视频编导(娱乐影视方向）",
+          "start": 28,
+          "end": 43
+        }
+      ],
+      "reason": "斜杠分隔多个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-a13ae023ff48dbb5984a",
+      "case": "A",
+      "child_titles": [
+        "C/c++开发",
+        "嵌入式开发",
+        "Web开发",
+        "移动应用开发",
+        "软件测试",
+        "硬件开发",
+        "营销管培生"
+      ],
+      "source_spans": [
+        {
+          "text": "C/c++开发",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "text": "嵌入式开发",
+          "start": 7,
+          "end": 12
+        },
+        {
+          "text": "Web开发",
+          "start": 12,
+          "end": 17
+        },
+        {
+          "text": "移动应用开发",
+          "start": 17,
+          "end": 23
+        },
+        {
+          "text": "软件测试",
+          "start": 23,
+          "end": 27
+        },
+        {
+          "text": "硬件开发",
+          "start": 27,
+          "end": 31
+        },
+        {
+          "text": "营销管培生",
+          "start": 31,
+          "end": 36
+        }
+      ],
+      "reason": "无分隔符但明显为多个独立岗位拼接，可拆分"
+    },
+    {
+      "original_record_id": "TG-f1c669478f4fb836e490",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "单一岗位，不可拆分"
+    },
+    {
+      "original_record_id": "TG-91c2cf92882d5aa13f24",
+      "case": "A",
+      "child_titles": [
+        "跨境电商运营",
+        "海外渠道销售"
+      ],
+      "source_spans": [
+        {
+          "text": "跨境电商运营",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "海外渠道销售",
+          "start": 6,
+          "end": 12
+        }
+      ],
+      "reason": "无分隔符但明显为两个独立岗位拼接，可拆分"
+    },
+    {
+      "original_record_id": "TG-6210223f25d20f2108bb",
+      "case": "A",
+      "child_titles": [
+        "新媒体创意策划专员",
+        "土木类"
+      ],
+      "source_spans": [
+        {
+          "text": "新媒体创意策划专员",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "土木类",
+          "start": 11,
+          "end": 14
+        }
+      ],
+      "reason": "反斜杠分隔两个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-49ddb25479f89b267d01",
+      "case": "A",
+      "child_titles": [
+        "管培生",
+        "销售类",
+        "研发类",
+        "市场类",
+        "职能类"
+      ],
+      "source_spans": [
+        {
+          "text": "管培生",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "销售类",
+          "start": 4,
+          "end": 7
+        },
+        {
+          "text": "研发类",
+          "start": 8,
+          "end": 11
+        },
+        {
+          "text": "市场类",
+          "start": 12,
+          "end": 15
+        },
+        {
+          "text": "职能类",
+          "start": 16,
+          "end": 19
+        }
+      ],
+      "reason": "空格分隔多个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-ae314f0da3d77f81b258",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "单一岗位，不可拆分"
+    },
+    {
+      "original_record_id": "TG-e0fd4f5ec414f321159d",
+      "case": "A",
+      "child_titles": [
+        "产品研发",
+        "市场营销岗"
+      ],
+      "source_spans": [
+        {
+          "text": "产品研发",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "市场营销岗",
+          "start": 11,
+          "end": 16
+        }
+      ],
+      "reason": "省略号及冒号分隔两个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-80bf2051d34b991a220a",
+      "case": "A",
+      "child_titles": [
+        "电气工程师",
+        "化学工程与工艺"
+      ],
+      "source_spans": [
+        {
+          "text": "电气工程师",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "化学工程与工艺",
+          "start": 7,
+          "end": 14
+        }
+      ],
+      "reason": "反斜杠分隔两个独立岗位，可拆分"
+    },
+    {
+      "original_record_id": "TG-6291d1094ccc066b538a",
+      "case": "A",
+      "child_titles": [
+        "硬件",
+        "软件",
+        "算法类",
+        "国内",
+        "国际市场类",
+        "供应链",
+        "技术支持",
+        "专业类",
+        "博士后工作站岗位"
+      ],
+      "source_spans": [
+        {
+          "text": "硬件",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "软件",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "text": "算法类",
+          "start": 6,
+          "end": 9
+        },
+        {
+          "text": "国内",
+          "start": 9,
+          "end": 11
+        },
+        {
+          "text": "国际市场类",
+          "start": 12,
+          "end": 17
+        },
+        {
+          "text": "供应链",
+          "start": 17,
+          "end": 20
+        },
+        {
+          "text": "技术支持",
+          "start": 21,
+          "end": 25
+        },
+        {
+          "text": "专业类",
+          "start": 26,
+          "end": 29
+        },
+        {
+          "text": "博士后工作站岗位",
+          "start": 29,
+          "end": 37
+        }
+      ],
+      "reason": "斜杠分隔多个独立岗位，可拆分"
+    }
+  ],
+  "raw_response_file": "000009.raw.json",
+  "usage": {
+    "input_tokens": 851,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 851,
+    "output_tokens": 3649,
+    "reasoning_tokens": 0,
+    "total_tokens": 4500
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0046341
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

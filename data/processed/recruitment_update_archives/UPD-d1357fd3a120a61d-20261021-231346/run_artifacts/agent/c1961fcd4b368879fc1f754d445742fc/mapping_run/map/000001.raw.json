@@ -1,0 +1,28 @@
+{
+  "id": "e97c250d-ed9e-4c2e-8d0b-bdd4588211e4",
+  "object": "chat.completion",
+  "created": 1792571684,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-c1961fcd4b368879fc1f754d445742fc\",\"status\":\"mapped\",\"target_category_id\":\"L23-09-02\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L23-09-02\",\"L23-09-01\",\"L06-01-03\"],\"title_evidence\":\"设备技术员，属制造业设备维护保全方向\",\"level_3_evidence\":\"工业设备维修保全\",\"reason\":\"设备技术员在制造企业语境下主要负责设备检修维护与保全，归工业设备维修保全；若为安装调试则属同级另一细分，故列候选。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16972,
+    "completion_tokens": 143,
+    "total_tokens": 17115,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 332
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

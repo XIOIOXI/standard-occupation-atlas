@@ -1,0 +1,28 @@
+{
+  "id": "1ec0ff3c-8273-4d08-87ce-2d9ba5e3ac3c",
+  "object": "chat.completion",
+  "created": 1792571289,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-2e31b7e07052bd7c8424b79ab2d2477e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行总行部门经办岗未明确具体金融业务方向，标review并给出L20-11/L20-08/L14-07候选合理，符合仅行业背景不足以确定职能的规则。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17003,
+    "completion_tokens": 97,
+    "total_tokens": 17100,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 491
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

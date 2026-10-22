@@ -1,0 +1,28 @@
+{
+  "id": "287a0ed0-8262-49ad-9037-b520eb146578",
+  "object": "chat.completion",
+  "created": 1792571211,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-fcb9259a504e3cd01b8af57c72324559\",\"status\":\"mapped\",\"target_category_id\":\"L24-07\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L24-07\",\"L24-02\",\"L24-06\",\"L24-13\"],\"title_evidence\":\"标题为“工程建设岗”，明确属于工程建设职能，但未说明具体专业方向（土建、造价、施工管理等）。\",\"level_3_evidence\":null,\"reason\":\"“工程建设岗”直接指向建设项目组织与施工管理，最直接二级为 L24-07 施工组织与工程管理；标题未提供土建结构、造价招采等三级细分证据，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16946,
+    "completion_tokens": 170,
+    "total_tokens": 17116,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 306
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

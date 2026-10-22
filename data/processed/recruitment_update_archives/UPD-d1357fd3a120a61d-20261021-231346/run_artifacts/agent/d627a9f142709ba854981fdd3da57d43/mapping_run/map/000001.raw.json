@@ -1,0 +1,28 @@
+{
+  "id": "9eea6c94-bb7f-4366-8b74-bc6092a638f4",
+  "object": "chat.completion",
+  "created": 1792571492,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-d627a9f142709ba854981fdd3da57d43\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L24-06-02\",\"L13-08-02\",\"L10-06\"],\"title_evidence\":\"计划合同部业务员岗：部门为计划合同部，岗位为业务员，涉及计划与合同事务\",\"level_3_evidence\":null,\"reason\":\"“计划合同部业务员”可能承担工程招采合同商务（L24-06-02）、商务合同订单支持（L13-08-02）或项目计划合同统筹（L10-06），标题未明确具体职责，无法唯一确定正式目标，列为review。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16973,
+    "completion_tokens": 168,
+    "total_tokens": 17141,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

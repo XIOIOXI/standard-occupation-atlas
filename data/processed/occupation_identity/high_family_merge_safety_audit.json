@@ -1,0 +1,51 @@
+{
+  "audit_version": "high-family-merge-safety-audit-v1",
+  "high_family_count": 1341,
+  "safe_count": 1323,
+  "review_required_count": 18,
+  "unsafe_mixed_count": 0,
+  "family_size_distribution": {
+    "2": 787,
+    "3": 219,
+    "4": 126,
+    "5": 55,
+    "6": 52,
+    "7": 24,
+    "8": 20,
+    "9": 10,
+    "10": 13,
+    "11": 7,
+    "12": 4,
+    "13": 6,
+    "14": 2,
+    "15": 1,
+    "16": 2,
+    "17": 1,
+    "18": 2,
+    "19": 3,
+    "20": 1,
+    "21": 3,
+    "22": 1,
+    "27": 1,
+    "38": 1
+  },
+  "large_family_count_over_10": 35,
+  "safe_job_group_count": 4212,
+  "safe_group_reduction": 2889,
+  "baseline_job_group_count": 15846,
+  "safe_only_simulated_job_group_count": 12957,
+  "safe_atomic_unit_count": 6410,
+  "safe_recruitment_record_count": 2269,
+  "safe_company_count": 2132,
+  "random_sample_100": {
+    "SAFE": 100
+  },
+  "validation": {
+    "source_high_count_matches": true,
+    "no_duplicate_safe_group_ids": true,
+    "job_groups_mutated": false,
+    "taxonomy_modified": false,
+    "llm_called": false,
+    "skill_inference_executed": false
+  }
+}

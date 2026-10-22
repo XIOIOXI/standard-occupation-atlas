@@ -1,0 +1,28 @@
+{
+  "id": "6f674ea7-87ce-47c4-a714-9361ad191886",
+  "object": "chat.completion",
+  "created": 1792571220,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-aea5f014728ddfdf1acdfe70f829aafe\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L18-09\",\"L19-08\",\"L30-05\",\"L32-02\"],\"title_evidence\":\"职能支持岗：仅表明职能支持方向，未说明具体职能（人力/财务/法务/行政等）\",\"level_3_evidence\":null,\"reason\":\"“职能支持”为泛化职能标签，无法确定具体职能类别；候选为组织支持、财务、法务等通用类及综合储备培养类，需补充职责信息后判定。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16946,
+    "completion_tokens": 152,
+    "total_tokens": 17098,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 306
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

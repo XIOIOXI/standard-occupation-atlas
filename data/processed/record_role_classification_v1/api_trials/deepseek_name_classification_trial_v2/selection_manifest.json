@@ -1,0 +1,513 @@
+{
+  "schema_version": "deepseek-name-classification-trial-selection-v1",
+  "selection_scope": "name-only; selection tags are sampling strata, not classification evidence",
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "source_v4_sha256": "a813f045d8214d92cf26e370bcfcaa034f49ced077be3eedab885949085196a4",
+  "source_occupation_count": 10998,
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "taxonomy_sha256": "78fbeaebfacfdca4fbb0676aeafbfdecb427544ac4421bdc78c64fdd2c600aee",
+  "taxonomy_level_3_count": 444,
+  "trial_occupation_count": 100,
+  "occupations": [
+    {
+      "standard_occupation_id": "SNO-142a6a0c7fd85c77a653",
+      "standard_name": "通信网络运维工程师",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-19b7e6668ce6eadf9d5f",
+      "standard_name": "CPUIP验证工程师",
+      "selection_strata": "design_media"
+    },
+    {
+      "standard_occupation_id": "SNO-d1af927837398df0da3d",
+      "standard_name": "市场职能",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-39a924b725bec1208288",
+      "standard_name": "会计专员",
+      "selection_strata": "finance_legal"
+    },
+    {
+      "standard_occupation_id": "SNO-1c1d5e776a3e369d86a2",
+      "standard_name": "分两个批次开展招聘。第一批次为省市局(公司)机关相关",
+      "selection_strata": "people_admin"
+    },
+    {
+      "standard_occupation_id": "SNO-fd53b86bbab3f0c4fc37",
+      "standard_name": "外科医师",
+      "selection_strata": "education_medical"
+    },
+    {
+      "standard_occupation_id": "SNO-76216600279c895f3d7b",
+      "standard_name": "电气工程师(交付技术)",
+      "selection_strata": "manufacturing_engineering"
+    },
+    {
+      "standard_occupation_id": "SNO-869c600119685247c114",
+      "standard_name": "客服培训生",
+      "selection_strata": "service_creative"
+    },
+    {
+      "standard_occupation_id": "SNO-22b51b65e4b0767a3b10",
+      "standard_name": "初级DQE工程师(电气)",
+      "selection_strata": "abbreviation_or_english"
+    },
+    {
+      "standard_occupation_id": "SNO-ddfc61f055c9d52b6b4c",
+      "standard_name": "2026年浙江省新昌中学第三轮计划招聘教师6名(语文2人、英语1人、物理1人、化学1人、地理1人)",
+      "selection_strata": "broad_or_composite"
+    },
+    {
+      "standard_occupation_id": "SNO-ff3014992f3f2405a5f2",
+      "standard_name": "燃烧室设计",
+      "selection_strata": "design_media"
+    },
+    {
+      "standard_occupation_id": "SNO-512bfb7e1b0de33fe20f",
+      "standard_name": "车辆控制工程师",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-d2e913e342d9f76cd823",
+      "standard_name": "数字化仿真应用工程师",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-5574ea8bd6b623356ccd",
+      "standard_name": "国际贸易经理",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-18b965c9c5b9e53030cc",
+      "standard_name": "设备技术员",
+      "selection_strata": "manufacturing_engineering"
+    },
+    {
+      "standard_occupation_id": "SNO-96d890047d86358d7739",
+      "standard_name": "动力总成研发工程师",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-0f7a6e58e0396fa5a5d3",
+      "standard_name": "总装工艺员",
+      "selection_strata": "manufacturing_engineering"
+    },
+    {
+      "standard_occupation_id": "SNO-1f45fd778a1c2fee3330",
+      "standard_name": "安全研究工程师",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-4148c03ab66b5a3c7e86",
+      "standard_name": "社媒运营(日语)",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-eb279b03901806c234c1",
+      "standard_name": "电气类管培生",
+      "selection_strata": "people_admin"
+    },
+    {
+      "standard_occupation_id": "SNO-d92d4a0afc2c7e920354",
+      "standard_name": "专区运营",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-d34cf0bb21a90c4eee42",
+      "standard_name": "供应链解决方案工程师",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-5f43b78cf7549e2ea3a4",
+      "standard_name": "算法工程师(安全方向)",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-b12ff0d486dd937b291b",
+      "standard_name": "国内业务管理专员",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-27e63eba60eb4d40d1ac",
+      "standard_name": "结构材料工程师",
+      "selection_strata": "manufacturing_engineering"
+    },
+    {
+      "standard_occupation_id": "SNO-3e62029d76df087822b2",
+      "standard_name": "初中物理教师",
+      "selection_strata": "education_medical"
+    },
+    {
+      "standard_occupation_id": "SNO-49e5d5a10ab7fd7da7dd",
+      "standard_name": "材料基因工程师",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-49ed7f695146c6e75112",
+      "standard_name": "环境可靠性工程师",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-d1cfe446eeb551c2e1f2",
+      "standard_name": "市场综合监管辅助员",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-7dc9e0fc04e3c2a69224",
+      "standard_name": "教育服务助理",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-1303fde314c3e122be68",
+      "standard_name": "社媒运营经理(海外-西葡)",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-a47b055ca7ccc6f1a475",
+      "standard_name": "软体家具质检Qc管培生",
+      "selection_strata": "people_admin"
+    },
+    {
+      "standard_occupation_id": "SNO-e77e5a9120d0e52cbf8c",
+      "standard_name": "电源设计工程师",
+      "selection_strata": "design_media"
+    },
+    {
+      "standard_occupation_id": "SNO-2763e7df87bfddf62a76",
+      "standard_name": "内贸业务",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-ac05f2f92fe9337ef6e6",
+      "standard_name": "工艺实验室培训生",
+      "selection_strata": "people_admin"
+    },
+    {
+      "standard_occupation_id": "SNO-e98479e69fcbd3b4d3ef",
+      "standard_name": "训练推理优化算法工程师",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-6e9243e293d1fb83d9c1",
+      "standard_name": "AI游戏内容运营",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-35347c0451abe64eba4c",
+      "standard_name": "AI推理工程师",
+      "selection_strata": "abbreviation_or_english"
+    },
+    {
+      "standard_occupation_id": "SNO-3954f99d48d0d086082a",
+      "standard_name": "系统建设运维及数据管理",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-d97c7f5733d3e52d2a45",
+      "standard_name": "宏观研究员",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-1838711f7b15f0cf9ba1",
+      "standard_name": "公司本部法务",
+      "selection_strata": "finance_legal"
+    },
+    {
+      "standard_occupation_id": "SNO-1ee0cba93e878e612df1",
+      "standard_name": "工艺设备",
+      "selection_strata": "manufacturing_engineering"
+    },
+    {
+      "standard_occupation_id": "SNO-246a72f535b0fb633f71",
+      "standard_name": "零售金融市场营销岗(成都)",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-4d430387182dba25e4fb",
+      "standard_name": "市场营销员",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-133566bc51aa96f3062c",
+      "standard_name": "质量技术师",
+      "selection_strata": "manufacturing_engineering"
+    },
+    {
+      "standard_occupation_id": "SNO-32e09c84e82e718ed544",
+      "standard_name": "管理类管培生(财务管理、项目管理方向)",
+      "selection_strata": "finance_legal"
+    },
+    {
+      "standard_occupation_id": "SNO-6aa8f49cc992dfd75a11",
+      "standard_name": "测试",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-e8ec877c8da553d3c55b",
+      "standard_name": "医生",
+      "selection_strata": "education_medical"
+    },
+    {
+      "standard_occupation_id": "SNO-afa906e58fbae1a1ec23",
+      "standard_name": "投后管理",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-0ec7605e63aece2ec4af",
+      "standard_name": "/ERBP研发人员",
+      "selection_strata": "abbreviation_or_english"
+    },
+    {
+      "standard_occupation_id": "SNO-b8b67433bb430ff655d7",
+      "standard_name": "媒介助理",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-dc86ef160a514ebc2b8c",
+      "standard_name": "机务工程师(南京)",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-fc42de8ced809920dbb0",
+      "standard_name": "管培生专项计划",
+      "selection_strata": "people_admin"
+    },
+    {
+      "standard_occupation_id": "SNO-c3497b19b50f99cfbbbe",
+      "standard_name": "业务管理",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-a06b900e474184960f35",
+      "standard_name": "创意设计师",
+      "selection_strata": "design_media"
+    },
+    {
+      "standard_occupation_id": "SNO-be992e432c8abf4f0cc3",
+      "standard_name": "线上运营主管",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-51f5e780348980537922",
+      "standard_name": "智能制造专员",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-333fdf9f05504bdf318d",
+      "standard_name": "助理软件工程师",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-ed36359f03cb66de8943",
+      "standard_name": "国产CADCAM软件开发工程师(参与国产CAD/CAM软件核心模块设计开发等)",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-2ef446313012ae14a0d6",
+      "standard_name": "计划控制工程师",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-3278ea5e459dd3a6833e",
+      "standard_name": "风控创优生",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-c03f8539d51207af0c9d",
+      "standard_name": "算法集成工程师",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-f695c0780e0d47200402",
+      "standard_name": "光学算法工程师",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-3b2136e836af1dba2456",
+      "standard_name": "DFT可测性设计工程师",
+      "selection_strata": "design_media"
+    },
+    {
+      "standard_occupation_id": "SNO-fe326e2a66e9de2a564e",
+      "standard_name": "检测员",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-89a4e92af365046c381f",
+      "standard_name": "股权融资及财务顾问",
+      "selection_strata": "finance_legal"
+    },
+    {
+      "standard_occupation_id": "SNO-25610785c7097a11c51f",
+      "standard_name": "专业课教师",
+      "selection_strata": "education_medical"
+    },
+    {
+      "standard_occupation_id": "SNO-3820b0a9f1fc2ec4b9d5",
+      "standard_name": "硬件研发工程师",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-969c4b609b7d6b9c231c",
+      "standard_name": "总经办总裁助理",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-f798f466da536c71f5e0",
+      "standard_name": "管培生岗位(研发、职能、商业化、生产&供应链)",
+      "selection_strata": "people_admin"
+    },
+    {
+      "standard_occupation_id": "SNO-eb948c14cc98114d8a6b",
+      "standard_name": "证券事务经理",
+      "selection_strata": "finance_legal"
+    },
+    {
+      "standard_occupation_id": "SNO-d4bfaa71f3fd126a2ed1",
+      "standard_name": "教学科研岗(政治学理论、中共党史、社会学、马克思主义中国化研究、思想政治教育、基础心理学、发展与教育心理学、应用心理学)",
+      "selection_strata": "broad_or_composite"
+    },
+    {
+      "standard_occupation_id": "SNO-2c46ed9676c2ed0f87ee",
+      "standard_name": "岗理财经理",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-2ce8813b2951bcfa826a",
+      "standard_name": "人力资源储备",
+      "selection_strata": "people_admin"
+    },
+    {
+      "standard_occupation_id": "SNO-7aa8337f42c770081967",
+      "standard_name": "基础设施互联互通促进中心专技",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-7be74dbf3e482a24ab2d",
+      "standard_name": "私人教练团课全职/兼职教练职能/技术",
+      "selection_strata": "broad_or_composite"
+    },
+    {
+      "standard_occupation_id": "SNO-7ddaeffb4285624bbfed",
+      "standard_name": "油气储运与新能源开发",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-bc8d911bdde59f0aabf1",
+      "standard_name": "财务内控",
+      "selection_strata": "finance_legal"
+    },
+    {
+      "standard_occupation_id": "SNO-1ee6e8b56f32b3181ae8",
+      "standard_name": "算法工程师(媒体算法)",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-85d56bf4d4229ac85b31",
+      "standard_name": "工程",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-036b2f67b7c481989cb9",
+      "standard_name": "新闻宣传",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-1476ab7132e27b3b52f9",
+      "standard_name": "检测技术等",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-8972962f317be77a6636",
+      "standard_name": "生产调度工程师",
+      "selection_strata": "manufacturing_engineering"
+    },
+    {
+      "standard_occupation_id": "SNO-09956061a81b7808defe",
+      "standard_name": "生产制造员",
+      "selection_strata": "manufacturing_engineering"
+    },
+    {
+      "standard_occupation_id": "SNO-1080766dda240d9f40f4",
+      "standard_name": "售后助理",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-728bc2389338077e635f",
+      "standard_name": "法律事务相关",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-d0f517b7491e0cda26c2",
+      "standard_name": "法务风控岗",
+      "selection_strata": "finance_legal"
+    },
+    {
+      "standard_occupation_id": "SNO-412c6d36ed5c331b18ca",
+      "standard_name": "方案解决高级工程师",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-e6d1a4c799fe50b4446b",
+      "standard_name": "文案实习生(德语/英语)",
+      "selection_strata": "broad_or_composite"
+    },
+    {
+      "standard_occupation_id": "SNO-1e56d7605dec22111d2b",
+      "standard_name": "企管法规",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-990a2d3c791707b2e775",
+      "standard_name": "化工外贸业务员",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-919ea4e5168775cd451c",
+      "standard_name": "支撑",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-60a6932da8bc0fb9a9cb",
+      "standard_name": "机器人系统开发工程师",
+      "selection_strata": "software_data"
+    },
+    {
+      "standard_occupation_id": "SNO-14a4bd81059099693d70",
+      "standard_name": "客户订单计划员",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-33c886a363ccb7000512",
+      "standard_name": "零售管培生职能定向生(产研类/技术类/职能类等)",
+      "selection_strata": "people_admin"
+    },
+    {
+      "standard_occupation_id": "SNO-117dba594b0d6e53eb1d",
+      "standard_name": "分行营销培训生(零售金融方向)",
+      "selection_strata": "people_admin"
+    },
+    {
+      "standard_occupation_id": "SNO-34d86fa9c3f1f82c24cc",
+      "standard_name": "纪检",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-2796afcf7a07b87d58c6",
+      "standard_name": "样品管理员",
+      "selection_strata": "general_name_only"
+    },
+    {
+      "standard_occupation_id": "SNO-e31af1e216b33714e647",
+      "standard_name": "市场推广专员(负责在所辖区域有效执行市场推广活动等)",
+      "selection_strata": "sales_marketing"
+    },
+    {
+      "standard_occupation_id": "SNO-435aa6a2a3ed64664fa6",
+      "standard_name": "石家庄分行运营培训生",
+      "selection_strata": "sales_marketing"
+    }
+  ]
+}

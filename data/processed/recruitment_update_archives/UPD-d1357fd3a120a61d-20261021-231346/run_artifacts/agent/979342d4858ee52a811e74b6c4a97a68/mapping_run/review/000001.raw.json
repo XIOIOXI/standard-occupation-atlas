@@ -1,0 +1,28 @@
+{
+  "id": "11fd4c95-e521-4d29-a807-eac333f88236",
+  "object": "chat.completion",
+  "created": 1792571751,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-979342d4858ee52a811e74b6c4a97a68\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"核心系统软件开发岗归入后端开发L01-02合理，属业务服务端系统开发；停在二级符合三级证据不足的情况。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17048,
+    "completion_tokens": 82,
+    "total_tokens": 17130,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 536
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

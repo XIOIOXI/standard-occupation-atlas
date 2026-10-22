@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 55,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "db83d58c-b895-4555-9568-057aa86d54c3",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750995,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25018,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1722,
+    "output_tokens": 3721,
+    "reasoning_tokens": 0,
+    "total_tokens": 28739
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002560788
+  },
+  "observed_at_utc": "2026-10-11T20:36:35.914764+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-109ee1c6e36b80890753",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-product",
+      "status": "mapped",
+      "reason": "产品数据分析师核心职责为产品与用户数据分析，归入数据分析师下的产品与用户分析。"
+    },
+    {
+      "occupation_id": "SNO-30b7727ae851be97401e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "舞蹈研究所专业技术职责不明确，可能涉及研究、教学或艺术管理，缺少具体工作内容信息。"
+    },
+    {
+      "occupation_id": "SNO-a711d527b5bfc4073754",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "供应链管理培训生核心为供应链计划与采购协同，工程设备管理方向为行业修饰。"
+    },
+    {
+      "occupation_id": "SNO-2bbf4733f9ec3e90c24e",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "status": "mapped",
+      "reason": "路由协议软件开发属于网络底层系统开发，归入C++系统与底层开发。"
+    },
+    {
+      "occupation_id": "SNO-8621b8b66c51d1670bd7",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法工程师方向未指定具体算法领域，归入算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-134ff1584de98227a490",
+      "target_category_id": "销售/sales-management/sales-management-team",
+      "status": "mapped",
+      "reason": "区域销售总监核心为销售团队管理，海康消防为行业修饰。"
+    },
+    {
+      "occupation_id": "SNO-1f85b594a64a2ad996f7",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "机电运维涉及自动化设备与现场调试维护，归入自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-9c2b4f70bb3393ce38b8",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "综合财务部综合岗位核心为财务核算，归入总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-36063b57c821e3629013",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-transport",
+      "status": "mapped",
+      "reason": "海运航线经理核心为运输调度与线路运营，归入物流/运输。"
+    },
+    {
+      "occupation_id": "SNO-66bbba76f4f9a639e9c0",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "固收量化研究员属于证券研究与投资顾问，固收量化方向为细分领域。"
+    },
+    {
+      "occupation_id": "SNO-1fba4ecba4174c1fdcb6",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "水工监测属于地质勘查与测绘相关技术工作。"
+    },
+    {
+      "occupation_id": "SNO-87ba546e7c6445e01a7e",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务管理员核心为财务核算与管理，归入总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-556faa6bc3d6930d51d4",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-research",
+      "status": "mapped",
+      "reason": "市场研究工程师核心为市场研究与消费者洞察。"
+    },
+    {
+      "occupation_id": "SNO-8626258b37ec7c24f02f",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI加速算法工程师涉及大模型与生成式AI的加速优化，归入大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-cd6d7cca1eca34f5fda7",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "行政管理储备核心为行政文档与事务管理，归入文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-090dbf0d232c002c2cda",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "代码审计专家核心为应用与数据安全，归入应用与数据安全。"
+    },
+    {
+      "occupation_id": "SNO-f2932316fd2b5535a44a",
+      "target_category_id": "教育培训/edu-tutor/tutoring-subject",
+      "status": "mapped",
+      "reason": "晚辅老师核心为学科辅导，归入家教下的学科辅导。"
+    },
+    {
+      "occupation_id": "SNO-3e88d6376ab01925e931",
+      "target_category_id": "互联网/AI/internet-python/python-data",
+      "status": "mapped",
+      "reason": "AI应用开发和软件开发工程师涉及AI应用开发，归入Python数据与人工智能开发。"
+    },
+    {
+      "occupation_id": "SNO-503dd4816b5d7b414638",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "软件开发员未指定技术栈，按通用软件开发归入业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-e47d73ebe9a4556d96b5",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "供应采购核心为采购执行与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-fe0cae85bb88252e0775",
+      "target_category_id": "运营/客服/ops-product/prodops-growth",
+      "status": "mapped",
+      "reason": "学科运营核心为产品运营下的增长与活动运营。"
+    },
+    {
+      "occupation_id": "SNO-c5f00ededc0d555d97e5",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "新能源变压器研发工程师属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-6e8dd53b9597b90334ef",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-monitoring",
+      "status": "mapped",
+      "reason": "碳核算政策与方法研究工程师核心为环境监测与评估。"
+    },
+    {
+      "occupation_id": "SNO-3b7c8213ef792c15c850",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "音频测试属于功能与自动化测试，音频为测试对象修饰。"
+    },
+    {
+      "occupation_id": "SNO-d125d394f366bf83d1ca",
+      "target_category_id": "金融/financial-banking/bank-technology",
+      "status": "mapped",
+      "reason": "总行IT属于银行金融科技岗位。"
+    },
+    {
+      "occupation_id": "SNO-7aa829e8f5c25e48410b",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "党群管理核心为行政文档与事务管理，归入文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-45b3798365fd948f1b7c",
+      "target_category_id": "教育培训/edu-product/edu-product-curriculum",
+      "status": "mapped",
+      "reason": "量子教育与教学开发工程师核心为课程与内容研发。"
+    },
+    {
+      "occupation_id": "SNO-8bf32f270e348532bb00",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "色彩管理工程师核心为品牌与视觉设计中的色彩管理。"
+    },
+    {
+      "occupation_id": "SNO-13818f89ece86a6058cc",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "新能源开发与利用属于能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-f5e794e963e969a000a1",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "人形机器人运动控制工程师属于机器人与具身智能算法。"
+    },
+    {
+      "occupation_id": "SNO-d8a6f521661d368854fe",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "土建造价员核心为工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-b0f5867f8faa7141582f",
+      "target_category_id": "金融/financial-investment/investment-financing-financing",
+      "status": "mapped",
+      "reason": "资金融通核心为融资与资本运作。"
+    },
+    {
+      "occupation_id": "SNO-77a3b19ee9c69ffd1535",
+      "target_category_id": "设计/design-visual-interaction/design-interaction",
+      "status": "mapped",
+      "reason": "用户产品体验设计师核心为交互与体验设计。"
+    },
+    {
+      "occupation_id": "SNO-8fcdd73ad3f008fb18ff",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "沈阳分行零售业务培训生属于零售与综合银行岗位。"
+    },
+    {
+      "occupation_id": "SNO-a40546b4bef0892168da",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "小游戏程序属于移动端与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-a28644350d14563ae553",
+      "target_category_id": "金融/financial-risk/finance-control-risk",
+      "status": "mapped",
+      "reason": "科技风险监控属于金融风险与合规管理。"
+    },
+    {
+      "occupation_id": "SNO-523def7d3c23d342b75a",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "哈尔滨分行培训生属于零售与综合银行岗位。"
+    },
+    {
+      "occupation_id": "SNO-e5c52a1fef4b5c407f90",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "mapped",
+      "reason": "内控管理核心为内部控制与内审。"
+    },
+    {
+      "occupation_id": "SNO-57f1fb04542afe20beb2",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "人工智能算法研究员属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-89e933f08957bac42474",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "海口分行运营培训生属于零售与综合银行岗位。"
+    },
+    {
+      "occupation_id": "SNO-3fb72d8c23956eb38794",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "青岛分行培训生属于零售与综合银行岗位。"
+    },
+    {
+      "occupation_id": "SNO-2a4a6a3f4fa7808dd80b",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "数字农业管培生核心为农作物与农业技术。"
+    },
+    {
+      "occupation_id": "SNO-1c1fa9ff97f41da6a2c0",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "合规管培生核心为公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-3a716622ea794c0f6a07",
+      "target_category_id": "运营/客服/ops-editor/editing-content",
+      "status": "mapped",
+      "reason": "技术写作工程师核心为内容编辑与审校。"
+    },
+    {
+      "occupation_id": "SNO-2cc9abb11c5d44dfcbff",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "BMs硬件工程师属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-762d35250e0b614db0fa",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场/营销方向管培生核心为品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-75c1f97c7af664017cfa",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-analysis",
+      "status": "mapped",
+      "reason": "天劲研究院实验员核心为化学分析与质量控制。"
+    },
+    {
+      "occupation_id": "SNO-d323ac18a95b7004644a",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "固态电池研发工程师属于能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-860c3bfb3f6e4afd9212",
+      "target_category_id": "金融/financial-banking/bank-technology",
+      "status": "mapped",
+      "reason": "信息技术岗属于银行金融科技岗位。"
+    },
+    {
+      "occupation_id": "SNO-d899dc659326782e2af6",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "工艺设计工程师核心为机械结构与产品设计。"
+    }
+  ]
+}

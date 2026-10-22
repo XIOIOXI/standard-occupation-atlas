@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-cc0b9caf93237047eb5132c392c507ee",
+      "status": "mapped",
+      "target_category_id": "L30-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L30-02",
+        "L30-05"
+      ],
+      "title_evidence": "标题明确为“法务管培生”，法务职能已明确，管培生为培养标签",
+      "level_3_evidence": null,
+      "reason": "法务职能明确，企业法务归 L30-02；管培生仅为培养性质标签，不改变职能归属，故不归 L32。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16979,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 339,
+    "output_tokens": 138,
+    "reasoning_tokens": 0,
+    "total_tokens": 17117
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036714
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

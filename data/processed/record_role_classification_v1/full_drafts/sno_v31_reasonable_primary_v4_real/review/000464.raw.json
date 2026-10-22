@@ -1,0 +1,28 @@
+{
+  "id": "5bd57c74-007d-44b2-978b-2ad06c2bcf93",
+  "object": "chat.completion",
+  "created": 1791881666,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-f67e36861903055b4d0f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题仅表明团队管理职责，未说明职能领域，review合理。\"},{\"occupation_id\":\"TG-7196eec8684a5a8e5af9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"资产评估方向明确，管培生为培养标签，归L20-09合理。\"},{\"occupation_id\":\"TG-42616a4a48a45d99bcb7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量管理体系管理明确，归L04-05合理。\"},{\"occupation_id\":\"TG-2a4a822f38348704e5df\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题列出多个明确职能方向，multi_role合理。\"},{\"occupation_id\":\"TG-a145a033438ea6725134\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量工序工程师归制造过程质量管理，合理。\"},{\"occupation_id\":\"TG-513aa30327f42c2ad224\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机电管理员归建筑设施维护，合理。\"},{\"occupation_id\":\"TG-2456147f36e8ddac8bbd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行分行本部业务管理方向未明确，review合理。\"},{\"occupation_id\":\"TG-805b376fb89a8171a847\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工程研究领域未说明，review合理。\"},{\"occupation_id\":\"TG-bdfd99c420de17e7e1f8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"新能源新材料通用技术方向宽泛，review合理。\"},{\"occupation_id\":\"TG-c12a2e4c1a1639eec0f5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"跨境陆运产品规划归服务与体验方案设计，合理。\"},{\"occupation_id\":\"TG-be992e432c8abf4f0cc3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"线上运营主管归产品与平台运营，合理。\"},{\"occupation_id\":\"TG-64033f778b2b203018fb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"招商运营管培生归招商与租赁销售，合理。\"},{\"occupation_id\":\"TG-92ef586216d4c192ef2d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"硅光芯片工程师归模拟与混合信号设计，合理。\"},{\"occupation_id\":\"TG-ca5ba914047780e7f1ae\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"中小学教师多学科方向，归学科与通识教学合理。\"},{\"occupation_id\":\"TG-63c5485fc2455dbc9bdf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"量化CTA策略研究归证券与市场研究，合理。\"},{\"occupation_id\":\"TG-a9c4c7401edbaeee2ea4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外渠道销售管培生归渠道销售与经销管理，合理。\"},{\"occupation_id\":\"TG-744d5771999feb809222\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"喷涂操作员归通用生产技术与作业，合理。\"},{\"occupation_id\":\"TG-8baa2f79d04df506c03d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"科研技术员归实验与科研技术支持，合理。\"},{\"occupation_id\":\"TG-a0375283b04f44f80620\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"公共气象服务岗归公共事务与基层治理，合理。\"},{\"occupation_id\":\"TG-f90f915a41aa5ffb950a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"模具开发助理工程师归工装模具与工艺装备，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19598,
+    "completion_tokens": 961,
+    "total_tokens": 20559,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3086
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

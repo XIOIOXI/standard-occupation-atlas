@@ -1,0 +1,152 @@
+{
+  "raw": {
+    "id": "5b3a0136-7252-48c8-be18-e90bd0c45786",
+    "object": "chat.completion",
+    "created": 1791838761,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"SNO-75c42924a70e3bbd7ebe\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L26-02\",\"issue\":\"林业规划设计归林业与生态管护，二级映射合理。\"},{\"occupation_id\":\"SNO-3dd73911e09235373671\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L09-03\",\"issue\":\"珠宝设计属工业与产品外观设计，二级映射合理。\"},{\"occupation_id\":\"SNO-d3d69d94f79fca0088f4\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L16-01-02\",\"issue\":\"设备/机电采购属间接采购与服务采购，三级映射合理。\"},{\"occupation_id\":\"SNO-f8266357708df0ebd785\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L26-03\",\"issue\":\"养殖管培生按养殖职能归畜牧与水产养殖，管培为标签，二级映射合理。\"},{\"occupation_id\":\"SNO-e24d1e9d58fed3885451\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L01-01\",\"issue\":\"“阵列前端设计师”中“阵列”通常指显示/天线阵列等硬件或结构设计，而非Web前端开发；标题证据不足以支持L01-01-01，应回退到前端开发二级或进一步review。\"},{\"occupation_id\":\"SNO-58d3cfca511995f45082\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L22-08\",\"issue\":\"学科校长属教育管理，管培生项目为培养标签，二级映射合理。\"},{\"occupation_id\":\"SNO-f7538f218c7f1dfd7fc7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户主管无法区分销售、客服或客户成功，review合理。\"},{\"occupation_id\":\"SNO-0b1cbadb04e9046f30d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L01-11\",\"issue\":\"软硬件研发方向未说明，归通用软件研发二级合理。\"},{\"occupation_id\":\"SNO-9e0e40d2e6771547d880\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"品牌与商务运营跨品牌管理、产品运营、内容运营，review合理。\"},{\"occupation_id\":\"SNO-3b56d111001870ccc4d3\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L27-08-03\",\"issue\":\"机务乘务操作技能属轨道驾驶与专业操作，三级映射合理。\"},{\"occupation_id\":\"SNO-1e410bfbb964a2c2ba95\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L25-04\",\"issue\":\"供电设备检修与维护归能源运行与调度，二级映射合理。\"},{\"occupation_id\":\"SNO-a264210571d4536623e1\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L24-07\",\"issue\":\"施工经理属施工组织与工程管理，二级映射合理。\"},{\"occupation_id\":\"SNO-8a63742b9a75ea975cf1\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L02-05\",\"issue\":\"算法工程师方向未说明，归机器学习与算法研发二级合理。\"},{\"occupation_id\":\"SNO-c6bafb90d5514cbc0966\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L32-01\",\"issue\":\"数字化解决方案管培生属跨职能管理培训与轮岗，二级映射合理。\"},{\"occupation_id\":\"SNO-5b7db7391c26f662c558\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-08-02\",\"issue\":\"投标属商务合同与订单支持，三级映射合理。\"},{\"occupation_id\":\"SNO-61202ded83b18dad1954\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-07-01\",\"issue\":\"细胞发酵工艺开发属生物技术研发，三级映射合理。\"},{\"occupation_id\":\"SNO-ef82f15da435061df15a\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L02-05-02\",\"issue\":\"LLM算法工程师归自然语言处理，三级映射合理。\"},{\"occupation_id\":\"SNO-d7d11ed288fa9fd54af1\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L03-05-03\",\"issue\":\"密码方向算法工程师归安全架构与工程，三级映射合理。\"},{\"occupation_id\":\"SNO-3014d406743eb7141fa4\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-04-01\",\"issue\":\"OTA平台运营归电商店铺运营，三级映射合理。\"},{\"occupation_id\":\"SNO-f4bf3e2d9cab9773b1d2\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-10\",\"issue\":\"大客户技术支持归售后技术服务，二级映射合理。\"}]}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19654,
+      "completion_tokens": 1131,
+      "total_tokens": 20785,
+      "prompt_tokens_details": {
+        "cached_tokens": 16512
+      },
+      "prompt_cache_hit_tokens": 16512,
+      "prompt_cache_miss_tokens": 3142
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-75c42924a70e3bbd7ebe",
+      "verdict": "pass",
+      "suggested_target_category_id": "L26-02",
+      "issue": "林业规划设计归林业与生态管护，二级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-3dd73911e09235373671",
+      "verdict": "pass",
+      "suggested_target_category_id": "L09-03",
+      "issue": "珠宝设计属工业与产品外观设计，二级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-d3d69d94f79fca0088f4",
+      "verdict": "pass",
+      "suggested_target_category_id": "L16-01-02",
+      "issue": "设备/机电采购属间接采购与服务采购，三级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-f8266357708df0ebd785",
+      "verdict": "pass",
+      "suggested_target_category_id": "L26-03",
+      "issue": "养殖管培生按养殖职能归畜牧与水产养殖，管培为标签，二级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-e24d1e9d58fed3885451",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L01-01",
+      "issue": "“阵列前端设计师”中“阵列”通常指显示/天线阵列等硬件或结构设计，而非Web前端开发；标题证据不足以支持L01-01-01，应回退到前端开发二级或进一步review。"
+    },
+    {
+      "occupation_id": "SNO-58d3cfca511995f45082",
+      "verdict": "pass",
+      "suggested_target_category_id": "L22-08",
+      "issue": "学科校长属教育管理，管培生项目为培养标签，二级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-f7538f218c7f1dfd7fc7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "客户主管无法区分销售、客服或客户成功，review合理。"
+    },
+    {
+      "occupation_id": "SNO-0b1cbadb04e9046f30d8",
+      "verdict": "pass",
+      "suggested_target_category_id": "L01-11",
+      "issue": "软硬件研发方向未说明，归通用软件研发二级合理。"
+    },
+    {
+      "occupation_id": "SNO-9e0e40d2e6771547d880",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "品牌与商务运营跨品牌管理、产品运营、内容运营，review合理。"
+    },
+    {
+      "occupation_id": "SNO-3b56d111001870ccc4d3",
+      "verdict": "pass",
+      "suggested_target_category_id": "L27-08-03",
+      "issue": "机务乘务操作技能属轨道驾驶与专业操作，三级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-1e410bfbb964a2c2ba95",
+      "verdict": "pass",
+      "suggested_target_category_id": "L25-04",
+      "issue": "供电设备检修与维护归能源运行与调度，二级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-a264210571d4536623e1",
+      "verdict": "pass",
+      "suggested_target_category_id": "L24-07",
+      "issue": "施工经理属施工组织与工程管理，二级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-8a63742b9a75ea975cf1",
+      "verdict": "pass",
+      "suggested_target_category_id": "L02-05",
+      "issue": "算法工程师方向未说明，归机器学习与算法研发二级合理。"
+    },
+    {
+      "occupation_id": "SNO-c6bafb90d5514cbc0966",
+      "verdict": "pass",
+      "suggested_target_category_id": "L32-01",
+      "issue": "数字化解决方案管培生属跨职能管理培训与轮岗，二级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-5b7db7391c26f662c558",
+      "verdict": "pass",
+      "suggested_target_category_id": "L13-08-02",
+      "issue": "投标属商务合同与订单支持，三级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-61202ded83b18dad1954",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-07-01",
+      "issue": "细胞发酵工艺开发属生物技术研发，三级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-ef82f15da435061df15a",
+      "verdict": "pass",
+      "suggested_target_category_id": "L02-05-02",
+      "issue": "LLM算法工程师归自然语言处理，三级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-d7d11ed288fa9fd54af1",
+      "verdict": "pass",
+      "suggested_target_category_id": "L03-05-03",
+      "issue": "密码方向算法工程师归安全架构与工程，三级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-3014d406743eb7141fa4",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-04-01",
+      "issue": "OTA平台运营归电商店铺运营，三级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-f4bf3e2d9cab9773b1d2",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-10",
+      "issue": "大客户技术支持归售后技术服务，二级映射合理。"
+    }
+  ]
+}

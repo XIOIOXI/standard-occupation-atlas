@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-1134d2f21b945fc2779714a7787b028e",
+      "verdict": "pass",
+      "suggested_target_category_id": "L18-04",
+      "issue": "标题明确为人力资源培训生项目，职能已明确为HR，归L18-04人力资源综合管理合理；培养属性可加标签，无需改判。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17039,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 527,
+    "output_tokens": 89,
+    "reasoning_tokens": 0,
+    "total_tokens": 17128
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036397200000000006
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

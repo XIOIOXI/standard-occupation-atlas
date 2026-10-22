@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-d627a9f142709ba854981fdd3da57d43",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "计划合同部业务员岗职责方向不明确，可能涉及工程招采商务、商务合同支持或项目计划合同统筹，现有review状态与候选类别合理，无需修正。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17065,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 553,
+    "output_tokens": 97,
+    "reasoning_tokens": 0,
+    "total_tokens": 17162
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038137199999999994
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

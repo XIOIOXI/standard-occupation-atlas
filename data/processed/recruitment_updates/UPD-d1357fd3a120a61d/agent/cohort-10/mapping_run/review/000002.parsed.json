@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-d0122e6e3069b452c32b00201918437e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "市场专员方向未明确，归L12-07通用市场营销合理。"
+    },
+    {
+      "occupation_id": "UP-e8f321e4f846f30ef629cc1d810901f1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "咨询专员职能方向不明，保留review合理。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17304,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 792,
+    "output_tokens": 118,
+    "reasoning_tokens": 0,
+    "total_tokens": 17422
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00023913600000000004
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

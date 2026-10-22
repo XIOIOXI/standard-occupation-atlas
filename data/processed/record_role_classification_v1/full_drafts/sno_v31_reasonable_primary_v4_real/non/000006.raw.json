@@ -1,0 +1,28 @@
+{
+  "id": "9c526628-b6fc-483c-88f7-afacb771edda",
+  "object": "chat.completion",
+  "created": 1791883516,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"results\": [{\"original_record_id\": \"TG-aab860a9c74c329304c8\", \"decision\": \"exclude_non_role\", \"reason\": \"标题为泛指类别，非具体岗位名称\", \"recovered_title\": null}, {\"original_record_id\": \"TG-5c2953d7ba2f2b3a34a6\", \"decision\": \"exclude_non_role\", \"reason\": \"标题为残缺片段，非完整岗位名称\", \"recovered_title\": null}, {\"original_record_id\": \"TG-153ac7ebbd12cf70f5c6\", \"decision\": \"exclude_non_role\", \"reason\": \"标题为泛指类别，非具体岗位名称\", \"recovered_title\": null}, {\"original_record_id\": \"TG-9c926ddd1eefc9ba2ee5\", \"decision\": \"exclude_non_role\", \"reason\": \"标题为泛指人员类别，非具体岗位名称\", \"recovered_title\": null}, {\"original_record_id\": \"TG-5d9257ee1ca4be5ea414\", \"decision\": \"exclude_non_role\", \"reason\": \"标题为泛指类别，非具体岗位名称\", \"recovered_title\": null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 272,
+    "total_tokens": 494,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 222
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

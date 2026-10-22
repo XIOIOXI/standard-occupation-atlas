@@ -1,0 +1,35 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-e0fd4f5ec414f321159d",
+  "child_index": 1,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "产品研发......营销类：市场营销岗",
+  "child_title": "市场营销岗",
+  "source_span": {
+    "text": "市场营销岗",
+    "start": 11,
+    "end": 16
+  },
+  "raw_decision": {
+    "original_record_id": "TG-e0fd4f5ec414f321159d",
+    "case": "A",
+    "child_titles": [
+      "产品研发",
+      "市场营销岗"
+    ],
+    "source_spans": [
+      {
+        "text": "产品研发",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "市场营销岗",
+        "start": 11,
+        "end": 16
+      }
+    ],
+    "reason": "省略号及冒号分隔两个独立岗位，可拆分"
+  }
+}

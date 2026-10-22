@@ -1,0 +1,699 @@
+{
+  "version": "sno-v3.1-reasonable-primary-v1",
+  "source_prior_review_count": 36,
+  "new_response_count": 19,
+  "new_response_cost_detail": [
+    {
+      "artifact": "map_001_raw_response.json",
+      "request_id": "ee93243c-821b-468a-ae08-3ae04bfc894c",
+      "usage": {
+        "input_tokens": 17191,
+        "cached_input_tokens": 0,
+        "uncached_input_tokens": 17191,
+        "output_tokens": 661,
+        "reasoning_tokens": 0,
+        "total_tokens": 17852
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00297525
+      }
+    },
+    {
+      "artifact": "map_002_format_repair_raw_response.json",
+      "request_id": "82603e4f-e806-41c8-8175-e8a32cf348cc",
+      "usage": {
+        "input_tokens": 17237,
+        "cached_input_tokens": 17024,
+        "uncached_input_tokens": 213,
+        "output_tokens": 557,
+        "reasoning_tokens": 0,
+        "total_tokens": 17794
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00041722199999999997
+      }
+    },
+    {
+      "artifact": "map_002_raw_response.json",
+      "request_id": "62215744-d91b-465d-bd64-d76ad981e46e",
+      "usage": {
+        "input_tokens": 17179,
+        "cached_input_tokens": 16768,
+        "uncached_input_tokens": 411,
+        "output_tokens": 596,
+        "reasoning_tokens": 0,
+        "total_tokens": 17775
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00046955399999999996
+      }
+    },
+    {
+      "artifact": "map_003_raw_response.json",
+      "request_id": "2c338da9-d9db-4d22-9326-0deda28e6bff",
+      "usage": {
+        "input_tokens": 17179,
+        "cached_input_tokens": 16768,
+        "uncached_input_tokens": 411,
+        "output_tokens": 539,
+        "reasoning_tokens": 0,
+        "total_tokens": 17718
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000435354
+      }
+    },
+    {
+      "artifact": "map_004_raw_response.json",
+      "request_id": "55747bdb-01c6-450c-b651-41b5826f025a",
+      "usage": {
+        "input_tokens": 17183,
+        "cached_input_tokens": 16768,
+        "uncached_input_tokens": 415,
+        "output_tokens": 526,
+        "reasoning_tokens": 0,
+        "total_tokens": 17709
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000428154
+      }
+    },
+    {
+      "artifact": "map_005_raw_response.json",
+      "request_id": "3358dd72-1621-453c-b3b2-a846802774e5",
+      "usage": {
+        "input_tokens": 17185,
+        "cached_input_tokens": 16768,
+        "uncached_input_tokens": 417,
+        "output_tokens": 619,
+        "reasoning_tokens": 0,
+        "total_tokens": 17804
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000484254
+      }
+    },
+    {
+      "artifact": "map_006_raw_response.json",
+      "request_id": "0b049ad7-da69-4db2-8f98-1663f2be465d",
+      "usage": {
+        "input_tokens": 17219,
+        "cached_input_tokens": 16768,
+        "uncached_input_tokens": 451,
+        "output_tokens": 630,
+        "reasoning_tokens": 0,
+        "total_tokens": 17849
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0004959540000000001
+      }
+    },
+    {
+      "artifact": "review_v3_001_invalid_model_output.json",
+      "request_id": "23d8890e-e453-4e61-888d-ac3aaba0eb68",
+      "usage": {
+        "input_tokens": 11461,
+        "cached_input_tokens": 11264,
+        "uncached_input_tokens": 197,
+        "output_tokens": 198,
+        "reasoning_tokens": 0,
+        "total_tokens": 11659
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000182142
+      }
+    },
+    {
+      "artifact": "review_v3_002_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11455,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 703,
+        "output_tokens": 203,
+        "reasoning_tokens": 0,
+        "total_tokens": 11658
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000259506
+      },
+      "raw_envelope_missing": true
+    },
+    {
+      "artifact": "review_v3_003_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11413,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 661,
+        "output_tokens": 208,
+        "reasoning_tokens": 0,
+        "total_tokens": 11621
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00025620600000000003
+      },
+      "raw_envelope_missing": true
+    },
+    {
+      "artifact": "review_v3_004_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11389,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 637,
+        "output_tokens": 200,
+        "reasoning_tokens": 0,
+        "total_tokens": 11589
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000247806
+      },
+      "raw_envelope_missing": true
+    },
+    {
+      "artifact": "review_v3_005_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11400,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 648,
+        "output_tokens": 192,
+        "reasoning_tokens": 0,
+        "total_tokens": 11592
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000244656
+      },
+      "raw_envelope_missing": true
+    },
+    {
+      "artifact": "review_v3_006_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11386,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 634,
+        "output_tokens": 197,
+        "reasoning_tokens": 0,
+        "total_tokens": 11583
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00024555599999999996
+      },
+      "raw_envelope_missing": true
+    },
+    {
+      "artifact": "review_v3_007_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11393,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 641,
+        "output_tokens": 193,
+        "reasoning_tokens": 0,
+        "total_tokens": 11586
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000244206
+      },
+      "raw_envelope_missing": true
+    },
+    {
+      "artifact": "review_v3_008_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11383,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 631,
+        "output_tokens": 201,
+        "reasoning_tokens": 0,
+        "total_tokens": 11584
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000247506
+      },
+      "raw_envelope_missing": true
+    },
+    {
+      "artifact": "review_v3_009_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11443,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 691,
+        "output_tokens": 209,
+        "reasoning_tokens": 0,
+        "total_tokens": 11652
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000261306
+      },
+      "raw_envelope_missing": true
+    },
+    {
+      "artifact": "review_v3_010_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11429,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 677,
+        "output_tokens": 210,
+        "reasoning_tokens": 0,
+        "total_tokens": 11639
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00025980599999999996
+      },
+      "raw_envelope_missing": true
+    },
+    {
+      "artifact": "review_v3_011_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11474,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 722,
+        "output_tokens": 232,
+        "reasoning_tokens": 0,
+        "total_tokens": 11706
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000279756
+      },
+      "raw_envelope_missing": true
+    },
+    {
+      "artifact": "review_v3_012_parsed.json",
+      "request_id": null,
+      "usage": {
+        "input_tokens": 11435,
+        "cached_input_tokens": 10752,
+        "uncached_input_tokens": 683,
+        "output_tokens": 231,
+        "reasoning_tokens": 0,
+        "total_tokens": 11666
+      },
+      "estimated_cost": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000273306
+      },
+      "raw_envelope_missing": true
+    }
+  ],
+  "new_usage": {
+    "input_tokens": 257434,
+    "cached_input_tokens": 230400,
+    "uncached_input_tokens": 27034,
+    "output_tokens": 6602,
+    "reasoning_tokens": 0,
+    "total_tokens": 264036
+  },
+  "new_estimated_usd": 0.0087075,
+  "prior_contract_run_estimated_usd": 0.032325804,
+  "cumulative_estimated_usd": 0.041033304,
+  "budget_for_this_supplement_usd": 1,
+  "supplement_within_budget": true,
+  "supplement_mapping_status_counts": {
+    "review": 19,
+    "mapped": 17
+  },
+  "ai_reasonableness_review_counts": {
+    "unresolved": 11,
+    "pass": 25
+  },
+  "merged_200_status_counts": {
+    "mapped": 172,
+    "non_role_text": 4,
+    "multi_role": 5,
+    "review": 19
+  },
+  "newly_mapped": [
+    {
+      "occupation_id": "SNO-7196eec8684a5a8e5af9",
+      "title": "资产评估管培生",
+      "previous_status": "review",
+      "target_category_id": "L20-09",
+      "target_level": "level_2",
+      "reason": "资产评估属于 L20-09 资产评估与处置范围，管培生身份不影响按已明确专业职能归类。"
+    },
+    {
+      "occupation_id": "SNO-f7538f218c7f1dfd7fc7",
+      "title": "客户主管",
+      "previous_status": "review",
+      "target_category_id": "L13-07",
+      "target_level": "level_2",
+      "reason": "客户主管通常承担客户销售与客户关系管理职责，归销售管理 L13-07 最直接。"
+    },
+    {
+      "occupation_id": "SNO-9e0e40d2e6771547d880",
+      "title": "品牌与商务运营",
+      "previous_status": "review",
+      "target_category_id": "L12-02",
+      "target_level": "level_2",
+      "reason": "标题明确包含品牌工作，品牌管理 L12-02 为最直接归属；商务运营可作为候选但不参与正式归属。"
+    },
+    {
+      "occupation_id": "SNO-b34d318554be524ed36a",
+      "title": "IP运营管培生",
+      "previous_status": "review",
+      "target_category_id": "L14-01",
+      "target_level": "level_2",
+      "reason": "标题含“运营”且“IP”指向内容/知识产权类数字产品运营，管培生为培养身份修饰，不改变运营职能归属；归产品与平台运营。"
+    },
+    {
+      "occupation_id": "SNO-2e6e48e3280e8474a2ea",
+      "title": "技术运营",
+      "previous_status": "review",
+      "target_category_id": "L14-01",
+      "target_level": "level_2",
+      "reason": "标题明确为运营职能，技术修饰指向数字产品/平台技术运营，归产品与平台运营。"
+    },
+    {
+      "occupation_id": "SNO-741a768f67a709a3a54b",
+      "title": "新能源研发工程师",
+      "previous_status": "review",
+      "target_category_id": "L25-03",
+      "target_level": "level_2",
+      "reason": "标题明确新能源领域研发工程师，属能源系统与工艺工程方向。"
+    },
+    {
+      "occupation_id": "SNO-ad75b05b0c4e14fde23d",
+      "title": "空港物流",
+      "previous_status": "review",
+      "target_category_id": "L17-01",
+      "target_level": "level_2",
+      "reason": "标题明确为空港物流，属物流调度与运输管理方向。"
+    },
+    {
+      "occupation_id": "SNO-8d2d2381e456e923ce46",
+      "title": "智能建造",
+      "previous_status": "review",
+      "target_category_id": "L24-07",
+      "target_level": "level_2",
+      "reason": "智能建造属于建筑工程领域的施工组织与工程管理方向，归入施工组织与工程管理。"
+    },
+    {
+      "occupation_id": "SNO-23501452d85ba0038944",
+      "title": "医学市场管培生",
+      "previous_status": "review",
+      "target_category_id": "L12-01",
+      "target_level": "level_2",
+      "reason": "标题明确为医学市场方向，管培生为培养身份，专业职能为市场策略与营销策划。"
+    },
+    {
+      "occupation_id": "SNO-45f8f899bbabd4cdbb0f",
+      "title": "运营风控",
+      "previous_status": "review",
+      "target_category_id": "L20-07",
+      "target_level": "level_2",
+      "reason": "运营风控属于金融风险与信用评估范畴，归入金融风险与信用评估。"
+    },
+    {
+      "occupation_id": "SNO-0b1d9a739c7e90b63cb0",
+      "title": "实施交付",
+      "previous_status": "review",
+      "target_category_id": "L10-03",
+      "target_level": "level_2",
+      "reason": "实施交付属于客户实施与交付管理，负责客户部署、实施组织与验收交付。"
+    },
+    {
+      "occupation_id": "SNO-71587e7f793855dc1589",
+      "title": "业务管理运营",
+      "previous_status": "review",
+      "target_category_id": "L14-11",
+      "target_level": "level_2",
+      "reason": "业务管理运营属于通用业务运营，方向未明确但职能已确认为业务运营。"
+    },
+    {
+      "occupation_id": "SNO-7f7213e5e772f5f3216c",
+      "title": "品质检验管培生",
+      "previous_status": "review",
+      "target_category_id": "L04-03",
+      "target_level": "level_2",
+      "reason": "标题明确品质检验职能，管培生为身份修饰，归生产质量管理。"
+    },
+    {
+      "occupation_id": "SNO-ac88016e507fd573963d",
+      "title": "业态门店管培生",
+      "previous_status": "review",
+      "target_category_id": "L14-06",
+      "target_level": "level_2",
+      "reason": "标题明确门店业务运营方向，管培生为身份修饰，归线下业务与场所运营。"
+    },
+    {
+      "occupation_id": "SNO-5dfa66abc1c47b16487d",
+      "title": "商务拓展管培生",
+      "previous_status": "review",
+      "target_category_id": "L13-04",
+      "target_level": "level_2",
+      "reason": "标题明确商务拓展职能，管培生为身份修饰，归商务拓展与合作。"
+    },
+    {
+      "occupation_id": "SNO-e11eeca361a5252ac60a",
+      "title": "生产技术",
+      "previous_status": "review",
+      "target_category_id": "L23-10",
+      "target_level": "level_2",
+      "reason": "标题明确生产制造技术职能但具体工种未说明，归通用生产技术与作业。"
+    },
+    {
+      "occupation_id": "SNO-dde28d3ac66cd93e91d5",
+      "title": "组织管理",
+      "previous_status": "review",
+      "target_category_id": "L18-03",
+      "target_level": "level_2",
+      "reason": "标题明确组织管理职能，归人才发展与组织发展。"
+    }
+  ],
+  "still_review": [
+    {
+      "occupation_id": "SNO-4aa1a3c6743f7d8e154a",
+      "title": "技术",
+      "reason": "“技术”过于宽泛，无法判断是软件、硬件、运维还是其他技术职能，无任何有依据的合理归属位置。"
+    },
+    {
+      "occupation_id": "SNO-e5d340f2b9ee3320f200",
+      "title": "武汉分行运营培训生",
+      "reason": "银行运营培训生身份明确但具体职能方向未说明，目录明确仅“银行管培生”不能视为已明确金融业务，故标 review。"
+    },
+    {
+      "occupation_id": "SNO-09b70120c117f7063fcc",
+      "title": "平度办事处业务",
+      "reason": "“业务”未明确客户类型与工作方向，不能确定是销售还是业务运营，故标 review。"
+    },
+    {
+      "occupation_id": "SNO-40221954ae855fa39330",
+      "title": "技能操作",
+      "reason": "“技能操作”仅表明操作类技能，未说明行业或具体工种，无法确定生产制造或生活服务等方向，需人工确认。"
+    },
+    {
+      "occupation_id": "SNO-18d0e05d910ecfaf252c",
+      "title": "运营班操作",
+      "reason": "“运营班操作”可能指生产运营班组操作，也可能指业务运营操作，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "SNO-d890b4198ea74c4163b3",
+      "title": "总体设计师",
+      "reason": "总体设计师可指机械、电子或建筑等不同领域的总体方案设计，标题未明确行业方向，无法唯一确定归属。"
+    },
+    {
+      "occupation_id": "SNO-871c94bf8fa894de8d42",
+      "title": "EGG管培生",
+      "reason": "EGG为业务缩写，无法确定具体专业职能，仅能确认管培生身份，候选为综合培养与轮岗岗位。"
+    },
+    {
+      "occupation_id": "SNO-c716ed2d9f6c2fcac8f0",
+      "title": "海外商品创优生",
+      "reason": "标题仅表明海外商品相关且为培养生身份，未明确是采购选品、商品运营还是销售，无法唯一确定职能。"
+    },
+    {
+      "occupation_id": "SNO-864fd7b61c046f18cbca",
+      "title": "芯片运营",
+      "reason": "芯片运营可能指芯片生产制造运营、业务运营或工艺运营，标题未给出具体职能方向，无法唯一归类。"
+    },
+    {
+      "occupation_id": "SNO-697c9d4b28ff97b49842",
+      "title": "应用技术工程师",
+      "reason": "应用技术工程师可能为售前方案、售后技术支持或应用软件开发，标题未明确具体职能方向。"
+    },
+    {
+      "occupation_id": "SNO-df3b618ed3e18631f5c9",
+      "title": "质量与运营",
+      "reason": "标题同时包含质量与运营，未明确是质量管理、业务运营还是经营改善，无法唯一确定主职能。"
+    },
+    {
+      "occupation_id": "SNO-22132637b23ddf147c28",
+      "title": "客户顾问",
+      "reason": "客户顾问可能为销售顾问、客服咨询或客户成功，标题未明确客户类型与工作性质。"
+    },
+    {
+      "occupation_id": "SNO-4808e7a15d2091bb129f",
+      "title": "海外研发/产品应用",
+      "reason": "标题包含研发与产品应用两个方向，且未说明产品领域，无法唯一确定职能归属。"
+    },
+    {
+      "occupation_id": "SNO-4120740026214e819645",
+      "title": "数字金融方向定向培养生",
+      "reason": "标题仅说明数字金融方向与培养生身份，未明确具体金融业务职能，无法唯一确定二级归属。"
+    },
+    {
+      "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+      "title": "精益智造管培生",
+      "reason": "标题含精益智造与管培生，可能指向制造生产或跨职能培养，但未明确具体职能，无法唯一归属。"
+    },
+    {
+      "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+      "title": "分公司管理培训生(保险、金融、营销、经济、管理、信息科技、工程、运输、医疗健康)",
+      "reason": "标题列出多个领域且为管理培训生，最终职业方向未明确，属于跨职能培养轮岗，无法唯一确定专业职能。"
+    },
+    {
+      "occupation_id": "SNO-f3a551d78495c24ba751",
+      "title": "成都分行公司业务培训生",
+      "reason": "标题仅说明银行分行公司业务培训生，未明确具体金融业务职能，无法唯一确定二级归属。"
+    },
+    {
+      "occupation_id": "SNO-9170b111decf5a940895",
+      "title": "供试品配置/管理通用类:管培生",
+      "reason": "标题含供试品配置/管理与管培生，可能指向实验科研支持或综合培养，但未明确具体职能，无法唯一归属。"
+    },
+    {
+      "occupation_id": "SNO-f726e823532c0682f85b",
+      "title": "品类发展管培生",
+      "reason": "标题含品类发展与管培生，可能指向商品品类运营或综合培养，但未明确具体职能，无法唯一归属。"
+    }
+  ],
+  "interpretation": "AI pass means current reasonable primary placement was not found clearly unreasonable; it is not true accuracy under a unique-answer standard."
+}

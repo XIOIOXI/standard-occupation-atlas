@@ -1,0 +1,28 @@
+{
+  "id": "19a67e8b-2d34-420e-beff-fa73c67abfec",
+  "object": "chat.completion",
+  "created": 1791881072,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-5bc45b3d2c778a3a394b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-173260e6ec8f7c55acb7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0fddfc4521971f4627dc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-894b43d50bb040455af3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-90d9ddec147ad668b34e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-797dcba206eb9c660138\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e57f861cfbcafd4c4fe9\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L05-05-01\",\"issue\":\"光学分析工程师通常从事光学系统/光学器件分析，更贴近无线与射频技术中的光学方向；归入有线与光通信技术（L05-05-02）依据不足，建议改归L05-05-01。\"},{\"occupation_id\":\"TG-1480f744b10f473f6aa3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-664444f49e2b5dd020d7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8a7dcd6f307b412eb671\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3b453b1ce7b7bd58c47b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-6e5ac1524d2b096a6d42\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0ed710df6483742677d9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-03209236d9b2a001bc69\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-53281d1dffa8239dcb7d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cb36b008dbff66a456ec\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8fabe8a2c55d658a48d2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3befe6a5cdfa5fb02b2f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5fd9cd46af290ec2b0a0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0ac31931b89c3974dcd6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19664,
+    "completion_tokens": 804,
+    "total_tokens": 20468,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3152
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

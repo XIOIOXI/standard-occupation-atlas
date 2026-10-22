@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-aca345f88d513784de242d6826c42013",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "管理培训生（金融管理方向）属真实培养项目且最终职能未明确，主归属L32-01合理；候选L20-11亦为合理备选，review状态可接受。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17032,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 520,
+    "output_tokens": 91,
+    "reasoning_tokens": 0,
+    "total_tokens": 17123
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000364272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

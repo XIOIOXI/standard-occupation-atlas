@@ -1,0 +1,43 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-117824cca56b47d67738e12346f2c6d8",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-04",
+        "L18-01",
+        "L18-02",
+        "L18-03",
+        "L32-01"
+      ],
+      "title_evidence": "标题明确为“人力资源部门管理培训生”，职能方向为人力资源，且为部门定向培养而非跨职能轮岗",
+      "level_3_evidence": null,
+      "reason": "标题已明确人力资源职能，属于人力资源综合管理；虽含“管理培训生”，但已限定人力资源部门，不属于跨职能轮岗，故归 L18-04 并保留培养属性。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16974,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 334,
+    "output_tokens": 166,
+    "reasoning_tokens": 0,
+    "total_tokens": 17140
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039924000000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

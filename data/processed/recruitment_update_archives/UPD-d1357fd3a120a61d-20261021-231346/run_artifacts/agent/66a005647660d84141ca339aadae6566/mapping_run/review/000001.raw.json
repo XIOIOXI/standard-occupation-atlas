@@ -1,0 +1,28 @@
+{
+  "id": "dde2a843-77e0-45d7-b41a-57c7a832a800",
+  "object": "chat.completion",
+  "created": 1792571629,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-66a005647660d84141ca339aadae6566\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L09-01\", \"issue\": \"平面设计实习生归入视觉与品牌设计（L09-01）合理，方向明确，无三级细分，映射正确。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17036,
+    "completion_tokens": 89,
+    "total_tokens": 17125,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 524
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

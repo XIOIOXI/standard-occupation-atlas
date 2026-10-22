@@ -1,0 +1,28 @@
+{
+  "id": "fae1c722-18f3-4499-b3c0-2c7d6a607965",
+  "object": "chat.completion",
+  "created": 1791882090,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"records\": [\n    {\n      \"original_record_id\": \"TG-959e90450cf18dc6b157\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为职业大类描述，非具体岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-84e93fe51f411e95a1a3\",\n      \"decision\": \"restore_title_and_map\",\n      \"reason\": \"标题疑似截断，恢复为'研究岗'\",\n      \"recovered_title\": \"研究岗\"\n    },\n    {\n      \"original_record_id\": \"TG-39a0ae1ee3c9fe4f1113\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题仅为'岗位'，无具体岗位信息\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-d799ef1145ef0d4b03af\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为招聘计划描述，非岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-141b0f7ae3c7cf165e35\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为专业类别列表，非具体岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-8a8476e5139bba8e24e9\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为模糊描述，非具体岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-bf495f6297043e406cfa\",\n      \"decision\": \"restore_title_and_map\",\n      \"reason\": \"标题为'转正实习生'，可视为岗位名称\",\n      \"recovered_title\": \"转正实习生\"\n    },\n    {\n      \"original_record_id\": \"TG-a4df8755499c4026e45b\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为多个岗位关键词拼接，非单一岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-f1e132dc96eea1332051\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为专业名称，非岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-a629d9b69af53f47e3c3\",\n      \"decision\": \"restore_title_and_map\",\n      \"reason\": \"标题为'2027应届生岗位'，可视为岗位名称\",\n      \"recovered_title\": \"2027应届生岗位\"\n    },\n    {\n      \"original_record_id\": \"TG-43e3a4ee98ad4040d0ba\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为招聘规模描述，非岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-e14abcfd8af8230b2cf2\",\n      \"decision\": \"restore_title_and_map\",\n      \"reason\": \"标题为'2026实习生岗位'，可视为岗位名称\",\n      \"recovered_title\": \"2026实习生岗位\"\n    },\n    {\n      \"original_record_id\": \"TG-bb9eaccbb151ae81b8e6\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为岗位数量描述，非岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-1bba414c8a367b8e89cb\",\n      \"decision\": \"restore_title_and_map\",\n      \"reason\": \"标题疑似截断，恢复为'工程师'\",\n      \"recovered_title\": \"工程师\"\n    },\n    {\n      \"original_record_id\": \"TG-f3da16c3c822b16e0597\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为多个岗位名称列表，非单一岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-7ac659aa9131ca484ffb\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为岗位类别列表，非具体岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-cda727ae09681aaf023a\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题包含岗位编号及专业要求，非纯岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-3e1e379b3aeeeb4619e1\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为招聘对象描述，非岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-1eeae84cdee81eb778ae\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为招聘公告引用，非岗位名称\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-252144b1fbf057a55828\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为不完整描述，非岗位名称\",\n      \"recovered_title\": null\n    }\n  ]\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 839,
+    "completion_tokens": 1227,
+    "total_tokens": 2066,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 839
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 179,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "65e64b1e-ec53-4e7a-ae41-7402ad56a70a",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751325,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25093,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1797,
+    "output_tokens": 2747,
+    "reasoning_tokens": 0,
+    "total_tokens": 27840
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001987638
+  },
+  "observed_at_utc": "2026-10-11T20:42:06.006157+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-cfc66551dd4cd92a4d3a",
+      "target_category_id": "教育培训/edu-admin/edu-admin-teaching",
+      "status": "mapped",
+      "reason": "思政辅导员属高校学生思政教育与管理，归教育行政教学事务管理"
+    },
+    {
+      "occupation_id": "SNO-392bed1f75a52ba0c3cf",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "教研部教师从事高校教学科研，归高等教育教学"
+    },
+    {
+      "occupation_id": "SNO-e0b9e23648a6af4d251a",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "预算员负责工程造价预算，归工程造价与合同管理"
+    },
+    {
+      "occupation_id": "SNO-d28cf5f76eaf0b82e3b1",
+      "target_category_id": "互联网/AI/internet-backend/backend-finance",
+      "status": "mapped",
+      "reason": "交易系统开发属金融行业后端开发"
+    },
+    {
+      "occupation_id": "SNO-30aebb14620f7a3df367",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-fulfilment",
+      "status": "mapped",
+      "reason": "物流营销经理核心为物流业务履约与客户拓展，归供应链履约"
+    },
+    {
+      "occupation_id": "SNO-bb04ba04692d03fa5fe1",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "大班主讲教师从事学科教学，IP孵化属附加职责，归基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-7a06e31a1081eea21012",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "前沿无线通信算法研究员归无线与通信系统研发"
+    },
+    {
+      "occupation_id": "SNO-b2177de92da80a3bae3b",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "具身智能算法工程师(强化学习)归机器人与具身智能"
+    },
+    {
+      "occupation_id": "SNO-ba60aa80e2b407752d72",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "综合培养生为管培生，未指明具体职业方向，无法确定类别"
+    },
+    {
+      "occupation_id": "SNO-ad63c05da09175fee03d",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "主经纪商业务属证券机构业务运营，归基金期货交易与运营"
+    },
+    {
+      "occupation_id": "SNO-8f3441bbc2b3a1d2ad4b",
+      "target_category_id": "销售/sales-general/general-sales-channel",
+      "status": "mapped",
+      "reason": "渠道销售(德语)核心为渠道销售，语言为修饰"
+    },
+    {
+      "occupation_id": "SNO-8bff22430ec4a8998769",
+      "target_category_id": "教育培训/edu-employment/career-edu-guidance",
+      "status": "mapped",
+      "reason": "就业服务管理员负责就业指导服务，归职业规划与就业辅导"
+    },
+    {
+      "occupation_id": "SNO-67a98e3101baf8f0ca39",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出通用软件、嵌入式、数据库、操作系统与编译器多个独立开发方向"
+    },
+    {
+      "occupation_id": "SNO-ac0d2716a71d5f0d4aa7",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出市场营销、经营分析、人力资源、财务管理、法务、IT技术、供应链等多个独立职业方向"
+    },
+    {
+      "occupation_id": "SNO-31d32d5134d35515dab5",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "建筑工程设备管理属施工现场设备管理"
+    },
+    {
+      "occupation_id": "SNO-72319d1977c756508c55",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "施工助理工程师属施工现场管理"
+    },
+    {
+      "occupation_id": "SNO-eedad3c54460bac28952",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出长度计量、力学计量、光学计量、气体计量、生物计量、检验员等多个独立岗位"
+    },
+    {
+      "occupation_id": "SNO-6224295eb550d2d20fe9",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "采矿监理属工程现场监督管理"
+    },
+    {
+      "occupation_id": "SNO-e64a5443fa0b628ac84e",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": "社媒运营(西语KOL)归社交媒体运营，西语为语言修饰"
+    },
+    {
+      "occupation_id": "SNO-0a5605d232c59765c8d4",
+      "target_category_id": "教育培训/edu-product/edu-product-curriculum",
+      "status": "mapped",
+      "reason": "学科教研员负责课程与教学内容研发"
+    },
+    {
+      "occupation_id": "SNO-3014d406743eb7141fa4",
+      "target_category_id": "运营/客服/ops-domestic-ecommerce/domestic-ecom-platform",
+      "status": "mapped",
+      "reason": "OTA平台运营专员归平台店铺运营"
+    },
+    {
+      "occupation_id": "SNO-d090961806771800b77d",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务管理/会计学税务类专业对应会计总账与财务核算"
+    },
+    {
+      "occupation_id": "SNO-d92c045ab48bd9abf622",
+      "target_category_id": "教育培训/edu-child/early-edu-children",
+      "status": "mapped",
+      "reason": "少儿编程辅导老师归少儿课程与活动教学"
+    },
+    {
+      "occupation_id": "SNO-8e101795069d4c7278a6",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "机电管培生未指明具体机电方向，无法确定细分职业"
+    },
+    {
+      "occupation_id": "SNO-0ff005eb82260fe0b7e2",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "IXM管培生为管培生项目，未指明具体职业方向"
+    },
+    {
+      "occupation_id": "SNO-4743ffacd5186e059f23",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "热能工程师属能源开发与工程"
+    },
+    {
+      "occupation_id": "SNO-0ec9727987d7d0236ea2",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "实验教师属高校教学岗位"
+    },
+    {
+      "occupation_id": "SNO-24cd821dce0bf3d636e7",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "助理研究员(大类资产)属投资研究分析"
+    },
+    {
+      "occupation_id": "SNO-ce29bc83bf51f533f50d",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "体系本科起助理名称截断且职责不明，无法确定职业类别"
+    },
+    {
+      "occupation_id": "SNO-04b8e8c71407ee89bd81",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-freight",
+      "status": "mapped",
+      "reason": "货运物流归货运与物流操作"
+    },
+    {
+      "occupation_id": "SNO-2874cec6d80cdd7f7644",
+      "target_category_id": "人力/行政/法务/people-hr/hr-learning",
+      "status": "mapped",
+      "reason": "人才开发属人力资源培训与人才发展"
+    },
+    {
+      "occupation_id": "SNO-ec69e5de694a176636bf",
+      "target_category_id": "金融/financial-risk/finance-control-clearing",
+      "status": "mapped",
+      "reason": "票据交易属金融清算与运营结算"
+    },
+    {
+      "occupation_id": "SNO-82d12c93fc7af07ec51c",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "系统运行维护归基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-dadbb4902d531ca06375",
+      "target_category_id": "财务/审计/税务/finance-tax/tax-planning",
+      "status": "mapped",
+      "reason": "税务咨询助理归税务筹划与咨询"
+    },
+    {
+      "occupation_id": "SNO-359f2e46df6ffdf7b26a",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气设计助理归电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-f5d8f7e4203cc32f506d",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-deep",
+      "status": "mapped",
+      "reason": "深度学习专家策略研究员归深度学习与模型训练"
+    },
+    {
+      "occupation_id": "SNO-07a2129bab499661341a",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "合成生物学高级研究员归生物医药研发"
+    },
+    {
+      "occupation_id": "SNO-f921d5a5bff8abe5f207",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "非标机械设计归机械结构与产品设计"
+    },
+    {
+      "occupation_id": "SNO-fefc68dd855ed4c0bf42",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "计算机管理属IT技术支持与运维"
+    },
+    {
+      "occupation_id": "SNO-2ff80a749352fa554ca8",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源专员归员工关系与人力运营"
+    },
+    {
+      "occupation_id": "SNO-00781a087fe2428e78fa",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "mapped",
+      "reason": "IT审计归内部控制与内审"
+    },
+    {
+      "occupation_id": "SNO-7dd3deb8cdce245bb84b",
+      "target_category_id": "金融/financial-risk/finance-control-risk",
+      "status": "mapped",
+      "reason": "贷后管理属金融风险与合规管理"
+    },
+    {
+      "occupation_id": "SNO-4ae24d56db53de8b2b0b",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分行运营培训生归零售与综合银行"
+    },
+    {
+      "occupation_id": "SNO-ef3bf32d84da361fab73",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-channel",
+      "status": "mapped",
+      "reason": "零售市场经理归渠道与营销活动"
+    },
+    {
+      "occupation_id": "SNO-a33b5a5b1db6e19a75fc",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "燃气具检测工程师归质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-8d69e36242d5b3c533b6",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "客户端开发工程师(银行业务)归移动端与客户端开发"
+    },
+    {
+      "occupation_id": "SNO-b47a8e65404433f02edb",
+      "target_category_id": "教育培训/edu-employment/career-edu-employer",
+      "status": "mapped",
+      "reason": "研学教学业务代表属校企合作与招生就业服务"
+    },
+    {
+      "occupation_id": "SNO-6fb10e2a704e5709454f",
+      "target_category_id": "互联网/AI/internet-data-development/data-platform",
+      "status": "mapped",
+      "reason": "大数据开发工程师-分布式存储归大数据平台与治理"
+    },
+    {
+      "occupation_id": "SNO-59158abed8a2371586a4",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "IT产品经理管培生归平台与企业产品"
+    },
+    {
+      "occupation_id": "SNO-ea4481e351b4baaca736",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "(矿业/材料)研发工程师归化工工艺与生产"
+    }
+  ]
+}

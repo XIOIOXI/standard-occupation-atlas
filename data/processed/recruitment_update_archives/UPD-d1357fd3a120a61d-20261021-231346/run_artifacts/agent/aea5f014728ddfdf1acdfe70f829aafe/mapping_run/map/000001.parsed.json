@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-aea5f014728ddfdf1acdfe70f829aafe",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L19-08",
+        "L30-05",
+        "L32-02"
+      ],
+      "title_evidence": "职能支持岗：仅表明职能支持方向，未说明具体职能（人力/财务/法务/行政等）",
+      "level_3_evidence": null,
+      "reason": "“职能支持”为泛化职能标签，无法确定具体职能类别；候选为组织支持、财务、法务等通用类及综合储备培养类，需补充职责信息后判定。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16946,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 306,
+    "output_tokens": 152,
+    "reasoning_tokens": 0,
+    "total_tokens": 17098
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037403999999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

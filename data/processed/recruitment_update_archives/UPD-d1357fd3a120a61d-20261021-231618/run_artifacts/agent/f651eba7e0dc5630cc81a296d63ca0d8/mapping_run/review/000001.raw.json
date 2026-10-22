@@ -1,0 +1,28 @@
+{
+  "id": "25dcc73b-8e56-43d4-9fa6-bf528a1248eb",
+  "object": "chat.completion",
+  "created": 1792571835,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-f651eba7e0dc5630cc81a296d63ca0d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L18-04\",\"issue\":\"标题明确为人力方向管培生，职能已明确为人力资源，归L18-04合理；管培生作为培养标签不构成跨职能轮岗证据。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17031,
+    "completion_tokens": 91,
+    "total_tokens": 17122,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 519
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

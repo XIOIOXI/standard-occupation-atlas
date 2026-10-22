@@ -1,0 +1,19 @@
+{
+  "schema_version": "embedding-quality-review-v1",
+  "policy_decision": "No embedding-only automatic-acceptance threshold is enabled. The calibration sample contains material cross-domain and fine-grained errors; embeddings remain candidate narrowing only.",
+  "calibration_reviews": [
+    {"standard_name":"嵌入式工程师","verdict":"candidate_useful_not_accepted","reason":"硬件嵌入式为合理候选，但 C++ 与 Java 候选均可能错误；名称不足以自动选三级。"},
+    {"standard_name":"芯片测试","verdict":"candidate_useful_not_accepted","reason":"前三均在芯片领域但验证与封装测试相邻，名称不能仅凭相似度确定。"},
+    {"standard_name":"软件工程师","verdict":"incorrect","reason":"首选落入 IT 培训而非软件研发，说明宽泛名称不可自动接受。"},
+    {"standard_name":"销售工程师","verdict":"incorrect","reason":"首选课程销售，与技术销售职责不符。"},
+    {"standard_name":"管理培训生","verdict":"incorrect","reason":"首选企业培训是培训主题，不是该名称可确认的职业职能。"},
+    {"standard_name":"平面设计助理","verdict":"candidate_useful_not_accepted","reason":"视觉设计领域合理，但品牌视觉与动态媒体分差过小。"},
+    {"standard_name":"FAE现场技术支持工程师","verdict":"candidate_useful_not_accepted","reason":"销售技术支持三级均合理候选，名称不足以判定售前、交付或客户支持。"},
+    {"standard_name":"Web前端开发工程师","verdict":"not_in_sample","reason":"由明确规则映射，不以向量自动接受。"},
+    {"standard_name":"城市更新工作管理员","verdict":"candidate_useful_not_accepted","reason":"城市更新首选合理，但管理职责层级不明。"},
+    {"standard_name":"小语种外贸业务员","verdict":"incorrect","reason":"首选外贸文员，与外贸销售方向不一致。"},
+    {"standard_name":"人力资源管理","verdict":"candidate_useful_not_accepted","reason":"人力资源领域正确，但招聘、薪酬、员工关系未能由名称确定。"},
+    {"standard_name":"低温工程师","verdict":"incorrect","reason":"候选落到养殖和维修等无关领域。"}
+  ],
+  "validation_set_status": "Not used to choose a threshold; reserved for later independent validation after LLM name-only judgments."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d32461ef-e827-4753-b0f8-96cf2ded609b",
+  "object": "chat.completion",
+  "created": 1792571545,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-6de67d28f5a2eea94a6eb1955dcd7880\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L01-02\", \"issue\": \"标题明确为后端研发工程师，主归属后端开发（L01-02）合理；未说明业务服务或基础设施方向，停在二级恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17005,
+    "completion_tokens": 99,
+    "total_tokens": 17104,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 493
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

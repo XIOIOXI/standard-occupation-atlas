@@ -1,0 +1,28 @@
+{
+  "id": "ed6f7507-184d-478f-98b8-24cd88885ec7",
+  "object": "chat.completion",
+  "created": 1792596247,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-4291269db60a7d98f25591e30ede84f9\",\"status\":\"mapped\",\"target_category_id\":\"L04-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L04-03\",\"L04-05\"],\"title_evidence\":\"质量监督岗：质量监督属于生产/产品质量管理职能\",\"level_3_evidence\":null,\"reason\":\"质量监督为质量职能，但未明确是过程质量、供应商质量还是产品质量与客诉，故归L04-03生产质量管理二级，不强行下探三级。\"},{\"occupation_id\":\"UP-6ad1145f65e9fad24ad663cd105dddce\",\"status\":\"mapped\",\"target_category_id\":\"L04-04-03\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L04-04-03\"],\"title_evidence\":\"计量检测岗：计量检测直接对应计量与校准\",\"level_3_evidence\":\"计量与校准\",\"reason\":\"标题明确为计量检测，属于检验检测与实验分析下的计量与校准三级。\"},{\"occupation_id\":\"UP-eb144eed2a12e984529201856205ac2c\",\"status\":\"mapped\",\"target_category_id\":\"L04-04-02\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L04-04-02\"],\"title_evidence\":\"化验分析岗：化验分析属于化学检测\",\"level_3_evidence\":\"化学与生物检测\",\"reason\":\"化验分析为实验室化学检测工作，归化学与生物检测三级。\"},{\"occupation_id\":\"UP-43eec86cd55dd15f9a3e41bd4967a8b5\",\"status\":\"mapped\",\"target_category_id\":\"L04-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L04-04\"],\"title_evidence\":\"采样岗：采样属于检验检测流程中的样品采集\",\"level_3_evidence\":null,\"reason\":\"采样是检验检测的样品采集环节，但未明确物理性能、化学或计量方向，故归L04-04检验检测与实验分析二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17660,
+    "completion_tokens": 464,
+    "total_tokens": 18124,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 1020
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

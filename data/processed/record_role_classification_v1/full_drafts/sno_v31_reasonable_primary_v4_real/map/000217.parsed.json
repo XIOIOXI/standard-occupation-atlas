@@ -1,0 +1,288 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-50bfc331a8a19e67e8bb",
+      "status": "mapped",
+      "target_category_id": "L04-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L04-04-01",
+        "L04-04-02",
+        "L04-04-03"
+      ],
+      "title_evidence": "检测分析助理工程师",
+      "level_3_evidence": "物理性能与可靠性检测",
+      "reason": "检测分析助理工程师属于检验检测与实验分析，标题未明确具体检测方向，但“检测分析”最直接对应物理性能与可靠性检测，故映射至 L04-04-01。"
+    },
+    {
+      "occupation_id": "TG-345b932ef140e6a49e9a",
+      "status": "mapped",
+      "target_category_id": "L04-03-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L04-03-01",
+        "L04-03-02",
+        "L04-03-03"
+      ],
+      "title_evidence": "PQM工程师",
+      "level_3_evidence": "过程质量管理",
+      "reason": "PQM 通常指 Process Quality Management，即过程质量管理，属于生产质量管理下的过程质量管理。"
+    },
+    {
+      "occupation_id": "TG-08d319e293de20dbc1be",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "总部管培生(商品类、运营类、设计类、技术类、供应链类职能类)",
+      "level_3_evidence": null,
+      "reason": "标题明确为管培生且涵盖多个职能方向，属于跨职能轮岗培养，但具体最终职能未明确，符合综合培养与轮岗岗位，但涉及多角色，故标 multi_role。"
+    },
+    {
+      "occupation_id": "TG-858b65513989044288fe",
+      "status": "mapped",
+      "target_category_id": "L13-08-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L13-08-02",
+        "L13-08-01"
+      ],
+      "title_evidence": "投标专员",
+      "level_3_evidence": "商务合同与订单支持",
+      "reason": "投标专员主要负责投标事务，属于销售运营与商务支持下的商务合同与订单支持。"
+    },
+    {
+      "occupation_id": "TG-632597033c73ac4b7d25",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-13",
+        "L06-09",
+        "L05-07"
+      ],
+      "title_evidence": "工程技术人员(计划人数:不限)",
+      "level_3_evidence": null,
+      "reason": "标题仅“工程技术人员”，未明确具体工程领域（建筑、机械、电子等），无法确定唯一二级类别，需人工审核。"
+    },
+    {
+      "occupation_id": "TG-1e51b801b4dfade29053",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "总部及子公司相关岗位",
+      "level_3_evidence": null,
+      "reason": "标题为“总部及子公司相关岗位”，未指明任何具体职能或岗位，属于非岗位文本。"
+    },
+    {
+      "occupation_id": "TG-031e24bb146fd9a0cda3",
+      "status": "mapped",
+      "target_category_id": "L01-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-02-01",
+        "L01-02-02"
+      ],
+      "title_evidence": "交易执行开发工程师",
+      "level_3_evidence": "业务服务开发",
+      "reason": "交易执行开发工程师属于后端开发，负责交易执行业务系统开发，映射至业务服务开发。"
+    },
+    {
+      "occupation_id": "TG-21975fb5cd653c8af273",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L12-05",
+        "L18-05",
+        "L31-01"
+      ],
+      "title_evidence": "外联协调岗",
+      "level_3_evidence": null,
+      "reason": "外联协调岗可能涉及政府事务、行政或公共事务，职责不明确，需人工审核。"
+    },
+    {
+      "occupation_id": "TG-e8191def963ee030941f",
+      "status": "mapped",
+      "target_category_id": "L12-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L12-01-01",
+        "L12-01-02"
+      ],
+      "title_evidence": "自动驾驶技术传播工程师（上海、苏州、广州、北京、成都、西安，本科）",
+      "level_3_evidence": "市场策略规划",
+      "reason": "技术传播工程师主要负责技术传播与市场沟通，属于市场策略与营销策划下的市场策略规划。"
+    },
+    {
+      "occupation_id": "TG-f1b3f3e55a0bf84c9ce2",
+      "status": "mapped",
+      "target_category_id": "L13-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L13-01-01",
+        "L13-01-02",
+        "L13-02"
+      ],
+      "title_evidence": "外贸业务员（6名）",
+      "level_3_evidence": "直客销售",
+      "reason": "外贸业务员通常负责海外客户开发与销售，属于企业客户销售下的直客销售。"
+    },
+    {
+      "occupation_id": "TG-3f1522308cfeb0648958",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-01",
+        "L02-05-07"
+      ],
+      "title_evidence": "视觉算法实习生",
+      "level_3_evidence": "计算机视觉",
+      "reason": "视觉算法实习生从事计算机视觉算法研发，映射至计算机视觉。"
+    },
+    {
+      "occupation_id": "TG-5f5bf5bdc6c1cb62b37d",
+      "status": "mapped",
+      "target_category_id": "L09-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-07",
+        "L09-06"
+      ],
+      "title_evidence": "动画设计",
+      "level_3_evidence": null,
+      "reason": "动画设计属于动画与动态视觉设计，映射至 L09-07。"
+    },
+    {
+      "occupation_id": "TG-016f20ccfc14f19b409c",
+      "status": "mapped",
+      "target_category_id": "L16-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L16-01-02",
+        "L16-01-01",
+        "L16-01-03"
+      ],
+      "title_evidence": "物资招采岗",
+      "level_3_evidence": "间接采购与服务采购",
+      "reason": "物资招采岗负责物资采购与招标，通常属于间接采购与服务采购。"
+    },
+    {
+      "occupation_id": "TG-f0f9d07312033cc89ef1",
+      "status": "mapped",
+      "target_category_id": "L01-10-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-10-02",
+        "L01-10-01"
+      ],
+      "title_evidence": "数字化产品开发工程师",
+      "level_3_evidence": "企业系统定制开发",
+      "reason": "数字化产品开发工程师通常负责企业数字化系统的定制开发，映射至企业系统定制开发。"
+    },
+    {
+      "occupation_id": "TG-5bc995b7cf40cb5b2e22",
+      "status": "mapped",
+      "target_category_id": "L08-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L08-02-02",
+        "L08-02-01"
+      ],
+      "title_evidence": "高级产品设计工程师",
+      "level_3_evidence": "工业与专业设备产品",
+      "reason": "高级产品设计工程师通常负责工业或专业设备产品设计，映射至工业与专业设备产品。"
+    },
+    {
+      "occupation_id": "TG-9e3a41ab03910416e954",
+      "status": "mapped",
+      "target_category_id": "L05-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-01-01",
+        "L05-01-02"
+      ],
+      "title_evidence": "硬件工程师（变频器）",
+      "level_3_evidence": "电路与板级设计",
+      "reason": "硬件工程师（变频器）负责变频器硬件电路设计，映射至电路与板级设计。"
+    },
+    {
+      "occupation_id": "TG-7816534c844836e33a5d",
+      "status": "mapped",
+      "target_category_id": "L25-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-03",
+        "L25-04"
+      ],
+      "title_evidence": "电力系统高级研究员",
+      "level_3_evidence": null,
+      "reason": "电力系统高级研究员从事电力系统研究，属于能源系统与工艺工程。"
+    },
+    {
+      "occupation_id": "TG-52f2dff78ffa83069ea8",
+      "status": "mapped",
+      "target_category_id": "L32-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-02",
+        "L32-01"
+      ],
+      "title_evidence": "设备管培生岗",
+      "level_3_evidence": null,
+      "reason": "设备管培生岗属于综合储备与业务培养，映射至 L32-02。"
+    },
+    {
+      "occupation_id": "TG-50e88c0613094d0c148a",
+      "status": "mapped",
+      "target_category_id": "L02-05-07",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-07",
+        "L02-05-02"
+      ],
+      "title_evidence": "自动驾驶VLM多模态大模型算法工程师",
+      "level_3_evidence": "多模态算法",
+      "reason": "自动驾驶VLM多模态大模型算法工程师从事多模态算法研发，映射至多模态算法。"
+    },
+    {
+      "occupation_id": "TG-897875a7c12fddb0fbd4",
+      "status": "mapped",
+      "target_category_id": "L25-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-01"
+      ],
+      "title_evidence": "地质勘察岗",
+      "level_3_evidence": null,
+      "reason": "地质勘察岗属于地质勘探与资源评价，映射至 L25-01。"
+    }
+  ],
+  "raw_response_file": "000217.raw.json",
+  "usage": {
+    "input_tokens": 17386,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 874,
+    "output_tokens": 2652,
+    "reasoning_tokens": 0,
+    "total_tokens": 20038
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003543672
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "9cdad650-4a50-45ba-8c9b-735ad29f2543",
+  "object": "chat.completion",
+  "created": 1792571918,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-e71c97d2a65ef805c6e5ebf652d90db7\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L04-02\",\"issue\":\"模拟芯片测试工程师属于芯片/半导体实物产品的测试验证（量产测试、ATE测试等），应归硬件与产品测试 L04-02；L05-02-03 芯片设计验证指设计阶段的功能验证（DV），与测试工程师岗位不同。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17038,
+    "completion_tokens": 115,
+    "total_tokens": 17153,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 526
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

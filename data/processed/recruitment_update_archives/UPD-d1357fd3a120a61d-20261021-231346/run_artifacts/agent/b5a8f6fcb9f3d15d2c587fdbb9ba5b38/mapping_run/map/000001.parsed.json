@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-b5a8f6fcb9f3d15d2c587fdbb9ba5b38",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08",
+        "L05-02"
+      ],
+      "title_evidence": "封装工程师：半导体封装属于芯片制造后道工艺，涉及封装工艺开发与制程",
+      "level_3_evidence": null,
+      "reason": "封装工程师在半导体行业通常负责封装工艺/制程开发与优化，属于制造工艺工程范畴，归 L06-08 工艺与制造工程（level_2）。虽与芯片相关，但非芯片设计（L05-02），故不选三级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16960,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 320,
+    "output_tokens": 170,
+    "reasoning_tokens": 0,
+    "total_tokens": 17130
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039984000000000005
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

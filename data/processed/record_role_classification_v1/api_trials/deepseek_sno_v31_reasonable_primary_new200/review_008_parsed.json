@@ -1,0 +1,85 @@
+{
+  "raw_response_file": "review_008_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-3ced5c43ea3b2ec5fb7b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "安装造价师属工程造价，归L24-06合理；三级为目录内细分，可接受。"
+    },
+    {
+      "occupation_id": "SNO-57cab55464eb54e86335",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "托管教师为学科教学，初中方向未明确学科，归L22-02合理。"
+    },
+    {
+      "occupation_id": "SNO-11bb6d4d587dde12a387",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数学思维老师归学科与通识教学下的数学教学，合理。"
+    },
+    {
+      "occupation_id": "SNO-e8ea39a22b89370126f0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "视频内容管培生已明确内容运营职能，归L14-03合理。"
+    },
+    {
+      "occupation_id": "SNO-b2bb0759aeed784841cd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "行政管理人员归行政与办公事务，合理。"
+    },
+    {
+      "occupation_id": "SNO-4a0d167c153ce126c2db",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品策划经理未说明产品类型，归通用产品规划合理。"
+    },
+    {
+      "occupation_id": "SNO-677d6bd8842d15f03ce7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "研究实习员属科研技术支持，归L07-03合理。"
+    },
+    {
+      "occupation_id": "SNO-6e1f412867ef9face30d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务管理方向未明确，归通用财务工作合理。"
+    },
+    {
+      "occupation_id": "SNO-b454cba2a98c9c19bf27",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "基础设施管理通常指IT基础设施运维，方向未明确，归通用IT运维合理。"
+    },
+    {
+      "occupation_id": "SNO-d95e4ffc32ab9faa72c6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "营林技术归林业与生态管护，合理。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 10810,
+    "cached_input_tokens": 9216,
+    "uncached_input_tokens": 1594,
+    "output_tokens": 523,
+    "reasoning_tokens": 0,
+    "total_tokens": 11333
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000580548
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

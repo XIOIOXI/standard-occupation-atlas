@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-aa3a632b0a74f43685f5a86effa226ea",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行信息科技岗仅表明IT技术职能，方向未明确，review状态合理；候选L01-11/L03-08/L02-09均为合法通用类，无需修正。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17003,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 491,
+    "output_tokens": 101,
+    "reasoning_tokens": 0,
+    "total_tokens": 17104
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000367572
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

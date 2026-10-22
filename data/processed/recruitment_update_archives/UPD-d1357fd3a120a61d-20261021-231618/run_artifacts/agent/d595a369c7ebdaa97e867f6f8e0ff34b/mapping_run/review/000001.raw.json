@@ -1,0 +1,28 @@
+{
+  "id": "fbe8491a-c885-4e42-bf87-a35a9a32293f",
+  "object": "chat.completion",
+  "created": 1792571591,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-d595a369c7ebdaa97e867f6f8e0ff34b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"零售管培生RMT为培养项目，最终职能方向未明确；零售可能指向门店销售或零售管理，但无直接证据确定具体职能。按规则不得仅凭管培推断跨职能轮岗，标review并给出L32-01/L32-02及零售销售管理候选合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17073,
+    "completion_tokens": 128,
+    "total_tokens": 17201,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 561
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

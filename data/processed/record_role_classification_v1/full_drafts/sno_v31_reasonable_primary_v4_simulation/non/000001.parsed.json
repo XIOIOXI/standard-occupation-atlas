@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-5d9257ee1ca4be5ea414",
+      "decision": "exclude_non_role",
+      "reason": "sim",
+      "recovered_title": null
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 0,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_tokens": 0,
+    "total_tokens": 0
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0
+  },
+  "attempts": 0,
+  "normalization": "nullable whitespace only"
+}

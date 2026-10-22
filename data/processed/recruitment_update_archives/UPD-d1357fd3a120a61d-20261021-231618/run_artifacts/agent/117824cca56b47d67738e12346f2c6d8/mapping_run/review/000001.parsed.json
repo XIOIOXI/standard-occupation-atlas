@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-117824cca56b47d67738e12346f2c6d8",
+      "verdict": "pass",
+      "suggested_target_category_id": "L18-04",
+      "issue": "标题明确限定人力资源部门，属人力资源综合管理；虽为管培生但职能方向已明确，不属跨职能轮岗，归 L18-04 合理。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17068,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 556,
+    "output_tokens": 102,
+    "reasoning_tokens": 0,
+    "total_tokens": 17170
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038827199999999994
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

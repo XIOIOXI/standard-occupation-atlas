@@ -1,0 +1,28 @@
+{
+  "id": "3b952785-84ed-49ea-a70e-5384f68b5365",
+  "object": "chat.completion",
+  "created": 1791880843,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-e1806310a1489d7c0b93\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"外贸经营管培生方向不明确，review合理。\"},{\"occupation_id\":\"TG-724ce278ab5e26f5a178\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"配电工程师归电气工程合理。\"},{\"occupation_id\":\"TG-de5a7cb57cd441cafe80\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"飞控系统设计归自动化与控制工程合理。\"},{\"occupation_id\":\"TG-0c5871f6d52fece416a7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电气自动化专业教师归工业与职业技能教学合理。\"},{\"occupation_id\":\"TG-5e81af6d2649c14cfe88\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"项目经理归通用项目管理合理。\"},{\"occupation_id\":\"TG-40b7d43f7a45d900a32d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"食堂厨师归烹饪与厨师合理。\"},{\"occupation_id\":\"TG-05d506919ed0ef05a4f5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题含财务BP与信息安全两个职能，multi_role合理。\"},{\"occupation_id\":\"TG-57b048c66f0fde1c716c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"UX设计归交互与体验设计合理。\"},{\"occupation_id\":\"TG-99f5e9c0d4bb749aced6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量研究员方向不明确，review合理。\"},{\"occupation_id\":\"TG-b1fc56c24e893475517f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"安全质量管理专员归安全健康与职业防护合理。\"},{\"occupation_id\":\"TG-6574628b8880e829000a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"营林技术岗归林业与生态管护合理。\"},{\"occupation_id\":\"TG-f50bec8d516e53503cb5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"软件工程师方向未说明，归通用软件研发合理。\"},{\"occupation_id\":\"TG-28e8d92328eba4a10e40\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"计算机教师归信息技术教学合理。\"},{\"occupation_id\":\"TG-908f2c74657ac112bff0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"小学班课主讲教师学科未说明，停在学科与通识教学二级合理。\"},{\"occupation_id\":\"TG-3c16c48d7d7bca202956\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金属产品研发工程师归金属与无机材料合理。\"},{\"occupation_id\":\"TG-69a7f0a71644a4ee7cf3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"优衣库经营管理培训生方向不明确，review合理。\"},{\"occupation_id\":\"TG-84256e57af7fbe91c0c9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"助理纸样师管培生方向不明确，review合理。\"},{\"occupation_id\":\"TG-a85ea12123753041a9e9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量管理系统工程师归标准认证与质量体系合理。\"},{\"occupation_id\":\"TG-a2b49f98b626846672ea\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仓储管培生方向不明确，review合理。\"},{\"occupation_id\":\"TG-5c027cbf18e484ead29f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"IT战略管培生方向不明确，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19393,
+    "completion_tokens": 937,
+    "total_tokens": 20330,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2881
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

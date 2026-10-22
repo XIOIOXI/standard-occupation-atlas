@@ -1,0 +1,28 @@
+{
+  "id": "32a2f6e7-ad54-4ffb-b83b-ba939037a949",
+  "object": "chat.completion",
+  "created": 1792571352,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-2466e7e1d68a0e04fddcb9c809579dbd\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L02-03\", \"issue\": \"数据工程师主归属数据工程与数据平台开发（L02-03）合理；标题未说明数仓、管道或计算平台方向，停在二级符合规则。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17097,
+    "completion_tokens": 103,
+    "total_tokens": 17200,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 585
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

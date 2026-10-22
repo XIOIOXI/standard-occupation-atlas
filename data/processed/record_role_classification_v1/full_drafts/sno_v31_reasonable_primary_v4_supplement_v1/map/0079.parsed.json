@@ -1,0 +1,74 @@
+{
+  "results": [
+    {
+      "occupation_id": "CR-a56ac636b29b4bc44935",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08",
+        "L23-01",
+        "L32-02"
+      ],
+      "title_evidence": "IE管理及技术储备",
+      "level_3_evidence": null,
+      "reason": "IE（工业工程）管理及技术储备，核心职能为工业工程与制造工艺技术，归入工艺与制造工程（L06-08）。储备性质不改变专业职能归属。"
+    },
+    {
+      "occupation_id": "CR-45d19d13c93b1d0165d0",
+      "status": "mapped",
+      "target_category_id": "L05-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-07",
+        "L06-09",
+        "L05-03",
+        "L06-01"
+      ],
+      "title_evidence": "生产技术类(电气类、能动类、机械类",
+      "level_3_evidence": null,
+      "reason": "标题明确为生产技术类，涵盖电气、能动、机械等专业方向，但未指定具体细分职能，归入通用电子电气通信技术（L05-07）。"
+    },
+    {
+      "occupation_id": "CR-0408a2721fefde2dcfe9",
+      "status": "mapped",
+      "target_category_id": "L18-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-09",
+        "L19-08",
+        "L12-07",
+        "L30-05"
+      ],
+      "title_evidence": "职能管理类(会计、财务管理、市场营销、法学)",
+      "level_3_evidence": null,
+      "reason": "标题为职能管理类，涵盖会计、财务管理、市场营销、法学等多个职能方向，未明确具体职能，归入通用组织支持（L18-09）。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 16974,
+    "cached_input_tokens": 16768,
+    "uncached_input_tokens": 206,
+    "output_tokens": 477,
+    "reasoning_tokens": 0,
+    "total_tokens": 17451
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000367404
+  },
+  "response_metadata": {
+    "request_id": "11306dfe-242a-4f6b-9ab8-22b48b7b79da",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791895500,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

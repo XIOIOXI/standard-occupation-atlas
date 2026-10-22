@@ -1,0 +1,1584 @@
+{
+  "occupations": [
+    {
+      "occupation": "项目经理",
+      "occupation_key": "canonical:OCC0295",
+      "contexts": [
+        "l1:信息技术与数字产业",
+        "l1:建筑与房地产",
+        "l1:新能源与能源产业",
+        "l1:智能制造与工业",
+        "l1:电子信息与通信产业",
+        "l1:金融与金融科技",
+        "raw:事业单位",
+        "raw:其他",
+        "raw:国企",
+        "raw:机械电子",
+        "raw:科技",
+        "raw:科技,专业服务",
+        "raw:科技,其他"
+      ],
+      "evidence_volume": 60,
+      "completed_inference_groups": 13,
+      "skill_count": 44,
+      "shared_skills": [
+        "项目管理"
+      ],
+      "distinctive_skills_by_context": {
+        "l1:信息技术与数字产业": [
+          "团队管理",
+          "技术管理",
+          "沟通协调能力",
+          "解决方案制定",
+          "解决问题能力",
+          "跨部门协作",
+          "需求分析",
+          "项目管理"
+        ],
+        "l1:建筑与房地产": [
+          "多地点协调与管理",
+          "建筑与房地产行业知识",
+          "科研与技术理解能力",
+          "跨专业团队合作",
+          "项目管理"
+        ],
+        "l1:新能源与能源产业": [
+          "协调沟通能力",
+          "新能源行业知识",
+          "计划与组织能力",
+          "跨部门合作",
+          "项目管理"
+        ],
+        "l1:智能制造与工业": [
+          "团队管理",
+          "智能制造与工业知识",
+          "跨部门沟通协调",
+          "问题解决能力",
+          "项目管理"
+        ],
+        "l1:电子信息与通信产业": [
+          "协调与跨团队沟通",
+          "技术解决方案理解",
+          "数据分析与利用",
+          "电子信息与通信产业知识",
+          "跨部门协作能力",
+          "问题解决能力",
+          "项目管理"
+        ],
+        "l1:金融与金融科技": [
+          "团队协调与沟通",
+          "金融行业知识",
+          "问题解决能力",
+          "项目管理",
+          "风险管理"
+        ],
+        "raw:事业单位": [
+          "协调与沟通能力",
+          "资源管理",
+          "问题解决能力",
+          "项目管理",
+          "风险管理"
+        ],
+        "raw:其他": [
+          "技术理解能力",
+          "沟通能力",
+          "质量控制",
+          "跨部门协调",
+          "项目管理"
+        ],
+        "raw:国企": [
+          "团队合作与协调",
+          "文档管理与报告撰写",
+          "沟通能力",
+          "跨专业协调能力",
+          "项目管理"
+        ],
+        "raw:机械电子": [
+          "机械电子行业知识",
+          "沟通能力",
+          "计划与组织",
+          "跨部门协调",
+          "项目管理"
+        ],
+        "raw:科技": [
+          "技术背景理解",
+          "沟通技能",
+          "跨职能团队协调",
+          "项目管理",
+          "风险管理"
+        ],
+        "raw:科技,专业服务": [
+          "协调沟通能力",
+          "时间管理",
+          "计划制定",
+          "项目管理",
+          "风险管理"
+        ],
+        "raw:科技,其他": [
+          "多任务管理",
+          "技术背景理解",
+          "沟通能力",
+          "跨部门协调",
+          "项目管理"
+        ]
+      },
+      "deterministic_demo_score": 1873,
+      "selection_basis": "context_count + evidence + completed inference + shared/distinctive skill structure"
+    },
+    {
+      "occupation": "产品经理",
+      "occupation_key": "canonical:OCC0289",
+      "contexts": [
+        "l1:信息技术与数字产业",
+        "l1:新能源与能源产业",
+        "l1:生物医药与生命科学",
+        "l1:电子信息与通信产业",
+        "l1:电子商务与零售",
+        "l1:金融与金融科技",
+        "raw:其他",
+        "raw:国企",
+        "raw:消费",
+        "raw:游戏",
+        "raw:生物医药",
+        "raw:科技",
+        "raw:能源化工环保"
+      ],
+      "evidence_volume": 65,
+      "completed_inference_groups": 13,
+      "skill_count": 34,
+      "shared_skills": [
+        "项目管理"
+      ],
+      "distinctive_skills_by_context": {
+        "l1:信息技术与数字产业": [
+          "产品需求分析",
+          "市场和用户调研",
+          "敏捷思维与快速学习",
+          "数据分析能力",
+          "用户体验设计",
+          "跨部门沟通协调",
+          "项目管理"
+        ],
+        "l1:新能源与能源产业": [
+          "产品规划",
+          "市场需求分析",
+          "技术理解能力",
+          "跨部门沟通",
+          "项目管理"
+        ],
+        "l1:生物医药与生命科学": [
+          "产品规划",
+          "市场需求分析",
+          "解决复杂问题能力",
+          "跨部门沟通协调",
+          "项目管理"
+        ],
+        "l1:电子信息与通信产业": [
+          "产品管理",
+          "数据分析",
+          "跨部门协作",
+          "需求分析",
+          "项目管理"
+        ],
+        "l1:电子商务与零售": [
+          "产品管理",
+          "市场分析",
+          "数据驱动决策",
+          "跨团队沟通",
+          "适应多变环境",
+          "项目管理"
+        ],
+        "l1:金融与金融科技": [
+          "产品规划与管理",
+          "数据驱动决策能力",
+          "跨部门沟通协调",
+          "金融行业知识",
+          "需求分析与用户调研",
+          "项目管理"
+        ],
+        "raw:其他": [
+          "产品规划",
+          "客户需求理解",
+          "市场分析",
+          "跨部门沟通",
+          "项目管理"
+        ],
+        "raw:国企": [
+          "产品规划",
+          "数据驱动决策",
+          "跨部门沟通协调",
+          "需求分析",
+          "项目管理"
+        ],
+        "raw:消费": [
+          "产品规划",
+          "客户需求理解",
+          "市场调研",
+          "数据分析能力",
+          "跨部门沟通",
+          "问题解决能力",
+          "项目管理"
+        ],
+        "raw:游戏": [
+          "产品规划",
+          "市场分析",
+          "敏捷适应能力",
+          "用户研究",
+          "跨团队沟通",
+          "项目管理"
+        ],
+        "raw:生物医药": [
+          "产品规划",
+          "客户需求分析",
+          "市场研究",
+          "跨部门沟通",
+          "项目管理"
+        ],
+        "raw:科技": [
+          "产品规划",
+          "行业技术理解",
+          "跨部门沟通协调",
+          "需求分析",
+          "项目管理"
+        ],
+        "raw:能源化工环保": [
+          "产品规划",
+          "市场分析",
+          "沟通能力",
+          "跨部门协调",
+          "项目管理"
+        ]
+      },
+      "deterministic_demo_score": 1868,
+      "selection_basis": "context_count + evidence + completed inference + shared/distinctive skill structure"
+    },
+    {
+      "occupation": "机械设计工程师",
+      "occupation_key": "canonical:OCC0105",
+      "contexts": [
+        "l1:信息技术与数字产业",
+        "l1:智能制造与工业",
+        "l1:电子信息与通信产业",
+        "raw:事业单位",
+        "raw:其他",
+        "raw:其他,消费",
+        "raw:国企",
+        "raw:学术科研研究所",
+        "raw:智能硬件机器人",
+        "raw:机械电子",
+        "raw:电子通信半导体,制造业",
+        "raw:科技",
+        "raw:非金属矿物制品业建材"
+      ],
+      "evidence_volume": 36,
+      "completed_inference_groups": 13,
+      "skill_count": 46,
+      "shared_skills": [
+        "机械设计"
+      ],
+      "distinctive_skills_by_context": {
+        "l1:信息技术与数字产业": [
+          "CAD制图技能",
+          "工艺设计",
+          "机械设计",
+          "质量控制",
+          "项目管理"
+        ],
+        "l1:智能制造与工业": [
+          "PLc开发",
+          "机械装备系统理解",
+          "机械设计",
+          "解决复杂技术问题",
+          "跨学科合作能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "仿真分析",
+          "创新能力",
+          "机械设计",
+          "结构设计",
+          "跨学科团队协作"
+        ],
+        "raw:事业单位": [
+          "光学设计",
+          "团队协作",
+          "工程分析",
+          "机械设计",
+          "热控设计",
+          "问题解决能力"
+        ],
+        "raw:其他": [
+          "机械设计",
+          "机电一体化",
+          "程序编程",
+          "跨专业协作能力",
+          "项目管理"
+        ],
+        "raw:其他,消费": [
+          "机械制造基础",
+          "机械设计",
+          "机电一体化",
+          "自动化知识",
+          "跨学科协作能力",
+          "问题解决能力",
+          "非标自动化机械设计"
+        ],
+        "raw:国企": [
+          "团队协作",
+          "多物理场仿真",
+          "机械设计",
+          "机电一体化",
+          "自动化设计",
+          "问题解决能力"
+        ],
+        "raw:学术科研研究所": [
+          "产品开发与原型制作",
+          "工程制图",
+          "机械设计",
+          "科研分析能力",
+          "跨领域协作"
+        ],
+        "raw:智能硬件机器人": [
+          "复杂系统集成能力",
+          "机器人智能硬件",
+          "机械设计",
+          "机械运动控制算法理解",
+          "跨学科团队合作"
+        ],
+        "raw:机械电子": [
+          "创新思维",
+          "机械设计",
+          "电子封装",
+          "系统建模与控制",
+          "问题解决能力"
+        ],
+        "raw:电子通信半导体,制造业": [
+          "产品研发",
+          "机械设计",
+          "自动化装备研发",
+          "跨部门协作",
+          "项目管理"
+        ],
+        "raw:科技": [
+          "机械设计",
+          "电气设计",
+          "结构设计",
+          "跨专业协作",
+          "项目管理"
+        ],
+        "raw:非金属矿物制品业建材": [
+          "CAD软件应用",
+          "机械设计",
+          "材料力学",
+          "跨专业沟通能力",
+          "项目管理"
+        ]
+      },
+      "deterministic_demo_score": 1848,
+      "selection_basis": "context_count + evidence + completed inference + shared/distinctive skill structure"
+    },
+    {
+      "occupation": "软件测试工程师",
+      "occupation_key": "canonical:OCC0014",
+      "contexts": [
+        "l1:信息技术与数字产业",
+        "l1:新能源与能源产业",
+        "l1:电子信息与通信产业",
+        "l1:金融与金融科技",
+        "raw:事业单位",
+        "raw:其他",
+        "raw:商务服务咨询",
+        "raw:国企",
+        "raw:生物医药",
+        "raw:科技",
+        "raw:科技,其他"
+      ],
+      "evidence_volume": 46,
+      "completed_inference_groups": 11,
+      "skill_count": 39,
+      "shared_skills": [
+        "软件测试"
+      ],
+      "distinctive_skills_by_context": {
+        "l1:信息技术与数字产业": [
+          "团队协作",
+          "嵌入式软件开发",
+          "硬件测试",
+          "软件测试",
+          "问题分析能力"
+        ],
+        "l1:新能源与能源产业": [
+          "多任务协调能力",
+          "新能源行业理解",
+          "自动化测试",
+          "软件测试",
+          "问题分析与解决"
+        ],
+        "l1:电子信息与通信产业": [
+          "嵌入式系统基础",
+          "沟通协调能力",
+          "电子信息与通信产业基础知识",
+          "软件测试",
+          "问题分析与解决能力"
+        ],
+        "l1:金融与金融科技": [
+          "团队协作能力",
+          "编程能力",
+          "软件测试",
+          "金融行业知识",
+          "问题分析与解决能力"
+        ],
+        "raw:事业单位": [
+          "信号处理",
+          "光学理论",
+          "图像处理",
+          "嵌入式系统设计",
+          "细致认真",
+          "软件测试",
+          "问题分析能力"
+        ],
+        "raw:其他": [
+          "嵌入式系统知识",
+          "细致与耐心",
+          "编程语言 (C++, QT, Java)",
+          "软件测试",
+          "问题解决能力"
+        ],
+        "raw:商务服务咨询": [
+          "分析能力",
+          "细致耐心",
+          "质量保证",
+          "软件开发基础",
+          "软件测试"
+        ],
+        "raw:国企": [
+          "数据分析能力",
+          "沟通协调能力",
+          "软件开发基础",
+          "软件测试",
+          "逻辑思维能力"
+        ],
+        "raw:生物医药": [
+          "生物医药行业知识",
+          "缺陷分析与报告",
+          "跨团队沟通协作",
+          "软件测试",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "沟通协调能力",
+          "测试开发",
+          "自动化测试",
+          "软件测试",
+          "问题分析能力"
+        ],
+        "raw:科技,其他": [
+          "嵌入式系统测试",
+          "编程语言 (如C++, Java, Rust)",
+          "跨部门沟通与协作",
+          "软件测试",
+          "问题分析与诊断能力"
+        ]
+      },
+      "deterministic_demo_score": 1574,
+      "selection_basis": "context_count + evidence + completed inference + shared/distinctive skill structure"
+    },
+    {
+      "occupation": "设备工程师",
+      "occupation_key": "canonical:OCC0108",
+      "contexts": [
+        "l1:新能源与能源产业",
+        "l1:智能制造与工业",
+        "l1:电子信息与通信产业",
+        "raw:七工材料",
+        "raw:其他",
+        "raw:国企",
+        "raw:机械电子",
+        "raw:科技",
+        "raw:能源化工环保"
+      ],
+      "evidence_volume": 37,
+      "completed_inference_groups": 9,
+      "skill_count": 28,
+      "shared_skills": [
+        "设备维护与管理"
+      ],
+      "distinctive_skills_by_context": {
+        "l1:新能源与能源产业": [
+          "团队协作",
+          "工艺流程优化",
+          "机电一体化知识",
+          "沟通能力",
+          "设备维护与管理",
+          "质量管理",
+          "问题解决能力"
+        ],
+        "l1:智能制造与工业": [
+          "机械工程基础",
+          "电气系统设计与控制",
+          "设备维护与管理",
+          "跨团队协作",
+          "软件开发与算法应用"
+        ],
+        "l1:电子信息与通信产业": [
+          "工艺流程优化",
+          "电子信息产业知识",
+          "设备维护与管理",
+          "跨部门协作",
+          "问题解决能力"
+        ],
+        "raw:七工材料": [
+          "品质控制",
+          "工艺流程优化",
+          "设备维护与管理",
+          "跨部门沟通",
+          "问题解决能力"
+        ],
+        "raw:其他": [
+          "专业知识应用（化学、机械、电气等）",
+          "工艺流程设计",
+          "设备维护与管理",
+          "跨专业协作能力",
+          "问题解决能力"
+        ],
+        "raw:国企": [
+          "故障诊断与排除",
+          "机械与电气知识",
+          "设备安装与调试",
+          "设备维护与管理",
+          "跨部门沟通协调",
+          "问题解决能力"
+        ],
+        "raw:机械电子": [
+          "多岗位协作能力",
+          "工艺流程优化",
+          "机械电子专业知识",
+          "设备维护与管理",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "工艺流程优化",
+          "技术文档阅读与理解",
+          "设备故障诊断与排除",
+          "设备维护与管理",
+          "跨部门协作"
+        ],
+        "raw:能源化工环保": [
+          "设备维护与管理",
+          "质量管理",
+          "跨部门沟通",
+          "过程控制",
+          "项目管理"
+        ]
+      },
+      "deterministic_demo_score": 1288,
+      "selection_basis": "context_count + evidence + completed inference + shared/distinctive skill structure"
+    },
+    {
+      "occupation": "技术支持工程师",
+      "occupation_key": "candidate:技术支持工程师",
+      "contexts": [
+        "l1:信息技术与数字产业",
+        "l1:智能制造与工业",
+        "l1:电子信息与通信产业",
+        "raw:其他",
+        "raw:其他,科技",
+        "raw:科技",
+        "raw:科技,其他"
+      ],
+      "evidence_volume": 27,
+      "completed_inference_groups": 7,
+      "skill_count": 27,
+      "shared_skills": [
+        "技术支持"
+      ],
+      "distinctive_skills_by_context": {
+        "l1:信息技术与数字产业": [
+          "信息技术",
+          "技术支持",
+          "沟通能力",
+          "跨团队协作",
+          "问题解决能力"
+        ],
+        "l1:智能制造与工业": [
+          "售前咨询",
+          "客户沟通能力",
+          "技术支持",
+          "技术文档撰写",
+          "硬件维护与开发",
+          "系统集成",
+          "跨部门协调"
+        ],
+        "l1:电子信息与通信产业": [
+          "客户沟通",
+          "技术支持",
+          "电子信息与通信知识",
+          "跨部门协作",
+          "问题解决能力"
+        ],
+        "raw:其他": [
+          "售后服务",
+          "技术支持",
+          "沟通能力",
+          "硬件知识",
+          "问题解决能力"
+        ],
+        "raw:其他,科技": [
+          "技术支持",
+          "沟通协调能力",
+          "电气工程基础知识",
+          "软/硬件工程知识",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "技术支持",
+          "计算机科学或电子工程相关知识",
+          "跨团队沟通协调",
+          "软件开发基础知识",
+          "问题诊断与解决"
+        ],
+        "raw:科技,其他": [
+          "技术支持",
+          "硬件测试",
+          "算法理解与支持",
+          "跨专业协作能力",
+          "软件测试"
+        ]
+      },
+      "deterministic_demo_score": 1011,
+      "selection_basis": "context_count + evidence + completed inference + shared/distinctive skill structure"
+    },
+    {
+      "occupation": "C/C++开发工程师",
+      "occupation_key": "canonical:OCC0004",
+      "contexts": [
+        "l1:信息技术与数字产业",
+        "l1:金融与金融科技",
+        "raw:it互联网游戏,房地产建筑",
+        "raw:其他",
+        "raw:科技"
+      ],
+      "evidence_volume": 25,
+      "completed_inference_groups": 5,
+      "skill_count": 20,
+      "shared_skills": [
+        "C++ programming"
+      ],
+      "distinctive_skills_by_context": {
+        "l1:信息技术与数字产业": [
+          "Algorithm development and optimization",
+          "C++ programming",
+          "Computer vision and image processing",
+          "Embedded systems development",
+          "Problem-solving skills",
+          "Software development lifecycle understanding",
+          "Team collaboration"
+        ],
+        "l1:金融与金融科技": [
+          "C++ programming",
+          "Collaboration across multidisciplinary teams",
+          "Mathematics and statistics",
+          "Problem-solving",
+          "Quantitative finance knowledge"
+        ],
+        "raw:it互联网游戏,房地产建筑": [
+          "3D graphics and rendering algorithms",
+          "Algorithm design and development",
+          "C++ programming",
+          "Cross-disciplinary collaboration",
+          "Software testing and development"
+        ],
+        "raw:其他": [
+          "Attention to detail",
+          "C programming",
+          "C++ programming",
+          "Embedded systems development",
+          "Problem-solving",
+          "Software testing"
+        ],
+        "raw:科技": [
+          "C++ programming",
+          "Continuous learning",
+          "Problem-solving skills",
+          "Software development",
+          "Team collaboration"
+        ]
+      },
+      "deterministic_demo_score": 740,
+      "selection_basis": "context_count + evidence + completed inference + shared/distinctive skill structure"
+    },
+    {
+      "occupation": "客户经理",
+      "occupation_key": "candidate:客户经理",
+      "contexts": [
+        "l1:信息技术与数字产业",
+        "l1:电子信息与通信产业",
+        "l1:金融与金融科技",
+        "raw:国企"
+      ],
+      "evidence_volume": 53,
+      "completed_inference_groups": 4,
+      "skill_count": 15,
+      "shared_skills": [
+        "客户关系管理"
+      ],
+      "distinctive_skills_by_context": {
+        "l1:信息技术与数字产业": [
+          "客户关系管理",
+          "市场洞察力",
+          "沟通能力",
+          "销售技巧",
+          "项目协调"
+        ],
+        "l1:电子信息与通信产业": [
+          "多语种能力（粤语）",
+          "客户关系管理",
+          "沟通协调能力",
+          "电子信息与通信产业知识",
+          "销售能力"
+        ],
+        "l1:金融与金融科技": [
+          "业务拓展",
+          "客户关系管理",
+          "沟通能力",
+          "金融产品知识",
+          "风险意识"
+        ],
+        "raw:国企": [
+          "客户关系管理",
+          "市场分析",
+          "沟通协调能力",
+          "法律知识理解",
+          "问题解决能力"
+        ]
+      },
+      "deterministic_demo_score": 613,
+      "selection_basis": "context_count + evidence + completed inference + shared/distinctive skill structure"
+    },
+    {
+      "occupation": "财务会计",
+      "occupation_key": "candidate:财务会计",
+      "contexts": [
+        "l1:物流与供应链",
+        "raw:事业单位",
+        "raw:国企",
+        "raw:能源化工环保"
+      ],
+      "evidence_volume": 17,
+      "completed_inference_groups": 4,
+      "skill_count": 19,
+      "shared_skills": [
+        "财务会计"
+      ],
+      "distinctive_skills_by_context": {
+        "l1:物流与供应链": [
+          "数据分析",
+          "物流与供应链知识",
+          "细致与责任心",
+          "财务会计",
+          "跨部门沟通能力"
+        ],
+        "raw:事业单位": [
+          "信息管理",
+          "执行力",
+          "细致严谨",
+          "综合业务处理",
+          "财务会计",
+          "财务管理"
+        ],
+        "raw:国企": [
+          "审计",
+          "投资分析",
+          "数据分析能力",
+          "沟通协调能力",
+          "细致严谨",
+          "财务会计",
+          "财务管理",
+          "风险管理"
+        ],
+        "raw:能源化工环保": [
+          "企管法规理解",
+          "细致严谨的工作态度",
+          "能源化工领域知识",
+          "财务会计",
+          "财务管理",
+          "跨专业协作能力"
+        ]
+      },
+      "deterministic_demo_score": 610,
+      "selection_basis": "context_count + evidence + completed inference + shared/distinctive skill structure"
+    },
+    {
+      "occupation": "硬件测试工程师",
+      "occupation_key": "candidate:硬件测试工程师",
+      "contexts": [
+        "l1:信息技术与数字产业",
+        "l1:新能源与能源产业",
+        "l1:电子信息与通信产业",
+        "raw:科技"
+      ],
+      "evidence_volume": 16,
+      "completed_inference_groups": 4,
+      "skill_count": 15,
+      "shared_skills": [
+        "硬件测试"
+      ],
+      "distinctive_skills_by_context": {
+        "l1:信息技术与数字产业": [
+          "团队协作",
+          "嵌入式系统理解",
+          "电子电路知识",
+          "硬件测试",
+          "问题诊断能力"
+        ],
+        "l1:新能源与能源产业": [
+          "制造工艺理解",
+          "电力电子知识",
+          "硬件测试",
+          "跨部门沟通",
+          "问题解决能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "嵌入式系统理解",
+          "电子与通信知识",
+          "硬件测试",
+          "软件测试基础",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "团队协作",
+          "嵌入式系统开发",
+          "测试自动化",
+          "电气工程知识",
+          "硬件测试",
+          "细致严谨",
+          "问题解决能力"
+        ]
+      },
+      "deterministic_demo_score": 586,
+      "selection_basis": "context_count + evidence + completed inference + shared/distinctive skill structure"
+    }
+  ],
+  "product_manager": {
+    "matched_occupation_records": [
+      {
+        "occupation": "产品经理",
+        "mapped": true,
+        "canonical_occupation_id": "OCC0289",
+        "job_group_count": 13,
+        "contexts": [
+          {
+            "context": "l1:信息技术与数字产业",
+            "job_group_ids": [
+              "JG2-a23785ca8fa78e6b"
+            ],
+            "recruitment_evidence_count": 17,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品需求分析",
+              "市场和用户调研",
+              "敏捷思维与快速学习",
+              "数据分析能力",
+              "用户体验设计",
+              "跨部门沟通协调",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品需求分析",
+              "市场和用户调研",
+              "敏捷思维与快速学习",
+              "跨部门沟通协调",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "数据分析能力",
+              "用户体验设计"
+            ]
+          },
+          {
+            "context": "l1:新能源与能源产业",
+            "job_group_ids": [
+              "JG2-c415ac740311b4a5"
+            ],
+            "recruitment_evidence_count": 3,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品规划",
+              "市场需求分析",
+              "技术理解能力",
+              "跨部门沟通",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品规划",
+              "市场需求分析",
+              "跨部门沟通",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "技术理解能力"
+            ]
+          },
+          {
+            "context": "l1:生物医药与生命科学",
+            "job_group_ids": [
+              "JG2-5f57cd4b3f7a5ec1"
+            ],
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品规划",
+              "市场需求分析",
+              "解决复杂问题能力",
+              "跨部门沟通协调",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品规划",
+              "市场需求分析",
+              "解决复杂问题能力",
+              "跨部门沟通协调",
+              "项目管理"
+            ],
+            "domain_specific_skills": []
+          },
+          {
+            "context": "l1:电子信息与通信产业",
+            "job_group_ids": [
+              "JG2-0df99ba69d815c60"
+            ],
+            "recruitment_evidence_count": 9,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品管理",
+              "数据分析",
+              "跨部门协作",
+              "需求分析",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品管理",
+              "跨部门协作",
+              "需求分析",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "数据分析"
+            ]
+          },
+          {
+            "context": "l1:电子商务与零售",
+            "job_group_ids": [
+              "JG2-0b2e5517f391623c"
+            ],
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品管理",
+              "市场分析",
+              "数据驱动决策",
+              "跨团队沟通",
+              "适应多变环境",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品管理",
+              "跨团队沟通",
+              "适应多变环境",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "市场分析",
+              "数据驱动决策"
+            ]
+          },
+          {
+            "context": "l1:金融与金融科技",
+            "job_group_ids": [
+              "JG2-0fd9668ebe70f6d3"
+            ],
+            "recruitment_evidence_count": 6,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品规划与管理",
+              "数据驱动决策能力",
+              "跨部门沟通协调",
+              "金融行业知识",
+              "需求分析与用户调研",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品规划与管理",
+              "数据驱动决策能力",
+              "跨部门沟通协调",
+              "需求分析与用户调研",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "金融行业知识"
+            ]
+          },
+          {
+            "context": "raw:其他",
+            "job_group_ids": [
+              "JG2-0b9985bab5a74e5a"
+            ],
+            "recruitment_evidence_count": 4,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品规划",
+              "客户需求理解",
+              "市场分析",
+              "跨部门沟通",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品规划",
+              "客户需求理解",
+              "市场分析",
+              "跨部门沟通",
+              "项目管理"
+            ],
+            "domain_specific_skills": []
+          },
+          {
+            "context": "raw:国企",
+            "job_group_ids": [
+              "JG2-d4a4174a07263d6a"
+            ],
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品规划",
+              "数据驱动决策",
+              "跨部门沟通协调",
+              "需求分析",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品规划",
+              "数据驱动决策",
+              "跨部门沟通协调",
+              "需求分析",
+              "项目管理"
+            ],
+            "domain_specific_skills": []
+          },
+          {
+            "context": "raw:消费",
+            "job_group_ids": [
+              "JG2-3ba435f4d13bcc85"
+            ],
+            "recruitment_evidence_count": 5,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品规划",
+              "客户需求理解",
+              "市场调研",
+              "数据分析能力",
+              "跨部门沟通",
+              "问题解决能力",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品规划",
+              "客户需求理解",
+              "市场调研",
+              "数据分析能力",
+              "跨部门沟通",
+              "问题解决能力",
+              "项目管理"
+            ],
+            "domain_specific_skills": []
+          },
+          {
+            "context": "raw:游戏",
+            "job_group_ids": [
+              "JG2-b37f4111cc12069f"
+            ],
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品规划",
+              "市场分析",
+              "敏捷适应能力",
+              "用户研究",
+              "跨团队沟通",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品规划",
+              "敏捷适应能力",
+              "跨团队沟通",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "市场分析",
+              "用户研究"
+            ]
+          },
+          {
+            "context": "raw:生物医药",
+            "job_group_ids": [
+              "JG2-42ef56c279b6db66"
+            ],
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品规划",
+              "客户需求分析",
+              "市场研究",
+              "跨部门沟通",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品规划",
+              "跨部门沟通",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "客户需求分析",
+              "市场研究"
+            ]
+          },
+          {
+            "context": "raw:科技",
+            "job_group_ids": [
+              "JG2-19017177ded06f52"
+            ],
+            "recruitment_evidence_count": 9,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品规划",
+              "行业技术理解",
+              "跨部门沟通协调",
+              "需求分析",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品规划",
+              "跨部门沟通协调",
+              "需求分析",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "行业技术理解"
+            ]
+          },
+          {
+            "context": "raw:能源化工环保",
+            "job_group_ids": [
+              "JG2-9690f3b420de77d4"
+            ],
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "产品规划",
+              "市场分析",
+              "沟通能力",
+              "跨部门协调",
+              "项目管理"
+            ],
+            "core_skills": [
+              "产品规划",
+              "市场分析",
+              "沟通能力",
+              "跨部门协调",
+              "项目管理"
+            ],
+            "domain_specific_skills": []
+          }
+        ],
+        "recruitment_evidence_count": 65,
+        "completed_inference_group_count": 13,
+        "skill_count": 34
+      },
+      {
+        "occupation": "AI产品经理",
+        "mapped": true,
+        "canonical_occupation_id": "OCC0036",
+        "job_group_count": 6,
+        "contexts": [
+          {
+            "context": "l1:信息技术与数字产业",
+            "job_group_ids": [
+              "JG2-3bb7a98a6529a36d"
+            ],
+            "recruitment_evidence_count": 5,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "AI 产品管理",
+              "人工智能技术理解",
+              "商业分析",
+              "跨部门沟通协调",
+              "项目管理"
+            ],
+            "core_skills": [
+              "AI 产品管理",
+              "跨部门沟通协调",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "人工智能技术理解",
+              "商业分析"
+            ]
+          },
+          {
+            "context": "l1:电子信息与通信产业",
+            "job_group_ids": [
+              "JG2-ad54285e3ebe2927"
+            ],
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "人工智能产品管理",
+              "市场需求分析",
+              "电子信息与通信产业知识",
+              "跨部门沟通协调",
+              "项目管理"
+            ],
+            "core_skills": [
+              "跨部门沟通协调",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "人工智能产品管理",
+              "市场需求分析",
+              "电子信息与通信产业知识"
+            ]
+          },
+          {
+            "context": "l1:金融与金融科技",
+            "job_group_ids": [
+              "JG2-c5493a17b514c4f2"
+            ],
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "AI 产品管理",
+              "数据驱动决策",
+              "用户需求分析",
+              "跨部门协调",
+              "金融科技知识"
+            ],
+            "core_skills": [
+              "AI 产品管理",
+              "用户需求分析",
+              "跨部门协调"
+            ],
+            "domain_specific_skills": [
+              "数据驱动决策",
+              "金融科技知识"
+            ]
+          },
+          {
+            "context": "raw:国企",
+            "job_group_ids": [
+              "JG2-83fba2c0a728119b"
+            ],
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "AI产品管理",
+              "人工智能及大模型理解",
+              "行业适应能力（国企环境）",
+              "跨部门沟通协调",
+              "项目管理"
+            ],
+            "core_skills": [
+              "AI产品管理",
+              "跨部门沟通协调",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "人工智能及大模型理解",
+              "行业适应能力（国企环境）"
+            ]
+          },
+          {
+            "context": "raw:消费,科技",
+            "job_group_ids": [
+              "JG2-6206ca75cf013ebc"
+            ],
+            "recruitment_evidence_count": 1,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "AI产品管理",
+              "产品需求分析",
+              "技术背景理解",
+              "跨文化沟通能力",
+              "跨行业协调能力"
+            ],
+            "core_skills": [
+              "AI产品管理",
+              "产品需求分析",
+              "技术背景理解"
+            ],
+            "domain_specific_skills": [
+              "跨文化沟通能力",
+              "跨行业协调能力"
+            ]
+          },
+          {
+            "context": "raw:科技",
+            "job_group_ids": [
+              "JG2-4847aa5ab9bc145b"
+            ],
+            "recruitment_evidence_count": 4,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "AI产品管理",
+              "人工智能技术理解",
+              "技术沟通",
+              "跨学科协调能力",
+              "项目管理"
+            ],
+            "core_skills": [
+              "AI产品管理",
+              "技术沟通",
+              "跨学科协调能力",
+              "项目管理"
+            ],
+            "domain_specific_skills": [
+              "人工智能技术理解"
+            ]
+          }
+        ],
+        "recruitment_evidence_count": 16,
+        "completed_inference_group_count": 6,
+        "skill_count": 21
+      },
+      {
+        "occupation": "硬件产品经理",
+        "mapped": false,
+        "canonical_occupation_id": null,
+        "job_group_count": 1,
+        "contexts": [
+          {
+            "context": "raw:科技",
+            "job_group_ids": [
+              "JG2-a0f9fb44f80a970b"
+            ],
+            "recruitment_evidence_count": 3,
+            "completed_inference_group_count": 1,
+            "skills": [
+              "市场需求分析",
+              "技术沟通能力",
+              "硬件产品设计",
+              "跨团队协作",
+              "项目管理"
+            ],
+            "core_skills": [
+              "市场需求分析",
+              "技术沟通能力",
+              "硬件产品设计",
+              "跨团队协作",
+              "项目管理"
+            ],
+            "domain_specific_skills": []
+          }
+        ],
+        "recruitment_evidence_count": 3,
+        "completed_inference_group_count": 1,
+        "skill_count": 5
+      }
+    ],
+    "comparison_candidates": [
+      {
+        "occupation_key": "canonical:OCC0289",
+        "occupation_label": "产品经理",
+        "mapped": true,
+        "contexts": [
+          {
+            "context": "l1:信息技术与数字产业",
+            "recruitment_evidence_count": 17,
+            "completed_inference_group_count": 1,
+            "skill_count": 7
+          },
+          {
+            "context": "l1:新能源与能源产业",
+            "recruitment_evidence_count": 3,
+            "completed_inference_group_count": 1,
+            "skill_count": 5
+          },
+          {
+            "context": "l1:生物医药与生命科学",
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skill_count": 5
+          },
+          {
+            "context": "l1:电子信息与通信产业",
+            "recruitment_evidence_count": 9,
+            "completed_inference_group_count": 1,
+            "skill_count": 5
+          },
+          {
+            "context": "l1:电子商务与零售",
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skill_count": 6
+          },
+          {
+            "context": "l1:金融与金融科技",
+            "recruitment_evidence_count": 6,
+            "completed_inference_group_count": 1,
+            "skill_count": 6
+          },
+          {
+            "context": "raw:其他",
+            "recruitment_evidence_count": 4,
+            "completed_inference_group_count": 1,
+            "skill_count": 5
+          },
+          {
+            "context": "raw:国企",
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skill_count": 5
+          },
+          {
+            "context": "raw:消费",
+            "recruitment_evidence_count": 5,
+            "completed_inference_group_count": 1,
+            "skill_count": 7
+          },
+          {
+            "context": "raw:游戏",
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skill_count": 6
+          },
+          {
+            "context": "raw:生物医药",
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skill_count": 5
+          },
+          {
+            "context": "raw:科技",
+            "recruitment_evidence_count": 9,
+            "completed_inference_group_count": 1,
+            "skill_count": 5
+          },
+          {
+            "context": "raw:能源化工环保",
+            "recruitment_evidence_count": 2,
+            "completed_inference_group_count": 1,
+            "skill_count": 5
+          }
+        ],
+        "shared_skills": [
+          "项目管理"
+        ],
+        "context_specific_skills": {
+          "l1:信息技术与数字产业": [
+            "产品需求分析",
+            "市场和用户调研",
+            "敏捷思维与快速学习",
+            "数据分析能力",
+            "用户体验设计",
+            "跨部门沟通协调",
+            "项目管理"
+          ],
+          "l1:新能源与能源产业": [
+            "产品规划",
+            "市场需求分析",
+            "技术理解能力",
+            "跨部门沟通",
+            "项目管理"
+          ],
+          "l1:生物医药与生命科学": [
+            "产品规划",
+            "市场需求分析",
+            "解决复杂问题能力",
+            "跨部门沟通协调",
+            "项目管理"
+          ],
+          "l1:电子信息与通信产业": [
+            "产品管理",
+            "数据分析",
+            "跨部门协作",
+            "需求分析",
+            "项目管理"
+          ],
+          "l1:电子商务与零售": [
+            "产品管理",
+            "市场分析",
+            "数据驱动决策",
+            "跨团队沟通",
+            "适应多变环境",
+            "项目管理"
+          ],
+          "l1:金融与金融科技": [
+            "产品规划与管理",
+            "数据驱动决策能力",
+            "跨部门沟通协调",
+            "金融行业知识",
+            "需求分析与用户调研",
+            "项目管理"
+          ],
+          "raw:其他": [
+            "产品规划",
+            "客户需求理解",
+            "市场分析",
+            "跨部门沟通",
+            "项目管理"
+          ],
+          "raw:国企": [
+            "产品规划",
+            "数据驱动决策",
+            "跨部门沟通协调",
+            "需求分析",
+            "项目管理"
+          ],
+          "raw:消费": [
+            "产品规划",
+            "客户需求理解",
+            "市场调研",
+            "数据分析能力",
+            "跨部门沟通",
+            "问题解决能力",
+            "项目管理"
+          ],
+          "raw:游戏": [
+            "产品规划",
+            "市场分析",
+            "敏捷适应能力",
+            "用户研究",
+            "跨团队沟通",
+            "项目管理"
+          ],
+          "raw:生物医药": [
+            "产品规划",
+            "客户需求分析",
+            "市场研究",
+            "跨部门沟通",
+            "项目管理"
+          ],
+          "raw:科技": [
+            "产品规划",
+            "行业技术理解",
+            "跨部门沟通协调",
+            "需求分析",
+            "项目管理"
+          ],
+          "raw:能源化工环保": [
+            "产品规划",
+            "市场分析",
+            "沟通能力",
+            "跨部门协调",
+            "项目管理"
+          ]
+        },
+        "eligibility_rule": {
+          "minimum_contexts": 2,
+          "minimum_completed_groups_per_context": 1,
+          "minimum_recruitment_evidence_per_context": 1,
+          "minimum_skills_per_context": 3,
+          "requires_shared_and_distinctive_skills": true
+        }
+      }
+    ],
+    "eligibility": true
+  }
+}

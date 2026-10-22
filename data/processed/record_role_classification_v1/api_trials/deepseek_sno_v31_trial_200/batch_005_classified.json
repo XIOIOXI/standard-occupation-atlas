@@ -1,0 +1,155 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-batch-v2",
+  "batch_number": 5,
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 20,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "cf5f532d-4b90-4b80-9c8a-2e9c2be99ef1",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791836560,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 16393,
+    "cached_input_tokens": 15488,
+    "uncached_input_tokens": 905,
+    "output_tokens": 1131,
+    "reasoning_tokens": 0,
+    "total_tokens": 17524
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008608140000000001
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-1f4e1a0096860e1fc21d",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "reason": "标题为算法优化工程师，核心是算法研发，但未说明视觉/NLP/推荐等具体方向，停在二级。"
+    },
+    {
+      "occupation_id": "SNO-ad75b05b0c4e14fde23d",
+      "status": "review",
+      "target_category_id": "L17-01",
+      "reason": "空港物流仅说明物流领域，未明确是调度运输、仓储还是其他物流作业方向。"
+    },
+    {
+      "occupation_id": "SNO-b65e1b6f9bd49e8b8a44",
+      "status": "mapped",
+      "target_category_id": "L13-02",
+      "reason": "营业网点业务岗(营销服务)核心为营销服务，面向个人客户，归个人客户销售。"
+    },
+    {
+      "occupation_id": "SNO-7abcd404c614c408f9af",
+      "status": "mapped",
+      "target_category_id": "L24-08",
+      "reason": "土建质量员核心为土建工程质量检查验收，归工程监理与验收。"
+    },
+    {
+      "occupation_id": "SNO-dc102a15d3ada0126162",
+      "status": "mapped",
+      "target_category_id": "L24-04",
+      "reason": "算力设施暖通工程师核心为暖通专业，归建筑机电与设备工程。"
+    },
+    {
+      "occupation_id": "SNO-f6c5e273afe72ac33c47",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "reason": "高复全科教师核心为学科教学，但未说明具体学科，停在学科与通识教学二级。"
+    },
+    {
+      "occupation_id": "SNO-312342748278bb43b524",
+      "status": "mapped",
+      "target_category_id": "L06-01-02",
+      "reason": "开关柜结构设计属于产品结构设计，归机械与结构设计下的产品结构设计。"
+    },
+    {
+      "occupation_id": "SNO-bbc6f9d1b0d139523695",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "reason": "具身智能VLA方向核心为视觉语言动作模型算法研发，但目录无对应三级，停在算法研发二级。"
+    },
+    {
+      "occupation_id": "SNO-9274d63948e8c7c66253",
+      "status": "mapped",
+      "target_category_id": "L06-05-01",
+      "reason": "有机合成高级研究员核心为有机合成反应开发，归化学合成与反应开发。"
+    },
+    {
+      "occupation_id": "SNO-93ffb87ac5a6a3ae38fd",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "reason": "算法工程师仅说明算法研发职能，未说明具体算法方向，停在机器学习与算法研发二级。"
+    },
+    {
+      "occupation_id": "SNO-8f6f32893e82aa928050",
+      "status": "mapped",
+      "target_category_id": "L08-01",
+      "reason": "产品经理(AI方向)核心为AI应用产品管理，归数字与软件产品管理。"
+    },
+    {
+      "occupation_id": "SNO-f0947d368b70d02363bd",
+      "status": "mapped",
+      "target_category_id": "L19-08",
+      "reason": "财会实习生涉及财务管理、会计、审计、资产管理等，方向未明确，归通用财务工作。"
+    },
+    {
+      "occupation_id": "SNO-18d0e05d910ecfaf252c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "运营班操作仅说明运营操作，未明确是生产、物流还是其他运营方向。"
+    },
+    {
+      "occupation_id": "SNO-3b283eed98a79c466ec4",
+      "status": "mapped",
+      "target_category_id": "L14-01",
+      "reason": "游戏运营核心为游戏产品与平台运营，归产品与平台运营。"
+    },
+    {
+      "occupation_id": "SNO-63163982cb6463468861",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "reason": "市场营销支持核心为市场营销职能，但未说明策略、品牌或投放等具体方向。"
+    },
+    {
+      "occupation_id": "SNO-b2ac28211b24b1a7f7fd",
+      "status": "mapped",
+      "target_category_id": "L23-09-02",
+      "reason": "客车运维操作技能核心为车辆设备维修保全，归工业设备维修保全。"
+    },
+    {
+      "occupation_id": "SNO-8d2d2381e456e923ce46",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "智能建造仅说明建造领域，未明确是设计、施工、造价还是其他工程方向。"
+    },
+    {
+      "occupation_id": "SNO-5c7433887a97a533145f",
+      "status": "mapped",
+      "target_category_id": "L08-01",
+      "reason": "测评产品经理核心为测评类数字产品管理，归数字与软件产品管理。"
+    },
+    {
+      "occupation_id": "SNO-169c5690d158a4e4e0cb",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "reason": "流体力学仿真工程师核心为流体与热流体工程，归热流体与动力工程。"
+    },
+    {
+      "occupation_id": "SNO-74e8841c43022c18448b",
+      "status": "mapped",
+      "target_category_id": "L26-01",
+      "reason": "农艺师核心为农业种植技术，归农业与种植技术。"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "usable_skill_node_count": 2396,
+  "usable_global_pmi_edge_count": 128,
+  "louvain_community_count": 11,
+  "community_sizes": [
+    {
+      "community_id": "community-8",
+      "skill_count": 24
+    },
+    {
+      "community_id": "community-0",
+      "skill_count": 14
+    },
+    {
+      "community_id": "community-10",
+      "skill_count": 13
+    },
+    {
+      "community_id": "community-6",
+      "skill_count": 9
+    },
+    {
+      "community_id": "community-7",
+      "skill_count": 9
+    },
+    {
+      "community_id": "community-9",
+      "skill_count": 6
+    },
+    {
+      "community_id": "community-1",
+      "skill_count": 3
+    },
+    {
+      "community_id": "community-4",
+      "skill_count": 3
+    },
+    {
+      "community_id": "community-5",
+      "skill_count": 3
+    },
+    {
+      "community_id": "community-2",
+      "skill_count": 2
+    },
+    {
+      "community_id": "community-3",
+      "skill_count": 2
+    }
+  ],
+  "relationship_levels": {
+    "global_market_skill_relationships": {
+      "status": "SUPPORTED",
+      "source": "skill_cooccurrence_pmi.json",
+      "scope": "global across selective completed inference groups"
+    },
+    "occupation_specific_skill_relationships": {
+      "status": "DERIVABLE",
+      "method": "recompute co-occurrence over completed groups keyed by occupation identity; not present as a frozen artifact"
+    },
+    "occupation_context_specific_relationships": {
+      "status": "DERIVABLE",
+      "method": "recompute co-occurrence over completed groups partitioned by occupation and industry/domain context"
+    }
+  },
+  "visual_relationships": {
+    "occupation_to_skill": "DERIVABLE",
+    "occupation_to_skill_community": "DERIVABLE",
+    "community_to_skills": "SUPPORTED",
+    "context_to_domain_skills": "DERIVABLE",
+    "skill_to_recruitment_evidence": "SUPPORTED",
+    "skill_to_skill_pmi": "SUPPORTED",
+    "skill_prerequisite_edges": "NOT_SUPPORTED"
+  },
+  "domain_skill_profiles_count": 0,
+  "pmi_parameters": {
+    "pmi_min_group_support": 5,
+    "pmi_min_pair_support": 5,
+    "pmi_requires_positive_value": true,
+    "pmi_group_count": 985
+  },
+  "community_source": {
+    "pmi_min_group_support": 5,
+    "pmi_min_pair_support": 5,
+    "pmi_requires_positive_value": true,
+    "pmi_group_count": 985
+  }
+}

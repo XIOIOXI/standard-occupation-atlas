@@ -1,0 +1,1633 @@
+{
+  "schema_version": "deepseek-name-classification-trial-v3-manual-semantic-audit-v1",
+  "audit_method": "Every title was independently read against the v3 API output and frozen taxonomy; no v2 verdict was copied as a default.",
+  "input_count": 100,
+  "summary": {
+    "audit_verdict_counts": {
+      "correct": 57,
+      "name_insufficient": 33,
+      "error": 10
+    },
+    "model_output_handling_counts": {
+      "appropriate": 69,
+      "inappropriate": 31
+    },
+    "api_status_by_audit_verdict": {
+      "correct": {
+        "mapped": 51,
+        "taxonomy_gap": 2,
+        "multi_role": 4
+      },
+      "error": {
+        "mapped": 9,
+        "review": 1
+      },
+      "name_insufficient": {
+        "review": 12,
+        "mapped": 21
+      }
+    }
+  },
+  "rows": [
+    {
+      "ordinal": 1,
+      "occupation_id": "SNO-142a6a0c7fd85c77a653",
+      "occupation_name": "通信网络运维工程师",
+      "api_result": {
+        "occupation_id": "SNO-142a6a0c7fd85c77a653",
+        "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+        "status": "mapped",
+        "reason": "通信网络运维明确属于通信网络建设与维护"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "电子/电气/通信/electronic-communication/telecom-network",
+      "reason": "通信网络运维直接承接通信网络维护。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 2,
+      "occupation_id": "SNO-19b7e6668ce6eadf9d5f",
+      "occupation_name": "CPUIP验证工程师",
+      "api_result": {
+        "occupation_id": "SNO-19b7e6668ce6eadf9d5f",
+        "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-verification",
+        "status": "mapped",
+        "reason": "CPU IP验证属于芯片验证"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "电子/电气/通信/electronic-semiconductor/chip-verification",
+      "reason": "CPU IP验证属于芯片验证。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 3,
+      "occupation_id": "SNO-d1af927837398df0da3d",
+      "occupation_name": "市场职能",
+      "api_result": {
+        "occupation_id": "SNO-d1af927837398df0da3d",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "市场职能过于笼统，无法判断具体市场方向"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "市场职能未说明具体职责。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 4,
+      "occupation_id": "SNO-39a924b725bec1208288",
+      "occupation_name": "会计专员",
+      "api_result": {
+        "occupation_id": "SNO-39a924b725bec1208288",
+        "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+        "status": "mapped",
+        "reason": "会计专员属于总账与财务核算"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "财务/审计/税务/finance-accounting/acct-general",
+      "reason": "会计专员可由通用财务核算承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 5,
+      "occupation_id": "SNO-1c1d5e776a3e369d86a2",
+      "occupation_name": "分两个批次开展招聘。第一批次为省市局(公司)机关相关",
+      "api_result": {
+        "occupation_id": "SNO-1c1d5e776a3e369d86a2",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "名称截断且为招聘批次描述，无法识别职业"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "招聘说明而非职业名称。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 6,
+      "occupation_id": "SNO-fd53b86bbab3f0c4fc37",
+      "occupation_name": "外科医师",
+      "api_result": {
+        "occupation_id": "SNO-fd53b86bbab3f0c4fc37",
+        "target_category_id": "医疗健康/health-doctor/medical-clinical",
+        "status": "mapped",
+        "reason": "外科医师属于临床诊疗"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "医疗健康/health-doctor/medical-clinical",
+      "reason": "外科医师属于临床诊疗。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 7,
+      "occupation_id": "SNO-76216600279c895f3d7b",
+      "occupation_name": "电气工程师(交付技术)",
+      "api_result": {
+        "occupation_id": "SNO-76216600279c895f3d7b",
+        "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+        "status": "mapped",
+        "reason": "电气工程师交付技术偏向自动化设备现场调试"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "电子/电气/通信/electronic-automation/automation-equipment",
+      "reason": "交付技术与现场调试是可接受的电气自动化承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 8,
+      "occupation_id": "SNO-869c600119685247c114",
+      "occupation_name": "客服培训生",
+      "api_result": {
+        "occupation_id": "SNO-869c600119685247c114",
+        "target_category_id": "运营/客服/ops-service/service-frontline",
+        "status": "mapped",
+        "reason": "客服培训生属于一线客服与客户支持"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "运营/客服/ops-service/service-frontline",
+      "reason": "客服是核心职责，培训生不改变职业。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 9,
+      "occupation_id": "SNO-22b51b65e4b0767a3b10",
+      "occupation_name": "初级DQE工程师(电气)",
+      "api_result": {
+        "occupation_id": "SNO-22b51b65e4b0767a3b10",
+        "target_category_id": "生产制造/manufacturing-quality/quality-control",
+        "status": "mapped",
+        "reason": "DQE为质量工程师，电气方向偏向质量检验与过程控制"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造/manufacturing-quality/quality-control",
+      "reason": "DQE属于质量控制。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 10,
+      "occupation_id": "SNO-ddfc61f055c9d52b6b4c",
+      "occupation_name": "2026年浙江省新昌中学第三轮计划招聘教师6名(语文2人、英语1人、物理1人、化学1人、地理1人)",
+      "api_result": {
+        "occupation_id": "SNO-ddfc61f055c9d52b6b4c",
+        "target_category_id": "教育培训/edu-teacher/teacher-k12",
+        "status": "mapped",
+        "reason": "中学招聘教师属于基础教育教学"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "教育培训/edu-teacher/teacher-k12",
+      "reason": "各项均为中学教师，可由基础教育教学统一承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 11,
+      "occupation_id": "SNO-ff3014992f3f2405a5f2",
+      "occupation_name": "燃烧室设计",
+      "api_result": {
+        "occupation_id": "SNO-ff3014992f3f2405a5f2",
+        "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+        "status": "mapped",
+        "reason": "燃烧室设计属于机械结构与产品设计"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造/manufacturing-mechanical/mechanical-design",
+      "reason": "核心职责是机械结构设计。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 12,
+      "occupation_id": "SNO-512bfb7e1b0de33fe20f",
+      "occupation_name": "车辆控制工程师",
+      "api_result": {
+        "occupation_id": "SNO-512bfb7e1b0de33fe20f",
+        "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+        "status": "mapped",
+        "reason": "车辆控制工程师属于整车与零部件研发"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "reason": "车辆控制属于汽车研发。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 13,
+      "occupation_id": "SNO-d2e913e342d9f76cd823",
+      "occupation_name": "数字化仿真应用工程师",
+      "api_result": {
+        "occupation_id": "SNO-d2e913e342d9f76cd823",
+        "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+        "status": "mapped",
+        "reason": "数字化仿真应用工程师偏向机械产品设计仿真"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "仿真对象和工程领域缺失，不能推定机械设计。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 14,
+      "occupation_id": "SNO-5574ea8bd6b623356ccd",
+      "occupation_name": "国际贸易经理",
+      "api_result": {
+        "occupation_id": "SNO-5574ea8bd6b623356ccd",
+        "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+        "status": "mapped",
+        "reason": "国际贸易经理偏向国际市场与客户开发"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "采购/贸易/trade-import-export/import-export-development",
+      "reason": "国际贸易经理可归国际市场客户开发。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 15,
+      "occupation_id": "SNO-18b965c9c5b9e53030cc",
+      "occupation_name": "设备技术员",
+      "api_result": {
+        "occupation_id": "SNO-18b965c9c5b9e53030cc",
+        "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+        "status": "mapped",
+        "reason": "设备技术员偏向设备维修与安装"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "reason": "设备技术员可由设备维修安装承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 16,
+      "occupation_id": "SNO-96d890047d86358d7739",
+      "occupation_name": "动力总成研发工程师",
+      "api_result": {
+        "occupation_id": "SNO-96d890047d86358d7739",
+        "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+        "status": "mapped",
+        "reason": "动力总成研发属于整车与零部件研发"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "reason": "动力总成研发属于汽车研发。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 17,
+      "occupation_id": "SNO-0f7a6e58e0396fa5a5d3",
+      "occupation_name": "总装工艺员",
+      "api_result": {
+        "occupation_id": "SNO-0f7a6e58e0396fa5a5d3",
+        "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-manufacturing",
+        "status": "mapped",
+        "reason": "总装工艺员属于汽车制造与工艺"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造",
+      "reason": "总装不必然是汽车，名称只能确认制造工艺领域。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 18,
+      "occupation_id": "SNO-1f45fd778a1c2fee3330",
+      "occupation_name": "安全研究工程师",
+      "api_result": {
+        "occupation_id": "SNO-1f45fd778a1c2fee3330",
+        "target_category_id": "互联网/AI/internet-security/security-application",
+        "status": "mapped",
+        "reason": "安全研究工程师偏向应用与数据安全"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "安全不必然是网络安全，领域缺失。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 19,
+      "occupation_id": "SNO-4148c03ab66b5a3c7e86",
+      "occupation_name": "社媒运营(日语)",
+      "api_result": {
+        "occupation_id": "SNO-4148c03ab66b5a3c7e86",
+        "target_category_id": "运营/客服/ops-social-media/media-social",
+        "status": "mapped",
+        "reason": "社媒运营属于社交媒体运营"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "运营/客服/ops-social-media/media-social",
+      "reason": "日语为语言限定，核心是社媒运营。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 20,
+      "occupation_id": "SNO-eb279b03901806c234c1",
+      "occupation_name": "电气类管培生",
+      "api_result": {
+        "occupation_id": "SNO-eb279b03901806c234c1",
+        "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+        "status": "mapped",
+        "reason": "电气类管培生偏向电气控制与自动化设计"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "电子/电气/通信",
+      "reason": "只能确认电气领域，不能推定自动化设计。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 21,
+      "occupation_id": "SNO-d92d4a0afc2c7e920354",
+      "occupation_name": "专区运营",
+      "api_result": {
+        "occupation_id": "SNO-d92d4a0afc2c7e920354",
+        "target_category_id": "运营/客服/ops-business/business-ops-process",
+        "status": "mapped",
+        "reason": "专区运营属于业务运营中的流程运营"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "运营/客服",
+      "reason": "专区含义不足以细分业务流程。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 22,
+      "occupation_id": "SNO-d34cf0bb21a90c4eee42",
+      "occupation_name": "供应链解决方案工程师",
+      "api_result": {
+        "occupation_id": "SNO-d34cf0bb21a90c4eee42",
+        "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+        "status": "mapped",
+        "reason": "供应链解决方案工程师核心为供应链计划与协同"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "供应链/物流/supply-chain",
+      "reason": "供应链解决方案不等同计划采购协同。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 23,
+      "occupation_id": "SNO-5f43b78cf7549e2ea3a4",
+      "occupation_name": "算法工程师(安全方向)",
+      "api_result": {
+        "occupation_id": "SNO-5f43b78cf7549e2ea3a4",
+        "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+        "status": "mapped",
+        "reason": "算法工程师（安全方向）属通用算法研究范畴"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "算法职责明确，安全方向不妨碍通用算法承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 24,
+      "occupation_id": "SNO-b12ff0d486dd937b291b",
+      "occupation_name": "国内业务管理专员",
+      "api_result": {
+        "occupation_id": "SNO-b12ff0d486dd937b291b",
+        "target_category_id": "运营/客服/ops-business/business-ops-process",
+        "status": "mapped",
+        "reason": "国内业务管理专员属业务流程运营"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "国内业务管理不等于业务流程运营。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 25,
+      "occupation_id": "SNO-27e63eba60eb4d40d1ac",
+      "occupation_name": "结构材料工程师",
+      "api_result": {
+        "occupation_id": "SNO-27e63eba60eb4d40d1ac",
+        "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+        "status": "mapped",
+        "reason": "结构材料工程师偏机械结构与产品设计"
+      },
+      "audit_verdict": "error",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "材料工程职责明确而目录无材料研发承接，应标目录缺口。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 26,
+      "occupation_id": "SNO-3e62029d76df087822b2",
+      "occupation_name": "初中物理教师",
+      "api_result": {
+        "occupation_id": "SNO-3e62029d76df087822b2",
+        "target_category_id": "教育培训/edu-teacher/teacher-k12",
+        "status": "mapped",
+        "reason": "初中物理教师属基础教育教学"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "教育培训/edu-teacher/teacher-k12",
+      "reason": "基础教育教学明确。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 27,
+      "occupation_id": "SNO-49e5d5a10ab7fd7da7dd",
+      "occupation_name": "材料基因工程师",
+      "api_result": {
+        "occupation_id": "SNO-49e5d5a10ab7fd7da7dd",
+        "target_category_id": null,
+        "status": "taxonomy_gap",
+        "reason": "材料基因工程师属材料研发，目录无对应类别"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "材料研发职业明确，目录无对应类别。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 28,
+      "occupation_id": "SNO-49ed7f695146c6e75112",
+      "occupation_name": "环境可靠性工程师",
+      "api_result": {
+        "occupation_id": "SNO-49ed7f695146c6e75112",
+        "target_category_id": "生产制造/manufacturing-quality/quality-control",
+        "status": "mapped",
+        "reason": "环境可靠性工程师属质量检验与过程控制"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造/manufacturing-quality/quality-control",
+      "reason": "环境可靠性可由质量检验与过程控制通用承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 29,
+      "occupation_id": "SNO-d1cfe446eeb551c2e1f2",
+      "occupation_name": "市场综合监管辅助员",
+      "api_result": {
+        "occupation_id": "SNO-d1cfe446eeb551c2e1f2",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "市场综合监管辅助员职责不明确，缺少具体工作内容信息"
+      },
+      "audit_verdict": "error",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "市场监管辅助职责可识别但目录无清晰承接，应标目录缺口。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 30,
+      "occupation_id": "SNO-7dc9e0fc04e3c2a69224",
+      "occupation_name": "教育服务助理",
+      "api_result": {
+        "occupation_id": "SNO-7dc9e0fc04e3c2a69224",
+        "target_category_id": "教育培训/edu-admin/edu-admin-institution",
+        "status": "mapped",
+        "reason": "教育服务助理属教育机构行政"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "教育培训/edu-admin/edu-admin-institution",
+      "reason": "教育机构行政是合理承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 31,
+      "occupation_id": "SNO-1303fde314c3e122be68",
+      "occupation_name": "社媒运营经理(海外-西葡)",
+      "api_result": {
+        "occupation_id": "SNO-1303fde314c3e122be68",
+        "target_category_id": "运营/客服/ops-social-media/media-social",
+        "status": "mapped",
+        "reason": "社媒运营经理属社交媒体运营"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "运营/客服/ops-social-media/media-social",
+      "reason": "语言市场限定不改变社媒运营。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 32,
+      "occupation_id": "SNO-a47b055ca7ccc6f1a475",
+      "occupation_name": "软体家具质检Qc管培生",
+      "api_result": {
+        "occupation_id": "SNO-a47b055ca7ccc6f1a475",
+        "target_category_id": "生产制造/manufacturing-quality/quality-control",
+        "status": "mapped",
+        "reason": "软体家具质检QC属质量检验与过程控制"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造/manufacturing-quality/quality-control",
+      "reason": "质检QC核心明确。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 33,
+      "occupation_id": "SNO-e77e5a9120d0e52cbf8c",
+      "occupation_name": "电源设计工程师",
+      "api_result": {
+        "occupation_id": "SNO-e77e5a9120d0e52cbf8c",
+        "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+        "status": "mapped",
+        "reason": "电源设计工程师属电路与硬件设计"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "reason": "电源设计属于电路硬件设计。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 34,
+      "occupation_id": "SNO-2763e7df87bfddf62a76",
+      "occupation_name": "内贸业务",
+      "api_result": {
+        "occupation_id": "SNO-2763e7df87bfddf62a76",
+        "target_category_id": "销售/sales-general/general-sales-customer",
+        "status": "mapped",
+        "reason": "内贸业务属客户开发与直销"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "采购/贸易",
+      "reason": "内贸业务不能直接推定客户开发直销。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 35,
+      "occupation_id": "SNO-ac05f2f92fe9337ef6e6",
+      "occupation_name": "工艺实验室培训生",
+      "api_result": {
+        "occupation_id": "SNO-ac05f2f92fe9337ef6e6",
+        "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+        "status": "mapped",
+        "reason": "工艺实验室培训生属化工工艺与生产"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "工艺实验室不表示化工行业。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 36,
+      "occupation_id": "SNO-e98479e69fcbd3b4d3ef",
+      "occupation_name": "训练推理优化算法工程师",
+      "api_result": {
+        "occupation_id": "SNO-e98479e69fcbd3b4d3ef",
+        "target_category_id": "互联网/AI/internet-machine-learning/ml-deep",
+        "status": "mapped",
+        "reason": "训练推理优化算法工程师属深度学习与模型训练"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "互联网/AI/internet-machine-learning/ml-deep",
+      "reason": "训练与推理优化可归深度学习模型训练。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 37,
+      "occupation_id": "SNO-6e9243e293d1fb83d9c1",
+      "occupation_name": "AI游戏内容运营",
+      "api_result": {
+        "occupation_id": "SNO-6e9243e293d1fb83d9c1",
+        "target_category_id": "运营/客服/ops-content/content-video",
+        "status": "mapped",
+        "reason": "AI游戏内容运营属短视频与直播内容运营"
+      },
+      "audit_verdict": "error",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "运营/客服/ops-content",
+      "reason": "游戏内容运营不等同短视频直播内容。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 38,
+      "occupation_id": "SNO-35347c0451abe64eba4c",
+      "occupation_name": "AI推理工程师",
+      "api_result": {
+        "occupation_id": "SNO-35347c0451abe64eba4c",
+        "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+        "status": "mapped",
+        "reason": "AI推理工程师属机器学习平台与工程"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "互联网/AI/internet-machine-learning/ml-platform",
+      "reason": "AI推理工程可归机器学习工程平台。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 39,
+      "occupation_id": "SNO-3954f99d48d0d086082a",
+      "occupation_name": "系统建设运维及数据管理",
+      "api_result": {
+        "occupation_id": "SNO-3954f99d48d0d086082a",
+        "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+        "status": "mapped",
+        "reason": "系统建设运维及数据管理属基础设施与云运维"
+      },
+      "audit_verdict": "error",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "运维和数据管理是并列核心职责，应标多岗位。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 40,
+      "occupation_id": "SNO-d97c7f5733d3e52d2a45",
+      "occupation_name": "宏观研究员",
+      "api_result": {
+        "occupation_id": "SNO-d97c7f5733d3e52d2a45",
+        "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+        "status": "mapped",
+        "reason": "宏观研究员属市场与社会调研"
+      },
+      "audit_verdict": "error",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "金融/financial-securities/securities-research",
+      "reason": "宏观研究不等同市场社会调研，证券研究是更合理承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 41,
+      "occupation_id": "SNO-1838711f7b15f0cf9ba1",
+      "occupation_name": "公司本部法务",
+      "api_result": {
+        "occupation_id": "SNO-1838711f7b15f0cf9ba1",
+        "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+        "status": "mapped",
+        "reason": "公司本部法务属于公司法务与合规"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "reason": "公司法务与合规明确。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 42,
+      "occupation_id": "SNO-1ee0cba93e878e612df1",
+      "occupation_name": "工艺设备",
+      "api_result": {
+        "occupation_id": "SNO-1ee0cba93e878e612df1",
+        "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+        "status": "mapped",
+        "reason": "工艺设备偏向机械制造工艺与设备"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "reason": "机械制造与工艺是可接受的通用承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 43,
+      "occupation_id": "SNO-246a72f535b0fb633f71",
+      "occupation_name": "零售金融市场营销岗(成都)",
+      "api_result": {
+        "occupation_id": "SNO-246a72f535b0fb633f71",
+        "target_category_id": "销售/sales-finance/financial-sales-wealth",
+        "status": "mapped",
+        "reason": "零售金融市场营销岗核心为金融产品营销"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "销售/sales-finance/financial-sales-wealth",
+      "reason": "零售金融营销可合理归金融销售财富方向。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 44,
+      "occupation_id": "SNO-4d430387182dba25e4fb",
+      "occupation_name": "市场营销员",
+      "api_result": {
+        "occupation_id": "SNO-4d430387182dba25e4fb",
+        "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+        "status": "mapped",
+        "reason": "市场营销员属于市场/营销职能"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "市场/公关/广告",
+      "reason": "营销员没有品牌策略细分证据。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 45,
+      "occupation_id": "SNO-133566bc51aa96f3062c",
+      "occupation_name": "质量技术师",
+      "api_result": {
+        "occupation_id": "SNO-133566bc51aa96f3062c",
+        "target_category_id": "生产制造/manufacturing-quality/quality-control",
+        "status": "mapped",
+        "reason": "质量技术师核心为质量检验与过程控制"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造/manufacturing-quality/quality-control",
+      "reason": "质量技术职责可归质量控制。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 46,
+      "occupation_id": "SNO-32e09c84e82e718ed544",
+      "occupation_name": "管理类管培生(财务管理、项目管理方向)",
+      "api_result": {
+        "occupation_id": "SNO-32e09c84e82e718ed544",
+        "target_category_id": null,
+        "status": "multi_role",
+        "reason": "管培生含财务管理与项目管理两个方向"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "两个独立培养方向并列。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 47,
+      "occupation_id": "SNO-6aa8f49cc992dfd75a11",
+      "occupation_name": "测试",
+      "api_result": {
+        "occupation_id": "SNO-6aa8f49cc992dfd75a11",
+        "target_category_id": "互联网/AI/internet-test/test-functional",
+        "status": "mapped",
+        "reason": "测试岗位归入功能与自动化测试"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "测试未说明软件或行业，不能判功能自动化测试。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 48,
+      "occupation_id": "SNO-e8ec877c8da553d3c55b",
+      "occupation_name": "医生",
+      "api_result": {
+        "occupation_id": "SNO-e8ec877c8da553d3c55b",
+        "target_category_id": "医疗健康/health-doctor/medical-clinical",
+        "status": "mapped",
+        "reason": "医生属于临床诊疗"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "医疗健康/health-doctor/medical-clinical",
+      "reason": "临床诊疗是医生的通用承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 49,
+      "occupation_id": "SNO-afa906e58fbae1a1ec23",
+      "occupation_name": "投后管理",
+      "api_result": {
+        "occupation_id": "SNO-afa906e58fbae1a1ec23",
+        "target_category_id": "金融/financial-investment/investment-financing-investment",
+        "status": "mapped",
+        "reason": "投后管理属于股权投资管理"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "金融/financial-investment/investment-financing-investment",
+      "reason": "投后管理可归股权投资管理。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 50,
+      "occupation_id": "SNO-0ec7605e63aece2ec4af",
+      "occupation_name": "/ERBP研发人员",
+      "api_result": {
+        "occupation_id": "SNO-0ec7605e63aece2ec4af",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "ERBP含义不明，无法判断具体研发方向"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "缩写含义和研发方向不明。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 51,
+      "occupation_id": "SNO-b8b67433bb430ff655d7",
+      "occupation_name": "媒介助理",
+      "api_result": {
+        "occupation_id": "SNO-b8b67433bb430ff655d7",
+        "target_category_id": "市场/公关/广告/marketing-pr/pr-media-media",
+        "status": "mapped",
+        "reason": "媒介助理属于媒介关系与投放支持"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "市场/公关/广告/marketing-pr/pr-media-media",
+      "reason": "媒介关系投放支持明确。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 52,
+      "occupation_id": "SNO-dc86ef160a514ebc2b8c",
+      "occupation_name": "机务工程师(南京)",
+      "api_result": {
+        "occupation_id": "SNO-dc86ef160a514ebc2b8c",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "机务工程师行业背景不明，可能属航空或汽车等"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "机务所属行业不明。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 53,
+      "occupation_id": "SNO-fc42de8ced809920dbb0",
+      "occupation_name": "管培生专项计划",
+      "api_result": {
+        "occupation_id": "SNO-fc42de8ced809920dbb0",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "管培生专项计划未说明具体职能方向"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "计划未表达职业职责。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 54,
+      "occupation_id": "SNO-c3497b19b50f99cfbbbe",
+      "occupation_name": "业务管理",
+      "api_result": {
+        "occupation_id": "SNO-c3497b19b50f99cfbbbe",
+        "target_category_id": "运营/客服/ops-business/business-ops-process",
+        "status": "mapped",
+        "reason": "业务管理偏向业务流程运营"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "业务管理过宽，不能直接归流程运营。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 55,
+      "occupation_id": "SNO-a06b900e474184960f35",
+      "occupation_name": "创意设计师",
+      "api_result": {
+        "occupation_id": "SNO-a06b900e474184960f35",
+        "target_category_id": "设计/design-visual-interaction/design-visual",
+        "status": "mapped",
+        "reason": "创意设计师属于品牌与视觉设计"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "设计/design-visual-interaction/design-visual",
+      "reason": "品牌与视觉设计是合理承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 56,
+      "occupation_id": "SNO-be992e432c8abf4f0cc3",
+      "occupation_name": "线上运营主管",
+      "api_result": {
+        "occupation_id": "SNO-be992e432c8abf4f0cc3",
+        "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+        "status": "mapped",
+        "reason": "线上运营主管偏向线上门店与平台运营"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "运营/客服",
+      "reason": "线上运营不能归线下门店运营。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 57,
+      "occupation_id": "SNO-51f5e780348980537922",
+      "occupation_name": "智能制造专员",
+      "api_result": {
+        "occupation_id": "SNO-51f5e780348980537922",
+        "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+        "status": "mapped",
+        "reason": "智能制造专员偏向生产运营与精益改善"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造",
+      "reason": "智能制造不足以确认精益改善职责。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 58,
+      "occupation_id": "SNO-333fdf9f05504bdf318d",
+      "occupation_name": "助理软件工程师",
+      "api_result": {
+        "occupation_id": "SNO-333fdf9f05504bdf318d",
+        "target_category_id": "互联网/AI/internet-backend/backend-service",
+        "status": "mapped",
+        "reason": "助理软件工程师归入业务服务端开发"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "互联网/AI",
+      "reason": "软件工程师不能默认后端。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 59,
+      "occupation_id": "SNO-ed36359f03cb66de8943",
+      "occupation_name": "国产CADCAM软件开发工程师(参与国产CAD/CAM软件核心模块设计开发等)",
+      "api_result": {
+        "occupation_id": "SNO-ed36359f03cb66de8943",
+        "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+        "status": "mapped",
+        "reason": "CAD/CAM软件开发偏向图形与高性能计算"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "互联网/AI",
+      "reason": "名称没有C++语言证据，不能归C++图形计算。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 60,
+      "occupation_id": "SNO-2ef446313012ae14a0d6",
+      "occupation_name": "计划控制工程师",
+      "api_result": {
+        "occupation_id": "SNO-2ef446313012ae14a0d6",
+        "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+        "status": "mapped",
+        "reason": "计划控制工程师偏向生产计划与调度"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "计划控制也可为项目工程，行业未体现。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 61,
+      "occupation_id": "SNO-3278ea5e459dd3a6833e",
+      "occupation_name": "风控创优生",
+      "api_result": {
+        "occupation_id": "SNO-3278ea5e459dd3a6833e",
+        "target_category_id": "财务/审计/税务/finance-risk/risk-credit",
+        "status": "mapped",
+        "reason": "风控创优生核心为风险控制，归入风控下的信用与业务风险。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "风控领域未明确，不能限定信用业务风险。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 62,
+      "occupation_id": "SNO-c03f8539d51207af0c9d",
+      "occupation_name": "算法集成工程师",
+      "api_result": {
+        "occupation_id": "SNO-c03f8539d51207af0c9d",
+        "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+        "status": "mapped",
+        "reason": "算法集成工程师属算法工程，缺乏细分方向，归入算法研究与通用算法。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "算法工程可由通用算法研究承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 63,
+      "occupation_id": "SNO-f695c0780e0d47200402",
+      "occupation_name": "光学算法工程师",
+      "api_result": {
+        "occupation_id": "SNO-f695c0780e0d47200402",
+        "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+        "status": "mapped",
+        "reason": "光学算法工程师涉及光学与视觉算法，归入计算机视觉与三维感知。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "光学算法可合理归视觉三维感知。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 64,
+      "occupation_id": "SNO-3b2136e836af1dba2456",
+      "occupation_name": "DFT可测性设计工程师",
+      "api_result": {
+        "occupation_id": "SNO-3b2136e836af1dba2456",
+        "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-test",
+        "status": "mapped",
+        "reason": "DFT可测性设计属芯片设计与测试环节，归入封装与测试。"
+      },
+      "audit_verdict": "error",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "电子/电气/通信/electronic-semiconductor/chip-verification",
+      "reason": "DFT逻辑可测性设计更接近芯片验证，不是封装。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 65,
+      "occupation_id": "SNO-fe326e2a66e9de2a564e",
+      "occupation_name": "检测员",
+      "api_result": {
+        "occupation_id": "SNO-fe326e2a66e9de2a564e",
+        "target_category_id": "生产制造/manufacturing-quality/quality-control",
+        "status": "mapped",
+        "reason": "检测员核心为质量检验，归入质量检验与过程控制。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造/manufacturing-quality/quality-control",
+      "reason": "质量检验与过程控制是合理通用承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 66,
+      "occupation_id": "SNO-89a4e92af365046c381f",
+      "occupation_name": "股权融资及财务顾问",
+      "api_result": {
+        "occupation_id": "SNO-89a4e92af365046c381f",
+        "target_category_id": "财务/审计/税务/finance-advisor/finance-advisory-transaction",
+        "status": "mapped",
+        "reason": "股权融资及财务顾问属交易与融资顾问。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "财务/审计/税务/finance-advisor/finance-advisory-transaction",
+      "reason": "交易融资顾问直接承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 67,
+      "occupation_id": "SNO-25610785c7097a11c51f",
+      "occupation_name": "专业课教师",
+      "api_result": {
+        "occupation_id": "SNO-25610785c7097a11c51f",
+        "target_category_id": "教育培训/edu-teacher/teacher-vocational",
+        "status": "mapped",
+        "reason": "专业课教师属职业与技能教学。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "教育培训",
+      "reason": "未说明职业教育或高等教育，不能直接归职业技能教学。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 68,
+      "occupation_id": "SNO-3820b0a9f1fc2ec4b9d5",
+      "occupation_name": "硬件研发工程师",
+      "api_result": {
+        "occupation_id": "SNO-3820b0a9f1fc2ec4b9d5",
+        "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+        "status": "mapped",
+        "reason": "硬件研发工程师核心为电路与硬件设计。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "reason": "电路硬件设计是合理通用承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 69,
+      "occupation_id": "SNO-969c4b609b7d6b9c231c",
+      "occupation_name": "总经办总裁助理",
+      "api_result": {
+        "occupation_id": "SNO-969c4b609b7d6b9c231c",
+        "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+        "status": "review",
+        "reason": "总裁助理职责可能涵盖行政、文秘或业务支持，缺少具体职责信息。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "人力/行政/法务",
+      "reason": "可确认行政支持，模型以review保留不确定性。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 70,
+      "occupation_id": "SNO-f798f466da536c71f5e0",
+      "occupation_name": "管培生岗位(研发、职能、商业化、生产&供应链)",
+      "api_result": {
+        "occupation_id": "SNO-f798f466da536c71f5e0",
+        "target_category_id": null,
+        "status": "multi_role",
+        "reason": "管培生岗位明确涵盖研发、职能、商业化、生产与供应链多个方向。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "多个培养方向明确并列。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 71,
+      "occupation_id": "SNO-eb948c14cc98114d8a6b",
+      "occupation_name": "证券事务经理",
+      "api_result": {
+        "occupation_id": "SNO-eb948c14cc98114d8a6b",
+        "target_category_id": "金融/financial-securities/securities-trading",
+        "status": "mapped",
+        "reason": "证券事务经理属证券基金期货领域的运营与事务管理。"
+      },
+      "audit_verdict": "error",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "金融/financial-securities",
+      "reason": "证券事务并非基金期货交易运营。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 72,
+      "occupation_id": "SNO-d4bfaa71f3fd126a2ed1",
+      "occupation_name": "教学科研岗(政治学理论、中共党史、社会学、马克思主义中国化研究、思想政治教育、基础心理学、发展与教育心理学、应用心理学)",
+      "api_result": {
+        "occupation_id": "SNO-d4bfaa71f3fd126a2ed1",
+        "target_category_id": "教育培训/edu-teacher/teacher-higher",
+        "status": "mapped",
+        "reason": "教学科研岗属高等教育教学。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "教育培训/edu-teacher/teacher-higher",
+      "reason": "教学科研岗位可由高等教育教学统一承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 73,
+      "occupation_id": "SNO-2c46ed9676c2ed0f87ee",
+      "occupation_name": "岗理财经理",
+      "api_result": {
+        "occupation_id": "SNO-2c46ed9676c2ed0f87ee",
+        "target_category_id": "销售/sales-finance/financial-sales-wealth",
+        "status": "mapped",
+        "reason": "理财经理核心为财富与理财销售。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "销售/sales-finance/financial-sales-wealth",
+      "reason": "“岗”是冗余前缀，理财经理明确。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 74,
+      "occupation_id": "SNO-2ce8813b2951bcfa826a",
+      "occupation_name": "人力资源储备",
+      "api_result": {
+        "occupation_id": "SNO-2ce8813b2951bcfa826a",
+        "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+        "status": "mapped",
+        "reason": "人力资源储备属人力资源方向，缺乏细分，归入员工关系与人力运营。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "人力/行政/法务/people-hr",
+      "reason": "人力资源储备不能推定员工关系方向。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 75,
+      "occupation_id": "SNO-7aa8337f42c770081967",
+      "occupation_name": "基础设施互联互通促进中心专技",
+      "api_result": {
+        "occupation_id": "SNO-7aa8337f42c770081967",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "基础设施互联互通促进中心专技职责不明确，缺少具体工作内容。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "组织名称和专技不足以说明职业。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 76,
+      "occupation_id": "SNO-7be74dbf3e482a24ab2d",
+      "occupation_name": "私人教练团课全职/兼职教练职能/技术",
+      "api_result": {
+        "occupation_id": "SNO-7be74dbf3e482a24ab2d",
+        "target_category_id": "生活服务/零售/service-fitness/fitness-training",
+        "status": "mapped",
+        "reason": "私人教练团课教练属健身与体能教练。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生活服务/零售/service-fitness/fitness-training",
+      "reason": "全职兼职与团课是健身教练的修饰而非独立职业。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 77,
+      "occupation_id": "SNO-7ddaeffb4285624bbfed",
+      "occupation_name": "油气储运与新能源开发",
+      "api_result": {
+        "occupation_id": "SNO-7ddaeffb4285624bbfed",
+        "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+        "status": "mapped",
+        "reason": "油气储运与新能源开发属能源开发与工程。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "reason": "均属能源开发工程范围，可由能源工程统一承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 78,
+      "occupation_id": "SNO-bc8d911bdde59f0aabf1",
+      "occupation_name": "财务内控",
+      "api_result": {
+        "occupation_id": "SNO-bc8d911bdde59f0aabf1",
+        "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+        "status": "mapped",
+        "reason": "财务内控属内部控制与内审。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "财务/审计/税务/finance-audit/audit-internal",
+      "reason": "内部控制与内审明确。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 79,
+      "occupation_id": "SNO-1ee6e8b56f32b3181ae8",
+      "occupation_name": "算法工程师(媒体算法)",
+      "api_result": {
+        "occupation_id": "SNO-1ee6e8b56f32b3181ae8",
+        "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+        "status": "mapped",
+        "reason": "媒体算法工程师涉及音视频媒体处理，归入语音与音频算法。"
+      },
+      "audit_verdict": "error",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "互联网/AI/internet-algorithm",
+      "reason": "媒体不等于语音音频，不能确定该三级。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 80,
+      "occupation_id": "SNO-85d56bf4d4229ac85b31",
+      "occupation_name": "工程",
+      "api_result": {
+        "occupation_id": "SNO-85d56bf4d4229ac85b31",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "工程岗位名称过于宽泛，缺少具体工程方向信息。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "工程一词没有领域。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 81,
+      "occupation_id": "SNO-036b2f67b7c481989cb9",
+      "occupation_name": "新闻宣传",
+      "api_result": {
+        "occupation_id": "SNO-036b2f67b7c481989cb9",
+        "target_category_id": "影视/传媒/media-news/news-newmedia",
+        "status": "mapped",
+        "reason": "新闻宣传核心为新闻传播与宣传，归入新媒体新闻传播。"
+      },
+      "audit_verdict": "error",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "reason": "新闻宣传不必然是新媒体新闻传播。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 82,
+      "occupation_id": "SNO-1476ab7132e27b3b52f9",
+      "occupation_name": "检测技术等",
+      "api_result": {
+        "occupation_id": "SNO-1476ab7132e27b3b52f9",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "“检测技术等”表述不完整，缺少行业或检测对象信息，无法确定具体类别。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "名称不完整且领域不明。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 83,
+      "occupation_id": "SNO-8972962f317be77a6636",
+      "occupation_name": "生产调度工程师",
+      "api_result": {
+        "occupation_id": "SNO-8972962f317be77a6636",
+        "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+        "status": "mapped",
+        "reason": "生产调度工程师核心为生产计划与调度。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "reason": "生产调度直接对应生产计划调度。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 84,
+      "occupation_id": "SNO-09956061a81b7808defe",
+      "occupation_name": "生产制造员",
+      "api_result": {
+        "occupation_id": "SNO-09956061a81b7808defe",
+        "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+        "status": "mapped",
+        "reason": "生产制造员为生产线作业，归入装配与生产线作业。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "reason": "生产线作业是合理通用承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 85,
+      "occupation_id": "SNO-1080766dda240d9f40f4",
+      "occupation_name": "售后助理",
+      "api_result": {
+        "occupation_id": "SNO-1080766dda240d9f40f4",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "售后助理未说明行业或产品，无法确定具体售后类别。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "售后可指客服、维修或商务。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 86,
+      "occupation_id": "SNO-728bc2389338077e635f",
+      "occupation_name": "法律事务相关",
+      "api_result": {
+        "occupation_id": "SNO-728bc2389338077e635f",
+        "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+        "status": "mapped",
+        "reason": "法律事务相关核心为法律事务，归入公司法务与合规。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "reason": "公司法务合规是可接受的法律事务承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 87,
+      "occupation_id": "SNO-d0f517b7491e0cda26c2",
+      "occupation_name": "法务风控岗",
+      "api_result": {
+        "occupation_id": "SNO-d0f517b7491e0cda26c2",
+        "target_category_id": null,
+        "status": "multi_role",
+        "reason": "法务风控岗同时包含法务与风控两个独立职业方向。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "法务与风控是两个独立职业方向。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 88,
+      "occupation_id": "SNO-412c6d36ed5c331b18ca",
+      "occupation_name": "方案解决高级工程师",
+      "api_result": {
+        "occupation_id": "SNO-412c6d36ed5c331b18ca",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "方案解决高级工程师未说明技术领域，无法确定具体解决方案方向。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "技术领域不明。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 89,
+      "occupation_id": "SNO-e6d1a4c799fe50b4446b",
+      "occupation_name": "文案实习生(德语/英语)",
+      "api_result": {
+        "occupation_id": "SNO-e6d1a4c799fe50b4446b",
+        "target_category_id": "运营/客服/ops-copywriting/copy-content",
+        "status": "mapped",
+        "reason": "文案实习生核心为文案撰写，归入内容与新媒体文案。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "运营/客服/ops-copywriting/copy-content",
+      "reason": "语言是能力限定，核心是文案。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 90,
+      "occupation_id": "SNO-1e56d7605dec22111d2b",
+      "occupation_name": "企管法规",
+      "api_result": {
+        "occupation_id": "SNO-1e56d7605dec22111d2b",
+        "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+        "status": "mapped",
+        "reason": "企管法规核心为企业管理与法规合规，归入公司法务与合规。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "reason": "企业法规合规可由公司法务合规承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 91,
+      "occupation_id": "SNO-990a2d3c791707b2e775",
+      "occupation_name": "化工外贸业务员",
+      "api_result": {
+        "occupation_id": "SNO-990a2d3c791707b2e775",
+        "target_category_id": "销售/sales-trade/trade-sales-development",
+        "status": "mapped",
+        "reason": "化工外贸业务员核心为外贸客户开发与销售。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "销售/sales-trade/trade-sales-development",
+      "reason": "化工是产品方向，核心为外贸销售。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 92,
+      "occupation_id": "SNO-919ea4e5168775cd451c",
+      "occupation_name": "支撑",
+      "api_result": {
+        "occupation_id": "SNO-919ea4e5168775cd451c",
+        "target_category_id": null,
+        "status": "review",
+        "reason": "“支撑”名称过于笼统，缺少具体职责信息。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "名称没有职业职责。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 93,
+      "occupation_id": "SNO-60a6932da8bc0fb9a9cb",
+      "occupation_name": "机器人系统开发工程师",
+      "api_result": {
+        "occupation_id": "SNO-60a6932da8bc0fb9a9cb",
+        "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+        "status": "mapped",
+        "reason": "机器人系统开发工程师核心为机器人系统与算法开发。"
+      },
+      "audit_verdict": "error",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": "互联网/AI",
+      "reason": "机器人系统开发不必然是算法岗位。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 94,
+      "occupation_id": "SNO-14a4bd81059099693d70",
+      "occupation_name": "客户订单计划员",
+      "api_result": {
+        "occupation_id": "SNO-14a4bd81059099693d70",
+        "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+        "status": "mapped",
+        "reason": "客户订单计划员核心为订单与供应链计划协同。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "供应链/物流/supply-chain/supply-chain-planning",
+      "reason": "订单计划与供应链计划协同合理。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 95,
+      "occupation_id": "SNO-33c886a363ccb7000512",
+      "occupation_name": "零售管培生职能定向生(产研类/技术类/职能类等)",
+      "api_result": {
+        "occupation_id": "SNO-33c886a363ccb7000512",
+        "target_category_id": null,
+        "status": "multi_role",
+        "reason": "零售管培生职能定向生涵盖产研、技术、职能等多个独立方向。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "多个独立培养方向。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 96,
+      "occupation_id": "SNO-117dba594b0d6e53eb1d",
+      "occupation_name": "分行营销培训生(零售金融方向)",
+      "api_result": {
+        "occupation_id": "SNO-117dba594b0d6e53eb1d",
+        "target_category_id": "销售/sales-finance/financial-sales-wealth",
+        "status": "mapped",
+        "reason": "分行营销培训生（零售金融方向）核心为零售金融营销。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "销售/sales-finance/financial-sales-wealth",
+      "reason": "零售金融营销可由金融销售财富方向承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 97,
+      "occupation_id": "SNO-34d86fa9c3f1f82c24cc",
+      "occupation_name": "纪检",
+      "api_result": {
+        "occupation_id": "SNO-34d86fa9c3f1f82c24cc",
+        "target_category_id": null,
+        "status": "taxonomy_gap",
+        "reason": "纪检属于纪检监察职能，目录中无对应类别。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "纪检职能明确但目录没有承接类别。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 98,
+      "occupation_id": "SNO-2796afcf7a07b87d58c6",
+      "occupation_name": "样品管理员",
+      "api_result": {
+        "occupation_id": "SNO-2796afcf7a07b87d58c6",
+        "target_category_id": "生产制造/manufacturing-quality/quality-control",
+        "status": "mapped",
+        "reason": "样品管理员核心为样品管理与质量检验辅助。"
+      },
+      "audit_verdict": "name_insufficient",
+      "model_output_handling": "inappropriate",
+      "correct_category_id_or_deepest_confirmed": null,
+      "reason": "样品管理所在行业和职责范围不明。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 99,
+      "occupation_id": "SNO-e31af1e216b33714e647",
+      "occupation_name": "市场推广专员(负责在所辖区域有效执行市场推广活动等)",
+      "api_result": {
+        "occupation_id": "SNO-e31af1e216b33714e647",
+        "target_category_id": "市场/公关/广告/marketing-general/marketing-channel",
+        "status": "mapped",
+        "reason": "市场推广专员核心为区域市场推广活动执行。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "市场/公关/广告/marketing-general/marketing-channel",
+      "reason": "市场推广活动执行直接对应渠道营销活动。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    },
+    {
+      "ordinal": 100,
+      "occupation_id": "SNO-435aa6a2a3ed64664fa6",
+      "occupation_name": "石家庄分行运营培训生",
+      "api_result": {
+        "occupation_id": "SNO-435aa6a2a3ed64664fa6",
+        "target_category_id": "金融/financial-banking/bank-retail",
+        "status": "mapped",
+        "reason": "石家庄分行运营培训生核心为银行零售与综合运营。"
+      },
+      "audit_verdict": "correct",
+      "model_output_handling": "appropriate",
+      "correct_category_id_or_deepest_confirmed": "金融/financial-banking/bank-retail",
+      "reason": "分行运营可由零售综合银行通用承接。",
+      "audit_scope": "name_only; independently reviewed after v3 response"
+    }
+  ]
+}

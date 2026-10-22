@@ -1,0 +1,28 @@
+{
+  "id": "43ddea31-8b51-44ae-bbec-677ef9955544",
+  "object": "chat.completion",
+  "created": 1792571618,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-134426c75ee9a745ccb2f5152ca3eef1\",\"status\":\"mapped\",\"target_category_id\":\"L09-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L09-04\"],\"title_evidence\":\"女装设计实习生：明确为女装（服装）设计方向\",\"level_3_evidence\":null,\"reason\":\"标题直接指向服装设计职能，L09-04服装饰品与纺织设计无三级细分，故归二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16981,
+    "completion_tokens": 119,
+    "total_tokens": 17100,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 341
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

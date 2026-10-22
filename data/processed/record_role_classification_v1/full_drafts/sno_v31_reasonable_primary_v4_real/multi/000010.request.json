@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-9782666d2ee0d7113186\", \"title\": \"电气/机械/模具设计工程师\"}, {\"original_record_id\": \"TG-a405fb866fdf1caeb9ed\", \"title\": \"人力资源/行政专员（人力行政中心）\"}, {\"original_record_id\": \"TG-7cd6a657a115a54987ef\", \"title\": \"电气/机械研发工程师\"}, {\"original_record_id\": \"TG-0ed710df6483742677d9\", \"title\": \"技术类（云资源池运营、专线及云网业务支撑、IT技术支持、家集客技术支撑、网络设备维护、网络优化、交付及解决方案经理）\"}, {\"original_record_id\": \"TG-02b707a2b24274fc289d\", \"title\": \"专题研究员机械技术员电气技术员炉窑技术员理化检测员\"}, {\"original_record_id\": \"TG-2e5037d1ddeb2e9c726a\", \"title\": \"综合管理岗（金融、经济、会计、财务、管理、法律、评估、工商管理、人力资源管理、公共管理、汉语言文学、哲学、党建等）\"}, {\"original_record_id\": \"TG-6b323a9fab0688119230\", \"title\": \"法务审计\"}, {\"original_record_id\": \"TG-455429fe6ba83756b719\", \"title\": \"/暑期实习岗（品牌增长部 客户生意发展部 研发部 人力资源部 供应链管理部 财务部）\"}, {\"original_record_id\": \"TG-30db883d40a8b183fd4a\", \"title\": \"员质量管理员推广代表\"}, {\"original_record_id\": \"TG-10d9f1226907518d34df\", \"title\": \"IT/数据/通信工程师\"}, {\"original_record_id\": \"TG-94bcaaea08757b332773\", \"title\": \"集团管培生（营运类、商品类、新零售类、策略运营类、商业分析类、审计类、财务类、人力类）\"}, {\"original_record_id\": \"TG-7e8d65be483d9fb8bce5\", \"title\": \"硬件/软件技术支持工程师\"}, {\"original_record_id\": \"TG-05d5efcb20a99f433828\", \"title\": \"生产跟单/文员压铸机销售\"}, {\"original_record_id\": \"TG-7308b87a28c9e2a8b928\", \"title\": \"行政文员 本地生活运营 支付运营 行业运营 测试工程师\"}, {\"original_record_id\": \"TG-b0d19e3f8a7a860e162c\", \"title\": \"新闻宣传与档案专员\"}, {\"original_record_id\": \"TG-41c067f82fb8b91b78c4\", \"title\": \"机关服务中心餐饮管理 财务管理和审计中心信息管理\"}, {\"original_record_id\": \"TG-4d41598590cc78473f3d\", \"title\": \"管理储备岗（生产管理、计划管理、采购）（本科、硕士，专业：矿业工程、矿物加工、资源与环境；机械类、电气类、工业工程、物流管理）\"}, {\"original_record_id\": \"TG-eade0bddea6939518d43\", \"title\": \"AI工程&全栈方向 AI Agent开发工程师 AI产品运营 AI产品运营\"}, {\"original_record_id\": \"TG-7afbc5499ed1fd44f15c\", \"title\": \"策划宣传策划储备干部摄影岗\"}, {\"original_record_id\": \"TG-d6b77242f32f9d984e52\", \"title\": \"工程师（方向：工业（IE）、产品工艺（PE）、制程（ME）、模具设计、项目管理、电气、机械、视觉）\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-9782666d2ee0d7113186",
+    "TG-a405fb866fdf1caeb9ed",
+    "TG-7cd6a657a115a54987ef",
+    "TG-0ed710df6483742677d9",
+    "TG-02b707a2b24274fc289d",
+    "TG-2e5037d1ddeb2e9c726a",
+    "TG-6b323a9fab0688119230",
+    "TG-455429fe6ba83756b719",
+    "TG-30db883d40a8b183fd4a",
+    "TG-10d9f1226907518d34df",
+    "TG-94bcaaea08757b332773",
+    "TG-7e8d65be483d9fb8bce5",
+    "TG-05d5efcb20a99f433828",
+    "TG-7308b87a28c9e2a8b928",
+    "TG-b0d19e3f8a7a860e162c",
+    "TG-41c067f82fb8b91b78c4",
+    "TG-4d41598590cc78473f3d",
+    "TG-eade0bddea6939518d43",
+    "TG-7afbc5499ed1fd44f15c",
+    "TG-d6b77242f32f9d984e52"
+  ]
+}

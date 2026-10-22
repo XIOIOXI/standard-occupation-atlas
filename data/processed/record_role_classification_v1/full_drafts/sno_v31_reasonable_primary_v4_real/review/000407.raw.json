@@ -1,0 +1,28 @@
+{
+  "id": "013439b1-3668-4671-849b-b7dbe7fcc80a",
+  "object": "chat.completion",
+  "created": 1791881479,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"TG-b006c9a211dd62a9c3e8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d97812b0b7a5f6701e51\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4bcce9eb6cd9a9f58df1\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"健康顾问职责不明确，可能为健康管理、保健按摩或客服，需补充职责信息\"},{\"occupation_id\":\"TG-27c1a7a39fd1b4223a07\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L14-06\",\"issue\":\"景区项目总经理属于线下业务与场所运营，而非住宿经营与管理\"},{\"occupation_id\":\"TG-c99f62529d50a6674530\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f2d4348a303e9febfe88\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cc872f18eb297580cbbf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5f9176fe35f2108f5efc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1a6328c739564d78a2ae\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3ced5c43ea3b2ec5fb7b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3864c26845fb5faace92\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-14347798ff75be305bc2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-173cf9c6732376ed67ac\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-dc281a7e1590cbc75376\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-41fb42bd815f7cc808cd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d9eb926749091a1973fc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cbdd5cca7a8f1bf69ba5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-dce76c0c900eb81f3694\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d2e5b0bdf4e8abfcff59\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5c08b39e3aa82a58f50e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19866,
+    "completion_tokens": 788,
+    "total_tokens": 20654,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3354
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

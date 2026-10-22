@@ -1,0 +1,28 @@
+{
+  "id": "bdb81265-3cb8-40cf-a51d-56eeb10d9697",
+  "object": "chat.completion",
+  "created": 1792571478,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-a4a6212cfb041e796b5eb91ddd3ac2ea\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L25-04\",\"issue\":\"能源企业生产运维岗归能源运行与调度（L25-04）合理；虽也可考虑设备维修保全（L23-09-02），但无明确证据，主归属可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17049,
+    "completion_tokens": 97,
+    "total_tokens": 17146,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 537
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

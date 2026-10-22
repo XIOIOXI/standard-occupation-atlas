@@ -1,0 +1,28 @@
+{
+  "id": "50e72c18-fc69-4f69-b307-f5d28f40c4c6",
+  "object": "chat.completion",
+  "created": 1791821674,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"ABNORMAL:RRG-696b37a5e02c44293853\",\"status\":\"review\",\"target_category_id\":\"教育培训/edu-teacher/teacher-k12\",\"reason\":\"名称主体为“物理教师”，可确认属于教育培训-教师，但括号内为专业清单且截断，无法确定具体教学层级，故填二级教师下最接近的三级基础教育教学。\"},{\"entry_id\":\"ABNORMAL:RRG-6a5a378b3ab2c04117ce\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-sales-support/presales-solution\",\"reason\":\"名称主体为“机器人售前工程师”，可确认属于售前技术支持方向，但括号内专业清单截断，无法进一步细分，填售前与解决方案支持。\"},{\"entry_id\":\"ABNORMAL:RRG-6a847275199ac7b237af\",\"status\":\"review\",\"target_category_id\":\"财务/审计/税务/finance-accounting/acct-general\",\"reason\":\"名称主体为“财务专员”，可确认属于财务会计方向，但括号内为专业清单且截断，无法确定具体会计细分，填总账与财务核算。\"},{\"entry_id\":\"ABNORMAL:RRG-6a94244ace3227189418\",\"status\":\"multi_role\",\"target_category_id\":\"互联网/AI\",\"reason\":\"名称明确列出算法类、软件研发类、硬件研发类、其他研发类、技术支持等多个互不兼容的独立职业方向，共同上级为互联网/AI。\"},{\"entry_id\":\"ABNORMAL:RRG-6c78cb58549693f3c42f\",\"status\":\"multi_role\",\"target_category_id\":\"互联网/AI\",\"reason\":\"名称明确列出算法类、软件类、硬件类、测试类、销售等多个互不兼容的独立职业方向，共同上级为互联网/AI。\"},{\"entry_id\":\"ABNORMAL:RRG-6cfcce40c7873450a128\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“职能支持类管培生”，管培生不是职业，且括号内为专业清单且截断，无法确认具体职业方向。\"},{\"entry_id\":\"ABNORMAL:RRG-6f6ff15767c0fc9657e9\",\"status\":\"multi_role\",\"target_category_id\":\"生产制造\",\"reason\":\"名称列出“工艺工程师”和“生产储……”（生产储备/生产管理）两个独立职业方向，共同上级为生产制造。\"},{\"entry_id\":\"ABNORMAL:RRG-6fc20625bccac068b302\",\"status\":\"review\",\"target_category_id\":\"生产制造/manufacturing-operations/manufacturing-ops-planning\",\"reason\":\"名称主体为“(助理)生产主管”，可确认属于生产营运方向，但括号内为专业清单且截断，填生产计划与调度。\"},{\"entry_id\":\"ABNORMAL:RRG-705bfd92bead1e80ba3c\",\"status\":\"review\",\"target_category_id\":\"咨询/翻译/法律/consult-legal/legal-corporate\",\"reason\":\"名称主体为“法务岗”，可确认属于法律服务方向，但括号内为专业清单且截断，填公司法务与合规。\"},{\"entry_id\":\"ABNORMAL:RRG-7093e1ea663903321fe2\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“财务管培生”，管培生不是职业，且括号内为专业清单且截断，无法确认具体职业方向。\"},{\"entry_id\":\"ABNORMAL:RRG-70f844b12c0914630a58\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“总部管培生”，管培生不是职业，且括号内为专业清单且截断，无法确认具体职业方向。\"},{\"entry_id\":\"ABNORMAL:RRG-7314106e1ca62acfbe37\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“正高级工程师”，职级不是职业，且括号内为专业清单且截断，无法确认具体职业方向。\"},{\"entry_id\":\"ABNORMAL:RRG-733cfbc57fd59bda4eb5\",\"status\":\"review\",\"target_category_id\":\"房地产/建筑/estate-management/engineering-mgmt-cost\",\"reason\":\"名称主体为“工程管理专员”，可确认属于工程管理方向，括号内为土建类、管理科学与工程类专业，填工程造价与合同管理。\"},{\"entry_id\":\"ABNORMAL:RRG-749963935cfed8fd1124\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“综合管理”，括号内为会计、财务、给排水、土木、水利、汉语言、新闻等多个不相关专业清单且截断，无法确认具体职业方向。\"},{\"entry_id\":\"ABNORMAL:RRG-752a403af081728bb516\",\"status\":\"review\",\"target_category_id\":\"金融/financial-risk/finance-control-risk\",\"reason\":\"名称主体为“合规风控岗”，可确认属于风控合规方向，但括号内为专业清单且截断，填金融风险与合规管理。\"},{\"entry_id\":\"ABNORMAL:RRG-758331d3a1bf8fbf27b1\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“助理工程师”，职级不是职业，且名称截断，无法确认具体职业方向。\"},{\"entry_id\":\"ABNORMAL:RRG-760cc4d600a196e9e843\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“设备工程师管培生”，管培生不是职业，且括号内为专业清单且截断，无法确认具体职业方向。\"},{\"entry_id\":\"ABNORMAL:RRG-775b2242ed76da024a3b\",\"status\":\"review\",\"target_category_id\":\"市场/公关/广告/marketing-general/marketing-growth\",\"reason\":\"名称主体为“市场推广专员”，可确认属于市场/营销方向，但括号内为专业清单且截断，填增长与数字营销。\"},{\"entry_id\":\"ABNORMAL:RRG-7822853512700dfc38ba\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“技术工程师”，过于宽泛，且括号内为专业清单且截断，无法确认具体职业方向。\"},{\"entry_id\":\"ABNORMAL:RRG-7917409319fc3bfb9c46\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-system\",\"reason\":\"名称主体为“BMC开发工程师”，BMC为服务器管理控制器固件开发，可确认属于系统与底层开发方向，但名称截断，填系统与底层开发。\"},{\"entry_id\":\"ABNORMAL:RRG-79eba095d329f1dc611e\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出技术&研发类、销售类、市场类、职能类、产品类、管培生类等多个互不兼容的独立职业方向，且无共同上级可确认。\"},{\"entry_id\":\"ABNORMAL:RRG-7aa92e347703cf390463\",\"status\":\"review\",\"target_category_id\":\"电子/电气/通信/electronic-automation/automation-control\",\"reason\":\"名称主体为“控制工程师”，可确认属于电气/自动化方向，但括号内为专业清单且截断，填电气控制与自动化设计。\"},{\"entry_id\":\"ABNORMAL:RRG-7dc1aa1fb368a0d98f9a\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-security/security-network\",\"reason\":\"名称主体为“网络与系统安全研发工程师”，可确认属于网络/系统安全方向，但名称截断，填网络与基础设施安全。\"},{\"entry_id\":\"ABNORMAL:RRG-7e1570a6263093c50fc4\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出人才储备库管理培训生、专业技术类、职能管理类等多个互不兼容的独立职业方向，且无共同上级可确认。\"},{\"entry_id\":\"ABNORMAL:RRG-7f2e57ae6c77ddfd75bc\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“营销管培生”，管培生不是职业，且括号内为专业清单且截断，无法确认具体职业方向。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30540,
+    "completion_tokens": 1828,
+    "total_tokens": 32368,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 3148
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

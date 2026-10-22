@@ -1,0 +1,93 @@
+{
+  "summary": {
+    "schema_version": "semantic-role-merge-candidates-v1",
+    "input_normalized_group_count": 11502,
+    "approved_semantic_merge_family_count": 5,
+    "merged_group_count_after_approved_merges": 11496,
+    "policy": "Only explicit reviewed same-duty title variants are merged. Category membership, company, location, pay, seniority and recruiting status are never merge reasons."
+  },
+  "candidates": [
+    {
+      "canonical_occupation_title": "前端开发工程师",
+      "candidate_status": "approved_same_core_responsibility",
+      "reason": "Manually reviewed title variants denote the same stated core duty; source contexts remain linked for later member-difference review.",
+      "member_group_ids": [
+        "RRG-d3f2c6606b26c8a50cde",
+        "RRG-4a2e9b6a3c62620ac346",
+        "RRG-6a30813c97c018e7385d"
+      ],
+      "member_titles": [
+        "前端开发",
+        "Web前端开发",
+        "Web开发工程师"
+      ],
+      "member_group_count": 3,
+      "atomic_role_count": 18,
+      "source_record_count": 18
+    },
+    {
+      "canonical_occupation_title": "测试工程师",
+      "candidate_status": "approved_same_core_responsibility",
+      "reason": "Manually reviewed title variants denote the same stated core duty; source contexts remain linked for later member-difference review.",
+      "member_group_ids": [
+        "RRG-38cf0d1bd6bc663ffff9",
+        "RRG-d9ad298fbdb50ca0e24f"
+      ],
+      "member_titles": [
+        "软件测试工程师",
+        "QA工程师"
+      ],
+      "member_group_count": 2,
+      "atomic_role_count": 33,
+      "source_record_count": 33
+    },
+    {
+      "canonical_occupation_title": "采购专员",
+      "candidate_status": "approved_same_core_responsibility",
+      "reason": "Manually reviewed title variants denote the same stated core duty; source contexts remain linked for later member-difference review.",
+      "member_group_ids": [
+        "RRG-5adf138ff849e9b85383",
+        "RRG-ee9a045f835f37fc31f1"
+      ],
+      "member_titles": [
+        "采购工程师",
+        "采购员"
+      ],
+      "member_group_count": 2,
+      "atomic_role_count": 28,
+      "source_record_count": 28
+    },
+    {
+      "canonical_occupation_title": "电气工程师",
+      "candidate_status": "approved_same_core_responsibility",
+      "reason": "Manually reviewed title variants denote the same stated core duty; source contexts remain linked for later member-difference review.",
+      "member_group_ids": [
+        "RRG-3723732849eee1038e04",
+        "RRG-f100d1a05693ce36bf09"
+      ],
+      "member_titles": [
+        "自动化工程师",
+        "电气自动化工程师"
+      ],
+      "member_group_count": 2,
+      "atomic_role_count": 16,
+      "source_record_count": 16
+    },
+    {
+      "canonical_occupation_title": "Java开发工程师",
+      "candidate_status": "approved_same_core_responsibility",
+      "reason": "Manually reviewed title variants denote the same stated core duty; source contexts remain linked for later member-difference review.",
+      "member_group_ids": [
+        "RRG-7471235ceb7ed6ab33c7",
+        "RRG-3e446a039fa9c09ab910"
+      ],
+      "member_titles": [
+        "Java工程师",
+        "Java开发"
+      ],
+      "member_group_count": 2,
+      "atomic_role_count": 8,
+      "source_record_count": 8
+    }
+  ]
+}

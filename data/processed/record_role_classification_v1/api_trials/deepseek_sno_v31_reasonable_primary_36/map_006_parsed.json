@@ -1,0 +1,103 @@
+{
+  "raw_response_file": "map_006_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-4120740026214e819645",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "数字金融方向定向培养生",
+      "level_3_evidence": null,
+      "reason": "标题仅说明数字金融方向与培养生身份，未明确具体金融业务职能，无法唯一确定二级归属。"
+    },
+    {
+      "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L23-10",
+        "L32-01"
+      ],
+      "title_evidence": "精益智造管培生",
+      "level_3_evidence": null,
+      "reason": "标题含精益智造与管培生，可能指向制造生产或跨职能培养，但未明确具体职能，无法唯一归属。"
+    },
+    {
+      "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "分公司管理培训生(保险、金融、营销、经济、管理、信息科技、工程、运输、医疗健康)",
+      "level_3_evidence": null,
+      "reason": "标题列出多个领域且为管理培训生，最终职业方向未明确，属于跨职能培养轮岗，无法唯一确定专业职能。"
+    },
+    {
+      "occupation_id": "SNO-f3a551d78495c24ba751",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "成都分行公司业务培训生",
+      "level_3_evidence": null,
+      "reason": "标题仅说明银行分行公司业务培训生，未明确具体金融业务职能，无法唯一确定二级归属。"
+    },
+    {
+      "occupation_id": "SNO-9170b111decf5a940895",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L07-03",
+        "L32-01"
+      ],
+      "title_evidence": "供试品配置/管理通用类:管培生",
+      "level_3_evidence": null,
+      "reason": "标题含供试品配置/管理与管培生，可能指向实验科研支持或综合培养，但未明确具体职能，无法唯一归属。"
+    },
+    {
+      "occupation_id": "SNO-f726e823532c0682f85b",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-04",
+        "L32-01"
+      ],
+      "title_evidence": "品类发展管培生",
+      "level_3_evidence": null,
+      "reason": "标题含品类发展与管培生，可能指向商品品类运营或综合培养，但未明确具体职能，无法唯一归属。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17219,
+    "cached_input_tokens": 16768,
+    "uncached_input_tokens": 451,
+    "output_tokens": 630,
+    "reasoning_tokens": 0,
+    "total_tokens": 17849
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0004959540000000001
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

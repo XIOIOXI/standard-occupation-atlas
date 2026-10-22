@@ -1,0 +1,24 @@
+{
+  "product_data_version": "job-market-product-v1",
+  "generated_at": "2026-09-21T12:43:00.023587+00:00",
+  "source_dataset": "2026 recruitment selective-mini-1000",
+  "source_versions": {
+    "grouping": "job-grouping-v2-occupation-safe",
+    "inference": "skill-inference-v2",
+    "normalization": "skill-normalization-v2",
+    "taxonomy": "mvp-taxonomy-v4.1-frozen"
+  },
+  "occupation_count": 520,
+  "mapped_occupation_count": 84,
+  "unmapped_occupation_count": 436,
+  "comparison_eligible_count": 74,
+  "skill_count": 2396,
+  "global_pmi_edge_count": 128,
+  "community_count": 11,
+  "hero_demo_occupation": "OCC0289",
+  "limitations": [
+    "Selective-1000 is not full 15,622-group inference coverage.",
+    "Unmapped labels are candidate labels, not canonical taxonomy occupations.",
+    "PMI and communities are global market structure, not prerequisite order."
+  ]
+}

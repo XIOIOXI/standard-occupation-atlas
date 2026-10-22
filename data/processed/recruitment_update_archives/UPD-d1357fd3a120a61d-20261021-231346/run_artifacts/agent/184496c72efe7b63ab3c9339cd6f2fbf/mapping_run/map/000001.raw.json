@@ -1,0 +1,28 @@
+{
+  "id": "99bf124e-2100-4f5d-b895-a7da2169650c",
+  "object": "chat.completion",
+  "created": 1792571244,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-184496c72efe7b63ab3c9339cd6f2fbf\",\"status\":\"mapped\",\"target_category_id\":\"L05-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L05-03\",\"L05-01-02\",\"L06-01-03\"],\"title_evidence\":\"电气模块化设计工程师：电气+模块化设计，属电气系统设计\",\"level_3_evidence\":null,\"reason\":\"标题明确为电气模块化设计，核心为电气系统/配电控制设计，归电气工程L05-03；模块化设计为设计方式标签，不足以细分三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16949,
+    "completion_tokens": 152,
+    "total_tokens": 17101,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

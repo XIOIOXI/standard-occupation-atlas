@@ -1,0 +1,147 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-1db2905abf0193c7c958fe3e825ddf6b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "审计管培生归内部审计合理，管培生为培养标签。"
+    },
+    {
+      "occupation_id": "UP-cc0b9caf93237047eb5132c392c507ee",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "企业法务归L30-02合理。"
+    },
+    {
+      "occupation_id": "UP-ffbe1f245ba6d2bc0b7f6e0b99217237",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "渠道管培生归渠道销售与经销管理合理，存在L12-06可能但可接受。"
+    },
+    {
+      "occupation_id": "UP-dd6784564eab3ce18091e9ed904d5099",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数字化方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "UP-a6708c762b8abc625e4f9b21f161404a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "销售客户类型未说明，归通用销售合理。"
+    },
+    {
+      "occupation_id": "UP-857290fa9410ece4186d8b2f2d5f57ab",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "采购专员停在二级合理。"
+    },
+    {
+      "occupation_id": "UP-4bad99f11c12febb2ab1f98f858ad9cf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "软件开发方向未说明，归通用软件研发合理。"
+    },
+    {
+      "occupation_id": "UP-1134d2f21b945fc2779714a7787b028e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "HR培训生项目归人力资源综合管理合理。"
+    },
+    {
+      "occupation_id": "UP-a8df83a34a6df660892a021fb3ab90e9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "供应链专员归供应链规划与管理合理。"
+    },
+    {
+      "occupation_id": "UP-2a62ac4e4fadf1d8ab2afb9501bb8b50",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "生产计划工程师归需求与物料计划合理，与L23-01存在边界但可接受。"
+    },
+    {
+      "occupation_id": "UP-ed44c03406a745fb182024e2fb244b56",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务专员方向未说明，归通用财务合理。"
+    },
+    {
+      "occupation_id": "UP-7e405cb82c7e6999021b54567853c51f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "量产生产管控归生产计划与现场管理合理。"
+    },
+    {
+      "occupation_id": "UP-e71c97d2a65ef805c6e5ebf652d90db7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "芯片测试归硬件与产品测试合理，非软件测试。"
+    },
+    {
+      "occupation_id": "UP-b5a8f6fcb9f3d15d2c587fdbb9ba5b38",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "封装工艺归制造制程工程合理。"
+    },
+    {
+      "occupation_id": "UP-4121e661cb81f181e31b49a171e7fbac",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "制造部生产主管归生产计划与现场管理合理。"
+    },
+    {
+      "occupation_id": "UP-53dc90458bd32e4d5914e02ac0e1b80a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "质量工程师归生产质量管理二级合理。"
+    },
+    {
+      "occupation_id": "UP-79eb01462f281b107de191ef66e198d8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品工程师方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "UP-569039bf80de6bd466473c5730a09c31",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "工艺工程师归制造制程工程合理。"
+    },
+    {
+      "occupation_id": "UP-966c5b5cb2d93b6e4ea005883d76bab9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "金融业务人员过于泛化，review合理。"
+    },
+    {
+      "occupation_id": "UP-7ba372733427179acbd6d326443c9ae8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "企业法务岗归L30-02合理。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 22733,
+    "cached_input_tokens": 16768,
+    "uncached_input_tokens": 5965,
+    "output_tokens": 1087,
+    "reasoning_tokens": 0,
+    "total_tokens": 23820
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001597254
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,327 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-945702410de88969fdde",
+      "case": "A",
+      "child_titles": [
+        "研发工程师(机械方向)",
+        "研发工程师(电气方向)",
+        "研发工程师(算法方向)",
+        "研发工程师(电池热管理等方向)"
+      ],
+      "source_spans": [
+        {
+          "text": "研发工程师(机械、电气、算法、电池热管理等方向)",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "reason": "括号内列举多个方向，可拆分为多个具体岗位。"
+    },
+    {
+      "original_record_id": "TG-cc1c559113b8e0d3ac3d",
+      "case": "A",
+      "child_titles": [
+        "选矿项目研究员",
+        "选矿项目试验员",
+        "冶金项目试验员",
+        "分析检测员"
+      ],
+      "source_spans": [
+        {
+          "text": "选矿项目研究员选矿项目试验员冶金项目试验员分析检测员",
+          "start": 0,
+          "end": 26
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接拼接，可拆分为四个岗位。"
+    },
+    {
+      "original_record_id": "TG-8394151e9cd3df213554",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为专业要求，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-959f2a1cc703b7c5d8b9",
+      "case": "A",
+      "child_titles": [
+        "设备维修员",
+        "生产计划专员"
+      ],
+      "source_spans": [
+        {
+          "text": "设备维修员生产计划专员",
+          "start": 0,
+          "end": 11
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接拼接，可拆分。"
+    },
+    {
+      "original_record_id": "TG-9524e647738f9b430bc8",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位，括号内为工作方向，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-53b2bcb741a114f61bc5",
+      "case": "A",
+      "child_titles": [
+        "营运方向",
+        "人力方向",
+        "行政/非经营采购",
+        "审计方向"
+      ],
+      "source_spans": [
+        {
+          "text": "营运方向 人力方向行政/非经营采购审计方向",
+          "start": 0,
+          "end": 21
+        }
+      ],
+      "reason": "标题由多个方向岗位拼接，可拆分为四个岗位。"
+    },
+    {
+      "original_record_id": "TG-15eaa3babe2614bb1c6d",
+      "case": "A",
+      "child_titles": [
+        "信息调研员",
+        "新药化学研究员"
+      ],
+      "source_spans": [
+        {
+          "text": "信息调研员新药化学研究员",
+          "start": 0,
+          "end": 11
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接拼接，可拆分。"
+    },
+    {
+      "original_record_id": "TG-9dc3dbc91c1ce13d478a",
+      "case": "A",
+      "child_titles": [
+        "财务管理部专员",
+        "法律"
+      ],
+      "source_spans": [
+        {
+          "text": "财务管理部专员\\\\法律",
+          "start": 0,
+          "end": 11
+        }
+      ],
+      "reason": "标题由两个岗位名称用反斜杠分隔，可拆分。"
+    },
+    {
+      "original_record_id": "TG-c61ee738873b0f41f284",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位，斜杠表示并列职责，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-133a5d9e265960c90f78",
+      "case": "A",
+      "child_titles": [
+        "营养师",
+        "饲料生产管培生（预防兽医学、遗传育种、动物医学、动物科学、贸易、食品、农业、种业）"
+      ],
+      "source_spans": [
+        {
+          "text": "营养师 饲料生产管培生（预防兽医学、遗传育种、动物医学、动物科学、贸易、食品、农业、种业）",
+          "start": 0,
+          "end": 47
+        }
+      ],
+      "reason": "标题由两个独立岗位名称用空格分隔，可拆分。"
+    },
+    {
+      "original_record_id": "TG-ae494d8e988d492afe1c",
+      "case": "A",
+      "child_titles": [
+        "市场营销管理储备",
+        "新媒体运营",
+        "电商直播运营",
+        "摄影专员"
+      ],
+      "source_spans": [
+        {
+          "text": "市场营销管理储备新媒体运营电商直播运营摄影专员",
+          "start": 0,
+          "end": 24
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接拼接，可拆分。"
+    },
+    {
+      "original_record_id": "TG-cff12f206cd2b7af6838",
+      "case": "A",
+      "child_titles": [
+        "u培生(销售精英)",
+        "客户服务经理"
+      ],
+      "source_spans": [
+        {
+          "text": "u培生(销售精英)客户服务经理",
+          "start": 0,
+          "end": 15
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接拼接，可拆分。"
+    },
+    {
+      "original_record_id": "TG-196a3fb772db92e60495",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位，斜杠表示并列方向，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-0ab8530c388677a98900",
+      "case": "A",
+      "child_titles": [
+        "技术研发",
+        "法务事务",
+        "销售业务",
+        "包装设计",
+        "纪检员",
+        "招标管理",
+        "计量检测",
+        "绿色低碳应用与研究",
+        "财务管理",
+        "安全管理",
+        "能源管理",
+        "采供管理",
+        "展陈设计",
+        "信息管理",
+        "风险管控",
+        "质量检测",
+        "工程管理",
+        "设备管理",
+        "综合管理（生......"
+      ],
+      "source_spans": [
+        {
+          "text": "技术研发 法务事务 销售业务 包装设计 纪检员 招标管理 计量检测 绿色低碳应用与研究 财务管理 安全管理 能源管理 采供管理 展陈设计 信息管理 风险管控 质量检测 工程管理 设备管理 综合管理（生......",
+          "start": 0,
+          "end": 86
+        }
+      ],
+      "reason": "标题由多个独立岗位名称用空格分隔，可拆分。"
+    },
+    {
+      "original_record_id": "TG-e4b0e6822232fbea71a5",
+      "case": "A",
+      "child_titles": [
+        "住院医师",
+        "护理应届生",
+        "技师",
+        "物理师"
+      ],
+      "source_spans": [
+        {
+          "text": "住院医师护理应届生技师 物理师",
+          "start": 0,
+          "end": 14
+        }
+      ],
+      "reason": "标题由多个独立岗位名称拼接，可拆分。"
+    },
+    {
+      "original_record_id": "TG-9841ee5cfaa89c3a8109",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无分隔符，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-ebf97e522c49e551363d",
+      "case": "A",
+      "child_titles": [
+        "视觉营销",
+        "品牌营销",
+        "产品研发",
+        "销售运营",
+        "商品营运",
+        "用户运营"
+      ],
+      "source_spans": [
+        {
+          "text": "视觉营销品牌营销产品研发销售运营商品营运 用户运营",
+          "start": 0,
+          "end": 25
+        }
+      ],
+      "reason": "标题由多个独立岗位名称拼接，可拆分。"
+    },
+    {
+      "original_record_id": "TG-7b7413e9e55c13813681",
+      "case": "A",
+      "child_titles": [
+        "会计",
+        "工程管理",
+        "法律事务",
+        "英语翻译（相关专业：会计、工程管理、法学、英语）"
+      ],
+      "source_spans": [
+        {
+          "text": "会计 工程管理 法律事务 英语翻译（相关专业：会计、工程管理、法学、英语）",
+          "start": 0,
+          "end": 38
+        }
+      ],
+      "reason": "标题由多个独立岗位名称用空格分隔，可拆分。"
+    },
+    {
+      "original_record_id": "TG-fc4d2e9f30cdc4431f87",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一管培生岗位，包含多个类别但非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-98640e650da83d0710af",
+      "case": "A",
+      "child_titles": [
+        "国际业务部产品中信",
+        "咖啡供应中心营销中心用户增长中心质量管理部",
+        "人力资源部岗位"
+      ],
+      "source_spans": [
+        {
+          "text": "国际业务部产品中信 咖啡供应中心营销中心用户增长中心质量管理部 人力资源部岗位",
+          "start": 0,
+          "end": 40
+        }
+      ],
+      "reason": "标题由多个部门岗位名称用空格分隔，可拆分。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 950,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 950,
+    "output_tokens": 2359,
+    "reasoning_tokens": 0,
+    "total_tokens": 3309
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0031157999999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

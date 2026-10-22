@@ -1,0 +1,28 @@
+{
+  "id": "814efb3d-c3b5-40e4-9787-7e368c83b46d",
+  "object": "chat.completion",
+  "created": 1791813071,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-92734577b6b6145e676b\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"系统研发工程核心为业务服务端/系统研发，与业务服务端开发边界一致，未超出目录依据。\"},{\"occupation_id\":\"SNO-d6087a47e528741b0653\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm\",\"reason\":\"AI编译工程师名称仅表明AI与编译方向，未明确大模型/生成式AI，三级依据不足，可确认的上级为算法工程师。\"},{\"occupation_id\":\"SNO-cd628a099358b6818816\",\"decision\":\"keep\",\"target_category_id\":\"餐饮/food-manager/restaurant-manager-operations\",\"reason\":\"运营管培生（储备店长）核心为门店运营与人员管理，归入餐饮店长门店运营管理合理。\"},{\"occupation_id\":\"SNO-1bbc909a80366c7a77b9\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列会计、工程管理、法律事务、英语翻译等多个独立职业，属多职业。\"},{\"occupation_id\":\"SNO-3b3cab12516fdc707e9d\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm\",\"reason\":\"AI开发仅表明AI开发方向，未明确大模型/生成式AI，三级依据不足，可确认的上级为算法工程师。\"},{\"occupation_id\":\"SNO-0da8e68127918994a903\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm\",\"reason\":\"AI应用工程师（AI系统软件）未明确大模型/生成式AI，归入大模型方向依据不足，可确认的上级为算法工程师。\"},{\"occupation_id\":\"SNO-615a1c10b4153019fc9d\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-cpp\",\"reason\":\"高性能并行算法工程师未注明C++，归入C++图形与高性能计算依据不足，可确认的上级为C++。\"},{\"occupation_id\":\"SNO-8d366d89f88475291fe4\",\"decision\":\"keep\",\"target_category_id\":\"运营/客服/ops-business/business-ops-growth\",\"reason\":\"服务策略运营核心为业务策略与增长运营，与业务增长与策略运营边界一致。\"},{\"occupation_id\":\"SNO-a7e76120b24ec88dbf7b\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"具身智能仿真工程师明确属于机器人与具身智能方向，匹配合理。\"},{\"occupation_id\":\"SNO-e9b8067a7b27d4c2b7df\",\"decision\":\"fallback_review\",\"target_category_id\":\"咨询/翻译/法律/consult-english\",\"reason\":\"涉外联络专员未注明英语，不能确认英语口译，可确认的上级为英语翻译。\"},{\"occupation_id\":\"SNO-395381fe41d172e95ca9\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-python\",\"reason\":\"AI Software Application Developer未注明Python，归入Python数据与人工智能开发依据不足，可确认的上级为Python。\"},{\"occupation_id\":\"SNO-9cf9654f9af156ed08f9\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-python\",\"reason\":\"AI应用工程师（AI技术应用/AI系统软件）未注明Python，归入Python数据与人工智能开发依据不足，可确认的上级为Python。\"},{\"occupation_id\":\"SNO-c98a99864d617aa02888\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm\",\"reason\":\"AI软件工程师未明确大模型/生成式AI，归入大模型方向依据不足，可确认的上级为算法工程师。\"},{\"occupation_id\":\"SNO-5100c71efe68f19f0f63\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列国际业务、产品、营销、用户增长、质量管理、人力资源等多个独立职能，属多职业。\"},{\"occupation_id\":\"SNO-0d92c09d07deee600dc9\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列主播、设计、产品等多个独立职业，属多职业。\"},{\"occupation_id\":\"SNO-9c052b7ad5907c8e0a97\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列Java、Web、Android、鸿蒙、AI产品经理等多个独立技术/职业方向，属多职业。\"},{\"occupation_id\":\"SNO-aaa4a82a88151b1079e8\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列海外营销和运营两个独立职能，属多职业。\"},{\"occupation_id\":\"SNO-11bfcf3b750ecac7082f\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列集团公司总部管理培训生和子公司生产两个独立方向，属多职业。\"},{\"occupation_id\":\"SNO-3ffbe73a8998b42451f6\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列工程师和产品专员两个独立职业，属多职业。\"},{\"occupation_id\":\"SNO-329b2a9315a9baf63bdb\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"语言大模型工程师明确属于大模型与生成式AI方向，匹配合理。\"},{\"occupation_id\":\"SNO-77c7eb4b1ca6da4eab4c\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"生成式AI研究员明确属于大模型与生成式AI方向，匹配合理。\"},{\"occupation_id\":\"SNO-7e7d8005e5666b6dd753\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-cpp\",\"reason\":\"高级Android驱动工程师未注明C++，归入C++嵌入式与实时开发依据不足，可确认的上级为C++。\"},{\"occupation_id\":\"SNO-435b51d1a7fb8d7cf18b\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列文创设计师与测绘技术员两个独立职业，属多职业。\"},{\"occupation_id\":\"SNO-a7c16a0ba2b827d85d1f\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列工艺技术、研发设计、智能制造、厂务环安、IE、质量、信息技术、项目管理、生产计划、供应链、人力法务知识产权等多个独立职业方向，属多职业。\"},{\"occupation_id\":\"SNO-7e25185d6249b1e3d0cc\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列财务管理、会计、普法管理等多个独立职业，属多职业。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30921,
+    "completion_tokens": 1591,
+    "total_tokens": 32512,
+    "prompt_tokens_details": {
+      "cached_tokens": 27264
+    },
+    "prompt_cache_hit_tokens": 27264,
+    "prompt_cache_miss_tokens": 3657
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-aa7fade3c1377a87f342c3bbe74522fd",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-08",
+      "issue": "工艺技术员属制造工艺技术职能，归入L06-08工艺与制造工程合理；无三级细分证据，停在二级恰当。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17041,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 529,
+    "output_tokens": 95,
+    "reasoning_tokens": 0,
+    "total_tokens": 17136
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000371772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

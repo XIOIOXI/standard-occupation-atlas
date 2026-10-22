@@ -1,0 +1,28 @@
+{
+  "id": "912cd425-5650-4ca7-9161-b007f04749c4",
+  "object": "chat.completion",
+  "created": 1791881144,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-837d13d4c06b6ef07068\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-de5a7c75c43c20a15e3f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-bad0ee305f1c1dd29963\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L02-06\",\"issue\":\"人工智能架构师应归入大模型与智能应用工程，而非软件架构\"},{\"occupation_id\":\"TG-c8c6802f7348c887ae08\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-756c3418ca7c9aae357a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4e1fb351566318c9773b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-513725aa3a68164ebb3e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c87435b3ad5e3fe5ee41\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f25e9381078ab89b930e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-eade0bddea6939518d43\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f6c9ffb0859b3a3122c4\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L05-01\",\"issue\":\"激光与光学系统工程师属于电子硬件研发，而非无线与射频技术\"},{\"occupation_id\":\"TG-75da3b7d2fc1bc4c00a0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-6045b576fe9c7b416a14\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ddc0317649e3edfb526d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e8a6027062dbde0f4069\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-834d225024adfb5225d3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-bf5ab4b0dafb2877b2d5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e332e9d9ad8b505024c9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8de396ee1ac1e2e7200f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-72f906b17b11fa1de0c4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19619,
+    "completion_tokens": 785,
+    "total_tokens": 20404,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3107
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

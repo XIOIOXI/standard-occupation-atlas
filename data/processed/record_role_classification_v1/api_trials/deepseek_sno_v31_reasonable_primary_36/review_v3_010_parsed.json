@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_010_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-df3b618ed3e18631f5c9",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "标题“质量与运营”同时指向质量与运营两个不同职能域，无进一步证据确定主职能，现有候选均属合理可能，无法判定唯一归属。"
+    },
+    {
+      "occupation_id": "SNO-22132637b23ddf147c28",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "“客户顾问”未明确客户类型与工作性质，销售、客服、客户成功均可能，无标题依据确定主归属。"
+    },
+    {
+      "occupation_id": "SNO-4808e7a15d2091bb129f",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "“海外研发/产品应用”未说明产品领域，研发与产品应用方向均可能，无法确定主职能归属。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11429,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 677,
+    "output_tokens": 210,
+    "reasoning_tokens": 0,
+    "total_tokens": 11639
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00025980599999999996
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

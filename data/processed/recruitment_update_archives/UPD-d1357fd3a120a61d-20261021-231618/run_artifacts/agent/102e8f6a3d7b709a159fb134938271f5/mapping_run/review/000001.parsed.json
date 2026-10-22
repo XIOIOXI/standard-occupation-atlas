@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-102e8f6a3d7b709a159fb134938271f5",
+      "verdict": "pass",
+      "suggested_target_category_id": "L13-01",
+      "issue": "银行客户经理以客户关系维护与业务拓展为主，归企业客户销售L13-01合理；个人客户销售L13-02与柜面业务L20-08为可接受备选，不构成明显错分。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17027,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 515,
+    "output_tokens": 115,
+    "reasoning_tokens": 0,
+    "total_tokens": 17142
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000391572
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

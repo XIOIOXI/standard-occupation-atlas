@@ -1,0 +1,28 @@
+{
+  "id": "ffe70c14-b64e-4011-a398-c77c73039ea5",
+  "object": "chat.completion",
+  "created": 1792571565,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-dcc7c22500c5ee6166e14f95a8d67980\",\"status\":\"mapped\",\"target_category_id\":\"L13-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L13-04\",\"L13-01\",\"L11-06\"],\"title_evidence\":\"标题为“业务发展经理”，属商务拓展与合作方向\",\"level_3_evidence\":null,\"reason\":\"“业务发展经理”对应商务拓展（BD）职能，以商业合作与收入拓展为主，归L13-04商务拓展与合作；行业为农林牧渔不改变职能归属。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16937,
+    "completion_tokens": 142,
+    "total_tokens": 17079,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 297
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-6e54eebeead20dbf941032e1724dfd1b",
+      "status": "mapped",
+      "target_category_id": "L02-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-03",
+        "L01-02"
+      ],
+      "title_evidence": "标题为“数据应用开发工程师”，核心为数据应用开发，属于数据平台/数据应用开发方向",
+      "level_3_evidence": null,
+      "reason": "“数据应用开发”指向数据工程与数据平台开发（L02-03），但未明确是数仓建模、数据集成管道还是数据计算平台，故停在二级；虽含“开发”但数据方向证据优先于通用后端开发。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16937,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 297,
+    "output_tokens": 165,
+    "reasoning_tokens": 0,
+    "total_tokens": 17102
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038694
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

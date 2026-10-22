@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-8a1d3ac82d16ecc0b2e4\", \"title\": \"活动策划执行平面设计师 新媒体运营\"}, {\"original_record_id\": \"TG-2146f192c0eb3d36bda8\", \"title\": \"AI内容创作者营销管培生\"}, {\"original_record_id\": \"TG-c978a93f88ea9c0d6501\", \"title\": \"文旅讲师/导游/摄影师\"}, {\"original_record_id\": \"TG-219071a60de6abae0812\", \"title\": \"国际管理培训生方向研发与产品创新方向营销方向质量管控方向制造与精益工程方向\"}, {\"original_record_id\": \"TG-992af508d52224f092ba\", \"title\": \"电商运营机械/工艺工程师\"}, {\"original_record_id\": \"TG-1076169eb6391448a1f0\", \"title\": \"定向培训生(服装设计、商品企划、版师工艺师)\"}, {\"original_record_id\": \"TG-10d57a933892b4543b19\", \"title\": \"产品开发(电子/仿真/测试/产品开发/研究/项目管理)\"}, {\"original_record_id\": \"TG-1c1b269f7b38f2a269b3\", \"title\": \"JAVA开发WEB前端开发测试工程师\"}, {\"original_record_id\": \"TG-4445241ffa69f41c022b\", \"title\": \"销售员\\\\\\\\机械设计\"}, {\"original_record_id\": \"TG-461fc83d0b417fe603a6\", \"title\": \"软件开发/实施工程师\"}, {\"original_record_id\": \"TG-153f5bc1e62c975b1e66\", \"title\": \"管培生(销售方向/技术支持/研发方向/生产技术)\"}, {\"original_record_id\": \"TG-23a92613704113897f90\", \"title\": \"大模型算法训练/推理Infra行业应用算法HRBPJava开发AI产品经理财务行政等\"}, {\"original_record_id\": \"TG-a20791b4cd111423e4c8\", \"title\": \"关卡策划 文案策划 战斗策划 2D场景设计\"}, {\"original_record_id\": \"TG-95e386287dfa2089c6c1\", \"title\": \"应用工程师（包括机电联调/PLC调试/机床检测、机床操作/加工编程/技术支持）\"}, {\"original_record_id\": \"TG-2e85317cb4d170c41edf\", \"title\": \"光学设计集成调试软件开发固件开发测校开发技术支持光学测试 算法开发光机结构设计测校软件开发应付会计\"}, {\"original_record_id\": \"TG-86056cd39fd2d4f6f447\", \"title\": \"市场运营与品牌公关专员\"}, {\"original_record_id\": \"TG-3742f7d62b5175d37936\", \"title\": \"审计税务\"}, {\"original_record_id\": \"TG-bd8fb8a784b09b92f55c\", \"title\": \"综合柜员客户经理\"}, {\"original_record_id\": \"TG-cbef5682b14030f2e4ba\", \"title\": \"软件/测试岗\"}, {\"original_record_id\": \"TG-9c21bc39fda84362f354\", \"title\": \"系统建设运维及数据管理岗\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-8a1d3ac82d16ecc0b2e4",
+    "TG-2146f192c0eb3d36bda8",
+    "TG-c978a93f88ea9c0d6501",
+    "TG-219071a60de6abae0812",
+    "TG-992af508d52224f092ba",
+    "TG-1076169eb6391448a1f0",
+    "TG-10d57a933892b4543b19",
+    "TG-1c1b269f7b38f2a269b3",
+    "TG-4445241ffa69f41c022b",
+    "TG-461fc83d0b417fe603a6",
+    "TG-153f5bc1e62c975b1e66",
+    "TG-23a92613704113897f90",
+    "TG-a20791b4cd111423e4c8",
+    "TG-95e386287dfa2089c6c1",
+    "TG-2e85317cb4d170c41edf",
+    "TG-86056cd39fd2d4f6f447",
+    "TG-3742f7d62b5175d37936",
+    "TG-bd8fb8a784b09b92f55c",
+    "TG-cbef5682b14030f2e4ba",
+    "TG-9c21bc39fda84362f354"
+  ]
+}

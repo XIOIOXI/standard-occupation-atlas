@@ -1,0 +1,28 @@
+{
+  "id": "f31409a1-9075-44a6-a702-a484e6eabf38",
+  "object": "chat.completion",
+  "created": 1791881820,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-52d1c044c95f062335c2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8b62868f7b072b041d55\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8b794045d9cf33ef0464\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1c1d80f3fc9219f3dc91\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-866fef87bdb993be75dd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-99079b7ac48ef703c24e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2eef046ad10a3ac98e27\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c54c921b2d2a1ec61959\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-b27e7580d6fa0a8a5d37\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1a63c52959d6e2874825\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-55f4ab731aaee26de563\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ab12d19dbc2813d0db80\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-9c2aa17a7bc44ddaa3b4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c128c5bc8b59caa7ecd9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c5c4e2c658c8976f9ba3\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L01-11\",\"issue\":\"前端/客户端开发同时涉及前端与客户端，不属于全栈开发（全栈指同时负责前后端），应归通用软件研发。\"},{\"occupation_id\":\"TG-99b8dc151e621c5ecc8d\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L01-11\",\"issue\":\"前端/客户端开发同时涉及前端与客户端，不属于全栈开发（全栈指同时负责前后端），应归通用软件研发。\"},{\"occupation_id\":\"TG-fec3cce76deded3e2e18\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-aab4f3ba6e2342485583\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-04dc0b860f8de889f8f7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5dcf022762a9e3a30993\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19284,
+    "completion_tokens": 815,
+    "total_tokens": 20099,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2772
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

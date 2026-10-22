@@ -1,0 +1,185 @@
+{
+  "batch_number": 27,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "66cae3dd-51f4-40ec-9696-e1ac8cc68a30",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813334,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30772,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 3380,
+    "output_tokens": 1877,
+    "reasoning_tokens": 0,
+    "total_tokens": 32649
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0017153760000000002
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-9d37f1bbdbb1840cda9c",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "AI应用工程师核心为AI技术应用与算法落地，归入算法研究与通用算法合理。"
+    },
+    {
+      "occupation_id": "SNO-da4f2ac5fe32dadb744d",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "液体火箭总体设计师属于航天/火箭总体设计领域，目录无对应类别可承接。"
+    },
+    {
+      "occupation_id": "SNO-6c92c467a2f60ea8e575",
+      "decision": "keep",
+      "target_category_id": "医疗健康/health-pharma-production/pharma-manufacturing-process",
+      "reason": "制剂研发工程师核心为药品制剂研发与生产工艺，归入药品生产与工艺合理。"
+    },
+    {
+      "occupation_id": "SNO-38ea7245ff6fe02faec7",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出经营管理、研发技术、种植管理多个独立职业方向，非单一职业。"
+    },
+    {
+      "occupation_id": "SNO-c8d1c3bd7a81a5da2287",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出市场与研发两个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-eb3f962441950ee35ca6",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "人工智能工程师核心为AI算法研发，归入算法研究与通用算法合理。"
+    },
+    {
+      "occupation_id": "SNO-1e822757768e2aa74c0f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出关卡策划、文案策划、战斗策划、2D场景设计等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-98d6145877274c9b3992",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出机电联调、PLC调试、机床检测、操作编程、技术支持等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-ac5e7c3f6e1adec1027c",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出光学设计、集成调试、软件开发、固件开发、测校开发、技术支持、光学测试、算法开发、光机结构设计、应付会计等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-48564c2e584c0640deb4",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI算子编译器工程师属于大模型与生成式AI相关算法工程方向，归入大模型与生成式AI合理。"
+    },
+    {
+      "occupation_id": "SNO-7159efc765d2583dddf2",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend",
+      "reason": "地理信息研发仅可确认属于互联网/AI技术研发，具体后端业务服务端方向依据不足。"
+    },
+    {
+      "occupation_id": "SNO-fd1ab18f26928fbe8842",
+      "decision": "fallback_review",
+      "target_category_id": "供应链/物流/supply-warehouse",
+      "reason": "物资设备管理可确认属于仓储相关，但入库与库存管理这一最深三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-8406b46c1a7cd336fba5",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "该名称为招聘公告标题，非具体职业名称，目录无法承接。"
+    },
+    {
+      "occupation_id": "SNO-48eedf20439450ce9d61",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "视觉开发核心为计算机视觉方向，归入计算机视觉与三维感知合理。"
+    },
+    {
+      "occupation_id": "SNO-da9bbc82b31e26818a28",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm",
+      "reason": "量子理论/量子纠错科学家属于算法研究领域，但归入通用算法这一三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-10e8acdecfc1b649eb91",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出咨询服务、气候变化与可持续发展、法证及诚信合规、交易与资本运营、投标专员等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-d13d2001ea4fac1ffe3b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "reason": "终端软件工程师通常指移动端或客户端开发，归入移动端与客户端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-5bc213b154ef54c39905",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出游戏客户端和后端开发两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-3742f7d62b5175d37936",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出审计和税务两个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-bd8fb8a784b09b92f55c",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出综合柜员和客户经理两个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-09badd1ccca53ab07b35",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出研发管理、财经管理、营销管理、信息技术、职能支持等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-4885c656a527751de63d",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm",
+      "reason": "管培生(人工智能方向)可确认属于AI算法方向，但归入大模型与生成式AI这一三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-8c7c31fa77b4f75d4322",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "终端云开发工程师核心为云平台与后端平台开发，归入平台与中间件开发合理。"
+    },
+    {
+      "occupation_id": "SNO-a601c84f8a97eb8d6452",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出综合管理、财务管理、经济管理、信息管理等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-9b598b9340bd2bd05ee8",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-frontend-mobile",
+      "reason": "AI全栈体验工程师可确认属于前端/移动开发领域，但归入Web与前端开发这一三级依据不足。"
+    }
+  ]
+}

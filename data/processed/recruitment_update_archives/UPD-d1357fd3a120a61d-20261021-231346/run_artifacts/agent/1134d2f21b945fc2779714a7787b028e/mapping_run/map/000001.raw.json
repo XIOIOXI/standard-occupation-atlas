@@ -1,0 +1,28 @@
+{
+  "id": "46f48bfc-4a8b-4561-ae69-95251f240e71",
+  "object": "chat.completion",
+  "created": 1792571888,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-1134d2f21b945fc2779714a7787b028e\",\"status\":\"mapped\",\"target_category_id\":\"L18-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L18-04\",\"L18-03\",\"L32-01\"],\"title_evidence\":\"标题为“人力资源培训生项目”，明确指向人力资源职能，且为培训生项目\",\"level_3_evidence\":null,\"reason\":\"标题明确为人力资源方向的培训生项目，主要职能归属人力资源综合管理（L18-04）；虽含“培训生”培养属性，但职能已明确为人力资源，按规则归专业目录而非跨职能轮岗类。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16957,
+    "completion_tokens": 156,
+    "total_tokens": 17113,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

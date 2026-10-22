@@ -1,0 +1,36 @@
+{
+  "group_count": 50,
+  "api_request_attempts": 100,
+  "api_responses_received": 100,
+  "api_successful_responses": 100,
+  "repair_retry_attempts": 0,
+  "api_calls": 100,
+  "model": "gpt-4.1-nano",
+  "status_counts": {
+    "completed": 14,
+    "failed_validation": 21,
+    "insufficient_context": 15
+  },
+  "total_hard_skills": 44,
+  "total_soft_skills": 29,
+  "confidence_counts": {
+    "high": 29,
+    "medium": 42,
+    "low": 2
+  },
+  "evidence_level_counts": {
+    "inferred_medium": 71,
+    "inferred_low": 2
+  },
+  "scope_counts": {
+    "occupation_core": 55,
+    "domain_specific": 18
+  },
+  "raw_unique_skills": 53,
+  "normalized_unique_skills": 53,
+  "groups_with_zero_skills": 36,
+  "total_input_tokens": 55864,
+  "total_output_tokens": 11395,
+  "total_tokens": 67259,
+  "estimated_cost": null
+}

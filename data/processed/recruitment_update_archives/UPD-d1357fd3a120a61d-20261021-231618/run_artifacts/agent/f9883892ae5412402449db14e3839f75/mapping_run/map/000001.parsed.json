@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-f9883892ae5412402449db14e3839f75",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L13-04",
+        "L13-09"
+      ],
+      "title_evidence": "标题为“国际销售经理”，明确销售职能，且面向机构/企业客户的国际业务销售，符合企业客户销售范围",
+      "level_3_evidence": null,
+      "reason": "“国际销售经理”核心职责为销售，客户类型未明确为个人消费者，医疗行业B2B销售常见，归入企业客户销售（L13-01）；无直接证据细分至直客或重点客户管理，故停在二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16934,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 294,
+    "output_tokens": 165,
+    "reasoning_tokens": 0,
+    "total_tokens": 17099
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038604000000000004
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "079ca3ad-f515-4581-b1d1-ff88a6a5fa85",
+  "object": "chat.completion",
+  "created": 1792571308,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-102e8f6a3d7b709a159fb134938271f5\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L13-01\", \"issue\": \"银行客户经理以客户关系维护与业务拓展为主，归企业客户销售L13-01合理；个人客户销售L13-02与柜面业务L20-08为可接受备选，不构成明显错分。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17027,
+    "completion_tokens": 115,
+    "total_tokens": 17142,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 515
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

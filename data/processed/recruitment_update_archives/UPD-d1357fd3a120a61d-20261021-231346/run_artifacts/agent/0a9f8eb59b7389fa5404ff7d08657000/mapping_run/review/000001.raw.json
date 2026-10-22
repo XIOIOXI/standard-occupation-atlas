@@ -1,0 +1,28 @@
+{
+  "id": "4806818d-713f-4c66-9a68-e64d8774e6fd",
+  "object": "chat.completion",
+  "created": 1792571341,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-0a9f8eb59b7389fa5404ff7d08657000\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L19-03\", \"issue\": \"“财务运营岗”主归属财务职能，L19-03（财务规划与分析）为合理二级归属；无总账核算或出纳证据，不选三级合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17088,
+    "completion_tokens": 104,
+    "total_tokens": 17192,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 576
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

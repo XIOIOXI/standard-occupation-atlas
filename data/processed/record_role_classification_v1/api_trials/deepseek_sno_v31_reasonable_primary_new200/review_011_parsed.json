@@ -1,0 +1,85 @@
+{
+  "raw_response_file": "review_011_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-f744514e6600cfd462c1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-dba3ed087035432124fd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-58d0c98f33ac2833373f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-8414150d642e910f2a81",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-9cf590b9b8ffc0c788b9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-7e1b1e40e1e0583264cc",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L22-02",
+      "issue": "目录仅到二级，不存在三级分类 L22-03-01；初中信息科技教师属于学科与通识教学，应归 L22-02。"
+    },
+    {
+      "occupation_id": "SNO-2d0f692a34cd9b38ce0c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-e636372f8a73350a2097",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-ceebab530113bb880341",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-1686a56ddc5ccea1cf8b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    }
+  ],
+  "usage": {
+    "input_tokens": 10653,
+    "cached_input_tokens": 9216,
+    "uncached_input_tokens": 1437,
+    "output_tokens": 415,
+    "reasoning_tokens": 0,
+    "total_tokens": 11068
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000492198
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "70015c9a-343f-4d8e-b333-974dab15a6c3",
+  "object": "chat.completion",
+  "created": 1792571731,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-6e54eebeead20dbf941032e1724dfd1b\",\"status\":\"mapped\",\"target_category_id\":\"L02-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L02-03\",\"L01-02\"],\"title_evidence\":\"标题为“数据应用开发工程师”，核心为数据应用开发，属于数据平台/数据应用开发方向\",\"level_3_evidence\":null,\"reason\":\"“数据应用开发”指向数据工程与数据平台开发（L02-03），但未明确是数仓建模、数据集成管道还是数据计算平台，故停在二级；虽含“开发”但数据方向证据优先于通用后端开发。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16937,
+    "completion_tokens": 165,
+    "total_tokens": 17102,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 297
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,22 @@
+{
+  "stage": "map",
+  "batch": 163,
+  "failures": [
+    {
+      "occupation_id": "TG-809715fbd5df7290c8ad",
+      "error": "missing L3 evidence",
+      "raw_response_file": "000163.raw.json"
+    },
+    {
+      "occupation_id": "TG-8ec8fe42e5ee8d481c8e",
+      "error": "missing L3 evidence",
+      "raw_response_file": "000163.raw.json"
+    },
+    {
+      "occupation_id": "TG-8883648b240d65b4975c",
+      "error": "missing L3 evidence",
+      "raw_response_file": "000163.raw.json"
+    }
+  ],
+  "action": "retain_raw_and_continue_without_reissue"
+}

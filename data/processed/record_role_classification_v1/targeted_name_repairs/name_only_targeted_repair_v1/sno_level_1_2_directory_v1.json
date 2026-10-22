@@ -1,0 +1,1519 @@
+{
+  "schema_version": "sno-level-1-2-directory-v1",
+  "source_taxonomy": "data/processed/record_role_classification_v1/catalog_mappings/taxonomy_embedding_texts_v1.json",
+  "source_display_projection": "data/processed/record_role_classification_v1/targeted_name_repairs/name_only_targeted_repair_v1/display_projection_v9.json",
+  "notice": "Formal taxonomy is frozen. Display-only holding groups are listed separately and do not alter formal Level-1/Level-2 categories.",
+  "formal_taxonomy": [
+    {
+      "level_1_id": "互联网/AI",
+      "level_1_name": "互联网/AI",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "互联网/AI/internet-cpp",
+          "canonical_name": "C++",
+          "display_name": "C++",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-java",
+          "canonical_name": "Java",
+          "display_name": "Java",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-python",
+          "canonical_name": "Python",
+          "display_name": "Python",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-frontend-mobile",
+          "canonical_name": "前端/移动开发",
+          "display_name": "前端/移动开发",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-backend",
+          "canonical_name": "后端开发",
+          "display_name": "后端开发",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-project-management",
+          "canonical_name": "技术项目管理",
+          "display_name": "技术项目管理",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-data-analyst",
+          "canonical_name": "数据分析师",
+          "display_name": "数据分析师",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-data-development",
+          "canonical_name": "数据开发",
+          "display_name": "数据开发",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-data-labeling",
+          "canonical_name": "数据标注/AI训练师",
+          "display_name": "数据标注/AI训练师",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-machine-learning",
+          "canonical_name": "机器学习",
+          "display_name": "机器学习",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-test",
+          "canonical_name": "测试",
+          "display_name": "测试",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-algorithm",
+          "canonical_name": "算法工程师",
+          "display_name": "算法工程师",
+          "level_3_category_count": 7
+        },
+        {
+          "level_2_id": "互联网/AI/internet-security",
+          "canonical_name": "网络/系统安全",
+          "display_name": "网络/系统安全",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-ops-support",
+          "canonical_name": "运维/技术支持",
+          "display_name": "运维/技术支持",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "互联网/AI/internet-sales-support",
+          "canonical_name": "销售技术支持",
+          "display_name": "销售技术支持",
+          "level_3_category_count": 3
+        }
+      ]
+    },
+    {
+      "level_1_id": "产品",
+      "level_1_name": "产品",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "产品/product-internet",
+          "canonical_name": "互联网产品经理",
+          "display_name": "互联网产品经理",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "产品/product-cosmetics",
+          "canonical_name": "化妆品产品经理",
+          "display_name": "化妆品产品经理",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "产品/product-game",
+          "canonical_name": "游戏策划/制作",
+          "display_name": "游戏策划/制作",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "产品/product-hardware",
+          "canonical_name": "硬件产品经理",
+          "display_name": "硬件产品经理",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "产品/product-finance",
+          "canonical_name": "金融产品经理",
+          "display_name": "金融产品经理",
+          "level_3_category_count": 3
+        }
+      ]
+    },
+    {
+      "level_1_id": "人力/行政/法务",
+      "level_1_name": "人力/行政/法务",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "人力/行政/法务/people-hr",
+          "canonical_name": "人力资源",
+          "display_name": "人力资源",
+          "level_3_category_count": 4
+        },
+        {
+          "level_2_id": "人力/行政/法务/people-reception",
+          "canonical_name": "前台",
+          "display_name": "前台",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "人力/行政/法务/people-clerk",
+          "canonical_name": "文员",
+          "display_name": "文员",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "供应链/物流",
+      "level_1_name": "供应链/物流",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "供应链/物流/supply-warehouse",
+          "canonical_name": "仓储",
+          "display_name": "仓储",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "供应链/物流/supply-chain",
+          "canonical_name": "供应链",
+          "display_name": "供应链",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "供应链/物流/supply-drone",
+          "canonical_name": "无人机飞手",
+          "display_name": "无人机飞手",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "供应链/物流/supply-logistics",
+          "canonical_name": "物流/运输",
+          "display_name": "物流/运输",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "供应链/物流/supply-assistant",
+          "canonical_name": "跟车员",
+          "display_name": "跟车员",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "供应链/物流/supply-dispatch",
+          "canonical_name": "配送理货",
+          "display_name": "配送理货",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "供应链/物流/supply-driver",
+          "canonical_name": "驾驶员",
+          "display_name": "驾驶员",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "医疗健康",
+      "level_1_name": "医疗健康",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "医疗健康/health-clinical",
+          "canonical_name": "临床试验",
+          "display_name": "临床试验",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-therapy",
+          "canonical_name": "保健理疗",
+          "display_name": "保健理疗",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-doctor",
+          "canonical_name": "医生/医技",
+          "display_name": "医生/医技",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-device",
+          "canonical_name": "医疗器械",
+          "display_name": "医疗器械",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-sales",
+          "canonical_name": "医疗销售",
+          "display_name": "医疗销售",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-editor",
+          "canonical_name": "医药编辑",
+          "display_name": "医药编辑",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-guide",
+          "canonical_name": "导医",
+          "display_name": "导医",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-nurse",
+          "canonical_name": "护士",
+          "display_name": "护士",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-care-worker",
+          "canonical_name": "护工",
+          "display_name": "护工",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-biomedicine",
+          "canonical_name": "生物医药",
+          "display_name": "生物医药",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-pharma-production",
+          "canonical_name": "药品生产",
+          "display_name": "药品生产",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "医疗健康/health-pharmacy",
+          "canonical_name": "药店",
+          "display_name": "药店",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "咨询/翻译/法律",
+      "level_1_name": "咨询/翻译/法律",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "咨询/翻译/法律/consult-russian",
+          "canonical_name": "俄语翻译",
+          "display_name": "俄语翻译",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "咨询/翻译/法律/consult-other-language",
+          "canonical_name": "其他语种翻译",
+          "display_name": "其他语种翻译",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "咨询/翻译/法律/consult-research",
+          "canonical_name": "咨询/调研",
+          "display_name": "咨询/调研",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "咨询/翻译/法律/consult-german",
+          "canonical_name": "德语翻译",
+          "display_name": "德语翻译",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "咨询/翻译/法律/consult-psychology",
+          "canonical_name": "心理/婚恋咨询师",
+          "display_name": "心理/婚恋咨询师",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "咨询/翻译/法律/consult-japanese",
+          "canonical_name": "日语翻译",
+          "display_name": "日语翻译",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "咨询/翻译/法律/consult-legal",
+          "canonical_name": "法律服务",
+          "display_name": "法律服务",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "咨询/翻译/法律/consult-french",
+          "canonical_name": "法语翻译",
+          "display_name": "法语翻译",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "咨询/翻译/法律/consult-english",
+          "canonical_name": "英语翻译",
+          "display_name": "英语翻译",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "咨询/翻译/法律/consult-spanish",
+          "canonical_name": "西班牙语翻译",
+          "display_name": "西班牙语翻译",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "咨询/翻译/法律/consult-korean",
+          "canonical_name": "韩语/朝鲜语翻译",
+          "display_name": "韩语/朝鲜语翻译",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "市场/公关/广告",
+      "level_1_name": "市场/公关/广告",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "市场/公关/广告/marketing-events",
+          "canonical_name": "会务会展",
+          "display_name": "会务会展",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "市场/公关/广告/marketing-pr",
+          "canonical_name": "公关媒介",
+          "display_name": "公关媒介",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "市场/公关/广告/marketing-analytics",
+          "canonical_name": "商业数据分析",
+          "display_name": "商业数据分析",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "市场/公关/广告/marketing-general",
+          "canonical_name": "市场/营销",
+          "display_name": "市场/营销",
+          "level_3_category_count": 4
+        },
+        {
+          "level_2_id": "市场/公关/广告/marketing-advertising",
+          "canonical_name": "广告",
+          "display_name": "广告",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "市场/公关/广告/marketing-production",
+          "canonical_name": "广告制作",
+          "display_name": "广告制作",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "市场/公关/广告/marketing-government",
+          "canonical_name": "政府事务",
+          "display_name": "政府事务",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "影视/传媒",
+      "level_1_name": "影视/传媒",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "影视/传媒/media-host",
+          "canonical_name": "主持人/主播/DJ",
+          "display_name": "主持人/主播/DJ",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "影视/传媒/media-child-guide",
+          "canonical_name": "儿童引导师",
+          "display_name": "儿童引导师",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "影视/传媒/media-film",
+          "canonical_name": "影视媒体",
+          "display_name": "影视媒体",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "影视/传媒/media-news",
+          "canonical_name": "新闻/编辑",
+          "display_name": "新闻/编辑",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "影视/传媒/media-performer",
+          "canonical_name": "演员/配音/模特",
+          "display_name": "演员/配音/模特",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "影视/传媒/media-publishing",
+          "canonical_name": "采编/写作/出版",
+          "display_name": "采编/写作/出版",
+          "level_3_category_count": 3
+        }
+      ]
+    },
+    {
+      "level_1_id": "房地产/建筑",
+      "level_1_name": "房地产/建筑",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "房地产/建筑/estate-landscape",
+          "canonical_name": "园林/景观设计",
+          "display_name": "园林/景观设计",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "房地产/建筑/estate-city",
+          "canonical_name": "城市规划设计",
+          "display_name": "城市规划设计",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "房地产/建筑/estate-management",
+          "canonical_name": "工程管理",
+          "display_name": "工程管理",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "房地产/建筑/estate-worker",
+          "canonical_name": "建筑/装修工人",
+          "display_name": "建筑/装修工人",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "房地产/建筑/estate-architecture",
+          "canonical_name": "建筑/规划设计",
+          "display_name": "建筑/规划设计",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "房地产/建筑/estate-appraisal",
+          "canonical_name": "房产评估师",
+          "display_name": "房产评估师",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "房地产/建筑/estate-development",
+          "canonical_name": "房地产规划开发",
+          "display_name": "房地产规划开发",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "房地产/建筑/estate-sales",
+          "canonical_name": "房地产销售",
+          "display_name": "房地产销售",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "房地产/建筑/estate-property",
+          "canonical_name": "物业管理",
+          "display_name": "物业管理",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "房地产/建筑/estate-decoration",
+          "canonical_name": "装饰装修",
+          "display_name": "装饰装修",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "教育培训",
+      "level_1_name": "教育培训",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "教育培训/edu-it",
+          "canonical_name": "IT培训",
+          "display_name": "IT培训",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "教育培训/edu-assistant",
+          "canonical_name": "助教",
+          "display_name": "助教",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "教育培训/edu-tutor",
+          "canonical_name": "家教",
+          "display_name": "家教",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "教育培训/edu-employment",
+          "canonical_name": "就业老师",
+          "display_name": "就业老师",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "教育培训/edu-child",
+          "canonical_name": "幼儿/少儿教师",
+          "display_name": "幼儿/少儿教师",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "教育培训/edu-teacher",
+          "canonical_name": "教师",
+          "display_name": "教师",
+          "level_3_category_count": 4
+        },
+        {
+          "level_2_id": "教育培训/edu-product",
+          "canonical_name": "教育产品研发",
+          "display_name": "教育产品研发",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "教育培训/edu-admin",
+          "canonical_name": "教育行政",
+          "display_name": "教育行政",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "教育培训/edu-arts",
+          "canonical_name": "文化艺术培训",
+          "display_name": "文化艺术培训",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "教育培训/edu-vocational",
+          "canonical_name": "职业培训",
+          "display_name": "职业培训",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "教育培训/edu-sports",
+          "canonical_name": "运动培训",
+          "display_name": "运动培训",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "汽车",
+      "level_1_name": "汽车",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "汽车/auto-service",
+          "canonical_name": "汽车服务",
+          "display_name": "汽车服务",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "汽车/auto-rd-manufacturing",
+          "canonical_name": "汽车研发/制造",
+          "display_name": "汽车研发/制造",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "生产制造",
+      "level_1_name": "生产制造",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "生产制造/manufacturing-chemical",
+          "canonical_name": "化工",
+          "display_name": "化工",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-technician",
+          "canonical_name": "技工",
+          "display_name": "技工",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-machinery",
+          "canonical_name": "挖掘机/铲车/叉车",
+          "display_name": "挖掘机/铲车/叉车",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-loader",
+          "canonical_name": "搬运工/装卸工",
+          "display_name": "搬运工/装卸工",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-general-worker",
+          "canonical_name": "普工",
+          "display_name": "普工",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-garment-production",
+          "canonical_name": "服装制作生产",
+          "display_name": "服装制作生产",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-textile",
+          "canonical_name": "服装纺织设计",
+          "display_name": "服装纺织设计",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-mechanical",
+          "canonical_name": "机械设计/制造",
+          "display_name": "机械设计/制造",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-safety",
+          "canonical_name": "生产安全",
+          "display_name": "生产安全",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-operations",
+          "canonical_name": "生产营运",
+          "display_name": "生产营运",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-quality",
+          "canonical_name": "质量管理",
+          "display_name": "质量管理",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生产制造/manufacturing-food-rd",
+          "canonical_name": "食品/饮料研发",
+          "display_name": "食品/饮料研发",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "生活服务/零售",
+      "level_1_name": "生活服务/零售",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "生活服务/零售/service-cleaning",
+          "canonical_name": "保洁",
+          "display_name": "保洁",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-makeup",
+          "canonical_name": "化妆/造型师",
+          "display_name": "化妆/造型师",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-wedding",
+          "canonical_name": "婚礼策划",
+          "display_name": "婚礼策划",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-security",
+          "canonical_name": "安保服务",
+          "display_name": "安保服务",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-veterinary",
+          "canonical_name": "宠物医生",
+          "display_name": "宠物医生",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-pet-grooming",
+          "canonical_name": "宠物美容",
+          "display_name": "宠物美容",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-housekeeping",
+          "canonical_name": "家政",
+          "display_name": "家政",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-therapy",
+          "canonical_name": "理疗保健",
+          "display_name": "理疗保健",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-tattoo",
+          "canonical_name": "纹绣师",
+          "display_name": "纹绣师",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-repair",
+          "canonical_name": "维修",
+          "display_name": "维修",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-cafe-network",
+          "canonical_name": "网吧网管",
+          "display_name": "网吧网管",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-hair",
+          "canonical_name": "美发",
+          "display_name": "美发",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-beauty",
+          "canonical_name": "美容/美体",
+          "display_name": "美容/美体",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-nail",
+          "canonical_name": "美甲/美睫",
+          "display_name": "美甲/美睫",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-florist",
+          "canonical_name": "花艺师",
+          "display_name": "花艺师",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-fitness",
+          "canonical_name": "运动健身",
+          "display_name": "运动健身",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-retail",
+          "canonical_name": "零售",
+          "display_name": "零售",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "生活服务/零售/service-optometry",
+          "canonical_name": "验光师",
+          "display_name": "验光师",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "电子/电气/通信",
+      "level_1_name": "电子/电气/通信",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "电子/电气/通信/electronic-semiconductor",
+          "canonical_name": "半导体/芯片",
+          "display_name": "半导体/芯片",
+          "level_3_category_count": 4
+        },
+        {
+          "level_2_id": "电子/电气/通信/electronic-hardware",
+          "canonical_name": "电子/硬件开发",
+          "display_name": "电子/硬件开发",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "电子/电气/通信/electronic-repair",
+          "canonical_name": "电子维修技术员",
+          "display_name": "电子维修技术员",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "电子/电气/通信/electronic-automation",
+          "canonical_name": "电气/自动化",
+          "display_name": "电气/自动化",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "电子/电气/通信/electronic-communication",
+          "canonical_name": "通信",
+          "display_name": "通信",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "能源/环保/农业",
+      "level_1_name": "能源/环保/农业",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "能源/环保/农业/energy-agriculture",
+          "canonical_name": "农业/林业技术员",
+          "display_name": "农业/林业技术员",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "能源/环保/农业/energy-environment",
+          "canonical_name": "环保",
+          "display_name": "环保",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "能源/环保/农业/energy-veterinary",
+          "canonical_name": "畜牧兽医",
+          "display_name": "畜牧兽医",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "能源/环保/农业/energy-aquaculture",
+          "canonical_name": "禽畜/水产养殖技术员",
+          "display_name": "禽畜/水产养殖技术员",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "能源/环保/农业/energy-geology",
+          "canonical_name": "能源/地质",
+          "display_name": "能源/地质",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "能源/环保/农业/energy-keeper",
+          "canonical_name": "饲养员",
+          "display_name": "饲养员",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "设计",
+      "level_1_name": "设计",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "设计/design-display-lighting",
+          "canonical_name": "展示/照明设计",
+          "display_name": "展示/照明设计",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "设计/design-industrial-home",
+          "canonical_name": "工业/家居设计",
+          "display_name": "工业/家居设计",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "设计/design-fashion",
+          "canonical_name": "服装设计",
+          "display_name": "服装设计",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "设计/design-game",
+          "canonical_name": "游戏设计",
+          "display_name": "游戏设计",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "设计/design-user-research",
+          "canonical_name": "用户研究",
+          "display_name": "用户研究",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "设计/design-art-3d-animation",
+          "canonical_name": "美术/3D/动画",
+          "display_name": "美术/3D/动画",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "设计/design-visual-interaction",
+          "canonical_name": "视觉/交互设计",
+          "display_name": "视觉/交互设计",
+          "level_3_category_count": 3
+        }
+      ]
+    },
+    {
+      "level_1_id": "财务/审计/税务",
+      "level_1_name": "财务/审计/税务",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "财务/审计/税务/finance-accounting",
+          "canonical_name": "会计",
+          "display_name": "会计",
+          "level_3_category_count": 4
+        },
+        {
+          "level_2_id": "财务/审计/税务/finance-cashier",
+          "canonical_name": "出纳",
+          "display_name": "出纳",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "财务/审计/税务/finance-audit",
+          "canonical_name": "审计",
+          "display_name": "审计",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "财务/审计/税务/finance-tax",
+          "canonical_name": "税务",
+          "display_name": "税务",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "财务/审计/税务/finance-analysis",
+          "canonical_name": "财务分析/财务BP",
+          "display_name": "财务分析/财务BP",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "财务/审计/税务/finance-advisor",
+          "canonical_name": "财务顾问",
+          "display_name": "财务顾问",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "财务/审计/税务/finance-risk",
+          "canonical_name": "风控",
+          "display_name": "风控",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "运营/客服",
+      "level_1_name": "运营/客服",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "运营/客服/ops-seo",
+          "canonical_name": "SEO/SEM",
+          "display_name": "SEO/SEM",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "运营/客服/ops-business",
+          "canonical_name": "业务运营",
+          "display_name": "业务运营",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "运营/客服/ops-product",
+          "canonical_name": "产品运营",
+          "display_name": "产品运营",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "运营/客服/ops-content",
+          "canonical_name": "内容运营",
+          "display_name": "内容运营",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "运营/客服/ops-category",
+          "canonical_name": "品类运营",
+          "display_name": "品类运营",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "运营/客服/ops-domestic-ecommerce",
+          "canonical_name": "国内电商运营",
+          "display_name": "国内电商运营",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "运营/客服/ops-service",
+          "canonical_name": "客服",
+          "display_name": "客服",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "运营/客服/ops-copywriting",
+          "canonical_name": "文案策划",
+          "display_name": "文案策划",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "运营/客服/ops-social-media",
+          "canonical_name": "新媒体运营",
+          "display_name": "新媒体运营",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "运营/客服/ops-offline",
+          "canonical_name": "线下运营",
+          "display_name": "线下运营",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "运营/客服/ops-editor",
+          "canonical_name": "编辑",
+          "display_name": "编辑",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "运营/客服/ops-cross-border",
+          "canonical_name": "跨境电商运营",
+          "display_name": "跨境电商运营",
+          "level_3_category_count": 3
+        }
+      ]
+    },
+    {
+      "level_1_id": "酒店/旅游",
+      "level_1_name": "酒店/旅游",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "酒店/旅游/hotel-room",
+          "canonical_name": "客房服务员",
+          "display_name": "客房服务员",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "酒店/旅游/travel-product",
+          "canonical_name": "旅游产品开发/策划",
+          "display_name": "旅游产品开发/策划",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "酒店/旅游/travel-service",
+          "canonical_name": "旅游服务",
+          "display_name": "旅游服务",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "酒店/旅游/hotel-reception",
+          "canonical_name": "酒店前台/迎宾",
+          "display_name": "酒店前台/迎宾",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "酒店/旅游/hotel-manager",
+          "canonical_name": "酒店经理",
+          "display_name": "酒店经理",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "采购/贸易",
+      "level_1_name": "采购/贸易",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "采购/贸易/trade-buyer",
+          "canonical_name": "买手",
+          "display_name": "买手",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "采购/贸易/trade-clerk",
+          "canonical_name": "外贸文员",
+          "display_name": "外贸文员",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "采购/贸易/trade-import-export",
+          "canonical_name": "进出口贸易",
+          "display_name": "进出口贸易",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "采购/贸易/trade-procurement",
+          "canonical_name": "采购",
+          "display_name": "采购",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "金融",
+      "level_1_name": "金融",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "金融/financial-internet",
+          "canonical_name": "互联网金融",
+          "display_name": "互联网金融",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "金融/financial-claims",
+          "canonical_name": "保险理赔",
+          "display_name": "保险理赔",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "金融/financial-actuary",
+          "canonical_name": "保险精算师",
+          "display_name": "保险精算师",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "金融/financial-collection",
+          "canonical_name": "催收员",
+          "display_name": "催收员",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "金融/financial-investment",
+          "canonical_name": "投融资",
+          "display_name": "投融资",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "金融/financial-securities",
+          "canonical_name": "证券/基金/期货",
+          "display_name": "证券/基金/期货",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "金融/financial-asset",
+          "canonical_name": "资产评估",
+          "display_name": "资产评估",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "金融/financial-credit",
+          "canonical_name": "资信评估",
+          "display_name": "资信评估",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "金融/financial-banking",
+          "canonical_name": "银行",
+          "display_name": "银行",
+          "level_3_category_count": 3
+        },
+        {
+          "level_2_id": "金融/financial-risk",
+          "canonical_name": "风控合规清算",
+          "display_name": "风控合规清算",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "销售",
+      "level_1_name": "销售",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "销售/sales-trade",
+          "canonical_name": "外贸销售",
+          "display_name": "外贸销售",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "销售/sales-advertising",
+          "canonical_name": "广告/会展销售",
+          "display_name": "广告/会展销售",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "销售/sales-clerk",
+          "canonical_name": "店员/营业员",
+          "display_name": "店员/营业员",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "销售/sales-realestate",
+          "canonical_name": "房地产销售/招商",
+          "display_name": "房地产销售/招商",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "销售/sales-service",
+          "canonical_name": "服务业销售",
+          "display_name": "服务业销售",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "销售/sales-auto",
+          "canonical_name": "汽车销售",
+          "display_name": "汽车销售",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "销售/sales-course",
+          "canonical_name": "课程销售",
+          "display_name": "课程销售",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "销售/sales-finance",
+          "canonical_name": "金融销售",
+          "display_name": "金融销售",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "销售/sales-general",
+          "canonical_name": "销售",
+          "display_name": "销售业务",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "销售/sales-management",
+          "canonical_name": "销售管理",
+          "display_name": "销售管理",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "销售/sales-business",
+          "canonical_name": "销售行政/商务",
+          "display_name": "销售行政/商务",
+          "level_3_category_count": 2
+        }
+      ]
+    },
+    {
+      "level_1_id": "餐饮",
+      "level_1_name": "餐饮",
+      "kind": "formal_taxonomy",
+      "level_2": [
+        {
+          "level_2_id": "餐饮/food-front",
+          "canonical_name": "前厅",
+          "display_name": "前厅",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "餐饮/food-chef",
+          "canonical_name": "厨师",
+          "display_name": "厨师",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "餐饮/food-assistant",
+          "canonical_name": "帮厨",
+          "display_name": "帮厨",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "餐饮/food-server",
+          "canonical_name": "服务员",
+          "display_name": "服务员",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "餐饮/food-baking",
+          "canonical_name": "甜点/烘焙",
+          "display_name": "甜点/烘焙",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "餐饮/food-delivery",
+          "canonical_name": "送餐员",
+          "display_name": "送餐员",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "餐饮/food-apprentice",
+          "canonical_name": "餐饮学徒",
+          "display_name": "餐饮学徒",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "餐饮/food-manager",
+          "canonical_name": "餐饮店长",
+          "display_name": "餐饮店长",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "餐饮/food-management",
+          "canonical_name": "餐饮管理",
+          "display_name": "餐饮管理",
+          "level_3_category_count": 2
+        },
+        {
+          "level_2_id": "餐饮/food-beverage",
+          "canonical_name": "饮品师",
+          "display_name": "饮品师",
+          "level_3_category_count": 2
+        }
+      ]
+    }
+  ],
+  "display_only_holding_groups": [
+    {
+      "level_1_id": "holding:unresolved",
+      "level_1_name": "其他待明确职业",
+      "kind": "display_only_holding",
+      "note": "名称信息不足，尚不能确认正式职业方向。",
+      "level_2": [
+        {
+          "level_2_id": "holding:level_1:其他待明确职业:business",
+          "display_name": "业务市场与发展线索岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:其他待明确职业:general",
+          "display_name": "名称不完整或未明确岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:其他待明确职业:technical",
+          "display_name": "技术与研究线索岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:其他待明确职业:functional",
+          "display_name": "管理与职能线索岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        }
+      ]
+    },
+    {
+      "level_1_id": "holding:multi-role",
+      "level_1_name": "多职业待拆分",
+      "kind": "display_only_holding",
+      "note": "模型已识别为多个独立职业，展示层暂不拆分原子岗位。",
+      "level_2": []
+    },
+    {
+      "level_1_id": "holding:non-role-text",
+      "level_1_name": "招聘文本片段与身份说明",
+      "kind": "display_only_holding",
+      "note": "名称不是可独立展示的职业，保留来源供后续清洗或拆分。",
+      "level_2": []
+    },
+    {
+      "level_1_id": "holding:taxonomy-gap",
+      "level_1_name": "目录缺口",
+      "kind": "display_only_holding",
+      "note": "职业名称可读，但冻结目录暂无适合承接类别。",
+      "level_2": [
+        {
+          "level_2_id": "holding:level_1:目录缺口:frontier",
+          "display_name": "先进技术与科研岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:目录缺口:public",
+          "display_name": "公共事务与社会服务岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:目录缺口:general",
+          "display_name": "其他目录缺口岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:目录缺口:engineering",
+          "display_name": "工程设施与交通岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:目录缺口:specialist",
+          "display_name": "文化与专业服务岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        }
+      ]
+    },
+    {
+      "level_1_id": "holding:management-trainee",
+      "level_1_name": "管理培训与储备岗位",
+      "kind": "display_only_holding",
+      "note": "名称明确表达培养或储备计划，但未确认具体职业方向。",
+      "level_2": [
+        {
+          "level_2_id": "holding:level_1:管理培训与储备岗位:professional",
+          "display_name": "专业培养岗位",
+          "kind": "display_only_holding",
+          "note": "展示层按岗位名称中明确出现的培养方向划分；不改变正式职业目录或岗位映射状态。"
+        },
+        {
+          "level_2_id": "holding:level_1:管理培训与储备岗位:business",
+          "display_name": "业务市场与产品培训生",
+          "kind": "display_only_holding",
+          "note": "展示层按岗位名称中明确出现的培养方向划分；不改变正式职业目录或岗位映射状态。"
+        },
+        {
+          "level_2_id": "holding:level_1:管理培训与储备岗位:supply",
+          "display_name": "供应链制造与现场运营培训生",
+          "kind": "display_only_holding",
+          "note": "展示层按岗位名称中明确出现的培养方向划分；不改变正式职业目录或岗位映射状态。"
+        },
+        {
+          "level_2_id": "holding:level_1:管理培训与储备岗位:technology",
+          "display_name": "技术研发与工程培训生",
+          "kind": "display_only_holding",
+          "note": "展示层按岗位名称中明确出现的培养方向划分；不改变正式职业目录或岗位映射状态。"
+        },
+        {
+          "level_2_id": "holding:level_1:管理培训与储备岗位:functional",
+          "display_name": "职能管理与战略培训生",
+          "kind": "display_only_holding",
+          "note": "展示层按岗位名称中明确出现的培养方向划分；不改变正式职业目录或岗位映射状态。"
+        },
+        {
+          "level_2_id": "holding:level_1:管理培训与储备岗位:general",
+          "display_name": "通用与未明确方向培训生",
+          "kind": "display_only_holding",
+          "note": "展示层按岗位名称中明确出现的培养方向划分；不改变正式职业目录或岗位映射状态。"
+        }
+      ]
+    },
+    {
+      "level_1_id": "holding:general-business",
+      "level_1_name": "综合职能与业务岗位",
+      "kind": "display_only_holding",
+      "note": "名称表达业务或职能工作，但不足以安全进入正式职业方向。",
+      "level_2": [
+        {
+          "level_2_id": "holding:level_1:综合职能与业务岗位:product_ops",
+          "display_name": "产品项目与运营岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:综合职能与业务岗位:market_sales",
+          "display_name": "市场销售与客户业务岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:综合职能与业务岗位:functional",
+          "display_name": "职能管理与综合支持岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:综合职能与业务岗位:trade_supply",
+          "display_name": "贸易供应链与商业服务岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        },
+        {
+          "level_2_id": "holding:level_1:综合职能与业务岗位:general",
+          "display_name": "通用业务与未明确方向岗位",
+          "kind": "display_only_holding",
+          "note": "展示层仅按岗位名称中明确表达的主题分组；不改变正式职业目录、映射状态或原始岗位。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "formal_level_1_count": 23,
+    "formal_level_2_count": 196,
+    "display_only_level_1_group_count": 6,
+    "display_only_level_2_group_count": 20
+  }
+}

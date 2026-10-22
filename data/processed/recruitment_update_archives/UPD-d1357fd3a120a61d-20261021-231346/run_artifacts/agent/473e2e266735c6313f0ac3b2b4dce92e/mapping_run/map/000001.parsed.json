@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-473e2e266735c6313f0ac3b2b4dce92e",
+      "status": "mapped",
+      "target_category_id": "L06-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-01-01",
+        "L06-01-03",
+        "L06-01-02"
+      ],
+      "title_evidence": "传动助理工程师，传动属于机械传动方向",
+      "level_3_evidence": "机械机构与传动：运动机构传动及机械系统",
+      "reason": "传动为机械传动技术方向，直接对应机械机构与传动三级；助理为资历标签不影响归类。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16959,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 319,
+    "output_tokens": 142,
+    "reasoning_tokens": 0,
+    "total_tokens": 17101
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036594000000000004
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

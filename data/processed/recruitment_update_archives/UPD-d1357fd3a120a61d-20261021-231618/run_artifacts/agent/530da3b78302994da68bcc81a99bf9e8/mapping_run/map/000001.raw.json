@@ -1,0 +1,28 @@
+{
+  "id": "da626f6b-feef-43ba-a30f-52e163d73c70",
+  "object": "chat.completion",
+  "created": 1792571358,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-530da3b78302994da68bcc81a99bf9e8\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L32-01\",\"L32-02\",\"L19-04\",\"L20-02\"],\"title_evidence\":\"标题为“管理培训生”，原始组合岗位含资金管理、资产管理，公司为金融控股集团；仅凭“管培生”及行业不足以确定主要职能。\",\"level_3_evidence\":null,\"reason\":\"“管理培训生”本身不能推断跨职能轮岗，且组合岗位含资金管理、资产管理两个方向，无法唯一确定正式目标；按规则标 review，候选为跨职能培养及资金/资产管理方向。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16919,
+    "completion_tokens": 170,
+    "total_tokens": 17089,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 279
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

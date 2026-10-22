@@ -1,0 +1,288 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-017c036f7c96bf40ed95",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03",
+        "L06-03"
+      ],
+      "title_evidence": "汽车电气工程师",
+      "level_3_evidence": null,
+      "reason": "汽车电气系统设计属于电气工程范畴，L05-03 电气工程直接覆盖电气设备与电气系统设计；虽涉及汽车行业，但核心职能为电气工程而非整车集成。"
+    },
+    {
+      "occupation_id": "TG-7be1adcc7b2d3b241413",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-04",
+        "L01-02",
+        "L14-06"
+      ],
+      "title_evidence": "商品运营 后端产品开发工程师 门店运营",
+      "level_3_evidence": null,
+      "reason": "标题包含商品运营、后端开发、门店运营三个不同职能，无法归入单一职业类别。"
+    },
+    {
+      "occupation_id": "TG-77a6b343bfdb0981ad65",
+      "status": "mapped",
+      "target_category_id": "L26-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L26-01",
+        "L07-01"
+      ],
+      "title_evidence": "蔬菜育种科研岗",
+      "level_3_evidence": null,
+      "reason": "蔬菜育种属于农业种植技术研发，L26-01 农业与种植技术直接覆盖育种与种植技术；虽含科研字样，但应用导向明确归农业技术。"
+    },
+    {
+      "occupation_id": "TG-586e993854465c9888d2",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L22-03",
+        "L22-04",
+        "L22-02"
+      ],
+      "title_evidence": "护理专业教师（机械类、艺术设计类、电气自动化类、化工与制药类、环境生态类、工商管理类、法学类、新闻传播学类、表演......",
+      "level_3_evidence": null,
+      "reason": "标题为护理专业教师但括号内列出多个不相关学科类别，职能范围混杂，无法确定单一教学方向。"
+    },
+    {
+      "occupation_id": "TG-e42d922159eff13a9e74",
+      "status": "mapped",
+      "target_category_id": "L08-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-07",
+        "L08-01"
+      ],
+      "title_evidence": "简易产品经理",
+      "level_3_evidence": null,
+      "reason": "产品经理职能明确，但“简易”未说明产品类型，归入 L08-07 通用产品规划。"
+    },
+    {
+      "occupation_id": "TG-04e0dad616e5b6ffc587",
+      "status": "mapped",
+      "target_category_id": "L13-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L13-08-01",
+        "L02-01-03"
+      ],
+      "title_evidence": "购销统计岗",
+      "level_3_evidence": "销售运营分析",
+      "reason": "购销统计属于销售流程中的数据分析与运营支持，L13-08-01 销售运营分析直接覆盖销售指标及效率支持。"
+    },
+    {
+      "occupation_id": "TG-fdf7695440284c445660",
+      "status": "mapped",
+      "target_category_id": "L01-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-09",
+        "L01-07"
+      ],
+      "title_evidence": "系统设计师",
+      "level_3_evidence": null,
+      "reason": "系统设计师通常指软件系统架构设计，L01-09 软件架构直接覆盖系统技术方案与架构设计。"
+    },
+    {
+      "occupation_id": "TG-d81e7e1da0ce7427a343",
+      "status": "mapped",
+      "target_category_id": "L05-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-02"
+      ],
+      "title_evidence": "模拟芯片工程师",
+      "level_3_evidence": "模拟与混合信号设计",
+      "reason": "模拟芯片设计直接对应 L05-02-02 模拟与混合信号设计。"
+    },
+    {
+      "occupation_id": "TG-23501452d85ba0038944",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L12-01",
+        "L21-07-02"
+      ],
+      "title_evidence": "医学市场管培生",
+      "level_3_evidence": null,
+      "reason": "医学市场管培生可能为跨职能轮岗培养项目，最终方向未明确，需人工确认是否属于 L32-01 或已明确市场/医学事务职能。"
+    },
+    {
+      "occupation_id": "TG-8a394e0e3f36c95f866a",
+      "status": "mapped",
+      "target_category_id": "L20-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-02-01",
+        "L13-02"
+      ],
+      "title_evidence": "财富经理（财富经理培训生）",
+      "level_3_evidence": "投资组合与资产管理",
+      "reason": "财富经理通常负责客户资产配置与财富管理，属于投资组合与资产管理，L20-02-01 直接覆盖。"
+    },
+    {
+      "occupation_id": "TG-530914fec9857b548e11",
+      "status": "mapped",
+      "target_category_id": "L20-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-02-01",
+        "L13-02"
+      ],
+      "title_evidence": "财富经理(财富经理培训生)",
+      "level_3_evidence": "投资组合与资产管理",
+      "reason": "财富经理通常负责客户资产配置与财富管理，属于投资组合与资产管理，L20-02-01 直接覆盖。"
+    },
+    {
+      "occupation_id": "TG-0ffab770e6c1a1bd7c5e",
+      "status": "mapped",
+      "target_category_id": "L31-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L31-01"
+      ],
+      "title_evidence": "民警察岗位",
+      "level_3_evidence": null,
+      "reason": "人民警察属于公共事务与基层治理执行，L31-01 公共事务与基层治理直接覆盖。"
+    },
+    {
+      "occupation_id": "TG-c58077437ab087866a05",
+      "status": "mapped",
+      "target_category_id": "L05-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-04",
+        "L02-05-06"
+      ],
+      "title_evidence": "精密运动控制研究员",
+      "level_3_evidence": null,
+      "reason": "精密运动控制属于自动化与控制工程，L05-04 自动化与控制工程直接覆盖控制系统集成；虽含研究，但应用导向明确。"
+    },
+    {
+      "occupation_id": "TG-444aad0691f08e0969cf",
+      "status": "mapped",
+      "target_category_id": "L25-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-08",
+        "L25-05"
+      ],
+      "title_evidence": "减污降碳研究岗",
+      "level_3_evidence": null,
+      "reason": "减污降碳属于碳管理与可持续发展专业工作，L25-08 直接覆盖碳核算、碳管理及可持续发展。"
+    },
+    {
+      "occupation_id": "TG-79d4daf14ca2d971a2a8",
+      "status": "mapped",
+      "target_category_id": "L06-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-01-02",
+        "L06-01-01"
+      ],
+      "title_evidence": "结构设计实习生（研发）",
+      "level_3_evidence": "产品结构设计",
+      "reason": "结构设计通常指产品结构设计，L06-01-02 产品结构设计直接覆盖外壳结构、装配结构及强度。"
+    },
+    {
+      "occupation_id": "TG-d9d07f0c58278cdc1a9a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L01-11"
+      ],
+      "title_evidence": "信息软件管培生",
+      "level_3_evidence": null,
+      "reason": "信息软件管培生可能为跨职能轮岗培养项目，最终方向未明确，需人工确认是否属于 L32-01 或已明确软件开发职能。"
+    },
+    {
+      "occupation_id": "TG-c640c20d473fb8f1c8c2",
+      "status": "mapped",
+      "target_category_id": "L25-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-02",
+        "L06-08-01"
+      ],
+      "title_evidence": "浮选等选矿工艺",
+      "level_3_evidence": null,
+      "reason": "选矿工艺属于采矿与资源开采技术，L25-02 采矿与资源开采直接覆盖选矿工艺。"
+    },
+    {
+      "occupation_id": "TG-f7fcc47ac24229473ab6",
+      "status": "mapped",
+      "target_category_id": "L17-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L17-07",
+        "L17-02"
+      ],
+      "title_evidence": "零售物流",
+      "level_3_evidence": null,
+      "reason": "零售物流属于物流作业，但具体方向未说明，归入 L17-07 通用物流作业。"
+    },
+    {
+      "occupation_id": "TG-8dc9bf98ea0e15814cd1",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L12-01",
+        "L21-07-02"
+      ],
+      "title_evidence": "市场/医学管培生",
+      "level_3_evidence": null,
+      "reason": "市场/医学管培生可能为跨职能轮岗培养项目，最终方向未明确，需人工确认是否属于 L32-01 或已明确市场/医学事务职能。"
+    },
+    {
+      "occupation_id": "TG-1424103be510cbbbef52",
+      "status": "mapped",
+      "target_category_id": "L06-07-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-07-01",
+        "L07-01"
+      ],
+      "title_evidence": "细胞研究员",
+      "level_3_evidence": "生物技术研发",
+      "reason": "细胞研究属于生物技术研发，L06-07-01 生物技术研发直接覆盖生物工程及生物技术应用。"
+    }
+  ],
+  "raw_response_file": "000499.raw.json",
+  "usage": {
+    "input_tokens": 17388,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 876,
+    "output_tokens": 2700,
+    "reasoning_tokens": 0,
+    "total_tokens": 20088
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003601872
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

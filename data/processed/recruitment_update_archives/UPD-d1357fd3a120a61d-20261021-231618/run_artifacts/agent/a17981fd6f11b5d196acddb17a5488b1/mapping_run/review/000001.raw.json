@@ -1,0 +1,28 @@
+{
+  "id": "85a2f6f9-5ab8-43c5-827c-67225101a261",
+  "object": "chat.completion",
+  "created": 1792571799,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-a17981fd6f11b5d196acddb17a5488b1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电商管培生方向明确为电商，但培养期职责可能轮岗，review合理；候选L14-04/L13-09/L32-01均合理，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17118,
+    "completion_tokens": 92,
+    "total_tokens": 17210,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 606
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-aab860a9c74c329304c8",
+      "decision": "exclude_non_role",
+      "reason": "标题为泛指类别，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-5c2953d7ba2f2b3a34a6",
+      "decision": "exclude_non_role",
+      "reason": "标题为残缺片段，非完整岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-153ac7ebbd12cf70f5c6",
+      "decision": "exclude_non_role",
+      "reason": "标题为泛指类别，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-9c926ddd1eefc9ba2ee5",
+      "decision": "exclude_non_role",
+      "reason": "标题为泛指人员类别，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-5d9257ee1ca4be5ea414",
+      "decision": "exclude_non_role",
+      "reason": "标题为泛指类别，非具体岗位名称",
+      "recovered_title": null
+    }
+  ],
+  "raw_response_file": "000006.raw.json",
+  "usage": {
+    "input_tokens": 222,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 222,
+    "output_tokens": 272,
+    "reasoning_tokens": 0,
+    "total_tokens": 494
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000393
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

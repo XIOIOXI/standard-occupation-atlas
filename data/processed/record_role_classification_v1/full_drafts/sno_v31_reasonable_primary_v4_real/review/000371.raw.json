@@ -1,0 +1,28 @@
+{
+  "id": "3418509d-1214-41db-8f7c-38362bc3c0d6",
+  "object": "chat.completion",
+  "created": 1791881354,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-0ac36d358746fa0f8fd9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3f8b57bd1e975817847d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-16c20dc9a3e5aae1d6fa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-7c63a18dbc0d0115463e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e1c475fea846bd917cbd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a386d160e251a3466b47\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-bb308f127e473d6094cd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a07f01cd6eb82967fb76\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L20-03\",\"issue\":\"投关专员（投资者关系）核心是资本市场沟通与投资者关系管理，更贴近投行业务与资本市场（L20-03），而非证券与市场研究（L20-01-01）。\"},{\"occupation_id\":\"TG-fa9ba00ae2f3f06817e3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-86777d435139c8be958e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e94f08dd7e8975eec4df\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-526178de1a5bc4a84afc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-05face2999479da86345\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ca8528a307ffc99eb372\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-23d9c80e3f1fceae1de7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e3282eb007b6d6d57339\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cd56c92bc5360bc9477e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cff19349619da9eba79a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-84e67e869e4033075cd5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-12b80a313bf7d23862af\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L02-05-07\",\"issue\":\"标题明确为“多模态感知与重建算法”，应归入多模态算法（L02-05-07），而非计算机视觉（L02-05-01）。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19563,
+    "completion_tokens": 820,
+    "total_tokens": 20383,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3051
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

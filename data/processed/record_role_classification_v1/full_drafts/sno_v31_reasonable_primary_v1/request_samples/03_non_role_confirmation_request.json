@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "prompt_version": "sno-v3.1-reasonable-primary-v2-full",
+    "taxonomy_version": "sno-v3.1-local-revision",
+    "taxonomy_sha256": "90629daf20448950f94fe1d15804db35af11fe64e4b388140c377f6f45ceecc3",
+    "source_record_count": 20964,
+    "distinct_title_count": 11933,
+    "budget_usd": 0.0
+  },
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "仅标题，不用正文。JSON {\"results\":[{\"original_record_id\":\"RR-x\",\"decision\":\"exclude_non_role\",\"reason\":\"无岗位信息\",\"recovered_title\":null}]}。decision仅exclude_non_role|restore_title_and_map|hold；无法确认hold；剔除只影响有效展示，源记录和日志保留。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"RR-249f9adf467a2490a414\", \"title\": \"具体招聘岗位\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  }
+}

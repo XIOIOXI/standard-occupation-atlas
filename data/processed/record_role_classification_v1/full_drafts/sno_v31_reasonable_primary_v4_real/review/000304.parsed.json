@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-4d41598590cc78473f3d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "多职能储备岗，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-5af5ef51c6094556f02b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "设备保养对应工业设备维修保全，合理。"
+    },
+    {
+      "occupation_id": "TG-67331b5aba3a8b55095f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "小学艺术教师对应艺术教学，合理。"
+    },
+    {
+      "occupation_id": "TG-5e73ae2ac2a8e5742394",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "海外接单员归进出口与贸易执行，合理。"
+    },
+    {
+      "occupation_id": "TG-e1de37639db4111df1b7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "多模态大模型算法对应多模态算法，合理。"
+    },
+    {
+      "occupation_id": "TG-351a29098345c4f7cb35",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "药物研发岗方向未明，停在二级合理。"
+    },
+    {
+      "occupation_id": "TG-a55bd0ee2591a337f016",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI产品经理归平台与技术产品，合理。"
+    },
+    {
+      "occupation_id": "TG-8ab0754b29eeca63a77a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "采购管培生方向为零售商品，归零售选品与买手，合理。"
+    },
+    {
+      "occupation_id": "TG-1211ffec8063eb4ab56c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "海外媒介专员归公关与媒介关系，合理。"
+    },
+    {
+      "occupation_id": "TG-56e1504b5f5a8cf662d0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "生产工艺技术员归制造制程工程，合理。"
+    },
+    {
+      "occupation_id": "TG-2654d5652cc46e44b961",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "SOC硬件开发归数字芯片设计，合理。"
+    },
+    {
+      "occupation_id": "TG-f084ae1a3e03ac0cb61e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "证券投资业务岗方向未明，停在二级合理。"
+    },
+    {
+      "occupation_id": "TG-58597c5c0b2acadc0814",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "多方向管培生，review合理。"
+    },
+    {
+      "occupation_id": "TG-12994d3f0150a14461d9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "国内电商方向管培生归电商店铺运营，合理。"
+    },
+    {
+      "occupation_id": "TG-8c54125e6a7a75bb3eb8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品认证工程师归标准认证与质量体系，合理。"
+    },
+    {
+      "occupation_id": "TG-764f97285c0a2c20af7a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI项目专员职责不明，review合理。"
+    },
+    {
+      "occupation_id": "TG-cf70c3e9c915a31ef126",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "物流管培生方向未细分，归物流调度与运输管理，合理。"
+    },
+    {
+      "occupation_id": "TG-afaa786bf9175e87bf9c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "专卖管理员归门店导购与营业销售，合理。"
+    },
+    {
+      "occupation_id": "TG-eced4716e5da147de2dd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "课程销售顾问归个人客户销售，合理。"
+    },
+    {
+      "occupation_id": "TG-2ef446313012ae14a0d6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "计划控制工程师归生产计划与现场管理，合理。"
+    }
+  ],
+  "raw_response_file": "000304.raw.json",
+  "usage": {
+    "input_tokens": 19647,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3135,
+    "output_tokens": 951,
+    "reasoning_tokens": 0,
+    "total_tokens": 20598
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002180772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

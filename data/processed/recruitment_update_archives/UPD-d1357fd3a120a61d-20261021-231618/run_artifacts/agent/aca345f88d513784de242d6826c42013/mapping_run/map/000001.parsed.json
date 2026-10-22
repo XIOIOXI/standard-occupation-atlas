@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-aca345f88d513784de242d6826c42013",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L20-11"
+      ],
+      "title_evidence": "管理培训生（金融管理方向），银行背景，属培养性质岗位，但最终职能方向未明确",
+      "level_3_evidence": null,
+      "reason": "标题为管理培训生且限定金融管理方向，符合培养轮岗性质；但金融管理方向不足以确定具体金融业务职能（如信贷、风险、运营等），按L32-01说明仅行业或领域不足以确定职能时应标review，候选为跨职能管理培训与轮岗及通用金融专业业务。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16944,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 304,
+    "output_tokens": 165,
+    "reasoning_tokens": 0,
+    "total_tokens": 17109
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038904
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

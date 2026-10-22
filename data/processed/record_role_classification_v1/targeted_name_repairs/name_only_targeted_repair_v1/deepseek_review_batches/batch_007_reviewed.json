@@ -1,0 +1,185 @@
+{
+  "batch_number": 7,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "04d551e8-43fa-4c0f-9163-e825b2c7399d",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813090,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30935,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3671,
+    "output_tokens": 1889,
+    "reasoning_tokens": 0,
+    "total_tokens": 32824
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0017658419999999999
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-f1e69dcef72d1c46526c",
+      "decision": "keep",
+      "target_category_id": "运营/客服/ops-content/content-editorial",
+      "reason": "IPTV版权运营核心为内容版权管理与内容策划编辑，归入内容编辑与策划合理。"
+    },
+    {
+      "occupation_id": "SNO-582e9958f3ba42868b0c",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "名称明确为AI大模型开发工程师，与大模型与生成式AI方向直接匹配。"
+    },
+    {
+      "occupation_id": "SNO-ecee65d258afe4e0703b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-finance",
+      "reason": "FICO为SAP财务模块，FICO工程师属金融与行业后端开发方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-19ee02f541a07c3cfeb6",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "仿真技术研究工程师未明确为算法工程师，仅凭名称无法确认归入算法研究与通用算法，建议复核。"
+    },
+    {
+      "occupation_id": "SNO-04e37f1c85e3340b9939",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI Agent工程师与大模型及生成式AI方向直接相关，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-e2aa90219f9d67e98048",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含生产主控、文秘和算法工程师多个独立职业，确属多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-4546e48b634f9cfcfe8a",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出财富、资管、自营、投行、研究、信息技术、职能等多个独立方向，确属多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-fc5e177a6afa03cf779a",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "应用开发工程师通常指业务服务端应用开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-875f599c57099c0b7e6b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "reason": "嵌入式Linux开发属于嵌入式与实时开发方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-0f94c5ed29d1bd9016bd",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "三维图形渲染算法属于图形与高性能计算方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-0c0e598e31d99eb02d5b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "光线追踪算法属于图形与高性能计算方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-e615d0f104394fb95bb7",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "高性能计算通常归入图形与高性能计算方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-17c916dee8d85492dd9c",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出综合管理部、市场部、经营部等多个独立方向，确属多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-f02080963af8f12396c6",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "性能优化工程师未明确为C++或图形高性能计算方向，仅凭名称无法确认，建议复核。"
+    },
+    {
+      "occupation_id": "SNO-98f55adfc8b486388bf5",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出财务、投资、审计等多个独立方向，确属多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-6bd53cd199ae218832a1",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出科研助理、制种技术员、品管员三个独立职业，确属多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-4b05dcdf1cfb0b1aee62",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出达人BD运营海外、国内及AI产品专员多个独立职业，确属多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-ee3b2e015051fc99d764",
+      "decision": "fallback_review",
+      "target_category_id": null,
+      "reason": "技能竞赛翻译未注明具体语种，不能确认归入其他语种翻译，建议复核。"
+    },
+    {
+      "occupation_id": "SNO-3ef06127f13fbc193c87",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-web",
+      "reason": "UI开发初级工程师属于Web与前端开发方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-16bee39a4275ac680044",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出对公营销、零售营销、运营、财会、风险管理多个独立职业，确属多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-68a002873e86caf507aa",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出售后调试、算法研发、软件设计、机构设计、电气设计、光学设计、财务管培生多个独立职业，确属多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-96a9739164dfb939c5cd",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-java/java-server",
+      "reason": "技术经理Java方向属服务端与企业应用开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-b3f6b8f380ed873e75bb",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "机器视觉工程师属计算机视觉与三维感知方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-b7de5b4145f9b066548f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "多职能队员明显涉及多个独立职能，确属多职业并列。"
+    },
+    {
+      "occupation_id": "SNO-93d9df550ae7908760a0",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "C#软件开发工程师属业务服务端开发方向，当前归属合理。"
+    }
+  ]
+}

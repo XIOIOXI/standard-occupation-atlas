@@ -1,0 +1,28 @@
+{
+  "id": "7dc76918-c9db-49a0-ab24-b84005bcdeb2",
+  "object": "chat.completion",
+  "created": 1792571203,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-5ac089155580a59ed02c0c4b4968fbfd\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L27-07\",\"issue\":\"机场管制运行/运行指挥属交通运行组织与地面服务，L27-07合理；非飞行操作，不归L27-08。review可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17035,
+    "completion_tokens": 91,
+    "total_tokens": 17126,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 523
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

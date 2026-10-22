@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-2768dc65edfd8106b553b8f6a25d4507",
+      "status": "mapped",
+      "target_category_id": "L14-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L14-04-01",
+        "L14-04-02",
+        "L14-04"
+      ],
+      "title_evidence": "标题为“电商实习生”，电商方向明确，属电商运营范畴",
+      "level_3_evidence": "电商店铺运营：店铺交易及渠道运营",
+      "reason": "电商实习生为电商运营方向的实习岗位，最直接对应电商与商品运营下的电商店铺运营；实习为阶段标签不影响职能归类。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16979,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 339,
+    "output_tokens": 147,
+    "reasoning_tokens": 0,
+    "total_tokens": 17126
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037794000000000006
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

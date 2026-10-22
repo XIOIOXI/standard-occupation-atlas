@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 159,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "bd88d269-9d52-4f5d-b833-4def669139b0",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751690,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24995,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1699,
+    "output_tokens": 2685,
+    "reasoning_tokens": 0,
+    "total_tokens": 27680
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001935738
+  },
+  "observed_at_utc": "2026-10-11T20:48:10.360036+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-626d41dfea77505e890f",
+      "target_category_id": "销售/sales-management/sales-management-team",
+      "status": "mapped",
+      "reason": "业务经理核心为销售团队管理，金融经济等为专业背景修饰"
+    },
+    {
+      "occupation_id": "SNO-dae26bc248329b21f176",
+      "target_category_id": "产品/product-game/game-production",
+      "status": "mapped",
+      "reason": "游戏APM为游戏制作项目管理"
+    },
+    {
+      "occupation_id": "SNO-1e1d205e3b6db5308c36",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "逆变开发属电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-b89c8ceb73879d437d2a",
+      "target_category_id": "房地产/建筑/estate-development/realestate-dev-development",
+      "status": "mapped",
+      "reason": "自然资源项目助理属房地产开发与报建类项目助理"
+    },
+    {
+      "occupation_id": "SNO-abc703299906f7d5c8fe",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场策划核心为品牌与市场策略"
+    },
+    {
+      "occupation_id": "SNO-ba202966e2bc5b895ec6",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "产品开发助理属互联网产品经理平台方向"
+    },
+    {
+      "occupation_id": "SNO-cbad552b8666fdf97b57",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "质量体系工程师属质量体系与审核"
+    },
+    {
+      "occupation_id": "SNO-771b652afde6a1aa1df5",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "运维岗属基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-a76907fcf7508e8fef80",
+      "target_category_id": "生活服务/零售/service-retail/retail-store",
+      "status": "mapped",
+      "reason": "海外零售管培生核心为门店运营与导购"
+    },
+    {
+      "occupation_id": "SNO-e822dfadb81322af2045",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "集团本部财务属总账与财务核算"
+    },
+    {
+      "occupation_id": "SNO-368e8ee9b3017bf2789e",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生计划管培生应为生产计划管培生，属生产计划与调度"
+    },
+    {
+      "occupation_id": "SNO-478e05b1edd7269421dc",
+      "target_category_id": "影视/传媒/media-performer/performer-acting",
+      "status": "mapped",
+      "reason": "四级演员属表演与影视演出"
+    },
+    {
+      "occupation_id": "SNO-894ed527be5ff659fcbd",
+      "target_category_id": "互联网/AI/internet-test/test-performance",
+      "status": "mapped",
+      "reason": "可靠度测试属性能与可靠性测试"
+    },
+    {
+      "occupation_id": "SNO-6505769da74e1303f1f0",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "信息系统开发师属业务服务端开发"
+    },
+    {
+      "occupation_id": "SNO-6f5c3bd9abb46254ac8a",
+      "target_category_id": "产品/product-hardware/hardware-product",
+      "status": "mapped",
+      "reason": "海外产品工程师属硬件产品规划"
+    },
+    {
+      "occupation_id": "SNO-919e328981eba1dd489c",
+      "target_category_id": "销售/sales-business/sales-admin-order",
+      "status": "mapped",
+      "reason": "订单专员属订单与合同管理"
+    },
+    {
+      "occupation_id": "SNO-18167c3951b5d69c87ec",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "远程技术支持属技术支持与客户交付"
+    },
+    {
+      "occupation_id": "SNO-f19735dc0793be001b85",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资经营管理岗属股权与投资分析"
+    },
+    {
+      "occupation_id": "SNO-9ee3b8fb7d9aa5f78b62",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出海外财务管理、海外物流管理、海外工厂管理、审计稽核等多个独立职业"
+    },
+    {
+      "occupation_id": "SNO-aa598dccd7287ed4824b",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "厅堂运营岗属零售与综合银行"
+    },
+    {
+      "occupation_id": "SNO-9e7266c267bd39043426",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "产品市场管培生核心为品牌与市场策略"
+    },
+    {
+      "occupation_id": "SNO-04ca857d7bbf128e6898",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资管理专员属股权与投资分析"
+    },
+    {
+      "occupation_id": "SNO-a7f22fd94431617931cb",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "芯片与器件FAE经理属芯片设计相关技术支持"
+    },
+    {
+      "occupation_id": "SNO-dc3fcc9cda0c854f687a",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "和数据分析应为数据分析，属商业与业务分析"
+    },
+    {
+      "occupation_id": "SNO-6cbdebab3efe6b2768b0",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "负极材料研发属能源开发与工程"
+    },
+    {
+      "occupation_id": "SNO-35550447c06ef91da428",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "系统主管属基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-f423f68e92d43c1861a6",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "站管理所一级运行员属生产计划与调度"
+    },
+    {
+      "occupation_id": "SNO-a5d78286b4a0968edb39",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "技术支持营销经理核心为客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-c4b603ba76016ef231e5",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "建筑设计与研究属建筑方案与施工图设计"
+    },
+    {
+      "occupation_id": "SNO-f5ae62c53a2297af331b",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "售后技术服务属技术支持与客户交付"
+    },
+    {
+      "occupation_id": "SNO-d1dcdfa39e9d88cf0c9c",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "新产品研发工程师属机械结构与产品设计"
+    },
+    {
+      "occupation_id": "SNO-ee74915ff9ff0c529074",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-environment",
+      "status": "mapped",
+      "reason": "通风防尘技术员属环境与职业健康管理"
+    },
+    {
+      "occupation_id": "SNO-25dcf641cd239eed2c18",
+      "target_category_id": "财务/审计/税务/finance-cashier/cashier-payment",
+      "status": "mapped",
+      "reason": "销售结算属资金收付与结算"
+    },
+    {
+      "occupation_id": "SNO-f51fb121af3ca8d824eb",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "市场销售助理属销售支持与商务协调"
+    },
+    {
+      "occupation_id": "SNO-3655e7259639647b2767",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "高水平产业转化岗属市场与社会调研"
+    },
+    {
+      "occupation_id": "SNO-98fab301e2676a4ced4c",
+      "target_category_id": "人力/行政/法务/people-hr/hr-learning",
+      "status": "mapped",
+      "reason": "组织发展岗属培训与人才发展"
+    },
+    {
+      "occupation_id": "SNO-ae33c5519b8bac9b889a",
+      "target_category_id": "房地产/建筑/estate-property/property-mgmt-community",
+      "status": "mapped",
+      "reason": "住宅项目管理属住宅物业运营"
+    },
+    {
+      "occupation_id": "SNO-c974388c0cbf897cd515",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气系统工程师属电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-92e573838bdc4be50b8f",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "储能工程师属能源开发与工程"
+    },
+    {
+      "occupation_id": "SNO-572e8c6c45324764bca4",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "小麦营养品质科研属农作物与农业技术"
+    },
+    {
+      "occupation_id": "SNO-ac770711108722afb56e",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "自动化工程师属自动化设备与现场调试"
+    },
+    {
+      "occupation_id": "SNO-9402b168d32a3c20feb2",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "智驾规控算法属自动驾驶与智能交通"
+    },
+    {
+      "occupation_id": "SNO-391ac807b48914f7061a",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-freight",
+      "status": "mapped",
+      "reason": "空运操作专员属货运与物流操作"
+    },
+    {
+      "occupation_id": "SNO-2ad266b79a80c21cc099",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-test",
+      "status": "mapped",
+      "reason": "产品工程师-封装方向属封装与测试"
+    },
+    {
+      "occupation_id": "SNO-5588bd769bed19ea814b",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "市场业务部业务专员属客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-eea6ee334cdd157a16a0",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": "社媒运营属社交媒体运营，德语为语言修饰"
+    },
+    {
+      "occupation_id": "SNO-7f47df96473e7b89ed9c",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "status": "mapped",
+      "reason": "分布式系统工程师属平台与中间件开发"
+    },
+    {
+      "occupation_id": "SNO-acfabc043a3dda4c9762",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "高级管培生未指明职能方向，无法确定具体职业类别"
+    },
+    {
+      "occupation_id": "SNO-6bb025124cdf3e30b277",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "钠电销售工程师核心为客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-5b407a595f421060eb86",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "群团工作属员工关系与人力运营"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "batch_number": 37,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "f1fd4073-8b8d-4e7c-b55f-8f3c87fc2aca",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821877,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29671,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2279,
+    "output_tokens": 1325,
+    "reasoning_tokens": 0,
+    "total_tokens": 30996
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0012190259999999998
+  },
+  "results": [
+    {
+      "entry_id": "SNO-6aee239040477d7dff54",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称仅含大量专业方向清单，未说明具体信息技术职责，无法确认三级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-6affe542a0e607efa73d",
+      "status": "multi_role",
+      "target_category_id": "互联网/AI",
+      "reason": "名称明确列出前端开发与后端开发两个独立职业，共同上级为互联网/AI。"
+    },
+    {
+      "entry_id": "SNO-6b038b72c507355f75b7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科研工艺过于宽泛，缺少行业或技术方向，无法确认任何一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-6b057c9e9c55a98875ef",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "技术传播工程师-生物科技方向职责不明确，无法确认具体类别。"
+    },
+    {
+      "entry_id": "SNO-6b0ebbd517692438b0a6",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管培生为培训生性质，且不限专业，未指明职能方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6b12e57b228be3b0392b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "作战管理工程师缺少行业与系统背景，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6b26defe0c8360aacd3f",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出活动策划、平面设计、三维设计、AIGC设计多个独立职业，分属运营、设计等不同一级，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-6b313756313b9d19a93e",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "采矿工程师职业清晰，但冻结目录无采矿/矿业相关类别，也无法确认合适一级。"
+    },
+    {
+      "entry_id": "SNO-6b323a9fab0688119230",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "法务审计同时包含法务与审计两个独立职业，分属咨询/翻译/法律与财务/审计/税务，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-6b3c931c51e442922858",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "分支机构业务过于笼统，缺少具体业务职能信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6b3d34c3528d8d2332db",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "预研工程师缺少具体技术或行业方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6b50db0fff2468b1f99e",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出运营、技术、创意设计、产品市场、职能支持等多个独立职业方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-6b6de23975f83a555e76",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管理人员名称过于宽泛，无法判断具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-6b7a218522d1d0fcc258",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "研发工程师方向为产品技术研发与项目管理，缺少行业与技术领域，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6b80a44d530525c3d9ca",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "物理模型设计缺少行业与技术方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6b96aab727f2f5b1b6b9",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "解译方案工程师未明确解译领域，缺少具体技术方向信息。"
+    },
+    {
+      "entry_id": "SNO-6bc55793a8885f42baa1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "经济技术名称过于宽泛，缺少具体行业或职能信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6bd4e419a443eadad126",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "AI计算库开发属于高性能计算方向，映射到C++图形与高性能计算。"
+    },
+    {
+      "entry_id": "SNO-6bd53cd199ae218832a1",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出科研助理、制种技术员、品管员三个独立职业，分属不同领域，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-6c08168ae6cbb573b7e7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管培生为培训生性质，未说明具体方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6c415e0c4c9e5fe54187",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "助理开发工程师仅能确认属于互联网/AI开发方向，无法确认具体三级类别。"
+    },
+    {
+      "entry_id": "SNO-6c54114af084e0bad7c4",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "风险技术可能涉及金融风控、IT安全或技术风险管理，名称未明确具体领域，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6c5dd89cb7ce67c5d656",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "算计技术研究疑似错别字，缺少明确技术方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6c853e854394c89754c9",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "材料专责缺少具体行业或职能方向信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6c95551bfe90b6ea80c6",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "AI云平台研发工程师核心为云平台后端研发，映射到平台与中间件开发。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "67215ec1-adb7-4e27-a87c-83b35c90ace2",
+  "object": "chat.completion",
+  "created": 1792596177,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-91b9cee4887b8695966136a6391952d3\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“综合运营管培生”方向不明确，管培标签不足以推断跨职能轮岗，标 review 合理，候选 L32-01/L32-02/L14-11 均可接受。\"}, {\"occupation_id\": \"UP-b1e9386de2a018d19301f465e2c06741\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"电商助理归 L14-04-01 电商店铺运营合理，属电商运营范畴，二级直达与三级细分均成立。\"}, {\"occupation_id\": \"UP-b246990aed669aebbb7197f224ef1b5d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"女装设计助理归 L09-04 服装饰品与纺织设计合理，该二级无三级细分，目标为二级正确。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17737,
+    "completion_tokens": 258,
+    "total_tokens": 17995,
+    "prompt_tokens_details": {
+      "cached_tokens": 16768
+    },
+    "prompt_cache_hit_tokens": 16768,
+    "prompt_cache_miss_tokens": 969
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-95dfafc78babb58db0d7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "地震监测预警归环境监测与评价合理，可接受。"
+    },
+    {
+      "occupation_id": "TG-5ecb8ec7d96d6731f506",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L05-01-01",
+      "issue": "MEMS结构设计属于微机电系统/电子硬件板级设计，归L06-01-02产品结构设计（机械外壳装配）明显错分。"
+    },
+    {
+      "occupation_id": "TG-920c1d10bd92eb52b1c7",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L09-03",
+      "issue": "造型模型技术工程师核心为产品外观造型/模型制作，归L06-01-03机械设备设计错分，应归工业与产品外观设计。"
+    },
+    {
+      "occupation_id": "TG-60173f3861e2f32937c0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机械设计工程师归机械与结构设计合理。"
+    },
+    {
+      "occupation_id": "TG-7365b1a3a99f356cdea2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "系统底层工程师归系统与基础软件研发合理。"
+    },
+    {
+      "occupation_id": "TG-bebaa1b04f90d4d3ffad",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "管理精英岗方向未明，review合理。"
+    },
+    {
+      "occupation_id": "TG-c4cf74426db82b69be49",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "业务储备生方向未明，review合理。"
+    },
+    {
+      "occupation_id": "TG-04711a2e988042ee42ee",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "新媒体运营专员归内容与新媒体运营合理。"
+    },
+    {
+      "occupation_id": "TG-c801e6d51e8d6cf09c46",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "金融业务专员归通用金融专业业务合理。"
+    },
+    {
+      "occupation_id": "TG-e5276722b3aa736a59b3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "党群综合部管培生方向未明，review合理。"
+    },
+    {
+      "occupation_id": "TG-5a99665c84a8716a346d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智能驾驶规控算法归运筹优化与决策算法合理。"
+    },
+    {
+      "occupation_id": "TG-168767dee7d7724379ae",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "兽医管培生归兽医与动物医疗合理。"
+    },
+    {
+      "occupation_id": "TG-547e3314747a9e1d0697",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "行业销售总监归销售管理合理。"
+    },
+    {
+      "occupation_id": "TG-51424c737773f11ccf88",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "运营师方向未明，review合理。"
+    },
+    {
+      "occupation_id": "TG-57e723b22e1d13cb5b24",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "系统资源工程师方向未明，review合理。"
+    },
+    {
+      "occupation_id": "TG-83843d60e1324195e3ba",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "核化工艺归化学化工研发合理。"
+    },
+    {
+      "occupation_id": "TG-ef82f15da435061df15a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "LLM算法工程师归自然语言处理合理。"
+    },
+    {
+      "occupation_id": "TG-bbe87102b8ccb92e4231",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "制造质量工程师归过程质量管理合理。"
+    },
+    {
+      "occupation_id": "TG-626bad1c53a799bfd4c9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "桥梁地下检测归工程监理与验收合理。"
+    },
+    {
+      "occupation_id": "TG-a75748cef58cf6418e9b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "体系管培生（财务方向）归通用财务工作合理。"
+    }
+  ],
+  "raw_response_file": "000204.raw.json",
+  "usage": {
+    "input_tokens": 19539,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3027,
+    "output_tokens": 988,
+    "reasoning_tokens": 0,
+    "total_tokens": 20527
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002192772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

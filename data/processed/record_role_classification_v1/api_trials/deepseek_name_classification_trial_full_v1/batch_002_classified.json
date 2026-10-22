@@ -1,0 +1,339 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 2,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "44fce14f-f4b5-46dd-b1a4-ac24c8525577",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750133,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25055,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1759,
+    "output_tokens": 2779,
+    "reasoning_tokens": 0,
+    "total_tokens": 27834
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002001138
+  },
+  "observed_at_utc": "2026-10-11T20:22:13.600062+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-39b72c5c1f5fc696d3d8",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "移动端全栈AI开发核心为移动端开发，归入移动端与客户端开发"
+    },
+    {
+      "occupation_id": "SNO-22449282395b183140a0",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-design",
+      "status": "mapped",
+      "reason": "城市更新工作管理员属于城市设计与更新管理"
+    },
+    {
+      "occupation_id": "SNO-7594ce23aec49a893077",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "U3D开发工程师为Unity客户端开发，归入移动端与客户端开发"
+    },
+    {
+      "occupation_id": "SNO-aea82737cc01867d9d23",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "仅写产品，无法判断是产品经理还是其他产品岗位"
+    },
+    {
+      "occupation_id": "SNO-6da8acfa5c3adbc8f25f",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "奥赛老师属于基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-15fa100a77d9313ac124",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "系统开发工程师通常为业务服务端开发"
+    },
+    {
+      "occupation_id": "SNO-e5143584f7591e8cc5bf",
+      "target_category_id": "产品/product-hardware/hardware-product",
+      "status": "mapped",
+      "reason": "硬件方向产品经理归入硬件产品规划"
+    },
+    {
+      "occupation_id": "SNO-0fec0916b1586edb2040",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "工艺研究通常指制造工艺，归入机械制造与工艺"
+    },
+    {
+      "occupation_id": "SNO-2e2b7fbfeca0c1737456",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "IQ图像工程师从事图像处理，归入计算机视觉与三维感知"
+    },
+    {
+      "occupation_id": "SNO-11888e7c9cd66fe38cdf",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "项目经理在技术语境下归入研发项目管理"
+    },
+    {
+      "occupation_id": "SNO-a1f7512fa33c9de95af3",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-monitoring",
+      "status": "mapped",
+      "reason": "碳咨询专员属于环境监测与评估相关"
+    },
+    {
+      "occupation_id": "SNO-bd3b28a281030bfb8b0c",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源岗位归入员工关系与人力运营"
+    },
+    {
+      "occupation_id": "SNO-ff94d63267d2cea14a41",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "品牌与行销归入品牌与市场策略"
+    },
+    {
+      "occupation_id": "SNO-f3288c126e41baba8df0",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "交易服务过于宽泛，无法确定金融、房产或贸易方向"
+    },
+    {
+      "occupation_id": "SNO-6874c1ced87f091a7a74",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "冶炼工艺技术员属于化工工艺与生产"
+    },
+    {
+      "occupation_id": "SNO-3825107f270933183cf2",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "集成光芯片工程师归入芯片设计"
+    },
+    {
+      "occupation_id": "SNO-14f022fcb80b1e504650",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "项目工程师通常为施工现场管理"
+    },
+    {
+      "occupation_id": "SNO-ba8a7274567514acd1bd",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "status": "mapped",
+      "reason": "网管软件工程师属于平台与中间件开发"
+    },
+    {
+      "occupation_id": "SNO-3dd607cb99ac94fd88e1",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "车辆动力学开发与整车集成属于整车研发"
+    },
+    {
+      "occupation_id": "SNO-f74b4335b018ed5a2e49",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "Digital Design Engineer通常为数字芯片设计"
+    },
+    {
+      "occupation_id": "SNO-f4aaae23f4dba32458fe",
+      "target_category_id": "酒店/旅游/hotel-manager/hotel-manager-operations",
+      "status": "mapped",
+      "reason": "酒店营运管理管培生归入酒店运营管理"
+    },
+    {
+      "occupation_id": "SNO-3f765cd4b01bbbef55ea",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "电气维修员/电气技术员归入自动化设备与现场调试"
+    },
+    {
+      "occupation_id": "SNO-112683a07cbb6fc5b615",
+      "target_category_id": "市场/公关/广告/marketing-government/government-affairs-policy",
+      "status": "mapped",
+      "reason": "战略发展部科技创新管理涉及政策研究，归入政策研究与政府关系"
+    },
+    {
+      "occupation_id": "SNO-8534013a3617e376a6c8",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "IPD为集成产品开发缩写，无法确定具体职业方向"
+    },
+    {
+      "occupation_id": "SNO-4aa1a3c6743f7d8e154a",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "仅写技术，无法判断具体技术岗位"
+    },
+    {
+      "occupation_id": "SNO-607f2d4b39d198d3588e",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "消防技术属于安全生产管理"
+    },
+    {
+      "occupation_id": "SNO-bc077e8d1e74999593b2",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源管培生归入员工关系与人力运营"
+    },
+    {
+      "occupation_id": "SNO-361f2420bcd06fd4abb5",
+      "target_category_id": "设计/design-art-3d-animation/art-2d",
+      "status": "mapped",
+      "reason": "原画枪械美术师属于二维美术与原画"
+    },
+    {
+      "occupation_id": "SNO-6af1b1fa6ec1182ee793",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "自动化设备工程师归入自动化设备与现场调试"
+    },
+    {
+      "occupation_id": "SNO-462744a5fe1d0e6607ea",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "化学药物分析研究员属于生物医药研发"
+    },
+    {
+      "occupation_id": "SNO-8e7f61cb5d0d729e1951",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "设备员通常负责设备维护，归入设备维修与安装"
+    },
+    {
+      "occupation_id": "SNO-2a98fce94f5ef3036ba8",
+      "target_category_id": "医疗健康/health-pharma-production/pharma-manufacturing-process",
+      "status": "mapped",
+      "reason": "技术工程师涵盖药学、制药工程等，归入药品生产与工艺"
+    },
+    {
+      "occupation_id": "SNO-86f1293fae88d182e31e",
+      "target_category_id": "运营/客服/ops-service/service-frontline",
+      "status": "mapped",
+      "reason": "服务管培生归入一线客服与客户支持"
+    },
+    {
+      "occupation_id": "SNO-4188a00751d8a2349abe",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "网络工程师归入基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-9753fbaac7fda1c61c66",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务管培生归入总账与财务核算"
+    },
+    {
+      "occupation_id": "SNO-6aa773412eb506d5bf27",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "仅写培训生，无法判断行业和职能方向"
+    },
+    {
+      "occupation_id": "SNO-1b21ff3332bc0be4dfe6",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "射频工程师归入无线与通信系统研发"
+    },
+    {
+      "occupation_id": "SNO-32f619c0fc80a1fcdd2c",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "数据分析师归入商业与业务分析"
+    },
+    {
+      "occupation_id": "SNO-e91f69332b66043e2daa",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "零售业务培训生归入零售与综合银行"
+    },
+    {
+      "occupation_id": "SNO-8e479b61d7a144fd1ab1",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌入式软件开发工程师归入嵌入式与固件开发"
+    },
+    {
+      "occupation_id": "SNO-fc165988c4d94eff165e",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投后管理部投后专员归入股权与投资分析"
+    },
+    {
+      "occupation_id": "SNO-d7a97207744cad6278ae",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "减速器研发工程师归入机械结构与产品设计"
+    },
+    {
+      "occupation_id": "SNO-f529d508a973a400a7d5",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "软件开发工程师通常为业务服务端开发"
+    },
+    {
+      "occupation_id": "SNO-9194c8693ae2d04594a9",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "光电/射频智能探测设计师归入无线与通信系统研发"
+    },
+    {
+      "occupation_id": "SNO-eaee9de1d2eff72710c9",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产管培生归入生产计划与调度"
+    },
+    {
+      "occupation_id": "SNO-85520844e6e82ab5a014",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中学科教师归入基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-c68b84bfa37aa57a98f6",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "招标分析师归入市场与社会调研"
+    },
+    {
+      "occupation_id": "SNO-358773e0346243400818",
+      "target_category_id": "销售/sales-realestate/estate-sales-leasing",
+      "status": "mapped",
+      "reason": "写字楼招商运营归入商业招商与租赁"
+    },
+    {
+      "occupation_id": "SNO-d6b19253f59e743a5923",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "设备管理部点检员归入设备维修与安装"
+    },
+    {
+      "occupation_id": "SNO-6b2d8f9a09462d4c689d",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "管理培训生消防安全方向归入安全生产管理"
+    }
+  ]
+}

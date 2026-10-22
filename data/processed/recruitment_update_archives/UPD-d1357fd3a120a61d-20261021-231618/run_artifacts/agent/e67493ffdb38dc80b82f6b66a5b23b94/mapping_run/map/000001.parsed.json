@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e67493ffdb38dc80b82f6b66a5b23b94",
+      "status": "mapped",
+      "target_category_id": "L14-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-01",
+        "L08-01",
+        "L14-11"
+      ],
+      "title_evidence": "标题为“产品运营”，属于数字产品功能、平台生态与业务机制运营方向",
+      "level_3_evidence": null,
+      "reason": "“产品运营”直接对应产品与平台运营（L14-01），无需细分三级；context 中公司行业与多岗位组合信息不改变该岗位运营职能，不据此推断具体产品类型。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16978,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 338,
+    "output_tokens": 157,
+    "reasoning_tokens": 0,
+    "total_tokens": 17135
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038963999999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

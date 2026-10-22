@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e78ff29a7fb416f04012558bcdb810b4",
+      "verdict": "pass",
+      "suggested_target_category_id": "L05-04",
+      "issue": "仪表工程师归自动化与控制工程，合理。"
+    },
+    {
+      "occupation_id": "UP-504f64ccda5c0cd689b13611585056a9",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-01",
+      "issue": "机械工程师归机械与结构设计，合理。"
+    },
+    {
+      "occupation_id": "UP-362d62cd8923d9d84a964caf327eef75",
+      "verdict": "pass",
+      "suggested_target_category_id": "L25-04",
+      "issue": "电厂技术员归能源运行与调度，合理。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17678,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 1166,
+    "output_tokens": 199,
+    "reasoning_tokens": 0,
+    "total_tokens": 17877
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00034383600000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

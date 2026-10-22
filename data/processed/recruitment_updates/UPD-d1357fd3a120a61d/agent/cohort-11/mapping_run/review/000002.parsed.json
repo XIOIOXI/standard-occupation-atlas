@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-c9c795d360971dded7a23676d76ef555",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“业务助理”为泛化岗位，销售商务支持、业务运营或综合事务均可能，review 合理。"
+    },
+    {
+      "occupation_id": "UP-d7864aa9a86e56f59eeed38db23afe4a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "光储充属新能源能源系统技术方向，归 L25-03 合理；无运行调度或电气设计证据，停在二级可接受。"
+    },
+    {
+      "occupation_id": "UP-51ebedb37ab2cae8e8a93d2d65382cdb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "售前技术支持归 L14-09 售前技术与解决方案合理，未区分方案设计或演示验证，停在二级可接受。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17603,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 1091,
+    "output_tokens": 244,
+    "reasoning_tokens": 0,
+    "total_tokens": 17847
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000359586
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

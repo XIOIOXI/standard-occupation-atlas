@@ -1,0 +1,28 @@
+{
+  "id": "ebfbe3e4-b26c-4d9c-981c-41e6cc0e13f3",
+  "object": "chat.completion",
+  "created": 1792571768,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-c071619c9739e02e88232794eee31d25\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L20-05\",\"issue\":\"再保分入属保险承保/核保业务，归L20-05合理；L20-11为通用兜底，不构成冲突。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17036,
+    "completion_tokens": 85,
+    "total_tokens": 17121,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 524
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

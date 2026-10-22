@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-0955432e3803465e73a7394b917a70ad",
+      "status": "mapped",
+      "target_category_id": "L06-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-07-02",
+        "L02-05-05",
+        "L06-07-01"
+      ],
+      "title_evidence": "AI蛋白研发工程师：蛋白研发结合AI方法，属生物与药物研发中的药物发现与药理方向",
+      "level_3_evidence": "药物发现与药理：药物筛选发现药理及非临床研究",
+      "reason": "标题明确为蛋白研发工程师，核心为蛋白/生物技术研发；AI为方法标签，不改变生物研发职能，归L06-07-02最直接。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16936,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 296,
+    "output_tokens": 171,
+    "reasoning_tokens": 0,
+    "total_tokens": 17107
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039383999999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

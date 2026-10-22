@@ -1,0 +1,47 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-6b26defe0c8360aacd3f",
+  "child_index": 3,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "活动策划平面设计三位设计AIGc设计",
+  "child_title": "AIGc设计",
+  "source_span": {
+    "text": "AIGc设计",
+    "start": 12,
+    "end": 17
+  },
+  "raw_decision": {
+    "original_record_id": "TG-6b26defe0c8360aacd3f",
+    "case": "A",
+    "child_titles": [
+      "活动策划",
+      "平面设计",
+      "三位设计",
+      "AIGc设计"
+    ],
+    "source_spans": [
+      {
+        "text": "活动策划",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "平面设计",
+        "start": 4,
+        "end": 8
+      },
+      {
+        "text": "三位设计",
+        "start": 8,
+        "end": 12
+      },
+      {
+        "text": "AIGc设计",
+        "start": 12,
+        "end": 17
+      }
+    ],
+    "reason": "标题由多个独立岗位组成，无分隔符但语义独立，可拆分。"
+  }
+}

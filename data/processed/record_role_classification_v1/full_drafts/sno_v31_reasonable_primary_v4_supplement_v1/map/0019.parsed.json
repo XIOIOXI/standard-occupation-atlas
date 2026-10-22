@@ -1,0 +1,367 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-f88d6b588f535db2f9f6",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "BR实习生",
+      "level_3_evidence": null,
+      "reason": "标题仅含“BR实习生”，BR含义不明，无法识别核心职能，也无专业方向线索。"
+    },
+    {
+      "occupation_id": "TG-c33184aaf9ac3a33de2c",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L02-05",
+        "L01-11",
+        "L08-01",
+        "L14-09",
+        "L10-06",
+        "L18-09"
+      ],
+      "title_evidence": "算法类软件研发类产品类解决方案/项目类职能类海外岗位",
+      "level_3_evidence": null,
+      "reason": "标题并列列出算法、软件研发、产品、解决方案/项目、职能、海外岗位等多个不同职能方向，属于多角色招聘，无法确定唯一主归属。"
+    },
+    {
+      "occupation_id": "TG-b49fe75ec984d593e7d0",
+      "status": "mapped",
+      "target_category_id": "L11-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-03",
+        "L19-03"
+      ],
+      "title_evidence": "技术经济专员",
+      "level_3_evidence": null,
+      "reason": "技术经济专员通常从事技术经济分析、项目经济评价与经营改善，核心为经营分析与流程改善，归 L11-03；财务分析为候选。"
+    },
+    {
+      "occupation_id": "TG-c1688e15808b3b8efdb7",
+      "status": "mapped",
+      "target_category_id": "L03-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-08",
+        "L32-01"
+      ],
+      "title_evidence": "总行IT培训生",
+      "level_3_evidence": null,
+      "reason": "标题明确为银行总行 IT 培训生，专业职能为信息技术，方向未细分，归通用信息技术运维 L03-08；管培生标签不替代 IT 职能。"
+    },
+    {
+      "occupation_id": "TG-468b9550d58c99e12cab",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-05",
+        "L18-06",
+        "L18-09"
+      ],
+      "title_evidence": "内勤岗",
+      "level_3_evidence": null,
+      "reason": "内勤岗通常为行政办公与文书事务支持，但具体职能方向不明确，候选为行政、秘书助理或通用组织支持，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-88ae488c14d184010c34",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-01",
+        "L24-05",
+        "L09-05",
+        "L24-02",
+        "L24-04"
+      ],
+      "title_evidence": "建筑设计城乡规划设计景观设计室内设计结构设计给排水设计电气设计暖通设计",
+      "level_3_evidence": null,
+      "reason": "标题并列列出建筑设计、城乡规划、景观设计、室内设计、结构设计、给排水设计、电气设计、暖通设计等多个专业设计方向，属于多角色招聘。"
+    },
+    {
+      "occupation_id": "TG-a9b8220cbc186fce6e0e",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L03-01",
+        "L25-04",
+        "L23-09"
+      ],
+      "title_evidence": "运行工程师",
+      "level_3_evidence": null,
+      "reason": "运行工程师可能指系统运行维护、能源设施运行或工业设备运行，行业与对象不明确，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-9183f0bb1f900671c23d",
+      "status": "mapped",
+      "target_category_id": "L12-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-03",
+        "L14-02"
+      ],
+      "title_evidence": "AEO/GEO增长管培生",
+      "level_3_evidence": null,
+      "reason": "AEO/GEO 指面向生成式引擎与答案引擎的搜索优化增长，核心为搜索广告与效果营销，归 L12-03；用户增长运营为候选。"
+    },
+    {
+      "occupation_id": "TG-5007aa739f811ef37a48",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-07",
+        "L23-09",
+        "L14-10"
+      ],
+      "title_evidence": "驻地工程师",
+      "level_3_evidence": null,
+      "reason": "驻地工程师可能指施工现场驻地、设备安装调试或客户现场技术支持，行业与职责不明确，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-e48fcfd2c7a0a6ee1f9b",
+      "status": "mapped",
+      "target_category_id": "L02-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-09",
+        "L01-11"
+      ],
+      "title_evidence": "数智化工程师",
+      "level_3_evidence": null,
+      "reason": "数智化工程师通常从事数据与人工智能相关技术工作，但具体方向未说明，归通用数据与人工智能工作 L02-09；通用软件研发为候选。"
+    },
+    {
+      "occupation_id": "TG-126256a75fb539280785",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L15-11",
+        "L32-02"
+      ],
+      "title_evidence": "印尼语储备生",
+      "level_3_evidence": null,
+      "reason": "标题仅表明印尼语方向储备生，未明确是翻译语言服务还是其他业务培养，无法唯一确定职能。"
+    },
+    {
+      "occupation_id": "TG-f7d41a18257cac025f76",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-02",
+        "L06-09",
+        "L05-07"
+      ],
+      "title_evidence": "储备工程师",
+      "level_3_evidence": null,
+      "reason": "储备工程师未说明工程专业方向，可能为机械、电子电气或其他工程培养，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-8fcdd73ad3f008fb18ff",
+      "status": "mapped",
+      "target_category_id": "L13-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-02",
+        "L32-02"
+      ],
+      "title_evidence": "沈阳分行零售业务培训生",
+      "level_3_evidence": null,
+      "reason": "标题明确为银行分行零售业务培训生，零售业务核心为个人客户销售与服务，归个人客户销售 L13-02；培训生标签不替代销售职能。"
+    },
+    {
+      "occupation_id": "TG-523def7d3c23d342b75a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L20-11"
+      ],
+      "title_evidence": "哈尔滨分行培训生",
+      "level_3_evidence": null,
+      "reason": "仅说明银行分行培训生，未明确具体业务职能，不能仅凭银行行业推断金融业务，需 review。"
+    },
+    {
+      "occupation_id": "TG-89e933f08957bac42474",
+      "status": "mapped",
+      "target_category_id": "L20-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-08",
+        "L32-02"
+      ],
+      "title_evidence": "海口分行运营培训生",
+      "level_3_evidence": null,
+      "reason": "银行分行运营培训生通常从事柜面、交易后台、清算等金融运营业务，归金融运营与交易清算 L20-08；培训生标签不替代运营职能。"
+    },
+    {
+      "occupation_id": "TG-3fb72d8c23956eb38794",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L20-11"
+      ],
+      "title_evidence": "青岛分行培训生",
+      "level_3_evidence": null,
+      "reason": "仅说明银行分行培训生，未明确具体业务职能，不能仅凭银行行业推断金融业务，需 review。"
+    },
+    {
+      "occupation_id": "TG-2a4a6a3f4fa7808dd80b",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L26-01",
+        "L02-09",
+        "L32-02"
+      ],
+      "title_evidence": "数字农业管培生",
+      "level_3_evidence": null,
+      "reason": "数字农业管培生可能涉及农业技术、农业数字化或综合培养，具体职能方向不明确，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-0f7b15a48ad438b7fd73",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-01",
+        "L19-04",
+        "L30-02",
+        "L11-01"
+      ],
+      "title_evidence": "金融投资类财务资金类法务类综合管理",
+      "level_3_evidence": null,
+      "reason": "标题并列列出金融投资、财务资金、法务、综合管理等多个职能方向，属于多角色招聘。"
+    },
+    {
+      "occupation_id": "TG-40679fda0c96c5b4bfab",
+      "status": "mapped",
+      "target_category_id": "L03-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-08",
+        "L02-09"
+      ],
+      "title_evidence": "信息技术岗（经济、金融、法律、会计、财务管理、计算机、数学、统计）",
+      "level_3_evidence": null,
+      "reason": "标题主职能为信息技术岗，括号内为专业背景要求，方向未细分，归通用信息技术运维 L03-08；数据与人工智能为候选。"
+    },
+    {
+      "occupation_id": "TG-d674efffb472401b32cc",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L11-07"
+      ],
+      "title_evidence": "职能支持",
+      "level_3_evidence": null,
+      "reason": "职能支持过于宽泛，可能指人事行政支持或综合经营支持，具体职能方向不明确。"
+    },
+    {
+      "occupation_id": "TG-d00691be818410164a55",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-01",
+        "L02-01",
+        "L11-05"
+      ],
+      "title_evidence": "助理分析师",
+      "level_3_evidence": null,
+      "reason": "助理分析师未说明分析领域，可能为投资研究、数据分析或商业研究，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-0e4a9491036dbdc4b1a8",
+      "status": "mapped",
+      "target_category_id": "L13-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-02",
+        "L32-02"
+      ],
+      "title_evidence": "零售业务培训生",
+      "level_3_evidence": null,
+      "reason": "零售业务培训生核心为面向个人客户的零售业务销售与服务，归个人客户销售 L13-02；培训生标签不替代销售职能。"
+    },
+    {
+      "occupation_id": "TG-9bb8f9a074810dc950d9",
+      "status": "mapped",
+      "target_category_id": "L20-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-01",
+        "L11-06"
+      ],
+      "title_evidence": "滨海创投岗位",
+      "level_3_evidence": null,
+      "reason": "创投岗位核心为创业投资研究与项目股权投资分析，归投资研究与分析 L20-01；投资发展为候选。"
+    },
+    {
+      "occupation_id": "TG-5d121a89714acdd6d3a3",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "平安理财橙光实习生",
+      "level_3_evidence": null,
+      "reason": "仅说明平安理财实习生项目，未明确具体金融业务方向，不能仅凭理财公司推断岗位职能。"
+    },
+    {
+      "occupation_id": "TG-1323de31e985fbeec7cf",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-11",
+        "L13-09"
+      ],
+      "title_evidence": "城区综合业务岗",
+      "level_3_evidence": null,
+      "reason": "城区综合业务岗未说明具体业务职能，可能为综合运营或综合销售，无法唯一确定。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17651,
+    "cached_input_tokens": 17408,
+    "uncached_input_tokens": 243,
+    "output_tokens": 3430,
+    "reasoning_tokens": 0,
+    "total_tokens": 21081
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002146674
+  },
+  "response_metadata": {
+    "request_id": "f16f7cfe-e377-4359-84bf-80b273c1224b",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791894831,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

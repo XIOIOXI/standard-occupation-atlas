@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-8c8912db8557c41adfe5832714abaf44",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-03",
+        "L15-12",
+        "L12-07"
+      ],
+      "title_evidence": "标题为“新媒体实习”，明确指向新媒体内容账号运营方向",
+      "level_3_evidence": null,
+      "reason": "“新媒体”直接对应内容与新媒体运营（L14-03），核心为内容账号与内容分发运营；虽为实习且未说明具体平台，但方向明确，无需停在通用运营。不选L15-12因标题未体现内容创作/传媒制作职能。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16977,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 337,
+    "output_tokens": 160,
+    "reasoning_tokens": 0,
+    "total_tokens": 17137
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039294
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "47e4ddcd-6cff-4e0f-a645-d38f1e81e97e",
+  "object": "chat.completion",
+  "created": 1792571292,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-098b08b02b9d2ced823de47f79f5b230\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L20-08\",\"L20-11\"],\"title_evidence\":\"直属中心操作岗\",\"level_3_evidence\":null,\"reason\":\"银行直属中心操作岗通常指向金融运营/后台操作类业务，但标题未明确具体业务方向（柜面、清算、登记等），无法确定唯一二级归属；候选为金融运营与交易清算及通用金融专业业务，需进一步确认。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16925,
+    "completion_tokens": 142,
+    "total_tokens": 17067,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 285
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

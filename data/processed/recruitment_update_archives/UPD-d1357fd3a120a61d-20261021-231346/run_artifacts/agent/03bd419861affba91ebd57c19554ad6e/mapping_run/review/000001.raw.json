@@ -1,0 +1,28 @@
+{
+  "id": "431cdd1e-78ea-4ed6-8ce6-7a68dd5bbc0a",
+  "object": "chat.completion",
+  "created": 1792571840,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-03bd419861affba91ebd57c19554ad6e\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L16-01\", \"issue\": \"标题明确采购职能，管培生仅为培养标签，归采购与供应商管理（L16-01）合理；具体采购方向未说明，停在二级恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17060,
+    "completion_tokens": 98,
+    "total_tokens": 17158,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 548
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "84e11af5-ac57-4e44-89d9-f8fd609add25",
+  "object": "chat.completion",
+  "created": 1791880452,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-aad227f4d5cdfbf70269\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金融方向管培生职能未明确，review合理\"},{\"occupation_id\":\"TG-d1f35f73027f2a504ba4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"会员运营直达会员与社群运营三级，合理\"},{\"occupation_id\":\"TG-44aeb53d8cf4e44584ca\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"会员运营直达会员与社群运营三级，合理\"},{\"occupation_id\":\"TG-99b05d76fd38cc507a40\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"嵌入式Linux开发归嵌入式应用开发，合理\"},{\"occupation_id\":\"TG-862086270ad43ffdfa63\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"交易员主归属金融交易，合理\"},{\"occupation_id\":\"TG-6280675d0891b1a17853\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"学科未明确停在L22-02，合理\"},{\"occupation_id\":\"TG-61beed02c4e93f273167\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"消防安全归安全健康与职业防护，合理\"},{\"occupation_id\":\"TG-0aad22b24a4cea4e6d69\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运维与AI开发双职能，multi_role合理\"},{\"occupation_id\":\"TG-d9094e195af8efab4e65\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"营销定向生市场/销售方向不明，review合理\"},{\"occupation_id\":\"TG-01bf0d24c1426053e45c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"IT项目支持归信息技术支持，合理\"},{\"occupation_id\":\"TG-686c305a689aa97264fe\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"即时零售创优生职能不明，review合理\"},{\"occupation_id\":\"TG-3cbbf117266cff874227\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生态绿化技术归园林与景观工程，合理\"},{\"occupation_id\":\"TG-9ec28e5c0633e067d55c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"学科未明确停在L22-02，合理\"},{\"occupation_id\":\"TG-e609c91ad226c401d1b4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"投资分析归投资研究与分析，合理\"},{\"occupation_id\":\"TG-2cf153cc0ba7963ab458\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI安全与隐私工程师归安全架构与工程，合理\"},{\"occupation_id\":\"TG-194f63219f1efa6dcd91\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务与审计双职能，multi_role合理\"},{\"occupation_id\":\"TG-76932df78eebd39a0f07\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"招聘顾问归招聘与人才配置，合理\"},{\"occupation_id\":\"TG-eb4293a37efc1d309668\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"分子实验员归实验与科研技术支持，合理\"},{\"occupation_id\":\"TG-251d2b34f442f1e7281f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电气技术员归电气工程，合理\"},{\"occupation_id\":\"TG-7f1e23a3fd10ff68110a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"门店管培生职能不明，review合理\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19528,
+    "completion_tokens": 923,
+    "total_tokens": 20451,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3016
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,158 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 5,
+  "processing_method": "deepseek_api_name_only",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "117778c5-dc5a-451b-86ab-75dcb94e9867",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791747363,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 20,
+  "usage": {
+    "input_tokens": 23493,
+    "cached_input_tokens": 22528,
+    "uncached_input_tokens": 965,
+    "output_tokens": 906,
+    "reasoning_tokens": 0,
+    "total_tokens": 24399
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000755934
+  },
+  "observed_at_utc": "2026-10-11T19:36:03.604674+00:00",
+  "results": [
+    {
+      "standard_occupation_id": "SNO-036b2f67b7c481989cb9",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1476ab7132e27b3b52f9",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称笼统，无法确定具体检测领域"
+    },
+    {
+      "standard_occupation_id": "SNO-8972962f317be77a6636",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-09956061a81b7808defe",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1080766dda240d9f40f4",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "售后助理职责范围不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-728bc2389338077e635f",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-d0f517b7491e0cda26c2",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "法务与风控两个职业粘连"
+    },
+    {
+      "standard_occupation_id": "SNO-412c6d36ed5c331b18ca",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "方案解决领域不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-e6d1a4c799fe50b4446b",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "文案与德语英语翻译多职业粘连"
+    },
+    {
+      "standard_occupation_id": "SNO-1e56d7605dec22111d2b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "企管法规指向不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-990a2d3c791707b2e775",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "化工与外贸业务员多职业粘连"
+    },
+    {
+      "standard_occupation_id": "SNO-919ea4e5168775cd451c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称过于笼统无法分类"
+    },
+    {
+      "standard_occupation_id": "SNO-60a6932da8bc0fb9a9cb",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-14a4bd81059099693d70",
+      "target_category_id": "销售/sales-business/sales-admin-order",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-33c886a363ccb7000512",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "零售管培与产研技术职能多方向粘连"
+    },
+    {
+      "standard_occupation_id": "SNO-117dba594b0d6e53eb1d",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-34d86fa9c3f1f82c24cc",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "纪检归属不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-2796afcf7a07b87d58c6",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "样品管理员行业不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-e31af1e216b33714e647",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-channel",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-435aa6a2a3ed64664fa6",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": null
+    }
+  ]
+}

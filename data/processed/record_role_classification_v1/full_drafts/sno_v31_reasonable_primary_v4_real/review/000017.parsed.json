@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-b6b11ee8a631f9186d41",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "消费者管理培训生仅指向行业领域，未明确职能，标review合理。"
+    },
+    {
+      "occupation_id": "TG-45aa849a572cacc853f5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "理科思维教师归L22-02-02合理。"
+    },
+    {
+      "occupation_id": "TG-6e00a507a1457be97dab",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "电机驱动控制工程师归L05-04合理。"
+    },
+    {
+      "occupation_id": "TG-198e3cacb192e089d95d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "模型验证工程师归L02-07-02合理。"
+    },
+    {
+      "occupation_id": "TG-fed78f9ba22cdc585cf7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "营销管培生方向未明确，标review合理。"
+    },
+    {
+      "occupation_id": "TG-687c433f8021ad2977ba",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行分行培训生职能未明确，标review合理。"
+    },
+    {
+      "occupation_id": "TG-d520532653504a663806",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L23-09-02",
+      "issue": "机器人运维工程师通常指工业机器人设备维护，应归L23-09-02工业设备维修保全，而非L03-01系统与服务器运维。"
+    },
+    {
+      "occupation_id": "TG-b8d69d637d48c6576a49",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "电子研发工程师归L05-01合理。"
+    },
+    {
+      "occupation_id": "TG-0b9f23af2b60711b76d1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "给排水助理工程师归L24-04合理。"
+    },
+    {
+      "occupation_id": "TG-7c9685a13b76b7bd3e08",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "文字综合专员归L18-06合理。"
+    },
+    {
+      "occupation_id": "TG-0299b331f7c2b9d5094b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "全球销售管培生方向未明确，标review合理。"
+    },
+    {
+      "occupation_id": "TG-7f828e157f648ba80aa8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "生产供应链主管归L16-02合理。"
+    },
+    {
+      "occupation_id": "TG-c45be2ebdcac9421d5a5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "投研分析师归L20-01合理。"
+    },
+    {
+      "occupation_id": "TG-68e3942af0d1a2d6617d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "水产饲料技术服务工程师归L14-10合理。"
+    },
+    {
+      "occupation_id": "TG-237c5b6205e497b8fa33",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI算法工程师归L02-05合理。"
+    },
+    {
+      "occupation_id": "TG-679f06d16a60ed727b2f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "工艺工程师归L06-08合理。"
+    },
+    {
+      "occupation_id": "TG-58124133f9527e8bca53",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "土建技术员归L24-10-01合理。"
+    },
+    {
+      "occupation_id": "TG-82bedf1b1557c9adae90",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "建筑施工岗归L24-10合理。"
+    },
+    {
+      "occupation_id": "TG-4918ba7b6545e0ed6739",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "销售专员未明确客户类型，归L13-09合理。"
+    },
+    {
+      "occupation_id": "TG-103b711bf3a9563733fd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智能视觉算法评测工程师归L02-08-02合理。"
+    }
+  ],
+  "raw_response_file": "000017.raw.json",
+  "usage": {
+    "input_tokens": 19680,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3168,
+    "output_tokens": 979,
+    "reasoning_tokens": 0,
+    "total_tokens": 20659
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002224272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

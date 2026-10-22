@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-c87bcbd53ff6b3806704",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅分行管培生，职能未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-37d6d20abfad24712e71",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "渠道销售明确，俄语为语言标签，归L13-03合理。"
+    },
+    {
+      "occupation_id": "TG-69b428daeaeae331c81d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机械设计明确，国际化方向为标签，归L06-01合理。"
+    },
+    {
+      "occupation_id": "TG-9188d9ca40fb5cc2611b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅苏州分行培训生，职能未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-af16b1e7a28ac39d7be4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "算法开发岗方向未明，归L02-05合理。"
+    },
+    {
+      "occupation_id": "TG-64123a41f7226081a23e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI开发工程师归L02-06合理。"
+    },
+    {
+      "occupation_id": "TG-836111faefe139ee5a1a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数据挖掘归L02-05合理。"
+    },
+    {
+      "occupation_id": "TG-84eb3144b5ff2674104c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "计算机视觉算法工程师归L02-05-01合理。"
+    },
+    {
+      "occupation_id": "TG-fb3778e44096904068eb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "技术开发方向未明，归L01-11合理。"
+    },
+    {
+      "occupation_id": "TG-5339d88b5e132eb5ea11",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "探伤归L04-04-01合理。"
+    },
+    {
+      "occupation_id": "TG-cbb4336b514b62e669ef",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "超算技术开发归L01-07合理。"
+    },
+    {
+      "occupation_id": "TG-026d93afd17f90a273f2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "大模型算法设计归L02-05合理。"
+    },
+    {
+      "occupation_id": "TG-9093485d2915d97f29e7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI开发工程师归L02-06合理。"
+    },
+    {
+      "occupation_id": "TG-5624b7234ef4e3de5e8c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "法务风控岗归L30-02合理。"
+    },
+    {
+      "occupation_id": "TG-fb8f243545ed98c68c65",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "休闲游戏策划归L08-04合理。"
+    },
+    {
+      "occupation_id": "TG-e6d1a4c799fe50b4446b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "文案实习生归L15-03-01合理。"
+    },
+    {
+      "occupation_id": "TG-853a3feb643e1779943f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仓配物流管培生方向未明，review合理。"
+    },
+    {
+      "occupation_id": "TG-b8efb11e8e0730b1246a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "安全测试开发归L04-01-02合理。"
+    },
+    {
+      "occupation_id": "TG-0ff30be55eff94b06f27",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "运营管理岗方向未明，归L14-11合理。"
+    },
+    {
+      "occupation_id": "TG-4d2fbe4a3777d667d3ee",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务管理岗归L19-07合理。"
+    }
+  ],
+  "raw_response_file": "000084.raw.json",
+  "usage": {
+    "input_tokens": 19572,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3060,
+    "output_tokens": 960,
+    "reasoning_tokens": 0,
+    "total_tokens": 20532
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002169072
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

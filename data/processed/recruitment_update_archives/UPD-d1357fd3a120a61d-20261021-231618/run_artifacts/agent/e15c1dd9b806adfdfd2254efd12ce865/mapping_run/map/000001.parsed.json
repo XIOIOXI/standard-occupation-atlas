@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e15c1dd9b806adfdfd2254efd12ce865",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L02-09",
+        "L03-08"
+      ],
+      "title_evidence": "金融科技岗：银行金融科技方向，未说明具体技术职能（开发/数据/运维）",
+      "level_3_evidence": null,
+      "reason": "金融科技岗为银行内技术类岗位，但标题未明确是软件开发、数据分析还是IT运维，无法唯一确定二级方向；候选为通用软件研发、通用数据与AI、通用IT运维，需进一步信息确认。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16942,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 302,
+    "output_tokens": 152,
+    "reasoning_tokens": 0,
+    "total_tokens": 17094
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037284000000000004
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

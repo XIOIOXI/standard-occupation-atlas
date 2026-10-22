@@ -1,0 +1,28 @@
+{
+  "id": "75432e38-a0a2-4d0b-b831-2ce256d2cefc",
+  "object": "chat.completion",
+  "created": 1791881470,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"TG-d1db8daeeee20549270c\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"企划营销岗归L12-01市场策略与营销策划，合理。\"}, {\"occupation_id\": \"TG-b1b5e043805161c70929\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"文旅赛事运营专员归L14-06线下业务与场所运营，合理。\"}, {\"occupation_id\": \"TG-1a7652b63ba5b98250a0\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"产品市场专员归L12-01市场策略与营销策划，合理。\"}, {\"occupation_id\": \"TG-c2ebecdd0ecd5c5583a7\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"产品应用顾问归L14-09售前技术与解决方案，合理。\"}, {\"occupation_id\": \"TG-c338e9ff24b65f2f48ec\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"电商平面设计师归L09-01视觉与品牌设计，合理。\"}, {\"occupation_id\": \"TG-f80e2d2783019363bc1b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"冶金专责岗归L06-04-01金属与无机材料，合理。\"}, {\"occupation_id\": \"TG-81107fc79a2488cf0b1b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"演奏员归L15-09表演配音与模特，合理。\"}, {\"occupation_id\": \"TG-c15f4685200ab0bcac11\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"光电线缆研发工程师归L05-05-02有线与光通信技术，合理。\"}, {\"occupation_id\": \"TG-de34ad7a1797def0f401\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"RISC_V加速器研发工程师归L05-02-01数字芯片设计，合理。\"}, {\"occupation_id\": \"TG-23f7be2dd83efdcaf14a\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"AI工程师(FDE方向)归L02-06大模型与智能应用工程，合理。\"}, {\"occupation_id\": \"TG-0055634cb3fe656a44d7\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"集中采购归L16-01采购与供应商管理，合理。\"}, {\"occupation_id\": \"TG-ed57012f8474e1168948\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"政务服务管理岗归L31-01公共事务与基层治理，合理。\"}, {\"occupation_id\": \"TG-e5d454de02b391a435c9\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"空间设计创优生归L09-05空间与展示设计，合理。\"}, {\"occupation_id\": \"TG-4e60034c4eee67f9c7ca\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"项目助理(决策咨询)归L11-04-02行业与业务咨询，合理。\"}, {\"occupation_id\": \"TG-355a07ccd3e25678c077\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"寄递营业部经理归L17-01物流调度与运输管理，合理。\"}, {\"occupation_id\": \"TG-4d1a832f78b4a2c6f5a2\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"排放试验工程师归L04-02硬件与产品测试，合理。\"}, {\"occupation_id\": \"TG-a58292f99c0a94987180\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"基层管理岗领域未明，review合理。\"}, {\"occupation_id\": \"TG-63163982cb6463468861\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"市场营销支持归L12-07通用市场营销，合理。\"}, {\"occupation_id\": \"TG-dde0cdd30b702fb5464f\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"继电保护岗归L05-03电气工程，合理。\"}, {\"occupation_id\": \"TG-38dda5e4ace3cc3ee169\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"12V&48V系统工程师归L05-01-02电子系统集成，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19589,
+    "completion_tokens": 1184,
+    "total_tokens": 20773,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3077
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

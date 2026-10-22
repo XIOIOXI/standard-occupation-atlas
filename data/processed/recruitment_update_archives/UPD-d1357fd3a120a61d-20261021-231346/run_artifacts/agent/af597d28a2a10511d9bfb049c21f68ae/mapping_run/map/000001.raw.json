@@ -1,0 +1,28 @@
+{
+  "id": "1c89136c-c303-47ef-8f9a-bf66a1267040",
+  "object": "chat.completion",
+  "created": 1792571312,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-af597d28a2a10511d9bfb049c21f68ae\",\"status\":\"mapped\",\"target_category_id\":\"L20-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L20-08\",\"L14-07-01\"],\"title_evidence\":\"综合柜员岗，银行网点柜面业务岗位\",\"level_3_evidence\":null,\"reason\":\"银行综合柜员属于柜面业务操作，归金融运营与交易清算（L20-08）；非客户服务类咨询办理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16944,
+    "completion_tokens": 132,
+    "total_tokens": 17076,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 304
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,85 @@
+{
+  "raw_response_file": "review_005_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-498238278fdb186cc5b1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含应用开发与数据研发，主归属通用软件研发符合目录规则；数据研发为合理候选。"
+    },
+    {
+      "occupation_id": "SNO-d2636ce4b90c4416fb83",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "软件测试明确归软件测试与质量保障，括号内专业背景不改变职能。"
+    },
+    {
+      "occupation_id": "SNO-e4fe9268fca9d27615dd",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L18-02",
+      "issue": "员工关系属薪酬绩效与员工关系二级类，目录未提供三级类，不应归到不存在的三级 L18-02-03。"
+    },
+    {
+      "occupation_id": "SNO-c6d5efd48de6f772fc64",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L09-06",
+      "issue": "地编美术师属美术插画与数字资产二级类，目录未提供三级类，不应归到不存在的三级 L09-06-02。"
+    },
+    {
+      "occupation_id": "SNO-0347bb57dd4c657222ac",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产业研究员归商业研究与市场调研合理，学术研究为合理候选。"
+    },
+    {
+      "occupation_id": "SNO-853da10ef2c47a1c8ef9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "品质管理工程师归生产质量管理符合目录范围。"
+    },
+    {
+      "occupation_id": "SNO-beb55d6a84f5daba34db",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "整机工艺工程师归工艺与制造工程合理。"
+    },
+    {
+      "occupation_id": "SNO-64bebf52b1ca384f20d5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "网络安全运维主归属信息安全合理，云平台与可靠性运维为合理候选。"
+    },
+    {
+      "occupation_id": "SNO-837f804782897d64ce8e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "后端开发工程师(Golang)按目录规则仅有语言名称的开发岗归通用软件研发，后端开发为合理候选。"
+    },
+    {
+      "occupation_id": "SNO-034a0c3a43ed16719ea0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "客户成功归客户成功与续约服务符合目录范围。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 10864,
+    "cached_input_tokens": 9216,
+    "uncached_input_tokens": 1648,
+    "output_tokens": 575,
+    "reasoning_tokens": 0,
+    "total_tokens": 11439
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000619848
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

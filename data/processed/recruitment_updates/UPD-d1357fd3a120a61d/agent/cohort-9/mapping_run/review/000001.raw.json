@@ -1,0 +1,28 @@
+{
+  "id": "6eb72aa6-4a69-48d8-a756-6c4af9f1ee97",
+  "object": "chat.completion",
+  "created": 1792596269,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-858e129e20f83aff504fb5a27e633634\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L30-02\",\"issue\":\"法务岗明确归企业法务，合理。\"},{\"occupation_id\":\"UP-e63384d584f041b23cf77a0b31c16258\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生食品类方向未明，review合理。\"},{\"occupation_id\":\"UP-4e18900160356fd5115ca5701f3d7c2e\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L19-01\",\"issue\":\"驻外会计归会计核算，合理。\"},{\"occupation_id\":\"UP-fc7f356781d790033479be614044ecbf\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L24-07\",\"issue\":\"海外工程岗归施工组织与工程管理，合理。\"},{\"occupation_id\":\"UP-feb578973b4268cff043bfdae927a4ad\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L24-07\",\"issue\":\"国内工程岗归施工组织与工程管理，合理。\"},{\"occupation_id\":\"UP-bc737de512d5a6cb5a8eb909a52d8e2f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L15-11\",\"issue\":\"驻外翻译归翻译与语言服务，合理。\"},{\"occupation_id\":\"UP-56089c6e9e457a7056dc27698f8dd9c1\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L25-02\",\"issue\":\"选矿工程师归采矿与资源开采，合理。\"},{\"occupation_id\":\"UP-4d95841acec5f9b5bec7d7bdd072b611\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"职能管培生方向未明，review合理。\"},{\"occupation_id\":\"UP-9d6bca6499a3c2ae08c3d1e0f716d5fb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务管培生方向未明，review合理。\"},{\"occupation_id\":\"UP-158f093b1fd37907757d81d6b945d988\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L30-03\",\"issue\":\"合规支持归合规与内部控制，合理。\"},{\"occupation_id\":\"UP-419e71b16e5e1a4b99091e0294fb56c4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"投教岗方向不明确，review合理。\"},{\"occupation_id\":\"UP-4b453f78d3e12c18d245404792bb5ffe\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务管理岗范围宽泛，review合理。\"},{\"occupation_id\":\"UP-808fc9a4daa0f6f70935458c26bd5db5\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L20-01\",\"issue\":\"证券公司研究助理归投资研究与分析，合理。\"},{\"occupation_id\":\"UP-d351188b5ee4502a483c3c93c5357dae\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-02\",\"issue\":\"销售助理归个人客户销售，可接受。\"},{\"occupation_id\":\"UP-39b2a7f8bec2082dffb6f729015034d4\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L25-03\",\"issue\":\"新能源开发归能源系统与工艺工程，合理。\"},{\"occupation_id\":\"UP-cd8b73a800051c949371d3d1ec6421b9\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L25-04\",\"issue\":\"能源集团生产运营归能源运行与调度，合理。\"},{\"occupation_id\":\"UP-10747e61af529c283d97bb49b7632663\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L30-02\",\"issue\":\"法务类归企业法务，合理。\"},{\"occupation_id\":\"UP-5deaf084267c252f9fa40bc600dd02ec\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-09\",\"issue\":\"研发工程师方向未明，归通用工业技术研发，合理。\"},{\"occupation_id\":\"UP-cf64e51240ca8e348521245fc5cbd094\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-08\",\"issue\":\"工艺工程师归工艺与制造工程，合理。\"},{\"occupation_id\":\"UP-3e1f307c66147c83ec0dc84b9117b8d0\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L05-03\",\"issue\":\"电气工程师归电气工程，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 21883,
+    "completion_tokens": 1117,
+    "total_tokens": 23000,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 5371
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

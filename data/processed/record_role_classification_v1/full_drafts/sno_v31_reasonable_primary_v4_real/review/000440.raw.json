@@ -1,0 +1,28 @@
+{
+  "id": "50688c85-27e5-4dc1-8d4c-71abf2f04e4d",
+  "object": "chat.completion",
+  "created": 1791881589,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-631a9769be5b00952fc7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"行销工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-3ee0566b2774b507d4d6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生成管理管培生可能为生产管理笔误，review合理。\"},{\"occupation_id\":\"TG-e25ae40ed2c8af5259bc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"CAD需求工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-6028707c01e6fe514676\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"环境规划归L25-06合理。\"},{\"occupation_id\":\"TG-773a307c1648257e7bef\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"岩土勘察设计归L24-02合理。\"},{\"occupation_id\":\"TG-a19644d7cbd65b61ecf8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金融客户经理归L13-02合理。\"},{\"occupation_id\":\"TG-fb918153fba1e132533b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"健康管理教师归L22-02合理。\"},{\"occupation_id\":\"TG-d4f3d37bafb29fe719ed\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"焊接操作员归L23-04合理。\"},{\"occupation_id\":\"TG-bd68c62ea6ad2581f16f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械管培生职能未明，review合理。\"},{\"occupation_id\":\"TG-5e44518a09a845fb2a1d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"非岗位文本，non_role_text合理。\"},{\"occupation_id\":\"TG-21d93a3365b99d9eb22d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场调研员归L11-05合理。\"},{\"occupation_id\":\"TG-d6ae60a76403a6a3fa53\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数据应用工程师归L02-03合理。\"},{\"occupation_id\":\"TG-83eec6e759fe06fad463\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"分行营销培训生归L13-02合理。\"},{\"occupation_id\":\"TG-616236873953766b6ade\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国际/国内销售归L13-01合理。\"},{\"occupation_id\":\"TG-98971bb4f821e67bc20e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"FPGA技术工程师归L05-02-01合理。\"},{\"occupation_id\":\"TG-afb2bc8142207c0e8858\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外商品岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-13a2093154e0391f10c9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"咨询IT审计归L19-05合理。\"},{\"occupation_id\":\"TG-59616f37b3441596213f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场化交易岗行业不明确，review合理。\"},{\"occupation_id\":\"TG-052faba333041b034646\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"智能交通技术方案工程师归L14-09合理。\"},{\"occupation_id\":\"TG-3237a1864dbef180f04f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多职能岗位，multi_role合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19562,
+    "completion_tokens": 917,
+    "total_tokens": 20479,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3050
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,52 @@
+{
+  "consolidated_family_count": 129,
+  "source_batches": {
+    "p0_v1_non_pending": 10,
+    "p0_v2_replacement": 12,
+    "p1_v2": 107
+  },
+  "identity_decision_counts": {
+    "too_generic": 35,
+    "alias_of_existing": 13,
+    "pending_identity_review": 40,
+    "proposed_new_occupation": 39,
+    "merge_with_candidate": 2
+  },
+  "governance_counts": {
+    "deferred_for_mvp": 75,
+    "recommended_for_approval": 15,
+    "needs_manual_review": 38,
+    "hold": 1
+  },
+  "alias_count": 13,
+  "proposed_new_occupation_count": 39,
+  "merge_count": 2,
+  "cross_industry_count": 5,
+  "deferred_counts": {
+    "pending_identity_review": 40,
+    "too_generic": 35,
+    "company_specific_or_program": 0
+  },
+  "coverage_simulation": {
+    "baseline_level_3_coverage": 0.083,
+    "baseline_mapped_units": 1741,
+    "accepted_units": 20964,
+    "alias_only_mapped_units": 1972,
+    "alias_only_coverage": 0.0941,
+    "alias_plus_recommended_new_mapped_units": 2020,
+    "alias_plus_recommended_new_coverage": 0.0964,
+    "deferred_family_count": 75
+  },
+  "validation": {
+    "unique_families": true,
+    "alias_targets_valid": true,
+    "alias_conflicts": 0,
+    "merge_targets_valid": true,
+    "circular_merges": 0,
+    "invalid_domain_pairs": 0,
+    "duplicate_proposed_titles": 0,
+    "proposal_title_conflicts_with_existing_taxonomy": [],
+    "p2_p3_executed": false,
+    "reference_taxonomy_modified": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c7c047b2-9798-4603-a00a-b6a34ae40b0e",
+  "object": "chat.completion",
+  "created": 1792571607,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-b246990aed669aebbb7197f224ef1b5d\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L09-04\",\"issue\":\"女装设计助理归服装饰品与纺织设计（L09-04）合理，二级直达，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17031,
+    "completion_tokens": 79,
+    "total_tokens": 17110,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 519
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

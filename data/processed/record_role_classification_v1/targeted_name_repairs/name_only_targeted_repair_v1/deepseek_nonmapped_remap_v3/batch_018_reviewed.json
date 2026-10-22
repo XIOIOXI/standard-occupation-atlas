@@ -1,0 +1,185 @@
+{
+  "batch_number": 18,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "62d84fa7-8deb-4a5b-b0f8-eb96c8e57eef",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821756,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29672,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2280,
+    "output_tokens": 1413,
+    "reasoning_tokens": 0,
+    "total_tokens": 31085
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001271976
+  },
+  "results": [
+    {
+      "entry_id": "SNO-19b488b1bd59b1feb0a0",
+      "status": "multi_role",
+      "target_category_id": "运营/客服",
+      "reason": "名称明确列出足球内容运营、篮球内容运营、足球新媒体运营、内容安全运营、技术支持、球迷社区运营等多个互不兼容的独立职业；共同上级可确认到运营/客服一级。"
+    },
+    {
+      "entry_id": "SNO-19ee02f541a07c3cfeb6",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "仿真技术研究工程师仅能确认算法研究属性，但仿真技术方向在冻结目录中无对应三级，暂映射到算法研究与通用算法待复核。"
+    },
+    {
+      "entry_id": "SNO-1a0be8d56c46c3cb932c",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "智能架构开发名称仅能确认架构开发方向，无法确定具体技术栈或业务领域，暂映射到平台与中间件开发待复核。"
+    },
+    {
+      "entry_id": "SNO-1a4abb59255704bdebbf",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "人工智能/自动化仅能确认AI或自动化方向，缺少具体技术领域，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-1a648b460e8a930b35a3",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "工程造价类与会计学为两个互不兼容的独立职业，分属房地产/建筑与财务/审计/税务，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-1a8fbec09301ffc541e5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "务员机坪保障部培训生名称截断且职责不明确，无法确认职业类别。"
+    },
+    {
+      "entry_id": "SNO-1b4d20a8cb271db84a28",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "rust开发工程师职业清晰，但冻结目录无Rust语言类别，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-1b86fb6ad3903164ab05",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "宁聚星管培生计划为特定项目名称，无法判断具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-1bb101294fbd852f5317",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称仅为短期，无法判断职业内容。"
+    },
+    {
+      "entry_id": "SNO-1bba414c8a367b8e89cb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“/工程师”名称截断，无法判断具体工程方向。"
+    },
+    {
+      "entry_id": "SNO-1bbc909a80366c7a77b9",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出会计、工程管理、法律事务、英语翻译等多个互不兼容的独立职业，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-1bbdf2536414051b7b24",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "咨询工程师名称列出电气、暖通、造价、土木、给排水、水利、规划等多个独立工程方向，属于多岗位复合，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-1bd9ae36cd8f765f869d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "集团管培生-数字化智能化方向为管培生项目，具体职业方向不明确。"
+    },
+    {
+      "entry_id": "SNO-1bf33099bbe4e1cec7d1",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件应用工程师仅能确认软件开发方向，无法确定具体技术栈或业务领域，暂映射到业务服务端开发待复核。"
+    },
+    {
+      "entry_id": "SNO-1c1b269f7b38f2a269b3",
+      "status": "multi_role",
+      "target_category_id": "互联网/AI",
+      "reason": "名称列出JAVA开发、WEB前端开发、测试工程师三个互不兼容的独立职业，共同上级可确认到互联网/AI一级。"
+    },
+    {
+      "entry_id": "SNO-1c1d5e776a3e369d86a2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称截断且未说明具体岗位职责，无法判断职业类别。"
+    },
+    {
+      "entry_id": "SNO-1c26b6ef6800ba96d8fa",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称包含机器人焊接应用支持与海外销售两个互不兼容的独立职责，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-1c825d25fc2febf0fe6b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "部管培生未明确具体职能方向，缺少岗位职责信息。"
+    },
+    {
+      "entry_id": "SNO-1c835b6082b480945b2a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "计划管理可能涉及生产计划、供应链计划或项目计划，缺少行业或职能信息。"
+    },
+    {
+      "entry_id": "SNO-1c83c10dd56c13f4f87a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "资讯管培生方向不明确，缺少具体职能信息。"
+    },
+    {
+      "entry_id": "SNO-1c8a86a277aba0cf90c8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出房屋建筑、基础设施、新能源、运营支持、建筑设计、综合管理等多个互不兼容的独立职业方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-1cb9ea667895eb7f5330",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "前瞻研究工程师缺少具体技术领域或研究方向信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-1cc7b4773928f604d5b8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "赣南区专业技术未说明具体技术领域，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-1ce75d11155ad65ddc78",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "数字化管培生职责方向不明确，缺少具体职能信息。"
+    },
+    {
+      "entry_id": "SNO-1cef626b6e090cb66c2c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "接样岗位名称过短，缺少行业与具体职责信息，无法确定归类。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-2a62ac4e4fadf1d8ab2afb9501bb8b50",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-01",
+        "L16-03"
+      ],
+      "title_evidence": "生产计划工程师：生产计划与现场管理，工厂计划、排产",
+      "level_3_evidence": null,
+      "reason": "标题明确为生产计划，核心职责为工厂生产计划与排产管理，归L23-01生产计划与现场管理；虽与需求物料计划相关，但生产计划更直接对应L23-01。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16961,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 321,
+    "output_tokens": 150,
+    "reasoning_tokens": 0,
+    "total_tokens": 17111
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037613999999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

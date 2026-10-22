@@ -1,0 +1,24 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-1efe1448cb2a85def823",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-1efe1448cb2a85def823",
+    "case": "A",
+    "child_titles": [
+      "灵活用工业务管培生(招聘方向)",
+      "灵活用工业务管培生(服务方向)",
+      "灵活用工业务管培生(销售方向)",
+      "灵活用工业务管培生(人事运营方向)"
+    ],
+    "source_spans": [
+      {
+        "text": "灵活用工业务管培生(招聘方向服务方向销售方向人事运营方向)",
+        "start": 0,
+        "end": 31
+      }
+    ],
+    "reason": "括号内多个方向可独立作为岗位，符合拆分条件。"
+  }
+}

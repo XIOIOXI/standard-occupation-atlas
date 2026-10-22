@@ -1,0 +1,28 @@
+{
+  "id": "889e84fb-8174-4a83-b4a1-e185c605063a",
+  "object": "chat.completion",
+  "created": 1792571561,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-a5b2bc898e80e9d86c784063dd020fdb\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":\"L02-05\",\"issue\":\"“应用科学家”在育种企业语境下方向不明确，可能为机器学习/统计建模应用（L02-05），也可能为生物技术研发（L06-07-01）或科研（L07-01）；现有证据不足以确认核心为算法模型研发，建议标记review而非直接归L02-05。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17025,
+    "completion_tokens": 125,
+    "total_tokens": 17150,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 513
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

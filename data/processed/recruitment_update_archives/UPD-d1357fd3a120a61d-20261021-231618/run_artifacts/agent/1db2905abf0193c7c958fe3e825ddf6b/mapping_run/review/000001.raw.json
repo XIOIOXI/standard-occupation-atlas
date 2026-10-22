@@ -1,0 +1,28 @@
+{
+  "id": "f1123d29-c657-4cc2-bbe7-3064e6338800",
+  "object": "chat.completion",
+  "created": 1792571851,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-1db2905abf0193c7c958fe3e825ddf6b\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L19-05-01\",\"issue\":\"审计职能明确，企业内审归L19-05-01；管培生为培养标签，不构成跨职能轮岗证据，无需归L32。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17060,
+    "completion_tokens": 94,
+    "total_tokens": 17154,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 548
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

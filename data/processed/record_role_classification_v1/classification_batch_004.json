@@ -1,0 +1,308 @@
+{
+  "schema_version": "record-role-classification-v1",
+  "mapping_method": "codex_semantic_judgment",
+  "model": "Codex (GPT-5)",
+  "processed_at": "2026-10-11T16:14:48.049Z",
+  "classifications": [
+    {
+      "record_role_id": "RR-837a4d7ffe4381cf01cb",
+      "source_record_id": "ccfc488d4312a5f0aacbbcea",
+      "source_atomic_unit_id": "ee9980d1b31838dae36c5769",
+      "source_title": "平面设计助理",
+      "level_1": "设计",
+      "level_2": "视觉/交互设计",
+      "level_3": "品牌与视觉设计",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "服装设计助理,平面设计助理,摄影摄像助理,媒介助理,新媒体运营助理,商品企划助理,电商运营助理,商务BD助理,女装助播,管培生",
+        "reason": "Codex manual judgment based on stated role responsibility: 平面设计助理."
+      }
+    },
+    {
+      "record_role_id": "RR-56dbb6de4ff6bd63730d",
+      "source_record_id": "49394613bf3e8eeb56dbaf13",
+      "source_atomic_unit_id": "1a1625000a27088ca5b66205",
+      "source_title": "RCS-有机合成研究员-RCS能力技术平台-武汉",
+      "level_1": "医疗健康",
+      "level_2": "生物医药",
+      "level_3": "生物医药研发",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "RCS-有机合成研究员-武汉;RCS-有机合成高级研究员(Senior Scientist)-武汉;RCS-有机合成高级研究员(精通韩语)-武汉;RCS-有机合成研究员-RCS能力技术平台-武汉;STA-有机工艺研究员-武汉;TIDES-多肽研究员-武汉;TIDES-寡核苷酸有机合成研究员-武汉;OU流动化学研究员-武汉;OU-高级文件管理专员-武汉;RCS-2026届-有机合成助理研究员-武汉;RCS-2026届-有机合成研究员-武汉;RCS-2026届-有机合成高级研究员-武汉;ARDQC-2026届-分离/分析研究员-武汉;STA-2026届-有机工艺研究员-武汉;TIDES-2026届-多肽研究员-武汉",
+        "reason": "Codex manual judgment based on stated role responsibility: RCS-有机合成研究员-RCS能力技术平台-武汉."
+      }
+    },
+    {
+      "record_role_id": "RR-beadd6f559618d0c36b6",
+      "source_record_id": "8c44264cf2f8fede1f11dabc",
+      "source_atomic_unit_id": "881ae3892d5c7e8e3d0a4ff0",
+      "source_title": "市场金融培训生",
+      "level_1": "金融",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "管理培训生、市场金融培训生",
+        "reason": "Codex manual judgment based on stated role responsibility: 市场金融培训生."
+      }
+    },
+    {
+      "record_role_id": "RR-b739b8f314166605e14e",
+      "source_record_id": "696a358b0be975b5a480c57f",
+      "source_atomic_unit_id": "90d7cc916a7fb5138a114133",
+      "source_title": "小号演奏岗",
+      "level_1": "影视/传媒",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "技术运维岗、天线维护岗、电力系统运维岗、融合业务岗、消防安全岗、数据分析岗、媒体融合岗、财务管理岗、工程技术岗、内容研判岗、综合管理岗、技术岗、广播影视政策研究岗、小号演奏岗、巴松大管演奏岗、圆号演奏......",
+        "reason": "Codex manual judgment based on stated role responsibility: 小号演奏岗."
+      }
+    },
+    {
+      "record_role_id": "RR-e623b31217a7994c3060",
+      "source_record_id": "4a68ada010877fb585e2d554",
+      "source_atomic_unit_id": "b39112f23fcceef6b772c72d",
+      "source_title": "热工设计工程师",
+      "level_1": "生产制造",
+      "level_2": "机械设计/制造",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "研发工程师选矿设计工程师采矿设计工程师建筑设计工程师结构设计工程师热工设计工程师 机械设计工程师 资金会计",
+        "reason": "Codex manual judgment based on stated role responsibility: 热工设计工程师."
+      }
+    },
+    {
+      "record_role_id": "RR-5a91fff8768a519d3637",
+      "source_record_id": "fd56eabb9ad4f835ea392b1f",
+      "source_atomic_unit_id": "0b31df0f957994d110e428cf",
+      "source_title": "造型岗",
+      "level_1": "设计",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "总布置岗,内饰开发岗,人机工程岗,外饰开发岗,尺寸工程岗,底盘开发岗,EBOM岗,热管理岗,法规岗,整车开发岗,动力开发岗,数字化开发岗,身开发岗,产品定义岗,造型岗,项目管理岗,IT岗,财务岗,人力......",
+        "reason": "Codex manual judgment based on stated role responsibility: 造型岗."
+      }
+    },
+    {
+      "record_role_id": "RR-719a7a09ecc3489cd854",
+      "source_record_id": "1406630bfe4973621e6017e8",
+      "source_atomic_unit_id": "5d043a828f93b64cd8831721",
+      "source_title": "MICU工程师",
+      "level_1": "电子/电气/通信",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "研发储备岗 MICU工程师 硬件工程师 嵌入式1inux软件工程师Java开发工程师摄像头工艺工程师技术支持营销经理 质量工程师",
+        "reason": "Codex manual judgment based on stated role responsibility: MICU工程师."
+      }
+    },
+    {
+      "record_role_id": "RR-cf8a14ca855055dcda9e",
+      "source_record_id": "e8d7d891c84ac91b6c96696f",
+      "source_atomic_unit_id": "c6ca755e6e04fc6137dc134a",
+      "source_title": "材料类管培生",
+      "level_1": "生产制造",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "冶金类管培生,材料类管培生,机械类管培生,电气自动化类管培生,化工类管培生,销售类管培生\\\\冶金工程、钢铁冶金、金属材料工程、材料科学与工程、材料成型及控制工程、机械设计制造及其自动化、机械工程、机械、电气工程、电气工程及自动化、自动化、控制科学与工程、化学工程与工艺、化学、材料与化工、应用化学、市场营销、工商管理、国际经济与贸易、商务英语",
+        "reason": "Codex manual judgment based on stated role responsibility: 材料类管培生."
+      }
+    },
+    {
+      "record_role_id": "RR-ca5407283111689dc4e7",
+      "source_record_id": "d5849ed1a51b3c98e4fcb40f",
+      "source_atomic_unit_id": "3ab3b90ddbcf82faaf9bb55a",
+      "source_title": "土地储备业务岗",
+      "level_1": "房地产/建筑",
+      "level_2": "房地产规划开发",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "土地资源管理研究岗、土地经济研究岗、规划事务岗、土地储备岗、自然资源利用岗、政务法制岗、测绘地理信息岗、政务服务管理岗、规划土地项目受理岗、矿山修复治理岗、土地储备业务岗、规划事务技术岗、数据应用分析......",
+        "reason": "Codex manual judgment based on stated role responsibility: 土地储备业务岗."
+      }
+    },
+    {
+      "record_role_id": "RR-c21883705cbe002e8cc3",
+      "source_record_id": "5e419ecfa90e075739a40804",
+      "source_atomic_unit_id": "8e149ab3df28353fdfa49714",
+      "source_title": "移动端全栈AI开发",
+      "level_1": "互联网/AI",
+      "level_2": "前端/移动开发",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "AI应用开发、 移动端全栈AI开发、 客户端跨端开发、 音频算法、 LLM算法、 嵌入式测试、 AI硬件产品、 平台技术支持、 大客户技术支持、 C端产品运营、 AI安全工程师、 设备工艺、 嵌入式开......",
+        "reason": "Codex manual judgment based on stated role responsibility: 移动端全栈AI开发."
+      }
+    },
+    {
+      "record_role_id": "RR-fa508d2112df6930690a",
+      "source_record_id": "d700d03ac60d7456f596732d",
+      "source_atomic_unit_id": "255871771a2a98cebb0cc7ab",
+      "source_title": "城市更新工作管理员",
+      "level_1": "房地产/建筑",
+      "level_2": "城市规划设计",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "干事、综合保障员、综合保障员、综合管理干部、就业服务管理员、就业服务管理员、就业服务管理员、城市更新工作管理员、数据管理员、项目管理员、管理员（专业要求：数学类、物理学类、化学类、生物科学类、统计学类......",
+        "reason": "Codex manual judgment based on stated role responsibility: 城市更新工作管理员."
+      }
+    },
+    {
+      "record_role_id": "RR-66c94ce2c7963efa5fde",
+      "source_record_id": "d302999893b6e7fdded0ddfd",
+      "source_atomic_unit_id": "60663654c267fefa12d6aac3",
+      "source_title": "U3D 开发工程师",
+      "level_1": "互联网/AI",
+      "level_2": "C++",
+      "level_3": "图形与高性能计算",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "数据分析师,系统策划,数值策划,Cocos2d-x 开发工程师,服务端开发工程师,U3D 开发工程师,ASO 运营,引擎开发工程师",
+        "reason": "Codex manual judgment based on stated role responsibility: U3D 开发工程师."
+      }
+    },
+    {
+      "record_role_id": "RR-180672faca3ff50058fc",
+      "source_record_id": "d95b71407ab73b95ea578705",
+      "source_atomic_unit_id": "c1afd355a4d88d949d6adee6",
+      "source_title": "产品岗",
+      "level_1": "产品",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "技术岗 产品岗 运营岗 商务岗",
+        "reason": "Codex manual judgment based on stated role responsibility: 产品岗."
+      }
+    },
+    {
+      "record_role_id": "RR-e74ef0e85668d735126f",
+      "source_record_id": "2a79a881cb2435b632cb835f",
+      "source_atomic_unit_id": "2a828d2837ebb599890f3873",
+      "source_title": "奥赛老师",
+      "level_1": "教育培训",
+      "level_2": "教师",
+      "level_3": "基础教育教学",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "小初高文化课老师,奥赛老师,班主任,课程顾问,学业规划师",
+        "reason": "Codex manual judgment based on stated role responsibility: 奥赛老师."
+      }
+    },
+    {
+      "record_role_id": "RR-1f7fda327d8c7a7775c0",
+      "source_record_id": "d23f5f6de15676a6b9a154f0",
+      "source_atomic_unit_id": "89fda4809889e08957400bf0",
+      "source_title": "系统开发工程师",
+      "level_1": "互联网/AI",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "通信网络工程师,网络信息安全工程师,云计算工程师,大数据工程师,系统开发工程师,AI大模型算法工程师,AI架构师,AI产品经理,政企客户经理,渠道管理,营销策划,销售运营,财务管理,法律合规管理,党建......",
+        "reason": "Codex manual judgment based on stated role responsibility: 系统开发工程师."
+      }
+    },
+    {
+      "record_role_id": "RR-8f7c542bca5dc616e164",
+      "source_record_id": "0b0ae97a54d3833ee727c785",
+      "source_atomic_unit_id": "297dff3ca9099545ba437ec4",
+      "source_title": "产品经理（硬件方向）",
+      "level_1": "产品",
+      "level_2": "硬件产品经理",
+      "level_3": "硬件产品规划",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "算法工程师,产品经理（硬件方向）,产品经理（软件方向）,电商运营,KA销售,线下渠道营销,包装设计师",
+        "reason": "Codex manual judgment based on stated role responsibility: 产品经理（硬件方向）."
+      }
+    },
+    {
+      "record_role_id": "RR-16bef93c03a34d3c7e60",
+      "source_record_id": "570c0ad239622d300a05d56a",
+      "source_atomic_unit_id": "12cea1c2ebe8d6d9e239e040",
+      "source_title": "出纳（会计学、教育技术学、广播电视工程、信息与通信工程、计算机科学与技术、水利工程、港口海岸及近海工程、环境科......",
+      "level_1": "财务/审计/税务",
+      "level_2": "出纳",
+      "level_3": "资金收付与结算",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "管理岗、科研岗、多源数据融合与智能测绘研究、海洋地理信息与智能应用研发、信息化与网络安全、出纳（会计学、教育技术学、广播电视工程、信息与通信工程、计算机科学与技术、水利工程、港口海岸及近海工程、环境科......",
+        "reason": "Codex manual judgment based on stated role responsibility: 出纳（会计学、教育技术学、广播电视工程、信息与通信工程、计算机科学与技术、水利工程、港口海岸及近海工程、环境科......."
+      }
+    },
+    {
+      "record_role_id": "RR-b1a441bb4fa5f1b6cd87",
+      "source_record_id": "d5d26484f8039be9c5a0a730",
+      "source_atomic_unit_id": "0e89a8ed3323ba9079d7c931",
+      "source_title": "工艺研究岗",
+      "level_1": "生产制造",
+      "level_2": null,
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "工艺研究岗；电气工程师；机械工程师；仿真技术研究工程师；结构设计工程师；配方设计工程师；内贸销售；国外销售；销售支持；会计；生产计划岗；维修岗；质检岗；冻胶工；挤出工；压延工；裁断工；成型工；硫化工；......",
+        "reason": "Codex manual judgment based on stated role responsibility: 工艺研究岗."
+      }
+    },
+    {
+      "record_role_id": "RR-2bd68b07b17b82366262",
+      "source_record_id": "e792e4a7351c6242ffeb9968",
+      "source_atomic_unit_id": "112fe3b473d3414e773b319d",
+      "source_title": "IQ图像工程师",
+      "level_1": "互联网/AI",
+      "level_2": "算法工程师",
+      "level_3": "计算机视觉与三维感知",
+      "classification_status": "mapped",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "DSP软件工程师,前端开发工程师,iOS应用工程师,软件测试工程师,IQ图像工程师,嵌入式软件工程师（Linux应用）,海外渠道销售管培生,海外线上推广管培生,海外FAE管培生,GTM助理管培生,海外......",
+        "reason": "Codex manual judgment based on stated role responsibility: IQ图像工程师."
+      }
+    },
+    {
+      "record_role_id": "RR-fdd21de59a64fbcdad09",
+      "source_record_id": "5086fcb4dbec448f04e7b31f",
+      "source_atomic_unit_id": "90e852ab5877a14c2effd029",
+      "source_title": "项目经理",
+      "level_1": "互联网/AI",
+      "level_2": "技术项目管理",
+      "level_3": null,
+      "classification_status": "review",
+      "evidence": {
+        "source": "source_title_and_raw_job_title",
+        "value": "储备干部大客户代表 项目经理产品经理前端开发工程师 算法工程师设计师IP设计师UIUX设计师",
+        "reason": "Codex manual judgment based on stated role responsibility: 项目经理."
+      }
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-2b965007cf0cdad2624f",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-01",
+        "L05-07"
+      ],
+      "title_evidence": "硬件技术工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确为硬件技术，属于电子硬件研发范畴，但未细分电路板级或系统集成，归 L05-01。"
+    },
+    {
+      "occupation_id": "TG-70efa81502d6c3089649",
+      "status": "mapped",
+      "target_category_id": "L06-08-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-08-03",
+        "L06-08-01"
+      ],
+      "title_evidence": "封装工艺设计师",
+      "level_3_evidence": "封装工艺设计师",
+      "reason": "封装工艺属于工装模具与工艺装备范畴，直接匹配 L06-08-03。"
+    },
+    {
+      "occupation_id": "TG-379be433217bf0b66e7a",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-05",
+        "L02-03"
+      ],
+      "title_evidence": "数据科学工程师",
+      "level_3_evidence": null,
+      "reason": "数据科学工程师通常涉及机器学习与算法研发，归 L02-05，未细分具体算法方向。"
+    },
+    {
+      "occupation_id": "TG-f2deb1ef480f2b25173f",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01"
+      ],
+      "title_evidence": "助理机械工程师",
+      "level_3_evidence": null,
+      "reason": "机械工程师属于机械与结构设计，助理级别不影响职能归类，归 L06-01。"
+    },
+    {
+      "occupation_id": "TG-5ecce4ddfefbc69a62ca",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01"
+      ],
+      "title_evidence": "助理机械研发工程师",
+      "level_3_evidence": null,
+      "reason": "机械研发工程师属于机械与结构设计，归 L06-01。"
+    },
+    {
+      "occupation_id": "TG-4c9c99af6389f963866a",
+      "status": "mapped",
+      "target_category_id": "L22-02-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L22-02-03",
+        "L22-02"
+      ],
+      "title_evidence": "高中语文教师",
+      "level_3_evidence": "高中语文教师",
+      "reason": "语文属于人文与社会学科教学，直接匹配 L22-02-03。"
+    },
+    {
+      "occupation_id": "TG-5d903759cf357b48e607",
+      "status": "mapped",
+      "target_category_id": "L02-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-03",
+        "L02-01"
+      ],
+      "title_evidence": "数据处理工程师",
+      "level_3_evidence": null,
+      "reason": "数据处理工程师通常涉及数据工程与数据平台开发，归 L02-03，未细分具体方向。"
+    },
+    {
+      "occupation_id": "TG-95a87ee977fea112413d",
+      "status": "mapped",
+      "target_category_id": "L19-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-08",
+        "L32-01"
+      ],
+      "title_evidence": "财务校招生",
+      "level_3_evidence": null,
+      "reason": "标题明确财务职能，校招生为培养标签，归财务通用 L19-08。"
+    },
+    {
+      "occupation_id": "TG-af6a73f358435e533335",
+      "status": "mapped",
+      "target_category_id": "L06-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-04"
+      ],
+      "title_evidence": "材料开发工程师",
+      "level_3_evidence": null,
+      "reason": "材料开发工程师属于材料研发，归 L06-04，未细分材料类型。"
+    },
+    {
+      "occupation_id": "TG-001641db98d343402507",
+      "status": "mapped",
+      "target_category_id": "L06-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-04"
+      ],
+      "title_evidence": "材料开发",
+      "level_3_evidence": null,
+      "reason": "材料开发属于材料研发，归 L06-04。"
+    },
+    {
+      "occupation_id": "TG-1dcbb950e73991f4349d",
+      "status": "mapped",
+      "target_category_id": "L13-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-07",
+        "L13-01"
+      ],
+      "title_evidence": "国内销售经理",
+      "level_3_evidence": null,
+      "reason": "销售经理属于销售管理，归 L13-07。"
+    },
+    {
+      "occupation_id": "TG-9f453bd5639c0cd8ec09",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L01-05"
+      ],
+      "title_evidence": "webcad开发工程师",
+      "level_3_evidence": null,
+      "reason": "webcad开发属于软件开发，但方向未明确，归通用软件研发 L01-11。"
+    },
+    {
+      "occupation_id": "TG-c51df1daaf369f292cac",
+      "status": "mapped",
+      "target_category_id": "L09-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-03"
+      ],
+      "title_evidence": "CMF设计师",
+      "level_3_evidence": null,
+      "reason": "CMF设计属于工业与产品外观设计，归 L09-03。"
+    },
+    {
+      "occupation_id": "TG-dca880e51511d0190f5d",
+      "status": "mapped",
+      "target_category_id": "L09-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-03"
+      ],
+      "title_evidence": "CMF设计师岗",
+      "level_3_evidence": null,
+      "reason": "CMF设计师属于工业与产品外观设计，归 L09-03。"
+    },
+    {
+      "occupation_id": "TG-786c599e39645cda0186",
+      "status": "mapped",
+      "target_category_id": "L06-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-01-02",
+        "L06-01"
+      ],
+      "title_evidence": "机械结构设计师",
+      "level_3_evidence": "机械结构设计师",
+      "reason": "机械结构设计直接匹配产品结构设计 L06-01-02。"
+    },
+    {
+      "occupation_id": "TG-a48a97f8f94772f462a7",
+      "status": "mapped",
+      "target_category_id": "L18-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-06",
+        "L18-05"
+      ],
+      "title_evidence": "行政助理",
+      "level_3_evidence": null,
+      "reason": "行政助理属于秘书助理与文书事务，归 L18-06。"
+    },
+    {
+      "occupation_id": "TG-84c680e1794a1e0268ec",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "专业技术岗位",
+      "level_3_evidence": null,
+      "reason": "标题过于宽泛，无法确定具体专业职能，可能为综合培养或轮岗，需进一步信息。"
+    },
+    {
+      "occupation_id": "TG-206f234740b8b829b1b6",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "专业技术岗",
+      "level_3_evidence": null,
+      "reason": "标题过于宽泛，无法确定具体专业职能，可能为综合培养或轮岗，需进一步信息。"
+    },
+    {
+      "occupation_id": "TG-413c714be6bd3e8e324f",
+      "status": "mapped",
+      "target_category_id": "L14-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-08"
+      ],
+      "title_evidence": "客户成功经理",
+      "level_3_evidence": null,
+      "reason": "客户成功经理属于客户成功与续约服务，归 L14-08。"
+    },
+    {
+      "occupation_id": "TG-85bdfc9e0963cee50d17",
+      "status": "mapped",
+      "target_category_id": "L22-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L22-04-01",
+        "L22-04"
+      ],
+      "title_evidence": "音乐教师",
+      "level_3_evidence": "音乐教师",
+      "reason": "音乐教学属于艺术教学，直接匹配 L22-04-01。"
+    }
+  ],
+  "raw_response_file": "000578.raw.json",
+  "usage": {
+    "input_tokens": 17312,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 800,
+    "output_tokens": 2361,
+    "reasoning_tokens": 0,
+    "total_tokens": 19673
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003172272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

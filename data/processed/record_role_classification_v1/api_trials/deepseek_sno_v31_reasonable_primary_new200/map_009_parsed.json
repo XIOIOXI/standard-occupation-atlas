@@ -1,0 +1,271 @@
+{
+  "raw_response_file": "map_009_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-7a94018830fb108ebdc8",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-06",
+        "L23-09"
+      ],
+      "title_evidence": "现场技术支持工程师",
+      "level_3_evidence": null,
+      "reason": "现场技术支持通常指客户现场的设备或产品安装、调试与售后技术服务，归 L14-10 售后技术服务；企业内部IT支持可作候选 L03-06，工业设备安装调试可作候选 L23-09。"
+    },
+    {
+      "occupation_id": "SNO-a64fac47e61efb09aa00",
+      "status": "mapped",
+      "target_category_id": "L02-05-05",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-06"
+      ],
+      "title_evidence": "预测端到端算法工程师",
+      "level_3_evidence": "预测端到端算法工程师直接包含“预测”与“算法”，对应预测与统计学习。",
+      "reason": "预测端到端算法工程师核心为预测模型与算法研发，归 L02-05-05 预测与统计学习；若侧重决策优化可候选 L02-05-06。"
+    },
+    {
+      "occupation_id": "SNO-7c48f81842e59d7ac2b9",
+      "status": "mapped",
+      "target_category_id": "L04-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L04-04-02",
+        "L24-02"
+      ],
+      "title_evidence": "建筑材料检测",
+      "level_3_evidence": "建筑材料检测通常为物理力学性能检测，对应物理性能与可靠性检测。",
+      "reason": "建筑材料检测属于检验检测与实验分析，通常做物理力学性能检测，归 L04-04-01；化学检测可候选 L04-04-02，土木材料技术可候选 L24-02。"
+    },
+    {
+      "occupation_id": "SNO-c49ee5c8dcbc443a03a7",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-10"
+      ],
+      "title_evidence": "工艺助理工程师A",
+      "level_3_evidence": null,
+      "reason": "工艺助理工程师属于工艺与制造工程职能，助理为身份修饰，归 L06-08；生产现场作业可候选 L23-10。"
+    },
+    {
+      "occupation_id": "SNO-3022b1b5a6dfea105cdf",
+      "status": "mapped",
+      "target_category_id": "L19-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "税务筹划",
+      "level_3_evidence": null,
+      "reason": "税务筹划直接对应税务职能，归 L19-06 税务。"
+    },
+    {
+      "occupation_id": "SNO-b75889b054140dc66afb",
+      "status": "mapped",
+      "target_category_id": "L25-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-05",
+        "L29-03"
+      ],
+      "title_evidence": "安全管理",
+      "level_3_evidence": null,
+      "reason": "安全管理通常指安全生产与职业健康，归 L25-07；网络安全可候选 L03-05，现场秩序安保可候选 L29-03。"
+    },
+    {
+      "occupation_id": "SNO-154d05c6a66042b86ec0",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-04"
+      ],
+      "title_evidence": "电机应用工程师",
+      "level_3_evidence": null,
+      "reason": "电机应用工程师属于电气工程中电机应用与电气系统方向，归 L05-03；若侧重自动控制可候选 L05-04。"
+    },
+    {
+      "occupation_id": "SNO-b4dafb025c438820c86a",
+      "status": "mapped",
+      "target_category_id": "L25-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "预备操纵员",
+      "level_3_evidence": null,
+      "reason": "预备操纵员通常指能源设施运行岗位的预备操作人员，归 L25-04 能源运行与调度。"
+    },
+    {
+      "occupation_id": "SNO-19687be7bdf72a72e741",
+      "status": "mapped",
+      "target_category_id": "L14-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-10",
+        "L03-06"
+      ],
+      "title_evidence": "客户服务工程师",
+      "level_3_evidence": null,
+      "reason": "客户服务工程师以客户支持与服务为主，归 L14-07 客服与客户支持；若侧重售后技术可候选 L14-10，内部IT支持可候选 L03-06。"
+    },
+    {
+      "occupation_id": "SNO-6f2b2b5f684defa5e23c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L20-11"
+      ],
+      "title_evidence": "总行管培生",
+      "level_3_evidence": null,
+      "reason": "总行管培生仅表明银行行业与培养身份，未明确具体职能；可候选 L32-01 跨职能管理培训与轮岗或 L20-11 通用金融专业业务，但均不足以直接映射。"
+    },
+    {
+      "occupation_id": "SNO-0be57c31642ec3154e4d",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-03"
+      ],
+      "title_evidence": "装备设计",
+      "level_3_evidence": null,
+      "reason": "装备设计通常指机械设备或装备的机械结构设计，归 L06-01 机械与结构设计；若侧重产品外观可候选 L09-03。"
+    },
+    {
+      "occupation_id": "SNO-d17a660802c9d8651ff4",
+      "status": "mapped",
+      "target_category_id": "L14-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-05",
+        "L29-10"
+      ],
+      "title_evidence": "电商助理",
+      "level_3_evidence": null,
+      "reason": "电商助理通常协助电商店铺或商品运营，归 L14-04 电商与商品运营；若为门店销售可候选 L13-05，门店收银支持可候选 L29-10。"
+    },
+    {
+      "occupation_id": "SNO-4a803f432364b68057bb",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-04",
+        "L07-05"
+      ],
+      "title_evidence": "博士顾问",
+      "level_3_evidence": null,
+      "reason": "博士顾问仅表明学历与顾问身份，未明确咨询领域或科研方向；可候选 L11-04 管理与专业咨询或 L07-05 通用科学研究，但不足以直接映射。"
+    },
+    {
+      "occupation_id": "SNO-bc077e8d1e74999593b2",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-01",
+        "L18-03"
+      ],
+      "title_evidence": "人力资源管培生",
+      "level_3_evidence": null,
+      "reason": "人力资源管培生已明确人力资源职能，管培为身份修饰，归 L18-04 人力资源综合管理；招聘或人才发展可作候选。"
+    },
+    {
+      "occupation_id": "SNO-5bff832a759e3e84d71f",
+      "status": "mapped",
+      "target_category_id": "L06-07-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L07-01"
+      ],
+      "title_evidence": "生测项目高级研究员",
+      "level_3_evidence": "生测项目通常指生物测定或生物技术测试项目，对应生物技术研发。",
+      "reason": "生测项目高级研究员核心为生物技术研发，归 L06-07-01；若为基础科学研究可候选 L07-01。"
+    },
+    {
+      "occupation_id": "SNO-24e993d29bb77eca559b",
+      "status": "mapped",
+      "target_category_id": "L01-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-01",
+        "L01-11"
+      ],
+      "title_evidence": "APP开发工程师",
+      "level_3_evidence": null,
+      "reason": "APP开发工程师通常指移动应用开发，归 L01-04；若为Web前端可候选 L01-01，方向不明可候选 L01-11。"
+    },
+    {
+      "occupation_id": "SNO-d52cfd6b89bd35fdae0d",
+      "status": "mapped",
+      "target_category_id": "L27-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L15-08"
+      ],
+      "title_evidence": "英文讲解员",
+      "level_3_evidence": null,
+      "reason": "英文讲解员通常为景区或场馆讲解接待，归 L27-02 导游与旅游接待；若为播音主持可候选 L15-08。"
+    },
+    {
+      "occupation_id": "SNO-3a8466bb6345eb118e95",
+      "status": "mapped",
+      "target_category_id": "L20-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L30-03"
+      ],
+      "title_evidence": "风险管理助理",
+      "level_3_evidence": null,
+      "reason": "风险管理助理通常指金融风险或信用评估支持，归 L20-07；若为企业合规内控可候选 L30-03。"
+    },
+    {
+      "occupation_id": "SNO-7defa88513f318213382",
+      "status": "mapped",
+      "target_category_id": "L04-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01",
+        "L04-03"
+      ],
+      "title_evidence": "质量和工程管培生",
+      "level_3_evidence": null,
+      "reason": "质量和工程管培生已明确质量职能，管培为身份修饰，归 L04-06 通用测试与质量工作；跨职能轮岗可候选 L32-01，生产质量可候选 L04-03。"
+    },
+    {
+      "occupation_id": "SNO-69f020bf34e45416d6ee",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01-02"
+      ],
+      "title_evidence": "助理机械结构工程师",
+      "level_3_evidence": null,
+      "reason": "助理机械结构工程师属于机械与结构设计，助理为身份修饰，归 L06-01；若明确产品结构可候选 L06-01-02。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17446,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 806,
+    "output_tokens": 2844,
+    "reasoning_tokens": 0,
+    "total_tokens": 20290
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0018772199999999998
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

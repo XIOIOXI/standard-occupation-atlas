@@ -1,0 +1,50 @@
+{
+  "sample_count": 200,
+  "initial_status_counts": {
+    "mapped": 188,
+    "review": 10,
+    "multi_role": 2
+  },
+  "initial_mapping_rate": 0.94,
+  "mapped_reasonableness_pass": {
+    "numerator": 180,
+    "denominator": 188,
+    "rate": 0.9574468085106383
+  },
+  "overall_processing_pass": {
+    "numerator": 188,
+    "denominator": 200,
+    "rate": 0.94
+  },
+  "review_counts": {
+    "pass": 188,
+    "correction_required": 8,
+    "unresolved": 4
+  },
+  "level_counts": {
+    "level_2": 154,
+    "level_3": 34,
+    "none": 12
+  },
+  "structural_validation": {
+    "valid": 200,
+    "failed": 0
+  },
+  "usage": {
+    "input_tokens": 391419,
+    "cached_input_tokens": 324864,
+    "uncached_input_tokens": 66555,
+    "output_tokens": 34281,
+    "reasoning_tokens": 0,
+    "total_tokens": 425700
+  },
+  "estimated_cost_usd": 0.031526441999999995,
+  "budget_usd": 1.0,
+  "goal": {
+    "overall_pass_target": 190,
+    "mapped_pass_rate_target": 0.95,
+    "overall_reached": false,
+    "mapped_rate_reached": true
+  },
+  "note": "AI reasonable-primary review, not human gold-standard accuracy."
+}

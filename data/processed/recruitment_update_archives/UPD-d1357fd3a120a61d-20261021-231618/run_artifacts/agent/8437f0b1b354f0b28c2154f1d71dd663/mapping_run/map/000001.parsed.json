@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-8437f0b1b354f0b28c2154f1d71dd663",
+      "status": "mapped",
+      "target_category_id": "L11-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-02",
+        "L11-05",
+        "L11-06"
+      ],
+      "title_evidence": "市场开发部规划发展业务员岗：部门为市场开发部，岗位含“规划发展”，指向业务规划与战略研究职能",
+      "level_3_evidence": null,
+      "reason": "“规划发展”属于企业战略与经营规划职能，归入L11-02战略与经营规划；虽含“市场开发”字样，但核心为规划发展而非营销策划或销售，故不归L12/L13。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16980,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 340,
+    "output_tokens": 170,
+    "reasoning_tokens": 0,
+    "total_tokens": 17150
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00040584000000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

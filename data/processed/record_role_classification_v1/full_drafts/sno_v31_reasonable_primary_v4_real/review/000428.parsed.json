@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-c1329321b5864a47da8e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题仅含管理岗与校招标签，未说明具体管理职能或培养性质，review合理。"
+    },
+    {
+      "occupation_id": "TG-e464394337d488e8be53",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智造技术研发指向制造工艺与制程技术研发，归L06-08合理。"
+    },
+    {
+      "occupation_id": "TG-925673bb2912e6ddc6eb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "科研管培生可能为科研方向培养或跨职能轮岗，review合理。"
+    },
+    {
+      "occupation_id": "TG-fa85a59146aaae45ea41",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "深度学习属于机器学习与算法研发，未指明子方向归L02-05合理。"
+    },
+    {
+      "occupation_id": "TG-6034c7dca1d93a4b64a2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "销售工程师面向金融事业部，属企业客户销售，归L13-01合理。"
+    },
+    {
+      "occupation_id": "TG-b90734084e95552f968c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "自动化软件工程师通常从事工业控制与自动化系统软件开发，归L05-04合理。"
+    },
+    {
+      "occupation_id": "TG-23aa21b9b01f110e8351",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "视频监控行业AI软件工程师核心为视觉感知模型研发，归L02-05-01合理。"
+    },
+    {
+      "occupation_id": "TG-c275699cd9c25b0bc54c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "预先研究岗未说明研究领域或技术方向，review合理。"
+    },
+    {
+      "occupation_id": "TG-e4866bfe91887cc417c2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "核心开发岗明确为软件开发但未说明方向，归L01-11合理。"
+    },
+    {
+      "occupation_id": "TG-cdc61ddf677f1f23150e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "战略推广经理属于市场策略与营销策划，归L12-01合理。"
+    },
+    {
+      "occupation_id": "TG-58267a20329f01d21a29",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "面向港澳客户的技术支持属售后技术服务，归L14-10合理。"
+    },
+    {
+      "occupation_id": "TG-b3fd0034e1c1e243b9d4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "前台实习生属于企业接待与前台服务，归L18-07合理。"
+    },
+    {
+      "occupation_id": "TG-7e46a95143fb4e132a2f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题包含机电管理与投资拓展两个不同职能方向，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-91a338b0b7305fbd46fe",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "预算员从事工程造价与预算，归L24-06-01合理。"
+    },
+    {
+      "occupation_id": "TG-0117e83a160460f264ff",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "商品企划管培生核心为商品与品类运营，归L14-04-02合理。"
+    },
+    {
+      "occupation_id": "TG-00aef8a85a274964821c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "风电工程师属于能源系统与工艺工程，归L25-03合理。"
+    },
+    {
+      "occupation_id": "TG-d5a6fcdb25b41744a195",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "输变电工程师属于电气工程，归L05-03合理。"
+    },
+    {
+      "occupation_id": "TG-df3b618ed3e18631f5c9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "质量与运营未说明质量类型或运营方向，review合理。"
+    },
+    {
+      "occupation_id": "TG-3ab523784a2ffd351133",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "人工智能方向产品经理属于数字与软件产品管理，归L08-01合理。"
+    },
+    {
+      "occupation_id": "TG-148244e2878e4b565e45",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "人才助企岗可能涉及人才服务或企业支持，具体职能不明确，review合理。"
+    }
+  ],
+  "raw_response_file": "000428.raw.json",
+  "usage": {
+    "input_tokens": 19533,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3021,
+    "output_tokens": 1065,
+    "reasoning_tokens": 0,
+    "total_tokens": 20598
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0022833719999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

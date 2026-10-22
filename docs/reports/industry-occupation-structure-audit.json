@@ -1,0 +1,1255 @@
+{
+  "audit_version": "industry-occupation-structure-audit-v1",
+  "scope": "read-only derived audit; no frontend, frozen artifact, Job Group, taxonomy, Skill Intelligence, API, or LLM changes",
+  "inputs": {
+    "industry_projection": "industry_market_hierarchy.json (l1 Industry/Domain only)",
+    "occupation_product_data": "market_occupations.json",
+    "v2_job_groups": "job_groups_v2/job_groups.jsonl",
+    "candidate_families": "occupation_candidate_families.jsonl",
+    "merge_safety": "high_family_merge_safety_details.jsonl"
+  },
+  "display_group_precedence": [
+    "canonical occupation identity: retained as one stable identity; no canonical family relation exists to merge distinct IDs",
+    "existing SAFE candidate family, only where it relates at least two current display identities in the same Industry",
+    "exact normalized-title relationship, only where it relates at least two unassigned current display identities",
+    "otherwise preserve the original occupation identity"
+  ],
+  "prohibitions_enforced": [
+    "REVIEW_REQUIRED families never form display groups",
+    "no semantic/manual taxonomy",
+    "no name-similarity merge",
+    "no unresolved identity removal"
+  ],
+  "industry_count": 17,
+  "industries": [
+    {
+      "industry_id": "context:l1:金融与金融科技",
+      "industry_label": "金融与金融科技",
+      "occupation_identity_count": 1402,
+      "canonical_mapped_count": 40,
+      "unmapped_count": 1362,
+      "candidate_family_covered_identity_count": 220,
+      "safe_family_covered_identity_count": 220,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 1145,
+      "candidate_multi_member_family_count": 220,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 1402,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 1402,
+      "industry_distinct_recruitment_record_count": 686,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 2399,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 40,
+        "preserve_identity": 1362
+      }
+    },
+    {
+      "industry_id": "context:l1:信息技术与数字产业",
+      "industry_label": "信息技术与数字产业",
+      "occupation_identity_count": 1265,
+      "canonical_mapped_count": 68,
+      "unmapped_count": 1197,
+      "candidate_family_covered_identity_count": 328,
+      "safe_family_covered_identity_count": 328,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 835,
+      "candidate_multi_member_family_count": 328,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 1265,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 1265,
+      "industry_distinct_recruitment_record_count": 294,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 1971,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 68,
+        "preserve_identity": 1197
+      }
+    },
+    {
+      "industry_id": "context:l1:电子信息与通信产业",
+      "industry_label": "电子信息与通信产业",
+      "occupation_identity_count": 828,
+      "canonical_mapped_count": 54,
+      "unmapped_count": 774,
+      "candidate_family_covered_identity_count": 244,
+      "safe_family_covered_identity_count": 244,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 495,
+      "candidate_multi_member_family_count": 244,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 828,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 828,
+      "industry_distinct_recruitment_record_count": 220,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 1490,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 54,
+        "preserve_identity": 774
+      }
+    },
+    {
+      "industry_id": "context:l1:教育与人力资本",
+      "industry_label": "教育与人力资本",
+      "occupation_identity_count": 510,
+      "canonical_mapped_count": 22,
+      "unmapped_count": 488,
+      "candidate_family_covered_identity_count": 94,
+      "safe_family_covered_identity_count": 94,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 389,
+      "candidate_multi_member_family_count": 94,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 510,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 510,
+      "industry_distinct_recruitment_record_count": 160,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 683,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 22,
+        "preserve_identity": 488
+      }
+    },
+    {
+      "industry_id": "context:l1:智能制造与工业",
+      "industry_label": "智能制造与工业",
+      "occupation_identity_count": 617,
+      "canonical_mapped_count": 32,
+      "unmapped_count": 585,
+      "candidate_family_covered_identity_count": 184,
+      "safe_family_covered_identity_count": 184,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 380,
+      "candidate_multi_member_family_count": 184,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 617,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 617,
+      "industry_distinct_recruitment_record_count": 142,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 769,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 32,
+        "preserve_identity": 585
+      }
+    },
+    {
+      "industry_id": "context:l1:新能源与能源产业",
+      "industry_label": "新能源与能源产业",
+      "occupation_identity_count": 517,
+      "canonical_mapped_count": 41,
+      "unmapped_count": 476,
+      "candidate_family_covered_identity_count": 161,
+      "safe_family_covered_identity_count": 161,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 298,
+      "candidate_multi_member_family_count": 161,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 517,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 517,
+      "industry_distinct_recruitment_record_count": 131,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 646,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 41,
+        "preserve_identity": 476
+      }
+    },
+    {
+      "industry_id": "context:l1:建筑与房地产",
+      "industry_label": "建筑与房地产",
+      "occupation_identity_count": 390,
+      "canonical_mapped_count": 15,
+      "unmapped_count": 375,
+      "candidate_family_covered_identity_count": 118,
+      "safe_family_covered_identity_count": 118,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 250,
+      "candidate_multi_member_family_count": 118,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 390,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 390,
+      "industry_distinct_recruitment_record_count": 110,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 475,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 15,
+        "preserve_identity": 375
+      }
+    },
+    {
+      "industry_id": "context:l1:电子商务与零售",
+      "industry_label": "电子商务与零售",
+      "occupation_identity_count": 234,
+      "canonical_mapped_count": 16,
+      "unmapped_count": 218,
+      "candidate_family_covered_identity_count": 41,
+      "safe_family_covered_identity_count": 41,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 145,
+      "candidate_multi_member_family_count": 41,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 234,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 234,
+      "industry_distinct_recruitment_record_count": 87,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 258,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 16,
+        "preserve_identity": 218
+      }
+    },
+    {
+      "industry_id": "context:l1:物流与供应链",
+      "industry_label": "物流与供应链",
+      "occupation_identity_count": 272,
+      "canonical_mapped_count": 13,
+      "unmapped_count": 259,
+      "candidate_family_covered_identity_count": 68,
+      "safe_family_covered_identity_count": 68,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 183,
+      "candidate_multi_member_family_count": 68,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 272,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 272,
+      "industry_distinct_recruitment_record_count": 80,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 299,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 13,
+        "preserve_identity": 259
+      }
+    },
+    {
+      "industry_id": "context:l1:市场营销与传媒",
+      "industry_label": "市场营销与传媒",
+      "occupation_identity_count": 159,
+      "canonical_mapped_count": 4,
+      "unmapped_count": 155,
+      "candidate_family_covered_identity_count": 42,
+      "safe_family_covered_identity_count": 42,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 111,
+      "candidate_multi_member_family_count": 42,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 159,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 159,
+      "industry_distinct_recruitment_record_count": 49,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 163,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 4,
+        "preserve_identity": 155
+      }
+    },
+    {
+      "industry_id": "context:l1:汽车与智能交通",
+      "industry_label": "汽车与智能交通",
+      "occupation_identity_count": 218,
+      "canonical_mapped_count": 14,
+      "unmapped_count": 204,
+      "candidate_family_covered_identity_count": 82,
+      "safe_family_covered_identity_count": 82,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 113,
+      "candidate_multi_member_family_count": 82,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 218,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 218,
+      "industry_distinct_recruitment_record_count": 49,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 242,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 14,
+        "preserve_identity": 204
+      }
+    },
+    {
+      "industry_id": "context:l1:农业食品与消费产业",
+      "industry_label": "农业食品与消费产业",
+      "occupation_identity_count": 194,
+      "canonical_mapped_count": 5,
+      "unmapped_count": 189,
+      "candidate_family_covered_identity_count": 37,
+      "safe_family_covered_identity_count": 37,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 134,
+      "candidate_multi_member_family_count": 37,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 194,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 194,
+      "industry_distinct_recruitment_record_count": 48,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 212,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 5,
+        "preserve_identity": 189
+      }
+    },
+    {
+      "industry_id": "context:l1:生物医药与生命科学",
+      "industry_label": "生物医药与生命科学",
+      "occupation_identity_count": 180,
+      "canonical_mapped_count": 8,
+      "unmapped_count": 172,
+      "candidate_family_covered_identity_count": 31,
+      "safe_family_covered_identity_count": 31,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 119,
+      "candidate_multi_member_family_count": 31,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 180,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 180,
+      "industry_distinct_recruitment_record_count": 43,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 191,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 8,
+        "preserve_identity": 172
+      }
+    },
+    {
+      "industry_id": "context:l1:医疗健康与医疗器械",
+      "industry_label": "医疗健康与医疗器械",
+      "occupation_identity_count": 168,
+      "canonical_mapped_count": 14,
+      "unmapped_count": 154,
+      "candidate_family_covered_identity_count": 34,
+      "safe_family_covered_identity_count": 34,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 109,
+      "candidate_multi_member_family_count": 34,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 168,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 168,
+      "industry_distinct_recruitment_record_count": 35,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 174,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 14,
+        "preserve_identity": 154
+      }
+    },
+    {
+      "industry_id": "context:l1:公共管理与社会服务",
+      "industry_label": "公共管理与社会服务",
+      "occupation_identity_count": 45,
+      "canonical_mapped_count": 1,
+      "unmapped_count": 44,
+      "candidate_family_covered_identity_count": 6,
+      "safe_family_covered_identity_count": 6,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 34,
+      "candidate_multi_member_family_count": 6,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 45,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 45,
+      "industry_distinct_recruitment_record_count": 31,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 47,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 1,
+        "preserve_identity": 44
+      }
+    },
+    {
+      "industry_id": "context:l1:航空航天与低空经济",
+      "industry_label": "航空航天与低空经济",
+      "occupation_identity_count": 127,
+      "canonical_mapped_count": 10,
+      "unmapped_count": 117,
+      "candidate_family_covered_identity_count": 45,
+      "safe_family_covered_identity_count": 45,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 75,
+      "candidate_multi_member_family_count": 45,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 127,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 127,
+      "industry_distinct_recruitment_record_count": 25,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 129,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 10,
+        "preserve_identity": 117
+      }
+    },
+    {
+      "industry_id": "context:l1:环境生态与资源",
+      "industry_label": "环境生态与资源",
+      "occupation_identity_count": 25,
+      "canonical_mapped_count": 1,
+      "unmapped_count": 24,
+      "candidate_family_covered_identity_count": 8,
+      "safe_family_covered_identity_count": 8,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 12,
+      "candidate_multi_member_family_count": 8,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 25,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 25,
+      "industry_distinct_recruitment_record_count": 11,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 25,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 1,
+        "preserve_identity": 24
+      }
+    }
+  ],
+  "finance_case": {
+    "industry": "金融与金融科技",
+    "summary": {
+      "industry_id": "context:l1:金融与金融科技",
+      "industry_label": "金融与金融科技",
+      "occupation_identity_count": 1402,
+      "canonical_mapped_count": 40,
+      "unmapped_count": 1362,
+      "candidate_family_covered_identity_count": 220,
+      "safe_family_covered_identity_count": 220,
+      "review_required_family_covered_identity_count": 0,
+      "identity_singleton_job_group_count": 1145,
+      "candidate_multi_member_family_count": 220,
+      "safe_multi_identity_family_count": 0,
+      "exact_normalized_multi_identity_relation_count": 0,
+      "display_group_count_conservative": 1402,
+      "display_group_reduction_conservative": 0,
+      "unresolved_identity_count": 1402,
+      "industry_distinct_recruitment_record_count": 686,
+      "sum_of_occupation_node_demand_not_deduplicated_across_nodes": 2399,
+      "recruitment_evidence_coverage": "all current occupation identities retain their distinct_recruitment_record_count",
+      "grouping_bases": {
+        "canonical_identity": 40,
+        "preserve_identity": 1362
+      }
+    },
+    "requested_titles": [
+      {
+        "requested_label": "客户经理",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-69d485da0b81",
+            "normalized_titles": [
+              "客户主管(校招)",
+              "客户经理"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [
+              "OCF-a710573eb3efd108"
+            ],
+            "safe_family_ids": [
+              "OCF-a710573eb3efd108"
+            ],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 32,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-0a430f8c21fe35bb",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-498e2c8c94118939",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-4cb61ace1a4998f9",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-5c2b22dab265a49b",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-6ac667674719b9d3",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 32
+              },
+              {
+                "job_group_id": "JG2-8a3400342a1cbb99",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 7
+              },
+              {
+                "job_group_id": "JG2-8fd64812561ba2be",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-cf9c9683caa4d298",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 3
+              },
+              {
+                "job_group_id": "JG2-de53c4b493a0f799",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户主管(校招)",
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 7
+              },
+              {
+                "job_group_id": "JG2-df379eef8f8c0ebf",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-edbbb9db0b9e5f01",
+                "representative_title": "客户经理",
+                "normalized_titles": [
+                  "客户经理"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "requested_label": "客户经理岗",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-2367b8b46817",
+            "normalized_titles": [
+              "客户经理岗",
+              "客户经理岗位"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [
+              "OCF-3947180d850c0dac"
+            ],
+            "safe_family_ids": [
+              "OCF-3947180d850c0dac"
+            ],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 24,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-1a41d9a1cb4333b4",
+                "representative_title": "客户经理岗",
+                "normalized_titles": [
+                  "客户经理岗"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-7ab3416f40350828",
+                "representative_title": "客户经理岗",
+                "normalized_titles": [
+                  "客户经理岗"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-c9c0ad50915f6a42",
+                "representative_title": "客户经理岗",
+                "normalized_titles": [
+                  "客户经理岗",
+                  "客户经理岗位"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 24
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "requested_label": "客户经理类",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-75d070b6e69a",
+            "normalized_titles": [
+              "客户经理类"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [],
+            "safe_family_ids": [],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 29,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-f9ba2c4fd86ab926",
+                "representative_title": "客户经理类",
+                "normalized_titles": [
+                  "客户经理类"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 29
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "requested_label": "管理培训生",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-6e161a59e050",
+            "normalized_titles": [
+              "管理培训生"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [],
+            "safe_family_ids": [],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 65,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-0a0b0eba57647db4",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 2
+              },
+              {
+                "job_group_id": "JG2-0f53d5a54f319f51",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-15aecd8e6d673f8f",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-2e17aa29ff48aeba",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-2e84692083aa8c6e",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-3a8fc075ee8711c2",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-5d43620e23ae104d",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-5df3ec8d0f62ba6a",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 65
+              },
+              {
+                "job_group_id": "JG2-63dd3da702198a9b",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 2
+              },
+              {
+                "job_group_id": "JG2-71b4a9a81ec6e382",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 2
+              },
+              {
+                "job_group_id": "JG2-a00ecd9a1cfe3790",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 2
+              },
+              {
+                "job_group_id": "JG2-adc624e77929fcd4",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-aef055c0d85a5a58",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-c174caf08f02851f",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-c7ac4acab21ec83d",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-ca0737156c2b7b6b",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-d9117d85d0372ed6",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-e51f64c323e53331",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-e5381d65d6bca587",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-ee02994f376a3c7d",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-f99e9aa6c0f43a34",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-fe9794e136098024",
+                "representative_title": "管理培训生",
+                "normalized_titles": [
+                  "管理培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "requested_label": "公司业务培训生",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-652858b19310",
+            "normalized_titles": [
+              "公司业务培训生"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [],
+            "safe_family_ids": [],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 12,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-99ad2848dbdc01a6",
+                "representative_title": "公司业务培训生",
+                "normalized_titles": [
+                  "公司业务培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "requested_label": "星辰管培生",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-2a224e0f3691",
+            "normalized_titles": [
+              "星辰管培生"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [],
+            "safe_family_ids": [],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 18,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-8ec3397842086d8b",
+                "representative_title": "星辰管培生",
+                "normalized_titles": [
+                  "星辰管培生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 18
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "requested_label": "运营培训生",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-f395c10af2a5",
+            "normalized_titles": [
+              "运营培训生"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [],
+            "safe_family_ids": [],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 17,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-47a48318614a990b",
+                "representative_title": "运营培训生",
+                "normalized_titles": [
+                  "运营培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 17
+              },
+              {
+                "job_group_id": "JG2-82c9ec9387eb88df",
+                "representative_title": "运营培训生",
+                "normalized_titles": [
+                  "运营培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-880e079d225acb6d",
+                "representative_title": "运营培训生",
+                "normalized_titles": [
+                  "运营培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 2
+              },
+              {
+                "job_group_id": "JG2-a08dc1fa3696458c",
+                "representative_title": "运营培训生",
+                "normalized_titles": [
+                  "运营培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-e3c7cad43d6fdfbe",
+                "representative_title": "运营培训生",
+                "normalized_titles": [
+                  "运营培训生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "requested_label": "定向培养生",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-f14628227021",
+            "normalized_titles": [
+              "定向培养生"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [],
+            "safe_family_ids": [],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 15,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-baa613f8119eb08d",
+                "representative_title": "定向培养生",
+                "normalized_titles": [
+                  "定向培养生"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "requested_label": "数字金融岗",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-f47a517588ae",
+            "normalized_titles": [
+              "数字金融岗"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [],
+            "safe_family_ids": [],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 21,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-3173f8ac038e59a2",
+                "representative_title": "数字金融岗",
+                "normalized_titles": [
+                  "数字金融岗"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "NOT_APPLIED",
+                "source_recruitment_record_count": 21
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "requested_label": "信息技术岗",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-133938a14c20",
+            "normalized_titles": [
+              "信息技术岗",
+              "信息技术岗位"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [
+              "OCF-9d663e54082d034d"
+            ],
+            "safe_family_ids": [
+              "OCF-9d663e54082d034d"
+            ],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 13,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-0512b9b48f63fc42",
+                "representative_title": "信息技术岗",
+                "normalized_titles": [
+                  "信息技术岗"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 3
+              },
+              {
+                "job_group_id": "JG2-332fda0961183137",
+                "representative_title": "信息技术岗",
+                "normalized_titles": [
+                  "信息技术岗"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-45019987ffaf83d0",
+                "representative_title": "信息技术岗",
+                "normalized_titles": [
+                  "信息技术岗",
+                  "信息技术岗位"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 5
+              },
+              {
+                "job_group_id": "JG2-577ec6c550ffdfb1",
+                "representative_title": "信息技术岗",
+                "normalized_titles": [
+                  "信息技术岗"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 13
+              },
+              {
+                "job_group_id": "JG2-f56dc9785871de00",
+                "representative_title": "信息技术岗",
+                "normalized_titles": [
+                  "信息技术岗"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "requested_label": "法律合规岗",
+        "found": true,
+        "matches": [
+          {
+            "occupation_identity": "candidate-02a3e30000ac",
+            "normalized_titles": [
+              "法律合规岗"
+            ],
+            "canonical_occupation_id": null,
+            "identity_type": "unmapped",
+            "candidate_family_ids": [
+              "OCF-264845b50cdf89a8"
+            ],
+            "safe_family_ids": [
+              "OCF-264845b50cdf89a8"
+            ],
+            "review_required_family_ids": [],
+            "recruitment_evidence_count": 12,
+            "v2_job_groups": [
+              {
+                "job_group_id": "JG2-860ee03a856f4c9f",
+                "representative_title": "法律合规岗",
+                "normalized_titles": [
+                  "法律合规岗"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 1
+              },
+              {
+                "job_group_id": "JG2-8ede7ac973043005",
+                "representative_title": "法律合规岗",
+                "normalized_titles": [
+                  "法律合规岗"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 2
+              },
+              {
+                "job_group_id": "JG2-dc7ea0e6e7d04a12",
+                "representative_title": "法律合规岗",
+                "normalized_titles": [
+                  "法律合规岗"
+                ],
+                "canonical_occupation_id": null,
+                "merge_audit_status": "SAFE",
+                "source_recruitment_record_count": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "trainee_title_limitation": "The frozen artifacts contain titles, normalized titles, mappings, candidate-family links, and recruitment lineage, but no reliable program/graduate/trainee semantic field. They therefore do not support automatically classifying these titles as recruitment projects or merging them."
+  },
+  "recommendation": {
+    "recommend_occupation_group_layer": false,
+    "reason": "The conservative precedence produces only the measured SAFE/exact-normalized reductions. It does not provide a reliable, broadly applicable semantic family layer across the 17 Industries. Adding a named family navigation layer would imply unsupported taxonomy for the remaining identities.",
+    "safe_alternative": "Keep Industry → ranked occupation identities, surface canonical mapped identities first, retain search and deterministic pagination, and add a non-merging secondary exploration affordance only for explicitly SAFE multi-identity families when an Industry has them. Keep all unresolved identities reachable.",
+    "finance_57_page_interpretation": "Finance has 1402 current identities. Conservative safe grouping yields 1402 display groups (reduction 0); 1402 identities still require direct access. Pagination pressure is therefore a display-density issue, not evidence for creating a general occupation taxonomy."
+  },
+  "api_calls": 0,
+  "llm_calls": 0,
+  "skill_inference_executed": false
+}

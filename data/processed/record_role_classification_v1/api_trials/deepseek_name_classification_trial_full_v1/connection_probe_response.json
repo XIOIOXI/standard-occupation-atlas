@@ -1,0 +1,35 @@
+{
+  "connection_valid": true,
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "5e1f961f-3472-4c01-922d-2edbf7e7731e",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750122,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 45,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 45,
+    "output_tokens": 5,
+    "reasoning_tokens": 0,
+    "total_tokens": 50
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 9.75e-06
+  },
+  "parsed_output": {
+    "status": "ok"
+  },
+  "observed_at_utc": "2026-10-11T20:22:02.905247+00:00"
+}

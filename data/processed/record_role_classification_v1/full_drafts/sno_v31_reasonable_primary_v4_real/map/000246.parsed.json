@@ -1,0 +1,282 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-cc3c2bb055ed9fbe3e9b",
+      "status": "mapped",
+      "target_category_id": "L13-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-03",
+        "L13-01",
+        "L13-09"
+      ],
+      "title_evidence": "渠道客户业务专员",
+      "level_3_evidence": null,
+      "reason": "标题含“渠道”，指向渠道销售与经销管理，归 L13-03。"
+    },
+    {
+      "occupation_id": "TG-5c4a487d96c048cd910c",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L05-01"
+      ],
+      "title_evidence": "软硬件开发",
+      "level_3_evidence": null,
+      "reason": "标题同时包含软件与硬件开发，跨 L01 与 L05 两个一级职能，无法唯一归属。"
+    },
+    {
+      "occupation_id": "TG-c5f82e71acbfd7f43510",
+      "status": "mapped",
+      "target_category_id": "L27-08-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L27-08-03",
+        "L27-08"
+      ],
+      "title_evidence": "乌鲁木齐车务段车务运转操作技能岗位",
+      "level_3_evidence": "轨道驾驶与专业操作",
+      "reason": "车务段车务运转操作技能岗位属于轨道专业运行操作，归 L27-08-03。"
+    },
+    {
+      "occupation_id": "TG-d3648d80b02a0e7cff16",
+      "status": "mapped",
+      "target_category_id": "L22-02-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L22-02-03",
+        "L22-02"
+      ],
+      "title_evidence": "初中道德与法治教师",
+      "level_3_evidence": "人文与社会学科教学",
+      "reason": "道德与法治属于人文与社会学科，归 L22-02-03。"
+    },
+    {
+      "occupation_id": "TG-4d42e2772c1eb50fdfe7",
+      "status": "mapped",
+      "target_category_id": "L09-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-01"
+      ],
+      "title_evidence": "品牌设计",
+      "level_3_evidence": null,
+      "reason": "品牌设计属于视觉与品牌设计，归 L09-01。"
+    },
+    {
+      "occupation_id": "TG-0f9ceda8f71a945e1e5d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L26-04-02",
+        "L06-07-01"
+      ],
+      "title_evidence": "动物手术工程师",
+      "level_3_evidence": null,
+      "reason": "动物手术工程师可能为生产动物诊疗或生物技术研发，方向不明确，需人工复核。"
+    },
+    {
+      "occupation_id": "TG-58552dbbeaa510f41301",
+      "status": "mapped",
+      "target_category_id": "L20-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-01-02",
+        "L20-01"
+      ],
+      "title_evidence": "投资规划岗",
+      "level_3_evidence": "项目与股权投资研究",
+      "reason": "投资规划岗核心为项目与股权投资研究，归 L20-01-02。"
+    },
+    {
+      "occupation_id": "TG-c5992ef325a5af4fc7a7",
+      "status": "mapped",
+      "target_category_id": "L24-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-02"
+      ],
+      "title_evidence": "结构图纸设计工程师",
+      "level_3_evidence": null,
+      "reason": "结构图纸设计属于土木结构与岩土工程，归 L24-02。"
+    },
+    {
+      "occupation_id": "TG-52d65ce1e81ef2bef304",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-05"
+      ],
+      "title_evidence": "AI4s算法工程师",
+      "level_3_evidence": null,
+      "reason": "AI4s算法工程师从事机器学习与算法研发，方向未细分，归 L02-05。"
+    },
+    {
+      "occupation_id": "TG-839a43407d7388ca1d50",
+      "status": "mapped",
+      "target_category_id": "L14-09-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L14-09-01",
+        "L14-09"
+      ],
+      "title_evidence": "政企解决方案经理",
+      "level_3_evidence": "解决方案设计",
+      "reason": "政企解决方案经理核心为解决方案设计，归 L14-09-01。"
+    },
+    {
+      "occupation_id": "TG-6b96aab727f2f5b1b6b9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-09-01",
+        "L02-05-01"
+      ],
+      "title_evidence": "解译方案工程师",
+      "level_3_evidence": null,
+      "reason": "解译方案工程师可能为售前解决方案或遥感图像解译算法，方向不明确，需人工复核。"
+    },
+    {
+      "occupation_id": "TG-9b2f1ddd17d7be61567d",
+      "status": "mapped",
+      "target_category_id": "L15-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L15-11"
+      ],
+      "title_evidence": "翻译管培生",
+      "level_3_evidence": null,
+      "reason": "翻译管培生已明确翻译职能，归 L15-11，管培生作为培养标签。"
+    },
+    {
+      "occupation_id": "TG-2adbf6175736dd980451",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-03"
+      ],
+      "title_evidence": "高级TK直播运营",
+      "level_3_evidence": null,
+      "reason": "TK直播运营属于内容与新媒体运营，归 L14-03。"
+    },
+    {
+      "occupation_id": "TG-4b0b638f362747769e2f",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L05-01-01",
+        "L05-02-01",
+        "L06-01-02"
+      ],
+      "title_evidence": "硬件开发工程师(电路设计、FPGA开发、结构设计)",
+      "level_3_evidence": null,
+      "reason": "标题同时包含电路设计、FPGA开发、结构设计，跨电子硬件、芯片设计、机械结构多个方向，无法唯一归属。"
+    },
+    {
+      "occupation_id": "TG-75af6dfcb70f894aedf2",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-03-02",
+        "L25-05-01"
+      ],
+      "title_evidence": "智慧水利岗",
+      "level_3_evidence": null,
+      "reason": "智慧水利岗可能为水利工程建设或水污染治理，方向不明确，需人工复核。"
+    },
+    {
+      "occupation_id": "TG-87f3f030d1e2a9862c30",
+      "status": "mapped",
+      "target_category_id": "L01-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-02-01",
+        "L01-02"
+      ],
+      "title_evidence": "助理JAVA后端工程师",
+      "level_3_evidence": "业务服务开发",
+      "reason": "JAVA后端工程师从事业务服务开发，归 L01-02-01。"
+    },
+    {
+      "occupation_id": "TG-08c8278323f4731dac23",
+      "status": "mapped",
+      "target_category_id": "L09-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-01"
+      ],
+      "title_evidence": "品牌设计师",
+      "level_3_evidence": null,
+      "reason": "品牌设计师属于视觉与品牌设计，归 L09-01。"
+    },
+    {
+      "occupation_id": "TG-1f45fd778a1c2fee3330",
+      "status": "mapped",
+      "target_category_id": "L03-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L03-05-01",
+        "L03-05"
+      ],
+      "title_evidence": "安全研究工程师",
+      "level_3_evidence": "安全攻防与漏洞研究",
+      "reason": "安全研究工程师通常从事安全攻防与漏洞研究，归 L03-05-01。"
+    },
+    {
+      "occupation_id": "TG-f63e986adecdc9545263",
+      "status": "mapped",
+      "target_category_id": "L30-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L30-04-01",
+        "L30-04"
+      ],
+      "title_evidence": "知识产权顾问（生物药IP方向......",
+      "level_3_evidence": "专利事务",
+      "reason": "生物药IP方向知识产权顾问核心为专利事务，归 L30-04-01。"
+    },
+    {
+      "occupation_id": "TG-cdb0d4531e2476de9093",
+      "status": "mapped",
+      "target_category_id": "L22-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L22-02-02",
+        "L22-02"
+      ],
+      "title_evidence": "小学奥数教师",
+      "level_3_evidence": "数学与自然科学教学",
+      "reason": "奥数属于数学教学，归 L22-02-02。"
+    }
+  ],
+  "raw_response_file": "000246.raw.json",
+  "usage": {
+    "input_tokens": 17371,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 859,
+    "output_tokens": 2484,
+    "reasoning_tokens": 0,
+    "total_tokens": 19855
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0033375719999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

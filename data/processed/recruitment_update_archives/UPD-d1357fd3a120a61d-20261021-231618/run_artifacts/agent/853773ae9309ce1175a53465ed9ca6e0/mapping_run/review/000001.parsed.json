@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-853773ae9309ce1175a53465ed9ca6e0",
+      "verdict": "pass",
+      "suggested_target_category_id": "L04-03",
+      "issue": "品质助理工程师属制造业生产质量管理，映射L04-03合理；未细分三级亦恰当。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17023,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 511,
+    "output_tokens": 75,
+    "reasoning_tokens": 0,
+    "total_tokens": 17098
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00034237199999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

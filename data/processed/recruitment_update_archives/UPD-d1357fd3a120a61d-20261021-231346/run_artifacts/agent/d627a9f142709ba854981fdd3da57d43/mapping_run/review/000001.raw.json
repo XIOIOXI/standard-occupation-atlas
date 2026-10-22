@@ -1,0 +1,28 @@
+{
+  "id": "2a7db05b-3dea-451d-868f-23c961c0c7c4",
+  "object": "chat.completion",
+  "created": 1792571493,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-d627a9f142709ba854981fdd3da57d43\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"计划合同部业务员岗职责方向不明确，可能涉及工程招采商务、商务合同支持或项目计划合同统筹，现有review状态与候选类别合理，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17065,
+    "completion_tokens": 97,
+    "total_tokens": 17162,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 553
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

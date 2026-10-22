@@ -1,0 +1,28 @@
+{
+  "id": "fd1dd56a-c2b1-466d-8611-ae574eaca13d",
+  "object": "chat.completion",
+  "created": 1791880777,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-d2a2b10040f6ddc041f9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"台区经理职责方向不明确，review合理。\"},{\"occupation_id\":\"TG-a14e5641050e7f58cc68\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"竞赛教练/清北教师未明确学科，停在L22-02合理。\"},{\"occupation_id\":\"TG-1d3cce5452a462136335\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"航空部件失效分析助理研究实习员归L07-03合理。\"},{\"occupation_id\":\"TG-f33176e56e668bcf6a05\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"全栈研发工程师归L01-03合理。\"},{\"occupation_id\":\"TG-473d2042b0a34c35e8bb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"零售专员职责方向不明确，review合理。\"},{\"occupation_id\":\"TG-41329764c645c65cffa5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"跨境电商运营助理停在L14-04合理。\"},{\"occupation_id\":\"TG-1905373a2ae6df1a1bb1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"规划设计师领域不明确，review合理。\"},{\"occupation_id\":\"TG-c1c327c7595f68d3dd19\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"IT资产管理岗归L03-07合理。\"},{\"occupation_id\":\"TG-aa848b0f89e8de94275c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"商品管理员职责方向不明确，review合理。\"},{\"occupation_id\":\"TG-55132869d3772eacc763\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量/工艺/采购工程师为多职能，multi_role合理。\"},{\"occupation_id\":\"TG-caed572e6d633a1968f7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产&质量岗为多职能，multi_role合理。\"},{\"occupation_id\":\"TG-672a026f6d02669a303a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"附件开发岗领域不明确，review合理。\"},{\"occupation_id\":\"TG-3c8b53e957ea3839dd4a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"网络运维岗归L03-03合理。\"},{\"occupation_id\":\"TG-f2ac889f86792f5207db\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品营销类岗职能方向不明确，review合理。\"},{\"occupation_id\":\"TG-11bb6d4d587dde12a387\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数学思维老师归L22-02-02合理。\"},{\"occupation_id\":\"TG-edaf67379d9fe6d77f4d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"BIM正向设计归L24-01-01合理。\"},{\"occupation_id\":\"TG-69d9b98da526fd1bb597\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"自动化控制工程师归L05-04合理。\"},{\"occupation_id\":\"TG-d2e7d24d66a89f91c081\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"柜员/金融客户经理为多职能，multi_role合理。\"},{\"occupation_id\":\"TG-749fff22a3023e0f0ddb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"供应链技术工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-cb40e1ff4dbb790477d1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"建筑设计工程师归L24-01-01合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19468,
+    "completion_tokens": 950,
+    "total_tokens": 20418,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2956
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

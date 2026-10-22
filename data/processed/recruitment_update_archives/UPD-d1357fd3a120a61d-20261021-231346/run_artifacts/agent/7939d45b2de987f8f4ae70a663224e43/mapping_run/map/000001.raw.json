@@ -1,0 +1,28 @@
+{
+  "id": "85fa6415-9285-48b8-9b36-add465edb57f",
+  "object": "chat.completion",
+  "created": 1792571253,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-7939d45b2de987f8f4ae70a663224e43\",\"status\":\"mapped\",\"target_category_id\":\"L24-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L24-04\",\"L10-06\",\"L23-09-01\"],\"title_evidence\":\"标题为“机电安装项目工程师”，核心为机电安装（建筑机电与设备工程）并含项目执行\",\"level_3_evidence\":null,\"reason\":\"机电安装属于建筑机电与设备工程范畴，标题明确指向机电安装工程，归L24-04；项目属性为附加，不改变专业方向。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16948,
+    "completion_tokens": 148,
+    "total_tokens": 17096,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 308
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

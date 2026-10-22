@@ -1,0 +1,28 @@
+{
+  "id": "7b891360-61b2-44b6-8831-7fdbf3020393",
+  "object": "chat.completion",
+  "created": 1792571278,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-0a01597255761409a8353df57afc494c\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“综合营销岗”客户类型与职责证据不足，review 状态及候选 L13-02/L13-09/L14-11 合理，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17055,
+    "completion_tokens": 94,
+    "total_tokens": 17149,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 543
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,40 @@
+{
+  "p1_reviewed_count": 107,
+  "cache_reused": true,
+  "identity_decision_counts": {
+    "proposed_new_occupation": 34,
+    "too_generic": 29,
+    "pending_identity_review": 34,
+    "alias_of_existing": 8,
+    "merge_with_candidate": 2
+  },
+  "placement_status_counts": {
+    "placement_review_required": 33,
+    "context_dependent": 63,
+    "cross_industry": 3,
+    "single_domain": 8
+  },
+  "confidence_counts": {
+    "medium": 36,
+    "high": 37,
+    "low": 34
+  },
+  "proposed_new_occupation_count": 34,
+  "alias_count": 8,
+  "pending_identity_count": 34,
+  "cross_industry_count": 3,
+  "management_trainee_modifier_cases": 0,
+  "invalid_taxonomy_references": 0,
+  "duplicate_or_near_duplicate_proposed_titles": [],
+  "semantic_review_version": "semantic-review-v2",
+  "prompt_version": "semantic-candidate-review-prompt-v2",
+  "model": "gpt-5 (Codex runtime)",
+  "validation": {
+    "unique_family_ids": true,
+    "p0_executed": false,
+    "p2_p3_executed": false,
+    "v1_overwritten": false,
+    "p0_v2_overwritten": false,
+    "reference_taxonomy_modified": false
+  }
+}

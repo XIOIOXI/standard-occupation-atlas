@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 144,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "65035325-49ed-4d0c-8b5f-f64e077b189b",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751529,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25035,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1739,
+    "output_tokens": 3488,
+    "reasoning_tokens": 0,
+    "total_tokens": 28523
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0024235379999999994
+  },
+  "observed_at_utc": "2026-10-11T20:45:29.525097+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-281daff7440667c08c38",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "液晶材料研发属于化工材料工艺研发，归入化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-9c44d44492da1e3076e9",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "status": "mapped",
+      "reason": "内核驱动开发属于系统与底层开发，归入C++系统与底层开发。"
+    },
+    {
+      "occupation_id": "SNO-27c20f82f604309fc07f",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "IT研发过于宽泛，缺少具体技术栈或方向，无法确定三级类别。"
+    },
+    {
+      "occupation_id": "SNO-afd63922a64a713253fc",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": "材料试验装备国际贸易出口属于进出口业务与客户开发。"
+    },
+    {
+      "occupation_id": "SNO-89cb05295f381bef1ad0",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "图像算法人像感知方向属于计算机视觉与三维感知。"
+    },
+    {
+      "occupation_id": "SNO-557220d51ffbe1544716",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "技术员名称过于通用，缺少行业或技术方向，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-fe6e9673d8993ad95720",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "飞机维修工程师属于设备维修与安装类技工。"
+    },
+    {
+      "occupation_id": "SNO-9477c2d686cf5860788a",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "等离子研发工程师属于化工工艺与生产研发。"
+    },
+    {
+      "occupation_id": "SNO-ac843d5f22051fe55170",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出活动策划执行、平面设计师、新媒体运营三个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-03e4b5b683cff87d80ee",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "测绘属于地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-a85dd38e32daab0827bd",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "热控技术员属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-2146f192c0eb3d36bda8",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称包含AI内容创作者和营销管培生两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-8c7b82a312ad96a8559c",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "Web服务端开发属于业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-41bb7ebc22ea20f5fbca",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-operations",
+      "status": "mapped",
+      "reason": "外贸全流程管培生属于进出口业务与单证。"
+    },
+    {
+      "occupation_id": "SNO-b5711b877eca79a4843e",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "Android应用/系统开发属于移动端与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-ea4e70c607953b208c27",
+      "target_category_id": "房地产/建筑/estate-property/property-mgmt-facility",
+      "status": "mapped",
+      "reason": "商业物业属于商办设施与工程管理。"
+    },
+    {
+      "occupation_id": "SNO-de2b6eab7752699b125d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "原子物理科学家属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-af3b0867af2865595612",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "模路工程师名称不明确，缺少具体职责或技术方向。"
+    },
+    {
+      "occupation_id": "SNO-bad9f27eac4f190fa3e5",
+      "target_category_id": "房地产/建筑/estate-decoration/decoration-construction",
+      "status": "mapped",
+      "reason": "深化设计工程师属于装修施工与深化。"
+    },
+    {
+      "occupation_id": "SNO-29561adbb8f6ae8e8302",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "全球技术研发中心培训生缺少具体技术方向，无法确定三级类别。"
+    },
+    {
+      "occupation_id": "SNO-c978a93f88ea9c0d6501",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出文旅讲师、导游、摄影师三个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-2a5e1dc07dfb0004706c",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "制种技术员属于农作物与农业技术。"
+    },
+    {
+      "occupation_id": "SNO-d655f72f7285cf8cd352",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "功率电子硬件开发属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-037a57f441afc0627b6d",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "科技预测与规划属于市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-10a105b6859966522d4b",
+      "target_category_id": "教育培训/edu-tutor/tutoring-subject",
+      "status": "mapped",
+      "reason": "自习室教师数学英语属于学科辅导。"
+    },
+    {
+      "occupation_id": "SNO-5785e3230a351ef62643",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-design",
+      "status": "mapped",
+      "reason": "城市更新项目策划助理顾问属于城市设计与更新。"
+    },
+    {
+      "occupation_id": "SNO-1fa6036287d7381c6ebd",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "SLAM导航算法属于机器人与具身智能。"
+    },
+    {
+      "occupation_id": "SNO-0dc8344b015483ae2555",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "人工智能战略规划属于管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-9ca7b08bf791c51179ea",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "市场应用工程师属于售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-68565b76e0f1ad374fce",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "涂装设计工程师属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-907b540cc2ddf8756de4",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "数学教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-39fb7e2a30976543cec2",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "FOF研究员属于股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-035f6d1cb35f750bd7d2",
+      "target_category_id": "影视/传媒/media-publishing/publish-editing",
+      "status": "mapped",
+      "reason": "媒资管理属于图书与出版编辑。"
+    },
+    {
+      "occupation_id": "SNO-8a971fbe3160dd3117ca",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分行业务培训生属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-61d88a11bc6009d78e09",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "总师办职员属于文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-432715237d1cbafb6f1e",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "工程项目属于施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-10e020feedd19efc6f7b",
+      "target_category_id": "能源/环保/农业/energy-aquaculture/aquaculture-livestock",
+      "status": "mapped",
+      "reason": "放养经理属于畜禽养殖技术。"
+    },
+    {
+      "occupation_id": "SNO-175835b1df9f0549a413",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机械工程师属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-06d93b842e31cb800c22",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气类工程师属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-01f195b49b6974940ad0",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "机器人运动控制工程师属于机器人与具身智能。"
+    },
+    {
+      "occupation_id": "SNO-c1d68bf847855c85da80",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "设计管培生缺少具体设计方向，无法确定三级类别。"
+    },
+    {
+      "occupation_id": "SNO-ad69acb350792053a2e3",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "语言类国际管培生缺少具体语种或职能方向。"
+    },
+    {
+      "occupation_id": "SNO-72db9f8d889a9c2fa83e",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-product",
+      "status": "mapped",
+      "reason": "产品数据经理属于产品与用户分析。"
+    },
+    {
+      "occupation_id": "SNO-f321b1518117ac9aba89",
+      "target_category_id": "生产制造/manufacturing-food-rd/food-rd-product",
+      "status": "mapped",
+      "reason": "酒体设计师属于食品配方与产品研发。"
+    },
+    {
+      "occupation_id": "SNO-da517d1809dcb4336ceb",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-web",
+      "status": "mapped",
+      "reason": "助理前端工程师属于Web与前端开发。"
+    },
+    {
+      "occupation_id": "SNO-96d890047d86358d7739",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "动力总成研发工程师属于整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-eba0729b6d90e060c720",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "营销推动与支持属于销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-219071a60de6abae0812",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出研发与产品创新、营销、质量管控、制造与精益工程多个方向。"
+    },
+    {
+      "occupation_id": "SNO-c49ee5c8dcbc443a03a7",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "工艺助理工程师属于生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-9f35c448cef3a2be50ec",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "设计文创属于品牌与视觉设计。"
+    }
+  ]
+}

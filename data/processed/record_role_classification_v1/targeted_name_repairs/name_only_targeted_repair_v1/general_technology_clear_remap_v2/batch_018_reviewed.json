@@ -1,0 +1,45 @@
+{
+  "batch_number": 18,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 3,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 25456,
+    "cached_input_tokens": 25088,
+    "uncached_input_tokens": 368,
+    "output_tokens": 161,
+    "reasoning_tokens": 0,
+    "total_tokens": 25617
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000227064
+  },
+  "results": [
+    {
+      "entry_id": "SNO-fdc839f6e1dd34a9fea2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“系统工程”为宽泛职业领域称谓，无法明确对应唯一三级或二级方向。"
+    },
+    {
+      "entry_id": "SNO-fe01c2b93215181ca705",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发设计工程师1”含泛词且带编号，无法明确职业领域或细分方向。"
+    },
+    {
+      "entry_id": "SNO-ff84f8c0c5b97c53e22f",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“身开发”名称疑似截断且语义不完整，无法明确对应职业目录。"
+    }
+  ]
+}

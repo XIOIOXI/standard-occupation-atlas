@@ -1,0 +1,28 @@
+{
+  "id": "011505db-21c1-48c7-8952-8fcaa33883fd",
+  "object": "chat.completion",
+  "created": 1791841196,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"SNO-0be57c31642ec3154e4d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"装备设计归机械设备设计 L06-01-03，标题依据充分且符合机械与结构设计范围。\"},{\"occupation_id\":\"SNO-d17a660802c9d8651ff4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电商助理归电商与商品运营 L14-04，符合目录范围，三级方向未明落二级合理。\"},{\"occupation_id\":\"SNO-4a803f432364b68057bb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"博士顾问仅说明学历与顾问身份，领域未明，review 处理合理。\"},{\"occupation_id\":\"SNO-bc077e8d1e74999593b2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"人力资源管培生已明确 HR 职能，归人力资源综合管理 L18-04 合理。\"},{\"occupation_id\":\"SNO-5bff832a759e3e84d71f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生测项目高级研究员归生物技术研发 L06-07-01，符合生物与药物研发范围。\"},{\"occupation_id\":\"SNO-24e993d29bb77eca559b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"APP开发工程师归移动应用开发 L01-04，平台未明落二级合理。\"},{\"occupation_id\":\"SNO-d52cfd6b89bd35fdae0d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"英文讲解员归导游与旅游接待 L27-02，符合旅游接待范围。\"},{\"occupation_id\":\"SNO-3a8466bb6345eb118e95\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"风险管理助理归金融风险与信用评估 L20-07，符合金融风险业务范围。\"},{\"occupation_id\":\"SNO-7defa88513f318213382\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量和工程管培生已明确质量职能，方向未明归通用测试与质量工作 L04-06 合理。\"},{\"occupation_id\":\"SNO-69f020bf34e45416d6ee\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"助理机械结构工程师归产品结构设计 L06-01-02，符合机械与结构设计范围。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 11063,
+    "completion_tokens": 579,
+    "total_tokens": 11642,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "prompt_cache_hit_tokens": 9216,
+    "prompt_cache_miss_tokens": 1847
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

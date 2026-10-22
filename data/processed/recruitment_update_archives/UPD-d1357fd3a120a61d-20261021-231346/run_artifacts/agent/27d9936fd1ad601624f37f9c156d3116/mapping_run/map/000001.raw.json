@@ -1,0 +1,28 @@
+{
+  "id": "d048a88a-6dba-4071-a60a-5ea1f2934547",
+  "object": "chat.completion",
+  "created": 1792571803,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-27d9936fd1ad601624f37f9c156d3116\",\"status\":\"mapped\",\"target_category_id\":\"L12-02\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L12-02\",\"L12-01\",\"L32-01\"],\"title_evidence\":\"品牌管培生：标题明确“品牌”职能方向，属于品牌管理；管培生为培养形式标签，不改变职能归属\",\"level_3_evidence\":null,\"reason\":\"标题已明确品牌职能，按“先职能、后最直接二级”归入品牌管理 L12-02；管培生仅为培养标签，不构成跨职能轮岗证据，故不归 L32。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16979,
+    "completion_tokens": 164,
+    "total_tokens": 17143,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 339
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

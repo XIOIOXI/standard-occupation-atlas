@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 59,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "c9a769ac-6ad9-468f-931a-8d49863fd658",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751034,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25036,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1740,
+    "output_tokens": 3450,
+    "reasoning_tokens": 0,
+    "total_tokens": 28486
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002400888
+  },
+  "observed_at_utc": "2026-10-11T20:37:15.121311+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-e3ad44fce8ad7f0a5265",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "生物药发现属于生物医药研发，归入生物医药研发三级类。"
+    },
+    {
+      "occupation_id": "SNO-2b6c68dcb56575e256cd",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "非常规油气开发属于能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-38bd42f8790d5b632eb6",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "仪器研发工程师核心为硬件电路与仪器设计。"
+    },
+    {
+      "occupation_id": "SNO-962dc720376e8614da29",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "给排水/暖通工程设计师属于建筑机电设计，归入建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-190ec09e26bdd004311e",
+      "target_category_id": "医疗健康/health-nurse/nursing-clinical",
+      "status": "mapped",
+      "reason": "临床护士属于临床护理。"
+    },
+    {
+      "occupation_id": "SNO-5538cd0bd889b2ef117a",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": "国际贸易业务代表核心为国际市场与客户开发。"
+    },
+    {
+      "occupation_id": "SNO-2b979fd2c10399f57387",
+      "target_category_id": "互联网/AI/internet-data-development/data-platform",
+      "status": "mapped",
+      "reason": "AI数据与平台工程师偏向大数据平台与治理。"
+    },
+    {
+      "occupation_id": "SNO-40f904b39165548ad3ef",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "买方投资顾问属于证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-e370f48b830be5652e5d",
+      "target_category_id": "汽车/auto-service/auto-service-maintenance",
+      "status": "mapped",
+      "reason": "汽车服务工程师核心为汽车维修与保养服务。"
+    },
+    {
+      "occupation_id": "SNO-0effd765452753161eb8",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "科学实验教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-10f9fb7802a3f1133398",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-planning",
+      "status": "mapped",
+      "reason": "城乡(市)规划属于国土与城市规划。"
+    },
+    {
+      "occupation_id": "SNO-480476f99876f2266b12",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "产品营销经理助理核心为品牌与市场策略支持。"
+    },
+    {
+      "occupation_id": "SNO-e1ae2d013d5b61f959d3",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "研发储备未说明技术方向，无法确定具体研发类别。"
+    },
+    {
+      "occupation_id": "SNO-9e590128ff47ba128263",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "中控操作属于生产计划与调度控制。"
+    },
+    {
+      "occupation_id": "SNO-2bba3755a2d671b3ad54",
+      "target_category_id": "能源/环保/农业/energy-veterinary/animal-health-production",
+      "status": "mapped",
+      "reason": "畜禽饲料技术服务工程师属于畜牧养殖与生产管理。"
+    },
+    {
+      "occupation_id": "SNO-ac09f53ea0b33f20cf3e",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "管理培训生同时包含通用方向与法律合规方向，属于复合岗位。"
+    },
+    {
+      "occupation_id": "SNO-e0e69d71d75a198d3ab8",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": "宣传文化管理核心为品牌公关与传播。"
+    },
+    {
+      "occupation_id": "SNO-957f859673d83b360266",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "智网工程师属于通信网络建设与维护。"
+    },
+    {
+      "occupation_id": "SNO-4bdaf76cb6aa81a6a854",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "专业研究未说明研究领域，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-ef600aa6f736cf26babe",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "技术方案岗位核心为售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-2a39dd452a9158f3446b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "设备管培生未说明设备类型与方向，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-605bebc9c78bf59251f4",
+      "target_category_id": "运营/客服/ops-seo/search-sem",
+      "status": "mapped",
+      "reason": "海外投放优化师属于搜索营销与投放。"
+    },
+    {
+      "occupation_id": "SNO-f2bdb95847142077a4e4",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "消费者管理培训生未说明具体职能方向，无法确定类别。"
+    },
+    {
+      "occupation_id": "SNO-0e7564e5602af16b8f4e",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "PMC工程师核心为生产计划与物料控制。"
+    },
+    {
+      "occupation_id": "SNO-113b1a7abc5615249c8b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "业务管培生未说明具体业务方向，无法确定类别。"
+    },
+    {
+      "occupation_id": "SNO-ca0ef88a415460bfd94e",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "芯片后端工程师属于芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-12ff18e3f35bba1cff1e",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "下料成型工艺工程师属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-abdbae67c51333ea333f",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "施工员属于施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-f8ba0312ef8261410bf9",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "道路桥梁养护工程师属于工程现场管理。"
+    },
+    {
+      "occupation_id": "SNO-d4c3c992c5f9a170968c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "产品方案培训生未说明产品领域，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-dffcd1b5b727144227f2",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "造价咨询项目助理属于工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-0003c8e6402b302d3f45",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "私募基金运营属于基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-f7108cf9ec89e89e3c8a",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "产品开发管培生未说明产品领域，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-83f0a133b8130146dab5",
+      "target_category_id": "金融/financial-banking/bank-technology",
+      "status": "mapped",
+      "reason": "信息科技岗(总行审计储备生)属于银行金融科技。"
+    },
+    {
+      "occupation_id": "SNO-102eefdaea19155a8c58",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "TFS工程师缩写含义不明确，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-fd19e37598ad739d99da",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "合成数据工程师属于数据工程与数仓。"
+    },
+    {
+      "occupation_id": "SNO-fe8ca112908ac311e26a",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "status": "mapped",
+      "reason": "造型外饰设计师属于工业产品设计。"
+    },
+    {
+      "occupation_id": "SNO-e7747281885ffe7d7d66",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "资产管理管培生未说明资产类型，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-a89d5a90fb51ccff0cff",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法务风控部法务属于公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-54665adec2c78b483e4a",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "石家庄分行零售业务培训生属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-d6f93b27af11dc1b155f",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "2026实习生未说明实习方向，无法确定类别。"
+    },
+    {
+      "occupation_id": "SNO-19203c7525560fd3c9d2",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-growth",
+      "status": "mapped",
+      "reason": "海外线上推广管培生属于增长与数字营销。"
+    },
+    {
+      "occupation_id": "SNO-5ca47e508b0290673606",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "3D传感算法工程师属于计算机视觉与三维感知。"
+    },
+    {
+      "occupation_id": "SNO-4508e878152e899014cb",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "EDA算法工程师属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-d3d02298dbda950b970c",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "卷烟营销核心为客户开发与销售。"
+    },
+    {
+      "occupation_id": "SNO-677268d4d3e0dd12195e",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "运营岗(会计、金融、经济)属于业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-abdc58c2893bc879fa70",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件开发工程师实习生(AI/ML系统)属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-10069680f69154a0a22d",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "管网设计岗(热力)属于建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-6bc142986796f978fee2",
+      "target_category_id": "教育培训/edu-admin/edu-admin-teaching",
+      "status": "mapped",
+      "reason": "教务专员属于教学事务管理。"
+    },
+    {
+      "occupation_id": "SNO-6887fb1689d801eeb97e",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "地质及油藏评价开发属于地质勘查与测绘。"
+    }
+  ]
+}

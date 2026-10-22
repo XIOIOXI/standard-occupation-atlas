@@ -1,0 +1,28 @@
+{
+  "id": "b8752a43-cef8-44a4-9b5d-9e4f90b43dc7",
+  "object": "chat.completion",
+  "created": 1792571815,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-d09b1c11328ca0ebd573368e1062998e\",\"status\":\"mapped\",\"target_category_id\":\"L12-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L12-04\",\"L12-02\",\"L12-01\"],\"title_evidence\":\"公关管培生：标题明确为公关方向，属公共关系职能；管培生为培养标签，不改变职能归属\",\"level_3_evidence\":null,\"reason\":\"公关对应公关与媒介关系（L12-04），为最直接二级职能；管培生标签不构成跨职能轮岗证据，故不归L32。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16978,
+    "completion_tokens": 150,
+    "total_tokens": 17128,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 338
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

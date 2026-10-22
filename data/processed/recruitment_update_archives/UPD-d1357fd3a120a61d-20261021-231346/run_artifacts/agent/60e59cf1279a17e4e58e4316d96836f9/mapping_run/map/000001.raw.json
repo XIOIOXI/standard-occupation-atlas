@@ -1,0 +1,28 @@
+{
+  "id": "074eb6ca-b47b-4027-b71a-b86fc150f153",
+  "object": "chat.completion",
+  "created": 1792571418,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-60e59cf1279a17e4e58e4316d96836f9\",\"status\":\"mapped\",\"target_category_id\":\"L06-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L06-08\",\"L23-01\"],\"title_evidence\":\"IE助理工程师：IE（工业工程）指向制造工艺与效率改善，属工艺与制造工程范畴\",\"level_3_evidence\":null,\"reason\":\"IE（工业工程）岗位核心为制造流程、工艺与效率改善，归入工艺与制造工程（L06-08）；标题未明确到制程/工业化/工装模具某一三级，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16958,
+    "completion_tokens": 155,
+    "total_tokens": 17113,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 318
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

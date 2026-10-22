@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-979342d4858ee52a811e74b6c4a97a68",
+      "status": "mapped",
+      "target_category_id": "L01-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-02",
+        "L01-11"
+      ],
+      "title_evidence": "标题明确为“核心系统软件开发岗”，属于软件开发职能；核心系统为业务服务端系统，方向为后端开发。",
+      "level_3_evidence": null,
+      "reason": "“核心系统软件开发”指向保险核心业务系统的服务端开发，符合后端开发（L01-02）范围；未提供具体技术栈或前后端分工细节，不足以细分到三级，故停在二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16967,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 327,
+    "output_tokens": 161,
+    "reasoning_tokens": 0,
+    "total_tokens": 17128
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039114
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

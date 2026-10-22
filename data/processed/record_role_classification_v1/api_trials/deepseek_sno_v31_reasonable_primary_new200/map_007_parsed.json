@@ -1,0 +1,231 @@
+{
+  "raw_response_file": "map_007_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-5e9c994296849c7fc70f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "业务岗",
+      "level_3_evidence": null,
+      "reason": "仅“业务岗”无明确职能线索，无法确定销售、运营或其他业务方向。"
+    },
+    {
+      "occupation_id": "SNO-21eaa0be1d784c6eb823",
+      "status": "mapped",
+      "target_category_id": "L02-05-06",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-01"
+      ],
+      "title_evidence": "SLAM融合算法工程师",
+      "level_3_evidence": "SLAM（同步定位与建图）属于运筹优化与决策算法中的规划控制及决策范畴。",
+      "reason": "SLAM融合算法工程师核心为定位建图与融合算法，归入运筹优化与决策算法。"
+    },
+    {
+      "occupation_id": "SNO-84268996f54af083a0f9",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "Instagram社媒运营专员(西班牙语)",
+      "level_3_evidence": null,
+      "reason": "Instagram社媒运营属于内容与新媒体运营，西班牙语为语言标签。"
+    },
+    {
+      "occupation_id": "SNO-5e529d1a85f0c23262a9",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L10-01-01"
+      ],
+      "title_evidence": "软件研发与敏捷项目管培生",
+      "level_3_evidence": null,
+      "reason": "标题明确软件研发职能，管培生为身份修饰，归通用软件研发；敏捷项目管理为辅助方向。"
+    },
+    {
+      "occupation_id": "SNO-74be8ef534b04db67143",
+      "status": "mapped",
+      "target_category_id": "L01-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "平台服务端开发",
+      "level_3_evidence": "服务端开发直接对应业务服务开发。",
+      "reason": "平台服务端开发属于后端开发中的业务服务开发。"
+    },
+    {
+      "occupation_id": "SNO-140159e8cf334ce1e5a9",
+      "status": "mapped",
+      "target_category_id": "L03-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "技术支持助理",
+      "level_3_evidence": null,
+      "reason": "技术支持助理属于信息技术支持，助理为身份修饰。"
+    },
+    {
+      "occupation_id": "SNO-4f466acae4ce6ff867c4",
+      "status": "mapped",
+      "target_category_id": "L09-06-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "游戏原画设计师",
+      "level_3_evidence": "原画设计直接对应插画与原画。",
+      "reason": "游戏原画设计师属于美术插画与数字资产中的插画与原画。"
+    },
+    {
+      "occupation_id": "SNO-17fae551bbfc943d0f9b",
+      "status": "mapped",
+      "target_category_id": "L13-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "生态拓展经理",
+      "level_3_evidence": null,
+      "reason": "生态拓展经理以商业合作与生态伙伴拓展为主，归商务拓展与合作。"
+    },
+    {
+      "occupation_id": "SNO-c2759b1de0ef71e531aa",
+      "status": "mapped",
+      "target_category_id": "L14-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "计划运营",
+      "level_3_evidence": null,
+      "reason": "计划运营属于业务运营，但具体方向未明确，归通用业务运营。"
+    },
+    {
+      "occupation_id": "SNO-2218e2bb762731bce540",
+      "status": "mapped",
+      "target_category_id": "L06-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "结构仿真设计师",
+      "level_3_evidence": "结构仿真设计直接对应产品结构设计中的强度分析。",
+      "reason": "结构仿真设计师属于机械与结构设计中的产品结构设计。"
+    },
+    {
+      "occupation_id": "SNO-5c1581a20027dec35fb1",
+      "status": "mapped",
+      "target_category_id": "L22-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "教务综合",
+      "level_3_evidence": null,
+      "reason": "教务综合属于教学辅助与学员服务。"
+    },
+    {
+      "occupation_id": "SNO-fc3c0d884bdccf30e9df",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "引流课直播运营",
+      "level_3_evidence": null,
+      "reason": "引流课直播运营属于内容与新媒体运营。"
+    },
+    {
+      "occupation_id": "SNO-13757b55fc273246f2db",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "人管业管",
+      "level_3_evidence": null,
+      "reason": "“人管业管”含义不明确，可能指人事管理与业务管理，无法确定主职能。"
+    },
+    {
+      "occupation_id": "SNO-2e78151c69bbd264c2cb",
+      "status": "mapped",
+      "target_category_id": "L04-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电机与动力系统测试工程师",
+      "level_3_evidence": null,
+      "reason": "电机与动力系统测试属于硬件与产品测试。"
+    },
+    {
+      "occupation_id": "SNO-9e9fb1a01f10bdc8eb93",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "售后支持工程师",
+      "level_3_evidence": null,
+      "reason": "售后支持工程师属于售后技术服务。"
+    },
+    {
+      "occupation_id": "SNO-6274dc1dd7b2cf0c5479",
+      "status": "mapped",
+      "target_category_id": "L07-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "助理研究员岗2",
+      "level_3_evidence": null,
+      "reason": "助理研究员属于实验与科研技术支持。"
+    },
+    {
+      "occupation_id": "SNO-5dd9b639cfcb79919ebe",
+      "status": "mapped",
+      "target_category_id": "L14-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "线上运营",
+      "level_3_evidence": null,
+      "reason": "线上运营属于业务运营，但具体方向未明确，归通用业务运营。"
+    },
+    {
+      "occupation_id": "SNO-2fcfa9d7506b3c1e6ae0",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "工艺岗(生物合成)",
+      "level_3_evidence": "生物合成工艺属于制造制程工程。",
+      "reason": "工艺岗(生物合成)属于工艺与制造工程中的制造制程工程。"
+    },
+    {
+      "occupation_id": "SNO-988b3efaea2e7459ef28",
+      "status": "mapped",
+      "target_category_id": "L09-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "内饰设计",
+      "level_3_evidence": null,
+      "reason": "内饰设计属于工业与产品外观设计。"
+    },
+    {
+      "occupation_id": "SNO-0c0bd9a23240e8c456b0",
+      "status": "mapped",
+      "target_category_id": "L02-05-06",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-01"
+      ],
+      "title_evidence": "小脑算法开发工程师",
+      "level_3_evidence": "小脑算法涉及运动控制与决策，属于运筹优化与决策算法。",
+      "reason": "小脑算法开发工程师核心为运动控制与决策算法，归入运筹优化与决策算法。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17473,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 833,
+    "output_tokens": 2264,
+    "reasoning_tokens": 0,
+    "total_tokens": 19737
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00153327
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

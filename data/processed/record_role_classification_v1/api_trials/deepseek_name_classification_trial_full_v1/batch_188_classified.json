@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 188,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "53df608a-657c-4842-b3dc-c4c25e708ceb",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751416,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25038,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1742,
+    "output_tokens": 4326,
+    "reasoning_tokens": 0,
+    "total_tokens": 29364
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002926788
+  },
+  "observed_at_utc": "2026-10-11T20:43:36.624208+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-f173fbb2cfee5c049aa0",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "结构强度适航主管工程师，核心职责为结构强度与适航性研发，属于汽车/航空器研发制造领域，归入汽车研发/制造下的整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-757273c2b55517770d58",
+      "target_category_id": "影视/传媒/media-performer/performer-acting",
+      "status": "mapped",
+      "reason": "男声声部演员，核心职业为演员/表演，归入影视/传媒下的演员/配音/模特-表演与影视演出。"
+    },
+    {
+      "occupation_id": "SNO-cb28830ec6bebcaa744d",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "电化学工程师，核心职责为电化学工艺与生产，归入生产制造下的化工-化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-7868deaf2ac842fe16ba",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "油气管道运行，核心职责为油气能源输送与运行，归入能源/环保/农业下的能源/地质-能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-5dfbdffd68b4594c0660",
+      "target_category_id": "财务/审计/税务/finance-analysis/finance-bp-analysis",
+      "status": "mapped",
+      "reason": "预算管理，核心职责为预算编制与分析，归入财务/审计/税务下的财务分析/财务BP-经营与财务分析。"
+    },
+    {
+      "occupation_id": "SNO-09c5e17a33dd9a5594cd",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "服务端研发工程师，核心职责为服务端开发，归入互联网/AI下的后端开发-业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-a8d7cf650c9c8d990b84",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "数据中心设施管理技术支持实习，核心职责为数据中心基础设施运维支持，归入互联网/AI下的运维/技术支持-基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-e0e835504b3cb729acaf",
+      "target_category_id": "销售/sales-service/service-sales-enterprise",
+      "status": "mapped",
+      "reason": "IndustrialAccountManager，核心职责为工业领域企业客户销售，归入销售下的服务业销售-企业服务销售。"
+    },
+    {
+      "occupation_id": "SNO-f791d64e1ca45dac26fd",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "销售行政助理，核心职责为销售支持与商务协调，归入销售下的销售行政/商务-销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-459c7e10f446d0a5ab50",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "车载自动化测试工程师，核心职责为自动化测试，归入互联网/AI下的测试-功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-464fb5d69b19bdaf95ec",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "整车开发，核心职责为整车研发，归入汽车下的汽车研发/制造-整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-65d8c5e7136edc24a4a5",
+      "target_category_id": "房地产/建筑/estate-appraisal/property-appraisal-valuation",
+      "status": "mapped",
+      "reason": "不动产评估业务助理，核心职责为不动产评估，归入房地产/建筑下的房产评估师-房地产价值评估。"
+    },
+    {
+      "occupation_id": "SNO-9f2775e5569cdff872fc",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "现场支持工程师，核心职责为现场技术支持与交付，归入互联网/AI下的运维/技术支持-技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-2a4acda0a52381a43e8e",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-transport",
+      "status": "mapped",
+      "reason": "飞行服务岗(管制员)，核心职责为航空管制与飞行服务，归入供应链/物流下的物流/运输-运输调度与线路运营。"
+    },
+    {
+      "occupation_id": "SNO-5170609d1220b736e04c",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "营销培训生(公司金融方向)，核心职责为公司金融方向营销，归入销售下的金融销售-财富与理财销售。"
+    },
+    {
+      "occupation_id": "SNO-0a3bea6fcb1a4931fcf2",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "武汉分行本部，名称仅表明工作地点与机构，未明确具体职业职责，无法判断归属。"
+    },
+    {
+      "occupation_id": "SNO-5ff652a9306ff4c140ae",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "高训中心工作人员，名称仅表明工作机构，未明确具体职业职责，无法判断归属。"
+    },
+    {
+      "occupation_id": "SNO-a75b95a1e203328777d3",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "全球管培生(产品线管理)，核心职责为产品线管理，归入产品下的互联网产品经理-平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-4b7240b3cd44be61d4c2",
+      "target_category_id": "产品/product-internet/product-user",
+      "status": "mapped",
+      "reason": "产品创新管培生，核心职责为产品创新，归入产品下的互联网产品经理-用户与增长产品。"
+    },
+    {
+      "occupation_id": "SNO-49659f456cd3e0f87f05",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "战略规划与投资管理，核心职责为投资管理，归入金融下的投融资-股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-d57c4bd00038cf105042",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": "普外科医师，核心职责为临床诊疗，归入医疗健康下的医生/医技-临床诊疗。"
+    },
+    {
+      "occupation_id": "SNO-6e404c997443da0024ca",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "招采，核心职责为招标采购，归入采购/贸易下的采购-供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-e727160722ecdd1e610e",
+      "target_category_id": "财务/审计/税务/finance-risk/risk-credit",
+      "status": "mapped",
+      "reason": "风控专项，核心职责为风险控制，归入财务/审计/税务下的风控-信用与业务风险。"
+    },
+    {
+      "occupation_id": "SNO-f1230df38e93a26f4c56",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "资产配置研究员，核心职责为投资研究与资产配置，归入金融下的投融资-股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-129e2332ee45e9210fa3",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出理科文字编辑与会计两个独立职业，无法由同一目录承接。"
+    },
+    {
+      "occupation_id": "SNO-86bca5fdb3b67cfb2856",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "机械(钣金)工艺工程师，核心职责为机械制造工艺，归入生产制造下的机械设计/制造-机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-33b7fca092e49f800767",
+      "target_category_id": "医疗健康/health-clinical/clinical-trial-operations",
+      "status": "mapped",
+      "reason": "药理临床研究，核心职责为临床试验运营，归入医疗健康下的临床试验-临床试验运营。"
+    },
+    {
+      "occupation_id": "SNO-0bd5626663b3346990dd",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "汽机工程师，核心职责为汽轮机等能源动力设备工程，归入能源/环保/农业下的能源/地质-能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-8b13b247990310e2be96",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "自动化专业实验室建设支撑，核心职责为自动化设备与实验室建设，归入电子/电气/通信下的电气/自动化-自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-8bbf8d05d5235216186d",
+      "target_category_id": "财务/审计/税务/finance-analysis/finance-bp-analysis",
+      "status": "mapped",
+      "reason": "财务管理部管培生，核心职责为财务分析与管理，归入财务/审计/税务下的财务分析/财务BP-经营与财务分析。"
+    },
+    {
+      "occupation_id": "SNO-1518b0fd90b203cabf95",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "制前设计工程师，核心职责为机械产品设计，归入生产制造下的机械设计/制造-机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-7219afa3744a069fa61b",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "食品销售管培生，核心职责为食品销售，归入销售下的销售-客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-4468c9a26927e57e7c32",
+      "target_category_id": "设计/design-art-3d-animation/art-2d",
+      "status": "mapped",
+      "reason": "原画设计，核心职责为二维美术与原画设计，归入设计下的美术/3D/动画-二维美术与原画。"
+    },
+    {
+      "occupation_id": "SNO-5b87af3cbf7a318dc995",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "智能制造技术专员，核心职责为智能制造运营与改善，归入生产制造下的生产营运-生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-b0bb22d7a889d08cc304",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "电厂运行工程师，核心职责为电厂能源运行，归入能源/环保/农业下的能源/地质-能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-001641db98d343402507",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "材料开发，核心职责为材料工艺开发，归入生产制造下的化工-化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-71c92466ca2c3b433a05",
+      "target_category_id": "生活服务/零售/service-retail/retail-store",
+      "status": "mapped",
+      "reason": "顺电管培生，核心职责为零售门店运营，归入生活服务/零售下的零售-门店运营与导购。"
+    },
+    {
+      "occupation_id": "SNO-4cd1c821039abb9b8cdc",
+      "target_category_id": "财务/审计/税务/finance-cashier/cashier-payment",
+      "status": "mapped",
+      "reason": "资金，核心职责为资金收付与结算，归入财务/审计/税务下的出纳-资金收付与结算。"
+    },
+    {
+      "occupation_id": "SNO-d153ce8e70fdd95c1c00",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电机，核心职责为电机电气控制，归入电子/电气/通信下的电气/自动化-电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-fa855c4c19f1ea4859a6",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "养老金融-客户经理方向，核心职责为金融客户经理，归入销售下的金融销售-财富与理财销售。"
+    },
+    {
+      "occupation_id": "SNO-c1a409b032a46953a646",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": "车间操作员，核心职责为生产线操作，归入生产制造下的普工-装配与生产线作业。"
+    },
+    {
+      "occupation_id": "SNO-89d62bf48f98aa3804d5",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "集采管理，核心职责为集中采购管理，归入采购/贸易下的采购-采购执行与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-f21fb432ecfee768e708",
+      "target_category_id": "销售/sales-management/sales-management-strategy",
+      "status": "mapped",
+      "reason": "区域督导，核心职责为区域销售与渠道管理，归入销售下的销售管理-销售策略与渠道管理。"
+    },
+    {
+      "occupation_id": "SNO-2fed722f46e1984631fc",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "产业经理，核心职责为产业研究与投资分析，归入金融下的证券/基金/期货-证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-19492a440d1b92e7d9a3",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "冷链装备科研，核心职责为冷链装备机械研发，归入生产制造下的机械设计/制造-机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-0e6e67ddb143cf810cb6",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "部门助理类，核心职责为部门行政文档支持，归入人力/行政/法务下的文员-文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-d0a2c9ba9193a05e1787",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "数据中心检测认证工程师，核心职责为数据中心基础设施检测认证，归入互联网/AI下的运维/技术支持-基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-82dc1e1e28c8e231be1f",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "亚太锂源营销管培生，核心职责为锂源产品营销，归入销售下的销售-客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-f14915141716137ee25a",
+      "target_category_id": "房地产/建筑/estate-development/realestate-dev-investment",
+      "status": "mapped",
+      "reason": "投资工程，核心职责为工程投资拓展，归入房地产/建筑下的房地产规划开发-土地与项目投资拓展。"
+    },
+    {
+      "occupation_id": "SNO-d9ad298fbdb50ca0e24f",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "QA工程师，核心职责为质量检验与控制，归入生产制造下的质量管理-质量检验与过程控制。"
+    }
+  ]
+}

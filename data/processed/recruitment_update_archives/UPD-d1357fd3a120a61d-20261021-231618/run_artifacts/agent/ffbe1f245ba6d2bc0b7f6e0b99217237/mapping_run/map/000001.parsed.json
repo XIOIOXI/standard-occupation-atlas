@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-ffbe1f245ba6d2bc0b7f6e0b99217237",
+      "status": "mapped",
+      "target_category_id": "L13-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-03",
+        "L13-09",
+        "L32-01"
+      ],
+      "title_evidence": "渠道管培生：标题明确为渠道方向，属渠道销售与经销管理",
+      "level_3_evidence": null,
+      "reason": "渠道管培生指向渠道销售/经销管理职能，已明确职能方向，归 L13-03；虽含管培标签，但职能已明确，不归 L32。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16982,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 342,
+    "output_tokens": 148,
+    "reasoning_tokens": 0,
+    "total_tokens": 17130
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038003999999999995
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,47 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-da2e709eb8394385c723",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "临床类(内、外、妇、儿等各临床专业医生)医技类(影像、超声、药学等)护理类(护士、助产士等)管培生(数据分析、医疗管理、人工智能、设备管理、法律合规、稽核监察)",
+  "child_title": "临床类(内、外、妇、儿等各临床专业医生)",
+  "source_span": {
+    "text": "临床类(内、外、妇、儿等各临床专业医生)",
+    "start": 0,
+    "end": 21
+  },
+  "raw_decision": {
+    "original_record_id": "TG-da2e709eb8394385c723",
+    "case": "A",
+    "child_titles": [
+      "临床类(内、外、妇、儿等各临床专业医生)",
+      "医技类(影像、超声、药学等)",
+      "护理类(护士、助产士等)",
+      "管培生(数据分析、医疗管理、人工智能、设备管理、法律合规、稽核监察)"
+    ],
+    "source_spans": [
+      {
+        "text": "临床类(内、外、妇、儿等各临床专业医生)",
+        "start": 0,
+        "end": 21
+      },
+      {
+        "text": "医技类(影像、超声、药学等)",
+        "start": 21,
+        "end": 36
+      },
+      {
+        "text": "护理类(护士、助产士等)",
+        "start": 36,
+        "end": 48
+      },
+      {
+        "text": "管培生(数据分析、医疗管理、人工智能、设备管理、法律合规、稽核监察)",
+        "start": 48,
+        "end": 84
+      }
+    ],
+    "reason": "标题由多个独立岗位类别直接拼接，无分隔符，但语义上可明确拆分为四个不同岗位。"
+  }
+}

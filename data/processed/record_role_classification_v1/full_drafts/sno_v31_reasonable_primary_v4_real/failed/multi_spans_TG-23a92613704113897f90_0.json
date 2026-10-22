@@ -1,0 +1,65 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-23a92613704113897f90",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "大模型算法训练/推理Infra行业应用算法HRBPJava开发AI产品经理财务行政等",
+  "child_title": "大模型算法训练/推理Infra",
+  "source_span": {
+    "text": "大模型算法训练/推理Infra",
+    "start": 0,
+    "end": 14
+  },
+  "raw_decision": {
+    "original_record_id": "TG-23a92613704113897f90",
+    "case": "A",
+    "child_titles": [
+      "大模型算法训练/推理Infra",
+      "行业应用算法",
+      "HRBP",
+      "Java开发",
+      "AI产品经理",
+      "财务",
+      "行政等"
+    ],
+    "source_spans": [
+      {
+        "text": "大模型算法训练/推理Infra",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "行业应用算法",
+        "start": 14,
+        "end": 20
+      },
+      {
+        "text": "HRBP",
+        "start": 20,
+        "end": 24
+      },
+      {
+        "text": "Java开发",
+        "start": 24,
+        "end": 30
+      },
+      {
+        "text": "AI产品经理",
+        "start": 30,
+        "end": 36
+      },
+      {
+        "text": "财务",
+        "start": 36,
+        "end": 38
+      },
+      {
+        "text": "行政等",
+        "start": 38,
+        "end": 41
+      }
+    ],
+    "reason": "标题由多个独立岗位名称组成，无连接词，可拆分为多个子岗位。"
+  }
+}

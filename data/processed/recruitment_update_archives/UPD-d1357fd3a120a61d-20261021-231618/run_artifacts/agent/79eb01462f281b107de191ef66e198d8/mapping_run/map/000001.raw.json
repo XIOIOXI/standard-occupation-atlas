@@ -1,0 +1,28 @@
+{
+  "id": "6fe89925-858b-4b3d-b0c5-d7dda86500ac",
+  "object": "chat.completion",
+  "created": 1792571941,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-79eb01462f281b107de191ef66e198d8\",\"status\":\"mapped\",\"target_category_id\":\"L05-02\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L05-02\",\"L05-01\",\"L06-08\"],\"title_evidence\":\"德州仪器（半导体外企）产品工程师，属芯片/电子产品工程职能\",\"level_3_evidence\":null,\"reason\":\"半导体公司“产品工程师”通常承担芯片产品工程化、量产导入与良率/产品技术支持，属电子硬件研发范畴；标题未明确数字/模拟/验证/物理设计等三级方向，故落 L05-02 芯片与集成电路设计（二级）。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16953,
+    "completion_tokens": 161,
+    "total_tokens": 17114,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

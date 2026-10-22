@@ -1,0 +1,282 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-814a4e38a3787de7bbde",
+      "status": "mapped",
+      "target_category_id": "L19-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L19-05-01",
+        "L19-05-02"
+      ],
+      "title_evidence": "审计实习生",
+      "level_3_evidence": "内部审计",
+      "reason": "标题明确为审计岗位，实习生为经验标签，不影响职能归属；审计属于L19-05，内部审计为最直接细分。"
+    },
+    {
+      "occupation_id": "TG-f8725d5eef32517c2567",
+      "status": "mapped",
+      "target_category_id": "L19-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-05-01",
+        "L19-05-02"
+      ],
+      "title_evidence": "审计......",
+      "level_3_evidence": null,
+      "reason": "标题仅显示“审计”，未明确内部或外部审计，无法确定三级，归入审计二级。"
+    },
+    {
+      "occupation_id": "TG-f2dc36faf8ab9b7a4a6c",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L01-02",
+        "L01-07"
+      ],
+      "title_evidence": "系统应用工程师",
+      "level_3_evidence": null,
+      "reason": "标题为系统应用工程师，属于软件开发但方向未明确，归入通用软件研发。"
+    },
+    {
+      "occupation_id": "TG-5d5f5d2c518af24f380f",
+      "status": "mapped",
+      "target_category_id": "L09-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-04"
+      ],
+      "title_evidence": "鞋设计",
+      "level_3_evidence": null,
+      "reason": "鞋设计属于服装饰品与纺织设计范畴，归入L09-04。"
+    },
+    {
+      "occupation_id": "TG-bfeca70750bdaf67c0cf",
+      "status": "mapped",
+      "target_category_id": "L09-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-04"
+      ],
+      "title_evidence": "鞋设计岗",
+      "level_3_evidence": null,
+      "reason": "鞋设计岗属于服装饰品与纺织设计，归入L09-04。"
+    },
+    {
+      "occupation_id": "TG-a6fcdb138e6bbfe7706d",
+      "status": "mapped",
+      "target_category_id": "L19-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-01",
+        "L19-03"
+      ],
+      "title_evidence": "核算管理岗",
+      "level_3_evidence": null,
+      "reason": "核算管理岗属于会计核算范畴，未明确具体核算方向，归入L19-01。"
+    },
+    {
+      "occupation_id": "TG-0b781f04e78fd9aed601",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08"
+      ],
+      "title_evidence": "工艺管理岗",
+      "level_3_evidence": null,
+      "reason": "工艺管理岗属于工艺与制造工程，未明确具体方向，归入L06-08。"
+    },
+    {
+      "occupation_id": "TG-c057872cb66572068f7a",
+      "status": "mapped",
+      "target_category_id": "L16-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-01"
+      ],
+      "title_evidence": "执行采购",
+      "level_3_evidence": null,
+      "reason": "执行采购属于采购与供应商管理，未明确直接或间接采购，归入L16-01。"
+    },
+    {
+      "occupation_id": "TG-0347bb57dd4c657222ac",
+      "status": "mapped",
+      "target_category_id": "L11-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-05",
+        "L20-01"
+      ],
+      "title_evidence": "产业研究员",
+      "level_3_evidence": null,
+      "reason": "产业研究员属于商业研究与市场调研，归入L11-05。"
+    },
+    {
+      "occupation_id": "TG-4e6abf0fad01c952eb3d",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01"
+      ],
+      "title_evidence": "大客户销售",
+      "level_3_evidence": null,
+      "reason": "大客户销售属于企业客户销售，未明确直客或重点客户管理，归入L13-01。"
+    },
+    {
+      "occupation_id": "TG-2b83b94d2004b7665b37",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01"
+      ],
+      "title_evidence": "大客户销售（上海、苏州、广州，本科）",
+      "level_3_evidence": null,
+      "reason": "大客户销售属于企业客户销售，地点和学历为标签，归入L13-01。"
+    },
+    {
+      "occupation_id": "TG-ed05296305a0848640cf",
+      "status": "mapped",
+      "target_category_id": "L16-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-01"
+      ],
+      "title_evidence": "采购管理岗",
+      "level_3_evidence": null,
+      "reason": "采购管理岗属于采购与供应商管理，未明确具体采购类型，归入L16-01。"
+    },
+    {
+      "occupation_id": "TG-e644479b1bf8e07f3671",
+      "status": "mapped",
+      "target_category_id": "L05-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-01",
+        "L05-02-03"
+      ],
+      "title_evidence": "FPGA开发工程师",
+      "level_3_evidence": "数字芯片设计",
+      "reason": "FPGA开发工程师通常从事数字逻辑设计，归入数字芯片设计。"
+    },
+    {
+      "occupation_id": "TG-352ba0a195cb95600e5c",
+      "status": "mapped",
+      "target_category_id": "L05-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-01",
+        "L05-02-03"
+      ],
+      "title_evidence": "FPGA工程师",
+      "level_3_evidence": "数字芯片设计",
+      "reason": "FPGA工程师通常从事数字逻辑设计，归入数字芯片设计。"
+    },
+    {
+      "occupation_id": "TG-fd04c3621fe8b578c22f",
+      "status": "mapped",
+      "target_category_id": "L05-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-01",
+        "L05-02-03"
+      ],
+      "title_evidence": "FPGA 工程师",
+      "level_3_evidence": "数字芯片设计",
+      "reason": "FPGA工程师通常从事数字逻辑设计，归入数字芯片设计。"
+    },
+    {
+      "occupation_id": "TG-d25e6cb64956d7e0556f",
+      "status": "mapped",
+      "target_category_id": "L05-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-01",
+        "L05-02-03"
+      ],
+      "title_evidence": "FPGA开发",
+      "level_3_evidence": "数字芯片设计",
+      "reason": "FPGA开发通常从事数字逻辑设计，归入数字芯片设计。"
+    },
+    {
+      "occupation_id": "TG-f3e29681eb5ba449e2af",
+      "status": "mapped",
+      "target_category_id": "L05-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-01",
+        "L05-02-03"
+      ],
+      "title_evidence": "FPGA 开发工程师",
+      "level_3_evidence": "数字芯片设计",
+      "reason": "FPGA开发工程师通常从事数字逻辑设计，归入数字芯片设计。"
+    },
+    {
+      "occupation_id": "TG-e4744a3275a4534de58c",
+      "status": "mapped",
+      "target_category_id": "L05-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-01",
+        "L05-02-03"
+      ],
+      "title_evidence": "FPGA软件工程师",
+      "level_3_evidence": "数字芯片设计",
+      "reason": "FPGA软件工程师通常从事数字逻辑设计，归入数字芯片设计。"
+    },
+    {
+      "occupation_id": "TG-1db61d1b51bed1fd703c",
+      "status": "mapped",
+      "target_category_id": "L05-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-02-01",
+        "L05-02-03"
+      ],
+      "title_evidence": "fpga开发",
+      "level_3_evidence": "数字芯片设计",
+      "reason": "FPGA开发通常从事数字逻辑设计，归入数字芯片设计。"
+    },
+    {
+      "occupation_id": "TG-bbce219fff5f0c53b712",
+      "status": "mapped",
+      "target_category_id": "L05-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-02-01",
+        "L05-02-02",
+        "L05-02-03",
+        "L05-02-04"
+      ],
+      "title_evidence": "芯片设计",
+      "level_3_evidence": null,
+      "reason": "芯片设计属于芯片与集成电路设计，未明确具体方向，归入L05-02。"
+    }
+  ],
+  "raw_response_file": "000539.raw.json",
+  "usage": {
+    "input_tokens": 17334,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 822,
+    "output_tokens": 2486,
+    "reasoning_tokens": 0,
+    "total_tokens": 19820
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0033288719999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "49db34fd-a514-4374-b807-0e6a488acf47",
+  "object": "chat.completion",
+  "created": 1792571446,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-d55b71519a1608608aaf5b4da1fa2670\",\"status\":\"multi_role\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L06-01\",\"L06-08\",\"L04-03\",\"L16-01\",\"L18-03\",\"L13-01\",\"L10-02\",\"L08-02\"],\"title_evidence\":\"产品助理机电一体化；原始组合岗位含电机助理工程师、传动助理工程师、工艺助理工程师、IE助理工程师、品质助理工程师、采购助理工程师、培训助理、销售助理工程师、项目助理、产品助理等多个不同职能岗位\",\"level_3_evidence\":null,\"reason\":\"该输入为多个职能方向差异明显的岗位组合（机械设计、工艺、品质、采购、培训、销售、项目、产品等），无法归入单一职业类别，应作为多角色组合处理，需拆分后分别归类。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16957,
+    "completion_tokens": 207,
+    "total_tokens": 17164,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

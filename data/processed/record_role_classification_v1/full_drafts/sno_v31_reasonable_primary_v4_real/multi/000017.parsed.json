@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-79fb7fbfde9dd6a07853",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无拆分依据。"
+    },
+    {
+      "original_record_id": "TG-2caa1b5aa9826ad81121",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无拆分依据。"
+    }
+  ],
+  "raw_response_file": "000017.raw.json",
+  "usage": {
+    "input_tokens": 167,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 167,
+    "output_tokens": 101,
+    "reasoning_tokens": 0,
+    "total_tokens": 268
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0001713
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

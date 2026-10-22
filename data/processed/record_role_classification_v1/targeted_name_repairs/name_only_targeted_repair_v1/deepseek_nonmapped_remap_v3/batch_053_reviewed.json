@@ -1,0 +1,185 @@
+{
+  "batch_number": 53,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "485d9634-1eb2-4fe0-bc64-8f8215fcbe81",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821960,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29453,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2061,
+    "output_tokens": 1331,
+    "reasoning_tokens": 0,
+    "total_tokens": 30784
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001189926
+  },
+  "results": [
+    {
+      "entry_id": "SNO-b0c0439500e8823ce383",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“金融业务类通用”过于笼统，无法确认具体金融职能，不能确定一级或二级。"
+    },
+    {
+      "entry_id": "SNO-b166fadc3ff456fd71fa",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出软件研发、应用、实施、算法等多个独立职责方向，且无共同可确认的一级或二级。"
+    },
+    {
+      "entry_id": "SNO-b18408afc0d3f99b8038",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“分支机构业技融合”名称模糊，缺少具体技术或业务方向，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-b1918747e46c7bdd35d8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“立品经理”疑似截断或错字，无法确定职业方向。"
+    },
+    {
+      "entry_id": "SNO-b1c7b1849b20b787ce96",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“空间底座工程师”职责不明确，可能涉及GIS、数字孪生、基础设施等，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-b1cdf8e1db8f7c617ba8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“智能管理”名称过于宽泛，缺少具体职能或行业信息。"
+    },
+    {
+      "entry_id": "SNO-b1f958db716aa8148ff4",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“管理研辅”名称无法识别具体职业职能。"
+    },
+    {
+      "entry_id": "SNO-b213e2b99e8aa90a31ff",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "船舶总体工程师属于船舶与海洋工程，冻结目录无对应类别，也无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-b2e8b2864e3ddc95406f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管培生方向不明确，“武将专项”含义不清，无法确定具体职业类别。"
+    },
+    {
+      "entry_id": "SNO-b3380575879463aca04a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“科创服务”职责不明确，可能涉及咨询、孵化或项目管理，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-b363eb24734d7a156bf6",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“综合建设”岗位职责不明确，缺少具体建设方向信息。"
+    },
+    {
+      "entry_id": "SNO-b366126779b445d83f12",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "渲染开发研究员明确属于图形与高性能计算方向。"
+    },
+    {
+      "entry_id": "SNO-b37fddbfbf23613b352d",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "“AI运用工程师”可确认属于算法工程师下的大模型与生成式AI方向，但“运用”表述不够精确，建议复核。"
+    },
+    {
+      "entry_id": "SNO-b389225c76daeca34636",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "“终端架构工程师”可确认属于后端平台与中间件开发方向，但“终端”表述可能指向客户端，建议复核。"
+    },
+    {
+      "entry_id": "SNO-b3ec0e590c66e26a70d9",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "控制系统软件开发可确认属于业务服务端开发方向，但“控制系统”领域信息不足，建议复核。"
+    },
+    {
+      "entry_id": "SNO-b421914abe3e4b2b11b7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“人管培生”名称截断或含义不明，无法判断具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-b442ce20c9e2a123367c",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器人工程师明确属于机器人与具身智能方向。"
+    },
+    {
+      "entry_id": "SNO-b4532106d5f965662cb7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“未提及招聘”不是有效职业名称，缺少岗位信息。"
+    },
+    {
+      "entry_id": "SNO-b4bfadc64a17ed7677d8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "职能管理培训生为通用管培生名称，缺少具体职能方向，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-b4c11cf5497563af20bd",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出海外社媒运营、电商平台用户运营、采购等多个独立职业，无共同可确认的一级或二级。"
+    },
+    {
+      "entry_id": "SNO-b4dafb025c438820c86a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“预备操纵员”缺少行业与设备类型信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-b4deb61def4f27468634",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出营销销售、整车研发、智能制造、职能运营等多个独立职业方向，无共同可确认的一级或二级。"
+    },
+    {
+      "entry_id": "SNO-b500e60d6e367fea21b4",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "应届研究生仅描述身份，未体现具体职业职责。"
+    },
+    {
+      "entry_id": "SNO-b53a77bb03aa8348b5c6",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "物理研究员在冻结目录中无对应类别，也无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-b56050d11fa2545ca6cf",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出软件与硬件工程师两个独立职业方向，无共同可确认的一级或二级。"
+    }
+  ]
+}

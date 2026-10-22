@@ -1,0 +1,288 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-837d13d4c06b6ef07068",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-01",
+        "L05-03"
+      ],
+      "title_evidence": "电源设计师",
+      "level_3_evidence": null,
+      "reason": "电源设计属于电子硬件研发范畴，但未明确是电路板级还是系统集成，故归入L05-01电子硬件研发。"
+    },
+    {
+      "occupation_id": "TG-de5a7c75c43c20a15e3f",
+      "status": "mapped",
+      "target_category_id": "L02-05-06",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-06",
+        "L02-05-05"
+      ],
+      "title_evidence": "算法工程师（供需策略）",
+      "level_3_evidence": "供需策略",
+      "reason": "供需策略属于运筹优化与决策算法，直接匹配L02-05-06。"
+    },
+    {
+      "occupation_id": "TG-bad0ee305f1c1dd29963",
+      "status": "mapped",
+      "target_category_id": "L01-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-09",
+        "L02-06"
+      ],
+      "title_evidence": "人工智能架构师",
+      "level_3_evidence": null,
+      "reason": "人工智能架构师属于软件架构设计，归入L01-09软件架构。"
+    },
+    {
+      "occupation_id": "TG-c8c6802f7348c887ae08",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-10",
+        "L23-09"
+      ],
+      "title_evidence": "国内售后工程师",
+      "level_3_evidence": null,
+      "reason": "国内售后工程师属于售后技术服务，归入L14-10。"
+    },
+    {
+      "occupation_id": "TG-756c3418ca7c9aae357a",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L01-02"
+      ],
+      "title_evidence": "系统开发",
+      "level_3_evidence": null,
+      "reason": "系统开发方向未明确，归入L01-11通用软件研发。"
+    },
+    {
+      "occupation_id": "TG-4e1fb351566318c9773b",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01",
+        "L06-03"
+      ],
+      "title_evidence": "机械工程师-人形机器人",
+      "level_3_evidence": null,
+      "reason": "机械工程师从事机械结构设计，归入L06-01机械与结构设计。"
+    },
+    {
+      "occupation_id": "TG-513725aa3a68164ebb3e",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L13-02"
+      ],
+      "title_evidence": "SaaS销售(广州/上海)",
+      "level_3_evidence": null,
+      "reason": "SaaS销售通常面向企业客户，归入L13-01企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-c87435b3ad5e3fe5ee41",
+      "status": "mapped",
+      "target_category_id": "L18-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-05",
+        "L32-01"
+      ],
+      "title_evidence": "行政培训生",
+      "level_3_evidence": null,
+      "reason": "行政培训生已明确行政职能，归入L18-05行政与办公事务。"
+    },
+    {
+      "occupation_id": "TG-f25e9381078ab89b930e",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "见习生",
+      "level_3_evidence": null,
+      "reason": "见习生未明确职能方向，可能为跨职能培养，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-eade0bddea6939518d43",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L02-06-02",
+        "L01-03",
+        "L14-01"
+      ],
+      "title_evidence": "AI工程&全栈方向 AI Agent开发工程师 AI产品运营 AI产品运营",
+      "level_3_evidence": null,
+      "reason": "标题包含多个角色：AI Agent开发工程师、AI产品运营，且涉及全栈方向，无法归入单一类别。"
+    },
+    {
+      "occupation_id": "TG-f6c9ffb0859b3a3122c4",
+      "status": "mapped",
+      "target_category_id": "L05-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-05-01",
+        "L05-01"
+      ],
+      "title_evidence": "激光与光学系统工程师",
+      "level_3_evidence": "激光与光学系统",
+      "reason": "激光与光学系统属于无线与射频技术范畴，归入L05-05-01。"
+    },
+    {
+      "occupation_id": "TG-75da3b7d2fc1bc4c00a0",
+      "status": "mapped",
+      "target_category_id": "L07-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L07-01",
+        "L07-03"
+      ],
+      "title_evidence": "运动生物科学研究中心专业技术岗位",
+      "level_3_evidence": null,
+      "reason": "运动生物科学研究中心专业技术岗位属于自然科学基础研究，归入L07-01。"
+    },
+    {
+      "occupation_id": "TG-6045b576fe9c7b416a14",
+      "status": "mapped",
+      "target_category_id": "L24-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-02",
+        "L24-07"
+      ],
+      "title_evidence": "土木工程技术岗",
+      "level_3_evidence": null,
+      "reason": "土木工程技术岗属于土木结构与岩土工程，归入L24-02。"
+    },
+    {
+      "occupation_id": "TG-ddc0317649e3edfb526d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L12-07",
+        "L13-09"
+      ],
+      "title_evidence": "海外市场管培生",
+      "level_3_evidence": null,
+      "reason": "海外市场管培生可能涉及市场或销售职能，但未明确具体方向，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-e8a6027062dbde0f4069",
+      "status": "mapped",
+      "target_category_id": "L23-09-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L23-09-02",
+        "L23-09-01"
+      ],
+      "title_evidence": "机务点检员",
+      "level_3_evidence": "点检",
+      "reason": "机务点检员属于工业设备维修保全，归入L23-09-02。"
+    },
+    {
+      "occupation_id": "TG-834d225024adfb5225d3",
+      "status": "mapped",
+      "target_category_id": "L20-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-01",
+        "L20-02"
+      ],
+      "title_evidence": "00103 投资经济岗（校招）",
+      "level_3_evidence": null,
+      "reason": "投资经济岗属于投资研究与分析，归入L20-01。"
+    },
+    {
+      "occupation_id": "TG-bf5ab4b0dafb2877b2d5",
+      "status": "mapped",
+      "target_category_id": "L30-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L30-02",
+        "L30-01"
+      ],
+      "title_evidence": "分公司商务法务",
+      "level_3_evidence": null,
+      "reason": "分公司商务法务属于企业法务，归入L30-02。"
+    },
+    {
+      "occupation_id": "TG-e332e9d9ad8b505024c9",
+      "status": "mapped",
+      "target_category_id": "L15-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L15-01",
+        "L15-02"
+      ],
+      "title_evidence": "采编岗",
+      "level_3_evidence": null,
+      "reason": "采编岗属于新闻采编与报道，归入L15-01。"
+    },
+    {
+      "occupation_id": "TG-8de396ee1ac1e2e7200f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-02",
+        "L06-09"
+      ],
+      "title_evidence": "机械类储备生",
+      "level_3_evidence": null,
+      "reason": "机械类储备生为储备培养岗位，具体职能方向未明确，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-72f906b17b11fa1de0c4",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L22-02",
+        "L22-10"
+      ],
+      "title_evidence": "线下一对一老师（专业不限）",
+      "level_3_evidence": null,
+      "reason": "线下一对一老师属于学科与通识教学，但未明确学科，归入L22-02。"
+    }
+  ],
+  "raw_response_file": "000306.raw.json",
+  "usage": {
+    "input_tokens": 17377,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 865,
+    "output_tokens": 2479,
+    "reasoning_tokens": 0,
+    "total_tokens": 19856
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003333372
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

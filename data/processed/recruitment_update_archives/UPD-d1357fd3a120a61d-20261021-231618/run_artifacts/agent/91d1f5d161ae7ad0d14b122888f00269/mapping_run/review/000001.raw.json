@@ -1,0 +1,28 @@
+{
+  "id": "795edb64-ba54-4e7e-ac0c-8305592a28eb",
+  "object": "chat.completion",
+  "created": 1792571792,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-91d1f5d161ae7ad0d14b122888f00269\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“产品管培生”仅表明产品方向与培养性质，未明确具体产品职能或轮岗安排；标 review 并保留 L32-01/L32-02/L08-02 候选合理，符合不得仅凭“管培”推断跨职能轮岗的规则。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17093,
+    "completion_tokens": 123,
+    "total_tokens": 17216,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 581
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

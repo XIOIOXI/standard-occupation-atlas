@@ -1,0 +1,28 @@
+{
+  "id": "d1d60aeb-f1a8-4d32-9485-ea542eaeaf7f",
+  "object": "chat.completion",
+  "created": 1792571225,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-cb8f739cf9770f64fd1de6a57db8fa35\",\"status\":\"mapped\",\"target_category_id\":\"L01-09\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L01-09\",\"L03-02\",\"L05-01\"],\"title_evidence\":\"标题为“数据中心系统架构师”，核心职责为数据中心系统架构设计\",\"level_3_evidence\":null,\"reason\":\"“系统架构师”明确指向软件/系统架构设计职能，归入软件架构（L01-09）；数据中心场景可能涉及基础设施，但标题未明确为运维或硬件研发，故不选三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16948,
+    "completion_tokens": 150,
+    "total_tokens": 17098,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 308
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

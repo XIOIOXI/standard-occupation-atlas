@@ -1,0 +1,28 @@
+{
+  "id": "83099654-0dbc-4b18-8d2f-d68e48674e3b",
+  "object": "chat.completion",
+  "created": 1791821989,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-cb8f0ae7c51e9b3d4c18\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"管培生(理工类)未说明具体职能方向，无法确定职业类别。\"},{\"entry_id\":\"SNO-cbb4336b514b62e669ef\",\"status\":\"mapped\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-graphics\",\"reason\":\"超算技术开发核心为高性能计算，与C++图形与高性能计算三级类别边界一致。\"},{\"entry_id\":\"SNO-cbbfc4a4da51fc7b9de1\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"新能源新材料通用技术范围过宽，缺少具体技术方向，无法确定细分领域。\"},{\"entry_id\":\"SNO-cbcd1e910e6a10bebd8b\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明显列出软件开发、网络安全、信息设备维修、电力运维、能源管理等多个独立职业，无共同上级。\"},{\"entry_id\":\"SNO-cbe86421be3c21ea75e9\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"音视频开发工程师可确认属互联网/AI，但音视频方向在冻结目录无明确对应三级，暂归一级。\"},{\"entry_id\":\"SNO-cbfec12d5dc998545dc7\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"数字化开发仅能确认属互联网/AI，具体三级方向不明确。\"},{\"entry_id\":\"SNO-cc1c559113b8e0d3ac3d\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明显列出选矿项目研究员、试验员、冶金试验员、分析检测员等多个独立岗位，无共同上级。\"},{\"entry_id\":\"SNO-cc2fd3b1141222c3e4f3\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"等离子体实验研究员缺少具体行业或应用方向信息，无法确认类别。\"},{\"entry_id\":\"SNO-cc63de4ba65a265095c7\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"调研服务保障名称不明确，缺少具体调研领域或服务保障内容，无法确定职业类别。\"},{\"entry_id\":\"SNO-cc93388ea009c6d5948f\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"信息自动化及数字化建设仅能确认属互联网/AI，具体三级方向不明确。\"},{\"entry_id\":\"SNO-cccab2580cd08e41930f\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"生产管理培训生包含工艺、设备、信息管理等多个方向，无共同上级。\"},{\"entry_id\":\"SNO-ccefb1fc22b4f6fec1b8\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"管理培训生(储备人才)未说明职能方向，无法确定具体类别。\"},{\"entry_id\":\"SNO-ccf341451c52d17fc8eb\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"材料类工程师范围过宽，缺少具体职能方向。\"},{\"entry_id\":\"SNO-ccf9ad9e610f4944f6e7\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称“与审计”明显截断，无法确认完整职业。\"},{\"entry_id\":\"SNO-cd012f05bad1350d0910\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"售后服务工程师可确认属互联网/AI，但具体三级方向不明确。\"},{\"entry_id\":\"SNO-cd16afebd6db30b88f40\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"党群综合部管培生职责偏行政/党务，目录无对应党群或综合管理类别，需明确具体职能。\"},{\"entry_id\":\"SNO-cd32d7fc9891d198722c\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"数学研究员可确认属互联网/AI，但具体三级方向不明确。\"},{\"entry_id\":\"SNO-cd376a0c56f0e1857136\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称仅为招聘计划描述，缺少具体岗位职责信息。\"},{\"entry_id\":\"SNO-cda5293603b05e57003e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"软件开发实习生缺少具体技术栈或开发方向。\"},{\"entry_id\":\"SNO-cdc966998c5964be920f\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"研发工程师缺少技术方向信息。\"},{\"entry_id\":\"SNO-cde0dd8aa296dad29bca\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"水文咨询设计师属水利水文专业，目录无承接类别。\"},{\"entry_id\":\"SNO-ce00adf0c4d721cd76c6\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"客户发展部培训生未明确职业方向，缺少具体岗位职责信息，无法归类。\"},{\"entry_id\":\"SNO-ce02947b136d77b8dc81\",\"status\":\"mapped\",\"target_category_id\":\"金融/financial-claims/claims-property\",\"reason\":\"保险理赔与财产与车险理赔三级类别边界一致。\"},{\"entry_id\":\"SNO-ce29bc83bf51f533f50d\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"体系本科起助理名称截断且职责不明，无法确定职业类别。\"},{\"entry_id\":\"SNO-ce3e7b09df31cb0d6753\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"培训生岗位明确列出管理、技术、运营管理多个方向，无法归入单一职业。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29598,
+    "completion_tokens": 1270,
+    "total_tokens": 30868,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2206
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

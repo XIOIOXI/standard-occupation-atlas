@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "仅标题确认non_role_text，JSON results: original_record_id,decision(exclude_non_role|restore_title_and_map|hold),reason,recovered_title。无法确认hold；剔除不删除源记录。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-959e90450cf18dc6b157\", \"title\": \"商业和服务业人员(计划人数:不限)\"}, {\"original_record_id\": \"TG-84e93fe51f411e95a1a3\", \"title\": \"岗研究岗\"}, {\"original_record_id\": \"TG-39a0ae1ee3c9fe4f1113\", \"title\": \"岗位\"}, {\"original_record_id\": \"TG-d799ef1145ef0d4b03af\", \"title\": \"本次计划招聘13个岗位\"}, {\"original_record_id\": \"TG-141b0f7ae3c7cf165e35\", \"title\": \"会计类 法律类 信息技术类 金融经济类 党建内管类 研究类\"}, {\"original_record_id\": \"TG-8a8476e5139bba8e24e9\", \"title\": \"@多个公司岗位\"}, {\"original_record_id\": \"TG-bf495f6297043e406cfa\", \"title\": \"转正实习生\"}, {\"original_record_id\": \"TG-a4df8755499c4026e45b\", \"title\": \"电子设计结构设计项目管理应用支持设备技术工艺制程质量管理品质控股之系统销售员工关系水汽暖通消防IT软件开发\"}, {\"original_record_id\": \"TG-f1e132dc96eea1332051\", \"title\": \"会计学专业\"}, {\"original_record_id\": \"TG-a629d9b69af53f47e3c3\", \"title\": \"2027应届生岗位\"}, {\"original_record_id\": \"TG-43e3a4ee98ad4040d0ba\", \"title\": \"此次招聘涉及11家京内事业单位及2家京外事业单位98个岗位\"}, {\"original_record_id\": \"TG-e14abcfd8af8230b2cf2\", \"title\": \"2026实习生岗位\"}, {\"original_record_id\": \"TG-bb9eaccbb151ae81b8e6\", \"title\": \"18个岗位\"}, {\"original_record_id\": \"TG-1bba414c8a367b8e89cb\", \"title\": \"/工程师\"}, {\"original_record_id\": \"TG-f3da16c3c822b16e0597\", \"title\": \"资源管理 财务 科学研究 信息技术 园林技术 工程技术 财务与资产管理 科普文化传播 科员 经营管理 财会 综合保障 文史研究 助理工程师 绿化景观 文化产业开发 组织人事 工程管理 审计员 遗产保护......\"}, {\"original_record_id\": \"TG-7ac659aa9131ca484ffb\", \"title\": \"职能管理类 市场管理类 运行管理类 签派类 维修管培生\"}, {\"original_record_id\": \"TG-cda727ae09681aaf023a\", \"title\": \"岗位 3（专技岗十二级）（法学类，心理学类，计算机类，临床医学类，法学，法律，心理学，应用心理，计算机科学与技术，临床医学，数学类，统计学类，会计学，......\"}, {\"original_record_id\": \"TG-3e1e379b3aeeeb4619e1\", \"title\": \"高校毕业生\"}, {\"original_record_id\": \"TG-1eeae84cdee81eb778ae\", \"title\": \"专业要求等详见《湖南中烟2026年公开招聘岗位\"}, {\"original_record_id\": \"TG-252144b1fbf057a55828\", \"title\": \"及专业技术工作人员\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-959e90450cf18dc6b157",
+    "TG-84e93fe51f411e95a1a3",
+    "TG-39a0ae1ee3c9fe4f1113",
+    "TG-d799ef1145ef0d4b03af",
+    "TG-141b0f7ae3c7cf165e35",
+    "TG-8a8476e5139bba8e24e9",
+    "TG-bf495f6297043e406cfa",
+    "TG-a4df8755499c4026e45b",
+    "TG-f1e132dc96eea1332051",
+    "TG-a629d9b69af53f47e3c3",
+    "TG-43e3a4ee98ad4040d0ba",
+    "TG-e14abcfd8af8230b2cf2",
+    "TG-bb9eaccbb151ae81b8e6",
+    "TG-1bba414c8a367b8e89cb",
+    "TG-f3da16c3c822b16e0597",
+    "TG-7ac659aa9131ca484ffb",
+    "TG-cda727ae09681aaf023a",
+    "TG-3e1e379b3aeeeb4619e1",
+    "TG-1eeae84cdee81eb778ae",
+    "TG-252144b1fbf057a55828"
+  ]
+}

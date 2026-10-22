@@ -1,0 +1,28 @@
+{
+  "id": "caa994f1-7e7f-4042-93e3-d3f476a0038d",
+  "object": "chat.completion",
+  "created": 1791880821,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-58114f6792637396cf52\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L06-08-01\",\"issue\":\"MEMS封装属于半导体制造制程工艺，应归制造制程工程而非工装模具与工艺装备。\"},{\"occupation_id\":\"TG-714f5942658576f99a60\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1e2ee8f606778d4246b5\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L06-04-02\",\"issue\":\"包材研发通常为高分子/复合材料包装材料研发，归日化个护研发不当。\"},{\"occupation_id\":\"TG-648b396109ea6936d020\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-188e1def9fc09f7d2d5c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d66b7d8a8539032313fa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-9a01b8c726c66d019b51\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-26d71bfa5138d6a517f9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-30f9656d335bf25855dd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0d2c3d935906fdcce731\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-517693da926b111ea228\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-11af6a0a2b4498378d02\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c73beba9ad121f7706a5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e560e83b042d05b9ae72\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f1cc4d58a8c3e6b856ef\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-056ad16d5bae5a4a32b7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-dad8b0633c5fb8789734\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e42180b7193a4ea2d544\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-15fd8cd7f875b6f39ee1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2ff3d1d5ffc070e29ddb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19612,
+    "completion_tokens": 797,
+    "total_tokens": 20409,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3100
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

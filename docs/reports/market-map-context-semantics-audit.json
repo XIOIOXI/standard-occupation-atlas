@@ -1,0 +1,1708 @@
+{
+  "audit_version": "market-map-context-semantics-v1",
+  "read_only": true,
+  "api_calls": 0,
+  "llm_calls": 0,
+  "source_column_semantics": {
+    "行业类别": "context input",
+    "企业类型": "ownership metadata used only for deterministic audit comparison"
+  },
+  "transformation": "run_job_grouping_v1.industry_key: one frozen mapping target => l1:<target>; otherwise raw:<normalise_title(行业类别)>",
+  "dimension_counts": {
+    "Industry / Domain": 17,
+    "Recruitment Source Category": 108,
+    "Unknown / Ambiguous": 25,
+    "Organization / Ownership Type": 3,
+    "Occupation-related category": 0
+  },
+  "dimensions": {
+    "Industry / Domain": [
+      {
+        "context_label": "l1:信息技术与数字产业",
+        "display_label": "信息技术与数字产业",
+        "job_group_count": 1265,
+        "distinct_recruitment_record_count": 294,
+        "occupation_count": 1265,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:公共管理与社会服务",
+        "display_label": "公共管理与社会服务",
+        "job_group_count": 45,
+        "distinct_recruitment_record_count": 31,
+        "occupation_count": 45,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:农业食品与消费产业",
+        "display_label": "农业食品与消费产业",
+        "job_group_count": 194,
+        "distinct_recruitment_record_count": 48,
+        "occupation_count": 194,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:医疗健康与医疗器械",
+        "display_label": "医疗健康与医疗器械",
+        "job_group_count": 168,
+        "distinct_recruitment_record_count": 35,
+        "occupation_count": 168,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:市场营销与传媒",
+        "display_label": "市场营销与传媒",
+        "job_group_count": 159,
+        "distinct_recruitment_record_count": 49,
+        "occupation_count": 159,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:建筑与房地产",
+        "display_label": "建筑与房地产",
+        "job_group_count": 390,
+        "distinct_recruitment_record_count": 110,
+        "occupation_count": 390,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:教育与人力资本",
+        "display_label": "教育与人力资本",
+        "job_group_count": 510,
+        "distinct_recruitment_record_count": 160,
+        "occupation_count": 510,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:新能源与能源产业",
+        "display_label": "新能源与能源产业",
+        "job_group_count": 517,
+        "distinct_recruitment_record_count": 131,
+        "occupation_count": 517,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:智能制造与工业",
+        "display_label": "智能制造与工业",
+        "job_group_count": 617,
+        "distinct_recruitment_record_count": 142,
+        "occupation_count": 617,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:汽车与智能交通",
+        "display_label": "汽车与智能交通",
+        "job_group_count": 218,
+        "distinct_recruitment_record_count": 49,
+        "occupation_count": 218,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:物流与供应链",
+        "display_label": "物流与供应链",
+        "job_group_count": 272,
+        "distinct_recruitment_record_count": 80,
+        "occupation_count": 272,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:环境生态与资源",
+        "display_label": "环境生态与资源",
+        "job_group_count": 25,
+        "distinct_recruitment_record_count": 11,
+        "occupation_count": 25,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:生物医药与生命科学",
+        "display_label": "生物医药与生命科学",
+        "job_group_count": 180,
+        "distinct_recruitment_record_count": 43,
+        "occupation_count": 180,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:电子信息与通信产业",
+        "display_label": "电子信息与通信产业",
+        "job_group_count": 828,
+        "distinct_recruitment_record_count": 220,
+        "occupation_count": 828,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:电子商务与零售",
+        "display_label": "电子商务与零售",
+        "job_group_count": 234,
+        "distinct_recruitment_record_count": 87,
+        "occupation_count": 234,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:航空航天与低空经济",
+        "display_label": "航空航天与低空经济",
+        "job_group_count": 127,
+        "distinct_recruitment_record_count": 25,
+        "occupation_count": 127,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      },
+      {
+        "context_label": "l1:金融与金融科技",
+        "display_label": "金融与金融科技",
+        "job_group_count": 1402,
+        "distinct_recruitment_record_count": 686,
+        "occupation_count": 1402,
+        "source_industry_category_values": [],
+        "rule": "industry_category matched exactly one frozen INDUSTRY_CONTEXT_TO_LEVEL_1 target"
+      }
+    ],
+    "Recruitment Source Category": [
+      {
+        "context_label": "raw:it互联网游戏,房地产建筑",
+        "display_label": "it互联网游戏,房地产建筑",
+        "job_group_count": 12,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 12,
+        "source_industry_category_values": [
+          "IT/互联网/游戏, 房地产/建筑"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:it互联网游戏,能源化工环保",
+        "display_label": "it互联网游戏,能源化工环保",
+        "job_group_count": 13,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 13,
+        "source_industry_category_values": [
+          "IT/互联网/游戏, 能源/化工/环保"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:七工材料",
+        "display_label": "七工材料",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 3,
+        "source_industry_category_values": [
+          "七工/材料"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:专业技术服务检测认证",
+        "display_label": "专业技术服务检测认证",
+        "job_group_count": 11,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 11,
+        "source_industry_category_values": [
+          "专业技术服务/检测认证"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:专业服务",
+        "display_label": "专业服务",
+        "job_group_count": 269,
+        "distinct_recruitment_record_count": 65,
+        "occupation_count": 269,
+        "source_industry_category_values": [
+          "专业服务"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:专利商标知识产权",
+        "display_label": "专利商标知识产权",
+        "job_group_count": 6,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 6,
+        "source_industry_category_values": [
+          "专利/商标/知识产权"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:互联网,教育",
+        "display_label": "互联网,教育",
+        "job_group_count": 14,
+        "distinct_recruitment_record_count": 4,
+        "occupation_count": 14,
+        "source_industry_category_values": [
+          "互联网, 教育"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:互联网,物流供应链",
+        "display_label": "互联网,物流供应链",
+        "job_group_count": 6,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 6,
+        "source_industry_category_values": [
+          "互联网, 物流/供应链"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:互联网,电商跨境",
+        "display_label": "互联网,电商跨境",
+        "job_group_count": 9,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 9,
+        "source_industry_category_values": [
+          "互联网, 电商跨境"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:五金制品金属材料",
+        "display_label": "五金制品金属材料",
+        "job_group_count": 11,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 11,
+        "source_industry_category_values": [
+          "五金制品/金属材料"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:交通工具",
+        "display_label": "交通工具",
+        "job_group_count": 13,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 13,
+        "source_industry_category_values": [
+          "交通工具"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:交通运输",
+        "display_label": "交通运输",
+        "job_group_count": 9,
+        "distinct_recruitment_record_count": 3,
+        "occupation_count": 9,
+        "source_industry_category_values": [
+          "交通运输"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:人事咨询",
+        "display_label": "人事咨询",
+        "job_group_count": 14,
+        "distinct_recruitment_record_count": 9,
+        "occupation_count": 14,
+        "source_industry_category_values": [
+          "人事/咨询"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:仪器仪表",
+        "display_label": "仪器仪表",
+        "job_group_count": 4,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 4,
+        "source_industry_category_values": [
+          "仪器仪表"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:传媒直播,互联网",
+        "display_label": "传媒直播,互联网",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "传媒/直播, 互联网"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:体育健身",
+        "display_label": "体育健身",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "体育健身"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:信息数据",
+        "display_label": "信息数据",
+        "job_group_count": 27,
+        "distinct_recruitment_record_count": 8,
+        "occupation_count": 27,
+        "source_industry_category_values": [
+          "信息/数据",
+          "信息数据"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:信息科技",
+        "display_label": "信息科技",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "信息科技"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:光学设备",
+        "display_label": "光学设备",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 3,
+        "source_industry_category_values": [
+          "光学设备"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:其他",
+        "display_label": "其他",
+        "job_group_count": 700,
+        "distinct_recruitment_record_count": 153,
+        "occupation_count": 700,
+        "source_industry_category_values": [
+          "其他"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:制造交通工具汽车",
+        "display_label": "制造交通工具汽车",
+        "job_group_count": 6,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 6,
+        "source_industry_category_values": [
+          "制造-交通工具-汽车"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:制造机械电子",
+        "display_label": "制造机械电子",
+        "job_group_count": 20,
+        "distinct_recruitment_record_count": 3,
+        "occupation_count": 20,
+        "source_industry_category_values": [
+          "制造-机械/电子"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:化工材料",
+        "display_label": "化工材料",
+        "job_group_count": 36,
+        "distinct_recruitment_record_count": 14,
+        "occupation_count": 36,
+        "source_industry_category_values": [
+          "化工-材料",
+          "化工/材料"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:原材料加工玻璃",
+        "display_label": "原材料加工玻璃",
+        "job_group_count": 20,
+        "distinct_recruitment_record_count": 4,
+        "occupation_count": 20,
+        "source_industry_category_values": [
+          "原材料加工/玻璃"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:咨询",
+        "display_label": "咨询",
+        "job_group_count": 20,
+        "distinct_recruitment_record_count": 9,
+        "occupation_count": 20,
+        "source_industry_category_values": [
+          "咨询"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:商务服务业",
+        "display_label": "商务服务业",
+        "job_group_count": 5,
+        "distinct_recruitment_record_count": 3,
+        "occupation_count": 5,
+        "source_industry_category_values": [
+          "商务服务业"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:商务服务咨询",
+        "display_label": "商务服务咨询",
+        "job_group_count": 55,
+        "distinct_recruitment_record_count": 23,
+        "occupation_count": 55,
+        "source_industry_category_values": [
+          "商务服务/咨询"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:商旅",
+        "display_label": "商旅",
+        "job_group_count": 26,
+        "distinct_recruitment_record_count": 4,
+        "occupation_count": 26,
+        "source_industry_category_values": [
+          "商旅"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:商贸批发",
+        "display_label": "商贸批发",
+        "job_group_count": 7,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 7,
+        "source_industry_category_values": [
+          "商贸批发"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:外贸跨境",
+        "display_label": "外贸跨境",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "外贸/跨境"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:多元化综合业务集团公司投资集团",
+        "display_label": "多元化综合业务集团公司投资集团",
+        "job_group_count": 44,
+        "distinct_recruitment_record_count": 15,
+        "occupation_count": 44,
+        "source_industry_category_values": [
+          "多元化综合业务集团公 司/投资集团",
+          "多元化综合业务集团公司/投资集团"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:奢侈品",
+        "display_label": "奢侈品",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "奢侈品"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:奢侈品收藏品",
+        "display_label": "奢侈品收藏品",
+        "job_group_count": 4,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 4,
+        "source_industry_category_values": [
+          "奢侈品/收藏品"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:学术科研研究所",
+        "display_label": "学术科研研究所",
+        "job_group_count": 24,
+        "distinct_recruitment_record_count": 8,
+        "occupation_count": 24,
+        "source_industry_category_values": [
+          "学术科研/研究所"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:安防器材",
+        "display_label": "安防器材",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "安防器材"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:实体商超",
+        "display_label": "实体商超",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "实体商超"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:宠物",
+        "display_label": "宠物",
+        "job_group_count": 7,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 7,
+        "source_industry_category_values": [
+          "宠物"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:家具木材",
+        "display_label": "家具木材",
+        "job_group_count": 6,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 6,
+        "source_industry_category_values": [
+          "家具/木材"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:家电",
+        "display_label": "家电",
+        "job_group_count": 6,
+        "distinct_recruitment_record_count": 3,
+        "occupation_count": 6,
+        "source_industry_category_values": [
+          "家电"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:影视文化",
+        "display_label": "影视文化",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "影视文化"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:快速消费品",
+        "display_label": "快速消费品",
+        "job_group_count": 60,
+        "distinct_recruitment_record_count": 19,
+        "occupation_count": 60,
+        "source_industry_category_values": [
+          "快速消费品"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:房产中介",
+        "display_label": "房产中介",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "房产/中介"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:教育,互联网",
+        "display_label": "教育,互联网",
+        "job_group_count": 7,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 7,
+        "source_industry_category_values": [
+          "教育, 互联网"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:数码产品",
+        "display_label": "数码产品",
+        "job_group_count": 14,
+        "distinct_recruitment_record_count": 6,
+        "occupation_count": 14,
+        "source_industry_category_values": [
+          "数码产品"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:新媒体",
+        "display_label": "新媒体",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "新媒体"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:智能硬件",
+        "display_label": "智能硬件",
+        "job_group_count": 58,
+        "distinct_recruitment_record_count": 7,
+        "occupation_count": 58,
+        "source_industry_category_values": [
+          "智能硬件"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:智能硬件机器人",
+        "display_label": "智能硬件机器人",
+        "job_group_count": 48,
+        "distinct_recruitment_record_count": 11,
+        "occupation_count": 48,
+        "source_industry_category_values": [
+          "智能硬件/机器人"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:服装纺织",
+        "display_label": "服装纺织",
+        "job_group_count": 24,
+        "distinct_recruitment_record_count": 12,
+        "occupation_count": 24,
+        "source_industry_category_values": [
+          "服装/纺织"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:服饰",
+        "display_label": "服饰",
+        "job_group_count": 5,
+        "distinct_recruitment_record_count": 3,
+        "occupation_count": 5,
+        "source_industry_category_values": [
+          "服饰"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:未明确",
+        "display_label": "未明确",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "未明确"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:机器人",
+        "display_label": "机器人",
+        "job_group_count": 10,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 10,
+        "source_industry_category_values": [
+          "机器人"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:机械电子",
+        "display_label": "机械电子",
+        "job_group_count": 121,
+        "distinct_recruitment_record_count": 26,
+        "occupation_count": 121,
+        "source_industry_category_values": [
+          "机械/电子"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:机械电子类",
+        "display_label": "机械电子类",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "机械/电子类"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:检测认证",
+        "display_label": "检测认证",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 3,
+        "source_industry_category_values": [
+          "检测/认证"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:水利",
+        "display_label": "水利",
+        "job_group_count": 23,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 23,
+        "source_industry_category_values": [
+          "水利"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:汽车制造维修零配件",
+        "display_label": "汽车制造维修零配件",
+        "job_group_count": 100,
+        "distinct_recruitment_record_count": 11,
+        "occupation_count": 100,
+        "source_industry_category_values": [
+          "汽车制造/维修/零配件"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:法律",
+        "display_label": "法律",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "法律"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:测量测绘地理信息",
+        "display_label": "测量测绘地理信息",
+        "job_group_count": 16,
+        "distinct_recruitment_record_count": 4,
+        "occupation_count": 16,
+        "source_industry_category_values": [
+          "测量/测绘地理信息"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:消费",
+        "display_label": "消费",
+        "job_group_count": 365,
+        "distinct_recruitment_record_count": 76,
+        "occupation_count": 365,
+        "source_industry_category_values": [
+          "消费"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:消费,科技",
+        "display_label": "消费,科技",
+        "job_group_count": 53,
+        "distinct_recruitment_record_count": 3,
+        "occupation_count": 53,
+        "source_industry_category_values": [
+          "消费, 科技"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:消费品",
+        "display_label": "消费品",
+        "job_group_count": 159,
+        "distinct_recruitment_record_count": 39,
+        "occupation_count": 159,
+        "source_industry_category_values": [
+          "消费品"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:渔业",
+        "display_label": "渔业",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "渔业"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:游戏",
+        "display_label": "游戏",
+        "job_group_count": 147,
+        "distinct_recruitment_record_count": 28,
+        "occupation_count": 147,
+        "source_industry_category_values": [
+          "游戏"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:游戏动画",
+        "display_label": "游戏动画",
+        "job_group_count": 28,
+        "distinct_recruitment_record_count": 7,
+        "occupation_count": 28,
+        "source_industry_category_values": [
+          "游戏动画"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:烟草",
+        "display_label": "烟草",
+        "job_group_count": 8,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 8,
+        "source_industry_category_values": [
+          "烟草"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:物业",
+        "display_label": "物业",
+        "job_group_count": 8,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 8,
+        "source_industry_category_values": [
+          "物业"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:物业产业园",
+        "display_label": "物业产业园",
+        "job_group_count": 40,
+        "distinct_recruitment_record_count": 12,
+        "occupation_count": 40,
+        "source_industry_category_values": [
+          "物业/产业园"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:生活服务业",
+        "display_label": "生活服务业",
+        "job_group_count": 39,
+        "distinct_recruitment_record_count": 6,
+        "occupation_count": 39,
+        "source_industry_category_values": [
+          "生活服务业"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:生物医药",
+        "display_label": "生物医药",
+        "job_group_count": 353,
+        "distinct_recruitment_record_count": 82,
+        "occupation_count": 353,
+        "source_industry_category_values": [
+          "生物/医药",
+          "生物医药"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:生物医药,科技",
+        "display_label": "生物医药,科技",
+        "job_group_count": 13,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 13,
+        "source_industry_category_values": [
+          "生物医药, 科技"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:电商跨境电商数字零售零售互联网",
+        "display_label": "电商跨境电商数字零售零售互联网",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "电商/跨境电商/数字零售/零售互联网"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:电器家电",
+        "display_label": "电器家电",
+        "job_group_count": 19,
+        "distinct_recruitment_record_count": 5,
+        "occupation_count": 19,
+        "source_industry_category_values": [
+          "电器/家电"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:电子通信半导体,制造业",
+        "display_label": "电子通信半导体,制造业",
+        "job_group_count": 113,
+        "distinct_recruitment_record_count": 18,
+        "occupation_count": 113,
+        "source_industry_category_values": [
+          "电子/通信/半导体, 制造业"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:电子通信半导体,教育培训科研",
+        "display_label": "电子通信半导体,教育培训科研",
+        "job_group_count": 27,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 27,
+        "source_industry_category_values": [
+          "电子/通信/半导体, 教育/培训/科研"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:电子通信半导体,能源化工环保",
+        "display_label": "电子通信半导体,能源化工环保",
+        "job_group_count": 11,
+        "distinct_recruitment_record_count": 3,
+        "occupation_count": 11,
+        "source_industry_category_values": [
+          "电子/通信/半导体, 能源/化工/环保"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:电池储能",
+        "display_label": "电池储能",
+        "job_group_count": 5,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 5,
+        "source_industry_category_values": [
+          "电池储能"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:电线电缆光纤光缆",
+        "display_label": "电线电缆光纤光缆",
+        "job_group_count": 4,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 4,
+        "source_industry_category_values": [
+          "电线电缆/光纤光缆"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:畜牧业",
+        "display_label": "畜牧业",
+        "job_group_count": 25,
+        "distinct_recruitment_record_count": 3,
+        "occupation_count": 25,
+        "source_industry_category_values": [
+          "畜牧业"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:石油石化化学化工",
+        "display_label": "石油石化化学化工",
+        "job_group_count": 42,
+        "distinct_recruitment_record_count": 16,
+        "occupation_count": 42,
+        "source_industry_category_values": [
+          "石油石化/化学化工"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:矿产金属",
+        "display_label": "矿产金属",
+        "job_group_count": 5,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 5,
+        "source_industry_category_values": [
+          "矿产金属"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:矿产钢铁",
+        "display_label": "矿产钢铁",
+        "job_group_count": 31,
+        "distinct_recruitment_record_count": 17,
+        "occupation_count": 31,
+        "source_industry_category_values": [
+          "矿产/钢铁"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:科技",
+        "display_label": "科技",
+        "job_group_count": 1096,
+        "distinct_recruitment_record_count": 227,
+        "occupation_count": 1096,
+        "source_industry_category_values": [
+          "科技"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:科技,专业服务",
+        "display_label": "科技,专业服务",
+        "job_group_count": 15,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 15,
+        "source_industry_category_values": [
+          "科技, 专业服务"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:科技,消费",
+        "display_label": "科技,消费",
+        "job_group_count": 4,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 4,
+        "source_industry_category_values": [
+          "科技, 消费"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:科技,生物医药",
+        "display_label": "科技,生物医药",
+        "job_group_count": 16,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 16,
+        "source_industry_category_values": [
+          "科技, 生物医药"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:科研",
+        "display_label": "科研",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "科研"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:粮油仓储",
+        "display_label": "粮油仓储",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 3,
+        "source_industry_category_values": [
+          "粮油仓储"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:纸张印染",
+        "display_label": "纸张印染",
+        "job_group_count": 5,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 5,
+        "source_industry_category_values": [
+          "纸张印染"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:绫致时装",
+        "display_label": "绫致时装",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "绫致时装"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:耐用消费品",
+        "display_label": "耐用消费品",
+        "job_group_count": 15,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 15,
+        "source_industry_category_values": [
+          "耐用消费品"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:能源化工环保",
+        "display_label": "能源化工环保",
+        "job_group_count": 543,
+        "distinct_recruitment_record_count": 136,
+        "occupation_count": 543,
+        "source_industry_category_values": [
+          "能源/化工/环保"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:能源化工环保,农林牧渔",
+        "display_label": "能源化工环保,农林牧渔",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "能源/化工/环保, 农林牧渔"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:致育培训",
+        "display_label": "致育培训",
+        "job_group_count": 6,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 6,
+        "source_industry_category_values": [
+          "致育/培训"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:航空运营",
+        "display_label": "航空运营",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 3,
+        "source_industry_category_values": [
+          "航空运营"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:船舶",
+        "display_label": "船舶",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "船舶"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:芯片",
+        "display_label": "芯片",
+        "job_group_count": 5,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 5,
+        "source_industry_category_values": [
+          "芯片"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:设计装修",
+        "display_label": "设计装修",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 3,
+        "source_industry_category_values": [
+          "设计/装修"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:财务审计税务",
+        "display_label": "财务审计税务",
+        "job_group_count": 27,
+        "distinct_recruitment_record_count": 10,
+        "occupation_count": 27,
+        "source_industry_category_values": [
+          "财务/审计/税务"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:财税审计",
+        "display_label": "财税审计",
+        "job_group_count": 15,
+        "distinct_recruitment_record_count": 8,
+        "occupation_count": 15,
+        "source_industry_category_values": [
+          "财税/审计"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:进出口贸易供应链",
+        "display_label": "进出口贸易供应链",
+        "job_group_count": 20,
+        "distinct_recruitment_record_count": 6,
+        "occupation_count": 20,
+        "source_industry_category_values": [
+          "进出口贸易/供应链"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:造纸纸制品",
+        "display_label": "造纸纸制品",
+        "job_group_count": 13,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 13,
+        "source_industry_category_values": [
+          "造纸/纸制品"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:酒店",
+        "display_label": "酒店",
+        "job_group_count": 5,
+        "distinct_recruitment_record_count": 3,
+        "occupation_count": 5,
+        "source_industry_category_values": [
+          "酒店"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:酒店餐饮",
+        "display_label": "酒店餐饮",
+        "job_group_count": 45,
+        "distinct_recruitment_record_count": 19,
+        "occupation_count": 45,
+        "source_industry_category_values": [
+          "酒店/餐饮"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:酒水",
+        "display_label": "酒水",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 3,
+        "source_industry_category_values": [
+          "酒水"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:金属制品业金属工艺品",
+        "display_label": "金属制品业金属工艺品",
+        "job_group_count": 1,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 1,
+        "source_industry_category_values": [
+          "金属制品业/金属工艺品"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:非金属矿物制品业建材",
+        "display_label": "非金属矿物制品业建材",
+        "job_group_count": 8,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 8,
+        "source_industry_category_values": [
+          "非金属矿物制品业/建材"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:食品",
+        "display_label": "食品",
+        "job_group_count": 8,
+        "distinct_recruitment_record_count": 4,
+        "occupation_count": 8,
+        "source_industry_category_values": [
+          "食品"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      },
+      {
+        "context_label": "raw:高端装备与国防科技抗空航天",
+        "display_label": "高端装备与国防科技抗空航天",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "高端装备与国防科技/抗空航天"
+        ],
+        "rule": "unmapped normalized 行业类别 value retained with raw: prefix"
+      }
+    ],
+    "Unknown / Ambiguous": [
+      {
+        "context_label": "raw:unknown",
+        "display_label": "unknown",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 3,
+        "source_industry_category_values": [],
+        "rule": "industry_category missing after deterministic normalization"
+      },
+      {
+        "context_label": "raw:专业服务,其他",
+        "display_label": "专业服务,其他",
+        "job_group_count": 4,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 4,
+        "source_industry_category_values": [
+          "专业服务, 其他"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:专业服务,国企",
+        "display_label": "专业服务,国企",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 3,
+        "source_industry_category_values": [
+          "专业服务, 国企"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:专业服务,外企",
+        "display_label": "专业服务,外企",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "专业服务, 外企"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:其他,国企",
+        "display_label": "其他,国企",
+        "job_group_count": 5,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 5,
+        "source_industry_category_values": [
+          "其他, 国企"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:其他,外企",
+        "display_label": "其他,外企",
+        "job_group_count": 4,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 4,
+        "source_industry_category_values": [
+          "其他, 外企"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:其他,消费",
+        "display_label": "其他,消费",
+        "job_group_count": 26,
+        "distinct_recruitment_record_count": 6,
+        "occupation_count": 26,
+        "source_industry_category_values": [
+          "其他, 消费"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:其他,科技",
+        "display_label": "其他,科技",
+        "job_group_count": 151,
+        "distinct_recruitment_record_count": 21,
+        "occupation_count": 151,
+        "source_industry_category_values": [
+          "其他, 科技"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:国企,专业服务",
+        "display_label": "国企,专业服务",
+        "job_group_count": 10,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 10,
+        "source_industry_category_values": [
+          "国企, 专业服务"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:国企,其他",
+        "display_label": "国企,其他",
+        "job_group_count": 68,
+        "distinct_recruitment_record_count": 10,
+        "occupation_count": 68,
+        "source_industry_category_values": [
+          "国企, 其他"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:国企,消费",
+        "display_label": "国企,消费",
+        "job_group_count": 2,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 2,
+        "source_industry_category_values": [
+          "国企, 消费"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:国企,生物医药",
+        "display_label": "国企,生物医药",
+        "job_group_count": 6,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 6,
+        "source_industry_category_values": [
+          "国企, 生物医药"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:国企,科技",
+        "display_label": "国企,科技",
+        "job_group_count": 65,
+        "distinct_recruitment_record_count": 10,
+        "occupation_count": 65,
+        "source_industry_category_values": [
+          "国企, 科技"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:国企,科技,其他",
+        "display_label": "国企,科技,其他",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 3,
+        "source_industry_category_values": [
+          "国企, 科技, 其他"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:外企,专业服务",
+        "display_label": "外企,专业服务",
+        "job_group_count": 16,
+        "distinct_recruitment_record_count": 4,
+        "occupation_count": 16,
+        "source_industry_category_values": [
+          "外企, 专业服务"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:外企,其他",
+        "display_label": "外企,其他",
+        "job_group_count": 9,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 9,
+        "source_industry_category_values": [
+          "外企, 其他"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:外企,消费",
+        "display_label": "外企,消费",
+        "job_group_count": 14,
+        "distinct_recruitment_record_count": 5,
+        "occupation_count": 14,
+        "source_industry_category_values": [
+          "外企, 消费"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:外企,生物医药",
+        "display_label": "外企,生物医药",
+        "job_group_count": 3,
+        "distinct_recruitment_record_count": 2,
+        "occupation_count": 3,
+        "source_industry_category_values": [
+          "外企, 生物医药"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:外企,科技",
+        "display_label": "外企,科技",
+        "job_group_count": 20,
+        "distinct_recruitment_record_count": 3,
+        "occupation_count": 20,
+        "source_industry_category_values": [
+          "外企, 科技"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:消费,其他",
+        "display_label": "消费,其他",
+        "job_group_count": 9,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 9,
+        "source_industry_category_values": [
+          "消费, 其他"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:消费,国企",
+        "display_label": "消费,国企",
+        "job_group_count": 7,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 7,
+        "source_industry_category_values": [
+          "消费, 国企"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:消费,外企",
+        "display_label": "消费,外企",
+        "job_group_count": 19,
+        "distinct_recruitment_record_count": 7,
+        "occupation_count": 19,
+        "source_industry_category_values": [
+          "消费, 外企"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:生物医药,国企",
+        "display_label": "生物医药,国企",
+        "job_group_count": 11,
+        "distinct_recruitment_record_count": 1,
+        "occupation_count": 11,
+        "source_industry_category_values": [
+          "生物医药, 国企"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:科技,其他",
+        "display_label": "科技,其他",
+        "job_group_count": 132,
+        "distinct_recruitment_record_count": 14,
+        "occupation_count": 132,
+        "source_industry_category_values": [
+          "科技, 其他"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      },
+      {
+        "context_label": "raw:科技,国企",
+        "display_label": "科技,国企",
+        "job_group_count": 106,
+        "distinct_recruitment_record_count": 11,
+        "occupation_count": 106,
+        "source_industry_category_values": [
+          "科技, 国企"
+        ],
+        "rule": "raw industry_category is a composite including an enterprise-type token; no governed split exists"
+      }
+    ],
+    "Organization / Ownership Type": [
+      {
+        "context_label": "raw:事业单位",
+        "display_label": "事业单位",
+        "job_group_count": 629,
+        "distinct_recruitment_record_count": 150,
+        "occupation_count": 629,
+        "source_industry_category_values": [
+          "事业单位"
+        ],
+        "rule": "raw industry_category exactly equals a normalized 企业类型 value"
+      },
+      {
+        "context_label": "raw:国企",
+        "display_label": "国企",
+        "job_group_count": 1777,
+        "distinct_recruitment_record_count": 460,
+        "occupation_count": 1777,
+        "source_industry_category_values": [
+          "国企"
+        ],
+        "rule": "raw industry_category exactly equals a normalized 企业类型 value"
+      },
+      {
+        "context_label": "raw:外企",
+        "display_label": "外企",
+        "job_group_count": 84,
+        "distinct_recruitment_record_count": 14,
+        "occupation_count": 84,
+        "source_industry_category_values": [
+          "外企"
+        ],
+        "rule": "raw industry_category exactly equals a normalized 企业类型 value"
+      }
+    ],
+    "Occupation-related category": []
+  },
+  "trace_examples": {
+    "国企": {
+      "source_field": "行业类别",
+      "normalized_value": "国企",
+      "mapping_result": "raw:国企",
+      "reason": "no frozen Level-1 mapping token; normalized value also equals an 企业类型 value, so classified Organization / Ownership Type"
+    },
+    "金融": {
+      "source_field": "行业类别",
+      "normalized_value": "金融",
+      "mapping_result": "l1:金融与金融科技",
+      "reason": "frozen INDUSTRY_CONTEXT_TO_LEVEL_1 maps 金融 uniquely"
+    },
+    "科技": {
+      "source_field": "行业类别",
+      "normalized_value": "科技",
+      "mapping_result": "raw:科技",
+      "reason": "no frozen Level-1 mapping token; retained raw source category"
+    }
+  },
+  "mixing_location": "normalization produces both l1:* and raw:* values in the same industry_domain_context field; the previous display hierarchy exposed both branches. Frozen Product Data preserves the distinction via context_classification. Frontend did not create the mixed semantics.",
+  "industry_map_eligibility": {
+    "supported": true,
+    "include": "only contexts with l1: prefix (taxonomy_domain)",
+    "exclude": "all raw:* contexts from the Industry Map; retain them as provenance/evidence metadata",
+    "deterministic_metrics": "from job_groups_v2: union source_recruitment_record_ids for demand; occupation identity mapping for occupation count/demand; existing Product Data skill_intelligence_available for coverage",
+    "navigation": "招聘市场 → l1 Industry / Domain → occupations in that context → occupation × context Skills/Evidence; no second context selector"
+  }
+}

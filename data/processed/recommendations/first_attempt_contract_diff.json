@@ -1,0 +1,27 @@
+{
+  "source": "first recommendation API response",
+  "structured_schema_errors": [
+    "top_level missing fields: overall_summary, program_id",
+    "top_level limitations must be an array of strings",
+    "recommendation[1] missing fields: rationale, recommendation_id, suggested_change, title",
+    "recommendation[1] limitations must be an array of strings",
+    "recommendation[2] missing fields: rationale, recommendation_id, suggested_change, title",
+    "recommendation[2] limitations must be an array of strings",
+    "recommendation[3] missing fields: rationale, recommendation_id, suggested_change, title",
+    "recommendation[3] limitations must be an array of strings",
+    "recommendation[4] missing fields: rationale, recommendation_id, suggested_change, title",
+    "recommendation[4] limitations must be an array of strings",
+    "recommendation[5] missing fields: rationale, recommendation_id, suggested_change, title",
+    "recommendation[5] limitations must be an array of strings"
+  ],
+  "domain_validation_errors": [
+    "program_id must match supplied program",
+    "overall_summary must be a non-empty string",
+    "limitations must be a list",
+    "recommendation[1] missing fields: rationale, recommendation_id, suggested_change, title",
+    "recommendation[2] missing fields: rationale, recommendation_id, suggested_change, title",
+    "recommendation[3] missing fields: rationale, recommendation_id, suggested_change, title",
+    "recommendation[4] missing fields: rationale, recommendation_id, suggested_change, title",
+    "recommendation[5] missing fields: rationale, recommendation_id, suggested_change, title"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "556d9cae-21d6-4310-a46f-09396efacee5",
+  "object": "chat.completion",
+  "created": 1792571287,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-2e31b7e07052bd7c8424b79ab2d2477e\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L20-11\",\"L20-08\",\"L14-07\"],\"title_evidence\":\"总行部门经办岗：银行总行部门经办，未说明具体金融业务方向\",\"level_3_evidence\":null,\"reason\":\"“经办岗”为银行内部泛化事务岗位，未明确具体职能（如信贷、清算、运营或客户服务），仅凭银行行业背景不足以确定金融专业方向，按规则标 review 并给出候选。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16928,
+    "completion_tokens": 151,
+    "total_tokens": 17079,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 288
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

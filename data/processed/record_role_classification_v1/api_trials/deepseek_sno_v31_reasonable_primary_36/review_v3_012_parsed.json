@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_012_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-f3a551d78495c24ba751",
+      "verdict": "pass",
+      "suggested_target_category_id": "L32-01",
+      "issue": "标题为银行分行公司业务培训生，属真实培养项目且最终职业方向未明确，归L32-01合理；L20-11仅作候选，未作为目标。"
+    },
+    {
+      "occupation_id": "SNO-9170b111decf5a940895",
+      "verdict": "pass",
+      "suggested_target_category_id": "L32-01",
+      "issue": "标题含管培生，属综合培养轮岗，归L32-01合理；供试品配置/管理为培养方向线索，未明确固定职能。"
+    },
+    {
+      "occupation_id": "SNO-f726e823532c0682f85b",
+      "verdict": "pass",
+      "suggested_target_category_id": "L32-01",
+      "issue": "标题为品类发展管培生，属真实培养项目且最终职业方向未明确，归L32-01合理；L14-04仅作候选，未作为目标。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11435,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 683,
+    "output_tokens": 231,
+    "reasoning_tokens": 0,
+    "total_tokens": 11666
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000273306
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

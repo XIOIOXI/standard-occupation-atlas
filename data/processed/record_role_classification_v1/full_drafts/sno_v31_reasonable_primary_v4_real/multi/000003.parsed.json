@@ -1,0 +1,489 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-4bb1357e746e4e4f0b25",
+      "case": "A",
+      "child_titles": [
+        "主播",
+        "设计",
+        "产品岗"
+      ],
+      "source_spans": [
+        {
+          "text": "主播",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "text": "设计",
+          "start": 4,
+          "end": 6
+        },
+        {
+          "text": "产品岗",
+          "start": 7,
+          "end": 10
+        }
+      ],
+      "reason": "标题由斜杠分隔的多个独立岗位组成，可拆分为三个子岗位。"
+    },
+    {
+      "original_record_id": "TG-684b41c66bb1adf005b1",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为技术方向说明，不构成独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-aaa4a82a88151b1079e8",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠连接的两个词共同描述该岗位，不构成独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-194da3a5a799db6e243e",
+      "case": "A",
+      "child_titles": [
+        "新闻采编",
+        "专题文艺",
+        "国际传播",
+        "媒体技术",
+        "经营管理",
+        "台属公司岗位"
+      ],
+      "source_spans": [
+        {
+          "text": "新闻采编",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "专题文艺",
+          "start": 5,
+          "end": 9
+        },
+        {
+          "text": "国际传播",
+          "start": 10,
+          "end": 14
+        },
+        {
+          "text": "媒体技术",
+          "start": 15,
+          "end": 19
+        },
+        {
+          "text": "经营管理",
+          "start": 20,
+          "end": 24
+        },
+        {
+          "text": "台属公司岗位",
+          "start": 25,
+          "end": 31
+        }
+      ],
+      "reason": "标题由空格分隔的多个独立岗位组成，可拆分为六个子岗位。"
+    },
+    {
+      "original_record_id": "TG-435b51d1a7fb8d7cf18b",
+      "case": "A",
+      "child_titles": [
+        "新事业发展部文创实设计师",
+        "勘测所测绘技术员"
+      ],
+      "source_spans": [
+        {
+          "text": "新事业发展部文创实设计师",
+          "start": 0,
+          "end": 12
+        },
+        {
+          "text": "勘测所测绘技术员",
+          "start": 12,
+          "end": 20
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接连接组成，可拆分为两个子岗位。"
+    },
+    {
+      "original_record_id": "TG-a7c16a0ba2b827d85d1f",
+      "case": "A",
+      "child_titles": [
+        "工艺技术方向",
+        "研发设计方向",
+        "智能制造方向",
+        "厂务环安方向",
+        "IE方向",
+        "质量方向",
+        "信息技术方向",
+        "项目管理方向",
+        "生产计划方向",
+        "供应链方向",
+        "人力&法务知识产权万问"
+      ],
+      "source_spans": [
+        {
+          "text": "工艺技术方向",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "研发设计方向",
+          "start": 6,
+          "end": 12
+        },
+        {
+          "text": "智能制造方向",
+          "start": 12,
+          "end": 18
+        },
+        {
+          "text": "厂务环安方向",
+          "start": 18,
+          "end": 24
+        },
+        {
+          "text": "IE方向",
+          "start": 24,
+          "end": 28
+        },
+        {
+          "text": "质量方向",
+          "start": 28,
+          "end": 32
+        },
+        {
+          "text": "信息技术方向",
+          "start": 32,
+          "end": 38
+        },
+        {
+          "text": "项目管理方向",
+          "start": 38,
+          "end": 44
+        },
+        {
+          "text": "生产计划方向",
+          "start": 44,
+          "end": 50
+        },
+        {
+          "text": "供应链方向",
+          "start": 50,
+          "end": 55
+        },
+        {
+          "text": "人力&法务知识产权万问",
+          "start": 55,
+          "end": 67
+        }
+      ],
+      "reason": "标题由多个方向岗位名称直接连接组成，可拆分为多个子岗位。"
+    },
+    {
+      "original_record_id": "TG-ec78152917d0195fe97a",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位类别，括号内为具体方向说明，不构成独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-188d970f0e6e2d5e50b4",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一管培生岗位，括号内为方向说明，不构成独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-ab14301fa6a22a88efce",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠连接的两个词共同描述该岗位，不构成独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-9e0e40d2e6771547d880",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，不包含多个独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-7360eaa2972ec1b0f3f9",
+      "case": "A",
+      "child_titles": [
+        "审计及鉴证服务",
+        "税务服务",
+        "咨询服务",
+        "交易服务"
+      ],
+      "source_spans": [
+        {
+          "text": "审计及鉴证服务",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "text": "税务服务",
+          "start": 7,
+          "end": 11
+        },
+        {
+          "text": "咨询服务",
+          "start": 11,
+          "end": 15
+        },
+        {
+          "text": "交易服务",
+          "start": 15,
+          "end": 19
+        }
+      ],
+      "reason": "标题由多个服务岗位名称直接连接组成，可拆分为四个子岗位。"
+    },
+    {
+      "original_record_id": "TG-4d3cce865aa3b1f521f3",
+      "case": "A",
+      "child_titles": [
+        "零售",
+        "商务拓展",
+        "电商运营",
+        "技术",
+        "人力资源",
+        "行政",
+        "财务",
+        "法务",
+        "视觉",
+        "交互",
+        "设计",
+        "供应链质量"
+      ],
+      "source_spans": [
+        {
+          "text": "零售",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "商务拓展",
+          "start": 3,
+          "end": 7
+        },
+        {
+          "text": "电商运营",
+          "start": 7,
+          "end": 11
+        },
+        {
+          "text": "技术",
+          "start": 12,
+          "end": 14
+        },
+        {
+          "text": "人力资源",
+          "start": 14,
+          "end": 18
+        },
+        {
+          "text": "行政",
+          "start": 19,
+          "end": 21
+        },
+        {
+          "text": "财务",
+          "start": 21,
+          "end": 23
+        },
+        {
+          "text": "法务",
+          "start": 24,
+          "end": 26
+        },
+        {
+          "text": "视觉",
+          "start": 26,
+          "end": 28
+        },
+        {
+          "text": "交互",
+          "start": 29,
+          "end": 31
+        },
+        {
+          "text": "设计",
+          "start": 31,
+          "end": 33
+        },
+        {
+          "text": "供应链质量",
+          "start": 33,
+          "end": 38
+        }
+      ],
+      "reason": "标题由斜杠和空格分隔的多个独立岗位组成，可拆分为多个子岗位。"
+    },
+    {
+      "original_record_id": "TG-ce4777ee22a1f6c22d3f",
+      "case": "A",
+      "child_titles": [
+        "税务日语组",
+        "审计日语组"
+      ],
+      "source_spans": [
+        {
+          "text": "税务日语组",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "审计日语组",
+          "start": 6,
+          "end": 11
+        }
+      ],
+      "reason": "标题由空格分隔的两个独立岗位组组成，可拆分为两个子岗位。"
+    },
+    {
+      "original_record_id": "TG-b85c6b910db90ba6d130",
+      "case": "A",
+      "child_titles": [
+        "研发实验员",
+        "检验员",
+        "国际销售"
+      ],
+      "source_spans": [
+        {
+          "text": "研发实验员",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "检验员",
+          "start": 5,
+          "end": 8
+        },
+        {
+          "text": "国际销售",
+          "start": 8,
+          "end": 12
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接连接组成，可拆分为三个子岗位。"
+    },
+    {
+      "original_record_id": "TG-e2aa90219f9d67e98048",
+      "case": "A",
+      "child_titles": [
+        "生产主控",
+        "文秘",
+        "算法工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "生产主控",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "文秘",
+          "start": 4,
+          "end": 6
+        },
+        {
+          "text": "算法工程师",
+          "start": 6,
+          "end": 11
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接连接组成，可拆分为三个子岗位。"
+    },
+    {
+      "original_record_id": "TG-4b08a3156e54991318ae",
+      "case": "A",
+      "child_titles": [
+        "外销业务员",
+        "商务专员"
+      ],
+      "source_spans": [
+        {
+          "text": "外销业务员",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "商务专员",
+          "start": 5,
+          "end": 9
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接连接组成，可拆分为两个子岗位。"
+    },
+    {
+      "original_record_id": "TG-bb392fe6fdce5751a4ee",
+      "case": "A",
+      "child_titles": [
+        "工程师",
+        "流程运营专员"
+      ],
+      "source_spans": [
+        {
+          "text": "工程师",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "流程运营专员",
+          "start": 3,
+          "end": 9
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接连接组成，可拆分为两个子岗位。"
+    },
+    {
+      "original_record_id": "TG-0aad22b24a4cea4e6d69",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，不包含多个独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-194f63219f1efa6dcd91",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，不包含多个独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-0da45872386ff2fb283d",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为部门说明，不构成独立子岗位。"
+    }
+  ],
+  "raw_response_file": "000003.raw.json",
+  "usage": {
+    "input_tokens": 836,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 836,
+    "output_tokens": 2674,
+    "reasoning_tokens": 0,
+    "total_tokens": 3510
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0034595999999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

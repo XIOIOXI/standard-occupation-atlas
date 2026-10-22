@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-79eb01462f281b107de191ef66e198d8",
+      "status": "mapped",
+      "target_category_id": "L05-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-02",
+        "L05-01",
+        "L06-08"
+      ],
+      "title_evidence": "德州仪器（半导体外企）产品工程师，属芯片/电子产品工程职能",
+      "level_3_evidence": null,
+      "reason": "半导体公司“产品工程师”通常承担芯片产品工程化、量产导入与良率/产品技术支持，属电子硬件研发范畴；标题未明确数字/模拟/验证/物理设计等三级方向，故落 L05-02 芯片与集成电路设计（二级）。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16953,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 313,
+    "output_tokens": 161,
+    "reasoning_tokens": 0,
+    "total_tokens": 17114
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038694
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

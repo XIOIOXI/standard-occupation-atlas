@@ -1,0 +1,28 @@
+{
+  "id": "c1aacc71-17f3-499a-a023-858417edaf24",
+  "object": "chat.completion",
+  "created": 1791882084,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"TG-b5be8bc6558e102f51e8\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-07d709821e1f94a6e252\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-283bfbb5e3cc1e38c520\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-63d3b61a5fd52c79076d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-39a924b725bec1208288\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-11427993d2dd6d277138\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-f15ca706c766aa102f6d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-58012eb32551873609a6\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-a040d97afcfd8c244f16\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-5d9257ee1ca4be5ea414\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-840593aec957c4ef8d4d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-a7e43c55c0f5a29bbbc0\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}, {\"occupation_id\": \"TG-f265f41ee51c4aa99c0e\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 18410,
+    "completion_tokens": 563,
+    "total_tokens": 18973,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 1898
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

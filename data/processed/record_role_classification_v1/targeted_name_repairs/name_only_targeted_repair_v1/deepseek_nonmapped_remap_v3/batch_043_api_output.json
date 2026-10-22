@@ -1,0 +1,28 @@
+{
+  "id": "0853c97a-8e12-48f6-b22a-1e18f4a84329",
+  "object": "chat.completion",
+  "created": 1791821908,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-871c94bf8fa894de8d42\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"EGG管培生未说明职能方向，管培生本身不是职业，无法确定具体类别。\"},{\"entry_id\":\"SNO-877bc37a64897bae8a12\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出海外销售管理、海外商务管理、海外清关管理三个独立方向，且分属销售、商务、贸易等不同类别，无共同二级。\"},{\"entry_id\":\"SNO-87c1d667239b32e24a55\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"业务定向生方向不明确，缺少具体业务职能信息，无法确认一级或二级。\"},{\"entry_id\":\"SNO-87d41bf9a3102e75aa74\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"管培生（技术方向）仅列出多个专业，未明确具体岗位职责，无法确认技术类别。\"},{\"entry_id\":\"SNO-87de17771c8787acf72c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"吉安分院专业技术未说明具体技术方向，无法确定职业类别。\"},{\"entry_id\":\"SNO-888afbb1cf7f4e9db65f\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"经营管理培生方向不明确，缺少具体职能，无法确认一级或二级。\"},{\"entry_id\":\"SNO-88ae488c14d184010c34\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出建筑设计、城乡规划、景观、室内、结构、给排水、电气、暖通等多个独立设计职业，分属建筑、规划、景观等不同二级，无共同二级。\"},{\"entry_id\":\"SNO-88aff1d6acae85bfd301\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"数字化系统架构工程师可确认属于互联网/AI后端开发下的平台与中间件开发，但名称未明确技术栈，建议复核。\"},{\"entry_id\":\"SNO-88b2c1272227ea36474e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"工程技术名称过于宽泛，缺少具体技术方向，无法确认一级或二级。\"},{\"entry_id\":\"SNO-88d55a17f1680d03e4ff\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出硬件和软件开发两个独立职业方向，分属电子/电气/通信与互联网/AI等不同一级，无共同上级。\"},{\"entry_id\":\"SNO-8922cf05292c2d3518c4\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"Collie名称无法识别具体职业职责，无法确认类别。\"},{\"entry_id\":\"SNO-896ccf982e3bac4680fa\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"精品小课堂管培生职责不明确，缺少具体职能信息，无法确认类别。\"},{\"entry_id\":\"SNO-897011f3115fff927919\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"研发支持未限定技术方向或行业，无法判断具体支持类别。\"},{\"entry_id\":\"SNO-898071bd5dc72b0e6217\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出研发、工艺、质量、EHS等多个独立职能，分属不同类别，无共同二级。\"},{\"entry_id\":\"SNO-8a00344139afc84ac530\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"E.ITTrainee为管培生项目，未明确具体职业方向，无法确认类别。\"},{\"entry_id\":\"SNO-8a2d60d4e9b22b55ace9\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出研发、产品、AI三个独立职业方向，分属不同类别，无共同二级。\"},{\"entry_id\":\"SNO-8a4cebd6238e9275b808\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出煤炭电力、煤化工、新能源装备设计、矿建设计施工、经营管理、专业技术技能操作等多个独立职业，无共同二级。\"},{\"entry_id\":\"SNO-8a5edab282632443219e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"岗位名称为“/”，无法识别职业内容，无法确认类别。\"},{\"entry_id\":\"SNO-8a7697751f67d73a9d3b\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出工艺与设备两个独立方向，分属生产制造不同二级，无共同二级。\"},{\"entry_id\":\"SNO-8abce75c906a7a935a09\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出软硬件开发并覆盖多个学科方向，属多岗位复合，无共同二级。\"},{\"entry_id\":\"SNO-8ac8a92a9e1ac5f2ec43\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"服务管培生未指明行业或职能方向，无法确认类别。\"},{\"entry_id\":\"SNO-8acc3bc9db6bdb182d68\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"管培生（运行岗）未明确行业或运行职能，无法归入具体类别。\"},{\"entry_id\":\"SNO-8ae6fad578b418f5667d\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"计算机类专业管培生方向宽泛，缺少具体技术方向信息，无法确认三级。\"},{\"entry_id\":\"SNO-8ae7981e703338b32d24\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"综合管培生缺少具体职能方向，无法确定归入人力、财务、运营还是其他管理类。\"},{\"entry_id\":\"SNO-8afe68f2ca18752e4d5b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"信息技术相关过于宽泛，缺少具体技术方向，无法确认三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29657,
+    "completion_tokens": 1351,
+    "total_tokens": 31008,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2265
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

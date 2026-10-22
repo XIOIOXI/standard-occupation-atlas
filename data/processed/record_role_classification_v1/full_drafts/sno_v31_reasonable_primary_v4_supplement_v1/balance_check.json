@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-13T12:49:03.537495+00:00",
+  "endpoint": "https://api.deepseek.com/user/balance",
+  "ok": true,
+  "http_status": 200,
+  "response": {
+    "is_available": true,
+    "balance_infos": [
+      {
+        "currency": "CNY",
+        "total_balance": "2.20",
+        "granted_balance": "0.00",
+        "topped_up_balance": "2.20"
+      }
+    ]
+  }
+}

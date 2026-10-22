@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-362284e2ca52ef337319",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅管培生身份，无职能或行业证据，review合理。"
+    },
+    {
+      "occupation_id": "TG-49bcc77a990a2c308818",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "矿井建设技术岗归采矿与资源开采L25-02合理。"
+    },
+    {
+      "occupation_id": "TG-e982ee87e255324ba1b5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "交通运输安全管理归安全健康与职业防护L25-07合理。"
+    },
+    {
+      "occupation_id": "TG-e2615f257b80117f46f5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "市场新媒体实习生归内容与新媒体运营L14-03合理。"
+    },
+    {
+      "occupation_id": "TG-959e90450cf18dc6b157",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "招聘计划大类描述，非具体岗位，non_role_text合理。"
+    },
+    {
+      "occupation_id": "TG-2e7e8cc7e2818be6e9c0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行运营培训生职能方向未明，review合理。"
+    },
+    {
+      "occupation_id": "TG-52c070d8a64d1048a996",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "海外售前工程师归售前技术与解决方案L14-09合理。"
+    },
+    {
+      "occupation_id": "TG-be0acc31672e2f8633be",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "内附件工程师归机械与结构设计L06-01合理。"
+    },
+    {
+      "occupation_id": "TG-3cca9d80c5a7e42b4e1d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "投资拓展岗归投资发展与产业合作L11-06合理。"
+    },
+    {
+      "occupation_id": "TG-bf3e8e21b9623606bc5b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "预算造价员归工程造价与预算L24-06-01合理。"
+    },
+    {
+      "occupation_id": "TG-af75e2a7176c1d8ef603",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "金融市场部项目投资岗归投资交易与资产管理L20-02合理。"
+    },
+    {
+      "occupation_id": "TG-8e9260f33cd793c6e76d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "助理建筑师归建筑设计L24-01-01合理。"
+    },
+    {
+      "occupation_id": "TG-5e7d28cfef9bb0a24fad",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "电源集成工程师归电子硬件研发L05-01合理。"
+    },
+    {
+      "occupation_id": "TG-16c484d2414fc8e01c11",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务管培生已明确财务职能，归通用财务L19-08合理。"
+    },
+    {
+      "occupation_id": "TG-4c80a2db5224ffda4956",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "镀膜工艺岗归工艺与制造工程L06-08合理。"
+    },
+    {
+      "occupation_id": "TG-a645e90016a883f672ea",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "办公室文员归秘书助理与文书事务L18-06合理。"
+    },
+    {
+      "occupation_id": "TG-fdabf6b0e7077667ca57",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品营销策划归市场策略与营销策划L12-01合理。"
+    },
+    {
+      "occupation_id": "TG-a5f1781e4d9488cb01ce",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含多个职能方向，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-16518f246394c368951d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题列出多个职能类别，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-91341e4e83f002263e02",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "生物应用开发工程师归生物技术研发L06-07-01合理。"
+    }
+  ],
+  "raw_response_file": "000098.raw.json",
+  "usage": {
+    "input_tokens": 19493,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2981,
+    "output_tokens": 1002,
+    "reasoning_tokens": 0,
+    "total_tokens": 20495
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002195772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

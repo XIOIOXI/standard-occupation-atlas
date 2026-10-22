@@ -1,0 +1,47 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-bedb21516ec84e9a0c9e",
+  "child_index": 1,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "专员财务BPHRBPKA销售",
+  "child_title": "财务BP",
+  "source_span": {
+    "text": "财务BP",
+    "start": 2,
+    "end": 5
+  },
+  "raw_decision": {
+    "original_record_id": "TG-bedb21516ec84e9a0c9e",
+    "case": "A",
+    "child_titles": [
+      "专员",
+      "财务BP",
+      "HRBP",
+      "KA销售"
+    ],
+    "source_spans": [
+      {
+        "text": "专员",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "财务BP",
+        "start": 2,
+        "end": 5
+      },
+      {
+        "text": "HRBP",
+        "start": 5,
+        "end": 9
+      },
+      {
+        "text": "KA销售",
+        "start": 9,
+        "end": 13
+      }
+    ],
+    "reason": "无分隔符但明显为多个独立岗位拼接，可拆分"
+  }
+}

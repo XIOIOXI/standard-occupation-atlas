@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 89,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "1243dbdc-db85-4708-b274-eb6d217b1dd7",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751571,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25048,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1752,
+    "output_tokens": 2688,
+    "reasoning_tokens": 0,
+    "total_tokens": 27736
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0019454879999999998
+  },
+  "observed_at_utc": "2026-10-11T20:46:12.091638+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-c8e70bcf6040e23eba0a",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时包含渔业系统大数据与基因编辑两个独立方向，无法由单一类别承接"
+    },
+    {
+      "occupation_id": "SNO-c6bad9433db160604c0a",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "遥感算法属于计算机视觉与三维感知方向"
+    },
+    {
+      "occupation_id": "SNO-f8266357708df0ebd785",
+      "target_category_id": "能源/环保/农业/energy-aquaculture/aquaculture-fishery",
+      "status": "mapped",
+      "reason": "养殖管培生核心为水产养殖技术方向"
+    },
+    {
+      "occupation_id": "SNO-a22615aed301226ede96",
+      "target_category_id": "互联网/AI/internet-security/security-governance",
+      "status": "mapped",
+      "reason": "AI治理属于安全治理与合规方向"
+    },
+    {
+      "occupation_id": "SNO-49d74acf58ef91b471a9",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "储能系统开发属于能源开发与工程"
+    },
+    {
+      "occupation_id": "SNO-1dfa89faa8ed3b2f5b03",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "银保方向管培生属于零售与综合银行"
+    },
+    {
+      "occupation_id": "SNO-52c5fa3115966b5d4d3d",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-verification",
+      "status": "mapped",
+      "reason": "数字验证设计属于芯片验证"
+    },
+    {
+      "occupation_id": "SNO-0508ac5de49a7e823935",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "销售工程核心为技术型客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-04e05f60947fb522821e",
+      "target_category_id": "产品/product-internet/product-ai",
+      "status": "mapped",
+      "reason": "AI产品属于人工智能与数据产品"
+    },
+    {
+      "occupation_id": "SNO-5dbd651faf4561943c85",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": "装配操作员属于装配与生产线作业"
+    },
+    {
+      "occupation_id": "SNO-350657dfbbe0cb0202be",
+      "target_category_id": "产品/product-game/game-planning",
+      "status": "mapped",
+      "reason": "小游戏/UGC游戏策划属于游戏系统与玩法策划"
+    },
+    {
+      "occupation_id": "SNO-43c41cd1d61821c889c4",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "技术服务员核心为技术支持与客户交付"
+    },
+    {
+      "occupation_id": "SNO-fb854f4cc8a836a552a7",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中教师属于基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-511ec21de57709427b00",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "装备技师核心为设备维修与安装"
+    },
+    {
+      "occupation_id": "SNO-0e8876955ddebdb0eabf",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "基建技术员属于施工现场管理"
+    },
+    {
+      "occupation_id": "SNO-9b0d6857cbb9b82aa746",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "基建项目管培生核心为施工现场管理"
+    },
+    {
+      "occupation_id": "SNO-5221005ce3fde5a9a08c",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "交付管培生属于项目交付与实施"
+    },
+    {
+      "occupation_id": "SNO-d4b4fbcf5dc75835c027",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-design",
+      "status": "mapped",
+      "reason": "城市规划与设计属于城市设计与更新"
+    },
+    {
+      "occupation_id": "SNO-dc0d2af1d096187b9dac",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "系统维护员属于基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-f9d6bf1f10894406f0ec",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-deep",
+      "status": "mapped",
+      "reason": "人工智能研发属于深度学习与模型训练"
+    },
+    {
+      "occupation_id": "SNO-9bb0ebe056ece862fb65",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "大模型应用属于大模型与生成式AI"
+    },
+    {
+      "occupation_id": "SNO-0a8e4411af32ff9f6018",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "双语物理教师属于基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-6b50db0fff2468b1f99e",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出运营、技术、创意设计、产品市场、职能支持等多个独立职业方向"
+    },
+    {
+      "occupation_id": "SNO-7d3881c1741d8fea5d17",
+      "target_category_id": "市场/公关/广告/marketing-analytics/business-analytics-operations",
+      "status": "mapped",
+      "reason": "企划分析属于经营与商业分析"
+    },
+    {
+      "occupation_id": "SNO-48704cfc9b12d2e714ae",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "工程规划设计师属于建筑方案与施工图设计"
+    },
+    {
+      "occupation_id": "SNO-6354afa5bfd2073fa275",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "控制器硬件工程师属于电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-27e387bd8c495f03e819",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源专员属于员工关系与人力运营"
+    },
+    {
+      "occupation_id": "SNO-6f94c83295df81a3f708",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-growth",
+      "status": "mapped",
+      "reason": "海外营销工程师属于增长与数字营销"
+    },
+    {
+      "occupation_id": "SNO-40d33aa115c4504dd18e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称仅为辅助，缺少具体职业职责信息"
+    },
+    {
+      "occupation_id": "SNO-f8a931d59cb8cab2062a",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出外贸业务开发、外卖业务维护、采购等多个独立职业"
+    },
+    {
+      "occupation_id": "SNO-a82df06312ab55c996f2",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "银行数据开发属于数据工程与数仓"
+    },
+    {
+      "occupation_id": "SNO-bb5f9498d34d17abadd5",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "建筑施工图专业助理属于建筑方案与施工图设计"
+    },
+    {
+      "occupation_id": "SNO-b16fc71cbc5b2520dc82",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "数据技术核心为数据工程与数仓"
+    },
+    {
+      "occupation_id": "SNO-030eedf8ee85996c7ec8",
+      "target_category_id": "教育培训/edu-child/early-edu-children",
+      "status": "mapped",
+      "reason": "启智素养教师属于少儿课程与活动教学"
+    },
+    {
+      "occupation_id": "SNO-8f7155014f47d16193aa",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "机器狗运动控制属于机器人与具身智能"
+    },
+    {
+      "occupation_id": "SNO-743e366d29364716230b",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "新能源产品开发属于能源开发与工程"
+    },
+    {
+      "occupation_id": "SNO-ad806e4d9ceb6e09f4a1",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "AI战略咨询属于管理与行业咨询"
+    },
+    {
+      "occupation_id": "SNO-9c0484a3ea1c42b47a68",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "包装工程管培生核心为生产计划与调度"
+    },
+    {
+      "occupation_id": "SNO-f38b7b21032874b943c4",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "矿业项目支持属于地质勘查与测绘"
+    },
+    {
+      "occupation_id": "SNO-a6b43473570291af125e",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "固收研究属于证券研究与投资顾问"
+    },
+    {
+      "occupation_id": "SNO-4d09149b7fd4be5cf9b7",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "机加工艺工程师属于机械制造与工艺"
+    },
+    {
+      "occupation_id": "SNO-28371b2fb25a1cf617e9",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "融资融券业务产品属于基金期货交易与运营"
+    },
+    {
+      "occupation_id": "SNO-1466874c38901686dd4e",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "液路工程师属于机械结构与产品设计"
+    },
+    {
+      "occupation_id": "SNO-9d56841d1ef9adebc035",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "物料计划专员属于供应链计划与采购协同"
+    },
+    {
+      "occupation_id": "SNO-f94d17939078325b98df",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": "品牌公关管培生属于品牌公关与传播"
+    },
+    {
+      "occupation_id": "SNO-503e1624cc78696d15b2",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "金融销售属于财富与理财销售"
+    },
+    {
+      "occupation_id": "SNO-f1d44b95002fa1d7860e",
+      "target_category_id": "市场/公关/广告/marketing-analytics/business-analytics-operations",
+      "status": "mapped",
+      "reason": "企管管培生核心为经营与商业分析"
+    },
+    {
+      "occupation_id": "SNO-1f3e4d65cce3cd07cc77",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出人力、财务、客服、IT、市场品牌、设计等多个独立职能方向"
+    },
+    {
+      "occupation_id": "SNO-0bf60769902b041b48f6",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时包含劳务员与材料员两个独立岗位"
+    },
+    {
+      "occupation_id": "SNO-ba40b36cdb9ba5449561",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "采购SQA工程师核心为供应商开发与寻源"
+    }
+  ]
+}

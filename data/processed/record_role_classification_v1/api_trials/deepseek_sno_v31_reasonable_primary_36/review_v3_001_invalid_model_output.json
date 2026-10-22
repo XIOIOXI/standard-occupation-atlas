@@ -1,0 +1,52 @@
+{
+  "raw": {
+    "id": "23d8890e-e453-4e61-888d-ac3aaba0eb68",
+    "object": "chat.completion",
+    "created": 1791840665,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"records\":[{\"occupation_id\":\"SNO-4aa1a3c6743f7d8e154a\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"标题仅为“技术”，无任何职能方向线索，无法判断归属。\"},{\"occupation_id\":\"SNO-e5d340f2b9ee3320f200\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“武汉分行运营培训生”未明确具体金融业务方向，目录明确仅“银行管培生”不能视为已明确金融业务，标 review 合理。\"},{\"occupation_id\":\"SNO-7196eec8684a5a8e5af9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“资产评估管培生”明确为资产评估职能，归 L20-09 有标题依据且符合目录范围。\"}]}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 11461,
+      "completion_tokens": 198,
+      "total_tokens": 11659,
+      "prompt_tokens_details": {
+        "cached_tokens": 11264
+      },
+      "prompt_cache_hit_tokens": 11264,
+      "prompt_cache_miss_tokens": 197
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  },
+  "parsed_content": {
+    "records": [
+      {
+        "occupation_id": "SNO-4aa1a3c6743f7d8e154a",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "标题仅为“技术”，无任何职能方向线索，无法判断归属。"
+      },
+      {
+        "occupation_id": "SNO-e5d340f2b9ee3320f200",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "“武汉分行运营培训生”未明确具体金融业务方向，目录明确仅“银行管培生”不能视为已明确金融业务，标 review 合理。"
+      },
+      {
+        "occupation_id": "SNO-7196eec8684a5a8e5af9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "“资产评估管培生”明确为资产评估职能，归 L20-09 有标题依据且符合目录范围。"
+      }
+    ]
+  }
+}

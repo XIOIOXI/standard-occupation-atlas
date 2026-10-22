@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-b26c42effb87d3b2ac7a07db0df54518",
+      "verdict": "pass",
+      "suggested_target_category_id": "L12-07",
+      "issue": "“营销支持管培生”明确指向市场营销职能，归 L12-07 通用市场营销合理；管培生为培养标签，不改变职能归属。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17058,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 546,
+    "output_tokens": 100,
+    "reasoning_tokens": 0,
+    "total_tokens": 17158
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000382872
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

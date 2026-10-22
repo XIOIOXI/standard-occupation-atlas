@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "仅标题确认non_role_text，JSON results: original_record_id,decision(exclude_non_role|restore_title_and_map|hold),reason,recovered_title。无法确认hold；剔除不删除源记录。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-798a60262028244c870c\", \"title\": \"英语类专业毕业生\"}, {\"original_record_id\": \"TG-5c6ff9229ed7e0e7f6cf\", \"title\": \"共提供29个岗位\"}, {\"original_record_id\": \"TG-d6c3f0dc109b759eb362\", \"title\": \"电气类 能源动力类 自动化与测控类 计算机类 管理科学与工程类 机械类 环境化学类 电子信息类 水利类 航运(海)类 材料类 新能源发电工程类 油气类 安全科学与工程类 财会审计类 管理类 经济金融类......\"}, {\"original_record_id\": \"TG-0cb785e091ddd8396796\", \"title\": \"本次药植所北京总所计划招聘5名高校毕业生\"}, {\"original_record_id\": \"TG-d6cf6277cff8f5b5e112\", \"title\": \"身开发岗\"}, {\"original_record_id\": \"TG-7f5c112d88ab3f3139a7\", \"title\": \"专业技术类 经济金融类 职能管理类（相关专业：计算机、生物医药、人工智能、金融学、投资学、会计学、法律、马克思主义理论、人力资源管理）\"}, {\"original_record_id\": \"TG-218c36caa78c8ce86499\", \"title\": \"教育类（会计学、财务管理、法学、档案学、新闻传播、数字媒体、动画、影视制作、新闻学、广播电视编导、视觉艺术、碳中和、能源与动力工程、环境工程、物流工程、安全工程、消防工程、电气......\"}, {\"original_record_id\": \"TG-78d6c6d777a193d2e111\", \"title\": \"此次招聘涉及30个岗位\"}, {\"original_record_id\": \"TG-f034dbb8da3b6a54dabc\", \"title\": \"本次招聘涉及5个岗位\"}, {\"original_record_id\": \"TG-ce6fe09929925474fa4d\", \"title\": \"位通用类岗\"}, {\"original_record_id\": \"TG-45667967ab515c955ad4\", \"title\": \"此次招聘涉及19个岗位\"}, {\"original_record_id\": \"TG-0829c77410980f14585f\", \"title\": \"此次招聘涉及82个岗位\"}, {\"original_record_id\": \"TG-a7d7c39cf00eba01c4ba\", \"title\": \"此次招聘涉及6个岗位\"}, {\"original_record_id\": \"TG-8406b46c1a7cd336fba5\", \"title\": \"中国共产党历史展览馆等17家中央宣传部直属单位计划招聘60名工作人员\"}, {\"original_record_id\": \"TG-5726fa00563c54f26152\", \"title\": \"实习岗\"}, {\"original_record_id\": \"TG-a8137461372c66c700c9\", \"title\": \"短期实习生\"}, {\"original_record_id\": \"TG-4f65f6462ab99535d1f4\", \"title\": \"招商运营类市场业务类投资管理类财务资金类专业技术类法务风控类\"}, {\"original_record_id\": \"TG-bcdcd080cbe9a58256aa\", \"title\": \"灵活职业岗\"}, {\"original_record_id\": \"TG-a0048789be4bf5520918\", \"title\": \"未说明招聘岗位\"}, {\"original_record_id\": \"TG-abc19f2224be90ac2a1b\", \"title\": \"部专员\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-798a60262028244c870c",
+    "TG-5c6ff9229ed7e0e7f6cf",
+    "TG-d6c3f0dc109b759eb362",
+    "TG-0cb785e091ddd8396796",
+    "TG-d6cf6277cff8f5b5e112",
+    "TG-7f5c112d88ab3f3139a7",
+    "TG-218c36caa78c8ce86499",
+    "TG-78d6c6d777a193d2e111",
+    "TG-f034dbb8da3b6a54dabc",
+    "TG-ce6fe09929925474fa4d",
+    "TG-45667967ab515c955ad4",
+    "TG-0829c77410980f14585f",
+    "TG-a7d7c39cf00eba01c4ba",
+    "TG-8406b46c1a7cd336fba5",
+    "TG-5726fa00563c54f26152",
+    "TG-a8137461372c66c700c9",
+    "TG-4f65f6462ab99535d1f4",
+    "TG-bcdcd080cbe9a58256aa",
+    "TG-a0048789be4bf5520918",
+    "TG-abc19f2224be90ac2a1b"
+  ]
+}

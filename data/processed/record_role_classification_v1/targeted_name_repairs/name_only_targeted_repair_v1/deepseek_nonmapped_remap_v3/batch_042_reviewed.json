@@ -1,0 +1,185 @@
+{
+  "batch_number": 42,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "2b9bb997-ac4d-473a-8130-76c05a84d81b",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821903,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29541,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2149,
+    "output_tokens": 1278,
+    "reasoning_tokens": 0,
+    "total_tokens": 30819
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001171326
+  },
+  "results": [
+    {
+      "entry_id": "SNO-82d37f51b675164e0b6f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管理培训生（综合方向）为培训生项目，缺少具体职能方向，无法确定归入哪一职业类别。"
+    },
+    {
+      "entry_id": "SNO-835b700e028c9b20ed2a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“通用”过于宽泛，无法判断具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-83ac0a9084d51862282e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "国际市场管培生为培训生项目，缺少具体业务方向，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-83b374b8b79ce9710135",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "战略发展规划主管职责可能涉及战略、市场或运营，名称未明确具体职能领域，无法确定唯一分类。"
+    },
+    {
+      "entry_id": "SNO-83e7348b0249fad8d2e3",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "应用工程师(软件)指向软件开发，可归入业务服务端开发。"
+    },
+    {
+      "entry_id": "SNO-8406b46c1a7cd336fba5",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "该名称为招聘公告标题，非具体职业名称，目录无法承接。"
+    },
+    {
+      "entry_id": "SNO-846b72778b8cb84d0348",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "顾问二讲类名称含义不明确，缺少具体职能信息。"
+    },
+    {
+      "entry_id": "SNO-847690fa838f1b742f0a",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出生产、财务、销售、人力、仓储等多个独立职业，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-84902c450abbb91fada7",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出信息科技类与市场营销类两个独立校招岗位，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-84970ac2dddb8c49bc26",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "AI0S研究员指向算法研究，可归入算法研究与通用算法。"
+    },
+    {
+      "entry_id": "SNO-852fb9b48f258af9e721",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "锅炉工程师属于能源/动力设备领域，冻结目录无对应三级类别，也无法确认合适一级或二级。"
+    },
+    {
+      "entry_id": "SNO-8534013a3617e376a6c8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "IPD为集成产品开发缩写，无法确定具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-854048feef5133d2a93f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "西门子管理培训生项目为培训生项目，未说明职能方向，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-854bbfb103f0b7333c0e",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出前端和后端两个独立开发方向，无共同三级可确认。"
+    },
+    {
+      "entry_id": "SNO-854be2166a5c7d16afdb",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出市场营销、平台运营、测试和技术支持多个独立职业，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-85940e2af188f83ad326",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "职能类为通用职能岗位统称，缺少具体职能方向，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-859cb9abe58b81c3f02b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "常态化帮扶专员职责不明确，缺少具体工作内容。"
+    },
+    {
+      "entry_id": "SNO-85bd1b578e67598634cd",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "定向工程师缺少具体行业或技术方向信息。"
+    },
+    {
+      "entry_id": "SNO-85c043acc3ed2ca2c46f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "协同业务职责不明确，缺少具体业务方向信息。"
+    },
+    {
+      "entry_id": "SNO-85ce111dde19423d31eb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "产品营销类为宽泛类别，未明确具体产品领域或营销职能，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-85d56bf4d4229ac85b31",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“工程”过于宽泛，缺少具体工程方向信息。"
+    },
+    {
+      "entry_id": "SNO-85e40a9ad75026ddf8ba",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出管培生、技术服务专家、现场品管等多个独立岗位，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-863dac339b5bd6d6baac",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出财务、会计、信息技术、经营管理等多个独立职业，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-869120927e2558b2810e",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "IT软件工程师核心为软件开发，可归入业务服务端开发。"
+    },
+    {
+      "entry_id": "SNO-86e0a312962256934eba",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "国家计划创优生名称含义不明确，缺少岗位职责信息。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d2f52ad1-ba3f-4f1b-a393-0c9f3f594699",
+  "object": "chat.completion",
+  "created": 1792571198,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-00d3a90c44a9b3b5831f3bde5b91325f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L32-01\",\"issue\":\"集团管培生属真实培养项目且最终职能方向未明确，归L32-01合理；原始组合标题中的其他并列岗位不影响本岗位判定。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17030,
+    "completion_tokens": 94,
+    "total_tokens": 17124,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 518
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

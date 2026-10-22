@@ -1,0 +1,28 @@
+{
+  "id": "d087300e-c3f6-4479-bc8a-d9b475e912e0",
+  "object": "chat.completion",
+  "created": 1792571232,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-4df692d623e2a85b218ed9a50ad37041\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"标题为模块化产品设计，公司为电源/发电机组制造，候选L06-01-03机械设备设计、L06-01-02产品结构设计、L05-01-02电子系统集成均合理，保留review待人工确认具体设计对象，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17059,
+    "completion_tokens": 120,
+    "total_tokens": 17179,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 547
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

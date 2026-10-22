@@ -1,0 +1,28 @@
+{
+  "id": "ffd58cc1-0a2f-47f0-b731-0fde6965fcab",
+  "object": "chat.completion",
+  "created": 1791821704,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"ABNORMAL:RRG-c496317a6808c3ad8e0b\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出管培生销售类、研发类、市场类、职能类等多个互不兼容职业方向，且无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-c592ec929fa261151f15\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出生产技术类、设备管理类、财务管理类、职能管理类、信息化类等多个独立职业方向，并附专业清单，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-c7a71f9cb9c8da7dc7e8\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为知识产权顾问但括号内生物药IP方向被截断，无法确认是否属于法律服务或生物医药等具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-c9b8974ee3122b11505b\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出资源管理、财务、科学研究、信息技术、园林技术、工程技术、审计、遗产保护等多个互不兼容职业，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-cbfeb4e47b3648187d8e\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出管培生类、职能运营类、技术研发类、市场营销类、工程建筑类、生产服务类、质量安全类、供应链类等多个独立职业方向，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-cc2d04d161c78338801b\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出财经类、数智化类、人力类、供应链类、品牌营销类、电商运营类、经营管理类、质量管理类、医务类、中医门店类等多个互不兼容职业方向，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-cc2ee4807d280afdd75a\",\"status\":\"review\",\"target_category_id\":\"教育培训/edu-teacher/teacher-vocational\",\"reason\":\"名称为护理专业教师，可确认属于教育培训教师类，但括号内专业清单被截断，无法确认具体三级教学方向。\"},{\"entry_id\":\"ABNORMAL:RRG-cd6ceaae3ca25b642b80\",\"status\":\"review\",\"target_category_id\":\"生产制造/manufacturing-safety/production-safety-safety\",\"reason\":\"名称为安全专员，可确认属于生产安全方向，但括号内专业清单被截断，无法确认具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d0619e95af5fab54a956\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"名称为研发工程师，括号内列出感知、世界模型、视觉语言模型、机器学习、深度学习、强化学习、三维重建、路径规划、CUDA、分布式系统、Linux内核、大数据处理等大量技术方向，无法确认单一三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d20965e14904e861130a\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为计划工程师但被截断，无法确认属于生产计划、供应链计划或其他计划类三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d2375f6e5cd501741de6\",\"status\":\"review\",\"target_category_id\":\"能源/环保/农业/energy-agriculture/agri-forestry-forestry\",\"reason\":\"名称为森林管护，可确认属于林业与生态技术方向，但括号内专业清单被截断，无法确认具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d3aabff664519d500c0f\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为视觉工程师但被截断，无法确认属于计算机视觉算法、机器视觉工程或其他视觉相关三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d3b88b1f82c0f68da1a3\",\"status\":\"review\",\"target_category_id\":\"人力/行政/法务/people-hr/hr-recruiting\",\"reason\":\"名称为HR管培生，可确认属于人力资源方向，但括号内小语种清单被截断，无法确认具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d48a6b56835a141d1a2e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为航空器适航试验助理工程师，但括号内专业要求被截断，无法确认属于航空研发、试验测试或其他三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d4c1cfcb4d2fd6952fdd\",\"status\":\"review\",\"target_category_id\":\"咨询/翻译/法律/consult-legal/legal-corporate\",\"reason\":\"名称为法务岗，可确认属于公司法务与合规方向，但括号内专业清单被截断，无法确认具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d58723747aaf56b95dec\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为研发工程师但被截断，无法确认属于互联网、电子、汽车、机械等哪个行业或技术方向的三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d670d8b2432b1162e9c4\",\"status\":\"review\",\"target_category_id\":\"金融/financial-banking/bank-retail\",\"reason\":\"名称为金融市场部，可确认属于金融银行方向，但括号内专业要求被截断，无法确认具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d77f12375221af540f96\",\"status\":\"review\",\"target_category_id\":\"教育培训/edu-teacher/teacher-k12\",\"reason\":\"名称为道德与法治教师，可确认属于基础教育教学方向，但括号内专业要求被截断，无法确认具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d881b3f4073197b7c0f1\",\"status\":\"review\",\"target_category_id\":\"采购/贸易/trade-procurement/procurement-purchasing\",\"reason\":\"名称为采购工程师，可确认属于采购方向，但括号内相关专业被截断，无法确认具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-d94a45c18aa6557e9939\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出市场类、生产技术类、职能类、技术类、海外校招生等多个独立职业方向，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-da4dadd01c5a01d61764\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-data-development/data-engineering\",\"reason\":\"名称为大数据工程师，可确认属于数据开发方向，但括号内计算机等专业被截断，无法确认具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-ddfd80127024292f02ea\",\"status\":\"review\",\"target_category_id\":\"生产制造/manufacturing-quality/quality-control\",\"reason\":\"名称为质量储备工程师，可确认属于质量管理方向，但括号内专业清单被截断，无法确认具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-de2790a464a3cda9b554\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为助理但括号内列出采矿、矿业、测绘、地质、化学、材料、冶金、环境等大量专业方向，无法确认单一职业类别。\"},{\"entry_id\":\"ABNORMAL:RRG-df5bea124bc2f40c0c1e\",\"status\":\"review\",\"target_category_id\":\"生产制造/manufacturing-mechanical/mechanical-design\",\"reason\":\"名称为结构设计工程师，可确认属于机械结构设计方向，但括号内专业要求被截断，无法确认具体三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-df673e99e614150ef35c\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出经营方向、运营方向、客户服务类、体验保障类、解决方案类、产品类、运营规划类、人力资源类、科技类、财务类、审计监察类、公共行政类等多个互不兼容职业方向，无共同可确认的一级或二级类别。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30657,
+    "completion_tokens": 1860,
+    "total_tokens": 32517,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 3265
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

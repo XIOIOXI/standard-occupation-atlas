@@ -1,0 +1,28 @@
+{
+  "id": "7f22db38-eefd-4408-b846-c34add61012f",
+  "object": "chat.completion",
+  "created": 1791821750,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-15fd8cd7f875b6f39ee1\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时列出财务管理/审计与材料类，属于多个互不兼容的独立职业方向，且无共同可确认的一级或二级。\"},{\"entry_id\":\"SNO-161332dd5ba244f14566\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-algorithm\",\"reason\":\"人工智能仅能确认到算法工程师二级，无法确定具体三级方向。\"},{\"entry_id\":\"SNO-161abe5f5dbaddd664a9\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时包含行政、文秘、人事三个独立职业方向，无共同可确认的一级或二级。\"},{\"entry_id\":\"SNO-1658a6e5c6a6e8a9a02d\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"计算机工程师范围过宽，缺少具体技术方向，无法确认一级或二级。\"},{\"entry_id\":\"SNO-168f675d1e443b2b99d9\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"方案设计工程师缺少具体行业或技术领域信息，无法确认归属。\"},{\"entry_id\":\"SNO-169075f814b43d2f3f3b\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-backend\",\"reason\":\"开发类工程师仅能确认到后端开发二级，无法确定具体三级方向。\"},{\"entry_id\":\"SNO-16bcc8cbce0478972b83\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"集成师指向不明确，缺少系统集成、芯片集成或建筑集成等方向信息。\"},{\"entry_id\":\"SNO-16bee39a4275ac680044\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出对公营销、零售营销、运营、财会、风险管理多个独立职业，无共同可确认的一级或二级。\"},{\"entry_id\":\"SNO-172516ed276f82014d18\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确为多个岗位，无法归入单一职业类别，也无共同可确认的一级或二级。\"},{\"entry_id\":\"SNO-175272f562cef49aa4b9\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"业务标准职责方向不明确，缺少具体行业与职能信息。\"},{\"entry_id\":\"SNO-1769ce9d7f6da2300f16\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时包含自动化测试与AI应用开发两个独立职业方向，无共同可确认的一级或二级。\"},{\"entry_id\":\"SNO-17c916dee8d85492dd9c\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出综合管理、市场、经营等多个独立方向，无共同可确认的一级或二级。\"},{\"entry_id\":\"SNO-17f3b0d4a6a41fbc2e57\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"学术支持名称宽泛，缺少具体学科或支持类型信息。\"},{\"entry_id\":\"SNO-18118a21783d545c3a2c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"岗位名称过于宽泛，别名列出多个专业方向，无法确定归属类别。\"},{\"entry_id\":\"SNO-1862f6c072beab8b3bc4\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"设计员缺少设计方向，无法确定细分。\"},{\"entry_id\":\"SNO-188a23e431289adc14bc\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明显列出财务管理、法务管理、人力资源管理、综合行政等多个独立职业，无共同可确认的一级或二级。\"},{\"entry_id\":\"SNO-18eabf03c93e9340ebb3\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"系统论证与设计工程师未明确系统领域，缺少技术方向信息。\"},{\"entry_id\":\"SNO-18f39e62ad7e77ac6efc\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"视觉应用工程师可能指机器视觉应用或视觉设计应用，缺少技术方向。\"},{\"entry_id\":\"SNO-190b83b6bfb1de9e358e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"基层管理岗位名称过于宽泛，缺少行业或职能信息，无法确定具体职业类别。\"},{\"entry_id\":\"SNO-194fdaaf2568cca8b787\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-algorithm\",\"reason\":\"量子计算工程师仅能确认到算法工程师二级，无法确定具体三级方向。\"},{\"entry_id\":\"SNO-19581350e929d2fc31da\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"其他专业技术名称过于宽泛，缺少具体职业信息。\"},{\"entry_id\":\"SNO-196a3fb772db92e60495\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出法务与人资两个独立职业方向，无共同可确认的一级或二级。\"},{\"entry_id\":\"SNO-1974b381d87f4989b914\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"工程技术人员范围过宽，缺少具体技术方向。\"},{\"entry_id\":\"SNO-198388c3b59237931a3d\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时包含软件产品经理和硬件产品经理两个独立职业方向，无共同可确认的一级或二级。\"},{\"entry_id\":\"SNO-19a787f2c9a37a0a5a72\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"艺科融合与学术活动工作职责不明确，缺少具体职业信息。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29547,
+    "completion_tokens": 1296,
+    "total_tokens": 30843,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2155
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

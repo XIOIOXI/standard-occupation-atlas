@@ -1,0 +1,35 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-aa376a42c8b90b287808",
+  "child_index": 1,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "人才储备库管理培训生专业技术类职 能管理类",
+  "child_title": "专业技术类职能管理类",
+  "source_span": {
+    "text": "专业技术类职 能管理类",
+    "start": 10,
+    "end": 21
+  },
+  "raw_decision": {
+    "original_record_id": "TG-aa376a42c8b90b287808",
+    "case": "A",
+    "child_titles": [
+      "人才储备库管理培训生",
+      "专业技术类职能管理类"
+    ],
+    "source_spans": [
+      {
+        "text": "人才储备库管理培训生",
+        "start": 0,
+        "end": 10
+      },
+      {
+        "text": "专业技术类职 能管理类",
+        "start": 10,
+        "end": 21
+      }
+    ],
+    "reason": "标题由两个独立岗位类别组成，可拆分为人才储备库管理培训生和专业技术类职能管理类。"
+  }
+}

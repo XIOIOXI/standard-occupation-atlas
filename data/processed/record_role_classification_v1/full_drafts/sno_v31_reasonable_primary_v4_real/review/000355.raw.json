@@ -1,0 +1,28 @@
+{
+  "id": "b059683d-c398-40a8-9cbc-46db3d8b9e72",
+  "object": "chat.completion",
+  "created": 1791881302,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"TG-21af1105c5cbbbf2aebe\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"审计岗归L19-05审计，二级合理。\"}, {\"occupation_id\": \"TG-6d6e37a681bc9d5cfd52\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"气象算法工程师归预测与统计学习，合理。\"}, {\"occupation_id\": \"TG-b0dcf6558a127058fad2\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"行业研究归商业研究与市场调研，合理。\"}, {\"occupation_id\": \"TG-7011e77ae1e74ad32b7a\", \"verdict\": \"correction_required\", \"suggested_target_category_id\": \"L13-09\", \"issue\": \"食品销售未明确客户类型，不应推断为个人客户销售，应归通用销售L13-09。\"}, {\"occupation_id\": \"TG-4d5d9ef90c26bddaa91b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"跨境产品专员归商品与品类运营，合理。\"}, {\"occupation_id\": \"TG-4b561f3396a1da80771b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"管培生方向未明，review合理。\"}, {\"occupation_id\": \"TG-c311762e52036f95f38b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"学院专任教师归高等教育教学，合理。\"}, {\"occupation_id\": \"TG-e40efd9575cd2e923100\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"电源助理工程师归电路与板级设计，合理。\"}, {\"occupation_id\": \"TG-4ad16c01e10e239ba09f\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"电路工程师归电路与板级设计，合理。\"}, {\"occupation_id\": \"TG-28f5b562585cf0536d06\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"产品助理（运控方向）归平台与技术产品，合理。\"}, {\"occupation_id\": \"TG-ce688d9c0f0309968798\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"化学分析员归化学与生物检测，合理。\"}, {\"occupation_id\": \"TG-0dfd9bf1535434d22345\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"生态毒理高级工程师归生物技术研发，合理。\"}, {\"occupation_id\": \"TG-7f3a1528b63e253ec565\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"化工设计归化学合成与反应开发，合理。\"}, {\"occupation_id\": \"TG-147cd7ec962f6ae377ba\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"车门开发岗归底盘与车辆工程，合理。\"}, {\"occupation_id\": \"TG-a0b6014662e5a69ca94b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"供电设备维修人员归工业设备维修保全，合理。\"}, {\"occupation_id\": \"TG-96a9c6d64eafef9b2360\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"私域运营管培生归会员与社群运营，合理。\"}, {\"occupation_id\": \"TG-03a320a733561874b7ce\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"疫苗生养殖技术归畜禽养殖，合理。\"}, {\"occupation_id\": \"TG-c8845aeda6f69eae112b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"用户支持与用户运营归用户生命周期运营，合理。\"}, {\"occupation_id\": \"TG-b3ac9f742e0eb3b54ff5\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"地质及油藏评价开发归地质勘探与资源评价，合理。\"}, {\"occupation_id\": \"TG-6bfe6226dc759ab43d24\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"电商业务运营管培生归电商店铺运营，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19633,
+    "completion_tokens": 1116,
+    "total_tokens": 20749,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3121
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

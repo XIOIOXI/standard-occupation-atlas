@@ -1,0 +1,28 @@
+{
+  "id": "dd242b76-9e82-45aa-b8c5-52aa72e39e21",
+  "object": "chat.completion",
+  "created": 1792571423,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-853773ae9309ce1175a53465ed9ca6e0\",\"status\":\"mapped\",\"target_category_id\":\"L04-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L04-03\",\"L04-03-01\",\"L04-03-03\"],\"title_evidence\":\"品质助理工程师，品质即质量职能，制造业现场质量方向\",\"level_3_evidence\":null,\"reason\":\"品质助理工程师属于生产质量管理职能，但标题未明确是过程质量、供应商质量还是产品质量客诉，故映射到二级 L04-03，不强行细分三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16955,
+    "completion_tokens": 142,
+    "total_tokens": 17097,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

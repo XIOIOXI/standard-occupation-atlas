@@ -1,0 +1,28 @@
+{
+  "id": "da08e7e0-34d9-4973-9bb4-fed410db2298",
+  "object": "chat.completion",
+  "created": 1792571833,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-f651eba7e0dc5630cc81a296d63ca0d8\",\"status\":\"mapped\",\"target_category_id\":\"L18-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L18-04\",\"L32-01\"],\"title_evidence\":\"标题明确为“人力管培生”，职能方向为人力资源\",\"level_3_evidence\":null,\"reason\":\"“人力”直接指向人力资源职能，管培生为培养标签而非跨职能轮岗证据；归人力资源综合管理 L18-04。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16979,
+    "completion_tokens": 127,
+    "total_tokens": 17106,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 339
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

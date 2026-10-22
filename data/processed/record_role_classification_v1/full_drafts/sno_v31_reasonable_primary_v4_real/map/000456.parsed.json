@@ -1,0 +1,257 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-ae8d37a640106b9f3e98",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L13-01",
+        "L20-11"
+      ],
+      "title_evidence": "海口分行公司业务培训生",
+      "level_3_evidence": null,
+      "reason": "标题含“培训生”且仅行业为银行，未明确具体职能，按L32-01规则应标review；候选包括跨职能管培、企业客户销售、通用金融专业业务。"
+    },
+    {
+      "occupation_id": "TG-978f0093b88f601c802e",
+      "status": "mapped",
+      "target_category_id": "L26-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "茄果类研究室科研人员",
+      "level_3_evidence": null,
+      "reason": "茄果类属农业种植研究，归农业与种植技术。"
+    },
+    {
+      "occupation_id": "TG-127c7ebc66fc3a302d84",
+      "status": "mapped",
+      "target_category_id": "L01-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "前/后端开发岗",
+      "level_3_evidence": null,
+      "reason": "明确同时负责前后端开发，归全栈开发。"
+    },
+    {
+      "occupation_id": "TG-58cc20d9563cced3e216",
+      "status": "mapped",
+      "target_category_id": "L25-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "风场运行人员",
+      "level_3_evidence": null,
+      "reason": "风场运行属能源设施运行，归能源运行与调度。"
+    },
+    {
+      "occupation_id": "TG-a5dcb0cc9e6ac40325c0",
+      "status": "mapped",
+      "target_category_id": "L25-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "新能源动力工程师",
+      "level_3_evidence": null,
+      "reason": "新能源动力系统专业设计，归能源系统与工艺工程。"
+    },
+    {
+      "occupation_id": "TG-97b5e5830d034dc98f02",
+      "status": "mapped",
+      "target_category_id": "L15-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "演奏员（三）（音乐与舞蹈学类，表演，艺术，音乐，戏剧与影视）",
+      "level_3_evidence": null,
+      "reason": "演奏员属表演艺术，归表演配音与模特。"
+    },
+    {
+      "occupation_id": "TG-00fb10aaee132926e229",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-09",
+        "L24-01",
+        "L05-07"
+      ],
+      "title_evidence": "方案规划工程师",
+      "level_3_evidence": null,
+      "reason": "“方案规划工程师”领域不明确，可能为售前解决方案、建筑规划或电子电气方案，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-99490ab914b52e268177",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L04-06",
+        "L18-09",
+        "L16-06",
+        "L19-08",
+        "L23-10"
+      ],
+      "title_evidence": "研发设计储干生产/质量储干行政类专员/储干(采购、商务、财务、行政、文字)技术员",
+      "level_3_evidence": null,
+      "reason": "标题包含研发设计、生产质量、行政、采购、商务、财务、文字、技术员等多个职能，属多角色混合岗位。"
+    },
+    {
+      "occupation_id": "TG-3385928633766d475d1a",
+      "status": "mapped",
+      "target_category_id": "L14-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电商业务岗",
+      "level_3_evidence": null,
+      "reason": "电商业务岗归电商与商品运营。"
+    },
+    {
+      "occupation_id": "TG-85e40a9ad75026ddf8ba",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L26-08",
+        "L04-03"
+      ],
+      "title_evidence": "管培生畜禽技术服务专家现场品管管培生",
+      "level_3_evidence": null,
+      "reason": "标题包含管培生、畜禽技术服务专家、现场品管等多个角色，属多角色混合岗位。"
+    },
+    {
+      "occupation_id": "TG-c4bbda2dff460285b96d",
+      "status": "mapped",
+      "target_category_id": "L11-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "流程管理专员",
+      "level_3_evidence": null,
+      "reason": "流程管理专员归经营分析与流程改善。"
+    },
+    {
+      "occupation_id": "TG-c9227b0ffc9156d04e3e",
+      "status": "mapped",
+      "target_category_id": "L02-05-06",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "运动控制算法工程师",
+      "level_3_evidence": "运动控制算法属于调度优化规划控制及决策，归运筹优化与决策算法。",
+      "reason": "运动控制算法工程师归运筹优化与决策算法。"
+    },
+    {
+      "occupation_id": "TG-43ffc06171b74efc04ee",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L13-01",
+        "L13-04"
+      ],
+      "title_evidence": "海外业务管培生",
+      "level_3_evidence": null,
+      "reason": "标题含“管培生”且仅行业为海外业务，未明确具体职能，按L32-01规则应标review；候选包括跨职能管培、企业客户销售、商务拓展与合作。"
+    },
+    {
+      "occupation_id": "TG-14b120de2631d1acdad3",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "2D/3D人体姿态估计算法工程师",
+      "level_3_evidence": "人体姿态估计属于图像视频及视觉感知模型，归计算机视觉。",
+      "reason": "2D/3D人体姿态估计算法工程师归计算机视觉。"
+    },
+    {
+      "occupation_id": "TG-a2bdd7f018a90ae7fd62",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-04",
+        "L20-11",
+        "L16-06"
+      ],
+      "title_evidence": "中央农担岗",
+      "level_3_evidence": null,
+      "reason": "“中央农担岗”可能为农业信贷担保或采购贸易相关，职能不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-e932a1612aabd8bfbc6e",
+      "status": "mapped",
+      "target_category_id": "L14-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "客户服务专员—化妆品功效",
+      "level_3_evidence": null,
+      "reason": "客户服务专员归客服与客户支持。"
+    },
+    {
+      "occupation_id": "TG-e4410a152eb02db6bf5d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L06-09",
+        "L08-07"
+      ],
+      "title_evidence": "产品研发管培生",
+      "level_3_evidence": null,
+      "reason": "标题含“管培生”且仅产品研发方向，未明确具体产品领域，按L32-01规则应标review；候选包括跨职能管培、通用工业技术研发、通用产品规划。"
+    },
+    {
+      "occupation_id": "TG-6c7f37756f16219c15e3",
+      "status": "mapped",
+      "target_category_id": "L16-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "外贸报关员",
+      "level_3_evidence": null,
+      "reason": "外贸报关员归报关与关务。"
+    },
+    {
+      "occupation_id": "TG-6a007e9637cdf7beb9ef",
+      "status": "mapped",
+      "target_category_id": "L13-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "商务拓展工程师",
+      "level_3_evidence": null,
+      "reason": "商务拓展工程师归商务拓展与合作。"
+    },
+    {
+      "occupation_id": "TG-71ec9f9aa99ac12bd4d5",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电气设备技术员",
+      "level_3_evidence": null,
+      "reason": "电气设备技术员归电气工程。"
+    }
+  ],
+  "raw_response_file": "000456.raw.json",
+  "usage": {
+    "input_tokens": 17405,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 893,
+    "output_tokens": 2397,
+    "reasoning_tokens": 0,
+    "total_tokens": 19802
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0032433720000000004
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

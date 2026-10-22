@@ -1,0 +1,185 @@
+{
+  "batch_number": 23,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "5c5a3aa4-345a-46df-b290-a4e978f6e6fa",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813307,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 31091,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3827,
+    "output_tokens": 1999,
+    "reasoning_tokens": 0,
+    "total_tokens": 33090
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0018552419999999998
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-b23f3af53f1433eaa987",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型训练与调优工程师核心职责为大语言模型训练与优化，与大模型与生成式AI方向一致。"
+    },
+    {
+      "occupation_id": "SNO-6f898416725139dac19d",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "人工智能应用技术设计属于算法研究与通用算法范畴，名称未限定具体技术栈，保留在通用算法方向合理。"
+    },
+    {
+      "occupation_id": "SNO-65796e381da0201fb012",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-risk",
+      "reason": "AI量化研究员将AI应用于金融量化，归入金融与风控算法合理。"
+    },
+    {
+      "occupation_id": "SNO-c3939643b4d6c66f6100",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件开发技术名称过于宽泛，未注明语言或方向，无法确认具体为后端业务服务端开发，但可确认属于互联网/AI软件开发范畴，建议回退复核。"
+    },
+    {
+      "occupation_id": "SNO-e24671f330d19a097c8c",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "核心系统开发工程师通常负责平台与中间件开发，归入平台与中间件开发合理。"
+    },
+    {
+      "occupation_id": "SNO-ba476d4b3de70bcd49c4",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "助理工程师岗位涵盖化学、新材料、财务、过控、网络工程、土木建筑等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-d8c20b6daa23bd83fe4e",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "会计与热动为两个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-43341a2881cacaa38bcd",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "管培生涵盖计算机、人工智能、软件工程、电气工程、电子信息、自动化、管理科学与工程等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-994b5219d344d9c61b81",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出大模型、端到端、VLA、规划控制、决策、预测、系统、环境感知、定位建图、云平台后端、嵌入式、智能驾驶平台等多个独立技术岗位，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-1a0be8d56c46c3cb932c",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "智能架构开发名称宽泛，未注明具体技术栈或方向，无法确认核心为平台与中间件开发，建议回退复核。"
+    },
+    {
+      "occupation_id": "SNO-d0d39cee92a2744edda2",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "reason": "语音交互大模型工程师核心为语音与音频算法，归入语音与音频算法合理。"
+    },
+    {
+      "occupation_id": "SNO-e7b70e12eef17ed454a4",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "法务风控岗同时包含法务与风控两个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-be07c2ee3057d77b0b23",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器人控制工程师属于机器人与具身智能算法方向，保留合理。"
+    },
+    {
+      "occupation_id": "SNO-980bac3f457e9fd373e0",
+      "decision": "keep",
+      "target_category_id": "销售/sales-realestate/estate-sales-leasing",
+      "reason": "招商业务属于商业招商与租赁，保留合理。"
+    },
+    {
+      "occupation_id": "SNO-505b509542fd7df4a6d8",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出游戏策划、游戏开发、商务管培生多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-8086b79e60ef32545de7",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "图形学工程师核心职责为图形与高性能计算开发，归入C++图形与高性能计算合理。"
+    },
+    {
+      "occupation_id": "SNO-1d47a1e00876ed20e519",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件开发专员名称宽泛，未注明语言或方向，无法确认具体为后端业务服务端开发，建议回退复核。"
+    },
+    {
+      "occupation_id": "SNO-6ff7f3177acc6e5c9970",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "世界模型研究员属于大模型与生成式AI方向，保留合理。"
+    },
+    {
+      "occupation_id": "SNO-603205576ec73f974655",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出电学专利代理师、机械专利代理师、涉外专利代理师、律师助理等多个独立职业，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-498238278fdb186cc5b1",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出应用开发与数据研发两个独立技术方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-66f46ffaf853eed2d450",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "法务/风控主管明显包含法务与风控两个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-50d43a8e3b28deb1aeee",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "reason": "信息系统监理工程师名称未明确互联网/AI属性，核心为工程项目监理，建议回退复核。"
+    },
+    {
+      "occupation_id": "SNO-d913888cf9151b06511d",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出技术研发、电商平台、销售用户运营、供应链职能支持等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-9d0499f44aa5877829d9",
+      "decision": "reclassify",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "reason": "康养管理核心为康养机构运营管理，非一线老年照护，应归入业务运营下的业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-e7171c5f1241c399e903",
+      "decision": "fallback_review",
+      "target_category_id": "餐饮/food-server/waiter-restaurant",
+      "reason": "冲浪区域服务员名称未明确餐饮服务属性，可能为景区或运动场所服务，建议回退复核。"
+    }
+  ]
+}

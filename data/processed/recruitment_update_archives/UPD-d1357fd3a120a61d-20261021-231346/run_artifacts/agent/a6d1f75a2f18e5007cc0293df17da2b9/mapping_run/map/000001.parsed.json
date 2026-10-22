@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-a6d1f75a2f18e5007cc0293df17da2b9",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-07",
+        "L12-01",
+        "L32-01"
+      ],
+      "title_evidence": "标题明确为“市场部门管理培训生”，职能方向为市场营销，且属于部门定向培养而非跨职能轮岗",
+      "level_3_evidence": null,
+      "reason": "“市场部门”已明确市场职能方向，按先职能后二级原则归入通用市场营销 L12-07；虽为管理培训生，但已明确市场职能，不归 L32 跨职能轮岗。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16977,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 337,
+    "output_tokens": 164,
+    "reasoning_tokens": 0,
+    "total_tokens": 17141
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039774
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

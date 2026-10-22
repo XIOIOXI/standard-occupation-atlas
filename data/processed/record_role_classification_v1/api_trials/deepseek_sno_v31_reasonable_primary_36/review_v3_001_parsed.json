@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_001_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-4aa1a3c6743f7d8e154a",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "标题仅为“技术”，无任何职能方向线索，无法判断归属。"
+    },
+    {
+      "occupation_id": "SNO-e5d340f2b9ee3320f200",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“武汉分行运营培训生”未明确具体金融业务方向，目录明确仅“银行管培生”不能视为已明确金融业务，标 review 合理。"
+    },
+    {
+      "occupation_id": "SNO-7196eec8684a5a8e5af9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“资产评估管培生”明确为资产评估职能，归 L20-09 有标题依据且符合目录范围。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11461,
+    "cached_input_tokens": 11264,
+    "uncached_input_tokens": 197,
+    "output_tokens": 198,
+    "reasoning_tokens": 0,
+    "total_tokens": 11659
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000182142
+  },
+  "attempts": 0,
+  "post_processing": "nullable_empty_string_to_null"
+}

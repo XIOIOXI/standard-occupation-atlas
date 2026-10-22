@@ -1,0 +1,185 @@
+{
+  "batch_number": 35,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "89e7ab2d-abf4-467d-a37f-24275124c82a",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813390,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 31129,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3865,
+    "output_tokens": 1545,
+    "reasoning_tokens": 0,
+    "total_tokens": 32674
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0015885419999999999
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-ea55785185f666e5df79",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "C#/.NET开发工程师核心为服务端应用开发，归入后端开发-业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-a784109a58706836a9fe",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": ".net开发工程师核心为服务端应用开发，归入后端开发-业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-6010eeb583f13c033388",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": ".NET开发工程师核心为服务端应用开发，归入后端开发-业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-438e8e52025240a9086a",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件研发工程师核心为软件开发，归入业务服务端开发合理，应届生标注为修饰。"
+    },
+    {
+      "occupation_id": "SNO-636b040d46982461b047",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "高级软件开发工程师核心为软件开发，高级为职级修饰，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-c262fabe6485fd2e92b8",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件研发工程师核心为软件开发，地点为修饰，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-4ff4d543ae427f2bb04c",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "高级软件工程师核心为软件开发，高级为职级修饰，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-3765398b771a7f139c50",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "AI模型研究员核心为算法研究，归入算法研究与通用算法合理。"
+    },
+    {
+      "occupation_id": "SNO-b75db94d7bca8912529d",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "AI模型研究员核心为算法研究，前缀斜杠为冗余字符，归入算法研究与通用算法合理。"
+    },
+    {
+      "occupation_id": "SNO-a78ed127ec1b75873de6",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "ESG/CSR助理属企业可持续发展与公共事务，目录无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-aaabe42b5a23df345649",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "党建属党群工作，目录无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-af95edc6702a18a98e88",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "通用软件工程师核心为软件开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-bd954cc62c6ecb7cc029",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "应用软件开发工程师核心为应用软件开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-d439c30c6199cbacb59f",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "应用软件开发核心为应用软件开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-aab4f3ba6e2342485583",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-finance",
+      "reason": "金融系统工程师核心为金融行业后端系统开发，归入金融与行业后端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-04dc0b860f8de889f8f7",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-finance",
+      "reason": "金融系统开发核心为金融行业后端系统开发，归入金融与行业后端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-cd012f05bad1350d0910",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "售后服务工程师未注明行业，可能为设备/器械售后而非互联网技术支持，三级依据不足，最深可确认上级为运维/技术支持-技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-0fae4b62459334239eb7",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "Agent开发工程师核心为智能体与大模型应用开发，归入大模型与生成式AI合理。"
+    },
+    {
+      "occupation_id": "SNO-ea9d1c203ca7498f7b9b",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "审计法务明确并列审计与法务两个独立职业，无法由同一目录承接。"
+    },
+    {
+      "occupation_id": "SNO-9031fd500550262edeb2",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "高性能计算研发工程师核心为高性能计算，归入C++图形与高性能计算合理。"
+    },
+    {
+      "occupation_id": "SNO-0532b95d3b23c12b3c36",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "高性能计算工程师核心为高性能计算，归入C++图形与高性能计算合理。"
+    },
+    {
+      "occupation_id": "SNO-5b67ea048c26b189e498",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "高性能计算开发工程师核心为高性能计算，归入C++图形与高性能计算合理。"
+    },
+    {
+      "occupation_id": "SNO-2c24bf4df8618f00f329",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "三维图形渲染引擎开发工程师核心为图形渲染，归入C++图形与高性能计算合理。"
+    },
+    {
+      "occupation_id": "SNO-a60a7fca6ac1b9720eb7",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "PHP开发工程师核心为服务端应用开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-d825004ddd5d9a13b9ba",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型工程师核心为大模型开发，归入大模型与生成式AI合理。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-1c1b269f7b38f2a269b3",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "JAVA开发WEB前端开发测试工程师",
+  "child_title": "JAVA开发",
+  "source_span": {
+    "text": "JAVA开发",
+    "start": 0,
+    "end": 7
+  },
+  "raw_decision": {
+    "original_record_id": "TG-1c1b269f7b38f2a269b3",
+    "case": "A",
+    "child_titles": [
+      "JAVA开发",
+      "WEB前端开发",
+      "测试工程师"
+    ],
+    "source_spans": [
+      {
+        "text": "JAVA开发",
+        "start": 0,
+        "end": 7
+      },
+      {
+        "text": "WEB前端开发",
+        "start": 7,
+        "end": 14
+      },
+      {
+        "text": "测试工程师",
+        "start": 14,
+        "end": 19
+      }
+    ],
+    "reason": "标题由三个独立岗位名称组成，无连接词，可拆分为三个子岗位。"
+  }
+}

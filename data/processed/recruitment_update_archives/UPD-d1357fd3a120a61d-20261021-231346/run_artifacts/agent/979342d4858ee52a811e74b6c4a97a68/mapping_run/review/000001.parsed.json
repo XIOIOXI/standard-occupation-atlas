@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-979342d4858ee52a811e74b6c4a97a68",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "核心系统软件开发岗归入后端开发L01-02合理，属业务服务端系统开发；停在二级符合三级证据不足的情况。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17048,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 536,
+    "output_tokens": 82,
+    "reasoning_tokens": 0,
+    "total_tokens": 17130
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0003582719999999999
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

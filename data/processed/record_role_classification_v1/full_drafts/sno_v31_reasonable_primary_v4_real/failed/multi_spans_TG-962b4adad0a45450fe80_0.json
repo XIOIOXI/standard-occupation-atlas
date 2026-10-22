@@ -1,0 +1,47 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-962b4adad0a45450fe80",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "学习机语文\\英语\\物理\\化学教师",
+  "child_title": "学习机语文教师",
+  "source_span": {
+    "text": "学习机语文",
+    "start": 0,
+    "end": 5
+  },
+  "raw_decision": {
+    "original_record_id": "TG-962b4adad0a45450fe80",
+    "case": "A",
+    "child_titles": [
+      "学习机语文教师",
+      "学习机英语教师",
+      "学习机物理教师",
+      "学习机化学教师"
+    ],
+    "source_spans": [
+      {
+        "text": "学习机语文",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "英语",
+        "start": 6,
+        "end": 8
+      },
+      {
+        "text": "物理",
+        "start": 9,
+        "end": 11
+      },
+      {
+        "text": "化学",
+        "start": 12,
+        "end": 14
+      }
+    ],
+    "reason": "标题由反斜杠分隔的学科教师岗位组成，可拆分为四个子岗位。"
+  }
+}

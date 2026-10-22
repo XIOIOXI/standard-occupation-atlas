@@ -1,0 +1,28 @@
+{
+  "id": "1dfe9592-7b05-4abb-889d-9ef202d9e917",
+  "object": "chat.completion",
+  "created": 1792571733,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-6e54eebeead20dbf941032e1724dfd1b\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L02-03\", \"issue\": \"数据应用开发归入数据工程与数据平台开发（L02-03）合理，方向未细分停在二级可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17022,
+    "completion_tokens": 93,
+    "total_tokens": 17115,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 510
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

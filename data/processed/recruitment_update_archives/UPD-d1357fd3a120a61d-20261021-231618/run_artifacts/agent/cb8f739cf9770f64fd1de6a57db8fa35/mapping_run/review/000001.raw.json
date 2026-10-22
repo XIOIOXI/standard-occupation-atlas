@@ -1,0 +1,28 @@
+{
+  "id": "c8d2aa82-5cff-45bf-82a0-aa8246d6a3ac",
+  "object": "chat.completion",
+  "created": 1792571227,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-cb8f739cf9770f64fd1de6a57db8fa35\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L01-09\", \"issue\": \"“数据中心系统架构师”主归属软件架构（L01-09）合理；数据中心场景可能涉及基础设施运维（L03-02）或电气硬件（L05-01），但标题证据不足以推翻，保留原判。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17024,
+    "completion_tokens": 115,
+    "total_tokens": 17139,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 512
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

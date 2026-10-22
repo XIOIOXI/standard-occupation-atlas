@@ -1,0 +1,28 @@
+{
+  "id": "643c882d-b7a2-4b6e-b0fc-82e3d06c6366",
+  "object": "chat.completion",
+  "created": 1792571603,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-b1e9386de2a018d19301f465e2c06741\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L14-04-01\", \"issue\": \"电商助理归入电商店铺运营，职能方向明确，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17060,
+    "completion_tokens": 81,
+    "total_tokens": 17141,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 548
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

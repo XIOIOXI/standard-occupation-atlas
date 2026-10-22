@@ -1,0 +1,786 @@
+{
+  "run": {
+    "taxonomy_version": "sno-v3.1-local-revision",
+    "sample_count": 200,
+    "api_calls_made_by_this_finalizer": 0
+  },
+  "artifact_integrity": {
+    "mapping_batches": 10,
+    "review_batches": 10,
+    "initial_rows": 200,
+    "review_rows": 200,
+    "review_rows_missing": [],
+    "raw_contract_strict_valid": 96,
+    "normalization_changes": [
+      {
+        "occupation_id": "SNO-85f16f998b2f78f1ad48",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-70a3c398dfd4eab9aac5",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-5aa77086ed58873669f7",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-d4c548f34cbd5c75f3a5",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-41fb42bd815f7cc808cd",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-4aa1a3c6743f7d8e154a",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-e5d340f2b9ee3320f200",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-c31f0147400183293e61",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-c943178c1ab0c5bfbfd8",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-8e29e6449e6af5728974",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-eced4716e5da147de2dd",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-9c0806cffc2cbabca1ff",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-07fcf24c852fd77ff0d4",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-99b27449614896209ab6",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-7196eec8684a5a8e5af9",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-13d600d1826857919714",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-c7c2b86fee993f894bd4",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-06d5a21783d857ffc369",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-09b70120c117f7063fcc",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-6f0b61c2a8aa884ad401",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-8793e25372a32cf93896",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-6d35c8d1f3c7f41b351a",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-961bea0f39be287f0d18",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-b0bb22d7a889d08cc304",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-75c42924a70e3bbd7ebe",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-3dd73911e09235373671",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-f8266357708df0ebd785",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-58d3cfca511995f45082",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-f7538f218c7f1dfd7fc7",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-0b1cbadb04e9046f30d8",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-9e0e40d2e6771547d880",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-1e410bfbb964a2c2ba95",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-a264210571d4536623e1",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-8a63742b9a75ea975cf1",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-c6bafb90d5514cbc0966",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-f4bf3e2d9cab9773b1d2",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-188a23e431289adc14bc",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-b34d318554be524ed36a",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-c5f00ededc0d555d97e5",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-9456905b1b73f939b88e",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-2bdacfb9b882930e09e8",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-a53a80229d6f53ed2313",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-3d81a36197a7afc3845e",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-0efdba063aa9c7df639b",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-40221954ae855fa39330",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-2e6e48e3280e8474a2ea",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-090f212a5b1a26d2a6cb",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-5d203674437b20b1ca2f",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-2ed03a97e5d92ae99e2f",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-741a768f67a709a3a54b",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-1f4e1a0096860e1fc21d",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-ad75b05b0c4e14fde23d",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-b65e1b6f9bd49e8b8a44",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-7abcd404c614c408f9af",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-dc102a15d3ada0126162",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-f6c5e273afe72ac33c47",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-93ffb87ac5a6a3ae38fd",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-8f6f32893e82aa928050",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-f0947d368b70d02363bd",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-18d0e05d910ecfaf252c",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-3b283eed98a79c466ec4",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-63163982cb6463468861",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-8d2d2381e456e923ce46",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-5c7433887a97a533145f",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-169c5690d158a4e4e0cb",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-74e8841c43022c18448b",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-6913cf728cce5a17c986",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-15fd8cd7f875b6f39ee1",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-29ff7f3b4ede9d7ddd5a",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-dde28d3ac66cd93e91d5",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-c8003f957ac160fd85bb",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-2486e3a35cb363629511",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-a9819e23df3f69b6a9fd",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-c716ed2d9f6c2fcac8f0",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-a7e94537eeefd036a434",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-a2fca5e868380f906715",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-547912e64ed07162694e",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-a7d5ca5627cba3772493",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-e79890c96ee6f0c5d401",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-68a002873e86caf507aa",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-4ec5b3fa4078c733f67a",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-4808e7a15d2091bb129f",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-4120740026214e819645",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-7c0732fd2f45acca834c",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-1b88b6662847653c2beb",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-9481066cd1f5ddcb344c",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-a155656ddb942f8c1228",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-10069680f69154a0a22d",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-2a079fdf33f2973ed82c",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-b847a102de5b08fba0ae",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-f3a551d78495c24ba751",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-5eb63505d39cfb06954e",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-43da2d2c2cb18f13f030",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-2b6c68dcb56575e256cd",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-9170b111decf5a940895",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-bf2d4b216aaed8943ae0",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-a655a94e560c7200e7e4",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-aedddffaec83b265fcbf",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-df16c289488eb76d85b8",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-f726e823532c0682f85b",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-0fbafd406fa2200df437",
+        "fields": [
+          "level_3_evidence"
+        ]
+      },
+      {
+        "occupation_id": "SNO-4e427e1b617872f5aee9",
+        "fields": [
+          "level_3_evidence"
+        ]
+      }
+    ],
+    "normalized_contract_valid": 200
+  },
+  "initial_mapping_counts": {
+    "status": {
+      "mapped": 155,
+      "review": 36,
+      "non_role_text": 4,
+      "multi_role": 5
+    },
+    "target_level": {
+      "level_2": 86,
+      "level_3": 69,
+      "none": 45
+    }
+  },
+  "review_counts": {
+    "raw_model": {
+      "pass": 175,
+      "correction_required": 9,
+      "unresolved": 16
+    },
+    "effective_after_directory_scope_adjudication": {
+      "pass": 174,
+      "correction_required": 10,
+      "unresolved": 16
+    },
+    "changed_proposals": 10
+  },
+  "jewelry_design_engineer": {
+    "occupation_id": "SNO-3dd73911e09235373671",
+    "title": "珠宝设计工程师",
+    "initial_normalized_result": {
+      "occupation_id": "SNO-3dd73911e09235373671",
+      "status": "mapped",
+      "target_category_id": "L09-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "珠宝设计工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确为珠宝设计，属于工业与产品外观设计范畴，无三级细分证据，映射到二级。"
+    },
+    "initial_target_path": [
+      {
+        "id": "L09",
+        "name": "设计与创意",
+        "level": "level_1",
+        "scope": null
+      },
+      {
+        "id": "L09-03",
+        "name": "工业与产品外观设计",
+        "level": "level_2",
+        "scope": "实体产品外观、造型、人机与工业设计。"
+      }
+    ],
+    "model_review": {
+      "occupation_id": "SNO-3dd73911e09235373671",
+      "verdict": "pass",
+      "suggested_target_category_id": "L09-03",
+      "issue": "珠宝设计属工业与产品外观设计，二级映射合理。"
+    },
+    "adjudication": {
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L09-04",
+      "issue": "标题中的“珠宝”直接对应 L09-04 范围“服装、首饰、配饰与纺织图案设计”；L09-03 仅覆盖实体产品外观、造型、人机与工业设计。应改为 L09-04，且标题不足以支持三级。",
+      "basis": "directory_scope_adjudication",
+      "supersedes_reviewer_verdict": "pass"
+    },
+    "effective_review": {
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L09-04",
+      "issue": "标题中的“珠宝”直接对应 L09-04 范围“服装、首饰、配饰与纺织图案设计”；L09-03 仅覆盖实体产品外观、造型、人机与工业设计。应改为 L09-04，且标题不足以支持三级。",
+      "basis": "directory_scope_adjudication",
+      "supersedes_reviewer_verdict": "pass"
+    },
+    "proposed_result": {
+      "status": "mapped",
+      "target_category_id": "L09-04",
+      "target_level": "level_2",
+      "target_path": [
+        {
+          "id": "L09",
+          "name": "设计与创意",
+          "level": "level_1",
+          "scope": null
+        },
+        {
+          "id": "L09-04",
+          "name": "服装饰品与纺织设计",
+          "level": "level_2",
+          "scope": "服装、首饰、配饰与纺织图案设计。"
+        }
+      ],
+      "change_reason": "标题中的“珠宝”直接对应 L09-04 范围“服装、首饰、配饰与纺织图案设计”；L09-03 仅覆盖实体产品外观、造型、人机与工业设计。应改为 L09-04，且标题不足以支持三级。"
+    },
+    "changed": true
+  },
+  "similar_obvious_misclassification_search": {
+    "method": "reviewed all initially selected L09-03 records against their title evidence and the L09-03/L09-04 scopes.",
+    "initial_L09_03_records": [
+      "珠宝设计工程师",
+      "内/外饰设计"
+    ],
+    "additional_clear_L09_04_corrections": 0,
+    "conclusion": "Only 珠宝设计工程师 has direct 首饰/珠宝 evidence conflicting with L09-03 in this set; 内/外饰设计 remains compatible with L09-03."
+  },
+  "cost": {
+    "basis": "API-reported token usage multiplied by the saved DeepSeek Flash off-peak rates; DeepSeek response does not provide billed currency.",
+    "rates_usd_per_million_tokens": {
+      "cached_input": 0.003,
+      "uncached_input": 0.15,
+      "output": 0.6
+    },
+    "initial_mapping": {
+      "usage": {
+        "input_tokens": 173869,
+        "cached_input_tokens": 149760,
+        "uncached_input_tokens": 24109,
+        "output_tokens": 23976,
+        "reasoning_tokens": 0,
+        "total_tokens": 197845
+      },
+      "estimated_usd": 0.01845123,
+      "calls": 10,
+      "recorded_retries": 0
+    },
+    "review": {
+      "usage": {
+        "input_tokens": 195201,
+        "cached_input_tokens": 148608,
+        "uncached_input_tokens": 46593,
+        "output_tokens": 10733
+      },
+      "estimated_usd": 0.013874574,
+      "calls": 10,
+      "recorded_retries": "not recorded by prior review runner"
+    },
+    "cumulative_estimated_usd": 0.032325804,
+    "budget_usd": 1.0,
+    "within_budget": true
+  },
+  "limitations": [
+    "pass means the same-model review did not identify a clear problem; it is not an accuracy guarantee.",
+    "The historical reviewer prompt included the full directory but did not explicitly inject sibling alternatives per record; its false pass on 珠宝设计工程师 demonstrates that limitation.",
+    "The correction proposal is a separate derived artifact. Provider raw responses and normalized initial results are preserved unchanged."
+  ]
+}

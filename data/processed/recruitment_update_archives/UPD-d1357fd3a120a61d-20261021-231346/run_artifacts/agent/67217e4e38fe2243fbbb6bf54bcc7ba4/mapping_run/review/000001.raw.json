@@ -1,0 +1,28 @@
+{
+  "id": "ec53b017-703f-4d9d-94b4-a05e8aa42d6b",
+  "object": "chat.completion",
+  "created": 1792571728,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-67217e4e38fe2243fbbb6bf54bcc7ba4\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L02-03\", \"issue\": \"数据中台开发归数据工程与数据平台开发（L02-03）合理；标题未明确数仓建模、数据集成或计算平台方向，停在二级恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17016,
+    "completion_tokens": 103,
+    "total_tokens": 17119,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 504
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

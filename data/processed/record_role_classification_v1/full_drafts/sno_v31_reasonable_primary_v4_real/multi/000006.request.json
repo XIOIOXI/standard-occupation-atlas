@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-9e85fc49db1f816aca54\", \"title\": \"职能类（法学、会计、人力资源管理、软件工程、安全工程、质量工程、工业工程、物流管理、工业设计、计算机科学与技术、物联网工程等相关专业）\"}, {\"original_record_id\": \"TG-bba7bf14b7a3e1bd476b\", \"title\": \"工程技术岗2\\\\\\\\会计学\"}, {\"original_record_id\": \"TG-f00bd691aa0f1fa59a23\", \"title\": \"车辆性能检测 内饰设计师\"}, {\"original_record_id\": \"TG-25cde5a76b408c0f5e53\", \"title\": \"职能管理培训生(采购业务管理培训生销售业务管理培训生法务监察管理培训生财务管理培训生)\"}, {\"original_record_id\": \"TG-2bc5bf11b87b7a076672\", \"title\": \"/高级工程师(先进工艺设计/光学设计/电子功能材料/整机工艺设计)\"}, {\"original_record_id\": \"TG-d45b58ef8ee511e29f72\", \"title\": \"电气技术员 土建技术员能源技术员人力资源专员安全专职宣传专职\"}, {\"original_record_id\": \"TG-0fcebe590554a946c09d\", \"title\": \"外贸业务员采购\"}, {\"original_record_id\": \"TG-af397a4df515fd5209de\", \"title\": \"文秘综合岗（兼人事综合岗）\"}, {\"original_record_id\": \"TG-be4b8a991eb0e2106394\", \"title\": \"销售支持 质量工程师\"}, {\"original_record_id\": \"TG-88d55a17f1680d03e4ff\", \"title\": \"硬件/软件开发工程师\"}, {\"original_record_id\": \"TG-c0ddd4f0079d963fb10d\", \"title\": \"系统策划数值策划产品运营媒体专员\"}, {\"original_record_id\": \"TG-3a964fd742114e2d21d6\", \"title\": \"海外广告投放广告创意策划\"}, {\"original_record_id\": \"TG-026ced72f28516f8af27\", \"title\": \"人工智能应用GC系统研制 无人系统研制计算机及电子系统研制光学陀螺及先进传感器研制液压系统研制机电产品研制 软件设计与测试机械加工艺企业管理机械结构设计\"}, {\"original_record_id\": \"TG-6b26defe0c8360aacd3f\", \"title\": \"活动策划平面设计三位设计AIGc设计\"}, {\"original_record_id\": \"TG-ed7217833d4a8f2578dc\", \"title\": \"储备干部营销工程师\"}, {\"original_record_id\": \"TG-55132869d3772eacc763\", \"title\": \"质量/工艺/采购工程师（厦门金龙联合汽车工业有限公司）\"}, {\"original_record_id\": \"TG-caed572e6d633a1968f7\", \"title\": \"生产&质量岗\"}, {\"original_record_id\": \"TG-d2e7d24d66a89f91c081\", \"title\": \"各县区分公司支局网点柜员/金融客户经理\"}, {\"original_record_id\": \"TG-4f75aceb8b943f63f1e8\", \"title\": \"装调工艺师产品工艺师信息化工程师\"}, {\"original_record_id\": \"TG-431f3e170c471876fac8\", \"title\": \"嵌入式软件开发工程师 机械设计工......\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-9e85fc49db1f816aca54",
+    "TG-bba7bf14b7a3e1bd476b",
+    "TG-f00bd691aa0f1fa59a23",
+    "TG-25cde5a76b408c0f5e53",
+    "TG-2bc5bf11b87b7a076672",
+    "TG-d45b58ef8ee511e29f72",
+    "TG-0fcebe590554a946c09d",
+    "TG-af397a4df515fd5209de",
+    "TG-be4b8a991eb0e2106394",
+    "TG-88d55a17f1680d03e4ff",
+    "TG-c0ddd4f0079d963fb10d",
+    "TG-3a964fd742114e2d21d6",
+    "TG-026ced72f28516f8af27",
+    "TG-6b26defe0c8360aacd3f",
+    "TG-ed7217833d4a8f2578dc",
+    "TG-55132869d3772eacc763",
+    "TG-caed572e6d633a1968f7",
+    "TG-d2e7d24d66a89f91c081",
+    "TG-4f75aceb8b943f63f1e8",
+    "TG-431f3e170c471876fac8"
+  ]
+}

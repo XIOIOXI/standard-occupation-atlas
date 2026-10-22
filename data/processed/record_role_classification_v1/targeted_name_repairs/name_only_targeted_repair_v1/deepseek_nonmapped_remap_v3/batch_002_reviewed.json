@@ -1,0 +1,184 @@
+{
+  "batch_number": 2,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "response_metadata": {
+    "request_id": "11cb885c-9d37-4808-b9cf-e9360b4c6f16",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821597,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 30436,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 3044,
+    "output_tokens": 1519,
+    "reasoning_tokens": 0,
+    "total_tokens": 31955
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0014501759999999999
+  },
+  "results": [
+    {
+      "entry_id": "ABNORMAL:RRG-15afc2a25f9423fb65eb",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出市场营销类、食品安全类、生产管理类等多个互不兼容职业方向，且带管培生，无共同可确认的一级或二级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-16518f246394c368951d",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "综合管理类、法务类、招商运营类、信息技术类为多个互不兼容职业方向，无共同可确认的一级或二级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-165d0261da09ed538601",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "营销管培生后接专业清单且截断，管培生非职业，专业清单不能推断职业，无法确认类别。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-1660860c4719c06220a6",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "会计后接大量截断专业清单，专业不能作为职业依据，无法确认三级或二级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-16da12d2ead70b1fa13a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "投资经理后接AI/并截断，无法确认具体投资方向，目录中投融资三级需方向依据。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-18072da9d907fb578380",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "电池研发工程师职业清晰，但冻结目录无电池/新能源研发对应三级，且无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-1abedb662dc1201b29eb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "综合柜员岗后接截断专业清单，专业不能推断职业，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-1abf9fb558f7b2568136",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "卡牌策划、平面设计师、原画师、工艺研发、市场营销策划、TCG运营等多个互不兼容职业，无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-1c0caf0c85b999bd0a88",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "跟单员后接截断专业清单，专业不能推断职业，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-20885af9f54e1cd702f7",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "算法类、软件类、硬件类、职能类、供应链类、制造工程类、项目经理类为多个互不兼容职业方向，无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-20c772f5209c5efd9df5",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "嵌入式软件开发工程师与机械设计工为两个互不兼容职业，且截断，无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-2278412e0abedd857534",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "价格管理等审计类监督审截断，职业不完整，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-2547ccf6a6705322a76c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "安全交付工程师后接截断专业清单，专业不能推断职业，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-27cfe53c83da0bb7a66e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "采购管培生截断，管培生非职业，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-28227b8e682a79095f8b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "国际事业部管培生后接截断专业清单，管培生非职业，专业不能推断职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-29c812cc123d34d5a4f7",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "人形机器人VLA具身智能算法工程师明确指向机器人与具身智能算法，匹配该三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-2d5472aea98a1f0a5306",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "集团管培生—通用管理(信息安全方截断，管培生非职业，方向不完整，无法确认三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-2eef046ad10a3ac98e27",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "业务经理截断，业务方向不明，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-2f0d03b936ba23b327f1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "自动化技术工程师后接截断专业清单，专业不能推断职业，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-30984abf8444f12a25ab",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "外贸业务员后接截断专业清单，专业不能推断职业，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-31307eb2a69d3b9a6135",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "纪检监察主管后接截断专业，职业方向不完整，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-320b13df90f12a6b1db7",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "工商管理类、法学类、财会审计类、语言文学类、新闻类、电气类、土建水文类、工程管理类、计算机类、通信类等为多个互不兼容职业方向，无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-336caffb65033014ef4c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "PE工程师截断，PE含义不明，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-360f1069d01b7086ba6c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "AGENT工程师后接截断专业清单，专业不能推断职业，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-368f748c7e68bdabf839",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管理培训生后接截断专业清单，管培生非职业，专业不能推断职业。"
+    }
+  ]
+}

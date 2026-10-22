@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-483ae1d4bfeb2582dae29782463a1238",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-02",
+        "L20-11"
+      ],
+      "title_evidence": "定向通用岗",
+      "level_3_evidence": null,
+      "reason": "“定向通用岗”仅表明银行定向通用岗位，未说明具体职能（柜面运营、营销、信贷等均可能），且无明确培养轮岗证据；不能仅凭银行行业推断金融业务方向，故列为review，候选综合储备培养或通用金融业务。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16941,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 301,
+    "output_tokens": 139,
+    "reasoning_tokens": 0,
+    "total_tokens": 17080
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0003569399999999999
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

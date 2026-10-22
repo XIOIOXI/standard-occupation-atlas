@@ -1,0 +1,28 @@
+{
+  "id": "ec9e71fd-48d4-4ca0-b07f-81bfc9e24930",
+  "object": "chat.completion",
+  "created": 1791841163,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"SNO-a1eaf127731d1f29ec25\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"3D角色设计归入美术插画与数字资产（L09-06）合理，符合目录范围。\"},{\"occupation_id\":\"SNO-17c373f8460644ec3de2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械工程师涵盖仿真/工艺/结构设计，归机械与结构设计（L06-01）合理，未明显违反范围。\"},{\"occupation_id\":\"SNO-fe876bd4f69353e62f76\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"任务策划归内容与互动产品策划（L08-04）合理，符合游戏策划范围。\"},{\"occupation_id\":\"SNO-d7886d421db5eee903cf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务创优生确认财务职能但方向未说明，归通用财务工作（L19-08）合理。\"},{\"occupation_id\":\"SNO-9127f88731c8ed89e1ca\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"水下总体论证工程师归车辆与交通装备工程（L06-03）合理，属于交通装备专业研发。\"},{\"occupation_id\":\"SNO-2733d4b1584d4b701adf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产线设计工程师归工艺与制造工程（L06-08）合理，符合制造工艺范围。\"},{\"occupation_id\":\"SNO-fd0ead2b0b109ebdad61\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"钻探归采矿与资源开采（L25-02）合理，符合资源开采作业范围。\"},{\"occupation_id\":\"SNO-8f5d69986f5357c1b381\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务类管培生仅表明培养身份，未明确具体职能，标review合理。\"},{\"occupation_id\":\"SNO-2d5b21d73cd7ce55e615\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"跟单员归进出口与贸易执行（L16-04）合理，符合外贸跟单范围。\"},{\"occupation_id\":\"SNO-3f5a8d5bb8214e602da8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI应用工程师归大模型与智能应用工程（L02-06）合理，符合AI应用工程范围。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10877,
+    "completion_tokens": 601,
+    "total_tokens": 11478,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "prompt_cache_hit_tokens": 9216,
+    "prompt_cache_miss_tokens": 1661
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

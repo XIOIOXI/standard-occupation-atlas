@@ -1,0 +1,28 @@
+{
+  "id": "19fb3771-b412-4ab8-9690-a5a4b2a85183",
+  "object": "chat.completion",
+  "created": 1792596287,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-15061ed3a0dade22bb0462d602c7c050\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L02-05\",\"issue\":\"算法工程师方向未明，停二级合理。\"},{\"occupation_id\":\"UP-087426d1e81497b8920dd9ce0c54e586\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L01-10-01\",\"issue\":\"软件实施归业务系统实施配置合理。\"},{\"occupation_id\":\"UP-85847a06c19ccf84764846d8540b5b89\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L02-01\",\"issue\":\"大数据分析师归数据分析，方向未明停二级合理。\"},{\"occupation_id\":\"UP-5e8fa5f5ea87e64b455dcf2025111285\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L19-01-01\",\"issue\":\"会计专员归总账与财务会计合理。\"},{\"occupation_id\":\"UP-2c685c319eea9fad8e2a05b918a94279\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L19-01-02\",\"issue\":\"成本管控归成本会计合理。\"},{\"occupation_id\":\"UP-f93025ff30df5a3320ea4cba58085cb7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"监测对象未明，review合理。\"},{\"occupation_id\":\"UP-742e16edf360908705e70d5763d515e8\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L25-08\",\"issue\":\"双碳管理归碳管理与可持续发展合理。\"},{\"occupation_id\":\"UP-5419d58ed51c3aa83e8674065c4b9ef0\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L16-01\",\"issue\":\"综合采购未明直接/间接，停二级合理。\"},{\"occupation_id\":\"UP-25c2a6a625c48ab0110362b8527ac464\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-01\",\"issue\":\"造纸企业销售面向企业客户，停二级合理。\"},{\"occupation_id\":\"UP-6ac44e1eece5e2cee081bd340b1b082f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-08\",\"issue\":\"钢铁工艺技术岗归制造工艺工程，停二级合理。\"},{\"occupation_id\":\"UP-7df4ca4f2fcb25cdc6177e39e700f255\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"IT技术岗方向未明，review合理。\"},{\"occupation_id\":\"UP-68df21ac0eb5f2aa2a1960fd10e34bc6\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L23-09-02\",\"issue\":\"设备运维归工业设备维修保全合理。\"},{\"occupation_id\":\"UP-a262357994c01d233eaf3eaed02e8997\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L11-05\",\"issue\":\"产业研究归商业研究与市场调研合理。\"},{\"occupation_id\":\"UP-971587c30adae5ccdf6426982cdc852a\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-01\",\"issue\":\"国际业务销售面向企业客户，停二级合理。\"},{\"occupation_id\":\"UP-653f268b095b646bff7d5081f1695086\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-01\",\"issue\":\"国内业务销售面向企业客户，停二级合理。\"},{\"occupation_id\":\"UP-dc65c1fe70e17c71536de12e2c9f2f64\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-08\",\"issue\":\"化工工艺技术员归制造工艺工程，停二级合理。\"},{\"occupation_id\":\"UP-ef5ccbcd3f8a6d71d125d94310f530d6\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L23-09-02\",\"issue\":\"设备技术员归工业设备维修保全合理。\"},{\"occupation_id\":\"UP-e6557f96c4c1b0c4f9fb791f04c1a4d2\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L05-03\",\"issue\":\"电仪技术员归电气工程合理。\"},{\"occupation_id\":\"UP-fac951d98dc5bf619ddd46f24d835bda\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L18-05\",\"issue\":\"综合行政专员归行政与办公事务合理。\"},{\"occupation_id\":\"UP-9c69c1b2be59708bdd6e9f1c4f7a2be6\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-03\",\"issue\":\"新媒体运营归内容与新媒体运营合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22530,
+    "completion_tokens": 1135,
+    "total_tokens": 23665,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 6018
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

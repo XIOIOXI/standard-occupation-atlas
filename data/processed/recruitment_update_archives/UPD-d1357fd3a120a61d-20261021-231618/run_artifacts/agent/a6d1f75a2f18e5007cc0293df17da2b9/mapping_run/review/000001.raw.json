@@ -1,0 +1,28 @@
+{
+  "id": "5ec6cfcb-968b-4a32-a73b-db8a702063d9",
+  "object": "chat.completion",
+  "created": 1792571507,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-a6d1f75a2f18e5007cc0293df17da2b9\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L12-07\", \"issue\": \"标题明确为市场部门管理培训生，职能方向为市场营销，归入通用市场营销 L12-07 合理；已明确职能方向，不归 L32 跨职能轮岗。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17067,
+    "completion_tokens": 108,
+    "total_tokens": 17175,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 555
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

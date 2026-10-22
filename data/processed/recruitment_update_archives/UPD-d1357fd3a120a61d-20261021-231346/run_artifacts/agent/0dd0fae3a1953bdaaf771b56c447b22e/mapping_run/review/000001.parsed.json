@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-0dd0fae3a1953bdaaf771b56c447b22e",
+      "verdict": "pass",
+      "suggested_target_category_id": "L16-01",
+      "issue": "物资管理业务员归采购与供应商管理合理；未明确直接/间接物料，停在二级可接受。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17054,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 542,
+    "output_tokens": 90,
+    "reasoning_tokens": 0,
+    "total_tokens": 17144
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036967200000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

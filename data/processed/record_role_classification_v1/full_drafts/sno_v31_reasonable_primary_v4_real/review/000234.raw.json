@@ -1,0 +1,28 @@
+{
+  "id": "7cdee4ac-f895-45b1-a7f1-f48afafebe5c",
+  "object": "chat.completion",
+  "created": 1791880914,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-05c2ba76f451b4ba4c6f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售工程岗可能为售前技术支持或销售工程师，review合理。\"},{\"occupation_id\":\"TG-642e73b9d411ec6184b7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI产品实习生归数字与软件产品管理二级合理。\"},{\"occupation_id\":\"TG-bb6c40bdb582ceb90794\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"装配操作员归产品装配三级合理。\"},{\"occupation_id\":\"TG-d616e0fb891b105ceb1d\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L08-04\",\"issue\":\"小游戏/UGC游戏策划未明确系统数值或关卡叙事，应归L08-04二级而非三级。\"},{\"occupation_id\":\"TG-43c41cd1d61821c889c4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术服务员可能为售后或内部IT支持，review合理。\"},{\"occupation_id\":\"TG-fb854f4cc8a836a552a7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"高中教师未说明学科，归学科与通识教学二级合理。\"},{\"occupation_id\":\"TG-34af7b6446be665c2573\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"装备技师职责方向不明确，review合理。\"},{\"occupation_id\":\"TG-0e8876955ddebdb0eabf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"基建技术员归通用建筑与工程工作二级合理。\"},{\"occupation_id\":\"TG-9b0d6857cbb9b82aa746\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"基建项目管培生归跨职能管理培训与轮岗合理。\"},{\"occupation_id\":\"TG-5221005ce3fde5a9a08c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"交付管培生归跨职能管理培训与轮岗合理。\"},{\"occupation_id\":\"TG-d4b4fbcf5dc75835c027\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"城市规划与设计归城乡规划三级合理。\"},{\"occupation_id\":\"TG-dc0d2af1d096187b9dac\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"系统维护员归系统与服务器运维二级合理。\"},{\"occupation_id\":\"TG-552eb848a9c3a185d3b2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"人工智能研发岗未明确方向，归机器学习与算法研发二级合理。\"},{\"occupation_id\":\"TG-49874a240b212a8945c3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"大模型应用实习生未明确方向，归大模型与智能应用工程二级合理。\"},{\"occupation_id\":\"TG-0a8e4411af32ff9f6018\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L22-02-02\",\"issue\":\"双语物理教师学科为物理，应归数学与自然科学教学三级，而非语言教学。\"},{\"occupation_id\":\"TG-702b4413aa6c49baa97c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题包含多个职能类别，multi_role合理。\"},{\"occupation_id\":\"TG-a6cb35c94a968d9e6d40\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"企划分析岗归经营分析与流程改善二级合理。\"},{\"occupation_id\":\"TG-48704cfc9b12d2e714ae\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工程规划设计师归通用建筑与工程工作二级合理。\"},{\"occupation_id\":\"TG-6354afa5bfd2073fa275\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"控制器硬件工程师归电路与板级设计三级合理。\"},{\"occupation_id\":\"TG-27e387bd8c495f03e819\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"人力资源专员归人力资源综合管理二级合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19743,
+    "completion_tokens": 1005,
+    "total_tokens": 20748,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3231
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

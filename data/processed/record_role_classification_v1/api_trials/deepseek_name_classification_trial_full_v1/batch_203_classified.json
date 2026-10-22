@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 203,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "0772e858-3800-47d3-8a35-60b810d65be9",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751559,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24918,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1622,
+    "output_tokens": 2681,
+    "reasoning_tokens": 0,
+    "total_tokens": 27599
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001921788
+  },
+  "observed_at_utc": "2026-10-11T20:46:00.133592+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-76cb3592fa3de1bbe228",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "mapped",
+      "reason": "引擎开发通常涉及图形与高性能计算，归入C++图形方向"
+    },
+    {
+      "occupation_id": "SNO-c7b17f5230f8802b5861",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "动力环境工程师负责动力与环境设备监控，属电气自动化控制"
+    },
+    {
+      "occupation_id": "SNO-4c4636172106afcb4a9c",
+      "target_category_id": "咨询/翻译/法律/consult-other-language/other-translation-written",
+      "status": "mapped",
+      "reason": "老挝语翻译属其他语种翻译"
+    },
+    {
+      "occupation_id": "SNO-771c9b9daa4fc2aa99d5",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-processing",
+      "status": "mapped",
+      "reason": "食品加工属生产制造加工与包装作业"
+    },
+    {
+      "occupation_id": "SNO-57cd99ba497ab981adc5",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "系统测试开发工程师属功能与自动化测试"
+    },
+    {
+      "occupation_id": "SNO-afa07561172aeadee3b1",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "系统测试工程师属功能与自动化测试"
+    },
+    {
+      "occupation_id": "SNO-67ad10176fd1eb7847c9",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "报价工程师负责报价与商务支持，归入销售支持与商务协调"
+    },
+    {
+      "occupation_id": "SNO-c1a89e848335f3a9f446",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "数学教师属基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-997d3b91cf0a9217f4b9",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "制程工程师负责生产工艺改善，归入生产运营与精益改善"
+    },
+    {
+      "occupation_id": "SNO-33ebf04d5d9944045e66",
+      "target_category_id": "医疗健康/health-nurse/nursing-clinical",
+      "status": "mapped",
+      "reason": "护士属临床护理"
+    },
+    {
+      "occupation_id": "SNO-43dc3f884743d754026a",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "营销策划属品牌与市场策略"
+    },
+    {
+      "occupation_id": "SNO-6213d598fe939cc61e2d",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "终端开发工程师属移动端与客户端开发"
+    },
+    {
+      "occupation_id": "SNO-55847d2e5bed2ac5373a",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量岗位属质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-28a3d1db1e08ec2fa511",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "供应链专员属供应链计划与采购协同"
+    },
+    {
+      "occupation_id": "SNO-16ec441bc706922deb01",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "status": "mapped",
+      "reason": "产品设计属工业产品设计"
+    },
+    {
+      "occupation_id": "SNO-de240258221da1dad684",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "status": "mapped",
+      "reason": "高级产品设计属工业产品设计"
+    },
+    {
+      "occupation_id": "SNO-3e402032f040aff7ef64",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "基带工程师属电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-e1e11ef973ed29809533",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "高级基带工程师属电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-e9b66a64562719545081",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI架构师属大模型与生成式AI方向"
+    },
+    {
+      "occupation_id": "SNO-dc2e6f67117aca2734ae",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "生产工程师属生产运营与精益改善"
+    },
+    {
+      "occupation_id": "SNO-a619ee13e556f9127f41",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-analysis",
+      "status": "mapped",
+      "reason": "实验员属化学分析与质量控制"
+    },
+    {
+      "occupation_id": "SNO-d0132bfba40616a8093b",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "BMS软件工程师属嵌入式与固件开发"
+    },
+    {
+      "occupation_id": "SNO-6e5df8458ccdb2205501",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安环属安全生产管理"
+    },
+    {
+      "occupation_id": "SNO-0bdceeefcc41d2b1a3b7",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "人工智能工程师属算法研究与通用算法"
+    },
+    {
+      "occupation_id": "SNO-afcdf88e6dc37144fce5",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "人工智能研发工程师属算法研究与通用算法"
+    },
+    {
+      "occupation_id": "SNO-549adebd553ecd6c2aa8",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "物理教师属基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-2cff3499a99b7f8c165f",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "良率工程师属半导体制造工艺"
+    },
+    {
+      "occupation_id": "SNO-4ce1c5d715edc56f2ab6",
+      "target_category_id": "教育培训/edu-child/early-edu-preschool",
+      "status": "mapped",
+      "reason": "幼儿园教师属幼儿园与学前教育"
+    },
+    {
+      "occupation_id": "SNO-e8bfbc191cd79e446be9",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "办公室岗位属文档与档案文员"
+    },
+    {
+      "occupation_id": "SNO-4ac92a61d89d162de63c",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "机构销售属证券研究与投资顾问"
+    },
+    {
+      "occupation_id": "SNO-cb41ba20e278ab4d9417",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-data",
+      "status": "mapped",
+      "reason": "部门助理属数据与业务文员"
+    },
+    {
+      "occupation_id": "SNO-91380772a7f7ee901f30",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人资专员属员工关系与人力运营"
+    },
+    {
+      "occupation_id": "SNO-4900d4eb156df3a5be2c",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "PE工程师属生产运营与精益改善"
+    },
+    {
+      "occupation_id": "SNO-5a78609dd51ce1b6475e",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "PE开发工程师属生产运营与精益改善"
+    },
+    {
+      "occupation_id": "SNO-77d477ef48b72ff7f329",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "测井解释工程师属地质勘查与测绘"
+    },
+    {
+      "occupation_id": "SNO-9e3c1e76182bc95177bc",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "具身智能算法工程师属机器人与具身智能"
+    },
+    {
+      "occupation_id": "SNO-6529275034f383e6d72a",
+      "target_category_id": "教育培训/edu-teacher/teacher-vocational",
+      "status": "mapped",
+      "reason": "信息技术教师属职业与技能教学"
+    },
+    {
+      "occupation_id": "SNO-2e6156203150e5dbfe5a",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中学心理教师属基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-9c47e0ba12ea86fa5889",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "储能研发工程师属能源开发与工程"
+    },
+    {
+      "occupation_id": "SNO-efdfce380b22231d5dfc",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "AI数据工程师属数据工程与数仓"
+    },
+    {
+      "occupation_id": "SNO-f7f7a97aa4f7789d81aa",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "AI数据开发工程师属数据工程与数仓"
+    },
+    {
+      "occupation_id": "SNO-efb8cc5950eabff57360",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "程序开发属业务服务端开发"
+    },
+    {
+      "occupation_id": "SNO-21dcf632d0a7698b0de8",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "设计专员属品牌与视觉设计"
+    },
+    {
+      "occupation_id": "SNO-111e4cdd06996a0a8507",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "初中体育教师属基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-af84cfb6c1bb0e98dd9d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法岗位属算法研究与通用算法"
+    },
+    {
+      "occupation_id": "SNO-5c1ceb063314d6c9d4f6",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "顾问属管理与行业咨询"
+    },
+    {
+      "occupation_id": "SNO-2833a1f639643dd38778",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-operations",
+      "status": "mapped",
+      "reason": "外贸属进出口业务与单证"
+    },
+    {
+      "occupation_id": "SNO-d6104faf43a4aa90b748",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "资深律师属公司法务与合规"
+    },
+    {
+      "occupation_id": "SNO-1a6179c19dd218ce1365",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "实习律师属公司法务与合规"
+    },
+    {
+      "occupation_id": "SNO-8b9a36a968cd1890e095",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "律师属公司法务与合规"
+    }
+  ]
+}

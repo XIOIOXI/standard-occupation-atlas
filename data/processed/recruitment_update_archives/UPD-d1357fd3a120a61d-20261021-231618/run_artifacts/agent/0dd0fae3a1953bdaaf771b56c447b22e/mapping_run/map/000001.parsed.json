@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-0dd0fae3a1953bdaaf771b56c447b22e",
+      "status": "mapped",
+      "target_category_id": "L16-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-01",
+        "L16-02",
+        "L16-06"
+      ],
+      "title_evidence": "标题明确为“机电物资部物资管理业务员岗”，核心职责指向物资/采购与供应商管理",
+      "level_3_evidence": null,
+      "reason": "“物资管理”属于采购与供应商管理范畴，但未明确是直接物料还是间接采购，故归 L16-01 二级，不强行下探三级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16979,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 339,
+    "output_tokens": 149,
+    "reasoning_tokens": 0,
+    "total_tokens": 17128
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038034
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

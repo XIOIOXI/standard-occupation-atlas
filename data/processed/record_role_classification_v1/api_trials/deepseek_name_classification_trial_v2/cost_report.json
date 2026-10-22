@@ -1,0 +1,18 @@
+{
+  "schema_version": "deepseek-name-classification-trial-cost-v1",
+  "model_requested": "deepseek-flash",
+  "connection_probe_included": true,
+  "classified_occupation_count": 100,
+  "usage": {
+    "input_tokens": 117536,
+    "cached_input_tokens": 90112,
+    "uncached_input_tokens": 27424,
+    "output_tokens": 4921,
+    "reasoning_tokens": 0,
+    "total_tokens": 122457
+  },
+  "estimated_cost_usd": 0.007336535999999999,
+  "stop_budget_usd": 1.0,
+  "cost_scope": "Estimate computed from API-reported tokens and the DeepSeek Flash pricing window at each request; it is not a provider billing export.",
+  "full_10998_linear_estimate_usd": 0.80687222928
+}

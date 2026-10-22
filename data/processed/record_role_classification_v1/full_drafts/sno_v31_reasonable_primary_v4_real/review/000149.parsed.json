@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-a95a4fbc189e5c7488b0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "资金管培生含培养性质且方向未最终明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-2367acf2529e8eba3220",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务管理岗归财务综合管理合理。"
+    },
+    {
+      "occupation_id": "TG-6bba197c86dd21744734",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "管培生多方向且最终职能未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-eeb3d800b9b0f330a7e8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "客服管理岗归客服与客户支持合理。"
+    },
+    {
+      "occupation_id": "TG-c3996c2b235a263f53a5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "工程技术支持归售后技术服务合理。"
+    },
+    {
+      "occupation_id": "TG-e6d79c5b4fbb4f6e6ed5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "系统研发方向未说明，归通用软件研发合理。"
+    },
+    {
+      "occupation_id": "TG-602299f9a1791be52c24",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "电子工程方向未说明，归通用电子电气通信技术合理。"
+    },
+    {
+      "occupation_id": "TG-ad0e8d52497647e1c124",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "中间件开发归中间件与基础框架合理。"
+    },
+    {
+      "occupation_id": "TG-4b6cc5627c67312b380e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "项目工程师领域未说明，归通用项目管理合理。"
+    },
+    {
+      "occupation_id": "TG-a21f5034a25beb86a98e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "耳鼻喉科技师归医学影像与功能检查合理。"
+    },
+    {
+      "occupation_id": "TG-2210eb15b306f326bf8a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "软件测试岗归软件测试与质量保障合理。"
+    },
+    {
+      "occupation_id": "TG-3efb1c1ec904fb1e0e61",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "直销销售代表归直客销售合理。"
+    },
+    {
+      "occupation_id": "TG-559601da31a868897c1e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "散货业务员客户类型未明确，归通用销售合理。"
+    },
+    {
+      "occupation_id": "TG-940d39a661dd251c4a88",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "市场推广专员归营销活动策划合理。"
+    },
+    {
+      "occupation_id": "TG-2102a12024deac740323",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "渠道管培生含培养性质且方向未最终明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-acac09927bb2ca4c14f0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "衍生品交易中台岗归金融交易合理。"
+    },
+    {
+      "occupation_id": "TG-d2d2a5b5e42b8152a2c8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含多个职能方向，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-30e8bded99de27da01bf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "采矿业务专员客户类型未明确，归通用销售合理。"
+    },
+    {
+      "occupation_id": "TG-8683553618e16a9135d7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "光学系统集成工艺/测校研发归制造制程工程合理。"
+    },
+    {
+      "occupation_id": "TG-9d66de163cd2d01a0d5f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "嵌入式开发岗归嵌入式与固件开发合理。"
+    }
+  ],
+  "raw_response_file": "000149.raw.json",
+  "usage": {
+    "input_tokens": 19440,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2928,
+    "output_tokens": 959,
+    "reasoning_tokens": 0,
+    "total_tokens": 20399
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002128272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2008fdf4-0315-41a0-99e7-bfd3ceff1184",
+  "object": "chat.completion",
+  "created": 1791883511,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"results\": [\n    {\n      \"original_record_id\": \"TG-7b43244102c2b85a925f\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为多个领域关键词的堆砌，未明确具体岗位名称，属于非岗位描述。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-7e9f1931d1ae03f3c0bc\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题仅说明招聘岗位数量，未提供具体岗位名称。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-626b8118ef83e5089ea9\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为泛指类别，未指明具体岗位。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-f50fd107109a3681951c\",\n      \"decision\": \"restore_title_and_map\",\n      \"reason\": \"标题包含多个具体专业/岗位方向，可恢复为岗位列表。\",\n      \"recovered_title\": \"电气工程、能源与动力工程/新能源科学与工程、机械工程/过程装备与控制/机械电子、俄语/法语/西班牙语、控制科学与工程/自动化、土木工程/土木水利、船舶与海洋工程/轮机工程、财务管理/会计学、新闻传播学\"\n    },\n    {\n      \"original_record_id\": \"TG-33b575b250e968b1e2a9\",\n      \"decision\": \"restore_title_and_map\",\n      \"reason\": \"标题列出多个具体专业/岗位方向，可恢复为岗位列表。\",\n      \"recovered_title\": \"能源动力工程、电气工程、人工智能、自动化、财务、审计、法律、计算机\"\n    },\n    {\n      \"original_record_id\": \"TG-5e44518a09a845fb2a1d\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题仅提及招聘人数和岗位，未给出具体岗位名称。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-6a3bd9154c87584db20d\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为泛指类别，未指明具体岗位。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-7d4b2878d98df13920f0\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为泛指描述，未指明具体岗位。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-36df18ed9cac387a0b0f\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题仅说明岗位数量，未提供具体岗位名称。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-d38108bb33a553a2c765\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题明确表示未提及具体岗位，属于非岗位描述。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-5001773e21bbab822c94\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为学历要求，非岗位名称。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-1cdfb00228317c6c5a5e\",\n      \"decision\": \"restore_title_and_map\",\n      \"reason\": \"标题列出多个具体岗位类别，可恢复为岗位列表。\",\n      \"recovered_title\": \"策划类、技术类、美术类、运营类、法务类、表现类\"\n    },\n    {\n      \"original_record_id\": \"TG-022b47de7008bf8ee4dd\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为学历要求，非岗位名称。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-8cdf81260d5d06340d19\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为泛指类别，未指明具体岗位。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-636873b32d2c98338c9c\",\n      \"decision\": \"restore_title_and_map\",\n      \"reason\": \"标题包含多个具体专业/岗位方向，可恢复为岗位列表。\",\n      \"recovered_title\": \"能源与动力工程、电气工程及其自动化、管理科学与工程、储能科学与工程、工商管理、会计学、财务管理、人力资源管理、金融学、法学、审计学、安全工程\"\n    },\n    {\n      \"original_record_id\": \"TG-909d930116bcd2665cf1\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题明确表示未明确招聘岗位，属于非岗位描述。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-d1f8b2515ec375c1252a\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为泛指描述，未指明具体岗位。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-4db4aad92575edc580d0\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为泛指类别，未指明具体岗位。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-a0cb99b262081856daab\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题仅说明岗位数量，未提供具体岗位名称。\",\n      \"recovered_title\": null\n    },\n    {\n      \"original_record_id\": \"TG-b0b70a008d9a2734373b\",\n      \"decision\": \"exclude_non_role\",\n      \"reason\": \"标题为泛指类别，未指明具体岗位。\",\n      \"recovered_title\": null\n    }\n  ]\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 782,
+    "completion_tokens": 1383,
+    "total_tokens": 2165,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 782
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

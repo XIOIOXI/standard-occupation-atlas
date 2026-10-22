@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 174,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "5b796be2-be80-4824-b1e1-2ecf77d1cadb",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751276,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25068,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1772,
+    "output_tokens": 2621,
+    "reasoning_tokens": 0,
+    "total_tokens": 27689
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001908288
+  },
+  "observed_at_utc": "2026-10-11T20:41:16.820267+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-559c7ebd5576408df35e",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "多模态理解属于大模型与生成式AI方向"
+    },
+    {
+      "occupation_id": "SNO-9d785b5fe8ee54e6864b",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "营销经理核心为品牌与市场策略"
+    },
+    {
+      "occupation_id": "SNO-9e8a9455cdf0cdae71d1",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "党工团岗位目录无对应类别"
+    },
+    {
+      "occupation_id": "SNO-82c6ff22ac5cbe0dcaa7",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电路方向硬件工程师对应电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-b07337a926d19de8c205",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "初中心理健康教师属于基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-9971bb107e8358cdf171",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电路设计工程师对应电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-025ec7fbcf2248964e6f",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "电气销售属于客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-9be73dbef4974b558441",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "海外产品岗位核心为产品经理职责"
+    },
+    {
+      "occupation_id": "SNO-c716ed2d9f6c2fcac8f0",
+      "target_category_id": "采购/贸易/trade-buyer/buyer-merchandise",
+      "status": "mapped",
+      "reason": "海外商品创优生偏向商品买手与选品"
+    },
+    {
+      "occupation_id": "SNO-7e074a11882eee09b769",
+      "target_category_id": "医疗健康/health-clinical/clinical-trial-operations",
+      "status": "mapped",
+      "reason": "医学专员涉及临床药理与药动，属临床试验运营"
+    },
+    {
+      "occupation_id": "SNO-6a0b025b13508151620b",
+      "target_category_id": "设计/design-visual-interaction/design-interaction",
+      "status": "mapped",
+      "reason": "交互设计师对应交互与体验设计"
+    },
+    {
+      "occupation_id": "SNO-92f2efee329f2927561d",
+      "target_category_id": "运营/客服/ops-product/prodops-user",
+      "status": "mapped",
+      "reason": "私域运营专员属于用户与会员运营"
+    },
+    {
+      "occupation_id": "SNO-27ae3808ff9db1652acc",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "综合专员涵盖多领域，缺少具体职责信息"
+    },
+    {
+      "occupation_id": "SNO-7095e5f2b4180eaa6a95",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "经济金融名称宽泛，缺少具体岗位职责"
+    },
+    {
+      "occupation_id": "SNO-5aaa8e289928f73cd726",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "培训生计划名称未体现具体职业方向"
+    },
+    {
+      "occupation_id": "SNO-f209d210f84291c2c52d",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出工艺、设备、仪表、电气、储运、外贸等多个独立岗位"
+    },
+    {
+      "occupation_id": "SNO-77d04928f3ebfde3206f",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "经销商客户运营属于业务流程运营"
+    },
+    {
+      "occupation_id": "SNO-cccab2580cd08e41930f",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "生产管理培训生包含工艺、设备、信息管理等多个方向"
+    },
+    {
+      "occupation_id": "SNO-51e37998038f1a0d736c",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量管理储备对应质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-4c70e0d1457acccf5c97",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "体内肿瘤药效研究员属于生物医药研发"
+    },
+    {
+      "occupation_id": "SNO-9020e6102000ada03f60",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "AI应用管培生方向不明确，缺少具体职责"
+    },
+    {
+      "occupation_id": "SNO-d1317dbdbe99b3b73194",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安全质量专员偏向安全生产管理"
+    },
+    {
+      "occupation_id": "SNO-e9c832e665a80c561b0d",
+      "target_category_id": "设计/design-fashion/fashion-textile",
+      "status": "mapped",
+      "reason": "花色设计师对应面料与纺织设计"
+    },
+    {
+      "occupation_id": "SNO-2b5657b0dedb3f56fe4f",
+      "target_category_id": "运营/客服/ops-content/content-editorial",
+      "status": "mapped",
+      "reason": "品牌内容运营专员属于内容编辑与策划"
+    },
+    {
+      "occupation_id": "SNO-5eb054cede088c6fb61b",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "小微金融方向营销培训生属于财富与理财销售"
+    },
+    {
+      "occupation_id": "SNO-0920cf73ab74d7387473",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "国际业务相关名称过于宽泛，缺少具体职责"
+    },
+    {
+      "occupation_id": "SNO-11e2514cf283f8d229fd",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "产品总监核心为产品管理，归入平台与企业产品"
+    },
+    {
+      "occupation_id": "SNO-2c63a883689e5bf8a00a",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "采销管培生偏向采购与寻源"
+    },
+    {
+      "occupation_id": "SNO-c2d77650572e565b9e15",
+      "target_category_id": "生产制造/manufacturing-food-rd/food-rd-process",
+      "status": "mapped",
+      "reason": "啤酒酿造管培生属于食品工艺与质量研发"
+    },
+    {
+      "occupation_id": "SNO-dd741f1288527c454a64",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "先进电池开发工程师属于能源开发与工程"
+    },
+    {
+      "occupation_id": "SNO-62880dcc22e5fdfb4549",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "数智化系统工程师偏向基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-0c6c776aa1a945b3a618",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "工程管理方向项目管理高级经理对应施工现场管理"
+    },
+    {
+      "occupation_id": "SNO-3c76635bb06c1d234c74",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "摄像头工艺工程师属于机械制造与工艺"
+    },
+    {
+      "occupation_id": "SNO-67991383672f9be0d9a5",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "银行分行运营支持岗属于零售与综合银行"
+    },
+    {
+      "occupation_id": "SNO-4936af5e1ea763ad2187",
+      "target_category_id": "医疗健康/health-nurse/nursing-specialist",
+      "status": "mapped",
+      "reason": "专科护理人员对应专科与社区护理"
+    },
+    {
+      "occupation_id": "SNO-e6af162f62d79173a3be",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "具身控制算法工程师属于机器人与具身智能"
+    },
+    {
+      "occupation_id": "SNO-fea8318a55cd5981bcd4",
+      "target_category_id": "汽车/auto-service/auto-service-maintenance",
+      "status": "mapped",
+      "reason": "汽车技术售后工程师偏向汽车维修与保养"
+    },
+    {
+      "occupation_id": "SNO-a6a2659ea900b9318cfd",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "采购与供应链管理对应供应链计划与采购协同"
+    },
+    {
+      "occupation_id": "SNO-d3acce47a5e789684924",
+      "target_category_id": "医疗健康/health-clinical/clinical-trial-operations",
+      "status": "mapped",
+      "reason": "国际临床专员属于临床试验运营"
+    },
+    {
+      "occupation_id": "SNO-8a04d5829381cb645dda",
+      "target_category_id": "运营/客服/ops-business/business-ops-growth",
+      "status": "mapped",
+      "reason": "运营规划偏向业务增长与策略运营"
+    },
+    {
+      "occupation_id": "SNO-a698510387495caddfdd",
+      "target_category_id": "供应链/物流/supply-dispatch/delivery-merch-delivery",
+      "status": "mapped",
+      "reason": "送货员属于末端配送服务"
+    },
+    {
+      "occupation_id": "SNO-c917b822e099fc556b8a",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-external",
+      "status": "mapped",
+      "reason": "财会与审计对应外部与财务审计"
+    },
+    {
+      "occupation_id": "SNO-6c0fee0710c3bed396b0",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "自动驾驶仿真算法工程师属于自动驾驶与智能交通"
+    },
+    {
+      "occupation_id": "SNO-691bb49942d1c73b09ab",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "未提及具体，无法判断职业方向"
+    },
+    {
+      "occupation_id": "SNO-a6eb155393b7c7fe7a71",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安全技术工程师偏向安全生产管理"
+    },
+    {
+      "occupation_id": "SNO-9d42ba50ab5effec325c",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-channel",
+      "status": "mapped",
+      "reason": "营销助理偏向渠道与营销活动"
+    },
+    {
+      "occupation_id": "SNO-c07945a442d031b5c76a",
+      "target_category_id": "医疗健康/health-sales/medical-sales-device",
+      "status": "mapped",
+      "reason": "化妆品/药品/医疗器械销售工程师属于医疗器械销售"
+    },
+    {
+      "occupation_id": "SNO-56f23b0c1131f4ac9a26",
+      "target_category_id": "供应链/物流/supply-driver/driver-passenger",
+      "status": "mapped",
+      "reason": "机车乘务员属于客运与商务驾驶"
+    },
+    {
+      "occupation_id": "SNO-8e8493ab87827901a86a",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安全环保部安全监督管理属于安全生产管理"
+    },
+    {
+      "occupation_id": "SNO-0d0c56b526a6b3b61993",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "售后技术支持对应技术支持与客户交付"
+    }
+  ]
+}

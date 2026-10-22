@@ -1,0 +1,28 @@
+{
+  "id": "d53b438b-6775-4b24-b9c7-36c336bd85d7",
+  "object": "chat.completion",
+  "created": 1791881367,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-ff692aa5450128fb7b8e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合业务培训生方向未明确，review合理。\"},{\"occupation_id\":\"TG-02e5c5a9dc129410eb7a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外销售经理归企业客户销售合理。\"},{\"occupation_id\":\"TG-fa62c41e2115f26e0042\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"学科教学归L22-02合理。\"},{\"occupation_id\":\"TG-09956061a81b7808defe\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产制造员归一般生产作业合理。\"},{\"occupation_id\":\"TG-b2b6d5c655e95fbc839d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务运行管理岗归财务综合管理合理。\"},{\"occupation_id\":\"TG-f7c7b08076d7213ddc1f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生方向为分公司总经理，归跨职能管理培训合理。\"},{\"occupation_id\":\"TG-b7f1da6856431c360bb8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"导航算法归运筹优化与决策算法合理。\"},{\"occupation_id\":\"TG-7b7355794937660774c6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"环保工程师归环境治理工程合理。\"},{\"occupation_id\":\"TG-49ed7f695146c6e75112\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"环境可靠性工程师归硬件与产品测试合理。\"},{\"occupation_id\":\"TG-134034a2776271b5349d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"总部经办岗职责不明确，review合理。\"},{\"occupation_id\":\"TG-66ca0d386ea19ecd22a5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"聚合研发工程师归化学合成与反应开发合理。\"},{\"occupation_id\":\"TG-706c0e38591920fa288a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运维保障组开发工程师归云平台与可靠性运维合理。\"},{\"occupation_id\":\"TG-b028612b9afab955749a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术管培生方向未明确，review合理。\"},{\"occupation_id\":\"TG-ae8ae160cc15f4ec2a54\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"设计转化工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-711033f0370f247e34a6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采购管理培训生归采购与供应商管理合理。\"},{\"occupation_id\":\"TG-76b6afe895d4204f266d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"智慧旅游技术运用教师归工业与职业技能教学合理。\"},{\"occupation_id\":\"TG-b303868020a4b42282fc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"跨境电商运营管培生归电商店铺运营合理。\"},{\"occupation_id\":\"TG-a6d520014e8eac4bb39e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品经理岗归数字与软件产品管理合理。\"},{\"occupation_id\":\"TG-b9e95601e43e58715d7c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"自动化测试开发工程师归测试开发与自动化合理。\"},{\"occupation_id\":\"TG-8637ce38eec91b09b35f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"渠道拓展创优生归商务拓展与合作合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19662,
+    "completion_tokens": 922,
+    "total_tokens": 20584,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3150
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

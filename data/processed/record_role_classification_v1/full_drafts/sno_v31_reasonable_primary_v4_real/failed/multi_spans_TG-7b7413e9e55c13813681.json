@@ -1,0 +1,24 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-7b7413e9e55c13813681",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-7b7413e9e55c13813681",
+    "case": "A",
+    "child_titles": [
+      "会计",
+      "工程管理",
+      "法律事务",
+      "英语翻译（相关专业：会计、工程管理、法学、英语）"
+    ],
+    "source_spans": [
+      {
+        "text": "会计 工程管理 法律事务 英语翻译（相关专业：会计、工程管理、法学、英语）",
+        "start": 0,
+        "end": 38
+      }
+    ],
+    "reason": "标题由多个独立岗位名称用空格分隔，可拆分。"
+  }
+}

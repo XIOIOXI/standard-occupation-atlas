@@ -1,0 +1,28 @@
+{
+  "id": "4980a096-7339-423c-bfe8-ccf8b130b4a6",
+  "object": "chat.completion",
+  "created": 1791813321,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-a6017091b44627aef82f\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"名称仅含'科创中心智慧城市研发专员'，未注明技术栈或具体开发方向，无法确认属于后端业务服务端开发；'研发'过泛，最深可确认有效上级为互联网/AI。\"},{\"occupation_id\":\"SNO-eecf85da74e4647b6290\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-embedded\",\"reason\":\"名称明确为嵌入式工具软件开发，核心职责为嵌入式与实时开发，与当前类别合理匹配；未注明语言不影响嵌入式方向归属。\"},{\"occupation_id\":\"SNO-c06a386805d2dd277378\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"'等离子体计算研究员'为科学计算/物理仿真方向，名称未体现互联网算法工程职责，无法确认属于算法研究与通用算法；最深可确认有效上级为互联网/AI。\"},{\"occupation_id\":\"SNO-61102930ddd022490ec7\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"名称明确为平台技术研发工程师，核心职责为平台与中间件开发，与当前类别合理匹配。\"},{\"occupation_id\":\"SNO-edf5f4a985c7a582f911\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-driving\",\"reason\":\"名称明确为智能驾驶软件开发，核心职责为自动驾驶与智能交通方向，与当前类别合理匹配。\"},{\"occupation_id\":\"SNO-ef61d186ab61a25cd924\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列导演、编剧、编导、AI剪辑师、AI制作师等多个独立职业，确属多职业复合。\"},{\"occupation_id\":\"SNO-6d147f379c06be65e6c6\",\"decision\":\"fallback_review\",\"target_category_id\":\"供应链/物流\",\"reason\":\"'无人机技术'仅表明技术领域，未确认是飞手/飞行作业还是研发维护，无法确认属于行业应用飞行作业；最深可确认有效上级为供应链/物流。\"},{\"occupation_id\":\"SNO-1fc615a7681965b45314\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-vision\",\"reason\":\"名称明确为机器视觉工程师，核心职责为计算机视觉方向，与当前类别合理匹配；括号内专业要求不影响职业归属。\"},{\"occupation_id\":\"SNO-ea4e801ba8bea0d4d7a9\",\"decision\":\"fallback_review\",\"target_category_id\":\"咨询/翻译/法律\",\"reason\":\"'小语种翻译岗'未注明具体语种，无法确认归入其他语种翻译的笔译或口译；最深可确认有效上级为咨询/翻译/法律。\"},{\"occupation_id\":\"SNO-cbe86421be3c21ea75e9\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"'音视频开发工程师'未注明语言或技术栈，无法确认属于C++图形与高性能计算；最深可确认有效上级为互联网/AI。\"},{\"occupation_id\":\"SNO-e1c475fea846bd917cbd\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-system\",\"reason\":\"名称明确为底层系统适配开发，核心职责为系统与底层开发，与当前类别合理匹配；未注明语言不影响方向归属。\"},{\"occupation_id\":\"SNO-526178de1a5bc4a84afc\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列流程共享管培与品牌开发管培生两个独立职业方向，确属多职业复合。\"},{\"occupation_id\":\"SNO-e2317248d4c2906cef65\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列船舶设计、工程管理、数字化技术、人力资源、党建群团、法险风控等多个独立职业，确属多职业复合。\"},{\"occupation_id\":\"SNO-c19304696a2e196d2e8e\",\"decision\":\"keep\",\"target_category_id\":\"咨询/翻译/法律/consult-other-language/other-translation-written\",\"reason\":\"印尼语翻译属于其他语种翻译，未注明口译时归入笔译与本地化合理。\"},{\"occupation_id\":\"SNO-37396f1d8119ea10fce5\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"名称并列通用软件、嵌入式软件、操作系统与编译器多个方向，但均为软件开发大类，未明确并列多个独立职业；当前归入后端业务服务端开发缺乏依据，最深可确认有效上级为互联网/AI。\"},{\"occupation_id\":\"SNO-6affe542a0e607efa73d\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列前端与后端开发工程师两个独立职业，确属多职业复合。\"},{\"occupation_id\":\"SNO-3bdce036e0647ba69b38\",\"decision\":\"keep\",\"target_category_id\":\"餐饮/food-chef/chef-chinese\",\"reason\":\"厨师（长）核心职责为中餐烹饪，与当前类别合理匹配。\"},{\"occupation_id\":\"SNO-c532469ace63b98f5edb\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列国际货运与设备管理两个独立方向，确属多职业复合。\"},{\"occupation_id\":\"SNO-66ca0d386ea19ecd22a5\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"'聚合研发工程师'未注明技术栈或具体职责，无法确认属于平台与中间件开发；最深可确认有效上级为互联网/AI。\"},{\"occupation_id\":\"SNO-e1e8010fbc7115448ff5\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"'智慧交通设计与研究'偏规划设计研究，名称未体现算法工程职责，无法确认属于自动驾驶与智能交通算法；最深可确认有效上级为互联网/AI。\"},{\"occupation_id\":\"SNO-1769ce9d7f6da2300f16\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列自动化测试与AI应用开发两个独立职业方向，确属多职业复合。\"},{\"occupation_id\":\"SNO-703d74181f564848f3bb\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列买手、商品计划、海外采购、海外财经BP、运营等多个独立职业方向，确属多职业复合。\"},{\"occupation_id\":\"SNO-2bdbb2a6d2c30ffdd83e\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列机械、能源、电气、计算机、人工智能、数据、化学、会计、审计、金融等多个独立专业方向，确属多职业复合。\"},{\"occupation_id\":\"SNO-1bbdf2536414051b7b24\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列电气、暖通、造价、土木、给排水、水利、规划等多个独立工程方向，确属多职业复合。\"},{\"occupation_id\":\"SNO-d7079f7a69f30c52e346\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列财务主办、业务主办、技术员、设计工程师等多个独立职业，确属多职业复合。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 31111,
+    "completion_tokens": 1672,
+    "total_tokens": 32783,
+    "prompt_tokens_details": {
+      "cached_tokens": 27264
+    },
+    "prompt_cache_hit_tokens": 27264,
+    "prompt_cache_miss_tokens": 3847
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

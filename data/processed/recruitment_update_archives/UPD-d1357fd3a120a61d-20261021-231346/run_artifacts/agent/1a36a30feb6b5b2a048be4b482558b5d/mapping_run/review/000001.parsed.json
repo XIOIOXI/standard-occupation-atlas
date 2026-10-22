@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-1a36a30feb6b5b2a048be4b482558b5d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "管理培训生且原始岗位含信息技术、运营、精算、财务、合规等多方向，未确定单一主职能，归L32-01并标review合理。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17063,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 551,
+    "output_tokens": 92,
+    "reasoning_tokens": 0,
+    "total_tokens": 17155
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037477199999999994
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

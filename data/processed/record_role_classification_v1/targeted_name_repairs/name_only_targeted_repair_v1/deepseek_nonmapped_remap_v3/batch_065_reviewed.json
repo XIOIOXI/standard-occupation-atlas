@@ -1,0 +1,185 @@
+{
+  "batch_number": 65,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "c8aebea9-f71b-4c72-a489-20dbbe29f97f",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791822017,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29559,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2167,
+    "output_tokens": 1267,
+    "reasoning_tokens": 0,
+    "total_tokens": 30826
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0011674259999999998
+  },
+  "results": [
+    {
+      "entry_id": "SNO-e17bbff0c3f399eb0b01",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“科技研发”过于宽泛，未指明技术方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-e18ad30b37f4f103a3dd",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "应用工程师后附多个专业方向清单，未指明具体技术领域，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-e19796712f1cf0de97d5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“管理员”过于宽泛，缺少行业或职能信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-e1ae2d013d5b61f959d3",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“研发储备”未说明技术方向，无法确认具体研发类别。"
+    },
+    {
+      "entry_id": "SNO-e1e8010fbc7115448ff5",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "reason": "“智慧交通设计与研究”明确指向自动驾驶与智能交通算法方向。"
+    },
+    {
+      "entry_id": "SNO-e1f8b417d35e6072597e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“集团管培生-数字化智能化方向”为培训生性质且方向宽泛，无法确认具体职业类别。"
+    },
+    {
+      "entry_id": "SNO-e22e3b5acc489e7d4645",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“QA研究员”未指明产品领域，无法确认具体质量或测试类别。"
+    },
+    {
+      "entry_id": "SNO-e2317248d4c2906cef65",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出船舶设计、工程管理、数字化技术、人力资源、党建群团、法险风控等多个互不兼容职业，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-e292fd76ac9f668ea9e9",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“技术培训生”为培训生性质且未指明技术方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-e2aa90219f9d67e98048",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含生产主控、文秘和算法工程师多个独立职业，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-e2d17149e90dba890c8f",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "签派工程师属航空运行控制领域，冻结目录无对应类别，也无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-e2d26f8d72793e79b7d1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“管理培训生金融业务类”为培训生性质且方向宽泛，无法确认具体职业类别。"
+    },
+    {
+      "entry_id": "SNO-e2dab295bf1069eede59",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时列出前后端开发与财务助理两个互不兼容职业，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-e2e8bd65b88b0e9e5164",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "中后台职能支持管培生涵盖多职能方向且为培训生性质，无法确认具体类别。"
+    },
+    {
+      "entry_id": "SNO-e2f82628c6ec8e309d45",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称含冗余字符且“勘察设计”方向不明确，无法确认具体类别。"
+    },
+    {
+      "entry_id": "SNO-e3094932b3cfba28bfcb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“初级技术工程师”缺少具体技术领域信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-e31624700aef0a533b1d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“终端管理专员”职责不明确，缺少具体管理对象信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-e3380c22de689d452f0e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“定向培养生”未说明培养方向，无法确认具体职业类别。"
+    },
+    {
+      "entry_id": "SNO-e39fe31239ca14b37bb4",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“综合运行管理”职责范围不明确，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-e3b0c44298fc1c149afb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "岗位名称为空，无法判断职业。"
+    },
+    {
+      "entry_id": "SNO-e3bd7fc0b2efb041e999",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“职能”过于笼统，无法确认具体职能类别。"
+    },
+    {
+      "entry_id": "SNO-e3d07a0b389629955cf9",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“信息平台建设”职责宽泛，可能涉及基础设施、软件开发或产品管理，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-e403b27357f168273754",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称“共提供”不完整，无法判断职业。"
+    },
+    {
+      "entry_id": "SNO-e41907b2819818ed32b2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“企划”职责范围宽泛，可能涉及市场、产品或运营，无法确认唯一类别。"
+    },
+    {
+      "entry_id": "SNO-e42180b7193a4ea2d544",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“业务培训生”为培训生性质且未说明业务方向，无法确认类别。"
+    }
+  ]
+}

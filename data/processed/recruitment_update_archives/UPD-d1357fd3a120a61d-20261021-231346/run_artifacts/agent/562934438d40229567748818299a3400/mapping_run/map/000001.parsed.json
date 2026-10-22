@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-562934438d40229567748818299a3400",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-07",
+        "L12-01",
+        "L12-02"
+      ],
+      "title_evidence": "岗位名称“市场副经理”，明确属于市场职能，但未说明具体方向（策略、品牌、投放等）",
+      "level_3_evidence": null,
+      "reason": "“市场副经理”直接体现市场职能，但无具体细分方向证据，归入通用市场营销 L12-07；候选 L12-01/L12-02 仅为可能方向，不能作为目标。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16941,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 301,
+    "output_tokens": 158,
+    "reasoning_tokens": 0,
+    "total_tokens": 17099
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037974
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

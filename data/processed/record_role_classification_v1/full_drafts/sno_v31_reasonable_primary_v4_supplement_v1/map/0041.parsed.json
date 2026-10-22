@@ -1,0 +1,337 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-83cdb5f171bd46671102",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "技能岗",
+      "level_3_evidence": null,
+      "reason": "标题仅表明为技能类岗位，未提供任何具体职能或专业方向线索，无法映射到目录中的合理类别。"
+    },
+    {
+      "occupation_id": "TG-d36f2c652bd7a6ac1ba1",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L19-01",
+        "L05-01"
+      ],
+      "title_evidence": "上海烟草集团黄浦烟草糖酒有限公司专业技术类岗位（电子信息类、会计学、财务管理专业）",
+      "level_3_evidence": null,
+      "reason": "标题明确列出电子信息类与会计学、财务管理两类不同专业方向，对应电子硬件研发与会计核算两个不同职能，无法归入单一类别。"
+    },
+    {
+      "occupation_id": "TG-7a90cda1ffd9cf8d88f3",
+      "status": "mapped",
+      "target_category_id": "L32-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-11",
+        "L13-01"
+      ],
+      "title_evidence": "石家庄分行公司业务培训生",
+      "level_3_evidence": null,
+      "reason": "标题为银行分行公司业务培训生，属于综合储备与业务培养性质，尚无明确固定职能，归入综合储备与业务培养。"
+    },
+    {
+      "occupation_id": "TG-ac0b9bd9f4c7cd75d962",
+      "status": "mapped",
+      "target_category_id": "L12-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L32-01"
+      ],
+      "title_evidence": "营销管培生（药学、药物制剂、药物分析、药物化学、临床医学、临床药学、生物化学、药理学、分析化学、生物学、化学、机械制造、电子信息......",
+      "level_3_evidence": null,
+      "reason": "标题核心职能为营销，管培生为培养标签不替代专业职能，归入市场策略与营销策划。"
+    },
+    {
+      "occupation_id": "TG-d0beb84a8004e9650a22",
+      "status": "mapped",
+      "target_category_id": "L15-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L15-02-01",
+        "L15-02-02"
+      ],
+      "title_evidence": "室编辑",
+      "level_3_evidence": null,
+      "reason": "标题明确为编辑岗位，但未说明具体编辑方向，归入编辑出版与内容审校二级类别。"
+    },
+    {
+      "occupation_id": "TG-d84832fb6313448aa4ee",
+      "status": "mapped",
+      "target_category_id": "L11-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-04-01",
+        "L11-04-02"
+      ],
+      "title_evidence": "Associate Consultant 助理顾问（多个方向）",
+      "level_3_evidence": null,
+      "reason": "标题为助理顾问且多个方向，属于管理与专业咨询职能，但具体咨询方向未明确，归入管理与专业咨询二级类别。"
+    },
+    {
+      "occupation_id": "TG-72a51ebaabb9e8bd67e3",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "分支机构工作人员",
+      "level_2_evidence": null,
+      "level_3_evidence": null,
+      "reason": "标题仅表明为分支机构工作人员，未提供任何具体职能或专业方向线索，无法映射到目录中的合理类别。"
+    },
+    {
+      "occupation_id": "TG-fed88411bf97f50047c7",
+      "status": "mapped",
+      "target_category_id": "L32-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-09",
+        "L05-07"
+      ],
+      "title_evidence": "工程师培训生",
+      "level_3_evidence": null,
+      "reason": "标题为工程师培训生，属于综合储备与业务培养性质，尚无明确固定工程职能，归入综合储备与业务培养。"
+    },
+    {
+      "occupation_id": "TG-2ec56d99e28802a0b9f2",
+      "status": "mapped",
+      "target_category_id": "L16-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-04",
+        "L15-11"
+      ],
+      "title_evidence": "国际业务岗（阿语）",
+      "level_3_evidence": null,
+      "reason": "标题为国际业务岗且要求阿语，属于进出口与贸易执行职能，归入进出口与贸易执行。"
+    },
+    {
+      "occupation_id": "TG-5236bc67cfd2d34714e1",
+      "status": "mapped",
+      "target_category_id": "L14-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-03",
+        "L12-01"
+      ],
+      "title_evidence": "企划运营岗",
+      "level_3_evidence": null,
+      "reason": "标题为企划运营岗，核心职能为运营，归入产品与平台运营。"
+    },
+    {
+      "occupation_id": "TG-27cde89d85d79511c1eb",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "办事员",
+      "level_3_evidence": null,
+      "reason": "标题仅表明为办事员，未提供任何具体职能或专业方向线索，无法映射到目录中的合理类别。"
+    },
+    {
+      "occupation_id": "TG-4767d73804115c9b90ac",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "业务经办岗",
+      "level_3_evidence": null,
+      "reason": "标题仅表明为业务经办岗，未提供任何具体业务领域或职能方向线索，无法映射到目录中的合理类别。"
+    },
+    {
+      "occupation_id": "TG-eb0d693da1d57a2f6246",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-11"
+      ],
+      "title_evidence": "管理培训生 金融业务类",
+      "level_3_evidence": null,
+      "reason": "标题为管理培训生且金融业务类，属于跨职能管理培训与轮岗，最终职业方向未明确，归入跨职能管理培训与轮岗。"
+    },
+    {
+      "occupation_id": "TG-d4765b93cd7423cab7eb",
+      "status": "mapped",
+      "target_category_id": "L32-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-02",
+        "L23-01"
+      ],
+      "title_evidence": "供应链工厂类管培生",
+      "level_3_evidence": null,
+      "reason": "标题为供应链工厂类管培生，属于综合储备与业务培养性质，尚无明确固定职能，归入综合储备与业务培养。"
+    },
+    {
+      "occupation_id": "TG-c2a303e90a617c753464",
+      "status": "mapped",
+      "target_category_id": "L07-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-06",
+        "L18-01"
+      ],
+      "title_evidence": "人才集团科技成果转化部供需匹配岗",
+      "level_3_evidence": null,
+      "reason": "标题为科技成果转化部供需匹配岗，核心职能为科技成果转化管理，归入科研项目与成果管理。"
+    },
+    {
+      "occupation_id": "TG-b215ea7fd2ad80c4462d",
+      "status": "mapped",
+      "target_category_id": "L07-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-02",
+        "L10-02"
+      ],
+      "title_evidence": "科技管理岗",
+      "level_3_evidence": null,
+      "reason": "标题为科技管理岗，核心职能为科技事务管理，归入科研项目与成果管理。"
+    },
+    {
+      "occupation_id": "TG-c38da879358ab368e08a",
+      "status": "mapped",
+      "target_category_id": "L03-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-02",
+        "L14-10"
+      ],
+      "title_evidence": "产品运维岗",
+      "level_3_evidence": null,
+      "reason": "标题为产品运维岗，核心职能为运维，但具体运维方向未明确，归入通用信息技术运维。"
+    },
+    {
+      "occupation_id": "TG-74e3b89d3a9b5ddde4b3",
+      "status": "mapped",
+      "target_category_id": "L20-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-01",
+        "L19-07"
+      ],
+      "title_evidence": "金融业务管理岗",
+      "level_3_evidence": null,
+      "reason": "标题为金融业务管理岗，属于金融专业业务职能，但具体方向未明确，归入通用金融专业业务。"
+    },
+    {
+      "occupation_id": "TG-f1117ec6e4bf8944179a",
+      "status": "mapped",
+      "target_category_id": "L02-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-04",
+        "L03-05"
+      ],
+      "title_evidence": "汽车数据跨境工程师",
+      "level_3_evidence": null,
+      "reason": "标题为汽车数据跨境工程师，核心职能为数据工程与数据平台开发，归入数据工程与数据平台开发。"
+    },
+    {
+      "occupation_id": "TG-13b1721ca695b8576e2c",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L27-02",
+        "L14-10"
+      ],
+      "title_evidence": "展厅接待讲解员技术服务工程师",
+      "level_3_evidence": null,
+      "reason": "标题同时包含展厅接待讲解员与技术服务工程师两个不同职能，无法归入单一类别。"
+    },
+    {
+      "occupation_id": "TG-1a648b460e8a930b35a3",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-06",
+        "L19-01"
+      ],
+      "title_evidence": "工程造价类\\\\会计学",
+      "level_3_evidence": null,
+      "reason": "标题同时包含工程造价类与会计学两个不同专业方向，对应工程造价与会计核算两个不同职能，无法归入单一类别。"
+    },
+    {
+      "occupation_id": "TG-dd21d0b5798b8d8842f7",
+      "status": "mapped",
+      "target_category_id": "L07-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L07-01",
+        "L06-09"
+      ],
+      "title_evidence": "专项科研工程师",
+      "level_3_evidence": null,
+      "reason": "标题为专项科研工程师，属于科研岗位，但具体研究领域与工作方向未说明，归入通用科学研究。"
+    },
+    {
+      "occupation_id": "TG-a9c65d6e65ff1f9e5e70",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "农化管培生",
+      "level_3_evidence": null,
+      "reason": "标题为农化管培生，仅行业领域为农化，不足以确定具体职能，无法映射到目录中的合理类别。"
+    },
+    {
+      "occupation_id": "TG-35373736027d35a28be8",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "涉案岗",
+      "level_3_evidence": null,
+      "reason": "标题仅表明为涉案岗，未提供任何具体职能或专业方向线索，无法映射到目录中的合理类别。"
+    },
+    {
+      "occupation_id": "TG-ee44b9d70e2b86d2b7e6",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "综合运行管理岗",
+      "level_3_evidence": null,
+      "reason": "标题仅表明为综合运行管理岗，未提供任何具体职能或专业方向线索，无法映射到目录中的合理类别。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17683,
+    "cached_input_tokens": 17536,
+    "uncached_input_tokens": 147,
+    "output_tokens": 3266,
+    "reasoning_tokens": 0,
+    "total_tokens": 20949
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0020342579999999997
+  },
+  "response_metadata": {
+    "request_id": "5f58ea4b-5a31-469b-8635-c7e4bda63d18",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791895080,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

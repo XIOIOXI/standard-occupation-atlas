@@ -1,0 +1,185 @@
+{
+  "batch_number": 14,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "8c99b701-8c3d-48f4-91d4-850bc757608c",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813243,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30911,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3647,
+    "output_tokens": 1870,
+    "reasoning_tokens": 0,
+    "total_tokens": 32781
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001750842
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-377aed796a58a2f18be9",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出金融业务、金融科技、法律三个独立职业方向，属于多个独立职业并列。"
+    },
+    {
+      "occupation_id": "SNO-f33176e56e668bcf6a05",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "全栈研发工程师核心为业务服务端开发，当前归入后端开发下的业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-e51153b71f58aacbbedb",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出质量、工艺、采购三个独立职业方向，属于多个独立职业并列。"
+    },
+    {
+      "occupation_id": "SNO-c3973ec16d77da52eaf1",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出生产与质量两个独立职业方向，属于多个独立职业并列。"
+    },
+    {
+      "occupation_id": "SNO-d2e7d24d66a89f91c081",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出柜员与金融客户经理两个独立职业方向，属于多个独立职业并列。"
+    },
+    {
+      "occupation_id": "SNO-89edb49fef03be2f42ae",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器人无本体数据开发研究员属于机器人与具身智能方向，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-28d105b9c1bfef9452e4",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "AI编译器与库工程师偏向系统与底层开发，当前归入C++系统与底层开发合理。"
+    },
+    {
+      "occupation_id": "SNO-4f75aceb8b943f63f1e8",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出装调工艺师、产品工艺师、信息化工程师多个独立岗位，属于多个独立职业并列。"
+    },
+    {
+      "occupation_id": "SNO-132135c61bab1fe8961e",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI Agent工程师属于大模型与生成式AI方向，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-c4b8d693ccc1ad45699a",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出项目管理、运营管理、客户管理、资产管理、人力资源、法务管理、财务管理等多个独立职业，属于多个独立职业并列。"
+    },
+    {
+      "occupation_id": "SNO-9eff61a9f74e0bd5c275",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "网络开发工程师核心为业务服务端开发，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-cc125b61530a02724f63",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "无人系统总体设计核心为机器人与具身智能，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-f14ac56773c44c95afd2",
+      "decision": "keep",
+      "target_category_id": "咨询/翻译/法律/consult-other-language/other-translation-written",
+      "reason": "卫藏方言翻译属于其他语种笔译与本地化，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-0f8cc258a3bc3be1a764",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "reason": "音频/声学工程师属于语音与音频算法方向，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-46c8ab675d0cb344f81e",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-risk",
+      "reason": "量化分析属于金融与风控算法方向，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-fdbfeea5fa795200a687",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "人工智能技术研发工程师（AI+土木）属于算法研究与通用算法，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-a1d7a12db154065b1718",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "科技培养生涵盖新技术研发、前后端开发、大数据、人工智能、算法模型等多个独立技术方向，属于多个独立职业并列。"
+    },
+    {
+      "occupation_id": "SNO-bdfe9de85d83ef1afc3b",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "算法/软件/控制工程师明显列出算法、软件、控制三个独立职业方向，属于多个独立职业并列。"
+    },
+    {
+      "occupation_id": "SNO-a497b8f273a828ac3dc2",
+      "decision": "keep",
+      "target_category_id": "教育培训/edu-admin/edu-admin-institution",
+      "reason": "教学管培生属于教育机构行政，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-7aa38d7be7a3a972fe69",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件开发工程师属于业务服务端开发，专业要求列表不构成多职业，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-e13c3c8114cdd54ae3a0",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "Windows开发工程师属于系统与底层开发，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-7365b1a3a99f356cdea2",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "系统底层工程师属于系统与底层开发，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-517693da926b111ea228",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "LLM系统工程师核心为大模型系统方向，当前归类合理。"
+    },
+    {
+      "occupation_id": "SNO-3b92f86ae94eb7a7d066",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出分析技术员、测试技术员、工艺技术员、质量技术员多个独立岗位，属于多个独立职业并列。"
+    },
+    {
+      "occupation_id": "SNO-15fd8cd7f875b6f39ee1",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时列出财务管理/审计与材料类，属于多个独立职业方向并列。"
+    }
+  ]
+}

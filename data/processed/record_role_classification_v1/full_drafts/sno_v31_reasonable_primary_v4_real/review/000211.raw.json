@@ -1,0 +1,28 @@
+{
+  "id": "e898f644-b265-437a-86c6-9045726cd8f7",
+  "object": "chat.completion",
+  "created": 1791880840,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-d694d46f7670824593e8\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L01-11\",\"issue\":\"音视频软件应用工程师属于通用软件开发，方向未明确，不应归入图形渲染开发（L01-08-01）。\"},{\"occupation_id\":\"TG-fd7c8e14c1b002b5a8cd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-dab35c7cdb4a7669a824\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-023e355f05179fc7aabc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-dc5a340f9c429e7bae83\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3a20afc3d1e1272ee738\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L02-06\",\"issue\":\"大模型数据工程师（3D方向）属于大模型与智能应用工程，而非数仓与数据建模。\"},{\"occupation_id\":\"TG-b0122f4bae00c2c5502d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-de7212c59d37229c74cf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-9aa58a2248797c7462fb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ed0958b150f9f622565c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d73528fc7d4019102396\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-abb30d804027fd52dc22\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-151eab3005e89a917d0e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-56c6cb3fbc7fbee6c95d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5d78825bd9c8e4ae84f3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c7223d6fae55a3c58a29\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2983693d1030471bd879\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-135c5a6f3f33bcdf7607\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-59373f904a4fc86ae718\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e6dd44609b63b9b4a939\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19412,
+    "completion_tokens": 799,
+    "total_tokens": 20211,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2900
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

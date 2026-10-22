@@ -1,0 +1,28 @@
+{
+  "id": "215cc4c9-cf80-4d40-a128-bffabcafb3a0",
+  "object": "chat.completion",
+  "created": 1791880800,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-0e2e882655e9fa391711\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行分行运营培训生方向不明确，review合理。\"},{\"occupation_id\":\"TG-829e070be6f360172e3e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"集团本部职能管培生跨职能轮岗，归L32-01合理。\"},{\"occupation_id\":\"TG-69ad09170658034e0d39\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"纯化研究员归生物技术研发合理。\"},{\"occupation_id\":\"TG-7bb9a6828d358e744382\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"高分子材料研发工程师归高分子与复合材料合理。\"},{\"occupation_id\":\"TG-1cb9ea667895eb7f5330\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"前瞻研究工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-5ae9a8f24a2cad8840c3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"项目质量工程师归过程质量管理合理。\"},{\"occupation_id\":\"TG-1f3ab84fba3100ba254a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"柜员/客户经理多角色，multi_role合理。\"},{\"occupation_id\":\"TG-272ef88b3752f2c6e187\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"速递物流归通用物流作业合理。\"},{\"occupation_id\":\"TG-58eb8a0907aac113b2bd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"卫藏方言翻译岗归口译合理。\"},{\"occupation_id\":\"TG-617244277c76c3a001e2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产质量岗归过程质量管理合理。\"},{\"occupation_id\":\"TG-a7d3e79a496e5c4850b0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"兽医师助理归伴侣动物诊疗合理。\"},{\"occupation_id\":\"TG-572fe06c4c935589e00d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"博士后研究员归社会科学与人文研究合理。\"},{\"occupation_id\":\"TG-c0de5067476da517e3b7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"供应商管理工程师归采购与供应商管理合理。\"},{\"occupation_id\":\"TG-0f8cc258a3bc3be1a764\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"音频/声学工程师归语音与音频算法合理。\"},{\"occupation_id\":\"TG-eb622d34c732dc32d060\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信息科技类分行管培生归跨职能管理培训与轮岗合理。\"},{\"occupation_id\":\"TG-14cb00483f29ce102fd9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客服管培生归跨职能管理培训与轮岗合理。\"},{\"occupation_id\":\"TG-0e75488b28ad88771b2d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"量化分析岗归精算与金融定价合理。\"},{\"occupation_id\":\"TG-d663f4fe4ae6fc718432\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"非住项目管理岗归物业运营管理合理。\"},{\"occupation_id\":\"TG-c9b834cfdc5f38b9f448\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"审察创优生方向不明确，review合理。\"},{\"occupation_id\":\"TG-9882d3c2edf38d837dd3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信息技术储备岗归跨职能管理培训与轮岗合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19579,
+    "completion_tokens": 939,
+    "total_tokens": 20518,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3067
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "62ec8650-1669-4e8b-9120-acbcdf78aecd",
+  "object": "chat.completion",
+  "created": 1792571838,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-03bd419861affba91ebd57c19554ad6e\",\"status\":\"mapped\",\"target_category_id\":\"L16-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L16-01\",\"L32-01\",\"L32-02\"],\"title_evidence\":\"标题明确为“采购管培生”，采购职能已明确\",\"level_3_evidence\":null,\"reason\":\"“采购管培生”已明确采购职能，管培生为培养标签而非跨职能轮岗证据，按专业目录归采购与供应商管理（L16-01）；具体采购方向（直接物料/间接采购/买手）未说明，停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16977,
+    "completion_tokens": 157,
+    "total_tokens": 17134,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 337
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

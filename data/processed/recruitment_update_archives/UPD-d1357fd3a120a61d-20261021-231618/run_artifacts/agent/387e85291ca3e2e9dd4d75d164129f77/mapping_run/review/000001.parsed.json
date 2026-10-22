@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-387e85291ca3e2e9dd4d75d164129f77",
+      "verdict": "pass",
+      "suggested_target_category_id": "L20-05",
+      "issue": "车物核损属保险理赔核定，归入保险核保与理赔（L20-05）合理，无需修正。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17041,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 529,
+    "output_tokens": 93,
+    "reasoning_tokens": 0,
+    "total_tokens": 17134
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000369372
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

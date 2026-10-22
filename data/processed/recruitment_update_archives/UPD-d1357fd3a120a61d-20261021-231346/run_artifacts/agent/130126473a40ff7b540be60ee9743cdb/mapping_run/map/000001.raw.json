@@ -1,0 +1,28 @@
+{
+  "id": "e6cf6a21-c1c4-4d37-ba02-2c07f54fd5f1",
+  "object": "chat.completion",
+  "created": 1792571386,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-130126473a40ff7b540be60ee9743cdb\",\"status\":\"mapped\",\"target_category_id\":\"L06-08-01\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L06-08-01\",\"L06-08-02\",\"L06-08-03\"],\"title_evidence\":\"工艺工程师（灌包装）：灌包装为化妆品生产灌装包装工序，属制造制程工艺\",\"level_3_evidence\":\"制造制程工程：制造过程参数及制程开发\",\"reason\":\"灌包装工艺工程师负责灌装包装工序的工艺参数与制程开发，直接对应制造制程工程；非设备安装或工装模具专职。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16965,
+    "completion_tokens": 165,
+    "total_tokens": 17130,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 325
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

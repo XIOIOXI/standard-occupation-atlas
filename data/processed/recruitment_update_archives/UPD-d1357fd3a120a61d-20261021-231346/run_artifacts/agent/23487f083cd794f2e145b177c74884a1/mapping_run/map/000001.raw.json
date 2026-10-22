@@ -1,0 +1,28 @@
+{
+  "id": "c44d8dec-03d0-4eb1-8334-52dc36232005",
+  "object": "chat.completion",
+  "created": 1792571660,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-23487f083cd794f2e145b177c74884a1\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L02-06\",\"L02-07\",\"L05-04\",\"L01-11\"],\"title_evidence\":\"标题为“AI自动化专员”，含AI与自动化两个方向，未说明是模型应用工程、模型部署平台，还是工业自动化控制。\",\"level_3_evidence\":null,\"reason\":\"“AI自动化”存在歧义：可能指大模型与智能应用工程（L02-06）、模型部署与MLOps（L02-07），也可能指自动化与控制工程（L05-04）或通用软件研发（L01-11）。标题证据不足以唯一确定二级职能，故标review并给出候选。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16936,
+    "completion_tokens": 191,
+    "total_tokens": 17127,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 296
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

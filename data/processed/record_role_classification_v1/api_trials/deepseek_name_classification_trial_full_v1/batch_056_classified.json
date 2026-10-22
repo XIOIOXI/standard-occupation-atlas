@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 56,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "a27a5bbf-d8bf-4f47-a202-7a93324a04c3",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751007,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25092,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1796,
+    "output_tokens": 3546,
+    "reasoning_tokens": 0,
+    "total_tokens": 28638
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002466888
+  },
+  "observed_at_utc": "2026-10-11T20:36:47.373461+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-91a90a9abb50327c3fc2",
+      "target_category_id": "医疗健康/health-nurse/nursing-clinical",
+      "status": "mapped",
+      "reason": "临床护士属于临床护理岗位。"
+    },
+    {
+      "occupation_id": "SNO-efbf01a423d4ac00b97c",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "设备调试工程师通常负责自动化设备现场调试。"
+    },
+    {
+      "occupation_id": "SNO-24cc2b18c1197fdf4bf5",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质检专员核心职责为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-6aee239040477d7dff54",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "岗位名称包含大量专业方向，实际职责不明确，需确认具体信息技术工作内容。"
+    },
+    {
+      "occupation_id": "SNO-d8de65eeb7b18d2cb78a",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "通信工程师通常从事通信网络建设与维护。"
+    },
+    {
+      "occupation_id": "SNO-a79ce694b010e24b79c4",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "自动化应用开发属于电气控制与自动化设计方向。"
+    },
+    {
+      "occupation_id": "SNO-52be593c682faa66b7c4",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-manufacturing",
+      "status": "mapped",
+      "reason": "制造工程师通常负责汽车制造与工艺，泰语外派为语言修饰。"
+    },
+    {
+      "occupation_id": "SNO-d674efffb472401b32cc",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "职能支持过于宽泛，缺少具体职能方向，无法确定细分岗位。"
+    },
+    {
+      "occupation_id": "SNO-a6239fc050846b58d142",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "计量检测工程师属于质量检验与过程控制范畴。"
+    },
+    {
+      "occupation_id": "SNO-69ebe18a65bd15ea5754",
+      "target_category_id": "财务/审计/税务/finance-cashier/cashier-payment",
+      "status": "mapped",
+      "reason": "集团本部出纳负责资金收付与结算。"
+    },
+    {
+      "occupation_id": "SNO-d154e990b11990e5ffd1",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "感知质量工程师属于质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-6eef60bbf1d5202e9154",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "智能制造工程技术人员通常负责生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-0530abe8b058e4ecc3fa",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "海外客户技术支持属于技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-d00691be818410164a55",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "助理分析师通常从事市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-8d1c1c59f307c5d27ba4",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法务主管属于公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-830fbf8f89d4abb662e6",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "NodeJS开发工程师属于业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-5bc6a8edc7de52817fc4",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "QA助理通常负责功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-60af312702ad09b09180",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "研发可靠度工程师属于质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-c2d0a6320be9e73d8399",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "人力资源财务会计核心为总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-0f97123eb35d54eb446a",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "工业软件业务分析属于商业与业务分析。"
+    },
+    {
+      "occupation_id": "SNO-3c73576827ea37f6cf63",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "能源动力储备属于能源开发与工程方向。"
+    },
+    {
+      "occupation_id": "SNO-27920f1d15442285e501",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "建设项目管理专员通常负责施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-1a7dbfbf3dda13e191d1",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "基地维修部工程师培训生属于设备维修与安装。"
+    },
+    {
+      "occupation_id": "SNO-39e910f48218101c85a7",
+      "target_category_id": "医疗健康/health-device/medical-device-service",
+      "status": "mapped",
+      "reason": "医疗设备维保工程师属于器械应用与售后服务。"
+    },
+    {
+      "occupation_id": "SNO-0e4a9491036dbdc4b1a8",
+      "target_category_id": "销售/sales-clerk/retail-clerk-sales",
+      "status": "mapped",
+      "reason": "零售业务培训生属于门店销售与陈列方向。"
+    },
+    {
+      "occupation_id": "SNO-c73f0bc18582cc411e5e",
+      "target_category_id": "销售/sales-service/service-sales-enterprise",
+      "status": "mapped",
+      "reason": "B端销售属于企业服务销售。"
+    },
+    {
+      "occupation_id": "SNO-2a9e771d9d1e66e26b30",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "全国重点实验室助理研究员通常从事市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-766c9bfa297c9055815a",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "人形机器人仿真开发工程师属于机器人与具身智能。"
+    },
+    {
+      "occupation_id": "SNO-c4341767db0d9538a76c",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": "生产服务一线属于装配与生产线作业。"
+    },
+    {
+      "occupation_id": "SNO-f7c48e1913f14b43c981",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "滨海创投属于股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-d5035d395387fbfe48f7",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "数据支持属于商业与业务分析。"
+    },
+    {
+      "occupation_id": "SNO-0594291aa004c5bd0b75",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "岗位名称明显列出营销、电商运营、市场、健康研究、工艺技术等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-40d4f04ac1aa5efa4f42",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "IT运维校招生属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-e36064d591df41b60b6a",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "纪检巡察专员属于公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-db085e5d1416ea689b77",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电机技术属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-19310456e0a10a1eb0dd",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场运营经理属于品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-cb3334233385bb9d4625",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌入式软件开发工程师属于嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-ec8e4572a55f3f9d505d",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务专员属于总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-1dfed7672642e3b94065",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "TVS/ESD研发工程师属于芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-f1ebd0450f062f684ae7",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "金融工程研究员属于证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-be4da52996c611a36943",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "信息系统开发运维工程主管属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-4a127273a198c6440eb4",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "检修分公司电气技术员属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-dd8ea6f5e325b593584a",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "变电一次设计属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-2c3dcc0532ec3a210477",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "流体数值算法工程师属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-1e9034648d19e56fde06",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "智慧火电研发控制工程师属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-2c49095a5da5cef6ba29",
+      "target_category_id": "影视/传媒/media-publishing/publish-editing",
+      "status": "mapped",
+      "reason": "编务管理属于图书与出版编辑。"
+    },
+    {
+      "occupation_id": "SNO-bb13323afa976d2d3b0f",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "大客户销售工程师属于客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-ff77fdaeee3778de29c3",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "行销支持属于销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-944b868881972f2ae58b",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "国际贸易方向销售工程师属于海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-7b640a05a769df6a649d",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "信息技术员属于技术支持与客户交付。"
+    }
+  ]
+}

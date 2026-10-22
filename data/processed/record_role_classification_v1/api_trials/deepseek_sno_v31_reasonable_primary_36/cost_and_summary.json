@@ -1,0 +1,29 @@
+{
+  "version": "sno-v3.1-reasonable-primary-v1",
+  "new_api_calls": 18,
+  "new_usage": {
+    "input_tokens": 240255,
+    "cached_input_tokens": 213632,
+    "uncached_input_tokens": 26623,
+    "output_tokens": 6006,
+    "reasoning_tokens": 0,
+    "total_tokens": 246261
+  },
+  "new_estimated_usd": 0.008237946,
+  "budget_usd": 1.0,
+  "mapping_status_counts": {
+    "review": 19,
+    "mapped": 17
+  },
+  "ai_reasonableness_review_counts": {
+    "unresolved": 11,
+    "pass": 25
+  },
+  "merged_status_counts": {
+    "mapped": 172,
+    "non_role_text": 4,
+    "multi_role": 5,
+    "review": 19
+  },
+  "note": "AI pass means no clear unreasonable placement found under reasonable-primary standard; it is not a unique-answer accuracy measure."
+}

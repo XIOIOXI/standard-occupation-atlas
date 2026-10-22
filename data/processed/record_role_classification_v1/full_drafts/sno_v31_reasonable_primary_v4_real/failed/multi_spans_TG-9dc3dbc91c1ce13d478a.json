@@ -1,0 +1,22 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-9dc3dbc91c1ce13d478a",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-9dc3dbc91c1ce13d478a",
+    "case": "A",
+    "child_titles": [
+      "财务管理部专员",
+      "法律"
+    ],
+    "source_spans": [
+      {
+        "text": "财务管理部专员\\\\法律",
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "reason": "标题由两个岗位名称用反斜杠分隔，可拆分。"
+  }
+}

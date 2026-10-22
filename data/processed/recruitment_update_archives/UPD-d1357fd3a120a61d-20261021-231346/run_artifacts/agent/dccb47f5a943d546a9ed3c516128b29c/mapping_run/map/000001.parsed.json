@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-dccb47f5a943d546a9ed3c516128b29c",
+      "status": "mapped",
+      "target_category_id": "L20-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-06",
+        "L20-07-01",
+        "L19-01-01"
+      ],
+      "title_evidence": "准备金评估岗：保险准备金评估属于精算与金融定价职能",
+      "level_3_evidence": null,
+      "reason": "准备金评估是保险公司精算定价与准备金计量工作，归入精算与金融定价（L20-06）；非信用风险或会计核算。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16966,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 326,
+    "output_tokens": 139,
+    "reasoning_tokens": 0,
+    "total_tokens": 17105
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036443999999999995
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

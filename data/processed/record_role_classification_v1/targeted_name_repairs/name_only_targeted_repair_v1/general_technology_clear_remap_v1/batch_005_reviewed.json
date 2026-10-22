@@ -1,0 +1,147 @@
+{
+  "batch_number": 5,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18126,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 1486,
+    "output_tokens": 957,
+    "reasoning_tokens": 0,
+    "total_tokens": 19083
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00084702
+  },
+  "results": [
+    {
+      "entry_id": "SNO-20bbffea062a6a020756",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术开发工程师”为宽泛称谓，未指明具体技术栈或方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-216568e3e69a2f342ff2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程设计(吉林公司)”为宽泛工程类称谓且含地域信息，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-22092131c6eb166ceb88",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“平台开发工程师”未指明技术栈，无法唯一映射到具体平台开发三级。"
+    },
+    {
+      "entry_id": "SNO-22532b4442f5e13f03b2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“动力技术”为宽泛技术称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-24622b6909a5a12d8a2b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“规划设计”为宽泛称谓，无法唯一映射到具体规划设计三级。"
+    },
+    {
+      "entry_id": "SNO-252144b1fbf057a55828",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“及专业技术工作人员”为截断且宽泛的称谓，无法映射。"
+    },
+    {
+      "entry_id": "SNO-2659f7a7c02a06b11d73",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“核心开发”为宽泛称谓，未指明技术栈或方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-26dc9c0a6db8521f1ea7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“原理研发”为宽泛研发称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-27c20f82f604309fc07f",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“IT研发”为宽泛称谓，无法唯一映射到具体三级。"
+    },
+    {
+      "entry_id": "SNO-27dcb036a06b87abb903",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发助理”为宽泛辅助称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-28d0db659d8cbe9bf07a",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“测试控制总体设计师”为复合专业称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-2c78d2b84eeb983e3bad",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“应急研究”为宽泛研究称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-2ef7e884410e722e9712",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“大健康信息挖掘研究员”为复合专业称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-30107cfaf9bf3d74ed25",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术工艺”为宽泛工艺称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-30b7727ae851be97401e",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“舞蹈研究所专业技术”为复合专业称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-31509ce7a1c67e282ff4",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“全信息技术”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-346358429dd9580c4265",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“安全设备”为宽泛设备称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-355640918f5270ce9f1a",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“数字工程师”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-3571224425aadb84b08d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程技术人员(计划人数6人)”为宽泛工程称谓且含招聘信息，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-36316cbfe54451c09325",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“超前研发工程师”为宽泛研发称谓，无法唯一映射。"
+    }
+  ]
+}

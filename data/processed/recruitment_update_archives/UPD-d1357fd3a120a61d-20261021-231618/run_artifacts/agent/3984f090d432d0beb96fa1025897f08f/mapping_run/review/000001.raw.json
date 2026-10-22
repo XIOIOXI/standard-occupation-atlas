@@ -1,0 +1,28 @@
+{
+  "id": "ddedcabe-ec08-4d0b-a86c-cdd47ff006a0",
+  "object": "chat.completion",
+  "created": 1792571634,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-3984f090d432d0beb96fa1025897f08f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-04-01\",\"issue\":\"电商运营实习生归入电商店铺运营，主归属合理，三级直达恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17049,
+    "completion_tokens": 74,
+    "total_tokens": 17123,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 537
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

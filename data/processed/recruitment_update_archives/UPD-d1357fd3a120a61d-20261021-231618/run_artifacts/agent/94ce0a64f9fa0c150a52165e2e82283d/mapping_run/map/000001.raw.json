@@ -1,0 +1,28 @@
+{
+  "id": "bd724576-7661-4b14-9f5e-299e74940dec",
+  "object": "chat.completion",
+  "created": 1792571639,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-94ce0a64f9fa0c150a52165e2e82283d\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L24-07\",\"L24-12\",\"L23-09\",\"L10-06\"],\"title_evidence\":\"工程实习生\",\"level_3_evidence\":null,\"reason\":\"仅“工程实习生”无法判断工程方向（施工管理、设施维护、设备安装或项目统筹等），且公司为消费品/服装企业，工程职能可能为设施或门店工程，证据不足，需人工确认。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16980,
+    "completion_tokens": 139,
+    "total_tokens": 17119,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 340
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

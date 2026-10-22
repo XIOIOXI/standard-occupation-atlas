@@ -1,0 +1,28 @@
+{
+  "id": "bc3e68b5-01af-4ea2-b4ec-624720c2db7c",
+  "object": "chat.completion",
+  "created": 1792596209,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-f651eba7e0dc5630cc81a296d63ca0d8\",\"status\":\"mapped\",\"target_category_id\":\"L18-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L18-04\",\"L18-01\",\"L18-02\",\"L18-03\"],\"title_evidence\":\"人力管培生：明确人力资源职能，管培为培养标签\",\"level_3_evidence\":null,\"reason\":\"标题明确为人力资源方向管培生，已确定职能，按规则归专业目录并加培养标签；人力资源综合管理覆盖HRBP与人事综合，作为最直接二级目标。\"},{\"occupation_id\":\"UP-03bd419861affba91ebd57c19554ad6e\",\"status\":\"mapped\",\"target_category_id\":\"L16-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L16-01\",\"L16-02\",\"L16-03\"],\"title_evidence\":\"采购管培生：明确采购职能，管培为培养标签\",\"level_3_evidence\":null,\"reason\":\"标题明确采购方向，归采购与供应商管理；消费品企业采购具体物料类型未说明，停在二级。\"},{\"occupation_id\":\"UP-06a2e8b1bb4811e76e129c85f232dfed\",\"status\":\"mapped\",\"target_category_id\":\"L19-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L19-08\",\"L19-01\",\"L19-03\"],\"title_evidence\":\"财务管培生：明确财务职能，管培为培养标签\",\"level_3_evidence\":null,\"reason\":\"标题明确财务方向，但未说明核算、分析等具体方向，归通用财务工作二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17349,
+    "completion_tokens": 387,
+    "total_tokens": 17736,
+    "prompt_tokens_details": {
+      "cached_tokens": 16768
+    },
+    "prompt_cache_hit_tokens": 16768,
+    "prompt_cache_miss_tokens": 581
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

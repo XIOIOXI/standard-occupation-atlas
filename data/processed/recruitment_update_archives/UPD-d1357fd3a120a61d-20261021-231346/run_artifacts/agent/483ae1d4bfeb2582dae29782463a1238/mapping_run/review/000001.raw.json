@@ -1,0 +1,28 @@
+{
+  "id": "125b0ad8-c716-4bbd-9088-24fc7a9a0e54",
+  "object": "chat.completion",
+  "created": 1792571284,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-483ae1d4bfeb2582dae29782463a1238\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“定向通用岗”未说明具体职能，也无明确培养轮岗证据，review 合理；候选 L32-02 与 L20-11 均可接受，不构成明显错分。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17003,
+    "completion_tokens": 93,
+    "total_tokens": 17096,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 491
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

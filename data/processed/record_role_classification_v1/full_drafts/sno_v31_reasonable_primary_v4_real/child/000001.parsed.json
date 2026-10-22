@@ -1,0 +1,294 @@
+{
+  "results": [
+    {
+      "occupation_id": "CR-40f9695a6c62a4747cfc",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L27-07",
+        "L25-04",
+        "L23-01"
+      ],
+      "title_evidence": "运行指挥员",
+      "level_3_evidence": null,
+      "reason": "“运行指挥员”未说明行业领域，可能对应交通运行组织、能源运行调度或生产现场指挥，证据不足无法唯一确定二级归属。"
+    },
+    {
+      "occupation_id": "CR-113882dffbdf1cbffd5b",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L27-07",
+        "L25-04",
+        "L17-01"
+      ],
+      "title_evidence": "调度指挥员",
+      "level_3_evidence": null,
+      "reason": "“调度指挥员”未说明调度对象，可能为交通运行调度、能源电力调度或物流运输调度，需补充领域证据。"
+    },
+    {
+      "occupation_id": "CR-d5e61e47a6d0634384e7",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L27-08-02",
+        "L05-05-03",
+        "L23-09-02"
+      ],
+      "title_evidence": "通导机务员",
+      "level_3_evidence": null,
+      "reason": "“通导机务员”通常指航空通信导航设备维护，但标题未明确航空领域，且机务可指设备维修，需确认具体职责。"
+    },
+    {
+      "occupation_id": "CR-e8e79345913bc623388c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L27-07",
+        "L26-07",
+        "L29-03"
+      ],
+      "title_evidence": "乌击防范技术员",
+      "level_3_evidence": null,
+      "reason": "“乌击防范”疑似鸟击防范，通常为机场航空安全岗位，但标题存在错别字且未明确行业，需确认是否属于机场地面服务或农林驱鸟。"
+    },
+    {
+      "occupation_id": "CR-777701be53ddd4544061",
+      "status": "mapped",
+      "target_category_id": "L23-09-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L23-09-02",
+        "L29-07-01"
+      ],
+      "title_evidence": "机电设备维修员",
+      "level_3_evidence": "工业设备维修保全",
+      "reason": "“机电设备维修员”直接对应工业设备维修保全，归入 L23-09-02。"
+    },
+    {
+      "occupation_id": "CR-d88b2ef053177a2a1783",
+      "status": "mapped",
+      "target_category_id": "L25-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-07",
+        "L29-03"
+      ],
+      "title_evidence": "防火专员",
+      "level_3_evidence": null,
+      "reason": "“防火专员”属于安全生产与职业防护职能，归入 L25-07。"
+    },
+    {
+      "occupation_id": "CR-bf0a2f26ddf8bb36d6e2",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L08-02",
+        "L06-06"
+      ],
+      "title_evidence": "产品开发员",
+      "level_3_evidence": null,
+      "reason": "“产品开发员”未说明产品类型，可能为工业产品研发、消费品研发或产品管理，需补充行业与职责证据。"
+    },
+    {
+      "occupation_id": "CR-aabe9d92130c95fe0020",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L04-03-01",
+        "L04-03-02",
+        "L04-03-03",
+        "L04-01-01"
+      ],
+      "title_evidence": "质量工程师",
+      "level_3_evidence": null,
+      "reason": "“质量工程师”未说明是生产质量管理还是软件测试质量，需确认行业与具体职责。"
+    },
+    {
+      "occupation_id": "CR-1ebd23325bd9fe164e83",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03",
+        "L25-03"
+      ],
+      "title_evidence": "电气工程/新能源类",
+      "level_3_evidence": null,
+      "reason": "标题明确电气工程，新能源为领域标签，主职能归电气工程 L05-03。"
+    },
+    {
+      "occupation_id": "CR-93e5576bbf437584133c",
+      "status": "mapped",
+      "target_category_id": "L24-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-02"
+      ],
+      "title_evidence": "土木工程类",
+      "level_3_evidence": null,
+      "reason": "“土木工程类”直接对应土木结构与岩土工程 L24-02。"
+    },
+    {
+      "occupation_id": "CR-a806d919c2d3877d9fbe",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-02",
+        "L24-03-02",
+        "L25-01"
+      ],
+      "title_evidence": "岩体工程/水资源类",
+      "level_3_evidence": null,
+      "reason": "“岩体工程/水资源类”跨岩土工程与水利工程，无法唯一确定二级归属，需补充具体职责。"
+    },
+    {
+      "occupation_id": "CR-aeec0023dfb26b5d5b6f",
+      "status": "mapped",
+      "target_category_id": "L24-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-09"
+      ],
+      "title_evidence": "测绘科学与技术类",
+      "level_3_evidence": null,
+      "reason": "“测绘科学与技术类”直接对应测绘与地理信息 L24-09。"
+    },
+    {
+      "occupation_id": "CR-e8e3da37a2a8a06f748a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-06-01",
+        "L11-03",
+        "L19-03"
+      ],
+      "title_evidence": "技术经济类",
+      "level_3_evidence": null,
+      "reason": "“技术经济类”可能对应工程造价、经营分析或财务分析，需补充具体职能证据。"
+    },
+    {
+      "occupation_id": "CR-be3609bee2d05bb944f9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-03",
+        "L10-05",
+        "L02-01"
+      ],
+      "title_evidence": "管理科学与工程",
+      "level_3_evidence": null,
+      "reason": "“管理科学与工程”为学科门类，可能对应流程改善、项目管理或数据分析，无法唯一确定职业类别。"
+    },
+    {
+      "occupation_id": "CR-bba379ced06507a2dbca",
+      "status": "mapped",
+      "target_category_id": "L19-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-05"
+      ],
+      "title_evidence": "审计类",
+      "level_3_evidence": null,
+      "reason": "“审计类”直接对应审计 L19-05。"
+    },
+    {
+      "occupation_id": "CR-45bb9e3273f34bdc9582",
+      "status": "mapped",
+      "target_category_id": "L31-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L31-01",
+        "L11-01"
+      ],
+      "title_evidence": "公共管理学类",
+      "level_3_evidence": null,
+      "reason": "“公共管理学类”对应公共事务与基层治理 L31-01。"
+    },
+    {
+      "occupation_id": "CR-84ba65fc9533ee073444",
+      "status": "mapped",
+      "target_category_id": "L11-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-01",
+        "L11-07"
+      ],
+      "title_evidence": "工商管理类",
+      "level_3_evidence": null,
+      "reason": "“工商管理类”对应企业与业务综合管理 L11-01。"
+    },
+    {
+      "occupation_id": "CR-537ebd4ba29541b22c30",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L32-02"
+      ],
+      "title_evidence": "营销销售储备生",
+      "level_3_evidence": null,
+      "reason": "标题明确营销销售职能，储备生为培养标签，主职能归通用销售 L13-09。"
+    },
+    {
+      "occupation_id": "CR-114098609d5b2cc4dfee",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L32-02"
+      ],
+      "title_evidence": "海外营销储备生",
+      "level_3_evidence": null,
+      "reason": "标题明确营销销售职能，海外为地域标签，储备生为培养标签，主职能归通用销售 L13-09。"
+    },
+    {
+      "occupation_id": "CR-a4b0b2028388aa908723",
+      "status": "mapped",
+      "target_category_id": "L06-03-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-03-01",
+        "L32-02"
+      ],
+      "title_evidence": "整车研发储备生",
+      "level_3_evidence": "整车或交通装备系统集成",
+      "reason": "标题明确整车研发职能，储备生为培养标签，归入整车与装备集成 L06-03-01。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17330,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 818,
+    "output_tokens": 2522,
+    "reasoning_tokens": 0,
+    "total_tokens": 19852
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0033708720000000005
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

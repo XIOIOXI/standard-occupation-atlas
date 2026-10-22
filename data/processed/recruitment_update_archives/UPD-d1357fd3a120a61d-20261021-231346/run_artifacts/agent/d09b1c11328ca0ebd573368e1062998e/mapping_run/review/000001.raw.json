@@ -1,0 +1,28 @@
+{
+  "id": "8e3d0d36-6b13-41fb-9c69-e4ac09e3cd72",
+  "object": "chat.completion",
+  "created": 1792571817,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-d09b1c11328ca0ebd573368e1062998e\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L12-04\",\"issue\":\"公关管培生明确为公关职能，归L12-04合理；管培生为培养标签，不构成跨职能轮岗证据，无需归L32。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17054,
+    "completion_tokens": 90,
+    "total_tokens": 17144,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 542
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

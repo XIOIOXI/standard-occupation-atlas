@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-530da3b78302994da68bcc81a99bf9e8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题为管理培训生，原始组合含资金管理、资产管理，公司为金融控股集团；仅凭管培生及行业不足以确定主要职能，标 review 合理，候选 L32-01/L32-02/L19-04/L20-02 均合理。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17014,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 502,
+    "output_tokens": 119,
+    "reasoning_tokens": 0,
+    "total_tokens": 17133
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000392472
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

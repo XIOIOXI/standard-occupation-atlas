@@ -1,0 +1,28 @@
+{
+  "id": "60f9fd05-147b-49aa-ae86-44f29f856b0b",
+  "object": "chat.completion",
+  "created": 1792596137,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-af597d28a2a10511d9bfb049c21f68ae\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L20-08\",\"issue\":\"银行综合柜员归金融运营与交易清算，合理。\"},{\"occupation_id\":\"UP-785a133579272574872085671b5624a9\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L20-08\",\"issue\":\"专职柜员归金融运营与交易清算，合理。\"},{\"occupation_id\":\"UP-b3aaf664d6ad2b9765f3dede0f20646d\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L24-12\",\"issue\":\"商写服务岗归物业与设施管理，合理。\"},{\"occupation_id\":\"UP-ea4227dcd56d8aac86611f6c37eaedbf\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-04\",\"issue\":\"市场拓展归商务拓展与合作，合理。\"},{\"occupation_id\":\"UP-8e538529eae762d7bd274a263b2a0e3b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"储备站长方向不明确，review合理。\"},{\"occupation_id\":\"UP-14870bf291ae34dc2420a23442e2bc84\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"储备主管为综合储备培养，review合理。\"},{\"occupation_id\":\"UP-4d87416a00582957994b43f820cabc8a\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L24-12\",\"issue\":\"物业工程管理归物业与设施管理，合理。\"},{\"occupation_id\":\"UP-df956425b1f28311f63f87273637cdc6\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L24-12\",\"issue\":\"物业环境管理归物业与设施管理，合理。\"},{\"occupation_id\":\"UP-d6e7b818abd819fdde47fccc129e5706\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-06\",\"issue\":\"物业运营管理归线下业务与场所运营，合理。\"},{\"occupation_id\":\"UP-0a9f8eb59b7389fa5404ff7d08657000\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L19-01\",\"issue\":\"财务运营岗归会计核算，合理。\"},{\"occupation_id\":\"UP-cafbc846e81716646da0e79940f3dc21\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L18-04\",\"issue\":\"人力资源岗归人力资源综合管理，合理。\"},{\"occupation_id\":\"UP-2466e7e1d68a0e04fddcb9c809579dbd\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L02-03\",\"issue\":\"数据工程师归数据工程与数据平台开发，合理。\"},{\"occupation_id\":\"UP-298618381b7008af4fb5c6e0fa10448d\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L08-01\",\"issue\":\"产品岗归数字与软件产品管理，合理。\"},{\"occupation_id\":\"UP-845dccb9337a934ffeb09b4451232bc2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"分支机构业务岗方向不明确，review合理。\"},{\"occupation_id\":\"UP-1d19313fdeb1dedfe630d7780174a507\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L30-02\",\"issue\":\"法务管理归企业法务，合理。\"},{\"occupation_id\":\"UP-858ecfa0b7ec1e4b582c86916f5910ca\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L19-05\",\"issue\":\"审计归审计，合理。\"},{\"occupation_id\":\"UP-db72f068dd268db3c22f245b966f0f4b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅业务员无法确定职能，review合理。\"},{\"occupation_id\":\"UP-fa95f4f42c6bfc48db163fe5ab79c380\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L22-02\",\"issue\":\"高中教师学科未说明停在二级，合理。\"},{\"occupation_id\":\"UP-7a1848fa0d449f7556d84fa4ad30e768\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L16-03\",\"issue\":\"制造企业计划专员归需求与物料计划，合理。\"},{\"occupation_id\":\"UP-130126473a40ff7b540be60ee9743cdb\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-08\",\"issue\":\"灌包装工艺工程师归工艺与制造工程，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22565,
+    "completion_tokens": 1104,
+    "total_tokens": 23669,
+    "prompt_tokens_details": {
+      "cached_tokens": 16768
+    },
+    "prompt_cache_hit_tokens": 16768,
+    "prompt_cache_miss_tokens": 5797
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

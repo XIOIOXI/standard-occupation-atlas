@@ -1,0 +1,28 @@
+{
+  "id": "c794bfe3-0259-4878-9131-5ad2dd8f67f0",
+  "object": "chat.completion",
+  "created": 1792571874,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-a6708c762b8abc625e4f9b21f161404a\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L13-09\", \"issue\": \"标题明确销售职能但客户类型未说明，归通用销售L13-09合理；管培生为培养标签，不构成跨职能轮岗证据，无需归L32。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17093,
+    "completion_tokens": 104,
+    "total_tokens": 17197,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 581
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

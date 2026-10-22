@@ -1,0 +1,41 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-85e40a9ad75026ddf8ba",
+  "child_index": 1,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "管培生畜禽技术服务专家现场品管管培生",
+  "child_title": "畜禽技术服务专家",
+  "source_span": {
+    "text": "畜禽技术服务专家",
+    "start": 3,
+    "end": 10
+  },
+  "raw_decision": {
+    "original_record_id": "TG-85e40a9ad75026ddf8ba",
+    "case": "A",
+    "child_titles": [
+      "管培生",
+      "畜禽技术服务专家",
+      "现场品管管培生"
+    ],
+    "source_spans": [
+      {
+        "text": "管培生",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "畜禽技术服务专家",
+        "start": 3,
+        "end": 10
+      },
+      {
+        "text": "现场品管管培生",
+        "start": 10,
+        "end": 17
+      }
+    ],
+    "reason": "标题由多个独立岗位名称直接拼接，无分隔符，但语义上可明确拆分为三个不同岗位。"
+  }
+}

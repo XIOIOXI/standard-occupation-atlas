@@ -1,0 +1,255 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-94d2b8238b03257345f0",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "资产管培生",
+      "level_3_evidence": null,
+      "reason": "标题仅含“资产”与“管培生”，未明确具体职能（如资产管理、财务、运营等），且“资产”可能指资产运营或资产管理，不足以确定专业职能，符合L32-01或L32-02的跨职能培养特征，但需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-9308527e6e11e4542a8f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "产品类专业培训生",
+      "level_3_evidence": null,
+      "reason": "标题含“产品类”与“培训生”，但“产品类”可能指产品管理、产品设计或产品运营等，职能方向未明确，且培训生性质符合L32，需进一步确认具体职能。"
+    },
+    {
+      "occupation_id": "TG-005cffb9d4b429a1ef77",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "医药销售",
+      "level_3_evidence": null,
+      "reason": "医药销售属于企业客户销售（B2B），医药行业客户通常为医院、药店等机构，归入L13-01企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-7dc16cd54b930164db19",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "JAVA岗",
+      "level_3_evidence": null,
+      "reason": "标题仅含编程语言“JAVA”，未说明具体开发方向，符合L01-11通用软件研发的归类条件。"
+    },
+    {
+      "occupation_id": "TG-ebafcba3a99e27443742",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "新运管生项目物流",
+      "level_3_evidence": null,
+      "reason": "标题含“运管生项目”与“物流”，可能为物流方向的管培生项目，但“运管生”是否为管培生不明确，且物流职能可能涉及运营、规划等，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-42c9368ca42e412bc124",
+      "status": "mapped",
+      "target_category_id": "L27-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "签派助理",
+      "level_3_evidence": null,
+      "reason": "签派助理通常属于航空运行控制或地面服务，归入L27-07交通运行与地面服务。"
+    },
+    {
+      "occupation_id": "TG-00d405adcdac12ede826",
+      "status": "mapped",
+      "target_category_id": "L07-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "科研技术岗",
+      "level_3_evidence": null,
+      "reason": "标题明确为科研技术岗，但未说明具体研究领域，符合L07-05通用科学研究。"
+    },
+    {
+      "occupation_id": "TG-5b3e5632d6b2368fb60c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "大华银行中国管培生",
+      "level_3_evidence": null,
+      "reason": "标题为银行管培生，未明确具体职能方向，符合L32-01或L32-02的跨职能培养特征，但需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-cc50f2f6f604da7def17",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L15-02",
+        "L18-06",
+        "L31-04"
+      ],
+      "title_evidence": "图书传媒文秘岗",
+      "level_3_evidence": null,
+      "reason": "标题包含“图书传媒”与“文秘”两个不同职能方向，可能涉及编辑出版、文秘或图书文博，需拆分为多个岗位。"
+    },
+    {
+      "occupation_id": "TG-9128b8fb61e6e79c84a2",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "客户经理类",
+      "level_3_evidence": null,
+      "reason": "客户经理通常指企业客户销售或客户关系管理，归入L13-01企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-586ec7bbff33dea3e5e8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L09-06",
+        "L08-04",
+        "L01-05"
+      ],
+      "title_evidence": "初级技术动画初级关卡美术初级商业化策划 初级游戏逻辑程序员初级技术动画初级动画师初级游戏策划",
+      "level_3_evidence": null,
+      "reason": "标题包含多个游戏行业岗位：技术动画、关卡美术、商业化策划、游戏逻辑程序员、动画师、游戏策划，职能不同，需拆分为多个岗位。"
+    },
+    {
+      "occupation_id": "TG-b5d504848711d2315867",
+      "status": "mapped",
+      "target_category_id": "L07-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "系统论证岗（博士）",
+      "level_3_evidence": null,
+      "reason": "系统论证岗通常属于科研或技术研究，但未说明具体领域，符合L07-05通用科学研究。"
+    },
+    {
+      "occupation_id": "TG-e008925a3f466b7187f1",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "市场营销【管培生】(J23798)",
+      "level_3_evidence": null,
+      "reason": "标题明确为市场营销管培生，职能方向为市场营销，归入L12-07通用市场营销。"
+    },
+    {
+      "occupation_id": "TG-600c9a79e1972665a6b5",
+      "status": "mapped",
+      "target_category_id": "L04-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "检测技术等岗位",
+      "level_3_evidence": null,
+      "reason": "检测技术岗位通常属于检验检测与实验分析，归入L04-04。"
+    },
+    {
+      "occupation_id": "TG-249817a2927fc24b1b94",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L19-03",
+        "L03-02"
+      ],
+      "title_evidence": "财务BP运维工程师",
+      "level_3_evidence": null,
+      "reason": "标题包含“财务BP”与“运维工程师”两个不同职能，需拆分为财务分析和IT运维两个岗位。"
+    },
+    {
+      "occupation_id": "TG-b69dce8f1defa84ca3f5",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "海外储备管培生",
+      "level_3_evidence": null,
+      "reason": "标题为海外储备管培生，未明确具体职能方向，符合L32-01或L32-02的跨职能培养特征，但需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-05eb9d8daf4c0493ae7a",
+      "status": "mapped",
+      "target_category_id": "L01-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "AI全栈创优生",
+      "level_3_evidence": null,
+      "reason": "标题含“全栈”与“AI”，全栈开发明确同时负责前后端，归入L01-03全栈开发。"
+    },
+    {
+      "occupation_id": "TG-821823384d801f4d10ca",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L29-06",
+        "L22-04"
+      ],
+      "title_evidence": "私人教练团课全职/兼职教练职能/技术岗",
+      "level_3_evidence": null,
+      "reason": "标题包含私人教练、团课教练等，可能涉及健身指导与体育教学，职能不同，需拆分为多个岗位。"
+    },
+    {
+      "occupation_id": "TG-49edfae5bf5df95fbace",
+      "status": "mapped",
+      "target_category_id": "L20-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "价值评估岗",
+      "level_3_evidence": null,
+      "reason": "价值评估岗通常属于资产评估与处置，归入L20-09。"
+    },
+    {
+      "occupation_id": "TG-30ca3510e1699d9494f3",
+      "status": "mapped",
+      "target_category_id": "L27-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "验船师",
+      "level_3_evidence": null,
+      "reason": "验船师属于船舶专业操作或检验，归入L27-08船舶航空与轨道专业操作。"
+    }
+  ],
+  "raw_response_file": "000357.raw.json",
+  "usage": {
+    "input_tokens": 17385,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 873,
+    "output_tokens": 2527,
+    "reasoning_tokens": 0,
+    "total_tokens": 19912
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0033933720000000004
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

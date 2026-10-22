@@ -1,0 +1,28 @@
+{
+  "id": "d5e672ab-f3ee-4902-9c70-55a371483d0c",
+  "object": "chat.completion",
+  "created": 1792571726,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-67217e4e38fe2243fbbb6bf54bcc7ba4\",\"status\":\"mapped\",\"target_category_id\":\"L02-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L02-03\",\"L02-03-03\",\"L02-03-01\"],\"title_evidence\":\"数据中台开发工程师：数据中台属于数据平台开发，负责数据平台/中台建设\",\"level_3_evidence\":null,\"reason\":\"数据中台开发属于数据工程与数据平台开发（L02-03）；标题未明确是数仓建模、数据集成管道还是计算平台基础设施，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16938,
+    "completion_tokens": 152,
+    "total_tokens": 17090,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 298
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

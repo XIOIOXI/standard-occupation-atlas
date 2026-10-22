@@ -1,0 +1,159 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 2,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "improved_v3",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "da3aa6ac-1d3d-4862-ba3f-d61f5671bb11",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791748560,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 20,
+  "usage": {
+    "input_tokens": 24051,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 755,
+    "output_tokens": 1064,
+    "reasoning_tokens": 0,
+    "total_tokens": 25115
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000821538
+  },
+  "observed_at_utc": "2026-10-11T19:56:01.093741+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-d92d4a0afc2c7e920354",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "专区运营属于业务运营中的流程运营"
+    },
+    {
+      "occupation_id": "SNO-d34cf0bb21a90c4eee42",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "供应链解决方案工程师核心为供应链计划与协同"
+    },
+    {
+      "occupation_id": "SNO-5f43b78cf7549e2ea3a4",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "算法工程师（安全方向）属通用算法研究范畴"
+    },
+    {
+      "occupation_id": "SNO-b12ff0d486dd937b291b",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "国内业务管理专员属业务流程运营"
+    },
+    {
+      "occupation_id": "SNO-27e63eba60eb4d40d1ac",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "结构材料工程师偏机械结构与产品设计"
+    },
+    {
+      "occupation_id": "SNO-3e62029d76df087822b2",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "初中物理教师属基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-49e5d5a10ab7fd7da7dd",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "材料基因工程师属材料研发，目录无对应类别"
+    },
+    {
+      "occupation_id": "SNO-49ed7f695146c6e75112",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "环境可靠性工程师属质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-d1cfe446eeb551c2e1f2",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "市场综合监管辅助员职责不明确，缺少具体工作内容信息"
+    },
+    {
+      "occupation_id": "SNO-7dc9e0fc04e3c2a69224",
+      "target_category_id": "教育培训/edu-admin/edu-admin-institution",
+      "status": "mapped",
+      "reason": "教育服务助理属教育机构行政"
+    },
+    {
+      "occupation_id": "SNO-1303fde314c3e122be68",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": "社媒运营经理属社交媒体运营"
+    },
+    {
+      "occupation_id": "SNO-a47b055ca7ccc6f1a475",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "软体家具质检QC属质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-e77e5a9120d0e52cbf8c",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电源设计工程师属电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-2763e7df87bfddf62a76",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "内贸业务属客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-ac05f2f92fe9337ef6e6",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "工艺实验室培训生属化工工艺与生产"
+    },
+    {
+      "occupation_id": "SNO-e98479e69fcbd3b4d3ef",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-deep",
+      "status": "mapped",
+      "reason": "训练推理优化算法工程师属深度学习与模型训练"
+    },
+    {
+      "occupation_id": "SNO-6e9243e293d1fb83d9c1",
+      "target_category_id": "运营/客服/ops-content/content-video",
+      "status": "mapped",
+      "reason": "AI游戏内容运营属短视频与直播内容运营"
+    },
+    {
+      "occupation_id": "SNO-35347c0451abe64eba4c",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "AI推理工程师属机器学习平台与工程"
+    },
+    {
+      "occupation_id": "SNO-3954f99d48d0d086082a",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "系统建设运维及数据管理属基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-d97c7f5733d3e52d2a45",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "宏观研究员属市场与社会调研"
+    }
+  ]
+}

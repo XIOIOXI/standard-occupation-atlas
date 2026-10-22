@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-9879b1c2bfd4ed206b6e1a3e0705f86f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L04-03",
+        "L04-05",
+        "L04-06"
+      ],
+      "title_evidence": "质量实习生",
+      "level_3_evidence": null,
+      "reason": "标题仅含“质量”，未说明是生产质量管理、质量体系认证还是其他质量职能；公司为医疗/医药/生物行业，可能涉及生产质量或质量体系，但证据不足，无法确定唯一二级目标，列为review。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16941,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 301,
+    "output_tokens": 140,
+    "reasoning_tokens": 0,
+    "total_tokens": 17081
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00035814
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

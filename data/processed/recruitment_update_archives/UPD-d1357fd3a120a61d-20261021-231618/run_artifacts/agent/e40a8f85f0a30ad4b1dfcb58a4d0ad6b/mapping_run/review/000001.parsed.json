@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e40a8f85f0a30ad4b1dfcb58a4d0ad6b",
+      "verdict": "pass",
+      "suggested_target_category_id": "L02-03-03",
+      "issue": "车端大数据组件开发属数据平台/数据管道组件研发，归数据工程与数据平台开发下的数据计算平台合理；与L02-03-02数据集成与管道存在一定重叠，但非明显错分，无需修正。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17052,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 540,
+    "output_tokens": 123,
+    "reasoning_tokens": 0,
+    "total_tokens": 17175
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000408672
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

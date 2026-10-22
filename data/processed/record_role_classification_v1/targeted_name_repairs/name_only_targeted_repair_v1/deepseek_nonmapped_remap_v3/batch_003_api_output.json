@@ -1,0 +1,28 @@
+{
+  "id": "7e1711b5-d1bc-44c5-9240-a015c9bc838b",
+  "object": "chat.completion",
+  "created": 1791821604,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"ABNORMAL:RRG-37c988686e40b2d65dcf\",\"status\":\"review\",\"target_category_id\":\"采购/贸易/trade-procurement/procurement-purchasing\",\"reason\":\"名称主体为“采购助理”，可确认采购方向，但括号内为截断的专业清单，无法据此确定三级细分，故降为二级采购。\"},{\"entry_id\":\"ABNORMAL:RRG-37f4f696f906756a6862\",\"status\":\"review\",\"target_category_id\":\"教育培训/edu-teacher/teacher-k12\",\"reason\":\"名称含“中学”“招聘教师”，可确认教师方向，但整体为招聘公告截断文本，无法确定具体三级教学类别。\"},{\"entry_id\":\"ABNORMAL:RRG-39fa05541ddf5ae908f7\",\"status\":\"review\",\"target_category_id\":\"生产制造/manufacturing-quality/quality-control\",\"reason\":\"名称主体为“质量工艺工程师”，可确认质量管理方向，但括号内为截断专业清单，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-3ab81fed74c9cc53f540\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“岗位3(专技岗十二级)”加截断专业清单，无明确职业名称，无法确认任何层级。\"},{\"entry_id\":\"ABNORMAL:RRG-3b1addd9b5b18272c12e\",\"status\":\"review\",\"target_category_id\":\"教育培训/edu-teacher/teacher-k12\",\"reason\":\"名称主体为“初中美术教师”，可确认基础教育教师方向，但括号内为截断专业清单，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-3e2baf9489767b414fd3\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-ops-support/ops-support\",\"reason\":\"名称主体为“售后服务工程师”，可确认技术支持方向，但括号内为截断专业清单，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-3ea073cb014282d417e7\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称为多个互不兼容的职业类别清单（行政、财会、养殖、营销、育种、农场、饲料、食品等），无共同上级可确认。\"},{\"entry_id\":\"ABNORMAL:RRG-3f423a3e392b5bd802c2\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称为多个互不兼容的职业类别清单（研发、生产制造、营销、供应链、工程、职能、管培生），无共同上级可确认。\"},{\"entry_id\":\"ABNORMAL:RRG-3f45df92402fe506b76a\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“测量助理工程......”截断，无法确认完整职业名称及层级。\"},{\"entry_id\":\"ABNORMAL:RRG-404a9010fc5980ed2a36\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“机电类管培生”加截断专业清单，管培生非职业，无法确认具体职业方向。\"},{\"entry_id\":\"ABNORMAL:RRG-4105d501218f1929334f\",\"status\":\"review\",\"target_category_id\":\"生产制造/manufacturing-quality/quality-control\",\"reason\":\"名称主体为“初级DQE工程师”，可确认质量方向，但括号内截断，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-443ca79e399eadf2180b\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称为多个互不兼容的专业类别清单（电气、能源、自动化、计算机、机械、环境、电子、水利、材料等），无共同上级可确认。\"},{\"entry_id\":\"ABNORMAL:RRG-44f08b649a829ade0f31\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-test/test-functional\",\"reason\":\"名称主体为“测试开发工程师”，可确认测试方向，但“实习”非职业且名称截断，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-46aa950d0a0232c3eea5\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称为多个互不兼容的职业类别清单（教师、运营、培训生、实习生），且培训生/实习生非职业，无共同上级可确认。\"},{\"entry_id\":\"ABNORMAL:RRG-46e527a683f85fc944a0\",\"status\":\"review\",\"target_category_id\":\"教育培训/edu-admin/edu-admin-teaching\",\"reason\":\"名称主体为“教学经理”，可确认教育行政方向，但括号内为截断专业清单，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-476ed729fea08cd35d0b\",\"status\":\"review\",\"target_category_id\":\"电子/电气/通信/electronic-hardware/hardware-dev-circuit\",\"reason\":\"名称主体为“硬件研发工程师”，可确认硬件开发方向，但括号内专业与岗位不匹配且截断，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-47bce0b914633274aa55\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称为多个互不兼容的专业类别清单（电子信息、通信、光电、计算机软件、测绘遥感、飞行器设计），无共同上级可确认。\"},{\"entry_id\":\"ABNORMAL:RRG-4857bc472dc0f30d9814\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"名称主体为“系统开发岗”，可确认开发方向，但括号内为截断专业清单，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-486249a260f9c1f88887\",\"status\":\"review\",\"target_category_id\":\"销售/sales-general/general-sales-customer\",\"reason\":\"名称主体为“业务经理”，可确认销售方向，但括号内截断，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-48e6deaf1f4c40994fcf\",\"status\":\"review\",\"target_category_id\":\"财务/审计/税务/finance-accounting/acct-general\",\"reason\":\"名称主体为“财务管理岗”，可确认财务方向，但括号内为截断专业清单，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-4936e2d8443406a347fc\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-test/test-security\",\"reason\":\"名称主体为“网络安全测试工程师”，可确认安全测试方向，但括号内为截断专业清单，无法确定三级细分。\"},{\"entry_id\":\"ABNORMAL:RRG-4d043d5836e9fa6a2d56\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“管理培训生”加截断专业清单，管培生非职业，无法确认具体职业方向。\"},{\"entry_id\":\"ABNORMAL:RRG-4eeec5b3a31dbfaec2\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称为“仿真工程师......”截断，无法确认完整职业名称及层级。\"},{\"entry_id\":\"ABNORMAL:RRG-4f65f6462ab99535d1f4\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称为多个互不兼容的职业类别清单（招商运营、市场业务、投资管理、财务资金、专业技术、法务风控），无共同上级可确认。\"},{\"entry_id\":\"ABNORMAL:RRG-4fe09f8773985e21b414\",\"status\":\"review\",\"target_category_id\":\"采购/贸易/trade-procurement/procurement-purchasing\",\"reason\":\"名称主体为“采购工程师”，可确认采购方向，但括号内为截断专业清单，无法确定三级细分。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30522,
+    "completion_tokens": 1740,
+    "total_tokens": 32262,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 3130
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

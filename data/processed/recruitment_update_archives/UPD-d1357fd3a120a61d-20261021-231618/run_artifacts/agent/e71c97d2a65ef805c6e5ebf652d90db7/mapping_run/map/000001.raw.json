@@ -1,0 +1,28 @@
+{
+  "id": "9bb459cc-c256-424e-bfdd-217faad01fa1",
+  "object": "chat.completion",
+  "created": 1792571917,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-e71c97d2a65ef805c6e5ebf652d90db7\",\"status\":\"mapped\",\"target_category_id\":\"L05-02-03\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L05-02-03\",\"L04-02\"],\"title_evidence\":\"标题明确为“模拟芯片测试工程师”，属于芯片设计验证/测试方向\",\"level_3_evidence\":\"芯片设计验证\",\"reason\":\"模拟芯片测试属于集成电路设计阶段的验证测试，归入芯片设计验证（L05-02-03）；虽含“测试”字样，但非软件测试或实物产品测试，故不归L04。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16959,
+    "completion_tokens": 153,
+    "total_tokens": 17112,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 319
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

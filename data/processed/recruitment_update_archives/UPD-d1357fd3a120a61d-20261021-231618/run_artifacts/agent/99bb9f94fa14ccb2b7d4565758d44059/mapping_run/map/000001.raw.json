@@ -1,0 +1,28 @@
+{
+  "id": "2353ad26-eb5e-400f-9cb1-44ad460b5c6d",
+  "object": "chat.completion",
+  "created": 1792571613,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-99bb9f94fa14ccb2b7d4565758d44059\",\"status\":\"mapped\",\"target_category_id\":\"L29-04-04\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L29-04-04\",\"L13-05\",\"L09-01\"],\"title_evidence\":\"助理形象顾问：形象顾问属于化妆与形象造型服务\",\"level_3_evidence\":\"化妆与形象造型：化妆形象及现场造型\",\"reason\":\"形象顾问核心为个人形象造型与搭配建议，归生活服务中的化妆与形象造型；零售门店销售属性不占主导。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16980,
+    "completion_tokens": 143,
+    "total_tokens": 17123,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 340
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

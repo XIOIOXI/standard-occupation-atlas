@@ -1,0 +1,85 @@
+{
+  "raw_response_file": "review_012_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-11fac883894610dd9b50",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-f0b560138a575fec5bec",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-6e690ea4b5c8ddfdda7b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-12830cfbdda91fb036d6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-3f1af5dc81f5360fb0c3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-46275e6b7717498adb17",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-ee2b979c4c0b621e818e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-4d671008290a2232b650",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-35cde29f49dba2e1ad1c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-559c05d8f5770ae3f3df",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    }
+  ],
+  "usage": {
+    "input_tokens": 10683,
+    "cached_input_tokens": 9216,
+    "uncached_input_tokens": 1467,
+    "output_tokens": 383,
+    "reasoning_tokens": 0,
+    "total_tokens": 11066
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0004774979999999999
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

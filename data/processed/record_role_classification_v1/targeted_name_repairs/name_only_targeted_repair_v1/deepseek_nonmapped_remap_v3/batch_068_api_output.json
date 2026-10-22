@@ -1,0 +1,28 @@
+{
+  "id": "fd5fb06a-80e4-42cf-a15f-6d415a2b4750",
+  "object": "chat.completion",
+  "created": 1791822032,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-ee61a2bffaefec960394\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"分支机构管培生未指明具体职能方向，无法归入单一职业类别。\"},{\"entry_id\":\"SNO-ee7f143dc12e919462f9\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"关键职能管培生未说明具体职能，无法确定职业类别。\"},{\"entry_id\":\"SNO-ee9c722cf81f50bfd39e\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-backend\",\"reason\":\"全栈工程师名称可确认属于互联网/AI后端开发，但无法确定具体三级方向。\"},{\"entry_id\":\"SNO-eeaabdf69ce2990285f5\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"运行人员职责不明确，缺少行业和具体岗位信息。\"},{\"entry_id\":\"SNO-eebcad79164348067cf2\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“优秀硕士毕业生”未说明职业方向，无法归类。\"},{\"entry_id\":\"SNO-eebd6f3022109c7f15c5\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"运营管理部业务管理岗涉及多个专业类别，缺少具体业务职责信息，无法确定细分运营方向。\"},{\"entry_id\":\"SNO-eedad3c54460bac28952\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出长度计量、力学计量、光学计量、气体计量、生物计量、检验员等多个独立岗位。\"},{\"entry_id\":\"SNO-eee2e2775141312bc247\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"机电管理与投资拓展是两个独立职业方向，无法由同一类别承接。\"},{\"entry_id\":\"SNO-eee842b55209c0a188f8\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"设计类管培生未明确具体设计方向，无法确定三级设计类别。\"},{\"entry_id\":\"SNO-eef2c062f4c02dd23cfe\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"工厂管理培训生明确涵盖生产、工程、质量控制多个独立职能方向，无法由单一类别承接。\"},{\"entry_id\":\"SNO-ef07076a92381e6ddeae\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出财务管理、法务管理、党群管理、信息技术、业务管理、生产管理、工程管理、轮机驾驶、设备管理、航运管理等多个独立职业。\"},{\"entry_id\":\"SNO-ef20bcdd89b55bfef22e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"各专业设计工程师未说明具体设计专业，无法确定细分设计类别。\"},{\"entry_id\":\"SNO-ef5659f58e2c6dd02360\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"公司定向培养生未明确职业方向，缺少具体岗位职责信息，无法归类。\"},{\"entry_id\":\"SNO-ef61d186ab61a25cd924\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明显列出导演、编剧、编导、AI剪辑师、AI制作师等多个独立职业。\"},{\"entry_id\":\"SNO-ef986c67dd89ba0febd2\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-backend\",\"reason\":\"软件助理工程师可确认属于互联网/AI后端开发，但无法确定具体三级方向。\"},{\"entry_id\":\"SNO-efa0ad2e539ca20bd4d9\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“程销售”名称不完整，无法判断具体销售领域或产品类型。\"},{\"entry_id\":\"SNO-efb27f284f4b594eadb6\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"行星舵机工程师名称指向机械/机器人部件，但冻结目录无对应三级，且无法确认合适一级或二级。\"},{\"entry_id\":\"SNO-efb8cc5950eabff57360\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-backend\",\"reason\":\"程序开发可确认属于互联网/AI后端开发，但无法确定具体三级方向。\"},{\"entry_id\":\"SNO-efd0ad63eb8e68338034\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"静装(备)设计，名称含义不明确，无法判断具体设计方向。\"},{\"entry_id\":\"SNO-f00ad28fe72bfb74ec00\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"企业管理管培生方向宽泛，缺少具体职能信息。\"},{\"entry_id\":\"SNO-f02080963af8f12396c6\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"性能优化工程师未指明技术栈或领域，无法确认具体三级方向。\"},{\"entry_id\":\"SNO-f027ad63714026d7b9e4\",\"status\":\"review\",\"target_category_id\":\"财务/审计/税务\",\"reason\":\"财务类可确认属于财务/审计/税务，但缺少具体岗位职责信息，无法确定三级分类。\"},{\"entry_id\":\"SNO-f03e79853b6d88b73e61\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"售后工程师未指明行业或产品，无法确认具体类别。\"},{\"entry_id\":\"SNO-f0673b7c89afd34a1a4b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称含组织发展OD与售后服务工程师，职责混杂且不明确。\"},{\"entry_id\":\"SNO-f07c322b1cbd1785178b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"策略研究员，领域不明确。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29671,
+    "completion_tokens": 1264,
+    "total_tokens": 30935,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2279
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

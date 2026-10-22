@@ -1,0 +1,28 @@
+{
+  "id": "d04e4cc6-3050-4c43-9a81-5ce794718601",
+  "object": "chat.completion",
+  "created": 1792571857,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-cc0b9caf93237047eb5132c392c507ee\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L30-02\", \"issue\": \"标题明确为法务管培生，法务职能清晰，企业法务归L30-02；管培生仅为培养标签，不改变职能归属，无需归L32。归属合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17042,
+    "completion_tokens": 107,
+    "total_tokens": 17149,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 530
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

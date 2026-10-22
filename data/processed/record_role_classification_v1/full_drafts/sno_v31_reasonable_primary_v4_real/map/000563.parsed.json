@@ -1,0 +1,278 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-0b668091c309ce52fca3",
+      "status": "mapped",
+      "target_category_id": "L19-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-05",
+        "L19-01"
+      ],
+      "title_evidence": "会计与审计类",
+      "level_3_evidence": null,
+      "reason": "标题明确包含审计职能，归入审计二级；会计为辅助证据，不改变主归属。"
+    },
+    {
+      "occupation_id": "TG-952d6ce98c6560438228",
+      "status": "mapped",
+      "target_category_id": "L14-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-09",
+        "L14-10"
+      ],
+      "title_evidence": "FAE工程师",
+      "level_3_evidence": null,
+      "reason": "FAE通常指现场应用工程师，负责售前技术支持与方案，归入售前技术与解决方案。"
+    },
+    {
+      "occupation_id": "TG-fd731cbd4e084191460b",
+      "status": "mapped",
+      "target_category_id": "L14-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-09",
+        "L14-10"
+      ],
+      "title_evidence": "FAE软件工程师",
+      "level_3_evidence": null,
+      "reason": "FAE软件工程师侧重售前技术方案与支持，归入售前技术与解决方案。"
+    },
+    {
+      "occupation_id": "TG-6a6063badd1b74dbd236",
+      "status": "mapped",
+      "target_category_id": "L13-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-03",
+        "L12-06"
+      ],
+      "title_evidence": "渠道经理",
+      "level_3_evidence": null,
+      "reason": "渠道经理通常负责渠道销售与经销商管理，归入渠道销售与经销管理。"
+    },
+    {
+      "occupation_id": "TG-e0f32c573ab88f44147f",
+      "status": "mapped",
+      "target_category_id": "L13-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-03",
+        "L12-06"
+      ],
+      "title_evidence": "渠道经理......",
+      "level_3_evidence": null,
+      "reason": "标题与渠道经理一致，归入渠道销售与经销管理。"
+    },
+    {
+      "occupation_id": "TG-2188b61904b96c4a57d8",
+      "status": "mapped",
+      "target_category_id": "L03-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-08",
+        "L03-07"
+      ],
+      "title_evidence": "信息技术岗",
+      "level_3_evidence": null,
+      "reason": "信息技术岗通常指IT运维支持，方向未明确，归入通用信息技术运维。"
+    },
+    {
+      "occupation_id": "TG-c9468600836875cc763e",
+      "status": "mapped",
+      "target_category_id": "L03-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-08",
+        "L03-07"
+      ],
+      "title_evidence": "信息技术岗位",
+      "level_3_evidence": null,
+      "reason": "与信息技术岗一致，归入通用信息技术运维。"
+    },
+    {
+      "occupation_id": "TG-5bcbfea79204b2bcb858",
+      "status": "mapped",
+      "target_category_id": "L09-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-08"
+      ],
+      "title_evidence": "设计助理",
+      "level_3_evidence": null,
+      "reason": "设计助理明确设计职能但方向未说明，归入通用设计与创意。"
+    },
+    {
+      "occupation_id": "TG-582ebb37ba833a6f7e0c",
+      "status": "mapped",
+      "target_category_id": "L02-06-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-06-02",
+        "L02-05"
+      ],
+      "title_evidence": "AI Agent 算法工程师",
+      "level_3_evidence": "智能体与工具编排",
+      "reason": "标题明确AI Agent，属于智能体与工具编排三级。"
+    },
+    {
+      "occupation_id": "TG-9da8e6d88c222bae8e99",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L12-01",
+        "L13-01",
+        "L14-09"
+      ],
+      "title_evidence": "营销工程师",
+      "level_3_evidence": null,
+      "reason": "营销工程师可能侧重市场策划、销售或售前技术支持，职能方向不明确，需人工复核。"
+    },
+    {
+      "occupation_id": "TG-7dbd83127a47da062a1d",
+      "status": "mapped",
+      "target_category_id": "L01-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-07-02",
+        "L02-07-01"
+      ],
+      "title_evidence": "AI编译器工程师",
+      "level_3_evidence": "编译器与语言工具",
+      "reason": "AI编译器工程师核心为编译器开发，归入编译器与语言工具三级。"
+    },
+    {
+      "occupation_id": "TG-6f18eb3a0fd112ee7d9f",
+      "status": "mapped",
+      "target_category_id": "L01-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-07-02",
+        "L02-07-01"
+      ],
+      "title_evidence": "AI 编译器工程师",
+      "level_3_evidence": "编译器与语言工具",
+      "reason": "与AI编译器工程师一致，归入编译器与语言工具三级。"
+    },
+    {
+      "occupation_id": "TG-86e13eef11db906dbbf0",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03"
+      ],
+      "title_evidence": "初级电气工程师",
+      "level_3_evidence": null,
+      "reason": "电气工程师归入电气工程二级。"
+    },
+    {
+      "occupation_id": "TG-185aec1e6b2730139542",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03"
+      ],
+      "title_evidence": "高级电气工程师",
+      "level_3_evidence": null,
+      "reason": "电气工程师归入电气工程二级。"
+    },
+    {
+      "occupation_id": "TG-62f69e1acdcc5e2608fc",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03"
+      ],
+      "title_evidence": "电气工程师（北京、连云港）",
+      "level_3_evidence": null,
+      "reason": "电气工程师归入电气工程二级。"
+    },
+    {
+      "occupation_id": "TG-84bc7ff36cc679612ea0",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03"
+      ],
+      "title_evidence": "电气研发工程师（2025 届应届生专用）",
+      "level_3_evidence": null,
+      "reason": "电气研发工程师归入电气工程二级。"
+    },
+    {
+      "occupation_id": "TG-621d235357b2049e5f13",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03"
+      ],
+      "title_evidence": "电气研发工程师（2026 届校招）",
+      "level_3_evidence": null,
+      "reason": "电气研发工程师归入电气工程二级。"
+    },
+    {
+      "occupation_id": "TG-0ba101c535a3653344e2",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03"
+      ],
+      "title_evidence": "电气研发工程师",
+      "level_3_evidence": null,
+      "reason": "电气研发工程师归入电气工程二级。"
+    },
+    {
+      "occupation_id": "TG-09e1296eedde99e95994",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03"
+      ],
+      "title_evidence": "储备电气开发工程师",
+      "level_3_evidence": null,
+      "reason": "电气开发工程师归入电气工程二级。"
+    },
+    {
+      "occupation_id": "TG-4107dcb18fcb0de0d70c",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03"
+      ],
+      "title_evidence": "电气开发工程师",
+      "level_3_evidence": null,
+      "reason": "电气开发工程师归入电气工程二级。"
+    }
+  ],
+  "raw_response_file": "000563.raw.json",
+  "usage": {
+    "input_tokens": 17347,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 835,
+    "output_tokens": 2307,
+    "reasoning_tokens": 0,
+    "total_tokens": 19654
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003117972
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

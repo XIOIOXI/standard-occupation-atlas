@@ -1,0 +1,28 @@
+{
+  "id": "99ba9f11-a0c4-402c-837c-273483b5cd5f",
+  "object": "chat.completion",
+  "created": 1791880235,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-b016f160f9726749c9cd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"量子测控属电子电气与通信工程，目录无对应三级，归L05-07通用电子电气通信技术合理。\"},{\"occupation_id\":\"TG-84d649f71fa2d40fbba8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅销售专员未说明客户类型，归L13-09通用销售合理。\"},{\"occupation_id\":\"TG-f37104278df03eec175a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"培训生且方向为艺术创作，归L32-02综合储备与业务培养合理。\"},{\"occupation_id\":\"TG-eea6b950508a80b4627e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"战略与投资岗涉及产业布局与投资拓展，归L11-06合理。\"},{\"occupation_id\":\"TG-1906a0b44fd5657a9148\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"宏观/债券/策略分析属证券市场研究，归L20-01-01合理。\"},{\"occupation_id\":\"TG-180cc40a3096c95e1216\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"模型算法研究员方向未明确，归L02-05机器学习与算法研发合理。\"},{\"occupation_id\":\"TG-7d3b26ac52c908673517\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"社媒运营属内容与新媒体运营，日语为语言标签，归L14-03合理。\"},{\"occupation_id\":\"TG-3517d70cf52860cc4286\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"固件设计工程师归L01-06-02固件与底层驱动合理。\"},{\"occupation_id\":\"TG-7bff4c375d1e7668a0fc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"制冷工作岗通常为制冷设备运行维护，归L23-09-02工业设备维修保全合理。\"},{\"occupation_id\":\"TG-7c68a0890705b76d2a00\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"粘合剂销售属企业客户销售，未明确直客或重点客户，归L13-01合理。\"},{\"occupation_id\":\"TG-3ba2237ce7852a826a89\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"税务业务助理属税务职能，归L19-06合理。\"},{\"occupation_id\":\"TG-d5255b2ee156c31bce22\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题同时包含软件与硬件开发，属多角色，multi_role合理。\"},{\"occupation_id\":\"TG-f4aa3365e3f2881b8a57\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工艺工程师方向未明确，归L06-08工艺与制造工程合理。\"},{\"occupation_id\":\"TG-519cbefceb5a76c81952\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"风控类属金融风险与信用评估，方向未明确，归L20-07合理。\"},{\"occupation_id\":\"TG-cdadc48c5e73660c48a8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管理培训生属跨职能管理培训与轮岗，归L32-01合理。\"},{\"occupation_id\":\"TG-e0e30fc14bd4af0c0a56\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"交通运营管理岗属交通运行与地面服务，归L27-07合理。\"},{\"occupation_id\":\"TG-07b228831927c252843e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售助理属销售运营与商务支持，方向未明确，归L13-08合理。\"},{\"occupation_id\":\"TG-ac859fb46cc28c083c5d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"地热资源储层评价属地地质勘探与资源评价，归L25-01合理。\"},{\"occupation_id\":\"TG-f7904f56ce4c30041d5f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海上风电运维属能源运行与调度，归L25-04合理。\"},{\"occupation_id\":\"TG-be2bba032400e4df20ff\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"桌面开发工程师归L01-05-01桌面业务应用合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19649,
+    "completion_tokens": 1090,
+    "total_tokens": 20739,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3137
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

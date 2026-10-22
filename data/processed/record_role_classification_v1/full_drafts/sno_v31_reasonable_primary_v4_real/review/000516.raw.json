@@ -1,0 +1,28 @@
+{
+  "id": "ed32c140-48e4-4d71-aa96-cd614f401c32",
+  "object": "chat.completion",
+  "created": 1791881823,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"TG-8294c95e8dbb998fcfb6\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"财务部会计岗归入L19-01会计核算，合理。\"}, {\"occupation_id\": \"TG-f43a42704a52752f8976\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"交付工程师归入L10-03客户实施与交付管理，合理。\"}, {\"occupation_id\": \"TG-cd012f05bad1350d0910\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"售后服务工程师归入L14-10售后技术服务，合理。\"}, {\"occupation_id\": \"TG-6eb55959f7c96b4d84d4\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"新闻宣传岗位归入L12-04公关与媒介关系，合理。\"}, {\"occupation_id\": \"TG-19bf492ebdb4f29d5279\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"新闻宣传岗归入L12-04公关与媒介关系，合理。\"}, {\"occupation_id\": \"TG-f5cf305be90871ca10e0\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"AI Infra工程师归入L02-07模型部署与机器学习平台，合理。\"}, {\"occupation_id\": \"TG-0f1a84b8c85d2bf4f09b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"AI Infra研发工程师归入L02-07模型部署与机器学习平台，合理。\"}, {\"occupation_id\": \"TG-fc502eee55148427b5f2\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"生产助理归入L23-01生产计划与现场管理，合理。\"}, {\"occupation_id\": \"TG-0aa4eb6b1c258e087498\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"工艺设计归入L06-08工艺与制造工程，合理。\"}, {\"occupation_id\": \"TG-477f33fc1cbd729b713f\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"工艺设计岗归入L06-08工艺与制造工程，合理。\"}, {\"occupation_id\": \"TG-cee8f2f2e20df5429bf1\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"工艺设计（北京公司）归入L06-08工艺与制造工程，合理。\"}, {\"occupation_id\": \"TG-bd6d61763688778eae8d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"工艺设计（上海公司）归入L06-08工艺与制造工程，合理。\"}, {\"occupation_id\": \"TG-9097a4adb50043ef173a\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"硬件设计工程师归入L05-01电子硬件研发，合理。\"}, {\"occupation_id\": \"TG-b89d511f454b29cd7ffd\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"专任教师归入L22-10通用教育教学，合理。\"}, {\"occupation_id\": \"TG-292e89c6f817fe74517d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"专任教师岗归入L22-10通用教育教学，合理。\"}, {\"occupation_id\": \"TG-912ce0f72a1fb5598306\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"模型优化工程师归入L02-07模型部署与机器学习平台，合理。\"}, {\"occupation_id\": \"TG-eaac955bc829d17d7711\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"软件开发工程师(Java方向)归入L01-11通用软件研发，合理。\"}, {\"occupation_id\": \"TG-568ab6cab2ce74406ebe\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"软件开发工程师（JAVA方向）归入L01-11通用软件研发，合理。\"}, {\"occupation_id\": \"TG-0c94f0b0ae50ccef5e2b\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"数字电路设计工程师归入L05-02-01数字芯片设计，合理。\"}, {\"occupation_id\": \"TG-936e8a85b9d0fdaf34ae\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"多模态大模型算法工程师归入L02-05-07多模态算法，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19364,
+    "completion_tokens": 1197,
+    "total_tokens": 20561,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2852
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,141 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-5ac089155580a59ed02c0c4b4968fbfd",
+      "verdict": "pass",
+      "suggested_target_category_id": "L27-07",
+      "issue": "机场管制运行属交通运行组织与地面服务，L27-07合理；非飞行操作。"
+    },
+    {
+      "occupation_id": "UP-6f2cf21b852f7c00b58fa33db9108441",
+      "verdict": "pass",
+      "suggested_target_category_id": "L27-07",
+      "issue": "机场运行组织归L27-07合理。"
+    },
+    {
+      "occupation_id": "UP-fcb9259a504e3cd01b8af57c72324559",
+      "verdict": "pass",
+      "suggested_target_category_id": "L24-07",
+      "issue": "工程建设岗归施工组织与工程管理L24-07合理。"
+    },
+    {
+      "occupation_id": "UP-b922e50e3ceaf18a36392d309115abe0",
+      "verdict": "pass",
+      "suggested_target_category_id": "L03-08",
+      "issue": "信息技术岗方向未明确，L03-08通用IT运维可接受；L01-11亦为合理备选。"
+    },
+    {
+      "occupation_id": "UP-cb8f739cf9770f64fd1de6a57db8fa35",
+      "verdict": "pass",
+      "suggested_target_category_id": "L01-09",
+      "issue": "数据中心系统架构师归软件架构L01-09合理。"
+    },
+    {
+      "occupation_id": "UP-4df692d623e2a85b218ed9a50ad37041",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-01-02",
+      "issue": "产品模块化结构设计归产品结构设计合理。"
+    },
+    {
+      "occupation_id": "UP-daad5dae4e1c20072b1f781c5effe583",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-02",
+      "issue": "燃气动力机组开发归热流体与动力工程合理。"
+    },
+    {
+      "occupation_id": "UP-ac14fcb7022817891a931de629f338e0",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-01-02",
+      "issue": "结构分析与仿真归产品结构强度设计合理。"
+    },
+    {
+      "occupation_id": "UP-184496c72efe7b63ab3c9339cd6f2fbf",
+      "verdict": "pass",
+      "suggested_target_category_id": "L05-03",
+      "issue": "电气模块化设计归电气工程合理。"
+    },
+    {
+      "occupation_id": "UP-ca68eb880df1b5c3bdacc2d2a4be26bd",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-10",
+      "issue": "客户产品售后技术服务归L14-10合理。"
+    },
+    {
+      "occupation_id": "UP-7939d45b2de987f8f4ae70a663224e43",
+      "verdict": "pass",
+      "suggested_target_category_id": "L24-04",
+      "issue": "机电安装工程归建筑机电与设备工程合理。"
+    },
+    {
+      "occupation_id": "UP-562934438d40229567748818299a3400",
+      "verdict": "pass",
+      "suggested_target_category_id": "L12-07",
+      "issue": "市场副经理方向未明确，通用市场营销可接受。"
+    },
+    {
+      "occupation_id": "UP-99f2c0bb489bcc1e87660d3a3b82b43d",
+      "verdict": "pass",
+      "suggested_target_category_id": "L16-01-01",
+      "issue": "制造企业供应商开发归直接物料采购合理。"
+    },
+    {
+      "occupation_id": "UP-aca345f88d513784de242d6826c42013",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "管培生仅金融方向，最终职能未明确，review合理。"
+    },
+    {
+      "occupation_id": "UP-e15c1dd9b806adfdfd2254efd12ce865",
+      "verdict": "pass",
+      "suggested_target_category_id": "L01-11",
+      "issue": "金融科技岗方向未明确，通用软件研发可接受。"
+    },
+    {
+      "occupation_id": "UP-0a01597255761409a8353df57afc494c",
+      "verdict": "pass",
+      "suggested_target_category_id": "L13-02",
+      "issue": "银行综合营销面向个人客户，L13-02合理。"
+    },
+    {
+      "occupation_id": "UP-7b2c48661ffefaba80c11e8d66aa8ab5",
+      "verdict": "pass",
+      "suggested_target_category_id": "L20-08",
+      "issue": "银行网点综合服务归金融运营与柜面业务合理。"
+    },
+    {
+      "occupation_id": "UP-aa3a632b0a74f43685f5a86effa226ea",
+      "verdict": "pass",
+      "suggested_target_category_id": "L01-11",
+      "issue": "银行信息科技岗方向未明确，通用软件研发可接受。"
+    },
+    {
+      "occupation_id": "UP-102e8f6a3d7b709a159fb134938271f5",
+      "verdict": "pass",
+      "suggested_target_category_id": "L13-01-01",
+      "issue": "银行客户经理归企业客户直客销售合理；L13-02亦为可能备选。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 21824,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 5184,
+    "output_tokens": 1129,
+    "reasoning_tokens": 0,
+    "total_tokens": 22953
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00150492
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

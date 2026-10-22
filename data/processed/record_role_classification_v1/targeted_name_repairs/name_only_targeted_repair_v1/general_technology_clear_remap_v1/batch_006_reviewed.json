@@ -1,0 +1,147 @@
+{
+  "batch_number": 6,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18167,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 1527,
+    "output_tokens": 916,
+    "reasoning_tokens": 0,
+    "total_tokens": 19083
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008285699999999999
+  },
+  "results": [
+    {
+      "entry_id": "SNO-36d060febceb222c8d80",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称截断且仅含泛词“高级工程师”，无法明确映射唯一三级。"
+    },
+    {
+      "entry_id": "SNO-3709175fd7cad179ee4f",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“仿真开发”未指明语言、平台或领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-37134457309ef4d70c07",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程设计工程师”为宽泛称谓，未指明具体工程领域。"
+    },
+    {
+      "entry_id": "SNO-374ca76c4ecbfa4d66f2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“青年科学家”为宽泛称谓，无法映射唯一三级。"
+    },
+    {
+      "entry_id": "SNO-3bebcae811e8db9775c1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "专业清单式复合岗位，无法映射唯一三级。"
+    },
+    {
+      "entry_id": "SNO-3c27e263a6cfc6383516",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“博士研究员”为宽泛称谓，未指明研究领域。"
+    },
+    {
+      "entry_id": "SNO-3c3396ec43fc69504523",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发部创新工程师”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-3c3c5d77cd3c1989883c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含附件说明且为宽泛研发专员，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-3cf925810572c1a683dc",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术管理员”为宽泛称谓，无法映射唯一三级。"
+    },
+    {
+      "entry_id": "SNO-3dfa5a3ebcc03ab9b2ea",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“科学研究”为宽泛称谓，未指明学科领域。"
+    },
+    {
+      "entry_id": "SNO-3e88d6376ab01925e931",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "复合岗位且含泛词，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-3e93b436c3bf02d53793",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“广播影视政策研究”不属于现有三级职业范围。"
+    },
+    {
+      "entry_id": "SNO-3ee6836cfef88e5f348c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“地理信息平台开发”未指明技术栈，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-3f2e70021f0e6b817874",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称截断且仅含泛词“工程师”，无法映射。"
+    },
+    {
+      "entry_id": "SNO-3feb66b45176cfb3ec2e",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“平台工程师”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-40522934839bc9fea5af",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“理论模拟研究员”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-4128fb8c3892b96bf629",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“实验室技术员”为宽泛称谓，未指明领域。"
+    },
+    {
+      "entry_id": "SNO-420599c1461f5a7f4135",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“安全工程师”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-42a10e0d38e78ab4a373",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“数字技术”为宽泛称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-42ed97eb85990224e107",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“公用工程”为宽泛称谓，无法唯一映射。"
+    }
+  ]
+}

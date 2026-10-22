@@ -1,0 +1,45 @@
+/* Only the root atlas fills the viewport; other routes retain their layouts. */
+#root:has(.sno-map-scene--drilled) { display:flex; flex-direction:column; height:100dvh; overflow:hidden; }
+#root:has(.sno-map-scene--drilled)>.topbar { flex:0 0 auto; }
+body .market-main:has(.sno-map-scene--drilled) { flex:1; min-height:0; overflow:hidden; padding-bottom:16px; }
+.market-main>.sno-explorer:has(.sno-map-scene--drilled) { display:flex; flex-direction:column; height:100%; min-height:0; }
+.sno-explorer:has(.sno-map-scene--drilled)>.breadcrumbs { flex:0 0 auto; min-height:40px; max-height:15dvh; overflow:auto; }
+.sno-explorer .map-scene.industry.field-layout.sno-map-scene--drilled { flex:1; min-height:0!important; height:auto; max-height:100%; padding-top:0; grid-template-rows:minmax(0,1fr); }
+.sno-explorer .map-scene.industry.field-layout.sno-map-scene--drilled>.field-stage { height:100%; min-height:0!important; }
+.sno-map-scene--drilled>.field-stage>.bubble-map,
+.sno-map-scene--drilled>.field-stage>.bubble-map>.bubble-canvas { height:100%!important; min-height:0!important; }
+@media(max-width:900px) {
+ .sno-explorer .map-scene.industry.field-layout.sno-map-scene--drilled { display:flex; flex-direction:column; gap:12px; }
+ .sno-explorer .sno-map-scene--drilled>.field-copy { flex:0 0 auto; padding-top:8px; }
+ .sno-explorer .sno-map-scene--drilled>.field-copy h1 { margin:8px 0; font-size:28px!important; line-height:1.2; letter-spacing:-.02em; }
+ .sno-explorer .sno-map-scene--drilled>.field-copy .muted { margin:8px 0; }
+ .sno-explorer .sno-map-scene--drilled>.field-copy .muted strong { font-size:28px!important; }
+ .sno-explorer .sno-map-scene--drilled .sno-status-panel { margin-top:10px; padding-top:8px; }
+ .sno-explorer .sno-map-scene--drilled>.field-stage { flex:1; min-height:0!important; }
+}
+@media(min-width:901px) and (max-height:700px) {
+ .sno-explorer .sno-map-scene--drilled>.field-copy { max-height:100%; overflow-y:auto; }
+}
+#root:has(.sno-daily-corner) { display:flex; flex-direction:column; height:100dvh; overflow:hidden; }
+#root:has(.sno-daily-corner)>.topbar { flex:0 0 auto; }
+body .market-main:has(.sno-daily-corner) { flex:1; min-height:0; overflow:hidden; padding-bottom:16px; }
+.market-main>.sno-explorer:has(.sno-daily-corner) { height:100%; min-height:0; }
+.sno-explorer .sno-map-scene:has(.sno-daily-corner) { height:100%; min-height:0!important; max-height:100%; padding-top:0; grid-template-rows:minmax(0,1fr); }
+.sno-map-scene:has(.sno-daily-corner)>.field-stage { height:100%; min-height:0!important; }
+.sno-map-scene:has(.sno-daily-corner)>.field-stage>.bubble-map,
+.sno-map-scene:has(.sno-daily-corner)>.field-stage>.bubble-map>.bubble-canvas { height:100%!important; min-height:0!important; }
+@media(max-width:900px) {
+ .sno-explorer .sno-map-scene:has(.sno-daily-corner) { display:flex; flex-direction:column; gap:12px; }
+ .sno-map-scene:has(.sno-daily-corner)>.field-copy { flex:0 0 auto; padding-top:12px; }
+ .sno-map-scene:has(.sno-daily-corner) .field-copy h1 { margin:8px 0; font-size:32px; line-height:1.2; letter-spacing:-.02em; }
+ .sno-map-scene:has(.sno-daily-corner) .field-copy .muted { margin:8px 0; }
+ .sno-map-scene:has(.sno-daily-corner) .field-copy .muted strong { font-size:28px; }
+ .sno-map-scene:has(.sno-daily-corner) .sno-status-panel { margin-top:12px; padding-top:10px; }
+ .sno-map-scene:has(.sno-daily-corner)>.field-stage { flex:1; min-height:0!important; }
+ .sno-map-scene:has(.sno-daily-corner) .sno-daily-corner { flex:0 0 auto; padding-top:0; }
+}
+@media(min-width:901px) and (max-height:700px) {
+ .sno-map-scene:has(.sno-daily-corner) .field-copy h1 { font-size:64px; }
+ .sno-map-scene:has(.sno-daily-corner) .field-copy { padding-top:12px; }
+ .sno-map-scene:has(.sno-daily-corner) .sno-status-panel { margin-top:16px; }
+}

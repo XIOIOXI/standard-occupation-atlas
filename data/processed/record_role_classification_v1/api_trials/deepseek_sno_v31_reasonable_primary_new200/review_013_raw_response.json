@@ -1,0 +1,28 @@
+{
+  "id": "c17df757-6076-49da-ae40-e9a1792307cc",
+  "object": "chat.completion",
+  "created": 1791841186,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"SNO-5e9c994296849c7fc70f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅“业务岗”无明确职能线索，无法确定销售、运营或其他业务方向，review 合理。\"},{\"occupation_id\":\"SNO-21eaa0be1d784c6eb823\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"SLAM 融合算法属于算法研发，归 L02-05 机器学习与算法研发合理；三级细分虽非目录明示，但未明显违反范围。\"},{\"occupation_id\":\"SNO-84268996f54af083a0f9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"Instagram 社媒运营归内容与新媒体运营 L14-03，语言为标签，合理。\"},{\"occupation_id\":\"SNO-5e529d1a85f0c23262a9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题明确软件研发职能，管培生为培养标签，归 L01-11 通用软件研发合理。\"},{\"occupation_id\":\"SNO-74be8ef534b04db67143\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"平台服务端开发归后端开发 L01-02，合理。\"},{\"occupation_id\":\"SNO-140159e8cf334ce1e5a9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术支持助理归信息技术支持 L03-06，合理。\"},{\"occupation_id\":\"SNO-4f466acae4ce6ff867c4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"游戏原画设计师归美术插画与数字资产 L09-06，合理。\"},{\"occupation_id\":\"SNO-17fae551bbfc943d0f9b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生态拓展经理以商业合作拓展为主，归商务拓展与合作 L13-04，合理。\"},{\"occupation_id\":\"SNO-c2759b1de0ef71e531aa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"计划运营方向未明确，归通用业务运营 L14-11，合理。\"},{\"occupation_id\":\"SNO-2218e2bb762731bce540\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构仿真设计师归机械与结构设计 L06-01，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10792,
+    "completion_tokens": 570,
+    "total_tokens": 11362,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "prompt_cache_hit_tokens": 9216,
+    "prompt_cache_miss_tokens": 1576
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

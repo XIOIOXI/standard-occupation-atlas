@@ -1,0 +1,28 @@
+{
+  "id": "fb6253b1-d384-43ec-bee4-4c2610f2fb62",
+  "object": "chat.completion",
+  "created": 1792571412,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-63cda6dc897dde71286823ab22e4ad4c\",\"status\":\"mapped\",\"target_category_id\":\"L06-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L06-08\",\"L06-08-01\",\"L06-08-02\"],\"title_evidence\":\"工艺助理工程师，工艺对应制造工艺/制程工程\",\"level_3_evidence\":null,\"reason\":\"标题明确为工艺岗，属制造工艺工程；助理层级且未说明具体制程或生产导入方向，归L06-08工艺与制造工程二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16956,
+    "completion_tokens": 140,
+    "total_tokens": 17096,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 316
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-e3e24cad294d7b08b869",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅“设备岗”方向不明，review合理。"
+    },
+    {
+      "occupation_id": "TG-3c56b35f78b23d8fd90c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "固定收益研究员归证券与市场研究合理。"
+    },
+    {
+      "occupation_id": "TG-d18d5b713a8de75336db",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "固定收益研究员归证券与市场研究合理。"
+    },
+    {
+      "occupation_id": "TG-3e58579abae767bdcfe9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "UI设计师归界面视觉设计合理。"
+    },
+    {
+      "occupation_id": "TG-bfcf8c78d101fd33a986",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "UI设计师归界面视觉设计合理。"
+    },
+    {
+      "occupation_id": "TG-f4d481fd36cf9708f2df",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "国际贸易主管归进出口与贸易执行合理。"
+    },
+    {
+      "occupation_id": "TG-5574ea8bd6b623356ccd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "国际贸易经理归进出口与贸易执行合理。"
+    },
+    {
+      "occupation_id": "TG-64c3a1ee585c84bddbf5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "具身算法工程师归机器学习与算法研发合理。"
+    },
+    {
+      "occupation_id": "TG-0aa20ba7ed40d444d4a3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "Java后端开发归业务服务开发合理。"
+    },
+    {
+      "occupation_id": "TG-e39a2608806f8477fd35",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "Java后端开发归业务服务开发合理。"
+    },
+    {
+      "occupation_id": "TG-09e05d5260b0e7da0dec",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "会计助理归总账与财务会计合理。"
+    },
+    {
+      "occupation_id": "TG-17607db885870cadf6b4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "云原生开发工程师归服务端基础设施开发合理。"
+    },
+    {
+      "occupation_id": "TG-f6ce3fb3889226fe9d6d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "飞行器设计归整车与装备集成合理。"
+    },
+    {
+      "occupation_id": "TG-7ed094ed73bdd155bc52",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "资金管理岗归资金管理与融资财务合理。"
+    },
+    {
+      "occupation_id": "TG-3887c8b60de9f173e3e2",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L25-04",
+      "issue": "电力交易员属于能源运行与调度中的电力交易，不应归金融交易L20-02-02。"
+    },
+    {
+      "occupation_id": "TG-9666e14a834849bcd025",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L25-04",
+      "issue": "电力交易员岗属于能源运行与调度中的电力交易，不应归金融交易L20-02-02。"
+    },
+    {
+      "occupation_id": "TG-ac8828b5b486727d2371",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "桥梁设计归市政与交通工程合理。"
+    },
+    {
+      "occupation_id": "TG-d56a6a94359f79136a21",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "桥梁设计归市政与交通工程合理。"
+    },
+    {
+      "occupation_id": "TG-d264b078ab42ab75584b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅“检验员”方向不明，review合理。"
+    },
+    {
+      "occupation_id": "TG-e73d84773a078bbb5590",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "审计未明确内外部，停在L19-05合理。"
+    }
+  ],
+  "raw_response_file": "000538.raw.json",
+  "usage": {
+    "input_tokens": 19600,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3088,
+    "output_tokens": 944,
+    "reasoning_tokens": 0,
+    "total_tokens": 20544
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002158272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

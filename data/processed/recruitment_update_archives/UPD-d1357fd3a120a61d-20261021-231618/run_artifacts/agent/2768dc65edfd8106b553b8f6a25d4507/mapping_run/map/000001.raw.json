@@ -1,0 +1,28 @@
+{
+  "id": "3bc2a55c-78a3-473a-883d-fbc71e6acd7a",
+  "object": "chat.completion",
+  "created": 1792571649,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-2768dc65edfd8106b553b8f6a25d4507\",\"status\":\"mapped\",\"target_category_id\":\"L14-04-01\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L14-04-01\",\"L14-04-02\",\"L14-04\"],\"title_evidence\":\"标题为“电商实习生”，电商方向明确，属电商运营范畴\",\"level_3_evidence\":\"电商店铺运营：店铺交易及渠道运营\",\"reason\":\"电商实习生为电商运营方向的实习岗位，最直接对应电商与商品运营下的电商店铺运营；实习为阶段标签不影响职能归类。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16979,
+    "completion_tokens": 147,
+    "total_tokens": 17126,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 339
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

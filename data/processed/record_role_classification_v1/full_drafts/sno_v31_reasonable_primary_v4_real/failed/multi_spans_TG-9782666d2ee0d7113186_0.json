@@ -1,0 +1,41 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-9782666d2ee0d7113186",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "电气/机械/模具设计工程师",
+  "child_title": "电气设计工程师",
+  "source_span": {
+    "text": "电气",
+    "start": 0,
+    "end": 2
+  },
+  "raw_decision": {
+    "original_record_id": "TG-9782666d2ee0d7113186",
+    "case": "A",
+    "child_titles": [
+      "电气设计工程师",
+      "机械设计工程师",
+      "模具设计工程师"
+    ],
+    "source_spans": [
+      {
+        "text": "电气",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "机械",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "text": "模具设计工程师",
+        "start": 6,
+        "end": 13
+      }
+    ],
+    "reason": "标题由斜杠分隔的三个独立岗位组成，可拆分为电气设计工程师、机械设计工程师、模具设计工程师。"
+  }
+}

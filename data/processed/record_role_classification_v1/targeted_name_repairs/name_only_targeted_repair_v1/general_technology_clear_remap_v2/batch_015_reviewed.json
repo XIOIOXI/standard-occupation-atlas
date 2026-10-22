@@ -1,0 +1,147 @@
+{
+  "batch_number": 15,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 26603,
+    "cached_input_tokens": 25088,
+    "uncached_input_tokens": 1515,
+    "output_tokens": 1005,
+    "reasoning_tokens": 0,
+    "total_tokens": 27608
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0009055140000000001
+  },
+  "results": [
+    {
+      "entry_id": "SNO-d6e0910d2f58b3e45645",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程技术部技术”为部门加泛称，无法确认具体职业领域或二级方向。"
+    },
+    {
+      "entry_id": "SNO-d77a6c031b730aede985",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“资源开发”过于宽泛，无法确认是软件、能源还是其他领域。"
+    },
+    {
+      "entry_id": "SNO-d7cd8a9dddf9b75305c5",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发技术工程师”为泛称，无法确认具体职业领域或二级方向。"
+    },
+    {
+      "entry_id": "SNO-d83b878b519f155d235b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术服务岗(一)”为宽泛岗位称谓，无法确认具体职业领域。"
+    },
+    {
+      "entry_id": "SNO-d890b4198ea74c4163b3",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“总体设计师”未说明设计对象或领域，无法确认具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-d94d9e685b47825d8e9b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程助理”为宽泛称谓，无法确认具体职业领域或二级方向。"
+    },
+    {
+      "entry_id": "SNO-da462cc76f2b3d84c8f7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“仿真设计”未说明仿真对象或行业，无法确认具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-da9bbc82b31e26818a28",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“量子理论/量子纠错科学家”为专业科研方向，目录中无对应职业分类。"
+    },
+    {
+      "entry_id": "SNO-da9c1420e527cf5df0b6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“产品开发工程师”为泛称，无法确认是硬件、软件还是其他产品领域。"
+    },
+    {
+      "entry_id": "SNO-da9e88f98c0a2c6ab604",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发岗(一)”为宽泛岗位称谓，无法确认具体职业领域。"
+    },
+    {
+      "entry_id": "SNO-db5e9609b969014fb631",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“教字中路检证工程师”名称疑似截断或异常，无法确认具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-dc97f6a1fa851e71f768",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“姿轨控设计师”为航天专业方向，目录中无对应职业分类。"
+    },
+    {
+      "entry_id": "SNO-dd21d0b5798b8d8842f7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“专项科研工程师”为宽泛科研称谓，无法确认具体职业领域。"
+    },
+    {
+      "entry_id": "SNO-de2b6eab7752699b125d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“原子物理科学家”为专业科研方向，目录中无对应职业分类。"
+    },
+    {
+      "entry_id": "SNO-decb15e84c6e6d8d2d7d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“城市/客户研究”为复合岗位名称，无法确认唯一合理职业方向。"
+    },
+    {
+      "entry_id": "SNO-df16c289488eb76d85b8",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“科研部门科研/技术”为宽泛科研技术称谓，无法确认具体职业领域。"
+    },
+    {
+      "entry_id": "SNO-df72156d3f6441d0dd85",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“开发助理”为宽泛称谓，无法确认具体开发领域。"
+    },
+    {
+      "entry_id": "SNO-dfcea39f66b048c43aab",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“仿真开发工程师”未说明仿真对象或行业，无法确认具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-e0459d257f739d9a3791",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“戏曲研究所专业技术”为机构加泛称，无法确认具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-e123fe22b88fd11df8a5",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“厂区技术”为宽泛称谓，无法确认具体职业领域或二级方向。"
+    }
+  ]
+}

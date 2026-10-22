@@ -1,0 +1,28 @@
+{
+  "id": "ef322064-7063-4b3d-8e90-b16f0162b419",
+  "object": "chat.completion",
+  "created": 1792571380,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-fa95f4f42c6bfc48db163fe5ab79c380\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L22-02\", \"issue\": \"高中教师属学科与通识教学，未说明具体学科停在L22-02合理；非高校教学不归L22-05。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16997,
+    "completion_tokens": 96,
+    "total_tokens": 17093,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 485
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

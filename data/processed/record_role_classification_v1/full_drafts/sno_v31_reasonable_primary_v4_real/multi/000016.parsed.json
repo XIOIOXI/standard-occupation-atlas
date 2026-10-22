@@ -1,0 +1,455 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-fdb3692ead52eeb12c00",
+      "case": "A",
+      "child_titles": [
+        "数字化科技类",
+        "职能类",
+        "营销管理类",
+        "金融产品筛选类",
+        "法务/风控/合规类",
+        "产品存续类"
+      ],
+      "source_spans": [
+        {
+          "text": "数字化科技类",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "职能类",
+          "start": 6,
+          "end": 9
+        },
+        {
+          "text": "营销管理类",
+          "start": 9,
+          "end": 14
+        },
+        {
+          "text": "金融产品筛选类",
+          "start": 14,
+          "end": 21
+        },
+        {
+          "text": "法务/风控/合规类",
+          "start": 21,
+          "end": 30
+        },
+        {
+          "text": "产品存续类",
+          "start": 30,
+          "end": 35
+        }
+      ],
+      "reason": "标题由多个独立岗位类别直接拼接，无分隔符，可拆分为多个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-67c3da8344d6095694ca",
+      "case": "A",
+      "child_titles": [
+        "实习量化研究员",
+        "新媒体&渠道运营"
+      ],
+      "source_spans": [
+        {
+          "text": "实习量化研究员",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "text": "新媒体&渠道运营",
+          "start": 7,
+          "end": 15
+        }
+      ],
+      "reason": "标题由两个独立岗位直接拼接，无分隔符，可拆分为两个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-42ba5ea926763102d100",
+      "case": "A",
+      "child_titles": [
+        "产品开发",
+        "自动化储备",
+        "品质工程(QE)",
+        "原材料检验",
+        "经管",
+        "IE管理及技术储备",
+        "P(英语/语言)",
+        "项目助理(英语/阿拉伯语）"
+      ],
+      "source_spans": [
+        {
+          "text": "产品开发",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "自动化储备",
+          "start": 4,
+          "end": 9
+        },
+        {
+          "text": "品质工程(QE)",
+          "start": 9,
+          "end": 17
+        },
+        {
+          "text": "原材料检验",
+          "start": 17,
+          "end": 22
+        },
+        {
+          "text": "经管",
+          "start": 22,
+          "end": 24
+        },
+        {
+          "text": "IE管理及技术储备",
+          "start": 24,
+          "end": 33
+        },
+        {
+          "text": "P(英语/语言)",
+          "start": 33,
+          "end": 41
+        },
+        {
+          "text": "项目助理(英语/阿拉伯语）",
+          "start": 41,
+          "end": 55
+        }
+      ],
+      "reason": "标题由多个独立岗位直接拼接，无分隔符，可拆分为多个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-86d33a80e1a9daff78f2",
+      "case": "A",
+      "child_titles": [
+        "现场作业方向",
+        "技术服务及项目管理方向",
+        "市场营销方向",
+        "经营分析方向",
+        "人力资源方向",
+        "财务管理方向",
+        "法务方向",
+        "IT技术方向",
+        "外部资源及供应链管理方向"
+      ],
+      "source_spans": [
+        {
+          "text": "现场作业方向",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "技术服务及项目管理方向",
+          "start": 7,
+          "end": 18
+        },
+        {
+          "text": "市场营销方向",
+          "start": 19,
+          "end": 25
+        },
+        {
+          "text": "经营分析方向",
+          "start": 26,
+          "end": 32
+        },
+        {
+          "text": "人力资源方向",
+          "start": 33,
+          "end": 39
+        },
+        {
+          "text": "财务管理方向",
+          "start": 40,
+          "end": 46
+        },
+        {
+          "text": "法务方向",
+          "start": 47,
+          "end": 51
+        },
+        {
+          "text": "IT技术方向",
+          "start": 52,
+          "end": 58
+        },
+        {
+          "text": "外部资源及供应链管理方向",
+          "start": 59,
+          "end": 71
+        }
+      ],
+      "reason": "标题由多个独立岗位方向以空格分隔，可拆分为多个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-597159ca4db71e499794",
+      "case": "A",
+      "child_titles": [
+        "生产技术类(电气类、能动类、机械类",
+        "职能管理类(会计、财务管理、市场营销、法学)"
+      ],
+      "source_spans": [
+        {
+          "text": "生产技术类(电气类、能动类、机械类",
+          "start": 0,
+          "end": 17
+        },
+        {
+          "text": "职能管理类(会计、财务管理、市场营销、法学)",
+          "start": 17,
+          "end": 40
+        }
+      ],
+      "reason": "标题由两个独立岗位类别直接拼接，无分隔符，可拆分为两个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-77ff38e6e3c9ca91c8b3",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为专业要求，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-ecc8919b1772e760eadd",
+      "case": "A",
+      "child_titles": [
+        "财富星耀生",
+        "固收星耀生",
+        "星途星耀生",
+        "RWA业务星耀生",
+        "战略投资星耀生",
+        "科技研发星耀生",
+        "星链星耀生",
+        "研究星耀生",
+        "合规星耀生",
+        "产品运营星耀生",
+        "人力星耀生"
+      ],
+      "source_spans": [
+        {
+          "text": "财富星耀生",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "固收星耀生",
+          "start": 6,
+          "end": 11
+        },
+        {
+          "text": "星途星耀生",
+          "start": 12,
+          "end": 17
+        },
+        {
+          "text": "RWA业务星耀生",
+          "start": 17,
+          "end": 24
+        },
+        {
+          "text": "战略投资星耀生",
+          "start": 24,
+          "end": 31
+        },
+        {
+          "text": "科技研发星耀生",
+          "start": 31,
+          "end": 38
+        },
+        {
+          "text": "星链星耀生",
+          "start": 38,
+          "end": 43
+        },
+        {
+          "text": "研究星耀生",
+          "start": 43,
+          "end": 48
+        },
+        {
+          "text": "合规星耀生",
+          "start": 49,
+          "end": 54
+        },
+        {
+          "text": "产品运营星耀生",
+          "start": 54,
+          "end": 61
+        },
+        {
+          "text": "人力星耀生",
+          "start": 62,
+          "end": 67
+        }
+      ],
+      "reason": "标题由多个独立岗位以空格分隔，可拆分为多个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-f3509ea913e82c06de10",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为技术方向，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-ebf29396a4533fc1f42a",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为方向示例，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-129e2332ee45e9210fa3",
+      "case": "A",
+      "child_titles": [
+        "理科文字编辑岗",
+        "会计"
+      ],
+      "source_spans": [
+        {
+          "text": "理科文字编辑岗",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "text": "会计",
+          "start": 9,
+          "end": 11
+        }
+      ],
+      "reason": "标题由两个独立岗位以反斜杠分隔，可拆分为两个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-7be1adcc7b2d3b241413",
+      "case": "A",
+      "child_titles": [
+        "商品运营",
+        "后端产品开发工程师",
+        "门店运营"
+      ],
+      "source_spans": [
+        {
+          "text": "商品运营",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "后端产品开发工程师",
+          "start": 5,
+          "end": 14
+        },
+        {
+          "text": "门店运营",
+          "start": 15,
+          "end": 19
+        }
+      ],
+      "reason": "标题由多个独立岗位以空格分隔，可拆分为多个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-586e993854465c9888d2",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为专业要求，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-a72f1524060ae4aa12c0",
+      "case": "A",
+      "child_titles": [
+        "新媒体运营",
+        "人事行政管培生"
+      ],
+      "source_spans": [
+        {
+          "text": "新媒体运营",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "人事行政管培生",
+          "start": 5,
+          "end": 12
+        }
+      ],
+      "reason": "标题由两个独立岗位直接拼接，无分隔符，可拆分为两个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-a4580fb1837a043f6fad",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位类别，括号内为细分方向，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-a9c6c7989e3fc32d4389",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠分隔为技术方向，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-ea9d1c203ca7498f7b9b",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无分隔符，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-dd350a0a64a22aeded07",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无分隔符，不可拆分。"
+    },
+    {
+      "original_record_id": "TG-f6dcd222a730ba895932",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠分隔为方向，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-55ea7d300a85a1be7c8d",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠分隔为方向，非独立岗位。"
+    },
+    {
+      "original_record_id": "TG-b34cd6de0e76dd72de81",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无分隔符，不可拆分。"
+    }
+  ],
+  "raw_response_file": "000016.raw.json",
+  "usage": {
+    "input_tokens": 959,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 959,
+    "output_tokens": 3005,
+    "reasoning_tokens": 0,
+    "total_tokens": 3964
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0038937
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

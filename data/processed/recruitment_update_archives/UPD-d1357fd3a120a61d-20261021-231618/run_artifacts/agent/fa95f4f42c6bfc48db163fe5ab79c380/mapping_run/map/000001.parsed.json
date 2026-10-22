@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-fa95f4f42c6bfc48db163fe5ab79c380",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L22-02",
+        "L22-05"
+      ],
+      "title_evidence": "标题为高中教师，属于学科与通识教学范畴；公司为教育培训机构，非高校教学",
+      "level_3_evidence": null,
+      "reason": "高中教师明确为学科教学岗位，未说明具体学科，按规则停在 L22-02 学科与通识教学，不选三级；非高等教育，故不归 L22-05。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16924,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 284,
+    "output_tokens": 148,
+    "reasoning_tokens": 0,
+    "total_tokens": 17072
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036264
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

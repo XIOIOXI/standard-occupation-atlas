@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-218ff8bf3587e200b3cdaf96a84f7264",
+      "status": "mapped",
+      "target_category_id": "L06-07-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-07-01",
+        "L02-01-04",
+        "L07-03"
+      ],
+      "title_evidence": "生信分析师：生物信息分析，属生物技术研发中的数据分析应用",
+      "level_3_evidence": "生物技术研发：生物工程及生物技术应用",
+      "reason": "生信分析师核心为生物信息学分析，服务于育种与蛋白研发，归生物技术研发下的生物技术研发三级；非纯业务数据分析，也非实验操作支持。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16936,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 296,
+    "output_tokens": 156,
+    "reasoning_tokens": 0,
+    "total_tokens": 17092
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037583999999999995
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "22b71c42-ba80-4d5e-847f-83b3d55c944d",
+  "object": "chat.completion",
+  "created": 1791813271,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-1c26b6ef6800ba96d8fa\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列机器人焊接应用支持与海外销售两个独立职责，前者属技术支持、后者属销售，无法由单一类别承接。\"},{\"occupation_id\":\"SNO-79df5ea630a2a703f67e\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"IT系统开发仅表明系统开发，未注明语言或具体方向，可确认属互联网/AI开发类，但无法确认是业务服务端开发，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-548082b4cec03b89ee5d\",\"decision\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"航空认证审核员职业明确，但目录中无航空认证或审核认证类别可承接。\"},{\"occupation_id\":\"SNO-daa170f38b58c5303397\",\"decision\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"量子计算系统结构设计职业明确，但目录中无量子计算相关类别可承接。\"},{\"occupation_id\":\"SNO-0b8dd30ff5e9a0a43528\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列能源动力、电气、安全、环境、消防等多个独立工程师方向，属多职业。\"},{\"occupation_id\":\"SNO-601ff6332c293473bc24\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-system\",\"reason\":\"AI工具链编译器开发未注明语言，不能确认C++，但可确认属系统与底层开发方向，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-68a362860749fc9f11b9\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"游戏玩法开发工程师未注明技术栈，不能确认是后端业务服务端开发，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-3ee9f74eb1a77ccfe7fc\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"业务员与会计学为两个独立职业方向，不能由同一目录承接。\"},{\"occupation_id\":\"SNO-367fb1f98c92d1b424c8\",\"decision\":\"fallback_review\",\"target_category_id\":null,\"reason\":\"文娱活动师未限定服务对象为儿童，不能确认属儿童活动与课程引导，三级依据不足。\"},{\"occupation_id\":\"SNO-05eb4886f8d2deaa4610\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"遥感大数据及人工智能方向未注明具体算法方向，不能确认属通用算法研究，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-c170408737611968729d\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-python/python-backend\",\"reason\":\"python开发工程师明确Python语言，核心为后端与应用开发，当前归属合理。\"},{\"occupation_id\":\"SNO-7f71cee970416473f09c\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列AI、C语言、Java等多个独立技术方向，属多职业。\"},{\"occupation_id\":\"SNO-d83e00534b89f36d6dbb\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列电源/中高压电气、机电一体化结构、整机工艺、先进工艺等多个独立方向，属多职业。\"},{\"occupation_id\":\"SNO-9b574aef2d7d0d5db34c\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-embedded\",\"reason\":\"Linux高级嵌入式软件工程师未注明C++，不能确认属C++嵌入式，但可确认属嵌入式与实时开发方向，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-57c573f6de39d7985c09\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人全栈工程师涉及多技术栈，但核心可确认属机器人与具身智能方向，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-6220253d68fdb3972993\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-system\",\"reason\":\"编译软件工程师未注明C++，不能确认属C++系统开发，但可确认属系统与底层开发方向，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-74ed8208303580eb64bc\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"等离子体模拟仿真研究员未注明具体算法方向，不能确认属通用算法研究，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-76a990e304936e7cf911\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-vision\",\"reason\":\"视觉智能研究员核心为计算机视觉方向，当前归属合理。\"},{\"occupation_id\":\"SNO-644951fc7ca61690e64c\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-python/python-automation\",\"reason\":\"脚本开发未注明Python语言，不能确认属Python自动化，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-d72ce971c8cfead7370d\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列前端、后端、数据、全栈、Web及大模型算法等多个独立职业方向，属多职业。\"},{\"occupation_id\":\"SNO-f1bf0af01a12429b8677\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-python/python-automation\",\"reason\":\"工具研发未注明Python语言，不能确认属Python自动化与工具开发，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-de6642b5618e4da0e587\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-embedded\",\"reason\":\"AS嵌入式软件工程师未注明C++，不能确认属C++嵌入式，但可确认属嵌入式与实时开发方向，宜回退至最深可确认上级。\"},{\"occupation_id\":\"SNO-0d2790dddc90b2b67415\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列机电工程师、信息技术、新媒体电商等多个独立职业方向，属多职业。\"},{\"occupation_id\":\"SNO-953dd8dc66ed4b5e316d\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时包含管培生与酒店系统开发管培生，职责不单一，属多职业。\"},{\"occupation_id\":\"SNO-21b6773c8f2d7a95af26\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列文案策划、AE助理、签约经纪人、商务、插画师、IP动画师、视频编导等多个独立职业，属多职业。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30753,
+    "completion_tokens": 1649,
+    "total_tokens": 32402,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 3361
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

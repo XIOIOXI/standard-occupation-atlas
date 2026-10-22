@@ -1,0 +1,28 @@
+{
+  "id": "286241a3-d580-4d18-9ad4-0bc31f0cacac",
+  "object": "chat.completion",
+  "created": 1792571692,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-aa7fade3c1377a87f342c3bbe74522fd\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L06-08\", \"issue\": \"工艺技术员属制造工艺技术职能，归入L06-08工艺与制造工程合理；无三级细分证据，停在二级恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17041,
+    "completion_tokens": 95,
+    "total_tokens": 17136,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 529
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

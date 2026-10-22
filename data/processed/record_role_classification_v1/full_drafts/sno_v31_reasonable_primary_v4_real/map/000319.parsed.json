@@ -1,0 +1,229 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-3cd75f238b2139408e87",
+      "status": "mapped",
+      "target_category_id": "L12-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "商业营销经理",
+      "level_3_evidence": null,
+      "reason": "标题明确为营销经理，属于市场策略与营销策划，无更具体三级证据，归 L12-01。"
+    },
+    {
+      "occupation_id": "TG-579389b5e57e2778c9fb",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "虚化算法实习生",
+      "level_3_evidence": "虚化算法通常指图像虚化/背景虚化，属于计算机视觉",
+      "reason": "虚化算法是图像处理中的视觉算法，归计算机视觉。"
+    },
+    {
+      "occupation_id": "TG-a08a698cb8408436abff",
+      "status": "mapped",
+      "target_category_id": "L24-03-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "市政工程师",
+      "level_3_evidence": "市政工程师直接对应市政与交通工程",
+      "reason": "市政工程师属于市政与交通工程。"
+    },
+    {
+      "occupation_id": "TG-a3d476da8cf9963c6906",
+      "status": "mapped",
+      "target_category_id": "L06-07-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "免疫分析研究员",
+      "level_3_evidence": "免疫分析属于生物技术研发中的生物工程应用",
+      "reason": "免疫分析研究员从事生物技术研发，归生物技术研发。"
+    },
+    {
+      "occupation_id": "TG-702c5e1e1e687217c631",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "制冷系统工程师",
+      "level_3_evidence": null,
+      "reason": "制冷系统属于热流体与动力工程，无更具体三级。"
+    },
+    {
+      "occupation_id": "TG-df455ffaf3e14af67e9d",
+      "status": "mapped",
+      "target_category_id": "L05-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "测控设计师",
+      "level_3_evidence": null,
+      "reason": "测控设计师属于自动化与控制工程。"
+    },
+    {
+      "occupation_id": "TG-7d42b9640051a520d3ab",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L02-05-02",
+        "L02-05-01"
+      ],
+      "title_evidence": "机器学习/数据检理自然语言处理工程计算机视觉算法研发工程师",
+      "level_3_evidence": null,
+      "reason": "标题同时包含自然语言处理和计算机视觉两个三级方向，属于多角色。"
+    },
+    {
+      "occupation_id": "TG-ab4cc936f2b19b6f5d86",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "外贸销售工程师",
+      "level_3_evidence": null,
+      "reason": "外贸销售工程师核心为销售，客户类型未明确，归企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-c96e9d346e8d8e7bcb0b",
+      "status": "mapped",
+      "target_category_id": "L02-07-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "算法部署优化工程师",
+      "level_3_evidence": "算法部署优化直接对应模型推理与服务",
+      "reason": "算法部署优化属于模型推理与服务。"
+    },
+    {
+      "occupation_id": "TG-9d5dd0391c0202462230",
+      "status": "mapped",
+      "target_category_id": "L24-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "隧道与地下空间技术研发工程师",
+      "level_3_evidence": null,
+      "reason": "隧道与地下空间技术研发属于土木结构与岩土工程。"
+    },
+    {
+      "occupation_id": "TG-9b58150465d5bc06e965",
+      "status": "mapped",
+      "target_category_id": "L19-05-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "审计业务助理",
+      "level_3_evidence": "审计业务助理通常指外部审计业务支持",
+      "reason": "审计业务助理属于外部审计。"
+    },
+    {
+      "occupation_id": "TG-4959c60ee76b51210584",
+      "status": "mapped",
+      "target_category_id": "L02-05-06",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "具身强化学习算法工程师",
+      "level_3_evidence": "强化学习属于运筹优化与决策算法",
+      "reason": "具身强化学习算法工程师从事决策优化算法，归运筹优化与决策算法。"
+    },
+    {
+      "occupation_id": "TG-b323ef239ca85b4854ce",
+      "status": "mapped",
+      "target_category_id": "L17-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "物流管理专员",
+      "level_3_evidence": null,
+      "reason": "物流管理专员属于物流调度与运输管理。"
+    },
+    {
+      "occupation_id": "TG-77676eb2631bdc2d9067",
+      "status": "mapped",
+      "target_category_id": "L02-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "AI应用研发岗",
+      "level_3_evidence": null,
+      "reason": "AI应用研发岗属于大模型与智能应用工程，无更具体三级证据。"
+    },
+    {
+      "occupation_id": "TG-b60d75b64fa626b5b495",
+      "status": "mapped",
+      "target_category_id": "L14-09-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "应用技术顾问",
+      "level_3_evidence": "应用技术顾问通常负责客户需求分析与方案设计",
+      "reason": "应用技术顾问属于售前解决方案设计。"
+    },
+    {
+      "occupation_id": "TG-ed27bfb6d8498f851ae0",
+      "status": "mapped",
+      "target_category_id": "L06-04-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "超前研发工程师 - RO 膜片方向",
+      "level_3_evidence": "RO膜片属于高分子膜材料研发",
+      "reason": "RO膜片方向属于高分子与复合材料研发。"
+    },
+    {
+      "occupation_id": "TG-00a18422e91e47d77e44",
+      "status": "mapped",
+      "target_category_id": "L09-06-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "2D 角色原画设计师 (宠物设计)",
+      "level_3_evidence": "2D角色原画设计师直接对应插画与原画",
+      "reason": "2D角色原画设计师属于插画与原画。"
+    },
+    {
+      "occupation_id": "TG-bd08b9f8335ee6cc79c1",
+      "status": "mapped",
+      "target_category_id": "L15-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "舞蹈演员岗",
+      "level_3_evidence": null,
+      "reason": "舞蹈演员属于表演配音与模特。"
+    },
+    {
+      "occupation_id": "TG-84196f29d154533b0be6",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "业务经理（国内/......",
+      "level_3_evidence": null,
+      "reason": "业务经理客户类型与方向未明确，归通用销售。"
+    },
+    {
+      "occupation_id": "TG-69f020bf34e45416d6ee",
+      "status": "mapped",
+      "target_category_id": "L06-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "助理机械结构工程师",
+      "level_3_evidence": "机械结构工程师直接对应产品结构设计",
+      "reason": "助理机械结构工程师属于产品结构设计。"
+    }
+  ],
+  "raw_response_file": "000319.raw.json",
+  "usage": {
+    "input_tokens": 17361,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 849,
+    "output_tokens": 2236,
+    "reasoning_tokens": 0,
+    "total_tokens": 19597
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0030369719999999998
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

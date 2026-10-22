@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-1db2905abf0193c7c958fe3e825ddf6b",
+      "status": "mapped",
+      "target_category_id": "L19-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L19-05-01",
+        "L19-05-02",
+        "L19-05"
+      ],
+      "title_evidence": "标题明确为“审计管培生”，审计职能已明确，管培生为培养标签不改变职能归属",
+      "level_3_evidence": "内部审计",
+      "reason": "审计职能明确，企业内审岗位归内部审计；管培生标签不构成跨职能轮岗证据，故不归L32"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16981,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 341,
+    "output_tokens": 152,
+    "reasoning_tokens": 0,
+    "total_tokens": 17133
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038453999999999995
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

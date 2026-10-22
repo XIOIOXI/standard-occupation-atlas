@@ -1,0 +1,28 @@
+{
+  "id": "844abc2b-0049-4c6b-bac5-1ed216ffc9f9",
+  "object": "chat.completion",
+  "created": 1792571948,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-569039bf80de6bd466473c5730a09c31\",\"status\":\"mapped\",\"target_category_id\":\"L06-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L06-08\",\"L06-08-01\"],\"title_evidence\":\"工艺工程师，半导体制造企业（德州仪器）\",\"level_3_evidence\":null,\"reason\":\"工艺工程师属于制造工艺/制程工程职能，半导体行业工艺岗对应制造制程工程；标题未明确具体为制程参数开发，故停在二级 L06-08。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16953,
+    "completion_tokens": 133,
+    "total_tokens": 17086,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 313
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

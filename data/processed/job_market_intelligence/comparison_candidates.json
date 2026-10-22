@@ -1,0 +1,4601 @@
+{
+  "eligibility_rule": {
+    "minimum_contexts": 2,
+    "minimum_completed_groups_per_context": 1,
+    "minimum_recruitment_evidence_per_context": 1,
+    "minimum_skills_per_context": 3,
+    "requires_shared_and_distinctive_skills": true
+  },
+  "eligible_count": 74,
+  "candidates": [
+    {
+      "occupation_key": "candidate:芯片与器件设计高级工程师",
+      "occupation_label": "芯片与器件设计高级工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 12,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        }
+      ],
+      "shared_skills": [
+        "热设计",
+        "算法工程",
+        "结构与材料工程",
+        "芯片与器件设计",
+        "跨学科协作"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "热设计",
+          "算法工程",
+          "结构与材料工程",
+          "芯片与器件设计",
+          "跨学科协作",
+          "问题解决能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "复杂问题解决",
+          "技术研究能力",
+          "热设计",
+          "硬件技术",
+          "算法工程",
+          "结构与材料工程",
+          "芯片与器件设计",
+          "跨学科协作"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:模拟电路设计工程师",
+      "occupation_label": "模拟电路设计工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        }
+      ],
+      "shared_skills": [
+        "数字电路设计",
+        "模拟电路设计",
+        "芯片测试与验证",
+        "问题解决能力"
+      ],
+      "context_specific_skills": {
+        "l1:电子信息与通信产业": [
+          "数字电路设计",
+          "模拟电路设计",
+          "版图设计",
+          "芯片测试与验证",
+          "跨团队沟通协调",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "团队协作",
+          "数字电路设计",
+          "模拟电路设计",
+          "模数混合电路设计",
+          "电路验证",
+          "芯片测试与验证",
+          "问题解决能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:硬件技术工程师",
+      "occupation_label": "硬件技术工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 9
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 20,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        }
+      ],
+      "shared_skills": [
+        "热设计",
+        "硬件设计",
+        "芯片与器件设计",
+        "问题解决能力"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "学习能力",
+          "技术研究与创新能力",
+          "热设计",
+          "硬件设计",
+          "算法基础",
+          "结构与材料工程",
+          "芯片与器件设计",
+          "跨团队沟通能力",
+          "问题解决能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "技术研究与创新",
+          "热设计",
+          "电子信息技术",
+          "硬件设计",
+          "芯片与器件设计",
+          "跨团队沟通",
+          "问题解决能力",
+          "项目协作"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:高中地理教师",
+      "occupation_label": "高中地理教师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:教育与人力资本",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Classroom Management",
+        "Communication Skills",
+        "Geography Subject Knowledge",
+        "Student Assessment and Evaluation"
+      ],
+      "context_specific_skills": {
+        "l1:教育与人力资本": [
+          "Classroom Management",
+          "Communication Skills",
+          "Curriculum Planning and Lesson Design",
+          "Geography Subject Knowledge",
+          "Student Assessment and Evaluation"
+        ],
+        "raw:事业单位": [
+          "Classroom Management",
+          "Communication Skills",
+          "Geography Subject Knowledge",
+          "Lesson Planning and Curriculum Design",
+          "Student Assessment and Evaluation"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:ai infra工程师",
+      "occupation_label": "AI Infra工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 20,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 16,
+          "completed_inference_group_count": 1,
+          "skill_count": 9
+        }
+      ],
+      "shared_skills": [
+        "AI Infrastructure Engineering",
+        "Algorithm Engineering",
+        "Software Development"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "AI Infrastructure Engineering",
+          "AI Security and Privacy",
+          "Algorithm Engineering",
+          "Cross-disciplinary Collaboration",
+          "Research and Innovation Orientation",
+          "Software Development"
+        ],
+        "l1:电子信息与通信产业": [
+          "AI Infrastructure Engineering",
+          "Adaptation to Emerging Technologies",
+          "Algorithm Engineering",
+          "Cross-Disciplinary Collaboration",
+          "Data Science",
+          "Network Security and Privacy Protection",
+          "Problem Solving in Complex Systems",
+          "Research and Innovation",
+          "Software Development"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:ai infra研究员",
+      "occupation_label": "AI Infra研究员",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 10,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 10,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        }
+      ],
+      "shared_skills": [
+        "AI Infrastructure Engineering",
+        "AI Security and Privacy",
+        "Software Development"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "AI Infrastructure Engineering",
+          "AI Security and Privacy",
+          "Algorithm Design and Research",
+          "Collaboration in Cross-Disciplinary Teams",
+          "Software Development",
+          "Technical Research and Innovation"
+        ],
+        "l1:电子信息与通信产业": [
+          "AI Infrastructure Engineering",
+          "AI Security and Privacy",
+          "Algorithm Development",
+          "Cross-disciplinary Collaboration",
+          "Hardware and Chip Design",
+          "Problem Solving",
+          "Research and Innovation",
+          "Software Development"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:ai应用工程师",
+      "occupation_label": "AI应用工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 31,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 25,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "AI模型开发",
+        "网络安全与隐私保护",
+        "软件开发"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "AI模型开发",
+          "人因与用户体验设计",
+          "算法开发与优化",
+          "网络安全与隐私保护",
+          "跨团队协作能力",
+          "软件开发"
+        ],
+        "l1:电子信息与通信产业": [
+          "AI模型开发",
+          "算法设计与优化",
+          "网络安全与隐私保护",
+          "跨部门沟通与协作",
+          "软件开发",
+          "问题解决能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:初中英语教师",
+      "occupation_label": "初中英语教师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:教育与人力资本",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Classroom management",
+        "Communication skills",
+        "English language proficiency"
+      ],
+      "context_specific_skills": {
+        "l1:教育与人力资本": [
+          "Adaptability",
+          "Classroom management",
+          "Communication skills",
+          "English language proficiency",
+          "Lesson planning and curriculum development"
+        ],
+        "raw:事业单位": [
+          "Classroom management",
+          "Communication skills",
+          "Curriculum design for junior high school English",
+          "English language proficiency",
+          "Student engagement"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:商务专员",
+      "occupation_label": "商务专员",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "商务谈判",
+        "客户关系管理",
+        "市场分析"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "商务沟通",
+          "商务谈判",
+          "客户关系管理",
+          "市场分析",
+          "项目协调"
+        ],
+        "raw:科技": [
+          "合同管理",
+          "商务谈判",
+          "客户关系管理",
+          "市场分析",
+          "项目协调与管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:工程设计",
+      "occupation_label": "工程设计",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:建筑与房地产",
+          "recruitment_evidence_count": 10,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "raw:能源化工环保",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        }
+      ],
+      "shared_skills": [
+        "工程设计",
+        "问题解决能力",
+        "项目管理"
+      ],
+      "context_specific_skills": {
+        "l1:建筑与房地产": [
+          "专业知识整合能力",
+          "企管法规",
+          "安全环保",
+          "工程设计",
+          "施工技术管理",
+          "沟通协调能力",
+          "问题解决能力",
+          "项目管理"
+        ],
+        "raw:能源化工环保": [
+          "人工智能",
+          "工程设计",
+          "数智化与信息工程",
+          "新能源开发与利用",
+          "跨领域协作能力",
+          "问题解决能力",
+          "项目协调与管理",
+          "项目管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:市场营销岗",
+      "occupation_label": "市场营销岗",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 25,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "客户关系管理",
+        "市场分析",
+        "沟通能力"
+      ],
+      "context_specific_skills": {
+        "l1:金融与金融科技": [
+          "客户关系管理",
+          "市场分析",
+          "沟通能力",
+          "金融产品知识",
+          "销售技巧"
+        ],
+        "raw:国企": [
+          "客户关系管理",
+          "市场分析",
+          "沟通能力",
+          "营销策略制定",
+          "项目管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:投资管理岗",
+      "occupation_label": "投资管理岗",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Attention to Detail",
+        "Financial Analysis",
+        "Investment Management"
+      ],
+      "context_specific_skills": {
+        "l1:金融与金融科技": [
+          "Analytical Thinking",
+          "Attention to Detail",
+          "Communication and Coordination",
+          "Equity Financing and M&A",
+          "Financial Analysis",
+          "Fixed Income Securities",
+          "Investment Management",
+          "Risk Management"
+        ],
+        "raw:国企": [
+          "Attention to Detail",
+          "Economic Knowledge",
+          "Financial Analysis",
+          "Investment Management",
+          "Project Coordination"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:数字电路设计工程师",
+      "occupation_label": "数字电路设计工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "数字电路设计",
+        "数字电路验证",
+        "模拟电路设计"
+      ],
+      "context_specific_skills": {
+        "l1:电子信息与通信产业": [
+          "数字电路设计",
+          "数字电路验证",
+          "模拟电路设计",
+          "芯片测试",
+          "跨部门沟通与协作"
+        ],
+        "raw:科技": [
+          "多任务协作",
+          "嵌入式软件开发",
+          "数字电路设计",
+          "数字电路验证",
+          "模拟电路设计",
+          "解决问题能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:数据科学工程师",
+      "occupation_label": "数据科学工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 8,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        }
+      ],
+      "shared_skills": [
+        "数据分析",
+        "软件开发",
+        "问题解决能力"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "人工智能应用",
+          "团队协作",
+          "技术学习能力",
+          "数据分析",
+          "机器学习",
+          "软件开发",
+          "问题解决能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "持续学习能力",
+          "数据分析",
+          "机器学习与AI模型开发",
+          "算法设计与优化",
+          "网络安全与隐私保护",
+          "跨团队沟通能力",
+          "软件开发",
+          "问题解决能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:网络安全与隐私保护研究员",
+      "occupation_label": "网络安全与隐私保护研究员",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "网络安全",
+        "软件开发",
+        "隐私保护"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "人工智能安全技术",
+          "持续学习与技术更新",
+          "算法研究与开发",
+          "网络安全",
+          "跨团队沟通与协作",
+          "软件开发",
+          "问题分析与解决能力",
+          "隐私保护"
+        ],
+        "l1:电子信息与通信产业": [
+          "技术研究",
+          "算法研究",
+          "网络安全",
+          "跨学科协作",
+          "软件开发",
+          "隐私保护"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:芯片与器件设计工程师",
+      "occupation_label": "芯片与器件设计工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 15,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        }
+      ],
+      "shared_skills": [
+        "器件设计",
+        "硬件技术",
+        "芯片设计"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "器件设计",
+          "学习能力",
+          "热设计",
+          "硬件技术",
+          "结构与材料工程",
+          "芯片设计",
+          "跨部门沟通能力",
+          "问题解决能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "器件设计",
+          "复杂问题解决",
+          "多专业协作",
+          "技术研究",
+          "硬件技术",
+          "算法工程",
+          "芯片设计",
+          "软件开发"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:软件开发高级工程师",
+      "occupation_label": "软件开发高级工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 8,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 8,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "网络安全与隐私保护",
+        "跨团队协作",
+        "软件开发"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "AI模型开发",
+          "技术研究与创新",
+          "算法设计与优化",
+          "网络安全与隐私保护",
+          "跨团队协作",
+          "软件开发"
+        ],
+        "l1:电子信息与通信产业": [
+          "AI应用开发",
+          "技术创新能力",
+          "算法设计与实现",
+          "网络安全与隐私保护",
+          "跨团队协作",
+          "软件开发"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:ai模型工程师",
+      "occupation_label": "AI模型工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 16,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 18,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        }
+      ],
+      "shared_skills": [
+        "AI模型开发",
+        "算法设计与优化"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "AI安全与隐私保护",
+          "AI模型开发",
+          "创新与研究能力",
+          "算法设计与优化",
+          "跨团队协作",
+          "软件开发能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "AI模型开发",
+          "复杂问题解决",
+          "技术研究与创新",
+          "算法设计与优化",
+          "网络安全与隐私保护",
+          "跨部门协作",
+          "软件开发"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:id与ux设计师",
+      "occupation_label": "ID与UX设计师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Human Factors / Ergonomics",
+        "User-Centered Thinking"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "Collaboration Skills",
+          "Human Factors / Ergonomics",
+          "Interaction Design",
+          "User Experience Design",
+          "User-Centered Thinking"
+        ],
+        "l1:电子信息与通信产业": [
+          "Cross-functional Collaboration",
+          "Human Factors / Ergonomics",
+          "Industrial Design (ID)",
+          "User Experience (UX) Design",
+          "User-Centered Thinking"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0003",
+      "occupation_label": "Python开发工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "raw:电器家电",
+          "recruitment_evidence_count": 1,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Problem-solving",
+        "Python"
+      ],
+      "context_specific_skills": {
+        "raw:电器家电": [
+          "Collaboration",
+          "Communication skills",
+          "Problem-solving",
+          "Python",
+          "Software development lifecycle"
+        ],
+        "raw:科技": [
+          "Data analysis",
+          "Problem-solving",
+          "Python",
+          "Software testing",
+          "Statistical knowledge"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:云服务开发工程师",
+      "occupation_label": "云服务开发工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:信息数据",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "云服务开发",
+        "软件开发"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "AI模型开发与算法",
+          "云服务开发",
+          "算法研究与创新",
+          "网络安全与隐私保护",
+          "跨团队协作能力",
+          "软件开发",
+          "问题解决能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "云服务开发",
+          "数据科学",
+          "网络安全与隐私保护",
+          "解决复杂问题的能力",
+          "跨团队沟通能力",
+          "软件开发"
+        ],
+        "raw:信息数据": [
+          "AI模型开发",
+          "云服务开发",
+          "算法设计与实现",
+          "解决复杂技术问题",
+          "跨团队协作",
+          "软件开发"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:产品运营",
+      "occupation_label": "产品运营",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 8,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "产品运营",
+        "数据分析"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "业务运营管理",
+          "产品运营",
+          "市场营销",
+          "数据分析",
+          "沟通能力",
+          "跨职能协作",
+          "适应技术与市场变化",
+          "项目管理能力"
+        ],
+        "l1:金融与金融科技": [
+          "业务推动",
+          "产品策略",
+          "产品运营",
+          "团队搭建",
+          "数据分析",
+          "法律合规",
+          "营销系统规划"
+        ],
+        "raw:科技": [
+          "产品运营",
+          "市场洞察能力",
+          "数据分析",
+          "跨部门沟通",
+          "项目管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:人事专员",
+      "occupation_label": "人事专员",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:新能源与能源产业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:其他",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "沟通协调能力",
+        "组织能力"
+      ],
+      "context_specific_skills": {
+        "l1:新能源与能源产业": [
+          "人才招聘",
+          "员工关系管理",
+          "沟通协调能力",
+          "组织能力",
+          "薪酬福利管理"
+        ],
+        "raw:其他": [
+          "人力资源管理",
+          "劳动与社会保障",
+          "沟通协调能力",
+          "组织能力",
+          "行政管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:初中数学教师",
+      "occupation_label": "初中数学教师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:教育与人力资本",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Communication Skills",
+        "Curriculum Development"
+      ],
+      "context_specific_skills": {
+        "l1:教育与人力资本": [
+          "Classroom Management",
+          "Communication Skills",
+          "Curriculum Development",
+          "Mathematics Instruction",
+          "Student Assessment"
+        ],
+        "raw:事业单位": [
+          "Communication Skills",
+          "Curriculum Development",
+          "Educational Pedagogy",
+          "Mathematics Knowledge",
+          "Student Engagement"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:化学工程与工艺",
+      "occupation_label": "化学工程与工艺",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:能源化工环保",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "Chemical Engineering",
+        "Interdisciplinary Collaboration"
+      ],
+      "context_specific_skills": {
+        "raw:国企": [
+          "Chemical Engineering",
+          "Industrial Automation and Control",
+          "Interdisciplinary Collaboration",
+          "Process Engineering",
+          "Safety Engineering in Chemical Industry"
+        ],
+        "raw:能源化工环保": [
+          "Adaptability to Multi-location and Multi-role Environments",
+          "Chemical Engineering",
+          "Energy and Environmental Engineering",
+          "Interdisciplinary Collaboration",
+          "R&D and Process Optimization",
+          "Safety Management"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:化学教师",
+      "occupation_label": "化学教师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:教育与人力资本",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Communication skills",
+        "Student assessment and evaluation"
+      ],
+      "context_specific_skills": {
+        "l1:教育与人力资本": [
+          "Chemistry knowledge",
+          "Communication skills",
+          "Patience and adaptability",
+          "Student assessment and evaluation",
+          "Teaching and curriculum delivery"
+        ],
+        "raw:事业单位": [
+          "Chemistry subject knowledge",
+          "Classroom management",
+          "Communication skills",
+          "Curriculum development",
+          "Student assessment and evaluation"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:建筑设计岗",
+      "occupation_label": "建筑设计岗",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:建筑与房地产",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 9,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "工程管理",
+        "建筑设计"
+      ],
+      "context_specific_skills": {
+        "l1:建筑与房地产": [
+          "城乡规划",
+          "工程管理",
+          "建筑设计",
+          "沟通协调能力",
+          "项目管理能力"
+        ],
+        "raw:国企": [
+          "工程管理",
+          "建筑设计",
+          "沟通与协调能力",
+          "结构设计",
+          "给排水设计",
+          "规划设计思维"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0091",
+      "occupation_label": "模拟IC设计工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "模拟集成电路设计",
+        "电路仿真与验证"
+      ],
+      "context_specific_skills": {
+        "l1:电子信息与通信产业": [
+          "团队协作",
+          "模拟集成电路设计",
+          "电子半导体行业知识",
+          "电路仿真与验证",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "嵌入式系统知识",
+          "模拟集成电路设计",
+          "电路仿真与验证",
+          "硬件测试与开发",
+          "跨学科沟通与协作"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:硬件开发",
+      "occupation_label": "硬件开发",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:其他",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "团队协作",
+        "硬件设计"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "C++开发",
+          "团队协作",
+          "嵌入式开发",
+          "硬件设计",
+          "芯片测试"
+        ],
+        "raw:其他": [
+          "团队协作",
+          "电子工程",
+          "硬件设计",
+          "自动化设计",
+          "问题解决能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:算法研究员",
+      "occupation_label": "算法研究员",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 11,
+          "completed_inference_group_count": 1,
+          "skill_count": 9
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 11,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        }
+      ],
+      "shared_skills": [
+        "网络安全与隐私保护",
+        "软件开发能力"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "创新与研究能力",
+          "数据科学与分析",
+          "机器学习与人工智能",
+          "沟通与表达能力",
+          "算法设计与优化",
+          "网络安全与隐私保护",
+          "解决复杂问题的能力",
+          "跨学科协作能力",
+          "软件开发能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "人工智能模型开发",
+          "创新研究能力",
+          "复杂问题分析能力",
+          "硬件技术理解",
+          "算法设计与分析",
+          "网络安全与隐私保护",
+          "跨学科技术整合能力",
+          "软件开发能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:行政专员",
+      "occupation_label": "行政专员",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "沟通协调能力",
+        "行政管理"
+      ],
+      "context_specific_skills": {
+        "raw:国企": [
+          "文档及档案管理",
+          "沟通协调能力",
+          "法律知识",
+          "组织能力",
+          "行政管理"
+        ],
+        "raw:科技": [
+          "办公软件应用",
+          "多任务管理",
+          "数据处理与统计",
+          "沟通协调能力",
+          "行政管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:运营专员",
+      "occupation_label": "运营专员",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "数据分析",
+        "运营管理"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "数字化工具应用",
+          "数据分析",
+          "跨团队沟通",
+          "运营管理",
+          "项目协调"
+        ],
+        "raw:国企": [
+          "信息管理",
+          "数据分析",
+          "沟通能力",
+          "跨部门协调",
+          "运营管理"
+        ],
+        "raw:科技": [
+          "数据分析",
+          "时间管理",
+          "沟通能力",
+          "运营管理",
+          "项目协调"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:高中英语教师",
+      "occupation_label": "高中英语教师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:教育与人力资本",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 8,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "英语教学",
+        "课程设计与开发"
+      ],
+      "context_specific_skills": {
+        "l1:教育与人力资本": [
+          "学生评估与管理",
+          "英语教学",
+          "语言表达与讲授能力",
+          "课程设计与开发",
+          "跨专业协作沟通"
+        ],
+        "raw:事业单位": [
+          "教育心理学",
+          "沟通能力",
+          "耐心与包容",
+          "英语教学",
+          "课程设计与开发"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:ai工程师",
+      "occupation_label": "AI工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Machine Learning"
+      ],
+      "context_specific_skills": {
+        "l1:电子信息与通信产业": [
+          "Communication Skills",
+          "Data Analysis",
+          "Machine Learning",
+          "Problem Solving",
+          "Programming (e.g. Python)"
+        ],
+        "l1:金融与金融科技": [
+          "Collaboration",
+          "Data Engineering",
+          "Financial Domain Knowledge",
+          "Machine Learning",
+          "Quantitative Analysis"
+        ],
+        "raw:科技": [
+          "Algorithm Development",
+          "Machine Learning",
+          "Problem-Solving",
+          "Programming (C++/Java)",
+          "Software Development"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:ai应用研究员",
+      "occupation_label": "AI应用研究员",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 10,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 11,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        }
+      ],
+      "shared_skills": [
+        "软件开发"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "人工智能算法",
+          "创新研究能力",
+          "技术文档理解与应用",
+          "数据安全与隐私保护",
+          "机器学习模型开发",
+          "算法研究与优化",
+          "跨团队沟通能力",
+          "软件开发"
+        ],
+        "l1:电子信息与通信产业": [
+          "AI模型开发",
+          "创新与问题解决能力",
+          "团队合作与沟通",
+          "算法设计与优化",
+          "网络安全与隐私保护",
+          "跨领域技术研究",
+          "软件开发"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:ai模型研究员",
+      "occupation_label": "AI模型研究员",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 13,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 10,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        }
+      ],
+      "shared_skills": [
+        "软件开发"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "AI安全与隐私",
+          "AI模型设计",
+          "产品需求理解",
+          "技术研究与创新",
+          "算法开发",
+          "跨团队协作",
+          "软件开发"
+        ],
+        "l1:电子信息与通信产业": [
+          "AI模型研发",
+          "创新与技术研究能力",
+          "团队协作与沟通",
+          "算法设计与优化",
+          "网络安全与隐私保护",
+          "跨学科技术融合能力",
+          "软件开发"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0004",
+      "occupation_label": "C/C++开发工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 10,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:it互联网游戏,房地产建筑",
+          "recruitment_evidence_count": 1,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:其他",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "C++ programming"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "Algorithm development and optimization",
+          "C++ programming",
+          "Computer vision and image processing",
+          "Embedded systems development",
+          "Problem-solving skills",
+          "Software development lifecycle understanding",
+          "Team collaboration"
+        ],
+        "l1:金融与金融科技": [
+          "C++ programming",
+          "Collaboration across multidisciplinary teams",
+          "Mathematics and statistics",
+          "Problem-solving",
+          "Quantitative finance knowledge"
+        ],
+        "raw:it互联网游戏,房地产建筑": [
+          "3D graphics and rendering algorithms",
+          "Algorithm design and development",
+          "C++ programming",
+          "Cross-disciplinary collaboration",
+          "Software testing and development"
+        ],
+        "raw:其他": [
+          "Attention to detail",
+          "C programming",
+          "C++ programming",
+          "Embedded systems development",
+          "Problem-solving",
+          "Software testing"
+        ],
+        "raw:科技": [
+          "C++ programming",
+          "Continuous learning",
+          "Problem-solving skills",
+          "Software development",
+          "Team collaboration"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:专业技术岗",
+      "occupation_label": "专业技术岗",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:物流与供应链",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "专业技术知识"
+      ],
+      "context_specific_skills": {
+        "l1:物流与供应链": [
+          "专业技术知识",
+          "俄语翻译能力",
+          "多地区沟通与适应能力",
+          "物流与供应链管理",
+          "跨职能协调能力"
+        ],
+        "raw:事业单位": [
+          "专业技术知识",
+          "多学科专业能力",
+          "沟通与协调能力",
+          "研究与分析能力",
+          "跨专业岗位适应能力"
+        ],
+        "raw:国企": [
+          "专业技术知识",
+          "专业文档理解能力",
+          "信息系统开发与运维",
+          "工程管理",
+          "跨领域协调能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0289",
+      "occupation_label": "产品经理",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 17,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "l1:新能源与能源产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:生物医药与生命科学",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 9,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子商务与零售",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:其他",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:消费",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "raw:游戏",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:生物医药",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 9,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:能源化工环保",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "项目管理"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "产品需求分析",
+          "市场和用户调研",
+          "敏捷思维与快速学习",
+          "数据分析能力",
+          "用户体验设计",
+          "跨部门沟通协调",
+          "项目管理"
+        ],
+        "l1:新能源与能源产业": [
+          "产品规划",
+          "市场需求分析",
+          "技术理解能力",
+          "跨部门沟通",
+          "项目管理"
+        ],
+        "l1:生物医药与生命科学": [
+          "产品规划",
+          "市场需求分析",
+          "解决复杂问题能力",
+          "跨部门沟通协调",
+          "项目管理"
+        ],
+        "l1:电子信息与通信产业": [
+          "产品管理",
+          "数据分析",
+          "跨部门协作",
+          "需求分析",
+          "项目管理"
+        ],
+        "l1:电子商务与零售": [
+          "产品管理",
+          "市场分析",
+          "数据驱动决策",
+          "跨团队沟通",
+          "适应多变环境",
+          "项目管理"
+        ],
+        "l1:金融与金融科技": [
+          "产品规划与管理",
+          "数据驱动决策能力",
+          "跨部门沟通协调",
+          "金融行业知识",
+          "需求分析与用户调研",
+          "项目管理"
+        ],
+        "raw:其他": [
+          "产品规划",
+          "客户需求理解",
+          "市场分析",
+          "跨部门沟通",
+          "项目管理"
+        ],
+        "raw:国企": [
+          "产品规划",
+          "数据驱动决策",
+          "跨部门沟通协调",
+          "需求分析",
+          "项目管理"
+        ],
+        "raw:消费": [
+          "产品规划",
+          "客户需求理解",
+          "市场调研",
+          "数据分析能力",
+          "跨部门沟通",
+          "问题解决能力",
+          "项目管理"
+        ],
+        "raw:游戏": [
+          "产品规划",
+          "市场分析",
+          "敏捷适应能力",
+          "用户研究",
+          "跨团队沟通",
+          "项目管理"
+        ],
+        "raw:生物医药": [
+          "产品规划",
+          "客户需求分析",
+          "市场研究",
+          "跨部门沟通",
+          "项目管理"
+        ],
+        "raw:科技": [
+          "产品规划",
+          "行业技术理解",
+          "跨部门沟通协调",
+          "需求分析",
+          "项目管理"
+        ],
+        "raw:能源化工环保": [
+          "产品规划",
+          "市场分析",
+          "沟通能力",
+          "跨部门协调",
+          "项目管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:产品设计",
+      "occupation_label": "产品设计",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:智能制造与工业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "产品设计"
+      ],
+      "context_specific_skills": {
+        "l1:智能制造与工业": [
+          "产品设计",
+          "工艺技术",
+          "机械设计制造",
+          "材料科学与研发",
+          "项目管理"
+        ],
+        "l1:金融与金融科技": [
+          "业务推动",
+          "产品策略",
+          "产品设计",
+          "团队搭建",
+          "数据分析",
+          "法律合规"
+        ],
+        "raw:国企": [
+          "产品设计",
+          "工程设计",
+          "技术研究与创新",
+          "跨专业合作能力",
+          "项目管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:初中语文教师",
+      "occupation_label": "初中语文教师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:教育与人力资本",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Classroom Management"
+      ],
+      "context_specific_skills": {
+        "l1:教育与人力资本": [
+          "Chinese Language Proficiency",
+          "Classroom Management",
+          "Communication Skills",
+          "Curriculum Design and Lesson Planning",
+          "Student Assessment and Evaluation"
+        ],
+        "raw:事业单位": [
+          "Classroom Management",
+          "Knowledge of Education Policies",
+          "Lesson Planning",
+          "Student Assessment",
+          "Teaching Chinese Language"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0051",
+      "occupation_label": "大数据开发工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "大数据开发"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "Java开发",
+          "大数据开发",
+          "算法开发",
+          "解决方案设计",
+          "需求分析"
+        ],
+        "l1:电子信息与通信产业": [
+          "人工智能技术",
+          "大数据开发",
+          "数据治理",
+          "算法开发",
+          "跨团队沟通协调",
+          "软件开发",
+          "适应快速变化环境",
+          "项目管理能力"
+        ],
+        "l1:金融与金融科技": [
+          "多地协作能力",
+          "大数据开发",
+          "软件开发",
+          "适应不同招聘批次的灵活性",
+          "金融行业知识"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:客户经理",
+      "occupation_label": "客户经理",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 11,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 32,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "客户关系管理"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "客户关系管理",
+          "市场洞察力",
+          "沟通能力",
+          "销售技巧",
+          "项目协调"
+        ],
+        "l1:电子信息与通信产业": [
+          "多语种能力（粤语）",
+          "客户关系管理",
+          "沟通协调能力",
+          "电子信息与通信产业知识",
+          "销售能力"
+        ],
+        "l1:金融与金融科技": [
+          "业务拓展",
+          "客户关系管理",
+          "沟通能力",
+          "金融产品知识",
+          "风险意识"
+        ],
+        "raw:国企": [
+          "客户关系管理",
+          "市场分析",
+          "沟通协调能力",
+          "法律知识理解",
+          "问题解决能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0087",
+      "occupation_label": "射频工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:电子通信半导体,制造业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "射频电路设计"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "射频电路设计",
+          "电气工程基础",
+          "电磁兼容(EMC)知识",
+          "硬件设计",
+          "跨团队协作能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "信号处理",
+          "射频电路设计",
+          "电子信息与通信工业知识",
+          "跨团队沟通协调",
+          "问题解决能力"
+        ],
+        "raw:电子通信半导体,制造业": [
+          "信号处理",
+          "射频电路设计",
+          "硬件分析与调试",
+          "跨部门沟通",
+          "项目管理能力"
+        ],
+        "raw:科技": [
+          "天线设计",
+          "射频电路设计",
+          "模拟IC设计",
+          "研发创新能力",
+          "硬件工程知识",
+          "跨专业沟通能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:嵌入式工程师",
+      "occupation_label": "嵌入式工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:消费",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "嵌入式系统开发"
+      ],
+      "context_specific_skills": {
+        "l1:电子信息与通信产业": [
+          "嵌入式系统开发",
+          "嵌入式软件编程",
+          "技术快速学习与适应能力",
+          "硬件与电子工程知识",
+          "跨领域协作能力"
+        ],
+        "raw:消费": [
+          "嵌入式系统开发",
+          "硬件工程知识",
+          "跨学科团队协作",
+          "软件开发能力",
+          "项目管理理解"
+        ],
+        "raw:科技": [
+          "射频工程知识",
+          "嵌入式系统开发",
+          "硬件设计",
+          "算法开发",
+          "解决复杂工程问题",
+          "跨学科协作"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:嵌入式开发工程师",
+      "occupation_label": "嵌入式开发工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 8,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "嵌入式系统开发"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "C/C++编程",
+          "嵌入式系统开发",
+          "硬件与软件协同设计",
+          "系统调试与优化",
+          "跨学科团队协作",
+          "问题解决能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "团队协作",
+          "嵌入式系统开发",
+          "嵌入式软件编程",
+          "电子信息与通信技术",
+          "电路设计与硬件开发",
+          "跨领域沟通能力",
+          "问题分析与解决"
+        ],
+        "raw:科技": [
+          "嵌入式系统开发",
+          "硬件与软件集成",
+          "算法设计与实现",
+          "编程（C++/Linux驱动）",
+          "跨功能协作"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:嵌入式软件开发工程师",
+      "occupation_label": "嵌入式软件开发工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "嵌入式软件开发"
+      ],
+      "context_specific_skills": {
+        "l1:电子信息与通信产业": [
+          "嵌入式系统调试与测试",
+          "嵌入式软件开发",
+          "硬件开发基础知识",
+          "跨团队协作",
+          "通信产业理解"
+        ],
+        "raw:国企": [
+          "专业岗位筛选及适应性学习",
+          "信号处理",
+          "嵌入式软件开发",
+          "硬件电路设计",
+          "系统开发测试",
+          "跨领域协作能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:工程管理岗",
+      "occupation_label": "工程管理岗",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:建筑与房地产",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 12,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "工程项目管理"
+      ],
+      "context_specific_skills": {
+        "l1:建筑与房地产": [
+          "商务管理",
+          "团队管理能力",
+          "安全管理",
+          "工程项目管理",
+          "施工技术管理",
+          "沟通协调能力"
+        ],
+        "raw:国企": [
+          "合同管理",
+          "工程项目管理",
+          "跨部门协调能力",
+          "预算与成本控制",
+          "风险管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0340",
+      "occupation_label": "平台运营",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "数据分析"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "市场敏感度",
+          "平台运营",
+          "数据分析",
+          "跨部门协作",
+          "项目管理"
+        ],
+        "l1:金融与金融科技": [
+          "平台运营管理",
+          "数据分析",
+          "跨部门协调能力",
+          "金融行业知识",
+          "风险监控"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:技术支持工程师",
+      "occupation_label": "技术支持工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:智能制造与工业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:其他",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:其他,科技",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技,其他",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "技术支持"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "信息技术",
+          "技术支持",
+          "沟通能力",
+          "跨团队协作",
+          "问题解决能力"
+        ],
+        "l1:智能制造与工业": [
+          "售前咨询",
+          "客户沟通能力",
+          "技术支持",
+          "技术文档撰写",
+          "硬件维护与开发",
+          "系统集成",
+          "跨部门协调"
+        ],
+        "l1:电子信息与通信产业": [
+          "客户沟通",
+          "技术支持",
+          "电子信息与通信知识",
+          "跨部门协作",
+          "问题解决能力"
+        ],
+        "raw:其他": [
+          "售后服务",
+          "技术支持",
+          "沟通能力",
+          "硬件知识",
+          "问题解决能力"
+        ],
+        "raw:其他,科技": [
+          "技术支持",
+          "沟通协调能力",
+          "电气工程基础知识",
+          "软/硬件工程知识",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "技术支持",
+          "计算机科学或电子工程相关知识",
+          "跨团队沟通协调",
+          "软件开发基础知识",
+          "问题诊断与解决"
+        ],
+        "raw:科技,其他": [
+          "技术支持",
+          "硬件测试",
+          "算法理解与支持",
+          "跨专业协作能力",
+          "软件测试"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0090",
+      "occupation_label": "数字IC设计工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        }
+      ],
+      "shared_skills": [
+        "数字IC设计"
+      ],
+      "context_specific_skills": {
+        "l1:电子信息与通信产业": [
+          "CPU IP系统开发",
+          "数字IC设计",
+          "硬件仿真与验证",
+          "硬件描述语言（如Verilog/VHDL）",
+          "解决复杂技术问题的能力",
+          "跨团队协作能力"
+        ],
+        "raw:科技": [
+          "IC仿真与验证",
+          "复杂问题解决能力",
+          "持续学习能力",
+          "数字IC设计",
+          "模拟IC设计",
+          "芯片版图设计",
+          "跨团队协作"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:数学教师",
+      "occupation_label": "数学教师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:教育与人力资本",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Curriculum Development"
+      ],
+      "context_specific_skills": {
+        "l1:教育与人力资本": [
+          "Communication Skills",
+          "Curriculum Development",
+          "Educational Pedagogy",
+          "Mathematics Subject Knowledge",
+          "Student Engagement"
+        ],
+        "raw:事业单位": [
+          "Adaptability in Education",
+          "Curriculum Development",
+          "Educational Communication",
+          "Mathematics Teaching",
+          "Student Assessment"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0043",
+      "occupation_label": "数据分析师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 9,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:游戏",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "数据分析"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "数据分析",
+          "数据挖掘",
+          "沟通协调能力",
+          "统计学知识",
+          "逻辑思维能力"
+        ],
+        "l1:金融与金融科技": [
+          "数据分析",
+          "数据库管理",
+          "沟通能力",
+          "统计学基础",
+          "逻辑思维",
+          "金融知识"
+        ],
+        "raw:国企": [
+          "数据分析",
+          "数据建模",
+          "沟通能力",
+          "统计分析",
+          "逻辑思维"
+        ],
+        "raw:游戏": [
+          "数据分析",
+          "游戏行业知识",
+          "统计学基础",
+          "跨团队沟通",
+          "问题解决能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0128",
+      "occupation_label": "智能制造工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:电子通信半导体,教育培训科研",
+          "recruitment_evidence_count": 1,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        }
+      ],
+      "shared_skills": [
+        "智能制造技术"
+      ],
+      "context_specific_skills": {
+        "raw:国企": [
+          "工艺技术应用",
+          "智能制造技术",
+          "研发设计能力",
+          "跨部门沟通协调",
+          "问题解决能力"
+        ],
+        "raw:电子通信半导体,教育培训科研": [
+          "信号与信息处理",
+          "复杂问题分析能力",
+          "嵌入式软件设计",
+          "持续学习能力",
+          "智能制造技术",
+          "机械设计与自动化",
+          "算法设计",
+          "跨学科协调能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0105",
+      "occupation_label": "机械设计工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:智能制造与工业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:其他",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:其他,消费",
+          "recruitment_evidence_count": 1,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:学术科研研究所",
+          "recruitment_evidence_count": 1,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:智能硬件机器人",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:机械电子",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:电子通信半导体,制造业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:非金属矿物制品业建材",
+          "recruitment_evidence_count": 1,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "机械设计"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "CAD制图技能",
+          "工艺设计",
+          "机械设计",
+          "质量控制",
+          "项目管理"
+        ],
+        "l1:智能制造与工业": [
+          "PLc开发",
+          "机械装备系统理解",
+          "机械设计",
+          "解决复杂技术问题",
+          "跨学科合作能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "仿真分析",
+          "创新能力",
+          "机械设计",
+          "结构设计",
+          "跨学科团队协作"
+        ],
+        "raw:事业单位": [
+          "光学设计",
+          "团队协作",
+          "工程分析",
+          "机械设计",
+          "热控设计",
+          "问题解决能力"
+        ],
+        "raw:其他": [
+          "机械设计",
+          "机电一体化",
+          "程序编程",
+          "跨专业协作能力",
+          "项目管理"
+        ],
+        "raw:其他,消费": [
+          "机械制造基础",
+          "机械设计",
+          "机电一体化",
+          "自动化知识",
+          "跨学科协作能力",
+          "问题解决能力",
+          "非标自动化机械设计"
+        ],
+        "raw:国企": [
+          "团队协作",
+          "多物理场仿真",
+          "机械设计",
+          "机电一体化",
+          "自动化设计",
+          "问题解决能力"
+        ],
+        "raw:学术科研研究所": [
+          "产品开发与原型制作",
+          "工程制图",
+          "机械设计",
+          "科研分析能力",
+          "跨领域协作"
+        ],
+        "raw:智能硬件机器人": [
+          "复杂系统集成能力",
+          "机器人智能硬件",
+          "机械设计",
+          "机械运动控制算法理解",
+          "跨学科团队合作"
+        ],
+        "raw:机械电子": [
+          "创新思维",
+          "机械设计",
+          "电子封装",
+          "系统建模与控制",
+          "问题解决能力"
+        ],
+        "raw:电子通信半导体,制造业": [
+          "产品研发",
+          "机械设计",
+          "自动化装备研发",
+          "跨部门协作",
+          "项目管理"
+        ],
+        "raw:科技": [
+          "机械设计",
+          "电气设计",
+          "结构设计",
+          "跨专业协作",
+          "项目管理"
+        ],
+        "raw:非金属矿物制品业建材": [
+          "CAD软件应用",
+          "机械设计",
+          "材料力学",
+          "跨专业沟通能力",
+          "项目管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0213",
+      "occupation_label": "材料工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:智能制造与工业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "跨学科协作能力"
+      ],
+      "context_specific_skills": {
+        "l1:智能制造与工业": [
+          "制造工艺设计",
+          "材料科学与工程知识",
+          "研发项目管理",
+          "跨学科协作能力",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "技术文档编写",
+          "材料性能分析",
+          "材料设计与改进",
+          "跨学科协作能力",
+          "项目管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:游戏客户端开发",
+      "occupation_label": "游戏客户端开发",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "raw:游戏",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "游戏客户端开发"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "团队协作",
+          "持续学习能力",
+          "游戏客户端开发",
+          "游戏引擎开发",
+          "编程与软件开发",
+          "计算机图形学",
+          "跨职能沟通能力",
+          "问题解决能力"
+        ],
+        "raw:游戏": [
+          "C++开发",
+          "前端开发技能",
+          "游戏客户端开发",
+          "解决复杂技术问题",
+          "跨团队协作"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:热设计工程师",
+      "occupation_label": "热设计工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 8,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "问题解决能力"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "建模与仿真",
+          "热设计",
+          "结构与材料工程",
+          "跨部门沟通与协调能力",
+          "软件开发基础",
+          "问题解决能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "热设计分析",
+          "硬件技术",
+          "结构与材料工程",
+          "芯片与器件设计",
+          "跨学科合作",
+          "软件开发",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "热设计分析",
+          "硬件开发知识",
+          "跨团队协作",
+          "软件测试与开发",
+          "问题解决能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:热设计高级工程师",
+      "occupation_label": "热设计高级工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "热设计"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "热设计",
+          "硬件工程技术",
+          "算法设计与研究",
+          "跨团队沟通协作",
+          "软件开发技能"
+        ],
+        "l1:电子信息与通信产业": [
+          "热设计",
+          "硬件技术",
+          "结构与材料工程",
+          "芯片与器件设计",
+          "跨部门协作"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:版图设计工程师",
+      "occupation_label": "版图设计工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "版图设计"
+      ],
+      "context_specific_skills": {
+        "l1:电子信息与通信产业": [
+          "数字电路设计",
+          "模拟电路设计",
+          "版图设计",
+          "芯片测试",
+          "跨团队沟通能力"
+        ],
+        "raw:科技": [
+          "团队协作",
+          "工具软件使用能力",
+          "模拟与数字IC设计",
+          "版图设计",
+          "问题解决能力",
+          "集成电路技术"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:物理教师",
+      "occupation_label": "物理教师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:教育与人力资本",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Physics Subject Knowledge"
+      ],
+      "context_specific_skills": {
+        "l1:教育与人力资本": [
+          "Adaptability to Different Educational Settings",
+          "Education Level Competency",
+          "Physics Subject Knowledge",
+          "Student Engagement and Communication",
+          "Teaching and Instructional Skills"
+        ],
+        "raw:事业单位": [
+          "Communication Skills",
+          "Curriculum Design and Lesson Planning",
+          "Patience and Adaptability",
+          "Physics Subject Knowledge",
+          "Student Assessment and Evaluation"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0085",
+      "occupation_label": "电子工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:智能制造与工业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技,其他",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        }
+      ],
+      "shared_skills": [
+        "嵌入式系统开发"
+      ],
+      "context_specific_skills": {
+        "l1:智能制造与工业": [
+          "传感器技术应用",
+          "嵌入式系统开发",
+          "嵌入式软件开发",
+          "电子电路设计",
+          "跨部门沟通能力",
+          "项目管理意识"
+        ],
+        "raw:科技": [
+          "信号处理",
+          "团队合作",
+          "嵌入式系统开发",
+          "电路设计",
+          "问题分析能力"
+        ],
+        "raw:科技,其他": [
+          "嵌入式系统开发",
+          "技术文档理解",
+          "模拟与数字芯片设计",
+          "电子电路设计",
+          "算法开发",
+          "跨职能协调",
+          "问题解决能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:硬件测试工程师",
+      "occupation_label": "硬件测试工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:新能源与能源产业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        }
+      ],
+      "shared_skills": [
+        "硬件测试"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "团队协作",
+          "嵌入式系统理解",
+          "电子电路知识",
+          "硬件测试",
+          "问题诊断能力"
+        ],
+        "l1:新能源与能源产业": [
+          "制造工艺理解",
+          "电力电子知识",
+          "硬件测试",
+          "跨部门沟通",
+          "问题解决能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "嵌入式系统理解",
+          "电子与通信知识",
+          "硬件测试",
+          "软件测试基础",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "团队协作",
+          "嵌入式系统开发",
+          "测试自动化",
+          "电气工程知识",
+          "硬件测试",
+          "细致严谨",
+          "问题解决能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:结构与材料工程师",
+      "occupation_label": "结构与材料工程师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 12,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "问题解决能力"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "先进工艺设计",
+          "创新能力",
+          "整机工艺设计",
+          "材料工程",
+          "电子功能材料",
+          "结构设计",
+          "跨团队沟通",
+          "问题解决能力"
+        ],
+        "l1:电子信息与通信产业": [
+          "材料科学",
+          "电子/通信产业知识",
+          "结构工程",
+          "跨学科团队协作",
+          "问题解决能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:结构设计",
+      "occupation_label": "结构设计",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "raw:其他",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "结构设计"
+      ],
+      "context_specific_skills": {
+        "raw:其他": [
+          "技术质量控制",
+          "机械工程理论",
+          "结构设计",
+          "跨学科协作",
+          "问题解决能力"
+        ],
+        "raw:国企": [
+          "工艺设计",
+          "机械设计",
+          "结构设计",
+          "跨团队沟通",
+          "项目管理"
+        ],
+        "raw:科技": [
+          "分析与解决问题",
+          "电气设计",
+          "结构设计",
+          "跨领域协作能力",
+          "项目管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0063",
+      "occupation_label": "网络安全工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "网络安全技术"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "信息技术基础",
+          "团队协作",
+          "网络安全技术",
+          "问题解决能力",
+          "风险评估与管理"
+        ],
+        "l1:电子信息与通信产业": [
+          "专业学习与文档理解能力",
+          "电子信息与通信基础知识",
+          "网络安全技术",
+          "网络架构与运维",
+          "跨区域协调与沟通能力",
+          "风险评估与漏洞检测"
+        ],
+        "raw:国企": [
+          "持续学习能力",
+          "故障排查与问题解决",
+          "网络安全技术",
+          "跨部门沟通协作",
+          "风险评估与管理"
+        ],
+        "raw:科技": [
+          "信息安全管理",
+          "团队协作",
+          "网络安全技术",
+          "逻辑思维能力",
+          "风险评估与漏洞分析"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0307",
+      "occupation_label": "行业研究员",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "raw:专业技术服务检测认证",
+          "recruitment_evidence_count": 1,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "数据分析"
+      ],
+      "context_specific_skills": {
+        "l1:金融与金融科技": [
+          "宏观经济研究",
+          "数据分析",
+          "精准信息甄别能力",
+          "行业分析",
+          "跨部门沟通协调",
+          "量化策略研究",
+          "金融产品理解",
+          "问题解决能力"
+        ],
+        "raw:专业技术服务检测认证": [
+          "专业技术服务知识",
+          "技术领域理解（智能网联汽车/无人机）",
+          "数据分析",
+          "行业研究",
+          "跨领域协调"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0108",
+      "occupation_label": "设备工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:新能源与能源产业",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "l1:智能制造与工业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 8,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:七工材料",
+          "recruitment_evidence_count": 1,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:其他",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:机械电子",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 9,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:能源化工环保",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "设备维护与管理"
+      ],
+      "context_specific_skills": {
+        "l1:新能源与能源产业": [
+          "团队协作",
+          "工艺流程优化",
+          "机电一体化知识",
+          "沟通能力",
+          "设备维护与管理",
+          "质量管理",
+          "问题解决能力"
+        ],
+        "l1:智能制造与工业": [
+          "机械工程基础",
+          "电气系统设计与控制",
+          "设备维护与管理",
+          "跨团队协作",
+          "软件开发与算法应用"
+        ],
+        "l1:电子信息与通信产业": [
+          "工艺流程优化",
+          "电子信息产业知识",
+          "设备维护与管理",
+          "跨部门协作",
+          "问题解决能力"
+        ],
+        "raw:七工材料": [
+          "品质控制",
+          "工艺流程优化",
+          "设备维护与管理",
+          "跨部门沟通",
+          "问题解决能力"
+        ],
+        "raw:其他": [
+          "专业知识应用（化学、机械、电气等）",
+          "工艺流程设计",
+          "设备维护与管理",
+          "跨专业协作能力",
+          "问题解决能力"
+        ],
+        "raw:国企": [
+          "故障诊断与排除",
+          "机械与电气知识",
+          "设备安装与调试",
+          "设备维护与管理",
+          "跨部门沟通协调",
+          "问题解决能力"
+        ],
+        "raw:机械电子": [
+          "多岗位协作能力",
+          "工艺流程优化",
+          "机械电子专业知识",
+          "设备维护与管理",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "工艺流程优化",
+          "技术文档阅读与理解",
+          "设备故障诊断与排除",
+          "设备维护与管理",
+          "跨部门协作"
+        ],
+        "raw:能源化工环保": [
+          "设备维护与管理",
+          "质量管理",
+          "跨部门沟通",
+          "过程控制",
+          "项目管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:语文教师",
+      "occupation_label": "语文教师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:教育与人力资本",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "Communication Skills"
+      ],
+      "context_specific_skills": {
+        "l1:教育与人力资本": [
+          "Classroom Management",
+          "Communication Skills",
+          "Curriculum Design in Chinese Language",
+          "Educational Assessment and Evaluation",
+          "Subject Knowledge in Chinese Language and Literature"
+        ],
+        "raw:事业单位": [
+          "Communication Skills",
+          "Curriculum Development",
+          "Educational Assessment",
+          "Language Teaching",
+          "Patience and Empathy"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:财务会计",
+      "occupation_label": "财务会计",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:物流与供应链",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "raw:能源化工环保",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "财务会计"
+      ],
+      "context_specific_skills": {
+        "l1:物流与供应链": [
+          "数据分析",
+          "物流与供应链知识",
+          "细致与责任心",
+          "财务会计",
+          "跨部门沟通能力"
+        ],
+        "raw:事业单位": [
+          "信息管理",
+          "执行力",
+          "细致严谨",
+          "综合业务处理",
+          "财务会计",
+          "财务管理"
+        ],
+        "raw:国企": [
+          "审计",
+          "投资分析",
+          "数据分析能力",
+          "沟通协调能力",
+          "细致严谨",
+          "财务会计",
+          "财务管理",
+          "风险管理"
+        ],
+        "raw:能源化工环保": [
+          "企管法规理解",
+          "细致严谨的工作态度",
+          "能源化工领域知识",
+          "财务会计",
+          "财务管理",
+          "跨专业协作能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0342",
+      "occupation_label": "跨境电商运营",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:消费",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 6
+        }
+      ],
+      "shared_skills": [
+        "跨境电商运营"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "产品管理",
+          "多语言沟通能力",
+          "海外商务运营",
+          "海外市场推广",
+          "跨境电商运营"
+        ],
+        "raw:消费": [
+          "供应链协调",
+          "国际贸易知识",
+          "多任务管理",
+          "海外市场拓展",
+          "跨境电商运营",
+          "跨文化沟通"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0014",
+      "occupation_label": "软件测试工程师",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 8,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:新能源与能源产业",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "raw:其他",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:商务服务咨询",
+          "recruitment_evidence_count": 1,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:生物医药",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 13,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技,其他",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "软件测试"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "团队协作",
+          "嵌入式软件开发",
+          "硬件测试",
+          "软件测试",
+          "问题分析能力"
+        ],
+        "l1:新能源与能源产业": [
+          "多任务协调能力",
+          "新能源行业理解",
+          "自动化测试",
+          "软件测试",
+          "问题分析与解决"
+        ],
+        "l1:电子信息与通信产业": [
+          "嵌入式系统基础",
+          "沟通协调能力",
+          "电子信息与通信产业基础知识",
+          "软件测试",
+          "问题分析与解决能力"
+        ],
+        "l1:金融与金融科技": [
+          "团队协作能力",
+          "编程能力",
+          "软件测试",
+          "金融行业知识",
+          "问题分析与解决能力"
+        ],
+        "raw:事业单位": [
+          "信号处理",
+          "光学理论",
+          "图像处理",
+          "嵌入式系统设计",
+          "细致认真",
+          "软件测试",
+          "问题分析能力"
+        ],
+        "raw:其他": [
+          "嵌入式系统知识",
+          "细致与耐心",
+          "编程语言 (C++, QT, Java)",
+          "软件测试",
+          "问题解决能力"
+        ],
+        "raw:商务服务咨询": [
+          "分析能力",
+          "细致耐心",
+          "质量保证",
+          "软件开发基础",
+          "软件测试"
+        ],
+        "raw:国企": [
+          "数据分析能力",
+          "沟通协调能力",
+          "软件开发基础",
+          "软件测试",
+          "逻辑思维能力"
+        ],
+        "raw:生物医药": [
+          "生物医药行业知识",
+          "缺陷分析与报告",
+          "跨团队沟通协作",
+          "软件测试",
+          "问题解决能力"
+        ],
+        "raw:科技": [
+          "沟通协调能力",
+          "测试开发",
+          "自动化测试",
+          "软件测试",
+          "问题分析能力"
+        ],
+        "raw:科技,其他": [
+          "嵌入式系统测试",
+          "编程语言 (如C++, Java, Rust)",
+          "跨部门沟通与协作",
+          "软件测试",
+          "问题分析与诊断能力"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "canonical:OCC0295",
+      "occupation_label": "项目经理",
+      "mapped": true,
+      "contexts": [
+        {
+          "context": "l1:信息技术与数字产业",
+          "recruitment_evidence_count": 11,
+          "completed_inference_group_count": 1,
+          "skill_count": 8
+        },
+        {
+          "context": "l1:建筑与房地产",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:新能源与能源产业",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:智能制造与工业",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "l1:电子信息与通信产业",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 7
+        },
+        {
+          "context": "l1:金融与金融科技",
+          "recruitment_evidence_count": 9,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 4,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:其他",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:国企",
+          "recruitment_evidence_count": 8,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:机械电子",
+          "recruitment_evidence_count": 3,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技",
+          "recruitment_evidence_count": 5,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技,专业服务",
+          "recruitment_evidence_count": 1,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:科技,其他",
+          "recruitment_evidence_count": 2,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "项目管理"
+      ],
+      "context_specific_skills": {
+        "l1:信息技术与数字产业": [
+          "团队管理",
+          "技术管理",
+          "沟通协调能力",
+          "解决方案制定",
+          "解决问题能力",
+          "跨部门协作",
+          "需求分析",
+          "项目管理"
+        ],
+        "l1:建筑与房地产": [
+          "多地点协调与管理",
+          "建筑与房地产行业知识",
+          "科研与技术理解能力",
+          "跨专业团队合作",
+          "项目管理"
+        ],
+        "l1:新能源与能源产业": [
+          "协调沟通能力",
+          "新能源行业知识",
+          "计划与组织能力",
+          "跨部门合作",
+          "项目管理"
+        ],
+        "l1:智能制造与工业": [
+          "团队管理",
+          "智能制造与工业知识",
+          "跨部门沟通协调",
+          "问题解决能力",
+          "项目管理"
+        ],
+        "l1:电子信息与通信产业": [
+          "协调与跨团队沟通",
+          "技术解决方案理解",
+          "数据分析与利用",
+          "电子信息与通信产业知识",
+          "跨部门协作能力",
+          "问题解决能力",
+          "项目管理"
+        ],
+        "l1:金融与金融科技": [
+          "团队协调与沟通",
+          "金融行业知识",
+          "问题解决能力",
+          "项目管理",
+          "风险管理"
+        ],
+        "raw:事业单位": [
+          "协调与沟通能力",
+          "资源管理",
+          "问题解决能力",
+          "项目管理",
+          "风险管理"
+        ],
+        "raw:其他": [
+          "技术理解能力",
+          "沟通能力",
+          "质量控制",
+          "跨部门协调",
+          "项目管理"
+        ],
+        "raw:国企": [
+          "团队合作与协调",
+          "文档管理与报告撰写",
+          "沟通能力",
+          "跨专业协调能力",
+          "项目管理"
+        ],
+        "raw:机械电子": [
+          "机械电子行业知识",
+          "沟通能力",
+          "计划与组织",
+          "跨部门协调",
+          "项目管理"
+        ],
+        "raw:科技": [
+          "技术背景理解",
+          "沟通技能",
+          "跨职能团队协调",
+          "项目管理",
+          "风险管理"
+        ],
+        "raw:科技,专业服务": [
+          "协调沟通能力",
+          "时间管理",
+          "计划制定",
+          "项目管理",
+          "风险管理"
+        ],
+        "raw:科技,其他": [
+          "多任务管理",
+          "技术背景理解",
+          "沟通能力",
+          "跨部门协调",
+          "项目管理"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    },
+    {
+      "occupation_key": "candidate:高中数学教师",
+      "occupation_label": "高中数学教师",
+      "mapped": false,
+      "contexts": [
+        {
+          "context": "l1:教育与人力资本",
+          "recruitment_evidence_count": 6,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        },
+        {
+          "context": "raw:事业单位",
+          "recruitment_evidence_count": 7,
+          "completed_inference_group_count": 1,
+          "skill_count": 5
+        }
+      ],
+      "shared_skills": [
+        "高中数学知识"
+      ],
+      "context_specific_skills": {
+        "l1:教育与人力资本": [
+          "学生沟通与辅导",
+          "教育理论知识",
+          "课程设计与教学能力",
+          "跨学科合作能力",
+          "高中数学知识"
+        ],
+        "raw:事业单位": [
+          "学生评估与成绩管理",
+          "教学设计与课程开发",
+          "沟通能力",
+          "课堂管理能力",
+          "高中数学知识"
+        ]
+      },
+      "eligibility_rule": {
+        "minimum_contexts": 2,
+        "minimum_completed_groups_per_context": 1,
+        "minimum_recruitment_evidence_per_context": 1,
+        "minimum_skills_per_context": 3,
+        "requires_shared_and_distinctive_skills": true
+      }
+    }
+  ]
+}

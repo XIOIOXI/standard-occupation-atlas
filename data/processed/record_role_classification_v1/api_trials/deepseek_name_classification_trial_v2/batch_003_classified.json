@@ -1,0 +1,158 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 3,
+  "processing_method": "deepseek_api_name_only",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "1d0bf0d7-ca2a-4047-8a04-de453476020a",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791747353,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 20,
+  "usage": {
+    "input_tokens": 23466,
+    "cached_input_tokens": 22528,
+    "uncached_input_tokens": 938,
+    "output_tokens": 978,
+    "reasoning_tokens": 0,
+    "total_tokens": 24444
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0007950839999999999
+  },
+  "observed_at_utc": "2026-10-11T19:35:53.972024+00:00",
+  "results": [
+    {
+      "standard_occupation_id": "SNO-1838711f7b15f0cf9ba1",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-1ee0cba93e878e612df1",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "review",
+      "reason": "工艺设备可归机械制造，但名称偏泛"
+    },
+    {
+      "standard_occupation_id": "SNO-246a72f535b0fb633f71",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-4d430387182dba25e4fb",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "review",
+      "reason": "市场营销员可归市场/营销，但具体方向不明"
+    },
+    {
+      "standard_occupation_id": "SNO-133566bc51aa96f3062c",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-32e09c84e82e718ed544",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "财务管理与项目管理两方向粘连"
+    },
+    {
+      "standard_occupation_id": "SNO-6aa8f49cc992dfd75a11",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "review",
+      "reason": "测试可归互联网测试，但行业方向不明"
+    },
+    {
+      "standard_occupation_id": "SNO-e8ec877c8da553d3c55b",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-afa906e58fbae1a1ec23",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "review",
+      "reason": "投后管理可归投融资，但具体职能不明"
+    },
+    {
+      "standard_occupation_id": "SNO-0ec7605e63aece2ec4af",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "缩写英文无法判断职业"
+    },
+    {
+      "standard_occupation_id": "SNO-b8b67433bb430ff655d7",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-media",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-dc86ef160a514ebc2b8c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "机务工程师行业不明"
+    },
+    {
+      "standard_occupation_id": "SNO-fc42de8ced809920dbb0",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "管培生专项计划非具体职业"
+    },
+    {
+      "standard_occupation_id": "SNO-c3497b19b50f99cfbbbe",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "业务管理过于宽泛"
+    },
+    {
+      "standard_occupation_id": "SNO-a06b900e474184960f35",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": null
+    },
+    {
+      "standard_occupation_id": "SNO-be992e432c8abf4f0cc3",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "status": "review",
+      "reason": "线上运营主管可归运营，但具体方向不明"
+    },
+    {
+      "standard_occupation_id": "SNO-51f5e780348980537922",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "智能制造专员职责不明"
+    },
+    {
+      "standard_occupation_id": "SNO-333fdf9f05504bdf318d",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "review",
+      "reason": "助理软件工程师方向不明"
+    },
+    {
+      "standard_occupation_id": "SNO-ed36359f03cb66de8943",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "review",
+      "reason": "CAD/CAM软件开发可归C++图形，但语言未明"
+    },
+    {
+      "standard_occupation_id": "SNO-2ef446313012ae14a0d6",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "review",
+      "reason": "计划控制工程师行业不明"
+    }
+  ]
+}

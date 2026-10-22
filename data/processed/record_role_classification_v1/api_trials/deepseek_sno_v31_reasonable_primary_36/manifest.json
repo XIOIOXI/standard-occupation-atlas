@@ -1,0 +1,627 @@
+{
+  "version": "sno-v3.1-reasonable-primary-v1",
+  "source_run": "C:\\Users\\25223\\Desktop\\AI-Curriculum-Intelligence-Agent\\data\\processed\\record_role_classification_v1\\api_trials\\deepseek_sno_v31_contract_200",
+  "selected_count": 36,
+  "selection_rule": "only status=review from normalized contract-200 results",
+  "taxonomy_version": "sno-v3.1-local-revision",
+  "taxonomy_sha256": "90629daf20448950f94fe1d15804db35af11fe64e4b388140c377f6f45ceecc3",
+  "occupations": [
+    {
+      "occupation_id": "SNO-4aa1a3c6743f7d8e154a",
+      "title": "技术",
+      "previous": {
+        "occupation_id": "SNO-4aa1a3c6743f7d8e154a",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "技术",
+        "level_3_evidence": null,
+        "reason": "标题仅为“技术”，无法确定具体技术职能或方向，属于未明确岗位。"
+      }
+    },
+    {
+      "occupation_id": "SNO-e5d340f2b9ee3320f200",
+      "title": "武汉分行运营培训生",
+      "previous": {
+        "occupation_id": "SNO-e5d340f2b9ee3320f200",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "武汉分行运营培训生",
+        "level_3_evidence": null,
+        "reason": "标题包含“运营培训生”，但“运营”在银行语境下可能指金融运营或综合运营，且为培训生，方向未明确，需进一步确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-7196eec8684a5a8e5af9",
+      "title": "资产评估管培生",
+      "previous": {
+        "occupation_id": "SNO-7196eec8684a5a8e5af9",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "资产评估管培生",
+        "level_3_evidence": null,
+        "reason": "标题包含“资产评估”和“管培生”，但管培生可能轮岗，最终方向未明确，需进一步确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-09b70120c117f7063fcc",
+      "title": "平度办事处业务",
+      "previous": {
+        "occupation_id": "SNO-09b70120c117f7063fcc",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L13-09",
+          "L14-11"
+        ],
+        "title_evidence": "平度办事处业务",
+        "level_3_evidence": null,
+        "reason": "标题仅说明办事处业务，未明确销售或运营职能，无法确定具体类别"
+      }
+    },
+    {
+      "occupation_id": "SNO-f7538f218c7f1dfd7fc7",
+      "title": "客户主管",
+      "previous": {
+        "occupation_id": "SNO-f7538f218c7f1dfd7fc7",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L13-01",
+          "L14-07",
+          "L14-08"
+        ],
+        "title_evidence": "客户主管",
+        "level_3_evidence": null,
+        "reason": "标题仅明确为客户主管，未说明是销售、客服还是客户成功，无法确定唯一二级或三级。"
+      }
+    },
+    {
+      "occupation_id": "SNO-9e0e40d2e6771547d880",
+      "title": "品牌与商务运营",
+      "previous": {
+        "occupation_id": "SNO-9e0e40d2e6771547d880",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L12-02",
+          "L14-01",
+          "L14-03"
+        ],
+        "title_evidence": "品牌与商务运营",
+        "level_3_evidence": null,
+        "reason": "标题包含品牌与商务运营，可能涉及品牌管理、产品运营或内容运营，无法确定唯一二级或三级。"
+      }
+    },
+    {
+      "occupation_id": "SNO-b34d318554be524ed36a",
+      "title": "IP运营管培生",
+      "previous": {
+        "occupation_id": "SNO-b34d318554be524ed36a",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "IP运营管培生",
+        "level_3_evidence": null,
+        "reason": "标题含“管培生”，但“IP运营”可能指知识产权运营或互联网IP运营，职能方向不明确，需人工确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-40221954ae855fa39330",
+      "title": "技能操作",
+      "previous": {
+        "occupation_id": "SNO-40221954ae855fa39330",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L23-10",
+          "L29-11"
+        ],
+        "title_evidence": "技能操作",
+        "level_3_evidence": null,
+        "reason": "“技能操作”过于宽泛，可能属于生产制造或生活服务等操作类岗位，无法确定具体方向。"
+      }
+    },
+    {
+      "occupation_id": "SNO-2e6e48e3280e8474a2ea",
+      "title": "技术运营",
+      "previous": {
+        "occupation_id": "SNO-2e6e48e3280e8474a2ea",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L14-01",
+          "L03-08"
+        ],
+        "title_evidence": "技术运营",
+        "level_3_evidence": null,
+        "reason": "“技术运营”可能指产品平台运营或IT技术运维，方向不明确，需人工确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-741a768f67a709a3a54b",
+      "title": "新能源研发工程师",
+      "previous": {
+        "occupation_id": "SNO-741a768f67a709a3a54b",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L25-03",
+          "L25-09"
+        ],
+        "title_evidence": "新能源研发工程师",
+        "level_3_evidence": null,
+        "reason": "“新能源研发”可能指能源系统与工艺工程或通用能源与环境技术，具体方向不明确。"
+      }
+    },
+    {
+      "occupation_id": "SNO-ad75b05b0c4e14fde23d",
+      "title": "空港物流",
+      "previous": {
+        "occupation_id": "SNO-ad75b05b0c4e14fde23d",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L17-01",
+          "L17-02",
+          "L17-03",
+          "L17-07"
+        ],
+        "title_evidence": "空港物流",
+        "level_3_evidence": null,
+        "reason": "标题仅表明空港物流领域，未明确具体物流作业方向，无法确定唯一二级或三级。"
+      }
+    },
+    {
+      "occupation_id": "SNO-18d0e05d910ecfaf252c",
+      "title": "运营班操作",
+      "previous": {
+        "occupation_id": "SNO-18d0e05d910ecfaf252c",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L23-01",
+          "L23-02",
+          "L23-10"
+        ],
+        "title_evidence": "运营班操作",
+        "level_3_evidence": null,
+        "reason": "运营班操作可能指生产现场操作，但未明确具体工种，无法确定唯一二级或三级。"
+      }
+    },
+    {
+      "occupation_id": "SNO-8d2d2381e456e923ce46",
+      "title": "智能建造",
+      "previous": {
+        "occupation_id": "SNO-8d2d2381e456e923ce46",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L24-07",
+          "L24-10",
+          "L01-11"
+        ],
+        "title_evidence": "智能建造",
+        "level_3_evidence": null,
+        "reason": "智能建造可能涉及施工管理、施工技术或软件研发，无法确定唯一方向。"
+      }
+    },
+    {
+      "occupation_id": "SNO-d890b4198ea74c4163b3",
+      "title": "总体设计师",
+      "previous": {
+        "occupation_id": "SNO-d890b4198ea74c4163b3",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L06-01",
+          "L09-03",
+          "L24-01"
+        ],
+        "title_evidence": "总体设计师",
+        "level_3_evidence": null,
+        "reason": "“总体设计师”未说明行业或产品类型，可能对应机械结构设计、工业产品外观设计或建筑设计等不同二级方向，无法唯一确定。"
+      }
+    },
+    {
+      "occupation_id": "SNO-23501452d85ba0038944",
+      "title": "医学市场管培生",
+      "previous": {
+        "occupation_id": "SNO-23501452d85ba0038944",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "医学市场管培生",
+        "level_3_evidence": null,
+        "reason": "标题含“管培生”，但“医学市场”仅表明行业领域，未明确最终职能方向，无法确定是跨职能轮岗还是综合储备培养。"
+      }
+    },
+    {
+      "occupation_id": "SNO-45f8f899bbabd4cdbb0f",
+      "title": "运营风控",
+      "previous": {
+        "occupation_id": "SNO-45f8f899bbabd4cdbb0f",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L14-01",
+          "L20-07",
+          "L30-03"
+        ],
+        "title_evidence": "运营风控",
+        "level_3_evidence": null,
+        "reason": "“运营风控”可能指平台业务运营风险控制、金融风险控制或企业合规内控，方向不明确。"
+      }
+    },
+    {
+      "occupation_id": "SNO-0b1d9a739c7e90b63cb0",
+      "title": "实施交付",
+      "previous": {
+        "occupation_id": "SNO-0b1d9a739c7e90b63cb0",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L10-03",
+          "L14-10"
+        ],
+        "title_evidence": "实施交付",
+        "level_3_evidence": null,
+        "reason": "“实施交付”可能指客户实施交付项目管理，也可能指售后安装调试技术服务，无法唯一确定。"
+      }
+    },
+    {
+      "occupation_id": "SNO-71587e7f793855dc1589",
+      "title": "业务管理运营",
+      "previous": {
+        "occupation_id": "SNO-71587e7f793855dc1589",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L11-03",
+          "L14-01",
+          "L14-11"
+        ],
+        "title_evidence": "业务管理运营",
+        "level_3_evidence": null,
+        "reason": "“业务管理运营”可能指经营分析与流程改善、产品与平台运营或通用业务运营，方向不明确。"
+      }
+    },
+    {
+      "occupation_id": "SNO-7f7213e5e772f5f3216c",
+      "title": "品质检验管培生",
+      "previous": {
+        "occupation_id": "SNO-7f7213e5e772f5f3216c",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L04-03",
+          "L04-04",
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "品质检验管培生",
+        "level_3_evidence": null,
+        "reason": "标题含“管培生”，且“品质检验”可能对应生产质量管理或检验检测，无法确定最终职能方向。"
+      }
+    },
+    {
+      "occupation_id": "SNO-ac88016e507fd573963d",
+      "title": "业态门店管培生",
+      "previous": {
+        "occupation_id": "SNO-ac88016e507fd573963d",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "业态门店管培生",
+        "level_3_evidence": null,
+        "reason": "标题含“管培生”，但“业态门店”仅表明行业场景，未明确最终职能方向，无法确定是跨职能轮岗还是综合储备培养。"
+      }
+    },
+    {
+      "occupation_id": "SNO-5dfa66abc1c47b16487d",
+      "title": "商务拓展管培生",
+      "previous": {
+        "occupation_id": "SNO-5dfa66abc1c47b16487d",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L13-04",
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "商务拓展管培生",
+        "level_3_evidence": null,
+        "reason": "标题含“管培生”，且“商务拓展”可能对应商务拓展与合作职能，但管培生性质导致最终职能方向不确定。"
+      }
+    },
+    {
+      "occupation_id": "SNO-e11eeca361a5252ac60a",
+      "title": "生产技术",
+      "previous": {
+        "occupation_id": "SNO-e11eeca361a5252ac60a",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L23-01",
+          "L23-02",
+          "L23-10"
+        ],
+        "title_evidence": "生产技术",
+        "level_3_evidence": null,
+        "reason": "“生产技术”可能指生产计划与现场管理、装配与一般生产作业或通用生产技术与作业，方向不明确。"
+      }
+    },
+    {
+      "occupation_id": "SNO-871c94bf8fa894de8d42",
+      "title": "EGG管培生",
+      "previous": {
+        "occupation_id": "SNO-871c94bf8fa894de8d42",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "EGG管培生",
+        "level_3_evidence": null,
+        "reason": "标题仅含“管培生”及公司/项目名称，未说明任何职能方向，无法确定具体类别。"
+      }
+    },
+    {
+      "occupation_id": "SNO-dde28d3ac66cd93e91d5",
+      "title": "组织管理",
+      "previous": {
+        "occupation_id": "SNO-dde28d3ac66cd93e91d5",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L18-03-02",
+          "L11-03"
+        ],
+        "title_evidence": "组织管理",
+        "level_3_evidence": null,
+        "reason": "组织管理可能指组织发展或经营管理，方向不明确，需进一步确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-c716ed2d9f6c2fcac8f0",
+      "title": "海外商品创优生",
+      "previous": {
+        "occupation_id": "SNO-c716ed2d9f6c2fcac8f0",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L16-01-03",
+          "L14-04-02"
+        ],
+        "title_evidence": "海外商品创优生",
+        "level_3_evidence": null,
+        "reason": "海外商品创优生可能涉及零售选品或商品运营，方向不明确，需进一步确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-864fd7b61c046f18cbca",
+      "title": "芯片运营",
+      "previous": {
+        "occupation_id": "SNO-864fd7b61c046f18cbca",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L06-08",
+          "L14-01"
+        ],
+        "title_evidence": "芯片运营",
+        "level_3_evidence": null,
+        "reason": "标题为“芯片运营”，可能指芯片制造运营或产品运营，方向不明确，需人工确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-697c9d4b28ff97b49842",
+      "title": "应用技术工程师",
+      "previous": {
+        "occupation_id": "SNO-697c9d4b28ff97b49842",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L14-09",
+          "L05-07",
+          "L01-11"
+        ],
+        "title_evidence": "应用技术工程师",
+        "level_3_evidence": null,
+        "reason": "标题为“应用技术工程师”，未说明具体技术领域或职能，可能为售前技术支持、电子技术应用或软件开发，需人工确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-df3b618ed3e18631f5c9",
+      "title": "质量与运营",
+      "previous": {
+        "occupation_id": "SNO-df3b618ed3e18631f5c9",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L04-03",
+          "L14-11"
+        ],
+        "title_evidence": "质量与运营",
+        "level_3_evidence": null,
+        "reason": "标题为“质量与运营”，可能指生产质量管理或业务运营，方向不明确，需人工确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-22132637b23ddf147c28",
+      "title": "客户顾问",
+      "previous": {
+        "occupation_id": "SNO-22132637b23ddf147c28",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L13-01",
+          "L14-07",
+          "L14-08"
+        ],
+        "title_evidence": "客户顾问",
+        "level_3_evidence": null,
+        "reason": "标题为“客户顾问”，可能指销售、客服或客户成功，方向不明确，需人工确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-4808e7a15d2091bb129f",
+      "title": "海外研发/产品应用",
+      "previous": {
+        "occupation_id": "SNO-4808e7a15d2091bb129f",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L06-09",
+          "L08-07"
+        ],
+        "title_evidence": "海外研发/产品应用",
+        "level_3_evidence": null,
+        "reason": "标题包含“研发”和“产品应用”，但未明确具体技术领域或产品类型，无法确定唯一二级分类。"
+      }
+    },
+    {
+      "occupation_id": "SNO-4120740026214e819645",
+      "title": "数字金融方向定向培养生",
+      "previous": {
+        "occupation_id": "SNO-4120740026214e819645",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L20-11",
+          "L32-01"
+        ],
+        "title_evidence": "数字金融方向定向培养生",
+        "level_3_evidence": null,
+        "reason": "标题包含“数字金融方向”和“定向培养生”，但未明确具体金融业务职能，且培养性质可能属于管培生。"
+      }
+    },
+    {
+      "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+      "title": "精益智造管培生",
+      "previous": {
+        "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L06-08",
+          "L32-01"
+        ],
+        "title_evidence": "精益智造管培生",
+        "level_3_evidence": null,
+        "reason": "标题包含“精益智造”和“管培生”，可能属于工艺与制造工程或跨职能管理培训，无法确定唯一分类。"
+      }
+    },
+    {
+      "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+      "title": "分公司管理培训生(保险、金融、营销、经济、管理、信息科技、工程、运输、医疗健康)",
+      "previous": {
+        "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01"
+        ],
+        "title_evidence": "分公司管理培训生(保险、金融、营销、经济、管理、信息科技、工程、运输、医疗健康)",
+        "level_3_evidence": null,
+        "reason": "标题为管理培训生，涵盖多个领域，最终职业方向未明确，属于跨职能管理培训与轮岗。"
+      }
+    },
+    {
+      "occupation_id": "SNO-f3a551d78495c24ba751",
+      "title": "成都分行公司业务培训生",
+      "previous": {
+        "occupation_id": "SNO-f3a551d78495c24ba751",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L20-11"
+        ],
+        "title_evidence": "成都分行公司业务培训生",
+        "level_3_evidence": null,
+        "reason": "标题包含'培训生'，但'公司业务'可能指向金融业务或跨职能培养，无法确定具体职能方向，需人工确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-9170b111decf5a940895",
+      "title": "供试品配置/管理通用类:管培生",
+      "previous": {
+        "occupation_id": "SNO-9170b111decf5a940895",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "供试品配置/管理通用类:管培生",
+        "level_3_evidence": null,
+        "reason": "标题包含'管培生'，但'供试品配置/管理'可能指向实验室或医药研发支持，无法确定具体职能方向，需人工确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-f726e823532c0682f85b",
+      "title": "品类发展管培生",
+      "previous": {
+        "occupation_id": "SNO-f726e823532c0682f85b",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "品类发展管培生",
+        "level_3_evidence": null,
+        "reason": "标题包含'管培生'，但'品类发展'可能指向采购、商品运营或产品管理，无法确定具体职能方向，需人工确认。"
+      }
+    }
+  ]
+}

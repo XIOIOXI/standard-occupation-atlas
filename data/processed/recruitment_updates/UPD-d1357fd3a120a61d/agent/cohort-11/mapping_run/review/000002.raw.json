@@ -1,0 +1,28 @@
+{
+  "id": "7983d81d-a5c9-46c0-a4bd-3dd041eaf6e9",
+  "object": "chat.completion",
+  "created": 1792596311,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-c9c795d360971dded7a23676d76ef555\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“业务助理”为泛化岗位，销售商务支持、业务运营或综合事务均可能，review 合理。\"}, {\"occupation_id\": \"UP-d7864aa9a86e56f59eeed38db23afe4a\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"光储充属新能源能源系统技术方向，归 L25-03 合理；无运行调度或电气设计证据，停在二级可接受。\"}, {\"occupation_id\": \"UP-51ebedb37ab2cae8e8a93d2d65382cdb\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"售前技术支持归 L14-09 售前技术与解决方案合理，未区分方案设计或演示验证，停在二级可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17603,
+    "completion_tokens": 244,
+    "total_tokens": 17847,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 1091
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,2674 @@
+{
+  "budget_usd": 1.0,
+  "spent_usd": 0.19959415800000013,
+  "responses": [
+    {
+      "stage": "map",
+      "batch": 1,
+      "usage": {
+        "input_tokens": 17746,
+        "cached_input_tokens": 0,
+        "uncached_input_tokens": 17746,
+        "output_tokens": 3149,
+        "reasoning_tokens": 0,
+        "total_tokens": 20895
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0045513
+      },
+      "raw_file": "0001.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 2,
+      "usage": {
+        "input_tokens": 17828,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1188,
+        "output_tokens": 3227,
+        "reasoning_tokens": 0,
+        "total_tokens": 21055
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0021643199999999995
+      },
+      "raw_file": "0002.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 3,
+      "usage": {
+        "input_tokens": 17673,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1033,
+        "output_tokens": 3297,
+        "reasoning_tokens": 0,
+        "total_tokens": 20970
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0021830699999999996
+      },
+      "raw_file": "0003.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 4,
+      "usage": {
+        "input_tokens": 17717,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1077,
+        "output_tokens": 3170,
+        "reasoning_tokens": 0,
+        "total_tokens": 20887
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0021134699999999997
+      },
+      "raw_file": "0004.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 5,
+      "usage": {
+        "input_tokens": 17703,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1063,
+        "output_tokens": 3365,
+        "reasoning_tokens": 0,
+        "total_tokens": 21068
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00222837
+      },
+      "raw_file": "0005.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 6,
+      "usage": {
+        "input_tokens": 17629,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 989,
+        "output_tokens": 3246,
+        "reasoning_tokens": 0,
+        "total_tokens": 20875
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00214587
+      },
+      "raw_file": "0006.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 7,
+      "usage": {
+        "input_tokens": 17690,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1050,
+        "output_tokens": 3274,
+        "reasoning_tokens": 0,
+        "total_tokens": 20964
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0021718199999999997
+      },
+      "raw_file": "0007.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 8,
+      "usage": {
+        "input_tokens": 17642,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1002,
+        "output_tokens": 3029,
+        "reasoning_tokens": 0,
+        "total_tokens": 20671
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00201762
+      },
+      "raw_file": "0008.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 9,
+      "usage": {
+        "input_tokens": 17637,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 997,
+        "output_tokens": 3008,
+        "reasoning_tokens": 0,
+        "total_tokens": 20645
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00200427
+      },
+      "raw_file": "0009.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 10,
+      "usage": {
+        "input_tokens": 17655,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 247,
+        "output_tokens": 3002,
+        "reasoning_tokens": 0,
+        "total_tokens": 20657
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001890474
+      },
+      "raw_file": "0010.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 11,
+      "usage": {
+        "input_tokens": 17610,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 202,
+        "output_tokens": 3051,
+        "reasoning_tokens": 0,
+        "total_tokens": 20661
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0019131239999999998
+      },
+      "raw_file": "0011.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 12,
+      "usage": {
+        "input_tokens": 17731,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 195,
+        "output_tokens": 3154,
+        "reasoning_tokens": 0,
+        "total_tokens": 20885
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001974258
+      },
+      "raw_file": "0012.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 13,
+      "usage": {
+        "input_tokens": 17698,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 162,
+        "output_tokens": 3236,
+        "reasoning_tokens": 0,
+        "total_tokens": 20934
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.002018508
+      },
+      "raw_file": "0013.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 14,
+      "usage": {
+        "input_tokens": 17667,
+        "cached_input_tokens": 17533,
+        "uncached_input_tokens": 134,
+        "output_tokens": 3040,
+        "reasoning_tokens": 0,
+        "total_tokens": 20707
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0018966990000000002
+      },
+      "raw_file": "0014.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 15,
+      "usage": {
+        "input_tokens": 17613,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 205,
+        "output_tokens": 3115,
+        "reasoning_tokens": 0,
+        "total_tokens": 20728
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001951974
+      },
+      "raw_file": "0015.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 16,
+      "usage": {
+        "input_tokens": 17674,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 138,
+        "output_tokens": 3058,
+        "reasoning_tokens": 0,
+        "total_tokens": 20732
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001908108
+      },
+      "raw_file": "0016.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 17,
+      "usage": {
+        "input_tokens": 17819,
+        "cached_input_tokens": 17664,
+        "uncached_input_tokens": 155,
+        "output_tokens": 3151,
+        "reasoning_tokens": 0,
+        "total_tokens": 20970
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001966842
+      },
+      "raw_file": "0017.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 18,
+      "usage": {
+        "input_tokens": 17635,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 227,
+        "output_tokens": 3076,
+        "reasoning_tokens": 0,
+        "total_tokens": 20711
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0019318739999999999
+      },
+      "raw_file": "0018.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 19,
+      "usage": {
+        "input_tokens": 17651,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 243,
+        "output_tokens": 3223,
+        "reasoning_tokens": 0,
+        "total_tokens": 20874
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.002022474
+      },
+      "raw_file": "0019.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 20,
+      "usage": {
+        "input_tokens": 17674,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 138,
+        "output_tokens": 3178,
+        "reasoning_tokens": 0,
+        "total_tokens": 20852
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001980108
+      },
+      "raw_file": "0020.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 21,
+      "usage": {
+        "input_tokens": 17710,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 174,
+        "output_tokens": 3228,
+        "reasoning_tokens": 0,
+        "total_tokens": 20938
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.002015508
+      },
+      "raw_file": "0021.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 22,
+      "usage": {
+        "input_tokens": 17678,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 142,
+        "output_tokens": 3502,
+        "reasoning_tokens": 0,
+        "total_tokens": 21180
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.002175108
+      },
+      "raw_file": "0022.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 23,
+      "usage": {
+        "input_tokens": 17674,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 138,
+        "output_tokens": 2931,
+        "reasoning_tokens": 0,
+        "total_tokens": 20605
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001831908
+      },
+      "raw_file": "0023.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 24,
+      "usage": {
+        "input_tokens": 17803,
+        "cached_input_tokens": 17664,
+        "uncached_input_tokens": 139,
+        "output_tokens": 3134,
+        "reasoning_tokens": 0,
+        "total_tokens": 20937
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001954242
+      },
+      "raw_file": "0024.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 25,
+      "usage": {
+        "input_tokens": 17634,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 226,
+        "output_tokens": 3020,
+        "reasoning_tokens": 0,
+        "total_tokens": 20654
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001898124
+      },
+      "raw_file": "0025.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 26,
+      "usage": {
+        "input_tokens": 17721,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 185,
+        "output_tokens": 3346,
+        "reasoning_tokens": 0,
+        "total_tokens": 21067
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.002087958
+      },
+      "raw_file": "0026.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 27,
+      "usage": {
+        "input_tokens": 17614,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 206,
+        "output_tokens": 2233,
+        "reasoning_tokens": 0,
+        "total_tokens": 19847
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0014229239999999999
+      },
+      "raw_file": "0027.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 28,
+      "usage": {
+        "input_tokens": 17678,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 142,
+        "output_tokens": 3030,
+        "reasoning_tokens": 0,
+        "total_tokens": 20708
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0018919079999999999
+      },
+      "raw_file": "0028.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 29,
+      "usage": {
+        "input_tokens": 17650,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 242,
+        "output_tokens": 3435,
+        "reasoning_tokens": 0,
+        "total_tokens": 21085
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.002149524
+      },
+      "raw_file": "0029.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 30,
+      "usage": {
+        "input_tokens": 17692,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 156,
+        "output_tokens": 3118,
+        "reasoning_tokens": 0,
+        "total_tokens": 20810
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001946808
+      },
+      "raw_file": "0030.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 31,
+      "usage": {
+        "input_tokens": 17775,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 239,
+        "output_tokens": 3350,
+        "reasoning_tokens": 0,
+        "total_tokens": 21125
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.002098458
+      },
+      "raw_file": "0031.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 32,
+      "usage": {
+        "input_tokens": 17704,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 168,
+        "output_tokens": 2931,
+        "reasoning_tokens": 0,
+        "total_tokens": 20635
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0018364079999999999
+      },
+      "raw_file": "0032.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 33,
+      "usage": {
+        "input_tokens": 17624,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 216,
+        "output_tokens": 3052,
+        "reasoning_tokens": 0,
+        "total_tokens": 20676
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001915824
+      },
+      "raw_file": "0033.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 34,
+      "usage": {
+        "input_tokens": 17659,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 251,
+        "output_tokens": 2862,
+        "reasoning_tokens": 0,
+        "total_tokens": 20521
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001807074
+      },
+      "raw_file": "0034.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 35,
+      "usage": {
+        "input_tokens": 17614,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 206,
+        "output_tokens": 3186,
+        "reasoning_tokens": 0,
+        "total_tokens": 20800
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001994724
+      },
+      "raw_file": "0035.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 36,
+      "usage": {
+        "input_tokens": 17703,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 167,
+        "output_tokens": 3037,
+        "reasoning_tokens": 0,
+        "total_tokens": 20740
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001899858
+      },
+      "raw_file": "0036.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 37,
+      "usage": {
+        "input_tokens": 17753,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 217,
+        "output_tokens": 2989,
+        "reasoning_tokens": 0,
+        "total_tokens": 20742
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0018785579999999998
+      },
+      "raw_file": "0037.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 38,
+      "usage": {
+        "input_tokens": 17722,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 186,
+        "output_tokens": 3113,
+        "reasoning_tokens": 0,
+        "total_tokens": 20835
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001948308
+      },
+      "raw_file": "0038.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 39,
+      "usage": {
+        "input_tokens": 17800,
+        "cached_input_tokens": 17664,
+        "uncached_input_tokens": 136,
+        "output_tokens": 3514,
+        "reasoning_tokens": 0,
+        "total_tokens": 21314
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.002181792
+      },
+      "raw_file": "0039.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 40,
+      "usage": {
+        "input_tokens": 17687,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 151,
+        "output_tokens": 3242,
+        "reasoning_tokens": 0,
+        "total_tokens": 20929
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0020204579999999997
+      },
+      "raw_file": "0040.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 41,
+      "usage": {
+        "input_tokens": 17683,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 147,
+        "output_tokens": 2999,
+        "reasoning_tokens": 0,
+        "total_tokens": 20682
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0018740579999999998
+      },
+      "raw_file": "0041.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 42,
+      "usage": {
+        "input_tokens": 17724,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 188,
+        "output_tokens": 3153,
+        "reasoning_tokens": 0,
+        "total_tokens": 20877
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001972608
+      },
+      "raw_file": "0042.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 43,
+      "usage": {
+        "input_tokens": 17743,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 207,
+        "output_tokens": 3226,
+        "reasoning_tokens": 0,
+        "total_tokens": 20969
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.002019258
+      },
+      "raw_file": "0043.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 44,
+      "usage": {
+        "input_tokens": 17663,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 255,
+        "output_tokens": 2706,
+        "reasoning_tokens": 0,
+        "total_tokens": 20369
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001714074
+      },
+      "raw_file": "0044.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 45,
+      "usage": {
+        "input_tokens": 17640,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 232,
+        "output_tokens": 3124,
+        "reasoning_tokens": 0,
+        "total_tokens": 20764
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001961424
+      },
+      "raw_file": "0045.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 46,
+      "usage": {
+        "input_tokens": 17678,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 142,
+        "output_tokens": 2750,
+        "reasoning_tokens": 0,
+        "total_tokens": 20428
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001723908
+      },
+      "raw_file": "0046.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 47,
+      "usage": {
+        "input_tokens": 17679,
+        "cached_input_tokens": 17536,
+        "uncached_input_tokens": 143,
+        "output_tokens": 3124,
+        "reasoning_tokens": 0,
+        "total_tokens": 20803
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001948458
+      },
+      "raw_file": "0047.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 48,
+      "usage": {
+        "input_tokens": 17711,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1071,
+        "output_tokens": 3389,
+        "reasoning_tokens": 0,
+        "total_tokens": 21100
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0022439699999999996
+      },
+      "raw_file": "0048.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 49,
+      "usage": {
+        "input_tokens": 17668,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1028,
+        "output_tokens": 3081,
+        "reasoning_tokens": 0,
+        "total_tokens": 20749
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0020527199999999996
+      },
+      "raw_file": "0049.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 50,
+      "usage": {
+        "input_tokens": 17759,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1119,
+        "output_tokens": 3100,
+        "reasoning_tokens": 0,
+        "total_tokens": 20859
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00207777
+      },
+      "raw_file": "0050.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 51,
+      "usage": {
+        "input_tokens": 17691,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1051,
+        "output_tokens": 3127,
+        "reasoning_tokens": 0,
+        "total_tokens": 20818
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00208377
+      },
+      "raw_file": "0051.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 52,
+      "usage": {
+        "input_tokens": 17658,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1018,
+        "output_tokens": 3150,
+        "reasoning_tokens": 0,
+        "total_tokens": 20808
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00209262
+      },
+      "raw_file": "0052.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 53,
+      "usage": {
+        "input_tokens": 17667,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1027,
+        "output_tokens": 3049,
+        "reasoning_tokens": 0,
+        "total_tokens": 20716
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00203337
+      },
+      "raw_file": "0053.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 54,
+      "usage": {
+        "input_tokens": 17786,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1146,
+        "output_tokens": 2950,
+        "reasoning_tokens": 0,
+        "total_tokens": 20736
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00199182
+      },
+      "raw_file": "0054.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 55,
+      "usage": {
+        "input_tokens": 17713,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1073,
+        "output_tokens": 3094,
+        "reasoning_tokens": 0,
+        "total_tokens": 20807
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00206727
+      },
+      "raw_file": "0055.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 56,
+      "usage": {
+        "input_tokens": 17676,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1036,
+        "output_tokens": 3224,
+        "reasoning_tokens": 0,
+        "total_tokens": 20900
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00213972
+      },
+      "raw_file": "0056.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 57,
+      "usage": {
+        "input_tokens": 17648,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1008,
+        "output_tokens": 3040,
+        "reasoning_tokens": 0,
+        "total_tokens": 20688
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00202512
+      },
+      "raw_file": "0057.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 58,
+      "usage": {
+        "input_tokens": 17759,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1119,
+        "output_tokens": 3096,
+        "reasoning_tokens": 0,
+        "total_tokens": 20855
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00207537
+      },
+      "raw_file": "0058.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 59,
+      "usage": {
+        "input_tokens": 17620,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 980,
+        "output_tokens": 3066,
+        "reasoning_tokens": 0,
+        "total_tokens": 20686
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00203652
+      },
+      "raw_file": "0059.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 60,
+      "usage": {
+        "input_tokens": 17700,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1060,
+        "output_tokens": 3077,
+        "reasoning_tokens": 0,
+        "total_tokens": 20777
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0020551199999999997
+      },
+      "raw_file": "0060.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 61,
+      "usage": {
+        "input_tokens": 17753,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1113,
+        "output_tokens": 3443,
+        "reasoning_tokens": 0,
+        "total_tokens": 21196
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0022826699999999997
+      },
+      "raw_file": "0061.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 62,
+      "usage": {
+        "input_tokens": 17672,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1032,
+        "output_tokens": 3030,
+        "reasoning_tokens": 0,
+        "total_tokens": 20702
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00202272
+      },
+      "raw_file": "0062.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 63,
+      "usage": {
+        "input_tokens": 17776,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1136,
+        "output_tokens": 2765,
+        "reasoning_tokens": 0,
+        "total_tokens": 20541
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0018793199999999999
+      },
+      "raw_file": "0063.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 64,
+      "usage": {
+        "input_tokens": 17694,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1054,
+        "output_tokens": 3055,
+        "reasoning_tokens": 0,
+        "total_tokens": 20749
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00204102
+      },
+      "raw_file": "0064.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 65,
+      "usage": {
+        "input_tokens": 17757,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1117,
+        "output_tokens": 2903,
+        "reasoning_tokens": 0,
+        "total_tokens": 20660
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00195927
+      },
+      "raw_file": "0065.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 66,
+      "usage": {
+        "input_tokens": 17674,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 1034,
+        "output_tokens": 3112,
+        "reasoning_tokens": 0,
+        "total_tokens": 20786
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0020722199999999996
+      },
+      "raw_file": "0066.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 67,
+      "usage": {
+        "input_tokens": 17586,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 946,
+        "output_tokens": 3057,
+        "reasoning_tokens": 0,
+        "total_tokens": 20643
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00202602
+      },
+      "raw_file": "0067.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 68,
+      "usage": {
+        "input_tokens": 17592,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 952,
+        "output_tokens": 3304,
+        "reasoning_tokens": 0,
+        "total_tokens": 20896
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00217512
+      },
+      "raw_file": "0068.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 69,
+      "usage": {
+        "input_tokens": 17576,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 168,
+        "output_tokens": 3011,
+        "reasoning_tokens": 0,
+        "total_tokens": 20587
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001884024
+      },
+      "raw_file": "0069.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 70,
+      "usage": {
+        "input_tokens": 17581,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 173,
+        "output_tokens": 2929,
+        "reasoning_tokens": 0,
+        "total_tokens": 20510
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0018355739999999998
+      },
+      "raw_file": "0070.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 71,
+      "usage": {
+        "input_tokens": 17573,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 165,
+        "output_tokens": 2715,
+        "reasoning_tokens": 0,
+        "total_tokens": 20288
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0017059739999999999
+      },
+      "raw_file": "0071.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 72,
+      "usage": {
+        "input_tokens": 17594,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 186,
+        "output_tokens": 3041,
+        "reasoning_tokens": 0,
+        "total_tokens": 20635
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001904724
+      },
+      "raw_file": "0072.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 73,
+      "usage": {
+        "input_tokens": 17571,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 163,
+        "output_tokens": 3236,
+        "reasoning_tokens": 0,
+        "total_tokens": 20807
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.002018274
+      },
+      "raw_file": "0073.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 74,
+      "usage": {
+        "input_tokens": 17593,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 185,
+        "output_tokens": 2995,
+        "reasoning_tokens": 0,
+        "total_tokens": 20588
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001876974
+      },
+      "raw_file": "0074.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 75,
+      "usage": {
+        "input_tokens": 17596,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 188,
+        "output_tokens": 3033,
+        "reasoning_tokens": 0,
+        "total_tokens": 20629
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0019002239999999998
+      },
+      "raw_file": "0075.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 76,
+      "usage": {
+        "input_tokens": 17560,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 152,
+        "output_tokens": 2978,
+        "reasoning_tokens": 0,
+        "total_tokens": 20538
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001861824
+      },
+      "raw_file": "0076.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 77,
+      "usage": {
+        "input_tokens": 17609,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 201,
+        "output_tokens": 3144,
+        "reasoning_tokens": 0,
+        "total_tokens": 20753
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001968774
+      },
+      "raw_file": "0077.raw.json"
+    },
+    {
+      "stage": "map",
+      "batch": 78,
+      "usage": {
+        "input_tokens": 17574,
+        "cached_input_tokens": 17408,
+        "uncached_input_tokens": 166,
+        "output_tokens": 2304,
+        "reasoning_tokens": 0,
+        "total_tokens": 19878
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0014595239999999998
+      },
+      "raw_file": "0078.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 1,
+      "usage": {
+        "input_tokens": 20520,
+        "cached_input_tokens": 20352,
+        "uncached_input_tokens": 168,
+        "output_tokens": 1135,
+        "reasoning_tokens": 0,
+        "total_tokens": 21655
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000767256
+      },
+      "raw_file": "0001.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 2,
+      "usage": {
+        "input_tokens": 20679,
+        "cached_input_tokens": 20480,
+        "uncached_input_tokens": 199,
+        "output_tokens": 1484,
+        "reasoning_tokens": 0,
+        "total_tokens": 22163
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00098169
+      },
+      "raw_file": "0002.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 3,
+      "usage": {
+        "input_tokens": 20595,
+        "cached_input_tokens": 20352,
+        "uncached_input_tokens": 243,
+        "output_tokens": 1654,
+        "reasoning_tokens": 0,
+        "total_tokens": 22249
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0010899059999999999
+      },
+      "raw_file": "0003.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 4,
+      "usage": {
+        "input_tokens": 20426,
+        "cached_input_tokens": 20224,
+        "uncached_input_tokens": 202,
+        "output_tokens": 1521,
+        "reasoning_tokens": 0,
+        "total_tokens": 21947
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001003572
+      },
+      "raw_file": "0004.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 5,
+      "usage": {
+        "input_tokens": 20693,
+        "cached_input_tokens": 20480,
+        "uncached_input_tokens": 213,
+        "output_tokens": 1336,
+        "reasoning_tokens": 0,
+        "total_tokens": 22029
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00089499
+      },
+      "raw_file": "0005.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 6,
+      "usage": {
+        "input_tokens": 20371,
+        "cached_input_tokens": 20224,
+        "uncached_input_tokens": 147,
+        "output_tokens": 1502,
+        "reasoning_tokens": 0,
+        "total_tokens": 21873
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000983922
+      },
+      "raw_file": "0006.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 7,
+      "usage": {
+        "input_tokens": 20590,
+        "cached_input_tokens": 20352,
+        "uncached_input_tokens": 238,
+        "output_tokens": 1905,
+        "reasoning_tokens": 0,
+        "total_tokens": 22495
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001239756
+      },
+      "raw_file": "0007.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 8,
+      "usage": {
+        "input_tokens": 20297,
+        "cached_input_tokens": 20096,
+        "uncached_input_tokens": 201,
+        "output_tokens": 1434,
+        "reasoning_tokens": 0,
+        "total_tokens": 21731
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000950838
+      },
+      "raw_file": "0008.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 9,
+      "usage": {
+        "input_tokens": 20269,
+        "cached_input_tokens": 20096,
+        "uncached_input_tokens": 173,
+        "output_tokens": 1483,
+        "reasoning_tokens": 0,
+        "total_tokens": 21752
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000976038
+      },
+      "raw_file": "0009.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 10,
+      "usage": {
+        "input_tokens": 20281,
+        "cached_input_tokens": 20096,
+        "uncached_input_tokens": 185,
+        "output_tokens": 1466,
+        "reasoning_tokens": 0,
+        "total_tokens": 21747
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000967638
+      },
+      "raw_file": "0010.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 11,
+      "usage": {
+        "input_tokens": 20287,
+        "cached_input_tokens": 20096,
+        "uncached_input_tokens": 191,
+        "output_tokens": 1406,
+        "reasoning_tokens": 0,
+        "total_tokens": 21693
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000932538
+      },
+      "raw_file": "0011.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 12,
+      "usage": {
+        "input_tokens": 20452,
+        "cached_input_tokens": 20224,
+        "uncached_input_tokens": 228,
+        "output_tokens": 1971,
+        "reasoning_tokens": 0,
+        "total_tokens": 22423
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001277472
+      },
+      "raw_file": "0012.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 13,
+      "usage": {
+        "input_tokens": 20559,
+        "cached_input_tokens": 20352,
+        "uncached_input_tokens": 207,
+        "output_tokens": 1771,
+        "reasoning_tokens": 0,
+        "total_tokens": 22330
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001154706
+      },
+      "raw_file": "0013.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 14,
+      "usage": {
+        "input_tokens": 20331,
+        "cached_input_tokens": 20096,
+        "uncached_input_tokens": 235,
+        "output_tokens": 1461,
+        "reasoning_tokens": 0,
+        "total_tokens": 21792
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000972138
+      },
+      "raw_file": "0014.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 16,
+      "usage": {
+        "input_tokens": 20320,
+        "cached_input_tokens": 16512,
+        "uncached_input_tokens": 3808,
+        "output_tokens": 1390,
+        "reasoning_tokens": 0,
+        "total_tokens": 21710
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0014547359999999999
+      },
+      "raw_file": "0016.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 17,
+      "usage": {
+        "input_tokens": 20539,
+        "cached_input_tokens": 16512,
+        "uncached_input_tokens": 4027,
+        "output_tokens": 1817,
+        "reasoning_tokens": 0,
+        "total_tokens": 22356
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001743786
+      },
+      "raw_file": "0017.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 18,
+      "usage": {
+        "input_tokens": 20272,
+        "cached_input_tokens": 16512,
+        "uncached_input_tokens": 3760,
+        "output_tokens": 1372,
+        "reasoning_tokens": 0,
+        "total_tokens": 21644
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0014367359999999999
+      },
+      "raw_file": "0018.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 19,
+      "usage": {
+        "input_tokens": 20572,
+        "cached_input_tokens": 16512,
+        "uncached_input_tokens": 4060,
+        "output_tokens": 2067,
+        "reasoning_tokens": 0,
+        "total_tokens": 22639
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001898736
+      },
+      "raw_file": "0019.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 20,
+      "usage": {
+        "input_tokens": 20555,
+        "cached_input_tokens": 20352,
+        "uncached_input_tokens": 203,
+        "output_tokens": 1999,
+        "reasoning_tokens": 0,
+        "total_tokens": 22554
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0012909059999999999
+      },
+      "raw_file": "0020.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 21,
+      "usage": {
+        "input_tokens": 20692,
+        "cached_input_tokens": 20480,
+        "uncached_input_tokens": 212,
+        "output_tokens": 1392,
+        "reasoning_tokens": 0,
+        "total_tokens": 22084
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00092844
+      },
+      "raw_file": "0021.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 22,
+      "usage": {
+        "input_tokens": 20635,
+        "cached_input_tokens": 20480,
+        "uncached_input_tokens": 155,
+        "output_tokens": 1362,
+        "reasoning_tokens": 0,
+        "total_tokens": 21997
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0009018899999999999
+      },
+      "raw_file": "0022.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 23,
+      "usage": {
+        "input_tokens": 20127,
+        "cached_input_tokens": 19968,
+        "uncached_input_tokens": 159,
+        "output_tokens": 1771,
+        "reasoning_tokens": 0,
+        "total_tokens": 21898
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0011463539999999998
+      },
+      "raw_file": "0023.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 24,
+      "usage": {
+        "input_tokens": 20459,
+        "cached_input_tokens": 20224,
+        "uncached_input_tokens": 235,
+        "output_tokens": 1516,
+        "reasoning_tokens": 0,
+        "total_tokens": 21975
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001005522
+      },
+      "raw_file": "0024.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 25,
+      "usage": {
+        "input_tokens": 20382,
+        "cached_input_tokens": 20224,
+        "uncached_input_tokens": 158,
+        "output_tokens": 1358,
+        "reasoning_tokens": 0,
+        "total_tokens": 21740
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000899172
+      },
+      "raw_file": "0025.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 26,
+      "usage": {
+        "input_tokens": 20637,
+        "cached_input_tokens": 20480,
+        "uncached_input_tokens": 157,
+        "output_tokens": 1871,
+        "reasoning_tokens": 0,
+        "total_tokens": 22508
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00120759
+      },
+      "raw_file": "0026.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 27,
+      "usage": {
+        "input_tokens": 20099,
+        "cached_input_tokens": 19965,
+        "uncached_input_tokens": 134,
+        "output_tokens": 1332,
+        "reasoning_tokens": 0,
+        "total_tokens": 21431
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0008791949999999999
+      },
+      "raw_file": "0027.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 28,
+      "usage": {
+        "input_tokens": 20332,
+        "cached_input_tokens": 20096,
+        "uncached_input_tokens": 236,
+        "output_tokens": 1309,
+        "reasoning_tokens": 0,
+        "total_tokens": 21641
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0008810879999999999
+      },
+      "raw_file": "0028.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 29,
+      "usage": {
+        "input_tokens": 20576,
+        "cached_input_tokens": 20352,
+        "uncached_input_tokens": 224,
+        "output_tokens": 2029,
+        "reasoning_tokens": 0,
+        "total_tokens": 22605
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0013120559999999998
+      },
+      "raw_file": "0029.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 30,
+      "usage": {
+        "input_tokens": 20434,
+        "cached_input_tokens": 20224,
+        "uncached_input_tokens": 210,
+        "output_tokens": 1478,
+        "reasoning_tokens": 0,
+        "total_tokens": 21912
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000978972
+      },
+      "raw_file": "0030.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 31,
+      "usage": {
+        "input_tokens": 20606,
+        "cached_input_tokens": 20352,
+        "uncached_input_tokens": 254,
+        "output_tokens": 1806,
+        "reasoning_tokens": 0,
+        "total_tokens": 22412
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0011827559999999999
+      },
+      "raw_file": "0031.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 32,
+      "usage": {
+        "input_tokens": 20260,
+        "cached_input_tokens": 20096,
+        "uncached_input_tokens": 164,
+        "output_tokens": 1696,
+        "reasoning_tokens": 0,
+        "total_tokens": 21956
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0011024879999999998
+      },
+      "raw_file": "0032.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 33,
+      "usage": {
+        "input_tokens": 20298,
+        "cached_input_tokens": 20096,
+        "uncached_input_tokens": 202,
+        "output_tokens": 1940,
+        "reasoning_tokens": 0,
+        "total_tokens": 22238
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001254588
+      },
+      "raw_file": "0033.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 34,
+      "usage": {
+        "input_tokens": 20368,
+        "cached_input_tokens": 20224,
+        "uncached_input_tokens": 144,
+        "output_tokens": 1751,
+        "reasoning_tokens": 0,
+        "total_tokens": 22119
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.0011328719999999998
+      },
+      "raw_file": "0034.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 35,
+      "usage": {
+        "input_tokens": 20425,
+        "cached_input_tokens": 20224,
+        "uncached_input_tokens": 201,
+        "output_tokens": 1443,
+        "reasoning_tokens": 0,
+        "total_tokens": 21868
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000956622
+      },
+      "raw_file": "0035.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 36,
+      "usage": {
+        "input_tokens": 20180,
+        "cached_input_tokens": 19968,
+        "uncached_input_tokens": 212,
+        "output_tokens": 1375,
+        "reasoning_tokens": 0,
+        "total_tokens": 21555
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000916704
+      },
+      "raw_file": "0036.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 37,
+      "usage": {
+        "input_tokens": 20365,
+        "cached_input_tokens": 20224,
+        "uncached_input_tokens": 141,
+        "output_tokens": 1476,
+        "reasoning_tokens": 0,
+        "total_tokens": 21841
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.000967422
+      },
+      "raw_file": "0037.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 38,
+      "usage": {
+        "input_tokens": 20463,
+        "cached_input_tokens": 20224,
+        "uncached_input_tokens": 239,
+        "output_tokens": 1715,
+        "reasoning_tokens": 0,
+        "total_tokens": 22178
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.001125522
+      },
+      "raw_file": "0038.raw.json"
+    },
+    {
+      "stage": "review",
+      "batch": 40,
+      "usage": {
+        "input_tokens": 20584,
+        "cached_input_tokens": 16640,
+        "uncached_input_tokens": 3944,
+        "output_tokens": 1838,
+        "reasoning_tokens": 0,
+        "total_tokens": 22422
+      },
+      "cost_estimate": {
+        "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+        "beijing_price_window": "off_peak",
+        "rates_usd_per_million_tokens": {
+          "cached_input_per_million_usd": 0.003,
+          "uncached_input_per_million_usd": 0.15,
+          "output_per_million_usd": 0.6
+        },
+        "estimated_usd": 0.00174432
+      },
+      "raw_file": "0040.raw.json"
+    }
+  ]
+}

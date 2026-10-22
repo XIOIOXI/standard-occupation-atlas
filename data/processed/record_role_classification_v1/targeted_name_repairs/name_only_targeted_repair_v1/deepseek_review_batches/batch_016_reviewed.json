@@ -1,0 +1,185 @@
+{
+  "batch_number": 16,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "838b24e1-3d59-4a88-8266-7ea774a38341",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813257,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30899,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3635,
+    "output_tokens": 2029,
+    "reasoning_tokens": 0,
+    "total_tokens": 32928
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001844442
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-1c618cd67311f267b394",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "生成式AI研究员（图形学方向）核心为生成式AI研究，归入大模型与生成式AI合理；图形学方向为细分方向，不改变核心职业归属。"
+    },
+    {
+      "occupation_id": "SNO-c3f4f4e38920f803df52",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "GIS软件开发工程师仅能确认软件开发属性，未注明语言或技术栈，无法确认属于业务服务端开发；可保留最深可确认上级后端开发，但三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-a38a2dc9829f750052a8",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "海洋大模型工程师核心为大模型方向，归入大模型与生成式AI合理；海洋为应用领域，不改变核心职业归属。"
+    },
+    {
+      "occupation_id": "SNO-fd95042fcc68e4d6fb7b",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列期刊推广、新媒体运营、会议论文等多个独立职能方向，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-efff45615c8db36346f8",
+      "decision": "keep",
+      "target_category_id": "产品/product-internet/product-platform",
+      "reason": "产品管培生-软件核心为互联网产品方向，管培生为培养性质，归入平台与企业产品合理。"
+    },
+    {
+      "occupation_id": "SNO-76f0c589fd49e4ba1629",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-finance",
+      "reason": "后台开发工程师(柜台交易)核心为金融行业后端开发，归入金融与行业后端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-da275204ddeb6fbf8f1d",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "系统程序员仅能确认系统开发属性，未注明C++语言，无法确认属于C++系统与底层开发；三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-c5e310ecccec42373939",
+      "decision": "fallback_review",
+      "target_category_id": "咨询/翻译/法律/consult-russian/ru-translation-interpreting",
+      "reason": "俄语管培生仅能确认俄语相关，未注明口译或商务沟通职责，无法确认属于俄语口译与商务沟通；三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-9c65ef8bcddfd89b4459",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列行政文秘、法律、财务审计、人力资源等多个独立职业方向，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-df62401f57af5d759226",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列安全/质量工程师与会计员/成本管理两个独立职业方向，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-d1cfe446eeb551c2e1f2",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "市场综合监管辅助员属于市场监管辅助类岗位，目录中无对应类别可承接。"
+    },
+    {
+      "occupation_id": "SNO-b86b66acdabdea0319c8",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "有色冶金设计属于冶金工程设计方向，目录中无对应类别可承接。"
+    },
+    {
+      "occupation_id": "SNO-593f6de190e26afd54d9",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列创新投融资研究和项目策划两个独立职责方向，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-99dbdce76a6853e556dc",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "上位机软件开发工程师仅能确认软件开发属性，未注明语言或技术栈，无法确认属于业务服务端开发；三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-07a9045d768f7752fbd1",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "制冷售后技术支持工程师核心为技术支持，但制冷行业属性与互联网/AI领域不符，归入互联网技术支持依据不足。"
+    },
+    {
+      "occupation_id": "SNO-d503ce7715e5daa60036",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "海外注册专员属于产品注册/合规方向，目录中无对应类别可承接。"
+    },
+    {
+      "occupation_id": "SNO-ff4d014f2ee3b9dc96e5",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列服装设计助理、新媒体运营、门店服装导购三个独立职业，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-2cbfc99ac32a92f7d46f",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "软件总体设计工程师仅能确认软件架构设计属性，未注明语言或平台技术栈，无法确认属于平台与中间件开发；三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-99ce2a9811dfe1af67ad",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列管培生(业务方向)和管培生(研究方向)两个不同方向，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-e5b6665bfe9a83fb40dc",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "量子计算科学家核心为算法研究，但量子计算为特定前沿领域，归入通用算法研究依据不足；可保留最深可确认上级算法工程师。"
+    },
+    {
+      "occupation_id": "SNO-c8e70bcf6040e23eba0a",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列渔业系统大数据与基因编辑两个独立方向，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-9bb0ebe056ece862fb65",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型应用实习生核心为大模型应用方向，归入大模型与生成式AI合理。"
+    },
+    {
+      "occupation_id": "SNO-6b50db0fff2468b1f99e",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列运营、技术、创意设计、产品市场、职能支持等多个独立职业方向，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-f8a931d59cb8cab2062a",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列外贸业务开发、外卖业务维护、采购等多个独立职业，属于多职业复合。"
+    },
+    {
+      "occupation_id": "SNO-8f7155014f47d16193aa",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器狗运动控制工程师核心为机器人运动控制，归入机器人与具身智能合理。"
+    }
+  ]
+}

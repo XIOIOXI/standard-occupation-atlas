@@ -1,0 +1,24 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-1e8030da84776b45800e",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-1e8030da84776b45800e",
+    "case": "A",
+    "child_titles": [
+      "电学专利代理师(培养)",
+      "机械专利代理师(培养)",
+      "涉外专利代理师(培养)",
+      "律师助理"
+    ],
+    "source_spans": [
+      {
+        "text": "电学专利代理师(培养)机械专利代理师(培养) 涉外专利代理师(培养)律师助理",
+        "start": 0,
+        "end": 37
+      }
+    ],
+    "reason": "多个岗位名称并列，可独立作为岗位，符合拆分条件。"
+  }
+}

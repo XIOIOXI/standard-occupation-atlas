@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-a8f658e7806932eeac08e2b42964e914",
+      "verdict": "pass",
+      "suggested_target_category_id": "L16-01",
+      "issue": "采购助理工程师主归属采购与供应商管理合理；未说明采购物料类型，停在二级L16-01恰当。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17040,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 528,
+    "output_tokens": 79,
+    "reasoning_tokens": 0,
+    "total_tokens": 17119
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000352272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

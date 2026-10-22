@@ -1,0 +1,185 @@
+{
+  "batch_number": 45,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "948a7aa2-c569-4644-b96b-8cae048867b8",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821918,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29502,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2110,
+    "output_tokens": 1260,
+    "reasoning_tokens": 0,
+    "total_tokens": 30762
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0011546759999999999
+  },
+  "results": [
+    {
+      "entry_id": "SNO-8fabe8a2c55d658a48d2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "仪器系统工程师所属行业与技术方向不明确，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-9020e6102000ada03f60",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "AI应用管培生为培训生项目，方向不明确，无法确认具体职业类别。"
+    },
+    {
+      "entry_id": "SNO-90465add5a1c596a9f4e",
+      "status": "multi_role",
+      "target_category_id": "互联网/AI",
+      "reason": "名称明确列出测试工程师与JAVA开发工程师两个独立职业，共同上级为互联网/AI。"
+    },
+    {
+      "entry_id": "SNO-906150e01036a9980d69",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "策略分析师范围过宽，缺少行业或业务领域信息，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-9093485d2915d97f29e7",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "AI开发工程师核心为AI开发，但括号内射频测试环境指向不明确，仅能确认一级互联网/AI。"
+    },
+    {
+      "entry_id": "SNO-90ac150b21b9bd500fab",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出研发、产品工艺、海外销售等多个互不兼容的独立职业，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-90b505adbabf4184d916",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "AI软件架构工程师方向不明确，无法确认具体三级，仅能确认一级互联网/AI。"
+    },
+    {
+      "entry_id": "SNO-90ce3fab75abb29ab424",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "软件开发工程师列出C/C++/Java多语言，无法确认单一三级，仅能确认一级互联网/AI。"
+    },
+    {
+      "entry_id": "SNO-90de32ea891cf27a4430",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "研发分析缺少行业与技术方向信息，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-90f9e7263c7463ed79b4",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "培训生项目未明确具体职业方向，无法确认职业类别。"
+    },
+    {
+      "entry_id": "SNO-910e16235e15a493ed68",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "商务培训生为培训生项目，方向不明确，无法确认职业类别。"
+    },
+    {
+      "entry_id": "SNO-9110f22a421b2e30ba86",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科技培训生职责不明确，可能涉及多个方向，无法确认职业类别。"
+    },
+    {
+      "entry_id": "SNO-9112f0a8087c14459300",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "全职管理名称过于宽泛，缺少具体管理职能信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-9170b111decf5a940895",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "供试品配置/管理通用类管培生职责方向不明确，无法确认职业类别。"
+    },
+    {
+      "entry_id": "SNO-919ea4e5168775cd451c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "支撑岗位名称过于笼统，缺少具体职能信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-91a1923b36d799872365",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "激光理论仿真设计师属于专业工程仿真领域，冻结目录无合适类别，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-91a1c959d0fcd3dd38a5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "岗位名称为未明确招聘，无法识别职业内容。"
+    },
+    {
+      "entry_id": "SNO-921a373b6edff5a57940",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "产品工程师未说明产品类型，无法确定互联网、硬件还是其他产品方向。"
+    },
+    {
+      "entry_id": "SNO-925673bb2912e6ddc6eb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科研管培生未明确科研领域，无法归入具体类别。"
+    },
+    {
+      "entry_id": "SNO-9285d334a9b4da646341",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "运控软件工程师方向不明确，无法确认具体三级，仅能确认一级互联网/AI。"
+    },
+    {
+      "entry_id": "SNO-930355c8cab11ad182b7",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出电气、土建、能源、人力、安全、宣传等多个互不兼容的独立职业，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-93730a135033dc49f2fa",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出研发、工艺、应用、营销等多个独立方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-937e9f074dca20856097",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出金融、市场、物流三个互不兼容的独立职业方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-938db8c9f82c8cb58d3f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "岗位名称仅为“01”，无法识别职业内容。"
+    },
+    {
+      "entry_id": "SNO-939c1aa1904bc70d63a1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "青年见习为招聘项目或身份标签，未体现具体职业职责。"
+    }
+  ]
+}

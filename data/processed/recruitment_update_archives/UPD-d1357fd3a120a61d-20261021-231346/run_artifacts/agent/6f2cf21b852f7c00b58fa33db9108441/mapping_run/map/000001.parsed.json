@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-6f2cf21b852f7c00b58fa33db9108441",
+      "status": "mapped",
+      "target_category_id": "L27-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L27-07",
+        "L27-09"
+      ],
+      "title_evidence": "机场运行岗，机场地面运行组织与服务",
+      "level_3_evidence": null,
+      "reason": "机场运行岗属于交通运行与地面服务，归 L27-07；无更具体三级证据，停在二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16949,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 309,
+    "output_tokens": 124,
+    "reasoning_tokens": 0,
+    "total_tokens": 17073
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00034134000000000004
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "906d6718-cb56-4a96-8a7b-2e835d61f7c0",
+  "object": "chat.completion",
+  "created": 1791881485,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-9618235483957f0aee79\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"科技信息部综合管理员方向不明确，review合理。\"},{\"occupation_id\":\"TG-33132afe3605942b75cb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机器学习工程师归L02-05合理。\"},{\"occupation_id\":\"TG-b4654fe9420444fca074\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"非标设计归L06-01合理。\"},{\"occupation_id\":\"TG-7e269d90ddb7258c531f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"智能与自动化工程师归L05-04合理。\"},{\"occupation_id\":\"TG-5016d6e8a18f1ab39aae\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"带货达人校招生归L13-02合理。\"},{\"occupation_id\":\"TG-0e60a2fc8239648501c5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"智能建造岗归L24-07合理。\"},{\"occupation_id\":\"TG-855f22165640aa4d6ca3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"茶艺师归L28-03合理。\"},{\"occupation_id\":\"TG-4586b44922c8aebba392\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"规划事务技术岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-db0f120813262b3e72e6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生（市场运营管理方向）归L14-11合理。\"},{\"occupation_id\":\"TG-781742a79deeb18dc2a8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数据要素产品研发工程师归L02-03合理。\"},{\"occupation_id\":\"TG-74693bd2d01265838731\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"考务信息管理岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-cafff63ac6d66b516643\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"药物研发工程师归L06-07合理。\"},{\"occupation_id\":\"TG-145fbde97292d1ca86be\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"具身智能导航规划算法工程师归L02-05-06合理。\"},{\"occupation_id\":\"TG-b6c86f7a82348a55f68c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"固态电池研发工程师归L06-04合理。\"},{\"occupation_id\":\"TG-2bb04c8f48a10cd2aff8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机构客户经理归L13-01合理。\"},{\"occupation_id\":\"TG-7d8e5983cc30998b22b7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"安全环保部安全监管岗归L25-07合理。\"},{\"occupation_id\":\"TG-1e5dbf7f29c5f40fb131\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"党群综合专员方向不明确，review合理。\"},{\"occupation_id\":\"TG-1e54332608d4e25e6d73\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字化转型实施岗归L10-01-02合理。\"},{\"occupation_id\":\"TG-b87ca05749f3f77b4d56\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合管理（助理）岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-bf5dc8bfe9c96a7e8ec3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"热泵系统工程师归L06-02合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19389,
+    "completion_tokens": 948,
+    "total_tokens": 20337,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2877
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

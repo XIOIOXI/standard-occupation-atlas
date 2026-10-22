@@ -1,0 +1,401 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-9782666d2ee0d7113186",
+      "case": "A",
+      "child_titles": [
+        "电气设计工程师",
+        "机械设计工程师",
+        "模具设计工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "电气",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "机械",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "text": "模具设计工程师",
+          "start": 6,
+          "end": 13
+        }
+      ],
+      "reason": "标题由斜杠分隔的三个独立岗位组成，可拆分为电气设计工程师、机械设计工程师、模具设计工程师。"
+    },
+    {
+      "original_record_id": "TG-a405fb866fdf1caeb9ed",
+      "case": "A",
+      "child_titles": [
+        "人力资源专员",
+        "行政专员"
+      ],
+      "source_spans": [
+        {
+          "text": "人力资源",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "行政专员",
+          "start": 5,
+          "end": 9
+        }
+      ],
+      "reason": "标题由斜杠分隔的两个独立岗位组成，可拆分为人力资源专员和行政专员。"
+    },
+    {
+      "original_record_id": "TG-7cd6a657a115a54987ef",
+      "case": "A",
+      "child_titles": [
+        "电气研发工程师",
+        "机械研发工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "电气",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "机械研发工程师",
+          "start": 3,
+          "end": 10
+        }
+      ],
+      "reason": "标题由斜杠分隔的两个独立岗位组成，可拆分为电气研发工程师和机械研发工程师。"
+    },
+    {
+      "original_record_id": "TG-0ed710df6483742677d9",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为技术类岗位的统称，括号内为具体方向，属于同一岗位类别，不拆分。"
+    },
+    {
+      "original_record_id": "TG-02b707a2b24274fc289d",
+      "case": "A",
+      "child_titles": [
+        "专题研究员",
+        "机械技术员",
+        "电气技术员",
+        "炉窑技术员",
+        "理化检测员"
+      ],
+      "source_spans": [
+        {
+          "text": "专题研究员",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "机械技术员",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "电气技术员",
+          "start": 10,
+          "end": 15
+        },
+        {
+          "text": "炉窑技术员",
+          "start": 15,
+          "end": 20
+        },
+        {
+          "text": "理化检测员",
+          "start": 20,
+          "end": 25
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接连接而成，可拆分为五个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-2e5037d1ddeb2e9c726a",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为综合管理岗，括号内为专业要求，属于同一岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-6b323a9fab0688119230",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为法务审计，可能为同一岗位或复合岗位，但无明确分隔符，不拆分。"
+    },
+    {
+      "original_record_id": "TG-455429fe6ba83756b719",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为暑期实习岗，括号内为部门方向，属于同一实习岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-30db883d40a8b183fd4a",
+      "case": "A",
+      "child_titles": [
+        "质量管理员",
+        "推广代表"
+      ],
+      "source_spans": [
+        {
+          "text": "质量管理员",
+          "start": 1,
+          "end": 6
+        },
+        {
+          "text": "推广代表",
+          "start": 6,
+          "end": 10
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接连接而成，可拆分为质量管理员和推广代表。"
+    },
+    {
+      "original_record_id": "TG-10d9f1226907518d34df",
+      "case": "A",
+      "child_titles": [
+        "IT工程师",
+        "数据工程师",
+        "通信工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "IT",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "数据",
+          "start": 3,
+          "end": 5
+        },
+        {
+          "text": "通信工程师",
+          "start": 6,
+          "end": 11
+        }
+      ],
+      "reason": "标题由斜杠分隔的三个独立岗位组成，可拆分为IT工程师、数据工程师和通信工程师。"
+    },
+    {
+      "original_record_id": "TG-94bcaaea08757b332773",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为集团管培生，括号内为方向类别，属于同一岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-7e8d65be483d9fb8bce5",
+      "case": "A",
+      "child_titles": [
+        "硬件技术支持工程师",
+        "软件技术支持工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "硬件",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "软件技术支持工程师",
+          "start": 3,
+          "end": 11
+        }
+      ],
+      "reason": "标题由斜杠分隔的两个独立岗位组成，可拆分为硬件技术支持工程师和软件技术支持工程师。"
+    },
+    {
+      "original_record_id": "TG-05d5efcb20a99f433828",
+      "case": "A",
+      "child_titles": [
+        "生产跟单",
+        "文员",
+        "压铸机销售"
+      ],
+      "source_spans": [
+        {
+          "text": "生产跟单",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "文员",
+          "start": 5,
+          "end": 7
+        },
+        {
+          "text": "压铸机销售",
+          "start": 7,
+          "end": 12
+        }
+      ],
+      "reason": "标题由斜杠分隔及直接连接组成三个独立岗位，可拆分为生产跟单、文员和压铸机销售。"
+    },
+    {
+      "original_record_id": "TG-7308b87a28c9e2a8b928",
+      "case": "A",
+      "child_titles": [
+        "行政文员",
+        "本地生活运营",
+        "支付运营",
+        "行业运营",
+        "测试工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "行政文员",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "本地生活运营",
+          "start": 5,
+          "end": 11
+        },
+        {
+          "text": "支付运营",
+          "start": 12,
+          "end": 16
+        },
+        {
+          "text": "行业运营",
+          "start": 17,
+          "end": 21
+        },
+        {
+          "text": "测试工程师",
+          "start": 22,
+          "end": 27
+        }
+      ],
+      "reason": "标题由空格分隔的五个独立岗位组成，可拆分。"
+    },
+    {
+      "original_record_id": "TG-b0d19e3f8a7a860e162c",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为新闻宣传与档案专员，可能为同一岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-41c067f82fb8b91b78c4",
+      "case": "A",
+      "child_titles": [
+        "机关服务中心餐饮管理",
+        "财务管理和审计中心信息管理"
+      ],
+      "source_spans": [
+        {
+          "text": "机关服务中心餐饮管理",
+          "start": 0,
+          "end": 10
+        },
+        {
+          "text": "财务管理和审计中心信息管理",
+          "start": 11,
+          "end": 25
+        }
+      ],
+      "reason": "标题由空格分隔的两个独立岗位组成，可拆分。"
+    },
+    {
+      "original_record_id": "TG-4d41598590cc78473f3d",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为管理储备岗，括号内为方向及专业要求，属于同一岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-eade0bddea6939518d43",
+      "case": "A",
+      "child_titles": [
+        "AI工程&全栈方向",
+        "AI Agent开发工程师",
+        "AI产品运营"
+      ],
+      "source_spans": [
+        {
+          "text": "AI工程&全栈方向",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "AI Agent开发工程师",
+          "start": 10,
+          "end": 24
+        },
+        {
+          "text": "AI产品运营",
+          "start": 25,
+          "end": 31
+        }
+      ],
+      "reason": "标题由空格分隔的三个独立岗位组成，可拆分。"
+    },
+    {
+      "original_record_id": "TG-7afbc5499ed1fd44f15c",
+      "case": "A",
+      "child_titles": [
+        "策划宣传",
+        "策划储备干部",
+        "摄影岗"
+      ],
+      "source_spans": [
+        {
+          "text": "策划宣传",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "策划储备干部",
+          "start": 4,
+          "end": 10
+        },
+        {
+          "text": "摄影岗",
+          "start": 10,
+          "end": 13
+        }
+      ],
+      "reason": "标题由三个独立岗位名称直接连接而成，可拆分。"
+    },
+    {
+      "original_record_id": "TG-d6b77242f32f9d984e52",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为工程师，括号内为方向，属于同一岗位，不拆分。"
+    }
+  ],
+  "raw_response_file": "000010.raw.json",
+  "usage": {
+    "input_tokens": 932,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 932,
+    "output_tokens": 2621,
+    "reasoning_tokens": 0,
+    "total_tokens": 3553
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0034247999999999995
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

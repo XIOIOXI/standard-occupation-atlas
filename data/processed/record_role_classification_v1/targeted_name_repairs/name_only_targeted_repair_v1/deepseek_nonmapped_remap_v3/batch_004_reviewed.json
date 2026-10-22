@@ -1,0 +1,185 @@
+{
+  "batch_number": 4,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "13a3a4bb-8127-4f5f-b17f-b4f9b71793d7",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821666,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 30610,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 3218,
+    "output_tokens": 1815,
+    "reasoning_tokens": 0,
+    "total_tokens": 32425
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0016538759999999999
+  },
+  "results": [
+    {
+      "entry_id": "ABNORMAL:RRG-518477d6c22050d9f863",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称以“营销研发”开头但后接大量专业清单且截断，无法确认具体三级职业；专业清单不能作为职业依据。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-519c89d7d945799248ad",
+      "status": "mapped",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-engineering",
+      "reason": "“环保工程师”职业清晰，括号内为专业要求，可映射到环保工程与治理。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-527f9660006c2bb9e14e",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出采购、供应链、职能、新零售、数据中台、平台运营、开发建设、技术研发等多个互不兼容方向，且为管培生类，无法确认共同上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-52cf08ffd5b8c6706ea7",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "reason": "“项目经理”可确认技术项目管理方向，但括号内为生物医学等专业清单且截断，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-55ebee206a64fcca3e6b",
+      "status": "review",
+      "target_category_id": "供应链/物流/supply-warehouse/warehouse-inbound",
+      "reason": "“仓库管理储备”可确认仓储方向，但括号内为专业清单且截断，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-56261cef252cd5bef1a6",
+      "status": "review",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "reason": "“运营专员”可确认业务运营方向，但括号内为专业清单且截断，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-571baea61326a8642bc5",
+      "status": "review",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "reason": "“外饰设计师”可确认工业产品设计方向，但名称截断且未明确具体产品领域，无法确认三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-58597c5c0b2acadc0814",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出战略管理、大资产管理、职能管理、科技赋能、核心业务等多个互不兼容方向，且为管培生类，无法确认共同上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-5903e2e80f13dce69e81",
+      "status": "mapped",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "reason": "“采购专员”职业清晰，括号内为地质采矿等专业要求，可映射到采购执行与合同管理。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-597159ca4db71e499794",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出生产技术类与职能管理类两个互不兼容方向，且括号内为专业清单，无法确认共同上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-5ac84cb4afac528e9cd4",
+      "status": "review",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-monitoring",
+      "reason": "“综合气象观测”可确认环境监测方向，但括号内为会计、遥感、机器学习等专业清单且截断，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-5bb12d0a6add81cd3b76",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出营销、工业设计、项目管理、职能、商务造价、运营交付、国际化等多个互不兼容方向，且为管培生类，无法确认共同上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-5ce168f6b551629cd652",
+      "status": "mapped",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "reason": "“人力资源助理”职业清晰，括号内为机械设计等专业要求，可映射到员工关系与人力运营。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-5e52d1e843db4f469c76",
+      "status": "review",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "reason": "“体内药理助理研究”可确认生物医药研发方向，但名称截断且为助理研究，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-5ebb72e28fdd27f26369",
+      "status": "mapped",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "reason": "“质量工程师”职业清晰，括号内为会计、力学、机械等专业要求，可映射到质量检验与过程控制。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-5f0f65170eeac4451df7",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出供应链、理工科、会计、财务管理、多语种、机械材料等多个互不兼容方向，且为管培生类，无法确认共同上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-5f295beb00b16656c086",
+      "status": "review",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "reason": "“复合材料工程师”可确认机械/材料工程方向，但名称截断且未明确具体三级，无法确认。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-5f2eade13ea091dd31e4",
+      "status": "mapped",
+      "target_category_id": "财务/审计/税务/finance-cashier/cashier-payment",
+      "reason": "“出纳”职业清晰，括号内为多专业要求，可映射到资金收付与结算。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-5f8af24cc831592b70a0",
+      "status": "review",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "reason": "“业务效能专员”可确认业务运营方向，但括号内为药学、化学等专业清单且截断，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-606aee1d3b281ca41b62",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出职能管理、市场管理、运行管理、签派、维修等多个互不兼容方向，且为管培生类，无法确认共同上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-61fa97df72cd8531efd7",
+      "status": "multi_role",
+      "target_category_id": "金融",
+      "reason": "名称列出投资银行、行业研究、投资业务、财富顾问、金融科技等多个互不兼容方向，共同上级可确认到金融一级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-62ac367cc17b6dee23f3",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“储备干部”不是具体职业，括号内为农学、化学、小语种、会计等专业清单且截断，无法确认职业方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-62c094e0b6763b693d14",
+      "status": "mapped",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "reason": "“电气产品开发工程师”职业清晰，括号内为电机电器、电力电子等专业要求，可映射到电气控制与自动化设计。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-63e5fbd70bc539de1a00",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "reason": "“交付专员”可确认项目交付方向，但括号内为机械、力学、计算机等专业清单且截断，无法确认具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-658564d9193000592d32",
+      "status": "review",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-processing",
+      "reason": "“生产操作”可确认普工方向，但括号内为人力、会计、农学、化学等专业清单且截断，无法确认具体三级。"
+    }
+  ]
+}

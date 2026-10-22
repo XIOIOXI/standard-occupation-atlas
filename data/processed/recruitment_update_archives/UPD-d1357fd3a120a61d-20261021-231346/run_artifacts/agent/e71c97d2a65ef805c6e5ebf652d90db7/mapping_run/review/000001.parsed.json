@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e71c97d2a65ef805c6e5ebf652d90db7",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L04-02",
+      "issue": "模拟芯片测试工程师属于芯片/半导体实物产品的测试验证（量产测试、ATE测试等），应归硬件与产品测试 L04-02；L05-02-03 芯片设计验证指设计阶段的功能验证（DV），与测试工程师岗位不同。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17038,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 526,
+    "output_tokens": 115,
+    "reasoning_tokens": 0,
+    "total_tokens": 17153
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039487199999999994
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

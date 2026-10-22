@@ -1,0 +1,28 @@
+{
+  "id": "5bee328e-dd32-48c2-8c22-beba00d15536",
+  "object": "chat.completion",
+  "created": 1792571222,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-aea5f014728ddfdf1acdfe70f829aafe\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“职能支持岗”为泛化职能标签，无法确定具体职能方向，保留 review 并列出组织支持/财务/法务/综合储备等候选合理，不构成明显错分。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17023,
+    "completion_tokens": 101,
+    "total_tokens": 17124,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 511
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

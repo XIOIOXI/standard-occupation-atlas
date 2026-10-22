@@ -1,0 +1,28 @@
+{
+  "id": "f7fab3ee-183d-414f-ba5b-ad115c41ef1c",
+  "object": "chat.completion",
+  "created": 1792571785,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-f3e64234117375d43141f9f4913b532d\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L13-01\",\"L13-02\",\"L20-05\",\"L14-08\"],\"title_evidence\":\"标题仅为“客户经理”，无客户类型或业务方向证据；公司为财产保险，可能涉及保险客户销售、个人/企业客户或客户服务。\",\"level_3_evidence\":null,\"reason\":\"“客户经理”为泛化岗位，无法确定是B2B/B2C销售、保险业务还是客户成功服务，需人工复核；候选包括企业客户销售、个人客户销售、保险核保理赔及客户成功。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16963,
+    "completion_tokens": 169,
+    "total_tokens": 17132,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 323
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

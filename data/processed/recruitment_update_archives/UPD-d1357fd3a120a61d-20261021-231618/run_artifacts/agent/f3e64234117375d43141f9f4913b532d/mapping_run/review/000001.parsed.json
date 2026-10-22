@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-f3e64234117375d43141f9f4913b532d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“客户经理”为泛化标题，无客户类型或业务方向证据；保险行业客户经理可能涉及销售、客户服务或保险业务，当前review状态合理，候选L13-01/L13-02/L20-05/L14-08均属合理范围，无需修正。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17057,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 545,
+    "output_tokens": 121,
+    "reasoning_tokens": 0,
+    "total_tokens": 17178
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000407772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

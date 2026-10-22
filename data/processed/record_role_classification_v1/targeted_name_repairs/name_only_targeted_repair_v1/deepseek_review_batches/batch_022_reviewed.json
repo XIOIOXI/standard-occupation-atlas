@@ -1,0 +1,185 @@
+{
+  "batch_number": 22,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "72e6ccca-b849-435f-b21f-d36ae96d5f82",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813300,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30739,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3475,
+    "output_tokens": 1907,
+    "reasoning_tokens": 0,
+    "total_tokens": 32646
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0017472420000000002
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-2f505362640208b651fe",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型训练/推理框架工程师核心为大模型训练与推理框架，属于大模型与生成式AI方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-19b488b1bd59b1feb0a0",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列足球内容运营、篮球内容运营、足球新媒体运营、内容安全运营、技术支持、球迷社区运营等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-5a317adc2bbd2b59eeb7",
+      "decision": "keep",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "reason": "装配试车工艺核心为装配与试车工艺操作，归入普工-装配与生产线作业合理。"
+    },
+    {
+      "occupation_id": "SNO-b6bdeb2e83386adafddb",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "reason": "软件开发工程师（应用/BSP）涉及BSP底层与嵌入式开发，归入C++-嵌入式与实时开发合理。"
+    },
+    {
+      "occupation_id": "SNO-8e8550b1b0371506020a",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI大模型开发核心为大模型与生成式AI方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-cf11d8e2305ef5fe65dd",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "水文规划设计师属水利水文专业领域，目录中无对应承接类别。"
+    },
+    {
+      "occupation_id": "SNO-cde0dd8aa296dad29bca",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "水文咨询设计师属水利水文专业领域，目录中无对应承接类别。"
+    },
+    {
+      "occupation_id": "SNO-adc0c4b84137ba0ad934",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "Agent工程师核心为大模型与生成式AI应用开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-1a648b460e8a930b35a3",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列工程造价与会计学两个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-0b22c0a827891457565a",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列策划宣传、储备干部、摄影等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-3eee1eec8efc97a0a78a",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列顾问、设计、工程管培生等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-b61b1eb62e0d1d213b79",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI应用创新工程师核心为大模型与生成式AI应用，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-7347c5bdb7c77aa4766f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列工业IE、产品工艺PE、制程ME、模具设计、项目管理、电气、机械、视觉等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-71ae0aa9fcec93ad14a4",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "IT应用开发工程师核心为业务应用开发，归入后端开发-业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-b6ad427704811f1028c9",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI应用研发核心为人工智能应用开发，归入大模型与生成式AI合理。"
+    },
+    {
+      "occupation_id": "SNO-d21e1a5f6d71310cbf8e",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "招标代理属采购/贸易或工程管理相关专业领域，目录中无直接对应的招标代理类别。"
+    },
+    {
+      "occupation_id": "SNO-071d8a3b6ddaa248b247",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "推理优化工程师通常针对大模型推理优化，归入大模型与生成式AI合理。"
+    },
+    {
+      "occupation_id": "SNO-ec9818eae4a2e78f9532",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列技术、产品、艺术、发行、质量等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-1efe1448cb2a85def823",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列招聘、服务、销售、人事运营等多个独立职业方向，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-e1048cec01c954c6d8d0",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "系统与软件架构师核心为平台与中间件架构设计，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-da0a9e198c0160a080a1",
+      "decision": "keep",
+      "target_category_id": "市场/公关/广告/marketing-government/government-affairs-policy",
+      "reason": "对外交流管理偏向政策研究与政府关系，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-e9398c27083622e4a3a8",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列金融网点理财经理、金融网点柜员、寄递业务客户经理等多个独立岗位，确属多职业。"
+    },
+    {
+      "occupation_id": "SNO-fc41aeedee22404bdb61",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "视觉语言导航模型研究员属于机器人与具身智能方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-e2d17149e90dba890c8f",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "签派工程师属航空运行控制领域，目录中无对应承接类别。"
+    },
+    {
+      "occupation_id": "SNO-d11d579b1693c7ea5f67",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列销售助理与翻译服务两个独立职业方向，确属多职业。"
+    }
+  ]
+}

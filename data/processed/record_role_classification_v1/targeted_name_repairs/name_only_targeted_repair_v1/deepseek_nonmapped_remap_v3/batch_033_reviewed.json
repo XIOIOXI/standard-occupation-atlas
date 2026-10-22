@@ -1,0 +1,185 @@
+{
+  "batch_number": 33,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "dcdbb77d-c365-4d67-a346-b1ccd2eb5fb7",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821857,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29494,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2102,
+    "output_tokens": 1226,
+    "reasoning_tokens": 0,
+    "total_tokens": 30720
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001133076
+  },
+  "results": [
+    {
+      "entry_id": "SNO-5a50db502d10058d8780",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "起降系统集成与验证缺少具体航空或无人机方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-5a72ac6ef042089dae36",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "通岗培训生未指明具体职能方向，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-5aa259901522834ff570",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "求解器开发工程师通常涉及高性能计算，归入图形与高性能计算。"
+    },
+    {
+      "entry_id": "SNO-5aaa8e289928f73cd726",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "培训生计划名称未体现具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-5ab703a6562c8d9098e4",
+      "status": "multi_role",
+      "target_category_id": "生产制造",
+      "reason": "制造储备生明确涵盖品质、工艺、生产管理多个方向，共同上级为生产制造。"
+    },
+    {
+      "entry_id": "SNO-5ab80635c6293fd8cab3",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "全国各分行未说明具体岗位。"
+    },
+    {
+      "entry_id": "SNO-5acd569030c9dfdae2c6",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称仅为“/经理”，无法判断具体职业。"
+    },
+    {
+      "entry_id": "SNO-5b41f37653dc6ac26851",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "系统总体工程师职责宽泛，可能涉及多个技术领域，缺少具体行业或技术方向。"
+    },
+    {
+      "entry_id": "SNO-5b659180a923f92a0c67",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "云计算研究员属算法研究与通用算法。"
+    },
+    {
+      "entry_id": "SNO-5ba860e42950bf385e32",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "海外电商运营管培生为管培生项目，具体职业方向不明确。"
+    },
+    {
+      "entry_id": "SNO-5bc213b154ef54c39905",
+      "status": "multi_role",
+      "target_category_id": "互联网/AI",
+      "reason": "名称明确列出游戏客户端和后端开发两个独立职业方向，共同上级为互联网/AI。"
+    },
+    {
+      "entry_id": "SNO-5c2953d7ba2f2b3a34a6",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称仅为/助理，信息不足无法判断职业方向。"
+    },
+    {
+      "entry_id": "SNO-5c4a487d96c048cd910c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "软硬件开发名称宽泛，缺少具体技术方向或产品领域。"
+    },
+    {
+      "entry_id": "SNO-5c7c974036167817d09e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "业务精英名称过于宽泛，缺少具体行业或销售方向信息。"
+    },
+    {
+      "entry_id": "SNO-5c9f52e099d29e471b80",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "空管设计师职责不明确，可能涉及航空交通管理或空管系统设计，目录无对应类别。"
+    },
+    {
+      "entry_id": "SNO-5d1e95d3689e8b2494a1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科研员涉及复合材料、高分子、飞行器设计多个方向，缺少明确归类依据。"
+    },
+    {
+      "entry_id": "SNO-5d31534252fd9e8c92b1",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "科技人员(软件开发岗)属于业务服务端开发。"
+    },
+    {
+      "entry_id": "SNO-5d942dbe52a4603997b3",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "岗位名称“程序”过于笼统，无法确定具体技术方向。"
+    },
+    {
+      "entry_id": "SNO-5ddca723ce7e1980e6f6",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "研发专员未说明技术领域或产品方向，无法确定具体研发类别。"
+    },
+    {
+      "entry_id": "SNO-5e6783c19a9df534b092",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "体系设计工程师领域不明确，缺少行业或技术方向。"
+    },
+    {
+      "entry_id": "SNO-5e97bb240f61c74b6d4e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管培生(外贸)为轮岗培养项目，具体职业方向不明确。"
+    },
+    {
+      "entry_id": "SNO-5e9c994296849c7fc70f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "业务岗名称过于宽泛，缺少具体业务方向信息。"
+    },
+    {
+      "entry_id": "SNO-5ec109e702c2d4ad689d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称“定向通用”含义模糊，缺少具体职业职责信息。"
+    },
+    {
+      "entry_id": "SNO-5ee01b3c5448341e25b8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "生产周边职责不明确，可能涉及生产支持、物料管理或行政事务，缺少具体工作内容信息。"
+    },
+    {
+      "entry_id": "SNO-5f337c793c1116cda07b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "工作室管培生缺少具体行业或职能方向。"
+    }
+  ]
+}

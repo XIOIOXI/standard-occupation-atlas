@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-3ee9f74eb1a77ccfe7fc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题同时含销售与会计，review合理。"
+    },
+    {
+      "occupation_id": "TG-87da7bbdc2748d8aefdf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "明确非岗位文本，non_role_text合理。"
+    },
+    {
+      "occupation_id": "TG-5506812831bcb42f8ea3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品经理未说明产品类型，L08-07合理。"
+    },
+    {
+      "occupation_id": "TG-5067f24aa65ed778d1a0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "天线设计归无线与射频技术，合理。"
+    },
+    {
+      "occupation_id": "TG-dfde635e2c91c3be5fe9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务管理储备方向未明，L19-08合理。"
+    },
+    {
+      "occupation_id": "TG-1ec4250d3320c7418836",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "协同业务岗职责不明，review合理。"
+    },
+    {
+      "occupation_id": "TG-1f607cafd35eeb1bdd1b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "嵌入式开发归嵌入式应用开发，合理。"
+    },
+    {
+      "occupation_id": "TG-a127fd8ea44fdeaf1701",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "乡村医生归内科与综合诊疗，合理。"
+    },
+    {
+      "occupation_id": "TG-a80fa2789c736b39a5e7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "科研岗位领域未明，L07-05合理。"
+    },
+    {
+      "occupation_id": "TG-367fb1f98c92d1b424c8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "文娱活动师归社会工作与公益服务，合理。"
+    },
+    {
+      "occupation_id": "TG-01736a9694930fb92d40",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "田径教练归体育教学，合理。"
+    },
+    {
+      "occupation_id": "TG-7b18762776f99c901809",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "遥感大数据及AI方向归计算机视觉，合理。"
+    },
+    {
+      "occupation_id": "TG-91611dfb94246ca2a5c9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "道路土木背景项目经理归施工组织与工程管理，合理。"
+    },
+    {
+      "occupation_id": "TG-ad2c97adf6bfb55890c4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "法务合规归合规与内部控制，合理。"
+    },
+    {
+      "occupation_id": "TG-53bf07a2ebb1cdcf8a55",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "商品流程岗职责不明，review合理。"
+    },
+    {
+      "occupation_id": "TG-bd42b2de51a569704aca",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "KA销售归重点客户管理，合理。"
+    },
+    {
+      "occupation_id": "TG-ccc25a0e02b2aecd7507",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "中职音乐教师归艺术教学，合理。"
+    },
+    {
+      "occupation_id": "TG-dca8e166753d6762574e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智造管理工程师归制造制程工程，合理。"
+    },
+    {
+      "occupation_id": "TG-53217930e9455e035c7a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "设备工艺归制造制程工程，合理。"
+    },
+    {
+      "occupation_id": "TG-c170408737611968729d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅明确Python语言，归通用软件研发，合理。"
+    }
+  ],
+  "raw_response_file": "000259.raw.json",
+  "usage": {
+    "input_tokens": 19355,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2843,
+    "output_tokens": 923,
+    "reasoning_tokens": 0,
+    "total_tokens": 20278
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002059572
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

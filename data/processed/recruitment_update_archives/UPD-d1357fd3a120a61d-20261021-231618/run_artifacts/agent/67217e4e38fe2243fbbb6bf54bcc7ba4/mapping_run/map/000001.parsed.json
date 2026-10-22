@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-67217e4e38fe2243fbbb6bf54bcc7ba4",
+      "status": "mapped",
+      "target_category_id": "L02-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-03",
+        "L02-03-03",
+        "L02-03-01"
+      ],
+      "title_evidence": "数据中台开发工程师：数据中台属于数据平台开发，负责数据平台/中台建设",
+      "level_3_evidence": null,
+      "reason": "数据中台开发属于数据工程与数据平台开发（L02-03）；标题未明确是数仓建模、数据集成管道还是计算平台基础设施，故停在二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16938,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 298,
+    "output_tokens": 152,
+    "reasoning_tokens": 0,
+    "total_tokens": 17090
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037164
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

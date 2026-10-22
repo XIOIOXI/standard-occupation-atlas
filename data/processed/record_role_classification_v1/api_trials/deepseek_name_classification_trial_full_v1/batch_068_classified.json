@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 68,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "68fe6ed7-54a6-4bd6-92ad-fff1e008dc50",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751355,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25011,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1715,
+    "output_tokens": 2738,
+    "reasoning_tokens": 0,
+    "total_tokens": 27749
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001969938
+  },
+  "observed_at_utc": "2026-10-11T20:42:36.069350+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-bab6d01f6e809aba0716",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "动力装置防灭火属于安全生产管理范畴"
+    },
+    {
+      "occupation_id": "SNO-860c4dd234b0432fffc7",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "海外研究员核心职责为调研分析"
+    },
+    {
+      "occupation_id": "SNO-4cfccb05071ef700073f",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "藏品统筹职责不明确，可能涉及文博管理或运营，目录无对应类别"
+    },
+    {
+      "occupation_id": "SNO-7b031cf9b21ffcef210d",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "海外营销经理核心为市场品牌营销"
+    },
+    {
+      "occupation_id": "SNO-dc33e8386ee8643a5ffc",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "区域专员招采核心为采购执行"
+    },
+    {
+      "occupation_id": "SNO-b5f3e95f88509fb954d6",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "合同商务专员偏向商务支持与合同协调"
+    },
+    {
+      "occupation_id": "SNO-82570b2eda2585035f20",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "交付工程师(电气调试)核心为自动化设备现场调试"
+    },
+    {
+      "occupation_id": "SNO-2e6e48e3280e8474a2ea",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "技术运营偏向业务流程运营"
+    },
+    {
+      "occupation_id": "SNO-7bb9a6828d358e744382",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "高分子材料研发属于化工工艺与生产"
+    },
+    {
+      "occupation_id": "SNO-e0aa35d12539c4d16414",
+      "target_category_id": "销售/sales-clerk/retail-clerk-sales",
+      "status": "mapped",
+      "reason": "软装家居顾问核心为门店销售与陈列"
+    },
+    {
+      "occupation_id": "SNO-63e311753049490c2f23",
+      "target_category_id": "酒店/旅游/hotel-manager/hotel-manager-operations",
+      "status": "mapped",
+      "reason": "酒店运营管培生核心为酒店运营管理"
+    },
+    {
+      "occupation_id": "SNO-7a1d231c6eb19ae0b42c",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "项目商务管理偏向商务协调与支持"
+    },
+    {
+      "occupation_id": "SNO-82a72bfda3ca4d35fe6d",
+      "target_category_id": "产品/product-internet/product-user",
+      "status": "mapped",
+      "reason": "产品管培生核心为产品方向，实习阶段归入用户与增长产品"
+    },
+    {
+      "occupation_id": "SNO-387353fc075aeb46f8bf",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "业务管培生(传统租赁)核心为客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-ff80314321b25cf59552",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "设备机修员核心为设备维修与安装"
+    },
+    {
+      "occupation_id": "SNO-1d67e076c0190898f3f8",
+      "target_category_id": "生活服务/零售/service-retail/retail-store",
+      "status": "mapped",
+      "reason": "零售培训生核心为门店运营与导购"
+    },
+    {
+      "occupation_id": "SNO-d7bc8a1af1604e3c7773",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "物理管培生通常指向物理教学方向"
+    },
+    {
+      "occupation_id": "SNO-bd2bb3e6750d285fab71",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-engineering",
+      "status": "mapped",
+      "reason": "水环境运维管理属于环保工程与治理"
+    },
+    {
+      "occupation_id": "SNO-bdb8df871437948da321",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "键合工艺属于半导体制造工艺"
+    },
+    {
+      "occupation_id": "SNO-23be0f5cf67d02d97022",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-web",
+      "status": "mapped",
+      "reason": "web开发工程师核心为Web前端开发"
+    },
+    {
+      "occupation_id": "SNO-4202243271b68c65c84c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称仅为招聘公告标题，无法识别具体职业"
+    },
+    {
+      "occupation_id": "SNO-ac7a2f4a2d42ea789f6b",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "管理培训生(分支行)属于银行零售与综合业务"
+    },
+    {
+      "occupation_id": "SNO-28aab04f2ff7105005ee",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "公司业务培训生属于银行对公业务方向"
+    },
+    {
+      "occupation_id": "SNO-0ad8b0d3e90feea55f0f",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "国际营销业务核心为海外客户开发"
+    },
+    {
+      "occupation_id": "SNO-4ab8278ed44d7b5510af",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "推荐助理涉及推荐算法方向"
+    },
+    {
+      "occupation_id": "SNO-af6edc0145ee7a28f93b",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "全球生产运营核心为生产计划与调度"
+    },
+    {
+      "occupation_id": "SNO-2a079fdf33f2973ed82c",
+      "target_category_id": "教育培训/edu-assistant/teaching-assistant-operation",
+      "status": "mapped",
+      "reason": "学员运营偏向课程运营与学员服务"
+    },
+    {
+      "occupation_id": "SNO-5ac667ba0c976a8b03c3",
+      "target_category_id": "运营/客服/ops-social-media/media-video",
+      "status": "mapped",
+      "reason": "抖音商务管培生核心为短视频与直播运营"
+    },
+    {
+      "occupation_id": "SNO-900b5f67074072b8060e",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人事岗管培生核心为人力资源方向"
+    },
+    {
+      "occupation_id": "SNO-17e3d7a4e09a8894eb0a",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "海外市场营销工程师核心为市场品牌营销"
+    },
+    {
+      "occupation_id": "SNO-5aea4aa296407f3d6f44",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "能源低碳研发属于能源开发与工程"
+    },
+    {
+      "occupation_id": "SNO-c90a34eca4523e3b6ff2",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "机辆运用维修核心为设备维修"
+    },
+    {
+      "occupation_id": "SNO-6c7a59999b3fd6de160a",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "业务拓展经理核心为客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-66d55f64e6072baca554",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "网络软件开发工程师偏向业务服务端开发"
+    },
+    {
+      "occupation_id": "SNO-bf7acad18810a2a0530a",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件技术工程师(单板硬件)核心为电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-3350d766577dab09fb5d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "status": "mapped",
+      "reason": "信号处理算法工程师(超声)属于语音与音频算法"
+    },
+    {
+      "occupation_id": "SNO-9f16b5b07234fe27d043",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "机器人基础架构软件工程师属于机器人与具身智能"
+    },
+    {
+      "occupation_id": "SNO-23429aa7a4c7151fd100",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "白酒营销管培生核心为客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-da6511939bd743a35778",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "子公司投资助理核心为投资分析"
+    },
+    {
+      "occupation_id": "SNO-9a1106e91e8f0d097756",
+      "target_category_id": "能源/环保/农业/energy-aquaculture/aquaculture-livestock",
+      "status": "mapped",
+      "reason": "养猪生产管培生属于畜禽养殖技术"
+    },
+    {
+      "occupation_id": "SNO-c90f9105e40d39ed1579",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "测试工程师电力电气类核心为功能与自动化测试"
+    },
+    {
+      "occupation_id": "SNO-2be5afe2238f344ca566",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "销售方向核心为客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-e1513dd5cd712f3aed8c",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "海洋测绘师属于地质勘查与测绘"
+    },
+    {
+      "occupation_id": "SNO-1eba721255d990644d2a",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "科研部研究核心为调研分析"
+    },
+    {
+      "occupation_id": "SNO-61bb43a38ee982d20d9f",
+      "target_category_id": "财务/审计/税务/finance-tax/tax-compliance",
+      "status": "mapped",
+      "reason": "税务专员核心为税务申报与合规"
+    },
+    {
+      "occupation_id": "SNO-6b80c66bab19dc9275ef",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "能效工程师—大家电偏向家电硬件电路设计"
+    },
+    {
+      "occupation_id": "SNO-36d030c5b078c1afc7c5",
+      "target_category_id": "金融/financial-credit/credit-assessment-corporate",
+      "status": "mapped",
+      "reason": "评级项目管理核心为企业信用评估"
+    },
+    {
+      "occupation_id": "SNO-e5b2fc767d57cd957f4c",
+      "target_category_id": "运营/客服/ops-social-media/media-video",
+      "status": "mapped",
+      "reason": "抖音运营助理核心为短视频与直播运营"
+    },
+    {
+      "occupation_id": "SNO-4cd4a7c2ca5f96e13f7b",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法务管理类核心为公司日常法务与合规"
+    },
+    {
+      "occupation_id": "SNO-5b3ff4e67d1311369d50",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "结构计算属于建筑结构设计"
+    }
+  ]
+}

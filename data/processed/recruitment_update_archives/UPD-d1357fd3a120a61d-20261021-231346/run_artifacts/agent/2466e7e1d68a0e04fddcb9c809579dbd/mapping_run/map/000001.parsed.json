@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-2466e7e1d68a0e04fddcb9c809579dbd",
+      "status": "mapped",
+      "target_category_id": "L02-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-03",
+        "L02-03-01",
+        "L02-03-02",
+        "L02-03-03"
+      ],
+      "title_evidence": "岗位名称明确为“数据工程师”，属于数据工程与数据平台开发职能",
+      "level_3_evidence": null,
+      "reason": "“数据工程师”直接对应数据工程与数据平台开发（L02-03），但标题未说明是数仓建模、数据集成管道还是数据计算平台，无法确定三级，故停在二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17008,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 368,
+    "output_tokens": 167,
+    "reasoning_tokens": 0,
+    "total_tokens": 17175
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00041064
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

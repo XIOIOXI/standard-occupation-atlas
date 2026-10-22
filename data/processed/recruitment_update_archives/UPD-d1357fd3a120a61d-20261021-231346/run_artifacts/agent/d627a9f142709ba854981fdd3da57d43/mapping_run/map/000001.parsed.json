@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-d627a9f142709ba854981fdd3da57d43",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L24-06-02",
+        "L13-08-02",
+        "L10-06"
+      ],
+      "title_evidence": "计划合同部业务员岗：部门为计划合同部，岗位为业务员，涉及计划与合同事务",
+      "level_3_evidence": null,
+      "reason": "“计划合同部业务员”可能承担工程招采合同商务（L24-06-02）、商务合同订单支持（L13-08-02）或项目计划合同统筹（L10-06），标题未明确具体职责，无法唯一确定正式目标，列为review。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16973,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 333,
+    "output_tokens": 168,
+    "reasoning_tokens": 0,
+    "total_tokens": 17141
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00040134000000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

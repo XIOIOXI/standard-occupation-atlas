@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-530da3b78302994da68bcc81a99bf9e8",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L19-04",
+        "L20-02"
+      ],
+      "title_evidence": "标题为“管理培训生”，原始组合岗位含资金管理、资产管理，公司为金融控股集团；仅凭“管培生”及行业不足以确定主要职能。",
+      "level_3_evidence": null,
+      "reason": "“管理培训生”本身不能推断跨职能轮岗，且组合岗位含资金管理、资产管理两个方向，无法唯一确定正式目标；按规则标 review，候选为跨职能培养及资金/资产管理方向。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16919,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 279,
+    "output_tokens": 170,
+    "reasoning_tokens": 0,
+    "total_tokens": 17089
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038754
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-2a62ac4e4fadf1d8ab2afb9501bb8b50",
+      "verdict": "pass",
+      "suggested_target_category_id": "L23-01",
+      "issue": "生产计划工程师归L23-01生产计划与现场管理合理；与L16-03需求与物料计划存在边界，但生产排产更贴近L23-01，可接受。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17036,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 524,
+    "output_tokens": 101,
+    "reasoning_tokens": 0,
+    "total_tokens": 17137
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037747199999999995
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

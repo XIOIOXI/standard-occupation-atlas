@@ -1,0 +1,28 @@
+{
+  "id": "a394348f-edc3-4b63-8894-1ef9f5408822",
+  "object": "chat.completion",
+  "created": 1792571811,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-78ad332325ea9f1d1534946ce23cf2de\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生且方向为“国际业务”，职能未明确，review 合理；候选 L32-01/L32-02/L13-04/L16-04 均可能，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17084,
+    "completion_tokens": 93,
+    "total_tokens": 17177,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 572
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

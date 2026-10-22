@@ -1,0 +1,152 @@
+{
+  "raw": {
+    "id": "34b9fb6d-c469-4b37-8697-571b2544d106",
+    "object": "chat.completion",
+    "created": 1791838766,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"SNO-557c56ce296ee59109ec\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L05-02-02\",\"issue\":null},{\"occupation_id\":\"SNO-d1c6b4d9dbf9e71b4f7f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L05-02-01\",\"issue\":null},{\"occupation_id\":\"SNO-188a23e431289adc14bc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-1ab0775d2a94e054c105\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"“国际注册专员”在医药/医疗器械行业通常指产品注册（法规事务），而非知识产权；标题未提供行业证据，无法确认是知识产权注册还是产品注册，建议人工确认。\"},{\"occupation_id\":\"SNO-b34d318554be524ed36a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-c4be2ca11be7dbd3e317\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L02-05-06\",\"issue\":null},{\"occupation_id\":\"SNO-c5f00ededc0d555d97e5\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L05-03\",\"issue\":null},{\"occupation_id\":\"SNO-9456905b1b73f939b88e\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L05-03\",\"issue\":null},{\"occupation_id\":\"SNO-2bdacfb9b882930e09e8\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"“机电设计师”可能指建筑机电与设备工程（L24-04），也可能指机电产品/机械电气设计（L05-03或L06-01），标题未提供行业证据，建议人工确认。\"},{\"occupation_id\":\"SNO-a53a80229d6f53ed2313\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L16-04\",\"issue\":null},{\"occupation_id\":\"SNO-3d81a36197a7afc3845e\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-10\",\"issue\":null},{\"occupation_id\":\"SNO-0efdba063aa9c7df639b\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L12-01\",\"issue\":null},{\"occupation_id\":\"SNO-40221954ae855fa39330\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-2e6e48e3280e8474a2ea\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-090f212a5b1a26d2a6cb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"SNO-5d203674437b20b1ca2f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L16-02\",\"issue\":null},{\"occupation_id\":\"SNO-2ed03a97e5d92ae99e2f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L10-06\",\"issue\":null},{\"occupation_id\":\"SNO-d6087a47e528741b0653\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L01-07-02\",\"issue\":null},{\"occupation_id\":\"SNO-b3cecc46c8b0f6b523f7\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L05-02-02\",\"issue\":null},{\"occupation_id\":\"SNO-741a768f67a709a3a54b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19526,
+      "completion_tokens": 903,
+      "total_tokens": 20429,
+      "prompt_tokens_details": {
+        "cached_tokens": 16512
+      },
+      "prompt_cache_hit_tokens": 16512,
+      "prompt_cache_miss_tokens": 3014
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-557c56ce296ee59109ec",
+      "verdict": "pass",
+      "suggested_target_category_id": "L05-02-02",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-d1c6b4d9dbf9e71b4f7f",
+      "verdict": "pass",
+      "suggested_target_category_id": "L05-02-01",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-188a23e431289adc14bc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-1ab0775d2a94e054c105",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "“国际注册专员”在医药/医疗器械行业通常指产品注册（法规事务），而非知识产权；标题未提供行业证据，无法确认是知识产权注册还是产品注册，建议人工确认。"
+    },
+    {
+      "occupation_id": "SNO-b34d318554be524ed36a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-c4be2ca11be7dbd3e317",
+      "verdict": "pass",
+      "suggested_target_category_id": "L02-05-06",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-c5f00ededc0d555d97e5",
+      "verdict": "pass",
+      "suggested_target_category_id": "L05-03",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-9456905b1b73f939b88e",
+      "verdict": "pass",
+      "suggested_target_category_id": "L05-03",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-2bdacfb9b882930e09e8",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "“机电设计师”可能指建筑机电与设备工程（L24-04），也可能指机电产品/机械电气设计（L05-03或L06-01），标题未提供行业证据，建议人工确认。"
+    },
+    {
+      "occupation_id": "SNO-a53a80229d6f53ed2313",
+      "verdict": "pass",
+      "suggested_target_category_id": "L16-04",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-3d81a36197a7afc3845e",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-10",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-0efdba063aa9c7df639b",
+      "verdict": "pass",
+      "suggested_target_category_id": "L12-01",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-40221954ae855fa39330",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-2e6e48e3280e8474a2ea",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-090f212a5b1a26d2a6cb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-5d203674437b20b1ca2f",
+      "verdict": "pass",
+      "suggested_target_category_id": "L16-02",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-2ed03a97e5d92ae99e2f",
+      "verdict": "pass",
+      "suggested_target_category_id": "L10-06",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-d6087a47e528741b0653",
+      "verdict": "pass",
+      "suggested_target_category_id": "L01-07-02",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-b3cecc46c8b0f6b523f7",
+      "verdict": "pass",
+      "suggested_target_category_id": "L05-02-02",
+      "issue": null
+    },
+    {
+      "occupation_id": "SNO-741a768f67a709a3a54b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ]
+}

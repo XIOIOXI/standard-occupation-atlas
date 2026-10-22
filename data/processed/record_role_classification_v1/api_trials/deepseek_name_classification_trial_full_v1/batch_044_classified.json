@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 44,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "e175211d-bf2c-4d4b-8e7b-f192a4b73692",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750877,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25087,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1791,
+    "output_tokens": 3462,
+    "reasoning_tokens": 0,
+    "total_tokens": 28549
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0024157379999999997
+  },
+  "observed_at_utc": "2026-10-11T20:34:37.861038+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-5b2d64abf1606a2d31fb",
+      "target_category_id": "生产制造/manufacturing-garment-production/garment-production-management",
+      "status": "mapped",
+      "reason": "服装跟单助理属于服装生产跟单与质控"
+    },
+    {
+      "occupation_id": "SNO-599e5612c4286e7a0f3f",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "机构销售研究员核心为证券研究与机构销售支持"
+    },
+    {
+      "occupation_id": "SNO-5728ce5fe001d2e3150f",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "动物实验员属于生物医药研发实验支持"
+    },
+    {
+      "occupation_id": "SNO-e31af1e216b33714e647",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-channel",
+      "status": "mapped",
+      "reason": "市场推广专员负责区域市场推广活动执行"
+    },
+    {
+      "occupation_id": "SNO-63c8234992f8bab46cee",
+      "target_category_id": "餐饮/food-beverage/beverage-tea",
+      "status": "mapped",
+      "reason": "调饮产品开发属于茶饮与调酒制作方向"
+    },
+    {
+      "occupation_id": "SNO-da462cc76f2b3d84c8f7",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "仿真设计缺少行业或技术方向，无法确定具体仿真领域"
+    },
+    {
+      "occupation_id": "SNO-fixed-v2-02160",
+      "target_category_id": "设计/design-visual-interaction/design-interaction",
+      "status": "mapped",
+      "reason": "UI设计师属于交互与体验设计"
+    },
+    {
+      "occupation_id": "SNO-2d12e1d1feed131d88dc",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "抗体发现研究员属于生物医药研发"
+    },
+    {
+      "occupation_id": "SNO-af1c1632f10aa20a3629",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "工程技术人员名称过于宽泛，缺少具体工程领域"
+    },
+    {
+      "occupation_id": "SNO-efb8bfb5f84dc3d2c5c7",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "自营销售岗/交易员属于证券交易与运营"
+    },
+    {
+      "occupation_id": "SNO-5f08dbfd3b34ac76c065",
+      "target_category_id": "影视/传媒/media-film/film-production",
+      "status": "mapped",
+      "reason": "编导属于影视制作与制片"
+    },
+    {
+      "occupation_id": "SNO-84108c3a8fa0434d8a13",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "制程质量工程师属于质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-fa784f3b23dcb28e240a",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资经理助理属于股权与投资分析"
+    },
+    {
+      "occupation_id": "SNO-5fa6c0a744ed4c1369aa",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气工程师属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-c76ed5071dbb31d6e804",
+      "target_category_id": "运营/客服/ops-domestic-ecommerce/domestic-ecom-platform",
+      "status": "mapped",
+      "reason": "电商管培生属于国内电商平台店铺运营方向"
+    },
+    {
+      "occupation_id": "SNO-f9e26c895758316c9c61",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "status": "mapped",
+      "reason": "机载软件开发属于嵌入式与实时开发"
+    },
+    {
+      "occupation_id": "SNO-7b24bebf83b597128ccc",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "宏观助理研究员属于证券研究与投资顾问"
+    },
+    {
+      "occupation_id": "SNO-77a7390bb2d13e8e3e87",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-web",
+      "status": "mapped",
+      "reason": "AI前端技术方向属于Web与前端开发"
+    },
+    {
+      "occupation_id": "SNO-cdbfb1b1a3f93c6b1b4a",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "采购与数据分析师以采购执行为核心"
+    },
+    {
+      "occupation_id": "SNO-114003c0e8e945c324b3",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "设计管理缺少具体设计领域，无法确定细分方向"
+    },
+    {
+      "occupation_id": "SNO-4b6b8a6736fb1f401ad1",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "系统运维属于基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-861a6812517347f5eebf",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-web",
+      "status": "mapped",
+      "reason": "全栈开发偏前端方向，归入Web与前端开发"
+    },
+    {
+      "occupation_id": "SNO-195b0902dbda91fcfe69",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "会计类管培生属于总账与财务核算方向"
+    },
+    {
+      "occupation_id": "SNO-ae9a8f10d7a19dff500e",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "精益改善属于生产运营与精益改善"
+    },
+    {
+      "occupation_id": "SNO-89a1c7598af1c73f0ee6",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "固定收益助理研究员属于证券研究"
+    },
+    {
+      "occupation_id": "SNO-698f2431857aa407959b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "端开发工程师名称不完整，无法判断前端或后端方向"
+    },
+    {
+      "occupation_id": "SNO-19581350e929d2fc31da",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "其他专业技术名称过于宽泛，缺少具体职业信息"
+    },
+    {
+      "occupation_id": "SNO-8537eecd4d865c33ef3d",
+      "target_category_id": "人力/行政/法务/people-hr/hr-learning",
+      "status": "mapped",
+      "reason": "培训支持属于培训与人才发展"
+    },
+    {
+      "occupation_id": "SNO-6c2cefbdde69f2d7af2d",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "激光器研发助理属于电路与硬件设计相关"
+    },
+    {
+      "occupation_id": "SNO-c13eaa46650a88061726",
+      "target_category_id": "设计/design-game/game-ux",
+      "status": "mapped",
+      "reason": "游戏UI设计师属于游戏体验与交互设计"
+    },
+    {
+      "occupation_id": "SNO-7e002d17f6e8f29407cf",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "研发管培生CMC方向属于生物医药研发"
+    },
+    {
+      "occupation_id": "SNO-38654156ee7465c20256",
+      "target_category_id": "教育培训/edu-admin/edu-admin-teaching",
+      "status": "mapped",
+      "reason": "学科运营老师属于教学事务管理"
+    },
+    {
+      "occupation_id": "SNO-71f90982df9b77a9f2a6",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "后期设计实习生平面设计方向属于品牌与视觉设计"
+    },
+    {
+      "occupation_id": "SNO-13f2adc5423f6721fa4e",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-test",
+      "status": "mapped",
+      "reason": "芯片测试/封装/可靠性/产品工程属于封装与测试"
+    },
+    {
+      "occupation_id": "SNO-e5c23e41d6d66ea77187",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质控管培生属于质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-e92cfe180252b8da0cdc",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "运营柜面综合培养生属于零售与综合银行"
+    },
+    {
+      "occupation_id": "SNO-d94d9e685b47825d8e9b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "工程助理缺少具体工程领域，无法确定细分方向"
+    },
+    {
+      "occupation_id": "SNO-ba6f7b1e9470ec43ec81",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "地质勘查专业技术属于地质勘查与测绘"
+    },
+    {
+      "occupation_id": "SNO-ffea993552a9962b0034",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "status": "mapped",
+      "reason": "采购管理与业务综合以采购执行为核心"
+    },
+    {
+      "occupation_id": "SNO-cbcd1e910e6a10bebd8b",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出软件开发、网络安全、信息设备维修、电力运维、能源管理等多个独立职业"
+    },
+    {
+      "occupation_id": "SNO-5f8c9038d40786eec8e2",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中小学语文教师属于基础教育教学"
+    },
+    {
+      "occupation_id": "SNO-93cc7eaf74096f6a86f6",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-risk",
+      "status": "mapped",
+      "reason": "交易算法研究员属于金融与风控算法"
+    },
+    {
+      "occupation_id": "SNO-fd25e72146176e41a243",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": "一线操作属于装配与生产线作业"
+    },
+    {
+      "occupation_id": "SNO-50ea198d3c4274d4da4f",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "体系管理员属于质量体系与审核"
+    },
+    {
+      "occupation_id": "SNO-b6d2a8d1d3814c710441",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌入式软件开发SDK方向属于嵌入式与固件开发"
+    },
+    {
+      "occupation_id": "SNO-3f178c22a048212e7192",
+      "target_category_id": "供应链/物流/supply-warehouse/warehouse-outbound",
+      "status": "mapped",
+      "reason": "货装管理属于出库与仓配作业"
+    },
+    {
+      "occupation_id": "SNO-52f7bebabb593f0bbe8c",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "统计分析员属于商业与业务分析"
+    },
+    {
+      "occupation_id": "SNO-19a787f2c9a37a0a5a72",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "艺科融合与学术活动工作职责不明确，缺少具体职业信息"
+    },
+    {
+      "occupation_id": "SNO-66ee823eda596ddec0c5",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "液冷技术研究员属于硬件电路与热设计相关"
+    },
+    {
+      "occupation_id": "SNO-54eb44cc4ffd4273e07f",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "BIOS助理工程师属于嵌入式与固件开发"
+    }
+  ]
+}

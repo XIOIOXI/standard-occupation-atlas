@@ -1,0 +1,28 @@
+{
+  "id": "a44600a7-064f-4405-9b7b-e7d475bb2f9b",
+  "object": "chat.completion",
+  "created": 1792571471,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-e324397adf3e37434cc591140423836b\",\"status\":\"mapped\",\"target_category_id\":\"L25-07\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L25-07\",\"L25-06\",\"L25-09\"],\"title_evidence\":\"岗位名称明确为“安全环保与劳动监察岗”，核心职责指向安全生产、环境保护与职业健康管理\",\"level_3_evidence\":null,\"reason\":\"“安全环保”直接对应 EHS/安全生产与职业健康职能，归入 L25-07 安全健康与职业防护；劳动监察属安全环保监督范畴，不构成独立三级证据，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16971,
+    "completion_tokens": 158,
+    "total_tokens": 17129,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 331
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

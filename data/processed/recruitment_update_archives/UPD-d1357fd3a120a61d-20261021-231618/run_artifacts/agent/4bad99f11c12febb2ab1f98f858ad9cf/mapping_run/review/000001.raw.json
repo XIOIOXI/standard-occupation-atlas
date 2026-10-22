@@ -1,0 +1,28 @@
+{
+  "id": "f462f713-64cc-4b44-8466-98d7bdc33354",
+  "object": "chat.completion",
+  "created": 1792571885,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-4bad99f11c12febb2ab1f98f858ad9cf\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L01-11\", \"issue\": \"标题仅表明通用软件开发，无具体方向证据，归入L01-11通用软件研发合理；公司行业为半导体不影响软件岗位归类。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17033,
+    "completion_tokens": 97,
+    "total_tokens": 17130,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 521
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

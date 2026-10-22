@@ -1,0 +1,28 @@
+{
+  "id": "c1acc517-4669-4904-af82-1bbc1101b208",
+  "object": "chat.completion",
+  "created": 1791822022,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-e426befeb7cbdf6a94a4\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出公关专员与采矿工程两个互不兼容的独立职业，且无共同一级或二级可确认。\"},{\"entry_id\":\"SNO-e427981d3a8c31f65303\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"总裁办助理(管培生方向)中管培生非职业，助理职能方向不明确，无法确认一级或二级。\"},{\"entry_id\":\"SNO-e4410a152eb02db6bf5d\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"产品研发管培生为培养项目，产品研发方向不明确，无法确认具体产品领域或一级二级。\"},{\"entry_id\":\"SNO-e4c5faaaa9bd29ce9f79\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"海外管培生(技术类)未说明具体技术方向，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-e4f4ff58ff318beea869\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出视觉营销、品牌营销、产品研发、销售运营、商品营运、用户运营等多个互不兼容的独立职业，无共同一级或二级可确认。\"},{\"entry_id\":\"SNO-e51153b71f58aacbbedb\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出质量、工艺、采购三个独立职业方向，分属不同类别，无共同一级或二级可确认。\"},{\"entry_id\":\"SNO-e531cd9d33f894693a19\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"博士后研究人员仅表明研究阶段，缺少具体学科或研究方向，无法确认一级或二级。\"},{\"entry_id\":\"SNO-e56cf4fc91de8a290de5\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"初级助理名称过于宽泛，缺少职能方向，无法确认一级或二级。\"},{\"entry_id\":\"SNO-e57f861cfbcafd4c4fe9\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"光学分析工程师所属行业与技术方向不明确，无法确认归入电子、化工还是仪器领域。\"},{\"entry_id\":\"SNO-e5b6665bfe9a83fb40dc\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"量子计算科学家核心为算法研究，可归入算法工程师下的算法研究与通用算法，但三级边界未明确覆盖量子计算，故为review。\"},{\"entry_id\":\"SNO-e68d5ad102c58fd11e8a\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"运营师(初级)未说明运营方向，无法确认具体运营类别或一级二级。\"},{\"entry_id\":\"SNO-e6ec59627f55b9825d5f\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出Java、Vue、Python、C#、RPA等多个独立技术方向，属于多岗位复合，无共同三级可确认。\"},{\"entry_id\":\"SNO-e6eda0bd130f7646286f\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时列出审计与鉴证、税务与商务咨询两个独立职业方向，无共同三级可确认。\"},{\"entry_id\":\"SNO-e7028601e7da793d0c5f\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“信息”过于笼统，无法判断具体职业方向或一级二级。\"},{\"entry_id\":\"SNO-e70b4238affa390279ab\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“工程技术专员”过于宽泛，缺少具体工程方向，无法确认一级或二级。\"},{\"entry_id\":\"SNO-e7171c5f1241c399e903\",\"status\":\"review\",\"target_category_id\":\"餐饮/food-server/waiter-restaurant\",\"reason\":\"冲浪区域服务员核心为餐饮服务，但“冲浪区域”限定不明确，三级边界未明确覆盖，故为review。\"},{\"entry_id\":\"SNO-e72c54a9de0dcdb48df1\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"资源专业设计工程师方向不明确，缺少具体设计领域信息，无法确认一级或二级。\"},{\"entry_id\":\"SNO-e73080d7ad691204ac2c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"业务管理培训生缺少具体业务方向，无法确认归入销售、运营、金融还是其他业务类别。\"},{\"entry_id\":\"SNO-e7339598d5b62aad22ef\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"科研工程师可归入算法研究与通用算法，但“科研”范围宽泛，三级边界未明确覆盖，故为review。\"},{\"entry_id\":\"SNO-e7747281885ffe7d7d66\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"资产管理管培生未说明资产类型，无法确认具体类别或一级二级。\"},{\"entry_id\":\"SNO-e7b70e12eef17ed454a4\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"法务风控岗同时包含法务与风控两个独立职业方向，且括号内专业清单不构成职业，无共同三级可确认。\"},{\"entry_id\":\"SNO-e7ec967c6eaab9318097\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"啤酒设备管培生方向不明确，可能偏设备技术或生产管理，缺少信息确认一级或二级。\"},{\"entry_id\":\"SNO-e809fbb6172bfc5f72b5\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"研发员未说明技术或行业方向，无法确认具体类别或一级二级。\"},{\"entry_id\":\"SNO-e8231dde6d843b365bf9\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"数字化中心管培生方向宽泛，缺少具体岗位职责信息，无法确认一级或二级。\"},{\"entry_id\":\"SNO-e89d6e88d568b177bd23\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“本次校园”名称截断且缺少职业职责信息，无法判断具体职业或一级二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29623,
+    "completion_tokens": 1405,
+    "total_tokens": 31028,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2231
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,53 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-0b8dd30ff5e9a0a43528",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "储备能源动力/电气/安全/环境/消防工程师",
+  "child_title": "储备能源动力工程师",
+  "source_span": {
+    "text": "储备能源动力",
+    "start": 0,
+    "end": 6
+  },
+  "raw_decision": {
+    "original_record_id": "TG-0b8dd30ff5e9a0a43528",
+    "case": "A",
+    "child_titles": [
+      "储备能源动力工程师",
+      "电气工程师",
+      "安全工程师",
+      "环境工程师",
+      "消防工程师"
+    ],
+    "source_spans": [
+      {
+        "text": "储备能源动力",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "电气",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "text": "安全",
+        "start": 10,
+        "end": 12
+      },
+      {
+        "text": "环境",
+        "start": 13,
+        "end": 15
+      },
+      {
+        "text": "消防",
+        "start": 16,
+        "end": 18
+      }
+    ],
+    "reason": "斜杠分隔多个独立岗位，可拆分"
+  }
+}

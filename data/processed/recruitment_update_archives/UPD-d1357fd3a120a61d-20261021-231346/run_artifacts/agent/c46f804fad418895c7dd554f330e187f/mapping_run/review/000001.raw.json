@@ -1,0 +1,28 @@
+{
+  "id": "3c5babb3-c83e-40cd-9a60-31d37bace5ae",
+  "object": "chat.completion",
+  "created": 1792571488,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-c46f804fad418895c7dd554f330e187f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机电物资部业务员岗，物资/设备管理方向，候选L16-01采购与供应商管理、L16-02供应链规划、L17-02仓储库存均属合理可能，review状态合理，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17047,
+    "completion_tokens": 98,
+    "total_tokens": 17145,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 535
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

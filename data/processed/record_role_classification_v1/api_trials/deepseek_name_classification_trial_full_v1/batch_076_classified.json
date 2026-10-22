@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 76,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "59c7dd02-545b-483b-b73e-d287ef446fbd",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751438,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25033,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1737,
+    "output_tokens": 3557,
+    "reasoning_tokens": 0,
+    "total_tokens": 28590
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002464638
+  },
+  "observed_at_utc": "2026-10-11T20:43:58.501587+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-0e2e882655e9fa391711",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "银行分行运营培训生，核心为银行零售与综合业务运营。"
+    },
+    {
+      "occupation_id": "SNO-829e070be6f360172e3e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "集团本部职能管培生，职能方向不明确，无法确定具体职业类别。"
+    },
+    {
+      "occupation_id": "SNO-69ad09170658034e0d39",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "纯化研究员属于生物医药研发中的蛋白纯化研究。"
+    },
+    {
+      "occupation_id": "SNO-1cb9ea667895eb7f5330",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "前瞻研究工程师，缺少具体技术领域或研究方向信息。"
+    },
+    {
+      "occupation_id": "SNO-5ae9a8f24a2cad8840c3",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "项目质量工程师，核心为项目质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-1f3ab84fba3100ba254a",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "金融网点柜员/客户经理，属于银行零售与综合银行业务。"
+    },
+    {
+      "occupation_id": "SNO-272ef88b3752f2c6e187",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-freight",
+      "status": "mapped",
+      "reason": "速递物流，核心为货运与物流操作。"
+    },
+    {
+      "occupation_id": "SNO-f14ac56773c44c95afd2",
+      "target_category_id": "咨询/翻译/法律/consult-other-language/other-translation-written",
+      "status": "mapped",
+      "reason": "卫藏方言翻译，属于其他语种笔译与本地化。"
+    },
+    {
+      "occupation_id": "SNO-324acc31666b41c3d8b5",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "生产质量，核心为生产过程中的质量检验与控制。"
+    },
+    {
+      "occupation_id": "SNO-a7d3e79a496e5c4850b0",
+      "target_category_id": "能源/环保/农业/energy-veterinary/animal-health-veterinary",
+      "status": "mapped",
+      "reason": "兽医师助理，属于动物诊疗与防疫辅助工作。"
+    },
+    {
+      "occupation_id": "SNO-d20badbbb609c607f403",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "博士后研究员涵盖理论政策、数字经济、国际经济等研究方向，属于市场与社会调研/咨询研究。"
+    },
+    {
+      "occupation_id": "SNO-c0de5067476da517e3b7",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "供应商管理工程师，核心为供应商开发与寻源管理。"
+    },
+    {
+      "occupation_id": "SNO-0f8cc258a3bc3be1a764",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "status": "mapped",
+      "reason": "音频/声学工程师，属于语音与音频算法方向。"
+    },
+    {
+      "occupation_id": "SNO-997ac9ab5792e192087f",
+      "target_category_id": "金融/financial-banking/bank-technology",
+      "status": "mapped",
+      "reason": "信息科技类分行管培生，属于银行金融科技方向。"
+    },
+    {
+      "occupation_id": "SNO-14cb00483f29ce102fd9",
+      "target_category_id": "运营/客服/ops-service/service-management",
+      "status": "mapped",
+      "reason": "客服管培生，核心为客服管理与客户服务。"
+    },
+    {
+      "occupation_id": "SNO-46c8ab675d0cb344f81e",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-risk",
+      "status": "mapped",
+      "reason": "量化分析，属于金融与风控算法方向。"
+    },
+    {
+      "occupation_id": "SNO-1d81bf6cb8ac8b4c59d6",
+      "target_category_id": "房地产/建筑/estate-property/property-mgmt-facility",
+      "status": "mapped",
+      "reason": "非住项目管理，属于商办设施与工程管理。"
+    },
+    {
+      "occupation_id": "SNO-c9b834cfdc5f38b9f448",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "审察创优生，名称含义不明确，无法判断具体职业方向。"
+    },
+    {
+      "occupation_id": "SNO-12bdec98234e36069080",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "信息技术储备，缺少具体技术方向信息。"
+    },
+    {
+      "occupation_id": "SNO-d883ccf29b94ba3f5b10",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "运营医学，名称含义不明确，无法确定具体医疗或运营方向。"
+    },
+    {
+      "occupation_id": "SNO-3f1af5dc81f5360fb0c3",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "国际商业分析师，属于管理与行业咨询方向。"
+    },
+    {
+      "occupation_id": "SNO-7dc9e0fc04e3c2a69224",
+      "target_category_id": "教育培训/edu-admin/edu-admin-institution",
+      "status": "mapped",
+      "reason": "教育服务助理，属于教育机构行政与服务支持。"
+    },
+    {
+      "occupation_id": "SNO-323ccd0524c7e389f7c7",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "老年医学基础研究中心科研，属于生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-c839842183ef24415327",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件电路设计，属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-a0cde344fd576123aab4",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "上海分行零售业务培训生，属于银行零售与综合银行业务。"
+    },
+    {
+      "occupation_id": "SNO-6c853e854394c89754c9",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "材料专责，缺少具体行业或职能方向信息。"
+    },
+    {
+      "occupation_id": "SNO-bf3d407ccaed216efcfe",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "基金运营管培生，属于基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-8fe6b41d5ddeaa26de85",
+      "target_category_id": "采购/贸易/trade-buyer/buyer-merchandise",
+      "status": "mapped",
+      "reason": "商品计划创优生，核心为商品买手与选品计划。"
+    },
+    {
+      "occupation_id": "SNO-4b068bb03a53ab165bed",
+      "target_category_id": "运营/客服/ops-copywriting/copy-event",
+      "status": "mapped",
+      "reason": "创意企划创优生，属于活动与营销策划。"
+    },
+    {
+      "occupation_id": "SNO-ae34da0bce3205498a26",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "CRO市场经理，属于品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-b30828e54a1d456b3ee6",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机器人结构设计工程师，属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-7eeb75487eaea4cbcc40",
+      "target_category_id": "财务/审计/税务/finance-risk/risk-model",
+      "status": "mapped",
+      "reason": "内评管理与模型开发，属于风险模型与策略。"
+    },
+    {
+      "occupation_id": "SNO-7e110c9a91a20f6b43bb",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件技术工程师（单板硬件、电源方向），属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-90564717f8c136d44047",
+      "target_category_id": "咨询/翻译/法律/consult-english/en-translation-written",
+      "status": "mapped",
+      "reason": "英语翻译，属于英语笔译与本地化。"
+    },
+    {
+      "occupation_id": "SNO-dfeecdab84539a37cb83",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "食品品控，属于质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-e9a5e0ed97c3596379e9",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "工艺开发工程师（焊接、检测、电极），属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-51f6ad16494440351bbb",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "结构PE工程师，属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-fdbfeea5fa795200a687",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "人工智能技术研发工程师（AI+土木），属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-336f222568a9963a3549",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "封装设计工程师，属于芯片设计中的封装设计。"
+    },
+    {
+      "occupation_id": "SNO-65be4d18363f80f5a6b5",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "高级文件管理专员，属于文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-7060c40ab4fac2bdc8ef",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "产品经理（软件方向），属于平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-835180a0ef533adccca6",
+      "target_category_id": "产品/product-hardware/hardware-product",
+      "status": "mapped",
+      "reason": "客户产品管理工程师，属于硬件产品规划。"
+    },
+    {
+      "occupation_id": "SNO-8a698eb26d19b2b3ef9a",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-design",
+      "status": "mapped",
+      "reason": "城市更新所规划设计师，属于城市设计与更新。"
+    },
+    {
+      "occupation_id": "SNO-153527635aa301851b88",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "找矿预测研究，属于地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-4798fc951e0df8faffdc",
+      "target_category_id": "互联网/AI/internet-java/java-server",
+      "status": "mapped",
+      "reason": "Java开发软件工程师，属于服务端与企业应用开发。"
+    },
+    {
+      "occupation_id": "SNO-457e68ca98f30931e239",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": "老年心血管中心医师，属于临床诊疗。"
+    },
+    {
+      "occupation_id": "SNO-b03d2fbde90316fb6a6a",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "档案，属于文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-efd0ad63eb8e68338034",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "静装(备)设计，名称含义不明确，无法判断具体设计方向。"
+    },
+    {
+      "occupation_id": "SNO-7f6858885812271c83e9",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": "新媒体和电商运营，核心为社交媒体运营。"
+    },
+    {
+      "occupation_id": "SNO-5cee7ad5babd8270eee4",
+      "target_category_id": "销售/sales-management/sales-management-strategy",
+      "status": "mapped",
+      "reason": "海外国家经理，属于销售策略与渠道管理。"
+    }
+  ]
+}

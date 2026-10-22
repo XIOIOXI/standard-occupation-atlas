@@ -1,0 +1,28 @@
+{
+  "id": "c33263c1-f6c9-4fa8-bc58-11a9cd300c58",
+  "object": "chat.completion",
+  "created": 1791880995,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"TG-1b0afcfcaf97a39ffddf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f0f3f9261760b3100746\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-46594fc989bd605e72f5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-914bf50078b25278c6de\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cba0b82f4f3a2ba8ebe4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a6882986408395206737\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L20-07-03\",\"issue\":\"风控算法属于金融反欺诈与业务风险，而非推荐搜索与广告算法，应归L20-07-03。\"},{\"occupation_id\":\"TG-0365e29674aaa20f192b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e72c54a9de0dcdb48df1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2868e3b319e7ea8ec34a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c69b423b885e1f4f187a\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L01-11\",\"issue\":\"开发管培生已明确为软件开发方向（AI、C语言、Java等），应归通用软件研发L01-11，而非跨职能管培L32-01。\"},{\"occupation_id\":\"TG-d279e7a000a34f1e81e1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ddccb51636112c80375d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-82555628505a40eb6000\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-dd7bba7908d664aa80db\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ae843dd42d91940b9877\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1ecc1006f39b245fdb90\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-38775b96016df8c560b0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c29a24ff2dea433572e1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-027017b2623fa6eb627c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ece783efaf1ddb96e5ff\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19507,
+    "completion_tokens": 804,
+    "total_tokens": 20311,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2995
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

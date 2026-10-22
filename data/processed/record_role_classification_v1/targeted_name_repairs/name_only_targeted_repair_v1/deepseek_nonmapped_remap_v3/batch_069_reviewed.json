@@ -1,0 +1,185 @@
+{
+  "batch_number": 69,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "3009acee-10f0-477a-8b59-0659d696b690",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791822037,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29799,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2407,
+    "output_tokens": 1240,
+    "reasoning_tokens": 0,
+    "total_tokens": 31039
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0011872260000000002
+  },
+  "results": [
+    {
+      "entry_id": "SNO-f0b889b95d551c45d303",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "国际管培生为培训生身份，未指明具体职能方向，无法确认职业类别。"
+    },
+    {
+      "entry_id": "SNO-f143fa739ba7d21cfecf",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出总行员工储备生、总行科技储备生、分支机构员工等多个方向，且均为储备生身份，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-f15e209a0b8706c5337f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管理培训生为培训生身份，未指明具体职能方向，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-f1623d83554d6dd102d4",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "校招为招聘状态而非具体职业，缺少岗位信息。"
+    },
+    {
+      "entry_id": "SNO-f1b9fd6d8812c715584e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "医疗名称过于宽泛，无法确定具体医疗岗位。"
+    },
+    {
+      "entry_id": "SNO-f1bf0af01a12429b8677",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "工具研发未指明技术栈，不能仅凭名称归入Python自动化与工具开发。"
+    },
+    {
+      "entry_id": "SNO-f1e0d71faeed1779edfb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "数据产品组业务架构师职责方向不明确，不能仅凭名称归入后端平台与中间件开发。"
+    },
+    {
+      "entry_id": "SNO-f209d210f84291c2c52d",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出工艺、设备、仪表、电气、储运、外贸等多个独立岗位，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-f22d9e546919dcabd182",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "巡察业务可能属于纪检或合规，但目录无对应类别，需明确具体职责。"
+    },
+    {
+      "entry_id": "SNO-f23faf1ac5dcda298e65",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "研发管理管培生为培训生身份且缺少具体技术领域，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-f240b0ebb77128509662",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“大健工程师(大健康)”名称含义不明确，缺少具体技术方向。"
+    },
+    {
+      "entry_id": "SNO-f25e9381078ab89b930e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "见习生未明确职业方向，缺少具体岗位职责信息，无法归类。"
+    },
+    {
+      "entry_id": "SNO-f26a75507c42865986c3",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "初级软件工程师未指明技术栈或方向，不能仅凭名称归入业务服务端开发。"
+    },
+    {
+      "entry_id": "SNO-f28e91fead6a08a3ba72",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "全球卓越管培生为培训生身份且未说明职能方向，无法确定具体职业类别。"
+    },
+    {
+      "entry_id": "SNO-f2b31ed917494eb1644f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "职能管理类过于宽泛，缺少具体职能方向。"
+    },
+    {
+      "entry_id": "SNO-f2bdb95847142077a4e4",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "消费者管理培训生为培训生身份且未说明具体职能方向，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-f2be2c7e61f4e79426b7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "应用开发未指明技术栈或方向，不能仅凭名称归入业务服务端开发。"
+    },
+    {
+      "entry_id": "SNO-f30ec024911cd17a63a2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“生产制造”为宽泛领域名称，缺少具体岗位职能。"
+    },
+    {
+      "entry_id": "SNO-f3288c126e41baba8df0",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "交易服务过于宽泛，无法确定金融、房产或贸易方向。"
+    },
+    {
+      "entry_id": "SNO-f3509ea913e82c06de10",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出嵌入式、JAVA、Android三个独立开发方向，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-f368c540e65eb1f476d5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "技术/研发过于宽泛，缺少具体技术方向，无法确定三级类别。"
+    },
+    {
+      "entry_id": "SNO-f37104278df03eec175a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "内容培训生艺术创作方向含AIGC，职责与方向不明确。"
+    },
+    {
+      "entry_id": "SNO-f3756af4152689bb0611",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "AI全栈工程师职责方向不明确，不能仅凭名称归入业务服务端开发。"
+    },
+    {
+      "entry_id": "SNO-f38cff8bdd0e2d9e342b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "系统工程师未说明系统领域，无法确定具体职业类别。"
+    },
+    {
+      "entry_id": "SNO-f3b14b74bfce682623d2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "设计助理工程师未说明具体设计领域，无法确定归类。"
+    }
+  ]
+}

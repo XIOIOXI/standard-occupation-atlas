@@ -1,0 +1,28 @@
+{
+  "id": "d9117034-0dea-41a9-a9a5-dac896a57d12",
+  "object": "chat.completion",
+  "created": 1791895655,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-efd0ad63eb8e68338034\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"静装(备)设计归空间与展示设计，符合L09-05范围。\"},{\"occupation_id\":\"TG-e5ffa8f6e2c1916afc0e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"新媒体和电商运营岗归电商与商品运营，标题含电商运营，符合L14-04范围。\"},{\"occupation_id\":\"TG-5cee7ad5babd8270eee4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外国家经理归销售管理，符合L13-07范围。\"},{\"occupation_id\":\"TG-8d3a4e2f33486ce4e6d7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发技术员技术支持工程师归售后技术服务，标题含技术支持，符合L14-10范围。\"},{\"occupation_id\":\"TG-e54c7a65b3e057157880\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"充电桩结构/测试工程师归硬件与产品测试，标题含测试，符合L04-02范围。\"},{\"occupation_id\":\"TG-5d9bd7f162ed1ef363af\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"科技培养生为跨技术方向培养项目，归跨职能管理培训与轮岗，符合L32-01范围。\"},{\"occupation_id\":\"TG-bdfe9de85d83ef1afc3b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"算法/软件/控制工程师归通用软件研发，标题含软件工程师且方向未说明，符合L01-11范围。\"},{\"occupation_id\":\"TG-49a0ce96affe1cecefef\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"标题列出多个专业方向，无法确定唯一核心职能。\"},{\"occupation_id\":\"TG-3210b2f8dbe3feb1c573\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“展翼计划”科技岗为培养项目，具体技术方向未明确，归跨职能管理培训与轮岗，符合L32-01范围。\"},{\"occupation_id\":\"TG-806792096f4eeaa58b7f\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"银行培训生仅行业明确，具体职能未说明。\"},{\"occupation_id\":\"TG-f52491315c26a372a10d\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"管培生且博士后研究方向，具体职能未明确。\"},{\"occupation_id\":\"TG-bebaa1b04f90d4d3ffad\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"管理精英岗过于宽泛，具体职能未说明。\"},{\"occupation_id\":\"TG-c4cf74426db82b69be49\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"业务储备生仅表明储备培养，具体职能未明确。\"},{\"occupation_id\":\"TG-e5276722b3aa736a59b3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"党群综合部管培生归通用组织支持，符合L18-09范围。\"},{\"occupation_id\":\"TG-51424c737773f11ccf88\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"运营师方向未说明。\"},{\"occupation_id\":\"TG-57e723b22e1d13cb5b24\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"系统资源工程师归系统与服务器运维，符合L03-01范围。\"},{\"occupation_id\":\"TG-11af6a0a2b4498378d02\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"R02工程师无法识别具体职能。\"},{\"occupation_id\":\"TG-e42180b7193a4ea2d544\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"业务培训生仅表明培养性质，具体职能未明确。\"},{\"occupation_id\":\"TG-5df44c96bcde385b871a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"助理顾问归管理与专业咨询，符合L11-04范围。\"},{\"occupation_id\":\"TG-e22e3b5acc489e7d4645\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"QA研究员归软件测试与质量保障，符合L04-01范围。\"},{\"occupation_id\":\"TG-2e72cfc9a43f550eaa3c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"安全设备岗归安全健康与职业防护，符合L25-07范围。\"},{\"occupation_id\":\"TG-4bbbe1489a8a153aad0b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"放行工程师归硬件与产品测试，符合L04-02范围。\"},{\"occupation_id\":\"TG-c322cec73cad0f66d32b\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"银行培训生仅行业明确，具体职能未说明。\"},{\"occupation_id\":\"TG-83f640d9f3ec8354caab\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"智慧银行岗职能不明确。\"},{\"occupation_id\":\"TG-3a3a0bfff2749d87d430\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"助理研究员岗归通用科学研究，符合L07-05范围。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 20332,
+    "completion_tokens": 1331,
+    "total_tokens": 21663,
+    "prompt_tokens_details": {
+      "cached_tokens": 20096
+    },
+    "prompt_cache_hit_tokens": 20096,
+    "prompt_cache_miss_tokens": 236
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

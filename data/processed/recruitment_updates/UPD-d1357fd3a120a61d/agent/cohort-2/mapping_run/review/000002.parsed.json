@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e57f2d0bb6a0fc23d3910591a8f430c5",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-06-02",
+      "issue": "化妆品企业研发样品工程师，归日化与个护研发合理；样品制作与配方支持属该二级范围，无需修正。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17059,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 547,
+    "output_tokens": 88,
+    "reasoning_tokens": 0,
+    "total_tokens": 17147
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00018438600000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

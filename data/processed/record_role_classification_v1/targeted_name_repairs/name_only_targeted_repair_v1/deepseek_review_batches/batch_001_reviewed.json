@@ -1,0 +1,185 @@
+{
+  "batch_number": 1,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "3d2d1c1e-ccec-417b-a261-da8e62343cb0",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813044,
+    "finish_reason": "stop"
+  },
+  "attempts": 0,
+  "validation_retry_count": 1,
+  "usage": {
+    "input_tokens": 31054,
+    "cached_input_tokens": 30848,
+    "uncached_input_tokens": 206,
+    "output_tokens": 1626,
+    "reasoning_tokens": 0,
+    "total_tokens": 32680
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001099044
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-43e37ae07b5ade05eabb",
+      "decision": "fallback_review",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "reason": "总裁助理为行政事务支持类岗位，可确认属文员大类，但具体是否文档与档案文员依据不足，保留最深可确认上级。"
+    },
+    {
+      "occupation_id": "SNO-1f52a6421ab5f6649234",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "Linux客户端开发工程师核心为Linux平台系统与底层开发，归入C++系统与底层开发合理。"
+    },
+    {
+      "occupation_id": "SNO-8cabe38d46d6a45d1f8c",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件工程师名称未注明语言或方向，默认归业务服务端开发依据不足，但可确认属互联网后端开发大类。"
+    },
+    {
+      "occupation_id": "SNO-7b79cc0865708f035de8",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "SDK开发工程师核心为平台与中间件开发，归入后端平台与中间件开发合理。"
+    },
+    {
+      "occupation_id": "SNO-7594ce23aec49a893077",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "reason": "U3D开发工程师为Unity客户端开发，归入移动端与客户端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-15fa100a77d9313ac124",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "系统开发工程师名称未注明语言或方向，默认归业务服务端开发依据不足，但可确认属互联网后端开发大类。"
+    },
+    {
+      "occupation_id": "SNO-2e2b7fbfeca0c1737456",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "IQ图像工程师从事图像处理，归入计算机视觉与三维感知合理。"
+    },
+    {
+      "occupation_id": "SNO-ba8a7274567514acd1bd",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "网管软件工程师核心为网络管理平台与中间件开发，归入平台与中间件开发合理。"
+    },
+    {
+      "occupation_id": "SNO-f529d508a973a400a7d5",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件开发工程师名称未注明语言或方向，默认归业务服务端开发依据不足，但可确认属互联网后端开发大类。"
+    },
+    {
+      "occupation_id": "SNO-538109db12a5c42cc7f7",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出运行指挥、调度、通导机务、乌击防范、机电维修、防火等多个独立岗位，确为多职业。"
+    },
+    {
+      "occupation_id": "SNO-4fa8e460da2a160eba4f",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-risk",
+      "reason": "量化开发工程师核心为金融量化算法开发，归入金融与风控算法合理。"
+    },
+    {
+      "occupation_id": "SNO-4dd39fbbf592254584a5",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "应用研发工程师名称未注明语言或方向，默认归业务服务端开发依据不足，但可确认属互联网后端开发大类。"
+    },
+    {
+      "occupation_id": "SNO-e6eda0bd130f7646286f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时列出审计与鉴证、税务与商务咨询两个独立职业方向，确为多职业。"
+    },
+    {
+      "occupation_id": "SNO-302d2bf539f19dba4628",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出研发AI应用、动漫剧产运投放、素材新媒体编导、导演职能、支持等多个独立职业，确为多职业。"
+    },
+    {
+      "occupation_id": "SNO-93a19d3f60e94e6c38d6",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "管培生涵盖旅游管理、设计学、动物医学、公共管理等多个职业方向，确为多职业。"
+    },
+    {
+      "occupation_id": "SNO-64835a6a693674f0d877",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "AI研发工程师名称未注明具体方向，默认归大模型与生成式AI依据不足，但可确认属算法工程师大类。"
+    },
+    {
+      "occupation_id": "SNO-266c5c09868ebce488cf",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "人形机器人系统集成工程师核心为机器人系统集成，归入机器人与具身智能合理。"
+    },
+    {
+      "occupation_id": "SNO-305521f61b54fb36fd86",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出高分子新材料研发与制造系统操作员两个独立职业，确为多职业。"
+    },
+    {
+      "occupation_id": "SNO-ce02947b136d77b8dc81",
+      "decision": "fallback_review",
+      "target_category_id": "金融/financial-claims/claims-property",
+      "reason": "保险理赔未注明财产险或人身险方向，默认归财产与车险理赔依据不足，但可确认属保险理赔大类。"
+    },
+    {
+      "occupation_id": "SNO-9e1413d7f62dcbfacee6",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "AI编译优化工程师名称未注明大模型方向，默认归大模型与生成式AI依据不足，但可确认属算法工程师大类。"
+    },
+    {
+      "occupation_id": "SNO-b56050d11fa2545ca6cf",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出软件与硬件工程师两个独立职业方向，确为多职业。"
+    },
+    {
+      "occupation_id": "SNO-4364a9850c9760910973",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "仿真系统工程师名称未注明具体算法方向，归入算法研究与通用算法依据不足，但可确认属算法工程师大类。"
+    },
+    {
+      "occupation_id": "SNO-31fe40440ec92ff3ac30",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "法务与投资为两个独立职业方向，确为多职业。"
+    },
+    {
+      "occupation_id": "SNO-c2049363d1e5e96c1673",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "AOI、机械设备、电控开发维护为多个独立技术方向，确为多职业。"
+    },
+    {
+      "occupation_id": "SNO-c4d42646f4b86a71cfa6",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "CPU软件工程师核心为系统与底层开发，归入C++系统与底层开发合理。"
+    }
+  ]
+}

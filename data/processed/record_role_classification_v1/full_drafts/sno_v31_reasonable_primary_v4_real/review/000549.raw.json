@@ -1,0 +1,28 @@
+{
+  "id": "76cf65b1-d5e3-4566-b0c3-9b51ba3b9ced",
+  "object": "chat.completion",
+  "created": 1791881927,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-d6deb31b98eac140eef7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发校招生仅表明研发方向校招培养，未说明具体研发职能，review合理。\"},{\"occupation_id\":\"TG-773bca1de8a41f4bebb8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"图像算法工程师归计算机视觉三级合理。\"},{\"occupation_id\":\"TG-b395a4084eca14a90c6c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"图像算法开发归计算机视觉三级合理。\"},{\"occupation_id\":\"TG-d997c0569be259657b44\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"PC软件工程师归桌面业务应用三级合理。\"},{\"occupation_id\":\"TG-f3632a662b575c6772bc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"PC软件工程师归桌面业务应用三级合理。\"},{\"occupation_id\":\"TG-58475f2c3a945a2f1ecb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"商务管理岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-c7cd6c1ffe553a045ec0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"中学教师未说明学科，停在L22-02合理。\"},{\"occupation_id\":\"TG-ec88680820b97c4c74bf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"中学教师岗未说明学科，停在L22-02合理。\"},{\"occupation_id\":\"TG-ab7204f43584f0f9e323\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字逻辑设计工程师归数字芯片设计三级合理。\"},{\"occupation_id\":\"TG-ac1587d231dcc0372df7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"SRE/基础设施工程师归云平台与可靠性运维合理。\"},{\"occupation_id\":\"TG-6b3571ef19d6a901ceed\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"乒乓球教练员归健身与运动指导合理。\"},{\"occupation_id\":\"TG-1c9c9588aaa95f5aa55d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运营柜员岗归金融运营与交易清算合理。\"},{\"occupation_id\":\"TG-126455d7503d05a90310\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运营柜员归金融运营与交易清算合理。\"},{\"occupation_id\":\"TG-0c3e49c482e1ae67da83\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"语文教师归人文与社会学科教学三级合理。\"},{\"occupation_id\":\"TG-8d6cc7b95728749799ec\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金融审计未说明内部或外部，停在L19-05合理。\"},{\"occupation_id\":\"TG-8ba9eb4f1b11c2e62337\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管理咨询岗归战略与管理咨询三级合理。\"},{\"occupation_id\":\"TG-5c2953d7ba2f2b3a34a6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题仅为“/助理”，无有效职能信息，non_role_text合理。\"},{\"occupation_id\":\"TG-0b5315d0a9a660f740fb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"助理岗未说明具体职能，review合理。\"},{\"occupation_id\":\"TG-499625933ebfe06a5f1c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"助理实习生未说明具体职能，review合理。\"},{\"occupation_id\":\"TG-e56cf4fc91de8a290de5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"初级助理未说明具体职能，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19310,
+    "completion_tokens": 952,
+    "total_tokens": 20262,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2798
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

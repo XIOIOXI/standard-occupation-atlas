@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-569039bf80de6bd466473c5730a09c31",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08",
+        "L06-08-01"
+      ],
+      "title_evidence": "工艺工程师，半导体制造企业（德州仪器）",
+      "level_3_evidence": null,
+      "reason": "工艺工程师属于制造工艺/制程工程职能，半导体行业工艺岗对应制造制程工程；标题未明确具体为制程参数开发，故停在二级 L06-08。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16953,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 313,
+    "output_tokens": 133,
+    "reasoning_tokens": 0,
+    "total_tokens": 17086
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00035334000000000006
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

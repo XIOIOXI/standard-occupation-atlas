@@ -1,0 +1,28 @@
+{
+  "id": "ce2c99fa-aa13-427b-8c1d-cd88ee174f47",
+  "object": "chat.completion",
+  "created": 1792571866,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-dd6784564eab3ce18091e9ed904d5099\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L32-01\",\"L32-02\",\"L02-09\",\"L01-11\"],\"title_evidence\":\"标题为“数字化管培生”，属管培生序列中的数字化方向；原始组合岗位含产品、电商、品牌、研发、人力、财务、数字化等多个方向，说明为培养/轮岗性质。\",\"level_3_evidence\":null,\"reason\":\"“数字化”方向未明确具体职能（可能是数据分析、数据平台开发、数字化运营或信息化），且管培生性质表明最终职业方向未定，不能直接映射到单一正式类别；按规则管培生方向未明确应标 review，候选为跨职能管理培训与轮岗、综合储备与业务培养，以及数字化可能对应的通用数据/AI或通用软件研发。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16977,
+    "completion_tokens": 213,
+    "total_tokens": 17190,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 337
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-766733731bf79a3a5230",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题仅表明顾问助理，未说明咨询领域，review合理。"
+    },
+    {
+      "occupation_id": "TG-cf115e8baded862bfdc0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "MCU模拟设计归模拟与混合信号设计，合理。"
+    },
+    {
+      "occupation_id": "TG-5985a566bc5c64c7c487",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "教师管培生未说明学科阶段，归通用教育教学合理。"
+    },
+    {
+      "occupation_id": "TG-ec706a7a6a629fdc0147",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "质量工程师归生产质量管理，合理。"
+    },
+    {
+      "occupation_id": "TG-b0bf084e96c09ee1df62",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "土建类工程管理专员归施工组织与工程管理，合理。"
+    },
+    {
+      "occupation_id": "TG-5cd5671e0c82c38051df",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "人机工程岗方向不明，review合理。"
+    },
+    {
+      "occupation_id": "TG-a616567c62e658e9d503",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行培训生仅行业信息，review合理。"
+    },
+    {
+      "occupation_id": "TG-0fcebe590554a946c09d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "外贸业务与采购双职能，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-44fa68e2c6e3e41075be",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "电话销售无客户类型，归通用销售合理。"
+    },
+    {
+      "occupation_id": "TG-fa76bbd7ff0cbfe04dc6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "ROS开发归嵌入式应用开发，合理。"
+    },
+    {
+      "occupation_id": "TG-3980c303592cbd11a29d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含义不明，review合理。"
+    },
+    {
+      "occupation_id": "TG-3b84c93494f74cee302d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "安卓系统工程师归Android应用开发，合理。"
+    },
+    {
+      "occupation_id": "TG-3d1a83d35a2971359f8a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务管理培训生归通用财务工作，合理。"
+    },
+    {
+      "occupation_id": "TG-36a609f5edc289280ca2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行公司业务培训生仅行业信息，review合理。"
+    },
+    {
+      "occupation_id": "TG-6964e9d5cad262f328fd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "应用服务工程师方向不明，review合理。"
+    },
+    {
+      "occupation_id": "TG-af397a4df515fd5209de",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "文秘兼人事双职能，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-69e2afff633584f58ea4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI Infra工程师归模型部署与机器学习平台，合理。"
+    },
+    {
+      "occupation_id": "TG-baf83924236bf5d6d1f8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "安全消防应急岗归应急救援与消防，合理。"
+    },
+    {
+      "occupation_id": "TG-3016b85eeadb22f495fe",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "嵌入式应用与BSP开发归嵌入式应用开发，合理。"
+    },
+    {
+      "occupation_id": "TG-554dc3708d66ba0da572",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "具身智能算法研究员归机器学习与算法研发，合理。"
+    }
+  ],
+  "raw_response_file": "000176.raw.json",
+  "usage": {
+    "input_tokens": 19493,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2981,
+    "output_tokens": 935,
+    "reasoning_tokens": 0,
+    "total_tokens": 20428
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002115372
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

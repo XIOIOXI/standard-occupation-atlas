@@ -1,0 +1,28 @@
+{
+  "id": "73c798e3-c2f0-4938-bcea-90b0bccae11d",
+  "object": "chat.completion",
+  "created": 1791881062,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"TG-c910bd9cc8642abc7ce4\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"注塑成型工程师归入制造制程工程合理。\"}, {\"occupation_id\": \"TG-f0a915203abd16f2382c\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"劳动关系岗归入员工与劳动关系合理。\"}, {\"occupation_id\": \"TG-b9d12f5287596efcf8ac\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"大数据研发高级工程师归入数据计算平台合理。\"}, {\"occupation_id\": \"TG-3ab70dd0fd5d85b03c46\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"模具项目工程师归入工装模具与工艺装备合理。\"}, {\"occupation_id\": \"TG-92ac5834b076d488161d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"法务监察管理培训生已明确法务方向，归入企业法务合理。\"}, {\"occupation_id\": \"TG-a433989bf0fed572b404\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"门店运营助理归入线下业务与场所运营合理。\"}, {\"occupation_id\": \"TG-b521d8767e302f5dac66\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"风控管理岗归入反欺诈与业务风险合理。\"}, {\"occupation_id\": \"TG-ef49b75c8a22d310b3a1\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"零售业务培训生方向未明确，review合理。\"}, {\"occupation_id\": \"TG-7cd6a657a115a54987ef\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"电气/机械研发工程师为多角色，multi_role合理。\"}, {\"occupation_id\": \"TG-eea67e7afefd0272db38\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"海外销售工程师归入直客销售合理。\"}, {\"occupation_id\": \"TG-d1f8b777bba7e64dd8f9\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"版图工程师归入芯片物理设计合理。\"}, {\"occupation_id\": \"TG-cf46964d2dcc7124d879\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"工艺设计师助理归入工装模具与工艺装备合理。\"}, {\"occupation_id\": \"TG-a927661530aaa8bf9e4d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"开发选址管培生归入招商与租赁销售合理。\"}, {\"occupation_id\": \"TG-f4755a8d8f632dcd6fc9\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"宏观研究岗归入证券与市场研究合理。\"}, {\"occupation_id\": \"TG-97272737624c86d8450d\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"服务管理岗范围宽泛，review合理。\"}, {\"occupation_id\": \"TG-33ba0c80227a0348a6b8\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"总行管培生未明确职能方向，review合理。\"}, {\"occupation_id\": \"TG-7a988c053a381854d9db\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"仅标明编程语言，归入通用软件研发合理。\"}, {\"occupation_id\": \"TG-cc44621733156793679e\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"服装设计管培生归入服装饰品与纺织设计合理。\"}, {\"occupation_id\": \"TG-51a930072ae924b30b49\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"会计助理归入总账与财务会计合理。\"}, {\"occupation_id\": \"TG-b6b87266f3c14e1608fc\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"销售培训生面向个人消费者，归入个人客户销售合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19630,
+    "completion_tokens": 1097,
+    "total_tokens": 20727,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3118
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

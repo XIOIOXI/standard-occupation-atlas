@@ -1,0 +1,28 @@
+{
+  "id": "12ab78c1-78a2-4e98-a73c-9118935d54ff",
+  "object": "chat.completion",
+  "created": 1792571454,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-1a36a30feb6b5b2a048be4b482558b5d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管理培训生且原始岗位含信息技术、运营、精算、财务、合规等多方向，未确定单一主职能，归L32-01并标review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17063,
+    "completion_tokens": 92,
+    "total_tokens": 17155,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 551
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

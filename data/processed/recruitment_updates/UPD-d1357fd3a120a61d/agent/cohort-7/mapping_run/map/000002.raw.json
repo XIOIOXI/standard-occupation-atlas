@@ -1,0 +1,28 @@
+{
+  "id": "765c4cff-9ddf-4ce8-a071-70142a605787",
+  "object": "chat.completion",
+  "created": 1792596228,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-0e6a4a8d59eef0b905ebb3277a1eb6e3\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L11-06\",\"L11-03\",\"L11-02\"],\"title_evidence\":\"产业发展部办事员：部门为产业发展部，岗位为办事员，未说明具体职责\",\"level_3_evidence\":null,\"reason\":\"“产业发展部”指向产业规划/投资发展类职能，但“办事员”为泛化事务岗，无法确定是产业投资拓展、经营分析还是战略规划，故列候选待确认。\"},{\"occupation_id\":\"UP-e013e0d9fe564d4b2c4c4d4faca82acd\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L26-01\",\"L26-03\",\"L26-07\",\"L26-08\"],\"title_evidence\":\"技术员：仅“技术员”，无专业方向；公司行业为农林牧渔\",\"level_3_evidence\":null,\"reason\":\"“技术员”为泛化技术岗，虽公司属农林牧渔，但无法区分种植、养殖、农机或通用农业技术方向，故列候选待确认。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17179,
+    "completion_tokens": 297,
+    "total_tokens": 17476,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 539
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

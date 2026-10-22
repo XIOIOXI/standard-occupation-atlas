@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-ac14fcb7022817891a931de629f338e0",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01",
+        "L06-02"
+      ],
+      "title_evidence": "结构分析与仿真计算工程师：结构分析、仿真计算，属机械结构设计与分析",
+      "level_3_evidence": null,
+      "reason": "标题明确为结构分析与仿真计算，核心为机械结构强度/仿真分析，归机械与结构设计；仿真计算未明确指向热流体，故不选三级，停在二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16945,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 305,
+    "output_tokens": 142,
+    "reasoning_tokens": 0,
+    "total_tokens": 17087
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036174
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

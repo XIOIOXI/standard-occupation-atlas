@@ -1,0 +1,93 @@
+{
+  "raw_response_file": "map_001_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-4aa1a3c6743f7d8e154a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "标题仅为“技术”，无任何职能方向线索",
+      "level_3_evidence": null,
+      "reason": "“技术”过于宽泛，无法判断是软件、硬件、运维还是其他技术职能，无任何有依据的合理归属位置。"
+    },
+    {
+      "occupation_id": "SNO-e5d340f2b9ee3320f200",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "“武汉分行运营培训生”含银行分行与运营培训生身份，但未说明具体金融业务方向",
+      "level_3_evidence": null,
+      "reason": "银行运营培训生身份明确但具体职能方向未说明，目录明确仅“银行管培生”不能视为已明确金融业务，故标 review。"
+    },
+    {
+      "occupation_id": "SNO-7196eec8684a5a8e5af9",
+      "status": "mapped",
+      "target_category_id": "L20-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "“资产评估管培生”明确为资产评估职能，管培为身份修饰",
+      "level_3_evidence": null,
+      "reason": "资产评估属于 L20-09 资产评估与处置范围，管培生身份不影响按已明确专业职能归类。"
+    },
+    {
+      "occupation_id": "SNO-09b70120c117f7063fcc",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-09",
+        "L14-11"
+      ],
+      "title_evidence": "“平度办事处业务”仅表明办事处业务身份，未说明销售、运营或其他具体职能",
+      "level_3_evidence": null,
+      "reason": "“业务”未明确客户类型与工作方向，不能确定是销售还是业务运营，故标 review。"
+    },
+    {
+      "occupation_id": "SNO-f7538f218c7f1dfd7fc7",
+      "status": "mapped",
+      "target_category_id": "L13-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "“客户主管”通常指客户销售团队或客户关系管理岗位",
+      "level_3_evidence": null,
+      "reason": "客户主管通常承担客户销售与客户关系管理职责，归销售管理 L13-07 最直接。"
+    },
+    {
+      "occupation_id": "SNO-9e0e40d2e6771547d880",
+      "status": "mapped",
+      "target_category_id": "L12-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-01"
+      ],
+      "title_evidence": "“品牌与商务运营”明确含品牌职能，品牌管理为最直接归属",
+      "level_3_evidence": null,
+      "reason": "标题明确包含品牌工作，品牌管理 L12-02 为最直接归属；商务运营可作为候选但不参与正式归属。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17191,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 17191,
+    "output_tokens": 661,
+    "reasoning_tokens": 0,
+    "total_tokens": 17852
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00297525
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

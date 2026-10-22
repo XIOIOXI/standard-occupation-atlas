@@ -1,0 +1,28 @@
+{
+  "id": "06bd9238-4fca-4673-a322-203f2ff625fd",
+  "object": "chat.completion",
+  "created": 1791881038,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"TG-5a623e043136ad4dd789\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L13-01\",\"issue\":\"公司金融市场营销岗面向企业客户，应归企业客户销售L13-01，而非个人客户销售L13-02。\"},{\"occupation_id\":\"TG-4740c413d6a45e59551b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a62dece4edc636740da7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5049d517385536c9ec74\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L13-02\",\"issue\":\"高净值客户经理助理属于个人客户销售，应归L13-02，而非企业客户销售下的重点客户管理L13-01-02。\"},{\"occupation_id\":\"TG-5e8ce9056e60657af05f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4e7b4980e893d9b2adce\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0ca181ea5a83c6a04832\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e59ff0af5ad790c77dd3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-6210223f25d20f2108bb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d2cdcd6c22dd74049483\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2838cb11ea2a2da59248\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-31105acb1e3a160759e0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-6cc997b3bfa4d82cce8d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d3b55add86a3e90bbe71\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4ce0b3ef7a9098db0d90\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-987d169f2d65719717d7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c8cc293711826883351f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5dfb65ef5ed8fa1722e8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a36695f4a24bfc0ef6c4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-b8679b6e94b9b1327941\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 20158,
+    "completion_tokens": 810,
+    "total_tokens": 20968,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3646
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

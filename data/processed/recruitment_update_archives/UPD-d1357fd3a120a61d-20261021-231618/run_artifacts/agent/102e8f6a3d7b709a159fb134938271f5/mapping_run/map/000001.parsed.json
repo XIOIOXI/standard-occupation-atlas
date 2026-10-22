@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-102e8f6a3d7b709a159fb134938271f5",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L13-02",
+        "L20-08"
+      ],
+      "title_evidence": "标题为“客户经理岗”，银行客户经理以企业/机构客户关系维护与业务拓展为主",
+      "level_3_evidence": null,
+      "reason": "银行客户经理核心职责为客户关系维护与业务拓展，属企业客户销售（L13-01）；虽可能涉及个人客户或柜面业务，但标题未明确，按最直接职能归L13-01。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16943,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 303,
+    "output_tokens": 163,
+    "reasoning_tokens": 0,
+    "total_tokens": 17106
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038634000000000004
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

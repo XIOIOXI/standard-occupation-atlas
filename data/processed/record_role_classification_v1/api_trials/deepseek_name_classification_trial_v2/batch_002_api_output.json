@@ -1,0 +1,28 @@
+{
+  "id": "eb739be6-6a1e-4444-b05c-d2b3933f07ba",
+  "object": "chat.completion",
+  "created": 1791747349,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"standard_occupation_id\":\"SNO-d92d4a0afc2c7e920354\",\"target_category_id\":\"运营/客服/ops-business/business-ops-process\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-d34cf0bb21a90c4eee42\",\"target_category_id\":\"供应链/物流/supply-chain/supply-chain-planning\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-5f43b78cf7549e2ea3a4\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-risk\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-b12ff0d486dd937b291b\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"名称仅泛化业务管理，无法确定具体职能\"},{\"standard_occupation_id\":\"SNO-27e63eba60eb4d40d1ac\",\"target_category_id\":\"生产制造/manufacturing-mechanical/mechanical-design\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-3e62029d76df087822b2\",\"target_category_id\":\"教育培训/edu-teacher/teacher-k12\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-49e5d5a10ab7fd7da7dd\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"材料基因工程师名称不足以确定具体目录\"},{\"standard_occupation_id\":\"SNO-49ed7f695146c6e75112\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"环境可靠性工程师名称不足以确定具体目录\"},{\"standard_occupation_id\":\"SNO-d1cfe446eeb551c2e1f2\",\"target_category_id\":\"市场/公关/广告/marketing-government/government-affairs-compliance\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-7dc9e0fc04e3c2a69224\",\"target_category_id\":\"教育培训/edu-admin/edu-admin-institution\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-1303fde314c3e122be68\",\"target_category_id\":\"运营/客服/ops-social-media/media-social\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-a47b055ca7ccc6f1a475\",\"target_category_id\":\"生产制造/manufacturing-quality/quality-control\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-e77e5a9120d0e52cbf8c\",\"target_category_id\":\"电子/电气/通信/electronic-hardware/hardware-dev-circuit\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-2763e7df87bfddf62a76\",\"target_category_id\":\"销售/sales-general/general-sales-customer\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-ac05f2f92fe9337ef6e6\",\"target_category_id\":\"生产制造/manufacturing-chemical/chemical-process\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-e98479e69fcbd3b4d3ef\",\"target_category_id\":\"互联网/AI/internet-machine-learning/ml-platform\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-6e9243e293d1fb83d9c1\",\"target_category_id\":\"运营/客服/ops-content/content-video\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-35347c0451abe64eba4c\",\"target_category_id\":\"互联网/AI/internet-machine-learning/ml-platform\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-3954f99d48d0d086082a\",\"target_category_id\":\"互联网/AI/internet-ops-support/ops-infrastructure\",\"status\":\"mapped\",\"reason\":null},{\"standard_occupation_id\":\"SNO-d97c7f5733d3e52d2a45\",\"target_category_id\":\"金融/financial-securities/securities-research\",\"status\":\"mapped\",\"reason\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 23490,
+    "completion_tokens": 938,
+    "total_tokens": 24428,
+    "prompt_tokens_details": {
+      "cached_tokens": 22528
+    },
+    "prompt_cache_hit_tokens": 22528,
+    "prompt_cache_miss_tokens": 962
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

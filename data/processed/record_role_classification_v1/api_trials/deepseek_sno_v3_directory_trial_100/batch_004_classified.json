@@ -1,0 +1,153 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-batch-v1",
+  "batch_number": 4,
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 20,
+  "response_metadata": {
+    "request_id": "43853f3d-f5db-47e8-af87-a86f85f618b1",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791832226,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 16111,
+    "cached_input_tokens": 15104,
+    "uncached_input_tokens": 1007,
+    "output_tokens": 1033,
+    "reasoning_tokens": 0,
+    "total_tokens": 17144
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008161619999999999
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-3278ea5e459dd3a6833e",
+      "status": "review",
+      "target_category_id": "L20-07",
+      "reason": "风控方向可确认，但创优生培养性质不明，无法确定具体风控领域"
+    },
+    {
+      "occupation_id": "SNO-c03f8539d51207af0c9d",
+      "status": "mapped",
+      "target_category_id": "L02-07-01",
+      "reason": "算法集成工程师，负责算法模型集成与部署，归模型推理与服务"
+    },
+    {
+      "occupation_id": "SNO-f695c0780e0d47200402",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "reason": "光学算法工程师，涉及光学图像处理，归计算机视觉"
+    },
+    {
+      "occupation_id": "SNO-3b2136e836af1dba2456",
+      "status": "mapped",
+      "target_category_id": "L05-02-03",
+      "reason": "DFT可测性设计工程师，芯片设计阶段可测性验证，归芯片设计验证"
+    },
+    {
+      "occupation_id": "SNO-fe326e2a66e9de2a564e",
+      "status": "review",
+      "target_category_id": "L04-04",
+      "reason": "检测员方向未说明，无法确定物理化学或计量等具体检测领域"
+    },
+    {
+      "occupation_id": "SNO-89a4e92af365046c381f",
+      "status": "mapped",
+      "target_category_id": "L20-03",
+      "reason": "股权融资及财务顾问，涉及股权融资与资本市场业务，归投行业务"
+    },
+    {
+      "occupation_id": "SNO-25610785c7097a11c51f",
+      "status": "review",
+      "target_category_id": "L22-02",
+      "reason": "专业课教师学科方向未说明，无法确定具体教学科目"
+    },
+    {
+      "occupation_id": "SNO-3820b0a9f1fc2ec4b9d5",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "reason": "硬件研发工程师，电子硬件研发方向明确，归电子硬件研发"
+    },
+    {
+      "occupation_id": "SNO-969c4b609b7d6b9c231c",
+      "status": "mapped",
+      "target_category_id": "L18-06",
+      "reason": "总经办总裁助理，秘书助理与文书事务支持"
+    },
+    {
+      "occupation_id": "SNO-f798f466da536c71f5e0",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "管培生涵盖研发、职能、商业化、生产供应链多个独立方向"
+    },
+    {
+      "occupation_id": "SNO-eb948c14cc98114d8a6b",
+      "status": "mapped",
+      "target_category_id": "L20-03",
+      "reason": "证券事务经理，负责上市公司证券事务与资本市场对接"
+    },
+    {
+      "occupation_id": "SNO-d4bfaa71f3fd126a2ed1",
+      "status": "mapped",
+      "target_category_id": "L22-05",
+      "reason": "教学科研岗，高校教学与科研，归高等教育教学"
+    },
+    {
+      "occupation_id": "SNO-2c46ed9676c2ed0f87ee",
+      "status": "mapped",
+      "target_category_id": "L20-08",
+      "reason": "理财经理，银行理财业务操作与客户服务，归金融运营"
+    },
+    {
+      "occupation_id": "SNO-2ce8813b2951bcfa826a",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "reason": "人力资源储备，人力资源综合管理方向"
+    },
+    {
+      "occupation_id": "SNO-7aa8337f42c770081967",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "基础设施互联互通促进中心专技，职能与专业方向均不明确"
+    },
+    {
+      "occupation_id": "SNO-7be74dbf3e482a24ab2d",
+      "status": "mapped",
+      "target_category_id": "L29-06",
+      "reason": "私人教练团课教练，健身与运动指导服务"
+    },
+    {
+      "occupation_id": "SNO-7ddaeffb4285624bbfed",
+      "status": "mapped",
+      "target_category_id": "L25-03",
+      "reason": "油气储运与新能源开发，能源系统与工艺工程"
+    },
+    {
+      "occupation_id": "SNO-bc8d911bdde59f0aabf1",
+      "status": "mapped",
+      "target_category_id": "L30-03",
+      "reason": "财务内控，企业内部控制与合规管理"
+    },
+    {
+      "occupation_id": "SNO-1ee6e8b56f32b3181ae8",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "reason": "算法工程师(媒体算法)，媒体图像视频算法，归计算机视觉"
+    },
+    {
+      "occupation_id": "SNO-85d56bf4d4229ac85b31",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "工程名称过于笼统，无法确定具体工程职能方向"
+    }
+  ]
+}

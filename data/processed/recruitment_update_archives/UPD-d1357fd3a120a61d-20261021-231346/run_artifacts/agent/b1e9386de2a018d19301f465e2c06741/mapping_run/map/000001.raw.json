@@ -1,0 +1,28 @@
+{
+  "id": "09800ade-6121-4666-884a-6799b1ce5274",
+  "object": "chat.completion",
+  "created": 1792571601,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-b1e9386de2a018d19301f465e2c06741\",\"status\":\"mapped\",\"target_category_id\":\"L14-04-01\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L14-04-01\",\"L14-04-02\",\"L14-04\"],\"title_evidence\":\"标题为“电商助理”，属于电商业务支持岗位，直接对应电商店铺运营方向\",\"level_3_evidence\":\"电商店铺运营：店铺交易及渠道运营\",\"reason\":\"电商助理为电商运营支持岗，最直接归属电商与商品运营下的电商店铺运营；虽为助理层级，但职能方向明确，无需停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16978,
+    "completion_tokens": 155,
+    "total_tokens": 17133,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 338
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

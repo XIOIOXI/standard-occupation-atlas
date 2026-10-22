@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 133,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "ddee312a-6c07-4158-86c6-3e98ffaffa4b",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751418,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25046,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1750,
+    "output_tokens": 3755,
+    "reasoning_tokens": 0,
+    "total_tokens": 28801
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002585388
+  },
+  "observed_at_utc": "2026-10-11T20:43:38.797652+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-79b95c04918f1a490034",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "材料员通常负责施工现场材料管理，归入工程管理下的施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-fdc3ddc88e2ff921d4f0",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "换能器工艺涉及电子元器件制造工艺，归入电子/硬件开发下的电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-f902d7b836f7019522f0",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法证咨询服务属于法律合规咨询，归入公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-8f2954e69357d853ee23",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "炼铁工程师属于冶金化工工艺，归入化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-944a957ff6ca28f74f15",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "研发器件工程师通常从事电子元器件研发，归入电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-a1e37c6f210b4c3cec0b",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "质量适航属于航空制造业质量管理体系，归入质量体系与审核。"
+    },
+    {
+      "occupation_id": "SNO-6a78fefefc39ba0e20a1",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "海外销售(阿拉伯语)核心为海外客户开发，归入外贸销售下的海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-abb979ca99d6a1518ac7",
+      "target_category_id": "设计/design-art-3d-animation/art-3d",
+      "status": "mapped",
+      "reason": "次世代场景(植被)内培生从事三维场景建模，归入三维建模与材质。"
+    },
+    {
+      "occupation_id": "SNO-a38d2037f8aeafe8d404",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "工艺助理工程师培养方向为生产流程，归入生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-f76a925868caa26da306",
+      "target_category_id": "金融/financial-banking/bank-investment",
+      "status": "mapped",
+      "reason": "公司金融市场营销属于银行对公业务，归入投行与资产管理。"
+    },
+    {
+      "occupation_id": "SNO-efa0571863927e0d2c86",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电磁设计高级工程师从事电磁元件设计，归入电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-7878c3c5762639648475",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "精品课堂英语授课老师属于基础教育教学，归入K12教师。"
+    },
+    {
+      "occupation_id": "SNO-bf21426ce1d91652a4c7",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "标机调试工程师负责自动化设备调试，归入自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-121959b70b0ef3882d27",
+      "target_category_id": "能源/环保/农业/energy-veterinary/animal-health-veterinary",
+      "status": "mapped",
+      "reason": "人兽共患病防控技术属于动物防疫，归入动物诊疗与防疫。"
+    },
+    {
+      "occupation_id": "SNO-e562bba91c4cd048cad8",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "概预算属于工程造价管理，归入工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-5e7a959b3fe7294e6309",
+      "target_category_id": "生活服务/零售/service-repair/repair-industrial",
+      "status": "mapped",
+      "reason": "综合维修作业通常为设备机电维修，归入设备与机电维修。"
+    },
+    {
+      "occupation_id": "SNO-7d908910288985a2239d",
+      "target_category_id": "餐饮/food-server/waiter-restaurant",
+      "status": "mapped",
+      "reason": "餐饮服务属于餐厅服务，归入餐厅与宴会服务。"
+    },
+    {
+      "occupation_id": "SNO-2914e7212d5e58b6226d",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "机器人电子电气架构师负责电气架构设计，归入电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-38d8756e13bac030a61d",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-analysis",
+      "status": "mapped",
+      "reason": "研发分析员通常从事化学分析，归入化学分析与质量控制。"
+    },
+    {
+      "occupation_id": "SNO-2e0197c22607e4434e98",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "商务代表负责商务协调与支持，归入销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-a52a38dcddfcf589600b",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-growth",
+      "status": "mapped",
+      "reason": "AI营销运营培训生核心为数字营销，归入增长与数字营销。"
+    },
+    {
+      "occupation_id": "SNO-51f3342e34b414836bde",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "东南亚采购负责供应商开发，归入供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-1e8928d16b4a0e697823",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "IT开发通常为业务服务端开发，归入业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-a504a237c3f16369ad7b",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "智能终端开发工程师从事嵌入式开发，归入嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-921ae587fa542be1d694",
+      "target_category_id": "互联网/AI/internet-data-development/data-application",
+      "status": "mapped",
+      "reason": "数字孪生应用技术员从事数据应用开发，归入数据应用与分析开发。"
+    },
+    {
+      "occupation_id": "SNO-cd43fbeacafb67ad4ebd",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "系统工程师(电驱系统测试方向)属于汽车研发，归入整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-ffd9339fd21acfebd51b",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "status": "mapped",
+      "reason": "油泥模型师从事工业产品模型制作，归入工业产品设计。"
+    },
+    {
+      "occupation_id": "SNO-169075f814b43d2f3f3b",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "开发类工程师通常为业务服务端开发，归入业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-b086e0bfc6acdbdeed69",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "座椅开发属于汽车零部件研发，归入整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-d499693f08ce857f8976",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "化工工程师从事化工工艺，归入化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-e42abc5848b98402fa9a",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "水下光通信设计师属于通信系统研发，归入无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-ab1bb23d6ac5e5f008c0",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "海外市场管培生(韩语)核心为市场策略，归入品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-da43cc1e47b7ca06d1a5",
+      "target_category_id": "销售/sales-management/sales-management-team",
+      "status": "mapped",
+      "reason": "销售总监负责销售团队管理，归入销售团队管理。"
+    },
+    {
+      "occupation_id": "SNO-894a9810fd9ad1fdaa95",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "技术支持工程师(英语)提供客户技术支持，归入技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-d5ec5af4fede806f2e14",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "管理培训生轮岗涵盖业务发展、项目供应链、商务合同、综合管理等多个独立方向。"
+    },
+    {
+      "occupation_id": "SNO-877bc37a64897bae8a12",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "管培生轮岗涵盖海外销售管理、海外商务管理、海外清关管理等多个独立方向。"
+    },
+    {
+      "occupation_id": "SNO-1729cef6037f1257ceb7",
+      "target_category_id": "房地产/建筑/estate-decoration/decoration-construction",
+      "status": "mapped",
+      "reason": "装修工程师负责装修施工，归入装修施工与深化。"
+    },
+    {
+      "occupation_id": "SNO-3e0074b2a83bcd36e04f",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "营销策划专员负责市场策划，归入品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-9cf590b9b8ffc0c788b9",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "集团总部管理培训生未明确具体职能方向，无法确定唯一职业类别。"
+    },
+    {
+      "occupation_id": "SNO-e426befeb7cbdf6a94a4",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时列出公关专员和采矿工程两个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-4d5a4a3a7bc8dddb8b0e",
+      "target_category_id": "教育培训/edu-teacher/teacher-vocational",
+      "status": "mapped",
+      "reason": "智能制造与应急装备学院专任教师属于职业与技能教学。"
+    },
+    {
+      "occupation_id": "SNO-5e9c994296849c7fc70f",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "业务岗名称过于宽泛，缺少具体业务方向信息。"
+    },
+    {
+      "occupation_id": "SNO-d7db8241a0f56534d765",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "营销业务岗涉及疫苗、食品、金融担保等多个行业方向，无法归入单一类别。"
+    },
+    {
+      "occupation_id": "SNO-33dde7f442f5fcf04b89",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "大模型训练框架系统工程师属于大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-6c1b0ba401fa4eaaef5a",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "信息化管理员负责IT基础设施运维，归入基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-42b77c066ca71154ffd7",
+      "target_category_id": "教育培训/edu-teacher/teacher-vocational",
+      "status": "mapped",
+      "reason": "公开招聘专兼职教师属于职业与技能教学。"
+    },
+    {
+      "occupation_id": "SNO-0935b731f55bcdb57ddc",
+      "target_category_id": "影视/传媒/media-publishing/publish-editing",
+      "status": "mapped",
+      "reason": "学科图书编辑属于图书与出版编辑。"
+    },
+    {
+      "occupation_id": "SNO-c31f0147400183293e61",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-test",
+      "status": "mapped",
+      "reason": "器件测试工程师属于半导体封装与测试。"
+    },
+    {
+      "occupation_id": "SNO-29b39bf9a79024e4496c",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "昆明分行零售业务培训生属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-1584f838e81d33d38cdb",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "精益管理属于生产运营与精益改善。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c5bf812b-ea9f-4fbb-aa91-cfe914133182",
+  "object": "chat.completion",
+  "created": 1792571259,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-562934438d40229567748818299a3400\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L12-07\",\"issue\":\"岗位为市场副经理，市场职能明确但细分方向未说明，归通用市场营销L12-07合理；候选L12-01/L12-02仅为可能方向，不构成错分。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17020,
+    "completion_tokens": 92,
+    "total_tokens": 17112,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 508
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

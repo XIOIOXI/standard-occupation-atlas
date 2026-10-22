@@ -1,0 +1,28 @@
+{
+  "id": "13456210-1982-4d9b-b33f-7771582860b8",
+  "object": "chat.completion",
+  "created": 1792571576,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-e67493ffdb38dc80b82f6b66a5b23b94\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-01\",\"issue\":\"标题“产品运营”明确对应产品与平台运营，主归属合理；context为多岗位组合信息，不改变运营职能，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17056,
+    "completion_tokens": 87,
+    "total_tokens": 17143,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 544
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

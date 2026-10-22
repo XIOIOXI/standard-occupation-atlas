@@ -1,0 +1,68 @@
+{
+  "schema_version": "deepseek-name-classification-trial-report-v1",
+  "scope": "A 100-standard-occupation name-only API trial; it is not a full mapping run.",
+  "input": {
+    "v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+    "v4_standard_occupation_count": 10998,
+    "v4_atomic_coverage_validation": {
+      "normal_atomic_role_count": 20710,
+      "abnormal_atomic_role_count": 254,
+      "all_atomic_role_count": 20964,
+      "missing_atomic_role_count": 0,
+      "duplicate_atomic_role_count": 0
+    },
+    "api_privacy_scope": "API inputs contain only standard_occupation_id, standard_name, and frozen taxonomy directory. No company, industry, recruitment prose, skills, atomic IDs, or source record IDs are sent."
+  },
+  "api_trial": {
+    "model_requested": "deepseek-flash",
+    "connection_probe": "passed in non-thinking JSON mode",
+    "classified_standard_occupation_count": 100,
+    "api_status_counts": {
+      "mapped": 47,
+      "review": 45,
+      "multi_role": 8
+    },
+    "token_usage": {
+      "input_tokens": 117536,
+      "cached_input_tokens": 90112,
+      "uncached_input_tokens": 27424,
+      "output_tokens": 4921,
+      "reasoning_tokens": 0,
+      "total_tokens": 122457
+    },
+    "estimated_cost_usd": 0.007336535999999999,
+    "full_10998_linear_estimate_usd": 0.80687222928,
+    "cost_limit_usd": 1.0
+  },
+  "manual_audit": {
+    "audited_count": 100,
+    "audit_verdict_counts": {
+      "correct": 45,
+      "name_insufficient": 42,
+      "error": 13
+    },
+    "model_output_handling_counts": {
+      "appropriate": 77,
+      "inappropriate": 23
+    },
+    "method": "Each of 100 titles was independently reviewed by Codex; no default verdicts or generated templates were used."
+  },
+  "integrity": {
+    "selected_ids_unique": true,
+    "audited_ids_exactly_match_trial": true,
+    "v4_not_modified": true,
+    "atomic_links_note": "The sample output joins v4 by standard_occupation_id; all original group, atomic-role, and source-record links remain only in the read-only v4 input."
+  },
+  "known_issue_and_fix": {
+    "raw_v2_review_parent_ids": "The first v2 prompt incorrectly derived some parent IDs by splitting slash-containing level-1 labels, so affected review targets are preserved as raw outputs and are not formal mappings.",
+    "future_runner_fix": "The runner now derives level-2 parents by removing only the final level-3 ID segment and takes level-1 IDs from the frozen level-1 label."
+  },
+  "artifacts": {
+    "selection": "selection_manifest.json",
+    "per_batch_api_inputs": "batch_001_api_input.json through batch_005_api_input.json",
+    "per_batch_api_outputs": "batch_001_api_output.json through batch_005_api_output.json",
+    "classified_results": "trial_100_mappings.json",
+    "manual_audit": "manual_semantic_audit_100.json",
+    "cost_report": "cost_report.json"
+  }
+}

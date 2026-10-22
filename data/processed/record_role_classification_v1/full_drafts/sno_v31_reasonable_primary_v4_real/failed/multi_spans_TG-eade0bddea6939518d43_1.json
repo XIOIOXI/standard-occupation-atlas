@@ -1,0 +1,41 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-eade0bddea6939518d43",
+  "child_index": 1,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "AI工程&全栈方向 AI Agent开发工程师 AI产品运营 AI产品运营",
+  "child_title": "AI Agent开发工程师",
+  "source_span": {
+    "text": "AI Agent开发工程师",
+    "start": 10,
+    "end": 24
+  },
+  "raw_decision": {
+    "original_record_id": "TG-eade0bddea6939518d43",
+    "case": "A",
+    "child_titles": [
+      "AI工程&全栈方向",
+      "AI Agent开发工程师",
+      "AI产品运营"
+    ],
+    "source_spans": [
+      {
+        "text": "AI工程&全栈方向",
+        "start": 0,
+        "end": 9
+      },
+      {
+        "text": "AI Agent开发工程师",
+        "start": 10,
+        "end": 24
+      },
+      {
+        "text": "AI产品运营",
+        "start": 25,
+        "end": 31
+      }
+    ],
+    "reason": "标题由空格分隔的三个独立岗位组成，可拆分。"
+  }
+}

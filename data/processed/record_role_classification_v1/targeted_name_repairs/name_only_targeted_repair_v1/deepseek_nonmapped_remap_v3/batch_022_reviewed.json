@@ -1,0 +1,185 @@
+{
+  "batch_number": 22,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "18a00724-2f03-4d73-bbfa-4abc88cc6c9f",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821800,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29656,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2264,
+    "output_tokens": 1407,
+    "reasoning_tokens": 0,
+    "total_tokens": 31063
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0012659759999999998
+  },
+  "results": [
+    {
+      "entry_id": "SNO-2c158f58b5ddcf54dce3",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“线下同业”含义不明确，无法确认职业方向或所属一级/二级类别。"
+    },
+    {
+      "entry_id": "SNO-2c1d944546311e33d0d7",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend",
+      "reason": "“软件开发研究员”未指明技术方向，不能确定三级；可确认属互联网/AI后端开发二级。"
+    },
+    {
+      "entry_id": "SNO-2c602572ea707d810b0b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“综合培养生”为培训生性质，未指明具体职能方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-2c75efff082114206ae5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“计算机”过于宽泛，无法确认具体职业方向或一级/二级类别。"
+    },
+    {
+      "entry_id": "SNO-2c78d2b84eeb983e3bad",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“应急研究”方向不明确，目录无直接承接类别，无法确认一级/二级。"
+    },
+    {
+      "entry_id": "SNO-2c8cc6beba4473a5319b",
+      "status": "multi_role",
+      "target_category_id": "互联网/AI",
+      "reason": "名称明确列出前端与后端两个独立开发职业，共同上级为互联网/AI。"
+    },
+    {
+      "entry_id": "SNO-2caa1b5aa9826ad81121",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "“风控法务”同时包含风控与法务两个独立职业，分属不同一级，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-2cbfc99ac32a92f7d46f",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend",
+      "reason": "“软件总体设计工程师”未明确平台/中间件等三级方向，仅可确认属后端开发二级。"
+    },
+    {
+      "entry_id": "SNO-2d6881062d6f579a0bb4",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“商业管理培训生”为培训生性质，未指明具体职能方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-2d7fc0b3be3e8b46100c",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出电气、机械、外语、自动化、土木、船舶、财务、新闻等多个独立专业方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-2dcc7786942af2c42b6b",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-algorithm",
+      "reason": "“AI策略开发”未明确大模型/视觉等三级方向，仅可确认属算法工程师二级。"
+    },
+    {
+      "entry_id": "SNO-2dfb354695bfac666ecf",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“一线培训生”为培训生性质，未说明具体岗位方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-2e31aad655602e7e1e6e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“BMV集团管培生项目”为管培生项目，未说明具体职能方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-2e89b0b2661bb72906bb",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend",
+      "reason": "“软件设计师”未明确服务端/平台等三级方向，仅可确认属后端开发二级。"
+    },
+    {
+      "entry_id": "SNO-2e9f2ecf528f71ecdb9b",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-algorithm",
+      "reason": "“IT管培生(AI技术方向)”为管培生，但AI技术方向可确认属算法工程师二级，三级不明确。"
+    },
+    {
+      "entry_id": "SNO-2ed0617111d8f1c0c829",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“器械业务管培生”未明确器械类型，无法确认一级/二级类别。"
+    },
+    {
+      "entry_id": "SNO-2eec1d93cb21a45f1c54",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含销售类管培生与冶金工程两个独立方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-2ef7e884410e722e9712",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“大健康信息挖掘研究员”涉及健康与信息挖掘，方向不明确，无法确认一级/二级。"
+    },
+    {
+      "entry_id": "SNO-2f9c6a1094874f5d9fb0",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend",
+      "reason": "“全栈研发”含前端与后端，不能确定单一三级；可确认属互联网/AI后端开发二级。"
+    },
+    {
+      "entry_id": "SNO-2fb5d4c5c0c122d0a883",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“全球拓展管培生GMT”为管培生，未说明具体职能方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-30107cfaf9bf3d74ed25",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“技术工艺”缺少行业与具体工艺方向，无法确认一级/二级类别。"
+    },
+    {
+      "entry_id": "SNO-302d2bf539f19dba4628",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出研发AI应用、动漫剧产运投放、新媒体编导、导演、支持等多个独立职业，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-303dbcd842d88dd06828",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“管培学员”为培训生性质，未明确具体职能方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-305521f61b54fb36fd86",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出高分子新材料研发与制造系统操作员两个独立职业，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-305ceb95935aabec0961",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“管理等”过于宽泛，缺少具体职责信息，无法确认类别。"
+    }
+  ]
+}

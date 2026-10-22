@@ -1,0 +1,28 @@
+{
+  "id": "dee31069-94f2-4961-b688-59b5b61addef",
+  "object": "chat.completion",
+  "created": 1792596215,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-f651eba7e0dc5630cc81a296d63ca0d8\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L18-04\", \"issue\": \"人力管培生明确人力资源职能，管培为培养标签，归人力资源综合管理合理。\"}, {\"occupation_id\": \"UP-03bd419861affba91ebd57c19554ad6e\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L16-01\", \"issue\": \"采购管培生明确采购职能，归采购与供应商管理合理，具体物料方向未说明停二级。\"}, {\"occupation_id\": \"UP-06a2e8b1bb4811e76e129c85f232dfed\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L19-08\", \"issue\": \"财务管培生明确财务职能但方向未说明，归通用财务工作合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17697,
+    "completion_tokens": 232,
+    "total_tokens": 17929,
+    "prompt_tokens_details": {
+      "cached_tokens": 16768
+    },
+    "prompt_cache_hit_tokens": 16768,
+    "prompt_cache_miss_tokens": 929
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

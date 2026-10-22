@@ -1,0 +1,15 @@
+{
+  "audit_version": "singleton-undermerge-audit-v1",
+  "grouping_version": "job-grouping-v1",
+  "singleton_count": 13824,
+  "no_plausible_peer_count": 13216,
+  "strong_merge_candidate_singleton_count": 100,
+  "possible_merge_candidate_singleton_count": 508,
+  "strong_merge_candidate_cluster_count": 50,
+  "same_canonical_same_industry_singleton_count": 0,
+  "unmapped_strong_singleton_count": 100,
+  "strong_merge_simulated_job_group_count": 15796,
+  "candidate_generation": "same canonical+industry; safe 岗/岗位 surface key; conservative role-expression stem with same industry",
+  "conclusion": "C",
+  "conclusion_reason": "Most candidate relationships require semantic identity judgment; strong deterministic cases are absent or negligible."
+}

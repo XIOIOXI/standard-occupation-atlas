@@ -1,0 +1,16 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-cost-v1",
+  "model_requested": "deepseek-flash",
+  "classified_name_count": 200,
+  "usage": {
+    "input_tokens": 163811,
+    "cached_input_tokens": 139392,
+    "uncached_input_tokens": 24419,
+    "output_tokens": 10420,
+    "reasoning_tokens": 0,
+    "total_tokens": 174231
+  },
+  "estimated_cost_usd": 0.010333026,
+  "stop_budget_usd": 1.0,
+  "cost_scope": "Estimate from API-reported tokens and the DeepSeek Flash rates embedded in the existing runner; not a provider billing export."
+}

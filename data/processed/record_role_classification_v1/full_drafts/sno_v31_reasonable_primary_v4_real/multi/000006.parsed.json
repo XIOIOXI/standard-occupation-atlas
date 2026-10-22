@@ -1,0 +1,449 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-9e85fc49db1f816aca54",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一职能类岗位，括号内为专业要求，非独立岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-bba7bf14b7a3e1bd476b",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位，反斜杠后为专业方向，非独立岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-f00bd691aa0f1fa59a23",
+      "case": "A",
+      "child_titles": [
+        "车辆性能检测",
+        "内饰设计师"
+      ],
+      "source_spans": [
+        {
+          "text": "车辆性能检测",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "内饰设计师",
+          "start": 7,
+          "end": 12
+        }
+      ],
+      "reason": "标题由两个独立岗位组成，空格分隔，可拆分。"
+    },
+    {
+      "original_record_id": "TG-25cde5a76b408c0f5e53",
+      "case": "A",
+      "child_titles": [
+        "采购业务管理培训生",
+        "销售业务管理培训生",
+        "法务监察管理培训生",
+        "财务管理培训生"
+      ],
+      "source_spans": [
+        {
+          "text": "采购业务管理培训生",
+          "start": 9,
+          "end": 18
+        },
+        {
+          "text": "销售业务管理培训生",
+          "start": 18,
+          "end": 27
+        },
+        {
+          "text": "法务监察管理培训生",
+          "start": 27,
+          "end": 36
+        },
+        {
+          "text": "财务管理培训生",
+          "start": 36,
+          "end": 43
+        }
+      ],
+      "reason": "括号内包含多个独立培训生岗位，无分隔符但语义独立，可拆分。"
+    },
+    {
+      "original_record_id": "TG-2bc5bf11b87b7a076672",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一高级工程师岗位，括号内为专业方向，非独立岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-d45b58ef8ee511e29f72",
+      "case": "A",
+      "child_titles": [
+        "电气技术员",
+        "土建技术员",
+        "能源技术员",
+        "人力资源专员",
+        "安全专职",
+        "宣传专职"
+      ],
+      "source_spans": [
+        {
+          "text": "电气技术员",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "土建技术员",
+          "start": 6,
+          "end": 11
+        },
+        {
+          "text": "能源技术员",
+          "start": 11,
+          "end": 16
+        },
+        {
+          "text": "人力资源专员",
+          "start": 16,
+          "end": 22
+        },
+        {
+          "text": "安全专职",
+          "start": 22,
+          "end": 26
+        },
+        {
+          "text": "宣传专职",
+          "start": 26,
+          "end": 30
+        }
+      ],
+      "reason": "标题由多个独立岗位组成，空格分隔，可拆分。"
+    },
+    {
+      "original_record_id": "TG-0fcebe590554a946c09d",
+      "case": "A",
+      "child_titles": [
+        "外贸业务员",
+        "采购"
+      ],
+      "source_spans": [
+        {
+          "text": "外贸业务员",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "采购",
+          "start": 5,
+          "end": 7
+        }
+      ],
+      "reason": "标题由两个独立岗位组成，无分隔符但语义独立，可拆分。"
+    },
+    {
+      "original_record_id": "TG-af397a4df515fd5209de",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一综合岗位，括号内为兼职说明，非独立岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-be4b8a991eb0e2106394",
+      "case": "A",
+      "child_titles": [
+        "销售支持",
+        "质量工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "销售支持",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "质量工程师",
+          "start": 5,
+          "end": 10
+        }
+      ],
+      "reason": "标题由两个独立岗位组成，空格分隔，可拆分。"
+    },
+    {
+      "original_record_id": "TG-88d55a17f1680d03e4ff",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位，斜杠表示方向选择，非独立岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-c0ddd4f0079d963fb10d",
+      "case": "A",
+      "child_titles": [
+        "系统策划",
+        "数值策划",
+        "产品运营",
+        "媒体专员"
+      ],
+      "source_spans": [
+        {
+          "text": "系统策划",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "数值策划",
+          "start": 4,
+          "end": 8
+        },
+        {
+          "text": "产品运营",
+          "start": 8,
+          "end": 12
+        },
+        {
+          "text": "媒体专员",
+          "start": 12,
+          "end": 16
+        }
+      ],
+      "reason": "标题由多个独立岗位组成，无分隔符但语义独立，可拆分。"
+    },
+    {
+      "original_record_id": "TG-3a964fd742114e2d21d6",
+      "case": "A",
+      "child_titles": [
+        "海外广告投放",
+        "广告创意策划"
+      ],
+      "source_spans": [
+        {
+          "text": "海外广告投放",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "广告创意策划",
+          "start": 6,
+          "end": 12
+        }
+      ],
+      "reason": "标题由两个独立岗位组成，无分隔符但语义独立，可拆分。"
+    },
+    {
+      "original_record_id": "TG-026ced72f28516f8af27",
+      "case": "A",
+      "child_titles": [
+        "人工智能应用GC系统研制",
+        "无人系统研制",
+        "计算机及电子系统研制",
+        "光学陀螺及先进传感器研制",
+        "液压系统研制",
+        "机电产品研制",
+        "软件设计与测试",
+        "机械加工艺",
+        "企业管理",
+        "机械结构设计"
+      ],
+      "source_spans": [
+        {
+          "text": "人工智能应用GC系统研制",
+          "start": 0,
+          "end": 12
+        },
+        {
+          "text": "无人系统研制",
+          "start": 13,
+          "end": 19
+        },
+        {
+          "text": "计算机及电子系统研制",
+          "start": 19,
+          "end": 29
+        },
+        {
+          "text": "光学陀螺及先进传感器研制",
+          "start": 29,
+          "end": 41
+        },
+        {
+          "text": "液压系统研制",
+          "start": 41,
+          "end": 47
+        },
+        {
+          "text": "机电产品研制",
+          "start": 47,
+          "end": 53
+        },
+        {
+          "text": "软件设计与测试",
+          "start": 54,
+          "end": 61
+        },
+        {
+          "text": "机械加工艺",
+          "start": 61,
+          "end": 66
+        },
+        {
+          "text": "企业管理",
+          "start": 66,
+          "end": 70
+        },
+        {
+          "text": "机械结构设计",
+          "start": 70,
+          "end": 76
+        }
+      ],
+      "reason": "标题由多个独立岗位组成，空格分隔，可拆分。"
+    },
+    {
+      "original_record_id": "TG-6b26defe0c8360aacd3f",
+      "case": "A",
+      "child_titles": [
+        "活动策划",
+        "平面设计",
+        "三位设计",
+        "AIGc设计"
+      ],
+      "source_spans": [
+        {
+          "text": "活动策划",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "平面设计",
+          "start": 4,
+          "end": 8
+        },
+        {
+          "text": "三位设计",
+          "start": 8,
+          "end": 12
+        },
+        {
+          "text": "AIGc设计",
+          "start": 12,
+          "end": 17
+        }
+      ],
+      "reason": "标题由多个独立岗位组成，无分隔符但语义独立，可拆分。"
+    },
+    {
+      "original_record_id": "TG-ed7217833d4a8f2578dc",
+      "case": "A",
+      "child_titles": [
+        "储备干部",
+        "营销工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "储备干部",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "营销工程师",
+          "start": 4,
+          "end": 9
+        }
+      ],
+      "reason": "标题由两个独立岗位组成，无分隔符但语义独立，可拆分。"
+    },
+    {
+      "original_record_id": "TG-55132869d3772eacc763",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位，斜杠表示方向选择，括号内为公司名称，非独立岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-caed572e6d633a1968f7",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位类别，&表示并列但非独立岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-d2e7d24d66a89f91c081",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位，斜杠表示方向选择，非独立岗位，不拆分。"
+    },
+    {
+      "original_record_id": "TG-4f75aceb8b943f63f1e8",
+      "case": "A",
+      "child_titles": [
+        "装调工艺师",
+        "产品工艺师",
+        "信息化工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "装调工艺师",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "产品工艺师",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "信息化工程师",
+          "start": 10,
+          "end": 16
+        }
+      ],
+      "reason": "标题由多个独立岗位组成，无分隔符但语义独立，可拆分。"
+    },
+    {
+      "original_record_id": "TG-431f3e170c471876fac8",
+      "case": "A",
+      "child_titles": [
+        "嵌入式软件开发工程师",
+        "机械设计工"
+      ],
+      "source_spans": [
+        {
+          "text": "嵌入式软件开发工程师",
+          "start": 0,
+          "end": 10
+        },
+        {
+          "text": "机械设计工",
+          "start": 11,
+          "end": 16
+        }
+      ],
+      "reason": "标题由两个独立岗位组成，空格分隔，省略号不影响拆分。"
+    }
+  ],
+  "raw_response_file": "000006.raw.json",
+  "usage": {
+    "input_tokens": 864,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 864,
+    "output_tokens": 2531,
+    "reasoning_tokens": 0,
+    "total_tokens": 3395
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0032963999999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1d9ed51d-2874-4439-b2ae-a7d49edde533",
+  "object": "chat.completion",
+  "created": 1792571640,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-94ce0a64f9fa0c150a52165e2e82283d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅“工程实习生”且公司为服装消费品企业，工程方向不明，候选L24-07/L24-12/L23-09/L10-06均合理，保留review。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17044,
+    "completion_tokens": 93,
+    "total_tokens": 17137,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 532
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

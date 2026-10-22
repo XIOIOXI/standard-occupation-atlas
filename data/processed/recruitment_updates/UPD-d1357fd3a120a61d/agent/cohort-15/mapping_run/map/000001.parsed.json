@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-ede736b3b3386b0b4710712eb9ef4cf9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L20-11"
+      ],
+      "title_evidence": "标题为“管理培训生（正式编制）”，仅体现培养性质，未说明具体职能方向",
+      "level_3_evidence": null,
+      "reason": "银行管培生仅凭行业与“管培”无法确定职能，按目录说明不能视为已明确金融业务，也不能直接归跨职能轮岗；候选为跨职能管理培训与通用金融专业业务，需补充信息"
+    },
+    {
+      "occupation_id": "UP-054f493de31ba180e6de8ee2a618c6b9",
+      "status": "mapped",
+      "target_category_id": "L20-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-08"
+      ],
+      "title_evidence": "“综合柜员”为银行柜面业务操作岗位",
+      "level_3_evidence": null,
+      "reason": "综合柜员属于银行柜面业务与金融业务操作，归金融运营与交易清算（L20-08）"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17065,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 425,
+    "output_tokens": 263,
+    "reasoning_tokens": 0,
+    "total_tokens": 17328
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00027146999999999995
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

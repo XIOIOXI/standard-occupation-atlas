@@ -1,0 +1,85 @@
+{
+  "raw_response_file": "review_013_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-5e9c994296849c7fc70f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅“业务岗”无明确职能线索，无法确定销售、运营或其他业务方向，review 合理。"
+    },
+    {
+      "occupation_id": "SNO-21eaa0be1d784c6eb823",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "SLAM 融合算法属于算法研发，归 L02-05 机器学习与算法研发合理；三级细分虽非目录明示，但未明显违反范围。"
+    },
+    {
+      "occupation_id": "SNO-84268996f54af083a0f9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "Instagram 社媒运营归内容与新媒体运营 L14-03，语言为标签，合理。"
+    },
+    {
+      "occupation_id": "SNO-5e529d1a85f0c23262a9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题明确软件研发职能，管培生为培养标签，归 L01-11 通用软件研发合理。"
+    },
+    {
+      "occupation_id": "SNO-74be8ef534b04db67143",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "平台服务端开发归后端开发 L01-02，合理。"
+    },
+    {
+      "occupation_id": "SNO-140159e8cf334ce1e5a9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "技术支持助理归信息技术支持 L03-06，合理。"
+    },
+    {
+      "occupation_id": "SNO-4f466acae4ce6ff867c4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "游戏原画设计师归美术插画与数字资产 L09-06，合理。"
+    },
+    {
+      "occupation_id": "SNO-17fae551bbfc943d0f9b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "生态拓展经理以商业合作拓展为主，归商务拓展与合作 L13-04，合理。"
+    },
+    {
+      "occupation_id": "SNO-c2759b1de0ef71e531aa",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "计划运营方向未明确，归通用业务运营 L14-11，合理。"
+    },
+    {
+      "occupation_id": "SNO-2218e2bb762731bce540",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "结构仿真设计师归机械与结构设计 L06-01，合理。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 10792,
+    "cached_input_tokens": 9216,
+    "uncached_input_tokens": 1576,
+    "output_tokens": 570,
+    "reasoning_tokens": 0,
+    "total_tokens": 11362
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000606048
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

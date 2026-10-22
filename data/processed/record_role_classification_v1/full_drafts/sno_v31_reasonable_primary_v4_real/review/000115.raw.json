@@ -1,0 +1,28 @@
+{
+  "id": "fdc83a2a-47b8-4c63-8ee5-3f942507dbb8",
+  "object": "chat.completion",
+  "created": 1791880526,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-9915b7c45abdc4a91562\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仿真设计岗方向未明确，review合理。\"},{\"occupation_id\":\"TG-6cef52642199aa4b899a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"UI界面设计师归L09-02-01合理。\"},{\"occupation_id\":\"TG-6b84c34161c02af58079\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"UI界面设计师归L09-02-01合理。\"},{\"occupation_id\":\"TG-e0eb53e83d7c072b68c9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"抗体发现研究员归L06-07-02合理。\"},{\"occupation_id\":\"TG-b1d8833236a97945c70d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工程技术人员范围过宽，review合理。\"},{\"occupation_id\":\"TG-efb8bfb5f84dc3d2c5c7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售岗/交易员双职能，multi_role合理。\"},{\"occupation_id\":\"TG-3e145983d3e7c1b513b6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"编导岗归L15-04合理。\"},{\"occupation_id\":\"TG-d8b225a88adfeb933271\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"制程质量工程师归L04-03-01合理。\"},{\"occupation_id\":\"TG-fa784f3b23dcb28e240a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"投资经理助理归L20-01-02合理。\"},{\"occupation_id\":\"TG-5fa6c0a744ed4c1369aa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电气工程师归L05-03合理。\"},{\"occupation_id\":\"TG-c76ed5071dbb31d6e804\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电商管培生方向未明确，review合理。\"},{\"occupation_id\":\"TG-b3ec2414dad08c6bd5f1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机载软件开发岗归L01-06-01合理。\"},{\"occupation_id\":\"TG-7b24bebf83b597128ccc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"宏观助理研究员归L20-01-01合理。\"},{\"occupation_id\":\"TG-c1f4cfd4f7cdbe50223c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI前端技术方向归L01-01-01合理。\"},{\"occupation_id\":\"TG-fee766030ebf02444e13\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采购与数据分析双职能，multi_role合理。\"},{\"occupation_id\":\"TG-577d2684cd723f5671d1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"设计管理岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-51277e6320525375bb01\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"系统运维岗归L03-01合理。\"},{\"occupation_id\":\"TG-861a6812517347f5eebf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"全栈开发工程师归L01-03合理。\"},{\"occupation_id\":\"TG-2df652e0c1a663277ce1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"会计类管培生归L19-01合理。\"},{\"occupation_id\":\"TG-9c9611a649e9a8741cb7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"精益改善岗归L11-03合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19663,
+    "completion_tokens": 943,
+    "total_tokens": 20606,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3151
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

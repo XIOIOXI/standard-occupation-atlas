@@ -1,0 +1,360 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-e19796712f1cf0de97d5",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "管理员",
+      "level_3_evidence": null,
+      "reason": "标题仅含“管理员”，未说明管理对象或职能领域，无法判断归属类别。"
+    },
+    {
+      "occupation_id": "TG-c19e7d691901e0027b56",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "汽车消费金融中心培训生",
+      "level_3_evidence": null,
+      "reason": "标题含金融领域与培训生身份，但未明确具体金融业务职能，不足以确定唯一专业类别。"
+    },
+    {
+      "occupation_id": "TG-4f32995c428af84b28e8",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L03-08",
+        "L04-06"
+      ],
+      "title_evidence": "技术实习生",
+      "level_3_evidence": null,
+      "reason": "“技术”范围过宽，未说明具体技术职能方向，无法确定唯一归属。"
+    },
+    {
+      "occupation_id": "TG-4a3dca5f03d7f05bb6a2",
+      "status": "mapped",
+      "target_category_id": "L23-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-09-01",
+        "L23-09-02"
+      ],
+      "title_evidence": "装备工程师（烟台）",
+      "level_3_evidence": null,
+      "reason": "装备工程师通常负责工业装备的安装、调试与维护，归入设备安装维修与保全。"
+    },
+    {
+      "occupation_id": "TG-a42b61fe9f67a1fc51d5",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-09",
+        "L14-11"
+      ],
+      "title_evidence": "平度办事处业务岗",
+      "level_3_evidence": null,
+      "reason": "“业务岗”未说明具体业务职能，无法确定是销售、运营或其他业务方向。"
+    },
+    {
+      "occupation_id": "TG-800d837a5b3510882c71",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-09",
+        "L14-11"
+      ],
+      "title_evidence": "城区办事处业务岗",
+      "level_3_evidence": null,
+      "reason": "“业务岗”未说明具体业务职能，无法确定是销售、运营或其他业务方向。"
+    },
+    {
+      "occupation_id": "TG-ba9dd6181eab4ba0da07",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L12-07"
+      ],
+      "title_evidence": "人力/行政/市场实习生",
+      "level_3_evidence": null,
+      "reason": "标题同时包含人力资源、行政和市场三个不同职能方向，属于多职能岗位。"
+    },
+    {
+      "occupation_id": "TG-d80f6217514c4e2962d8",
+      "status": "mapped",
+      "target_category_id": "L23-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-09-01",
+        "L23-09-02"
+      ],
+      "title_evidence": "设备工程师",
+      "level_3_evidence": null,
+      "reason": "设备工程师通常负责工业设备的安装、调试与维护，归入设备安装维修与保全。"
+    },
+    {
+      "occupation_id": "TG-ce4742476010ae661bfe",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L03-08",
+        "L23-09-02",
+        "L24-12-02"
+      ],
+      "title_evidence": "巡检岗",
+      "level_3_evidence": null,
+      "reason": "“巡检岗”未说明巡检对象与行业，无法确定是设备巡检、设施巡检还是其他类型。"
+    },
+    {
+      "occupation_id": "TG-3c3c5d77cd3c1989883c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L01-11",
+        "L07-05"
+      ],
+      "title_evidence": "研发专员(公告内附件查看公司及岗位)",
+      "level_3_evidence": null,
+      "reason": "标题仅含“研发专员”，未说明研发领域，无法确定具体技术方向。"
+    },
+    {
+      "occupation_id": "TG-dbf1568de62c03d0dd98",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L01-11",
+        "L07-03"
+      ],
+      "title_evidence": "研发支持岗",
+      "level_3_evidence": null,
+      "reason": "“研发支持”未说明支持的具体研发领域，无法确定归属类别。"
+    },
+    {
+      "occupation_id": "TG-abe69bf3766e690c3337",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-02",
+        "L13-09",
+        "L14-11"
+      ],
+      "title_evidence": "业务管理方向定向培养生",
+      "level_3_evidence": null,
+      "reason": "“业务管理方向”未说明具体业务职能，定向培养生身份不足以确定专业类别。"
+    },
+    {
+      "occupation_id": "TG-074115bc8b1c94d4d818",
+      "status": "mapped",
+      "target_category_id": "L01-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "高级技术规划工程师",
+      "level_3_evidence": null,
+      "reason": "技术规划工程师通常负责技术架构与方案规划，归入软件架构。"
+    },
+    {
+      "occupation_id": "TG-0a104b6a14a406129f41",
+      "status": "mapped",
+      "target_category_id": "L13-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "零售管理培训生（专业不限）",
+      "level_3_evidence": null,
+      "reason": "零售管理培训生通常从门店导购与营业销售起步，归入门店导购与营业销售。"
+    },
+    {
+      "occupation_id": "TG-93730a135033dc49f2fa",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L06-08",
+        "L12-07"
+      ],
+      "title_evidence": "管培生研发工艺应用营销",
+      "level_3_evidence": null,
+      "reason": "标题同时包含研发、工艺、应用、营销多个职能方向，属于多职能管培岗位。"
+    },
+    {
+      "occupation_id": "TG-8a138e5bcfb1abb103e7",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-04",
+        "L19-08",
+        "L30-05",
+        "L12-07",
+        "L11-07",
+        "L14-04",
+        "L16-06",
+        "L01-11"
+      ],
+      "title_evidence": "管培生（相关专业：人力资源管理、会计学、财务管理、法学、市场营销、工商管理、电子商务、经济学、金融学、物流管理与工程类、交通运输类、计算机类）",
+      "level_3_evidence": null,
+      "reason": "标题列出多个专业方向，对应人力资源、财务、法律、市场、电商、物流、计算机等多个职能，属于多职能管培岗位。"
+    },
+    {
+      "occupation_id": "TG-4596d7bb22e5b94931d0",
+      "status": "mapped",
+      "target_category_id": "L06-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01",
+        "L06-02"
+      ],
+      "title_evidence": "仿真工程师 (赛百)",
+      "level_3_evidence": null,
+      "reason": "仿真工程师通常从事工业产品仿真分析，归入通用工业技术研发。"
+    },
+    {
+      "occupation_id": "TG-00d4dc69493325f16a8f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L11-07"
+      ],
+      "title_evidence": "省市分行本部业务管理岗",
+      "level_3_evidence": null,
+      "reason": "银行分行本部业务管理岗未说明具体金融业务方向，无法确定唯一专业类别。"
+    },
+    {
+      "occupation_id": "TG-c2b275cfc643db830c89",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L22-08",
+        "L26-08",
+        "L07-04"
+      ],
+      "title_evidence": "农业产业学院工作人员",
+      "level_3_evidence": null,
+      "reason": "农业产业学院工作人员未说明具体工作职能，无法确定归属类别。"
+    },
+    {
+      "occupation_id": "TG-092d634abce8bc05e25e",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-01",
+        "L11-07"
+      ],
+      "title_evidence": "经理岗",
+      "level_3_evidence": null,
+      "reason": "“经理岗”未说明管理领域与职能方向，无法确定归属类别。"
+    },
+    {
+      "occupation_id": "TG-84e93fe51f411e95a1a3",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L07-05",
+        "L11-05"
+      ],
+      "title_evidence": "岗研究岗",
+      "level_3_evidence": null,
+      "reason": "标题疑似“研究岗”但未说明研究领域，无法确定归属类别。"
+    },
+    {
+      "occupation_id": "TG-96224f7bd60ea9beb9d7",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "浙银理财综合培养岗（数学、统计、金融工程）",
+      "level_3_evidence": null,
+      "reason": "理财公司综合培养岗未说明具体金融业务职能，不足以确定唯一专业类别。"
+    },
+    {
+      "occupation_id": "TG-2def64cc759a21a8d4ec",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-07",
+        "L18-09",
+        "L29-11"
+      ],
+      "title_evidence": "服务保障岗",
+      "level_3_evidence": null,
+      "reason": "“服务保障岗”未说明服务对象与具体职能，无法确定归属类别。"
+    },
+    {
+      "occupation_id": "TG-61e4ed1994dc521aabc8",
+      "status": "mapped",
+      "target_category_id": "L22-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L22-02",
+        "L22-03"
+      ],
+      "title_evidence": "学术讲师",
+      "level_3_evidence": null,
+      "reason": "学术讲师通常指高等教育机构教学岗位，归入高等教育教学。"
+    },
+    {
+      "occupation_id": "TG-fcc0251f9651f6887f20",
+      "status": "mapped",
+      "target_category_id": "L23-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-09-01",
+        "L23-09-02"
+      ],
+      "title_evidence": "设备技术工程师",
+      "level_3_evidence": null,
+      "reason": "设备技术工程师通常负责工业设备的技术支持与维护，归入设备安装维修与保全。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17667,
+    "cached_input_tokens": 17533,
+    "uncached_input_tokens": 134,
+    "output_tokens": 3040,
+    "reasoning_tokens": 0,
+    "total_tokens": 20707
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0018966990000000002
+  },
+  "response_metadata": {
+    "request_id": "c8d13759-a9d6-4666-aa9f-dff051d44700",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791894770,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

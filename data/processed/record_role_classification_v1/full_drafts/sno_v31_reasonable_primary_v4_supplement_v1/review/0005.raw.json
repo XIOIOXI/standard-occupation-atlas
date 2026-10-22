@@ -1,0 +1,28 @@
+{
+  "id": "228c5e1c-a51e-4183-a4c2-29e09e47479b",
+  "object": "chat.completion",
+  "created": 1791895527,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-359b4b6983bae8d4639f\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L01-11\",\"issue\":\"农业信息化技术岗核心为软件开发，标题未体现ERP/CRM等企业应用实施配置，归L01-10依据不足，应归通用软件研发L01-11。\"},{\"occupation_id\":\"TG-18a3293858c40a7e6756\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"项目工程师（海外）未明确行业领域，归通用项目管理L10-06合理。\"},{\"occupation_id\":\"TG-b08790c554f91ead4079\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"原理研发岗未明确技术领域或行业方向，无法确定具体研发职能。\"},{\"occupation_id\":\"TG-383e4d34dcb716e729cf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"专业方向为药学、化学、合成生物学等，归生物与药物研发L06-07合理。\"},{\"occupation_id\":\"TG-0ec7605e63aece2ec4af\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"ERBP含义不明确，无法判断具体研发领域或职能方向。\"},{\"occupation_id\":\"TG-8394151e9cd3df213554\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"标题包含项目交付、测试、工程造价、工程管理等多职能，跨IT、土木、交通等领域，无法确定单一归属。\"},{\"occupation_id\":\"TG-ef20bcdd89b55bfef22e\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"各专业设计工程师未明确具体设计领域（机械、建筑、电子等），无法确定直接归属。\"},{\"occupation_id\":\"TG-fce43f06f9082c9c8a6e\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"运营岗未明确运营方向（产品、用户、内容、电商等），无法确定具体运营职能。\"},{\"occupation_id\":\"TG-f1c74cccd423b315ca07\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"总体设计师未明确设计领域（机械、电子、软件架构等），无法确定具体职能方向。\"},{\"occupation_id\":\"TG-8095eb7f43b6a3302aef\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"专技岗未明确具体专业技术方向，机构名称不足以判断核心职能。\"},{\"occupation_id\":\"TG-9dd05149fc2d1b28ea1f\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"策划设计未明确是设计类还是策划类，方向不明确。\"},{\"occupation_id\":\"TG-f71139affdec8c2dda6e\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"创新研发岗未明确技术领域或行业方向，无法确定具体研发职能。\"},{\"occupation_id\":\"TG-e4c5faaaa9bd29ce9f79\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外管培生（技术类）属跨职能管理培训与轮岗，最终职业方向未明确，归L32-01合理。\"},{\"occupation_id\":\"TG-d0b79e42dd0b65b72fb4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生（技术方向）专业范围涵盖材料、电气、机械等多领域，属跨职能管理培训与轮岗，归L32-01合理。\"},{\"occupation_id\":\"TG-46b168cb4c1760c42084\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术服务工程师核心为客户设备安装调试与售后技术服务，归L14-10合理。\"},{\"occupation_id\":\"TG-c0b27eabee8ee7fc70c2\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"研究岗（创新策略）方向不明确，可能是战略研究、市场研究或投资研究，无法确定具体职能。\"},{\"occupation_id\":\"TG-6aa2ad844620a22a1668\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"检测鉴定岗核心为检验检测与鉴定，归L04-04合理。\"},{\"occupation_id\":\"TG-aa3cc59bf9b9dabddfd9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字产品师核心为数字产品管理，归L08-01合理。\"},{\"occupation_id\":\"TG-9524e647738f9b430bc8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题明确包含新媒体运营，核心为内容与新媒体运营，归L14-03合理。\"},{\"occupation_id\":\"TG-10e34683b40480e187b1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"车联网研发工程师核心为软件开发，未明确具体方向，归通用软件研发L01-11合理。\"},{\"occupation_id\":\"TG-54e7c08fe636af5abadf\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"管理培训生医学类，医学类为专业背景标签，未明确具体职能方向，无法确定归属。\"},{\"occupation_id\":\"TG-270b98c43dcf37e3097c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"交付技术工程师核心为客户部署实施与交付统筹，归L10-03合理。\"},{\"occupation_id\":\"TG-93883743dbc31eabd135\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"设备师未明确是设备安装、维修、管理还是操作，方向不明确。\"},{\"occupation_id\":\"TG-7973b012743921fb2f9a\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"专员/技术员/助理未明确具体职能领域，无法确定归属。\"},{\"occupation_id\":\"TG-d3bab0e84c0e344817b5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机电岗核心为电气工程与机械设备结合，归电气工程L05-03合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 20693,
+    "completion_tokens": 1454,
+    "total_tokens": 22147,
+    "prompt_tokens_details": {
+      "cached_tokens": 20480
+    },
+    "prompt_cache_hit_tokens": 20480,
+    "prompt_cache_miss_tokens": 213
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

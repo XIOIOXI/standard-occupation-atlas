@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+    "catalog_sha256": "90629daf20448950f94fe1d15804db35af11fe64e4b388140c377f6f45ceecc3",
+    "input_sha256": "a27a703bc1d787d383a54972458e3d3f7b1844d0eec6a2615f35300beb37c352",
+    "taxonomy_version": "sno-v3.1-local-revision",
+    "source_records": 20964,
+    "distinct_titles": 11933,
+    "budget_usd": 5.0,
+    "mode": "simulate"
+  },
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-sample-multi\", \"title\": \"岗位甲、岗位乙\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  }
+}

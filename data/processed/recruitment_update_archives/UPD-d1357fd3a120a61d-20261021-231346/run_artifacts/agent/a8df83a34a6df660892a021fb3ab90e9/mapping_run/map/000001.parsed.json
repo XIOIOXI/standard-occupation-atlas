@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-a8df83a34a6df660892a021fb3ab90e9",
+      "status": "mapped",
+      "target_category_id": "L16-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-02",
+        "L16-03",
+        "L16-06"
+      ],
+      "title_evidence": "标题为“供应链专员”，明确属于供应链职能，但未说明具体方向（规划、计划、采购等）",
+      "level_3_evidence": null,
+      "reason": "“供应链专员”直接对应供应链规划与管理二级类；标题未提供需求计划、采购或物流等更细分证据，故停在二级，不虚构三级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16955,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 315,
+    "output_tokens": 147,
+    "reasoning_tokens": 0,
+    "total_tokens": 17102
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037074
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

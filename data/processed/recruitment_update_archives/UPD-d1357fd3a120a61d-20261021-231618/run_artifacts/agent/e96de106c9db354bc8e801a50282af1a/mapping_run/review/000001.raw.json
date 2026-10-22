@@ -1,0 +1,28 @@
+{
+  "id": "531bffae-67df-47ec-986b-a35fa809ae22",
+  "object": "chat.completion",
+  "created": 1792571442,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-e96de106c9db354bc8e801a50282af1a\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“项目助理”为项目支持类岗位，领域未明确，review 并候选 L10-06/L10-02/L18-06 合理，不构成明显错分。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17037,
+    "completion_tokens": 99,
+    "total_tokens": 17136,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 525
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

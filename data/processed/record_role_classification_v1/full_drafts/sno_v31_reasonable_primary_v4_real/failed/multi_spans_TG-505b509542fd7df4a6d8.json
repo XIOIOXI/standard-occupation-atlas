@@ -1,0 +1,23 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-505b509542fd7df4a6d8",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-505b509542fd7df4a6d8",
+    "case": "A",
+    "child_titles": [
+      "游戏策划",
+      "游戏开发",
+      "商务管培生"
+    ],
+    "source_spans": [
+      {
+        "text": "游戏策划游戏开发商务管培生",
+        "start": 0,
+        "end": 12
+      }
+    ],
+    "reason": "多个岗位名称并列，可独立作为岗位，符合拆分条件。"
+  }
+}

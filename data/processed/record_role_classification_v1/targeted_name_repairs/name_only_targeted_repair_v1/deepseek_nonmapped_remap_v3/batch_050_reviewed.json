@@ -1,0 +1,185 @@
+{
+  "batch_number": 50,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "7a2d593e-800c-441a-9ad6-e0a541e52336",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821944,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29469,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2077,
+    "output_tokens": 1399,
+    "reasoning_tokens": 0,
+    "total_tokens": 30868
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001233126
+  },
+  "results": [
+    {
+      "entry_id": "SNO-a3779a188f66366dab06",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“乡村振兴”为政策方向，未表达具体职业职能，无法确认任何一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a40546b4bef0892168da",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "reason": "“小游戏程序”指小游戏客户端程序开发，属于移动端与客户端开发。"
+    },
+    {
+      "entry_id": "SNO-a41c2b533cdbcff3b218",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“技术服务岗(三)”职责不明确，缺少具体技术方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a43a97a09cb93f307945",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“售后服务管培生”为轮岗培养项目，核心职业方向不明确，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a47d7166d63448897380",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "“研究员/工程师”明确列出研究员与工程师两个独立职业方向，且无共同可确认的一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a4a52c6288b2f6a63970",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "“执纪问责”为纪检监察职能，职业清晰但冻结目录无对应类别，也无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a4df8755499c4026e45b",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出电子设计、结构设计、项目管理、销售、员工关系、IT软件开发等多个互不兼容的独立职业，且无共同可确认的一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a4e0c07e959729c281db",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“网络信息”名称过于宽泛，缺少具体职责方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a502e73f4aeb5ad94a40",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "“产品策划/运营”明确列出产品策划与运营两个独立职业方向，且无共同可确认的一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a52501339f789c9f38a6",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“支援系统”名称过于宽泛，缺少具体岗位职责信息，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a52a08335185f048cd45",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“翻译”未指明语种，无法确定具体翻译类别，也无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a52aaa1bc1c77679ae93",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“高潜管培生”为培养项目，未明确具体职业方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a5658f8a34c155da296b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“品质运营”可能指质量管理或运营质量，缺少行业与具体职责，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a5977c9ab1d6acffdec3",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“省行/市行本部”仅表明银行层级，缺少具体岗位职责，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a5a73d71c61ae10513c7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称仅为“共计”，无法判断具体职业，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a5e53a92a7a55fcac1ac",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“技术应用工程师”职责范围不明确，可能涉及售前、售后或现场技术支持，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a6017091b44627aef82f",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "“科创中心智慧城市研发专员”可确认属于互联网/AI研发方向，但三级不足以确定具体类别。"
+    },
+    {
+      "entry_id": "SNO-a601c84f8a97eb8d6452",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出综合管理、财务管理、经济管理、信息管理等多个独立职业方向，且无共同可确认的一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a62dece4edc636740da7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称存在明显乱码或截断，无法准确判断职业方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a62fa03b30ea0e7d1dab",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“金融市场橙光”为项目或计划名称，无法判断具体职业，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a68495c84fae8a5c2886",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“数字化技术应用”范围过宽，缺少具体技术方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a688b6788f84f9d216f8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“港澳台青年特需”名称不明确，缺少具体岗位职责，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a6ed8fd15f917130779c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“未说明招聘”未表达具体职业职责，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a72f1524060ae4aa12c0",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含新媒体运营与人事行政管培生，属多个独立职业方向，且无共同可确认的一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-a75a3802842d464509c0",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“职业经理人培养计划”为培养项目，缺少具体职能方向，无法确认一级或二级类别。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f5356c73-a9e6-41f3-baf5-75f2f2617c17",
+  "object": "chat.completion",
+  "created": 1792596196,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-e40a8f85f0a30ad4b1dfcb58a4d0ad6b\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L02-03-03\", \"issue\": \"车端大数据组件开发属于数据平台/计算组件开发，归数据计算平台合理；候选L02-03-02、L01-11亦不冲突。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17040,
+    "completion_tokens": 107,
+    "total_tokens": 17147,
+    "prompt_tokens_details": {
+      "cached_tokens": 16768
+    },
+    "prompt_cache_hit_tokens": 16768,
+    "prompt_cache_miss_tokens": 272
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

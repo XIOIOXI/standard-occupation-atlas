@@ -1,0 +1,455 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-6bd53cd199ae218832a1",
+      "case": "A",
+      "child_titles": [
+        "科研助理",
+        "制种技术员",
+        "品管员"
+      ],
+      "source_spans": [
+        {
+          "text": "科研助理",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "制种技术员",
+          "start": 4,
+          "end": 9
+        },
+        {
+          "text": "品管员",
+          "start": 9,
+          "end": 12
+        }
+      ],
+      "reason": "标题由三个独立岗位名称直接拼接，无分隔符，可拆分为三个子岗位。"
+    },
+    {
+      "original_record_id": "TG-4b05dcdf1cfb0b1aee62",
+      "case": "A",
+      "child_titles": [
+        "达人BD运营(海外方向)",
+        "达人BD运营(国内方向)",
+        "产品专员(AI产品方向)"
+      ],
+      "source_spans": [
+        {
+          "text": "达人BD运营(海外方向)",
+          "start": 0,
+          "end": 12
+        },
+        {
+          "text": "达人BD运营(国内方向)",
+          "start": 12,
+          "end": 24
+        },
+        {
+          "text": "产品专员(AI产品方向)",
+          "start": 24,
+          "end": 38
+        }
+      ],
+      "reason": "标题由三个带括号方向的岗位名称直接拼接，可拆分为三个子岗位。"
+    },
+    {
+      "original_record_id": "TG-a5f1781e4d9488cb01ce",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为业务方向描述，非独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-16518f246394c368951d",
+      "case": "A",
+      "child_titles": [
+        "综合管理类",
+        "法务类",
+        "招商运营类",
+        "信息技术类"
+      ],
+      "source_spans": [
+        {
+          "text": "综合管理类",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "法务类",
+          "start": 5,
+          "end": 8
+        },
+        {
+          "text": "招商运营类",
+          "start": 8,
+          "end": 13
+        },
+        {
+          "text": "信息技术类",
+          "start": 13,
+          "end": 18
+        }
+      ],
+      "reason": "标题由四个以“类”结尾的岗位类别直接拼接，可拆分为四个子岗位。"
+    },
+    {
+      "original_record_id": "TG-68a002873e86caf507aa",
+      "case": "A",
+      "child_titles": [
+        "售后调试",
+        "算法研发",
+        "软件设计",
+        "机构设计",
+        "电气设计",
+        "光学设计",
+        "财务管培生"
+      ],
+      "source_spans": [
+        {
+          "text": "售后调试",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "算法研发",
+          "start": 4,
+          "end": 8
+        },
+        {
+          "text": "软件设计",
+          "start": 8,
+          "end": 12
+        },
+        {
+          "text": "机构设计",
+          "start": 12,
+          "end": 16
+        },
+        {
+          "text": "电气设计",
+          "start": 16,
+          "end": 20
+        },
+        {
+          "text": "光学设计",
+          "start": 20,
+          "end": 24
+        },
+        {
+          "text": "财务管培生",
+          "start": 24,
+          "end": 29
+        }
+      ],
+      "reason": "标题由七个独立岗位名称直接拼接，可拆分为七个子岗位。"
+    },
+    {
+      "original_record_id": "TG-b7de5b4145f9b066548f",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无拆分依据。"
+    },
+    {
+      "original_record_id": "TG-31854016a49801dba928",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为专业方向描述，非独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-f63ac49b4832b1f16778",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无拆分依据。"
+    },
+    {
+      "original_record_id": "TG-52687968f4814d17989b",
+      "case": "A",
+      "child_titles": [
+        "煤矿采掘见习技术员",
+        "煤矿地质见习技术员",
+        "煤矿水文分析员",
+        "煤矿通风防尘员",
+        "新能源巡检员"
+      ],
+      "source_spans": [
+        {
+          "text": "煤矿采掘见习技术员",
+          "start": 0,
+          "end": 9
+        },
+        {
+          "text": "煤矿地质见习技术员",
+          "start": 9,
+          "end": 18
+        },
+        {
+          "text": "煤矿水文分析员",
+          "start": 18,
+          "end": 25
+        },
+        {
+          "text": "煤矿通风防尘员",
+          "start": 25,
+          "end": 32
+        },
+        {
+          "text": "新能源巡检员",
+          "start": 32,
+          "end": 38
+        }
+      ],
+      "reason": "标题由五个独立岗位名称直接拼接，可拆分为五个子岗位。"
+    },
+    {
+      "original_record_id": "TG-c73adce8e2dcb3d4f115",
+      "case": "A",
+      "child_titles": [
+        "跨境电商运营",
+        "产品设计",
+        "供应链管理",
+        "产品经理"
+      ],
+      "source_spans": [
+        {
+          "text": "跨境电商运营",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "产品设计",
+          "start": 6,
+          "end": 10
+        },
+        {
+          "text": "供应链管理",
+          "start": 10,
+          "end": 15
+        },
+        {
+          "text": "产品经理",
+          "start": 15,
+          "end": 19
+        }
+      ],
+      "reason": "标题由四个独立岗位名称直接拼接，可拆分为四个子岗位。"
+    },
+    {
+      "original_record_id": "TG-ba9dd6181eab4ba0da07",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠分隔的为职能方向，非独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-6a94244ace3227189418",
+      "case": "A",
+      "child_titles": [
+        "算法类",
+        "软件研发类",
+        "硬件研发类",
+        "其他研发类",
+        "技术支持"
+      ],
+      "source_spans": [
+        {
+          "text": "算法类",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "软件研发类",
+          "start": 3,
+          "end": 8
+        },
+        {
+          "text": "硬件研发类",
+          "start": 8,
+          "end": 13
+        },
+        {
+          "text": "其他研发类",
+          "start": 13,
+          "end": 18
+        },
+        {
+          "text": "技术支持",
+          "start": 18,
+          "end": 22
+        }
+      ],
+      "reason": "标题由五个岗位类别直接拼接，可拆分为五个子岗位。"
+    },
+    {
+      "original_record_id": "TG-efb8bfb5f84dc3d2c5c7",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠分隔的为具体职位，非独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-fee766030ebf02444e13",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无拆分依据。"
+    },
+    {
+      "original_record_id": "TG-cbcd1e910e6a10bebd8b",
+      "case": "A",
+      "child_titles": [
+        "软件开发员",
+        "网络安全员",
+        "信息设备维修员",
+        "超高压电力运行维护员",
+        "综合能源管理员",
+        "职员"
+      ],
+      "source_spans": [
+        {
+          "text": "软件开发员",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "网络安全员",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "信息设备维修员",
+          "start": 10,
+          "end": 17
+        },
+        {
+          "text": "超高压电力运行维护员",
+          "start": 17,
+          "end": 27
+        },
+        {
+          "text": "综合能源管理员",
+          "start": 27,
+          "end": 34
+        },
+        {
+          "text": "职员",
+          "start": 34,
+          "end": 36
+        }
+      ],
+      "reason": "标题由六个独立岗位名称直接拼接，可拆分为六个子岗位。"
+    },
+    {
+      "original_record_id": "TG-7ac69089d026c50792fe",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无拆分依据。"
+    },
+    {
+      "original_record_id": "TG-227672428f434225f461",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无拆分依据。"
+    },
+    {
+      "original_record_id": "TG-191a268c2ce53e6628e4",
+      "case": "A",
+      "child_titles": [
+        "博士后",
+        "材料研发",
+        "工艺技术",
+        "生产品质",
+        "装备管理",
+        "市场开发",
+        "人力资源",
+        "其他岗位"
+      ],
+      "source_spans": [
+        {
+          "text": "博士后",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "材料研发",
+          "start": 4,
+          "end": 8
+        },
+        {
+          "text": "工艺技术",
+          "start": 9,
+          "end": 13
+        },
+        {
+          "text": "生产品质",
+          "start": 14,
+          "end": 18
+        },
+        {
+          "text": "装备管理",
+          "start": 19,
+          "end": 23
+        },
+        {
+          "text": "市场开发",
+          "start": 24,
+          "end": 28
+        },
+        {
+          "text": "人力资源",
+          "start": 29,
+          "end": 33
+        },
+        {
+          "text": "其他岗位",
+          "start": 34,
+          "end": 38
+        }
+      ],
+      "reason": "标题由八个岗位名称以空格分隔，可拆分为八个子岗位。"
+    },
+    {
+      "original_record_id": "TG-4a8bbe83834964647852",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠分隔的为专业方向，非独立子岗位。"
+    },
+    {
+      "original_record_id": "TG-066dc651253aa6bd690c",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠分隔的为相关职能，非独立子岗位。"
+    }
+  ],
+  "raw_response_file": "000004.raw.json",
+  "usage": {
+    "input_tokens": 827,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 827,
+    "output_tokens": 2531,
+    "reasoning_tokens": 0,
+    "total_tokens": 3358
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0032852999999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

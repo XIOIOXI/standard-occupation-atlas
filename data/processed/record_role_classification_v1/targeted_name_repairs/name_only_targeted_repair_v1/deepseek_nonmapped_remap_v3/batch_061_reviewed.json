@@ -1,0 +1,185 @@
+{
+  "batch_number": 61,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "75f039c8-b88e-49a9-804a-bca04eb87c4e",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821999,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29579,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2187,
+    "output_tokens": 1278,
+    "reasoning_tokens": 0,
+    "total_tokens": 30857
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0011770259999999999
+  },
+  "results": [
+    {
+      "entry_id": "SNO-d27a907e5872afb22368",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“聚合研发员”未说明技术或行业方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-d2909f1647e7c891a828",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称仅为“其他”，无法确认任何职业类别。"
+    },
+    {
+      "entry_id": "SNO-d2a2b10040f6ddc041f9",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“台区经理”未明确行业与职责，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-d2a7eb15fbf299041677",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称仅为招聘计划描述，非职业名称，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-d2c8576739e011e1c90e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“经理”过于宽泛，缺少行业与职能信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-d2e7d24d66a89f91c081",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出柜员与金融客户经理两个独立职业方向，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-d39a63f1168d774889c0",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“中心项目助理”职责范围宽泛，无法确认具体一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-d3a1bf5d36d20225d0e7",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时列出采购与营销两个独立职业方向，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-d42463b92ce92ba13fb9",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出西班牙语业务、葡萄牙语业务助理、中南美海外业务、中南美国内业务等多个独立方向，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-d429ec282462135298da",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出自动化、电气、基建、设备多个独立方向，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-d4371bf7db7d5e2815d2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“设计研发”宽泛，缺少具体设计或研发方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-d4765b93cd7423cab7eb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“供应链工厂类管培生”方向宽泛，且培训生非职业，无法确认具体类别。"
+    },
+    {
+      "entry_id": "SNO-d484208b2a6818ff7207",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出图书馆日常运营、短视频拍摄剪辑、文案撰写等多个独立职责，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-d4956e7388f031683471",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“融合业务”指向不明确，无法确认具体类别。"
+    },
+    {
+      "entry_id": "SNO-d4afe2883eb018281ac5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“人工智能开发工程师”未明确具体技术方向，无法确认三级类别。"
+    },
+    {
+      "entry_id": "SNO-d4c3c992c5f9a170968c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“产品方案培训生”未说明产品领域，且培训生非职业，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-d4ee971189990779290d",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出酒店运营、行政、人力、财务多个独立方向，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-d503ce7715e5daa60036",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "“海外注册专员”职业清晰，但冻结目录无对应注册/合规类别，也无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-d5255b2ee156c31bce22",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含软件与硬件两个独立开发方向，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-d54dd272bcfe17ac53d8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“数智AI”过于宽泛，缺少具体技术或业务方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-d5525f6d7f39aea51a04",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“研发岗(二)”未明确技术方向或行业，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-d5d530ff35e2bffd1760",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“应用助理工程师”方向不明确，缺少技术领域信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-d5d56a2778cb8bca4877",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“AI智能制造”范围宽泛，无法确认归入算法、制造还是自动化。"
+    },
+    {
+      "entry_id": "SNO-d5ec5af4fede806f2e14",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "管理培训生轮岗涵盖业务发展、项目供应链、商务合同、综合管理等多个独立方向，无共同可确认的上级类别。"
+    },
+    {
+      "entry_id": "SNO-d6087a47e528741b0653",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“AI编译工程师”未明确具体技术方向，无法确认三级类别。"
+    }
+  ]
+}

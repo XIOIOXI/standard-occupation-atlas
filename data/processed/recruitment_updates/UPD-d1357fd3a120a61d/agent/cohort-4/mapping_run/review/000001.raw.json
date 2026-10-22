@@ -1,0 +1,28 @@
+{
+  "id": "1bc292d9-86cb-4792-a51a-69659cb6299f",
+  "object": "chat.completion",
+  "created": 1792596173,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"UP-8437f0b1b354f0b28c2154f1d71dd663\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场开发部规划发展业务员方向不唯一，review合理。\"},{\"occupation_id\":\"UP-ad147b9a688811e8c10a64d1554369e3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"设备管理业务员归间接采购与服务采购合理。\"},{\"occupation_id\":\"UP-a6d1f75a2f18e5007cc0293df17da2b9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场部门管培生归通用市场营销合理。\"},{\"occupation_id\":\"UP-32ae3fb13f85abb9e3e1463edabccc18\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售部门管培生客户类型未明，归通用销售合理。\"},{\"occupation_id\":\"UP-9dcc33fc2ab9cdda3639a213cc692ec9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"供应链部门管培生方向未明，归通用供应链合理。\"},{\"occupation_id\":\"UP-117824cca56b47d67738e12346f2c6d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"人力资源部门管培生归人力资源综合管理合理。\"},{\"occupation_id\":\"UP-0955432e3803465e73a7394b917a70ad\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI蛋白研发归药物发现与药理合理。\"},{\"occupation_id\":\"UP-8607216cce20f0d2b8584a87ac4c8fc8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"试剂研发归生物技术研发合理。\"},{\"occupation_id\":\"UP-11b052c321e2b06db756c44a73087bdc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"育种研发归农业与种植技术合理。\"},{\"occupation_id\":\"UP-6de67d28f5a2eea94a6eb1955dcd7880\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"后端研发归业务服务开发合理。\"},{\"occupation_id\":\"UP-4da52d121d276dfc3363965a9700d37d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"实验员与统计遗传分析师合并，multi_role合理。\"},{\"occupation_id\":\"UP-218ff8bf3587e200b3cdaf96a84f7264\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生信分析师归预测与统计学习可接受。\"},{\"occupation_id\":\"UP-a5b2bc898e80e9d86c784063dd020fdb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"应用科学家方向不唯一，review合理。\"},{\"occupation_id\":\"UP-dcc7c22500c5ee6166e14f95a8d67980\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务发展经理归商务拓展与合作合理。\"},{\"occupation_id\":\"UP-250e93f3913d86e87ef183fd29a7426f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"项目开发方向不唯一，review合理。\"},{\"occupation_id\":\"UP-e67493ffdb38dc80b82f6b66a5b23b94\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品运营归产品与平台运营合理。\"},{\"occupation_id\":\"UP-54c60d51e663d16e2bd07c4f275448d9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术支持方向不唯一，review合理。\"},{\"occupation_id\":\"UP-b8e0dd94e6e9148eadf7207953ad58a3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"会计财经与水利工程合并，multi_role合理。\"},{\"occupation_id\":\"UP-2bf18c4b8df8ec79b9777b4b494a5e5b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"城乡规划归城乡规划合理。\"},{\"occupation_id\":\"UP-d595a369c7ebdaa97e867f6f8e0ff34b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"零售管培生归门店导购与营业销售合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22242,
+    "completion_tokens": 1076,
+    "total_tokens": 23318,
+    "prompt_tokens_details": {
+      "cached_tokens": 16768
+    },
+    "prompt_cache_hit_tokens": 16768,
+    "prompt_cache_miss_tokens": 5474
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

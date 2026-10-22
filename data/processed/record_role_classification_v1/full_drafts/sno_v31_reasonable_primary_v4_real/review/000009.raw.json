@@ -1,0 +1,28 @@
+{
+  "id": "03568c0c-c298-4300-a623-a1f57b980c80",
+  "object": "chat.completion",
+  "created": 1791880187,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-99e87f6d6868bee3c002\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金融科技岗方向未明，review合理\"},{\"occupation_id\":\"TG-3c0a7aa08286fa699beb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"金融科技岗方向未明，review合理\"},{\"occupation_id\":\"TG-ec5546112abb45f64277\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运维岗归通用IT运维合理\"},{\"occupation_id\":\"TG-2be315451dd7119f0ce4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场服务岗职能不明，review合理\"},{\"occupation_id\":\"TG-59ca5395f7ffb34d84ff\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"高级研发专员归通用软件研发合理\"},{\"occupation_id\":\"TG-1e17a665a4f1cdaa9544\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"农业中心技术员归农业与种植技术合理\"},{\"occupation_id\":\"TG-346071787ecf1ae3a27c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行培训生职能未明，review合理\"},{\"occupation_id\":\"TG-1d895402de709171cdb6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"横班制生产运营岗归生产计划与现场管理合理\"},{\"occupation_id\":\"TG-9780ee1566e420748010\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"战略分析师归战略与经营规划合理\"},{\"occupation_id\":\"TG-f6f183967dfdf83442ba\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"资金结算岗归出纳与资金结算合理\"},{\"occupation_id\":\"TG-4246037cf26c9358663a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生职能未明，review合理\"},{\"occupation_id\":\"TG-79a2201e3573af06efda\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"传动系统开发归机械机构与传动合理\"},{\"occupation_id\":\"TG-efcd39a272e7a3e13c75\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"VLN导航算法归计算机视觉合理\"},{\"occupation_id\":\"TG-187f1420a40c5e2960d3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"调试工程师方向不明，review合理\"},{\"occupation_id\":\"TG-8cbba9376740b45074d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发岗归通用软件研发合理\"},{\"occupation_id\":\"TG-fddf7be2b063d8683d32\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信息技术工程师岗归通用IT运维合理\"},{\"occupation_id\":\"TG-ca8fa776ddfba44b2804\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"食安岗归过程质量管理合理\"},{\"occupation_id\":\"TG-f1efb4691e14ddcfaada\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"价格管理岗职能不明，review合理\"},{\"occupation_id\":\"TG-550a573bf6d570e68400\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"JAVA开发工程师归通用软件研发合理\"},{\"occupation_id\":\"TG-1d5486b92522266cf4c5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"嵌入式软件工程师归嵌入式应用开发合理\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19524,
+    "completion_tokens": 898,
+    "total_tokens": 20422,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3012
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

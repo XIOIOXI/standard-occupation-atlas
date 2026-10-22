@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-134426c75ee9a745ccb2f5152ca3eef1",
+      "status": "mapped",
+      "target_category_id": "L09-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-04"
+      ],
+      "title_evidence": "女装设计实习生：明确为女装（服装）设计方向",
+      "level_3_evidence": null,
+      "reason": "标题直接指向服装设计职能，L09-04服装饰品与纺织设计无三级细分，故归二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16981,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 341,
+    "output_tokens": 119,
+    "reasoning_tokens": 0,
+    "total_tokens": 17100
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00034493999999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

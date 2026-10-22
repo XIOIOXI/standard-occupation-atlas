@@ -1,0 +1,930 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-semantic-audit-v1",
+  "scope": "Independent title-only review of the fixed 100-name directory-validation sample. This is not an accuracy estimate for all recruitment records.",
+  "taxonomy_version": "sno-v3-directory-design",
+  "audit_rules": [
+    "core responsibility over industry/technology",
+    "training and seniority are tags",
+    "do not force ambiguous titles",
+    "one level-2 primary placement"
+  ],
+  "summary": {
+    "sample_size": 100,
+    "strict_title_only_accepted": 82,
+    "strict_title_only_accuracy": 0.82,
+    "mapped_count": 74,
+    "mapped_primary_precision": 0.7838,
+    "safe_status_count": 83,
+    "safe_status_rate": 0.83,
+    "finding_counts": {
+      "incorrect_primary": 8,
+      "incorrect_status": 1,
+      "overclassified": 8,
+      "unsafe_review_candidate": 1
+    },
+    "gate": "do_not_start_formal_mapping",
+    "gate_reason": "The pilot still over-classifies title-only cases and mishandles training labels. Revise prompt and re-test before any production mapping."
+  },
+  "rows": [
+    {
+      "occupation_id": "SNO-142a6a0c7fd85c77a653",
+      "occupation_name": "通信网络运维工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L03-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-19b7e6668ce6eadf9d5f",
+      "occupation_name": "CPUIP验证工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L05-02-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-d1af927837398df0da3d",
+      "occupation_name": "市场职能",
+      "model_status": "mapped",
+      "model_target_category_id": "L12-07",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-39a924b725bec1208288",
+      "occupation_name": "会计专员",
+      "model_status": "mapped",
+      "model_target_category_id": "L19-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-1c1d5e776a3e369d86a2",
+      "occupation_name": "分两个批次开展招聘。第一批次为省市局(公司)机关相关",
+      "model_status": "non_role_text",
+      "model_target_category_id": null,
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-fd53b86bbab3f0c4fc37",
+      "occupation_name": "外科医师",
+      "model_status": "mapped",
+      "model_target_category_id": "L21-01-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-76216600279c895f3d7b",
+      "occupation_name": "电气工程师(交付技术)",
+      "model_status": "mapped",
+      "model_target_category_id": "L05-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-869c600119685247c114",
+      "occupation_name": "客服培训生",
+      "model_status": "mapped",
+      "model_target_category_id": "L14-07",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-22b51b65e4b0767a3b10",
+      "occupation_name": "初级DQE工程师(电气)",
+      "model_status": "mapped",
+      "model_target_category_id": "L04-03-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-ddfc61f055c9d52b6b4c",
+      "occupation_name": "2026年浙江省新昌中学第三轮计划招聘教师6名(语文2人、英语1人、物理1人、化学1人、地理1人)",
+      "model_status": "multi_role",
+      "model_target_category_id": null,
+      "audit_verdict": "correction_required",
+      "finding_type": "incorrect_status",
+      "audit_note": "招聘公告文本，应为 non_role_text，不能按学科教师 multi_role 处理。"
+    },
+    {
+      "occupation_id": "SNO-ff3014992f3f2405a5f2",
+      "occupation_name": "燃烧室设计",
+      "model_status": "mapped",
+      "model_target_category_id": "L06-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-512bfb7e1b0de33fe20f",
+      "occupation_name": "车辆控制工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L06-03-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-d2e913e342d9f76cd823",
+      "occupation_name": "数字化仿真应用工程师",
+      "model_status": "review",
+      "model_target_category_id": null,
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-5574ea8bd6b623356ccd",
+      "occupation_name": "国际贸易经理",
+      "model_status": "mapped",
+      "model_target_category_id": "L16-04",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-18b965c9c5b9e53030cc",
+      "occupation_name": "设备技术员",
+      "model_status": "mapped",
+      "model_target_category_id": "L23-09-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-96d890047d86358d7739",
+      "occupation_name": "动力总成研发工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L06-02",
+      "audit_verdict": "correction_required",
+      "finding_type": "incorrect_primary",
+      "audit_note": "动力总成是车辆专业研发语境；不应优先落入热流体与动力工程。"
+    },
+    {
+      "occupation_id": "SNO-0f7a6e58e0396fa5a5d3",
+      "occupation_name": "总装工艺员",
+      "model_status": "mapped",
+      "model_target_category_id": "L06-08-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-1f45fd778a1c2fee3330",
+      "occupation_name": "安全研究工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L03-05-01",
+      "audit_verdict": "correction_required",
+      "finding_type": "overclassified",
+      "audit_note": "“安全研究”未说明网络攻防、漏洞或技术安全治理，应 review。"
+    },
+    {
+      "occupation_id": "SNO-4148c03ab66b5a3c7e86",
+      "occupation_name": "社媒运营(日语)",
+      "model_status": "mapped",
+      "model_target_category_id": "L14-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-eb279b03901806c234c1",
+      "occupation_name": "电气类管培生",
+      "model_status": "mapped",
+      "model_target_category_id": "L32-01",
+      "audit_verdict": "correction_required",
+      "finding_type": "incorrect_primary",
+      "audit_note": "电气方向已明确；培养是角色标签，不能替代为 L32 跨职能培养。"
+    },
+    {
+      "occupation_id": "SNO-d92d4a0afc2c7e920354",
+      "occupation_name": "专区运营",
+      "model_status": "mapped",
+      "model_target_category_id": "L14-01",
+      "audit_verdict": "correction_required",
+      "finding_type": "overclassified",
+      "audit_note": "“专区运营”没有数字产品或平台证据，应 review。"
+    },
+    {
+      "occupation_id": "SNO-d34cf0bb21a90c4eee42",
+      "occupation_name": "供应链解决方案工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L14-09-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-5f43b78cf7549e2ea3a4",
+      "occupation_name": "算法工程师(安全方向)",
+      "model_status": "mapped",
+      "model_target_category_id": "L03-05",
+      "audit_verdict": "correction_required",
+      "finding_type": "incorrect_primary",
+      "audit_note": "算法是核心职责；安全为领域限定，应优先 L02 而不是 L03。"
+    },
+    {
+      "occupation_id": "SNO-b12ff0d486dd937b291b",
+      "occupation_name": "国内业务管理专员",
+      "model_status": "review",
+      "model_target_category_id": "L13-09",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-27e63eba60eb4d40d1ac",
+      "occupation_name": "结构材料工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L06-01",
+      "audit_verdict": "correction_required",
+      "finding_type": "incorrect_primary",
+      "audit_note": "结构材料工程师应优先材料研发或 review，不能直接等同机械结构设计。"
+    },
+    {
+      "occupation_id": "SNO-3e62029d76df087822b2",
+      "occupation_name": "初中物理教师",
+      "model_status": "mapped",
+      "model_target_category_id": "L22-02-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-49e5d5a10ab7fd7da7dd",
+      "occupation_name": "材料基因工程师",
+      "model_status": "review",
+      "model_target_category_id": "L06-04",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-49ed7f695146c6e75112",
+      "occupation_name": "环境可靠性工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L04-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-d1cfe446eeb551c2e1f2",
+      "occupation_name": "市场综合监管辅助员",
+      "model_status": "mapped",
+      "model_target_category_id": "L31-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-7dc9e0fc04e3c2a69224",
+      "occupation_name": "教育服务助理",
+      "model_status": "mapped",
+      "model_target_category_id": "L22-06",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-1303fde314c3e122be68",
+      "occupation_name": "社媒运营经理(海外-西葡)",
+      "model_status": "mapped",
+      "model_target_category_id": "L14-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-a47b055ca7ccc6f1a475",
+      "occupation_name": "软体家具质检Qc管培生",
+      "model_status": "mapped",
+      "model_target_category_id": "L04-03-03",
+      "audit_verdict": "correction_required",
+      "finding_type": "overclassified",
+      "audit_note": "“质检”未给出客诉职责，不能细分为产品质量与客诉管理。"
+    },
+    {
+      "occupation_id": "SNO-e77e5a9120d0e52cbf8c",
+      "occupation_name": "电源设计工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L05-01-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-2763e7df87bfddf62a76",
+      "occupation_name": "内贸业务",
+      "model_status": "review",
+      "model_target_category_id": "L13-09",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-ac05f2f92fe9337ef6e6",
+      "occupation_name": "工艺实验室培训生",
+      "model_status": "review",
+      "model_target_category_id": "L06-08",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-e98479e69fcbd3b4d3ef",
+      "occupation_name": "训练推理优化算法工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L02-07-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-6e9243e293d1fb83d9c1",
+      "occupation_name": "AI游戏内容运营",
+      "model_status": "mapped",
+      "model_target_category_id": "L14-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-35347c0451abe64eba4c",
+      "occupation_name": "AI推理工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L02-07-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-3954f99d48d0d086082a",
+      "occupation_name": "系统建设运维及数据管理",
+      "model_status": "multi_role",
+      "model_target_category_id": null,
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-d97c7f5733d3e52d2a45",
+      "occupation_name": "宏观研究员",
+      "model_status": "mapped",
+      "model_target_category_id": "L20-01-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-1838711f7b15f0cf9ba1",
+      "occupation_name": "公司本部法务",
+      "model_status": "mapped",
+      "model_target_category_id": "L30-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-1ee0cba93e878e612df1",
+      "occupation_name": "工艺设备",
+      "model_status": "review",
+      "model_target_category_id": "L06-08",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-246a72f535b0fb633f71",
+      "occupation_name": "零售金融市场营销岗(成都)",
+      "model_status": "mapped",
+      "model_target_category_id": "L12-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-4d430387182dba25e4fb",
+      "occupation_name": "市场营销员",
+      "model_status": "mapped",
+      "model_target_category_id": "L12-07",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-133566bc51aa96f3062c",
+      "occupation_name": "质量技术师",
+      "model_status": "mapped",
+      "model_target_category_id": "L04-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-32e09c84e82e718ed544",
+      "occupation_name": "管理类管培生(财务管理、项目管理方向)",
+      "model_status": "multi_role",
+      "model_target_category_id": null,
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-6aa8f49cc992dfd75a11",
+      "occupation_name": "测试",
+      "model_status": "review",
+      "model_target_category_id": "L04-06",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-e8ec877c8da553d3c55b",
+      "occupation_name": "医生",
+      "model_status": "review",
+      "model_target_category_id": "L21-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-afa906e58fbae1a1ec23",
+      "occupation_name": "投后管理",
+      "model_status": "mapped",
+      "model_target_category_id": "L20-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-0ec7605e63aece2ec4af",
+      "occupation_name": "/ERBP研发人员",
+      "model_status": "review",
+      "model_target_category_id": "L01-11",
+      "audit_verdict": "correction_required",
+      "finding_type": "unsafe_review_candidate",
+      "audit_note": "ERBP 含义不足；review 正确，但候选 L01 通用软件研发没有名称依据。"
+    },
+    {
+      "occupation_id": "SNO-b8b67433bb430ff655d7",
+      "occupation_name": "媒介助理",
+      "model_status": "mapped",
+      "model_target_category_id": "L12-04",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-dc86ef160a514ebc2b8c",
+      "occupation_name": "机务工程师(南京)",
+      "model_status": "review",
+      "model_target_category_id": "L06-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-fc42de8ced809920dbb0",
+      "occupation_name": "管培生专项计划",
+      "model_status": "mapped",
+      "model_target_category_id": "L32-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-c3497b19b50f99cfbbbe",
+      "occupation_name": "业务管理",
+      "model_status": "review",
+      "model_target_category_id": null,
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-a06b900e474184960f35",
+      "occupation_name": "创意设计师",
+      "model_status": "mapped",
+      "model_target_category_id": "L09-08",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-be992e432c8abf4f0cc3",
+      "occupation_name": "线上运营主管",
+      "model_status": "mapped",
+      "model_target_category_id": "L14-01",
+      "audit_verdict": "correction_required",
+      "finding_type": "overclassified",
+      "audit_note": "线上运营未说明产品/平台对象，应停在运营通用或 review。"
+    },
+    {
+      "occupation_id": "SNO-51f5e780348980537922",
+      "occupation_name": "智能制造专员",
+      "model_status": "review",
+      "model_target_category_id": "L06-08",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-333fdf9f05504bdf318d",
+      "occupation_name": "助理软件工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L01-11",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-ed36359f03cb66de8943",
+      "occupation_name": "国产CADCAM软件开发工程师(参与国产CAD/CAM软件核心模块设计开发等)",
+      "model_status": "mapped",
+      "model_target_category_id": "L01-07",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-2ef446313012ae14a0d6",
+      "occupation_name": "计划控制工程师",
+      "model_status": "review",
+      "model_target_category_id": "L10-06",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-3278ea5e459dd3a6833e",
+      "occupation_name": "风控创优生",
+      "model_status": "review",
+      "model_target_category_id": "L20-07",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-c03f8539d51207af0c9d",
+      "occupation_name": "算法集成工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L02-07-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-f695c0780e0d47200402",
+      "occupation_name": "光学算法工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L02-05-01",
+      "audit_verdict": "correction_required",
+      "finding_type": "overclassified",
+      "audit_note": "光学算法不必然是计算机视觉；名称不足时应停在算法二级。"
+    },
+    {
+      "occupation_id": "SNO-3b2136e836af1dba2456",
+      "occupation_name": "DFT可测性设计工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L05-02-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-fe326e2a66e9de2a564e",
+      "occupation_name": "检测员",
+      "model_status": "review",
+      "model_target_category_id": "L04-04",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-89a4e92af365046c381f",
+      "occupation_name": "股权融资及财务顾问",
+      "model_status": "mapped",
+      "model_target_category_id": "L20-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-25610785c7097a11c51f",
+      "occupation_name": "专业课教师",
+      "model_status": "review",
+      "model_target_category_id": "L22-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-3820b0a9f1fc2ec4b9d5",
+      "occupation_name": "硬件研发工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L05-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-969c4b609b7d6b9c231c",
+      "occupation_name": "总经办总裁助理",
+      "model_status": "mapped",
+      "model_target_category_id": "L18-06",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-f798f466da536c71f5e0",
+      "occupation_name": "管培生岗位(研发、职能、商业化、生产&供应链)",
+      "model_status": "multi_role",
+      "model_target_category_id": null,
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-eb948c14cc98114d8a6b",
+      "occupation_name": "证券事务经理",
+      "model_status": "mapped",
+      "model_target_category_id": "L20-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-d4bfaa71f3fd126a2ed1",
+      "occupation_name": "教学科研岗(政治学理论、中共党史、社会学、马克思主义中国化研究、思想政治教育、基础心理学、发展与教育心理学、应用心理学)",
+      "model_status": "mapped",
+      "model_target_category_id": "L22-05",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-2c46ed9676c2ed0f87ee",
+      "occupation_name": "岗理财经理",
+      "model_status": "mapped",
+      "model_target_category_id": "L20-08",
+      "audit_verdict": "correction_required",
+      "finding_type": "incorrect_primary",
+      "audit_note": "理财经理以客户顾问成交为核心时应归 L13 个人客户销售，不是金融后台运营。"
+    },
+    {
+      "occupation_id": "SNO-2ce8813b2951bcfa826a",
+      "occupation_name": "人力资源储备",
+      "model_status": "mapped",
+      "model_target_category_id": "L18-04",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-7aa8337f42c770081967",
+      "occupation_name": "基础设施互联互通促进中心专技",
+      "model_status": "review",
+      "model_target_category_id": null,
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-7be74dbf3e482a24ab2d",
+      "occupation_name": "私人教练团课全职/兼职教练职能/技术",
+      "model_status": "mapped",
+      "model_target_category_id": "L29-06",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-7ddaeffb4285624bbfed",
+      "occupation_name": "油气储运与新能源开发",
+      "model_status": "mapped",
+      "model_target_category_id": "L25-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-bc8d911bdde59f0aabf1",
+      "occupation_name": "财务内控",
+      "model_status": "mapped",
+      "model_target_category_id": "L30-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-1ee6e8b56f32b3181ae8",
+      "occupation_name": "算法工程师(媒体算法)",
+      "model_status": "mapped",
+      "model_target_category_id": "L02-05-01",
+      "audit_verdict": "correction_required",
+      "finding_type": "overclassified",
+      "audit_note": "媒体算法不必然为视觉算法，缺少图像/视频职责时应停在算法二级。"
+    },
+    {
+      "occupation_id": "SNO-85d56bf4d4229ac85b31",
+      "occupation_name": "工程",
+      "model_status": "review",
+      "model_target_category_id": null,
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-036b2f67b7c481989cb9",
+      "occupation_name": "新闻宣传",
+      "model_status": "mapped",
+      "model_target_category_id": "L12-04",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-1476ab7132e27b3b52f9",
+      "occupation_name": "检测技术等",
+      "model_status": "review",
+      "model_target_category_id": "L04-04",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-8972962f317be77a6636",
+      "occupation_name": "生产调度工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L23-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-09956061a81b7808defe",
+      "occupation_name": "生产制造员",
+      "model_status": "mapped",
+      "model_target_category_id": "L23-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-1080766dda240d9f40f4",
+      "occupation_name": "售后助理",
+      "model_status": "mapped",
+      "model_target_category_id": "L14-10",
+      "audit_verdict": "correction_required",
+      "finding_type": "overclassified",
+      "audit_note": "售后助理未证明安装、调试或技术服务，不能直接归 L14-10。"
+    },
+    {
+      "occupation_id": "SNO-728bc2389338077e635f",
+      "occupation_name": "法律事务相关",
+      "model_status": "review",
+      "model_target_category_id": "L30-05",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-d0f517b7491e0cda26c2",
+      "occupation_name": "法务风控岗",
+      "model_status": "mapped",
+      "model_target_category_id": "L30-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-412c6d36ed5c331b18ca",
+      "occupation_name": "方案解决高级工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L14-09-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-e6d1a4c799fe50b4446b",
+      "occupation_name": "文案实习生(德语/英语)",
+      "model_status": "mapped",
+      "model_target_category_id": "L15-03-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-1e56d7605dec22111d2b",
+      "occupation_name": "企管法规",
+      "model_status": "mapped",
+      "model_target_category_id": "L30-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-990a2d3c791707b2e775",
+      "occupation_name": "化工外贸业务员",
+      "model_status": "mapped",
+      "model_target_category_id": "L16-04",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-919ea4e5168775cd451c",
+      "occupation_name": "支撑",
+      "model_status": "review",
+      "model_target_category_id": null,
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-60a6932da8bc0fb9a9cb",
+      "occupation_name": "机器人系统开发工程师",
+      "model_status": "mapped",
+      "model_target_category_id": "L01-06-01",
+      "audit_verdict": "correction_required",
+      "finding_type": "overclassified",
+      "audit_note": "机器人系统开发未证明设备端/嵌入式，应归通用软件研发或 review。"
+    },
+    {
+      "occupation_id": "SNO-14a4bd81059099693d70",
+      "occupation_name": "客户订单计划员",
+      "model_status": "mapped",
+      "model_target_category_id": "L16-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-33c886a363ccb7000512",
+      "occupation_name": "零售管培生职能定向生(产研类/技术类/职能类等)",
+      "model_status": "mapped",
+      "model_target_category_id": "L32-01",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-117dba594b0d6e53eb1d",
+      "occupation_name": "分行营销培训生(零售金融方向)",
+      "model_status": "mapped",
+      "model_target_category_id": "L32-01",
+      "audit_verdict": "correction_required",
+      "finding_type": "incorrect_primary",
+      "audit_note": "零售金融营销方向已明确；培养是标签，应归销售或保留二级，不是 L32。"
+    },
+    {
+      "occupation_id": "SNO-34d86fa9c3f1f82c24cc",
+      "occupation_name": "纪检",
+      "model_status": "mapped",
+      "model_target_category_id": "L30-03",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-2796afcf7a07b87d58c6",
+      "occupation_name": "样品管理员",
+      "model_status": "mapped",
+      "model_target_category_id": "L18-08",
+      "audit_verdict": "correction_required",
+      "finding_type": "incorrect_primary",
+      "audit_note": "样品管理员的实验/检测上下文不明，不能直接推为档案与资料管理。"
+    },
+    {
+      "occupation_id": "SNO-e31af1e216b33714e647",
+      "occupation_name": "市场推广专员(负责在所辖区域有效执行市场推广活动等)",
+      "model_status": "mapped",
+      "model_target_category_id": "L12-01-02",
+      "audit_verdict": "accepted_title_only",
+      "finding_type": null,
+      "audit_note": "标题证据支持当前状态与主归属粒度；不把它视为已完成生产映射。"
+    },
+    {
+      "occupation_id": "SNO-435aa6a2a3ed64664fa6",
+      "occupation_name": "石家庄分行运营培训生",
+      "model_status": "mapped",
+      "model_target_category_id": "L32-01",
+      "audit_verdict": "correction_required",
+      "finding_type": "incorrect_primary",
+      "audit_note": "分行运营方向已明确；培训生是标签，应归 L20 金融运营而不是 L32。"
+    }
+  ]
+}

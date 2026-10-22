@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_005_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-8d2d2381e456e923ce46",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智能建造属于建筑工程领域，归入L24-07施工组织与工程管理有标题依据且符合目录范围。"
+    },
+    {
+      "occupation_id": "SNO-d890b4198ea74c4163b3",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "总体设计师标题未明确行业方向，机械、电子、建筑等均可能，无可用职能线索确定归属。"
+    },
+    {
+      "occupation_id": "SNO-23501452d85ba0038944",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "医学市场管培生标题明确市场方向，管培为培养标签，归入L12-01市场策略与营销策划合理。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11400,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 648,
+    "output_tokens": 192,
+    "reasoning_tokens": 0,
+    "total_tokens": 11592
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000244656
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "8572272c-2a0d-478a-a1d1-537f6a775a52",
+  "object": "chat.completion",
+  "created": 1792571596,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-91b9cee4887b8695966136a6391952d3\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L32-01\",\"L32-02\",\"L14-11\",\"L14-01\"],\"title_evidence\":\"综合运营管培生：含“综合运营”与“管培生”，未说明具体运营方向或轮岗职能\",\"level_3_evidence\":null,\"reason\":\"“管培生”不能单独推断跨职能轮岗，且“综合运营”方向未明确，无法确定是产品/平台运营、用户运营还是其他运营；候选为跨职能管理培训轮岗(L32-01)、综合储备培养(L32-02)及通用业务运营(L14-11)/产品平台运营(L14-01)，需人工确认培养性质与运营方向。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16981,
+    "completion_tokens": 197,
+    "total_tokens": 17178,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 341
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

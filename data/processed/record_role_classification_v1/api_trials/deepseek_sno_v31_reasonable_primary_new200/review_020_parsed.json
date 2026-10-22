@@ -1,0 +1,85 @@
+{
+  "raw_response_file": "review_020_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-0755d97a8e933794e00f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-69ebe18a65bd15ea5754",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-1677f2a71e5fb299b80c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-c87435b3ad5e3fe5ee41",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-282a305da96912400de6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-9a0e64c99e5596385e71",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-0c2481cfc8ceea6299fa",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L22-03",
+      "issue": "目录中不存在三级分类 L22-03-02，应归入二级分类 L22-03 职业与技术教学。"
+    },
+    {
+      "occupation_id": "SNO-f283fb7f5fd6ce0f348b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-7eeb75487eaea4cbcc40",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": ""
+    },
+    {
+      "occupation_id": "SNO-ce83ab178012f55eea35",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L01-07",
+      "issue": "目录中不存在三级分类 L01-07-04，且射频仿真软件算法开发更符合系统与基础软件研发，应归入 L01-07。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 10756,
+    "cached_input_tokens": 9216,
+    "uncached_input_tokens": 1540,
+    "output_tokens": 448,
+    "reasoning_tokens": 0,
+    "total_tokens": 11204
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0005274480000000001
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

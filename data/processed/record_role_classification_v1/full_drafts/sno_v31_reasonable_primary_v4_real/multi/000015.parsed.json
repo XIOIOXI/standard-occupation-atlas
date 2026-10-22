@@ -1,0 +1,427 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-06fb40815c98fb3b9a0a",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无拆分依据。"
+    },
+    {
+      "original_record_id": "TG-aa13052283df7ea4c78b",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为连续字符串，无明确分隔符，视为单一岗位。"
+    },
+    {
+      "original_record_id": "TG-34d46c77256194481121",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无拆分依据。"
+    },
+    {
+      "original_record_id": "TG-476d6498eeee5e8d9970",
+      "case": "A",
+      "child_titles": [
+        "电商运营",
+        "新媒体运营",
+        "跨境电商运营",
+        "后期制作",
+        "国内/外产品开发采购专员"
+      ],
+      "source_spans": [
+        {
+          "text": "电商运营",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "新媒体运营",
+          "start": 4,
+          "end": 9
+        },
+        {
+          "text": "跨境电商运营",
+          "start": 9,
+          "end": 15
+        },
+        {
+          "text": "后期制作",
+          "start": 15,
+          "end": 19
+        },
+        {
+          "text": "国内/外产品开发采购专员",
+          "start": 19,
+          "end": 32
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接拼接而成，无分隔符，但语义上可明确拆分为五个不同岗位。"
+    },
+    {
+      "original_record_id": "TG-680fd13da0d5c63e8711",
+      "case": "A",
+      "child_titles": [
+        "投资银行类",
+        "行业研究类",
+        "投资业务类",
+        "财富顾问类",
+        "金融科技类"
+      ],
+      "source_spans": [
+        {
+          "text": "投资银行类",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "行业研究类",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "投资业务类",
+          "start": 10,
+          "end": 15
+        },
+        {
+          "text": "财富顾问类",
+          "start": 15,
+          "end": 20
+        },
+        {
+          "text": "金融科技类",
+          "start": 21,
+          "end": 26
+        }
+      ],
+      "reason": "标题由空格分隔的多个岗位类别组成，每个类别为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-99490ab914b52e268177",
+      "case": "A",
+      "child_titles": [
+        "研发设计储干",
+        "生产/质量储干",
+        "行政类专员/储干(采购、商务、财务、行政、文字)",
+        "技术员"
+      ],
+      "source_spans": [
+        {
+          "text": "研发设计储干",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "生产/质量储干",
+          "start": 6,
+          "end": 13
+        },
+        {
+          "text": "行政类专员/储干(采购、商务、财务、行政、文字)",
+          "start": 13,
+          "end": 36
+        },
+        {
+          "text": "技术员",
+          "start": 36,
+          "end": 39
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接拼接，无分隔符，但语义上可明确拆分为四个不同岗位。"
+    },
+    {
+      "original_record_id": "TG-85e40a9ad75026ddf8ba",
+      "case": "A",
+      "child_titles": [
+        "管培生",
+        "畜禽技术服务专家",
+        "现场品管管培生"
+      ],
+      "source_spans": [
+        {
+          "text": "管培生",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "text": "畜禽技术服务专家",
+          "start": 3,
+          "end": 10
+        },
+        {
+          "text": "现场品管管培生",
+          "start": 10,
+          "end": 17
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接拼接，无分隔符，但语义上可明确拆分为三个不同岗位。"
+    },
+    {
+      "original_record_id": "TG-188a23e431289adc14bc",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位类别，括号内为方向说明，不构成独立岗位。"
+    },
+    {
+      "original_record_id": "TG-52d100a02bc0a664b15b",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为方向说明，不构成独立岗位。"
+    },
+    {
+      "original_record_id": "TG-6ae61f118ecb2fae7dd5",
+      "case": "A",
+      "child_titles": [
+        "集团管培生(算法/运营/产品)",
+        "算法/工程/测试/运维",
+        "运营/产品/职能"
+      ],
+      "source_spans": [
+        {
+          "text": "集团管培生(算法/运营/产品)",
+          "start": 0,
+          "end": 14
+        },
+        {
+          "text": "算法/工程/测试/运维",
+          "start": 15,
+          "end": 25
+        },
+        {
+          "text": "运营/产品/职能",
+          "start": 26,
+          "end": 33
+        }
+      ],
+      "reason": "标题由空格分隔的多个岗位类别组成，每个类别为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-49f90fc8661eb4391d23",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无拆分依据。"
+    },
+    {
+      "original_record_id": "TG-3584dd146c18b7305192",
+      "case": "A",
+      "child_titles": [
+        "光学镀膜工艺师",
+        "会计"
+      ],
+      "source_spans": [
+        {
+          "text": "光学镀膜工艺师",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "text": "会计",
+          "start": 7,
+          "end": 9
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接拼接，无分隔符，但语义上可明确拆分。"
+    },
+    {
+      "original_record_id": "TG-f209d210f84291c2c52d",
+      "case": "A",
+      "child_titles": [
+        "研发技术员",
+        "工艺技术员",
+        "设备技术员",
+        "仪表技术员",
+        "电气技术员",
+        "储运技术员",
+        "外贸业务员"
+      ],
+      "source_spans": [
+        {
+          "text": "研发技术员",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "工艺技术员",
+          "start": 5,
+          "end": 10
+        },
+        {
+          "text": "设备技术员",
+          "start": 10,
+          "end": 15
+        },
+        {
+          "text": "仪表技术员",
+          "start": 15,
+          "end": 20
+        },
+        {
+          "text": "电气技术员",
+          "start": 20,
+          "end": 25
+        },
+        {
+          "text": "储运技术员",
+          "start": 25,
+          "end": 30
+        },
+        {
+          "text": "外贸业务员",
+          "start": 30,
+          "end": 35
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接拼接，无分隔符，但语义上可明确拆分为七个不同岗位。"
+    },
+    {
+      "original_record_id": "TG-cccab2580cd08e41930f",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为方向说明，不构成独立岗位。"
+    },
+    {
+      "original_record_id": "TG-2a4a822f38348704e5df",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为方向说明，不构成独立岗位。"
+    },
+    {
+      "original_record_id": "TG-780b16cdf6ac4a0f5c23",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为专业方向说明，不构成独立岗位。"
+    },
+    {
+      "original_record_id": "TG-692e0149348562006d42",
+      "case": "A",
+      "child_titles": [
+        "短剧管培生",
+        "AI动画生成师",
+        "AI动画剪辑师"
+      ],
+      "source_spans": [
+        {
+          "text": "短剧管培生",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "AI动画生成师",
+          "start": 5,
+          "end": 12
+        },
+        {
+          "text": "AI动画剪辑师",
+          "start": 13,
+          "end": 20
+        }
+      ],
+      "reason": "标题由空格分隔的多个岗位名称组成，每个为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-da2e709eb8394385c723",
+      "case": "A",
+      "child_titles": [
+        "临床类(内、外、妇、儿等各临床专业医生)",
+        "医技类(影像、超声、药学等)",
+        "护理类(护士、助产士等)",
+        "管培生(数据分析、医疗管理、人工智能、设备管理、法律合规、稽核监察)"
+      ],
+      "source_spans": [
+        {
+          "text": "临床类(内、外、妇、儿等各临床专业医生)",
+          "start": 0,
+          "end": 21
+        },
+        {
+          "text": "医技类(影像、超声、药学等)",
+          "start": 21,
+          "end": 36
+        },
+        {
+          "text": "护理类(护士、助产士等)",
+          "start": 36,
+          "end": 48
+        },
+        {
+          "text": "管培生(数据分析、医疗管理、人工智能、设备管理、法律合规、稽核监察)",
+          "start": 48,
+          "end": 84
+        }
+      ],
+      "reason": "标题由多个独立岗位类别直接拼接，无分隔符，但语义上可明确拆分为四个不同岗位。"
+    },
+    {
+      "original_record_id": "TG-ae4047a170bad5c7be01",
+      "case": "A",
+      "child_titles": [
+        "U培生(销售类方向)",
+        "u培生(信息科技方向)",
+        "客户服务经理",
+        "柜员"
+      ],
+      "source_spans": [
+        {
+          "text": "U培生(销售类方向)",
+          "start": 0,
+          "end": 10
+        },
+        {
+          "text": "u培生(信息科技方向)",
+          "start": 10,
+          "end": 21
+        },
+        {
+          "text": "客户服务经理",
+          "start": 22,
+          "end": 28
+        },
+        {
+          "text": "柜员",
+          "start": 28,
+          "end": 30
+        }
+      ],
+      "reason": "标题由空格分隔的多个岗位名称组成，每个为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-9e0b6d4999e8e6957177",
+      "case": "D",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为方向说明，不构成独立岗位。"
+    }
+  ],
+  "raw_response_file": "000015.raw.json",
+  "usage": {
+    "input_tokens": 978,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 978,
+    "output_tokens": 2932,
+    "reasoning_tokens": 0,
+    "total_tokens": 3910
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0038118
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "record-role-classification-v1",
+  "mapping_method": "codex_semantic_judgment",
+  "model": "Codex (GPT-5)",
+  "processed_at": "2026-10-11T15:57:11.021Z",
+  "classifications": [
+    {"source_record_id":"29cbd5fe5fc3f2746f8b0658","source_atomic_unit_id":"03264a103478ef3205ab1098","source_title":"粘合剂生产运营管理培训生 - 智能制造方向","level_1":"生产制造","level_2":"生产营运","level_3":null,"classification_status":"review","candidate_level_3":["生产计划与调度","生产运营与精益改善"],"evidence":{"source":"job_group_members.jsonl","raw_job_title":"粘合剂销售管理培训生，粘合剂生产运营管理培训生 - 质量方向，粘合剂供应链管理培训生，粘合剂生产运营管理培训生 - 智能制造方向，粘合剂生产运营管理培训生 - 工程方向","basis":"“生产运营”和“智能制造方向”确认生产营运；培训生身份及缺少具体职责不足以判定三级。"}},
+    {"source_record_id":"22ef4065e2a1826f1f669ee3","source_atomic_unit_id":"dd5929ca3e03092de3d21bba","source_title":"数字设计","level_1":"电子/电气/通信","level_2":"半导体/芯片","level_3":"芯片设计","classification_status":"mapped","candidate_level_3":[],"evidence":{"source":"job_group_members.jsonl","raw_job_title":"模拟设计、数字设计、数字验证、系统设计、AE/FAE、PE产品工程师、ATE测试工程师","basis":"同一原文并列模拟设计、数字设计与数字验证，且招聘行业为电子/半导体；“数字设计”明确是芯片设计职责，区别于数字验证。"}},
+    {"source_record_id":"28dc002d16e379e9ef61e9ad","source_atomic_unit_id":"288868369a768029fcc2e8f9","source_title":"总裁助理","level_1":null,"level_2":null,"level_3":null,"classification_status":"review","candidate_level_3":[],"evidence":{"source":"job_group_members.jsonl","raw_job_title":"储备督导,批市采购,国内采购,物流管理,总裁助理,数据分析","basis":"标题仅表明高管辅助，未说明行政、项目、战略或业务职责；不以消费行业替代职业职能。"}}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-53b2bcb741a114f61bc5",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-53b2bcb741a114f61bc5",
+    "case": "A",
+    "child_titles": [
+      "营运方向",
+      "人力方向",
+      "行政/非经营采购",
+      "审计方向"
+    ],
+    "source_spans": [
+      {
+        "text": "营运方向 人力方向行政/非经营采购审计方向",
+        "start": 0,
+        "end": 21
+      }
+    ],
+    "reason": "标题由多个方向岗位拼接，可拆分为四个岗位。"
+  }
+}

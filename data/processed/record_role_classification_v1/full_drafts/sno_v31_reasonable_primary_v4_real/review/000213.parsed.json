@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-9de0ebc0b322fdafd162",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题同时含新媒体运营与商务BD，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-0835d4d2b7c006b559db",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "双语分级阅读教师归语言教学合理。"
+    },
+    {
+      "occupation_id": "TG-5e963f05c87ec5e8f122",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "社会工作服务岗归L31-02合理。"
+    },
+    {
+      "occupation_id": "TG-57dac82f8b6bf4ab5465",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅C++语言开发岗归通用软件研发合理。"
+    },
+    {
+      "occupation_id": "TG-9003d4f0163f44284903",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智慧学习教师方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-e8a5652fb754268f2bb4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "合成/制剂/中药工艺多方向，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-cddbd32c4806ed3e7c16",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "车载算法验证归专项测试合理。"
+    },
+    {
+      "occupation_id": "TG-b74cf85acf361ba5c565",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "质量与测量双职能，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-84970ac2dddb8c49bc26",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI0S研究员方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-646f7c67c319a3e171dc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务与内控审计归内部审计合理。"
+    },
+    {
+      "occupation_id": "TG-bcc4e45241ab8d0482d0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品市场/运营双方向，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-2e1df8757d99e3b1f552",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "管道工程管理归建筑机电与设备工程合理。"
+    },
+    {
+      "occupation_id": "TG-5f1eaca3c4fb3c484730",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "动力环境工程师归建筑机电与设备工程合理。"
+    },
+    {
+      "occupation_id": "TG-caa3ccc3d1fdbc840f41",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "审计管培生已明确审计职能，归内部审计合理。"
+    },
+    {
+      "occupation_id": "TG-8a4d84d0521a21fd09b7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "研发岗（二）领域未说明，review合理。"
+    },
+    {
+      "occupation_id": "TG-7c45a9ef7079e0130a69",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品经营管培生职能不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-7612c5bbe65a76285262",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "QC研究员归化学与生物检测合理。"
+    },
+    {
+      "occupation_id": "TG-30dff024464ba445ca69",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "销售方向管培生客户类型未说明，归通用销售合理。"
+    },
+    {
+      "occupation_id": "TG-ca77ec470e0934289a16",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "人力行政管培生归通用组织支持合理。"
+    },
+    {
+      "occupation_id": "TG-e8e2eb6628a4205c34a7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "反不正当竞争研究归综合知识产权事务合理。"
+    }
+  ],
+  "raw_response_file": "000213.raw.json",
+  "usage": {
+    "input_tokens": 19488,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2976,
+    "output_tokens": 944,
+    "reasoning_tokens": 0,
+    "total_tokens": 20432
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002124672
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

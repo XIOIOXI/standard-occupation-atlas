@@ -1,0 +1,28 @@
+{
+  "id": "5b4a3111-f737-4b11-a5e2-8d2d9d36e165",
+  "object": "chat.completion",
+  "created": 1792571302,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-aa3a632b0a74f43685f5a86effa226ea\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L01-11\",\"L03-08\",\"L02-09\"],\"title_evidence\":\"信息科技岗：银行信息科技类岗位，未说明具体技术方向\",\"level_3_evidence\":null,\"reason\":\"银行信息科技岗可能涵盖软件开发、系统运维、数据等方向，标题仅表明IT技术职能，未明确具体方向，无法唯一确定二级类别，建议人工复核。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16943,
+    "completion_tokens": 136,
+    "total_tokens": 17079,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

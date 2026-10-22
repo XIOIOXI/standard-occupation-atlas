@@ -1,0 +1,28 @@
+{
+  "id": "3d069cc2-c413-4839-a394-682e8e454b3e",
+  "object": "chat.completion",
+  "created": 1791880169,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-63b6744edd48cf86049d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"咨询策划管培生方向未明，review合理。\"},{\"occupation_id\":\"TG-d3f2c6606b26c8a50cde\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"前端开发归L01-01合理。\"},{\"occupation_id\":\"TG-b0788e753b91ec6fdd16\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"前端开发工程师归L01-01合理。\"},{\"occupation_id\":\"TG-43f417598fd7ee753d5b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场管理培训生方向未明，review合理。\"},{\"occupation_id\":\"TG-1fc3eaf51e57a1528306\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"考研教师未明确学科，归L22-02合理。\"},{\"occupation_id\":\"TG-08b71f7e720980c5bb98\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"外贸订单管理员归L16-04合理。\"},{\"occupation_id\":\"TG-6e279079e3c06e6c5a35\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"平面设计助理归L09-01合理。\"},{\"occupation_id\":\"TG-dde16c53f58c12c50161\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"有机合成研究员归L06-05-01合理。\"},{\"occupation_id\":\"TG-00a5364664bbc4e5c22f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场金融培训生方向未明，review合理。\"},{\"occupation_id\":\"TG-4a40aedfbdedd1e9d045\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"小号演奏岗归L15-09合理。\"},{\"occupation_id\":\"TG-86841265be06895527f6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"热工设计工程师归L06-02合理。\"},{\"occupation_id\":\"TG-e50e08bee3517100eb35\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"造型岗归L09-03合理。\"},{\"occupation_id\":\"TG-31b1ba0b9e85fb29af42\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L21-01\",\"issue\":\"MICU工程师通常为重症监护医疗技术人员，非内科医生，归L21-01-01内科与综合诊疗不当，建议归L21-01或L21-03。\"},{\"occupation_id\":\"TG-f8c42336e5de083f5882\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"材料类管培生方向未明，review合理。\"},{\"occupation_id\":\"TG-a041f97ac02c1f02e238\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"土地储备业务岗归L24-11合理。\"},{\"occupation_id\":\"TG-39b72c5c1f5fc696d3d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"移动端全栈AI开发归L01-03合理。\"},{\"occupation_id\":\"TG-22449282395b183140a0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"城市更新工作管理员归L24-11合理。\"},{\"occupation_id\":\"TG-303bfe9ad411f592b605\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"U3D开发工程师归L01-08-02合理。\"},{\"occupation_id\":\"TG-2e1e18cc7bea6c3f1581\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品岗方向未明，review合理。\"},{\"occupation_id\":\"TG-6da8acfa5c3adbc8f25f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"奥赛老师未明确学科，归L22-02合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19371,
+    "completion_tokens": 979,
+    "total_tokens": 20350,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2859
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

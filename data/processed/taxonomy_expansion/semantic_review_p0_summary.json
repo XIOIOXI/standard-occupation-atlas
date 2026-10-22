@@ -1,0 +1,19 @@
+{
+  "p0_expected_count": 22,
+  "p0_reviewed_count": 22,
+  "decision_counts": {
+    "pending_human_review": 12,
+    "too_generic": 5,
+    "alias_of_existing": 5
+  },
+  "confidence_counts": {
+    "medium": 9,
+    "high": 12,
+    "low": 1
+  },
+  "semantic_review_version": "semantic-review-v1",
+  "prompt_version": "semantic-candidate-review-prompt-v1",
+  "model": "gpt-5 (Codex runtime)",
+  "cache_key": "family_id + semantic_review_version",
+  "validation": "All alias IDs validated against supplied Reference Taxonomy; outputs are recommendations only."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5aca4b86-48cb-40a8-86b2-1af9d5f162f7",
+  "object": "chat.completion",
+  "created": 1791880404,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-99d93dfa10d77c0ddc0f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生且方向未明确，review合理\"},{\"occupation_id\":\"TG-32c42efc6bcf97c65ccc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"无线通信/网络技术归通信协议与系统合理\"},{\"occupation_id\":\"TG-5842455a58231e0877d5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅管培生无方向，review合理\"},{\"occupation_id\":\"TG-e4146077a371d71ae19a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工程项目技术岗归施工组织与工程管理合理\"},{\"occupation_id\":\"TG-18934b1a36beed24a5ab\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产工艺岗归工艺与制造工程合理\"},{\"occupation_id\":\"TG-4996a2088757ff737621\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术开发方向未明，review合理\"},{\"occupation_id\":\"TG-512fe02211ad33e5d739\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"系统及网络安全归信息安全合理\"},{\"occupation_id\":\"TG-ae0bc4c2561a78c3b9db\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"矿产地质勘查归地质勘探与资源评价合理\"},{\"occupation_id\":\"TG-e857d942c2a2f75a4a82\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多类别罗列非单一岗位，non_role_text合理\"},{\"occupation_id\":\"TG-f2a7b188c1ea46baa663\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信号/电源完整性归电路与板级设计合理\"},{\"occupation_id\":\"TG-113a61720b4d451694c6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"企业战略咨询师归战略与管理咨询合理\"},{\"occupation_id\":\"TG-591242fd8b31284cae87\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"储运安全岗归安全健康与职业防护合理\"},{\"occupation_id\":\"TG-ccd47e60bd076ee37bf9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"子公司岗位统称非具体岗位，non_role_text合理\"},{\"occupation_id\":\"TG-d18eda4d05d1aae35f88\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国际贸易岗归进出口与贸易执行合理\"},{\"occupation_id\":\"TG-70547d16ea3068fd3a69\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"精密结构件产品开发归产品结构设计合理\"},{\"occupation_id\":\"TG-6b13b8ae32fedeaba256\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务融资岗归资金管理与融资财务合理\"},{\"occupation_id\":\"TG-729f154c18bde9a0ea76\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"可测性设计归芯片设计验证合理\"},{\"occupation_id\":\"TG-11e6d38c8aec10bf2bb8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"养老服务助理归养老与生活照护合理\"},{\"occupation_id\":\"TG-161697addac83d650c5d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"广告优化师归广告投放与效果营销合理\"},{\"occupation_id\":\"TG-ee670392f50479a1d3e6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"建设管理部现场管理归施工组织与工程管理合理\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19538,
+    "completion_tokens": 930,
+    "total_tokens": 20468,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3026
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

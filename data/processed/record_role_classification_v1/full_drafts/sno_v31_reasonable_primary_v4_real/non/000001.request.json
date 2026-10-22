@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "仅标题确认non_role_text，JSON results: original_record_id,decision(exclude_non_role|restore_title_and_map|hold),reason,recovered_title。无法确认hold；剔除不删除源记录。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-4f7032f315155b0ed4c7\", \"title\": \"工商管理类法学类财会审计类语言文学类新闻类电气类土建水文类工程管理类 计算机类通信类电气类\"}, {\"original_record_id\": \"TG-01837aaa56bef749c394\", \"title\": \"此次招聘涉及15个岗位\"}, {\"original_record_id\": \"TG-5336a3725fb86552e3b4\", \"title\": \"实习生（专业不限）\"}, {\"original_record_id\": \"TG-8f941266ce8ae3f09c6a\", \"title\": \"分两个批次开展招聘。第一批次为省市局(公司)机关相关岗位\"}, {\"original_record_id\": \"TG-8bce73d839ff3e6b7160\", \"title\": \"总部八大业务类总部中后台类总部资产管理类总部科技赋能类总部职能管理类各地分支机构岗\"}, {\"original_record_id\": \"TG-37f4f696f906756a6862\", \"title\": \"学位和专业要求等详见附件1《浙江省新昌中学面向2026年应届高校毕业生招聘教师......\"}, {\"original_record_id\": \"TG-50ef8dfd38315a3e19b2\", \"title\": \"此次招聘涉及9个岗位\"}, {\"original_record_id\": \"TG-83151fe332255fefbba5\", \"title\": \"本次计划招录员工44名。具体招聘岗位\"}, {\"original_record_id\": \"TG-fed28058256138d85867\", \"title\": \"/专员\"}, {\"original_record_id\": \"TG-6fcc3727af50319112cb\", \"title\": \"未提及招聘岗位\"}, {\"original_record_id\": \"TG-afd5cecb08d78e9c0eae\", \"title\": \"此次招聘涉及5个岗位\"}, {\"original_record_id\": \"TG-eebcad79164348067cf2\", \"title\": \"优秀硕士毕业生\"}, {\"original_record_id\": \"TG-bcf6922883bf209eb0dd\", \"title\": \"实习生\"}, {\"original_record_id\": \"TG-dcb774635de0ac88c20d\", \"title\": \"或经理\"}, {\"original_record_id\": \"TG-e857d942c2a2f75a4a82\", \"title\": \"教师类 运营类 培训生类 实习生类\"}, {\"original_record_id\": \"TG-ccd47e60bd076ee37bf9\", \"title\": \"期货等独立子公司岗位\"}, {\"original_record_id\": \"TG-eaaa943deaf86678ce6d\", \"title\": \"电子与通信类计算机类机械与控制类其他类(会计财务金融税务建筑土木工程)\"}, {\"original_record_id\": \"TG-62d65b7077d00ee93ade\", \"title\": \"本次公开招聘共设置15个岗位\"}, {\"original_record_id\": \"TG-6c78cb58549693f3c42f\", \"title\": \"算法类软件类硬件类测试类销售\"}, {\"original_record_id\": \"TG-5ed4b63c1a6fb7e2b59a\", \"title\": \"共计1257个岗位\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-4f7032f315155b0ed4c7",
+    "TG-01837aaa56bef749c394",
+    "TG-5336a3725fb86552e3b4",
+    "TG-8f941266ce8ae3f09c6a",
+    "TG-8bce73d839ff3e6b7160",
+    "TG-37f4f696f906756a6862",
+    "TG-50ef8dfd38315a3e19b2",
+    "TG-83151fe332255fefbba5",
+    "TG-fed28058256138d85867",
+    "TG-6fcc3727af50319112cb",
+    "TG-afd5cecb08d78e9c0eae",
+    "TG-eebcad79164348067cf2",
+    "TG-bcf6922883bf209eb0dd",
+    "TG-dcb774635de0ac88c20d",
+    "TG-e857d942c2a2f75a4a82",
+    "TG-ccd47e60bd076ee37bf9",
+    "TG-eaaa943deaf86678ce6d",
+    "TG-62d65b7077d00ee93ade",
+    "TG-6c78cb58549693f3c42f",
+    "TG-5ed4b63c1a6fb7e2b59a"
+  ]
+}

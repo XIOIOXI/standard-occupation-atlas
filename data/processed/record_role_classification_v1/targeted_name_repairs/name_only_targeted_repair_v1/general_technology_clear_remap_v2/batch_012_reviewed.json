@@ -1,0 +1,147 @@
+{
+  "batch_number": 12,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 26634,
+    "cached_input_tokens": 25088,
+    "uncached_input_tokens": 1546,
+    "output_tokens": 1006,
+    "reasoning_tokens": 0,
+    "total_tokens": 27640
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000910764
+  },
+  "results": [
+    {
+      "entry_id": "SNO-9ec428625fee9e42ef47",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“开发”为宽泛称谓，无法确认职业领域或二级方向。"
+    },
+    {
+      "entry_id": "SNO-9f06e7226c3290bd0bbc",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“先进材料与工艺研究员(先进制造技术)”为复合岗位，含材料与制造技术，无法唯一归入已有三级。"
+    },
+    {
+      "entry_id": "SNO-9f9d3b9864d577b0bd95",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“专业技术基层管理”为宽泛管理称谓，无法确认职业领域。"
+    },
+    {
+      "entry_id": "SNO-a10eccae11f6344b0937",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术负责人/总监”为复合管理称谓，无法确认职业领域。"
+    },
+    {
+      "entry_id": "SNO-a13b062d598f09d2d156",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“主任仿真工程师”仅能确认工程仿真泛领域，无法唯一细分三级。"
+    },
+    {
+      "entry_id": "SNO-a2c938378886ecca3aad",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“设计技术”为宽泛称谓，无法确认设计领域或技术方向。"
+    },
+    {
+      "entry_id": "SNO-a30cff18b6b79a628591",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“生态产品工程师”含生态与产品，无法唯一归入已有目录。"
+    },
+    {
+      "entry_id": "SNO-a41c2b533cdbcff3b218",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术服务岗(三)”为宽泛岗位称谓，无法确认职业领域。"
+    },
+    {
+      "entry_id": "SNO-a52501339f789c9f38a6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“支援系统”为宽泛称谓，无法确认职业领域。"
+    },
+    {
+      "entry_id": "SNO-a5e53a92a7a55fcac1ac",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术应用工程师”为宽泛技术称谓，无法确认职业领域。"
+    },
+    {
+      "entry_id": "SNO-a62dece4edc636740da7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“软件工程络部杭工程统级工程师”名称异常且含截断，无法确认唯一三级。"
+    },
+    {
+      "entry_id": "SNO-a68495c84fae8a5c2886",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“数字化技术应用”为宽泛称谓，无法确认职业领域。"
+    },
+    {
+      "entry_id": "SNO-a7e43c55c0f5a29bbbc0",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“系统设计”为宽泛称谓，无法确认设计或系统方向。"
+    },
+    {
+      "entry_id": "SNO-a91757b2e54612d509a9",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程技术研发工程师”为宽泛研发称谓，无法确认职业领域。"
+    },
+    {
+      "entry_id": "SNO-a99adc2a1c1b11d42114",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术服务岗(二)”为宽泛岗位称谓，无法确认职业领域。"
+    },
+    {
+      "entry_id": "SNO-a9ab7527864d8a91f52c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术研发”为宽泛研发称谓，无法确认职业领域。"
+    },
+    {
+      "entry_id": "SNO-aafe456f16ffae8b7ae6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“产品研发”为宽泛研发称谓，无法确认产品领域。"
+    },
+    {
+      "entry_id": "SNO-ad44f8bbe8c7a1b91b41",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“实习生(航空宇航科学与技术、力学、控制科学与工程机械、电气工程、电子科学与技术、信息与通信工程、材料科学与工程等)”为专业清单，无法唯一归类。"
+    },
+    {
+      "entry_id": "SNO-adac3f8789f688bccba6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“人事行师售前工程师”名称异常且复合，无法确认职业领域。"
+    },
+    {
+      "entry_id": "SNO-ae8ae160cc15f4ec2a54",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“设计转化工程师”为宽泛称谓，无法确认设计领域或转化方向。"
+    }
+  ]
+}

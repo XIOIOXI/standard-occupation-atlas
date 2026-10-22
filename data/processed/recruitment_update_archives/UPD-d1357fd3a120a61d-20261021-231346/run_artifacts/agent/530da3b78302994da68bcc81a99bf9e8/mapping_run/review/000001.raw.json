@@ -1,0 +1,28 @@
+{
+  "id": "304941ca-fe53-4ce2-bf42-9a4126dce94b",
+  "object": "chat.completion",
+  "created": 1792571359,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-530da3b78302994da68bcc81a99bf9e8\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"标题为管理培训生，原始组合含资金管理、资产管理，公司为金融控股集团；仅凭管培生及行业不足以确定主要职能，标 review 合理，候选 L32-01/L32-02/L19-04/L20-02 均合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17014,
+    "completion_tokens": 119,
+    "total_tokens": 17133,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 502
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

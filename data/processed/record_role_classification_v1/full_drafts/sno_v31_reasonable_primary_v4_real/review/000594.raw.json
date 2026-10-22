@@ -1,0 +1,28 @@
+{
+  "id": "12354651-0146-4af3-bee6-32b4a0530ad1",
+  "object": "chat.completion",
+  "created": 1791882074,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-e6915c8f6d37e132c075\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术研究工程师方向未明确，review合理。\"},{\"occupation_id\":\"TG-8704296e18f474eda67d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"单板工艺归制造制程工程合理。\"},{\"occupation_id\":\"TG-c60474fb38902062746b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"内贸销售归企业客户销售合理。\"},{\"occupation_id\":\"TG-4c7181befd158113f036\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采购经理归采购与供应商管理合理。\"},{\"occupation_id\":\"TG-6d455494098f8f01ddd7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"储备采购经理已明确采购职能，归采购与供应商管理合理。\"},{\"occupation_id\":\"TG-ef69dae34687de573ff3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采购主管归采购与供应商管理合理。\"},{\"occupation_id\":\"TG-c717d82f9ca0b9a9c204\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"驱动工程师归固件与底层驱动合理。\"},{\"occupation_id\":\"TG-8b9b9dc683ba2ce0fa00\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"驱动开发归固件与底层驱动合理。\"},{\"occupation_id\":\"TG-913cf36c34a438aa6ddf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"视觉设计师归视觉与品牌设计合理。\"},{\"occupation_id\":\"TG-1fe1b54fbba172125d13\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工艺岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-e9ad31f60b48a27fffb5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"版图设计工程师归芯片物理设计合理。\"},{\"occupation_id\":\"TG-f2b69f9fc328fb27d97a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外技术支持工程师归售后技术服务合理。\"},{\"occupation_id\":\"TG-c23f11f8576ccaf7d459\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运维工程师方向未明确，归通用信息技术运维合理。\"},{\"occupation_id\":\"TG-76517bcf3efea9b05a69\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运维开发工程师归云平台与可靠性运维合理。\"},{\"occupation_id\":\"TG-a51fbdf9a0ebdfc497e4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"运维开发归云平台与可靠性运维合理。\"},{\"occupation_id\":\"TG-a0b78960934cc4d3028f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售支持岗归销售运营与商务支持合理。\"},{\"occupation_id\":\"TG-d892e407c74469d76c37\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售支持（海外）归销售运营与商务支持合理。\"},{\"occupation_id\":\"TG-e0978cd6e0500e308627\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售支持归销售运营与商务支持合理。\"},{\"occupation_id\":\"TG-6d350972614a632795a3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信息化建设岗归信息化管理合理。\"},{\"occupation_id\":\"TG-64d343ddffa7285f2341\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"QT开发工程师归桌面业务应用合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19319,
+    "completion_tokens": 907,
+    "total_tokens": 20226,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2807
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

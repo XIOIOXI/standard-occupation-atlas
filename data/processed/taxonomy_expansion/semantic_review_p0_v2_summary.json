@@ -1,0 +1,27 @@
+{
+  "review_scope": "Only twelve semantic-review-v1 pending_human_review P0 families",
+  "p0_v2_reviewed_count": 12,
+  "identity_decision_counts": {
+    "pending_identity_review": 6,
+    "proposed_new_occupation": 5,
+    "too_generic": 1
+  },
+  "placement_status_counts": {
+    "context_dependent": 6,
+    "placement_review_required": 3,
+    "cross_industry": 2,
+    "single_domain": 1
+  },
+  "semantic_review_version": "semantic-review-v2",
+  "prompt_version": "semantic-candidate-review-prompt-v2",
+  "model": "gpt-5 (Codex runtime)",
+  "cache_key": "family_id + semantic_review_version",
+  "validation": {
+    "unique_family_ids": true,
+    "existing_occupation_ids_valid": true,
+    "applicable_domains_exist_in_reference_taxonomy": true,
+    "v1_results_written": false,
+    "p1_reviewed": false,
+    "reference_taxonomy_modified": false
+  }
+}

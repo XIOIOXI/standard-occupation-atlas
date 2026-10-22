@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 32,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "9c1ca1d6-b277-4a58-945c-9a4f3621140b",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791750733,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25045,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1749,
+    "output_tokens": 3832,
+    "reasoning_tokens": 0,
+    "total_tokens": 28877
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002631438
+  },
+  "observed_at_utc": "2026-10-11T20:32:14.083680+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-65491d7040e7520c98d0",
+      "target_category_id": "供应链/物流/supply-warehouse/warehouse-inbound",
+      "status": "mapped",
+      "reason": "海外仓工程师核心职责为海外仓储运营与库存管理，归入仓储入库与库存管理。"
+    },
+    {
+      "occupation_id": "SNO-ebf9b6293e0e1e60fe13",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "供应链工程师核心职责为供应链计划与协同，归入供应链计划与采购协同。"
+    },
+    {
+      "occupation_id": "SNO-5d8e6af3502ed7cc7f57",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机械设计助理工程师核心职责为机械结构与产品设计，归入机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-fdc839f6e1dd34a9fea2",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "系统工程范围较广，缺少具体行业或技术方向，无法确定三级分类。"
+    },
+    {
+      "occupation_id": "SNO-b0760d474a8023e3c2d4",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "模具工程师核心职责为模具设计与制造工艺，归入机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-b85c6b910db90ba6d130",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出研发实验员、检验员、国际销售三个独立职业，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-441459bd1c49322e9852",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "国际业务岗(法语)核心为海外客户开发与国际贸易，归入海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-9e42c503b65979d5cc5a",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "ADAS解决方案工程师核心为自动驾驶领域售前与解决方案支持，归入售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-63fc1b1de470fc151a1e",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "大数据开发工程师核心职责为数据工程与数仓开发，归入数据工程与数仓。"
+    },
+    {
+      "occupation_id": "SNO-21ac598e129ee4b5da97",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "规划发展部专员职责范围较泛，缺少具体职能方向，无法确定三级分类。"
+    },
+    {
+      "occupation_id": "SNO-c87bcbd53ff6b3806704",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分行管培生通常为银行零售与综合业务培养，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-c3e397c92984e0426abb",
+      "target_category_id": "销售/sales-general/general-sales-channel",
+      "status": "mapped",
+      "reason": "渠道销售(俄语)核心为渠道与经销销售，归入渠道与经销销售。"
+    },
+    {
+      "occupation_id": "SNO-385c265b22bc8383a0e5",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "自动化方案/机械设计工程师核心为自动化控制与方案设计，归入电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-9188d9ca40fb5cc2611b",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "苏州分行培训生为银行分行培养岗位，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-64123a41f7226081a23e",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI开发工程师通常涉及大模型与生成式AI开发，归入大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-836111faefe139ee5a1a",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-applied",
+      "status": "mapped",
+      "reason": "数据挖掘工程师核心为机器学习应用，归入机器学习应用。"
+    },
+    {
+      "occupation_id": "SNO-84eb3144b5ff2674104c",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "计算机视觉算法工程师核心为计算机视觉算法，归入计算机视觉与三维感知。"
+    },
+    {
+      "occupation_id": "SNO-fb3778e44096904068eb",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "技术开发名称过于宽泛，缺少具体技术栈或方向，无法确定三级分类。"
+    },
+    {
+      "occupation_id": "SNO-5339d88b5e132eb5ea11",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "探伤/探伤技术员核心为质量检验与无损检测，归入质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-cbb4336b514b62e669ef",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "mapped",
+      "reason": "超算技术开发核心为高性能计算，归入图形与高性能计算。"
+    },
+    {
+      "occupation_id": "SNO-026d93afd17f90a273f2",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "智能认知决策与大模型算法设计师核心为大模型与生成式AI算法，归入大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-9093485d2915d97f29e7",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI开发工程师(射频测试环境)核心为AI开发，归入大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-d0f517b7491e0cda26c2",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "法务风控岗明显包含法务与风控两个独立职业，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-fb8f243545ed98c68c65",
+      "target_category_id": "产品/product-game/game-planning",
+      "status": "mapped",
+      "reason": "休闲游戏策划核心为游戏系统与玩法策划，归入游戏系统与玩法策划。"
+    },
+    {
+      "occupation_id": "SNO-e6d1a4c799fe50b4446b",
+      "target_category_id": "运营/客服/ops-copywriting/copy-content",
+      "status": "mapped",
+      "reason": "文案实习生(德语/英语)核心为内容与新媒体文案，归入内容与新媒体文案。"
+    },
+    {
+      "occupation_id": "SNO-853a3feb643e1779943f",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-fulfilment",
+      "status": "mapped",
+      "reason": "仓配物流管培生核心为供应链履约与优化，归入供应链履约与优化。"
+    },
+    {
+      "occupation_id": "SNO-b8efb11e8e0730b1246a",
+      "target_category_id": "互联网/AI/internet-test/test-security",
+      "status": "mapped",
+      "reason": "安全测试开发核心为安全与专项测试，归入安全与专项测试。"
+    },
+    {
+      "occupation_id": "SNO-b93b3da92a233cfcf62a",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "运营管理名称较泛，缺少具体行业或运营方向，无法确定三级分类。"
+    },
+    {
+      "occupation_id": "SNO-1fd0dcbd204629b6f69f",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "岗财务管理核心为财务核算与管理，归入总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-d94aec50ca73c8ad592a",
+      "target_category_id": "房地产/建筑/estate-worker/construction-worker-structural",
+      "status": "mapped",
+      "reason": "施工核心为土建与结构施工，归入土建与结构施工。"
+    },
+    {
+      "occupation_id": "SNO-73ef15c5c7ecce03ec53",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "新能源设备研发助理工程师核心为能源开发与工程，归入能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-8cb8f8d2b88ddc577375",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "行业解决方案经理核心为售前与解决方案支持，归入售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-c2a8fe06b4f6948b6031",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "游戏GUI视觉设计核心为品牌与视觉设计，归入品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-590845eda21a70df2656",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "仕官生为特定企业管培生项目名称，缺少具体职能方向，无法确定分类。"
+    },
+    {
+      "occupation_id": "SNO-cf9f06dcc0a625fd04a1",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "成都分行运营培训生为银行运营培养岗位，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-f3b85697546945a0b571",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "管培生—采购工程师核心为采购寻源，归入供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-3acdb90e198d0ed998e0",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "先进工艺设计核心为半导体制造工艺，归入制造工艺。"
+    },
+    {
+      "occupation_id": "SNO-e1ecb92114e877698d5f",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-fulfilment",
+      "status": "mapped",
+      "reason": "供应链与运营核心为供应链履约与优化，归入供应链履约与优化。"
+    },
+    {
+      "occupation_id": "SNO-4ae298477dc199184a19",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "国际管培生(市场营销方向)核心为品牌与市场策略，归入品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-1c511ef8b39e0f67ba9d",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "科技项目管理专员核心为研发项目管理，归入研发项目管理。"
+    },
+    {
+      "occupation_id": "SNO-a5c156e6cc38d78362b7",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "蛋白研发高级工程师核心为生物医药研发，归入生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-67714415471e6749e67d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "人工智能研究与应用工程师核心为算法研究与通用算法，归入算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-d02ba36220b23cc6ff2d",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "产品项目名称不完整，缺少具体产品方向或项目职能，无法确定分类。"
+    },
+    {
+      "occupation_id": "SNO-9c93d718e76537a1aba1",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "运行管理名称较泛，缺少具体行业或职能方向，无法确定三级分类。"
+    },
+    {
+      "occupation_id": "SNO-2dfe3b927f7abdf31f41",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电子工程师核心为电路与硬件设计，归入电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-625814c8c945a9a31648",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "大健康类为行业领域名称，缺少具体职业职能，无法确定分类。"
+    },
+    {
+      "occupation_id": "SNO-93be0542f15ce217fde6",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "定量研究员核心为市场与社会调研，归入市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-db5e9609b969014fb631",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "教字中路检证工程师名称疑似有误或截断，无法识别具体职业。"
+    },
+    {
+      "occupation_id": "SNO-b1b762546974b80a4d01",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "复合材料研发工程师核心为化工工艺与材料研发，归入化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-f1e69dcef72d1c46526c",
+      "target_category_id": "运营/客服/ops-content/content-editorial",
+      "status": "mapped",
+      "reason": "IPTV版权运营核心为内容编辑与策划，归入内容编辑与策划。"
+    }
+  ]
+}

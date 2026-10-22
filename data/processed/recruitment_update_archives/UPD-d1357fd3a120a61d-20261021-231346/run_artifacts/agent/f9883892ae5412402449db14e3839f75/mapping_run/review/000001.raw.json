@@ -1,0 +1,28 @@
+{
+  "id": "4ad3c430-b705-4328-9808-85d9dafd6ee2",
+  "object": "chat.completion",
+  "created": 1792571670,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-f9883892ae5412402449db14e3839f75\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L13-01\", \"issue\": \"国际销售经理属销售职能，B2B医疗行业销售归企业客户销售L13-01合理；客户类型未明确，停在二级恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17025,
+    "completion_tokens": 94,
+    "total_tokens": 17119,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 513
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

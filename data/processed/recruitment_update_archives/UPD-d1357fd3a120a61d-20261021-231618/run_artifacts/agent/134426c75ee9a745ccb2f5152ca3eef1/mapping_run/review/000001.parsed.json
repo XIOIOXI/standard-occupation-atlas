@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-134426c75ee9a745ccb2f5152ca3eef1",
+      "verdict": "pass",
+      "suggested_target_category_id": "L09-04",
+      "issue": "女装设计实习生明确属于服装设计，归L09-04服装饰品与纺织设计合理；该二级无三级细分，归二级正确。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17024,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 512,
+    "output_tokens": 88,
+    "reasoning_tokens": 0,
+    "total_tokens": 17112
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000358272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

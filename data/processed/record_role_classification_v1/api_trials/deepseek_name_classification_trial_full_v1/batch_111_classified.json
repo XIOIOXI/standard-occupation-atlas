@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 111,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "0f611b20-2e22-46f5-a1f0-0900cc15fb9e",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751194,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25182,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1886,
+    "output_tokens": 3535,
+    "reasoning_tokens": 0,
+    "total_tokens": 28717
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002473788
+  },
+  "observed_at_utc": "2026-10-11T20:39:54.351919+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-4a0435d7b4c20926e2e2",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "营销综合属于市场/营销类，核心职责为品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-380e1084d2fc9226986d",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "销售计划运营属于销售支持与商务协调，英语为语言修饰。"
+    },
+    {
+      "occupation_id": "SNO-1f9610dae738b55a9a29",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "计算化学科学家从事生物医药研发，MD/QM为具体方向。"
+    },
+    {
+      "occupation_id": "SNO-95087301c7612d46d6b0",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出品牌增长、客户生意发展、研发、人力资源、供应链、财务等多个独立部门岗位。"
+    },
+    {
+      "occupation_id": "SNO-5279eaaba55e209f4910",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "标准化工程技术人员通常负责质量体系与标准制定。"
+    },
+    {
+      "occupation_id": "SNO-9aaa9d52b522c4ab2d08",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "资金会计属于总账与财务核算中的资金核算。"
+    },
+    {
+      "occupation_id": "SNO-85d30d3e3366721a99ed",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "小核酸研发属于生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-13002889673cd6317824",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "研发/技术人员过于宽泛，缺少具体技术方向或行业信息。"
+    },
+    {
+      "occupation_id": "SNO-728b51e39bd654cf24f8",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "模拟IC电路工程师/AE工程师属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-16c363f8493b5960d25d",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "银行公司业务培训生属于零售与综合银行方向。"
+    },
+    {
+      "occupation_id": "SNO-6d423d3f255f7efd4a78",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "热控设计属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-9bccdefa776bae8033fb",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "status": "mapped",
+      "reason": "GPGPU通信库开发属于系统与底层开发。"
+    },
+    {
+      "occupation_id": "SNO-30db883d40a8b183fd4a",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称疑似截断或冗余，质量管理员与推广代表职责不明确。"
+    },
+    {
+      "occupation_id": "SNO-a6a74aef5bde8c3727ae",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "全过程咨询专员属于管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-afc4f45fb6363e9d57ac",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "钢结构设计制造属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-850cb2596b302ca1f26b",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "供应体系管理工程师属于供应链计划与采购协同。"
+    },
+    {
+      "occupation_id": "SNO-95ef3c9c88b05ca78507",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "供应链数字化+成本管培生属于供应链计划与采购协同。"
+    },
+    {
+      "occupation_id": "SNO-14b36e8b7b35bf1685b2",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "摆线减速器工程师属于机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-7d365d0ede850f4553c1",
+      "target_category_id": "影视/传媒/media-publishing/publish-editing",
+      "status": "mapped",
+      "reason": "杂志社编辑属于图书与出版编辑。"
+    },
+    {
+      "occupation_id": "SNO-24b6a000b3147d7017b1",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "集团战略管培生-供应链属于供应链计划与采购协同。"
+    },
+    {
+      "occupation_id": "SNO-a9f65b816152699dbf8a",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "债券承做属于基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-3e0d05a592f400289ad2",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "工艺整合工程师属于半导体制造工艺。"
+    },
+    {
+      "occupation_id": "SNO-3fdf0c6a7769299962a3",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-transport",
+      "status": "mapped",
+      "reason": "铁路货运项目部管培生属于运输调度与线路运营。"
+    },
+    {
+      "occupation_id": "SNO-9ed8e57132d2bab95b62",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "加工工艺工程师属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-c786613f08bd6446f19e",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "综合柜员属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-94730a1a9213d3bb57f4",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "原子制造大科学装置研究员属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-9934ffc0a8bddd104c78",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "网络数据智能工程师属于数据工程与数仓。"
+    },
+    {
+      "occupation_id": "SNO-5d31534252fd9e8c92b1",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "科技人员(软件开发岗)属于业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-3c27e263a6cfc6383516",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "博士研究员缺少具体研究领域或行业信息。"
+    },
+    {
+      "occupation_id": "SNO-820d48474d830f2ed2cb",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "矿物加工技术管理属于化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-8bfecaf8551487279690",
+      "target_category_id": "市场/公关/广告/marketing-analytics/business-analytics-consumer",
+      "status": "mapped",
+      "reason": "产品策略分析师-市场条线属于用户与市场数据分析。"
+    },
+    {
+      "occupation_id": "SNO-4884c2e8a608ba2278d7",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "技术开发岗(研发)缺少具体技术方向。"
+    },
+    {
+      "occupation_id": "SNO-f59a3a246023a37c69c2",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "信息网络专员属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-d8ed756f4749c16eb79e",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": "品牌与传播专员属于品牌公关与传播。"
+    },
+    {
+      "occupation_id": "SNO-41275717ba529c467861",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "海外售后工程师属于技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-9b831d4952d843f6b823",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "高水平科技创新岗(系统部署方向)属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-c09891fa2dbc57acdb12",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "销售助理属于销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-638a320cae1aa3ecd4b9",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "项目管理高级经理(生产管理方向)属于生产计划与调度。"
+    },
+    {
+      "occupation_id": "SNO-fc6da8f3fbca2f2b9041",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "大数据分析工程师属于数据工程与数仓。"
+    },
+    {
+      "occupation_id": "SNO-10d9f1226907518d34df",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "IT/数据/通信工程师属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-4c0c9ce93a2bfd8e0bae",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "供电运维操作技能属于自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-f266d08c0b3b1961042b",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "客诉质量管理工程师属于质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-541cf417168f39c3f885",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出营运、商品、新零售、策略运营、商业分析、审计、财务、人力等多个独立岗位。"
+    },
+    {
+      "occupation_id": "SNO-f48c3eb5dfe86597613e",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "导航规控算法工程师属于自动驾驶与智能交通。"
+    },
+    {
+      "occupation_id": "SNO-5f337c793c1116cda07b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "工作室管培生缺少具体行业或职能方向。"
+    },
+    {
+      "occupation_id": "SNO-8a2d11f2cb4b59de9a2a",
+      "target_category_id": "销售/sales-management/sales-management-team",
+      "status": "mapped",
+      "reason": "全渠道运动主管属于销售团队管理。"
+    },
+    {
+      "occupation_id": "SNO-44506af304d11f198a27",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": "装调工艺属于装配与生产线作业。"
+    },
+    {
+      "occupation_id": "SNO-25741febd618c9e9ace6",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "商品数据属于商业与业务分析。"
+    },
+    {
+      "occupation_id": "SNO-33e237cf1ecbf3780006",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "精英青年律师属于公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-12361811a2800b2c095d",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气工艺工程师属于电气控制与自动化设计。"
+    }
+  ]
+}

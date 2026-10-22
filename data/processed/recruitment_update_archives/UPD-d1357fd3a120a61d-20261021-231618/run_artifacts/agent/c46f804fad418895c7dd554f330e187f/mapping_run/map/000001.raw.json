@@ -1,0 +1,28 @@
+{
+  "id": "a79a9ec1-799c-4b1b-969b-87a70a166b50",
+  "object": "chat.completion",
+  "created": 1792571486,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-c46f804fad418895c7dd554f330e187f\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L16-01\",\"L16-02\",\"L16-06\",\"L17-02\"],\"title_evidence\":\"机电物资部业务员岗：部门为机电物资部，岗位为业务员，涉及物资/设备管理方向\",\"level_3_evidence\":null,\"reason\":\"标题仅表明在机电物资部从事物资相关业务员工作，未明确是采购寻源、供应链规划还是仓储库存管理，无法唯一确定二级归属，列为候选待复核。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16973,
+    "completion_tokens": 154,
+    "total_tokens": 17127,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 333
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

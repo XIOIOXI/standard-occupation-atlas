@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-0405374eac3b027fb07c\", \"title\": \"职能管理岗(电气，土木，市政，能动，机械，光伏，海工，材料环化，工程造价，工程管理，安全，物流，计算机科学与技术，党务，法务，行政，财务，人资，工商管理，市场商务，英语，俄......\"}, {\"original_record_id\": \"TG-027fd1c7f61246aba8e1\", \"title\": \"管培生-行政/人力/财务\"}, {\"original_record_id\": \"TG-d94a45c18aa6557e9939\", \"title\": \"市场类生产技术类职能类技术类海外校招生\"}, {\"original_record_id\": \"TG-7507090d5d5678b64584\", \"title\": \"课程顾问 市场运营学习管理师 新媒体流量项目运营\"}, {\"original_record_id\": \"TG-9357e081a57a39f2851d\", \"title\": \"市场助理（期刊推广 / 新媒体运营 / 会议论文）\"}, {\"original_record_id\": \"TG-f105777e08ae16c58b1f\", \"title\": \"产品企划类 研发技术类 管培生类 职能支持类 创新设计类 营销管理类 供应链类 制造技术类\"}, {\"original_record_id\": \"TG-9c65ef8bcddfd89b4459\", \"title\": \"产数以及综合支撑(行政文秘、法律、财务审计、人力资源管理等)\"}, {\"original_record_id\": \"TG-df62401f57af5d759226\", \"title\": \"安全/质量工程师会计员/成本管理\"}, {\"original_record_id\": \"TG-ff4d014f2ee3b9dc96e5\", \"title\": \"服装设计助理新媒体运营门店服装导购\"}, {\"original_record_id\": \"TG-c8e70bcf6040e23eba0a\", \"title\": \"渔业系统大数据和基因编辑\"}, {\"original_record_id\": \"TG-702b4413aa6c49baa97c\", \"title\": \"运营类(平台运营 直播运营 海外运营用户运营数据分析投放推广)技术类(算法工程师)创意及设计类(内容营销文案编导设计拍摄剪辑)产品与市场类(产品企划达人商务) 职能支持类(供应链财经人力资源)\"}, {\"original_record_id\": \"TG-f8a931d59cb8cab2062a\", \"title\": \"外贸业务开发外卖业务维护采购\"}, {\"original_record_id\": \"TG-eaf37161caaf6707760a\", \"title\": \"管培生技术类供应链运营类 职能类\"}, {\"original_record_id\": \"TG-b4c11cf5497563af20bd\", \"title\": \"海外社媒运营电商平台用户运营采购\"}, {\"original_record_id\": \"TG-74c8b08a238110cf7da4\", \"title\": \"机务见习技术员炉务见习技术员电气习技术员员运化技术员法律合规专责会计\"}, {\"original_record_id\": \"TG-239a3f2d06f803ffdb6e\", \"title\": \"前期管理\\\\\\\\会计\"}, {\"original_record_id\": \"TG-19f60353e187ae8c7f2c\", \"title\": \"财务会计 信息技术经营管理其他\"}, {\"original_record_id\": \"TG-00ae7e696a582e4b71e3\", \"title\": \"运营专员兼董秘\"}, {\"original_record_id\": \"TG-5c4a487d96c048cd910c\", \"title\": \"软硬件开发\"}, {\"original_record_id\": \"TG-4b0b638f362747769e2f\", \"title\": \"硬件开发工程师(电路设计、FPGA开发、结构设计)\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-0405374eac3b027fb07c",
+    "TG-027fd1c7f61246aba8e1",
+    "TG-d94a45c18aa6557e9939",
+    "TG-7507090d5d5678b64584",
+    "TG-9357e081a57a39f2851d",
+    "TG-f105777e08ae16c58b1f",
+    "TG-9c65ef8bcddfd89b4459",
+    "TG-df62401f57af5d759226",
+    "TG-ff4d014f2ee3b9dc96e5",
+    "TG-c8e70bcf6040e23eba0a",
+    "TG-702b4413aa6c49baa97c",
+    "TG-f8a931d59cb8cab2062a",
+    "TG-eaf37161caaf6707760a",
+    "TG-b4c11cf5497563af20bd",
+    "TG-74c8b08a238110cf7da4",
+    "TG-239a3f2d06f803ffdb6e",
+    "TG-19f60353e187ae8c7f2c",
+    "TG-00ae7e696a582e4b71e3",
+    "TG-5c4a487d96c048cd910c",
+    "TG-4b0b638f362747769e2f"
+  ]
+}

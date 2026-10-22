@@ -1,0 +1,85 @@
+{
+  "raw_response_file": "review_006_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-dabfb71f73b865d5aefc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "宋元考古研究属文博与文化遗产保护，归L31-04合理。"
+    },
+    {
+      "occupation_id": "SNO-f0979f1865392c60009f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "FPGA工程师归电子硬件研发L05-01合理，芯片设计为合理候选。"
+    },
+    {
+      "occupation_id": "SNO-21f30b3a9d58f64f3267",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "展陈策划归空间与展示设计L09-05合理。"
+    },
+    {
+      "occupation_id": "SNO-fc72942737798a8da56f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "跨境电商实习指导教师归职业与技术教学L22-03合理。"
+    },
+    {
+      "occupation_id": "SNO-eee2e2775141312bc247",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含机电管理与投资拓展两个职能，multi_role处理合理。"
+    },
+    {
+      "occupation_id": "SNO-51f6ad16494440351bbb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "结构PE工程师归工艺与制造工程L06-08合理，机械结构设计为合理候选。"
+    },
+    {
+      "occupation_id": "SNO-2cff3499a99b7f8c165f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "良率工程师归工艺与制造工程L06-08合理，生产质量管理为合理候选。"
+    },
+    {
+      "occupation_id": "SNO-da462cc76f2b3d84c8f7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仿真设计方向未说明，归通用工业技术研发L06-09合理。"
+    },
+    {
+      "occupation_id": "SNO-41eb8d53715c08e2ede1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "营销管培生归通用市场营销L12-07合理，管培生为身份修饰。"
+    },
+    {
+      "occupation_id": "SNO-bccc6d89ce84f686a21d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "运营实习生方向未说明，归通用业务运营L14-11合理。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 10754,
+    "cached_input_tokens": 9216,
+    "uncached_input_tokens": 1538,
+    "output_tokens": 541,
+    "reasoning_tokens": 0,
+    "total_tokens": 11295
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000582948
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

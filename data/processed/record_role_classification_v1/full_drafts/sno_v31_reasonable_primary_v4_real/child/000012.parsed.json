@@ -1,0 +1,250 @@
+{
+  "results": [
+    {
+      "occupation_id": "CR-a04877ff95fbbc6056cc",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L05-07",
+        "L06-09"
+      ],
+      "title_evidence": "研发类",
+      "level_3_evidence": null,
+      "reason": "标题仅表明研发职能，未说明具体技术领域，无法唯一确定二级分类。"
+    },
+    {
+      "occupation_id": "CR-f1728b5f0e1dbe3ddf5a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L12-07",
+        "L11-05"
+      ],
+      "title_evidence": "市场类",
+      "level_3_evidence": null,
+      "reason": "标题仅表明市场职能，未说明具体方向，无法唯一确定二级分类。"
+    },
+    {
+      "occupation_id": "CR-66a5c6bc87357179536e",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L19-08",
+        "L30-05"
+      ],
+      "title_evidence": "职能类",
+      "level_3_evidence": null,
+      "reason": "标题仅表明职能类，未说明具体职能方向，无法唯一确定二级分类。"
+    },
+    {
+      "occupation_id": "CR-2419e628af8a3168a62c",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电气工程师",
+      "level_3_evidence": null,
+      "reason": "电气工程师直接对应电气工程。"
+    },
+    {
+      "occupation_id": "CR-ee2628f05c8a02ddab6e",
+      "status": "mapped",
+      "target_category_id": "L06-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "化学工程与工艺",
+      "level_3_evidence": null,
+      "reason": "化学工程与工艺属于化学化工研发。"
+    },
+    {
+      "occupation_id": "CR-7fe0436e359394d58559",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "硬件",
+      "level_3_evidence": null,
+      "reason": "硬件通常指电子硬件研发，归入电子硬件研发。"
+    },
+    {
+      "occupation_id": "CR-a5f695354a3bc3489cd7",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "软件",
+      "level_3_evidence": null,
+      "reason": "软件方向未说明，归入通用软件研发。"
+    },
+    {
+      "occupation_id": "CR-50f5b0688531980e0486",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "算法类",
+      "level_3_evidence": null,
+      "reason": "算法类通常指机器学习与算法研发，归入该二级。"
+    },
+    {
+      "occupation_id": "CR-6a04d8d7ab276f7e9fc8",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-01",
+        "L13-02",
+        "L12-07"
+      ],
+      "title_evidence": "国内",
+      "level_3_evidence": null,
+      "reason": "标题仅表明国内方向，未说明具体职能，无法唯一确定分类。"
+    },
+    {
+      "occupation_id": "CR-2047cb8174e92d73c749",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-01",
+        "L12-07",
+        "L16-04"
+      ],
+      "title_evidence": "国际市场类",
+      "level_3_evidence": null,
+      "reason": "标题仅表明国际市场方向，未说明具体职能，无法唯一确定分类。"
+    },
+    {
+      "occupation_id": "CR-c6cedd55863e58f17815",
+      "status": "mapped",
+      "target_category_id": "L16-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "供应链",
+      "level_3_evidence": null,
+      "reason": "供应链职能已确认但方向未说明，归入通用采购贸易与供应链工作。"
+    },
+    {
+      "occupation_id": "CR-19e0e8490b9675de0b31",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "技术支持",
+      "level_3_evidence": null,
+      "reason": "技术支持通常指售后技术服务，归入售后技术服务。"
+    },
+    {
+      "occupation_id": "CR-f97768af2e196bf1a576",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-04",
+        "L30-05",
+        "L19-08"
+      ],
+      "title_evidence": "专业类",
+      "level_3_evidence": null,
+      "reason": "标题仅表明专业类，未说明具体专业方向，无法唯一确定分类。"
+    },
+    {
+      "occupation_id": "CR-71f64e5fe861b2970d55",
+      "status": "mapped",
+      "target_category_id": "L07-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "博士后工作站岗位",
+      "level_3_evidence": null,
+      "reason": "博士后工作站岗位属于科研岗位，研究领域未说明，归入通用科学研究。"
+    },
+    {
+      "occupation_id": "CR-d56e74de22abe958acc4",
+      "status": "mapped",
+      "target_category_id": "L07-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "专题研究员",
+      "level_3_evidence": null,
+      "reason": "专题研究员属于科研岗位，研究领域未说明，归入通用科学研究。"
+    },
+    {
+      "occupation_id": "CR-ceb7bf8b42f55118c412",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "机械技术员",
+      "level_3_evidence": null,
+      "reason": "机械技术员属于机械与结构设计。"
+    },
+    {
+      "occupation_id": "CR-c30fc2a1efd5ca917551",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电气技术员",
+      "level_3_evidence": null,
+      "reason": "电气技术员属于电气工程。"
+    },
+    {
+      "occupation_id": "CR-b662166126577aca505a",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "炉窑技术员",
+      "level_3_evidence": null,
+      "reason": "炉窑技术员涉及热工技术，归入热流体与动力工程。"
+    },
+    {
+      "occupation_id": "CR-7db12c4003fb8d6afc61",
+      "status": "mapped",
+      "target_category_id": "L04-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "理化检测员",
+      "level_3_evidence": null,
+      "reason": "理化检测员属于检验检测与实验分析。"
+    },
+    {
+      "occupation_id": "CR-1d06572b4addb230b169",
+      "status": "mapped",
+      "target_category_id": "L04-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "质量管理员",
+      "level_3_evidence": null,
+      "reason": "质量管理员属于生产质量管理。"
+    }
+  ],
+  "raw_response_file": "000012.raw.json",
+  "usage": {
+    "input_tokens": 17303,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 791,
+    "output_tokens": 2147,
+    "reasoning_tokens": 0,
+    "total_tokens": 19450
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002912772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

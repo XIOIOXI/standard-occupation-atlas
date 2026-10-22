@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e07893caf310230ae6fd7003ea0a2228",
+      "verdict": "pass",
+      "suggested_target_category_id": "L03-04",
+      "issue": "数据库管理岗归数据库运维L03-04合理，与数据库内核研发L01-07-03区分正确。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17034,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 522,
+    "output_tokens": 78,
+    "reasoning_tokens": 0,
+    "total_tokens": 17112
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00034927199999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

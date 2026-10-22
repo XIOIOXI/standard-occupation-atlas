@@ -1,0 +1,28 @@
+{
+  "id": "12831391-c2ee-4ff6-a64a-fcf32469cd23",
+  "object": "chat.completion",
+  "created": 1791881961,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-a448c3c286c4998ab8f3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务支持岗职能方向未说明，review合理。\"},{\"occupation_id\":\"TG-e37ff7ef47f9154265db\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"中学化学教师归数学与自然科学教学，合理。\"},{\"occupation_id\":\"TG-d457e497da0565423ebf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"通信信号处理架构设计师归通信协议与系统，合理。\"},{\"occupation_id\":\"TG-dadaf24f49a5584c2f8d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"董事长助理归秘书助理与文书事务，合理。\"},{\"occupation_id\":\"TG-11ab3cfe7ef7e704f024\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"公共卫生归公共卫生与健康管理，合理。\"},{\"occupation_id\":\"TG-144f78226e853cb55638\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"双碳咨询师归碳管理与可持续发展，合理。\"},{\"occupation_id\":\"TG-33efdc2481a290c65ad7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"暖通工程师归建筑机电与设备工程，合理。\"},{\"occupation_id\":\"TG-9028fc69ce651e107d73\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"商务工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-901df86306a9e1faa8b7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"课程顾问归个人客户销售，合理。\"},{\"occupation_id\":\"TG-341c5a938658613f640a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"计划专员领域未说明，review合理。\"},{\"occupation_id\":\"TG-3b91aae6fe091341c427\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电气控制工程师归自动化与控制工程，合理。\"},{\"occupation_id\":\"TG-3c03d1f87670c906e85a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电气控制开发归自动化与控制工程，合理。\"},{\"occupation_id\":\"TG-19687be7bdf72a72e741\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户服务工程师归售后技术服务，合理。\"},{\"occupation_id\":\"TG-8101f4bb5d3e0e72925f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI软件开发工程师方向未说明，归通用软件研发合理。\"},{\"occupation_id\":\"TG-aaee3bdf7c516a9de26b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI软件开发方向未说明，归通用软件研发合理。\"},{\"occupation_id\":\"TG-c1e579c8568f46d2f671\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI软件开发方向未说明，归通用软件研发合理。\"},{\"occupation_id\":\"TG-6b6cca8f868924029d70\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术管培生(养殖)已明确养殖方向，归畜禽养殖合理。\"},{\"occupation_id\":\"TG-109b42259da921d003ec\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术管培生（养殖）已明确养殖方向，归畜禽养殖合理。\"},{\"occupation_id\":\"TG-49fa033c98e85155e35a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"几何算法工程师归图形渲染开发，合理。\"},{\"occupation_id\":\"TG-02604d67b3459ef28634\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"总体工程师领域不明确，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19369,
+    "completion_tokens": 933,
+    "total_tokens": 20302,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2857
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

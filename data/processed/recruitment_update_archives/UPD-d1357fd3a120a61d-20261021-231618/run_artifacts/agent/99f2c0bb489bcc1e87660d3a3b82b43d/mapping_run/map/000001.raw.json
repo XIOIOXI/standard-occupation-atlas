@@ -1,0 +1,28 @@
+{
+  "id": "76411d17-5a8e-412f-9ac4-d5e99bcb9aad",
+  "object": "chat.completion",
+  "created": 1792571262,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-99f2c0bb489bcc1e87660d3a3b82b43d\",\"status\":\"mapped\",\"target_category_id\":\"L16-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L16-01\",\"L04-03-02\"],\"title_evidence\":\"供应商开发工程师：负责供应商寻源与开发，属采购与供应商管理职能\",\"level_3_evidence\":null,\"reason\":\"标题明确为供应商开发，核心职责为供应商寻源、开发与商务管理，归L16-01采购与供应商管理；未明确为质量审核改善，故不选供应商质量管理三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16950,
+    "completion_tokens": 149,
+    "total_tokens": 17099,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 310
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

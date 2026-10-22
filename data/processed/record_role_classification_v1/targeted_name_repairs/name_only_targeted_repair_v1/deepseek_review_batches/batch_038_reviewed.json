@@ -1,0 +1,185 @@
+{
+  "batch_number": 38,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "36ea3538-5333-4bdf-a4f2-ca971d399994",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813408,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30782,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3518,
+    "output_tokens": 1957,
+    "reasoning_tokens": 0,
+    "total_tokens": 32739
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001783692
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-aaee3bdf7c516a9de26b",
+      "decision": "reclassify",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI软件开发核心为AI应用与模型开发，当前归入Python数据与人工智能开发缺乏Python语言依据，改入大模型与生成式AI更贴合AI软件开发职责。"
+    },
+    {
+      "occupation_id": "SNO-88495ad7c228a0fcff01",
+      "decision": "reclassify",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI软件开发(上海、成都)核心为AI应用与模型开发，当前归入Python数据与人工智能开发缺乏Python语言依据，改入大模型与生成式AI更贴合AI软件开发职责。"
+    },
+    {
+      "occupation_id": "SNO-76c7fefc60e69256acd4",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "服务器开发核心为业务服务端开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-e249ebba6df1271da6ea",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "服务器开发工程师核心为业务服务端开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-333fdf9f05504bdf318d",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "助理软件工程师未注明语言或方向，无法确认属于后端开发，三级依据不足，最深可确认有效上级为互联网/AI。"
+    },
+    {
+      "occupation_id": "SNO-62623c228fcc46ce5d3c",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "助理软件工程师。未注明语言或方向，无法确认属于后端开发，三级依据不足，最深可确认有效上级为互联网/AI。"
+    },
+    {
+      "occupation_id": "SNO-6c415e0c4c9e5fe54187",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "助理开发工程师未注明语言或方向，无法确认属于后端开发，三级依据不足，最深可确认有效上级为互联网/AI。"
+    },
+    {
+      "occupation_id": "SNO-dd88e054b32502cafd68",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "Rust开发工程师职业明确，但目录无Rust语言类别，无法承接。"
+    },
+    {
+      "occupation_id": "SNO-1b4d20a8cb271db84a28",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "rust开发工程师职业明确，但目录无Rust语言类别，无法承接。"
+    },
+    {
+      "occupation_id": "SNO-e8a393d61d465ca700e0",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "选矿设计工程师职业明确，但目录无矿业/选矿类别，无法承接。"
+    },
+    {
+      "occupation_id": "SNO-208b4f876871fe029443",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "采选研究所硕士研究员职业明确，但目录无矿业/选矿类别，无法承接。"
+    },
+    {
+      "occupation_id": "SNO-5087f61c5929bc298f74",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "水工设计职业明确，但目录无水利工程类别，无法承接。"
+    },
+    {
+      "occupation_id": "SNO-0b668091c309ce52fca3",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "会计与审计类明确并列会计和审计两个独立职业，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-7dbd83127a47da062a1d",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "AI编译器工程师未注明语言或具体算法方向，无法确认属于算法研究与通用算法，三级依据不足，最深可确认有效上级为互联网/AI。"
+    },
+    {
+      "occupation_id": "SNO-c2608f4a5a93d74b32a6",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "纪检监察属于党政监督职能，目录无对应类别，无法承接。"
+    },
+    {
+      "occupation_id": "SNO-1cb62ca97d2466682e4d",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AIAgent研发工程师核心为大模型与生成式AI，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-3643db2892f1407d164e",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AIAgent开发核心为大模型与生成式AI，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-247543392be79dd123b9",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AIAgent开发工程师核心为大模型与生成式AI，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-6522c925cdcf025cdc83",
+      "decision": "reclassify",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "图形学算法工程师核心为算法研究与通用算法，当前归入C++图形与高性能计算缺乏C++语言依据，改入算法研究与通用算法更贴合算法工程师职责。"
+    },
+    {
+      "occupation_id": "SNO-39241007ba002d365d2d",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "法务风控类明确并列法务与风控两个独立职业方向，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-a76adb8839b245b70f86",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "云平台开发核心为平台与中间件开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-54771b7f75942a30f9f2",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型应用开发工程师核心为大模型与生成式AI，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-d8665f4890d015b3debb",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型应用开发核心为大模型与生成式AI，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-cd8ea7685ec58c065dc1",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型应用研发工程师核心为大模型与生成式AI，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-c78b01c6d6f516875353",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI应用工程师(AI技术应用方向、AI系统软件方向)核心为大模型与生成式AI应用，当前归属合理。"
+    }
+  ]
+}

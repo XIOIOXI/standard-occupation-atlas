@@ -1,0 +1,28 @@
+{
+  "id": "ad746f20-6e3a-42fd-af93-9c7ce2d730c2",
+  "object": "chat.completion",
+  "created": 1792571662,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-23487f083cd794f2e145b177c74884a1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题“AI自动化专员”方向存在歧义，候选覆盖AI应用工程、模型部署平台、工业自动化及通用软件研发，标review合理，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17047,
+    "completion_tokens": 86,
+    "total_tokens": 17133,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 535
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

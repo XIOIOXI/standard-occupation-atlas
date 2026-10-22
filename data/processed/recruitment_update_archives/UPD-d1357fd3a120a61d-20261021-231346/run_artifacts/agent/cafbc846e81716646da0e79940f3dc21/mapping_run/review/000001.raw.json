@@ -1,0 +1,28 @@
+{
+  "id": "bdb0b785-7ffc-4330-a0aa-f6b4b20fcc18",
+  "object": "chat.completion",
+  "created": 1792571347,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-cafbc846e81716646da0e79940f3dc21\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L18-04\", \"issue\": \"标题“人力资源岗”为人力资源综合职能，方向未细分，归 L18-04 人力资源综合管理合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17079,
+    "completion_tokens": 88,
+    "total_tokens": 17167,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 567
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

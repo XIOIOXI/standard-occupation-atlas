@@ -1,0 +1,28 @@
+{
+  "id": "3a5ddc1f-f42d-4605-8c76-b76dfd608e1f",
+  "object": "chat.completion",
+  "created": 1792571797,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-a17981fd6f11b5d196acddb17a5488b1\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L14-04\",\"L13-09\",\"L32-01\"],\"title_evidence\":\"标题为“电商管培生”，含电商方向与管培生培养性质；原始组合岗位中另有“产品管培生、品牌管培生、销售管培生”等并列岗位，说明该标题是具体方向而非跨职能轮岗。\",\"level_3_evidence\":null,\"reason\":\"“电商”指向电商运营方向，但管培生身份意味着培养期职责可能轮岗，且未明确是店铺运营、商品运营还是电商销售；不能仅凭“管培”推断跨职能轮岗，也不能直接定为L14-04。候选为电商运营、通用销售及跨职能管培，需人工确认实际培养方向。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16980,
+    "completion_tokens": 214,
+    "total_tokens": 17194,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 340
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

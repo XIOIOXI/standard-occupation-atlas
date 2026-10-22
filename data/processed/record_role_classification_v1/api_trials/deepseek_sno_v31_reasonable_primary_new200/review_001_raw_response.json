@@ -1,0 +1,28 @@
+{
+  "id": "80fd8aba-aed9-45fd-8652-7fe84876e957",
+  "object": "chat.completion",
+  "created": 1791841161,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"SNO-410f8d0aca32c1dd27e5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-031e24bb146fd9a0cda3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-7ce2ea0f00a1a1215b58\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-2a5e1dc07dfb0004706c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-f5cf71faaad55fc18237\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-5bcbfea79204b2bcb858\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-95204a6873def9fc2adf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-6ea65d54367914d9c57d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-512fe02211ad33e5d739\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"},{\"occupation_id\":\"SNO-637ba71c6e80fb506697\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10897,
+    "completion_tokens": 381,
+    "total_tokens": 11278,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 10897
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

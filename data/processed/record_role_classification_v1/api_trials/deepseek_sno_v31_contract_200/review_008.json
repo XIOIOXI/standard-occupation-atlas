@@ -1,0 +1,152 @@
+{
+  "raw": {
+    "id": "7174da36-61f2-4395-b0ae-054dd13590f8",
+    "object": "chat.completion",
+    "created": 1791838782,
+    "model": "deepseek-flash",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"SNO-a1f75950577ae6603b38\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L22-02-03\",\"issue\":\"高中政治教师归人文与社会学科教学，三级映射合理。\"},{\"occupation_id\":\"SNO-5801c19e621a43665a6b\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"“零售商品培训生”可能为零售管培/轮岗培养岗，标题不足以确认核心职能为选品买手；当前映射到L16-01-03证据不足，建议review。\"},{\"occupation_id\":\"SNO-8826dbf3a574e62f22fa\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-04-01\",\"issue\":\"稀贵稀散金属研究员归金属与无机材料研发，映射合理。\"},{\"occupation_id\":\"SNO-5acd569030c9dfdae2c6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“/经理”为无效文本，非岗位，处理合理。\"},{\"occupation_id\":\"SNO-864fd7b61c046f18cbca\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“芯片运营”方向不明确，保留review合理。\"},{\"occupation_id\":\"SNO-1913c4fcaecf2ecc7ac2\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-10\",\"issue\":\"售后工程师（安装调试）归售后技术服务，二级映射合理。\"},{\"occupation_id\":\"SNO-697c9d4b28ff97b49842\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“应用技术工程师”领域与职能不明确，保留review合理。\"},{\"occupation_id\":\"SNO-99017f620737821ff3c5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题含审计、税务、咨询多职能，multi_role处理合理。\"},{\"occupation_id\":\"SNO-504136786d57e3f5dd9f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-04\",\"issue\":\"先进材料工程开发归材料研发二级，未细分三级，合理。\"},{\"occupation_id\":\"SNO-5914036aadfca790f788\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L05-01-01\",\"issue\":\"电子设计工程师归电路与板级设计，映射合理。\"},{\"occupation_id\":\"SNO-08ebc4449421242f3675\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-04-01\",\"issue\":\"亚马逊英语运营专员归电商店铺运营，映射合理。\"},{\"occupation_id\":\"SNO-df3b618ed3e18631f5c9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“质量与运营”方向不明确，保留review合理。\"},{\"occupation_id\":\"SNO-bc99af2718d587a60eff\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L22-06\",\"issue\":\"教务运营归教学辅助与学员服务，二级映射合理。\"},{\"occupation_id\":\"SNO-e89d6e88d568b177bd23\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“本次校园”为无效文本，处理合理。\"},{\"occupation_id\":\"SNO-2742eeab9ee29e675a47\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L01-07-04\",\"issue\":\"分布式存储开发归中间件与基础框架，映射合理。\"},{\"occupation_id\":\"SNO-b3ec0e590c66e26a70d9\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L01-06-01\",\"issue\":\"控制系统软件开发归嵌入式应用开发，映射合理。\"},{\"occupation_id\":\"SNO-63138d3fb03b5a3bcfeb\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L02-01\",\"issue\":\"大数据分析高级研究员归数据分析二级，未细分方向，合理。\"},{\"occupation_id\":\"SNO-c5ab66ba05cff1d680fb\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-01\",\"issue\":\"客户经理归企业客户销售二级，未细分直客/重点客户，合理。\"},{\"occupation_id\":\"SNO-22132637b23ddf147c28\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"“客户顾问”可能为销售、客服或客户成功，保留review合理。\"},{\"occupation_id\":\"SNO-ee38fcda6f9f417c3ca4\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-10\",\"issue\":\"售后助理工程师归售后技术服务，二级映射合理。\"}]}"
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 19423,
+      "completion_tokens": 1093,
+      "total_tokens": 20516,
+      "prompt_tokens_details": {
+        "cached_tokens": 16512
+      },
+      "prompt_cache_hit_tokens": 16512,
+      "prompt_cache_miss_tokens": 2911
+    },
+    "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-a1f75950577ae6603b38",
+      "verdict": "pass",
+      "suggested_target_category_id": "L22-02-03",
+      "issue": "高中政治教师归人文与社会学科教学，三级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-5801c19e621a43665a6b",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "“零售商品培训生”可能为零售管培/轮岗培养岗，标题不足以确认核心职能为选品买手；当前映射到L16-01-03证据不足，建议review。"
+    },
+    {
+      "occupation_id": "SNO-8826dbf3a574e62f22fa",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-04-01",
+      "issue": "稀贵稀散金属研究员归金属与无机材料研发，映射合理。"
+    },
+    {
+      "occupation_id": "SNO-5acd569030c9dfdae2c6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“/经理”为无效文本，非岗位，处理合理。"
+    },
+    {
+      "occupation_id": "SNO-864fd7b61c046f18cbca",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“芯片运营”方向不明确，保留review合理。"
+    },
+    {
+      "occupation_id": "SNO-1913c4fcaecf2ecc7ac2",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-10",
+      "issue": "售后工程师（安装调试）归售后技术服务，二级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-697c9d4b28ff97b49842",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“应用技术工程师”领域与职能不明确，保留review合理。"
+    },
+    {
+      "occupation_id": "SNO-99017f620737821ff3c5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含审计、税务、咨询多职能，multi_role处理合理。"
+    },
+    {
+      "occupation_id": "SNO-504136786d57e3f5dd9f",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-04",
+      "issue": "先进材料工程开发归材料研发二级，未细分三级，合理。"
+    },
+    {
+      "occupation_id": "SNO-5914036aadfca790f788",
+      "verdict": "pass",
+      "suggested_target_category_id": "L05-01-01",
+      "issue": "电子设计工程师归电路与板级设计，映射合理。"
+    },
+    {
+      "occupation_id": "SNO-08ebc4449421242f3675",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-04-01",
+      "issue": "亚马逊英语运营专员归电商店铺运营，映射合理。"
+    },
+    {
+      "occupation_id": "SNO-df3b618ed3e18631f5c9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“质量与运营”方向不明确，保留review合理。"
+    },
+    {
+      "occupation_id": "SNO-bc99af2718d587a60eff",
+      "verdict": "pass",
+      "suggested_target_category_id": "L22-06",
+      "issue": "教务运营归教学辅助与学员服务，二级映射合理。"
+    },
+    {
+      "occupation_id": "SNO-e89d6e88d568b177bd23",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“本次校园”为无效文本，处理合理。"
+    },
+    {
+      "occupation_id": "SNO-2742eeab9ee29e675a47",
+      "verdict": "pass",
+      "suggested_target_category_id": "L01-07-04",
+      "issue": "分布式存储开发归中间件与基础框架，映射合理。"
+    },
+    {
+      "occupation_id": "SNO-b3ec0e590c66e26a70d9",
+      "verdict": "pass",
+      "suggested_target_category_id": "L01-06-01",
+      "issue": "控制系统软件开发归嵌入式应用开发，映射合理。"
+    },
+    {
+      "occupation_id": "SNO-63138d3fb03b5a3bcfeb",
+      "verdict": "pass",
+      "suggested_target_category_id": "L02-01",
+      "issue": "大数据分析高级研究员归数据分析二级，未细分方向，合理。"
+    },
+    {
+      "occupation_id": "SNO-c5ab66ba05cff1d680fb",
+      "verdict": "pass",
+      "suggested_target_category_id": "L13-01",
+      "issue": "客户经理归企业客户销售二级，未细分直客/重点客户，合理。"
+    },
+    {
+      "occupation_id": "SNO-22132637b23ddf147c28",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“客户顾问”可能为销售、客服或客户成功，保留review合理。"
+    },
+    {
+      "occupation_id": "SNO-ee38fcda6f9f417c3ca4",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-10",
+      "issue": "售后助理工程师归售后技术服务，二级映射合理。"
+    }
+  ]
+}

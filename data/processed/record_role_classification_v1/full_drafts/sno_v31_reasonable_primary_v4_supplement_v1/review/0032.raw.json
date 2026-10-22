@@ -1,0 +1,28 @@
+{
+  "id": "9ce9e888-0aa9-4857-9b8d-f37962b64e47",
+  "object": "chat.completion",
+  "created": 1791895678,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"records\": [\n    {\n      \"occupation_id\": \"TG-05c2ba76f451b4ba4c6f\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"标题含“销售”，核心职能为销售，归企业客户销售合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-43c41cd1d61821c889c4\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"技术服务员通常指售后技术服务，归售后技术服务合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-34af7b6446be665c2573\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"装备技师核心为设备安装维修保全，归工业设备安装维修与保全合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-702b4413aa6c49baa97c\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"标题包含多个职能类别，无法归为单一职业，multi_role 合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-f8a931d59cb8cab2062a\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"标题包含外贸业务开发、外卖业务维护、采购等多个职能，multi_role 合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-eaf37161caaf6707760a\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"管培生且包含技术、供应链运营、职能等多个方向，无法确定单一职能，multi_role 合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-9f23babcbb292e0dbd8f\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"仅说明学历要求，无任何职能线索。\"\n    },\n    {\n      \"occupation_id\": \"TG-b4c11cf5497563af20bd\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"标题包含海外社媒运营、电商平台用户运营、采购等多个职能，multi_role 合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-506027cc6a68ec68b80c\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"仅说明实习意向，无任何职能线索。\"\n    },\n    {\n      \"occupation_id\": \"TG-620962fedc9be59e757f\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"“工程”范围过宽，无法确定具体工程领域。\"\n    },\n    {\n      \"occupation_id\": \"TG-0718c17297a2bfba30fc\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"创培生可能为培养项目，但无明确职能方向，需进一步确认。\"\n    },\n    {\n      \"occupation_id\": \"TG-fca92aa0e3775a3082de\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"服务专员通常指客服与客户支持，归客服与客户支持合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-95377d4aadd55054b0db\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"产品培训生核心职能为产品规划，方向未明确，归通用产品规划合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-eb4fb0b5094bad31c312\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"仅说明小语种能力，未明确具体职能。\"\n    },\n    {\n      \"occupation_id\": \"TG-74c8b08a238110cf7da4\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"标题包含机务、炉务、电气、运化、法律合规、会计等多个职能，multi_role 合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-c980ebb8e20033d9f0c4\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"开发经理通常指软件开发管理，方向未明确，归通用软件研发合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-239a3f2d06f803ffdb6e\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"标题包含前期管理和会计两个职能，multi_role 合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-5cbc9778a17b57f06a93\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"日本市场管培生，仅说明市场领域和培养性质，未明确具体职能。\"\n    },\n    {\n      \"occupation_id\": \"TG-b84907a87f125d8adc68\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"银行通用业务岗，未明确具体金融业务方向。\"\n    },\n    {\n      \"occupation_id\": \"TG-66c207e6d6a05c5a69dc\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"综合工程师范围过宽，无法确定具体工程领域。\"\n    },\n    {\n      \"occupation_id\": \"TG-4b03237c745255249c60\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"项目助理核心职能为项目支持，方向未明确，归通用项目管理合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-ed4cb5a5a01676641066\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"设计研发岗可能指工业设计或研发，方向不明确。\"\n    },\n    {\n      \"occupation_id\": \"TG-55d8eced57a28dbc0dc5\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"资产管理员通常指行政资产管理，归行政与办公事务合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-19f60353e187ae8c7f2c\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"标题包含财务会计、信息技术、经营管理等多个职能，multi_role 合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-a12ca1702e0c5c4601bd\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"营销新锐生核心职能为市场营销，方向未明确，归通用市场营销合理。\"\n    }\n  ]\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 20260,
+    "completion_tokens": 1696,
+    "total_tokens": 21956,
+    "prompt_tokens_details": {
+      "cached_tokens": 20096
+    },
+    "prompt_cache_hit_tokens": 20096,
+    "prompt_cache_miss_tokens": 164
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

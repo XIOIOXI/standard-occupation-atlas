@@ -1,0 +1,41 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-6ae61f118ecb2fae7dd5",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "集团管培生(算法/运营/产品) 算法/工程/测试/运维 运营/产品/职能",
+  "child_title": "集团管培生(算法/运营/产品)",
+  "source_span": {
+    "text": "集团管培生(算法/运营/产品)",
+    "start": 0,
+    "end": 14
+  },
+  "raw_decision": {
+    "original_record_id": "TG-6ae61f118ecb2fae7dd5",
+    "case": "A",
+    "child_titles": [
+      "集团管培生(算法/运营/产品)",
+      "算法/工程/测试/运维",
+      "运营/产品/职能"
+    ],
+    "source_spans": [
+      {
+        "text": "集团管培生(算法/运营/产品)",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "算法/工程/测试/运维",
+        "start": 15,
+        "end": 25
+      },
+      {
+        "text": "运营/产品/职能",
+        "start": 26,
+        "end": 33
+      }
+    ],
+    "reason": "标题由空格分隔的多个岗位类别组成，每个类别为独立岗位。"
+  }
+}

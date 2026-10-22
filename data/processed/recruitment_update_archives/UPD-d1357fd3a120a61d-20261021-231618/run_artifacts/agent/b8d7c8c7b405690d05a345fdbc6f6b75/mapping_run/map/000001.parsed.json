@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-b8d7c8c7b405690d05a345fdbc6f6b75",
+      "status": "mapped",
+      "target_category_id": "L02-03-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-03-03",
+        "L02-03-02",
+        "L03-02"
+      ],
+      "title_evidence": "标题为“数据运维开发工程师”，同时含数据平台与运维开发要素，核心落在数据平台运行保障与开发。",
+      "level_3_evidence": "数据计算平台：批流计算及数据平台基础设施",
+      "reason": "“数据运维开发”以数据平台基础设施的运行维护与开发为主，最直接归入数据工程与数据平台开发下的数据计算平台；若侧重纯运维保障可考虑云平台与可靠性运维，但标题含开发且属数据中台/数据平台语境，故取三级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16939,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 299,
+    "output_tokens": 200,
+    "reasoning_tokens": 0,
+    "total_tokens": 17139
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00042954
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

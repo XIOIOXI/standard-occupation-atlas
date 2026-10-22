@@ -1,0 +1,28 @@
+{
+  "id": "79e8c273-1c0b-4136-bb3a-aca03afd4c4a",
+  "object": "chat.completion",
+  "created": 1792571883,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-4bad99f11c12febb2ab1f98f858ad9cf\",\"status\":\"mapped\",\"target_category_id\":\"L01-11\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L01-11\",\"L01-02\",\"L01-03\"],\"title_evidence\":\"标题为“IT软件开发工程师”，明确为软件开发职能，但未说明前端、后端、移动端等具体方向\",\"level_3_evidence\":null,\"reason\":\"标题仅体现通用软件开发，无具体技术方向证据，按目录规则归入“通用软件研发”L01-11；公司行业为半导体不影响软件岗位归类。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16957,
+    "completion_tokens": 150,
+    "total_tokens": 17107,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

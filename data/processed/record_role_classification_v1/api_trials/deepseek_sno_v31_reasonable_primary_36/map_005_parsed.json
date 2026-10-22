@@ -1,0 +1,109 @@
+{
+  "raw_response_file": "map_005_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-c716ed2d9f6c2fcac8f0",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L16-01-03",
+        "L14-04-02",
+        "L13-09"
+      ],
+      "title_evidence": "海外商品创优生",
+      "level_3_evidence": null,
+      "reason": "标题仅表明海外商品相关且为培养生身份，未明确是采购选品、商品运营还是销售，无法唯一确定职能。"
+    },
+    {
+      "occupation_id": "SNO-864fd7b61c046f18cbca",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L23-10",
+        "L14-11",
+        "L06-08"
+      ],
+      "title_evidence": "芯片运营",
+      "level_3_evidence": null,
+      "reason": "芯片运营可能指芯片生产制造运营、业务运营或工艺运营，标题未给出具体职能方向，无法唯一归类。"
+    },
+    {
+      "occupation_id": "SNO-697c9d4b28ff97b49842",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-09-01",
+        "L14-10",
+        "L01-11"
+      ],
+      "title_evidence": "应用技术工程师",
+      "level_3_evidence": null,
+      "reason": "应用技术工程师可能为售前方案、售后技术支持或应用软件开发，标题未明确具体职能方向。"
+    },
+    {
+      "occupation_id": "SNO-df3b618ed3e18631f5c9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L04-06",
+        "L14-11",
+        "L11-03"
+      ],
+      "title_evidence": "质量与运营",
+      "level_3_evidence": null,
+      "reason": "标题同时包含质量与运营，未明确是质量管理、业务运营还是经营改善，无法唯一确定主职能。"
+    },
+    {
+      "occupation_id": "SNO-22132637b23ddf147c28",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-09",
+        "L14-07-01",
+        "L14-08"
+      ],
+      "title_evidence": "客户顾问",
+      "level_3_evidence": null,
+      "reason": "客户顾问可能为销售顾问、客服咨询或客户成功，标题未明确客户类型与工作性质。"
+    },
+    {
+      "occupation_id": "SNO-4808e7a15d2091bb129f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L08-02-02",
+        "L14-09-01"
+      ],
+      "title_evidence": "海外研发/产品应用",
+      "level_3_evidence": null,
+      "reason": "标题包含研发与产品应用两个方向，且未说明产品领域，无法唯一确定职能归属。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17185,
+    "cached_input_tokens": 16768,
+    "uncached_input_tokens": 417,
+    "output_tokens": 619,
+    "reasoning_tokens": 0,
+    "total_tokens": 17804
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000484254
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

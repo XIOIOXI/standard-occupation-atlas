@@ -1,0 +1,28 @@
+{
+  "id": "1becbae5-2871-4f5a-a2a6-886c8046303d",
+  "object": "chat.completion",
+  "created": 1792571523,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-117824cca56b47d67738e12346f2c6d8\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L18-04\", \"issue\": \"标题明确限定人力资源部门，属人力资源综合管理；虽为管培生但职能方向已明确，不属跨职能轮岗，归 L18-04 合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17068,
+    "completion_tokens": 102,
+    "total_tokens": 17170,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 556
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

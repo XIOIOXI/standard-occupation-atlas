@@ -1,0 +1,28 @@
+{
+  "id": "87538bb6-fb87-4590-8500-9cfd007b0bbe",
+  "object": "chat.completion",
+  "created": 1791821887,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-7360eaa2972ec1b0f3f9\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出审计及鉴证、税务、咨询、交易等多个互不兼容的独立服务职业，且分属财务/审计/税务与咨询/翻译/法律等不同一级，无共同上级可填。\"},{\"entry_id\":\"SNO-7365ce9b17070f1f9265\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出井下采掘与化学工程与工艺两个独立职业方向，分属生产制造下不同二级，无共同三级或二级可填。\"},{\"entry_id\":\"SNO-73af2e1adcb8828c134e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"科研岗(一)缺少具体研究领域，无法确认任何一级或二级类别。\"},{\"entry_id\":\"SNO-73f8d2473b80817c2067\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"研发设计工程师缺少具体技术方向或行业，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-73fbc359b92781f9660b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"平台软件工程师缺少具体技术栈或平台方向，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-7400608d12bad3e1c1b1\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"产品技术员未说明具体产品领域或技术方向，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-740f5a5219ba122b2596\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"编程储备工程师缺少具体技术方向，无法确认细分语言或领域，仅能判断为软件开发但无对应一级可填。\"},{\"entry_id\":\"SNO-743ba5450cfe1bb2d6dc\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"样本分析缺少行业与技术方向信息，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-74482ff37bb58ccecb2f\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"国民体质与科学健身研究中心专业技术职责不明确，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-7491b14d4c30612d7356\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"车联网软件开发可确认属于互联网/AI一级，但缺少具体技术栈或方向，无法确定三级类别。\"},{\"entry_id\":\"SNO-74c8b08a238110cf7da4\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明显列出机务、炉务、电气、运化、法律合规、会计等多个独立职业，分属不同一级，无共同上级可填。\"},{\"entry_id\":\"SNO-74eb7d11d99e9132b8e4\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"全球拓展管培生为管理培训生项目，职责方向不明确，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-74eb7e30b0a845a2ac1b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"无人平台设计缺少具体平台类型与设计方向，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-74ed8208303580eb64bc\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"等离子体模拟仿真研究员核心为算法研究与通用算法，可归入算法研究与通用算法三级。\"},{\"entry_id\":\"SNO-750c1b842df7fc41823f\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"信息科技范围过宽，无法确认具体技术方向，不能确定一级或二级类别。\"},{\"entry_id\":\"SNO-751c2309a7d854ad7231\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“具体”名称无有效职业信息，无法判断任何类别。\"},{\"entry_id\":\"SNO-756c3418ca7c9aae357a\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-backend\",\"reason\":\"系统开发可确认属于互联网/AI后端开发二级，但缺少具体方向，无法确定三级类别。\"},{\"entry_id\":\"SNO-7590cb054ca37af72a13\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"产品开发过于宽泛，缺少行业或产品类型，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-759549fe8c047a6a03eb\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"开发工程师类过于宽泛，缺少具体技术方向，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-75b269496f698fae9fc5\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“运行”过于笼统，无法判断是生产运行、设备运行还是系统运维，不能确认类别。\"},{\"entry_id\":\"SNO-75d980e68ec0eee8311b\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"企业管培生校招缺少具体职能方向，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-75dc7f1014de4654d6e3\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"研究院技术过于笼统，缺少技术方向，无法确认一级或二级类别。\"},{\"entry_id\":\"SNO-75ec9835cd37a8e5885e\",\"status\":\"review\",\"target_category_id\":\"互联网/AI/internet-python/python-data\",\"reason\":\"AI应用开发助理可归入Python数据与人工智能开发三级，但名称未明确Python，暂按可确认方向处理。\"},{\"entry_id\":\"SNO-76c9d03eef2468099656\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“管环里”名称无法识别，缺少有效职业信息，无法判断类别。\"},{\"entry_id\":\"SNO-771310b4ad36520ee65d\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"分公司专业名称过于笼统，缺少具体职业方向，无法确认类别。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29503,
+    "completion_tokens": 1369,
+    "total_tokens": 30872,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2111
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 63,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "b4fe7a2c-2784-46dc-93ee-a019c8880a5d",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751076,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25041,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1745,
+    "output_tokens": 3607,
+    "reasoning_tokens": 0,
+    "total_tokens": 28648
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002495838
+  },
+  "observed_at_utc": "2026-10-11T20:37:56.620994+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-53c7e48aee8fac9d453b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "管理培训生为通用培养项目，缺少具体职能方向，无法确定职业类别。"
+    },
+    {
+      "occupation_id": "SNO-ade8753af8c370d819bd",
+      "target_category_id": "房地产/建筑/estate-development/realestate-dev-development",
+      "status": "mapped",
+      "reason": "建设用地项目助理核心职责为房地产开发报建与项目推进。"
+    },
+    {
+      "occupation_id": "SNO-99023a1a9feabdd35163",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称列出车身、底盘、电子、动力总成、试验试制、项目管理等多个独立汽车研发岗位。"
+    },
+    {
+      "occupation_id": "SNO-25ef448ffdc53ac6fa6e",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "国际平台电商数据实习生，看板与数据模型指向商业与业务数据分析。"
+    },
+    {
+      "occupation_id": "SNO-a99574c3279b85a67205",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量培训生核心方向为质量管理，归入质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-e14eee65f488e308896e",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "售后服务工程师核心为技术支持与客户交付，韩语为语言修饰。"
+    },
+    {
+      "occupation_id": "SNO-4f0375065540a9ba7862",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "量化研究员属于证券研究与投资顾问方向。"
+    },
+    {
+      "occupation_id": "SNO-7c9927ade941dfff1328",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "综合培养生为通用管培项目，缺少具体职能方向，无法确定职业类别。"
+    },
+    {
+      "occupation_id": "SNO-ab6efbe00c5490a23c90",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "功率器件工程师属于半导体芯片设计方向。"
+    },
+    {
+      "occupation_id": "SNO-b24a3c6dc2e6b57e9245",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "有机合成助理研究员属于生物医药研发方向。"
+    },
+    {
+      "occupation_id": "SNO-b01f738978927c8545ad",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-platform",
+      "status": "mapped",
+      "reason": "AIinfra方向助理研究员核心为机器学习平台与工程。"
+    },
+    {
+      "occupation_id": "SNO-f907b493461b2eb08450",
+      "target_category_id": "运营/客服/ops-offline/offline-ops-store",
+      "status": "mapped",
+      "reason": "AI+新零售运营管培生核心为线下门店与现场运营。"
+    },
+    {
+      "occupation_id": "SNO-a38c7e2de09fbe6cb5ec",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "铁路电务操作技能属于电气控制与自动化方向。"
+    },
+    {
+      "occupation_id": "SNO-6d236da4d3f5bd4ec76b",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "天风资管业务属于证券基金期货交易与运营方向。"
+    },
+    {
+      "occupation_id": "SNO-0c29778968aa6ac764ef",
+      "target_category_id": "运营/客服/ops-seo/search-seo",
+      "status": "mapped",
+      "reason": "SEO专员核心为搜索引擎优化。"
+    },
+    {
+      "occupation_id": "SNO-8fc261dc1acba3ecef3d",
+      "target_category_id": "财务/审计/税务/finance-advisor/finance-advisory-planning",
+      "status": "mapped",
+      "reason": "财税咨询顾问属于财务规划与咨询方向。"
+    },
+    {
+      "occupation_id": "SNO-e2dab295bf1069eede59",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称同时列出前后端开发与财务助理两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-750cc9ee9ce22b8b528a",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量技术员核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-bdb07a4ffc42db590657",
+      "target_category_id": "运营/客服/ops-domestic-ecommerce/domestic-ecom-platform",
+      "status": "mapped",
+      "reason": "电商渠道运营核心为国内电商平台店铺运营。"
+    },
+    {
+      "occupation_id": "SNO-23cceff306a62bbc5678",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "国际认证专员涉及合规与认证，归入公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-5bdfcf0d76155c3d51e6",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "动力系统总装设计师属于汽车整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-23a3082acc7e6876e84a",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "新能源电气研发工程师属于汽车整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-62e6a086b0ed09ebc940",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "混动变速箱设计工程师属于汽车整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-dba3ed087035432124fd",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "农业技术属于农作物与农业技术方向。"
+    },
+    {
+      "occupation_id": "SNO-3cf0b91efe7844bb92cb",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "ICOS开发工程师核心为业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-9912704855353273f261",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "iOS/Android开发属于移动端与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-77d78b4f56fa8aab4589",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "初级供应商管理经理核心为供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-5222b53cf54e077a2a91",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "市场技术支持核心为售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-f66527fdff0306e3c4df",
+      "target_category_id": "教育培训/edu-teacher/teacher-early",
+      "status": "mapped",
+      "reason": "康复教师属于学前与少儿教育方向。"
+    },
+    {
+      "occupation_id": "SNO-b70d3670ba151371b1f8",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "创新解决方案经理核心为售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-c6e9f656df2bb5fe2441",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "人工智能算法专家属于算法研究与通用算法方向。"
+    },
+    {
+      "occupation_id": "SNO-a8d07ed74b643551edaa",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-external",
+      "status": "mapped",
+      "reason": "审计实习属于外部与财务审计方向。"
+    },
+    {
+      "occupation_id": "SNO-85940e2af188f83ad326",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "职能类为通用职能岗位统称，缺少具体职能方向，无法确定职业类别。"
+    },
+    {
+      "occupation_id": "SNO-d769cdb30fd64dc10b96",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "A算法研究员属于算法研究与通用算法方向。"
+    },
+    {
+      "occupation_id": "SNO-92db62358007ae86e688",
+      "target_category_id": "生产制造/manufacturing-food-rd/food-rd-process",
+      "status": "mapped",
+      "reason": "酿造机理研究科研属于食品工艺与质量研发方向。"
+    },
+    {
+      "occupation_id": "SNO-169c5690d158a4e4e0cb",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "流体力学仿真工程师属于机械结构与产品设计方向。"
+    },
+    {
+      "occupation_id": "SNO-fbe6255b32c99910d8f9",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "T艺开发工程师应为工艺开发工程师，属于机械制造与工艺方向。"
+    },
+    {
+      "occupation_id": "SNO-1c8b7277e14e52ede2e6",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-forestry",
+      "status": "mapped",
+      "reason": "重点实验室和野外站专业技术属于林业与生态技术方向。"
+    },
+    {
+      "occupation_id": "SNO-7f8e2216d043331a901a",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中小学数学教师属于基础教育教学方向。"
+    },
+    {
+      "occupation_id": "SNO-6a96ac6197185c78ed66",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "数字电路/信号处理工程师属于电路与硬件设计方向。"
+    },
+    {
+      "occupation_id": "SNO-d92d4a0afc2c7e920354",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "专区运营核心为业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-4de491a94f6ee1e6a67f",
+      "target_category_id": "能源/环保/农业/energy-veterinary/animal-health-veterinary",
+      "status": "mapped",
+      "reason": "动物生物安全风险防范技术属于动物诊疗与防疫方向。"
+    },
+    {
+      "occupation_id": "SNO-4c880707fb8519096f9d",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "国内管培生为通用管培项目，缺少具体职能方向，无法确定职业类别。"
+    },
+    {
+      "occupation_id": "SNO-14cafcca85b17fc324ab",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务类管培生核心方向为总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-41e690d496cd6d761532",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "储备项目经理核心为项目交付与实施。"
+    },
+    {
+      "occupation_id": "SNO-25610785c7097a11c51f",
+      "target_category_id": "教育培训/edu-teacher/teacher-vocational",
+      "status": "mapped",
+      "reason": "专业课教师属于职业与技能教学方向。"
+    },
+    {
+      "occupation_id": "SNO-8e6e56bd25ce32242354",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "信息技术部系统运维属于基础设施与云运维方向。"
+    },
+    {
+      "occupation_id": "SNO-fe8ec6e2a1a5e10438d2",
+      "target_category_id": "销售/sales-advertising/ad-event-sales-advertising",
+      "status": "mapped",
+      "reason": "地铁广告销售属于广告客户销售方向。"
+    },
+    {
+      "occupation_id": "SNO-3f078481d3524f9f5a4a",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "算力大模型调优工程师属于大模型与生成式AI方向。"
+    },
+    {
+      "occupation_id": "SNO-df0508b5355424534ab4",
+      "target_category_id": "运营/客服/ops-domestic-ecommerce/domestic-ecom-platform",
+      "status": "mapped",
+      "reason": "国内电商运营助理核心为国内电商平台店铺运营。"
+    }
+  ]
+}

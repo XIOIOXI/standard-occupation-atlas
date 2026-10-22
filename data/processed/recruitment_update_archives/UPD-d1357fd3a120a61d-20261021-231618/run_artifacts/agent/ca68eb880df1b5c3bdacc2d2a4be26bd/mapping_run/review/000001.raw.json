@@ -1,0 +1,28 @@
+{
+  "id": "4e52bdaa-a3a0-42c2-b3a4-589f6d61c10c",
+  "object": "chat.completion",
+  "created": 1792571250,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-ca68eb880df1b5c3bdacc2d2a4be26bd\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-10\",\"issue\":\"售后服务工程师面向客户设备提供售后技术服务，主归属L14-10合理；与L23-09-02（工厂内部设备维修保全）的区分正确。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17002,
+    "completion_tokens": 92,
+    "total_tokens": 17094,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 490
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

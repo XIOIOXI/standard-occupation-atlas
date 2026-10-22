@@ -1,0 +1,28 @@
+{
+  "id": "8c7b6285-7755-406f-bb9a-2ab8eee767ef",
+  "object": "chat.completion",
+  "created": 1792571240,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-ac14fcb7022817891a931de629f338e0\",\"status\":\"mapped\",\"target_category_id\":\"L06-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L06-01\",\"L06-02\"],\"title_evidence\":\"结构分析与仿真计算工程师：结构分析、仿真计算，属机械结构设计与分析\",\"level_3_evidence\":null,\"reason\":\"标题明确为结构分析与仿真计算，核心为机械结构强度/仿真分析，归机械与结构设计；仿真计算未明确指向热流体，故不选三级，停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16945,
+    "completion_tokens": 142,
+    "total_tokens": 17087,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 305
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d44bfbd0-5ba9-4461-b5e1-4b8585a64a13",
+  "object": "chat.completion",
+  "created": 1792571805,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-27d9936fd1ad601624f37f9c156d3116\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L12-02\", \"issue\": \"标题明确品牌职能，归品牌管理L12-02合理；管培生为培养标签，不构成跨职能轮岗证据，无需归L32。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17069,
+    "completion_tokens": 99,
+    "total_tokens": 17168,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 557
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

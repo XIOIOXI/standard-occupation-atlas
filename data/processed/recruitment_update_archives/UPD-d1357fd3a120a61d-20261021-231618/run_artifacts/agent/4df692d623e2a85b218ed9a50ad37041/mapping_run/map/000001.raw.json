@@ -1,0 +1,28 @@
+{
+  "id": "3d8759fb-9204-4022-8a5e-2a981cdd99b2",
+  "object": "chat.completion",
+  "created": 1792571230,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-4df692d623e2a85b218ed9a50ad37041\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L06-01-03\",\"L06-01-02\",\"L05-01-02\"],\"title_evidence\":\"产品魔方化设计工程师：'产品设计'指向实体产品结构/机械设计，'魔方化'为模块化设计概念，公司为制造业（科泰电源，电源/发电机组设备）\",\"level_3_evidence\":null,\"reason\":\"标题含'产品设计'但'魔方化'为非常规表述，无法确定是机械结构设计、整机设备设计还是电子系统集成；候选为机械设备设计、产品结构设计、电子系统集成，需人工确认具体设计对象\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16949,
+    "completion_tokens": 191,
+    "total_tokens": 17140,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

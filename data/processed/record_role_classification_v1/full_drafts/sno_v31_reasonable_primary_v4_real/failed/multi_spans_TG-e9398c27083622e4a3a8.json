@@ -1,0 +1,23 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-e9398c27083622e4a3a8",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-e9398c27083622e4a3a8",
+    "case": "A",
+    "child_titles": [
+      "金融网点理财经历",
+      "金融网点柜员",
+      "寄递业务客户经理"
+    ],
+    "source_spans": [
+      {
+        "text": "金融网点理财经历金融网点柜员寄递业务客户经理",
+        "start": 0,
+        "end": 22
+      }
+    ],
+    "reason": "多个岗位名称并列，可独立作为岗位，符合拆分条件。"
+  }
+}

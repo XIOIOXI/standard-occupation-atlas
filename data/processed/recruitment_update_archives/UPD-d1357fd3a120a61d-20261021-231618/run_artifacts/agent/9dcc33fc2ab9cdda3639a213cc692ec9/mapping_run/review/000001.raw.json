@@ -1,0 +1,28 @@
+{
+  "id": "c81cf602-364f-45bb-b9b1-b1e022e9627b",
+  "object": "chat.completion",
+  "created": 1792571518,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-9dcc33fc2ab9cdda3639a213cc692ec9\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L16-02\", \"issue\": \"标题明确为供应链部门管理培训生，职能方向清晰，归L16-02供应链规划与管理合理；已明确部门职能，不归L32跨职能轮岗，判定通过。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17072,
+    "completion_tokens": 105,
+    "total_tokens": 17177,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 560
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

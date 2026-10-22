@@ -1,0 +1,28 @@
+{
+  "id": "84eb903b-86b0-4006-a0dd-f92005e8f7ed",
+  "object": "chat.completion",
+  "created": 1791813110,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-715eda920f14a2e8188b\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人决策规划属于机器人与具身智能方向，当前归属合理。\"},{\"occupation_id\":\"SNO-c95bf98afa6fa4d9b8d6\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人系统工程师核心为机器人系统与具身智能，当前归属合理。\"},{\"occupation_id\":\"SNO-f9e26c895758316c9c61\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-embedded\",\"reason\":\"机载软件开发属于嵌入式与实时开发，当前归属合理。\"},{\"occupation_id\":\"SNO-cbcd1e910e6a10bebd8b\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列软件开发、网络安全、信息设备维修、电力运维、能源管理等多个独立职业。\"},{\"occupation_id\":\"SNO-f337c2863fbf57097eda\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-finance\",\"reason\":\"QuantitativeDeveloper核心为金融行业后端开发，当前归属合理。\"},{\"occupation_id\":\"SNO-f662b34241f61d12e292\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"数字孪生开发工程师核心为平台与中间件开发，当前归属合理。\"},{\"occupation_id\":\"SNO-854be2166a5c7d16afdb\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列市场营销、平台运营、测试和技术支持多个独立职业。\"},{\"occupation_id\":\"SNO-5106a41abcaa911d4dcd\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列前端和后端两个独立开发方向。\"},{\"occupation_id\":\"SNO-5e66e088fd8ae78c79b2\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人仿真工程师属于机器人与具身智能方向，当前归属合理。\"},{\"occupation_id\":\"SNO-9285d334a9b4da646341\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend\",\"reason\":\"运控软件工程师通常指运动控制软件，与业务服务端开发依据不足，仅可确认属互联网/AI后端开发上级。\"},{\"occupation_id\":\"SNO-227672428f434225f461\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列法律与审计两个独立职业。\"},{\"occupation_id\":\"SNO-12cb70b457073d9180f9\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"AI助理工程师可归入算法研究与通用算法，当前归属合理。\"},{\"occupation_id\":\"SNO-4d8a4362b170b891b4e2\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列材料研发、工艺技术、生产品质、装备管理、市场开发、人力资源等多个独立职业。\"},{\"occupation_id\":\"SNO-066dc651253aa6bd690c\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"主播与直播运营为两个独立职业，分属影视传媒与运营。\"},{\"occupation_id\":\"SNO-f798f466da536c71f5e0\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"管培生涵盖研发、职能、商业化、生产供应链多个独立方向，无法归入单一职业。\"},{\"occupation_id\":\"SNO-dd4c45b9c781ac43051e\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"AI智能体应用开发属于大模型与生成式AI方向，当前归属合理。\"},{\"occupation_id\":\"SNO-478cdfbdb0dd190045e5\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-frontend-mobile/frontend-visual\",\"reason\":\"智能交互工程师核心为交互与可视化开发，当前归属合理。\"},{\"occupation_id\":\"SNO-6a22e30555b063697aeb\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列园林、土建、水电、装修多个独立工程职业。\"},{\"occupation_id\":\"SNO-1f77aa1324c53996d2e6\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"AI导演与制作AI研发工程师为两个独立职业。\"},{\"occupation_id\":\"SNO-5385588e8961549bb754\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"管培生轮岗涵盖微电子、材料、机械、化工、会计、金融、法学等多个独立职业方向。\"},{\"occupation_id\":\"SNO-60bf3c81e0e46e75d16b\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"工业互联网软件开发核心为平台与中间件开发，当前归属合理。\"},{\"occupation_id\":\"SNO-f60f7a57b061e82a8aee\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列化学、材料、机械、电子、自动化、软件、统计、语言、工业工程、质量管理等多个独立方向。\"},{\"occupation_id\":\"SNO-dcdd04b6f48bbcc58adb\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确并列硬件与软件两个独立职业方向。\"},{\"occupation_id\":\"SNO-1e9e565f1a541868b522\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"智能飞行器设计与控制设计师属机器人与具身智能方向，当前归属合理。\"},{\"occupation_id\":\"SNO-378e0cd366980ecad7b8\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-risk\",\"reason\":\"AI量化研究员核心为金融与风控算法，当前归属合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30869,
+    "completion_tokens": 1397,
+    "total_tokens": 32266,
+    "prompt_tokens_details": {
+      "cached_tokens": 30720
+    },
+    "prompt_cache_hit_tokens": 30720,
+    "prompt_cache_miss_tokens": 149
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

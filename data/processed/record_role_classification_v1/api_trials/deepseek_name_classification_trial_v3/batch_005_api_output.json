@@ -1,0 +1,28 @@
+{
+  "id": "82c00078-def7-4183-96c9-140d508072ee",
+  "object": "chat.completion",
+  "created": 1791748573,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-036b2f67b7c481989cb9\",\"target_category_id\":\"影视/传媒/media-news/news-newmedia\",\"status\":\"mapped\",\"reason\":\"新闻宣传核心为新闻传播与宣传，归入新媒体新闻传播。\"},{\"occupation_id\":\"SNO-1476ab7132e27b3b52f9\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"“检测技术等”表述不完整，缺少行业或检测对象信息，无法确定具体类别。\"},{\"occupation_id\":\"SNO-8972962f317be77a6636\",\"target_category_id\":\"生产制造/manufacturing-operations/manufacturing-ops-planning\",\"status\":\"mapped\",\"reason\":\"生产调度工程师核心为生产计划与调度。\"},{\"occupation_id\":\"SNO-09956061a81b7808defe\",\"target_category_id\":\"生产制造/manufacturing-general-worker/general-worker-assembly\",\"status\":\"mapped\",\"reason\":\"生产制造员为生产线作业，归入装配与生产线作业。\"},{\"occupation_id\":\"SNO-1080766dda240d9f40f4\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"售后助理未说明行业或产品，无法确定具体售后类别。\"},{\"occupation_id\":\"SNO-728bc2389338077e635f\",\"target_category_id\":\"咨询/翻译/法律/consult-legal/legal-corporate\",\"status\":\"mapped\",\"reason\":\"法律事务相关核心为法律事务，归入公司法务与合规。\"},{\"occupation_id\":\"SNO-d0f517b7491e0cda26c2\",\"target_category_id\":null,\"status\":\"multi_role\",\"reason\":\"法务风控岗同时包含法务与风控两个独立职业方向。\"},{\"occupation_id\":\"SNO-412c6d36ed5c331b18ca\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"方案解决高级工程师未说明技术领域，无法确定具体解决方案方向。\"},{\"occupation_id\":\"SNO-e6d1a4c799fe50b4446b\",\"target_category_id\":\"运营/客服/ops-copywriting/copy-content\",\"status\":\"mapped\",\"reason\":\"文案实习生核心为文案撰写，归入内容与新媒体文案。\"},{\"occupation_id\":\"SNO-1e56d7605dec22111d2b\",\"target_category_id\":\"咨询/翻译/法律/consult-legal/legal-corporate\",\"status\":\"mapped\",\"reason\":\"企管法规核心为企业管理与法规合规，归入公司法务与合规。\"},{\"occupation_id\":\"SNO-990a2d3c791707b2e775\",\"target_category_id\":\"销售/sales-trade/trade-sales-development\",\"status\":\"mapped\",\"reason\":\"化工外贸业务员核心为外贸客户开发与销售。\"},{\"occupation_id\":\"SNO-919ea4e5168775cd451c\",\"target_category_id\":null,\"status\":\"review\",\"reason\":\"“支撑”名称过于笼统，缺少具体职责信息。\"},{\"occupation_id\":\"SNO-60a6932da8bc0fb9a9cb\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"status\":\"mapped\",\"reason\":\"机器人系统开发工程师核心为机器人系统与算法开发。\"},{\"occupation_id\":\"SNO-14a4bd81059099693d70\",\"target_category_id\":\"供应链/物流/supply-chain/supply-chain-planning\",\"status\":\"mapped\",\"reason\":\"客户订单计划员核心为订单与供应链计划协同。\"},{\"occupation_id\":\"SNO-33c886a363ccb7000512\",\"target_category_id\":null,\"status\":\"multi_role\",\"reason\":\"零售管培生职能定向生涵盖产研、技术、职能等多个独立方向。\"},{\"occupation_id\":\"SNO-117dba594b0d6e53eb1d\",\"target_category_id\":\"销售/sales-finance/financial-sales-wealth\",\"status\":\"mapped\",\"reason\":\"分行营销培训生（零售金融方向）核心为零售金融营销。\"},{\"occupation_id\":\"SNO-34d86fa9c3f1f82c24cc\",\"target_category_id\":null,\"status\":\"taxonomy_gap\",\"reason\":\"纪检属于纪检监察职能，目录中无对应类别。\"},{\"occupation_id\":\"SNO-2796afcf7a07b87d58c6\",\"target_category_id\":\"生产制造/manufacturing-quality/quality-control\",\"status\":\"mapped\",\"reason\":\"样品管理员核心为样品管理与质量检验辅助。\"},{\"occupation_id\":\"SNO-e31af1e216b33714e647\",\"target_category_id\":\"市场/公关/广告/marketing-general/marketing-channel\",\"status\":\"mapped\",\"reason\":\"市场推广专员核心为区域市场推广活动执行。\"},{\"occupation_id\":\"SNO-435aa6a2a3ed64664fa6\",\"target_category_id\":\"金融/financial-banking/bank-retail\",\"status\":\"mapped\",\"reason\":\"石家庄分行运营培训生核心为银行零售与综合运营。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 24052,
+    "completion_tokens": 1095,
+    "total_tokens": 25147,
+    "prompt_tokens_details": {
+      "cached_tokens": 23296
+    },
+    "prompt_cache_hit_tokens": 23296,
+    "prompt_cache_miss_tokens": 756
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

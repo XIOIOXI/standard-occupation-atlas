@@ -1,0 +1,28 @@
+{
+  "id": "d80937ac-96f7-45f1-b544-0b7b75eb15f5",
+  "object": "chat.completion",
+  "created": 1791880308,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-082a535e0b46c7dc2b62\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0d1bd4fc222e286a7e97\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L05-01-02\",\"issue\":\"光纤陀螺属惯性传感器/电子系统集成，归无线与射频技术不当，应归电子系统集成。\"},{\"occupation_id\":\"TG-5b245c30c6de5b59eee6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-49c1bd5e0cfedbb32fbe\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a1b91b17b6f04a124b51\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-111d0663d8dfc2fbd310\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-eb7c859161dc67799efc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d1ba02c551e671d80d5f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-133a5d9e265960c90f78\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-725f34178026dfcf9637\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L17-02-01\",\"issue\":\"仓储运维工程师应归仓储与库存管理，而非系统与服务器运维。\"},{\"occupation_id\":\"TG-c3da298aa9b610531066\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0b1589498739ad265618\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8a9ed8accd498e173d5d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e8f9245db309346f6c2c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8e41e2ab51fa49611869\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-480d27f7b40ff4ca4f24\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0c0bd9a23240e8c456b0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-67c774f2020095376fc9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-6f1203a79c97f8e76aef\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-b3251e777e2c774fc06e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19726,
+    "completion_tokens": 795,
+    "total_tokens": 20521,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3214
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

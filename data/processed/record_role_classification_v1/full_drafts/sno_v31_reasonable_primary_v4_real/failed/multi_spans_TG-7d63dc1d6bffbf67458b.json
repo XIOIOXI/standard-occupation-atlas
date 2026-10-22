@@ -1,0 +1,22 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-7d63dc1d6bffbf67458b",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-7d63dc1d6bffbf67458b",
+    "case": "A",
+    "child_titles": [
+      "财务中心（会计）",
+      "财务中心（税务）"
+    ],
+    "source_spans": [
+      {
+        "text": "财务中心（会计、税务）",
+        "start": 0,
+        "end": 10
+      }
+    ],
+    "reason": "括号内顿号分隔的两个方向可独立作为岗位，符合拆分条件。"
+  }
+}

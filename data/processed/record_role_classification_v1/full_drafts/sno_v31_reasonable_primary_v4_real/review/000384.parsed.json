@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-d5164879e6909cc2591c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "涉外财务岗未说明具体财务方向，归L19-08通用财务工作合理。"
+    },
+    {
+      "occupation_id": "TG-2bd2a6353ea30c6b30a1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "阻燃测试属物理性能与可靠性检测，L04-04-01合理。"
+    },
+    {
+      "occupation_id": "TG-2bf0ad6a25cea6780208",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "前期策划方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-2852272d6819416f5003",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI应用开发Agent方向，L02-06-02合理。"
+    },
+    {
+      "occupation_id": "TG-7dc3ddc7e067c22eff7c",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L02-05-05",
+      "issue": "组合导航算法属于状态估计与传感器融合，更贴近预测与统计学习，而非运筹优化与决策算法。"
+    },
+    {
+      "occupation_id": "TG-0d027e4612f52e738c8b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "国际业务管理专员职能不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-103a7b82de2ac7d9a79f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智屏产品运营归L14-01产品与平台运营合理。"
+    },
+    {
+      "occupation_id": "TG-592d124fe7eeb4c98b87",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "商务管理培训生最终职能未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-d92e79684a32f3cd5b78",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务管理岗未说明具体方向，L19-08合理。"
+    },
+    {
+      "occupation_id": "TG-e00a9719dfba314238bc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智能仿真技术开发方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-365f9a6fe49f28b09619",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI运营工程师职能不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-909cf0f5371275cd0563",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "出纳岗归L19-02合理。"
+    },
+    {
+      "occupation_id": "TG-96975cec0c93a5f0cfad",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "贸易运营岗职能不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-3d81a099efa922c17010",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "初级软件工程师未说明方向，L01-11合理。"
+    },
+    {
+      "occupation_id": "TG-283349153010190e7c00",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "医学教育管培生最终职能未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-1bd45ab87e604805f79a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "电化学体系工程师归L06-05-01化学合成与反应开发合理。"
+    },
+    {
+      "occupation_id": "TG-ced380d878c3fbc4cf91",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "材料应用管理岗职能不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-750d75f8f911775443b7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "应用工程师职能不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-05625d2708b04f8bccb2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "固定收益业务岗归L20-02-02金融交易合理。"
+    },
+    {
+      "occupation_id": "TG-e117accd3c131b2e54ae",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题列出多个方向，无法确定单一职能，review合理。"
+    }
+  ],
+  "raw_response_file": "000384.raw.json",
+  "usage": {
+    "input_tokens": 19926,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3414,
+    "output_tokens": 991,
+    "reasoning_tokens": 0,
+    "total_tokens": 20917
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002312472
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

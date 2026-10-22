@@ -1,0 +1,28 @@
+{
+  "id": "51f9340b-75c1-448b-af07-2b23f1ca873d",
+  "object": "chat.completion",
+  "created": 1792596136,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-e57f2d0bb6a0fc23d3910591a8f430c5\",\"status\":\"mapped\",\"target_category_id\":\"L06-06-02\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L06-06-02\",\"L06-06-01\",\"L06-08-02\"],\"title_evidence\":\"化妆品公司研发样品工程师，属日化产品研发中的样品制作与配方支持\",\"level_3_evidence\":\"日化与个护研发：清洁化妆及个护技术配方\",\"reason\":\"公司为化妆品消费品企业，岗位为研发样品工程师，直接对应日化与个护研发下的样品/配方技术工作，归 L06-06-02。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16967,
+    "completion_tokens": 170,
+    "total_tokens": 17137,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 327
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

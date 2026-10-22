@@ -1,0 +1,28 @@
+{
+  "id": "111499dc-36e9-482b-bc0d-2aa6d62fb5c6",
+  "object": "chat.completion",
+  "created": 1791881147,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"TG-337ef831a3a88ebd8cb5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题为领导培训生且未明确职能方向，review合理。\"},{\"occupation_id\":\"TG-8595477c6f280532d6d5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电商数据分析师归营销与销售数据分析，合理。\"},{\"occupation_id\":\"TG-ff3337b0e9c2c8a0d414\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数据运营助理方向未明，归通用业务运营可接受。\"},{\"occupation_id\":\"TG-ce00adf0c4d721cd76c6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户发展部培训生职能方向不明确，review合理。\"},{\"occupation_id\":\"TG-42b244d3826ec89de541\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务控制管理员归财务规划与分析，合理。\"},{\"occupation_id\":\"TG-1afad73854be5d1e4f9c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"师资选聘岗归招聘与人才配置，合理。\"},{\"occupation_id\":\"TG-02bc65d1a459985611e4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"中压二次开关柜研发归电气工程，合理。\"},{\"occupation_id\":\"TG-15fac2563ecfaa292901\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"外贸实习助理归进出口与贸易执行，合理。\"},{\"occupation_id\":\"TG-91fb1304175557338215\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"审计岗未明确内外部，归审计二级，合理。\"},{\"occupation_id\":\"TG-2dc17d1b346f3062bab4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电源系统设计归电子系统集成，合理。\"},{\"occupation_id\":\"TG-c28520594d00c465f5cc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"专升本科目教师未明确学科，归学科与通识教学二级，合理。\"},{\"occupation_id\":\"TG-adbf74d4290e16a4cef0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售工程师以销售为主，归企业客户销售，合理。\"},{\"occupation_id\":\"TG-3388b8dd8f5802c1f254\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"制剂生产技术归化工与流程生产操作，合理。\"},{\"occupation_id\":\"TG-ad3ba94328fb8a8527fe\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数据科学学校招方向未明，归通用数据与人工智能工作，合理。\"},{\"occupation_id\":\"TG-f038d15ced61f8b8a8fe\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"有机化学合成产品经理归工业与专业设备产品，合理。\"},{\"occupation_id\":\"TG-da28d5f251d8e85e7043\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发培训生（测试）未明确测试类型，归软件测试与质量保障二级，合理。\"},{\"occupation_id\":\"TG-daae57f803b2e65a6e22\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"高中班课教师未明确学科，归学科与通识教学二级，合理。\"},{\"occupation_id\":\"TG-a5f8edb004e56c81f451\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"广告业务人员方向未明，归通用市场营销，合理。\"},{\"occupation_id\":\"TG-83cdb5f171bd46671102\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技能岗过于宽泛，review合理。\"},{\"occupation_id\":\"TG-d36f2c652bd7a6ac1ba1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"专业技术类岗位涉及多方向，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19743,
+    "completion_tokens": 986,
+    "total_tokens": 20729,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3231
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

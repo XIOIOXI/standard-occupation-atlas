@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-7939d45b2de987f8f4ae70a663224e43",
+      "verdict": "pass",
+      "suggested_target_category_id": "L24-04",
+      "issue": "机电安装项目工程师归建筑机电与设备工程（L24-04）合理；项目属性为附加，不改变专业方向。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17022,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 510,
+    "output_tokens": 94,
+    "reasoning_tokens": 0,
+    "total_tokens": 17116
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000364872
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

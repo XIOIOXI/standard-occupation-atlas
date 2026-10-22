@@ -1,0 +1,147 @@
+{
+  "batch_number": 4,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18151,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 1511,
+    "output_tokens": 1041,
+    "reasoning_tokens": 0,
+    "total_tokens": 19192
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0009011700000000001
+  },
+  "results": [
+    {
+      "entry_id": "SNO-11af6a0a2b4498378d02",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "岗位名称仅含泛化代号与“工程师”，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-11ed417950e47dac5827",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“CAS设计”为缩写且未说明设计领域，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-12d51a8a5a3b7927b703",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "岗位名称包含部门、研究室及社会责任管理，属复合宽泛称谓，无法明确映射。"
+    },
+    {
+      "entry_id": "SNO-13002889673cd6317824",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发/技术人员”为宽泛复合称谓，未指明具体技术方向，无法明确映射。"
+    },
+    {
+      "entry_id": "SNO-1307860c7ea99544f5f9",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“算力技术研究”未明确对应目录中具体三级职业，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-132d036df1499c06798b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“产品工程师(国内/海外)”为宽泛称谓且含地域范围，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-135ecc59956809817545",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“诊断工程师”未说明诊断对象或领域，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-15f6b632d33c38504716",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“博士后研究员”为宽泛研究称谓，未指明具体学科方向，无法明确映射。"
+    },
+    {
+      "entry_id": "SNO-1658a6e5c6a6e8a9a02d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“计算机工程师”为宽泛称谓，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-168f675d1e443b2b99d9",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“方案设计工程师”未说明方案领域，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-18118a21783d545c3a2c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“专业技术”为宽泛称谓，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-1862f6c072beab8b3bc4",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“设计员”为宽泛称谓，未说明设计领域，无法明确映射。"
+    },
+    {
+      "entry_id": "SNO-18eabf03c93e9340ebb3",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“系统论证与设计工程师”为宽泛复合称谓，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-18f39e62ad7e77ac6efc",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“视觉应用工程师”未明确是算法、设计还是其他方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-19581350e929d2fc31da",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“其他专业技术”为宽泛兜底称谓，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-1974b381d87f4989b914",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“工程技术人员(计划人数8人)”为宽泛称谓且含招聘人数，无法明确映射。"
+    },
+    {
+      "entry_id": "SNO-1bba414c8a367b8e89cb",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“/工程师”名称截断且信息不足，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-1cb9ea667895eb7f5330",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“主任前瞻研究工程师”为宽泛研究称谓，未指明具体方向，无法明确映射。"
+    },
+    {
+      "entry_id": "SNO-1cc7b4773928f604d5b8",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“赣南区专业技术”含地域且为宽泛称谓，无法明确映射到唯一三级职业。"
+    },
+    {
+      "entry_id": "SNO-1d50caf2e1e37b05ae1d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“GEDP-全球工程师发展计划”为项目/计划名称，非明确职业名称，无法映射。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "75de92f9-fd5f-475a-96e9-ab0dc43b6722",
+  "object": "chat.completion",
+  "created": 1792571749,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-979342d4858ee52a811e74b6c4a97a68\",\"status\":\"mapped\",\"target_category_id\":\"L01-02\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L01-02\",\"L01-11\"],\"title_evidence\":\"标题明确为“核心系统软件开发岗”，属于软件开发职能；核心系统为业务服务端系统，方向为后端开发。\",\"level_3_evidence\":null,\"reason\":\"“核心系统软件开发”指向保险核心业务系统的服务端开发，符合后端开发（L01-02）范围；未提供具体技术栈或前后端分工细节，不足以细分到三级，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16967,
+    "completion_tokens": 161,
+    "total_tokens": 17128,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 327
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

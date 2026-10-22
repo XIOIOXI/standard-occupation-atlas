@@ -1,0 +1,39 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-0ab8530c388677a98900",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-0ab8530c388677a98900",
+    "case": "A",
+    "child_titles": [
+      "技术研发",
+      "法务事务",
+      "销售业务",
+      "包装设计",
+      "纪检员",
+      "招标管理",
+      "计量检测",
+      "绿色低碳应用与研究",
+      "财务管理",
+      "安全管理",
+      "能源管理",
+      "采供管理",
+      "展陈设计",
+      "信息管理",
+      "风险管控",
+      "质量检测",
+      "工程管理",
+      "设备管理",
+      "综合管理（生......"
+    ],
+    "source_spans": [
+      {
+        "text": "技术研发 法务事务 销售业务 包装设计 纪检员 招标管理 计量检测 绿色低碳应用与研究 财务管理 安全管理 能源管理 采供管理 展陈设计 信息管理 风险管控 质量检测 工程管理 设备管理 综合管理（生......",
+        "start": 0,
+        "end": 86
+      }
+    ],
+    "reason": "标题由多个独立岗位名称用空格分隔，可拆分。"
+  }
+}

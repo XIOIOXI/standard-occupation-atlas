@@ -1,0 +1,28 @@
+{
+  "id": "9f3c0b5f-fe71-43ff-aa45-3351edcd5768",
+  "object": "chat.completion",
+  "created": 1791841191,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"SNO-5167ef12f622b5af0574\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"解决方案工程师归售前技术与解决方案L14-09，符合目录范围，标题依据合理。\"},{\"occupation_id\":\"SNO-87897b6b39f55b071d55\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"云服务开发工程师方向未明确，归通用软件研发L01-11合理，符合目录规则。\"},{\"occupation_id\":\"SNO-9380088e8af3a3272e22\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅有Java语言名称，方向未说明，归L01-11符合目录明确规则。\"},{\"occupation_id\":\"SNO-18167c3951b5d69c87ec\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"远程技术支持归IT支持L03-06，符合目录范围，主归属合理。\"},{\"occupation_id\":\"SNO-f3b85697546945a0b571\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采购工程师归采购与供应商管理L16-01，管培生为修饰，符合目录规则。\"},{\"occupation_id\":\"SNO-4bb7547833fbbef805c9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字化转型专员归信息化管理L03-07，符合目录范围，主归属合理。\"},{\"occupation_id\":\"SNO-9402b168d32a3c20feb2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"智驾规控算法归机器学习与算法研发L02-05，三级细分有依据，合理。\"},{\"occupation_id\":\"SNO-0c785b48430ef2078262\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"交易服务岗职能方向不明确，无法确认是金融交易服务还是公共资源交易服务，需进一步确认。\"},{\"occupation_id\":\"SNO-a15da9cbb00aada6c828\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"化学教师归学科与通识教学L22-02，三级细分合理。\"},{\"occupation_id\":\"SNO-9a92038d67d4cba95b99\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"嵌入式软件开发归嵌入式与固件开发L01-06，符合目录范围。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 10924,
+    "completion_tokens": 571,
+    "total_tokens": 11495,
+    "prompt_tokens_details": {
+      "cached_tokens": 9216
+    },
+    "prompt_cache_hit_tokens": 9216,
+    "prompt_cache_miss_tokens": 1708
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

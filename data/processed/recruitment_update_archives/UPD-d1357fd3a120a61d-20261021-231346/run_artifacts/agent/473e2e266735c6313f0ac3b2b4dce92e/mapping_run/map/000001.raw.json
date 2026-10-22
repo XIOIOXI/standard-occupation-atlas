@@ -1,0 +1,28 @@
+{
+  "id": "f4cc24ff-b6fb-42de-8406-80d4fd16ecef",
+  "object": "chat.completion",
+  "created": 1792571407,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-473e2e266735c6313f0ac3b2b4dce92e\",\"status\":\"mapped\",\"target_category_id\":\"L06-01-01\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L06-01-01\",\"L06-01-03\",\"L06-01-02\"],\"title_evidence\":\"传动助理工程师，传动属于机械传动方向\",\"level_3_evidence\":\"机械机构与传动：运动机构传动及机械系统\",\"reason\":\"传动为机械传动技术方向，直接对应机械机构与传动三级；助理为资历标签不影响归类。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16959,
+    "completion_tokens": 142,
+    "total_tokens": 17101,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 319
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

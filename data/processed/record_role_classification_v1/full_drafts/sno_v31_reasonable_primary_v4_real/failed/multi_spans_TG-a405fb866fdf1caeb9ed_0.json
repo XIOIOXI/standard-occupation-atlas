@@ -1,0 +1,35 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-a405fb866fdf1caeb9ed",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "人力资源/行政专员（人力行政中心）",
+  "child_title": "人力资源专员",
+  "source_span": {
+    "text": "人力资源",
+    "start": 0,
+    "end": 4
+  },
+  "raw_decision": {
+    "original_record_id": "TG-a405fb866fdf1caeb9ed",
+    "case": "A",
+    "child_titles": [
+      "人力资源专员",
+      "行政专员"
+    ],
+    "source_spans": [
+      {
+        "text": "人力资源",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "行政专员",
+        "start": 5,
+        "end": 9
+      }
+    ],
+    "reason": "标题由斜杠分隔的两个独立岗位组成，可拆分为人力资源专员和行政专员。"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "034c50da-9851-4503-b046-c638b1e920c1",
+  "object": "chat.completion",
+  "created": 1791881374,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"TG-c94730990388eeb0c597\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1769ce9d7f6da2300f16\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-9edb1278934df58f70f5\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L03-02\",\"issue\":\"IT基础架构师通常负责云平台、DevOps、SRE等基础设施架构与可靠性，而非安全架构；应归L03-02云平台与可靠性运维。\"},{\"occupation_id\":\"TG-67715d434ff3de4968ce\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f2d89199b44f1362f553\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L12-07\",\"issue\":\"营销管培生已明确营销职能，应归L12-07通用市场营销并加培养标签，而非L32-01跨职能轮岗。\"},{\"occupation_id\":\"TG-3cb749c8bd1efe400dac\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L14-06\",\"issue\":\"门店经营管培生已明确门店经营职能，应归L14-06线下业务与场所运营并加培养标签，而非L32-01跨职能轮岗。\"},{\"occupation_id\":\"TG-6441cddacac37af77a70\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-62d9d946bf82d28d83f7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1ac751210570fb1ceb21\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-143e1eff79a949bf4332\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-7de3d014ff65cd139f0b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-156c2bdb350f3f2d3156\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-29c812cc123d34d5a4f7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c4d2839d8aa2eec87c30\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8c454fc13c034de22014\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L08-07\",\"issue\":\"产品管理培训生已明确产品管理职能，应归L08-07通用产品规划并加培养标签，而非L32-01跨职能轮岗。\"},{\"occupation_id\":\"TG-ce6c4fb59b6214f5141f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1634c0595f156ec753bd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-71f739bbbf421af51ebc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c6eee52ad97dba74d795\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-bb544a9d78157333b993\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19573,
+    "completion_tokens": 892,
+    "total_tokens": 20465,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3061
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

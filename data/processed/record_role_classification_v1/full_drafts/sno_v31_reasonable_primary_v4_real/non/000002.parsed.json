@@ -1,0 +1,151 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-959e90450cf18dc6b157",
+      "decision": "exclude_non_role",
+      "reason": "标题为职业大类描述，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-84e93fe51f411e95a1a3",
+      "decision": "restore_title_and_map",
+      "reason": "标题疑似截断，恢复为'研究岗'",
+      "recovered_title": "研究岗"
+    },
+    {
+      "original_record_id": "TG-39a0ae1ee3c9fe4f1113",
+      "decision": "exclude_non_role",
+      "reason": "标题仅为'岗位'，无具体岗位信息",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-d799ef1145ef0d4b03af",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘计划描述，非岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-141b0f7ae3c7cf165e35",
+      "decision": "exclude_non_role",
+      "reason": "标题为专业类别列表，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-8a8476e5139bba8e24e9",
+      "decision": "exclude_non_role",
+      "reason": "标题为模糊描述，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-bf495f6297043e406cfa",
+      "decision": "restore_title_and_map",
+      "reason": "标题为'转正实习生'，可视为岗位名称",
+      "recovered_title": "转正实习生"
+    },
+    {
+      "original_record_id": "TG-a4df8755499c4026e45b",
+      "decision": "exclude_non_role",
+      "reason": "标题为多个岗位关键词拼接，非单一岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-f1e132dc96eea1332051",
+      "decision": "exclude_non_role",
+      "reason": "标题为专业名称，非岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-a629d9b69af53f47e3c3",
+      "decision": "restore_title_and_map",
+      "reason": "标题为'2027应届生岗位'，可视为岗位名称",
+      "recovered_title": "2027应届生岗位"
+    },
+    {
+      "original_record_id": "TG-43e3a4ee98ad4040d0ba",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘规模描述，非岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-e14abcfd8af8230b2cf2",
+      "decision": "restore_title_and_map",
+      "reason": "标题为'2026实习生岗位'，可视为岗位名称",
+      "recovered_title": "2026实习生岗位"
+    },
+    {
+      "original_record_id": "TG-bb9eaccbb151ae81b8e6",
+      "decision": "exclude_non_role",
+      "reason": "标题为岗位数量描述，非岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-1bba414c8a367b8e89cb",
+      "decision": "restore_title_and_map",
+      "reason": "标题疑似截断，恢复为'工程师'",
+      "recovered_title": "工程师"
+    },
+    {
+      "original_record_id": "TG-f3da16c3c822b16e0597",
+      "decision": "exclude_non_role",
+      "reason": "标题为多个岗位名称列表，非单一岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-7ac659aa9131ca484ffb",
+      "decision": "exclude_non_role",
+      "reason": "标题为岗位类别列表，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-cda727ae09681aaf023a",
+      "decision": "exclude_non_role",
+      "reason": "标题包含岗位编号及专业要求，非纯岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-3e1e379b3aeeeb4619e1",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘对象描述，非岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-1eeae84cdee81eb778ae",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘公告引用，非岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-252144b1fbf057a55828",
+      "decision": "exclude_non_role",
+      "reason": "标题为不完整描述，非岗位名称",
+      "recovered_title": null
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 839,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 839,
+    "output_tokens": 1227,
+    "reasoning_tokens": 0,
+    "total_tokens": 2066
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0017241
+  },
+  "attempts": 0,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": {
+    "from": "records",
+    "to": "results",
+    "reason": "provider_envelope_alias"
+  },
+  "validation_failures": []
+}

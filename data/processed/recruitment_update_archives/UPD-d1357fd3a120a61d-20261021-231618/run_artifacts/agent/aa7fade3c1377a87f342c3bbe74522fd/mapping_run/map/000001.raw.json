@@ -1,0 +1,28 @@
+{
+  "id": "2e16457f-c1e7-4228-9730-fdadf5e9e0b6",
+  "object": "chat.completion",
+  "created": 1792571690,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-aa7fade3c1377a87f342c3bbe74522fd\",\"status\":\"mapped\",\"target_category_id\":\"L06-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L06-08\",\"L23-01\",\"L06-09\"],\"title_evidence\":\"工艺技术员：制造业工艺技术岗位，负责生产工艺技术工作\",\"level_3_evidence\":null,\"reason\":\"工艺技术员属于制造工艺技术职能，归入工艺与制造工程（L06-08）；未提供具体制程/工业化/工装模具细分证据，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16974,
+    "completion_tokens": 146,
+    "total_tokens": 17120,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

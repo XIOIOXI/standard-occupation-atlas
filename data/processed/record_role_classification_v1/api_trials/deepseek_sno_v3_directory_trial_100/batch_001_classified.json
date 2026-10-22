@@ -1,0 +1,153 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-batch-v1",
+  "batch_number": 1,
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 20,
+  "response_metadata": {
+    "request_id": "44e67e53-f158-4ce7-827d-ed419d675a9b",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791832215,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 16123,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 16123,
+    "output_tokens": 935,
+    "reasoning_tokens": 0,
+    "total_tokens": 17058
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00297945
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-142a6a0c7fd85c77a653",
+      "status": "mapped",
+      "target_category_id": "L03-03",
+      "reason": "通信网络运维属企业网络运行维护"
+    },
+    {
+      "occupation_id": "SNO-19b7e6668ce6eadf9d5f",
+      "status": "mapped",
+      "target_category_id": "L05-02-03",
+      "reason": "CPU IP验证属芯片设计验证"
+    },
+    {
+      "occupation_id": "SNO-d1af927837398df0da3d",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "reason": "市场职能方向未明，归通用市场营销"
+    },
+    {
+      "occupation_id": "SNO-39a924b725bec1208288",
+      "status": "mapped",
+      "target_category_id": "L19-01",
+      "reason": "会计专员属会计核算"
+    },
+    {
+      "occupation_id": "SNO-1c1d5e776a3e369d86a2",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "reason": "招聘批次说明文字，非岗位名称"
+    },
+    {
+      "occupation_id": "SNO-fd53b86bbab3f0c4fc37",
+      "status": "mapped",
+      "target_category_id": "L21-01-02",
+      "reason": "外科医师属外科与手术诊疗"
+    },
+    {
+      "occupation_id": "SNO-76216600279c895f3d7b",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "reason": "电气工程师属电气工程"
+    },
+    {
+      "occupation_id": "SNO-869c600119685247c114",
+      "status": "mapped",
+      "target_category_id": "L14-07",
+      "reason": "客服培训生属客服与客户支持"
+    },
+    {
+      "occupation_id": "SNO-22b51b65e4b0767a3b10",
+      "status": "mapped",
+      "target_category_id": "L04-03-01",
+      "reason": "DQE为设计质量工程，属过程质量管理"
+    },
+    {
+      "occupation_id": "SNO-ddfc61f055c9d52b6b4c",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "含语文英语物理化学地理多学科教师"
+    },
+    {
+      "occupation_id": "SNO-ff3014992f3f2405a5f2",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "reason": "燃烧室设计属热流体与动力工程"
+    },
+    {
+      "occupation_id": "SNO-512bfb7e1b0de33fe20f",
+      "status": "mapped",
+      "target_category_id": "L06-03-02",
+      "reason": "车辆控制工程师属底盘与车辆工程"
+    },
+    {
+      "occupation_id": "SNO-d2e913e342d9f76cd823",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "数字化仿真方向不明，无法确定归属"
+    },
+    {
+      "occupation_id": "SNO-5574ea8bd6b623356ccd",
+      "status": "mapped",
+      "target_category_id": "L16-04",
+      "reason": "国际贸易经理属进出口与贸易执行"
+    },
+    {
+      "occupation_id": "SNO-18b965c9c5b9e53030cc",
+      "status": "mapped",
+      "target_category_id": "L23-09-02",
+      "reason": "设备技术员属工业设备维修保全"
+    },
+    {
+      "occupation_id": "SNO-96d890047d86358d7739",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "reason": "动力总成研发属动力工程"
+    },
+    {
+      "occupation_id": "SNO-0f7a6e58e0396fa5a5d3",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "reason": "总装工艺员属制造制程工程"
+    },
+    {
+      "occupation_id": "SNO-1f45fd778a1c2fee3330",
+      "status": "mapped",
+      "target_category_id": "L03-05-01",
+      "reason": "安全研究工程师属安全攻防与漏洞研究"
+    },
+    {
+      "occupation_id": "SNO-4148c03ab66b5a3c7e86",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "reason": "社媒运营属内容与新媒体运营"
+    },
+    {
+      "occupation_id": "SNO-eb279b03901806c234c1",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "reason": "电气类管培生属跨职能管理培训轮岗"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_008_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-e11eeca361a5252ac60a",
+      "verdict": "pass",
+      "suggested_target_category_id": "L23-10",
+      "issue": "标题“生产技术”明确生产制造职能但具体工种未说明，归通用生产技术与作业符合目录范围。"
+    },
+    {
+      "occupation_id": "SNO-871c94bf8fa894de8d42",
+      "verdict": "pass",
+      "suggested_target_category_id": "L32-01",
+      "issue": "“EGG管培生”仅能确认管培生身份，无法确定具体专业职能，归综合培养与轮岗岗位合理；候选类别未被当作最终目标。"
+    },
+    {
+      "occupation_id": "SNO-dde28d3ac66cd93e91d5",
+      "verdict": "pass",
+      "suggested_target_category_id": "L18-03",
+      "issue": "标题“组织管理”明确组织管理职能，归人才发展与组织发展符合目录范围。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11383,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 631,
+    "output_tokens": 201,
+    "reasoning_tokens": 0,
+    "total_tokens": 11584
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000247506
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

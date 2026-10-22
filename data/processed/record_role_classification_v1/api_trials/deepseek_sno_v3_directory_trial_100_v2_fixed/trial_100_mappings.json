@@ -1,0 +1,614 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-mappings-v1",
+  "taxonomy_version": "sno-v3-directory-design",
+  "sample_size": 100,
+  "status_counts": {
+    "mapped": 67,
+    "review": 30,
+    "non_role_text": 2,
+    "multi_role": 1
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-142a6a0c7fd85c77a653",
+      "status": "mapped",
+      "target_category_id": "L03-03",
+      "reason": "标题明确通信网络运维，核心为网络设备配置与运行维护，归网络工程与运维。"
+    },
+    {
+      "occupation_id": "SNO-19b7e6668ce6eadf9d5f",
+      "status": "mapped",
+      "target_category_id": "L05-02-03",
+      "reason": "CPU IP验证属芯片设计阶段功能验证，标题明确芯片验证方向。"
+    },
+    {
+      "occupation_id": "SNO-d1af927837398df0da3d",
+      "status": "review",
+      "target_category_id": "L12-07",
+      "reason": "仅“市场职能”，未说明策略、品牌、投放或公关等具体方向，证据不足。"
+    },
+    {
+      "occupation_id": "SNO-39a924b725bec1208288",
+      "status": "mapped",
+      "target_category_id": "L19-01",
+      "reason": "会计专员属财务会计核算，标题未细分总账成本往来，归会计核算二级。"
+    },
+    {
+      "occupation_id": "SNO-1c1d5e776a3e369d86a2",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "reason": "标题为招聘批次说明，非岗位名称，无职业职能信息。"
+    },
+    {
+      "occupation_id": "SNO-fd53b86bbab3f0c4fc37",
+      "status": "mapped",
+      "target_category_id": "L21-01-02",
+      "reason": "外科医师明确外科手术诊疗，归外科与手术诊疗。"
+    },
+    {
+      "occupation_id": "SNO-76216600279c895f3d7b",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "reason": "电气工程师核心为电气专业，交付技术为场景标签，归电气工程。"
+    },
+    {
+      "occupation_id": "SNO-869c600119685247c114",
+      "status": "mapped",
+      "target_category_id": "L14-07",
+      "reason": "客服培训生专业方向为客服，培养身份仅标签，归客服与客户支持。"
+    },
+    {
+      "occupation_id": "SNO-22b51b65e4b0767a3b10",
+      "status": "mapped",
+      "target_category_id": "L04-03",
+      "reason": "DQE为质量工程师，电气为产品领域标签，归生产质量管理。"
+    },
+    {
+      "occupation_id": "SNO-ddfc61f055c9d52b6b4c",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "标题含语文、英语、物理、化学、地理多个学科教师岗位，属多岗位。"
+    },
+    {
+      "occupation_id": "SNO-ff3014992f3f2405a5f2",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "reason": "燃烧室设计属热流体与动力工程，标题明确燃烧室专业方向。"
+    },
+    {
+      "occupation_id": "SNO-512bfb7e1b0de33fe20f",
+      "status": "mapped",
+      "target_category_id": "L06-03",
+      "reason": "车辆控制工程师属车辆与交通装备工程，标题明确车辆控制方向。"
+    },
+    {
+      "occupation_id": "SNO-d2e913e342d9f76cd823",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "数字化仿真应用未说明仿真对象与领域，无法确定归研发还是IT等。"
+    },
+    {
+      "occupation_id": "SNO-5574ea8bd6b623356ccd",
+      "status": "mapped",
+      "target_category_id": "L16-04",
+      "reason": "国际贸易经理核心为国际贸易履约与外贸业务，归进出口与贸易执行。"
+    },
+    {
+      "occupation_id": "SNO-18b965c9c5b9e53030cc",
+      "status": "mapped",
+      "target_category_id": "L23-09",
+      "reason": "设备技术员通常为工业设备安装维修保全，标题未明确客户售后。"
+    },
+    {
+      "occupation_id": "SNO-96d890047d86358d7739",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "reason": "动力总成研发属动力工程，标题明确动力总成方向。"
+    },
+    {
+      "occupation_id": "SNO-0f7a6e58e0396fa5a5d3",
+      "status": "mapped",
+      "target_category_id": "L06-08-02",
+      "reason": "总装工艺员属制造工艺，总装为生产导入环节，归工业化与生产导入。"
+    },
+    {
+      "occupation_id": "SNO-1f45fd778a1c2fee3330",
+      "status": "review",
+      "target_category_id": "L03-05",
+      "reason": "安全研究工程师未说明是安全攻防、算法还是其他，方向证据不足。"
+    },
+    {
+      "occupation_id": "SNO-4148c03ab66b5a3c7e86",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "reason": "社媒运营核心为内容与新媒体运营，日语为语言标签。"
+    },
+    {
+      "occupation_id": "SNO-eb279b03901806c234c1",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "reason": "电气类管培生专业方向明确为电气，培养身份仅标签，归电气工程。"
+    },
+    {
+      "occupation_id": "SNO-d92d4a0afc2c7e920354",
+      "status": "review",
+      "target_category_id": "L14-01",
+      "reason": "标题仅“专区运营”，未说明专区对象（电商/游戏/平台），无法确定二级运营方向。"
+    },
+    {
+      "occupation_id": "SNO-d34cf0bb21a90c4eee42",
+      "status": "mapped",
+      "target_category_id": "L14-09-01",
+      "reason": "“供应链解决方案工程师”核心为售前需求诊断与方案设计，归售前解决方案设计。"
+    },
+    {
+      "occupation_id": "SNO-5f43b78cf7549e2ea3a4",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "reason": "“算法工程师”核心为算法研发，安全方向为应用领域，二级归机器学习与算法研发。"
+    },
+    {
+      "occupation_id": "SNO-b12ff0d486dd937b291b",
+      "status": "review",
+      "target_category_id": "L13-09",
+      "reason": "“国内业务管理专员”未说明客户类型与销售职责，销售与业务运营方向不明。"
+    },
+    {
+      "occupation_id": "SNO-27e63eba60eb4d40d1ac",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "reason": "“结构材料工程师”核心为结构设计，材料为对象，归机械与结构设计。"
+    },
+    {
+      "occupation_id": "SNO-3e62029d76df087822b2",
+      "status": "mapped",
+      "target_category_id": "L22-02-02",
+      "reason": "“初中物理教师”明确物理学科教学，归数学与自然科学教学。"
+    },
+    {
+      "occupation_id": "SNO-49e5d5a10ab7fd7da7dd",
+      "status": "review",
+      "target_category_id": "L06-04",
+      "reason": "“材料基因工程师”方向不明，材料研发与计算/数据方法均可能，缺少具体职责。"
+    },
+    {
+      "occupation_id": "SNO-49ed7f695146c6e75112",
+      "status": "mapped",
+      "target_category_id": "L04-02",
+      "reason": "“环境可靠性工程师”核心为产品环境可靠性测试验证，归硬件与产品测试。"
+    },
+    {
+      "occupation_id": "SNO-d1cfe446eeb551c2e1f2",
+      "status": "mapped",
+      "target_category_id": "L31-01",
+      "reason": "“市场综合监管辅助员”属公共行政监管辅助，归公共事务与基层治理。"
+    },
+    {
+      "occupation_id": "SNO-7dc9e0fc04e3c2a69224",
+      "status": "review",
+      "target_category_id": "L22-06",
+      "reason": "“教育服务助理”未说明教学、教务或学员服务具体方向，证据不足。"
+    },
+    {
+      "occupation_id": "SNO-1303fde314c3e122be68",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "reason": "“社媒运营经理”核心为内容与新媒体账号运营，海外西葡为语言标签。"
+    },
+    {
+      "occupation_id": "SNO-a47b055ca7ccc6f1a475",
+      "status": "mapped",
+      "target_category_id": "L04-03-03",
+      "reason": "“软体家具质检Qc”核心为产品质量检验，管培生为培养身份标签。"
+    },
+    {
+      "occupation_id": "SNO-e77e5a9120d0e52cbf8c",
+      "status": "mapped",
+      "target_category_id": "L05-01-01",
+      "reason": "“电源设计工程师”核心为电路与板级电源硬件设计，归电路与板级设计。"
+    },
+    {
+      "occupation_id": "SNO-2763e7df87bfddf62a76",
+      "status": "review",
+      "target_category_id": "L13-09",
+      "reason": "“内贸业务”未说明客户类型与销售职责，销售方向不明确。"
+    },
+    {
+      "occupation_id": "SNO-ac05f2f92fe9337ef6e6",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "reason": "“工艺实验室培训生”核心为制造制程工艺，培训生为培养身份标签。"
+    },
+    {
+      "occupation_id": "SNO-e98479e69fcbd3b4d3ef",
+      "status": "mapped",
+      "target_category_id": "L02-07-01",
+      "reason": "“训练推理优化算法工程师”核心为模型推理优化与服务部署。"
+    },
+    {
+      "occupation_id": "SNO-6e9243e293d1fb83d9c1",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "reason": "“AI游戏内容运营”核心为内容运营，AI与游戏为对象标签。"
+    },
+    {
+      "occupation_id": "SNO-35347c0451abe64eba4c",
+      "status": "mapped",
+      "target_category_id": "L02-07-01",
+      "reason": "“AI推理工程师”核心为模型推理服务与部署优化。"
+    },
+    {
+      "occupation_id": "SNO-3954f99d48d0d086082a",
+      "status": "mapped",
+      "target_category_id": "L03-08",
+      "reason": "“系统建设运维及数据管理”核心为IT运维与数据管理，方向未细分。"
+    },
+    {
+      "occupation_id": "SNO-d97c7f5733d3e52d2a45",
+      "status": "mapped",
+      "target_category_id": "L20-01-01",
+      "reason": "“宏观研究员”核心为证券市场宏观研究，归证券与市场研究。"
+    },
+    {
+      "occupation_id": "SNO-1838711f7b15f0cf9ba1",
+      "status": "mapped",
+      "target_category_id": "L30-02",
+      "reason": "标题“公司本部法务”明确企业法务职能，归企业法务。"
+    },
+    {
+      "occupation_id": "SNO-1ee0cba93e878e612df1",
+      "status": "review",
+      "target_category_id": "L06-08",
+      "reason": "“工艺设备”可指工艺或设备，标题未说明是工艺工程还是设备设计维修。"
+    },
+    {
+      "occupation_id": "SNO-246a72f535b0fb633f71",
+      "status": "review",
+      "target_category_id": "L13-02",
+      "reason": "“零售金融市场营销”含零售金融与市场营销，未明确是个人客户销售还是市场策划。"
+    },
+    {
+      "occupation_id": "SNO-4d430387182dba25e4fb",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "reason": "标题“市场营销员”明确市场职能，但未说明策略、品牌或投放方向。"
+    },
+    {
+      "occupation_id": "SNO-133566bc51aa96f3062c",
+      "status": "mapped",
+      "target_category_id": "L04-03",
+      "reason": "“质量技术师”明确质量技术职能，制造质量方向未细分到三级。"
+    },
+    {
+      "occupation_id": "SNO-32e09c84e82e718ed544",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "reason": "“管培生”且含财务管理、项目管理方向，属跨职能培养轮岗。"
+    },
+    {
+      "occupation_id": "SNO-6aa8f49cc992dfd75a11",
+      "status": "review",
+      "target_category_id": "L04-06",
+      "reason": "标题仅“测试”，未说明软件、硬件或生产质量测试方向。"
+    },
+    {
+      "occupation_id": "SNO-e8ec877c8da553d3c55b",
+      "status": "mapped",
+      "target_category_id": "L21-01",
+      "reason": "标题“医生”明确临床诊疗职能，但未说明具体专科。"
+    },
+    {
+      "occupation_id": "SNO-afa906e58fbae1a1ec23",
+      "status": "review",
+      "target_category_id": "L20-02",
+      "reason": "“投后管理”可能属投资管理或企业经营管理，标题缺少具体职责证据。"
+    },
+    {
+      "occupation_id": "SNO-0ec7605e63aece2ec4af",
+      "status": "review",
+      "target_category_id": "L01-11",
+      "reason": "“/ERBP研发人员”含研发但缩写不明，无法判断具体研发方向。"
+    },
+    {
+      "occupation_id": "SNO-b8b67433bb430ff655d7",
+      "status": "mapped",
+      "target_category_id": "L12-04",
+      "reason": "“媒介助理”明确媒介关系方向，助理为身份标签。"
+    },
+    {
+      "occupation_id": "SNO-dc86ef160a514ebc2b8c",
+      "status": "review",
+      "target_category_id": "L06-01",
+      "reason": "“机务工程师”可能指航空机务或机械设备，标题缺少行业与职责证据。"
+    },
+    {
+      "occupation_id": "SNO-fc42de8ced809920dbb0",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "reason": "“管培生专项计划”为正式培养项目，未指定最终职业方向。"
+    },
+    {
+      "occupation_id": "SNO-c3497b19b50f99cfbbbe",
+      "status": "review",
+      "target_category_id": "L11-07",
+      "reason": "“业务管理”过于宽泛，未说明经营、销售或运营等具体职能。"
+    },
+    {
+      "occupation_id": "SNO-a06b900e474184960f35",
+      "status": "mapped",
+      "target_category_id": "L09-08",
+      "reason": "“创意设计师”明确设计职能，但未说明视觉、产品还是空间方向。"
+    },
+    {
+      "occupation_id": "SNO-be992e432c8abf4f0cc3",
+      "status": "review",
+      "target_category_id": "L14-11",
+      "reason": "“线上运营主管”未说明运营对象，无法判断产品、用户或电商运营。"
+    },
+    {
+      "occupation_id": "SNO-51f5e780348980537922",
+      "status": "review",
+      "target_category_id": "L06-08",
+      "reason": "“智能制造专员”可能属制造工艺、设备或信息化，标题缺少具体职责。"
+    },
+    {
+      "occupation_id": "SNO-333fdf9f05504bdf318d",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "reason": "“助理软件工程师”明确软件开发，但未说明前后端或技术方向。"
+    },
+    {
+      "occupation_id": "SNO-ed36359f03cb66de8943",
+      "status": "mapped",
+      "target_category_id": "L01-07",
+      "reason": "标题明确国产CAD/CAM软件核心模块设计开发，属系统与基础软件研发。"
+    },
+    {
+      "occupation_id": "SNO-2ef446313012ae14a0d6",
+      "status": "review",
+      "target_category_id": "L10-06",
+      "reason": "“计划控制工程师”可能属项目计划或生产计划，标题缺少领域证据。"
+    },
+    {
+      "occupation_id": "SNO-3278ea5e459dd3a6833e",
+      "status": "review",
+      "target_category_id": "L20-07",
+      "reason": "“风控”指向金融风险，但“创优生”为培养身份，标题未说明具体风控方向，需确认信用、市场或反欺诈。"
+    },
+    {
+      "occupation_id": "SNO-c03f8539d51207af0c9d",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "reason": "“算法集成工程师”核心为算法研发，标题未说明视觉、NLP等具体方向，归机器学习与算法研发二级。"
+    },
+    {
+      "occupation_id": "SNO-f695c0780e0d47200402",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "reason": "“光学算法工程师”核心为算法研发，但标题未明确视觉、NLP等三级方向，归算法研发二级。"
+    },
+    {
+      "occupation_id": "SNO-3b2136e836af1dba2456",
+      "status": "mapped",
+      "target_category_id": "L05-02-03",
+      "reason": "“DFT可测性设计工程师”明确为芯片设计阶段的可测性设计验证，归芯片设计验证三级。"
+    },
+    {
+      "occupation_id": "SNO-fe326e2a66e9de2a564e",
+      "status": "review",
+      "target_category_id": "L04-04",
+      "reason": "“检测员”仅表明检验检测职能，标题未说明物理、化学或计量等具体检测方向。"
+    },
+    {
+      "occupation_id": "SNO-89a4e92af365046c381f",
+      "status": "mapped",
+      "target_category_id": "L20-03",
+      "reason": "“股权融资及财务顾问”核心为股权融资与资本市场业务，归投行业务与资本市场。"
+    },
+    {
+      "occupation_id": "SNO-25610785c7097a11c51f",
+      "status": "review",
+      "target_category_id": "L22-02",
+      "reason": "“专业课教师”明确教学职能，但标题未说明具体学科，无法确定语言、数学或人文等三级。"
+    },
+    {
+      "occupation_id": "SNO-3820b0a9f1fc2ec4b9d5",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "reason": "“硬件研发工程师”核心为电子硬件研发，标题未说明电路板级或系统集成，归电子硬件研发二级。"
+    },
+    {
+      "occupation_id": "SNO-969c4b609b7d6b9c231c",
+      "status": "mapped",
+      "target_category_id": "L18-06",
+      "reason": "“总经办总裁助理”核心为高管秘书助理与文书事务，归秘书助理与文书事务。"
+    },
+    {
+      "occupation_id": "SNO-f798f466da536c71f5e0",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "reason": "“管培生岗位(研发、职能、商业化、生产&供应链)”明确跨职能轮岗培养，归跨职能管理培训与轮岗。"
+    },
+    {
+      "occupation_id": "SNO-eb948c14cc98114d8a6b",
+      "status": "mapped",
+      "target_category_id": "L20-03",
+      "reason": "“证券事务经理”核心为上市公司资本市场事务，归投行业务与资本市场。"
+    },
+    {
+      "occupation_id": "SNO-d4bfaa71f3fd126a2ed1",
+      "status": "mapped",
+      "target_category_id": "L22-05",
+      "reason": "“教学科研岗”且列明政治学、社会学、心理学等学科，核心为高等教育教学，归高等教育教学。"
+    },
+    {
+      "occupation_id": "SNO-2c46ed9676c2ed0f87ee",
+      "status": "review",
+      "target_category_id": "L13-02",
+      "reason": "“理财经理”可能为个人金融销售或客户服务，标题未说明销售、金融业务或服务方向。"
+    },
+    {
+      "occupation_id": "SNO-2ce8813b2951bcfa826a",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "reason": "“人力资源储备”核心为人力资源职能，储备为培养身份，归人力资源综合管理。"
+    },
+    {
+      "occupation_id": "SNO-7aa8337f42c770081967",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“基础设施互联互通促进中心专技”未说明具体专业技术方向，无法判断职业职能。"
+    },
+    {
+      "occupation_id": "SNO-7be74dbf3e482a24ab2d",
+      "status": "mapped",
+      "target_category_id": "L29-06",
+      "reason": "“私人教练团课全职/兼职教练”核心为个人健身训练与运动指导，归健身与运动指导。"
+    },
+    {
+      "occupation_id": "SNO-7ddaeffb4285624bbfed",
+      "status": "mapped",
+      "target_category_id": "L25-03",
+      "reason": "“油气储运与新能源开发”核心为能源系统与工艺工程，归能源系统与工艺工程。"
+    },
+    {
+      "occupation_id": "SNO-bc8d911bdde59f0aabf1",
+      "status": "mapped",
+      "target_category_id": "L30-03",
+      "reason": "“财务内控”核心为内部控制与合规，归合规与内部控制。"
+    },
+    {
+      "occupation_id": "SNO-1ee6e8b56f32b3181ae8",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "reason": "“算法工程师(媒体算法)”核心为算法研发，媒体算法未明确视觉、NLP等三级，归算法研发二级。"
+    },
+    {
+      "occupation_id": "SNO-85d56bf4d4229ac85b31",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“工程”过于宽泛，未说明软件、硬件、建筑或制造等具体工程方向，无法归类。"
+    },
+    {
+      "occupation_id": "SNO-036b2f67b7c481989cb9",
+      "status": "mapped",
+      "target_category_id": "L12-04",
+      "reason": "标题“新闻宣传”核心为新闻宣传与公关传播，归公关与媒介关系。"
+    },
+    {
+      "occupation_id": "SNO-1476ab7132e27b3b52f9",
+      "status": "review",
+      "target_category_id": "L04-04",
+      "reason": "“检测技术等”仅表明检测方向，未说明是产品测试、检验检测还是其他领域。"
+    },
+    {
+      "occupation_id": "SNO-8972962f317be77a6636",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "reason": "标题“生产调度工程师”核心为生产计划与现场调度，归生产计划与现场管理。"
+    },
+    {
+      "occupation_id": "SNO-09956061a81b7808defe",
+      "status": "mapped",
+      "target_category_id": "L23-02",
+      "reason": "标题“生产制造员”明确为一般生产制造作业，归装配与一般生产作业。"
+    },
+    {
+      "occupation_id": "SNO-1080766dda240d9f40f4",
+      "status": "review",
+      "target_category_id": "L14-10",
+      "reason": "“售后助理”可能为售后技术服务或客户支持，标题缺少具体职责证据。"
+    },
+    {
+      "occupation_id": "SNO-728bc2389338077e635f",
+      "status": "mapped",
+      "target_category_id": "L30-05",
+      "reason": "标题“法律事务相关”明确法律职能但方向未说明，归通用法律与合规工作。"
+    },
+    {
+      "occupation_id": "SNO-d0f517b7491e0cda26c2",
+      "status": "mapped",
+      "target_category_id": "L30-03",
+      "reason": "标题“法务风控岗”核心为合规与风险控制，归合规与内部控制。"
+    },
+    {
+      "occupation_id": "SNO-412c6d36ed5c331b18ca",
+      "status": "review",
+      "target_category_id": "L14-09",
+      "reason": "“方案解决高级工程师”可能为售前解决方案或技术研发，标题缺少具体方向。"
+    },
+    {
+      "occupation_id": "SNO-e6d1a4c799fe50b4446b",
+      "status": "mapped",
+      "target_category_id": "L15-03-01",
+      "reason": "标题“文案实习生”核心为商业文案创作，语言仅作标签，归商业文案。"
+    },
+    {
+      "occupation_id": "SNO-1e56d7605dec22111d2b",
+      "status": "review",
+      "target_category_id": "L30-05",
+      "reason": "“企管法规”可能为企业管理法规或法务合规，标题缺少具体职能证据。"
+    },
+    {
+      "occupation_id": "SNO-990a2d3c791707b2e775",
+      "status": "mapped",
+      "target_category_id": "L16-04",
+      "reason": "标题“化工外贸业务员”核心为外贸业务执行，归进出口与贸易执行。"
+    },
+    {
+      "occupation_id": "SNO-919ea4e5168775cd451c",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "reason": "“支撑”不是岗位名称，无法识别职业职能。"
+    },
+    {
+      "occupation_id": "SNO-60a6932da8bc0fb9a9cb",
+      "status": "mapped",
+      "target_category_id": "L01-06",
+      "reason": "标题“机器人系统开发工程师”核心为机器人嵌入式系统开发，归嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-14a4bd81059099693d70",
+      "status": "mapped",
+      "target_category_id": "L16-03",
+      "reason": "标题“客户订单计划员”核心为订单与需求计划，归需求与物料计划。"
+    },
+    {
+      "occupation_id": "SNO-33c886a363ccb7000512",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "reason": "标题“零售管培生职能定向生”为跨职能培养项目，最终方向未定，归跨职能管理培训与轮岗。"
+    },
+    {
+      "occupation_id": "SNO-117dba594b0d6e53eb1d",
+      "status": "mapped",
+      "target_category_id": "L13-02",
+      "reason": "标题“分行营销培训生(零售金融方向)”明确零售金融个人客户销售方向，归个人客户销售。"
+    },
+    {
+      "occupation_id": "SNO-34d86fa9c3f1f82c24cc",
+      "status": "review",
+      "target_category_id": "L30-03",
+      "reason": "“纪检”可能为合规监督或公共事务，标题缺少具体职能证据。"
+    },
+    {
+      "occupation_id": "SNO-2796afcf7a07b87d58c6",
+      "status": "review",
+      "target_category_id": "L04-04",
+      "reason": "“样品管理员”可能为实验室样品管理或生产物料管理，标题缺少具体场景。"
+    },
+    {
+      "occupation_id": "SNO-e31af1e216b33714e647",
+      "status": "mapped",
+      "target_category_id": "L12-01-02",
+      "reason": "标题“市场推广专员”核心为市场推广活动执行，归营销活动策划。"
+    },
+    {
+      "occupation_id": "SNO-435aa6a2a3ed64664fa6",
+      "status": "mapped",
+      "target_category_id": "L20-08",
+      "reason": "标题“分行运营培训生”明确银行运营方向，归金融运营与交易清算。"
+    }
+  ],
+  "non_production": true
+}

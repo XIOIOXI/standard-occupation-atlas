@@ -1,0 +1,351 @@
+{
+  "results": [
+    {
+      "occupation_id": "CR-4d73be6ee0a567964416",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "其他岗位",
+      "level_3_evidence": null,
+      "reason": "标题为“其他岗位”，完全没有职能线索，无法判断职业方向。"
+    },
+    {
+      "occupation_id": "CR-86277580f9dc4c2432de",
+      "status": "mapped",
+      "target_category_id": "L06-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-07",
+        "L06-09"
+      ],
+      "title_evidence": "无人系统研制",
+      "level_3_evidence": null,
+      "reason": "无人系统研制通常涉及无人机、无人车等交通装备或工业装备的系统集成与研发，最直接归入车辆与交通装备工程。"
+    },
+    {
+      "occupation_id": "CR-4d2e614df2e6c505c29f",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-06",
+        "L05-07"
+      ],
+      "title_evidence": "计算机及电子系统研制",
+      "level_3_evidence": null,
+      "reason": "标题明确包含电子系统研制，核心职能为电子硬件研发，归入电子硬件研发。"
+    },
+    {
+      "occupation_id": "CR-4ecff5ad683096133e15",
+      "status": "mapped",
+      "target_category_id": "L12-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L14-09"
+      ],
+      "title_evidence": "营销工程师",
+      "level_3_evidence": null,
+      "reason": "营销工程师核心职能为市场策略与营销策划，归入市场策略与营销策划。"
+    },
+    {
+      "occupation_id": "CR-b24f08848b80a739704c",
+      "status": "mapped",
+      "target_category_id": "L13-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L14-08",
+        "L13-01-01"
+      ],
+      "title_evidence": "客户管理",
+      "level_3_evidence": "客户管理通常指对既有客户关系的维护与业务扩展，符合重点客户管理。",
+      "reason": "客户管理最直接对应企业客户销售中的重点客户管理。"
+    },
+    {
+      "occupation_id": "CR-58380ee7b6c174459dd2",
+      "status": "mapped",
+      "target_category_id": "L20-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L19-04",
+        "L20-09"
+      ],
+      "title_evidence": "资产管理",
+      "level_3_evidence": "资产管理通常指投资组合与资产管理，符合投资组合与资产管理。",
+      "reason": "资产管理最直接对应金融投资与风险业务下的投资组合与资产管理。"
+    },
+    {
+      "occupation_id": "CR-d4ecb0a37cb20bc70711",
+      "status": "mapped",
+      "target_category_id": "L04-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-01",
+        "L07-03"
+      ],
+      "title_evidence": "分析技术员",
+      "level_3_evidence": null,
+      "reason": "分析技术员通常指实验室或检测分析技术操作，归入检验检测与实验分析。"
+    },
+    {
+      "occupation_id": "CR-92c40c0ab1569a0588b8",
+      "status": "mapped",
+      "target_category_id": "L04-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-01",
+        "L04-02"
+      ],
+      "title_evidence": "测试技术员",
+      "level_3_evidence": null,
+      "reason": "测试技术员职能明确为测试，但未说明软件或硬件方向，归入通用测试与质量工作。"
+    },
+    {
+      "occupation_id": "CR-f61c819a3f07d042852a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L06-09",
+        "L05-07"
+      ],
+      "title_evidence": "技术&研发类",
+      "level_3_evidence": null,
+      "reason": "标题仅表明技术研发大类，未说明具体技术领域，无法确定唯一二级方向。"
+    },
+    {
+      "occupation_id": "CR-25b451fcb91ae8540482",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L19-08",
+        "L30-05"
+      ],
+      "title_evidence": "职能类",
+      "level_3_evidence": null,
+      "reason": "职能类为宽泛分类，未说明具体职能方向，无法确定唯一目标。"
+    },
+    {
+      "occupation_id": "CR-ce68049e245fe0b967fe",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-09",
+        "L03-08"
+      ],
+      "title_evidence": "信息科技类校招生",
+      "level_3_evidence": null,
+      "reason": "信息科技类校招生通常指软件开发方向，但未说明具体技术栈，归入通用软件研发。"
+    },
+    {
+      "occupation_id": "CR-60f9a8f3d59b14e2eb20",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L14-11"
+      ],
+      "title_evidence": "市场营销类校招生",
+      "level_3_evidence": null,
+      "reason": "市场营销类校招生职能明确为市场营销，但未说明具体方向，归入通用市场营销。"
+    },
+    {
+      "occupation_id": "CR-57ebe653ebfdfd850ddd",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L02-01",
+        "L19-03",
+        "L11-05"
+      ],
+      "title_evidence": "分析",
+      "level_3_evidence": null,
+      "reason": "标题仅为“分析”，未说明分析领域，无法确定唯一目标。"
+    },
+    {
+      "occupation_id": "CR-135bff82a63baea65b73",
+      "status": "mapped",
+      "target_category_id": "L02-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-05",
+        "L02-06"
+      ],
+      "title_evidence": "人工智能",
+      "level_3_evidence": null,
+      "reason": "人工智能职能明确，但未说明具体方向，归入通用数据与人工智能工作。"
+    },
+    {
+      "occupation_id": "CR-630a14f9dc2b373087e7",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-02",
+        "L01-01"
+      ],
+      "title_evidence": "应用开发",
+      "level_3_evidence": null,
+      "reason": "应用开发通常指软件开发，但未说明前后端方向，归入通用软件研发。"
+    },
+    {
+      "occupation_id": "CR-5ec7d1859872264fe436",
+      "status": "mapped",
+      "target_category_id": "L08-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-01",
+        "L08-02"
+      ],
+      "title_evidence": "产品经理",
+      "level_3_evidence": null,
+      "reason": "产品经理职能明确为产品规划管理，但未说明产品类型，归入通用产品规划。"
+    },
+    {
+      "occupation_id": "CR-5dc17d2705068c3f7c3a",
+      "status": "mapped",
+      "target_category_id": "L04-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-01",
+        "L04-03"
+      ],
+      "title_evidence": "质量",
+      "level_3_evidence": null,
+      "reason": "质量职能明确，但未说明是软件测试还是生产质量，归入通用测试与质量工作。"
+    },
+    {
+      "occupation_id": "CR-d767cfc0119b43129913",
+      "status": "mapped",
+      "target_category_id": "L16-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-02",
+        "L23-01"
+      ],
+      "title_evidence": "计划",
+      "level_3_evidence": null,
+      "reason": "计划通常指需求与物料计划，归入需求与物料计划。"
+    },
+    {
+      "occupation_id": "CR-a04877ff95fbbc6056cc",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L06-09",
+        "L05-07"
+      ],
+      "title_evidence": "研发类",
+      "level_3_evidence": null,
+      "reason": "研发类为宽泛分类，未说明具体研发领域，无法确定唯一目标。"
+    },
+    {
+      "occupation_id": "CR-f1728b5f0e1dbe3ddf5a",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-01",
+        "L12-02"
+      ],
+      "title_evidence": "市场类",
+      "level_3_evidence": null,
+      "reason": "市场类职能明确为市场营销，但未说明具体方向，归入通用市场营销。"
+    },
+    {
+      "occupation_id": "CR-66a5c6bc87357179536e",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L19-08",
+        "L30-05"
+      ],
+      "title_evidence": "职能类",
+      "level_3_evidence": null,
+      "reason": "职能类为宽泛分类，未说明具体职能方向，无法确定唯一目标。"
+    },
+    {
+      "occupation_id": "CR-6a04d8d7ab276f7e9fc8",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "国内",
+      "level_3_evidence": null,
+      "reason": "标题仅为“国内”，完全没有职能线索，无法判断职业方向。"
+    },
+    {
+      "occupation_id": "CR-2047cb8174e92d73c749",
+      "status": "mapped",
+      "target_category_id": "L13-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-06",
+        "L16-04"
+      ],
+      "title_evidence": "国际市场类",
+      "level_3_evidence": null,
+      "reason": "国际市场类通常指国际商务拓展与合作，归入商务拓展与合作。"
+    },
+    {
+      "occupation_id": "CR-f97768af2e196bf1a576",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "专业类",
+      "level_3_evidence": null,
+      "reason": "标题仅为“专业类”，完全没有职能线索，无法判断职业方向。"
+    },
+    {
+      "occupation_id": "CR-69bbbbcdc5d110d8a526",
+      "status": "mapped",
+      "target_category_id": "L12-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L12-01"
+      ],
+      "title_evidence": "推广代表",
+      "level_3_evidence": null,
+      "reason": "推广代表核心职能为渠道市场与商务推广，归入渠道市场与商务推广。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17560,
+    "cached_input_tokens": 17408,
+    "uncached_input_tokens": 152,
+    "output_tokens": 2963,
+    "reasoning_tokens": 0,
+    "total_tokens": 20523
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001852824
+  },
+  "response_metadata": {
+    "request_id": "f30bf286-fd8e-42c1-912e-51441958ccd4",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791895475,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

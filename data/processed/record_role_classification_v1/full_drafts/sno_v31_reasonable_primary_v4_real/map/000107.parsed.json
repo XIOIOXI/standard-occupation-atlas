@@ -1,0 +1,266 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-12ad64e6e8b0b884e0b8",
+      "status": "mapped",
+      "target_category_id": "L15-11-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L15-11-01",
+        "L15-11-02"
+      ],
+      "title_evidence": "法语翻译",
+      "level_3_evidence": "笔译与本地化",
+      "reason": "标题明确为翻译，法语为语种标签，未指明口译，默认归笔译与本地化。"
+    },
+    {
+      "occupation_id": "TG-aeae1edb90a6c5f36d94",
+      "status": "mapped",
+      "target_category_id": "L22-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L22-02-02"
+      ],
+      "title_evidence": "数学主讲老师",
+      "level_3_evidence": "数学与自然科学教学",
+      "reason": "标题明确为数学教学，主讲老师属于学科教学，归数学与自然科学教学。"
+    },
+    {
+      "occupation_id": "TG-7b8bd25db8e243384fcd",
+      "status": "mapped",
+      "target_category_id": "L23-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-03"
+      ],
+      "title_evidence": "CNC数控工程师（机械、机电、自动化等相关专业）",
+      "level_3_evidence": null,
+      "reason": "标题明确为CNC数控工程师，属于机械加工与数控操作，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-63308ebe787b85954748",
+      "status": "mapped",
+      "target_category_id": "L05-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-02"
+      ],
+      "title_evidence": "芯片研发岗",
+      "level_3_evidence": null,
+      "reason": "标题明确为芯片研发，属于芯片与集成电路设计，未指明具体设计方向，停在二级。"
+    },
+    {
+      "occupation_id": "TG-04f29da544bb92f9c4b8",
+      "status": "mapped",
+      "target_category_id": "L24-12-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L24-12-02"
+      ],
+      "title_evidence": "公共设施工程师",
+      "level_3_evidence": "建筑设施维护",
+      "reason": "公共设施工程师通常负责建筑设施运行维护，归建筑设施维护。"
+    },
+    {
+      "occupation_id": "TG-c2b275cfc643db830c89",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L22-08",
+        "L26-01",
+        "L31-01"
+      ],
+      "title_evidence": "农业产业学院工作人员",
+      "level_3_evidence": null,
+      "reason": "标题仅表明在农业产业学院工作，未说明具体职能，可能涉及教育管理、农业技术或公共事务，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-394a0736f35327d7ffb0",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01"
+      ],
+      "title_evidence": "职能管培生（厦门金龙汽车智能科技有限公司）",
+      "level_3_evidence": null,
+      "reason": "标题明确为职能管培生，属于跨职能管理培训与轮岗，未明确具体职能方向。"
+    },
+    {
+      "occupation_id": "TG-09d7d033fd18256d9430",
+      "status": "mapped",
+      "target_category_id": "L30-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L30-05"
+      ],
+      "title_evidence": "法律管培生（计算机大......）",
+      "level_3_evidence": null,
+      "reason": "标题明确为法律管培生，属于法律与合规工作，具体方向未说明，归通用法律与合规工作。"
+    },
+    {
+      "occupation_id": "TG-58561b88c6dda82760f5",
+      "status": "mapped",
+      "target_category_id": "L16-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-04"
+      ],
+      "title_evidence": "贸易岗",
+      "level_3_evidence": null,
+      "reason": "标题明确为贸易岗，属于进出口与贸易执行，无更细三级。"
+    },
+    {
+      "occupation_id": "TG-092d634abce8bc05e25e",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-01",
+        "L11-07"
+      ],
+      "title_evidence": "经理岗",
+      "level_3_evidence": null,
+      "reason": "标题仅表明经理岗位，未说明具体职能领域，无法确定归属。"
+    },
+    {
+      "occupation_id": "TG-43643221b9a0a008c7c8",
+      "status": "mapped",
+      "target_category_id": "L08-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-07"
+      ],
+      "title_evidence": "产品经理（管培生/校招生）",
+      "level_3_evidence": null,
+      "reason": "标题明确为产品经理，属于产品规划，但未说明产品类型，归通用产品规划。"
+    },
+    {
+      "occupation_id": "TG-90c3ca64defd3cd5bdc5",
+      "status": "mapped",
+      "target_category_id": "L02-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-07-02"
+      ],
+      "title_evidence": "AI 云平台研发工程师",
+      "level_3_evidence": "训练评估与平台工程",
+      "reason": "AI云平台研发工程师负责AI平台工程，归训练评估与平台工程。"
+    },
+    {
+      "occupation_id": "TG-c8176d39d6c4bb433512",
+      "status": "mapped",
+      "target_category_id": "L09-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L09-08"
+      ],
+      "title_evidence": "创意设计管培生",
+      "level_3_evidence": null,
+      "reason": "标题明确为创意设计，属于设计职能，但方向未说明，归通用设计与创意。"
+    },
+    {
+      "occupation_id": "TG-6a4e7accc10c9409deb3",
+      "status": "mapped",
+      "target_category_id": "L08-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-06"
+      ],
+      "title_evidence": "产品体验分析师（座舱）",
+      "level_3_evidence": null,
+      "reason": "产品体验分析师负责用户研究，归产品用户研究。"
+    },
+    {
+      "occupation_id": "TG-c31dc46e7300a60667a7",
+      "status": "mapped",
+      "target_category_id": "L20-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-01-01"
+      ],
+      "title_evidence": "ETF指数研究员",
+      "level_3_evidence": "证券与市场研究",
+      "reason": "ETF指数研究员属于证券与市场研究。"
+    },
+    {
+      "occupation_id": "TG-84e93fe51f411e95a1a3",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "岗研究岗",
+      "level_3_evidence": null,
+      "reason": "标题为无意义文本，无法识别职业。"
+    },
+    {
+      "occupation_id": "TG-5b07860d2d754d61ad2a",
+      "status": "mapped",
+      "target_category_id": "L01-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-03"
+      ],
+      "title_evidence": "全栈研发实习生",
+      "level_3_evidence": null,
+      "reason": "标题明确为全栈研发，属于全栈开发。"
+    },
+    {
+      "occupation_id": "TG-39a0ae1ee3c9fe4f1113",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "岗位",
+      "level_3_evidence": null,
+      "reason": "标题仅为“岗位”，无具体职业信息。"
+    },
+    {
+      "occupation_id": "TG-ce4cc71a345bf11b11c0",
+      "status": "mapped",
+      "target_category_id": "L01-10-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L01-10-01"
+      ],
+      "title_evidence": "财务系统管理岗",
+      "level_3_evidence": "业务系统实施配置",
+      "reason": "财务系统管理岗通常负责财务系统的实施配置与运维，归业务系统实施配置。"
+    },
+    {
+      "occupation_id": "TG-96224f7bd60ea9beb9d7",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L20-11"
+      ],
+      "title_evidence": "浙银理财综合培养岗（数学、统计、金融工程）",
+      "level_3_evidence": null,
+      "reason": "标题为综合培养岗，但括号内专业方向暗示金融领域，未明确具体职能，需进一步确认。"
+    }
+  ],
+  "raw_response_file": "000107.raw.json",
+  "usage": {
+    "input_tokens": 17386,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 874,
+    "output_tokens": 2379,
+    "reasoning_tokens": 0,
+    "total_tokens": 19765
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0032160719999999995
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only"
+}

@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-d0122e6e3069b452c32b00201918437e",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-07",
+        "L12-01",
+        "L12-02"
+      ],
+      "title_evidence": "岗位名称“市场专员”，明确属于市场营销职能，但未说明具体方向（策略、品牌、投放等）",
+      "level_3_evidence": null,
+      "reason": "“市场专员”为通用市场营销岗位，方向未明确，按目录归入 L12-07 通用市场营销；不凭公司行业或原始组合岗位推断具体营销方向。"
+    },
+    {
+      "occupation_id": "UP-e8f321e4f846f30ef629cc1d810901f1",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-04",
+        "L14-07",
+        "L14-09"
+      ],
+      "title_evidence": "岗位名称“咨询专员”，仅表明咨询/顾问类职能，未说明是管理咨询、客户业务咨询还是售前技术方案",
+      "level_3_evidence": null,
+      "reason": "“咨询专员”存在多种可能归属：对外管理/业务咨询（L11-04）、客户业务咨询办理（L14-07）、售前解决方案（L14-09），标题证据不足以确定唯一二级职能，列为 review。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17057,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 417,
+    "output_tokens": 311,
+    "reasoning_tokens": 0,
+    "total_tokens": 17368
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00029906999999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

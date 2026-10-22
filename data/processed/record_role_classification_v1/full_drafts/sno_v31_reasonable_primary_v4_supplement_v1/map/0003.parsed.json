@@ -1,0 +1,372 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-0299b331f7c2b9d5094b",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L13-02",
+        "L13-04",
+        "L32-01"
+      ],
+      "title_evidence": "全球销售管培生（营销管理类、商务经贸类、市场营销类、电子商务类、经济贸易类）",
+      "level_3_evidence": null,
+      "reason": "标题明确为销售管培生，核心职能为销售，但未说明客户类型，归通用销售 L13-09；管培生不替代销售职能。"
+    },
+    {
+      "occupation_id": "TG-ac8f6af42a7a0212c8cd",
+      "status": "mapped",
+      "target_category_id": "L08-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-02-01",
+        "L08-02-02",
+        "L06-09"
+      ],
+      "title_evidence": "产品工程师-RW方向",
+      "level_3_evidence": null,
+      "reason": "产品工程师通常指实体产品管理，RW方向未明确具体产品类型，归实体产品管理 L08-02。"
+    },
+    {
+      "occupation_id": "TG-132f64f416a4d28ed7aa",
+      "status": "mapped",
+      "target_category_id": "L20-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "综合柜员 管理培训生（经济和管理学大类、工学大类、法学大类、文史哲大类、理学大类、农学大类）",
+      "level_3_evidence": null,
+      "reason": "综合柜员是银行柜面业务操作，属于金融运营与交易清算 L20-08；管理培训生不改变柜员职能。"
+    },
+    {
+      "occupation_id": "TG-ca03eb5390ed445ea68d",
+      "status": "mapped",
+      "target_category_id": "L04-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-01-01",
+        "L04-01-02",
+        "L04-01-03",
+        "L04-02"
+      ],
+      "title_evidence": "软件/硬件测试工程师",
+      "level_3_evidence": null,
+      "reason": "标题同时包含软件和硬件测试，软件测试归 L04-01，硬件测试归 L04-02；软件测试更直接，归 L04-01。"
+    },
+    {
+      "occupation_id": "TG-d5837ca92cec42db7039",
+      "status": "mapped",
+      "target_category_id": "L23-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-09-02",
+        "L29-07"
+      ],
+      "title_evidence": "保养工程师",
+      "level_3_evidence": null,
+      "reason": "保养工程师通常指工业设备维护保养，归工业设备维修保全 L23-09；若为生活设备保养则归 L29-07，但工业场景更常见。"
+    },
+    {
+      "occupation_id": "TG-dd7fa71c6ee57209aff9",
+      "status": "mapped",
+      "target_category_id": "L11-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-01",
+        "L20-02",
+        "L32-01"
+      ],
+      "title_evidence": "投融资&战略发展管培生",
+      "level_3_evidence": null,
+      "reason": "投融资与战略发展属于投资发展与产业合作 L11-06；管培生不改变职能。"
+    },
+    {
+      "occupation_id": "TG-0a9428520df711c082a1",
+      "status": "mapped",
+      "target_category_id": "L13-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L20-08"
+      ],
+      "title_evidence": "佛山分行零售业务培训生",
+      "level_3_evidence": null,
+      "reason": "零售业务培训生通常指银行个人客户销售，归个人客户销售 L13-02；培训生不改变销售职能。"
+    },
+    {
+      "occupation_id": "TG-cabe010f443206fcd544",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L24-13",
+        "L23-10"
+      ],
+      "title_evidence": "工程技术人员（计划人数8人）",
+      "level_3_evidence": null,
+      "reason": "工程技术人员范围过宽，无法确定具体工程领域，需补充信息。"
+    },
+    {
+      "occupation_id": "TG-7b1b1ce1418473fdb6f7",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-04",
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "科创陪跑人(管培生)",
+      "level_3_evidence": null,
+      "reason": "科创陪跑人职能不明确，可能涉及咨询、孵化或综合培养，需补充信息。"
+    },
+    {
+      "occupation_id": "TG-ca006f57e2bedc0760b3",
+      "status": "mapped",
+      "target_category_id": "L06-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08",
+        "L23-10"
+      ],
+      "title_evidence": "研发技术员",
+      "level_3_evidence": null,
+      "reason": "研发技术员属于工业技术研发，但具体方向未说明，归通用工业技术研发 L06-09。"
+    },
+    {
+      "occupation_id": "TG-31fe40440ec92ff3ac30",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L30-02",
+        "L20-01",
+        "L20-02"
+      ],
+      "title_evidence": "法务&投资类",
+      "level_3_evidence": null,
+      "reason": "标题同时包含法务和投资两类职能，属于多角色岗位。"
+    },
+    {
+      "occupation_id": "TG-c2049363d1e5e96c1673",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L23-09",
+        "L05-04",
+        "L06-01"
+      ],
+      "title_evidence": "储备AOI/机械设备/电控开发维护工程师",
+      "level_3_evidence": null,
+      "reason": "标题包含AOI、机械设备、电控开发维护多个方向，属于多角色岗位。"
+    },
+    {
+      "occupation_id": "TG-a30cff18b6b79a628591",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L25-09",
+        "L08-02",
+        "L06-09"
+      ],
+      "title_evidence": "生态产品工程师",
+      "level_3_evidence": null,
+      "reason": "生态产品工程师职能不明确，可能涉及环保、生态产品或农业，需补充信息。"
+    },
+    {
+      "occupation_id": "TG-eb52ee51770a15efbc96",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-09",
+        "L07-05"
+      ],
+      "title_evidence": "基础研发管培生岗",
+      "level_3_evidence": null,
+      "reason": "基础研发管培生未明确具体研发领域，属于跨职能管理培训与轮岗 L32-01。"
+    },
+    {
+      "occupation_id": "TG-343447f52fef76a9e005",
+      "status": "mapped",
+      "target_category_id": "L10-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L10-06",
+        "L32-01"
+      ],
+      "title_evidence": "交付中心管培生",
+      "level_3_evidence": null,
+      "reason": "交付中心管培生通常涉及客户实施与交付管理，归 L10-03；管培生不改变交付职能。"
+    },
+    {
+      "occupation_id": "TG-bc5930a98f3b851ffefd",
+      "status": "mapped",
+      "target_category_id": "L08-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-02-01",
+        "L08-02-02",
+        "L06-09"
+      ],
+      "title_evidence": "产品工程师",
+      "level_3_evidence": null,
+      "reason": "产品工程师通常指实体产品管理，具体产品类型未说明，归实体产品管理 L08-02。"
+    },
+    {
+      "occupation_id": "TG-8e642d4e95ded4ff8856",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-05",
+        "L18-04",
+        "L18-01"
+      ],
+      "title_evidence": "行政/人力管培生",
+      "level_3_evidence": null,
+      "reason": "标题同时包含行政和人力两类职能，属于多角色岗位。"
+    },
+    {
+      "occupation_id": "TG-e9066501315ce5399ff7",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L22-04-01",
+        "L09-05",
+        "L15-04"
+      ],
+      "title_evidence": "设计培训师一室内设计方向短视频编导管培生",
+      "level_3_evidence": null,
+      "reason": "标题包含设计培训师、室内设计、短视频编导多个方向，属于多角色岗位。"
+    },
+    {
+      "occupation_id": "TG-d5255b2ee156c31bce22",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L05-01"
+      ],
+      "title_evidence": "软/硬件开发",
+      "level_3_evidence": null,
+      "reason": "标题同时包含软件开发和硬件开发两类职能，属于多角色岗位。"
+    },
+    {
+      "occupation_id": "TG-3309b456c9f47ef8879f",
+      "status": "mapped",
+      "target_category_id": "L20-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-01",
+        "L20-02",
+        "L20-08"
+      ],
+      "title_evidence": "金融市场橙光实习生",
+      "level_3_evidence": null,
+      "reason": "金融市场实习生属于金融专业业务，但具体方向未说明，归通用金融专业业务 L20-11。"
+    },
+    {
+      "occupation_id": "TG-c5547d36be45cd3a56ac",
+      "status": "mapped",
+      "target_category_id": "L20-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L20-08",
+        "L13-02"
+      ],
+      "title_evidence": "信用卡中心培训生",
+      "level_3_evidence": null,
+      "reason": "信用卡中心培训生属于金融专业业务，但具体方向未说明，归通用金融专业业务 L20-11。"
+    },
+    {
+      "occupation_id": "TG-5cbada54920ca5d13f76",
+      "status": "mapped",
+      "target_category_id": "L11-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-01",
+        "L07-02"
+      ],
+      "title_evidence": "调研岗",
+      "level_3_evidence": null,
+      "reason": "调研岗通常指商业研究与市场调研，归 L11-05；若为学术研究则归 L07，但商业场景更常见。"
+    },
+    {
+      "occupation_id": "TG-5630f675fa4317a05323",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-07",
+        "L14-01",
+        "L03-06"
+      ],
+      "title_evidence": "终端管理岗",
+      "level_3_evidence": null,
+      "reason": "终端管理岗职能不明确，可能涉及销售终端管理、IT终端管理或零售终端运营，需补充信息。"
+    },
+    {
+      "occupation_id": "TG-5a3ad5511ffe245f1470",
+      "status": "mapped",
+      "target_category_id": "L08-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-02-01",
+        "L08-02-02",
+        "L11-01"
+      ],
+      "title_evidence": "储备产品副总经理",
+      "level_3_evidence": null,
+      "reason": "储备产品副总经理属于产品管理方向，具体产品类型未说明，归实体产品管理 L08-02。"
+    },
+    {
+      "occupation_id": "TG-33c1d60a60bbf7503b94",
+      "status": "mapped",
+      "target_category_id": "L06-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08",
+        "L23-10"
+      ],
+      "title_evidence": "研发技术储备工程师",
+      "level_3_evidence": null,
+      "reason": "研发技术储备工程师属于工业技术研发，但具体方向未说明，归通用工业技术研发 L06-09。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17673,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 1033,
+    "output_tokens": 3297,
+    "reasoning_tokens": 0,
+    "total_tokens": 20970
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0021830699999999996
+  },
+  "response_metadata": {
+    "request_id": "d088ba53-b77e-4a6a-a5fb-28b04357f52f",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791894640,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

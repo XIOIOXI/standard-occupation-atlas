@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-7939d45b2de987f8f4ae70a663224e43",
+      "status": "mapped",
+      "target_category_id": "L24-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-04",
+        "L10-06",
+        "L23-09-01"
+      ],
+      "title_evidence": "标题为“机电安装项目工程师”，核心为机电安装（建筑机电与设备工程）并含项目执行",
+      "level_3_evidence": null,
+      "reason": "机电安装属于建筑机电与设备工程范畴，标题明确指向机电安装工程，归L24-04；项目属性为附加，不改变专业方向。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16948,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 308,
+    "output_tokens": 148,
+    "reasoning_tokens": 0,
+    "total_tokens": 17096
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00036984
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

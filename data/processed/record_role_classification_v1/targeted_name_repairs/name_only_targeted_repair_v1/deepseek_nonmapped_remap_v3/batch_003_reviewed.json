@@ -1,0 +1,185 @@
+{
+  "batch_number": 3,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 0,
+  "validation_retry_count": 1,
+  "response_metadata": {
+    "request_id": "de7383a3-81ce-4e70-a307-c14f3e73ad4a",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821656,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 30570,
+    "cached_input_tokens": 30336,
+    "uncached_input_tokens": 234,
+    "output_tokens": 2183,
+    "reasoning_tokens": 0,
+    "total_tokens": 32753
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0014359079999999998
+  },
+  "results": [
+    {
+      "entry_id": "ABNORMAL:RRG-37c988686e40b2d65dcf",
+      "status": "review",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "reason": "名称可识别为采购助理，但括号内为截断的专业清单，不能据此补充行业或技术方向；采购助理可归入采购执行与合同管理，但截断信息使三级映射不够确定，故给二级采购下三级采购执行与合同管理并标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-37f4f696f906756a6862",
+      "status": "review",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "reason": "名称指向中学教师招聘，但主体为招聘公告说明且截断，无法确认具体学科与教学层级；可确认教育培训一级，教师二级，三级基础教育教学仅作保守映射并标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-39fa05541ddf5ae908f7",
+      "status": "review",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "reason": "名称可识别为质量工艺工程师，但括号内为截断专业清单，不能据此补充自动化或电气方向；质量工艺可归入质量检验与过程控制，但工艺与质量边界不明确，故标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-3ab81fed74c9cc53f540",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称为岗位3并附大量截断专业清单，无法确认具体职业；专业清单不能作为职业依据，故不能映射到任何三级或二级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-3b1addd9b5b18272c12e",
+      "status": "review",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "reason": "名称可识别为初中美术教师，但括号内为截断专业清单，不能据此补充其他方向；可确认教育培训一级、教师二级，三级基础教育教学可作保守映射并标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-3e2baf9489767b414fd3",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "名称可识别为售后服务工程师，但括号内为截断专业清单，不能据此补充电气或机械方向；售后服务可归入技术支持与客户交付，但行业与产品方向不明确，故标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-3ea073cb014282d417e7",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出行政支撑、财会审计、养殖技术、经营管理、健康管理、营销开发、育种技术、农场管理、饲料技术、管培、食品技术等多个互不兼容职业类别，且无共同可确认的一级或二级，故 target_category_id 为 null。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-3f423a3e392b5bd802c2",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出研发、生产制造、营销、供应链、工程、职能、集团管培生等多个互不兼容职业类别，且无共同可确认的一级或二级，故 target_category_id 为 null。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-3f45df92402fe506b76a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称为测量助理工程并截断，无法确认是工程测量、测绘还是其他测量岗位，也不能确认所属行业，故不能映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-404a9010fc5980ed2a36",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称为机电类管培生并附截断专业清单，管培生不是职业，专业清单不能作为职业依据，无法确认具体职业方向，故不能映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-4105d501218f1929334f",
+      "status": "review",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "reason": "名称可识别为初级DQE工程师，DQE通常属质量工程，但括号内容截断且无法确认具体行业与产品，故保守映射到质量检验与过程控制并标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-443ca79e399eadf2180b",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称为大量专业类别清单并截断，不是具体职业，且涵盖电气、能源、自动化、计算机、机械、环境、电子、水利、航运、材料、新能源、油气、安全、财会、管理、经济金融等多个互不兼容方向，无共同可确认的一级或二级，故 target_category_id 为 null。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-44f08b649a829ade0f31",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "reason": "名称可识别为测试开发工程师实习，实习不是职业但测试开发可归入功能与自动化测试；截断使具体方向不明确，故标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-46aa950d0a0232c3eea5",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出教师类、运营类、培训生类、实习生类，培训生和实习生不是职业，教师与运营互不兼容，且无共同可确认的一级或二级，故 target_category_id 为 null。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-46e527a683f85fc944a0",
+      "status": "review",
+      "target_category_id": "教育培训/edu-admin/edu-admin-teaching",
+      "reason": "名称可识别为教学经理，但括号内为截断专业清单，不能据此补充学科或行业；教学经理可归入教学事务管理，但具体职责边界不明确，故标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-476ed729fea08cd35d0b",
+      "status": "review",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "reason": "名称可识别为硬件研发工程师，但括号内专业要求为人力资源、马克思主义哲学等，与硬件研发明显不匹配且截断，不能据此补充方向；硬件研发可归入电路与硬件设计，但具体方向不明确，故标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-47bce0b914633274aa55",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称为电子信息、通信技术、光电、计算机软件、测绘遥感、飞行器设计等专业类别清单，不是具体职业，且涵盖多个互不兼容方向，无共同可确认的一级或二级，故 target_category_id 为 null。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-4857bc472dc0f30d9814",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "名称可识别为系统开发岗，但括号内为截断专业清单，不能据此补充水利、工商管理等方向；系统开发可归入业务服务端开发，但具体技术栈与行业不明确，故标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-486249a260f9c1f88887",
+      "status": "review",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "reason": "名称可识别为业务经理，但括号内国内/截断，无法确认是销售业务、外贸业务还是其他业务方向；业务经理可保守归入客户开发与直销，但方向不明确，故标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-48e6deaf1f4c40994fcf",
+      "status": "review",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "reason": "名称可识别为财务管理岗，但括号内为截断专业清单，不能据此补充历史、交通、人力资源等方向；财务管理可归入总账与财务核算，但具体职责边界不明确，故标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-4936e2d8443406a347fc",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-test/test-security",
+      "reason": "名称可识别为网络安全测试工程师，但括号内为截断专业清单，不能据此补充具体方向；网络安全测试可归入安全与专项测试，但具体测试对象不明确，故标 review。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-4d043d5836e9fa6a2d56",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称为管理培训生并附截断专业清单，管培生不是职业，专业清单不能作为职业依据，无法确认具体职业方向，故不能映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-4eeec5b3a31d53bfaec2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称为仿真工程师并截断，无法确认是结构仿真、流体仿真、电磁仿真还是其他方向，也不能确认所属行业，故不能映射。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-4f65f6462ab99535d1f4",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出招商运营、市场业务、投资管理、财务资金、专业技术、法务风控等多个互不兼容职业类别，且无共同可确认的一级或二级，故 target_category_id 为 null。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-4fe09f8773985e21b414",
+      "status": "review",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-purchasing",
+      "reason": "名称可识别为采购工程师，但括号内为截断专业清单，不能据此补充土木、物流、供应链、国际贸易等方向；采购工程师可归入采购执行与合同管理，但具体行业与职责不明确，故标 review。"
+    }
+  ]
+}

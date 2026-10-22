@@ -1,0 +1,28 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-242f4ee3d9015f5823e6",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-242f4ee3d9015f5823e6",
+    "case": "A",
+    "child_titles": [
+      "识能管理类",
+      "市场营销类",
+      "软件研发类",
+      "机务维修类",
+      "气象管制类",
+      "航空医学类",
+      "明珠工程师",
+      "直升机飞行员"
+    ],
+    "source_spans": [
+      {
+        "text": "识能管理类市场营销类软件研发类机务维修类气象管制类航空医学类明珠工程师 直升机飞行员",
+        "start": 0,
+        "end": 44
+      }
+    ],
+    "reason": "多个类别和岗位并列，可独立作为岗位，符合拆分条件。"
+  }
+}

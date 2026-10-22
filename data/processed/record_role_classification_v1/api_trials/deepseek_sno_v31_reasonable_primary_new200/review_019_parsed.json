@@ -1,0 +1,85 @@
+{
+  "raw_response_file": "review_019_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-c733004c52dbb95878b6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题仅表明市场推广职能，未明确具体方向，归通用市场营销合理。"
+    },
+    {
+      "occupation_id": "SNO-6e3b25c0e58434d934f2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "生物样本库研究员属于科研实验技术支持，归L07-03合理。"
+    },
+    {
+      "occupation_id": "SNO-82c0032955c296ed7b3d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "能碳管理直接对应碳管理与可持续发展，归L25-08合理。"
+    },
+    {
+      "occupation_id": "SNO-e03a4598dfa5dbd8745a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "教师岗但未说明教学方向，归通用教育教学合理。"
+    },
+    {
+      "occupation_id": "SNO-987d169f2d65719717d7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "拉美市场管培生仅表明区域和培养性质，未明确职能，review处理合理。"
+    },
+    {
+      "occupation_id": "SNO-debd162330b85469feed",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "矿山勘探技术员直接对应地质勘探与资源评价，归L25-01合理。"
+    },
+    {
+      "occupation_id": "SNO-e25ae40ed2c8af5259bc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "CAD需求工程师归企业系统定制开发，符合L01-10范围，合理。"
+    },
+    {
+      "occupation_id": "SNO-43c53745f024b126a5fb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "激光应用工程师属电子电气通信领域但方向未明确，归通用电子电气通信技术合理。"
+    },
+    {
+      "occupation_id": "SNO-4996a2088757ff737621",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "技术开发岗未说明具体方向，归通用软件研发合理。"
+    },
+    {
+      "occupation_id": "SNO-215b78599b9aec2eb863",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "检测分析未说明具体检测类型，归检验检测与实验分析二级合理。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 10801,
+    "cached_input_tokens": 9216,
+    "uncached_input_tokens": 1585,
+    "output_tokens": 535,
+    "reasoning_tokens": 0,
+    "total_tokens": 11336
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000586398
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-184496c72efe7b63ab3c9339cd6f2fbf",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03",
+        "L05-01-02",
+        "L06-01-03"
+      ],
+      "title_evidence": "电气模块化设计工程师：电气+模块化设计，属电气系统设计",
+      "level_3_evidence": null,
+      "reason": "标题明确为电气模块化设计，核心为电气系统/配电控制设计，归电气工程L05-03；模块化设计为设计方式标签，不足以细分三级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16949,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 309,
+    "output_tokens": 152,
+    "reasoning_tokens": 0,
+    "total_tokens": 17101
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037494000000000004
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 200,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "eeee667b-739e-4e37-8301-75dba537782f",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751529,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24945,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1649,
+    "output_tokens": 3546,
+    "reasoning_tokens": 0,
+    "total_tokens": 28491
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0024448379999999995
+  },
+  "observed_at_utc": "2026-10-11T20:45:29.753651+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-4722c7382af80a5954db",
+      "target_category_id": "销售/sales-general/general-sales-channel",
+      "status": "mapped",
+      "reason": "渠道专员核心职责为渠道开发与管理，归入销售-渠道与经销销售。"
+    },
+    {
+      "occupation_id": "SNO-89822d20bc6df73a6b3d",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "雷达信号处理属于无线与通信系统研发方向。"
+    },
+    {
+      "occupation_id": "SNO-071958a89ab7731b909a",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-growth",
+      "status": "mapped",
+      "reason": "推广专员核心为市场推广与增长营销。"
+    },
+    {
+      "occupation_id": "SNO-1e607db1e4623b21d60a",
+      "target_category_id": "互联网/AI/internet-data-development/data-application",
+      "status": "mapped",
+      "reason": "数智应用开发偏向数据应用与分析开发。"
+    },
+    {
+      "occupation_id": "SNO-296209eb7a2f53c73d54",
+      "target_category_id": "互联网/AI/internet-data-development/data-application",
+      "status": "mapped",
+      "reason": "数智应用开发工程师对应数据应用与分析开发。"
+    },
+    {
+      "occupation_id": "SNO-e671efe43010439acc6a",
+      "target_category_id": "人力/行政/法务/people-hr/hr-recruiting",
+      "status": "mapped",
+      "reason": "招聘岗位核心为招聘与人才获取。"
+    },
+    {
+      "occupation_id": "SNO-8351a6cdd785f6c02416",
+      "target_category_id": "人力/行政/法务/people-hr/hr-recruiting",
+      "status": "mapped",
+      "reason": "应届生招聘属于招聘与人才获取方向。"
+    },
+    {
+      "occupation_id": "SNO-af6b56e37bbad29e79ba",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "制冷暖通开发工程师偏向机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-9c212bdb6a4bf484ac0e",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "技术管理通常对应研发项目管理。"
+    },
+    {
+      "occupation_id": "SNO-a833ca1299291243c1ce",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "业务拓展核心为客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-a0780486e6f6ca4a6395",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "高级通信开发工程师属于无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-cc67df898fcdd15392bc",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "通信软件工程师对应无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-4e9c80d142fbf5150724",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "信息化岗位通常涉及基础设施与系统运维。"
+    },
+    {
+      "occupation_id": "SNO-081793e23575082098db",
+      "target_category_id": "影视/传媒/media-publishing/publish-editing",
+      "status": "mapped",
+      "reason": "出版专员核心为图书与出版编辑。"
+    },
+    {
+      "occupation_id": "SNO-cd2fca511b13af1ba63c",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人事主管属于人力资源员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-9bc6063b64b3ae1417e1",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人事经理属于人力资源员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-699e6a7e0c3c10f9b20b",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "系统运维工程师对应基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-75cf5419fbe0969378b8",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法务合规对应公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-b7d59a7b78786f42fad1",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "产品策划通常对应互联网平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-543c31509be12ba4a124",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "综合柜员属于零售与综合银行岗位。"
+    },
+    {
+      "occupation_id": "SNO-9a3394c5c02c2af0945b",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "AI应用通常涉及大模型与生成式AI方向。"
+    },
+    {
+      "occupation_id": "SNO-89b1da674ce371a2ee11",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-manufacturing",
+      "status": "mapped",
+      "reason": "总装工艺属于汽车制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-824611e45ce684cf0f59",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "金融业务通常对应银行零售与综合业务。"
+    },
+    {
+      "occupation_id": "SNO-4763060fe471a2a7beeb",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-planning",
+      "status": "mapped",
+      "reason": "土地管理对应国土与城市规划。"
+    },
+    {
+      "occupation_id": "SNO-5f1c520c9d1b8414d3d3",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "初中音乐教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-b5d50b9ac2fe21a17fdc",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "暖通空调设计师属于建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-73adaf599d7462f669a5",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电控工程师对应电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-dfb126a873efb6b1486b",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "网络安全与隐私保护工程师对应应用与数据安全。"
+    },
+    {
+      "occupation_id": "SNO-488f705d859b4722271a",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "铸造工艺工程师属于机械制造与工艺。"
+    },
+    {
+      "occupation_id": "SNO-18b965c9c5b9e53030cc",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "设备技术员对应设备维修与安装。"
+    },
+    {
+      "occupation_id": "SNO-9c1e8bd22488de3be50d",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场岗位通常对应品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-5d8ec6f62009eef7358d",
+      "target_category_id": "互联网/AI/internet-data-analyst/data-bi",
+      "status": "mapped",
+      "reason": "数据分析对应商业与业务分析。"
+    },
+    {
+      "occupation_id": "SNO-4ec676fb4b5b42b2d2b4",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "统计员通常承担财务核算与数据统计，归入总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-e924ab24c8fc312bb61b",
+      "target_category_id": "财务/审计/税务/finance-risk/risk-credit",
+      "status": "mapped",
+      "reason": "风控对应信用与业务风险。"
+    },
+    {
+      "occupation_id": "SNO-dbefc3495cf6e32ad814",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "芯片设计工程师对应芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-ec07c4199f684206f6a2",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "设计师通常对应品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-94eff2bdb753fcd1a13e",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "初级设计师通常对应品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-38b5c43210e2276c45c3",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "方案经理通常对应售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-aaeb0cc11c90d59355d6",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源管理员属于员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-cb3c89c6be26f344f578",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "软件运维工程师对应基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-56c255e1985892c095d9",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "设计岗位通常对应品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-c5d1d9f7d240e96060cc",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "服务工程师通常对应技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-2b17609d479983c5676e",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "测量工程师通常对应施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-e4a1c85a370d1081a193",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投融资对应股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-143a9da261f15bdc1913",
+      "target_category_id": "产品/product-game/game-planning",
+      "status": "mapped",
+      "reason": "游戏策划对应游戏系统与玩法策划。"
+    },
+    {
+      "occupation_id": "SNO-74fbb9da6c5f61a0c433",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "材料多尺度仿真工程师偏向机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-d9b4a7cdba4d0d768570",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "AI安全与隐私研究员对应应用与数据安全。"
+    },
+    {
+      "occupation_id": "SNO-84166a4fe2b276ce869a",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电源硬件工程师对应电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-ebf3ab277c2fe59482f1",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "数字后端工程师通常属于芯片设计流程。"
+    },
+    {
+      "occupation_id": "SNO-cd37c5bbd73a481811f2",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "高级售后技术支持工程师对应技术支持与客户交付。"
+    }
+  ]
+}

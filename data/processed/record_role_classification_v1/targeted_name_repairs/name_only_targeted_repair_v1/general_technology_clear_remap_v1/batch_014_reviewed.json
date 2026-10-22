@@ -1,0 +1,147 @@
+{
+  "batch_number": 14,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18131,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 1491,
+    "output_tokens": 969,
+    "reasoning_tokens": 0,
+    "total_tokens": 19100
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00085497
+  },
+  "results": [
+    {
+      "entry_id": "SNO-c980ebb8e20033d9f0c4",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“开发经理”为宽泛管理称谓，未指明技术栈或领域，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-c9e991d40b8cb32bd26f",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“数据理论研究”为研究性宽泛名称，未明确对应数据开发或分析的具体三级。"
+    },
+    {
+      "entry_id": "SNO-ca006f57e2bedc0760b3",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发技术员”为宽泛研发称谓，未指明技术方向，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-cb086d66cd715fa8ac1f",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发”为极宽泛称谓，无任何技术栈或领域信息。"
+    },
+    {
+      "entry_id": "SNO-cb73573112839b087d48",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“技术研究”为宽泛研究称谓，未指明具体技术领域。"
+    },
+    {
+      "entry_id": "SNO-cbbfc4a4da51fc7b9de1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“新能源新材料通用技术”为跨领域通用技术名称，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-cc2fd3b1141222c3e4f3",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“等离子体实验研究员”为特定实验研究岗位，目录中无对应三级。"
+    },
+    {
+      "entry_id": "SNO-ccf341451c52d17fc8eb",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“材料类工程师”为专业类别清单式名称，未明确具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-cdc966998c5964be920f",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发工程师”为宽泛研发称谓，未指明技术栈或领域。"
+    },
+    {
+      "entry_id": "SNO-ceefdceea631f2163ffa",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“宣传技术”为宽泛复合称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-d25b14a4b25dcfa375f3",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“实验技术”为宽泛实验技术称谓，未指明具体领域。"
+    },
+    {
+      "entry_id": "SNO-d27a907e5872afb22368",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“聚合研发员”为特定化工研发岗位，目录中无对应三级。"
+    },
+    {
+      "entry_id": "SNO-d4371bf7db7d5e2815d2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“设计研发”为宽泛复合称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-d4afe2883eb018281ac5",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含招聘专业清单，属专业清单式复合名称，不予映射。"
+    },
+    {
+      "entry_id": "SNO-d5525f6d7f39aea51a04",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发岗(二)”为宽泛研发称谓，无具体技术方向。"
+    },
+    {
+      "entry_id": "SNO-d5d530ff35e2bffd1760",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“应用助理工程师”为宽泛称谓，未指明技术领域。"
+    },
+    {
+      "entry_id": "SNO-d5d56a2778cb8bca4877",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“AI智能制造”为跨领域复合名称，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-d6087a47e528741b0653",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“AI编译工程师”为特定编译技术岗位，目录中无对应三级。"
+    },
+    {
+      "entry_id": "SNO-d6dd1c6d65f95ea55f3c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“特别研究助理”为宽泛研究助理称谓，无法唯一映射。"
+    },
+    {
+      "entry_id": "SNO-d6deb31b98eac140eef7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“研发校招生”为招聘身份称谓，非明确职业方向。"
+    }
+  ]
+}

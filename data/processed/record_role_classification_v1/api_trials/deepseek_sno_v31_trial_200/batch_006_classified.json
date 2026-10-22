@@ -1,0 +1,155 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-batch-v2",
+  "batch_number": 6,
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 20,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "5e06425a-730d-45c9-a93a-1ca5654ebbb9",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791836566,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 16356,
+    "cached_input_tokens": 15488,
+    "uncached_input_tokens": 868,
+    "output_tokens": 1082,
+    "reasoning_tokens": 0,
+    "total_tokens": 17438
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008258639999999999
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-d890b4198ea74c4163b3",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“总体设计师”未说明设计对象，无法判断是产品、建筑还是其他设计职能。"
+    },
+    {
+      "occupation_id": "SNO-23501452d85ba0038944",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“医学市场管培生”含医学与市场两方向，培养身份不能确定核心职能。"
+    },
+    {
+      "occupation_id": "SNO-dab696d4fe1613cbde0e",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "reason": "“总部人力资源”明确人力资源职能，方向未细分，归人力资源综合管理。"
+    },
+    {
+      "occupation_id": "SNO-45f8f899bbabd4cdbb0f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“运营风控”未说明是金融风控还是业务运营风险，缺少行业与职能证据。"
+    },
+    {
+      "occupation_id": "SNO-0b935291ac8588011dfe",
+      "status": "mapped",
+      "target_category_id": "L22-02-02",
+      "reason": "“学习机数学教师”明确数学教学，归数学与自然科学教学。"
+    },
+    {
+      "occupation_id": "SNO-1efb9713cdd0db50fc3a",
+      "status": "mapped",
+      "target_category_id": "L09-03",
+      "reason": "“内/外饰设计”为车辆内外饰造型设计，归工业与产品外观设计。"
+    },
+    {
+      "occupation_id": "SNO-0b1d9a739c7e90b63cb0",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“实施交付”未说明是软件实施还是客户交付，缺少对象与职能证据。"
+    },
+    {
+      "occupation_id": "SNO-71587e7f793855dc1589",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“业务管理运营”过于笼统，未说明业务类型与运营方向。"
+    },
+    {
+      "occupation_id": "SNO-9c2d196943352a89383e",
+      "status": "mapped",
+      "target_category_id": "L08-01",
+      "reason": "“助理AI产品”明确AI产品方向，助理为身份标签，归数字与软件产品管理。"
+    },
+    {
+      "occupation_id": "SNO-238504f997ffc832178f",
+      "status": "mapped",
+      "target_category_id": "L22-04-02",
+      "reason": "“公共体育部专任教师”明确体育教学，归体育教学。"
+    },
+    {
+      "occupation_id": "SNO-7f7213e5e772f5f3216c",
+      "status": "mapped",
+      "target_category_id": "L04-03",
+      "reason": "“品质检验管培生”明确品质检验职能，管培为标签，归生产质量管理。"
+    },
+    {
+      "occupation_id": "SNO-6b195d59b06563239447",
+      "status": "mapped",
+      "target_category_id": "L06-05-01",
+      "reason": "“催化工程师”明确催化反应方向，归化学合成与反应开发。"
+    },
+    {
+      "occupation_id": "SNO-ac88016e507fd573963d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“业态门店管培生”仅说明门店与培养身份，未明确销售、运营等核心职能。"
+    },
+    {
+      "occupation_id": "SNO-db28092a79192db4aed7",
+      "status": "mapped",
+      "target_category_id": "L03-01",
+      "reason": "“Linux运维工程师”明确Linux系统运维，归系统与服务器运维。"
+    },
+    {
+      "occupation_id": "SNO-5dfa66abc1c47b16487d",
+      "status": "mapped",
+      "target_category_id": "L13-04",
+      "reason": "“商务拓展管培生”明确商务拓展职能，管培为标签，归商务拓展与合作。"
+    },
+    {
+      "occupation_id": "SNO-8ab2ff0f292e5b533a52",
+      "status": "mapped",
+      "target_category_id": "L22-02-03",
+      "reason": "“人文素养教师”明确人文社会学科教学，归人文与社会学科教学。"
+    },
+    {
+      "occupation_id": "SNO-e11eeca361a5252ac60a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“生产技术”未说明是生产操作还是工艺技术，方向不明确。"
+    },
+    {
+      "occupation_id": "SNO-ca131654e0df9eea714e",
+      "status": "mapped",
+      "target_category_id": "L04-03-01",
+      "reason": "“电芯过程质量工程师”明确制造过程质量，归过程质量管理。"
+    },
+    {
+      "occupation_id": "SNO-ba8e0573b972270ab2b3",
+      "status": "mapped",
+      "target_category_id": "L19-05-01",
+      "reason": "“经责审计工作员”明确经济责任审计，归内部审计。"
+    },
+    {
+      "occupation_id": "SNO-871c94bf8fa894de8d42",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“EGG管培生”缩写无明确职能信息，仅培养身份，无法归类。"
+    }
+  ]
+}

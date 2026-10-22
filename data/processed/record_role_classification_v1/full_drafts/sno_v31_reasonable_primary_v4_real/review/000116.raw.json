@@ -1,0 +1,28 @@
+{
+  "id": "1e9813a0-90fd-411f-8038-a476c3af8108",
+  "object": "chat.completion",
+  "created": 1791880529,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-89a1c7598af1c73f0ee6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-698f2431857aa407959b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-fe12539e0460c76f5706\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cc56e2e2fefe795dcbc1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-6c2cefbdde69f2d7af2d\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L05-05-02\",\"issue\":\"激光器研发属于光通信/光电子技术，应归入有线与光通信技术（L05-05-02），而非无线与射频技术（L05-05-01）。\"},{\"occupation_id\":\"TG-c13eaa46650a88061726\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-7e002d17f6e8f29407cf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-38654156ee7465c20256\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-71f90982df9b77a9f2a6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-13f2adc5423f6721fa4e\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L05-02\",\"issue\":\"芯片测试、封装、可靠性、产品工程属于芯片设计验证之外的芯片工程方向，归入L05-02-03（芯片设计验证）过细且不准确，建议停在L05-02芯片与集成电路设计。\"},{\"occupation_id\":\"TG-e5c23e41d6d66ea77187\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e92cfe180252b8da0cdc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cbb0383d9ccf05b361af\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2e980cffc2e97fe89e01\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-05ade013d5ebc847efcb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cbcd1e910e6a10bebd8b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5f8c9038d40786eec8e2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-93cc7eaf74096f6a86f6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1ae0aeb2af8383fd0a61\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-50ea198d3c4274d4da4f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19384,
+    "completion_tokens": 848,
+    "total_tokens": 20232,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2872
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "41caa43e-3441-4357-a400-194fec6390f3",
+  "object": "chat.completion",
+  "created": 1791880515,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-fa680ef1246bed3b9a67\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0868b3caf53c3c385956\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a2db953983b6c2a72f0b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-7432ab5586d0cee980ab\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-980332234c0afda08e5c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5c9f52e099d29e471b80\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"空管设计师通常指空中交通管制系统/空管自动化系统设计，与通信协议与系统（L05-05-03）关联较弱，建议人工确认实际工作内容。\"},{\"occupation_id\":\"TG-3b8ed981617f518dca52\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-70446d841e4b9a422719\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"资产运营管理岗可能指企业资产运营或房地产资产运营，而非金融投资组合管理，归入L20-02-01依据不足，建议人工确认。\"},{\"occupation_id\":\"TG-d58723747aaf56b95dec\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-86eb97e94adcb3d3ca55\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d233ad5645c20cf70740\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-68feaffba96291243d2f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8b21dba3a146c304bfbb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-396fabb174c8e4ee6c75\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"信号处理设计师可能属于电子硬件、通信或算法研发，归入通信协议与系统（L05-05-03）依据不足，建议人工确认。\"},{\"occupation_id\":\"TG-831348fff4ba7cbeed3a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-70045b98afe0179538b5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f9aec56797659dda4c5f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-507d61363dec49a0497e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4879e7b45e6834c8e140\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f3a05a4926bfd9802425\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19417,
+    "completion_tokens": 840,
+    "total_tokens": 20257,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2905
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

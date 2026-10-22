@@ -1,0 +1,28 @@
+{
+  "id": "ebd81aa6-68ed-454f-a0ff-26a8ffcdb8b8",
+  "object": "chat.completion",
+  "created": 1791881946,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"TG-114a497f112ce5ceb508\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题仅表明运营管理部职员，方向未明确，review合理。\"},{\"occupation_id\":\"TG-a927778522e6b5c622c8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械开发岗归L06-01机械与结构设计合理。\"},{\"occupation_id\":\"TG-8d11eb8e118373c736b0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"安装工程师可能涉及工业设备、建筑装修或售后安装，review合理。\"},{\"occupation_id\":\"TG-f413552b3eea86b64987\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"系统分析工程师归L01-07系统与基础软件研发合理。\"},{\"occupation_id\":\"TG-025742a05fddc2ec3d0f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械臂运控算法工程师归L02-05-06运筹优化与决策算法合理。\"},{\"occupation_id\":\"TG-078386eb7255d3ea99e6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"品管员归L04-03生产质量管理合理。\"},{\"occupation_id\":\"TG-6ddbef5b3278b4d5c5e3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"营销管理岗可能侧重市场或销售管理，review合理。\"},{\"occupation_id\":\"TG-f278cd19c927cf8c55ef\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"通信网络工程师归L05-05通信技术研发合理。\"},{\"occupation_id\":\"TG-4dc598ad82e123427b3d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"3D动作设计归L09-07动画与动态视觉设计合理。\"},{\"occupation_id\":\"TG-5dd63da3ea0cc4581e8c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"3D动作设计归L09-07动画与动态视觉设计合理。\"},{\"occupation_id\":\"TG-1aac65212fa8af7c828a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"造价工程师归L24-06-01工程造价与预算合理。\"},{\"occupation_id\":\"TG-4e4d3c3fd741d8a3b1ed\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"EHS专员归L25-07安全健康与职业防护合理。\"},{\"occupation_id\":\"TG-8f0b1810f172a983fa48\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外客户经理归L13-01企业客户销售合理。\"},{\"occupation_id\":\"TG-5391680045cbf633fecc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"水利水电工程施工设计岗归L24-03-02水利工程合理。\"},{\"occupation_id\":\"TG-bf05fbabc20ebca821b4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仓管员归L17-02-01仓库与库存管理合理。\"},{\"occupation_id\":\"TG-a6a9e368262f0086faaa\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"热设计工程师归L06-02热流体与动力工程合理。\"},{\"occupation_id\":\"TG-3da69a3f217d76536403\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"助理产品设计师归L09-03工业与产品外观设计合理。\"},{\"occupation_id\":\"TG-6ba48f79af28050f4e75\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械结构工程师归L06-01机械与结构设计合理。\"},{\"occupation_id\":\"TG-882a72ffaeb4252f322b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械结构研发工程师归L06-01机械与结构设计合理。\"},{\"occupation_id\":\"TG-99b375130e2607554089\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"内容策划可能涉及文案、内容运营或互动内容策划，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19447,
+    "completion_tokens": 1019,
+    "total_tokens": 20466,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2935
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

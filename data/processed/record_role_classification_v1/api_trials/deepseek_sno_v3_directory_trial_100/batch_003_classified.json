@@ -1,0 +1,153 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-batch-v1",
+  "batch_number": 3,
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 20,
+  "response_metadata": {
+    "request_id": "a3cc96e9-d0f7-445d-b49e-41ecb75db9b3",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791832222,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 16062,
+    "cached_input_tokens": 15104,
+    "uncached_input_tokens": 958,
+    "output_tokens": 903,
+    "reasoning_tokens": 0,
+    "total_tokens": 16965
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0007308119999999998
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-1838711f7b15f0cf9ba1",
+      "status": "mapped",
+      "target_category_id": "L30-02",
+      "reason": "公司本部法务属企业法务"
+    },
+    {
+      "occupation_id": "SNO-1ee0cba93e878e612df1",
+      "status": "review",
+      "target_category_id": "L06-08",
+      "reason": "工艺设备可指工艺或设备，方向不明确"
+    },
+    {
+      "occupation_id": "SNO-246a72f535b0fb633f71",
+      "status": "mapped",
+      "target_category_id": "L12-01",
+      "reason": "零售金融市场营销属市场策略营销策划"
+    },
+    {
+      "occupation_id": "SNO-4d430387182dba25e4fb",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "reason": "市场营销员方向未具体说明"
+    },
+    {
+      "occupation_id": "SNO-133566bc51aa96f3062c",
+      "status": "mapped",
+      "target_category_id": "L04-03",
+      "reason": "质量技术师属生产质量管理"
+    },
+    {
+      "occupation_id": "SNO-32e09c84e82e718ed544",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "含财务管理与项目管理两个方向"
+    },
+    {
+      "occupation_id": "SNO-6aa8f49cc992dfd75a11",
+      "status": "review",
+      "target_category_id": "L04-06",
+      "reason": "测试方向未说明，无法确定具体测试类型"
+    },
+    {
+      "occupation_id": "SNO-e8ec877c8da553d3c55b",
+      "status": "review",
+      "target_category_id": "L21-01",
+      "reason": "医生未说明专科方向"
+    },
+    {
+      "occupation_id": "SNO-afa906e58fbae1a1ec23",
+      "status": "mapped",
+      "target_category_id": "L20-02",
+      "reason": "投后管理属投资组合与资产管理"
+    },
+    {
+      "occupation_id": "SNO-0ec7605e63aece2ec4af",
+      "status": "review",
+      "target_category_id": "L01-11",
+      "reason": "ERBP含义不明，仅知为研发人员"
+    },
+    {
+      "occupation_id": "SNO-b8b67433bb430ff655d7",
+      "status": "mapped",
+      "target_category_id": "L12-04",
+      "reason": "媒介助理属公关与媒介关系"
+    },
+    {
+      "occupation_id": "SNO-dc86ef160a514ebc2b8c",
+      "status": "review",
+      "target_category_id": "L06-01",
+      "reason": "机务工程师可指航空或机械，方向不明确"
+    },
+    {
+      "occupation_id": "SNO-fc42de8ced809920dbb0",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "reason": "管培生专项计划属跨职能培养轮岗"
+    },
+    {
+      "occupation_id": "SNO-c3497b19b50f99cfbbbe",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "业务管理范围过泛，无法确定职能"
+    },
+    {
+      "occupation_id": "SNO-a06b900e474184960f35",
+      "status": "mapped",
+      "target_category_id": "L09-08",
+      "reason": "创意设计师方向未具体说明"
+    },
+    {
+      "occupation_id": "SNO-be992e432c8abf4f0cc3",
+      "status": "mapped",
+      "target_category_id": "L14-01",
+      "reason": "线上运营主管属产品与平台运营"
+    },
+    {
+      "occupation_id": "SNO-51f5e780348980537922",
+      "status": "review",
+      "target_category_id": "L06-08",
+      "reason": "智能制造专员方向不明确，可能属制造工程"
+    },
+    {
+      "occupation_id": "SNO-333fdf9f05504bdf318d",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "reason": "助理软件工程师方向未说明"
+    },
+    {
+      "occupation_id": "SNO-ed36359f03cb66de8943",
+      "status": "mapped",
+      "target_category_id": "L01-07",
+      "reason": "CAD/CAM核心模块开发属系统与基础软件研发"
+    },
+    {
+      "occupation_id": "SNO-2ef446313012ae14a0d6",
+      "status": "review",
+      "target_category_id": "L10-06",
+      "reason": "计划控制工程师领域未说明，可能属项目管理"
+    }
+  ]
+}

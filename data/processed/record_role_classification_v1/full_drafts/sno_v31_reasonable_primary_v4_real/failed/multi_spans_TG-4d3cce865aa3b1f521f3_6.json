@@ -1,0 +1,95 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-4d3cce865aa3b1f521f3",
+  "child_index": 6,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "零售/商务拓展电商运营/技术人力资源/行政/财务/法务视觉/交互/设计供应链质量",
+  "child_title": "财务",
+  "source_span": {
+    "text": "财务",
+    "start": 21,
+    "end": 23
+  },
+  "raw_decision": {
+    "original_record_id": "TG-4d3cce865aa3b1f521f3",
+    "case": "A",
+    "child_titles": [
+      "零售",
+      "商务拓展",
+      "电商运营",
+      "技术",
+      "人力资源",
+      "行政",
+      "财务",
+      "法务",
+      "视觉",
+      "交互",
+      "设计",
+      "供应链质量"
+    ],
+    "source_spans": [
+      {
+        "text": "零售",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "商务拓展",
+        "start": 3,
+        "end": 7
+      },
+      {
+        "text": "电商运营",
+        "start": 7,
+        "end": 11
+      },
+      {
+        "text": "技术",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "text": "人力资源",
+        "start": 14,
+        "end": 18
+      },
+      {
+        "text": "行政",
+        "start": 19,
+        "end": 21
+      },
+      {
+        "text": "财务",
+        "start": 21,
+        "end": 23
+      },
+      {
+        "text": "法务",
+        "start": 24,
+        "end": 26
+      },
+      {
+        "text": "视觉",
+        "start": 26,
+        "end": 28
+      },
+      {
+        "text": "交互",
+        "start": 29,
+        "end": 31
+      },
+      {
+        "text": "设计",
+        "start": 31,
+        "end": 33
+      },
+      {
+        "text": "供应链质量",
+        "start": 33,
+        "end": 38
+      }
+    ],
+    "reason": "标题由斜杠和空格分隔的多个独立岗位组成，可拆分为多个子岗位。"
+  }
+}

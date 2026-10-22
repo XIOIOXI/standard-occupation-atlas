@@ -1,0 +1,28 @@
+{
+  "id": "944215c2-d935-4a9d-be5f-4c9049563682",
+  "object": "chat.completion",
+  "created": 1791881537,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-133566bc51aa96f3062c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量技术师方向未明，review合理。\"},{\"occupation_id\":\"TG-5de90cabea2acac534fc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"新媒体内容运营归L14-03合理。\"},{\"occupation_id\":\"TG-3d6a06c43e8424f4a680\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"社群运营明确，归L14-02合理。\"},{\"occupation_id\":\"TG-b8587d916f955a3898ad\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"策略岗宽泛，review合理。\"},{\"occupation_id\":\"TG-e10f1aacb7584dc5fd80\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"品牌宣传归L12-02合理。\"},{\"occupation_id\":\"TG-26708994d107eaef0b00\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售工程师归L13-01合理。\"},{\"occupation_id\":\"TG-b8b67433bb430ff655d7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"媒介助理归L12-04合理。\"},{\"occupation_id\":\"TG-1dd6b2b04bc9895e23c2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术支持服务对象未明，review合理。\"},{\"occupation_id\":\"TG-3ee14b3f9d324d2dcc57\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"助理研究员方向未明，review合理。\"},{\"occupation_id\":\"TG-d02edbca4c8aa9bd7ec7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"理赔归L20-05合理。\"},{\"occupation_id\":\"TG-6b5b03d4aee012418052\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国内电商运营归L14-04合理。\"},{\"occupation_id\":\"TG-40522934839bc9fea5af\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"理论模拟研究归L07-01合理。\"},{\"occupation_id\":\"TG-ad7e8749950e736e548e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"职业卫生员归L25-07合理。\"},{\"occupation_id\":\"TG-3d4d50881a6973f8b29f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"装配工艺归L06-08合理。\"},{\"occupation_id\":\"TG-b91f5834edcf420fdcd5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多职能并列，multi_role合理。\"},{\"occupation_id\":\"TG-72898ee89cc36455c851\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"渠道销售经理归L13-03合理。\"},{\"occupation_id\":\"TG-90b505adbabf4184d916\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI软件架构归L01-09合理。\"},{\"occupation_id\":\"TG-71fc46fb4a47e90b0adc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"临床监查员归L21-07合理。\"},{\"occupation_id\":\"TG-ce86bbe6491da53deb02\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电气工程师归L05-03合理。\"},{\"occupation_id\":\"TG-f695c0780e0d47200402\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"光学算法归L02-05-01合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19471,
+    "completion_tokens": 899,
+    "total_tokens": 20370,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2959
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

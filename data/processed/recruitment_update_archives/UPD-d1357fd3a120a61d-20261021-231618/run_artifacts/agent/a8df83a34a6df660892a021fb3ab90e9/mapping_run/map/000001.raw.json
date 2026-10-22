@@ -1,0 +1,28 @@
+{
+  "id": "227db4b0-4433-415b-a266-883720892594",
+  "object": "chat.completion",
+  "created": 1792571894,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-a8df83a34a6df660892a021fb3ab90e9\",\"status\":\"mapped\",\"target_category_id\":\"L16-02\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L16-02\",\"L16-03\",\"L16-06\"],\"title_evidence\":\"标题为“供应链专员”，明确属于供应链职能，但未说明具体方向（规划、计划、采购等）\",\"level_3_evidence\":null,\"reason\":\"“供应链专员”直接对应供应链规划与管理二级类；标题未提供需求计划、采购或物流等更细分证据，故停在二级，不虚构三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16955,
+    "completion_tokens": 147,
+    "total_tokens": 17102,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 315
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

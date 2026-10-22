@@ -1,0 +1,28 @@
+{
+  "id": "50ee369f-0535-442c-8742-dbd7c4098543",
+  "object": "chat.completion",
+  "created": 1792571483,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-228a79a60ee6dd92da725d15222ce698\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"“工程部业务员”仅有部门与泛化称谓，无具体职责，候选L10-06/L24-07/L14-11均合理，保留review待人工确认。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17033,
+    "completion_tokens": 98,
+    "total_tokens": 17131,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 521
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

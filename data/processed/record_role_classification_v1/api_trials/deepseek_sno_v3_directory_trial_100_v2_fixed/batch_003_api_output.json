@@ -1,0 +1,28 @@
+{
+  "id": "b17acff0-2ba3-49ca-b112-1172bbbdd9d2",
+  "object": "chat.completion",
+  "created": 1791832786,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-1838711f7b15f0cf9ba1\",\"status\":\"mapped\",\"target_category_id\":\"L30-02\",\"reason\":\"标题“公司本部法务”明确企业法务职能，归企业法务。\"},{\"occupation_id\":\"SNO-1ee0cba93e878e612df1\",\"status\":\"review\",\"target_category_id\":\"L06-08\",\"reason\":\"“工艺设备”可指工艺或设备，标题未说明是工艺工程还是设备设计维修。\"},{\"occupation_id\":\"SNO-246a72f535b0fb633f71\",\"status\":\"review\",\"target_category_id\":\"L13-02\",\"reason\":\"“零售金融市场营销”含零售金融与市场营销，未明确是个人客户销售还是市场策划。\"},{\"occupation_id\":\"SNO-4d430387182dba25e4fb\",\"status\":\"mapped\",\"target_category_id\":\"L12-07\",\"reason\":\"标题“市场营销员”明确市场职能，但未说明策略、品牌或投放方向。\"},{\"occupation_id\":\"SNO-133566bc51aa96f3062c\",\"status\":\"mapped\",\"target_category_id\":\"L04-03\",\"reason\":\"“质量技术师”明确质量技术职能，制造质量方向未细分到三级。\"},{\"occupation_id\":\"SNO-32e09c84e82e718ed544\",\"status\":\"mapped\",\"target_category_id\":\"L32-01\",\"reason\":\"“管培生”且含财务管理、项目管理方向，属跨职能培养轮岗。\"},{\"occupation_id\":\"SNO-6aa8f49cc992dfd75a11\",\"status\":\"review\",\"target_category_id\":\"L04-06\",\"reason\":\"标题仅“测试”，未说明软件、硬件或生产质量测试方向。\"},{\"occupation_id\":\"SNO-e8ec877c8da553d3c55b\",\"status\":\"mapped\",\"target_category_id\":\"L21-01\",\"reason\":\"标题“医生”明确临床诊疗职能，但未说明具体专科。\"},{\"occupation_id\":\"SNO-afa906e58fbae1a1ec23\",\"status\":\"review\",\"target_category_id\":\"L20-02\",\"reason\":\"“投后管理”可能属投资管理或企业经营管理，标题缺少具体职责证据。\"},{\"occupation_id\":\"SNO-0ec7605e63aece2ec4af\",\"status\":\"review\",\"target_category_id\":\"L01-11\",\"reason\":\"“/ERBP研发人员”含研发但缩写不明，无法判断具体研发方向。\"},{\"occupation_id\":\"SNO-b8b67433bb430ff655d7\",\"status\":\"mapped\",\"target_category_id\":\"L12-04\",\"reason\":\"“媒介助理”明确媒介关系方向，助理为身份标签。\"},{\"occupation_id\":\"SNO-dc86ef160a514ebc2b8c\",\"status\":\"review\",\"target_category_id\":\"L06-01\",\"reason\":\"“机务工程师”可能指航空机务或机械设备，标题缺少行业与职责证据。\"},{\"occupation_id\":\"SNO-fc42de8ced809920dbb0\",\"status\":\"mapped\",\"target_category_id\":\"L32-01\",\"reason\":\"“管培生专项计划”为正式培养项目，未指定最终职业方向。\"},{\"occupation_id\":\"SNO-c3497b19b50f99cfbbbe\",\"status\":\"review\",\"target_category_id\":\"L11-07\",\"reason\":\"“业务管理”过于宽泛，未说明经营、销售或运营等具体职能。\"},{\"occupation_id\":\"SNO-a06b900e474184960f35\",\"status\":\"mapped\",\"target_category_id\":\"L09-08\",\"reason\":\"“创意设计师”明确设计职能，但未说明视觉、产品还是空间方向。\"},{\"occupation_id\":\"SNO-be992e432c8abf4f0cc3\",\"status\":\"review\",\"target_category_id\":\"L14-11\",\"reason\":\"“线上运营主管”未说明运营对象，无法判断产品、用户或电商运营。\"},{\"occupation_id\":\"SNO-51f5e780348980537922\",\"status\":\"review\",\"target_category_id\":\"L06-08\",\"reason\":\"“智能制造专员”可能属制造工艺、设备或信息化，标题缺少具体职责。\"},{\"occupation_id\":\"SNO-333fdf9f05504bdf318d\",\"status\":\"mapped\",\"target_category_id\":\"L01-11\",\"reason\":\"“助理软件工程师”明确软件开发，但未说明前后端或技术方向。\"},{\"occupation_id\":\"SNO-ed36359f03cb66de8943\",\"status\":\"mapped\",\"target_category_id\":\"L01-07\",\"reason\":\"标题明确国产CAD/CAM软件核心模块设计开发，属系统与基础软件研发。\"},{\"occupation_id\":\"SNO-2ef446313012ae14a0d6\",\"status\":\"review\",\"target_category_id\":\"L10-06\",\"reason\":\"“计划控制工程师”可能属项目计划或生产计划，标题缺少领域证据。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16300,
+    "completion_tokens": 1083,
+    "total_tokens": 17383,
+    "prompt_tokens_details": {
+      "cached_tokens": 15360
+    },
+    "prompt_cache_hit_tokens": 15360,
+    "prompt_cache_miss_tokens": 940
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

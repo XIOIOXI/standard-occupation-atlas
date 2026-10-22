@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_007_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-7f7213e5e772f5f3216c",
+      "verdict": "pass",
+      "suggested_target_category_id": "L04-03",
+      "issue": "标题明确品质检验职能，归生产质量管理符合目录范围；管培生为身份修饰，不改变职能归属。"
+    },
+    {
+      "occupation_id": "SNO-ac88016e507fd573963d",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-06",
+      "issue": "标题明确门店业务运营方向，归线下业务与场所运营符合目录范围；管培生为身份修饰。"
+    },
+    {
+      "occupation_id": "SNO-5dfa66abc1c47b16487d",
+      "verdict": "pass",
+      "suggested_target_category_id": "L13-04",
+      "issue": "标题明确商务拓展职能，归商务拓展与合作符合目录范围；管培生为身份修饰。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11393,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 641,
+    "output_tokens": 193,
+    "reasoning_tokens": 0,
+    "total_tokens": 11586
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000244206
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

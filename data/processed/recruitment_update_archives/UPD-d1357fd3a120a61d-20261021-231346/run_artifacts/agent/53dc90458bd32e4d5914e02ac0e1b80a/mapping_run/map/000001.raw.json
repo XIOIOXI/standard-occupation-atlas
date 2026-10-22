@@ -1,0 +1,28 @@
+{
+  "id": "9611fa77-267e-4948-ac40-d05e27d11daa",
+  "object": "chat.completion",
+  "created": 1792571935,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-53dc90458bd32e4d5914e02ac0e1b80a\",\"status\":\"mapped\",\"target_category_id\":\"L04-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L04-03\",\"L04-05\",\"L04-02\"],\"title_evidence\":\"标题为“质量工程师”，属于制造/产品质量职能；公司为半导体电子制造企业，质量工程师通常承担生产过程与产品质量管理。\",\"level_3_evidence\":null,\"reason\":\"“质量工程师”在电子制造企业中最直接对应生产质量管理（L04-03）；标题未明确是过程质量、供应商质量还是客诉质量，故停在二级，不强行细分三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16957,
+    "completion_tokens": 166,
+    "total_tokens": 17123,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

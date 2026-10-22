@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-845dccb9337a934ffeb09b4451232bc2",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-08",
+        "L20-11",
+        "L13-02",
+        "L32-02"
+      ],
+      "title_evidence": "标题为“分支机构业务岗”，仅说明银行分支机构业务岗位，未明确具体职能（柜面运营、客户销售、信贷等均可能）。",
+      "level_3_evidence": null,
+      "reason": "银行分支机构业务岗为泛化岗位，无法确定是金融运营、销售还是综合培养；按规则仅行业（银行）不足以确定职能，应标 review，候选包括金融运营、通用金融业务、个人客户销售及综合储备培养。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16903,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 263,
+    "output_tokens": 170,
+    "reasoning_tokens": 0,
+    "total_tokens": 17073
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038274
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

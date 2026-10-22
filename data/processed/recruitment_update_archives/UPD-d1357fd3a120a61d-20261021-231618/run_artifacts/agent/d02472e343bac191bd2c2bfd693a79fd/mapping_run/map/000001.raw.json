@@ -1,0 +1,28 @@
+{
+  "id": "90936631-2fb9-4822-a781-2f1b1fb98186",
+  "object": "chat.completion",
+  "created": 1792571772,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-d02472e343bac191bd2c2bfd693a79fd\",\"status\":\"mapped\",\"target_category_id\":\"L20-05\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L20-05\",\"L21-01-02\",\"L21-01-08\"],\"title_evidence\":\"人伤岗，保险公司岗位，结合同批车物核损岗，属保险理赔中人身伤害核损理赔方向\",\"level_3_evidence\":null,\"reason\":\"人伤岗为财险理赔中人身伤害核定与理赔处理，归保险核保与理赔（L20-05）；虽涉及医疗知识，但非临床诊疗，不归L21。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16963,
+    "completion_tokens": 159,
+    "total_tokens": 17122,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 323
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

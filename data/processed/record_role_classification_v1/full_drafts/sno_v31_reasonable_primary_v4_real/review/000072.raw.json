@@ -1,0 +1,28 @@
+{
+  "id": "f5c7dfb2-d466-46bb-b784-3fb60afa2e31",
+  "object": "chat.completion",
+  "created": 1791880387,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-d1d61d9fb121a403b75a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多学科教师归L22-02合理，二级归属恰当。\"},{\"occupation_id\":\"TG-2d78345ebd10570fd47b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"果蔬数字化研究岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-9b12eeea94f28a495566\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字化运营归L14-01合理。\"},{\"occupation_id\":\"TG-f357bf7c8407f9673203\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"铁路运营管理归L27-07合理。\"},{\"occupation_id\":\"TG-501a3f5933eb6591393d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产统计储备归L23-01合理。\"},{\"occupation_id\":\"TG-d3fbdbb3edb1165b9183\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"法务管培生归L30-02合理，管培标签不改变职能。\"},{\"occupation_id\":\"TG-5de43de2643c6f96e2d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"土木专责归L24-02合理。\"},{\"occupation_id\":\"TG-ec78152917d0195fe97a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多职能综合类，multi_role合理。\"},{\"occupation_id\":\"TG-7efb27cb943df8a7f163\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术管培生方向未明，review合理。\"},{\"occupation_id\":\"TG-f6df1ec53c1a78e721e5\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L06-08\",\"issue\":\"数字化仿真工程师通常属于制造/工程仿真，归L01-08-02引擎系统开发明显错分，应归L06-08工艺与制造工程或相关工程研发。\"},{\"occupation_id\":\"TG-d6a484e659b68cddd661\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"服装质量体系助理归L04-05合理。\"},{\"occupation_id\":\"TG-76b9daa9e171c8fde225\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"独立律师归L30-01合理。\"},{\"occupation_id\":\"TG-3c762a8efa72f86adfad\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"会计管理专员归L19-01合理。\"},{\"occupation_id\":\"TG-f9e19f8b0f4f0a92b329\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"CV算法工程师归L02-05-01合理。\"},{\"occupation_id\":\"TG-188d970f0e6e2d5e50b4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务与人力资源双职能，multi_role合理。\"},{\"occupation_id\":\"TG-8e9a8ceb16426f597bb3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"矿产勘查技术研究归L25-01合理。\"},{\"occupation_id\":\"TG-2a6648253796b411007e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"队伍培训岗归L18-03-01合理。\"},{\"occupation_id\":\"TG-4f150eb0a0e1e48ff308\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行分行本部岗位职能未明，review合理。\"},{\"occupation_id\":\"TG-85540424e63b65c7dc1a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"算法设计工程师方向未明，归L02-05二级合理。\"},{\"occupation_id\":\"TG-2d1212b91448ea75e92a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"交易管控岗方向不明确，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19492,
+    "completion_tokens": 985,
+    "total_tokens": 20477,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2980
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

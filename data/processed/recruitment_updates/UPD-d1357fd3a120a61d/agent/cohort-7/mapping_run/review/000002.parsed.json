@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-0e6a4a8d59eef0b905ebb3277a1eb6e3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“产业发展部办事员”职责未明，候选L11-06/L11-03/L11-02合理，review状态可保留。"
+    },
+    {
+      "occupation_id": "UP-e013e0d9fe564d4b2c4c4d4faca82acd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“技术员”方向未明，结合农林牧渔行业列L26-01/L26-03/L26-07/L26-08候选合理，review状态可保留。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17411,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 899,
+    "output_tokens": 187,
+    "reasoning_tokens": 0,
+    "total_tokens": 17598
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000296586
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

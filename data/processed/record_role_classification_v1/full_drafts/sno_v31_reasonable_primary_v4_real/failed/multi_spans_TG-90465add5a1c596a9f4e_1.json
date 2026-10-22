@@ -1,0 +1,35 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-90465add5a1c596a9f4e",
+  "child_index": 1,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "测试T程师JAVA开发工程师",
+  "child_title": "JAVA开发工程师",
+  "source_span": {
+    "text": "JAVA开发工程师",
+    "start": 5,
+    "end": 13
+  },
+  "raw_decision": {
+    "original_record_id": "TG-90465add5a1c596a9f4e",
+    "case": "A",
+    "child_titles": [
+      "测试T程师",
+      "JAVA开发工程师"
+    ],
+    "source_spans": [
+      {
+        "text": "测试T程师",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "text": "JAVA开发工程师",
+        "start": 5,
+        "end": 13
+      }
+    ],
+    "reason": "标题由两个独立岗位名称直接拼接，无分隔符，可拆分为两个子岗位。"
+  }
+}

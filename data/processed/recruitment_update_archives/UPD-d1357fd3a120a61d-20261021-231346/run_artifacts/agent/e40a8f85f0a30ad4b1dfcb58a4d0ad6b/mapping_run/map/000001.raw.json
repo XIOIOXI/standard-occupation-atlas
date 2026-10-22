@@ -1,0 +1,28 @@
+{
+  "id": "dca85161-6e9b-45bc-b1c2-25362f218e12",
+  "object": "chat.completion",
+  "created": 1792571715,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-e40a8f85f0a30ad4b1dfcb58a4d0ad6b\",\"status\":\"mapped\",\"target_category_id\":\"L02-03-03\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L02-03-03\",\"L02-03-02\",\"L01-06-01\"],\"title_evidence\":\"车端大数据组件开发工程师：车端+大数据组件开发，核心为车载数据采集/计算组件与数据平台组件开发\",\"level_3_evidence\":\"数据计算平台：批流计算及数据平台基础设施\",\"reason\":\"标题明确为车端大数据组件开发，属数据平台/数据管道组件研发，最直接二级为数据工程与数据平台开发；组件为数据计算与采集基础设施，归数据计算平台三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16943,
+    "completion_tokens": 187,
+    "total_tokens": 17130,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 303
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

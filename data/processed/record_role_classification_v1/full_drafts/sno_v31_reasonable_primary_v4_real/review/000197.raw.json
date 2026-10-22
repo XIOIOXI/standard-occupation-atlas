@@ -1,0 +1,28 @@
+{
+  "id": "0d7b97b2-cd1d-46b9-9fe8-3fd62fe3ed65",
+  "object": "chat.completion",
+  "created": 1791880793,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-db96e5c0d1d571f81d46\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"办公室综合岗方向未明，review合理。\"},{\"occupation_id\":\"TG-b195939fd4ab314220a4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"人力资源综合管理，L18-04合理。\"},{\"occupation_id\":\"TG-b96abf89f876285d0d12\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"新媒体渠道运营归L14-03合理。\"},{\"occupation_id\":\"TG-6259d8104225620bbf70\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户质量工程师归L04-03-03合理。\"},{\"occupation_id\":\"TG-acfc85e322c01687faf8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"初中教师未说明学科，停在L22-02合理。\"},{\"occupation_id\":\"TG-7be07dc43ea5ed2aa2b2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"测量专责岗归L24-09合理。\"},{\"occupation_id\":\"TG-77a02e9c4e5a4d2f5313\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"线上销售管培生归L13-02合理。\"},{\"occupation_id\":\"TG-860648e5d4c613ab1c74\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户管理管培生归L13-01-02合理。\"},{\"occupation_id\":\"TG-8358ec3415aa357e208c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"测绘遥感研发归L24-09合理。\"},{\"occupation_id\":\"TG-de3c1fc8825fa71ed785\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"服装品牌运营管培生归L14-04-01合理。\"},{\"occupation_id\":\"TG-a4b6a51044a9e833358f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"水声信号算法归L02-05-03合理。\"},{\"occupation_id\":\"TG-c4add1f6c2477cc2c016\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"安全质量岗方向未明，review合理。\"},{\"occupation_id\":\"TG-913ebc2cef226d519ada\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"区域销售培训生客户类型未明，归L13-09合理。\"},{\"occupation_id\":\"TG-a0d31ef66d201ea7d845\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"中文编辑归L15-02-02合理。\"},{\"occupation_id\":\"TG-7b3f0856127758a3217e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"融资会计归L19-01-01合理。\"},{\"occupation_id\":\"TG-34ec3b82ef6867175852\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"储能硬件研发归L05-01-02合理。\"},{\"occupation_id\":\"TG-2051b914b26798328e4b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"基金运营岗归L20-08合理。\"},{\"occupation_id\":\"TG-480f83dac841cefccc69\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财税岗方向未明，归L19-08合理。\"},{\"occupation_id\":\"TG-9eff61a9f74e0bd5c275\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"网络开发工程师方向未明，归L01-11合理。\"},{\"occupation_id\":\"TG-9938cf7ff9077df1db2e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工务线桥检修归L24-10-01合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19584,
+    "completion_tokens": 954,
+    "total_tokens": 20538,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3072
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

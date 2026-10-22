@@ -1,0 +1,185 @@
+{
+  "batch_number": 38,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "5ed59f77-4cd0-4b58-9e3d-6d864059223d",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821882,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29714,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2322,
+    "output_tokens": 1375,
+    "reasoning_tokens": 0,
+    "total_tokens": 31089
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0012554760000000002
+  },
+  "results": [
+    {
+      "entry_id": "SNO-6cc5592707560d992946",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“运行标准”职责不明确，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-6d147f379c06be65e6c6",
+      "status": "mapped",
+      "target_category_id": "供应链/物流/supply-drone/drone-operations",
+      "reason": "无人机技术对应无人机行业应用飞行作业，可归入无人机飞手下的行业应用飞行作业。"
+    },
+    {
+      "entry_id": "SNO-6debce9318602f5b8139",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出金融、会计、财务、法律、人力资源等多个互不兼容的独立职业方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-6edb77679bbe71f518b1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“科技”过于宽泛，无法确认任何一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-6ee6a47d3f0e50588fdf",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“策划培训生”中培训生非职业，且策划领域不明确，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6eea4be8d5e0f7a0fa67",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出营运、人力、行政、采购、审计等多个互不兼容的独立职业方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-6f0b61c2a8aa884ad401",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-visual",
+      "reason": "多媒体工程师可对应交互与可视化开发，但名称未明确技术方向，建议复核。"
+    },
+    {
+      "entry_id": "SNO-6fb4e0f924786be27d83",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "reason": "售后技术工程师可对应技术支持与客户交付，但行业不明确，建议复核。"
+    },
+    {
+      "entry_id": "SNO-6fb9f479469f20d8991e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“综合业务员”职责范围不明确，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6fc75994f734f7835da2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“团队管理”未说明行业或职能，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-6ffd7c687f7a2a5b35fb",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "通用软件开发工程师可对应业务服务端开发，但名称未明确后端方向，建议复核。"
+    },
+    {
+      "entry_id": "SNO-700be5289373f403ad3b",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时列出税务与审计两个独立职能，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-703d74181f564848f3bb",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出买手、商品计划、海外采购、海外财经BP、运营等多个互不兼容的独立职业方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-7095e5f2b4180eaa6a95",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“经济金融”名称宽泛，缺少具体岗位职责，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-7099b02a6f3457bb8500",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“综合培养生”中培养生非职业，且未指明职能方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-7159efc765d2583dddf2",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend",
+      "reason": "地理信息研发可归入后端开发，但三级方向不明确，建议复核。"
+    },
+    {
+      "entry_id": "SNO-719fad2504e5b6855604",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“管理支撑”职责不明确，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-71d1199419571b488953",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-visual",
+      "reason": "UE开发工程师可对应交互与可视化开发，但名称未明确技术方向，建议复核。"
+    },
+    {
+      "entry_id": "SNO-71e0e36f122a92e73a83",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“见习”非职业，未说明具体职业方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-7243e20ef370797d55a2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“储备交付工程师”为培养项目，且交付技术方向不明确，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-7256118f4bb266809545",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含物业管理、工程管理和讲解服务，属多岗位复合，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-72771e1e362f6c1e2748",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“信息管理”职责范围宽泛，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-72af2da2f1f56ff318af",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出法学、公安学、会计、财务管理、金融等多个互不兼容的独立专业方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-72d4e5bbf2c037de0177",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "图像调试可对应计算机视觉与三维感知，但名称未明确算法方向，建议复核。"
+    },
+    {
+      "entry_id": "SNO-7347c5bdb7c77aa4766f",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出工业、产品工艺、制程、模具设计、项目管理、电气、机械、视觉等多个互不兼容的独立职业方向，无共同上级。"
+    }
+  ]
+}

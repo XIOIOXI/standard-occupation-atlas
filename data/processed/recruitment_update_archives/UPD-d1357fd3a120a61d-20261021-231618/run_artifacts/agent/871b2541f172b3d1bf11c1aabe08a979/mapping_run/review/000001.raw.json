@@ -1,0 +1,28 @@
+{
+  "id": "13ca55ae-8ac8-4afd-92a0-c2663482b48e",
+  "object": "chat.completion",
+  "created": 1792571829,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-871b2541f172b3d1bf11c1aabe08a979\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发管培生方向未明且具培养属性，review并保留L06-06-01/L06-09/L32-01/L32-02候选合理，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17090,
+    "completion_tokens": 92,
+    "total_tokens": 17182,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 578
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

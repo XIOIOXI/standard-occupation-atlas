@@ -1,0 +1,28 @@
+{
+  "id": "410f6529-2770-42fd-90c3-1cbc2f1aee07",
+  "object": "chat.completion",
+  "created": 1791881728,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-a86467c129bd47bb6a99\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a9b400145c68a4b33a0e\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L06-08-01\",\"issue\":\"塑管工艺岗属于制造制程工程（塑料管材生产工艺），而非工装模具与工艺装备，应归L06-08-01。\"},{\"occupation_id\":\"TG-892f3565fb53891162b9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c99a97614b54c35f0dc6\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L20-11\",\"issue\":\"投资者保护岗属于金融业务中的投资者保护职能，与证券与市场研究（L20-01-01）不符，应归L20-11通用金融专业业务。\"},{\"occupation_id\":\"TG-2d80090707f29a4de4f7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d0e17c4f71db8faefb3a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1913c4fcaecf2ecc7ac2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c18950d3efcae3ae2b47\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d25b31b73a453fb2ef9a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cf5f082aceb4fecb0b26\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-98b7a2856821fdb2cea3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-6714cfd30b55dda01335\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d6a9c3d3f89f85f6658d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cc9319f8e99affbf8b0b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0d852b928c7ddbc862e1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a0c9c08c7a0cba058739\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e1ab77fc41b5bec7333e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a74b660ac7763583a444\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-597159ca4db71e499794\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8485b5eae818995b0109\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19594,
+    "completion_tokens": 825,
+    "total_tokens": 20419,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3082
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

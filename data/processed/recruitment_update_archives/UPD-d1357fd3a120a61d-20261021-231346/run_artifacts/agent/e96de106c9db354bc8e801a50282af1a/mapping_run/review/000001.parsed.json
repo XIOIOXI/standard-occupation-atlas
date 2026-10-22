@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e96de106c9db354bc8e801a50282af1a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "“项目助理”为项目支持类岗位，领域未明确，review 并候选 L10-06/L10-02/L18-06 合理，不构成明显错分。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17037,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 525,
+    "output_tokens": 99,
+    "reasoning_tokens": 0,
+    "total_tokens": 17136
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000375372
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

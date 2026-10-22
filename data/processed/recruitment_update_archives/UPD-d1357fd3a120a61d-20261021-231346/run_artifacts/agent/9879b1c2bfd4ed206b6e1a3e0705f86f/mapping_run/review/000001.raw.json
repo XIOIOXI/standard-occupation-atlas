@@ -1,0 +1,28 @@
+{
+  "id": "5091a792-0d6e-4f93-841a-381e3265166f",
+  "object": "chat.completion",
+  "created": 1792571680,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-9879b1c2bfd4ed206b6e1a3e0705f86f\", \"verdict\": \"pass\", \"suggested_target_category_id\": null, \"issue\": \"标题仅“质量实习生”，方向未明；候选 L04-03/L04-05/L04-06 均合理，review 处理恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17005,
+    "completion_tokens": 98,
+    "total_tokens": 17103,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 493
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-f80baafb846e1305e61ba4311a2f1a5e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "研发实习生方向未明，结合医疗/医药/生物行业背景，候选覆盖生物技术研发、药物研发、临床研究及检测等，保留review合理；不要求唯一答案。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17076,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 564,
+    "output_tokens": 93,
+    "reasoning_tokens": 0,
+    "total_tokens": 17169
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037987199999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

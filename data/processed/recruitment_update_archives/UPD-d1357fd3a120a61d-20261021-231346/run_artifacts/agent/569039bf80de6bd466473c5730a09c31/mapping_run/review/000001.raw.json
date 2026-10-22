@@ -1,0 +1,28 @@
+{
+  "id": "703c0faf-1653-4688-80b3-d39d3a1ed05b",
+  "object": "chat.completion",
+  "created": 1792571949,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-569039bf80de6bd466473c5730a09c31\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L06-08\", \"issue\": \"工艺工程师在半导体制造企业对应制造工艺/制程工程，主归属L06-08合理；标题未明确具体制程方向，停在二级可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17011,
+    "completion_tokens": 98,
+    "total_tokens": 17109,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 499
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

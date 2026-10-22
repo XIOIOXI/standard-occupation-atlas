@@ -1,0 +1,28 @@
+{
+  "id": "cd8e341c-067c-4c82-b3ca-b2a05453d97d",
+  "object": "chat.completion",
+  "created": 1791880988,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-187360bf49c2f43de8fe\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"现场代表岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-f00bf0b893f7f4d3ac59\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"VLA方向归多模态算法合理。\"},{\"occupation_id\":\"TG-c00891894740e873f672\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅销售职能未说明客户类型，归通用销售合理。\"},{\"occupation_id\":\"TG-84a12468b279e783c061\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"审计实习生归内部审计合理。\"},{\"occupation_id\":\"TG-68a362860749fc9f11b9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"游戏玩法开发归游戏客户端合理。\"},{\"occupation_id\":\"TG-cf544a7c9591951367a5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财富管理归投资组合与资产管理合理。\"},{\"occupation_id\":\"TG-265a2928515d65c21cd1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"教学辅助归教学辅助与学员服务合理。\"},{\"occupation_id\":\"TG-234477e9a8fcb0c53799\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"后勤专员归行政与办公事务合理。\"},{\"occupation_id\":\"TG-49e5d5a10ab7fd7da7dd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"材料基因工程师归金属与无机材料合理。\"},{\"occupation_id\":\"TG-4f349534409f1c60a4b3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"选矿专责岗归采矿与资源开采合理。\"},{\"occupation_id\":\"TG-fd41e71214230eeb259e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工艺制程工程师归制造制程工程合理。\"},{\"occupation_id\":\"TG-7380e8c9cd041080d607\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"总经理助理职责不明确，review合理。\"},{\"occupation_id\":\"TG-7cf178e9368fd7ac0d8a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术服务岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-1ab2a131971d3ee8f474\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-9c08bc65fbacd3e3b836\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"PMC/仓库/采购多职能，multi_role合理。\"},{\"occupation_id\":\"TG-c058be89d2af365503ea\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"教务助理归教学辅助与学员服务合理。\"},{\"occupation_id\":\"TG-cbb42a2355a1587a5db6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"定向柜员岗归金融运营与交易清算合理。\"},{\"occupation_id\":\"TG-da025661b5f1214c0923\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI与智能制造岗方向不明确，review合理。\"},{\"occupation_id\":\"TG-11c4088f52c3b064f53d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"物料计划员归需求与物料计划合理。\"},{\"occupation_id\":\"TG-c75da5e24ee0dffed61e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"PLC电气工程师归自动化与控制工程合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19663,
+    "completion_tokens": 913,
+    "total_tokens": 20576,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3151
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,51 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-3951da0dbbf4348c1db17d59fb51ee8b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "会计学明确对应会计核算，归L19-01合理；未细分三级，停在二级符合规则。"
+    },
+    {
+      "occupation_id": "UP-f3c01bac8537fd766774ed3b646094b1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "总行管培生为培养项目且最终职能未明确，标review并给L32-01/L20-11候选合理。"
+    },
+    {
+      "occupation_id": "UP-691447ca56b5141bbb0566d7c83d4ce1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题并列产品、算法、测试、数据分析等多方向，标multi_role合理。"
+    },
+    {
+      "occupation_id": "UP-39c7cd3cb85474c0f31fcabd9a9a0074",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "分支行储备生主要固定职能未明确，标review并给L32-02等候选合理。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 18058,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 1546,
+    "output_tokens": 270,
+    "reasoning_tokens": 0,
+    "total_tokens": 18328
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00044343599999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

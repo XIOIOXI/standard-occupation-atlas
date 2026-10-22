@@ -1,0 +1,28 @@
+{
+  "id": "c2fd56ea-3732-4fbb-bf67-1ebd851e8dc4",
+  "object": "chat.completion",
+  "created": 1791880383,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-d3f6e68048ea11492c59\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8b19d8505f49015792d5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0ffa09f4c6f464c103db\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-df6611d03833d1ce0232\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cc613b5e3698c0e63410\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"“生产运维岗”可能指IT系统运维（L03-01）或生产设备运维（L23-09），标题证据不足以确定方向，建议补充岗位描述。\"},{\"occupation_id\":\"TG-834b89fae2e9d0a86148\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-80129a2a7a3d28b9d127\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ab73fdc7b92b8eb8a268\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-89f1aae5c5fda37b35a3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-642b17c4ca3bc3c958fb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-cb47cd30c6254c9548b2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8b6c49e1910207f6177b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a8e98d1c9b9dec42fbff\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4e1267f8637967b001f6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-b49d6afde0965ef4d58b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-63c4f40ca74a3fbbbd3e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-9c91e952983ae24a0d4d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d2e913e342d9f76cd823\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"“数字化仿真应用工程师”可能指仿真软件研发（L01-07）或工程仿真分析（L06-01），标题证据不足以确定方向，建议补充岗位描述。\"},{\"occupation_id\":\"TG-0e34c22b3512f0239d12\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-2560ad302a391ad89263\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19565,
+    "completion_tokens": 829,
+    "total_tokens": 20394,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3053
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

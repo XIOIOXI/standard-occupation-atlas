@@ -1,0 +1,28 @@
+{
+  "id": "5f8a4f19-a7d1-4c3c-b97a-316252c8bb38",
+  "object": "chat.completion",
+  "created": 1791880754,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-bfc8a808d84a8e8b6c8f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术采购归L16-01采购与供应商管理，二级归属合理。\"},{\"occupation_id\":\"TG-a0fb0910f79fb1a3034c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生方向未明，review并候选L32-01/L32-02合理。\"},{\"occupation_id\":\"TG-88aff1d6acae85bfd301\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字化系统架构工程师归L01-09软件架构，合理。\"},{\"occupation_id\":\"TG-bc90ee29712f7b819d6e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数据库管理工程师归L03-04数据库运维，合理。\"},{\"occupation_id\":\"TG-6dffabb6c210a91507d6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电能表研发归L05-01电子硬件研发，二级合理。\"},{\"occupation_id\":\"TG-c80b753dcc643d11ef9e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"招商业务经理归L13-06招商与租赁销售，合理。\"},{\"occupation_id\":\"TG-5adee72634f1bb06051d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品研发设计岗方向宽泛，review合理。\"},{\"occupation_id\":\"TG-fb6ebb769abf42657dfb\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"全能值班员方向不明，review合理。\"},{\"occupation_id\":\"TG-61a5396da4f56770bda2\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L02-05-01\",\"issue\":\"视觉软件工程师（激光精密）通常指机器视觉/图像处理算法开发，应归L02-05-01计算机视觉，而非L01-08-01图形渲染开发。\"},{\"occupation_id\":\"TG-7515c2951bf8ee7a484e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"泛指岗位，non_role_text合理。\"},{\"occupation_id\":\"TG-817ce9bbb4c8fd5df268\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"智能传感器设计归L05-01电子硬件研发，二级合理。\"},{\"occupation_id\":\"TG-38e180941eaee8544fc0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"推荐系统工程师归L02-05-04推荐搜索与广告算法，合理。\"},{\"occupation_id\":\"TG-2e99d57016973f739dca\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"球场赛事运营归L14-06线下业务与场所运营，合理。\"},{\"occupation_id\":\"TG-48531267c9e63d452d56\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"驻场专员职责不明，review合理。\"},{\"occupation_id\":\"TG-44e917debd06ccaf6286\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"方案拓展工程师归L14-09售前技术与解决方案，合理。\"},{\"occupation_id\":\"TG-576bd16a408e140ec403\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外渠道销售专员归L13-03渠道销售与经销管理，合理。\"},{\"occupation_id\":\"TG-350d33945eef576e921f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信息系统开发运维工程师侧重运维，归L03-02可接受。\"},{\"occupation_id\":\"TG-556362a691b14f6e726f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI+FINTECH培训生方向未明，review合理。\"},{\"occupation_id\":\"TG-97cc639f3fcb72e08560\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"会计归L19-01会计核算，二级合理。\"},{\"occupation_id\":\"TG-d71081e18b592a4a93ee\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"商务BD管培生方向未明，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19519,
+    "completion_tokens": 1017,
+    "total_tokens": 20536,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3007
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

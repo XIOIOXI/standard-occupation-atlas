@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 208,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "5253e8c0-786e-43c0-a54e-bade6af847af",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751609,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24913,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1617,
+    "output_tokens": 2679,
+    "reasoning_tokens": 0,
+    "total_tokens": 27592
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0019198379999999997
+  },
+  "observed_at_utc": "2026-10-11T20:46:49.509659+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-7a131914fb8b9992a9a8",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "后端软件开发工程师，核心为业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-15f2ab2f05a5ff145db6",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "值班员职责范围不明确，缺少行业或岗位具体职责信息。"
+    },
+    {
+      "occupation_id": "SNO-49e1876d1caf8c5a1530",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "综合调研对应市场与社会调研。"
+    },
+    {
+      "occupation_id": "SNO-dbd1650135043cbb998c",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量专员核心为质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-500794e291a02fe1393c",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "信息化专员通常负责企业信息化系统支持与运维。"
+    },
+    {
+      "occupation_id": "SNO-2804b190025a71166209",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-deep",
+      "status": "mapped",
+      "reason": "AI模型工程师核心为深度学习与模型训练。"
+    },
+    {
+      "occupation_id": "SNO-92f82343344d840e86a4",
+      "target_category_id": "设计/design-visual-interaction/design-motion",
+      "status": "mapped",
+      "reason": "视频设计师核心为动态与数字媒体设计。"
+    },
+    {
+      "occupation_id": "SNO-9dc4e73ea671c241aa7c",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "商务岗位通常承担销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-091cd937cce4d7dd0115",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "AI应用研究员核心为算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-384a4341b50583a46aaa",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-analysis",
+      "status": "mapped",
+      "reason": "化验室分析员核心为化学分析与质量控制。"
+    },
+    {
+      "occupation_id": "SNO-adc369c2fe2c398885c9",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "硬件开发核心为电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-08c98f9c9082cb81fa19",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "综合业务职责范围不明确，缺少具体业务方向信息。"
+    },
+    {
+      "occupation_id": "SNO-d48cd0720600d6e3dc27",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "新能源研发对应能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-d683392bd169003246f1",
+      "target_category_id": "市场/公关/广告/marketing-government/government-affairs-compliance",
+      "status": "mapped",
+      "reason": "市场监管通常涉及政策研究与政府关系或合规事务。"
+    },
+    {
+      "occupation_id": "SNO-1849a412d0b03739ecac",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "业务支持通常承担销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-e37ff7ef47f9154265db",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中学化学教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-d457e497da0565423ebf",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "通信信号处理架构设计师核心为无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-dadaf24f49a5584c2f8d",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "董事长助理通常承担文档与行政事务支持。"
+    },
+    {
+      "occupation_id": "SNO-11ab3cfe7ef7e704f024",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": "公共卫生岗位通常涉及临床诊疗或疾病预防控制。"
+    },
+    {
+      "occupation_id": "SNO-144f78226e853cb55638",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "双碳咨询师属于管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-33efdc2481a290c65ad7",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "暖通工程师通常负责施工现场管理或机电工程管理。"
+    },
+    {
+      "occupation_id": "SNO-9028fc69ce651e107d73",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "商务工程师通常承担销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-341c5a938658613f640a",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "计划专员核心为生产计划与调度。"
+    },
+    {
+      "occupation_id": "SNO-3b91aae6fe091341c427",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气控制工程师核心为电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-3c03d1f87670c906e85a",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "电气控制开发核心为电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-19687be7bdf72a72e741",
+      "target_category_id": "运营/客服/ops-service/service-success",
+      "status": "mapped",
+      "reason": "客户服务工程师核心为客户成功与技术支持。"
+    },
+    {
+      "occupation_id": "SNO-8101f4bb5d3e0e72925f",
+      "target_category_id": "互联网/AI/internet-python/python-data",
+      "status": "mapped",
+      "reason": "AI软件开发工程师核心为数据与人工智能开发。"
+    },
+    {
+      "occupation_id": "SNO-aaee3bdf7c516a9de26b",
+      "target_category_id": "互联网/AI/internet-python/python-data",
+      "status": "mapped",
+      "reason": "AI软件开发核心为数据与人工智能开发。"
+    },
+    {
+      "occupation_id": "SNO-88495ad7c228a0fcff01",
+      "target_category_id": "互联网/AI/internet-python/python-data",
+      "status": "mapped",
+      "reason": "AI软件开发核心为数据与人工智能开发。"
+    },
+    {
+      "occupation_id": "SNO-6b6cca8f868924029d70",
+      "target_category_id": "能源/环保/农业/energy-aquaculture/aquaculture-livestock",
+      "status": "mapped",
+      "reason": "技术管培生(养殖)核心为畜禽养殖技术。"
+    },
+    {
+      "occupation_id": "SNO-49fa033c98e85155e35a",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "几何算法工程师核心为算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-02604d67b3459ef28634",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "总体工程师职责范围不明确，缺少行业或技术方向信息。"
+    },
+    {
+      "occupation_id": "SNO-841f52c122d9ca3012ee",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "先进材料与工艺研究员核心为机械结构与产品设计或材料工艺研究。"
+    },
+    {
+      "occupation_id": "SNO-27241bb97f813e186c77",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "油藏工程师属于能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-2295162afa134e86ee57",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "高级项目经理核心为研发项目管理。"
+    },
+    {
+      "occupation_id": "SNO-202b3dd449f0036ac3cf",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "储备项目经理核心为研发项目管理。"
+    },
+    {
+      "occupation_id": "SNO-76c7fefc60e69256acd4",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "服务器开发核心为业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-e249ebba6df1271da6ea",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "服务器开发工程师核心为业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-0006653304266a08b727",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "专利工程师核心为公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-c4373fa2bc90ca7b76f8",
+      "target_category_id": "销售/sales-clerk/retail-clerk-sales",
+      "status": "mapped",
+      "reason": "零售代表核心为门店销售与陈列。"
+    },
+    {
+      "occupation_id": "SNO-82040466d6f5520e43a7",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "EMS工程师核心为自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-bc82b1ff3cf089f626a7",
+      "target_category_id": "医疗健康/health-device/medical-device-service",
+      "status": "mapped",
+      "reason": "临床应用工程师核心为器械应用与售后服务。"
+    },
+    {
+      "occupation_id": "SNO-b84ea1ba6e9fc4ab87da",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "AE工程师核心为电路与硬件设计或应用工程。"
+    },
+    {
+      "occupation_id": "SNO-b9d02f08c0d46e5b5910",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "AE软件工程师核心为嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-2be2c1b293f51595a30a",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "水利咨询总承包核心为工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-c88239774d6650b9c8c5",
+      "target_category_id": "设计/design-user-research/research-qualitative",
+      "status": "mapped",
+      "reason": "人因工程师核心为定性用户研究。"
+    },
+    {
+      "occupation_id": "SNO-ad34993c25f334700003",
+      "target_category_id": "医疗健康/health-clinical/clinical-trial-operations",
+      "status": "mapped",
+      "reason": "医学经理核心为临床试验运营。"
+    },
+    {
+      "occupation_id": "SNO-333fdf9f05504bdf318d",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "助理软件工程师核心为业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-62623c228fcc46ce5d3c",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "助理软件工程师核心为业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-6c415e0c4c9e5fe54187",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "助理开发工程师核心为业务服务端开发。"
+    }
+  ]
+}

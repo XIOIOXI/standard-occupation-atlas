@@ -1,0 +1,185 @@
+{
+  "batch_number": 24,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "7c6b2bcf-eb34-4688-a47a-e38c8bdd26da",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813314,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30723,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 3331,
+    "output_tokens": 1666,
+    "reasoning_tokens": 0,
+    "total_tokens": 32389
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001581426
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-8abce75c906a7a935a09",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出软硬件开发并覆盖化学化工、材料纺织、食品生物、环境生态、经济管理、软件计算机等多个并列学科方向，属多个独立职业复合。"
+    },
+    {
+      "occupation_id": "SNO-ab3a80dbc60e311a69a7",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "全栈软件工程师核心为服务端与业务应用开发，归入业务服务端开发合理；全栈虽含前端，但名称未明确并列多个独立职业，不构成multi_role。"
+    },
+    {
+      "occupation_id": "SNO-7256118f4bb266809545",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含物业管理、工程管理和讲解服务三个独立职责方向，属多岗位复合。"
+    },
+    {
+      "occupation_id": "SNO-fccf3d86d474f2c4ce7e",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件设计工程师仅表明软件开发方向，未注明语言或具体技术栈，无法确认后端；可确认的最深有效上级为互联网/AI下的后端开发，但依据不足，建议复核。"
+    },
+    {
+      "occupation_id": "SNO-1e8928d16b4a0e697823",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "IT开发过于宽泛，未注明语言、方向或技术栈，无法确认属于后端开发；可确认的最深有效上级为互联网/AI，建议复核。"
+    },
+    {
+      "occupation_id": "SNO-169075f814b43d2f3f3b",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "开发类工程师过于宽泛，未注明语言、方向或技术栈，无法确认属于后端开发；可确认的最深有效上级为互联网/AI，建议复核。"
+    },
+    {
+      "occupation_id": "SNO-d5ec5af4fede806f2e14",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "管理培训生明确轮岗涵盖业务发展、项目供应链、商务合同、综合管理等多个独立方向，属多岗位复合。"
+    },
+    {
+      "occupation_id": "SNO-877bc37a64897bae8a12",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "管培生明确涵盖海外销售管理、海外商务管理、海外清关管理等多个独立方向，属多岗位复合。"
+    },
+    {
+      "occupation_id": "SNO-e426befeb7cbdf6a94a4",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时列出公关专员和采矿工程两个独立职业，属多岗位复合。"
+    },
+    {
+      "occupation_id": "SNO-d7db8241a0f56534d765",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "营销业务岗明确覆盖疫苗、食品、金融担保等多个并列行业方向，属多岗位复合。"
+    },
+    {
+      "occupation_id": "SNO-33dde7f442f5fcf04b89",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型训练框架系统工程师核心为大模型训练框架与系统，归入大模型与生成式AI合理。"
+    },
+    {
+      "occupation_id": "SNO-a347209ad6ea8b351bfe",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "reason": "上位机软件工程师通常涉及嵌入式与实时开发，归入C++嵌入式与实时开发合理。"
+    },
+    {
+      "occupation_id": "SNO-e6ec59627f55b9825d5f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出Java、Vue、Python、C#、RPA等多个并列独立技术方向，属多岗位复合。"
+    },
+    {
+      "occupation_id": "SNO-d4f0f78e1151cc370b3e",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "AI工程师（MES方向）核心为AI算法在制造执行系统中的应用，归入算法研究与通用算法合理。"
+    },
+    {
+      "occupation_id": "SNO-f9ce74828bfd99d3bfd2",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出技术动画、关卡美术、商业化策划、游戏逻辑程序员、动画师、游戏策划等多个独立岗位，属多岗位复合。"
+    },
+    {
+      "occupation_id": "SNO-249817a2927fc24b1b94",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含财务BP与运维工程师两个独立职业方向，属多岗位复合。"
+    },
+    {
+      "occupation_id": "SNO-05eb9d8daf4c0493ae7a",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "AI全栈创优生仅表明AI全栈方向，未注明具体技术栈或职责，无法确认属于后端开发；可确认的最深有效上级为互联网/AI，建议复核。"
+    },
+    {
+      "occupation_id": "SNO-30ca3510e1699d9494f3",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "验船师属于船舶检验专业，目录无对应类别，维持taxonomy_gap。"
+    },
+    {
+      "occupation_id": "SNO-33a3a12906c7b7d0b262",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "技术研发岗(软件)仅表明软件研发方向，未注明语言或具体技术栈，无法确认属于后端开发；可确认的最深有效上级为互联网/AI，建议复核。"
+    },
+    {
+      "occupation_id": "SNO-0448a3d59564b6f043d0",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "船舶管理属于航运专业，目录无对应类别，维持taxonomy_gap。"
+    },
+    {
+      "occupation_id": "SNO-bfb7ac6e15994606594b",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "AI编程全栈开发工程师仅表明AI全栈开发方向，未注明具体技术栈或职责，无法确认属于后端开发；可确认的最深有效上级为互联网/AI，建议复核。"
+    },
+    {
+      "occupation_id": "SNO-98b9f34f453b30ab93d8",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含合同管理与商品类商品规划两个独立职业，属多岗位复合。"
+    },
+    {
+      "occupation_id": "SNO-2101d31537f261b1a901",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含成本管控员、体系管理员、销售三个独立职业，属多岗位复合。"
+    },
+    {
+      "occupation_id": "SNO-aa9906fc7e0967e9f556",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器人研发工程师核心为机器人研发，归入机器人与具身智能合理。"
+    },
+    {
+      "occupation_id": "SNO-79f68a9e06c27e1c3af4",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出政企客户经理、业务和产品管理等多个独立职业，属多岗位复合。"
+    }
+  ]
+}

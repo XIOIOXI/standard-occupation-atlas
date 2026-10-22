@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-a17981fd6f11b5d196acddb17a5488b1",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-04",
+        "L13-09",
+        "L32-01"
+      ],
+      "title_evidence": "标题为“电商管培生”，含电商方向与管培生培养性质；原始组合岗位中另有“产品管培生、品牌管培生、销售管培生”等并列岗位，说明该标题是具体方向而非跨职能轮岗。",
+      "level_3_evidence": null,
+      "reason": "“电商”指向电商运营方向，但管培生身份意味着培养期职责可能轮岗，且未明确是店铺运营、商品运营还是电商销售；不能仅凭“管培”推断跨职能轮岗，也不能直接定为L14-04。候选为电商运营、通用销售及跨职能管培，需人工确认实际培养方向。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16980,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 340,
+    "output_tokens": 214,
+    "reasoning_tokens": 0,
+    "total_tokens": 17194
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00045864
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

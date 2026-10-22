@@ -1,0 +1,28 @@
+{
+  "id": "6cec1068-b3fb-46de-a651-7e914324534b",
+  "object": "chat.completion",
+  "created": 1792596353,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-ede736b3b3386b0b4710712eb9ef4cf9\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L32-01\",\"L20-11\"],\"title_evidence\":\"标题为“管理培训生（正式编制）”，仅体现培养性质，未说明具体职能方向\",\"level_3_evidence\":null,\"reason\":\"银行管培生仅凭行业与“管培”无法确定职能，按目录说明不能视为已明确金融业务，也不能直接归跨职能轮岗；候选为跨职能管理培训与通用金融专业业务，需补充信息\"},{\"occupation_id\":\"UP-054f493de31ba180e6de8ee2a618c6b9\",\"status\":\"mapped\",\"target_category_id\":\"L20-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L20-08\"],\"title_evidence\":\"“综合柜员”为银行柜面业务操作岗位\",\"level_3_evidence\":null,\"reason\":\"综合柜员属于银行柜面业务与金融业务操作，归金融运营与交易清算（L20-08）\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17065,
+    "completion_tokens": 263,
+    "total_tokens": 17328,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 425
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

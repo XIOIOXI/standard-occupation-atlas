@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-a4a6212cfb041e796b5eb91ddd3ac2ea",
+      "verdict": "pass",
+      "suggested_target_category_id": "L25-04",
+      "issue": "能源企业生产运维岗归能源运行与调度（L25-04）合理；虽也可考虑设备维修保全（L23-09-02），但无明确证据，主归属可接受。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17049,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 537,
+    "output_tokens": 97,
+    "reasoning_tokens": 0,
+    "total_tokens": 17146
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000376572
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "f3791b0a-7539-46ea-80c1-60a1a3fc6dd6",
+  "object": "chat.completion",
+  "created": 1792571441,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-e96de106c9db354bc8e801a50282af1a\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L10-06\",\"L10-02\",\"L18-06\"],\"title_evidence\":\"标题为“项目助理”，仅表明项目支持/助理性质，未说明项目领域（IT、研发、工程等）\",\"level_3_evidence\":null,\"reason\":\"“项目助理”属项目统筹支持类，但缺少领域证据，无法确定是研发项目、IT项目还是综合项目管理；同时存在秘书助理事务的可能，故列为review，候选为通用项目管理、研发项目管理及秘书助理文书事务。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16954,
+    "completion_tokens": 159,
+    "total_tokens": 17113,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 314
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

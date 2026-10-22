@@ -1,0 +1,28 @@
+{
+  "id": "75387acf-831c-4cad-aa39-65b6478712e8",
+  "object": "chat.completion",
+  "created": 1791882046,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-b11727a04d7d0d80eb89\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生且AI技术方向未明确具体职能，review合理。\"},{\"occupation_id\":\"TG-e5319cbfd77b8b803f0c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品行销经理归渠道市场与商务推广，合理。\"},{\"occupation_id\":\"TG-5403222964c4fc05d88f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅叫业务员，未明确客户类型与方向，review合理。\"},{\"occupation_id\":\"TG-1a3d346d6ea93f532896\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"基金会计归金融运营与交易清算，合理。\"},{\"occupation_id\":\"TG-0914cb938cd2f1b034f7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"基金会计归金融运营与交易清算，合理。\"},{\"occupation_id\":\"TG-66bd8a2362588831c3b8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构仿真工程师归机械与结构设计，合理。\"},{\"occupation_id\":\"TG-07bbe5f2d3661a858cb1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构仿真工程师归机械与结构设计，合理。\"},{\"occupation_id\":\"TG-b0ebb300f88b6eede31f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构仿真工程师归机械与结构设计，合理。\"},{\"occupation_id\":\"TG-32b87ee41453fb7ecc44\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"小学数学教师归数学与自然科学教学，合理。\"},{\"occupation_id\":\"TG-58594bb7afcb19ccd074\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产技术岗可能为生产操作或工艺技术，review合理。\"},{\"occupation_id\":\"TG-513aefdc86d3add9589b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"经营管理岗方向未明确，review合理。\"},{\"occupation_id\":\"TG-dddf857eddb0a559c92a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构工程师归机械与结构设计，合理。\"},{\"occupation_id\":\"TG-5c66d14e98e0b7f02978\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构开发归机械与结构设计，合理。\"},{\"occupation_id\":\"TG-72ad9d76086e2cdfa8a1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"结构开发工程师归机械与结构设计，合理。\"},{\"occupation_id\":\"TG-65b165cca1437ed114ce\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"项目管理员领域未说明，归通用项目管理，合理。\"},{\"occupation_id\":\"TG-15d55928078ac0f0e950\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"内容运营实习生归内容与新媒体运营，合理。\"},{\"occupation_id\":\"TG-0c0c0f187bab5e92b347\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"国内销售工程师归企业客户销售，合理。\"},{\"occupation_id\":\"TG-4c1f0a0a7c383c1d3be6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"纪检岗归属需补充信息，review合理。\"},{\"occupation_id\":\"TG-9a1be4900dedbf94722f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"外贸单证员归进出口与贸易执行，合理。\"},{\"occupation_id\":\"TG-6d11b0affa97065318d5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工艺技术岗方向未说明，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19393,
+    "completion_tokens": 949,
+    "total_tokens": 20342,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 2881
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

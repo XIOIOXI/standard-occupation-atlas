@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-4936af5e1ea763ad2187",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "专科护理人员归入护理二级类合理。"
+    },
+    {
+      "occupation_id": "TG-e6af162f62d79173a3be",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L02-05-05",
+      "issue": "具身控制算法工程师核心为控制/决策算法研发，归入运筹优化与决策算法（L02-05-06）方向偏差，建议归入预测与统计学习（L02-05-05）或保留在机器学习与算法研发下更合适的三级类。"
+    },
+    {
+      "occupation_id": "TG-3c0b28ba483e178e92af",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "国内技术售后工程师归入售后技术服务合理。"
+    },
+    {
+      "occupation_id": "TG-9f5d1a4226723146b86d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "采购与供应链管理岗归入供应链规划与管理合理。"
+    },
+    {
+      "occupation_id": "TG-d3acce47a5e789684924",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "国际临床专员归入临床研究运营合理。"
+    },
+    {
+      "occupation_id": "TG-8a04d5829381cb645dda",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "运营规划方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-a698510387495caddfdd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "送货员归入快递配送与送货合理。"
+    },
+    {
+      "occupation_id": "TG-be8987d09cd7002138c2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财会与审计岗归入会计核算合理。"
+    },
+    {
+      "occupation_id": "TG-6c0fee0710c3bed396b0",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L02-05-05",
+      "issue": "自动驾驶仿真算法工程师核心为仿真/预测算法，归入计算机视觉（L02-05-01）依据不足，建议归入预测与统计学习（L02-05-05）或保留在机器学习与算法研发下更合适的三级类。"
+    },
+    {
+      "occupation_id": "TG-d38108bb33a553a2c765",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题明确未提及具体岗位，non_role_text合理。"
+    },
+    {
+      "occupation_id": "TG-a6eb155393b7c7fe7a71",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "安全技术工程师归入安全架构与工程合理。"
+    },
+    {
+      "occupation_id": "TG-edf5c510aa437cb9b084",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "营销助理归入市场策略规划合理。"
+    },
+    {
+      "occupation_id": "TG-c07945a442d031b5c76a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "销售工程师归入直客销售合理。"
+    },
+    {
+      "occupation_id": "TG-56f23b0c1131f4ac9a26",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "机车乘务员归入轨道驾驶与专业操作合理。"
+    },
+    {
+      "occupation_id": "TG-890c41dd715bc6ca1c7d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "安全环保部安全监督管理岗归入安全健康与职业防护合理。"
+    },
+    {
+      "occupation_id": "TG-7afd45af82933ce4c2dc",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "售后技术支持岗归入售后技术服务合理。"
+    },
+    {
+      "occupation_id": "TG-00b80f0e0c5a2f750f22",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "教师岗方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-108a2e0d8c3bab8b428e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "法律事务与合同管理岗归入企业法务合理。"
+    },
+    {
+      "occupation_id": "TG-662417298616bae161fe",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "英语教师归入语言教学合理。"
+    },
+    {
+      "occupation_id": "TG-136fd0af8b65c92da07c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "博士后科研人员归入自然科学基础研究合理。"
+    }
+  ],
+  "raw_response_file": "000461.raw.json",
+  "usage": {
+    "input_tokens": 19382,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2870,
+    "output_tokens": 1183,
+    "reasoning_tokens": 0,
+    "total_tokens": 20565
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002379672
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

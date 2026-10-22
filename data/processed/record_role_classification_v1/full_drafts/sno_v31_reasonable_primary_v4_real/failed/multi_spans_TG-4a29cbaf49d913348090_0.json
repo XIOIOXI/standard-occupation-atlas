@@ -1,0 +1,53 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-4a29cbaf49d913348090",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "信息科技类岗（人工智能、数据科学、软件工程、金融科技、专业不限）",
+  "child_title": "人工智能",
+  "source_span": {
+    "text": "人工智能",
+    "start": 8,
+    "end": 12
+  },
+  "raw_decision": {
+    "original_record_id": "TG-4a29cbaf49d913348090",
+    "case": "A",
+    "child_titles": [
+      "人工智能",
+      "数据科学",
+      "软件工程",
+      "金融科技",
+      "专业不限"
+    ],
+    "source_spans": [
+      {
+        "text": "人工智能",
+        "start": 8,
+        "end": 12
+      },
+      {
+        "text": "数据科学",
+        "start": 13,
+        "end": 17
+      },
+      {
+        "text": "软件工程",
+        "start": 18,
+        "end": 22
+      },
+      {
+        "text": "金融科技",
+        "start": 23,
+        "end": 27
+      },
+      {
+        "text": "专业不限",
+        "start": 28,
+        "end": 32
+      }
+    ],
+    "reason": "括号内顿号分隔多个独立岗位，可拆分"
+  }
+}

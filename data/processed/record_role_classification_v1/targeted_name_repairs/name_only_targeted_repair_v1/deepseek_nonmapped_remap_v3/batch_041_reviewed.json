@@ -1,0 +1,185 @@
+{
+  "batch_number": 41,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "06b2ec02-62c5-4181-b911-1d4239d02531",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821898,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29505,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2113,
+    "output_tokens": 1287,
+    "reasoning_tokens": 0,
+    "total_tokens": 30792
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001171326
+  },
+  "results": [
+    {
+      "entry_id": "SNO-7d1aa9fb7fc20492b35e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“本次计划”为招聘计划名称，非职业名称，无法确认任何职业类别。"
+    },
+    {
+      "entry_id": "SNO-7dbd83127a47da062a1d",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "AI编译器工程师可确认属互联网/AI，但冻结目录无编译器/工具链对应三级，无法确定具体三级。"
+    },
+    {
+      "entry_id": "SNO-7ddaeffb4285624bbfed",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出油气储运与新能源开发两个独立职业方向，且无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-7defa88513f318213382",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出质量与工程两个独立方向，且“管培生”非职业，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-7dfc2e023a32518bf793",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“预先研究”过于宽泛，缺少具体技术或行业方向，无法确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-7e19b7086587d29c4ed8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "ODR验证工程师缺少行业与技术方向信息，无法确定验证领域及类别。"
+    },
+    {
+      "entry_id": "SNO-7e25185d6249b1e3d0cc",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出财务管理、会计、普法管理等多个独立职业，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-7e708dd49f0a4215f9f1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "设备管理未说明设备类型或行业，无法确定具体类别。"
+    },
+    {
+      "entry_id": "SNO-7eb8b06739ad80945d00",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“硕博”为学历描述，非职业，无法确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-7efb27cb943df8a7f163",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "技术管培生未明确具体技术方向，且“管培生”非职业，无法归类。"
+    },
+    {
+      "entry_id": "SNO-7f47df96473e7b89ed9c",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "分布式系统工程师对应平台与中间件开发三级类别。"
+    },
+    {
+      "entry_id": "SNO-7f71cee970416473f09c",
+      "status": "multi_role",
+      "target_category_id": "互联网/AI",
+      "reason": "名称明确列出AI、C语言、Java等多个独立技术方向，共同上级可确认至互联网/AI。"
+    },
+    {
+      "entry_id": "SNO-7ff67aa77b613e85a43a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "运营管培生职责不明确，缺少具体运营方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-80046bec7e60d9e825d2",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“禁片研发”名称含义不明，无法判断具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-80bf2051d34b991a220a",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "电气工程师与化学工程与工艺为两个独立职业方向，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-80d5de0a3eb81a2c76b3",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称截断且缺少行业信息，无法确定具体职业。"
+    },
+    {
+      "entry_id": "SNO-8101f4bb5d3e0e72925f",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "AI软件开发工程师可确认属互联网/AI，但“AI软件开发”不足以确定具体三级。"
+    },
+    {
+      "entry_id": "SNO-811fea51f7b1e029e70d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“研发技术”过于笼统，缺少技术方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-81a1452df80159431d3d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "高级研发工程师(课题负责人)方向不明确，缺少具体研发领域信息。"
+    },
+    {
+      "entry_id": "SNO-81b7ade55f5b15b98f93",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“科员”为通用行政职级称谓，缺少具体职能信息。"
+    },
+    {
+      "entry_id": "SNO-823eb1712773f5f58f84",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "信息化建设职责范围不明确，可能涉及多个方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-826d7530996bffdb7609",
+      "status": "review",
+      "target_category_id": "房地产/建筑",
+      "reason": "动力暖通工程师可确认属房地产/建筑，但暖通动力方向无对应三级，无法确定具体三级。"
+    },
+    {
+      "entry_id": "SNO-8289e67df525e14fa3fb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“科研”为泛称，缺少具体学科或研究方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-829e070be6f360172e3e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "集团本部职能管培生职能方向不明确，且“管培生”非职业，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-82c47db78df401029d7f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "总监/经理缺少职能领域信息，无法确定职业类别。"
+    }
+  ]
+}

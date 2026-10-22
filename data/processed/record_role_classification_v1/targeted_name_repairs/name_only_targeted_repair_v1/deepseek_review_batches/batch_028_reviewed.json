@@ -1,0 +1,185 @@
+{
+  "batch_number": 28,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "9046ead3-ce63-4305-9903-9c9fe91489cf",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813341,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30815,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3551,
+    "output_tokens": 1447,
+    "reasoning_tokens": 0,
+    "total_tokens": 32262
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0014826419999999997
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-cf3ab6f44349b53dd794",
+      "decision": "keep",
+      "target_category_id": "电子/电气/通信/electronic-repair/electronics-repair-industrial",
+      "reason": "船舶电子电气船员持ETO证书，核心职责为船舶电子电气设备的维护与修理，属于工业电子与设备维修，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-5ec8fe86fb6301d79fbf",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "ISP图像工程师从事图像信号处理，属于计算机视觉与三维感知方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-ae6fe16075be9455223f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列通用方向与工程造价方向两个独立职业方向，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-3d89a1643ca5017c489d",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "智慧管控平台软件工程师从事平台业务服务端开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-084eb635a0efc5d8f989",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列前后端开发两个独立职业方向，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-23f7be2dd83efdcaf14a",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI工程师(FDE方向)属于大模型与生成式AI方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-bff0aec15f373bd81cfc",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "藏品管理属于文博档案类职业，目录中无对应类别可承接。"
+    },
+    {
+      "occupation_id": "SNO-f072406bb01a2ef5bed8",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "FDE工程师(AI方向)属于算法研究与通用算法方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-678ddab0a6009425f6ef",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "“展翼计划”科技岗仅表明科技类岗位，未注明具体技术方向，无法确认后端开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-4a38d2981e004fa196e5",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "软件开发工程师未注明语言或技术栈，无法确认后端开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-c879d1942fad2525bfb7",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-visual",
+      "reason": "3D可视化工程师从事交互与可视化开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-99017f620737821ff3c5",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列审计鉴证、税务、咨询多个独立职业，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-027672879585457ed1ff",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "音频策划属于内容策划类岗位，并非语音与音频算法工程师，当前归属依据不足。"
+    },
+    {
+      "occupation_id": "SNO-f6f05ac9f8db90a2316b",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI",
+      "reason": "信息科技类校招生未注明具体技术方向，无法确认后端开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-d484208b2a6818ff7207",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列图书馆日常运营、短视频拍摄剪辑、文案撰写多个独立职责，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-684f613284c490ba0fc0",
+      "decision": "keep",
+      "target_category_id": "医疗健康/health-guide/medical-guide-patient",
+      "reason": "医疗健康助理偏向患者服务与随访，归入导医下的患者服务与随访，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-e6367fe5c9b491ead436",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "大模型分布式训练工程师属于大模型与生成式AI方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-08a99a2cb50565760fd5",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列队伍培训、团队搭建、业务推动、运营风控多个独立职责，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-443461d39c6ae2c8f1e9",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "管培生涵盖综合管理、商品企划、财务管理、拓展开发、运营管理等多个独立方向，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-2eec1d93cb21a45f1c54",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含销售类管培生和冶金工程两个独立职业方向，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-d3a1bf5d36d20225d0e7",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列采购与营销两个独立职业方向，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-25d55c3c857dbf972a6f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时涵盖IT软件与硬件开发两个独立方向，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-f9ee52783b9e7d022d06",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含电商运营与人力资源管培生两个独立职业，属于multi_role。"
+    },
+    {
+      "occupation_id": "SNO-efb27f284f4b594eadb6",
+      "decision": "fallback_review",
+      "target_category_id": "生产制造",
+      "reason": "行星舵机工程师偏向机械结构与舵机设计制造，并非算法工程师，当前归属依据不足。"
+    },
+    {
+      "occupation_id": "SNO-090f212a5b1a26d2a6cb",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显并列现场管理、设备安装、园林绿化、设计规划、财务金融多个独立职业，属于multi_role。"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "raw_response_file": "map_002_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-b34d318554be524ed36a",
+      "status": "mapped",
+      "target_category_id": "L14-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "IP运营管培生",
+      "level_3_evidence": null,
+      "reason": "标题含“运营”且“IP”指向内容/知识产权类数字产品运营，管培生为培养身份修饰，不改变运营职能归属；归产品与平台运营。"
+    },
+    {
+      "occupation_id": "SNO-40221954ae855fa39330",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L23-10",
+        "L29-11"
+      ],
+      "title_evidence": "技能操作",
+      "level_3_evidence": null,
+      "reason": "“技能操作”仅表明操作类技能，未说明行业或具体工种，无法确定生产制造或生活服务等方向，需人工确认。"
+    },
+    {
+      "occupation_id": "SNO-2e6e48e3280e8474a2ea",
+      "status": "mapped",
+      "target_category_id": "L14-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "技术运营",
+      "level_3_evidence": null,
+      "reason": "标题明确为运营职能，技术修饰指向数字产品/平台技术运营，归产品与平台运营。"
+    },
+    {
+      "occupation_id": "SNO-741a768f67a709a3a54b",
+      "status": "mapped",
+      "target_category_id": "L25-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "新能源研发工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确新能源领域研发工程师，属能源系统与工艺工程方向。"
+    },
+    {
+      "occupation_id": "SNO-ad75b05b0c4e14fde23d",
+      "status": "mapped",
+      "target_category_id": "L17-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "空港物流",
+      "level_3_evidence": null,
+      "reason": "标题明确为空港物流，属物流调度与运输管理方向。"
+    },
+    {
+      "occupation_id": "SNO-18d0e05d910ecfaf252c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L23-01",
+        "L14-11"
+      ],
+      "title_evidence": "运营班操作",
+      "level_3_evidence": null,
+      "reason": "“运营班操作”可能指生产运营班组操作，也可能指业务运营操作，方向不明确，需人工确认。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17237,
+    "cached_input_tokens": 17024,
+    "uncached_input_tokens": 213,
+    "output_tokens": 557,
+    "reasoning_tokens": 0,
+    "total_tokens": 17794
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00041722199999999997
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

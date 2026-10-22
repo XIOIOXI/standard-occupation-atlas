@@ -1,0 +1,249 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-73a83d5f406a7778f046",
+      "status": "mapped",
+      "target_category_id": "L20-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "股票日内高频",
+      "level_3_evidence": "金融交易",
+      "reason": "股票日内高频交易属于金融交易执行，归入金融交易三级。"
+    },
+    {
+      "occupation_id": "TG-38cf0d1bd6bc663ffff9",
+      "status": "mapped",
+      "target_category_id": "L04-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "软件测试工程师",
+      "level_3_evidence": null,
+      "reason": "软件测试工程师属于软件测试与质量保障，未明确具体测试方向，归二级。"
+    },
+    {
+      "occupation_id": "TG-aa3cc59bf9b9dabddfd9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L08-01",
+        "L09-02"
+      ],
+      "title_evidence": "数字产品师",
+      "level_3_evidence": null,
+      "reason": "数字产品师可能指数字产品经理或数字产品设计，职能不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-35658058d66d520ecbba",
+      "status": "mapped",
+      "target_category_id": "L25-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "LNG 应急储气库专业技术岗",
+      "level_3_evidence": null,
+      "reason": "LNG储气库专业技术岗属于能源系统与工艺工程，未明确具体方向，归二级。"
+    },
+    {
+      "occupation_id": "TG-9524e647738f9b430bc8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L12-01",
+        "L14-03"
+      ],
+      "title_evidence": "市场助理（期刊推广/新媒体运营）",
+      "level_3_evidence": null,
+      "reason": "岗位同时包含市场推广和新媒体运营，属于多角色，无法归入单一类别。"
+    },
+    {
+      "occupation_id": "TG-b5c9aeb2c806f63793ab",
+      "status": "mapped",
+      "target_category_id": "L21-01-08",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "肿瘤科医生",
+      "level_3_evidence": "皮肤与其他专科诊疗",
+      "reason": "肿瘤科属于未单列专科，归入皮肤与其他专科诊疗。"
+    },
+    {
+      "occupation_id": "TG-c53127245b1e44021ede",
+      "status": "mapped",
+      "target_category_id": "L01-06-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "嵌入式软件工程师（Linux应用）",
+      "level_3_evidence": "嵌入式应用开发",
+      "reason": "嵌入式Linux应用开发属于嵌入式应用开发。"
+    },
+    {
+      "occupation_id": "TG-10e34683b40480e187b1",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-06",
+        "L05-05-03",
+        "L01-02"
+      ],
+      "title_evidence": "车联网研发工程师",
+      "level_3_evidence": null,
+      "reason": "车联网研发可能涉及嵌入式、通信协议或后端开发，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-54e7c08fe636af5abadf",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L21-09"
+      ],
+      "title_evidence": "管理培训生医学类",
+      "level_3_evidence": null,
+      "reason": "医学类管理培训生，最终职业方向未明确，可能为医疗专业或管理轮岗，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-d07704cd720053240f80",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "生产管理培训生",
+      "level_3_evidence": null,
+      "reason": "生产管理培训生属于生产计划与现场管理，培养性质不改变职能归属。"
+    },
+    {
+      "occupation_id": "TG-a81082f90ef2bda3d9a3",
+      "status": "mapped",
+      "target_category_id": "L02-05-06",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "算法工程师-运筹优化方向",
+      "level_3_evidence": "运筹优化与决策算法",
+      "reason": "运筹优化方向算法工程师归入运筹优化与决策算法。"
+    },
+    {
+      "occupation_id": "TG-270b98c43dcf37e3097c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L10-03",
+        "L14-10",
+        "L01-10"
+      ],
+      "title_evidence": "交付技术工程师",
+      "level_3_evidence": null,
+      "reason": "交付技术工程师可能涉及客户实施交付、售后技术支持或配置开发，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-d649e95568caf62d7624",
+      "status": "mapped",
+      "target_category_id": "L19-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "会计",
+      "level_3_evidence": null,
+      "reason": "会计属于会计核算，未明确具体方向，归二级。"
+    },
+    {
+      "occupation_id": "TG-93883743dbc31eabd135",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L23-09",
+        "L24-12-02",
+        "L29-07-01"
+      ],
+      "title_evidence": "设备师",
+      "level_3_evidence": null,
+      "reason": "设备师可能指工业设备安装维修、建筑设施维护或生活设备维修，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-178684220e1577b42e5f",
+      "status": "mapped",
+      "target_category_id": "L05-02-04",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "物理设计工程师",
+      "level_3_evidence": "芯片物理设计",
+      "reason": "物理设计工程师通常指芯片物理设计，归入芯片物理设计。"
+    },
+    {
+      "occupation_id": "TG-c4f5726465e520e1183c",
+      "status": "mapped",
+      "target_category_id": "L04-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "探伤工/探伤技术员",
+      "level_3_evidence": "物理性能与可靠性检测",
+      "reason": "探伤属于物理性能与可靠性检测。"
+    },
+    {
+      "occupation_id": "TG-f4d25717792d703cbd8d",
+      "status": "mapped",
+      "target_category_id": "L08-01-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "大模型产品经理",
+      "level_3_evidence": "平台与技术产品",
+      "reason": "大模型产品经理属于平台与技术产品。"
+    },
+    {
+      "occupation_id": "TG-f4cf8465e32b1803c21d",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "车载无线通信技术支持",
+      "level_3_evidence": null,
+      "reason": "车载无线通信技术支持属于售后技术服务，未明确具体方向，归二级。"
+    },
+    {
+      "occupation_id": "TG-7973b012743921fb2f9a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-06",
+        "L18-09"
+      ],
+      "title_evidence": "专员/技术员/助理",
+      "level_3_evidence": null,
+      "reason": "标题过于宽泛，无法确定具体职能，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-aaca6911e2c0bac58775",
+      "status": "mapped",
+      "target_category_id": "L18-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "HR Trainee",
+      "level_3_evidence": null,
+      "reason": "HR Trainee属于人力资源综合管理，培养性质不改变职能归属。"
+    }
+  ],
+  "raw_response_file": "000040.raw.json",
+  "usage": {
+    "input_tokens": 17349,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 837,
+    "output_tokens": 2259,
+    "reasoning_tokens": 0,
+    "total_tokens": 19608
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003060972
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only"
+}

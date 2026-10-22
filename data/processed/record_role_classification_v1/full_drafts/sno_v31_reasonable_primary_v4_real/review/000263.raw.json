@@ -1,0 +1,28 @@
+{
+  "id": "1ee80824-e784-4190-8960-b42672d3154d",
+  "object": "chat.completion",
+  "created": 1791881004,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-f9bed4894800b6064ac4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"材料分析业务人员归入化学与生物检测，属检验检测范畴，合理。\"},{\"occupation_id\":\"TG-d938612d668a7acb4bd0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"钢管研发归金属与无机材料，合理。\"},{\"occupation_id\":\"TG-77471936bbf92266add2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"外汇条线培训生方向未明确，review合理。\"},{\"occupation_id\":\"TG-eb49becc4a9df2057ff9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"营销代表归企业客户销售，合理。\"},{\"occupation_id\":\"TG-76a990e304936e7cf911\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"视觉智能研究员归计算机视觉，合理。\"},{\"occupation_id\":\"TG-fb43a2ea16e99e5ac593\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多方向管培生，review合理。\"},{\"occupation_id\":\"TG-3a9951b376e3d208dc13\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量控制专员归产品质量与客诉管理，合理。\"},{\"occupation_id\":\"TG-a4e034e82cb467daa879\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"方案建筑设计师归建筑设计，合理。\"},{\"occupation_id\":\"TG-97287da084649558d2ca\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"会员运营专员归会员与社群运营，合理。\"},{\"occupation_id\":\"TG-16d0a4361cc15d2164df\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"摄影摄像师归摄影摄像，合理。\"},{\"occupation_id\":\"TG-a03c84038c7f881a003c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品开发工程师归实体产品管理，合理。\"},{\"occupation_id\":\"TG-0d28a6369b217d22cd20\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"生产操作岗归一般生产操作，合理。\"},{\"occupation_id\":\"TG-b28dda02d912e3c3cbb9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"托福教师归语言教学，合理。\"},{\"occupation_id\":\"TG-9f90c1f50e133b77727a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售部管培生归企业客户销售，合理。\"},{\"occupation_id\":\"TG-b68fa15568b390b99d5f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电子电路仿真岗归电路与板级设计，合理。\"},{\"occupation_id\":\"TG-644951fc7ca61690e64c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"脚本开发方向未明，归通用软件研发，合理。\"},{\"occupation_id\":\"TG-e1ddba78aa6cc75ad017\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"贸易运营助理归进出口与贸易执行，合理。\"},{\"occupation_id\":\"TG-4b6d17c8dc34e0765087\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"项目工程类管培生房地产方向归施工组织与工程管理，合理。\"},{\"occupation_id\":\"TG-1d86d00fdd9e2fbf5fe9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"智能制造管培生方向未明确，review合理。\"},{\"occupation_id\":\"TG-9e26f0e5cea44f3e394d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"新能源技术岗归能源系统与工艺工程，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19670,
+    "completion_tokens": 937,
+    "total_tokens": 20607,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3158
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

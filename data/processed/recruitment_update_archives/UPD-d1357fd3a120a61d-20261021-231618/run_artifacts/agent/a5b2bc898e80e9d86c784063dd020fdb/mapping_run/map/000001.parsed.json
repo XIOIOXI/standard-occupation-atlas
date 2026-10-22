@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-a5b2bc898e80e9d86c784063dd020fdb",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-05",
+        "L06-07-01",
+        "L07-01"
+      ],
+      "title_evidence": "应用科学家，结合公司为农林牧渔/育种行业，属将算法与模型应用于生物育种数据的研发岗位",
+      "level_3_evidence": null,
+      "reason": "“应用科学家”在育种企业语境下通常指将机器学习/统计建模应用于生物数据，核心为算法模型研发，归机器学习与算法研发；具体子方向（视觉/NLP/推荐等）无证据，停在二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16935,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 295,
+    "output_tokens": 164,
+    "reasoning_tokens": 0,
+    "total_tokens": 17099
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038513999999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,147 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-798a60262028244c870c",
+      "decision": "exclude_non_role",
+      "reason": "标题为'英语类专业毕业生'，描述的是毕业生群体，而非具体招聘岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-5c6ff9229ed7e0e7f6cf",
+      "decision": "exclude_non_role",
+      "reason": "标题为'共提供29个岗位'，是招聘数量说明，不是岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-d6c3f0dc109b759eb362",
+      "decision": "exclude_non_role",
+      "reason": "标题为专业类别列表，不是具体岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-0cb785e091ddd8396796",
+      "decision": "exclude_non_role",
+      "reason": "标题为'本次药植所北京总所计划招聘5名高校毕业生'，是招聘计划说明，不是岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-d6cf6277cff8f5b5e112",
+      "decision": "restore_title_and_map",
+      "reason": "标题'身开发岗'疑似截断，根据常见岗位名称推断完整标题为'软件开发岗'。",
+      "recovered_title": "软件开发岗"
+    },
+    {
+      "original_record_id": "TG-7f5c112d88ab3f3139a7",
+      "decision": "exclude_non_role",
+      "reason": "标题为岗位类别及专业要求列表，不是具体岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-218c36caa78c8ce86499",
+      "decision": "exclude_non_role",
+      "reason": "标题为专业类别列表，不是具体岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-78d6c6d777a193d2e111",
+      "decision": "exclude_non_role",
+      "reason": "标题为'此次招聘涉及30个岗位'，是招聘数量说明，不是岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-f034dbb8da3b6a54dabc",
+      "decision": "exclude_non_role",
+      "reason": "标题为'本次招聘涉及5个岗位'，是招聘数量说明，不是岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-ce6fe09929925474fa4d",
+      "decision": "restore_title_and_map",
+      "reason": "标题'位通用类岗'疑似截断，根据常见岗位名称推断完整标题为'岗位通用类岗'。",
+      "recovered_title": "岗位通用类岗"
+    },
+    {
+      "original_record_id": "TG-45667967ab515c955ad4",
+      "decision": "exclude_non_role",
+      "reason": "标题为'此次招聘涉及19个岗位'，是招聘数量说明，不是岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-0829c77410980f14585f",
+      "decision": "exclude_non_role",
+      "reason": "标题为'此次招聘涉及82个岗位'，是招聘数量说明，不是岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-a7d7c39cf00eba01c4ba",
+      "decision": "exclude_non_role",
+      "reason": "标题为'此次招聘涉及6个岗位'，是招聘数量说明，不是岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-8406b46c1a7cd336fba5",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘单位及人数说明，不是岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-5726fa00563c54f26152",
+      "decision": "exclude_non_role",
+      "reason": "标题'实习岗'是岗位类别，不是具体岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-a8137461372c66c700c9",
+      "decision": "exclude_non_role",
+      "reason": "标题'短期实习生'是人员类别，不是岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-4f65f6462ab99535d1f4",
+      "decision": "exclude_non_role",
+      "reason": "标题为岗位类别列表，不是具体岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-bcdcd080cbe9a58256aa",
+      "decision": "exclude_non_role",
+      "reason": "标题'灵活职业岗'是岗位类别，不是具体岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-a0048789be4bf5520918",
+      "decision": "exclude_non_role",
+      "reason": "标题'未说明招聘岗位'是说明性文字，不是岗位名称。",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-abc19f2224be90ac2a1b",
+      "decision": "restore_title_and_map",
+      "reason": "标题'部专员'疑似截断，根据常见岗位名称推断完整标题为'部门专员'。",
+      "recovered_title": "部门专员"
+    }
+  ],
+  "raw_response_file": "000004.raw.json",
+  "usage": {
+    "input_tokens": 846,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 846,
+    "output_tokens": 1356,
+    "reasoning_tokens": 0,
+    "total_tokens": 2202
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.001881
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

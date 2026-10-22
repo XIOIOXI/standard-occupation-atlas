@@ -1,0 +1,43 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-a6708c762b8abc625e4f9b21f161404a",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L13-01",
+        "L13-02",
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "标题明确为“销售管培生”，销售职能已确认；管培生为培养标签，不改变销售职能归属。",
+      "level_3_evidence": null,
+      "reason": "“销售管培生”已明确销售职能，但未说明客户类型（企业客户/个人客户）或销售方向，按规则归入通用销售 L13-09；管培生仅为培养形式标签，不据此推断跨职能轮岗，故不归 L32。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16979,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 339,
+    "output_tokens": 186,
+    "reasoning_tokens": 0,
+    "total_tokens": 17165
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00042474
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

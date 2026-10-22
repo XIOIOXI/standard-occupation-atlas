@@ -1,0 +1,362 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-a19c42c3b73bfcd273f6",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "管理培训生计划（业务领袖方向）理工科",
+      "level_3_evidence": null,
+      "reason": "标题为管理培训生项目，方向为业务领袖，但未明确具体专业职能（如销售、市场、运营等），理工科背景不足以确定职能，需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-f65933aec9394be90c65",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L04-01",
+        "L02-01"
+      ],
+      "title_evidence": "四性分析岗",
+      "level_3_evidence": null,
+      "reason": "“四性分析”可能指软件测试中的功能性、性能、安全性、兼容性分析，也可能指数据分析中的四性（如准确性、完整性等），无法唯一确定职能方向。"
+    },
+    {
+      "occupation_id": "TG-3fc8979f232413aaafee",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-01",
+        "L01-02",
+        "L01-03"
+      ],
+      "title_evidence": "应用设计与开发岗",
+      "level_3_evidence": null,
+      "reason": "标题明确为应用设计与开发，属于软件开发职能，但未说明具体技术方向（前端、后端、全栈等），归入通用软件研发。"
+    },
+    {
+      "occupation_id": "TG-c676526b4eafb663efeb",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-01",
+        "L18-09"
+      ],
+      "title_evidence": "部经理",
+      "level_3_evidence": null,
+      "reason": "“部经理”过于笼统，未说明具体部门或职能领域，无法确定归属。"
+    },
+    {
+      "occupation_id": "TG-483909f8ed7a34ac9ec2",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L13-02"
+      ],
+      "title_evidence": "岗销售",
+      "level_3_evidence": null,
+      "reason": "标题明确为销售岗位，但未说明客户类型（企业或个人），归入通用销售。"
+    },
+    {
+      "occupation_id": "TG-c6a9d755893a12011f2a",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01-01",
+        "L13-01-02"
+      ],
+      "title_evidence": "沈阳分行公司业务培训生",
+      "level_3_evidence": null,
+      "reason": "标题明确为公司业务培训生，属于企业客户销售方向，但未明确是直客还是重点客户管理，停在二级。"
+    },
+    {
+      "occupation_id": "TG-5481df86e70fc9f36f48",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01-01",
+        "L06-01-02",
+        "L06-01-03"
+      ],
+      "title_evidence": "数字化设计工程师",
+      "level_3_evidence": null,
+      "reason": "数字化设计工程师通常指机械/工业领域的数字化设计（如CAD/CAE），属于机械与结构设计，但未明确具体细分方向，停在二级。"
+    },
+    {
+      "occupation_id": "TG-5683144807521ebcf70c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "科技管理管培生",
+      "level_3_evidence": null,
+      "reason": "标题为科技管理管培生，但未明确具体科技管理职能（如IT项目管理、研发管理等），需进一步确认。"
+    },
+    {
+      "occupation_id": "TG-d87fd080259dfd43cbaf",
+      "status": "mapped",
+      "target_category_id": "L23-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-09-01",
+        "L23-09-02"
+      ],
+      "title_evidence": "维修技术员",
+      "level_3_evidence": null,
+      "reason": "维修技术员通常指工业设备或设施的维修，归入设备安装维修与保全，但未明确是安装调试还是维修保全，停在二级。"
+    },
+    {
+      "occupation_id": "TG-2693e9653f91d6a3031f",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-01",
+        "L12-02",
+        "L12-03"
+      ],
+      "title_evidence": "营销工程师助理",
+      "level_3_evidence": null,
+      "reason": "标题为营销工程师助理，核心职能为市场营销，但未明确具体方向（策略、品牌、投放等），归入通用市场营销。"
+    },
+    {
+      "occupation_id": "TG-396239d6fb175edca53c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L30-02",
+        "L19-01",
+        "L20-11"
+      ],
+      "title_evidence": "上海烟草集团普陀烟草糖酒有限公司专业技术类岗位（法学类、公安学类、会计学、财务管理、金融学类专业）",
+      "level_3_evidence": null,
+      "reason": "标题列出多个专业方向（法学、公安学、会计学、财务管理、金融学），无法确定具体职能，需进一步明确。"
+    },
+    {
+      "occupation_id": "TG-e81b74005951d16f539f",
+      "status": "mapped",
+      "target_category_id": "L14-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-04-01",
+        "L14-04-02"
+      ],
+      "title_evidence": "跨境运营培训生",
+      "level_3_evidence": null,
+      "reason": "跨境运营通常指跨境电商运营，归入电商与商品运营，但未明确是店铺运营还是商品运营，停在二级。"
+    },
+    {
+      "occupation_id": "TG-dac873383c11d3e4ef55",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L23-10",
+        "L29-11"
+      ],
+      "title_evidence": "一线员工岗",
+      "level_3_evidence": null,
+      "reason": "“一线员工岗”过于笼统，未说明具体行业或工种，无法确定归属。"
+    },
+    {
+      "occupation_id": "TG-b0d19e3f8a7a860e162c",
+      "status": "mapped",
+      "target_category_id": "L15-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L15-02",
+        "L18-08"
+      ],
+      "title_evidence": "新闻宣传与档案专员",
+      "level_3_evidence": null,
+      "reason": "标题包含新闻宣传与档案，新闻宣传属于新闻采编与报道，档案属于档案管理，但新闻宣传为主要职能，归入新闻采编与报道。"
+    },
+    {
+      "occupation_id": "TG-eed598791c971b942614",
+      "status": "mapped",
+      "target_category_id": "L13-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L20-11"
+      ],
+      "title_evidence": "金融营销管培生",
+      "level_3_evidence": null,
+      "reason": "金融营销管培生通常指向个人客户销售金融产品，归入个人客户销售。"
+    },
+    {
+      "occupation_id": "TG-e3380c22de689d452f0e",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "定向培养生",
+      "level_3_evidence": null,
+      "reason": "定向培养生未说明具体培养方向或职能，无法确定归属。"
+    },
+    {
+      "occupation_id": "TG-4d41598590cc78473f3d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L23-01",
+        "L16-02",
+        "L16-01"
+      ],
+      "title_evidence": "管理储备岗（生产管理、计划管理、采购）（本科、硕士，专业：矿业工程、矿物加工、资源与环境；机械类、电气类、工业工程、物流管理）",
+      "level_3_evidence": null,
+      "reason": "标题列出生产管理、计划管理、采购多个方向，无法确定主要职能，需进一步明确。"
+    },
+    {
+      "occupation_id": "TG-58597c5c0b2acadc0814",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "管培生类战略管理类大资产管理类职能管理类科技赋能类核心业务类",
+      "level_3_evidence": null,
+      "reason": "标题列出多个管培方向（战略管理、大资产管理、职能管理、科技赋能、核心业务），无法确定具体职能，需进一步明确。"
+    },
+    {
+      "occupation_id": "TG-764f97285c0a2c20af7a",
+      "status": "mapped",
+      "target_category_id": "L02-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-06-01",
+        "L02-06-02",
+        "L02-06-03"
+      ],
+      "title_evidence": "AI项目专员(美妆全域AI赋能)",
+      "level_3_evidence": null,
+      "reason": "AI项目专员（美妆全域AI赋能）核心职能为AI应用项目，归入大模型与智能应用工程，但未明确具体细分方向，停在二级。"
+    },
+    {
+      "occupation_id": "TG-1f1f5db390bb069c1115",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-07",
+        "L10-06"
+      ],
+      "title_evidence": "现场管理工程师",
+      "level_3_evidence": null,
+      "reason": "现场管理工程师通常指生产现场管理，归入生产计划与现场管理。"
+    },
+    {
+      "occupation_id": "TG-f25e9381078ab89b930e",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "见习生",
+      "level_3_evidence": null,
+      "reason": "见习生未说明具体职能或行业，无法确定归属。"
+    },
+    {
+      "occupation_id": "TG-ddc0317649e3edfb526d",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L12-01",
+        "L12-02",
+        "L12-03"
+      ],
+      "title_evidence": "海外市场管培生",
+      "level_3_evidence": null,
+      "reason": "海外市场管培生核心职能为市场营销，但未明确具体方向，归入通用市场营销。"
+    },
+    {
+      "occupation_id": "TG-8de396ee1ac1e2e7200f",
+      "status": "mapped",
+      "target_category_id": "L06-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01",
+        "L06-08"
+      ],
+      "title_evidence": "机械类储备生",
+      "level_3_evidence": null,
+      "reason": "机械类储备生属于工业技术研发储备，但未明确具体方向，归入通用工业技术研发。"
+    },
+    {
+      "occupation_id": "TG-337ef831a3a88ebd8cb5",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "国际化发展力领导培训生",
+      "level_3_evidence": null,
+      "reason": "国际化发展力领导培训生未说明具体职能方向，无法确定归属。"
+    },
+    {
+      "occupation_id": "TG-ce00adf0c4d721cd76c6",
+      "status": "mapped",
+      "target_category_id": "L14-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01",
+        "L14-07"
+      ],
+      "title_evidence": "客户发展部培训生",
+      "level_3_evidence": null,
+      "reason": "客户发展部培训生通常指向客户成功与续约服务，归入客户成功与续约服务。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17687,
+    "cached_input_tokens": 17536,
+    "uncached_input_tokens": 151,
+    "output_tokens": 3404,
+    "reasoning_tokens": 0,
+    "total_tokens": 21091
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0021176579999999997
+  },
+  "response_metadata": {
+    "request_id": "5220f3d1-5c96-49b9-be13-256183ff8b2b",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791895067,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

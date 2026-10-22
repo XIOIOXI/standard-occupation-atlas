@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-9caefc30b8f4de677d59",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L05-02-02",
+      "issue": "MOSFET为功率半导体器件，通常属模拟/功率器件设计，归入数字芯片设计(L05-02-01)明显错分，应修正为模拟与混合信号设计(L05-02-02)。"
+    },
+    {
+      "occupation_id": "TG-ad2af238733d0835006d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "研发助理岗领域未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-2bd01691c23f4d95e3e2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "天线系统设计归无线与射频技术合理。"
+    },
+    {
+      "occupation_id": "TG-0cbe3f39df4913272f26",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "中压开关柜研发归电气工程合理。"
+    },
+    {
+      "occupation_id": "TG-e4d341f4cd2afe6354f7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "设备专训生方向未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-6188b688da95bdd4b0af",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行分行运营培训生归金融运营合理。"
+    },
+    {
+      "occupation_id": "TG-82bfa90e2cb66ca88ab3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "冷作工艺归焊接钣金与金属加工合理。"
+    },
+    {
+      "occupation_id": "TG-29f556ea75a807fdb64b",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L01-06-01",
+      "issue": "ISP(图像信号处理)工程师通常属嵌入式/固件图像处理开发，归图形渲染开发(L01-08-01)明显错分，应修正为嵌入式应用开发(L01-06-01)。"
+    },
+    {
+      "occupation_id": "TG-7b239579b9b48beaf8e6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "医药管培生方向未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-09437c473ce14038bfda",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "物理实验教师归数学与自然科学教学合理。"
+    },
+    {
+      "occupation_id": "TG-801e2b10e611d87c9a28",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行营销培训生含公司金融方向，归个人客户销售可接受，不要求唯一答案。"
+    },
+    {
+      "occupation_id": "TG-ba5c645992fb5358538e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "电芯工艺技术员归制造制程工程合理。"
+    },
+    {
+      "occupation_id": "TG-3f8f8b052e1edb9bb09d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "股票交易岗归金融交易合理。"
+    },
+    {
+      "occupation_id": "TG-5ef0475bac2edfd3fb72",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "采购开发管培生明确采购职能，归采购与供应商管理合理。"
+    },
+    {
+      "occupation_id": "TG-cc14b304f202e1f3c294",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "反欺诈情报分析师归反欺诈与业务风险合理。"
+    },
+    {
+      "occupation_id": "TG-b2009b347d6f2df01e70",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "预测规划算法工程师归预测与统计学习合理。"
+    },
+    {
+      "occupation_id": "TG-278245e8f5d9b8ceae0f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "战略采购归采购与供应商管理合理。"
+    },
+    {
+      "occupation_id": "TG-2ae88db82498c1fd1349",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "MEMS工程师归模拟与混合信号设计合理。"
+    },
+    {
+      "occupation_id": "TG-b665144f95d82c5f3a4c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "客户营销岗客户类型未明确，归通用销售合理。"
+    },
+    {
+      "occupation_id": "TG-18aad7cb2376beda8c29",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "业务储备生职能未明确，review合理。"
+    }
+  ],
+  "raw_response_file": "000396.raw.json",
+  "usage": {
+    "input_tokens": 19668,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3156,
+    "output_tokens": 1040,
+    "reasoning_tokens": 0,
+    "total_tokens": 20708
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0022938719999999998
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

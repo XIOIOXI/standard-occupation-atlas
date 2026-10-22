@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-c071619c9739e02e88232794eee31d25",
+      "verdict": "pass",
+      "suggested_target_category_id": "L20-05",
+      "issue": "再保分入属保险承保/核保业务，归L20-05合理；L20-11为通用兜底，不构成冲突。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17036,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 524,
+    "output_tokens": 85,
+    "reasoning_tokens": 0,
+    "total_tokens": 17121
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000358272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

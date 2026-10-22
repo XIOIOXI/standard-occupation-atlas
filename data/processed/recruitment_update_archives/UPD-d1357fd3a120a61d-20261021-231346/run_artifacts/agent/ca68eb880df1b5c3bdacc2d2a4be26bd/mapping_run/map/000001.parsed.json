@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-ca68eb880df1b5c3bdacc2d2a4be26bd",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-10",
+        "L23-09-02"
+      ],
+      "title_evidence": "售后服务工程师，面向客户设备的售后技术服务",
+      "level_3_evidence": null,
+      "reason": "售后服务工程师属于客户设备安装调试与售后技术服务，归 L14-10 售后技术服务；非工厂内部设备保全，故不选 L23-09。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16947,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 307,
+    "output_tokens": 130,
+    "reasoning_tokens": 0,
+    "total_tokens": 17077
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00034794
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

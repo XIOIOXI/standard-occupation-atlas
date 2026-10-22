@@ -1,0 +1,28 @@
+{
+  "id": "314ba6b6-161e-4fa9-8d3e-def0dd03715c",
+  "object": "chat.completion",
+  "created": 1792571276,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-0a01597255761409a8353df57afc494c\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L13-02\",\"L13-09\",\"L14-11\"],\"title_evidence\":\"综合营销岗：标题仅表明营销/销售方向，未说明客户类型（个人或企业）及具体销售职责；context 为银行，但银行综合营销可能涉及个人客户销售、企业客户销售或业务运营，证据不足以唯一确定。\",\"level_3_evidence\":null,\"reason\":\"“综合营销”为泛化营销/销售岗位，缺少客户类型与职责证据，无法唯一映射到 L13-02 个人客户销售或 L13-09 通用销售；亦可能偏向业务运营（L14-11），故列为 review 候选。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16940,
+    "completion_tokens": 196,
+    "total_tokens": 17136,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 300
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

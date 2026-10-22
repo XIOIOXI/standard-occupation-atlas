@@ -1,0 +1,28 @@
+{
+  "id": "be7c6b92-b42a-4a42-b617-107f93bc4dd8",
+  "object": "chat.completion",
+  "created": 1792571654,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-8c8912db8557c41adfe5832714abaf44\",\"status\":\"mapped\",\"target_category_id\":\"L14-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L14-03\",\"L15-12\",\"L12-07\"],\"title_evidence\":\"标题为“新媒体实习”，明确指向新媒体内容账号运营方向\",\"level_3_evidence\":null,\"reason\":\"“新媒体”直接对应内容与新媒体运营（L14-03），核心为内容账号与内容分发运营；虽为实习且未说明具体平台，但方向明确，无需停在通用运营。不选L15-12因标题未体现内容创作/传媒制作职能。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16977,
+    "completion_tokens": 160,
+    "total_tokens": 17137,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 337
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

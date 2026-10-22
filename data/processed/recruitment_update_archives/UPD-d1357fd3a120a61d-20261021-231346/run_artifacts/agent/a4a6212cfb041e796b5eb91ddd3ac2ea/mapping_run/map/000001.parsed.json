@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-a4a6212cfb041e796b5eb91ddd3ac2ea",
+      "status": "mapped",
+      "target_category_id": "L25-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-04",
+        "L25-03",
+        "L23-09-02",
+        "L03-01"
+      ],
+      "title_evidence": "生产运维岗：生产设施运行维护，结合能源/化工/环保行业背景",
+      "level_3_evidence": null,
+      "reason": "“生产运维”指能源生产设施运行与调度维护，最直接对应能源运行与调度（L25-04）；无证据细分到具体三级，故停在二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16972,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 332,
+    "output_tokens": 150,
+    "reasoning_tokens": 0,
+    "total_tokens": 17122
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037944
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

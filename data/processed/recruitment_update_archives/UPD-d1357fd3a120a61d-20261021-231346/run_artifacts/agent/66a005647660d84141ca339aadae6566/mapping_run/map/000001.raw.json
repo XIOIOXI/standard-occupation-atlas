@@ -1,0 +1,28 @@
+{
+  "id": "e972fa9e-b58d-42bb-83b9-0dbe3fcb478d",
+  "object": "chat.completion",
+  "created": 1792571628,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-66a005647660d84141ca339aadae6566\",\"status\":\"mapped\",\"target_category_id\":\"L09-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L09-01\",\"L09-02-01\"],\"title_evidence\":\"标题明确为“平面设计实习生”，平面设计属于视觉与品牌设计范畴\",\"level_3_evidence\":null,\"reason\":\"平面设计对应视觉传达/平面设计，L09-01视觉与品牌设计无三级细分，直接归二级；虽为实习但职责方向明确，可映射。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16976,
+    "completion_tokens": 135,
+    "total_tokens": 17111,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 336
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

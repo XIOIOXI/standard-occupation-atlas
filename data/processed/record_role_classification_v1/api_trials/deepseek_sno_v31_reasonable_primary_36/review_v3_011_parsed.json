@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_011_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-4120740026214e819645",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题仅说明数字金融方向与培养生身份，未明确具体金融业务职能，当前review并保留L20-11与L32-01候选合理，无需纠正。"
+    },
+    {
+      "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含精益智造与管培生，可能指向制造生产或跨职能培养，未明确具体职能，当前review并保留L23-10与L32-01候选合理。"
+    },
+    {
+      "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题列出多个领域且为管理培训生，最终职业方向未明确，属于跨职能培养轮岗，当前review并保留L32-01与L32-02候选合理。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11474,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 722,
+    "output_tokens": 232,
+    "reasoning_tokens": 0,
+    "total_tokens": 11706
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000279756
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

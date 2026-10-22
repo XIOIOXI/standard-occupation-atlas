@@ -1,0 +1,185 @@
+{
+  "batch_number": 33,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "f4efce63-28e5-41d1-8fdd-727e40e273b2",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813376,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 31320,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 3928,
+    "output_tokens": 1519,
+    "reasoning_tokens": 0,
+    "total_tokens": 32839
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001582776
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-2d2eb77a199259ac50fe",
+      "decision": "keep",
+      "target_category_id": "金融/financial-internet/fintech-product",
+      "reason": "金融科技定向生核心指向金融科技产品与运营，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-c08648815c717d074de3",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列产品开发、品质工程、原材料检验、IE管理、项目助理等多个独立职业方向，确为多职业。"
+    },
+    {
+      "occupation_id": "SNO-56627d37987d8eb741fa",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "信息系统开发核心为业务系统服务端开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-d28cf5f76eaf0b82e3b1",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-finance",
+      "reason": "交易系统开发属金融行业后端开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-67a98e3101baf8f0ca39",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列通用软件、嵌入式软件、数据库、操作系统与编译器多个独立开发方向，确为多职业。"
+    },
+    {
+      "occupation_id": "SNO-ac0d2716a71d5f0d4aa7",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列技术服务、项目管理、市场营销、经营分析、人力资源、财务管理、法务、IT技术、供应链等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-eedad3c54460bac28952",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列长度计量、力学计量、光学计量、气体计量、生物计量、检验员等多个独立岗位。"
+    },
+    {
+      "occupation_id": "SNO-8a4cebd6238e9275b808",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列煤炭电力、煤化工、新能源装备设计、矿建设计施工、经营管理、专业技术技能操作等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-4adb57de9dc5adeca510",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "reason": "U3D开发属客户端与移动端开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-3f5a8d5bb8214e602da8",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-applied",
+      "reason": "AI应用工程师属机器学习应用，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-f6a859ec67ae1905ac45",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "reason": "小游戏程序开发属客户端与移动端开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-ed36359f03cb66de8943",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "国产CAD/CAM软件开发核心为图形与高性能计算，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-bebdff6af63f00e35689",
+      "decision": "keep",
+      "target_category_id": "餐饮/food-management/catering-mgmt-operations",
+      "reason": "餐饮储备人员属餐厅运营管理储备，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-2a858bd44d52b86eb24f",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "具身智能系统工程师属机器人与具身智能方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-a1b12cf12cf8371399a3",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-finance",
+      "reason": "总行信息科技部程序开发属金融行业后端开发，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-21cd61bf4d0b1d98d366",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列物理、化学、光伏、机械、安全管理、土木、人力资源、法学、财会、市场营销等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-ac6790f032d8018223fe",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AIAgent开发工程师属大模型与生成式AI，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-223847fcc5ca608a75d8",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列财富、固收、RWA、战略投资、科技研发、研究、合规、产品运营、人力等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-f3509ea913e82c06de10",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列嵌入式、JAVA、Android三个独立开发方向。"
+    },
+    {
+      "occupation_id": "SNO-72d4e5bbf2c037de0177",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "图像调试仅表明图像相关调试，未明确为计算机视觉算法研发，三级依据不足，保留最深可确认上级计算机视觉与三维感知待复核。"
+    },
+    {
+      "occupation_id": "SNO-56903fe0b608e5b7f495",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-audio",
+      "reason": "音频工程师未明确为语音与音频算法研发，可能为音频工程/设备方向，三级依据不足，保留最深可确认上级语音与音频算法待复核。"
+    },
+    {
+      "occupation_id": "SNO-35347c0451abe64eba4c",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI推理工程师属大模型与生成式AI方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-ebf29396a4533fc1f42a",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列总助、法务、财务、商务、采购等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-3cdf94333fd38e47a82f",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件开发工程师(通用软件方向)归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-22a57dda5e9ec854eae7",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件工程师(通信、电子、计算机、自动化)为专业背景列举而非多职业，归入业务服务端开发合理。"
+    }
+  ]
+}

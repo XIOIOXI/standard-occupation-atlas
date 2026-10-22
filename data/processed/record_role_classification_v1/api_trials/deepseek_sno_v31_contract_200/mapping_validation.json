@@ -1,0 +1,1425 @@
+{
+  "input_count": 200,
+  "parsed_count": 200,
+  "valid_count": 96,
+  "failures": [
+    {
+      "row": {
+        "occupation_id": "SNO-85f16f998b2f78f1ad48",
+        "status": "mapped",
+        "target_category_id": "L25-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "项目安全管理",
+        "level_3_evidence": "",
+        "reason": "标题明确为安全管理，属于安全健康与职业防护范畴，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-70a3c398dfd4eab9aac5",
+        "status": "mapped",
+        "target_category_id": "L14-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "内容运营",
+        "level_3_evidence": "",
+        "reason": "标题明确为内容运营，属于内容与新媒体运营，无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-5aa77086ed58873669f7",
+        "status": "mapped",
+        "target_category_id": "L20-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "结算托管部结算运维",
+        "level_3_evidence": "",
+        "reason": "标题明确为结算运维，属于金融运营与交易清算，无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-d4c548f34cbd5c75f3a5",
+        "status": "mapped",
+        "target_category_id": "L14-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "社媒运营",
+        "level_3_evidence": "",
+        "reason": "标题明确为社媒运营，属于内容与新媒体运营，无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-41fb42bd815f7cc808cd",
+        "status": "mapped",
+        "target_category_id": "L25-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "电气点检员",
+        "level_3_evidence": "",
+        "reason": "标题明确为电气点检员，属于能源运行与调度，无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-4aa1a3c6743f7d8e154a",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "技术",
+        "level_3_evidence": "",
+        "reason": "标题仅为“技术”，无法确定具体技术职能或方向，属于未明确岗位。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-e5d340f2b9ee3320f200",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "武汉分行运营培训生",
+        "level_3_evidence": "",
+        "reason": "标题包含“运营培训生”，但“运营”在银行语境下可能指金融运营或综合运营，且为培训生，方向未明确，需进一步确认。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-c31f0147400183293e61",
+        "status": "mapped",
+        "target_category_id": "L04-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "器件测试工程师",
+        "level_3_evidence": "",
+        "reason": "标题明确为器件测试工程师，属于硬件与产品测试，无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-c943178c1ab0c5bfbfd8",
+        "status": "mapped",
+        "target_category_id": "L05-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "自控设计",
+        "level_3_evidence": "",
+        "reason": "标题明确为自控设计，属于自动化与控制工程，无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-8e29e6449e6af5728974",
+        "status": "mapped",
+        "target_category_id": "L23-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "CNC技术员",
+        "level_3_evidence": "",
+        "reason": "标题明确为CNC技术员，属于机械加工与数控操作，无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-eced4716e5da147de2dd",
+        "status": "mapped",
+        "target_category_id": "L13-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "课程销售顾问",
+        "level_3_evidence": "",
+        "reason": "标题明确为课程销售顾问，属于个人客户销售，无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-9c0806cffc2cbabca1ff",
+        "status": "mapped",
+        "target_category_id": "L16-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "小语种外贸业务员",
+        "level_3_evidence": "",
+        "reason": "标题明确为外贸业务员，属于进出口与贸易执行，无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-07fcf24c852fd77ff0d4",
+        "status": "non_role_text",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "本次招聘涉及",
+        "level_3_evidence": "",
+        "reason": "标题为“本次招聘涉及”，不是职业名称，属于非岗位文本。"
+      },
+      "error": "nonmapped fields"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-99b27449614896209ab6",
+        "status": "mapped",
+        "target_category_id": "L06-09",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "高级仿真工程师",
+        "level_3_evidence": "",
+        "reason": "标题明确为仿真工程师，属于通用工业技术研发，无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-7196eec8684a5a8e5af9",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "资产评估管培生",
+        "level_3_evidence": "",
+        "reason": "标题包含“资产评估”和“管培生”，但管培生可能轮岗，最终方向未明确，需进一步确认。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-13d600d1826857919714",
+        "status": "non_role_text",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "官方未说明招聘",
+        "level_3_evidence": "",
+        "reason": "标题为“官方未说明招聘”，非职业名称，属于非岗位文本"
+      },
+      "error": "nonmapped fields"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-c7c2b86fee993f894bd4",
+        "status": "mapped",
+        "target_category_id": "L11-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "商业经营分析师",
+        "level_3_evidence": "",
+        "reason": "商业经营分析师，属于经营分析与流程改善，无三级细分"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-06d5a21783d857ffc369",
+        "status": "mapped",
+        "target_category_id": "L18-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "日语商务助理",
+        "level_3_evidence": "",
+        "reason": "日语商务助理，属于秘书助理与文书事务，语言为标签"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-09b70120c117f7063fcc",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L13-09",
+          "L14-11"
+        ],
+        "title_evidence": "平度办事处业务",
+        "level_3_evidence": "",
+        "reason": "标题仅说明办事处业务，未明确销售或运营职能，无法确定具体类别"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-6f0b61c2a8aa884ad401",
+        "status": "mapped",
+        "target_category_id": "L15-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "多媒体工程师",
+        "level_3_evidence": "",
+        "reason": "多媒体工程师，通常涉及影音剪辑与后期制作，映射到剪辑与影视后期"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-8793e25372a32cf93896",
+        "status": "mapped",
+        "target_category_id": "L06-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "机械工程",
+        "level_3_evidence": "",
+        "reason": "机械工程，属于机械与结构设计，无三级细分"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-6d35c8d1f3c7f41b351a",
+        "status": "mapped",
+        "target_category_id": "L11-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "NS管培生(经营分析)",
+        "level_3_evidence": "",
+        "reason": "NS管培生(经营分析)，明确经营分析职能，属于经营分析与流程改善"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-961bea0f39be287f0d18",
+        "status": "mapped",
+        "target_category_id": "L14-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "运营经理",
+        "level_3_evidence": "",
+        "reason": "运营经理，属于通用业务运营，方向未明确"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-b0bb22d7a889d08cc304",
+        "status": "mapped",
+        "target_category_id": "L25-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "电厂运行工程师",
+        "level_3_evidence": "",
+        "reason": "电厂运行工程师，属于能源运行与调度"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-75c42924a70e3bbd7ebe",
+        "status": "mapped",
+        "target_category_id": "L26-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "林业规划设计员",
+        "level_3_evidence": "",
+        "reason": "标题明确为林业规划设计，属于林业与生态管护范畴，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-3dd73911e09235373671",
+        "status": "mapped",
+        "target_category_id": "L09-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "珠宝设计工程师",
+        "level_3_evidence": "",
+        "reason": "标题明确为珠宝设计，属于工业与产品外观设计范畴，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-f8266357708df0ebd785",
+        "status": "mapped",
+        "target_category_id": "L26-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "养殖管培生",
+        "level_3_evidence": "",
+        "reason": "标题明确为养殖，属于畜牧与水产养殖范畴，管培生为培养标签，不改变职能，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-58d3cfca511995f45082",
+        "status": "mapped",
+        "target_category_id": "L22-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "学科校长管培生项目",
+        "level_3_evidence": "",
+        "reason": "标题明确为学科校长，属于教育管理范畴，管培生项目为培养标签，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-f7538f218c7f1dfd7fc7",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L13-01",
+          "L14-07",
+          "L14-08"
+        ],
+        "title_evidence": "客户主管",
+        "level_3_evidence": "",
+        "reason": "标题仅明确为客户主管，未说明是销售、客服还是客户成功，无法确定唯一二级或三级。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-0b1cbadb04e9046f30d8",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "软硬件研发工程师",
+        "level_3_evidence": "",
+        "reason": "标题明确为软硬件研发，但方向未说明，属于通用软件研发，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-9e0e40d2e6771547d880",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L12-02",
+          "L14-01",
+          "L14-03"
+        ],
+        "title_evidence": "品牌与商务运营",
+        "level_3_evidence": "",
+        "reason": "标题包含品牌与商务运营，可能涉及品牌管理、产品运营或内容运营，无法确定唯一二级或三级。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-1e410bfbb964a2c2ba95",
+        "status": "mapped",
+        "target_category_id": "L25-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "供电设备检修与维护",
+        "level_3_evidence": "",
+        "reason": "标题明确为供电设备检修与维护，属于能源运行与调度范畴，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-a264210571d4536623e1",
+        "status": "mapped",
+        "target_category_id": "L24-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "施工经理(总装项目)",
+        "level_3_evidence": "",
+        "reason": "标题明确为施工经理，属于施工组织与工程管理范畴，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-8a63742b9a75ea975cf1",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "算法工程师(计算机科学与技术、软件工程、数据科学及大数据技术、人工智能)",
+        "level_3_evidence": "",
+        "reason": "标题明确为算法工程师，属于机器学习与算法研发范畴，但具体方向未说明，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-c6bafb90d5514cbc0966",
+        "status": "mapped",
+        "target_category_id": "L32-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "数字化解决方案管培生",
+        "level_3_evidence": "",
+        "reason": "标题明确为数字化解决方案管培生，属于跨职能管理培训与轮岗范畴，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-f4bf3e2d9cab9773b1d2",
+        "status": "mapped",
+        "target_category_id": "L14-10",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "大客户技术支持",
+        "level_3_evidence": "",
+        "reason": "标题明确为大客户技术支持，属于售后技术服务范畴，无三级细分证据，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-188a23e431289adc14bc",
+        "status": "multi_role",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "综合类(财务管理/法务管理/人力资源管理/综合行政)",
+        "level_3_evidence": "",
+        "reason": "标题包含财务、法务、人力资源、行政多个明确职能，属于多职能综合岗位，无法映射单一类别。"
+      },
+      "error": "nonmapped fields"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-b34d318554be524ed36a",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "IP运营管培生",
+        "level_3_evidence": "",
+        "reason": "标题含“管培生”，但“IP运营”可能指知识产权运营或互联网IP运营，职能方向不明确，需人工确认。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-c5f00ededc0d555d97e5",
+        "status": "mapped",
+        "target_category_id": "L05-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "新能源变压器研发工程师",
+        "level_3_evidence": "",
+        "reason": "变压器研发属于电气工程范畴，L05-03无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-9456905b1b73f939b88e",
+        "status": "mapped",
+        "target_category_id": "L05-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "电机电磁技术",
+        "level_3_evidence": "",
+        "reason": "电机电磁技术属于电气工程，L05-03无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-2bdacfb9b882930e09e8",
+        "status": "mapped",
+        "target_category_id": "L24-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "机电设计师",
+        "level_3_evidence": "",
+        "reason": "机电设计通常指建筑机电与设备工程，L24-04无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-a53a80229d6f53ed2313",
+        "status": "mapped",
+        "target_category_id": "L16-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "铜精矿贸易业务",
+        "level_3_evidence": "",
+        "reason": "铜精矿贸易属于进出口与贸易执行，L16-04无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-3d81a36197a7afc3845e",
+        "status": "mapped",
+        "target_category_id": "L14-10",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "工艺售后工程师",
+        "level_3_evidence": "",
+        "reason": "工艺售后工程师属于售后技术服务，L14-10无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-0efdba063aa9c7df639b",
+        "status": "mapped",
+        "target_category_id": "L12-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "市场推广管培生",
+        "level_3_evidence": "",
+        "reason": "市场推广属于市场策略与营销策划，L12-01无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-40221954ae855fa39330",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L23-10",
+          "L29-11"
+        ],
+        "title_evidence": "技能操作",
+        "level_3_evidence": "",
+        "reason": "“技能操作”过于宽泛，可能属于生产制造或生活服务等操作类岗位，无法确定具体方向。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-2e6e48e3280e8474a2ea",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L14-01",
+          "L03-08"
+        ],
+        "title_evidence": "技术运营",
+        "level_3_evidence": "",
+        "reason": "“技术运营”可能指产品平台运营或IT技术运维，方向不明确，需人工确认。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-090f212a5b1a26d2a6cb",
+        "status": "multi_role",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "现场管理师设备安装师园林绿化师设计规划师财务金融",
+        "level_3_evidence": "",
+        "reason": "标题包含现场管理、设备安装、园林绿化、设计规划、财务金融等多个明确职能，属于多角色混合。"
+      },
+      "error": "nonmapped fields"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-5d203674437b20b1ca2f",
+        "status": "mapped",
+        "target_category_id": "L16-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "供应链管理专员",
+        "level_3_evidence": "",
+        "reason": "供应链管理专员属于供应链规划与管理，L16-02无三级细分，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-2ed03a97e5d92ae99e2f",
+        "status": "mapped",
+        "target_category_id": "L10-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "分公司管理中心项目管理",
+        "level_3_evidence": "",
+        "reason": "项目管理但领域未明确，归入通用项目管理。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-741a768f67a709a3a54b",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L25-03",
+          "L25-09"
+        ],
+        "title_evidence": "新能源研发工程师",
+        "level_3_evidence": "",
+        "reason": "“新能源研发”可能指能源系统与工艺工程或通用能源与环境技术，具体方向不明确。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-1f4e1a0096860e1fc21d",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "算法优化工程师",
+        "level_3_evidence": "",
+        "reason": "标题明确为算法优化，属于机器学习与算法研发范畴，但未细分具体算法方向，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-ad75b05b0c4e14fde23d",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L17-01",
+          "L17-02",
+          "L17-03",
+          "L17-07"
+        ],
+        "title_evidence": "空港物流",
+        "level_3_evidence": "",
+        "reason": "标题仅表明空港物流领域，未明确具体物流作业方向，无法确定唯一二级或三级。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-b65e1b6f9bd49e8b8a44",
+        "status": "mapped",
+        "target_category_id": "L13-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "营业网点业务岗(营销服务)",
+        "level_3_evidence": "",
+        "reason": "营业网点业务岗且括号注明营销服务，属于个人客户销售，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-7abcd404c614c408f9af",
+        "status": "mapped",
+        "target_category_id": "L24-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "土建质量员",
+        "level_3_evidence": "",
+        "reason": "土建质量员属于施工组织与工程管理中的现场质量岗位，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-dc102a15d3ada0126162",
+        "status": "mapped",
+        "target_category_id": "L24-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "算力设施暖通工程师",
+        "level_3_evidence": "",
+        "reason": "算力设施暖通工程师属于建筑机电与设备工程中的暖通方向，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-f6c5e273afe72ac33c47",
+        "status": "mapped",
+        "target_category_id": "L22-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "高复全科教师",
+        "level_3_evidence": "",
+        "reason": "高复全科教师属于学科与通识教学，但未明确具体学科，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-93ffb87ac5a6a3ae38fd",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "算法工程师-杭州",
+        "level_3_evidence": "",
+        "reason": "算法工程师未明确具体算法方向，映射到机器学习与算法研发二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-8f6f32893e82aa928050",
+        "status": "mapped",
+        "target_category_id": "L08-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "产品经理(AI方向)",
+        "level_3_evidence": "",
+        "reason": "AI方向产品经理属于数字与软件产品管理，但未明确用户端或企业端，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-f0947d368b70d02363bd",
+        "status": "mapped",
+        "target_category_id": "L19-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "财会实习生(财务管理、会计、审计、资产管理等)",
+        "level_3_evidence": "",
+        "reason": "财会实习生涉及财务管理、会计、审计、资产管理，核心为会计核算，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-18d0e05d910ecfaf252c",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L23-01",
+          "L23-02",
+          "L23-10"
+        ],
+        "title_evidence": "运营班操作",
+        "level_3_evidence": "",
+        "reason": "运营班操作可能指生产现场操作，但未明确具体工种，无法确定唯一二级或三级。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-3b283eed98a79c466ec4",
+        "status": "mapped",
+        "target_category_id": "L14-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "游戏运营",
+        "level_3_evidence": "",
+        "reason": "游戏运营属于产品与平台运营，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-63163982cb6463468861",
+        "status": "mapped",
+        "target_category_id": "L12-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "市场营销支持",
+        "level_3_evidence": "",
+        "reason": "市场营销支持属于通用市场营销，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-8d2d2381e456e923ce46",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L24-07",
+          "L24-10",
+          "L01-11"
+        ],
+        "title_evidence": "智能建造",
+        "level_3_evidence": "",
+        "reason": "智能建造可能涉及施工管理、施工技术或软件研发，无法确定唯一方向。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-5c7433887a97a533145f",
+        "status": "mapped",
+        "target_category_id": "L08-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "测评产品经理",
+        "level_3_evidence": "",
+        "reason": "测评产品经理属于数字与软件产品管理，但未明确产品类型，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-169c5690d158a4e4e0cb",
+        "status": "mapped",
+        "target_category_id": "L06-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "流体力学仿真工程师",
+        "level_3_evidence": "",
+        "reason": "流体力学仿真工程师属于热流体与动力工程，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-74e8841c43022c18448b",
+        "status": "mapped",
+        "target_category_id": "L26-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "农艺师",
+        "level_3_evidence": "",
+        "reason": "农艺师属于农业与种植技术，映射到二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-6913cf728cce5a17c986",
+        "status": "mapped",
+        "target_category_id": "L12-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "市场推广/运营经理",
+        "level_3_evidence": "",
+        "reason": "标题明确包含市场推广，属于市场策略与营销策划范畴，但未细分到具体三级方向。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-15fd8cd7f875b6f39ee1",
+        "status": "multi_role",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L19-07",
+          "L19-05"
+        ],
+        "title_evidence": "财务管理/审计\\\\材料类",
+        "level_3_evidence": "",
+        "reason": "标题同时包含财务管理和审计两个不同职能方向，且材料类为行业标签，无法归入单一类别。"
+      },
+      "error": "nonmapped fields"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-29ff7f3b4ede9d7ddd5a",
+        "status": "mapped",
+        "target_category_id": "L07-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "实验教学中心实验师",
+        "level_3_evidence": "",
+        "reason": "实验师在实验教学中心从事实验操作与技术支持，属于实验与科研技术支持。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-dde28d3ac66cd93e91d5",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L18-03-02",
+          "L11-03"
+        ],
+        "title_evidence": "组织管理",
+        "level_3_evidence": "",
+        "reason": "组织管理可能指组织发展或经营管理，方向不明确，需进一步确认。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-c8003f957ac160fd85bb",
+        "status": "mapped",
+        "target_category_id": "L23-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "数控车铣操作员",
+        "level_3_evidence": "",
+        "reason": "数控车铣操作属于机械加工与数控操作，二级明确但无三级细分。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-2486e3a35cb363629511",
+        "status": "mapped",
+        "target_category_id": "L13-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "资管-渠道销售",
+        "level_3_evidence": "",
+        "reason": "渠道销售属于渠道销售与经销管理，二级明确但无三级细分。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-a9819e23df3f69b6a9fd",
+        "status": "mapped",
+        "target_category_id": "L32-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "职能管培生",
+        "level_3_evidence": "",
+        "reason": "职能管培生属于跨职能管理培训与轮岗，最终方向未明确。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-c716ed2d9f6c2fcac8f0",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L16-01-03",
+          "L14-04-02"
+        ],
+        "title_evidence": "海外商品创优生",
+        "level_3_evidence": "",
+        "reason": "海外商品创优生可能涉及零售选品或商品运营，方向不明确，需进一步确认。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-a7e94537eeefd036a434",
+        "status": "mapped",
+        "target_category_id": "L19-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "财务综合",
+        "level_3_evidence": "",
+        "reason": "财务综合属于财务综合管理，二级明确但无三级细分。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-a2fca5e868380f906715",
+        "status": "mapped",
+        "target_category_id": "L25-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "集控站维操员",
+        "level_3_evidence": "",
+        "reason": "集控站维操员从事能源设施运行与调度，属于能源运行与调度。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-547912e64ed07162694e",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "Labview软件工程师",
+        "level_3_evidence": "",
+        "reason": "Labview软件工程师明确为软件开发，但方向未说明，归通用软件研发。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-a7d5ca5627cba3772493",
+        "status": "mapped",
+        "target_category_id": "L16-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "材料试验装备国际贸易出口业务员",
+        "level_3_evidence": "",
+        "reason": "标题明确为国际贸易出口业务员，属于进出口与贸易执行，三级未细分。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-e79890c96ee6f0c5d401",
+        "status": "mapped",
+        "target_category_id": "L18-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "行政",
+        "level_3_evidence": "",
+        "reason": "标题为行政，属于行政与办公事务。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-68a002873e86caf507aa",
+        "status": "multi_role",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "售后调试算法研发软件设计机构设计电气设计光学设计财务管培生",
+        "level_3_evidence": "",
+        "reason": "标题包含多个不同职能：售后调试、算法研发、软件设计、机构设计、电气设计、光学设计、财务管培生，属于多角色。"
+      },
+      "error": "nonmapped fields"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-4ec5b3fa4078c733f67a",
+        "status": "mapped",
+        "target_category_id": "L16-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "供应链计划主管",
+        "level_3_evidence": "",
+        "reason": "标题明确为供应链计划主管，属于供应链规划与管理。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-4808e7a15d2091bb129f",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L06-09",
+          "L08-07"
+        ],
+        "title_evidence": "海外研发/产品应用",
+        "level_3_evidence": "",
+        "reason": "标题包含“研发”和“产品应用”，但未明确具体技术领域或产品类型，无法确定唯一二级分类。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-4120740026214e819645",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L20-11",
+          "L32-01"
+        ],
+        "title_evidence": "数字金融方向定向培养生",
+        "level_3_evidence": "",
+        "reason": "标题包含“数字金融方向”和“定向培养生”，但未明确具体金融业务职能，且培养性质可能属于管培生。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L06-08",
+          "L32-01"
+        ],
+        "title_evidence": "精益智造管培生",
+        "level_3_evidence": "",
+        "reason": "标题包含“精益智造”和“管培生”，可能属于工艺与制造工程或跨职能管理培训，无法确定唯一分类。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-7c0732fd2f45acca834c",
+        "status": "mapped",
+        "target_category_id": "L22-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "高中部分学科教师(语文、数学、英语、物理、化学、生物、政治、历史、地理)",
+        "level_3_evidence": "",
+        "reason": "标题明确为高中学科教师，涵盖多个学科，属于学科与通识教学，三级未细分。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-1b88b6662847653c2beb",
+        "status": "mapped",
+        "target_category_id": "L12-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "信息化市场开发",
+        "level_3_evidence": "",
+        "reason": "标题包含“市场开发”，属于通用市场营销。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-9481066cd1f5ddcb344c",
+        "status": "mapped",
+        "target_category_id": "L24-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "岩土工程师",
+        "level_3_evidence": "",
+        "reason": "岩土工程师属于土木结构与岩土工程。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01"
+        ],
+        "title_evidence": "分公司管理培训生(保险、金融、营销、经济、管理、信息科技、工程、运输、医疗健康)",
+        "level_3_evidence": "",
+        "reason": "标题为管理培训生，涵盖多个领域，最终职业方向未明确，属于跨职能管理培训与轮岗。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-a155656ddb942f8c1228",
+        "status": "mapped",
+        "target_category_id": "L02-09",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "大数据与人工智能工程师",
+        "level_3_evidence": "",
+        "reason": "标题明确为大数据与人工智能工程师，但方向未说明，属于通用数据与人工智能工作。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-10069680f69154a0a22d",
+        "status": "mapped",
+        "target_category_id": "L24-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "管网设计岗(热力)",
+        "level_3_evidence": "",
+        "reason": "标题明确为热力管网设计，属于建筑机电与设备工程中的暖通、给排水、建筑电气及楼宇设备工程范畴，L24-04下无三级细分，故映射至二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-2a079fdf33f2973ed82c",
+        "status": "mapped",
+        "target_category_id": "L14-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "学员运营",
+        "level_3_evidence": "",
+        "reason": "标题明确为学员运营，属于用户与社群运营范畴，L14-02下无三级细分，故映射至二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-b847a102de5b08fba0ae",
+        "status": "mapped",
+        "target_category_id": "L30-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "法务合规管理",
+        "level_3_evidence": "",
+        "reason": "标题明确为法务合规管理，属于合规与内部控制范畴，L30-03下无三级细分，故映射至二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-f3a551d78495c24ba751",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L20-11"
+        ],
+        "title_evidence": "成都分行公司业务培训生",
+        "level_3_evidence": "",
+        "reason": "标题包含'培训生'，但'公司业务'可能指向金融业务或跨职能培养，无法确定具体职能方向，需人工确认。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-5eb63505d39cfb06954e",
+        "status": "mapped",
+        "target_category_id": "L19-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "财务管理储备",
+        "level_3_evidence": "",
+        "reason": "标题明确为财务管理储备，属于财务职能，但具体方向未说明，故映射至通用财务工作L19-08。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-43da2d2c2cb18f13f030",
+        "status": "mapped",
+        "target_category_id": "L14-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "指数运营经理助理",
+        "level_3_evidence": "",
+        "reason": "标题明确为指数运营，属于产品与平台运营范畴，L14-01下无三级细分，故映射至二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-2b6c68dcb56575e256cd",
+        "status": "mapped",
+        "target_category_id": "L25-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "非常规油气开发",
+        "level_3_evidence": "",
+        "reason": "标题明确为非常规油气开发，属于采矿与资源开采范畴，L25-02下无三级细分，故映射至二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-9170b111decf5a940895",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "供试品配置/管理通用类:管培生",
+        "level_3_evidence": "",
+        "reason": "标题包含'管培生'，但'供试品配置/管理'可能指向实验室或医药研发支持，无法确定具体职能方向，需人工确认。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-bf2d4b216aaed8943ae0",
+        "status": "mapped",
+        "target_category_id": "L32-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "综合培训生",
+        "level_3_evidence": "",
+        "reason": "标题明确为综合培训生，属于跨职能管理培训与轮岗范畴，L32-01下无三级细分，故映射至二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-a655a94e560c7200e7e4",
+        "status": "mapped",
+        "target_category_id": "L13-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "门店零售管培生",
+        "level_3_evidence": "",
+        "reason": "标题明确为门店零售管培生，属于门店导购与营业销售范畴，L13-05下无三级细分，故映射至二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-aedddffaec83b265fcbf",
+        "status": "mapped",
+        "target_category_id": "L16-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "物流管理工程师",
+        "level_3_evidence": "",
+        "reason": "标题明确为物流管理工程师，属于采购贸易与供应链规划范畴，但具体方向未说明，故映射至通用采购贸易与供应链工作L16-06。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-df16c289488eb76d85b8",
+        "status": "mapped",
+        "target_category_id": "L07-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "科研部门科研/技术",
+        "level_3_evidence": "",
+        "reason": "标题明确为科研部门科研/技术，属于科学研究范畴，但具体研究领域未说明，故映射至通用科学研究L07-05。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-f726e823532c0682f85b",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "品类发展管培生",
+        "level_3_evidence": "",
+        "reason": "标题包含'管培生'，但'品类发展'可能指向采购、商品运营或产品管理，无法确定具体职能方向，需人工确认。"
+      },
+      "error": "review L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-0fbafd406fa2200df437",
+        "status": "mapped",
+        "target_category_id": "L18-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "办公室综合",
+        "level_3_evidence": "",
+        "reason": "标题明确为办公室综合，属于秘书助理与文书事务范畴，L18-06下无三级细分，故映射至二级。"
+      },
+      "error": "unexpected L3 evidence"
+    },
+    {
+      "row": {
+        "occupation_id": "SNO-4e427e1b617872f5aee9",
+        "status": "mapped",
+        "target_category_id": "L18-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "人力资源管培生(医药研发)",
+        "level_3_evidence": "",
+        "reason": "标题明确为人力资源管培生，属于人力资源综合管理范畴，L18-04下无三级细分，故映射至二级。"
+      },
+      "error": "unexpected L3 evidence"
+    }
+  ],
+  "post_processing_added_fields": 0
+}

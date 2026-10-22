@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 207,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "5711ce9c-ed07-48b1-bc33-fbc3ca964fef",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751597,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24943,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1647,
+    "output_tokens": 4005,
+    "reasoning_tokens": 0,
+    "total_tokens": 28948
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0027199380000000003
+  },
+  "observed_at_utc": "2026-10-11T20:46:37.350356+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-8d11eb8e118373c736b0",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "安装工程师核心职责为设备安装与调试，归入技工下的设备维修与安装。"
+    },
+    {
+      "occupation_id": "SNO-f413552b3eea86b64987",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "系统分析工程师通常负责系统需求分析与技术支持，归入运维/技术支持下的技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-025742a05fddc2ec3d0f",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "机械臂运控算法工程师属于机器人运动控制算法，归入算法工程师下的机器人与具身智能。"
+    },
+    {
+      "occupation_id": "SNO-078386eb7255d3ea99e6",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "品管员负责质量检验与过程控制，归入质量管理下的质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-d248a733c0d0fe08d50d",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "营销管理核心为市场与品牌策略管理，归入市场/营销下的品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-f278cd19c927cf8c55ef",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "通信网络工程师负责通信网络建设与维护，归入通信下的通信网络建设与维护。"
+    },
+    {
+      "occupation_id": "SNO-4dc598ad82e123427b3d",
+      "target_category_id": "设计/design-art-3d-animation/art-animation",
+      "status": "mapped",
+      "reason": "3D动作设计属于三维动画与动作设计，归入美术/3D/动画下的动画与特效。"
+    },
+    {
+      "occupation_id": "SNO-4e4d3c3fd741d8a3b1ed",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-environment",
+      "status": "mapped",
+      "reason": "EHS专员负责环境、健康与安全管理，归入生产安全下的环境与职业健康管理。"
+    },
+    {
+      "occupation_id": "SNO-8f0b1810f172a983fa48",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "海外客户经理核心为客户开发与维护，归入销售下的客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-62af1561958b533f1894",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "水利水电工程施工设计属于建筑与工程设计，归入建筑/规划设计下的建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-bf05fbabc20ebca821b4",
+      "target_category_id": "供应链/物流/supply-warehouse/warehouse-inbound",
+      "status": "mapped",
+      "reason": "仓管员负责仓库入库与库存管理，归入仓储下的入库与库存管理。"
+    },
+    {
+      "occupation_id": "SNO-a6a9e368262f0086faaa",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "热设计工程师属于机械结构与产品设计范畴，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-3da69a3f217d76536403",
+      "target_category_id": "设计/design-industrial-home/industrial-product",
+      "status": "mapped",
+      "reason": "助理产品设计师核心为工业产品设计，归入工业/家居设计下的工业产品设计。"
+    },
+    {
+      "occupation_id": "SNO-6ba48f79af28050f4e75",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机械结构工程师负责机械结构设计，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-882a72ffaeb4252f322b",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "机械结构研发工程师负责机械结构研发设计，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-99b375130e2607554089",
+      "target_category_id": "运营/客服/ops-content/content-editorial",
+      "status": "mapped",
+      "reason": "内容策划核心为内容编辑与策划，归入内容运营下的内容编辑与策划。"
+    },
+    {
+      "occupation_id": "SNO-15e96f98bd762d75dbf8",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "Unity开发工程师属于客户端与移动端开发，归入前端/移动开发下的移动端与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-a06af1652457c51bdcaa",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "天线工程师属于无线与通信系统研发，归入通信下的无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-e24d1e9d58fed3885451",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-web",
+      "status": "mapped",
+      "reason": "阵列前端设计师核心为前端开发，归入前端/移动开发下的Web与前端开发。"
+    },
+    {
+      "occupation_id": "SNO-7c4a0cbe708681cf3bae",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "工艺技术员负责生产工艺与改善，归入生产营运下的生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-8d5f3411c4ec021d5f28",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "专业技术人员名称过于宽泛，缺少具体技术方向或行业信息，无法确定细分职业。"
+    },
+    {
+      "occupation_id": "SNO-906a813f5de41e4175a9",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-machining",
+      "status": "mapped",
+      "reason": "焊接工艺属于机械加工与设备操作，归入技工下的机械加工与设备操作。"
+    },
+    {
+      "occupation_id": "SNO-9bc89c1ca006f6b701d0",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "强化学习算法工程师常用于机器人决策控制，归入算法工程师下的机器人与具身智能。"
+    },
+    {
+      "occupation_id": "SNO-709a95cad6bdb689fb4f",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-cost",
+      "status": "mapped",
+      "reason": "成本会计负责成本核算与管理，归入会计下的成本与管理会计。"
+    },
+    {
+      "occupation_id": "SNO-e450fb0d88c7eb63a0d4",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "现场管理专员通常负责施工现场管理，归入工程管理下的施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-e72c7e85de3bfb4aeaab",
+      "target_category_id": "影视/传媒/media-performer/performer-acting",
+      "status": "mapped",
+      "reason": "京剧演员属于表演艺术，归入演员/配音/模特下的表演与影视演出。"
+    },
+    {
+      "occupation_id": "SNO-46a0b1ca7255da98267f",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "装调工程师负责设备安装与调试，归入技工下的设备维修与安装。"
+    },
+    {
+      "occupation_id": "SNO-d95c0428f0b815e1bfd1",
+      "target_category_id": "互联网/AI/internet-data-development/data-application",
+      "status": "mapped",
+      "reason": "动漫游戏大数据工具及产品开发属于数据应用开发，归入数据开发下的数据应用与分析开发。"
+    },
+    {
+      "occupation_id": "SNO-3709175fd7cad179ee4f",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "仿真开发属于通用算法与仿真研究，归入算法工程师下的算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-2c0db80248ce31e88528",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "初级仿真工程师属于通用算法与仿真研究，归入算法工程师下的算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-99b27449614896209ab6",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "高级仿真工程师属于通用算法与仿真研究，归入算法工程师下的算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-dfcea39f66b048c43aab",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "仿真开发工程师属于通用算法与仿真研究，归入算法工程师下的算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-ef02d3727985c352f0fa",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安全管理员负责安全生产管理，归入生产安全下的安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-67b1091ec475801aa3ba",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "智驾系统工程师属于汽车智能驾驶系统研发，归入汽车研发/制造下的整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-86881e03209930acfb1e",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "智驾系统开发属于汽车智能驾驶系统研发，归入汽车研发/制造下的整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-944ea1961d467308c7b5",
+      "target_category_id": "供应链/物流/supply-warehouse/warehouse-outbound",
+      "status": "mapped",
+      "reason": "仓储物流核心为仓储与物流作业，归入仓储下的出库与仓配作业。"
+    },
+    {
+      "occupation_id": "SNO-70cf90aa3a18a55f38f6",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "结构设计工程师负责机械结构设计，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-f2be2c7e61f4e79426b7",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "应用开发通常指业务应用后端开发，归入后端开发下的业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-f6dcd222a730ba895932",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "海外营销/技术支持明显列出营销与技术支持两个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-15e68b1f46577e27d82b",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "HR核心为人力资源工作，归入人力资源下的员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-b69831fa3e5d03104478",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "采购开发核心为供应商开发与寻源，归入采购下的供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-9712afa906fac5d359fe",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "采购开发工程师核心为供应商开发与寻源，归入采购下的供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-426103a67a3ccb56cf31",
+      "target_category_id": "教育培训/edu-tutor/tutoring-subject",
+      "status": "mapped",
+      "reason": "线上一对一老师核心为学科辅导，归入家教下的学科辅导。"
+    },
+    {
+      "occupation_id": "SNO-0169c0fb3837276797c8",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "见习售后工程师负责售后技术支持，归入运维/技术支持下的技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-d8099aeea05c42d46a96",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "油气投资分析员属于投资分析，归入投融资下的股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-d4c548f34cbd5c75f3a5",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": "社媒运营负责社交媒体运营，归入新媒体运营下的社交媒体运营。"
+    },
+    {
+      "occupation_id": "SNO-635cffeab9a6baf72cc6",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "算网工程师属于通信网络与计算网络建设，归入通信下的通信网络建设与维护。"
+    },
+    {
+      "occupation_id": "SNO-28f79907ed0ad2fc28ee",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-network",
+      "status": "mapped",
+      "reason": "算网开发工程师属于通信网络与计算网络开发，归入通信下的通信网络建设与维护。"
+    },
+    {
+      "occupation_id": "SNO-e531cd9d33f894693a19",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "博士后研究人员名称仅表明研究阶段，缺少具体学科或研究方向，无法确定细分职业。"
+    },
+    {
+      "occupation_id": "SNO-30fae2dadb1ab9546ca2",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电子光学工程师属于电子硬件与光学设计，归入电子/硬件开发下的电路与硬件设计。"
+    }
+  ]
+}

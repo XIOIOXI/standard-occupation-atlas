@@ -1,0 +1,28 @@
+{
+  "id": "88428a91-f146-4152-b4f8-a208400da082",
+  "object": "chat.completion",
+  "created": 1791881694,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-67a98e3101baf8f0ca39\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题列出多个开发方向，无法唯一确定二级，归入通用软件研发合理。\"},{\"occupation_id\":\"TG-86d33a80e1a9daff78f2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多职能方向混合，multi_role处理合理。\"},{\"occupation_id\":\"TG-edd974f143476df5e69d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"建筑工程设备管理归入物业与设施管理合理。\"},{\"occupation_id\":\"TG-72319d1977c756508c55\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"施工助理工程师归入施工组织与工程管理合理。\"},{\"occupation_id\":\"TG-e5f9bf97e2cd19e4ea50\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"计量检定员归入计量与校准三级合理。\"},{\"occupation_id\":\"TG-e927d7e0745d9a5fdec4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采矿监理归入工程监理与验收合理。\"},{\"occupation_id\":\"TG-68f40062e9b46bb1dbcf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"社媒运营归入内容与新媒体运营合理。\"},{\"occupation_id\":\"TG-0a5605d232c59765c8d4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"学科教研员归入课程与教学研发合理。\"},{\"occupation_id\":\"TG-3014d406743eb7141fa4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"OTA平台运营归入电商店铺运营三级合理。\"},{\"occupation_id\":\"TG-d090961806771800b77d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多财务方向无法唯一确定三级，归入通用财务工作合理。\"},{\"occupation_id\":\"TG-1d4c6fa5b5d3fcbf59dc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"少儿编程辅导归入信息技术教学三级合理。\"},{\"occupation_id\":\"TG-8e101795069d4c7278a6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机电管培生未明确职能方向，review合理。\"},{\"occupation_id\":\"TG-0ff005eb82260fe0b7e2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"IXM管培生未明确职能方向，review合理。\"},{\"occupation_id\":\"TG-4743ffacd5186e059f23\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"热能工程师归入热流体与动力工程合理。\"},{\"occupation_id\":\"TG-c4125616cefde923d0a6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"实验教师岗方向未明确，归入通用教育教学合理。\"},{\"occupation_id\":\"TG-a6ee67b385d92f279a98\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"软件工程师未明确开发方向，归入通用软件研发合理。\"},{\"occupation_id\":\"TG-24cd821dce0bf3d636e7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"大类资产研究归入证券与市场研究三级合理。\"},{\"occupation_id\":\"TG-ce29bc83bf51f533f50d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题含义模糊，review合理。\"},{\"occupation_id\":\"TG-04b8e8c71407ee89bd81\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"货运物流方向未明确，归入通用物流作业合理。\"},{\"occupation_id\":\"TG-b1eed12b91e97578e536\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"人才开发岗归入组织与人才发展三级合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19605,
+    "completion_tokens": 954,
+    "total_tokens": 20559,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3093
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

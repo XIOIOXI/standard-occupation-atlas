@@ -1,0 +1,96 @@
+/* Shared light palette. Loaded after the existing component and atlas styles. */
+:root {
+  color-scheme:light; --paper:#f5f6f8; --ink:#20242b; --soft-ink:#59616d;
+  --hair:#dce0e6; --accent:#285ea8; --node:#dce9d9; --node-line:#799879;
+  --light-canvas:#f5f6f8; --light-surface:#fff; --light-text:#20242b;
+  --light-muted:#59616d; --light-line:#dce0e6; --light-accent:#285ea8;
+  --line:#dce0e6; --muted:#59616d;
+  background:var(--light-canvas); color:var(--light-text);
+}
+html body { background:var(--light-canvas); color:var(--light-text); }
+body .topbar { background:var(--light-canvas); border-color:var(--light-line); color:var(--light-text); }
+body .topbar-drawers .nav-directory-title { color:var(--light-text); }
+body .nav-menu-trigger { color:var(--light-accent); border-color:var(--light-line); background:var(--light-surface); }
+body .nav-menu-trigger:hover { color:var(--light-accent); background:#edf2fa; }
+body .nav-drawer { color:var(--light-text); background:var(--light-surface); }
+body .nav-drawer header,body .nav-drawer-link { border-color:var(--light-line); color:var(--light-text); }
+body .nav-drawer header button { color:var(--light-muted); }
+body .nav-drawer-link:hover { background:#edf2fa; border-color:#799879; }
+body .market-main { color:var(--light-text); background:var(--light-canvas); }
+body .market-main :is(h1,h2,h3,h4,p,span,strong,small,label,dt,dd,li,summary,button,a,code) { color:var(--light-text)!important; }
+body .market-main :is(p.muted,.eyebrow,.occupation-meta,.breadcrumbs,.breadcrumbs span,small,dt,.job-search-company,.job-search-path,.atlas-map-tools) { color:var(--light-muted)!important; }
+body .market-main :is(a,.source-links a,.eyebrow) { color:var(--light-accent)!important; }
+body .market-main :is(section,article,nav,header,dl,details) { border-color:var(--light-line)!important; }
+body .market-main :is(.map-scene,.occupation-atlas,.field-stage,.bubble-map,.bubble-canvas,.occupation-sheet,.sno-explorer,.sno-detail,.sno-list-screen,.location-distribution,.daily-calendar,.update-batch-view) { background:var(--light-canvas)!important; }
+body .market-main :is(.map-scene,.occupation-atlas)::after { background:none!important; }
+body .market-main :is(.bubble-inspector,.map-legend,.long-tail-index) { background:var(--light-canvas)!important; color:var(--light-muted)!important; border-color:var(--light-line)!important; }
+body .market-main .market-bubble .bubble-body { fill:#dce9d9!important; stroke:#799879!important; filter:none!important; }
+body .market-main .market-bubble :is(text,tspan) { fill:#203c29!important; }
+body .market-main .market-bubble .bubble-count { fill:#425d45!important; }
+body .market-main .market-bubble:is(:hover,:focus,.active,.focused) .bubble-body { fill:#bad6b6!important; stroke:#245d42!important; }
+body .market-main .market-bubble.empty-direction .bubble-body { fill:#f0f4ec!important; stroke:#8b9b86!important; }
+body .market-main .market-bubble.empty-direction :is(text,tspan) { fill:#59616d!important; }
+body .market-main .bubble-halo { fill:transparent!important; stroke:transparent!important; }
+body .market-main :is(input,select,textarea) { color-scheme:light; color:var(--light-text)!important; background:var(--light-surface)!important; border-color:#b7c0cc!important; caret-color:var(--light-accent); }
+body .market-main input::placeholder { color:var(--light-muted)!important; opacity:1; }
+body .market-main option { color:var(--light-text)!important; background:var(--light-surface)!important; }
+body .market-main :is(.sno-controls button,.zoom-controls button,.daily-calendar-header button,.job-search-quick-filters button,.job-search-subdirections button,.job-search-browser>header button) { background:var(--light-surface)!important; border-color:var(--light-line)!important; color:var(--light-muted)!important; }
+body .market-main :is(button.is-active,button.is-selected,button.is-chosen,.sno-controls button.is-active,.daily-calendar-day.is-active) { background:#e9f0fc!important; border-color:#285ea8!important; color:#204d89!important; }
+body .market-main :is(button,a,input,select,summary,[role=button]):focus-visible { outline-color:var(--light-accent)!important; }
+body .market-main .field-copy .sno-daily-entry,body .market-main .update-admin-start { background:var(--light-accent)!important; border-color:var(--light-accent)!important; color:#fff!important; }
+body .market-main .sno-daily-entry span { color:inherit!important; }
+body .market-main .sno-daily-corner .sno-daily-entry { color:#fff!important; }
+body .market-main .field-copy .sno-daily-entry:hover,body .market-main .update-admin-start:hover:not(:disabled) { background:#204d89!important; }
+body .job-search-page { --search-surface:#fff; --search-field:#fff; --search-line:#dce0e6; --search-text:#20242b; --search-muted:#59616d; --search-accent:#285ea8; }
+body .market-main :is(.job-search-browser,.job-search-panel,.job-search-direction-grid nav,.job-search-subdirections,.job-search-empty,.job-search-limit,.update-admin-result) { background:var(--light-surface)!important; }
+body .market-main .job-search-status.is-classified { color:#245d42!important; border-color:#799879; }
+body .market-main :is(.job-search-status.is-pending,.job-search-pending) { color:#7c541a!important; border-color:#ae8a4c; }
+body .update-admin.update-admin-compact { --admin-ink:#20242b; --admin-muted:#59616d; --admin-line:#dce0e6; --admin-field:#fff; --admin-accent:#285ea8; }
+body .market-main :is(.update-admin-error,.daily-load-error,[role=alert]),body .market-main .update-admin-result .update-admin-error { color:#a23227!important; }
+body .market-main input::file-selector-button { color:var(--light-text); background:#f0f2f5; border-color:var(--light-line); }
+body .market-main .daily-calendar-day { background:transparent; border-color:var(--light-line); }
+body .market-main .daily-calendar-day b { background:#e1ecdc!important; color:#245d42!important; }
+body .market-main .daily-calendar-day.has-updates:hover { background:#edf2fa!important; }
+body .market-main :is(.daily-calendar-weekdays,.sno-company-type,.update-admin-result code) { background:transparent!important; color:var(--light-muted)!important; }
+body .update-toast { background:var(--light-surface); color:var(--light-text); border-color:var(--light-line); box-shadow:0 12px 32px #203c2920; }
+body .update-toast :is(p,small) { color:var(--light-muted); }
+body .update-toast-action { color:var(--light-accent); }
+body .market-main ::selection { background:#d9e6fb; color:#173b6b; }
+
+/* Blue = interaction; green = geographic data and successful classification. */
+body .topbar { background:#fff; }
+body .market-main :is(.daily-calendar,.daily-evidence-section,.location-job-sidebar) { background:#fff!important; }
+body .market-main .daily-calendar-day { border-color:var(--light-line)!important; background:#fff; }
+body .market-main .daily-calendar-day.has-updates:hover { border-color:#8ba9d2!important; }
+body .market-main .daily-calendar-day.is-active { border-color:#285ea8!important; }
+body .market-main .daily-calendar-day.is-active>span { color:#204d89!important; font-weight:700; }
+body .market-main .daily-calendar-day b { background:#e5f1e9!important; color:#27613e!important; }
+body .market-main .daily-calendar-day.is-active b { background:#d5e4fb!important; color:#204d89!important; }
+body .market-main .sno-daily-corner .sno-daily-entry { background:var(--light-accent)!important; border-color:var(--light-accent)!important; }
+body .market-main .sno-daily-corner .sno-daily-entry:hover { background:#204d89!important; }
+body .nav-drawer-link:hover { border-color:#9db5d6; }
+body .market-main .job-search-direction-grid nav button.is-active { background:#e9f0fc!important; color:#204d89!important; }
+
+/* Reference palette only: electric blue, pale blue/lime, near-white, charcoal. */
+:root {
+  --paper:#fafbf7; --ink:#111318; --soft-ink:#50555e; --hair:#d8dce0;
+  --accent:#1647ff; --light-canvas:#fafbf7; --light-text:#111318;
+  --light-muted:#50555e; --light-line:#d8dce0; --light-accent:#1647ff;
+  --line:#d8dce0; --muted:#50555e;
+}
+body .job-search-page { --search-line:#d8dce0; --search-text:#111318; --search-muted:#50555e; --search-accent:#1647ff; }
+body .update-admin.update-admin-compact { --admin-ink:#111318; --admin-muted:#50555e; --admin-line:#d8dce0; --admin-accent:#1647ff; }
+body .market-main .market-bubble .bubble-body { fill:#e7f2d5!important; stroke:#69716a!important; }
+body .market-main .market-bubble:nth-child(3n+2) .bubble-body { fill:#deebff!important; }
+body .market-main .market-bubble:nth-child(3n) .bubble-body { fill:#f7f8f3!important; }
+body .market-main .market-bubble :is(text,tspan),body .market-main .market-bubble .bubble-count { fill:#20252d!important; }
+body .market-main .market-bubble:is(:hover,:focus,.active,.focused) .bubble-body { fill:#1647ff!important; stroke:#1647ff!important; }
+body .market-main .market-bubble:is(:hover,:focus,.active,.focused) :is(text,tspan) { fill:#fff!important; }
+body .market-main .market-bubble.empty-direction .bubble-body { fill:#f4f5f1!important; stroke:#929790!important; }
+body .market-main :is(button.is-active,button.is-selected,button.is-chosen,.sno-controls button.is-active,.daily-calendar-day.is-active) { background:#e7edff!important; border-color:#1647ff!important; color:#1536a0!important; }
+body .market-main .daily-calendar-day.is-active { border-color:#1647ff!important; }
+body .market-main .daily-calendar-day.is-active>span { color:#1536a0!important; }
+body .market-main .daily-calendar-day b { background:#e7f2d5!important; color:#35502b!important; }
+body .market-main .daily-calendar-day.is-active b { background:#d7e3ff!important; color:#1536a0!important; }
+body .market-main :is(.sno-daily-corner .sno-daily-entry,.update-admin-start):hover:not(:disabled) { background:#1035d2!important; }
+body .market-main ::selection { background:#d8e4ff; color:#111318; }

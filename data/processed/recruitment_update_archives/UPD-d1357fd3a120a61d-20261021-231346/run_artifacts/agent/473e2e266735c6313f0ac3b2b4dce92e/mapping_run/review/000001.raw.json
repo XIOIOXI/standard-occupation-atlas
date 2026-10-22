@@ -1,0 +1,28 @@
+{
+  "id": "259e8d06-3285-4bfa-875a-a9c1a210e05d",
+  "object": "chat.completion",
+  "created": 1792571409,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-473e2e266735c6313f0ac3b2b4dce92e\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L06-01-01\", \"issue\": \"传动助理工程师归入机械机构与传动（L06-01-01）合理，传动方向明确，助理为资历标签不影响主归属。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17028,
+    "completion_tokens": 102,
+    "total_tokens": 17130,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 516
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

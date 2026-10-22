@@ -1,0 +1,28 @@
+{
+  "id": "3bc13943-bed1-48f5-bf3f-a1490fdf17ad",
+  "object": "chat.completion",
+  "created": 1792571668,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-f9883892ae5412402449db14e3839f75\",\"status\":\"mapped\",\"target_category_id\":\"L13-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L13-01\",\"L13-04\",\"L13-09\"],\"title_evidence\":\"标题为“国际销售经理”，明确销售职能，且面向机构/企业客户的国际业务销售，符合企业客户销售范围\",\"level_3_evidence\":null,\"reason\":\"“国际销售经理”核心职责为销售，客户类型未明确为个人消费者，医疗行业B2B销售常见，归入企业客户销售（L13-01）；无直接证据细分至直客或重点客户管理，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16934,
+    "completion_tokens": 165,
+    "total_tokens": 17099,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 294
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

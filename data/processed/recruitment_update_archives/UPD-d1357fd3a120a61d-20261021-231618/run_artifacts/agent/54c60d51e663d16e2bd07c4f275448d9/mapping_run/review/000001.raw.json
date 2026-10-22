@@ -1,0 +1,28 @@
+{
+  "id": "2a526fb7-4b76-432e-af84-8a86ecda3bcd",
+  "object": "chat.completion",
+  "created": 1792571582,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-54c60d51e663d16e2bd07c4f275448d9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题“技术支持”为泛化称谓，无法区分内部IT支持、售后技术服务或售前支持，保留review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17060,
+    "completion_tokens": 80,
+    "total_tokens": 17140,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 548
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

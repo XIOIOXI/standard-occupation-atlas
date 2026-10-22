@@ -1,0 +1,185 @@
+{
+  "batch_number": 17,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "e0f2111f-d5af-4b72-967f-9497eb8faafe",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813265,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30809,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 3417,
+    "output_tokens": 1503,
+    "reasoning_tokens": 0,
+    "total_tokens": 32312
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0014965259999999998
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-1f3e4d65cce3cd07cc77",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列人力、财务、客服、IT、市场品牌、设计等多个独立职能方向，属于多个独立职业，非单一职业可承接。"
+    },
+    {
+      "occupation_id": "SNO-0bf60769902b041b48f6",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列劳务员与材料员两个独立岗位职责，属于多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-647164ee1b032ca27917",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列电气、暖通、给排水、计算机、自动化、工程管理、外国语、会计、财务管理、软件开发等多个独立职业方向，属于多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-b4c11cf5497563af20bd",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列海外社媒运营、电商平台用户运营、采购等多个独立职业，属于多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-5a06b98b21528d307de5",
+      "decision": "fallback_review",
+      "target_category_id": null,
+      "reason": "SAP仅为产品/系统缩写，未注明具体职能方向（开发、实施、运维、顾问等），无法确认归入后端平台与中间件开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-74c8b08a238110cf7da4",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列机务、炉务、电气、运化、法律合规、会计等多个独立职业，属于多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-239a3f2d06f803ffdb6e",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列前期管理与会计两个独立职业，属于多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-294e92205eb2afee0019",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "后台开发即服务端开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-b3ec0e590c66e26a70d9",
+      "decision": "fallback_review",
+      "target_category_id": null,
+      "reason": "控制系统软件开发通常属于工业控制/嵌入式领域，与互联网业务服务端开发边界不符，且未注明语言或技术栈，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-b47d29dd796d974404d1",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "reason": "OS应用工程师指操作系统平台上的应用开发，归入移动端与客户端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-00ae7e696a582e4b71e3",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列运营专员与董秘两个独立职责，属于多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-00a343aebedbfe97991a",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "reason": "无人驾驶工程师核心为自动驾驶算法，归入自动驾驶与智能交通合理。"
+    },
+    {
+      "occupation_id": "SNO-fefdb31af9354606601d",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "视觉工程师通常指计算机视觉方向，归入计算机视觉与三维感知合理。"
+    },
+    {
+      "occupation_id": "SNO-4487349d5db619a229c1",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "专卖稽查属于烟草专卖执法类岗位，目录中无对应类别可承接。"
+    },
+    {
+      "occupation_id": "SNO-77645917aae130a55e57",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列分析、人工智能、应用开发、工艺工程等多个独立方向，属于多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-dbada555997aa825f2b6",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "多模态大模型工程师核心为大模型方向，归入大模型与生成式AI合理。"
+    },
+    {
+      "occupation_id": "SNO-1e6e41f0b25aa5eb8e13",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "reason": "鸿蒙应用开发属于移动端应用开发，归入移动端与客户端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-994ba3f5040d794e9e45",
+      "decision": "fallback_review",
+      "target_category_id": null,
+      "reason": "印尼语审核实习生核心为内容审核而非翻译，未注明翻译职责，归入其他语种笔译与本地化依据不足。"
+    },
+    {
+      "occupation_id": "SNO-bedb21516ec84e9a0c9e",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列财务BP、HRBP、KA销售等多个独立职业，属于多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-9df352a9a24138dc1793",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列跨境电商运营、跨境电商推广、国内电商运营、产品经理、电商设计、三维渲染等多个独立职业，属于多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-4db341867e6d7994e2eb",
+      "decision": "fallback_review",
+      "target_category_id": null,
+      "reason": "IT研发为宽泛方向，未注明具体技术栈或职能，无法确认归入业务服务端开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-2619e2dd97af176ea93f",
+      "decision": "fallback_review",
+      "target_category_id": null,
+      "reason": "外语翻译未指明具体语种，无法确认归入其他语种翻译，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-71d1199419571b488953",
+      "decision": "fallback_review",
+      "target_category_id": null,
+      "reason": "UE开发工程师通常指虚幻引擎开发，多用于游戏或三维应用，与交互与可视化开发边界不符，且未注明具体方向，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-0a048e56034682c3a966",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "reason": "LinuxBSP工程师核心为嵌入式底层开发，归入嵌入式与实时开发合理。"
+    },
+    {
+      "occupation_id": "SNO-b53a77bb03aa8348b5c6",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "物理研究员属于基础科学研究岗位，目录中无对应类别可承接。"
+    }
+  ]
+}

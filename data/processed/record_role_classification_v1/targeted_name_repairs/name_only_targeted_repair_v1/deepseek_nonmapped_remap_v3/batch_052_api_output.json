@@ -1,0 +1,28 @@
+{
+  "id": "94ba5df3-9762-4df0-bafe-07409225da37",
+  "object": "chat.completion",
+  "created": 1791821955,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-ac843d5f22051fe55170\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出活动策划执行、平面设计师、新媒体运营三个互不兼容的独立职业，且分属运营/客服、设计、运营/客服等不同一级，无共同上级可填。\"},{\"entry_id\":\"SNO-aca116d404cd2f1ba980\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"IT管培生为培训生项目，且IT方向不明确，无法确认具体一级或二级。\"},{\"entry_id\":\"SNO-acfabc043a3dda4c9762\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"高级管培生未指明职能方向，无法确认任何一级或二级类别。\"},{\"entry_id\":\"SNO-ad42db5adf4adf9fd3bd\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称同时包含营养师、饲料生产管培生及多个专业方向，职责复合且跨领域，无共同上级可填。\"},{\"entry_id\":\"SNO-ad44f8bbe8c7a1b91b41\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"实习生为培训生性质，且涵盖航空宇航、力学、控制、机械、电气、电子、通信、材料等多学科，无法确认具体职业方向。\"},{\"entry_id\":\"SNO-ad69acb350792053a2e3\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"语言类国际管培生为培训生项目，缺少具体语种或职能方向，无法确认一级或二级。\"},{\"entry_id\":\"SNO-ad9dad2fb0a52b9ca712\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"管培生为轮岗培养项目，括号内消费者权益保护不足以确认具体职业类别。\"},{\"entry_id\":\"SNO-adac3f8789f688bccba6\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称存在明显冗余或错误字符，核心职业职责不明确，无法确认类别。\"},{\"entry_id\":\"SNO-ae314f0da3d77f81b258\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"管培生兼总经办助理同时包含管理培训生与总经办助理两个独立职责，且分属不同职能，无共同上级可填。\"},{\"entry_id\":\"SNO-ae4444193b99bdc32344\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"岗位名称不完整，无法确定具体职业类别。\"},{\"entry_id\":\"SNO-ae494d8e988d492afe1c\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出市场营销、新媒体运营、电商直播运营、摄影等多个独立岗位，分属市场/公关/广告、运营/客服、影视/传媒等不同一级，无共同上级可填。\"},{\"entry_id\":\"SNO-ae4d6ca7a5a59aea3f09\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"专职党建工作人员属党务/政工岗位，冻结目录无对应类别，也无法确认合适的一级或二级。\"},{\"entry_id\":\"SNO-ae6fe16075be9455223f\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"管理培训生同时列出通用方向和工程造价方向，属于多个独立职业方向，无共同上级可填。\"},{\"entry_id\":\"SNO-ae8ae160cc15f4ec2a54\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"设计转化工程师职责方向不明确，缺少具体技术领域，无法确认类别。\"},{\"entry_id\":\"SNO-aea82737cc01867d9d23\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"仅写产品，无法判断是产品经理还是其他产品岗位，不能确认三级或二级。\"},{\"entry_id\":\"SNO-aef7db21e2033fa31040\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"项目开发缺少行业与技术方向，无法确认具体类别。\"},{\"entry_id\":\"SNO-af1c1632f10aa20a3629\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"工程技术人员名称过于宽泛，缺少具体工程领域，无法确认类别。\"},{\"entry_id\":\"SNO-af3b0867af2865595612\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"模路工程师名称不明确，缺少具体职责或技术方向，无法确认类别。\"},{\"entry_id\":\"SNO-af516eb2feca0c2c93f3\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"巡察协调岗位职责不明确，缺少具体工作内容信息，无法确定归属类别。\"},{\"entry_id\":\"SNO-af75e78cac28095f4013\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"仅写风险，未说明金融风控、财务风控或安全风控方向，无法确认类别。\"},{\"entry_id\":\"SNO-af7d536aaf8da3a11f8a\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"企业指导职责不明确，缺少具体指导领域，无法确认类别。\"},{\"entry_id\":\"SNO-afb63a620bdcff15d8cd\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"安全岗位职责范围不明确，可能涉及网络安全、生产安全或安保，缺少具体方向。\"},{\"entry_id\":\"SNO-b00545bd43296c3bc727\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"名称“U培生”含义不明确，缺少具体职业方向，无法确认类别。\"},{\"entry_id\":\"SNO-b016f160f9726749c9cd\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"量子测控工程师属于前沿交叉领域，冻结目录无对应三级类别，也无法确认合适的一级或二级。\"},{\"entry_id\":\"SNO-b0b3e52e013d2790de70\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"国际业务职责范围不明确，可能涉及外贸、销售或运营，缺少具体方向信息。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29531,
+    "completion_tokens": 1353,
+    "total_tokens": 30884,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2139
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

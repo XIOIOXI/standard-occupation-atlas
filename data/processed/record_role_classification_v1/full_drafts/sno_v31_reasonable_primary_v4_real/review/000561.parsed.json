@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-fcc7586a11c9b63d8aaa",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅表明研发助理职能，领域未说明，review合理。"
+    },
+    {
+      "occupation_id": "TG-758331d3a1bf8fbf27b1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题不完整，无法确定专业领域，review合理。"
+    },
+    {
+      "occupation_id": "TG-f6ad2a363b26bfd56a55",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品经理归数字与软件产品管理，海外市场为地域标签，合理。"
+    },
+    {
+      "occupation_id": "TG-fc58664597599e845ecf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "三维布线设计归三维模型与数字资产，合理。"
+    },
+    {
+      "occupation_id": "TG-dd88e054b32502cafd68",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅语言名称的开发岗归通用软件研发，合理。"
+    },
+    {
+      "occupation_id": "TG-1b4d20a8cb271db84a28",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅语言名称的开发岗归通用软件研发，合理。"
+    },
+    {
+      "occupation_id": "TG-4b6f302a8bd472786ba5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "市场经理方向未说明，归通用市场营销，合理。"
+    },
+    {
+      "occupation_id": "TG-463b0bcd9b99190ad775",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "市场主管方向未说明，归通用市场营销，合理。"
+    },
+    {
+      "occupation_id": "TG-058bd4c93f0b5f5a97bf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数字化技术方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-117ff7ed55e522caa5bb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数字化技术开发方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-dd8ed453b21c802e39bf",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "临床工程师方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-af8c153d37c427b830b4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI算法研究员方向未说明，归机器学习与算法研发二级，合理。"
+    },
+    {
+      "occupation_id": "TG-e8a393d61d465ca700e0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "选矿设计归能源系统与工艺工程，合理。"
+    },
+    {
+      "occupation_id": "TG-f533ac7460d00f46458a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "中学政治教师归人文与社会学科教学，合理。"
+    },
+    {
+      "occupation_id": "TG-01e6c46031f2605855e5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "制造技术工程师归工艺与制造工程二级，合理。"
+    },
+    {
+      "occupation_id": "TG-d4dd957e2630b8bfb2ac",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "内外饰设计归工业与产品外观设计，合理。"
+    },
+    {
+      "occupation_id": "TG-1efb9713cdd0db50fc3a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "内外饰设计归工业与产品外观设计，合理。"
+    },
+    {
+      "occupation_id": "TG-75ba7fad2461b39c2fb2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "项目运营方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-dbdf70c903d571290217",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品研发方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-813e7ec757d3e648ae41",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "中学音乐教师归艺术教学，合理。"
+    }
+  ],
+  "raw_response_file": "000561.raw.json",
+  "usage": {
+    "input_tokens": 19372,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2860,
+    "output_tokens": 947,
+    "reasoning_tokens": 0,
+    "total_tokens": 20319
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.002093472
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

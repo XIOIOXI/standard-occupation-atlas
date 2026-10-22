@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-7fb8e8d25d26f96afaa11c91d4773656",
+      "status": "mapped",
+      "target_category_id": "L18-03-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L18-03-01",
+        "L18-03-02",
+        "L18-09"
+      ],
+      "title_evidence": "培训助理：培训职能明确，属企业内部培训支持",
+      "level_3_evidence": "员工培训与学习发展：内部培训及学习项目",
+      "reason": "标题明确为培训助理，制造业企业内部培训属人力资源下员工培训与学习发展；助理为层级标签，不改变职能归属。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16957,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 317,
+    "output_tokens": 146,
+    "reasoning_tokens": 0,
+    "total_tokens": 17103
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037014
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

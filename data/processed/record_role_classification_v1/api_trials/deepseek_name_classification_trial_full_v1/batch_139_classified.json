@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 139,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "99a76676-afb8-4c6f-9a17-af609ee6729e",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751478,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24999,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1703,
+    "output_tokens": 2720,
+    "reasoning_tokens": 0,
+    "total_tokens": 27719
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001957338
+  },
+  "observed_at_utc": "2026-10-11T20:44:38.516788+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-4fb528ca3dc5ea1b87e9",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-planning",
+      "status": "mapped",
+      "reason": "规划土地项目受理属于国土与城市规划相关事务"
+    },
+    {
+      "occupation_id": "SNO-6d147f379c06be65e6c6",
+      "target_category_id": "供应链/物流/supply-drone/drone-operations",
+      "status": "mapped",
+      "reason": "无人机技术对应无人机行业应用飞行作业"
+    },
+    {
+      "occupation_id": "SNO-f11674f4f55349ec15cb",
+      "target_category_id": "金融/financial-investment/investment-financing-financing",
+      "status": "mapped",
+      "reason": "投融资管理对应融资与资本运作"
+    },
+    {
+      "occupation_id": "SNO-b0841e2a0322922dc367",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场营销业务人员属于市场/营销类"
+    },
+    {
+      "occupation_id": "SNO-39d6f1cea66a25f8a7b3",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-cost",
+      "status": "mapped",
+      "reason": "成本管理员对应成本与管理会计"
+    },
+    {
+      "occupation_id": "SNO-c70bcb71ddd642580c01",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "有机合成研究员属于化工工艺与生产"
+    },
+    {
+      "occupation_id": "SNO-98d1c3957018132bb88f",
+      "target_category_id": "互联网/AI/internet-security/security-application",
+      "status": "mapped",
+      "reason": "数据安全研究对应应用与数据安全"
+    },
+    {
+      "occupation_id": "SNO-5ee82d72f52f2f74e563",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "微电机开发工程师属于电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-a285c735d9437b4f12af",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "网络工程师(IT工程师)对应基础设施与云运维"
+    },
+    {
+      "occupation_id": "SNO-754bea6f47ce95bfbd79",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "高级工艺工程师属于机械制造与工艺"
+    },
+    {
+      "occupation_id": "SNO-5953544f04522c89ccb0",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-manufacturing",
+      "status": "mapped",
+      "reason": "高级/工艺工程师属于机械制造与工艺"
+    },
+    {
+      "occupation_id": "SNO-d7d347405a567c5cedf2",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "等离子体诊断研究员属于能源开发与工程"
+    },
+    {
+      "occupation_id": "SNO-2d0f692a34cd9b38ce0c",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质检工程师对应质量检验与过程控制"
+    },
+    {
+      "occupation_id": "SNO-c1291dfe9d3d27eb530c",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "公司秘书岗属于文档与档案文员"
+    },
+    {
+      "occupation_id": "SNO-12619293791ec8d065df",
+      "target_category_id": "汽车/auto-service/auto-service-maintenance",
+      "status": "mapped",
+      "reason": "民机维修工程师属于维修与保养"
+    },
+    {
+      "occupation_id": "SNO-4ba2c67052b7703f73f5",
+      "target_category_id": "电子/电气/通信/electronic-repair/electronics-repair-industrial",
+      "status": "mapped",
+      "reason": "电气维修储备对应工业电子与设备维修"
+    },
+    {
+      "occupation_id": "SNO-4768fa4d0f20cb6bfd08",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "制程整合工程师(OP)属于半导体制造工艺"
+    },
+    {
+      "occupation_id": "SNO-0bc999a23dc9392893b4",
+      "target_category_id": "互联网/AI/internet-project-management/project-rd",
+      "status": "mapped",
+      "reason": "技术与科技管理对应研发项目管理"
+    },
+    {
+      "occupation_id": "SNO-7a6b9843ee9d5079028b",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "机械电气师属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-bd5c1e5f0451729a3f09",
+      "target_category_id": "教育培训/edu-assistant/teaching-assistant-classroom",
+      "status": "mapped",
+      "reason": "工程训练中心教辅对应课堂与作业辅导"
+    },
+    {
+      "occupation_id": "SNO-50740b4a0c083f0c1b1a",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "自动化财务管理类会计属于总账与财务核算"
+    },
+    {
+      "occupation_id": "SNO-2cadc2234338613992ce",
+      "target_category_id": "人力/行政/法务/people-hr/hr-learning",
+      "status": "mapped",
+      "reason": "培训服务专员对应培训与人才发展"
+    },
+    {
+      "occupation_id": "SNO-8c1cda8b9dddeb1eec64",
+      "target_category_id": "设计/design-art-3d-animation/art-2d",
+      "status": "mapped",
+      "reason": "插画师属于二维美术与原画"
+    },
+    {
+      "occupation_id": "SNO-a6441eae2d74316048db",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "大数据/量化数据工程师对应数据工程与数仓"
+    },
+    {
+      "occupation_id": "SNO-c4596ca5e04f8b54d999",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "助理体系工程师属于质量体系与审核"
+    },
+    {
+      "occupation_id": "SNO-6f0d1bc14cd80184a087",
+      "target_category_id": "互联网/AI/internet-data-development/data-platform",
+      "status": "mapped",
+      "reason": "数据质量工程师对应大数据平台与治理"
+    },
+    {
+      "occupation_id": "SNO-0590018da133833a176c",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-processing",
+      "status": "mapped",
+      "reason": "技能操作岗(省外煤电项目)属于加工与包装作业"
+    },
+    {
+      "occupation_id": "SNO-1afa7a0b5a19a457a796",
+      "target_category_id": "产品/product-internet/product-user",
+      "status": "mapped",
+      "reason": "产品经理管培生对应用户与增长产品"
+    },
+    {
+      "occupation_id": "SNO-a9dab832e1eed96b3f0a",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "产线储备主管对应生产计划与调度"
+    },
+    {
+      "occupation_id": "SNO-34c0cd8ad251585cb545",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-environment",
+      "status": "mapped",
+      "reason": "HSE管理师对应环境与职业健康管理"
+    },
+    {
+      "occupation_id": "SNO-916cbb4489efeb903719",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "平面美宣设计属于品牌与视觉设计"
+    },
+    {
+      "occupation_id": "SNO-ae4e32921af6094acb8c",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "项目管理人员对应项目交付与实施"
+    },
+    {
+      "occupation_id": "SNO-c2931d4dd63b12f9f155",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "园区产业发展服务专员属于业务流程运营"
+    },
+    {
+      "occupation_id": "SNO-ceba7b2863af55d0167b",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "微波集成模块设计工程师属于电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-34337d0e0ce62efcce0c",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "AI算法测试开发工程师对应功能与自动化测试"
+    },
+    {
+      "occupation_id": "SNO-83d16f3ed5fe5d12934b",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "数据分析员测试工程师对应功能与自动化测试"
+    },
+    {
+      "occupation_id": "SNO-351dbd05e16fe11b0991",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "总经办总经理助理属于文档与档案文员"
+    },
+    {
+      "occupation_id": "SNO-5699e7cadf00bf42bc8e",
+      "target_category_id": "运营/客服/ops-social-media/media-social",
+      "status": "mapped",
+      "reason": "社媒运营(俄语)对应社交媒体运营"
+    },
+    {
+      "occupation_id": "SNO-3048c66482967f8e616e",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "AC-DC/主控/高压硬件设计属于电路与硬件设计"
+    },
+    {
+      "occupation_id": "SNO-85f16f998b2f78f1ad48",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "项目安全管理对应安全生产管理"
+    },
+    {
+      "occupation_id": "SNO-c9692c516033917f9827",
+      "target_category_id": "影视/传媒/media-publishing/publish-editing",
+      "status": "mapped",
+      "reason": "博士会议论文集专员属于图书与出版编辑"
+    },
+    {
+      "occupation_id": "SNO-0a3cdb101d1c7f872d3c",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-transport",
+      "status": "mapped",
+      "reason": "公司铁路运输管理对应运输调度与线路运营"
+    },
+    {
+      "occupation_id": "SNO-2c75efff082114206ae5",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "计算机名称过于宽泛，缺少具体技术方向"
+    },
+    {
+      "occupation_id": "SNO-a7175d0737f998a03d15",
+      "target_category_id": "咨询/翻译/法律/consult-english/en-translation-interpreting",
+      "status": "mapped",
+      "reason": "驻外英语翻译对应英语口译与商务沟通"
+    },
+    {
+      "occupation_id": "SNO-82d0a2295e0c555d9799",
+      "target_category_id": "金融/financial-banking/bank-investment",
+      "status": "mapped",
+      "reason": "金融同业对应投行与资产管理"
+    },
+    {
+      "occupation_id": "SNO-2084d9587f4305c381e0",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "流控工程师属于电气控制与自动化设计"
+    },
+    {
+      "occupation_id": "SNO-4589ffcd83fea74ed031",
+      "target_category_id": "运营/客服/ops-service/service-frontline",
+      "status": "mapped",
+      "reason": "业务受理对应一线客服与客户支持"
+    },
+    {
+      "occupation_id": "SNO-ba1eb08dcb59c0af87da",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "销售经理(半导体/军工)属于客户开发与直销"
+    },
+    {
+      "occupation_id": "SNO-948d0c5592d2629a50ba",
+      "target_category_id": "金融/financial-risk/finance-control-clearing",
+      "status": "mapped",
+      "reason": "交割对应清算与运营结算"
+    },
+    {
+      "occupation_id": "SNO-034d98057fcfe556f470",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "金融业务人员属于零售与综合银行"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "639446e8-327e-4a60-93f5-b0d456bfe221",
+  "object": "chat.completion",
+  "created": 1791821974,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"SNO-bf2db1327a57567e723a\",\"status\":\"review\",\"target_category_id\":\"咨询/翻译/法律\",\"reason\":\"“对外交流”仅表明交流/外事方向，未明确是口译、笔译还是其他职能，无法确认三级；可确认属于咨询/翻译/法律一级。\"},{\"entry_id\":\"SNO-bf4fcf0100331720a2f3\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"“试玩广告开发”名称未明确技术栈或前端属性，不能无依据归入Web前端；仅可确认属于互联网/AI一级。\"},{\"entry_id\":\"SNO-bf99a22a0a96167b5c6f\",\"status\":\"mapped\",\"target_category_id\":\"互联网/AI/internet-cpp/cpp-graphics\",\"reason\":\"名称明确为图形/图像软件开发，与“图形与高性能计算”三级类别匹配。\"},{\"entry_id\":\"SNO-bf9ca89680a1bcda13a4\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“分支机构”为机构层级名称，未说明具体岗位职责，无法确认任何类别。\"},{\"entry_id\":\"SNO-bfb7ac6e15994606594b\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"“AI编程全栈开发工程师”含全栈，未明确后端或前端方向，不能无依据归入业务服务端；仅可确认互联网/AI一级。\"},{\"entry_id\":\"SNO-bfd6aea516bec22bc6d8\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“四性分析”缺乏行业或技术方向信息，无法确认任何类别。\"},{\"entry_id\":\"SNO-bff0aec15f373bd81cfc\",\"status\":\"taxonomy_gap\",\"target_category_id\":null,\"reason\":\"“藏品管理”职业清晰，属文博档案类，冻结目录无对应类别，也无法确认一级或二级。\"},{\"entry_id\":\"SNO-c013d0369586affcd63b\",\"status\":\"multi_role\",\"target_category_id\":\"互联网/AI\",\"reason\":\"名称明确列出C++、Java、web前端、Android、嵌入式驱动、图形图像、网络通信、仿真验证等多个独立技术岗位，共同上级可确认至互联网/AI。\"},{\"entry_id\":\"SNO-c01f07b1d2334d4a7bb6\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“教师岗9”未说明教学阶段或学科方向，无法确认任何类别。\"},{\"entry_id\":\"SNO-c041221c906bdd6aba96\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“研发主管”未说明技术方向，无法确认任何类别。\"},{\"entry_id\":\"SNO-c04d09673d90409d39a9\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“企业管理”职责宽泛，缺少具体职能方向，无法确认任何类别。\"},{\"entry_id\":\"SNO-c06599156d452f90d19c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“数字研发工程师”名称过泛，缺少具体技术方向，无法确认任何类别。\"},{\"entry_id\":\"SNO-c06a006add311130e6fa\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“应用基础研究室科研人员”缺少具体研究领域信息，无法确认任何类别。\"},{\"entry_id\":\"SNO-c06a386805d2dd277378\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"“等离子体计算研究员”属计算/算法研究，但未明确是否属大模型、视觉等具体三级，仅可确认互联网/AI一级。\"},{\"entry_id\":\"SNO-c06c5ecbefe1604dd339\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"“速递管培生(财务人力资源)”明确列出财务与人力资源两个独立职业，且无共同可确认上级。\"},{\"entry_id\":\"SNO-c08648815c717d074de3\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出产品开发、品质工程、原材料检验、IE管理、项目助理等多个独立职业方向，无共同可确认上级。\"},{\"entry_id\":\"SNO-c09bb1f5979c299ad08e\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“机构管理”缺少行业或职能信息，无法确认任何类别。\"},{\"entry_id\":\"SNO-c0a946f91276367c657d\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出能源动力、电气、管理、会计、金融、法学、审计、安全等多个独立职业方向，无共同可确认上级。\"},{\"entry_id\":\"SNO-c0d2ba95df2ee34caf9b\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"“AI全栈研发工程师”含全栈，未明确后端或前端方向，不能无依据归入业务服务端；仅可确认互联网/AI一级。\"},{\"entry_id\":\"SNO-c0ddd4f0079d963fb10d\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出系统策划、数值策划、产品运营、媒体专员等多个独立职业，无共同可确认上级。\"},{\"entry_id\":\"SNO-c13714574bcf57592911\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“通用业务”名称过于宽泛，缺少具体职能信息，无法确认任何类别。\"},{\"entry_id\":\"SNO-c1d68bf847855c85da80\",\"status\":\"review\",\"target_category_id\":\"设计\",\"reason\":\"“设计(管培生)”中管培生非职业，设计方向未明确，无法确认三级；可确认设计一级。\"},{\"entry_id\":\"SNO-c1da478e3e0d290eb654\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“省分行本部”为机构名称，未说明具体岗位职责，无法确认任何类别。\"},{\"entry_id\":\"SNO-c2049363d1e5e96c1673\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"AOI、机械设备、电控开发维护为多个独立技术方向，无共同可确认上级。\"},{\"entry_id\":\"SNO-c234e32b33f524af9ca4\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出财务、人才、供应链、数字核心等多个独立方向，无共同可确认上级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 29659,
+    "completion_tokens": 1414,
+    "total_tokens": 31073,
+    "prompt_tokens_details": {
+      "cached_tokens": 27392
+    },
+    "prompt_cache_hit_tokens": 27392,
+    "prompt_cache_miss_tokens": 2267
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

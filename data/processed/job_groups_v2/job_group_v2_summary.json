@@ -1,0 +1,29 @@
+{
+  "snapshot_id": "24923444-9eb3-4f4e-a2eb-e611b964287b",
+  "grouping_version": "job-grouping-v2-occupation-safe",
+  "generated_at": "2026-09-20T14:50:36.144071+00:00",
+  "source_grouping_version": "job-grouping-v1",
+  "v1_job_group_count": 15846,
+  "job_group_count": 15622,
+  "reduction_from_v1": 224,
+  "singleton_group_count": 13539,
+  "mapped_job_group_count": 916,
+  "unmapped_job_group_count": 14706,
+  "average_members_per_group": 1.342,
+  "median_members_per_group": 1.0,
+  "groups_over_10_members": 90,
+  "groups_over_50_members": 1,
+  "safe_family_count_available": 1323,
+  "safe_family_count_applied": 1323,
+  "theoretical_cross_industry_agnostic_count": 12957,
+  "validation": {
+    "review_required_families_applied": false,
+    "no_cross_industry_context_merge": true,
+    "source_v1_job_group_ids_unique": true,
+    "atomic_unit_coverage_equal": true,
+    "recruitment_record_coverage_equal": true,
+    "safe_family_count_matches_audit": true,
+    "taxonomy_modified": false,
+    "skill_inference_executed": false
+  }
+}

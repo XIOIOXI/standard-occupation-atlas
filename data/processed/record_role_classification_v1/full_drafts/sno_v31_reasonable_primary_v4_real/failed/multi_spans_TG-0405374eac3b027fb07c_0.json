@@ -1,0 +1,155 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-0405374eac3b027fb07c",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "职能管理岗(电气，土木，市政，能动，机械，光伏，海工，材料环化，工程造价，工程管理，安全，物流，计算机科学与技术，党务，法务，行政，财务，人资，工商管理，市场商务，英语，俄......",
+  "child_title": "电气",
+  "source_span": {
+    "text": "电气",
+    "start": 7,
+    "end": 9
+  },
+  "raw_decision": {
+    "original_record_id": "TG-0405374eac3b027fb07c",
+    "case": "A",
+    "child_titles": [
+      "电气",
+      "土木",
+      "市政",
+      "能动",
+      "机械",
+      "光伏",
+      "海工",
+      "材料环化",
+      "工程造价",
+      "工程管理",
+      "安全",
+      "物流",
+      "计算机科学与技术",
+      "党务",
+      "法务",
+      "行政",
+      "财务",
+      "人资",
+      "工商管理",
+      "市场商务",
+      "英语",
+      "俄"
+    ],
+    "source_spans": [
+      {
+        "text": "电气",
+        "start": 7,
+        "end": 9
+      },
+      {
+        "text": "土木",
+        "start": 10,
+        "end": 12
+      },
+      {
+        "text": "市政",
+        "start": 13,
+        "end": 15
+      },
+      {
+        "text": "能动",
+        "start": 16,
+        "end": 18
+      },
+      {
+        "text": "机械",
+        "start": 19,
+        "end": 21
+      },
+      {
+        "text": "光伏",
+        "start": 22,
+        "end": 24
+      },
+      {
+        "text": "海工",
+        "start": 25,
+        "end": 27
+      },
+      {
+        "text": "材料环化",
+        "start": 28,
+        "end": 32
+      },
+      {
+        "text": "工程造价",
+        "start": 33,
+        "end": 37
+      },
+      {
+        "text": "工程管理",
+        "start": 38,
+        "end": 42
+      },
+      {
+        "text": "安全",
+        "start": 43,
+        "end": 45
+      },
+      {
+        "text": "物流",
+        "start": 46,
+        "end": 48
+      },
+      {
+        "text": "计算机科学与技术",
+        "start": 49,
+        "end": 58
+      },
+      {
+        "text": "党务",
+        "start": 59,
+        "end": 61
+      },
+      {
+        "text": "法务",
+        "start": 62,
+        "end": 64
+      },
+      {
+        "text": "行政",
+        "start": 65,
+        "end": 67
+      },
+      {
+        "text": "财务",
+        "start": 68,
+        "end": 70
+      },
+      {
+        "text": "人资",
+        "start": 71,
+        "end": 73
+      },
+      {
+        "text": "工商管理",
+        "start": 74,
+        "end": 78
+      },
+      {
+        "text": "市场商务",
+        "start": 79,
+        "end": 83
+      },
+      {
+        "text": "英语",
+        "start": 84,
+        "end": 86
+      },
+      {
+        "text": "俄",
+        "start": 87,
+        "end": 88
+      }
+    ],
+    "reason": "标题为职能管理岗，括号内列出多个独立专业方向，用逗号分隔，每个方向可视为独立子岗位，符合A拆分条件。"
+  }
+}

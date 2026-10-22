@@ -1,0 +1,155 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-batch-v2",
+  "batch_number": 9,
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 20,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "61248aa2-af61-4779-8e24-acb62bf8fbd5",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791836582,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 16433,
+    "cached_input_tokens": 15488,
+    "uncached_input_tokens": 945,
+    "output_tokens": 1052,
+    "reasoning_tokens": 0,
+    "total_tokens": 17485
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000819414
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-3f3280f8e22e45e88d2e",
+      "status": "mapped",
+      "target_category_id": "L12-01-02",
+      "reason": "标题含“素材创意策划”，属营销活动创意策划；海外为地域标签。"
+    },
+    {
+      "occupation_id": "SNO-6bbb262fcc9a1361569b",
+      "status": "mapped",
+      "target_category_id": "L04-02",
+      "reason": "“车辆调试工程师”指向实物车辆调试测试，归硬件与产品测试。"
+    },
+    {
+      "occupation_id": "SNO-a7d5ca5627cba3772493",
+      "status": "mapped",
+      "target_category_id": "L16-04",
+      "reason": "“国际贸易出口业务员”明确外贸履约执行，归进出口与贸易执行。"
+    },
+    {
+      "occupation_id": "SNO-e79890c96ee6f0c5d401",
+      "status": "mapped",
+      "target_category_id": "L18-05",
+      "reason": "标题仅“行政”，明确行政办公事务职能。"
+    },
+    {
+      "occupation_id": "SNO-b10910d57a4a1093750c",
+      "status": "mapped",
+      "target_category_id": "L04-03-03",
+      "reason": "“产品检验员”指向出厂产品质量检验，归产品质量管理。"
+    },
+    {
+      "occupation_id": "SNO-68a002873e86caf507aa",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "标题并列售后调试、算法、软件、机构、电气、光学设计及财务管培等多个独立岗位。"
+    },
+    {
+      "occupation_id": "SNO-4ec5b3fa4078c733f67a",
+      "status": "mapped",
+      "target_category_id": "L16-02",
+      "reason": "“供应链计划主管”明确供应链规划与管理职能。"
+    },
+    {
+      "occupation_id": "SNO-4808e7a15d2091bb129f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“海外研发/产品应用”未说明研发对象或产品应用职能，方向不明。"
+    },
+    {
+      "occupation_id": "SNO-4120740026214e819645",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“数字金融方向定向培养生”仅领域与培养身份，未明确具体金融职能。"
+    },
+    {
+      "occupation_id": "SNO-5f60279101a66e9149d4",
+      "status": "mapped",
+      "target_category_id": "L02-05-02",
+      "reason": "“大模型算法工程师”明确大模型算法研发，归自然语言处理。"
+    },
+    {
+      "occupation_id": "SNO-b6d5dbcd24873bfb26e3",
+      "status": "mapped",
+      "target_category_id": "L12-03-02",
+      "reason": "“海外广告优化师”属付费数字广告优化投放。"
+    },
+    {
+      "occupation_id": "SNO-20e4bf98b15b2370f4bd",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“精益智造管培生”仅培养身份与制造领域，未明确具体职能。"
+    },
+    {
+      "occupation_id": "SNO-589c668952b03ca39dd6",
+      "status": "mapped",
+      "target_category_id": "L01-02-01",
+      "reason": "“服务器Delphi开发”明确服务端业务系统开发。"
+    },
+    {
+      "occupation_id": "SNO-7c0732fd2f45acca834c",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "reason": "“高中部分学科教师”明确学科教学，但未指定单一学科，停在二级。"
+    },
+    {
+      "occupation_id": "SNO-1b88b6662847653c2beb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“信息化市场开发”未说明是市场职能还是销售拓展，方向不明。"
+    },
+    {
+      "occupation_id": "SNO-9481066cd1f5ddcb344c",
+      "status": "mapped",
+      "target_category_id": "L24-02",
+      "reason": "“岩土工程师”明确岩土工程专业技术。"
+    },
+    {
+      "occupation_id": "SNO-9dbb0161689ec5608d17",
+      "status": "mapped",
+      "target_category_id": "L06-04-01",
+      "reason": "“电池材料研发工程师”属金属与无机材料研发，电芯安全为方向。"
+    },
+    {
+      "occupation_id": "SNO-8d1e2c49023dc51d8e1d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“分公司管理培训生”仅列行业领域，未明确最终职业职能。"
+    },
+    {
+      "occupation_id": "SNO-c55c5b03e585d2c0fda8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "标题仅“加工”，未说明加工对象或工种，方向不明。"
+    },
+    {
+      "occupation_id": "SNO-a155656ddb942f8c1228",
+      "status": "mapped",
+      "target_category_id": "L02-09",
+      "reason": "“大数据与人工智能工程师”确认数据与AI技术职能，方向未说明。"
+    }
+  ]
+}

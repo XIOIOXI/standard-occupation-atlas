@@ -1,0 +1,28 @@
+{
+  "id": "e3468c5e-7f95-4f24-9cf9-323610f1025c",
+  "object": "chat.completion",
+  "created": 1792571527,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-0955432e3803465e73a7394b917a70ad\",\"status\":\"mapped\",\"target_category_id\":\"L06-07-02\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L06-07-02\",\"L02-05-05\",\"L06-07-01\"],\"title_evidence\":\"AI蛋白研发工程师：蛋白研发结合AI方法，属生物与药物研发中的药物发现与药理方向\",\"level_3_evidence\":\"药物发现与药理：药物筛选发现药理及非临床研究\",\"reason\":\"标题明确为蛋白研发工程师，核心为蛋白/生物技术研发；AI为方法标签，不改变生物研发职能，归L06-07-02最直接。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16936,
+    "completion_tokens": 171,
+    "total_tokens": 17107,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 296
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

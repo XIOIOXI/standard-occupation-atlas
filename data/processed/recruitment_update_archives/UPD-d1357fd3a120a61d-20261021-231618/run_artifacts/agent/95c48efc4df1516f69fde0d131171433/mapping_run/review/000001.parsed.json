@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-95c48efc4df1516f69fde0d131171433",
+      "verdict": "pass",
+      "suggested_target_category_id": "L04-01-01",
+      "issue": "数据质量测试工程师归软件测试-功能与业务测试合理；虽涉及数据治理领域，但核心为测试验证，主归属L04-01-01可接受。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17067,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 555,
+    "output_tokens": 94,
+    "reasoning_tokens": 0,
+    "total_tokens": 17161
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037837200000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

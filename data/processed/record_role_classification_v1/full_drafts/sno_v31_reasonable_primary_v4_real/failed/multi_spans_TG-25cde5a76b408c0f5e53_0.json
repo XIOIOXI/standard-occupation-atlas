@@ -1,0 +1,47 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-25cde5a76b408c0f5e53",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "职能管理培训生(采购业务管理培训生销售业务管理培训生法务监察管理培训生财务管理培训生)",
+  "child_title": "采购业务管理培训生",
+  "source_span": {
+    "text": "采购业务管理培训生",
+    "start": 9,
+    "end": 18
+  },
+  "raw_decision": {
+    "original_record_id": "TG-25cde5a76b408c0f5e53",
+    "case": "A",
+    "child_titles": [
+      "采购业务管理培训生",
+      "销售业务管理培训生",
+      "法务监察管理培训生",
+      "财务管理培训生"
+    ],
+    "source_spans": [
+      {
+        "text": "采购业务管理培训生",
+        "start": 9,
+        "end": 18
+      },
+      {
+        "text": "销售业务管理培训生",
+        "start": 18,
+        "end": 27
+      },
+      {
+        "text": "法务监察管理培训生",
+        "start": 27,
+        "end": 36
+      },
+      {
+        "text": "财务管理培训生",
+        "start": 36,
+        "end": 43
+      }
+    ],
+    "reason": "括号内包含多个独立培训生岗位，无分隔符但语义独立，可拆分。"
+  }
+}

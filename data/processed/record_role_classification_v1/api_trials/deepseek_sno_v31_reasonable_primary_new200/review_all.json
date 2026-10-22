@@ -1,0 +1,4306 @@
+{
+  "count": 200,
+  "records": [
+    {
+      "occupation_id": "SNO-410f8d0aca32c1dd27e5",
+      "title": "投资管理",
+      "initial": {
+        "occupation_id": "SNO-410f8d0aca32c1dd27e5",
+        "status": "mapped",
+        "target_category_id": "L20-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L20-01",
+          "L11-06"
+        ],
+        "title_evidence": "投资管理",
+        "level_3_evidence": null,
+        "reason": "投资管理属于金融投资业务，最直接对应投资交易与资产管理。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-410f8d0aca32c1dd27e5",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-031e24bb146fd9a0cda3",
+      "title": "交易执行开发工程师",
+      "initial": {
+        "occupation_id": "SNO-031e24bb146fd9a0cda3",
+        "status": "mapped",
+        "target_category_id": "L01-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L20-02-02",
+          "L01-11"
+        ],
+        "title_evidence": "交易执行开发工程师",
+        "level_3_evidence": null,
+        "reason": "交易执行开发工程师核心为软件开发，方向未明确，归后端开发。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-031e24bb146fd9a0cda3",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-7ce2ea0f00a1a1215b58",
+      "title": "C++软件研究员",
+      "initial": {
+        "occupation_id": "SNO-7ce2ea0f00a1a1215b58",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L02-05",
+          "L07-01"
+        ],
+        "title_evidence": "C++软件研究员",
+        "level_3_evidence": null,
+        "reason": "C++软件研究员为软件开发岗，方向未说明，归通用软件研发。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-7ce2ea0f00a1a1215b58",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-2a5e1dc07dfb0004706c",
+      "title": "制种技术员",
+      "initial": {
+        "occupation_id": "SNO-2a5e1dc07dfb0004706c",
+        "status": "mapped",
+        "target_category_id": "L26-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "制种技术员",
+        "level_3_evidence": null,
+        "reason": "制种技术员属于农业种植技术领域。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-2a5e1dc07dfb0004706c",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-f5cf71faaad55fc18237",
+      "title": "教师岗5",
+      "initial": {
+        "occupation_id": "SNO-f5cf71faaad55fc18237",
+        "status": "mapped",
+        "target_category_id": "L22-10",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L22-02",
+          "L22-05"
+        ],
+        "title_evidence": "教师岗5",
+        "level_3_evidence": null,
+        "reason": "教师岗5确认教学职能，但学科方向未说明，归通用教育教学。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-f5cf71faaad55fc18237",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-5bcbfea79204b2bcb858",
+      "title": "设计助理",
+      "initial": {
+        "occupation_id": "SNO-5bcbfea79204b2bcb858",
+        "status": "mapped",
+        "target_category_id": "L09-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L09-01",
+          "L09-02",
+          "L09-03"
+        ],
+        "title_evidence": "设计助理",
+        "level_3_evidence": null,
+        "reason": "设计助理确认设计职能，但具体设计方向未说明，归通用设计与创意。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-5bcbfea79204b2bcb858",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-95204a6873def9fc2adf",
+      "title": "具身智能(机器人)自主导航算法工程师",
+      "initial": {
+        "occupation_id": "SNO-95204a6873def9fc2adf",
+        "status": "mapped",
+        "target_category_id": "L02-05-06",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L02-05",
+          "L05-04"
+        ],
+        "title_evidence": "具身智能(机器人)自主导航算法工程师",
+        "level_3_evidence": "自主导航算法属于调度优化规划控制及决策算法。",
+        "reason": "具身智能自主导航算法工程师核心为导航决策算法研发，归运筹优化与决策算法。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-95204a6873def9fc2adf",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-6ea65d54367914d9c57d",
+      "title": "C#软件工程师",
+      "initial": {
+        "occupation_id": "SNO-6ea65d54367914d9c57d",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L01-02",
+          "L01-05"
+        ],
+        "title_evidence": "C#软件工程师",
+        "level_3_evidence": null,
+        "reason": "C#软件工程师为软件开发岗，方向未说明，归通用软件研发。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-6ea65d54367914d9c57d",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-512fe02211ad33e5d739",
+      "title": "系统及网络安全工程师",
+      "initial": {
+        "occupation_id": "SNO-512fe02211ad33e5d739",
+        "status": "mapped",
+        "target_category_id": "L03-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L03-03"
+        ],
+        "title_evidence": "系统及网络安全工程师",
+        "level_3_evidence": null,
+        "reason": "系统及网络安全工程师核心为信息安全，方向未细分，归信息安全。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-512fe02211ad33e5d739",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-637ba71c6e80fb506697",
+      "title": "算法工程师(软件算法/感知算法/通信算法/控制算法/仿真算法)",
+      "initial": {
+        "occupation_id": "SNO-637ba71c6e80fb506697",
+        "status": "mapped",
+        "target_category_id": "L02-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L02-05-01",
+          "L02-05-02",
+          "L02-05-03",
+          "L02-05-04",
+          "L02-05-05",
+          "L02-05-06"
+        ],
+        "title_evidence": "算法工程师(软件算法/感知算法/通信算法/控制算法/仿真算法)",
+        "level_3_evidence": null,
+        "reason": "算法工程师涵盖多种算法方向，未明确单一细分，归机器学习与算法研发。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-637ba71c6e80fb506697",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-a1eaf127731d1f29ec25",
+      "title": "3D角色设计",
+      "initial": {
+        "occupation_id": "SNO-a1eaf127731d1f29ec25",
+        "status": "mapped",
+        "target_category_id": "L09-06-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L09-06",
+          "L09-07"
+        ],
+        "title_evidence": "3D角色设计",
+        "level_3_evidence": "3D角色设计属于三维模型与数字资产。",
+        "reason": "3D角色设计直接对应三维模型与数字资产。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-a1eaf127731d1f29ec25",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "3D角色设计归入美术插画与数字资产（L09-06）合理，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-17c373f8460644ec3de2",
+      "title": "机械工程师(仿真/工艺/结构设计)",
+      "initial": {
+        "occupation_id": "SNO-17c373f8460644ec3de2",
+        "status": "mapped",
+        "target_category_id": "L06-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L06-08",
+          "L06-01-01",
+          "L06-01-02",
+          "L06-01-03"
+        ],
+        "title_evidence": "机械工程师(仿真/工艺/结构设计)",
+        "level_3_evidence": null,
+        "reason": "机械工程师涵盖仿真、工艺、结构设计，未明确单一细分，归机械与结构设计。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-17c373f8460644ec3de2",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "机械工程师涵盖仿真/工艺/结构设计，归机械与结构设计（L06-01）合理，未明显违反范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-fe876bd4f69353e62f76",
+      "title": "任务策划",
+      "initial": {
+        "occupation_id": "SNO-fe876bd4f69353e62f76",
+        "status": "mapped",
+        "target_category_id": "L08-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L08-04-01",
+          "L08-04-02",
+          "L08-04-03"
+        ],
+        "title_evidence": "任务策划",
+        "level_3_evidence": null,
+        "reason": "任务策划属于内容与互动产品策划，方向未细分，归该二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-fe876bd4f69353e62f76",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "任务策划归内容与互动产品策划（L08-04）合理，符合游戏策划范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-d7886d421db5eee903cf",
+      "title": "财务创优生",
+      "initial": {
+        "occupation_id": "SNO-d7886d421db5eee903cf",
+        "status": "mapped",
+        "target_category_id": "L19-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L19-01",
+          "L19-03"
+        ],
+        "title_evidence": "财务创优生",
+        "level_3_evidence": null,
+        "reason": "财务创优生确认财务职能，方向未说明，归通用财务工作。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-d7886d421db5eee903cf",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "财务创优生确认财务职能但方向未说明，归通用财务工作（L19-08）合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-9127f88731c8ed89e1ca",
+      "title": "水下总体论证工程师",
+      "initial": {
+        "occupation_id": "SNO-9127f88731c8ed89e1ca",
+        "status": "mapped",
+        "target_category_id": "L06-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L06-03-01",
+          "L06-03-02"
+        ],
+        "title_evidence": "水下总体论证工程师",
+        "level_3_evidence": null,
+        "reason": "水下总体论证工程师属于车辆与交通装备工程，方向未细分，归该二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-9127f88731c8ed89e1ca",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "水下总体论证工程师归车辆与交通装备工程（L06-03）合理，属于交通装备专业研发。"
+      }
+    },
+    {
+      "occupation_id": "SNO-2733d4b1584d4b701adf",
+      "title": "产线设计工程师",
+      "initial": {
+        "occupation_id": "SNO-2733d4b1584d4b701adf",
+        "status": "mapped",
+        "target_category_id": "L06-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L06-08-01",
+          "L06-08-02",
+          "L06-08-03"
+        ],
+        "title_evidence": "产线设计工程师",
+        "level_3_evidence": null,
+        "reason": "产线设计工程师属于工艺与制造工程，方向未细分，归该二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-2733d4b1584d4b701adf",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "产线设计工程师归工艺与制造工程（L06-08）合理，符合制造工艺范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-fd0ead2b0b109ebdad61",
+      "title": "钻探",
+      "initial": {
+        "occupation_id": "SNO-fd0ead2b0b109ebdad61",
+        "status": "mapped",
+        "target_category_id": "L25-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L25-01"
+        ],
+        "title_evidence": "钻探",
+        "level_3_evidence": null,
+        "reason": "钻探属于采矿与资源开采。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-fd0ead2b0b109ebdad61",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "钻探归采矿与资源开采（L25-02）合理，符合资源开采作业范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-8f5d69986f5357c1b381",
+      "title": "业务类管培生",
+      "initial": {
+        "occupation_id": "SNO-8f5d69986f5357c1b381",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "业务类管培生",
+        "level_3_evidence": null,
+        "reason": "业务类管培生仅表明培养身份，未明确具体业务职能，需进一步确认。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-8f5d69986f5357c1b381",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "业务类管培生仅表明培养身份，未明确具体职能，标review合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-2d5b21d73cd7ce55e615",
+      "title": "跟单员",
+      "initial": {
+        "occupation_id": "SNO-2d5b21d73cd7ce55e615",
+        "status": "mapped",
+        "target_category_id": "L16-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L16-06"
+        ],
+        "title_evidence": "跟单员",
+        "level_3_evidence": null,
+        "reason": "跟单员通常属于进出口与贸易执行。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-2d5b21d73cd7ce55e615",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "跟单员归进出口与贸易执行（L16-04）合理，符合外贸跟单范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-3f5a8d5bb8214e602da8",
+      "title": "AI应用工程师",
+      "initial": {
+        "occupation_id": "SNO-3f5a8d5bb8214e602da8",
+        "status": "mapped",
+        "target_category_id": "L02-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L02-06-01",
+          "L02-06-02",
+          "L02-06-03"
+        ],
+        "title_evidence": "AI应用工程师",
+        "level_3_evidence": null,
+        "reason": "AI应用工程师属于大模型与智能应用工程，方向未细分，归该二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-3f5a8d5bb8214e602da8",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "AI应用工程师归大模型与智能应用工程（L02-06）合理，符合AI应用工程范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-f9e19f8b0f4f0a92b329",
+      "title": "CV算法工程师",
+      "initial": {
+        "occupation_id": "SNO-f9e19f8b0f4f0a92b329",
+        "status": "mapped",
+        "target_category_id": "L02-05-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "CV算法工程师",
+        "level_3_evidence": "CV即计算机视觉，直接对应计算机视觉模型研发",
+        "reason": "CV算法工程师从事计算机视觉算法研发，归机器学习与算法研发下的计算机视觉。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-f9e19f8b0f4f0a92b329",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "CV算法工程师归L02-05机器学习与算法研发，标题依据充分，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-19bfebc186a313e9df7f",
+      "title": "数据挖掘算法工程师",
+      "initial": {
+        "occupation_id": "SNO-19bfebc186a313e9df7f",
+        "status": "mapped",
+        "target_category_id": "L02-05-05",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L02-05-04"
+        ],
+        "title_evidence": "数据挖掘算法工程师",
+        "level_3_evidence": "数据挖掘通常涉及预测、分类与统计学习模型",
+        "reason": "数据挖掘算法工程师主要研发预测分类等统计学习算法，归预测与统计学习；推荐搜索方向为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-19bfebc186a313e9df7f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "数据挖掘算法工程师归L02-05机器学习与算法研发，标题依据充分，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-58f21b8dadc0ed3eb0d8",
+      "title": "Soc前端设计工程师",
+      "initial": {
+        "occupation_id": "SNO-58f21b8dadc0ed3eb0d8",
+        "status": "mapped",
+        "target_category_id": "L05-02-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "Soc前端设计工程师",
+        "level_3_evidence": "SoC前端设计属于数字芯片设计",
+        "reason": "SoC前端设计工程师从事数字芯片前端设计，归数字芯片设计。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-58f21b8dadc0ed3eb0d8",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "SoC前端设计工程师归L05-02芯片与集成电路设计，标题依据充分，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-cf6e00dc0a05b466ceb9",
+      "title": "法规管理员",
+      "initial": {
+        "occupation_id": "SNO-cf6e00dc0a05b466ceb9",
+        "status": "mapped",
+        "target_category_id": "L30-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L30-05"
+        ],
+        "title_evidence": "法规管理员",
+        "level_3_evidence": null,
+        "reason": "法规管理员从事法规合规管理，归合规与内部控制；通用法律合规为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-cf6e00dc0a05b466ceb9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "法规管理员归L30-03合规与内部控制，标题依据充分，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-a3072c0a30b2071a505b",
+      "title": "营销支持",
+      "initial": {
+        "occupation_id": "SNO-a3072c0a30b2071a505b",
+        "status": "mapped",
+        "target_category_id": "L12-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L13-08"
+        ],
+        "title_evidence": "营销支持",
+        "level_3_evidence": null,
+        "reason": "营销支持属于市场职能但方向未明确，归通用市场营销；销售运营支持为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-a3072c0a30b2071a505b",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "营销支持归L12-07通用市场营销，标题依据充分，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-94d4535b85443bcc8604",
+      "title": "智能化交付工程师",
+      "initial": {
+        "occupation_id": "SNO-94d4535b85443bcc8604",
+        "status": "mapped",
+        "target_category_id": "L10-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L14-09"
+        ],
+        "title_evidence": "智能化交付工程师",
+        "level_3_evidence": null,
+        "reason": "智能化交付工程师负责客户交付实施，归客户实施与交付管理；售前解决方案为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-94d4535b85443bcc8604",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "智能化交付工程师归L10-03客户实施与交付管理，标题依据充分，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-95377d4aadd55054b0db",
+      "title": "产品培训生",
+      "initial": {
+        "occupation_id": "SNO-95377d4aadd55054b0db",
+        "status": "mapped",
+        "target_category_id": "L08-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L32-02"
+        ],
+        "title_evidence": "产品培训生",
+        "level_3_evidence": null,
+        "reason": "产品培训生已明确产品职能，培训生为身份修饰，归通用产品规划；综合储备为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-95377d4aadd55054b0db",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "产品培训生归L08-07通用产品规划，标题依据充分，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-9c54faf19f7e6b05f087",
+      "title": "管培生(分公司总经理岗位方向)",
+      "initial": {
+        "occupation_id": "SNO-9c54faf19f7e6b05f087",
+        "status": "mapped",
+        "target_category_id": "L11-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L32-01"
+        ],
+        "title_evidence": "管培生(分公司总经理岗位方向)",
+        "level_3_evidence": null,
+        "reason": "明确分公司总经理方向，属跨职能综合经营管理，归企业与业务综合管理；跨职能管培为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-9c54faf19f7e6b05f087",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "管培生(分公司总经理岗位方向)归L11-01企业与业务综合管理，标题依据充分，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-3fb72d8c23956eb38794",
+      "title": "青岛分行培训生",
+      "initial": {
+        "occupation_id": "SNO-3fb72d8c23956eb38794",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L20-11",
+          "L32-01"
+        ],
+        "title_evidence": "青岛分行培训生",
+        "level_3_evidence": null,
+        "reason": "仅银行行业与培训生身份，未明确具体金融职能，需进一步确认。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-3fb72d8c23956eb38794",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "青岛分行培训生仅行业与培训生身份，未明确具体金融职能，review处理合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-a619ee13e556f9127f41",
+      "title": "实验员",
+      "initial": {
+        "occupation_id": "SNO-a619ee13e556f9127f41",
+        "status": "mapped",
+        "target_category_id": "L07-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L04-04"
+        ],
+        "title_evidence": "实验员",
+        "level_3_evidence": null,
+        "reason": "实验员从事实验操作与科研技术支持，归实验与科研技术支持；检验检测为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-a619ee13e556f9127f41",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "实验员归L07-03实验与科研技术支持，标题依据充分，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-94c90fb5f278d2548fee",
+      "title": "油气工艺工程师",
+      "initial": {
+        "occupation_id": "SNO-94c90fb5f278d2548fee",
+        "status": "mapped",
+        "target_category_id": "L25-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "油气工艺工程师",
+        "level_3_evidence": null,
+        "reason": "油气工艺工程师从事油气能源系统工艺设计，归能源系统与工艺工程。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-94c90fb5f278d2548fee",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-9d1593dd0c716659bdd6",
+      "title": "氢硼物理研发工程师",
+      "initial": {
+        "occupation_id": "SNO-9d1593dd0c716659bdd6",
+        "status": "mapped",
+        "target_category_id": "L07-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L25-03"
+        ],
+        "title_evidence": "氢硼物理研发工程师",
+        "level_3_evidence": null,
+        "reason": "氢硼物理研发属物理基础研究，归自然科学基础研究；能源系统工艺为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-9d1593dd0c716659bdd6",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-8a7697751f67d73a9d3b",
+      "title": "管培生-工艺/设备助理工程师",
+      "initial": {
+        "occupation_id": "SNO-8a7697751f67d73a9d3b",
+        "status": "mapped",
+        "target_category_id": "L06-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L23-09"
+        ],
+        "title_evidence": "管培生-工艺/设备助理工程师",
+        "level_3_evidence": null,
+        "reason": "工艺/设备助理工程师已明确工艺与设备职能，管培生为身份修饰，归工艺与制造工程；设备维修保全为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-8a7697751f67d73a9d3b",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-f7108cf9ec89e89e3c8a",
+      "title": "产品开发管培生",
+      "initial": {
+        "occupation_id": "SNO-f7108cf9ec89e89e3c8a",
+        "status": "mapped",
+        "target_category_id": "L08-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L32-02"
+        ],
+        "title_evidence": "产品开发管培生",
+        "level_3_evidence": null,
+        "reason": "产品开发管培生已明确产品职能，管培生为身份修饰，归通用产品规划；综合储备为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-f7108cf9ec89e89e3c8a",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-6213d598fe939cc61e2d",
+      "title": "终端开发工程师",
+      "initial": {
+        "occupation_id": "SNO-6213d598fe939cc61e2d",
+        "status": "mapped",
+        "target_category_id": "L01-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L01-04"
+        ],
+        "title_evidence": "终端开发工程师",
+        "level_3_evidence": null,
+        "reason": "终端开发通常指桌面或客户端开发，归桌面与客户端开发；移动应用开发为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-6213d598fe939cc61e2d",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-d07a5e77437a84c3acc4",
+      "title": "端侧大模型算法",
+      "initial": {
+        "occupation_id": "SNO-d07a5e77437a84c3acc4",
+        "status": "mapped",
+        "target_category_id": "L02-05-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L02-06-03"
+        ],
+        "title_evidence": "端侧大模型算法",
+        "level_3_evidence": "大模型算法属自然语言处理含大模型训练",
+        "reason": "端侧大模型算法从事大模型算法研发，归自然语言处理；模型适配与提示工程为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-d07a5e77437a84c3acc4",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-d5cabd629e2a86a42388",
+      "title": "销售类校招生",
+      "initial": {
+        "occupation_id": "SNO-d5cabd629e2a86a42388",
+        "status": "mapped",
+        "target_category_id": "L13-09",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "销售类校招生",
+        "level_3_evidence": null,
+        "reason": "销售类校招生明确销售职能但客户类型未说明，归通用销售。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-d5cabd629e2a86a42388",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-3388b8dd8f5802c1f254",
+      "title": "制剂管培生-生产技术",
+      "initial": {
+        "occupation_id": "SNO-3388b8dd8f5802c1f254",
+        "status": "mapped",
+        "target_category_id": "L23-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L06-08"
+        ],
+        "title_evidence": "制剂管培生-生产技术",
+        "level_3_evidence": null,
+        "reason": "制剂生产技术属制药流程生产操作，归化工与流程生产操作；工艺与制造工程为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-3388b8dd8f5802c1f254",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-3391c90ce7d6bf14d12e",
+      "title": "中试工程师",
+      "initial": {
+        "occupation_id": "SNO-3391c90ce7d6bf14d12e",
+        "status": "mapped",
+        "target_category_id": "L06-08-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L06-08-01"
+        ],
+        "title_evidence": "中试工程师",
+        "level_3_evidence": "中试是技术转产与新品生产导入环节",
+        "reason": "中试工程师负责技术转产与生产导入，归工业化与生产导入；制造制程工程为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-3391c90ce7d6bf14d12e",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-4d3f9a7aaa8d6a9a1de4",
+      "title": "思辨与口才教师",
+      "initial": {
+        "occupation_id": "SNO-4d3f9a7aaa8d6a9a1de4",
+        "status": "mapped",
+        "target_category_id": "L22-02-04",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L22-02"
+        ],
+        "title_evidence": "思辨与口才教师",
+        "level_3_evidence": "思辨与口才属综合与通识教学",
+        "reason": "思辨与口才教师从事综合通识教学，归综合与通识教学。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-4d3f9a7aaa8d6a9a1de4",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-498238278fdb186cc5b1",
+      "title": "信息技术开发岗(应用开发/数据研发)",
+      "initial": {
+        "occupation_id": "SNO-498238278fdb186cc5b1",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L02-03"
+        ],
+        "title_evidence": "信息技术开发岗(应用开发/数据研发)",
+        "level_3_evidence": null,
+        "reason": "标题明确为信息技术开发，含应用开发与数据研发，主归属通用软件研发；数据研发为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-498238278fdb186cc5b1",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "标题含应用开发与数据研发，主归属通用软件研发符合目录规则；数据研发为合理候选。"
+      }
+    },
+    {
+      "occupation_id": "SNO-d2636ce4b90c4416fb83",
+      "title": "软件测试(机械、电气、控制、自动化、数学、软件、物理、力学等)",
+      "initial": {
+        "occupation_id": "SNO-d2636ce4b90c4416fb83",
+        "status": "mapped",
+        "target_category_id": "L04-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "软件测试(机械、电气、控制、自动化、数学、软件、物理、力学等)",
+        "level_3_evidence": null,
+        "reason": "标题明确为软件测试，括号内为专业背景，无三级细分证据，归软件测试与质量保障。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-d2636ce4b90c4416fb83",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "软件测试明确归软件测试与质量保障，括号内专业背景不改变职能。"
+      }
+    },
+    {
+      "occupation_id": "SNO-e4fe9268fca9d27615dd",
+      "title": "员工关系",
+      "initial": {
+        "occupation_id": "SNO-e4fe9268fca9d27615dd",
+        "status": "mapped",
+        "target_category_id": "L18-02-03",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L18-02"
+        ],
+        "title_evidence": "员工关系",
+        "level_3_evidence": "员工关系直接对应员工与劳动关系三级。",
+        "reason": "标题明确为员工关系，属薪酬绩效与员工关系下的员工与劳动关系。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-e4fe9268fca9d27615dd",
+        "verdict": "correction_required",
+        "suggested_target_category_id": "L18-02",
+        "issue": "员工关系对应二级类别薪酬绩效与员工关系，目录中不存在三级类别，不应归到三级。"
+      }
+    },
+    {
+      "occupation_id": "SNO-c6d5efd48de6f772fc64",
+      "title": "地编美术师",
+      "initial": {
+        "occupation_id": "SNO-c6d5efd48de6f772fc64",
+        "status": "mapped",
+        "target_category_id": "L09-06-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L09-06"
+        ],
+        "title_evidence": "地编美术师",
+        "level_3_evidence": "地编美术师通常负责游戏场景地形编辑与3D数字资产制作，对应三维模型与数字资产。",
+        "reason": "标题明确为地编美术师，属美术插画与数字资产下的三维模型与数字资产。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-c6d5efd48de6f772fc64",
+        "verdict": "correction_required",
+        "suggested_target_category_id": "L09-06",
+        "issue": "地编美术师应归美术插画与数字资产二级类别，目录中不存在三级类别，不应归到三级。"
+      }
+    },
+    {
+      "occupation_id": "SNO-0347bb57dd4c657222ac",
+      "title": "产业研究员",
+      "initial": {
+        "occupation_id": "SNO-0347bb57dd4c657222ac",
+        "status": "mapped",
+        "target_category_id": "L11-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L07-02"
+        ],
+        "title_evidence": "产业研究员",
+        "level_3_evidence": null,
+        "reason": "产业研究员通常从事行业与产业研究，归商业研究与市场调研；学术研究为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-0347bb57dd4c657222ac",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "产业研究员归商业研究与市场调研合理，学术研究为合理候选。"
+      }
+    },
+    {
+      "occupation_id": "SNO-853da10ef2c47a1c8ef9",
+      "title": "品质管理工程师(金龙联合汽车(工业)苏州有限公司)",
+      "initial": {
+        "occupation_id": "SNO-853da10ef2c47a1c8ef9",
+        "status": "mapped",
+        "target_category_id": "L04-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "品质管理工程师(金龙联合汽车(工业)苏州有限公司)",
+        "level_3_evidence": null,
+        "reason": "标题明确为品质管理工程师，属生产质量管理；公司信息不改变职能。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-853da10ef2c47a1c8ef9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "品质管理工程师归生产质量管理符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-beb55d6a84f5daba34db",
+      "title": "整机工艺工程师",
+      "initial": {
+        "occupation_id": "SNO-beb55d6a84f5daba34db",
+        "status": "mapped",
+        "target_category_id": "L06-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "整机工艺工程师",
+        "level_3_evidence": null,
+        "reason": "整机工艺工程师属制造工艺工程，归工艺与制造工程。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-beb55d6a84f5daba34db",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "整机工艺工程师归工艺与制造工程合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-64bebf52b1ca384f20d5",
+      "title": "网络安全运维工程师",
+      "initial": {
+        "occupation_id": "SNO-64bebf52b1ca384f20d5",
+        "status": "mapped",
+        "target_category_id": "L03-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L03-02"
+        ],
+        "title_evidence": "网络安全运维工程师",
+        "level_3_evidence": null,
+        "reason": "标题明确为网络安全运维，主归属信息安全；云平台与可靠性运维为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-64bebf52b1ca384f20d5",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "网络安全运维主归属信息安全合理，云平台与可靠性运维为合理候选。"
+      }
+    },
+    {
+      "occupation_id": "SNO-837f804782897d64ce8e",
+      "title": "后端开发工程师(Golang)",
+      "initial": {
+        "occupation_id": "SNO-837f804782897d64ce8e",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L01-02"
+        ],
+        "title_evidence": "后端开发工程师(Golang)",
+        "level_3_evidence": null,
+        "reason": "标题明确为后端开发，Golang为语言标签，按目录规则仅有语言名称的开发岗归通用软件研发；后端开发为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-837f804782897d64ce8e",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "后端开发工程师(Golang)按目录规则仅有语言名称的开发岗归通用软件研发，后端开发为合理候选。"
+      }
+    },
+    {
+      "occupation_id": "SNO-034a0c3a43ed16719ea0",
+      "title": "客户成功",
+      "initial": {
+        "occupation_id": "SNO-034a0c3a43ed16719ea0",
+        "status": "mapped",
+        "target_category_id": "L14-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "客户成功",
+        "level_3_evidence": null,
+        "reason": "标题明确为客户成功，归客户成功与续约服务。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-034a0c3a43ed16719ea0",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "客户成功归客户成功与续约服务符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-dabfb71f73b865d5aefc",
+      "title": "宋元考古研究",
+      "initial": {
+        "occupation_id": "SNO-dabfb71f73b865d5aefc",
+        "status": "mapped",
+        "target_category_id": "L31-04-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L31-04"
+        ],
+        "title_evidence": "宋元考古研究",
+        "level_3_evidence": "考古研究属文博与文化遗产保护。",
+        "reason": "标题明确为宋元考古研究，归图书文博与文化遗产下的文博与文化遗产保护。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-dabfb71f73b865d5aefc",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "宋元考古研究属文博与文化遗产保护，归L31-04合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-f0979f1865392c60009f",
+      "title": "硬件FPGA工程师",
+      "initial": {
+        "occupation_id": "SNO-f0979f1865392c60009f",
+        "status": "mapped",
+        "target_category_id": "L05-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L05-02-01"
+        ],
+        "title_evidence": "硬件FPGA工程师",
+        "level_3_evidence": null,
+        "reason": "FPGA工程师通常属电子硬件研发；数字芯片设计为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-f0979f1865392c60009f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "FPGA工程师归电子硬件研发L05-01合理，芯片设计为合理候选。"
+      }
+    },
+    {
+      "occupation_id": "SNO-21f30b3a9d58f64f3267",
+      "title": "展陈策划",
+      "initial": {
+        "occupation_id": "SNO-21f30b3a9d58f64f3267",
+        "status": "mapped",
+        "target_category_id": "L09-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "展陈策划",
+        "level_3_evidence": null,
+        "reason": "展陈策划属空间与展示设计。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-21f30b3a9d58f64f3267",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "展陈策划归空间与展示设计L09-05合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-fc72942737798a8da56f",
+      "title": "跨境电商实习指导教师",
+      "initial": {
+        "occupation_id": "SNO-fc72942737798a8da56f",
+        "status": "mapped",
+        "target_category_id": "L22-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "跨境电商实习指导教师",
+        "level_3_evidence": null,
+        "reason": "标题明确为实习指导教师，属职业与技术教学。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-fc72942737798a8da56f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "跨境电商实习指导教师归职业与技术教学L22-03合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-eee2e2775141312bc247",
+      "title": "机电管理/投资拓展",
+      "initial": {
+        "occupation_id": "SNO-eee2e2775141312bc247",
+        "status": "multi_role",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "机电管理/投资拓展",
+        "level_3_evidence": null,
+        "reason": "标题含机电管理与投资拓展两个职能，保留 multi_role。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-eee2e2775141312bc247",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "标题含机电管理与投资拓展两个职能，multi_role处理合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-51f6ad16494440351bbb",
+      "title": "结构PE工程师",
+      "initial": {
+        "occupation_id": "SNO-51f6ad16494440351bbb",
+        "status": "mapped",
+        "target_category_id": "L06-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L06-01"
+        ],
+        "title_evidence": "结构PE工程师",
+        "level_3_evidence": null,
+        "reason": "结构PE工程师通常为产品结构工艺工程，归工艺与制造工程；机械与结构设计为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-51f6ad16494440351bbb",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "结构PE工程师归工艺与制造工程L06-08合理，机械结构设计为合理候选。"
+      }
+    },
+    {
+      "occupation_id": "SNO-2cff3499a99b7f8c165f",
+      "title": "良率工程师",
+      "initial": {
+        "occupation_id": "SNO-2cff3499a99b7f8c165f",
+        "status": "mapped",
+        "target_category_id": "L06-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L04-03"
+        ],
+        "title_evidence": "良率工程师",
+        "level_3_evidence": null,
+        "reason": "良率工程师通常负责制程良率改善，归工艺与制造工程；生产质量管理为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-2cff3499a99b7f8c165f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "良率工程师归工艺与制造工程L06-08合理，生产质量管理为合理候选。"
+      }
+    },
+    {
+      "occupation_id": "SNO-da462cc76f2b3d84c8f7",
+      "title": "仿真设计",
+      "initial": {
+        "occupation_id": "SNO-da462cc76f2b3d84c8f7",
+        "status": "mapped",
+        "target_category_id": "L06-09",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L05-07"
+        ],
+        "title_evidence": "仿真设计",
+        "level_3_evidence": null,
+        "reason": "仿真设计属工业技术研发，具体方向未说明，归通用工业技术研发；通用电子电气通信技术为合理候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-da462cc76f2b3d84c8f7",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "仿真设计方向未说明，归通用工业技术研发L06-09合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-41eb8d53715c08e2ede1",
+      "title": "营销管培生(日韩双语)",
+      "initial": {
+        "occupation_id": "SNO-41eb8d53715c08e2ede1",
+        "status": "mapped",
+        "target_category_id": "L12-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "营销管培生(日韩双语)",
+        "level_3_evidence": null,
+        "reason": "标题明确为营销职能，管培生为身份修饰，归通用市场营销。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-41eb8d53715c08e2ede1",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "营销管培生归通用市场营销L12-07合理，管培生为身份修饰。"
+      }
+    },
+    {
+      "occupation_id": "SNO-bccc6d89ce84f686a21d",
+      "title": "运营实习生",
+      "initial": {
+        "occupation_id": "SNO-bccc6d89ce84f686a21d",
+        "status": "mapped",
+        "target_category_id": "L14-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "运营实习生",
+        "level_3_evidence": null,
+        "reason": "标题明确为运营，实习生为身份修饰，方向未说明，归通用业务运营。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-bccc6d89ce84f686a21d",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "运营实习生方向未说明，归通用业务运营L14-11合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-dd8ea6f5e325b593584a",
+      "title": "变电一次设计",
+      "initial": {
+        "occupation_id": "SNO-dd8ea6f5e325b593584a",
+        "status": "mapped",
+        "target_category_id": "L05-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "变电一次设计",
+        "level_3_evidence": null,
+        "reason": "变电一次设计属于电气工程中的变电电气一次设计，归入电气工程。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-dd8ea6f5e325b593584a",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-e7360edb140ba1a4784c",
+      "title": "产品经理(储备)",
+      "initial": {
+        "occupation_id": "SNO-e7360edb140ba1a4784c",
+        "status": "mapped",
+        "target_category_id": "L08-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L08-01"
+        ],
+        "title_evidence": "产品经理(储备)",
+        "level_3_evidence": null,
+        "reason": "产品经理为产品规划职能，储备为身份修饰，未说明产品类型，归通用产品规划。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-e7360edb140ba1a4784c",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-ae08793ba8c42f3a377a",
+      "title": "-销售",
+      "initial": {
+        "occupation_id": "SNO-ae08793ba8c42f3a377a",
+        "status": "mapped",
+        "target_category_id": "L13-09",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "-销售",
+        "level_3_evidence": null,
+        "reason": "仅明确销售职能，客户类型与方向未说明，归通用销售。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-ae08793ba8c42f3a377a",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-60fca6cfbb12dd17e92f",
+      "title": "博+牛电商运营管培生",
+      "initial": {
+        "occupation_id": "SNO-60fca6cfbb12dd17e92f",
+        "status": "mapped",
+        "target_category_id": "L14-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L14-04-01",
+          "L14-04-02"
+        ],
+        "title_evidence": "博+牛电商运营管培生",
+        "level_3_evidence": null,
+        "reason": "电商运营管培生，管培为身份修饰，已明确电商运营职能，归电商与商品运营。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-60fca6cfbb12dd17e92f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-bf99a22a0a96167b5c6f",
+      "title": "图形/图像软件开发工程师",
+      "initial": {
+        "occupation_id": "SNO-bf99a22a0a96167b5c6f",
+        "status": "mapped",
+        "target_category_id": "L01-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L01-08-01"
+        ],
+        "title_evidence": "图形/图像软件开发工程师",
+        "level_3_evidence": null,
+        "reason": "图形/图像软件开发属于图形与引擎开发，未明确渲染或引擎系统，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-bf99a22a0a96167b5c6f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-09a9beb236659c0f044f",
+      "title": "硅光芯片研究员",
+      "initial": {
+        "occupation_id": "SNO-09a9beb236659c0f044f",
+        "status": "mapped",
+        "target_category_id": "L05-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L05-02-01",
+          "L05-02-02"
+        ],
+        "title_evidence": "硅光芯片研究员",
+        "level_3_evidence": null,
+        "reason": "硅光芯片研究员属于芯片与集成电路设计，未明确数字或模拟，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-09a9beb236659c0f044f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-cb3427e6336f2ef70906",
+      "title": "项目机料",
+      "initial": {
+        "occupation_id": "SNO-cb3427e6336f2ef70906",
+        "status": "mapped",
+        "target_category_id": "L24-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L24-06-01",
+          "L24-06-02"
+        ],
+        "title_evidence": "项目机料",
+        "level_3_evidence": null,
+        "reason": "项目机料通常指工程项目材料管理，属于工程造价与招采范畴，未明确造价或招采，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-cb3427e6336f2ef70906",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-b904ca21fa5778983d45",
+      "title": "科技服务部经理",
+      "initial": {
+        "occupation_id": "SNO-b904ca21fa5778983d45",
+        "status": "mapped",
+        "target_category_id": "L11-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L11-01",
+          "L11-04"
+        ],
+        "title_evidence": "科技服务部经理",
+        "level_3_evidence": null,
+        "reason": "科技服务部经理为部门管理岗，职能方向未明确，归通用经营与咨询工作。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-b904ca21fa5778983d45",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-fb6749ff90f81d75754d",
+      "title": "化工工艺及管道设计师(天元公司)",
+      "initial": {
+        "occupation_id": "SNO-fb6749ff90f81d75754d",
+        "status": "mapped",
+        "target_category_id": "L06-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L06-05-01",
+          "L06-05-02"
+        ],
+        "title_evidence": "化工工艺及管道设计师(天元公司)",
+        "level_3_evidence": null,
+        "reason": "化工工艺及管道设计属于化学化工研发，未明确合成或配方，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-fb6749ff90f81d75754d",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-14e20adb5dc57663797f",
+      "title": "咨询顾问(商业分析、市场营销、统计、数学、社会学、心理学、英语、广告、新闻学、计算机、药学、公共卫生、医学、生物学、教育学、人类学、商科)",
+      "initial": {
+        "occupation_id": "SNO-14e20adb5dc57663797f",
+        "status": "mapped",
+        "target_category_id": "L11-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L11-04-01",
+          "L11-04-02"
+        ],
+        "title_evidence": "咨询顾问(商业分析、市场营销、统计、数学、社会学、心理学、英语、广告、新闻学、计算机、药学、公共卫生、医学、生物学、教育学、人类学、商科)",
+        "level_3_evidence": null,
+        "reason": "咨询顾问属于管理与专业咨询，括号内为专业背景标签，未明确战略或行业，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-14e20adb5dc57663797f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-3ced5c43ea3b2ec5fb7b",
+      "title": "安装造价师",
+      "initial": {
+        "occupation_id": "SNO-3ced5c43ea3b2ec5fb7b",
+        "status": "mapped",
+        "target_category_id": "L24-06-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "安装造价师",
+        "level_3_evidence": "安装造价师直接对应工程造价与预算中的安装工程造价。",
+        "reason": "安装造价师明确为安装工程造价预算，归工程造价与预算。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-3ced5c43ea3b2ec5fb7b",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "安装造价师属工程造价，归L24-06合理；三级为目录内细分，可接受。"
+      }
+    },
+    {
+      "occupation_id": "SNO-57cab55464eb54e86335",
+      "title": "托管教师(初中方向)",
+      "initial": {
+        "occupation_id": "SNO-57cab55464eb54e86335",
+        "status": "mapped",
+        "target_category_id": "L22-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L22-02-02",
+          "L22-02-03",
+          "L22-02-04"
+        ],
+        "title_evidence": "托管教师(初中方向)",
+        "level_3_evidence": null,
+        "reason": "托管教师为学科教学，初中方向未明确具体学科，落学科与通识教学二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-57cab55464eb54e86335",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "托管教师为学科教学，初中方向未明确学科，归L22-02合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-11bb6d4d587dde12a387",
+      "title": "数学思维老师",
+      "initial": {
+        "occupation_id": "SNO-11bb6d4d587dde12a387",
+        "status": "mapped",
+        "target_category_id": "L22-02-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "数学思维老师",
+        "level_3_evidence": "数学思维老师直接对应数学与自然科学教学。",
+        "reason": "数学思维老师明确为数学教学，归数学与自然科学教学。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-11bb6d4d587dde12a387",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "数学思维老师归学科与通识教学下的数学教学，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-e8ea39a22b89370126f0",
+      "title": "管培生视频内容管培生",
+      "initial": {
+        "occupation_id": "SNO-e8ea39a22b89370126f0",
+        "status": "mapped",
+        "target_category_id": "L14-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "管培生视频内容管培生",
+        "level_3_evidence": null,
+        "reason": "视频内容管培生，管培为身份修饰，已明确视频内容运营职能，归内容与新媒体运营。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-e8ea39a22b89370126f0",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "视频内容管培生已明确内容运营职能，归L14-03合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-b2bb0759aeed784841cd",
+      "title": "行政管理人员",
+      "initial": {
+        "occupation_id": "SNO-b2bb0759aeed784841cd",
+        "status": "mapped",
+        "target_category_id": "L18-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "行政管理人员",
+        "level_3_evidence": null,
+        "reason": "行政管理人员明确为行政与办公事务。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-b2bb0759aeed784841cd",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "行政管理人员归行政与办公事务，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-4a0d167c153ce126c2db",
+      "title": "产品策划经理",
+      "initial": {
+        "occupation_id": "SNO-4a0d167c153ce126c2db",
+        "status": "mapped",
+        "target_category_id": "L08-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L08-01",
+          "L08-02",
+          "L08-04"
+        ],
+        "title_evidence": "产品策划经理",
+        "level_3_evidence": null,
+        "reason": "产品策划经理为产品规划职能，未说明产品类型，归通用产品规划。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-4a0d167c153ce126c2db",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "产品策划经理未说明产品类型，归通用产品规划合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-677d6bd8842d15f03ce7",
+      "title": "仿真模拟与训练技术研究实习员",
+      "initial": {
+        "occupation_id": "SNO-677d6bd8842d15f03ce7",
+        "status": "mapped",
+        "target_category_id": "L07-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "仿真模拟与训练技术研究实习员",
+        "level_3_evidence": null,
+        "reason": "研究实习员属于科研技术支持，仿真模拟与训练技术为研究方向，归实验与科研技术支持。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-677d6bd8842d15f03ce7",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "研究实习员属科研技术支持，归L07-03合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-6e1f412867ef9face30d",
+      "title": "财务管理",
+      "initial": {
+        "occupation_id": "SNO-6e1f412867ef9face30d",
+        "status": "mapped",
+        "target_category_id": "L19-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L19-01",
+          "L19-03",
+          "L19-07"
+        ],
+        "title_evidence": "财务管理",
+        "level_3_evidence": null,
+        "reason": "财务管理为财务职能，方向未明确，归通用财务工作。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-6e1f412867ef9face30d",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "财务管理方向未明确，归通用财务工作合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-b454cba2a98c9c19bf27",
+      "title": "基础设施管理",
+      "initial": {
+        "occupation_id": "SNO-b454cba2a98c9c19bf27",
+        "status": "mapped",
+        "target_category_id": "L03-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L03-01",
+          "L03-02",
+          "L03-03"
+        ],
+        "title_evidence": "基础设施管理",
+        "level_3_evidence": null,
+        "reason": "基础设施管理通常指IT基础设施运维，方向未明确，归通用信息技术运维。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-b454cba2a98c9c19bf27",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "基础设施管理通常指IT基础设施运维，方向未明确，归通用IT运维合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-d95e4ffc32ab9faa72c6",
+      "title": "营林技术",
+      "initial": {
+        "occupation_id": "SNO-d95e4ffc32ab9faa72c6",
+        "status": "mapped",
+        "target_category_id": "L26-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "营林技术",
+        "level_3_evidence": null,
+        "reason": "营林技术属于林业与生态管护。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-d95e4ffc32ab9faa72c6",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "营林技术归林业与生态管护，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-dd7895e5e84778756394",
+      "title": "机械工程技术",
+      "initial": {
+        "occupation_id": "SNO-dd7895e5e84778756394",
+        "status": "mapped",
+        "target_category_id": "L06-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "机械工程技术",
+        "level_3_evidence": null,
+        "reason": "标题明确机械工程方向，属于机械与结构设计范畴，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-dd7895e5e84778756394",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "机械工程技术归入机械与结构设计，标题依据充分，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-584e24c6f00c1445a600",
+      "title": "射频开发工程师",
+      "initial": {
+        "occupation_id": "SNO-584e24c6f00c1445a600",
+        "status": "mapped",
+        "target_category_id": "L05-05-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "射频开发工程师",
+        "level_3_evidence": "射频开发直接对应无线与射频技术",
+        "reason": "射频开发属于通信技术研发中的无线与射频技术，有直接三级证据。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-584e24c6f00c1445a600",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "射频开发工程师归入通信技术研发下的无线与射频技术，标题直接对应，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-f89fbbf86af6673e7d2e",
+      "title": "机械工程管理",
+      "initial": {
+        "occupation_id": "SNO-f89fbbf86af6673e7d2e",
+        "status": "mapped",
+        "target_category_id": "L06-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "机械工程管理",
+        "level_3_evidence": null,
+        "reason": "机械工程管理属于机械与结构设计范畴，管理为修饰，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-f89fbbf86af6673e7d2e",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "机械工程管理归入机械与结构设计，管理为修饰，无更直接专门类别，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-6d63b8c0a9675c9c7f84",
+      "title": "量化研究员(风险管理方向)",
+      "initial": {
+        "occupation_id": "SNO-6d63b8c0a9675c9c7f84",
+        "status": "mapped",
+        "target_category_id": "L20-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "量化研究员(风险管理方向)",
+        "level_3_evidence": null,
+        "reason": "量化研究结合风险管理方向，属于精算与金融定价中的金融量化业务模型，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-6d63b8c0a9675c9c7f84",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "量化研究员（风险管理方向）归入精算与金融定价，量化研究属金融量化业务模型，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-e8bfbc191cd79e446be9",
+      "title": "办公室",
+      "initial": {
+        "occupation_id": "SNO-e8bfbc191cd79e446be9",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L18-05",
+          "L18-06"
+        ],
+        "title_evidence": "办公室",
+        "level_3_evidence": null,
+        "reason": "标题仅“办公室”，无明确职能线索，无法确定具体职业方向。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-e8bfbc191cd79e446be9",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "标题仅“办公室”，无明确职能线索，无法确认合理归属。"
+      }
+    },
+    {
+      "occupation_id": "SNO-a9879979224acefa4023",
+      "title": "信息化工程师",
+      "initial": {
+        "occupation_id": "SNO-a9879979224acefa4023",
+        "status": "mapped",
+        "target_category_id": "L03-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "信息化工程师",
+        "level_3_evidence": null,
+        "reason": "信息化工程师属于组织信息化规划与管理范畴，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-a9879979224acefa4023",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "信息化工程师归入信息化管理，符合组织信息化规划与IT管理范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-83350230913adba41a77",
+      "title": "海外商务代表",
+      "initial": {
+        "occupation_id": "SNO-83350230913adba41a77",
+        "status": "mapped",
+        "target_category_id": "L13-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "海外商务代表",
+        "level_3_evidence": null,
+        "reason": "海外商务代表以商业合作与拓展为主，属于商务拓展与合作，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-83350230913adba41a77",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "海外商务代表归入商务拓展与合作，以商业合作拓展为主，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-dcdd04b6f48bbcc58adb",
+      "title": "硬件/软件开发",
+      "initial": {
+        "occupation_id": "SNO-dcdd04b6f48bbcc58adb",
+        "status": "multi_role",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "硬件/软件开发",
+        "level_3_evidence": null,
+        "reason": "标题包含硬件与软件开发两个职能，属于多角色岗位，保留原状态。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-dcdd04b6f48bbcc58adb",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "硬件/软件开发为多角色岗位，保留multi_role合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-99e434a425847e9fba18",
+      "title": "-管培生",
+      "initial": {
+        "occupation_id": "SNO-99e434a425847e9fba18",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L32-02"
+        ],
+        "title_evidence": "-管培生",
+        "level_3_evidence": null,
+        "reason": "标题仅“管培生”，无明确职能或行业线索，无法确定具体方向。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-99e434a425847e9fba18",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "标题仅“管培生”，无明确职能或行业线索，无法确认合理归属。"
+      }
+    },
+    {
+      "occupation_id": "SNO-57e5a659f33a342b8372",
+      "title": "资产审计",
+      "initial": {
+        "occupation_id": "SNO-57e5a659f33a342b8372",
+        "status": "mapped",
+        "target_category_id": "L19-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "资产审计",
+        "level_3_evidence": null,
+        "reason": "资产审计属于审计范畴，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-57e5a659f33a342b8372",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "资产审计归入审计，符合财务审计范围，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-11c2e253daa76408b337",
+      "title": "化学点检备员",
+      "initial": {
+        "occupation_id": "SNO-11c2e253daa76408b337",
+        "status": "mapped",
+        "target_category_id": "L23-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "化学点检备员",
+        "level_3_evidence": null,
+        "reason": "化学点检备员属于化工与流程生产操作范畴，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-11c2e253daa76408b337",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-cf519d922550417fce29",
+      "title": "LFP工艺管培生",
+      "initial": {
+        "occupation_id": "SNO-cf519d922550417fce29",
+        "status": "mapped",
+        "target_category_id": "L06-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "LFP工艺管培生",
+        "level_3_evidence": null,
+        "reason": "LFP工艺管培生明确工艺方向，属于工艺与制造工程，管培为身份修饰，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-cf519d922550417fce29",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-15768f8a5d929e0c7194",
+      "title": "成本主管",
+      "initial": {
+        "occupation_id": "SNO-15768f8a5d929e0c7194",
+        "status": "mapped",
+        "target_category_id": "L19-01-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "成本主管",
+        "level_3_evidence": "成本主管直接对应成本会计",
+        "reason": "成本主管属于成本会计，有直接三级证据。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-15768f8a5d929e0c7194",
+        "verdict": "correction_required",
+        "suggested_target_category_id": "L19-01",
+        "issue": "目录仅到二级，不存在三级分类 L19-01-02，应归入二级会计核算 L19-01。"
+      }
+    },
+    {
+      "occupation_id": "SNO-f5cd659445e8f7c658bd",
+      "title": "品质工程师",
+      "initial": {
+        "occupation_id": "SNO-f5cd659445e8f7c658bd",
+        "status": "mapped",
+        "target_category_id": "L04-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "品质工程师",
+        "level_3_evidence": null,
+        "reason": "品质工程师属于生产质量管理范畴，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-f5cd659445e8f7c658bd",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-68602d303a3785584bbe",
+      "title": "冷库工作",
+      "initial": {
+        "occupation_id": "SNO-68602d303a3785584bbe",
+        "status": "mapped",
+        "target_category_id": "L17-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "冷库工作",
+        "level_3_evidence": null,
+        "reason": "冷库工作属于仓储与库存作业范畴，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-68602d303a3785584bbe",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-520d1ab1ccc37d80773f",
+      "title": "零售经理",
+      "initial": {
+        "occupation_id": "SNO-520d1ab1ccc37d80773f",
+        "status": "mapped",
+        "target_category_id": "L13-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "零售经理",
+        "level_3_evidence": null,
+        "reason": "零售经理属于销售管理范畴，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-520d1ab1ccc37d80773f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-e3165e6e273588dd23ec",
+      "title": "产销协调保障专员",
+      "initial": {
+        "occupation_id": "SNO-e3165e6e273588dd23ec",
+        "status": "mapped",
+        "target_category_id": "L16-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "产销协调保障专员",
+        "level_3_evidence": null,
+        "reason": "产销协调保障专员属于供应链规划与管理范畴，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-e3165e6e273588dd23ec",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-b6e286eac344a8874356",
+      "title": "国内零售管培生",
+      "initial": {
+        "occupation_id": "SNO-b6e286eac344a8874356",
+        "status": "mapped",
+        "target_category_id": "L13-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "国内零售管培生",
+        "level_3_evidence": null,
+        "reason": "国内零售管培生明确零售销售方向，属于个人客户销售，管培为身份修饰，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-b6e286eac344a8874356",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-2d00e29ccaf8230b31b9",
+      "title": "兽医",
+      "initial": {
+        "occupation_id": "SNO-2d00e29ccaf8230b31b9",
+        "status": "mapped",
+        "target_category_id": "L26-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "兽医",
+        "level_3_evidence": null,
+        "reason": "兽医属于兽医与动物医疗范畴，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-2d00e29ccaf8230b31b9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-8a1ddffe4ef7edefc15d",
+      "title": "质量标准",
+      "initial": {
+        "occupation_id": "SNO-8a1ddffe4ef7edefc15d",
+        "status": "mapped",
+        "target_category_id": "L04-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "质量标准",
+        "level_3_evidence": null,
+        "reason": "质量标准属于标准认证与质量体系范畴，无三级细分直接证据，落二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-8a1ddffe4ef7edefc15d",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-f744514e6600cfd462c1",
+      "title": "行政文秘",
+      "initial": {
+        "occupation_id": "SNO-f744514e6600cfd462c1",
+        "status": "mapped",
+        "target_category_id": "L18-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "行政文秘",
+        "level_3_evidence": null,
+        "reason": "标题明确为行政文秘，属于秘书助理与文书事务。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-f744514e6600cfd462c1",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-dba3ed087035432124fd",
+      "title": "农业技术",
+      "initial": {
+        "occupation_id": "SNO-dba3ed087035432124fd",
+        "status": "mapped",
+        "target_category_id": "L26-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "农业技术",
+        "level_3_evidence": null,
+        "reason": "标题明确为农业技术，属于农业与种植技术。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-dba3ed087035432124fd",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-58d0c98f33ac2833373f",
+      "title": "电化学应用技术工程师",
+      "initial": {
+        "occupation_id": "SNO-58d0c98f33ac2833373f",
+        "status": "mapped",
+        "target_category_id": "L06-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "电化学应用技术工程师",
+        "level_3_evidence": null,
+        "reason": "电化学应用技术属于化学化工研发范畴。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-58d0c98f33ac2833373f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-8414150d642e910f2a81",
+      "title": "事业发展中心财务会计",
+      "initial": {
+        "occupation_id": "SNO-8414150d642e910f2a81",
+        "status": "mapped",
+        "target_category_id": "L19-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "事业发展中心财务会计",
+        "level_3_evidence": null,
+        "reason": "标题明确为财务会计，属于会计核算。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-8414150d642e910f2a81",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-9cf590b9b8ffc0c788b9",
+      "title": "集团总部管理培训生",
+      "initial": {
+        "occupation_id": "SNO-9cf590b9b8ffc0c788b9",
+        "status": "mapped",
+        "target_category_id": "L32-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "集团总部管理培训生",
+        "level_3_evidence": null,
+        "reason": "标题为管理培训生，未明确具体职能，属于跨职能管理培训与轮岗。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-9cf590b9b8ffc0c788b9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-7e1b1e40e1e0583264cc",
+      "title": "初中信息科技教师",
+      "initial": {
+        "occupation_id": "SNO-7e1b1e40e1e0583264cc",
+        "status": "mapped",
+        "target_category_id": "L22-03-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "初中信息科技教师",
+        "level_3_evidence": "信息科技教师直接对应信息技术教学。",
+        "reason": "初中信息科技教师属于信息技术教学。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-7e1b1e40e1e0583264cc",
+        "verdict": "correction_required",
+        "suggested_target_category_id": "L22-02",
+        "issue": "目录仅到二级，不存在三级分类 L22-03-01；初中信息科技教师属于学科与通识教学，应归 L22-02。"
+      }
+    },
+    {
+      "occupation_id": "SNO-2d0f692a34cd9b38ce0c",
+      "title": "质检工程师",
+      "initial": {
+        "occupation_id": "SNO-2d0f692a34cd9b38ce0c",
+        "status": "mapped",
+        "target_category_id": "L04-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "质检工程师",
+        "level_3_evidence": null,
+        "reason": "质检工程师属于生产质量管理。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-2d0f692a34cd9b38ce0c",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-e636372f8a73350a2097",
+      "title": "弱电",
+      "initial": {
+        "occupation_id": "SNO-e636372f8a73350a2097",
+        "status": "mapped",
+        "target_category_id": "L24-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "弱电",
+        "level_3_evidence": null,
+        "reason": "弱电属于建筑机电与设备工程。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-e636372f8a73350a2097",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-ceebab530113bb880341",
+      "title": "本部信息科技",
+      "initial": {
+        "occupation_id": "SNO-ceebab530113bb880341",
+        "status": "mapped",
+        "target_category_id": "L03-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "本部信息科技",
+        "level_3_evidence": null,
+        "reason": "本部信息科技属于组织信息化管理。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-ceebab530113bb880341",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-1686a56ddc5ccea1cf8b",
+      "title": "平台课教师",
+      "initial": {
+        "occupation_id": "SNO-1686a56ddc5ccea1cf8b",
+        "status": "mapped",
+        "target_category_id": "L22-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "平台课教师",
+        "level_3_evidence": null,
+        "reason": "平台课教师属于学科与通识教学，但未明确具体学科，停在二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-1686a56ddc5ccea1cf8b",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-11fac883894610dd9b50",
+      "title": "安环管理",
+      "initial": {
+        "occupation_id": "SNO-11fac883894610dd9b50",
+        "status": "mapped",
+        "target_category_id": "L25-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "安环管理",
+        "level_3_evidence": null,
+        "reason": "安环管理属于安全健康与职业防护。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-11fac883894610dd9b50",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-f0b560138a575fec5bec",
+      "title": "商用电脑硬件研发工程师",
+      "initial": {
+        "occupation_id": "SNO-f0b560138a575fec5bec",
+        "status": "mapped",
+        "target_category_id": "L05-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "商用电脑硬件研发工程师",
+        "level_3_evidence": null,
+        "reason": "商用电脑硬件研发属于电子硬件研发。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-f0b560138a575fec5bec",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-6e690ea4b5c8ddfdda7b",
+      "title": "计划工程师",
+      "initial": {
+        "occupation_id": "SNO-6e690ea4b5c8ddfdda7b",
+        "status": "mapped",
+        "target_category_id": "L16-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "计划工程师",
+        "level_3_evidence": null,
+        "reason": "计划工程师通常属于需求与物料计划。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-6e690ea4b5c8ddfdda7b",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-12830cfbdda91fb036d6",
+      "title": "数字媒体工程师",
+      "initial": {
+        "occupation_id": "SNO-12830cfbdda91fb036d6",
+        "status": "mapped",
+        "target_category_id": "L15-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "数字媒体工程师",
+        "level_3_evidence": null,
+        "reason": "数字媒体工程师通常涉及影音剪辑与后期制作。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-12830cfbdda91fb036d6",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-3f1af5dc81f5360fb0c3",
+      "title": "InternationalFirmOffice-InternationalBusinessAnalyst",
+      "initial": {
+        "occupation_id": "SNO-3f1af5dc81f5360fb0c3",
+        "status": "mapped",
+        "target_category_id": "L11-04-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "InternationalFirmOffice-InternationalBusinessAnalyst",
+        "level_3_evidence": "国际商业分析师直接对应行业与业务咨询。",
+        "reason": "国际商业分析师属于行业与业务咨询。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-3f1af5dc81f5360fb0c3",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-46275e6b7717498adb17",
+      "title": "高中教师(语文/数学/英语/理化)",
+      "initial": {
+        "occupation_id": "SNO-46275e6b7717498adb17",
+        "status": "mapped",
+        "target_category_id": "L22-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "高中教师(语文/数学/英语/理化)",
+        "level_3_evidence": null,
+        "reason": "高中教师涵盖多个学科，无法唯一确定三级，停在学科与通识教学二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-46275e6b7717498adb17",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-ee2b979c4c0b621e818e",
+      "title": "iOS开发",
+      "initial": {
+        "occupation_id": "SNO-ee2b979c4c0b621e818e",
+        "status": "mapped",
+        "target_category_id": "L01-04-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "iOS开发",
+        "level_3_evidence": "iOS开发直接对应iOS应用开发。",
+        "reason": "iOS开发属于iOS应用开发。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-ee2b979c4c0b621e818e",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-4d671008290a2232b650",
+      "title": "媒体管理",
+      "initial": {
+        "occupation_id": "SNO-4d671008290a2232b650",
+        "status": "mapped",
+        "target_category_id": "L12-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "媒体管理",
+        "level_3_evidence": null,
+        "reason": "媒体管理属于公关与媒介关系。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-4d671008290a2232b650",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-35cde29f49dba2e1ad1c",
+      "title": "工程管理员",
+      "initial": {
+        "occupation_id": "SNO-35cde29f49dba2e1ad1c",
+        "status": "mapped",
+        "target_category_id": "L24-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "工程管理员",
+        "level_3_evidence": null,
+        "reason": "工程管理员属于施工组织与工程管理。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-35cde29f49dba2e1ad1c",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-559c05d8f5770ae3f3df",
+      "title": "给排水设计",
+      "initial": {
+        "occupation_id": "SNO-559c05d8f5770ae3f3df",
+        "status": "mapped",
+        "target_category_id": "L24-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "给排水设计",
+        "level_3_evidence": null,
+        "reason": "给排水设计属于建筑机电与设备工程。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-559c05d8f5770ae3f3df",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-5e9c994296849c7fc70f",
+      "title": "业务岗",
+      "initial": {
+        "occupation_id": "SNO-5e9c994296849c7fc70f",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "业务岗",
+        "level_3_evidence": null,
+        "reason": "仅“业务岗”无明确职能线索，无法确定销售、运营或其他业务方向。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-5e9c994296849c7fc70f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "仅“业务岗”无明确职能线索，无法确定销售、运营或其他业务方向，review 合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-21eaa0be1d784c6eb823",
+      "title": "SLAM融合算法工程师",
+      "initial": {
+        "occupation_id": "SNO-21eaa0be1d784c6eb823",
+        "status": "mapped",
+        "target_category_id": "L02-05-06",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L02-05-01"
+        ],
+        "title_evidence": "SLAM融合算法工程师",
+        "level_3_evidence": "SLAM（同步定位与建图）属于运筹优化与决策算法中的规划控制及决策范畴。",
+        "reason": "SLAM融合算法工程师核心为定位建图与融合算法，归入运筹优化与决策算法。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-21eaa0be1d784c6eb823",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "SLAM 融合算法属于算法研发，归 L02-05 机器学习与算法研发合理；三级细分虽非目录明示，但未明显违反范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-84268996f54af083a0f9",
+      "title": "Instagram社媒运营专员(西班牙语)",
+      "initial": {
+        "occupation_id": "SNO-84268996f54af083a0f9",
+        "status": "mapped",
+        "target_category_id": "L14-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "Instagram社媒运营专员(西班牙语)",
+        "level_3_evidence": null,
+        "reason": "Instagram社媒运营属于内容与新媒体运营，西班牙语为语言标签。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-84268996f54af083a0f9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "Instagram 社媒运营归内容与新媒体运营 L14-03，语言为标签，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-5e529d1a85f0c23262a9",
+      "title": "软件研发与敏捷项目管培生",
+      "initial": {
+        "occupation_id": "SNO-5e529d1a85f0c23262a9",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L10-01-01"
+        ],
+        "title_evidence": "软件研发与敏捷项目管培生",
+        "level_3_evidence": null,
+        "reason": "标题明确软件研发职能，管培生为身份修饰，归通用软件研发；敏捷项目管理为辅助方向。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-5e529d1a85f0c23262a9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "标题明确软件研发职能，管培生为培养标签，归 L01-11 通用软件研发合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-74be8ef534b04db67143",
+      "title": "平台服务端开发",
+      "initial": {
+        "occupation_id": "SNO-74be8ef534b04db67143",
+        "status": "mapped",
+        "target_category_id": "L01-02-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "平台服务端开发",
+        "level_3_evidence": "服务端开发直接对应业务服务开发。",
+        "reason": "平台服务端开发属于后端开发中的业务服务开发。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-74be8ef534b04db67143",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "平台服务端开发归后端开发 L01-02，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-140159e8cf334ce1e5a9",
+      "title": "技术支持助理",
+      "initial": {
+        "occupation_id": "SNO-140159e8cf334ce1e5a9",
+        "status": "mapped",
+        "target_category_id": "L03-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "技术支持助理",
+        "level_3_evidence": null,
+        "reason": "技术支持助理属于信息技术支持，助理为身份修饰。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-140159e8cf334ce1e5a9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "技术支持助理归信息技术支持 L03-06，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-4f466acae4ce6ff867c4",
+      "title": "游戏原画设计师",
+      "initial": {
+        "occupation_id": "SNO-4f466acae4ce6ff867c4",
+        "status": "mapped",
+        "target_category_id": "L09-06-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "游戏原画设计师",
+        "level_3_evidence": "原画设计直接对应插画与原画。",
+        "reason": "游戏原画设计师属于美术插画与数字资产中的插画与原画。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-4f466acae4ce6ff867c4",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "游戏原画设计师归美术插画与数字资产 L09-06，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-17fae551bbfc943d0f9b",
+      "title": "生态拓展经理",
+      "initial": {
+        "occupation_id": "SNO-17fae551bbfc943d0f9b",
+        "status": "mapped",
+        "target_category_id": "L13-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "生态拓展经理",
+        "level_3_evidence": null,
+        "reason": "生态拓展经理以商业合作与生态伙伴拓展为主，归商务拓展与合作。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-17fae551bbfc943d0f9b",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "生态拓展经理以商业合作拓展为主，归商务拓展与合作 L13-04，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-c2759b1de0ef71e531aa",
+      "title": "计划运营",
+      "initial": {
+        "occupation_id": "SNO-c2759b1de0ef71e531aa",
+        "status": "mapped",
+        "target_category_id": "L14-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "计划运营",
+        "level_3_evidence": null,
+        "reason": "计划运营属于业务运营，但具体方向未明确，归通用业务运营。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-c2759b1de0ef71e531aa",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "计划运营方向未明确，归通用业务运营 L14-11，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-2218e2bb762731bce540",
+      "title": "结构仿真设计师",
+      "initial": {
+        "occupation_id": "SNO-2218e2bb762731bce540",
+        "status": "mapped",
+        "target_category_id": "L06-01-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "结构仿真设计师",
+        "level_3_evidence": "结构仿真设计直接对应产品结构设计中的强度分析。",
+        "reason": "结构仿真设计师属于机械与结构设计中的产品结构设计。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-2218e2bb762731bce540",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "结构仿真设计师归机械与结构设计 L06-01，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-5c1581a20027dec35fb1",
+      "title": "教务综合",
+      "initial": {
+        "occupation_id": "SNO-5c1581a20027dec35fb1",
+        "status": "mapped",
+        "target_category_id": "L22-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "教务综合",
+        "level_3_evidence": null,
+        "reason": "教务综合属于教学辅助与学员服务。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-5c1581a20027dec35fb1",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-fc3c0d884bdccf30e9df",
+      "title": "引流课直播运营",
+      "initial": {
+        "occupation_id": "SNO-fc3c0d884bdccf30e9df",
+        "status": "mapped",
+        "target_category_id": "L14-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "引流课直播运营",
+        "level_3_evidence": null,
+        "reason": "引流课直播运营属于内容与新媒体运营。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-fc3c0d884bdccf30e9df",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-13757b55fc273246f2db",
+      "title": "人管业管",
+      "initial": {
+        "occupation_id": "SNO-13757b55fc273246f2db",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [],
+        "title_evidence": "人管业管",
+        "level_3_evidence": null,
+        "reason": "“人管业管”含义不明确，可能指人事管理与业务管理，无法确定主职能。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-13757b55fc273246f2db",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "“人管业管”含义不明确，无法确认主职能，当前 review 处理合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-2e78151c69bbd264c2cb",
+      "title": "电机与动力系统测试工程师",
+      "initial": {
+        "occupation_id": "SNO-2e78151c69bbd264c2cb",
+        "status": "mapped",
+        "target_category_id": "L04-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "电机与动力系统测试工程师",
+        "level_3_evidence": null,
+        "reason": "电机与动力系统测试属于硬件与产品测试。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-2e78151c69bbd264c2cb",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-9e9fb1a01f10bdc8eb93",
+      "title": "售后支持工程师",
+      "initial": {
+        "occupation_id": "SNO-9e9fb1a01f10bdc8eb93",
+        "status": "mapped",
+        "target_category_id": "L14-10",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "售后支持工程师",
+        "level_3_evidence": null,
+        "reason": "售后支持工程师属于售后技术服务。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-9e9fb1a01f10bdc8eb93",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-6274dc1dd7b2cf0c5479",
+      "title": "助理研究员岗2",
+      "initial": {
+        "occupation_id": "SNO-6274dc1dd7b2cf0c5479",
+        "status": "mapped",
+        "target_category_id": "L07-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "助理研究员岗2",
+        "level_3_evidence": null,
+        "reason": "助理研究员属于实验与科研技术支持。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-6274dc1dd7b2cf0c5479",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-5dd9b639cfcb79919ebe",
+      "title": "线上运营",
+      "initial": {
+        "occupation_id": "SNO-5dd9b639cfcb79919ebe",
+        "status": "mapped",
+        "target_category_id": "L14-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "线上运营",
+        "level_3_evidence": null,
+        "reason": "线上运营属于业务运营，但具体方向未明确，归通用业务运营。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-5dd9b639cfcb79919ebe",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-2fcfa9d7506b3c1e6ae0",
+      "title": "工艺岗(生物合成)",
+      "initial": {
+        "occupation_id": "SNO-2fcfa9d7506b3c1e6ae0",
+        "status": "mapped",
+        "target_category_id": "L06-08-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "工艺岗(生物合成)",
+        "level_3_evidence": "生物合成工艺属于制造制程工程。",
+        "reason": "工艺岗(生物合成)属于工艺与制造工程中的制造制程工程。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-2fcfa9d7506b3c1e6ae0",
+        "verdict": "correction_required",
+        "suggested_target_category_id": "L06-08",
+        "issue": "目录中不存在 level_3 分类，L06-08-01 为无效目标；应归入 L06-08 工艺与制造工程。"
+      }
+    },
+    {
+      "occupation_id": "SNO-988b3efaea2e7459ef28",
+      "title": "内饰设计",
+      "initial": {
+        "occupation_id": "SNO-988b3efaea2e7459ef28",
+        "status": "mapped",
+        "target_category_id": "L09-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "内饰设计",
+        "level_3_evidence": null,
+        "reason": "内饰设计属于工业与产品外观设计。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-988b3efaea2e7459ef28",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-0c0bd9a23240e8c456b0",
+      "title": "小脑算法开发工程师",
+      "initial": {
+        "occupation_id": "SNO-0c0bd9a23240e8c456b0",
+        "status": "mapped",
+        "target_category_id": "L02-05-06",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L02-05-01"
+        ],
+        "title_evidence": "小脑算法开发工程师",
+        "level_3_evidence": "小脑算法涉及运动控制与决策，属于运筹优化与决策算法。",
+        "reason": "小脑算法开发工程师核心为运动控制与决策算法，归入运筹优化与决策算法。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-0c0bd9a23240e8c456b0",
+        "verdict": "correction_required",
+        "suggested_target_category_id": "L02-05",
+        "issue": "目录中不存在 level_3 分类，L02-05-06 为无效目标；小脑算法开发属于机器学习与算法研发，应归入 L02-05。"
+      }
+    },
+    {
+      "occupation_id": "SNO-408455e94c29b1499e91",
+      "title": "云集成工程师",
+      "initial": {
+        "occupation_id": "SNO-408455e94c29b1499e91",
+        "status": "mapped",
+        "target_category_id": "L03-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L01-11"
+        ],
+        "title_evidence": "云集成工程师",
+        "level_3_evidence": null,
+        "reason": "云集成属于云平台与可靠性运维范畴，归L03-02；也可视为通用软件研发，但主归属为云平台运维。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-408455e94c29b1499e91",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-1165cc7f04e42a4fbde1",
+      "title": "电源研发",
+      "initial": {
+        "occupation_id": "SNO-1165cc7f04e42a4fbde1",
+        "status": "mapped",
+        "target_category_id": "L05-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "电源研发",
+        "level_3_evidence": null,
+        "reason": "电源研发属于电子硬件研发，无直接三级细分证据，落二级L05-01。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-1165cc7f04e42a4fbde1",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-820f1f3fa601f919a1dc",
+      "title": "学习机教师(语文/数学/英语/物理)",
+      "initial": {
+        "occupation_id": "SNO-820f1f3fa601f919a1dc",
+        "status": "mapped",
+        "target_category_id": "L22-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L22-02-01",
+          "L22-02-02",
+          "L22-02-03"
+        ],
+        "title_evidence": "学习机教师(语文/数学/英语/物理)",
+        "level_3_evidence": null,
+        "reason": "学科教学，涉及多学科，无单一三级直接证据，落二级L22-02。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-820f1f3fa601f919a1dc",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-82b36904c2d7477b5ca9",
+      "title": "区域总监",
+      "initial": {
+        "occupation_id": "SNO-82b36904c2d7477b5ca9",
+        "status": "mapped",
+        "target_category_id": "L11-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L13-07"
+        ],
+        "title_evidence": "区域总监",
+        "level_3_evidence": null,
+        "reason": "区域总监通常为跨职能综合管理，归L11-01；若为销售区域总监可归L13-07，但主归属为综合管理。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-82b36904c2d7477b5ca9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-e34da824023b2a4c04f8",
+      "title": "土建工程师",
+      "initial": {
+        "occupation_id": "SNO-e34da824023b2a4c04f8",
+        "status": "mapped",
+        "target_category_id": "L24-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "土建工程师",
+        "level_3_evidence": null,
+        "reason": "土建工程师属于土木结构与岩土工程，落二级L24-02。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-e34da824023b2a4c04f8",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-9bc6063b64b3ae1417e1",
+      "title": "人事经理",
+      "initial": {
+        "occupation_id": "SNO-9bc6063b64b3ae1417e1",
+        "status": "mapped",
+        "target_category_id": "L18-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "人事经理",
+        "level_3_evidence": null,
+        "reason": "人事经理属于人力资源综合管理，落二级L18-04。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-9bc6063b64b3ae1417e1",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-c54373c5c397ba30103b",
+      "title": "咨询顾问(政务方向)",
+      "initial": {
+        "occupation_id": "SNO-c54373c5c397ba30103b",
+        "status": "mapped",
+        "target_category_id": "L11-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L11-04-02"
+        ],
+        "title_evidence": "咨询顾问(政务方向)",
+        "level_3_evidence": null,
+        "reason": "政务方向咨询顾问属于管理与专业咨询，无直接三级细分证据，落二级L11-04。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-c54373c5c397ba30103b",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-5d1864966bdc25e5ff51",
+      "title": "邮政业务客户经理",
+      "initial": {
+        "occupation_id": "SNO-5d1864966bdc25e5ff51",
+        "status": "mapped",
+        "target_category_id": "L13-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L13-01-01",
+          "L13-01-02"
+        ],
+        "title_evidence": "邮政业务客户经理",
+        "level_3_evidence": null,
+        "reason": "邮政业务客户经理属于企业客户销售，无直接三级细分证据，落二级L13-01。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-5d1864966bdc25e5ff51",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-19310456e0a10a1eb0dd",
+      "title": "市场运营经理(南京)",
+      "initial": {
+        "occupation_id": "SNO-19310456e0a10a1eb0dd",
+        "status": "mapped",
+        "target_category_id": "L14-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L12-01"
+        ],
+        "title_evidence": "市场运营经理(南京)",
+        "level_3_evidence": null,
+        "reason": "市场运营经理通常负责产品与平台运营，归L14-01；也可视为市场策略，但主归属为运营。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-19310456e0a10a1eb0dd",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-0a3138b4d6f4b8c6f5e9",
+      "title": "GIS开发工程师",
+      "initial": {
+        "occupation_id": "SNO-0a3138b4d6f4b8c6f5e9",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L24-09"
+        ],
+        "title_evidence": "GIS开发工程师",
+        "level_3_evidence": null,
+        "reason": "GIS开发工程师属于软件开发，方向未明确，归L01-11；测绘地理信息归L24-09，但开发岗主归属为软件。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-0a3138b4d6f4b8c6f5e9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-5167ef12f622b5af0574",
+      "title": "汽车电子解决方案工程师",
+      "initial": {
+        "occupation_id": "SNO-5167ef12f622b5af0574",
+        "status": "mapped",
+        "target_category_id": "L14-09",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L14-09-01",
+          "L14-09-02"
+        ],
+        "title_evidence": "汽车电子解决方案工程师",
+        "level_3_evidence": null,
+        "reason": "解决方案工程师属于售前技术与解决方案，无直接三级细分证据，落二级L14-09。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-5167ef12f622b5af0574",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "解决方案工程师归售前技术与解决方案L14-09，符合目录范围，标题依据合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-87897b6b39f55b071d55",
+      "title": "云服务开发工程师",
+      "initial": {
+        "occupation_id": "SNO-87897b6b39f55b071d55",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L01-02"
+        ],
+        "title_evidence": "云服务开发工程师",
+        "level_3_evidence": null,
+        "reason": "云服务开发工程师属于软件开发，方向未明确，归L01-11；也可视为后端开发，但主归属为通用软件研发。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-87897b6b39f55b071d55",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "云服务开发工程师方向未明确，归通用软件研发L01-11合理，符合目录规则。"
+      }
+    },
+    {
+      "occupation_id": "SNO-9380088e8af3a3272e22",
+      "title": "数智科技公司Java软件开发工程师",
+      "initial": {
+        "occupation_id": "SNO-9380088e8af3a3272e22",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "数智科技公司Java软件开发工程师",
+        "level_3_evidence": null,
+        "reason": "Java软件开发工程师，仅有语言名称，方向未说明，归L01-11。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-9380088e8af3a3272e22",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "仅有Java语言名称，方向未说明，归L01-11符合目录明确规则。"
+      }
+    },
+    {
+      "occupation_id": "SNO-18167c3951b5d69c87ec",
+      "title": "远程技术支持工程师",
+      "initial": {
+        "occupation_id": "SNO-18167c3951b5d69c87ec",
+        "status": "mapped",
+        "target_category_id": "L03-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L14-10"
+        ],
+        "title_evidence": "远程技术支持工程师",
+        "level_3_evidence": null,
+        "reason": "远程技术支持通常为IT技术支持，归L03-06；若为售后技术支持可归L14-10，但主归属为IT支持。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-18167c3951b5d69c87ec",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "远程技术支持归IT支持L03-06，符合目录范围，主归属合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-f3b85697546945a0b571",
+      "title": "管培生—采购工程师",
+      "initial": {
+        "occupation_id": "SNO-f3b85697546945a0b571",
+        "status": "mapped",
+        "target_category_id": "L16-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L16-01-01",
+          "L16-01-02"
+        ],
+        "title_evidence": "管培生—采购工程师",
+        "level_3_evidence": null,
+        "reason": "采购工程师属于采购与供应商管理，管培生为身份修饰，无直接三级细分证据，落二级L16-01。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-f3b85697546945a0b571",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "采购工程师归采购与供应商管理L16-01，管培生为修饰，符合目录规则。"
+      }
+    },
+    {
+      "occupation_id": "SNO-4bb7547833fbbef805c9",
+      "title": "数字化转型专员",
+      "initial": {
+        "occupation_id": "SNO-4bb7547833fbbef805c9",
+        "status": "mapped",
+        "target_category_id": "L03-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L11-03"
+        ],
+        "title_evidence": "数字化转型专员",
+        "level_3_evidence": null,
+        "reason": "数字化转型专员通常属于信息化管理，归L03-07；也可视为经营分析与流程改善，但主归属为信息化管理。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-4bb7547833fbbef805c9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "数字化转型专员归信息化管理L03-07，符合目录范围，主归属合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-9402b168d32a3c20feb2",
+      "title": "智驾规控算法工程师",
+      "initial": {
+        "occupation_id": "SNO-9402b168d32a3c20feb2",
+        "status": "mapped",
+        "target_category_id": "L02-05-06",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L02-05-05"
+        ],
+        "title_evidence": "智驾规控算法工程师",
+        "level_3_evidence": "规控算法直接对应运筹优化与决策算法中的规划控制",
+        "reason": "智驾规控算法属于运筹优化与决策算法，有直接三级证据，归L02-05-06。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-9402b168d32a3c20feb2",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "智驾规控算法归机器学习与算法研发L02-05，三级细分有依据，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-0c785b48430ef2078262",
+      "title": "区县共建分中心交易服务岗(公告内附件查看公司及岗位)",
+      "initial": {
+        "occupation_id": "SNO-0c785b48430ef2078262",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L20-08",
+          "L31-01"
+        ],
+        "title_evidence": "区县共建分中心交易服务岗(公告内附件查看公司及岗位)",
+        "level_3_evidence": null,
+        "reason": "交易服务岗可能为金融交易服务或公共资源交易服务，职能方向不明确，需进一步确认。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-0c785b48430ef2078262",
+        "verdict": "unresolved",
+        "suggested_target_category_id": null,
+        "issue": "交易服务岗职能方向不明确，无法确认是金融交易服务还是公共资源交易服务，需进一步确认。"
+      }
+    },
+    {
+      "occupation_id": "SNO-a15da9cbb00aada6c828",
+      "title": "化学教师",
+      "initial": {
+        "occupation_id": "SNO-a15da9cbb00aada6c828",
+        "status": "mapped",
+        "target_category_id": "L22-02-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [],
+        "title_evidence": "化学教师",
+        "level_3_evidence": "化学属于数学与自然科学教学",
+        "reason": "化学教师属于数学与自然科学教学，有直接三级证据，归L22-02-02。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-a15da9cbb00aada6c828",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "化学教师归学科与通识教学L22-02，三级细分合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-9a92038d67d4cba95b99",
+      "title": "嵌入式/上位机软件开发工程师",
+      "initial": {
+        "occupation_id": "SNO-9a92038d67d4cba95b99",
+        "status": "mapped",
+        "target_category_id": "L01-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L01-06-01",
+          "L01-06-02"
+        ],
+        "title_evidence": "嵌入式/上位机软件开发工程师",
+        "level_3_evidence": null,
+        "reason": "嵌入式软件开发属于嵌入式与固件开发，无直接三级细分证据，落二级L01-06。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-9a92038d67d4cba95b99",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "嵌入式软件开发归嵌入式与固件开发L01-06，符合目录范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-7a94018830fb108ebdc8",
+      "title": "现场技术支持工程师",
+      "initial": {
+        "occupation_id": "SNO-7a94018830fb108ebdc8",
+        "status": "mapped",
+        "target_category_id": "L14-10",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L03-06",
+          "L23-09"
+        ],
+        "title_evidence": "现场技术支持工程师",
+        "level_3_evidence": null,
+        "reason": "现场技术支持通常指向客户现场的设备或产品安装、调试与售后技术服务，归 L14-10 售后技术服务；企业内部IT支持可作候选 L03-06，工业设备安装调试可作候选 L23-09。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-7a94018830fb108ebdc8",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "现场技术支持工程师归 L14-10 售后技术服务，符合目录范围，候选合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-a64fac47e61efb09aa00",
+      "title": "预测端到端算法工程师",
+      "initial": {
+        "occupation_id": "SNO-a64fac47e61efb09aa00",
+        "status": "mapped",
+        "target_category_id": "L02-05-05",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L02-05-06",
+          "L02-05"
+        ],
+        "title_evidence": "预测端到端算法工程师",
+        "level_3_evidence": "预测端到端算法工程师中的“预测”直接对应预测与统计学习，端到端为工程实现方式，不改变预测算法研发的核心职能。",
+        "reason": "标题明确为预测算法工程师，主归属预测与统计学习；运筹优化与决策算法可作候选，通用机器学习与算法研发可作上位候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-a64fac47e61efb09aa00",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "预测端到端算法工程师归 L02-05-05 预测与统计学习，标题证据直接，符合三级细分。"
+      }
+    },
+    {
+      "occupation_id": "SNO-7c48f81842e59d7ac2b9",
+      "title": "建筑材料检测",
+      "initial": {
+        "occupation_id": "SNO-7c48f81842e59d7ac2b9",
+        "status": "mapped",
+        "target_category_id": "L04-04-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L04-04",
+          "L24-02"
+        ],
+        "title_evidence": "建筑材料检测",
+        "level_3_evidence": "建筑材料检测属于物理性能与可靠性检测，直接对应 L04-04-01 物理性能与可靠性检测。",
+        "reason": "建筑材料检测是检验检测与实验分析中的物理性能检测，主归属 L04-04-01；通用检验检测可作候选，土木结构工程可作弱候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-7c48f81842e59d7ac2b9",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "建筑材料检测归 L04-04-01 物理性能与可靠性检测，符合检验检测范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-c49ee5c8dcbc443a03a7",
+      "title": "工艺助理工程师A",
+      "initial": {
+        "occupation_id": "SNO-c49ee5c8dcbc443a03a7",
+        "status": "mapped",
+        "target_category_id": "L06-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L06-08-01",
+          "L06-08-02",
+          "L06-08-03"
+        ],
+        "title_evidence": "工艺助理工程师A",
+        "level_3_evidence": null,
+        "reason": "工艺助理工程师属于工艺与制造工程，助理为身份修饰；标题未说明具体工艺方向，落二级 L06-08，三个三级方向均可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-c49ee5c8dcbc443a03a7",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "工艺助理工程师A归 L06-08 工艺与制造工程，方向未明落二级合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-3022b1b5a6dfea105cdf",
+      "title": "税务筹划",
+      "initial": {
+        "occupation_id": "SNO-3022b1b5a6dfea105cdf",
+        "status": "mapped",
+        "target_category_id": "L19-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L19-03",
+          "L30-03"
+        ],
+        "title_evidence": "税务筹划",
+        "level_3_evidence": null,
+        "reason": "税务筹划直接对应税务职能，归 L19-06；财务规划与分析、合规与内部控制可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-3022b1b5a6dfea105cdf",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "税务筹划归 L19-06 税务，直接对应，符合目录。"
+      }
+    },
+    {
+      "occupation_id": "SNO-b75889b054140dc66afb",
+      "title": "安全管理",
+      "initial": {
+        "occupation_id": "SNO-b75889b054140dc66afb",
+        "status": "mapped",
+        "target_category_id": "L25-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L03-05",
+          "L29-03"
+        ],
+        "title_evidence": "安全管理",
+        "level_3_evidence": null,
+        "reason": "安全管理通常指安全生产、职业健康与安全管理，归 L25-07；信息安全可作候选 L03-05，安保秩序维护可作弱候选 L29-03。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-b75889b054140dc66afb",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "安全管理归 L25-07 安全健康与职业防护，符合安全生产范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-154d05c6a66042b86ec0",
+      "title": "电机应用工程师",
+      "initial": {
+        "occupation_id": "SNO-154d05c6a66042b86ec0",
+        "status": "mapped",
+        "target_category_id": "L05-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L05-04",
+          "L05-01"
+        ],
+        "title_evidence": "电机应用工程师",
+        "level_3_evidence": null,
+        "reason": "电机应用工程师通常涉及电机选型、驱动与电气系统应用，归电气工程 L05-03；自动化与控制工程、电子硬件研发可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-154d05c6a66042b86ec0",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "电机应用工程师归 L05-03 电气工程，涉及电机电气应用，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-b4dafb025c438820c86a",
+      "title": "预备操纵员",
+      "initial": {
+        "occupation_id": "SNO-b4dafb025c438820c86a",
+        "status": "mapped",
+        "target_category_id": "L25-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L27-08-03",
+          "L23-09"
+        ],
+        "title_evidence": "预备操纵员",
+        "level_3_evidence": null,
+        "reason": "预备操纵员通常指能源、电力或核电等设施运行操纵岗位，归能源运行与调度 L25-04；轨道驾驶专业操作、工业设备安装调试可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-b4dafb025c438820c86a",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "预备操纵员归 L25-04 能源运行与调度，符合能源设施运行操纵岗位。"
+      }
+    },
+    {
+      "occupation_id": "SNO-19687be7bdf72a72e741",
+      "title": "客户服务工程师",
+      "initial": {
+        "occupation_id": "SNO-19687be7bdf72a72e741",
+        "status": "mapped",
+        "target_category_id": "L14-10",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L14-07",
+          "L03-06"
+        ],
+        "title_evidence": "客户服务工程师",
+        "level_3_evidence": null,
+        "reason": "客户服务工程师通常承担客户设备或产品的售后技术支持，归 L14-10；客服与客户支持、企业内部IT支持可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-19687be7bdf72a72e741",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "客户服务工程师归 L14-10 售后技术服务，符合客户设备售后支持。"
+      }
+    },
+    {
+      "occupation_id": "SNO-6f2b2b5f684defa5e23c",
+      "title": "总行管培生",
+      "initial": {
+        "occupation_id": "SNO-6f2b2b5f684defa5e23c",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L20-11"
+        ],
+        "title_evidence": "总行管培生",
+        "level_3_evidence": null,
+        "reason": "总行管培生仅说明银行行业与培养身份，未明确具体金融业务职能；按目录说明不能仅凭银行管培生视为已明确金融业务，需 review。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-6f2b2b5f684defa5e23c",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "总行管培生仅说明银行行业与培养身份，未明确职能，review 合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-0be57c31642ec3154e4d",
+      "title": "装备设计",
+      "initial": {
+        "occupation_id": "SNO-0be57c31642ec3154e4d",
+        "status": "mapped",
+        "target_category_id": "L06-01-03",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L06-01",
+          "L06-01-02"
+        ],
+        "title_evidence": "装备设计",
+        "level_3_evidence": "装备设计直接对应机械设备设计，即整机设备机械方案。",
+        "reason": "装备设计主归属机械设备设计 L06-01-03；机械与结构设计可作上位候选，产品结构设计可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-0be57c31642ec3154e4d",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "装备设计归机械设备设计 L06-01-03，标题依据充分且符合机械与结构设计范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-d17a660802c9d8651ff4",
+      "title": "电商助理",
+      "initial": {
+        "occupation_id": "SNO-d17a660802c9d8651ff4",
+        "status": "mapped",
+        "target_category_id": "L14-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L14-04-01",
+          "L14-04-02",
+          "L13-05"
+        ],
+        "title_evidence": "电商助理",
+        "level_3_evidence": null,
+        "reason": "电商助理属于电商与商品运营，助理为身份修饰；标题未说明店铺运营或商品品类运营，落二级 L14-04，两个三级方向可作候选，门店导购可作弱候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-d17a660802c9d8651ff4",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "电商助理归电商与商品运营 L14-04，符合目录范围，三级方向未明落二级合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-4a803f432364b68057bb",
+      "title": "博士顾问",
+      "initial": {
+        "occupation_id": "SNO-4a803f432364b68057bb",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L11-04",
+          "L07-05"
+        ],
+        "title_evidence": "博士顾问",
+        "level_3_evidence": null,
+        "reason": "博士顾问仅说明学历与顾问身份，未明确咨询领域或科研方向，无法确定主归属，需 review。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-4a803f432364b68057bb",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "博士顾问仅说明学历与顾问身份，领域未明，review 处理合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-bc077e8d1e74999593b2",
+      "title": "人力资源管培生",
+      "initial": {
+        "occupation_id": "SNO-bc077e8d1e74999593b2",
+        "status": "mapped",
+        "target_category_id": "L18-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L18-01",
+          "L18-03"
+        ],
+        "title_evidence": "人力资源管培生",
+        "level_3_evidence": null,
+        "reason": "人力资源管培生已明确人力资源职能，管培为身份修饰，归人力资源综合管理 L18-04；招聘与人才配置、人才发展与组织发展可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-bc077e8d1e74999593b2",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "人力资源管培生已明确 HR 职能，归人力资源综合管理 L18-04 合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-5bff832a759e3e84d71f",
+      "title": "生测项目高级研究员",
+      "initial": {
+        "occupation_id": "SNO-5bff832a759e3e84d71f",
+        "status": "mapped",
+        "target_category_id": "L06-07-01",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L06-07",
+          "L07-01"
+        ],
+        "title_evidence": "生测项目高级研究员",
+        "level_3_evidence": "生测项目通常指生物测定或生物技术测试项目，直接对应生物技术研发。",
+        "reason": "生测项目高级研究员主归属生物技术研发 L06-07-01；生物与药物研发可作上位候选，自然科学基础研究可作弱候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-5bff832a759e3e84d71f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "生测项目高级研究员归生物技术研发 L06-07-01，符合生物与药物研发范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-24e993d29bb77eca559b",
+      "title": "APP开发工程师",
+      "initial": {
+        "occupation_id": "SNO-24e993d29bb77eca559b",
+        "status": "mapped",
+        "target_category_id": "L01-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L01-04-03",
+          "L01-04-01",
+          "L01-04-02"
+        ],
+        "title_evidence": "APP开发工程师",
+        "level_3_evidence": null,
+        "reason": "APP开发工程师属于移动应用开发，标题未说明 Android、iOS 或跨平台，落二级 L01-04，三个三级方向可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-24e993d29bb77eca559b",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "APP开发工程师归移动应用开发 L01-04，平台未明落二级合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-d52cfd6b89bd35fdae0d",
+      "title": "英文讲解员",
+      "initial": {
+        "occupation_id": "SNO-d52cfd6b89bd35fdae0d",
+        "status": "mapped",
+        "target_category_id": "L27-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L15-08",
+          "L15-11-02"
+        ],
+        "title_evidence": "英文讲解员",
+        "level_3_evidence": null,
+        "reason": "英文讲解员通常指景区或场馆讲解接待，归导游与旅游接待 L27-02；主持播音、口译可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-d52cfd6b89bd35fdae0d",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "英文讲解员归导游与旅游接待 L27-02，符合旅游接待范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-3a8466bb6345eb118e95",
+      "title": "风险管理助理",
+      "initial": {
+        "occupation_id": "SNO-3a8466bb6345eb118e95",
+        "status": "mapped",
+        "target_category_id": "L20-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L30-03",
+          "L19-05"
+        ],
+        "title_evidence": "风险管理助理",
+        "level_3_evidence": null,
+        "reason": "风险管理助理通常指金融风险与信用评估，助理为身份修饰，归 L20-07；合规与内部控制、审计可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-3a8466bb6345eb118e95",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "风险管理助理归金融风险与信用评估 L20-07，符合金融风险业务范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-7defa88513f318213382",
+      "title": "质量和工程管培生",
+      "initial": {
+        "occupation_id": "SNO-7defa88513f318213382",
+        "status": "mapped",
+        "target_category_id": "L04-06",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L04-03",
+          "L04-01"
+        ],
+        "title_evidence": "质量和工程管培生",
+        "level_3_evidence": null,
+        "reason": "质量和工程管培生已明确质量职能，管培为身份修饰；标题未说明软件测试、生产质量或检验检测，归通用测试与质量工作 L04-06，生产质量管理、软件测试与质量保障可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-7defa88513f318213382",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "质量和工程管培生已明确质量职能，方向未明归通用测试与质量工作 L04-06 合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-69f020bf34e45416d6ee",
+      "title": "助理机械结构工程师",
+      "initial": {
+        "occupation_id": "SNO-69f020bf34e45416d6ee",
+        "status": "mapped",
+        "target_category_id": "L06-01-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L06-01",
+          "L06-01-03"
+        ],
+        "title_evidence": "助理机械结构工程师",
+        "level_3_evidence": "机械结构工程师直接对应产品结构设计，即外壳结构装配结构及强度。",
+        "reason": "助理机械结构工程师主归属产品结构设计 L06-01-02，助理为身份修饰；机械与结构设计可作上位候选，机械设备设计可作候选。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-69f020bf34e45416d6ee",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "助理机械结构工程师归产品结构设计 L06-01-02，符合机械与结构设计范围。"
+      }
+    },
+    {
+      "occupation_id": "SNO-c733004c52dbb95878b6",
+      "title": "市场推广",
+      "initial": {
+        "occupation_id": "SNO-c733004c52dbb95878b6",
+        "status": "mapped",
+        "target_category_id": "L12-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L12-01",
+          "L12-06"
+        ],
+        "title_evidence": "市场推广",
+        "level_3_evidence": null,
+        "reason": "标题明确为市场推广职能，但未说明具体方向，归通用市场营销。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-c733004c52dbb95878b6",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "标题仅表明市场推广职能，未明确具体方向，归通用市场营销合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-6e3b25c0e58434d934f2",
+      "title": "生物样本库研究员",
+      "initial": {
+        "occupation_id": "SNO-6e3b25c0e58434d934f2",
+        "status": "mapped",
+        "target_category_id": "L07-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L06-07-01"
+        ],
+        "title_evidence": "生物样本库研究员",
+        "level_3_evidence": null,
+        "reason": "生物样本库研究员属于科研实验技术支持，归实验与科研技术支持。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-6e3b25c0e58434d934f2",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "生物样本库研究员属于科研实验技术支持，归L07-03合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-82c0032955c296ed7b3d",
+      "title": "能碳管理",
+      "initial": {
+        "occupation_id": "SNO-82c0032955c296ed7b3d",
+        "status": "mapped",
+        "target_category_id": "L25-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "能碳管理",
+        "level_3_evidence": null,
+        "reason": "能碳管理直接对应碳管理与可持续发展。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-82c0032955c296ed7b3d",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "能碳管理直接对应碳管理与可持续发展，归L25-08合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-e03a4598dfa5dbd8745a",
+      "title": "教师岗7",
+      "initial": {
+        "occupation_id": "SNO-e03a4598dfa5dbd8745a",
+        "status": "mapped",
+        "target_category_id": "L22-10",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "教师岗7",
+        "level_3_evidence": null,
+        "reason": "标题明确为教师岗，但未说明教学方向，归通用教育教学。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-e03a4598dfa5dbd8745a",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "教师岗但未说明教学方向，归通用教育教学合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-987d169f2d65719717d7",
+      "title": "拉美市场管培生",
+      "initial": {
+        "occupation_id": "SNO-987d169f2d65719717d7",
+        "status": "review",
+        "target_category_id": null,
+        "target_level": null,
+        "candidate_category_ids": [
+          "L32-01",
+          "L13-09",
+          "L12-07"
+        ],
+        "title_evidence": "拉美市场管培生",
+        "level_3_evidence": null,
+        "reason": "管培生身份修饰，但“拉美市场”仅表明行业或区域，未明确具体职能，需进一步确认。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-987d169f2d65719717d7",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "拉美市场管培生仅表明区域和培养性质，未明确职能，review处理合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-debd162330b85469feed",
+      "title": "矿山勘探技术员",
+      "initial": {
+        "occupation_id": "SNO-debd162330b85469feed",
+        "status": "mapped",
+        "target_category_id": "L25-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "矿山勘探技术员",
+        "level_3_evidence": null,
+        "reason": "矿山勘探技术员直接对应地质勘探与资源评价。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-debd162330b85469feed",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "矿山勘探技术员直接对应地质勘探与资源评价，归L25-01合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-e25ae40ed2c8af5259bc",
+      "title": "CAD需求工程师",
+      "initial": {
+        "occupation_id": "SNO-e25ae40ed2c8af5259bc",
+        "status": "mapped",
+        "target_category_id": "L01-10-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L01-10-01",
+          "L08-01-02"
+        ],
+        "title_evidence": "CAD需求工程师",
+        "level_3_evidence": "CAD需求工程师通常涉及企业CAD系统的定制开发与配置，符合企业系统定制开发。",
+        "reason": "CAD需求工程师主要职责为企业CAD系统的定制开发与配置，归企业系统定制开发。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-e25ae40ed2c8af5259bc",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "CAD需求工程师归企业系统定制开发，符合L01-10范围，合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-43c53745f024b126a5fb",
+      "title": "激光应用工程师",
+      "initial": {
+        "occupation_id": "SNO-43c53745f024b126a5fb",
+        "status": "mapped",
+        "target_category_id": "L05-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L06-08-01"
+        ],
+        "title_evidence": "激光应用工程师",
+        "level_3_evidence": null,
+        "reason": "激光应用工程师属于电子电气与通信工程领域，但具体方向未明确，归通用电子电气通信技术。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-43c53745f024b126a5fb",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "激光应用工程师属电子电气通信领域但方向未明确，归通用电子电气通信技术合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-4996a2088757ff737621",
+      "title": "技术开发岗(公告内附件查看公司及岗位)",
+      "initial": {
+        "occupation_id": "SNO-4996a2088757ff737621",
+        "status": "mapped",
+        "target_category_id": "L01-11",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "技术开发岗(公告内附件查看公司及岗位)",
+        "level_3_evidence": null,
+        "reason": "标题明确为技术开发岗，但未说明具体技术方向，归通用软件研发。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-4996a2088757ff737621",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "技术开发岗未说明具体方向，归通用软件研发合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-215b78599b9aec2eb863",
+      "title": "检测分析",
+      "initial": {
+        "occupation_id": "SNO-215b78599b9aec2eb863",
+        "status": "mapped",
+        "target_category_id": "L04-04",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L04-04-02",
+          "L04-04-01"
+        ],
+        "title_evidence": "检测分析",
+        "level_3_evidence": null,
+        "reason": "检测分析属于检验检测与实验分析，但未说明具体检测类型，归二级。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-215b78599b9aec2eb863",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": "检测分析未说明具体检测类型，归检验检测与实验分析二级合理。"
+      }
+    },
+    {
+      "occupation_id": "SNO-0755d97a8e933794e00f",
+      "title": "检验检测部测试工程师",
+      "initial": {
+        "occupation_id": "SNO-0755d97a8e933794e00f",
+        "status": "mapped",
+        "target_category_id": "L04-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L04-01"
+        ],
+        "title_evidence": "检验检测部测试工程师",
+        "level_3_evidence": null,
+        "reason": "检验检测部测试工程师通常指硬件或产品测试，归硬件与产品测试。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-0755d97a8e933794e00f",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-69ebe18a65bd15ea5754",
+      "title": "集团本部出纳",
+      "initial": {
+        "occupation_id": "SNO-69ebe18a65bd15ea5754",
+        "status": "mapped",
+        "target_category_id": "L19-02",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "集团本部出纳",
+        "level_3_evidence": null,
+        "reason": "出纳直接对应出纳与资金结算。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-69ebe18a65bd15ea5754",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-1677f2a71e5fb299b80c",
+      "title": "衍生品产品经理",
+      "initial": {
+        "occupation_id": "SNO-1677f2a71e5fb299b80c",
+        "status": "mapped",
+        "target_category_id": "L08-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "衍生品产品经理",
+        "level_3_evidence": null,
+        "reason": "衍生品产品经理属于金融产品设计。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-1677f2a71e5fb299b80c",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-c87435b3ad5e3fe5ee41",
+      "title": "行政培训生",
+      "initial": {
+        "occupation_id": "SNO-c87435b3ad5e3fe5ee41",
+        "status": "mapped",
+        "target_category_id": "L18-05",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L18-06"
+        ],
+        "title_evidence": "行政培训生",
+        "level_3_evidence": null,
+        "reason": "行政培训生明确为行政职能，培训生为身份修饰，归行政与办公事务。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-c87435b3ad5e3fe5ee41",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-282a305da96912400de6",
+      "title": "短视频策划专员",
+      "initial": {
+        "occupation_id": "SNO-282a305da96912400de6",
+        "status": "mapped",
+        "target_category_id": "L15-03",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L14-03"
+        ],
+        "title_evidence": "短视频策划专员",
+        "level_3_evidence": null,
+        "reason": "短视频策划专员主要职责为内容策划与创作，归文案与创作写作。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-282a305da96912400de6",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-9a0e64c99e5596385e71",
+      "title": "抖音直播专员",
+      "initial": {
+        "occupation_id": "SNO-9a0e64c99e5596385e71",
+        "status": "mapped",
+        "target_category_id": "L15-08",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L14-03"
+        ],
+        "title_evidence": "抖音直播专员",
+        "level_3_evidence": null,
+        "reason": "抖音直播专员属于主持播音与主播。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-9a0e64c99e5596385e71",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-0c2481cfc8ceea6299fa",
+      "title": "航海类持证教师",
+      "initial": {
+        "occupation_id": "SNO-0c2481cfc8ceea6299fa",
+        "status": "mapped",
+        "target_category_id": "L22-03-02",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L22-03"
+        ],
+        "title_evidence": "航海类持证教师",
+        "level_3_evidence": "航海类持证教师属于工业与职业技能教学。",
+        "reason": "航海类持证教师属于职业与技术教学中的工业与职业技能教学。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-0c2481cfc8ceea6299fa",
+        "verdict": "correction_required",
+        "suggested_target_category_id": "L22-03",
+        "issue": "目录中不存在三级分类 L22-03-02，应归入二级分类 L22-03 职业与技术教学。"
+      }
+    },
+    {
+      "occupation_id": "SNO-f283fb7f5fd6ce0f348b",
+      "title": "驳运专员",
+      "initial": {
+        "occupation_id": "SNO-f283fb7f5fd6ce0f348b",
+        "status": "mapped",
+        "target_category_id": "L17-01",
+        "target_level": "level_2",
+        "candidate_category_ids": [],
+        "title_evidence": "驳运专员",
+        "level_3_evidence": null,
+        "reason": "驳运专员属于物流调度与运输管理。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-f283fb7f5fd6ce0f348b",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-7eeb75487eaea4cbcc40",
+      "title": "内评管理与模型开发",
+      "initial": {
+        "occupation_id": "SNO-7eeb75487eaea4cbcc40",
+        "status": "mapped",
+        "target_category_id": "L20-07",
+        "target_level": "level_2",
+        "candidate_category_ids": [
+          "L20-06"
+        ],
+        "title_evidence": "内评管理与模型开发",
+        "level_3_evidence": null,
+        "reason": "内评管理与模型开发属于金融风险与信用评估。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-7eeb75487eaea4cbcc40",
+        "verdict": "pass",
+        "suggested_target_category_id": null,
+        "issue": ""
+      }
+    },
+    {
+      "occupation_id": "SNO-ce83ab178012f55eea35",
+      "title": "射频仿真软件算法工程师",
+      "initial": {
+        "occupation_id": "SNO-ce83ab178012f55eea35",
+        "status": "mapped",
+        "target_category_id": "L01-07-04",
+        "target_level": "level_3",
+        "candidate_category_ids": [
+          "L01-07",
+          "L05-05-03"
+        ],
+        "title_evidence": "射频仿真软件算法工程师",
+        "level_3_evidence": "射频仿真软件算法工程师属于中间件与基础框架开发。",
+        "reason": "射频仿真软件算法工程师主要开发仿真软件算法，属于中间件与基础框架。"
+      },
+      "ai_reasonableness_review": {
+        "occupation_id": "SNO-ce83ab178012f55eea35",
+        "verdict": "correction_required",
+        "suggested_target_category_id": "L01-07",
+        "issue": "目录中不存在三级分类 L01-07-04，且射频仿真软件算法开发更符合系统与基础软件研发，应归入 L01-07。"
+      }
+    }
+  ]
+}

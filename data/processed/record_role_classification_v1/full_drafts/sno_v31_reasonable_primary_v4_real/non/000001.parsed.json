@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-4f7032f315155b0ed4c7",
+      "decision": "exclude_non_role",
+      "reason": "标题为专业类别列表，非具体招聘岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-01837aaa56bef749c394",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘岗位数量描述，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-5336a3725fb86552e3b4",
+      "decision": "restore_title_and_map",
+      "reason": "标题为具体岗位名称（实习生），专业不限为补充说明",
+      "recovered_title": "实习生"
+    },
+    {
+      "original_record_id": "TG-8f941266ce8ae3f09c6a",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘批次安排描述，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-8bce73d839ff3e6b7160",
+      "decision": "exclude_non_role",
+      "reason": "标题为业务类别列表，非具体招聘岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-37f4f696f906756a6862",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘条件说明，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-50ef8dfd38315a3e19b2",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘岗位数量描述，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-83151fe332255fefbba5",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘人数及岗位描述，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-fed28058256138d85867",
+      "decision": "exclude_non_role",
+      "reason": "标题为不完整岗位名称片段，无法识别具体岗位",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-6fcc3727af50319112cb",
+      "decision": "exclude_non_role",
+      "reason": "标题明确表示未提及招聘岗位，非岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-afd5cecb08d78e9c0eae",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘岗位数量描述，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-eebcad79164348067cf2",
+      "decision": "exclude_non_role",
+      "reason": "标题为学历要求描述，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-bcf6922883bf209eb0dd",
+      "decision": "restore_title_and_map",
+      "reason": "标题为具体岗位名称（实习生）",
+      "recovered_title": "实习生"
+    },
+    {
+      "original_record_id": "TG-dcb774635de0ac88c20d",
+      "decision": "exclude_non_role",
+      "reason": "标题为不完整岗位名称片段，无法识别具体岗位",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-e857d942c2a2f75a4a82",
+      "decision": "exclude_non_role",
+      "reason": "标题为岗位类别列表，非具体招聘岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-ccd47e60bd076ee37bf9",
+      "decision": "exclude_non_role",
+      "reason": "标题为子公司岗位类别描述，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-eaaa943deaf86678ce6d",
+      "decision": "exclude_non_role",
+      "reason": "标题为专业类别列表，非具体招聘岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-62d65b7077d00ee93ade",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘岗位数量描述，非具体岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-6c78cb58549693f3c42f",
+      "decision": "exclude_non_role",
+      "reason": "标题为岗位类别列表，非具体招聘岗位名称",
+      "recovered_title": null
+    },
+    {
+      "original_record_id": "TG-5ed4b63c1a6fb7e2b59a",
+      "decision": "exclude_non_role",
+      "reason": "标题为招聘岗位总数描述，非具体岗位名称",
+      "recovered_title": null
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 772,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 772,
+    "output_tokens": 1215,
+    "reasoning_tokens": 0,
+    "total_tokens": 1987
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0016895999999999999
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

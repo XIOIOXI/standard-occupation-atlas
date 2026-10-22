@@ -1,0 +1,185 @@
+{
+  "batch_number": 11,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "5a3fc61b-ad8b-4aa7-8104-7345bc387a81",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813222,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 31166,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3902,
+    "output_tokens": 1987,
+    "reasoning_tokens": 0,
+    "total_tokens": 33153
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001859292
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-adea47084d9f8323af0e",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "IT架构师核心职责为平台与中间件架构设计，归入平台与中间件开发合理。"
+    },
+    {
+      "occupation_id": "SNO-f8f6426015958b1cfc6f",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "架构建模工程师名称未明确技术栈或行业，无法确认属于互联网后端平台与中间件开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-1f3ef878b068ed89caa6",
+      "decision": "keep",
+      "target_category_id": "咨询/翻译/法律/consult-other-language/other-translation-written",
+      "reason": "印尼语属于其他语种翻译，未注明口译，归入笔译与本地化合理。"
+    },
+    {
+      "occupation_id": "SNO-3dac09136ef91482d053",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出Java、Python、Go多个独立技术方向，属于多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-2bbf4733f9ec3e90c24e",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "路由协议软件开发工程师名称未注明C++，无法确认归入C++系统与底层开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-9c2b4f70bb3393ce38b8",
+      "decision": "keep",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "reason": "综合财务部综合岗位核心为财务核算，归入总账与财务核算合理。"
+    },
+    {
+      "occupation_id": "SNO-3e88d6376ab01925e931",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-python/python-data",
+      "reason": "AI应用开发和软件开发工程师名称未注明Python，无法确认归入Python数据与人工智能开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-503dd4816b5d7b414638",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件开发员未指定技术栈或方向，无法确认属于业务服务端开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-f5e794e963e969a000a1",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "人形机器人运动控制工程师属于机器人与具身智能算法，归入合理。"
+    },
+    {
+      "occupation_id": "SNO-a40546b4bef0892168da",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "reason": "小游戏程序名称未明确移动端或客户端开发，无法确认归入移动端与客户端开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-830fbf8f89d4abb662e6",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "NodeJS开发工程师属于业务服务端开发，归入合理。"
+    },
+    {
+      "occupation_id": "SNO-766c9bfa297c9055815a",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "人形机器人仿真开发工程师属于机器人与具身智能，归入合理。"
+    },
+    {
+      "occupation_id": "SNO-0594291aa004c5bd0b75",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出营销、电商运营、市场、健康研究、工艺技术等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-32e09c84e82e718ed544",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出财务管理与项目管理两个独立方向。"
+    },
+    {
+      "occupation_id": "SNO-ad0e8d52497647e1c124",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "中间件开发属于平台与中间件开发，归入合理。"
+    },
+    {
+      "occupation_id": "SNO-1043e00789c8285cccc4",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出人力资源、公关传播、商品策划、电商运营、摄影、展示设计、服装搭配、服装设计等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-eb2fa05c561df7b33948",
+      "decision": "fallback_review",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "reason": "光学系统集成工艺/测校研发名称未明确电路与硬件设计，无法确认归入该三级类别，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-5794ad54dffff9bf1d5f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出生产管培与工程管培两个独立方向。"
+    },
+    {
+      "occupation_id": "SNO-b442ce20c9e2a123367c",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器人工程师名称未明确算法方向，无法确认属于机器人与具身智能算法，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-8d05173086b170d9ad24",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "算子开发名称未注明C++或图形与高性能计算，无法确认归入该三级类别，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-ac09f53ea0b33f20cf3e",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "管理培训生同时包含通用方向与法律合规方向，属于多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-20e75b889642d64e6ce5",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "reason": "上位机软件工程师名称未注明C++，无法确认归入C++嵌入式与实时开发，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-6042c596405dc994d30b",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "Agent应用名称未明确大模型与生成式AI算法，无法确认归入该三级类别，三级依据不足。"
+    },
+    {
+      "occupation_id": "SNO-c013d0369586affcd63b",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出C++、Java、web前端、Android、嵌入式驱动、图形图像、网络通信、仿真验证等多个独立技术岗位。"
+    },
+    {
+      "occupation_id": "SNO-ef07076a92381e6ddeae",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出财务管理、法务管理、党群管理、信息技术、业务管理、生产管理、工程管理、轮机驾驶、设备管理、航运管理等多个独立职业。"
+    }
+  ]
+}

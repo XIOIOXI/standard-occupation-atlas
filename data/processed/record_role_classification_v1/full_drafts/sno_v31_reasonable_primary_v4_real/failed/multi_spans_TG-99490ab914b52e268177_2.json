@@ -1,0 +1,47 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-99490ab914b52e268177",
+  "child_index": 2,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "研发设计储干生产/质量储干行政类专员/储干(采购、商务、财务、行政、文字)技术员",
+  "child_title": "行政类专员/储干(采购、商务、财务、行政、文字)",
+  "source_span": {
+    "text": "行政类专员/储干(采购、商务、财务、行政、文字)",
+    "start": 13,
+    "end": 36
+  },
+  "raw_decision": {
+    "original_record_id": "TG-99490ab914b52e268177",
+    "case": "A",
+    "child_titles": [
+      "研发设计储干",
+      "生产/质量储干",
+      "行政类专员/储干(采购、商务、财务、行政、文字)",
+      "技术员"
+    ],
+    "source_spans": [
+      {
+        "text": "研发设计储干",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "生产/质量储干",
+        "start": 6,
+        "end": 13
+      },
+      {
+        "text": "行政类专员/储干(采购、商务、财务、行政、文字)",
+        "start": 13,
+        "end": 36
+      },
+      {
+        "text": "技术员",
+        "start": 36,
+        "end": 39
+      }
+    ],
+    "reason": "标题由多个独立岗位名称直接拼接，无分隔符，但语义上可明确拆分为四个不同岗位。"
+  }
+}

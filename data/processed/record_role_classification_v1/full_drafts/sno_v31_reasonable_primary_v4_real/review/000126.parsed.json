@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-6c4c39269c6c661f5250",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题为设备维护岗，括号内专业方向为招聘专业要求而非岗位职能，主归属设备维护合理，multi_role可接受。"
+    },
+    {
+      "occupation_id": "TG-d85f7c7cf848ddadc686",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "行业/总量/金工方向研究员归金融投资研究分析合理。"
+    },
+    {
+      "occupation_id": "TG-20611a90539c61e984d4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "水资源节约与保护项目咨询归水污染治理合理。"
+    },
+    {
+      "occupation_id": "TG-dcdd04b6f48bbcc58adb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "硬件/软件开发跨职能，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-6d0c1f583ac752eafcb7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "会计岗归会计核算合理。"
+    },
+    {
+      "occupation_id": "TG-fd0af1fa8f5859aae8a2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI大模型测试归软件测试与质量保障合理。"
+    },
+    {
+      "occupation_id": "TG-45581d6dc84f48887479",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "ID设计师归工业与产品外观设计合理。"
+    },
+    {
+      "occupation_id": "TG-9f88f5052f8c7cc66fed",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "工艺管道设计归建筑机电与设备工程合理。"
+    },
+    {
+      "occupation_id": "TG-1fffa271604f276b0d57",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "电子商务专业专职教师归工业与职业技能教学合理。"
+    },
+    {
+      "occupation_id": "TG-4b8c781da1fdc8751655",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务人员方向未明确，归通用财务工作合理。"
+    },
+    {
+      "occupation_id": "TG-6e67dc54cee08e986083",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数据理论研究岗方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-9ef5afbb4b883b6f59e3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "项目审计工程师归审计合理。"
+    },
+    {
+      "occupation_id": "TG-63c8368d80d4d1d7cad2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "分析助理领域未说明，review合理。"
+    },
+    {
+      "occupation_id": "TG-80d5de0a3eb81a2c76b3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "应用专员职责不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-8915dc6d4b19cf1a4722",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "化工技术员归化工与流程生产操作合理。"
+    },
+    {
+      "occupation_id": "TG-dea366218e68bcfb8018",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务核算岗归会计核算合理。"
+    },
+    {
+      "occupation_id": "TG-a9d78310b7bedac3c33e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "业务标准岗方向不明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-1e9e565f1a541868b522",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智能飞行器设计与控制设计师归整车与装备集成合理。"
+    },
+    {
+      "occupation_id": "TG-fc172a7fa7aff7a04ab0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "客户支持技术支持工程师归售后技术服务合理。"
+    },
+    {
+      "occupation_id": "TG-77224480f7bb9fa7b641",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仓储保管岗归仓库与库存管理合理。"
+    }
+  ],
+  "raw_response_file": "000126.raw.json",
+  "usage": {
+    "input_tokens": 19588,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3076,
+    "output_tokens": 951,
+    "reasoning_tokens": 0,
+    "total_tokens": 20539
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0021630720000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

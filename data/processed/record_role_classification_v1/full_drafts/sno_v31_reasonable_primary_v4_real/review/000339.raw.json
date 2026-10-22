@@ -1,0 +1,28 @@
+{
+  "id": "202a5f8b-78d2-4e3d-8c0b-49f1c5828187",
+  "object": "chat.completion",
+  "created": 1791881248,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-a4da316ae873613615d6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字孪生技术岗涉及建模、仿真、数据集成等多领域，主归属不唯一，review合理。\"},{\"occupation_id\":\"TG-5330cddaf5ff6a4d3216\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"X-Ray探测器开发归入电子硬件研发合理。\"},{\"occupation_id\":\"TG-3f7a3d2b23e285fdf1e2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"饲草育种与栽培科研岗归入农业与种植技术合理。\"},{\"occupation_id\":\"TG-fe39481ee433c6a7be47\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"封装工艺研发岗归入工艺与制造工程合理。\"},{\"occupation_id\":\"TG-90e3e1de4a0f77be2f8b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"招商业务岗归入招商与租赁销售合理。\"},{\"occupation_id\":\"TG-505b509542fd7df4a6d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题包含游戏策划、游戏开发、商务管培生多个职能，multi_role合理。\"},{\"occupation_id\":\"TG-f2dbc425896e65e35877\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"光电子能谱研究员归入自然科学基础研究合理。\"},{\"occupation_id\":\"TG-7d63dc1d6bffbf67458b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题包含会计和税务两个职能，multi_role合理。\"},{\"occupation_id\":\"TG-eb87e644994d5c7dafa7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字化产线研发工程师可能涉及制造工艺、嵌入式系统或自动化控制，review合理。\"},{\"occupation_id\":\"TG-1fd92736c1fe0062e218\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"财务助理归入通用财务工作合理。\"},{\"occupation_id\":\"TG-1d32d3c85a68fd1666f4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"ERP项目助理归入信息技术项目管理合理。\"},{\"occupation_id\":\"TG-a3f53d2f3adac8f20202\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"设备管理工程师归入设备安装维修与保全合理。\"},{\"occupation_id\":\"TG-1655cd967d9d78c2cd33\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"病理高级研究员归入医学检验与医技合理。\"},{\"occupation_id\":\"TG-905c90e3447f43f6c034\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户经理归入企业客户销售合理。\"},{\"occupation_id\":\"TG-3b66df3541bf61b6d851\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"RIS物理天线设计归入通信技术研发合理。\"},{\"occupation_id\":\"TG-f94b5dc4a3b40537e9ab\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电线电缆产品研发归入电子硬件研发合理。\"},{\"occupation_id\":\"TG-89b1968626454a8ef194\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"测试开发助理归入软件测试与质量保障合理。\"},{\"occupation_id\":\"TG-2d1c599b8a8aa8012e18\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"光电探测系统工程师归入电子硬件研发合理。\"},{\"occupation_id\":\"TG-30e73af07267f7b8350b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场运营经理归入产品与平台运营合理。\"},{\"occupation_id\":\"TG-f885367b57048e38049c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数智化应用工程师可能涉及软件开发、数据分析或智能制造，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19587,
+    "completion_tokens": 985,
+    "total_tokens": 20572,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3075
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

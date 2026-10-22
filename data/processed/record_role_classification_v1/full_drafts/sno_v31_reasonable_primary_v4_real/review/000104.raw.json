@@ -1,0 +1,28 @@
+{
+  "id": "9f673a8d-ed5f-4777-abc3-63e7777e6a9a",
+  "object": "chat.completion",
+  "created": 1791880490,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-4a3dca5f03d7f05bb6a2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"装备工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-5aa259901522834ff570\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"求解器开发归系统与基础软件研发，二级合理。\"},{\"occupation_id\":\"TG-2c1d944546311e33d0d7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"软件开发研究员归通用软件研发，合理。\"},{\"occupation_id\":\"TG-80d17cea4e90591894dc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"化工工艺技术岗归化学化工研发，合理。\"},{\"occupation_id\":\"TG-0224589422bc7a01b0ee\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"审计员/税审员归审计，二级合理。\"},{\"occupation_id\":\"TG-354714fd1aa9f28e9aa0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"人力资源储备岗已明确HR职能，归人力资源综合管理合理。\"},{\"occupation_id\":\"TG-d014e0ed464a4e73ed6d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"游戏测试开发归测试开发与自动化，三级合理。\"},{\"occupation_id\":\"TG-a9abba4a7a4d7744827a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采购工程师归采购与供应商管理，二级合理。\"},{\"occupation_id\":\"TG-52687968f4814d17989b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多岗位混合，multi_role合理。\"},{\"occupation_id\":\"TG-c73adce8e2dcb3d4f115\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多职能混合，multi_role合理。\"},{\"occupation_id\":\"TG-a42b61fe9f67a1fc51d5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务岗职责不明确，review合理。\"},{\"occupation_id\":\"TG-0cb1a97cb064715f3be7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"基础软件开发归系统与基础软件研发，二级合理。\"},{\"occupation_id\":\"TG-800d837a5b3510882c71\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务岗职责不明确，review合理。\"},{\"occupation_id\":\"TG-e7d13fdd3f73f8084fb3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"农险业务岗归企业客户销售，合理。\"},{\"occupation_id\":\"TG-a9879979224acefa4023\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信息化工程师归信息化管理，合理。\"},{\"occupation_id\":\"TG-ba9dd6181eab4ba0da07\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"多职能混合，multi_role合理。\"},{\"occupation_id\":\"TG-5b2ea10c485dfabe8629\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"固定相研发归化学化工研发，合理。\"},{\"occupation_id\":\"TG-4060b274415170aaa2ec\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"系统软件助理工程师归系统与基础软件研发，二级合理。\"},{\"occupation_id\":\"TG-d80f6217514c4e2962d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"设备工程师方向不明确，review合理。\"},{\"occupation_id\":\"TG-73a102a007f39f7e3187\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"嵌入式固件开发归固件与底层驱动，三级合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19572,
+    "completion_tokens": 927,
+    "total_tokens": 20499,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3060
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

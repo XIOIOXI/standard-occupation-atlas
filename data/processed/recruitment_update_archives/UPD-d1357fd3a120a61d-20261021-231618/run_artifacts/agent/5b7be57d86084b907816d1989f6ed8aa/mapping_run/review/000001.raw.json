@@ -1,0 +1,28 @@
+{
+  "id": "ee120cff-2f48-4233-8929-a9e0de8695ee",
+  "object": "chat.completion",
+  "created": 1792571468,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-5b7be57d86084b907816d1989f6ed8aa\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L13-08-02\", \"issue\": \"计划合同业务员以合同计划与商务事务支持为主，归入销售运营与商务支持下的商务合同与订单支持合理；能源工程语境下无明确工程造价或工程招采证据，不选L24-06-02可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17083,
+    "completion_tokens": 120,
+    "total_tokens": 17203,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 571
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

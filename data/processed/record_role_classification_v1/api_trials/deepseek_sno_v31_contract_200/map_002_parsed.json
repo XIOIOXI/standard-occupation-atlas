@@ -1,0 +1,228 @@
+{
+  "raw_response_file": "map_002_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-3350d766577dab09fb5d",
+      "status": "mapped",
+      "target_category_id": "L02-05-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "信号处理算法工程师(超声)",
+      "level_3_evidence": "标题明确为信号处理算法，且括号注明超声，属于语音与音频算法范畴",
+      "reason": "信号处理算法工程师，超声方向，属于音频算法领域，映射到语音与音频算法"
+    },
+    {
+      "occupation_id": "SNO-a7d3e79a496e5c4850b0",
+      "status": "mapped",
+      "target_category_id": "L26-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "兽医师助理",
+      "level_3_evidence": "兽医师助理，通常服务于伴侣动物诊疗，标题未明确但兽医师助理默认归伴侣动物诊疗",
+      "reason": "兽医师助理，属于兽医与动物医疗，默认伴侣动物诊疗"
+    },
+    {
+      "occupation_id": "SNO-13d600d1826857919714",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "官方未说明招聘",
+      "level_3_evidence": "",
+      "reason": "标题为“官方未说明招聘”，非职业名称，属于非岗位文本"
+    },
+    {
+      "occupation_id": "SNO-c7c2b86fee993f894bd4",
+      "status": "mapped",
+      "target_category_id": "L11-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "商业经营分析师",
+      "level_3_evidence": "",
+      "reason": "商业经营分析师，属于经营分析与流程改善，无三级细分"
+    },
+    {
+      "occupation_id": "SNO-06d5a21783d857ffc369",
+      "status": "mapped",
+      "target_category_id": "L18-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "日语商务助理",
+      "level_3_evidence": "",
+      "reason": "日语商务助理，属于秘书助理与文书事务，语言为标签"
+    },
+    {
+      "occupation_id": "SNO-09b70120c117f7063fcc",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-09",
+        "L14-11"
+      ],
+      "title_evidence": "平度办事处业务",
+      "level_3_evidence": "",
+      "reason": "标题仅说明办事处业务，未明确销售或运营职能，无法确定具体类别"
+    },
+    {
+      "occupation_id": "SNO-6f0b61c2a8aa884ad401",
+      "status": "mapped",
+      "target_category_id": "L15-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "多媒体工程师",
+      "level_3_evidence": "",
+      "reason": "多媒体工程师，通常涉及影音剪辑与后期制作，映射到剪辑与影视后期"
+    },
+    {
+      "occupation_id": "SNO-bc68850afd71e00c4d95",
+      "status": "mapped",
+      "target_category_id": "L12-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "营销推广专员",
+      "level_3_evidence": "营销推广专员，明确为营销活动策划与执行",
+      "reason": "营销推广专员，属于营销活动策划"
+    },
+    {
+      "occupation_id": "SNO-8793e25372a32cf93896",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "机械工程",
+      "level_3_evidence": "",
+      "reason": "机械工程，属于机械与结构设计，无三级细分"
+    },
+    {
+      "occupation_id": "SNO-a38c7e2de09fbe6cb5ec",
+      "status": "mapped",
+      "target_category_id": "L27-08-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "铁路电务操作技能",
+      "level_3_evidence": "铁路电务操作技能，属于轨道驾驶与专业操作",
+      "reason": "铁路电务操作技能，映射到轨道驾驶与专业操作"
+    },
+    {
+      "occupation_id": "SNO-cc125b61530a02724f63",
+      "status": "mapped",
+      "target_category_id": "L06-03-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "无人系统总体设计",
+      "level_3_evidence": "无人系统总体设计，属于整车与装备集成",
+      "reason": "无人系统总体设计，映射到整车与装备集成"
+    },
+    {
+      "occupation_id": "SNO-6d35c8d1f3c7f41b351a",
+      "status": "mapped",
+      "target_category_id": "L11-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "NS管培生(经营分析)",
+      "level_3_evidence": "",
+      "reason": "NS管培生(经营分析)，明确经营分析职能，属于经营分析与流程改善"
+    },
+    {
+      "occupation_id": "SNO-bbe87102b8ccb92e4231",
+      "status": "mapped",
+      "target_category_id": "L04-03-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "制造质量工程师",
+      "level_3_evidence": "制造质量工程师，属于过程质量管理",
+      "reason": "制造质量工程师，映射到过程质量管理"
+    },
+    {
+      "occupation_id": "SNO-3c4d285367a397cfde25",
+      "status": "mapped",
+      "target_category_id": "L30-04-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "国际药品事业部—国际注册专员",
+      "level_3_evidence": "国际注册专员，涉及药品国际注册，属于商标版权与综合知识产权",
+      "reason": "国际注册专员，映射到商标版权与综合知识产权"
+    },
+    {
+      "occupation_id": "SNO-961bea0f39be287f0d18",
+      "status": "mapped",
+      "target_category_id": "L14-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "运营经理",
+      "level_3_evidence": "",
+      "reason": "运营经理，属于通用业务运营，方向未明确"
+    },
+    {
+      "occupation_id": "SNO-372c9815ce356b008ddf",
+      "status": "mapped",
+      "target_category_id": "L20-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "私人投资顾问",
+      "level_3_evidence": "私人投资顾问，属于投资组合与资产管理",
+      "reason": "私人投资顾问，映射到投资组合与资产管理"
+    },
+    {
+      "occupation_id": "SNO-b0bb22d7a889d08cc304",
+      "status": "mapped",
+      "target_category_id": "L25-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "电厂运行工程师",
+      "level_3_evidence": "",
+      "reason": "电厂运行工程师，属于能源运行与调度"
+    },
+    {
+      "occupation_id": "SNO-f0efb5a7839e8cf596aa",
+      "status": "mapped",
+      "target_category_id": "L06-07-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "抗体工程高级研究员",
+      "level_3_evidence": "抗体工程高级研究员，属于生物技术研发",
+      "reason": "抗体工程高级研究员，映射到生物技术研发"
+    },
+    {
+      "occupation_id": "SNO-affd0edede1eda86ee01",
+      "status": "mapped",
+      "target_category_id": "L13-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "销售工程师(日语)",
+      "level_3_evidence": "销售工程师，通常为企业客户销售，日语为语言标签",
+      "reason": "销售工程师，映射到直客销售"
+    },
+    {
+      "occupation_id": "SNO-7a131914fb8b9992a9a8",
+      "status": "mapped",
+      "target_category_id": "L01-02-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "后端软件开发工程师",
+      "level_3_evidence": "后端软件开发工程师，属于业务服务开发",
+      "reason": "后端软件开发工程师，映射到业务服务开发"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17373,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 733,
+    "output_tokens": 2250,
+    "reasoning_tokens": 0,
+    "total_tokens": 19623
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00150987
+  },
+  "attempts": 1,
+  "post_processing": "none"
+}

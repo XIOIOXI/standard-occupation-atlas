@@ -1,0 +1,28 @@
+{
+  "id": "6bdfe1be-4ec1-4048-b85e-38769e1048a5",
+  "object": "chat.completion",
+  "created": 1792571575,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-e67493ffdb38dc80b82f6b66a5b23b94\",\"status\":\"mapped\",\"target_category_id\":\"L14-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L14-01\",\"L08-01\",\"L14-11\"],\"title_evidence\":\"标题为“产品运营”，属于数字产品功能、平台生态与业务机制运营方向\",\"level_3_evidence\":null,\"reason\":\"“产品运营”直接对应产品与平台运营（L14-01），无需细分三级；context 中公司行业与多岗位组合信息不改变该岗位运营职能，不据此推断具体产品类型。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16978,
+    "completion_tokens": 157,
+    "total_tokens": 17135,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 338
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

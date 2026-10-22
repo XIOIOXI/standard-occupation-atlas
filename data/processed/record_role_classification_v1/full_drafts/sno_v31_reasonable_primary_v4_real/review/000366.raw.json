@@ -1,0 +1,28 @@
+{
+  "id": "0d76105c-cc2e-4549-aed0-c4466c73470c",
+  "object": "chat.completion",
+  "created": 1791881338,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-c1c24f65e3f7076918b1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"定向培养生且零售金融方向不足以确定具体职能，review合理。\"},{\"occupation_id\":\"TG-37d04be0453fbc0d8d6e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"特殊资产处置归L20-09合理。\"},{\"occupation_id\":\"TG-00d71a036c497783bda3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"专业技术基层管理未明确领域，review合理。\"},{\"occupation_id\":\"TG-7c6e30cb1d48b250df4a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"剪辑师归L15-06合理。\"},{\"occupation_id\":\"TG-ac4b16fc76b84232b695\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电力监理归L24-08合理。\"},{\"occupation_id\":\"TG-ca332c71bd6da16d5d54\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"自动化技术工程师归L05-04合理。\"},{\"occupation_id\":\"TG-60859930f7331a7ceb0a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"规划土地项目受理归L31-01合理。\"},{\"occupation_id\":\"TG-c76305f26e3ec8a47c4e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"无人机技术岗应用方向未明，review合理。\"},{\"occupation_id\":\"TG-74790ce38ae1ded45959\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"投融资管理归L19-04合理。\"},{\"occupation_id\":\"TG-b0841e2a0322922dc367\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场营销业务人员归L12-07合理。\"},{\"occupation_id\":\"TG-39d6f1cea66a25f8a7b3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"成本管理员归L19-01-02合理。\"},{\"occupation_id\":\"TG-c70bcb71ddd642580c01\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"有机合成研究员归L06-05-01合理。\"},{\"occupation_id\":\"TG-2ad8c2dec8e2f5d23e6f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数据安全研究归L03-05-03合理。\"},{\"occupation_id\":\"TG-5ee82d72f52f2f74e563\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"微电机开发工程师归L05-01-01合理。\"},{\"occupation_id\":\"TG-a285c735d9437b4f12af\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"网络工程师归L03-03合理。\"},{\"occupation_id\":\"TG-754bea6f47ce95bfbd79\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"高级工艺工程师归L06-08-01合理。\"},{\"occupation_id\":\"TG-5953544f04522c89ccb0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工艺工程师归L06-08-01合理。\"},{\"occupation_id\":\"TG-d7d347405a567c5cedf2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"等离子体诊断研究员归L07-01合理。\"},{\"occupation_id\":\"TG-2d0f692a34cd9b38ce0c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质检工程师归L04-03-01合理。\"},{\"occupation_id\":\"TG-eaf9d40c79aeae761cf0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"公司秘书归L18-06合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19513,
+    "completion_tokens": 941,
+    "total_tokens": 20454,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3001
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

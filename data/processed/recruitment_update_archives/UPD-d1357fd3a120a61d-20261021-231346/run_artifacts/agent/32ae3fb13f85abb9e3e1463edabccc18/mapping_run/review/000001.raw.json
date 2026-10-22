@@ -1,0 +1,28 @@
+{
+  "id": "a9ad674a-7733-4394-91bc-3f5e1092fc4a",
+  "object": "chat.completion",
+  "created": 1792571512,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-32ae3fb13f85abb9e3e1463edabccc18\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L13-09\", \"issue\": \"标题明确为销售部门管理培训生，属部门定向培养而非跨职能轮岗，归L13-09通用销售合理；客户类型未说明，无需下探三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17066,
+    "completion_tokens": 103,
+    "total_tokens": 17169,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 554
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

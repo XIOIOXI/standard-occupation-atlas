@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-4121e661cb81f181e31b49a171e7fbac",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-01"
+      ],
+      "title_evidence": "制造部生产主管：制造部门生产现场管理岗位",
+      "level_3_evidence": null,
+      "reason": "标题明确为制造部生产主管，属工厂生产现场与班组管理，归生产计划与现场管理（L23-01）；无更细三级证据。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16957,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 317,
+    "output_tokens": 129,
+    "reasoning_tokens": 0,
+    "total_tokens": 17086
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00034974
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

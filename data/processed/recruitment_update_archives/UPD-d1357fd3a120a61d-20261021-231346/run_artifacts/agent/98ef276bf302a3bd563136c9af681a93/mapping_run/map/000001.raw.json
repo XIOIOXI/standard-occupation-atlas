@@ -1,0 +1,28 @@
+{
+  "id": "ee08dbba-f21b-429a-a875-c2494ba61e1c",
+  "object": "chat.completion",
+  "created": 1792571709,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-98ef276bf302a3bd563136c9af681a93\",\"status\":\"mapped\",\"target_category_id\":\"L08-01-03\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L08-01-03\",\"L08-01-02\",\"L02-03-03\"],\"title_evidence\":\"标题为“大数据产品经理”，核心职责为大数据产品的需求与方案规划，属数字与技术产品管理；结合公司为制造业研发总院，产品面向数据平台/数据组件，归平台与技术产品。\",\"level_3_evidence\":\"平台与技术产品：基础平台数据平台开发者及技术产品\",\"reason\":\"“大数据产品经理”明确为产品规划职能，产品对象为大数据平台/数据组件，符合 L08-01-03 平台与技术产品；非数据开发或分析执行岗。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16933,
+    "completion_tokens": 195,
+    "total_tokens": 17128,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 293
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

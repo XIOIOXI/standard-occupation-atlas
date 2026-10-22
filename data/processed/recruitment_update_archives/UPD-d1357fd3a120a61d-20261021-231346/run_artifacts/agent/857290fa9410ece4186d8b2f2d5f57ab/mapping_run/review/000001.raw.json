@@ -1,0 +1,28 @@
+{
+  "id": "94a4147a-57d7-4842-8256-73eb6d3c8ba8",
+  "object": "chat.completion",
+  "created": 1792571879,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-857290fa9410ece4186d8b2f2d5f57ab\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L16-01\", \"issue\": \"采购专员明确归属采购与供应商管理，标题未提供三级细分证据，停在二级合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17035,
+    "completion_tokens": 86,
+    "total_tokens": 17121,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 523
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

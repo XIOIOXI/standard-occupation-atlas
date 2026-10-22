@@ -1,0 +1,28 @@
+{
+  "id": "b6e9cdcb-9fb0-4ee5-b5c7-dd715df77f44",
+  "object": "chat.completion",
+  "created": 1791895702,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"records\": [\n    {\n      \"occupation_id\": \"TG-3e9eb564e0fa92988b85\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"标题仅表明应届生身份，未提供任何职能线索，无法确定职业方向。\"\n    },\n    {\n      \"occupation_id\": \"TG-2d63d0643d17fc041eec\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"“顾问培训生”可能指向咨询职能，但“培训生”表明培养性质，无法确定最终职能方向。\"\n    },\n    {\n      \"occupation_id\": \"TG-28692556ef086748450d\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"标题为管培生且列出多个专业方向，未明确具体职能，无法确定归属。\"\n    },\n    {\n      \"occupation_id\": \"TG-0f450001560c3a5fceba\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"银行分行运营培训生，核心职能为金融运营，归入金融运营与交易清算合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-854048feef5133d2a93f\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"管理培训生项目，未说明具体职能方向，无法确定归属。\"\n    },\n    {\n      \"occupation_id\": \"TG-dcef1a7785cf89cc7e17\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"MA通常指并购，业务部分析师从事投资研究分析，归入投资研究与分析合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-ee6145947199a9c7b284\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"研究中心技术员，属于科研技术支持岗位，归入实验与科研技术支持合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-ee7f143dc12e919462f9\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"关键职能管培生，未说明具体职能，无法确定归属。\"\n    },\n    {\n      \"occupation_id\": \"TG-2f4db58311f7375c4063\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"银行分行校招生，未明确具体业务方向，无法确定归属。\"\n    },\n    {\n      \"occupation_id\": \"TG-681262aa8ce433dccccd\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"银行零售业务培训生，核心职能为个人客户销售，归入个人客户销售合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-578d9b7f302a30532a0e\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"银行零售业务培训生，核心职能为个人客户销售，归入个人客户销售合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-3c04cf0fefad333939e6\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"综合营销岗，未明确客户类型，归入通用销售合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-f1c669478f4fb836e490\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"充电桩嵌入式软件/硬件开发，核心为嵌入式开发，归入嵌入式与固件开发合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-557672f3d1394574f868\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"助理研究岗，未说明研究领域，无法确定归属。\"\n    },\n    {\n      \"occupation_id\": \"TG-1ab358e3a700bf1c0e56\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"设备测量储备岗，可能涉及计量或设备维护，但方向不明确，需进一步确认。\"\n    },\n    {\n      \"occupation_id\": \"TG-d2cdcd6c22dd74049483\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"分支机构岗位，未说明具体职能，无法确定归属。\"\n    },\n    {\n      \"occupation_id\": \"TG-987d169f2d65719717d7\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"拉美市场管培生，可能涉及市场或商务拓展，但职能不明确，需进一步确认。\"\n    },\n    {\n      \"occupation_id\": \"TG-a448b632044c38d3cf15\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"物流系统工程师，核心为软件开发，但方向未明确，归入通用软件研发合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-4e6a90c9677dd7349e05\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"科技储备岗，可能涉及IT或研发，但方向不明确，需进一步确认。\"\n    },\n    {\n      \"occupation_id\": \"TG-cb7eedbb2ffa2fd5c766\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"外贸管培生，核心职能为进出口与贸易执行，归入进出口与贸易执行合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-8481197adeb9c001942f\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"CAD绘图工程师，通常从事机械或建筑绘图，归入机械与结构设计合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-cac469dca2764577a976\",\n      \"verdict\": \"unresolved\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"支援系统岗，可能涉及IT支持，但方向不明确，需进一步确认。\"\n    },\n    {\n      \"occupation_id\": \"TG-eca6dc6941f22e5ec4f1\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"计算机类管培生，核心职能为软件开发，但方向未明确，归入通用软件研发合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-0b751ad8b2fbf7b1d6c4\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"学科校长管培生，核心职能为教育管理，归入教育管理合理。\"\n    },\n    {\n      \"occupation_id\": \"TG-59046b5e250e04ee0474\",\n      \"verdict\": \"pass\",\n      \"suggested_target_category_id\": null,\n      \"issue\": \"学习管理师课程咨营专员，核心职能为教学辅助与学员服务，归入教学辅助与学员服务合理。\"\n    }\n  ]\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 20180,
+    "completion_tokens": 1768,
+    "total_tokens": 21948,
+    "prompt_tokens_details": {
+      "cached_tokens": 19968
+    },
+    "prompt_cache_hit_tokens": 19968,
+    "prompt_cache_miss_tokens": 212
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2619e0c7-9a93-4fd6-b3f6-ac3e11fd8ae9",
+  "object": "chat.completion",
+  "created": 1792596304,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-c9c795d360971dded7a23676d76ef555\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L13-08\",\"L14-11\",\"L18-06\"],\"title_evidence\":\"标题仅为“业务助理”，无客户类型、销售流程或行政支持等直接职责证据\",\"level_3_evidence\":null,\"reason\":\"“业务助理”为泛化岗位，可能承担销售商务支持、业务运营或综合事务，现有标题与上下文（能源行业、校招）不足以唯一确定职能，需人工复核。\"},{\"occupation_id\":\"UP-d7864aa9a86e56f59eeed38db23afe4a\",\"status\":\"mapped\",\"target_category_id\":\"L25-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L25-03\",\"L25-04\",\"L05-03\"],\"title_evidence\":\"“光储充工程师”指向光伏、储能、充电系统等能源系统专业设计与工艺\",\"level_3_evidence\":null,\"reason\":\"光储充属于新能源能源系统技术方向，归能源系统与工艺工程；无证据表明为电气设备设计或运行调度，故不选三级。\"},{\"occupation_id\":\"UP-51ebedb37ab2cae8e8a93d2d65382cdb\",\"status\":\"mapped\",\"target_category_id\":\"L14-09\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L14-09\",\"L13-01\"],\"title_evidence\":\"“售前技术支持”明确为售前技术方案与客户支持职能\",\"level_3_evidence\":null,\"reason\":\"售前技术支持归售前技术与解决方案；标题未区分方案设计或演示验证，停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17251,
+    "completion_tokens": 400,
+    "total_tokens": 17651,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 611
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

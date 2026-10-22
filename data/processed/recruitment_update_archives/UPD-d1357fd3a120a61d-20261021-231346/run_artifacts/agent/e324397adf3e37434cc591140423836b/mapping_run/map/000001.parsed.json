@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-e324397adf3e37434cc591140423836b",
+      "status": "mapped",
+      "target_category_id": "L25-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-07",
+        "L25-06",
+        "L25-09"
+      ],
+      "title_evidence": "岗位名称明确为“安全环保与劳动监察岗”，核心职责指向安全生产、环境保护与职业健康管理",
+      "level_3_evidence": null,
+      "reason": "“安全环保”直接对应 EHS/安全生产与职业健康职能，归入 L25-07 安全健康与职业防护；劳动监察属安全环保监督范畴，不构成独立三级证据，故停在二级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16971,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 331,
+    "output_tokens": 158,
+    "reasoning_tokens": 0,
+    "total_tokens": 17129
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038874
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

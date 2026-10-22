@@ -1,0 +1,28 @@
+{
+  "id": "6a4e245a-7502-49f7-b070-9034a6ffe3f8",
+  "object": "chat.completion",
+  "created": 1791881055,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-f41de293cb0dffdf89c1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"产品管培生方向未明确，review合理。\"},{\"occupation_id\":\"TG-fab10af77fecc9101285\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"化学点检员归化学与生物检测合理。\"},{\"occupation_id\":\"TG-2f92995d6ef9275a2748\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"商务经理归商务拓展与合作合理。\"},{\"occupation_id\":\"TG-6ca45953748c40ebecee\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"银行运营培训生方向未明确，review合理。\"},{\"occupation_id\":\"TG-0968f9e9e4d7e1d44b94\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"土地经济研究归商业研究与市场调研合理。\"},{\"occupation_id\":\"TG-cc20379940e3ef2f2492\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字化建设管理归信息化建设项目合理。\"},{\"occupation_id\":\"TG-8b4f4374773540d2ef0c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"固收业务岗归金融交易合理。\"},{\"occupation_id\":\"TG-d1c129d86b2b21eda694\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"NPI工艺工程师归工业化与生产导入合理。\"},{\"occupation_id\":\"TG-249efb3ff35ed1bc2b16\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合培养生归综合储备与业务培养合理。\"},{\"occupation_id\":\"TG-693d0caf8e5ea2eab838\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"消费者管理培训生方向未明确，review合理。\"},{\"occupation_id\":\"TG-4fcbed3b88cd0dd863ed\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"投资部高级经理归项目与股权投资研究合理。\"},{\"occupation_id\":\"TG-3b0abaad03540bade71e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信号处理算法工程师归语音与音频算法合理。\"},{\"occupation_id\":\"TG-6820cd080030c940eea5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"储备干部大客户代表归重点客户管理合理。\"},{\"occupation_id\":\"TG-fcb8db5fe5f8907010d8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"OPC技培生方向未明确，review合理。\"},{\"occupation_id\":\"TG-33c886a363ccb7000512\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"零售管培生职能定向生方向未明确，review合理。\"},{\"occupation_id\":\"TG-c8a65fbf5ed165440215\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"化工节能降碳设计工程师归碳管理与可持续发展合理。\"},{\"occupation_id\":\"TG-de2f0f69ffbd0b79c295\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"雷达信处算法工程师归预测与统计学习合理。\"},{\"occupation_id\":\"TG-eac2c6ace452499f519d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AIGC算法实习生归多模态算法合理。\"},{\"occupation_id\":\"TG-810c8b7fc56437c25414\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"系统安全工程师归安全架构与工程合理。\"},{\"occupation_id\":\"TG-74e8841c43022c18448b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"农艺师归农业与种植技术合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19623,
+    "completion_tokens": 926,
+    "total_tokens": 20549,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3111
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

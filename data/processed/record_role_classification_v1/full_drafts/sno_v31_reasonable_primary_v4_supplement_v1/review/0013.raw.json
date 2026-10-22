@@ -1,0 +1,28 @@
+{
+  "id": "7c678337-35f6-47cc-858e-3572572fcea2",
+  "object": "chat.completion",
+  "created": 1791895571,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-794a854f45bfcfa23ddd\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"投资管培生：'投资'指向金融专业职能，但'管培生'培养性质且最终方向未明确，无法确定具体金融业务方向，应标 unresolved 而非 review。\"},{\"occupation_id\":\"TG-acc57c63d5dca23d88dd\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"营运管培生：'营运'可指业务运营，但'管培生'培养性质且最终方向未明确，无法确定具体运营方向，应标 unresolved。\"},{\"occupation_id\":\"TG-b98bbc94d808fa318a8d\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"新零售校招生：'新零售'涉及电商、门店零售等多方向，'校招生'培养性质，最终职能未明确，应标 unresolved。\"},{\"occupation_id\":\"TG-24465b9398a29631cb6a\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"职能服务岗：'职能服务'过于宽泛，可能涉及人力、行政、财务等多职能，无法确定具体方向，应标 unresolved。\"},{\"occupation_id\":\"TG-a655a94e560c7200e7e4\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"门店零售管培生：标题明确'门店零售'，核心职能为门店销售，归 L13-05 门店导购与营业销售，'管培生'为培养标签不改变专业职能归属，归属合理。\"},{\"occupation_id\":\"TG-5f741dc3f8290c2b5bfa\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"数字化技术岗：'数字化技术'范围宽泛，可能涉及软件开发、数据、IT 运维等多方向，无法确定具体技术职能，应标 unresolved。\"},{\"occupation_id\":\"TG-18297c876ffe45d8cc2a\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"管理培训生（相关专业：人工智能、交通运输、物流管理与工程、财务管理、经济学、人力资源管理）：相关专业涵盖多领域，最终职业方向未明确，应标 unresolved。\"},{\"occupation_id\":\"TG-362284e2ca52ef337319\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"2026MTS管培生：MTS 管培生，最终职业方向未明确，应标 unresolved。\"},{\"occupation_id\":\"TG-2e7e8cc7e2818be6e9c0\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"上海分行运营培训生：银行运营培训生，运营方向可能涉及柜面、后台等多个金融运营岗位，最终方向未明确，应标 unresolved。\"},{\"occupation_id\":\"TG-a5f1781e4d9488cb01ce\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"英才生（对公业务营销、零售业务营销、运营、财会、风险专业管理）：标题涵盖对公营销、零售营销、运营、财会、风险等多方向，最终职业方向未明确，应标 unresolved。\"},{\"occupation_id\":\"TG-893d2f27f2460451ef04\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"岗研发储备岗：'研发储备岗'未说明具体研发方向，无法确定技术领域，应标 unresolved。\"},{\"occupation_id\":\"TG-2dd58d396798a4bc8643\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"助理工程师（专业要求：物理学、光学工程、核科学与技术、电气工程、电子科学与技术、机械工程、仪器科学与技术、控制科学与工程、信息与通信工程、计算机科学与技术、动力工程及工程热......）：专业要求涵盖物理、电气、电子、机械、计算机等多工程领域，具体职能方向未明确，应标 unresolved。\"},{\"occupation_id\":\"TG-584833899a0d0b2804ad\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外PE工程师：PE 通常指 Process Engineer（工艺工程师），核心职能为制造工艺，归 L06-08 工艺与制造工程，归属合理。\"},{\"occupation_id\":\"TG-958e33cf8ae98e7e19d0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"物资设备岗：核心职能为物资与设备采购管理，归 L16-01 采购与供应商管理，归属合理。\"},{\"occupation_id\":\"TG-b7de5b4145f9b066548f\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"多职能队员：'多职能队员'未说明具体职能，无法确定职业方向，应标 unresolved。\"},{\"occupation_id\":\"TG-31854016a49801dba928\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"工程师（自动化、电气、基建、设备）：标题涵盖自动化、电气、基建、设备等多工程方向，无法确定唯一具体职能，应标 unresolved。\"},{\"occupation_id\":\"TG-194fdaaf2568cca8b787\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"量子计算工程师：核心职能为量子计算技术研发，属自然科学基础研究范畴，归 L07-01 自然科学基础研究，归属合理。\"},{\"occupation_id\":\"TG-347628cf13d95de82ace\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"器械管培生：器械管培生，最终职业方向未明确，应标 unresolved。\"},{\"occupation_id\":\"TG-2ed5d08113b90759cbdf\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"管理岗位：'管理岗位'过于宽泛，未说明具体管理领域，无法确定职业方向，应标 unresolved。\"},{\"occupation_id\":\"TG-46572d2869a684db62a5\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"项目管培生：项目管理领域未明确，且为培养性质，应标 unresolved。\"},{\"occupation_id\":\"TG-f63ac49b4832b1f16778\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"研发与品控专员：标题涵盖研发与品控两个方向，研发领域未明确，品控方向也未明确，无法确定唯一具体职能，应标 unresolved。\"},{\"occupation_id\":\"TG-3dc424de4b81054f740a\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"产品GTM培训生：GTM 涉及产品上市与市场推广，具体职能方向未明确，应标 unresolved。\"},{\"occupation_id\":\"TG-98639a88e4ed28015f44\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"信息自动化及数字化建设岗：涉及信息技术、自动化、数字化等多方向，无法确定具体技术职能，应标 unresolved。\"},{\"occupation_id\":\"TG-9368b683e464273d8cb0\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"储备职能岗(行政人资财务法务 供应链采购)：涵盖行政、人资、财务、法务、供应链采购等多职能，最终方向未明确，应标 unresolved。\"},{\"occupation_id\":\"TG-c1812fe8d48b9f50cb10\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研究员（数智化方向）：核心职能为数据与人工智能技术研究，具体方向未明确，归 L02-09 通用数据与人工智能工作，归属合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 20559,
+    "completion_tokens": 1771,
+    "total_tokens": 22330,
+    "prompt_tokens_details": {
+      "cached_tokens": 20352
+    },
+    "prompt_cache_hit_tokens": 20352,
+    "prompt_cache_miss_tokens": 207
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

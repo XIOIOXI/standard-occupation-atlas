@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-54c60d51e663d16e2bd07c4f275448d9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L03-06",
+        "L14-10",
+        "L14-09"
+      ],
+      "title_evidence": "标题仅为“技术支持”，未说明是内部IT支持、客户售后技术支持还是售前技术支持",
+      "level_3_evidence": null,
+      "reason": "“技术支持”为泛化称谓，可能对应企业内部IT支持（L03-06）、客户售后技术服务（L14-10）或售前技术方案支持（L14-09），标题证据不足以唯一确定二级方向，需人工确认具体职责。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16978,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 338,
+    "output_tokens": 163,
+    "reasoning_tokens": 0,
+    "total_tokens": 17141
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039684000000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

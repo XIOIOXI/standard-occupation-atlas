@@ -1,0 +1,185 @@
+{
+  "batch_number": 71,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "cd659fec-49a4-40c5-aee9-bf9d1dbf69fe",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791822046,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29582,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2190,
+    "output_tokens": 1294,
+    "reasoning_tokens": 0,
+    "total_tokens": 30876
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001187076
+  },
+  "results": [
+    {
+      "entry_id": "SNO-f8c42336e5de083f5882",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "材料类管培生为培养项目且未指明具体职能方向，无法确认职业类别。"
+    },
+    {
+      "entry_id": "SNO-f8d680791fcef5774d37",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "经营管理名称泛化，缺少具体职能信息，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-f8f6426015958b1cfc6f",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "reason": "架构建模工程师可确认属于互联网/AI后端开发下的平台与中间件开发，但名称未明确技术栈，保留复核。"
+    },
+    {
+      "entry_id": "SNO-f9646903d3f38c4e8c6d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "团队搭建含义模糊，非明确职业名称，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-f978cc88cfbd996d4633",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "品经理疑似截断，无法确定是产品经理还是其他岗位。"
+    },
+    {
+      "entry_id": "SNO-f997325050da58b5e8ef",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出人工智能数智化建设、发电运行技术、设备运维检修、工程技术实施、能源技术创新等多个互不兼容方向，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-f9ce74828bfd99d3bfd2",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出技术动画、关卡美术、商业化策划、游戏逻辑程序员、动画师、游戏策划等多个独立岗位，无共同三级或二级。"
+    },
+    {
+      "entry_id": "SNO-f9ee52783b9e7d022d06",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含电商运营与人力资源管培生两个独立职业，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-fa404aba5cd905581a27",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "现场代表职责与行业不明确，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-fa5a6d299401e355bbfe",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "产品线管培生为培养项目且缺少具体产品方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-fa932479e82e9612277f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "洛阳分行本部业务管理为银行机构与业务管理描述，缺少具体岗位方向，无法确认三级。"
+    },
+    {
+      "entry_id": "SNO-fa96b0dea7ed3c6575a9",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "数字管理研发工程师计算机名称不完整，缺少具体技术方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-faf3d9c8ed53a0ba730d",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出营销策划、交易员、基金会计三个独立职业，无共同三级或二级。"
+    },
+    {
+      "entry_id": "SNO-fb3778e44096904068eb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "技术开发名称过于宽泛，缺少具体技术栈或方向，无法确认三级。"
+    },
+    {
+      "entry_id": "SNO-fb6ebb769abf42657dfb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "全能值班员缺少行业背景，无法确认具体职业类别。"
+    },
+    {
+      "entry_id": "SNO-fb71bb61fe9ee35fb03d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "工程数字技术职责不明确，缺少具体技术方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-fbe0f1835f11b4fe005d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "新能源技术岗涵盖多个工程方向，缺少具体岗位职责，无法确认三级。"
+    },
+    {
+      "entry_id": "SNO-fc17a0848f44e4d646fc",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "设备测量储备职责不明确，缺少具体技术方向或行业信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-fc2080eb6fc3cfd61dfe",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "助理工程师缺少具体技术方向，无法确认细分领域。"
+    },
+    {
+      "entry_id": "SNO-fc42de8ced809920dbb0",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "管培生专项计划为培养项目，缺少具体职能方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-fc9ada7a9cd922eb7abc",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科研技术职责不明确，缺少具体行业或技术方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-fca92aa0e3775a3082de",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "服务专员名称过于宽泛，缺少行业或服务类型信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-fcc7586a11c9b63d8aaa",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "助理研发工程师研发方向不明确，无法确认具体技术领域。"
+    },
+    {
+      "entry_id": "SNO-fccf3d86d474f2c4ce7e",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件设计工程师可确认属于互联网/AI后端开发下的业务服务端开发，但名称未明确技术栈，保留复核。"
+    },
+    {
+      "entry_id": "SNO-fd1ab18f26928fbe8842",
+      "status": "review",
+      "target_category_id": "供应链/物流/supply-warehouse",
+      "reason": "物资设备管理可确认属于供应链/物流仓储，但未明确入库或出库方向，保留复核。"
+    }
+  ]
+}

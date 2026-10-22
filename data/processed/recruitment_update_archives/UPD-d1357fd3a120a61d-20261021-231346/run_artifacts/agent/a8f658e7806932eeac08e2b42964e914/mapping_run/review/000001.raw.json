@@ -1,0 +1,28 @@
+{
+  "id": "c1b381b7-ccf0-43d4-a5ae-e61126306f56",
+  "object": "chat.completion",
+  "created": 1792571430,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-a8f658e7806932eeac08e2b42964e914\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L16-01\",\"issue\":\"采购助理工程师主归属采购与供应商管理合理；未说明采购物料类型，停在二级L16-01恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17040,
+    "completion_tokens": 79,
+    "total_tokens": 17119,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 528
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

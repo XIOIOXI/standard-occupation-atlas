@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-32ae3fb13f85abb9e3e1463edabccc18",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L13-07",
+        "L32-01"
+      ],
+      "title_evidence": "标题明确为“销售部门管理培训生”，职能方向为销售，且属于部门定向培养而非跨职能轮岗。",
+      "level_3_evidence": null,
+      "reason": "标题已明确销售职能，按规则“已明确销售等职能时归专业目录并加培养标签”，不归 L32 跨职能轮岗；客户类型与销售方向未说明，故归 L13-09 通用销售。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16974,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 334,
+    "output_tokens": 166,
+    "reasoning_tokens": 0,
+    "total_tokens": 17140
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00039924000000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

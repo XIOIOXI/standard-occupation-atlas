@@ -1,0 +1,28 @@
+{
+  "id": "379e9cd8-6696-43e1-be2b-fba26236cba4",
+  "object": "chat.completion",
+  "created": 1792571544,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-6de67d28f5a2eea94a6eb1955dcd7880\",\"status\":\"mapped\",\"target_category_id\":\"L01-02\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L01-02-01\",\"L01-02-02\"],\"title_evidence\":\"标题明确为“后端研发工程师”，属于服务端业务系统与接口开发方向\",\"level_3_evidence\":null,\"reason\":\"后端研发工程师直接对应后端开发（L01-02）；标题未说明是业务服务还是服务端基础设施，故停在二级，不强行细分三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16939,
+    "completion_tokens": 146,
+    "total_tokens": 17085,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 299
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b27206eb-4ceb-4786-8234-387f70cececb",
+  "object": "chat.completion",
+  "created": 1792596307,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-c2b1c501cd013cd64ba7ce436e048f62\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-03-02\",\"issue\":\"底盘工程师归车辆底盘专业工程，合理。\"},{\"occupation_id\":\"UP-9be7b3c0d96701cdc317ad4c298c7bd5\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-03-02\",\"issue\":\"整车人机布置属车辆专业工程，合理。\"},{\"occupation_id\":\"UP-e7e680fc906e1ce6df4991ef36bf1f86\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L05-01-02\",\"issue\":\"汽车电器系统归电子系统集成，合理。\"},{\"occupation_id\":\"UP-b1c30917d41835aa3091bd3ea0c1be18\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L10-02\",\"issue\":\"汽车研发项目管理归研发项目管理，合理。\"},{\"occupation_id\":\"UP-b08bf1403571f74ce820b37ed6c781c3\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L08-02-02\",\"issue\":\"商用车产品规划归工业与专业设备产品，合理。\"},{\"occupation_id\":\"UP-7b8e9ac1972f37317828370ca5ff9c4f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-03-02\",\"issue\":\"车架设计属车辆底盘专业工程，合理。\"},{\"occupation_id\":\"UP-914c7b02b307f35f0823d92c20474a65\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-03-02\",\"issue\":\"悬架系统属车辆底盘专业工程，合理。\"},{\"occupation_id\":\"UP-dd379b78ea0648981b7bc96a7913f505\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-02\",\"issue\":\"整车冷却系统归热流体与动力工程，合理。\"},{\"occupation_id\":\"UP-3e211c15a6eb3759f915b851d19a2e89\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-03-02\",\"issue\":\"车架设计属车辆底盘专业工程，合理。\"},{\"occupation_id\":\"UP-d64b19c17fcfbec12f4b8c30e79c92eb\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-03-02\",\"issue\":\"车身开发属车辆专业工程，合理。\"},{\"occupation_id\":\"UP-66571f1e5480edc629c22ad0c4bce748\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-03-02\",\"issue\":\"车身开发属车辆专业工程，合理。\"},{\"occupation_id\":\"UP-cb1741640dfcfcecf9363e5068a6cc45\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-04-02\",\"issue\":\"材料研发方向未明，取高分子与复合材料为候选之一，可接受。\"},{\"occupation_id\":\"UP-ddcd64739fca7c6386e499fd7b91238b\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-08-01\",\"issue\":\"技术工艺归制造制程工程，合理。\"},{\"occupation_id\":\"UP-202d08c1089c7ab0a0564a8908c0f37a\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-08-01\",\"issue\":\"生产工艺归制造制程工程，合理。\"},{\"occupation_id\":\"UP-a01c690697e7e43d16e268a6513bf358\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L23-09-02\",\"issue\":\"制造企业设备维护保全，合理。\"},{\"occupation_id\":\"UP-47c106b3b1f245d7e5fa2df18c4e2cf8\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L04-03-01\",\"issue\":\"制造过程质量管理，合理。\"},{\"occupation_id\":\"UP-0f1bc99f9e10965dd364f6bf0c106857\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L16-01-01\",\"issue\":\"制造企业直接物料采购，合理。\"},{\"occupation_id\":\"UP-784e7512836c65b2ab26609987e3faa3\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L16-03\",\"issue\":\"计划工程师归需求与物料计划，合理。\"},{\"occupation_id\":\"UP-b16b966e7acfa7e3d72112a861f3d9be\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-01-01\",\"issue\":\"面向企业客户销售，归直客销售，合理。\"},{\"occupation_id\":\"UP-631b2e5d3eb9c832f1a3a1e57fe27a4d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"经营管培生最终职能未明，标review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22671,
+    "completion_tokens": 1169,
+    "total_tokens": 23840,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 6159
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

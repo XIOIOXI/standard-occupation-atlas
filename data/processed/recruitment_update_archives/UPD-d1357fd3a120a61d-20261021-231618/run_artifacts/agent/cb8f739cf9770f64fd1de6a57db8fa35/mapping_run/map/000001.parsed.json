@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-cb8f739cf9770f64fd1de6a57db8fa35",
+      "status": "mapped",
+      "target_category_id": "L01-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-09",
+        "L03-02",
+        "L05-01"
+      ],
+      "title_evidence": "标题为“数据中心系统架构师”，核心职责为数据中心系统架构设计",
+      "level_3_evidence": null,
+      "reason": "“系统架构师”明确指向软件/系统架构设计职能，归入软件架构（L01-09）；数据中心场景可能涉及基础设施，但标题未明确为运维或硬件研发，故不选三级。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16948,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 308,
+    "output_tokens": 150,
+    "reasoning_tokens": 0,
+    "total_tokens": 17098
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037224000000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

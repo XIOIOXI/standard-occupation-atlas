@@ -1,0 +1,24 @@
+{
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "model": "deepseek-flash",
+  "body": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "只输出合法JSON对象。"
+      },
+      {
+        "role": "user",
+        "content": "输出 {\"status\":\"ok\"}，不要包含其他字段。"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "temperature": 0,
+    "max_tokens": 32,
+    "stream": false
+  },
+  "note": "No credential is stored in this request artifact."
+}

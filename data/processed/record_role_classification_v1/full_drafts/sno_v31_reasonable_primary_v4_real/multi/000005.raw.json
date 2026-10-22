@@ -1,0 +1,28 @@
+{
+  "id": "226cd23c-54e3-4fad-8917-f3ccc54ee486",
+  "object": "chat.completion",
+  "created": 1791883552,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\n  \"results\": [\n    {\n      \"original_record_id\": \"TG-1f77aa1324c53996d2e6\",\n      \"case\": \"A\",\n      \"child_titles\": [\"AI导演\", \"制作AI研发工程师\"],\n      \"source_spans\": [\n        {\"text\": \"AI导演\", \"start\": 0, \"end\": 5},\n        {\"text\": \"制作AI研发工程师\", \"start\": 6, \"end\": 15}\n      ],\n      \"reason\": \"标题由斜杠分隔的两个独立岗位组成，可拆分。\"\n    },\n    {\n      \"original_record_id\": \"TG-6c4c39269c6c661f5250\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"括号内为专业方向列表，非独立岗位，整体为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-dcdd04b6f48bbcc58adb\",\n      \"case\": \"A\",\n      \"child_titles\": [\"硬件\", \"软件开发\"],\n      \"source_spans\": [\n        {\"text\": \"硬件\", \"start\": 0, \"end\": 2},\n        {\"text\": \"软件开发\", \"start\": 3, \"end\": 7}\n      ],\n      \"reason\": \"标题由斜杠分隔的两个独立岗位组成，可拆分。\"\n    },\n    {\n      \"original_record_id\": \"TG-90ac150b21b9bd500fab\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"标题为多个词连写，无分隔符，视为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-3733cf6825865e70a06a\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"括号内为专业方向列表，非独立岗位，整体为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-08299f51642c33bd7e47\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"标题为多个词连写，无分隔符，视为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-c33184aaf9ac3a33de2c\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"标题为多个词连写，无分隔符，视为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-a502e73f4aeb5ad94a40\",\n      \"case\": \"A\",\n      \"child_titles\": [\"产品策划\", \"运营\"],\n      \"source_spans\": [\n        {\"text\": \"产品策划\", \"start\": 0, \"end\": 4},\n        {\"text\": \"运营\", \"start\": 5, \"end\": 7}\n      ],\n      \"reason\": \"标题由斜杠分隔的两个独立岗位组成，可拆分。\"\n    },\n    {\n      \"original_record_id\": \"TG-662c91c30ad6dd772858\",\n      \"case\": \"A\",\n      \"child_titles\": [\"暖通\", \"电气工程师\"],\n      \"source_spans\": [\n        {\"text\": \"暖通\", \"start\": 0, \"end\": 2},\n        {\"text\": \"电气工程师\", \"start\": 3, \"end\": 8}\n      ],\n      \"reason\": \"标题由斜杠分隔的两个独立岗位组成，可拆分。\"\n    },\n    {\n      \"original_record_id\": \"TG-88ae488c14d184010c34\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"标题为多个词连写，无分隔符，视为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-0f7b15a48ad438b7fd73\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"标题为多个词连写，无分隔符，视为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-a529caaabd5a65487b0c\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"标题为多个词连写，无分隔符，视为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-d2d2a5b5e42b8152a2c8\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"标题为多个词以空格分隔，但无明确拆分依据，视为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-c013d0369586affcd63b\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"括号内为技术方向列表，非独立岗位，整体为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-ef07076a92381e6ddeae\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"标题为多个词连写，无分隔符，视为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-48de96acce9ab20f8a20\",\n      \"case\": \"A\",\n      \"child_titles\": [\"生管\", \"采购管理师\"],\n      \"source_spans\": [\n        {\"text\": \"生管\", \"start\": 0, \"end\": 2},\n        {\"text\": \"采购管理师\", \"start\": 3, \"end\": 8}\n      ],\n      \"reason\": \"标题由斜杠分隔的两个独立岗位组成，可拆分。\"\n    },\n    {\n      \"original_record_id\": \"TG-d678b5212ab096012010\",\n      \"case\": \"A\",\n      \"child_titles\": [\"后端\", \"版图工程师\"],\n      \"source_spans\": [\n        {\"text\": \"后端\", \"start\": 0, \"end\": 2},\n        {\"text\": \"版图工程师\", \"start\": 3, \"end\": 8}\n      ],\n      \"reason\": \"标题由斜杠分隔的两个独立岗位组成，可拆分。\"\n    },\n    {\n      \"original_record_id\": \"TG-4bb3d262ec4a10a6956e\",\n      \"case\": \"A\",\n      \"child_titles\": [\"西医\", \"法硕教辅老师\"],\n      \"source_spans\": [\n        {\"text\": \"西医\", \"start\": 0, \"end\": 2},\n        {\"text\": \"法硕教辅老师\", \"start\": 5, \"end\": 11}\n      ],\n      \"reason\": \"标题由斜杠分隔的两个独立岗位组成，可拆分。\"\n    },\n    {\n      \"original_record_id\": \"TG-478087419b00acc76506\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"标题为多个词连写，无分隔符，视为单一岗位。\"\n    },\n    {\n      \"original_record_id\": \"TG-e2dab295bf1069eede59\",\n      \"case\": \"B\",\n      \"child_titles\": [],\n      \"source_spans\": [],\n      \"reason\": \"标题为多个词连写，无分隔符，视为单一岗位。\"\n    }\n  ]\n}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 930,
+    "completion_tokens": 1692,
+    "total_tokens": 2622,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 930
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

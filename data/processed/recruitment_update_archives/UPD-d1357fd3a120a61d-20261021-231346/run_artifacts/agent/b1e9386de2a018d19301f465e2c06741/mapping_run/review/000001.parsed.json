@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-b1e9386de2a018d19301f465e2c06741",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-04-01",
+      "issue": "电商助理归入电商店铺运营，职能方向明确，合理。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17060,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 548,
+    "output_tokens": 81,
+    "reasoning_tokens": 0,
+    "total_tokens": 17141
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000360672
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

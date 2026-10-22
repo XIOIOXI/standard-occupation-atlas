@@ -1,0 +1,28 @@
+{
+  "id": "83f93a05-9ad9-4541-aee8-f49a7b8c1880",
+  "object": "chat.completion",
+  "created": 1792571462,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-0dd0fae3a1953bdaaf771b56c447b22e\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L16-01\", \"issue\": \"物资管理业务员归采购与供应商管理合理；未明确直接/间接物料，停在二级可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17054,
+    "completion_tokens": 90,
+    "total_tokens": 17144,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 542
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

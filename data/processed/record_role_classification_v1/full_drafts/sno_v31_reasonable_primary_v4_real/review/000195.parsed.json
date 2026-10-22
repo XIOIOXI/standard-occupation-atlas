@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-4f7ced3c3b525a2ccb15",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题仅含分析师，分析对象与职能领域未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-604e8846f31dc271832b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "编译器与库工程师归编译器与语言工具，合理。"
+    },
+    {
+      "occupation_id": "TG-34a555dd7f30c8632a0d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "交互设计工程师归交互与体验设计，合理。"
+    },
+    {
+      "occupation_id": "TG-6684fd24814741a06444",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "水稻育种科研人员归农业与种植技术，合理。"
+    },
+    {
+      "occupation_id": "TG-b16ede7e4623f105b13c",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行柜员归金融运营与交易清算，合理。"
+    },
+    {
+      "occupation_id": "TG-603143dd48b92de8b332",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "TikTok社媒运营归内容与新媒体运营，合理。"
+    },
+    {
+      "occupation_id": "TG-4f75aceb8b943f63f1e8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含装调工艺、产品工艺、信息化工程师多角色，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-fb39207efb5a0eb14f9d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "品牌经理归品牌管理，合理。"
+    },
+    {
+      "occupation_id": "TG-7571820b427985ac3903",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "测试设备工程师归硬件与产品测试，合理。"
+    },
+    {
+      "occupation_id": "TG-4e82082d7e17659fc757",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "品牌营销管培生职能明确为品牌营销，归市场策略与营销策划，合理。"
+    },
+    {
+      "occupation_id": "TG-e6d84d88d98a82c8c221",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "生产管理工程师归生产计划与现场管理，合理。"
+    },
+    {
+      "occupation_id": "TG-6472e383a413deec1e12",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "中药管培生可能为药学服务或药物研发，方向未明确，review合理。"
+    },
+    {
+      "occupation_id": "TG-6db5363476857a33ca45",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "DFB制程工程师归制造制程工程，合理。"
+    },
+    {
+      "occupation_id": "TG-e4d43c0b25a7061fc5fe",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "信息化咨询工程师归行业与业务咨询，合理。"
+    },
+    {
+      "occupation_id": "TG-431f3e170c471876fac8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含嵌入式软件开发与机械设计多角色，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-8229369fd1831fe14317",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "组板员归一般生产操作，合理。"
+    },
+    {
+      "occupation_id": "TG-67a52dcfd42bf6d769a5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "HSE培训生归安全健康与职业防护，合理。"
+    },
+    {
+      "occupation_id": "TG-fba8da4b020b7fa73ade",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅语言名称的C/C++软件工程师归通用软件研发，合理。"
+    },
+    {
+      "occupation_id": "TG-07ed19ce3bccefb8372f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "临床研究协调员归临床研究运营，合理。"
+    },
+    {
+      "occupation_id": "TG-1089f1dd24d2665187e0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "热管理岗归热流体与动力工程，合理。"
+    }
+  ],
+  "raw_response_file": "000195.raw.json",
+  "usage": {
+    "input_tokens": 19413,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2901,
+    "output_tokens": 976,
+    "reasoning_tokens": 0,
+    "total_tokens": 20389
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0021405720000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-fdb3692ead52eeb12c00\", \"title\": \"数字化科技类职能类营销管理类金融产品筛选类法务/风控/合规类产品存续类\"}, {\"original_record_id\": \"TG-67c3da8344d6095694ca\", \"title\": \"实习量化研究员新媒体&渠道运营\"}, {\"original_record_id\": \"TG-42ba5ea926763102d100\", \"title\": \"产品开发自动化储备品质工程(QE)原材料检验经管IE管理及技术储备P(英语/语言)项目助理(英语/阿拉伯语）\"}, {\"original_record_id\": \"TG-86d33a80e1a9daff78f2\", \"title\": \"现场作业方向 技术服务及项目管理方向市场营销方向经营分析方向 人力资源方向财务管理方向法务方向IT技术方向外部资源及供应链管理方向\"}, {\"original_record_id\": \"TG-597159ca4db71e499794\", \"title\": \"生产技术类(电气类、能动类、机械类职能管理类(会计、财务管理、市场营销、法学)\"}, {\"original_record_id\": \"TG-77ff38e6e3c9ca91c8b3\", \"title\": \"职能岗（物理、化学、光伏、机械工程、材料科学与工程、安全管理、土木工程、计划管理、人力资源、法学类、人文社科、经济类、财会类、市场营销类等）\"}, {\"original_record_id\": \"TG-ecc8919b1772e760eadd\", \"title\": \"财富星耀生 固收星耀生 星途星耀生RWA业务星耀生战略投资星耀生科技研发星耀生星链星耀生研究星耀生 合规星耀生产品运营星耀生 人力星耀生\"}, {\"original_record_id\": \"TG-f3509ea913e82c06de10\", \"title\": \"软件开发工程师(嵌入式、JAVA、Android)\"}, {\"original_record_id\": \"TG-ebf29396a4533fc1f42a\", \"title\": \"管理培训生(总助/法务/财务/商务/采购等)\"}, {\"original_record_id\": \"TG-129e2332ee45e9210fa3\", \"title\": \"理科文字编辑岗\\\\\\\\会计\"}, {\"original_record_id\": \"TG-7be1adcc7b2d3b241413\", \"title\": \"商品运营 后端产品开发工程师 门店运营\"}, {\"original_record_id\": \"TG-586e993854465c9888d2\", \"title\": \"护理专业教师（机械类、艺术设计类、电气自动化类、化工与制药类、环境生态类、工商管理类、法学类、新闻传播学类、表演......\"}, {\"original_record_id\": \"TG-a72f1524060ae4aa12c0\", \"title\": \"新媒体运营人事行政管培生\"}, {\"original_record_id\": \"TG-a4580fb1837a043f6fad\", \"title\": \"市场类（销售管理、媒体运营、政企客户经理）\"}, {\"original_record_id\": \"TG-a9c6c7989e3fc32d4389\", \"title\": \"设备工程师-电气/视觉/软件\"}, {\"original_record_id\": \"TG-ea9d1c203ca7498f7b9b\", \"title\": \"审计法务\"}, {\"original_record_id\": \"TG-dd350a0a64a22aeded07\", \"title\": \"审计法务岗\"}, {\"original_record_id\": \"TG-f6dcd222a730ba895932\", \"title\": \"海外营销/技术支持\"}, {\"original_record_id\": \"TG-55ea7d300a85a1be7c8d\", \"title\": \"海外营销 / 技术支持\"}, {\"original_record_id\": \"TG-b34cd6de0e76dd72de81\", \"title\": \"信息安全与系统运维工程师\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-fdb3692ead52eeb12c00",
+    "TG-67c3da8344d6095694ca",
+    "TG-42ba5ea926763102d100",
+    "TG-86d33a80e1a9daff78f2",
+    "TG-597159ca4db71e499794",
+    "TG-77ff38e6e3c9ca91c8b3",
+    "TG-ecc8919b1772e760eadd",
+    "TG-f3509ea913e82c06de10",
+    "TG-ebf29396a4533fc1f42a",
+    "TG-129e2332ee45e9210fa3",
+    "TG-7be1adcc7b2d3b241413",
+    "TG-586e993854465c9888d2",
+    "TG-a72f1524060ae4aa12c0",
+    "TG-a4580fb1837a043f6fad",
+    "TG-a9c6c7989e3fc32d4389",
+    "TG-ea9d1c203ca7498f7b9b",
+    "TG-dd350a0a64a22aeded07",
+    "TG-f6dcd222a730ba895932",
+    "TG-55ea7d300a85a1be7c8d",
+    "TG-b34cd6de0e76dd72de81"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "batch_number": 30,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "75ae66f2-b119-44ba-9afc-1b66a1fef22b",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821840,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29546,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2154,
+    "output_tokens": 1427,
+    "reasoning_tokens": 0,
+    "total_tokens": 30973
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0012614759999999999
+  },
+  "results": [
+    {
+      "entry_id": "SNO-4d120326295b876dfa55",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“管理精英”过于笼统，未指明具体职能或行业，无法确认任何一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-4d3b9d8ada27b0b9f2e1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“后评价”名称模糊，缺少职能或行业信息，无法确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-4d3cce865aa3b1f521f3",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出零售、电商运营、技术、人力、行政、财务、法务、设计、供应链质量等多个互不兼容的独立职业，且无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-4d8a4362b170b891b4e2",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出材料研发、工艺技术、生产品质、装备管理、市场开发、人力资源等多个独立职业，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-4d9aabf39883bcdd9f3d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“SE工程师”缩写含义不明确，缺少具体技术方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-4db341867e6d7994e2eb",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "“IT研发”仅能确认属于互联网/AI一级，具体三级方向（后端、前端、数据等）不足。"
+    },
+    {
+      "entry_id": "SNO-4dd39fbbf592254584a5",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "“应用研发工程师”仅能确认互联网/AI一级，未指明技术栈，无法确定具体三级类别。"
+    },
+    {
+      "entry_id": "SNO-4e4470a2c12b5e6deefa",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "“法务风控”同时包含法务与风控两个互不兼容的独立职业，且无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-4e5a908c6d62ce157b6b",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "“AI产品全栈工程师”同时包含产品与全栈开发两个独立职业方向，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-4e68c6acf597ab6bcd60",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "“软件研发”仅能确认互联网/AI一级，未指明技术栈或方向，无法确定具体三级类别。"
+    },
+    {
+      "entry_id": "SNO-4e9a005563cc4e8ec412",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“博士后科研”为身份/阶段描述，学科方向不明，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-4f18d0b0c3eb5da7cc99",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "“平台开发”仅能确认互联网/AI一级，缺少具体技术栈或平台方向，无法确定三级类别。"
+    },
+    {
+      "entry_id": "SNO-4f5dc23685a12174c9ee",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“商业管培生”为培训生身份，未说明具体业务方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-4f75aceb8b943f63f1e8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出装调工艺师、产品工艺师、信息化工程师多个互不兼容的独立岗位，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-4ff0f1dda80ff5936c46",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“研究”缺少具体研究领域信息，无法确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-4ffc52edfccaa230127e",
+      "status": "review",
+      "target_category_id": "金融",
+      "reason": "“金融业务类”仅能确认金融一级，缺少具体职能信息，无法确定二级或三级类别。"
+    },
+    {
+      "entry_id": "SNO-5001773e21bbab822c94",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“研究生”为学历身份而非职业，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-50032ac3bc836050246d",
+      "status": "review",
+      "target_category_id": "金融",
+      "reason": "“总行培训生(综合类)”为培训生身份，仅能确认金融一级，未指明具体岗位方向。"
+    },
+    {
+      "entry_id": "SNO-503dd4816b5d7b414638",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "“软件开发员”仅能确认互联网/AI一级，未指定技术栈，无法确定具体三级类别。"
+    },
+    {
+      "entry_id": "SNO-504fcb413b4ce2f7c1df",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“数字化”过于宽泛，缺少具体职能方向，无法确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-505b509542fd7df4a6d8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出游戏策划、游戏开发、商务管培生多个互不兼容的独立职业方向，无共同上级可确认。"
+    },
+    {
+      "entry_id": "SNO-5087f61c5929bc298f74",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "“水工设计”职业清晰，但冻结目录无水利工程相关类别，且无合适一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-50d43a8e3b28deb1aeee",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "“信息系统监理工程师”仅能确认互联网/AI一级，监理职责与目录三级不完全对应，无法确定具体三级类别。"
+    },
+    {
+      "entry_id": "SNO-50ed82330bab47aa0abf",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“矿产事业部业务助理”职责不明确，缺少具体业务方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-5100c71efe68f19f0f63",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出国际业务、产品、营销、用户增长、质量管理、人力资源等多个互不兼容的独立职能，无共同上级可确认。"
+    }
+  ]
+}

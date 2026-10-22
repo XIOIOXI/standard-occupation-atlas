@@ -1,0 +1,28 @@
+{
+  "id": "d128603a-8712-4c26-b020-e7a08bd1bf48",
+  "object": "chat.completion",
+  "created": 1792571212,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-fcb9259a504e3cd01b8af57c72324559\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L24-07\",\"issue\":\"工程建设岗归入L24-07施工组织与工程管理合理，标题未提供更细方向证据，停在二级恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17038,
+    "completion_tokens": 81,
+    "total_tokens": 17119,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 526
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

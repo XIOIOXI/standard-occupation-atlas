@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-2e31b7e07052bd7c8424b79ab2d2477e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "银行总行部门经办岗未明确具体金融业务方向，标review并给出L20-11/L20-08/L14-07候选合理，符合仅行业背景不足以确定职能的规则。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17003,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 491,
+    "output_tokens": 97,
+    "reasoning_tokens": 0,
+    "total_tokens": 17100
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000362772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

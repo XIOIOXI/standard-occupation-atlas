@@ -1,0 +1,28 @@
+{
+  "id": "da009922-2733-4676-ac0f-80bbaec7694f",
+  "object": "chat.completion",
+  "created": 1792596171,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-91b9cee4887b8695966136a6391952d3\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L32-01\",\"L32-02\",\"L14-11\"],\"title_evidence\":\"标题为“综合运营管培生”，含“管培生”培养属性与“综合运营”方向，但未说明具体运营职能或轮岗安排\",\"level_3_evidence\":null,\"reason\":\"“综合运营”方向不明确，无法确认是产品运营、用户运营还是跨职能轮岗；管培生标签不足以推断跨职能培养，故标 review，候选为跨职能管培与通用业务运营。\"},{\"occupation_id\":\"UP-b1e9386de2a018d19301f465e2c06741\",\"status\":\"mapped\",\"target_category_id\":\"L14-04-01\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L14-04-01\",\"L14-04-02\"],\"title_evidence\":\"“电商助理”明确为电商业务支持岗位，属电商运营范畴\",\"level_3_evidence\":\"电商店铺运营：电商助理通常承担店铺日常运营支持，符合“店铺交易及渠道运营”范围\",\"reason\":\"标题明确电商方向，最直接二级为电商与商品运营，助理层级承担店铺运营支持，归电商店铺运营。\"},{\"occupation_id\":\"UP-b246990aed669aebbb7197f224ef1b5d\",\"status\":\"mapped\",\"target_category_id\":\"L09-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L09-04\"],\"title_evidence\":\"“女装设计助理”明确为服装设计方向，属服装饰品与纺织设计\",\"level_3_evidence\":null,\"reason\":\"标题明确女装设计，最直接二级为服装饰品与纺织设计；该二级无三级细分，故目标为二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17350,
+    "completion_tokens": 431,
+    "total_tokens": 17781,
+    "prompt_tokens_details": {
+      "cached_tokens": 16768
+    },
+    "prompt_cache_hit_tokens": 16768,
+    "prompt_cache_miss_tokens": 582
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

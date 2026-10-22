@@ -1,0 +1,28 @@
+{
+  "id": "dad1be8c-bbe8-4632-b8e8-ab3bc10fa095",
+  "object": "chat.completion",
+  "created": 1792571615,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-99bb9f94fa14ccb2b7d4565758d44059\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L29-04-04\",\"issue\":\"助理形象顾问归化妆与形象造型合理；零售管培生等为同批次其他岗位，不影响本岗位判定。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17050,
+    "completion_tokens": 84,
+    "total_tokens": 17134,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 538
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

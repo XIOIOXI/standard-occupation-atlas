@@ -1,0 +1,185 @@
+{
+  "batch_number": 21,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "abea6957-d675-49a9-bc8a-29151aeaf37a",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813293,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "usage": {
+    "input_tokens": 30995,
+    "cached_input_tokens": 27264,
+    "uncached_input_tokens": 3731,
+    "output_tokens": 1894,
+    "reasoning_tokens": 0,
+    "total_tokens": 32889
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001777842
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-d543bd48773da5b0aa2b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "reason": "ADAS开发工程师核心为高级驾驶辅助系统开发，属于自动驾驶与智能交通算法方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-05d5efcb20a99f433828",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列生产跟单/文员与压铸机销售两个独立职业，符合multi_role。"
+    },
+    {
+      "occupation_id": "SNO-e290a33de473072684bb",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-finance",
+      "reason": "后台开发工程师(数字银行)核心为数字银行领域后端开发，归入金融与行业后端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-74e7622497a32e63d978",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "reason": "视觉系统软件开发核心为计算机视觉系统开发，归入计算机视觉与三维感知合理。"
+    },
+    {
+      "occupation_id": "SNO-b8c001cad77002d45e0e",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "新材料研发职业明确，但目录中无材料研发或化工研发对应三级类别，无法承接。"
+    },
+    {
+      "occupation_id": "SNO-19ee0d06a66ddede3cbb",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-risk",
+      "reason": "量化交易员C++/Python开发工程师核心为金融量化算法开发，归入金融与风控算法合理。"
+    },
+    {
+      "occupation_id": "SNO-1ea6efd44735e9f01cf2",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列行政文员、本地生活运营、支付运营、行业运营、测试工程师等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-5dd5058e98a4ca5b677a",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "应用设计与开发核心为应用软件开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-65e1bd63996fffc818d1",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "全栈开发工程师核心为软件开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-015d64b69276489ce73a",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "Software Development Engineer核心为软件开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-bc20247bbd26b04a0f82",
+      "decision": "fallback_review",
+      "target_category_id": "运营/客服/ops-business",
+      "reason": "保障运营名称过于宽泛，无法确认具体业务运营方向，仅可确认属于业务运营大类。"
+    },
+    {
+      "occupation_id": "SNO-e4293eb0f731c8c5a5e1",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "reason": "并行计算技术研究员属于高性能计算方向，归入C++图形与高性能计算合理。"
+    },
+    {
+      "occupation_id": "SNO-72af2da2f1f56ff318af",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "岗位名称明确列出法学、公安学、会计、财务管理、金融等多个独立专业方向。"
+    },
+    {
+      "occupation_id": "SNO-48f5ab1dc0a3e0724511",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "软件工程师(系统)核心为系统软件开发，归入业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-922aebb6709f8fbbe98b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "reason": "自动驾驶系统工程师(C++)核心为自动驾驶系统开发，归入自动驾驶与智能交通合理。"
+    },
+    {
+      "occupation_id": "SNO-9eded43d19c97e20ea9c",
+      "decision": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "载荷总体设计师属于航天/航空器总体设计，目录无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-9e6e70d01bd3c74442dd",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "机器人集群规划属于机器人算法与具身智能方向，当前归属合理。"
+    },
+    {
+      "occupation_id": "SNO-08b2e1865996184d019b",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列餐饮管理、财务管理、审计、信息管理等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-21f9cc46d24807fdb297",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列生产管理、计划管理、采购等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-bad0ee305f1c1dd29963",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm",
+      "reason": "人工智能架构师名称仅能确认属于算法工程师大类，无法确认具体为大模型与生成式AI方向。"
+    },
+    {
+      "occupation_id": "SNO-c8c6802f7348c887ae08",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-ops-support",
+      "reason": "国内售后工程师名称仅能确认属于运维/技术支持大类，无法确认具体为技术支持与客户交付方向。"
+    },
+    {
+      "occupation_id": "SNO-756c3418ca7c9aae357a",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-backend",
+      "reason": "系统开发名称过于宽泛，仅能确认属于后端开发大类，无法确认具体为业务服务端开发方向。"
+    },
+    {
+      "occupation_id": "SNO-3faec00b30a0f3a35de4",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列AI工程&全栈方向、AIAgent开发工程师、AI产品运营等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-01cb38a76bca4b314e25",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "岗位名称明确列出电子信息类、会计学、财务管理等多个独立专业方向。"
+    },
+    {
+      "occupation_id": "SNO-1d06b8f8acd889142e43",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-risk",
+      "reason": "量化AI工程师核心为金融量化算法开发，归入金融与风控算法合理。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "95c31d22-e4d6-4587-b56c-13c7138f9a95",
+  "object": "chat.completion",
+  "created": 1791880864,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-8f5d69986f5357c1b381\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"业务类管培生方向未明确，review合理。\"},{\"occupation_id\":\"TG-a741d14892e9a5d1006f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"光模块设计归有线与光通信技术合理。\"},{\"occupation_id\":\"TG-d8f81c5b6cd42194aa38\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"商业培训生方向未明确，review合理。\"},{\"occupation_id\":\"TG-69facf97d6bd70dbbccc\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"电机驱动开发归自动化与控制工程合理。\"},{\"occupation_id\":\"TG-56107e400bae2522c7a6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"碳中和领域助理归碳管理合理。\"},{\"occupation_id\":\"TG-107eb5bba53364f7fa80\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"模型推理优化归模型推理与服务合理。\"},{\"occupation_id\":\"TG-be8d16efdcc2a1bf8212\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"非岗位文本判定合理。\"},{\"occupation_id\":\"TG-22132637b23ddf147c28\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"客户顾问职能不明确，review合理。\"},{\"occupation_id\":\"TG-315769271314db2e886e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"渔港管理归公共事务与基层治理合理。\"},{\"occupation_id\":\"TG-1d91f51afd008094b129\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"商品研究岗归证券与市场研究合理。\"},{\"occupation_id\":\"TG-2c4c6e4e3b39cabc7c7b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发管培生方向未明确，归跨职能管理培训与轮岗合理。\"},{\"occupation_id\":\"TG-61182709e299fe983b7d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI产品助理归平台与技术产品合理。\"},{\"occupation_id\":\"TG-b98c79538cd9bd85cb47\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"视频剪辑实习生归剪辑与影视后期合理。\"},{\"occupation_id\":\"TG-8e3d940428414d761692\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"模型与数据安全工程师归安全架构与工程合理。\"},{\"occupation_id\":\"TG-384b64227ad57f6ebc85\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"智算支撑经理归训练评估与平台工程合理。\"},{\"occupation_id\":\"TG-a2b8de26514c068f59e5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"主任软件工程师方向未明确，归通用软件研发合理。\"},{\"occupation_id\":\"TG-dbce998e1487b246cbb5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字化运营工程师归产品与平台运营合理。\"},{\"occupation_id\":\"TG-bcb43a6504f62006d1fd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"光学镀膜工艺研发岗归制造制程工程合理。\"},{\"occupation_id\":\"TG-615564f852e957313db2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"数字芯片工程师归数字芯片设计合理。\"},{\"occupation_id\":\"TG-a25494575af66215fbd7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仪表与自控工程师归自动化与控制工程合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19556,
+    "completion_tokens": 919,
+    "total_tokens": 20475,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3044
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

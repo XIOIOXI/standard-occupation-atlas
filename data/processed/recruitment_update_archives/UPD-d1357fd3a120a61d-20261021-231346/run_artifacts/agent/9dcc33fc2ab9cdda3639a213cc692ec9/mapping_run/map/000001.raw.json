@@ -1,0 +1,28 @@
+{
+  "id": "482c40d8-3736-4a13-9c5b-a6274262c145",
+  "object": "chat.completion",
+  "created": 1792571516,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-9dcc33fc2ab9cdda3639a213cc692ec9\",\"status\":\"mapped\",\"target_category_id\":\"L16-02\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L16-02\",\"L16-03\",\"L16-01\",\"L32-01\"],\"title_evidence\":\"标题明确为“供应链部门管理培训生”，职能方向为供应链管理，且属于部门定向培养而非跨职能轮岗\",\"level_3_evidence\":null,\"reason\":\"标题直接指向供应链职能，L16-02供应链规划与管理覆盖供需协同与供应链策略，为最直接二级归属；虽含“管理培训生”字样，但已明确供应链部门职能，不归L32跨职能轮岗。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16974,
+    "completion_tokens": 171,
+    "total_tokens": 17145,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 334
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

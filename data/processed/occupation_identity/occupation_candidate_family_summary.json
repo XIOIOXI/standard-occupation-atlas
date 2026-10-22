@@ -1,0 +1,53 @@
+{
+  "candidate_generation_version": "occupation-identity-candidate-v1",
+  "baseline_job_group_count": 15846,
+  "unmapped_job_group_count": 14930,
+  "candidate_family_count": 1686,
+  "unresolved_singleton_count": 9368,
+  "confidence_counts": {
+    "high": 1341,
+    "medium": 339,
+    "low": 6
+  },
+  "family_size_distribution": {
+    "2": 1001,
+    "3": 285,
+    "4": 154,
+    "5": 66,
+    "6": 57,
+    "7": 29,
+    "8": 21,
+    "9": 11,
+    "10": 16,
+    "11": 8,
+    "12": 4,
+    "13": 7,
+    "14": 2,
+    "15": 2,
+    "16": 3,
+    "17": 2,
+    "18": 2,
+    "19": 3,
+    "20": 2,
+    "21": 3,
+    "22": 1,
+    "23": 2,
+    "27": 2,
+    "31": 1,
+    "33": 1,
+    "38": 1
+  },
+  "families_over_2": 685,
+  "families_over_5": 180,
+  "families_over_10": 46,
+  "families_over_20": 11,
+  "high_only_simulated_job_group_count": 12759,
+  "high_medium_upper_bound_simulated_job_group_count": 12057,
+  "semantic_review_candidate_family_count": 1680,
+  "validation": {
+    "no_duplicate_group_membership": true,
+    "job_groups_mutated": false,
+    "taxonomy_modified": false,
+    "skill_inference_executed": false
+  }
+}

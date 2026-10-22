@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-0a01597255761409a8353df57afc494c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-02",
+        "L13-09",
+        "L14-11"
+      ],
+      "title_evidence": "综合营销岗：标题仅表明营销/销售方向，未说明客户类型（个人或企业）及具体销售职责；context 为银行，但银行综合营销可能涉及个人客户销售、企业客户销售或业务运营，证据不足以唯一确定。",
+      "level_3_evidence": null,
+      "reason": "“综合营销”为泛化营销/销售岗位，缺少客户类型与职责证据，无法唯一映射到 L13-02 个人客户销售或 L13-09 通用销售；亦可能偏向业务运营（L14-11），故列为 review 候选。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16940,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 300,
+    "output_tokens": 196,
+    "reasoning_tokens": 0,
+    "total_tokens": 17136
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00042503999999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

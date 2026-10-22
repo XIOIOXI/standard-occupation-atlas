@@ -1,0 +1,158 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 4,
+  "processing_method": "deepseek_api_name_only",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "c6484984-a85c-4122-a132-b4075d662576",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791747357,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 20,
+  "usage": {
+    "input_tokens": 23515,
+    "cached_input_tokens": 22528,
+    "uncached_input_tokens": 987,
+    "output_tokens": 1139,
+    "reasoning_tokens": 0,
+    "total_tokens": 24654
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0008990339999999999
+  },
+  "observed_at_utc": "2026-10-11T19:35:58.228096+00:00",
+  "results": [
+    {
+      "standard_occupation_id": "SNO-3278ea5e459dd3a6833e",
+      "target_category_id": "财务/审计/税务/finance-risk/risk-credit",
+      "status": "review",
+      "reason": "风控创优生名称仅指向风控方向，无法确定三级"
+    },
+    {
+      "standard_occupation_id": "SNO-c03f8539d51207af0c9d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "review",
+      "reason": "算法集成工程师可归算法，但集成方向三级不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-f695c0780e0d47200402",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "review",
+      "reason": "光学算法工程师偏视觉算法，但三级无法唯一确定"
+    },
+    {
+      "standard_occupation_id": "SNO-3b2136e836af1dba2456",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-verification",
+      "status": "review",
+      "reason": "DFT可测性设计属芯片验证方向，但三级不完全匹配"
+    },
+    {
+      "standard_occupation_id": "SNO-fe326e2a66e9de2a564e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "检测员名称过于宽泛，无法确定行业与三级"
+    },
+    {
+      "standard_occupation_id": "SNO-89a4e92af365046c381f",
+      "target_category_id": "财务/审计/税务/finance-advisor/finance-advisory-transaction",
+      "status": "review",
+      "reason": "股权融资及财务顾问跨投融资与财务顾问，三级不唯一"
+    },
+    {
+      "standard_occupation_id": "SNO-25610785c7097a11c51f",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "review",
+      "reason": "专业课教师可归教师，但教学层级三级不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-3820b0a9f1fc2ec4b9d5",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "review",
+      "reason": "硬件研发工程师可归硬件开发，三级方向不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-969c4b609b7d6b9c231c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "总经办总裁助理名称不足以确定具体职业类别"
+    },
+    {
+      "standard_occupation_id": "SNO-f798f466da536c71f5e0",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "管培生涵盖研发、职能、商业化、生产供应链多方向"
+    },
+    {
+      "standard_occupation_id": "SNO-eb948c14cc98114d8a6b",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "review",
+      "reason": "证券事务经理偏证券运营，三级无法唯一确定"
+    },
+    {
+      "standard_occupation_id": "SNO-d4bfaa71f3fd126a2ed1",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "review",
+      "reason": "教学科研岗含多学科方向，三级无法唯一确定"
+    },
+    {
+      "standard_occupation_id": "SNO-2c46ed9676c2ed0f87ee",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "review",
+      "reason": "岗理财经理疑似理财经理，三级方向不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-2ce8813b2951bcfa826a",
+      "target_category_id": "人力/行政/法务/people-hr/hr-recruiting",
+      "status": "review",
+      "reason": "人力资源储备仅指向人力资源，三级方向不明确"
+    },
+    {
+      "standard_occupation_id": "SNO-7aa8337f42c770081967",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "基础设施互联互通促进中心专技名称不足以分类"
+    },
+    {
+      "standard_occupation_id": "SNO-7be74dbf3e482a24ab2d",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "私人教练团课全职兼职教练职能技术粘连多角色"
+    },
+    {
+      "standard_occupation_id": "SNO-7ddaeffb4285624bbfed",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "review",
+      "reason": "油气储运与新能源开发跨能源储运与开发，三级不唯一"
+    },
+    {
+      "standard_occupation_id": "SNO-bc8d911bdde59f0aabf1",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-internal",
+      "status": "review",
+      "reason": "财务内控偏内控内审，三级无法唯一确定"
+    },
+    {
+      "standard_occupation_id": "SNO-1ee6e8b56f32b3181ae8",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "review",
+      "reason": "算法工程师媒体算法方向，三级无法唯一确定"
+    },
+    {
+      "standard_occupation_id": "SNO-85d56bf4d4229ac85b31",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "工程名称过于宽泛，无法确定具体职业类别"
+    }
+  ]
+}

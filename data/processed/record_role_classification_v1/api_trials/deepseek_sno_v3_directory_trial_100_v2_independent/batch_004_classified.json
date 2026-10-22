@@ -1,0 +1,155 @@
+{
+  "schema_version": "deepseek-sno-v3-trial-batch-v2",
+  "batch_number": 4,
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 20,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "36df5a93-b6d7-41fd-a411-af66d3a1e581",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791833118,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 16362,
+    "cached_input_tokens": 15360,
+    "uncached_input_tokens": 1002,
+    "output_tokens": 1129,
+    "reasoning_tokens": 0,
+    "total_tokens": 17491
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00087378
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-e4d341f4cd2afe6354f7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“设备专训生”含培养身份，但未说明设备方向是研发、运维还是操作，缺少具体职能证据。"
+    },
+    {
+      "occupation_id": "SNO-4c36de3cdd0e40ea5a54",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "reason": "标题明确为发泡、吸塑、液压设计工程师，属机械与结构设计；三级方向未明确。"
+    },
+    {
+      "occupation_id": "SNO-a4db8a931fa6dad7ba8e",
+      "status": "mapped",
+      "target_category_id": "L22-06",
+      "reason": "“教学辅助”明确为教学辅助与学员服务，属教育教学类别。"
+    },
+    {
+      "occupation_id": "SNO-e7775146ab8db11695d5",
+      "status": "mapped",
+      "target_category_id": "L01-06-02",
+      "reason": "Firmware Design Engineer 明确为固件设计，归固件与底层驱动。"
+    },
+    {
+      "occupation_id": "SNO-6a017ef8e2e6ae1c3b71",
+      "status": "mapped",
+      "target_category_id": "L12-07",
+      "reason": "“营销业务”明确市场职能，但未说明策略、投放或渠道等具体方向。"
+    },
+    {
+      "occupation_id": "SNO-d5255b2ee156c31bce22",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "标题同时包含“软/硬件开发”两个独立岗位方向，应拆分。"
+    },
+    {
+      "occupation_id": "SNO-2a827b8ea0e55a4b53f8",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“安全管理储备”含储备身份，但未说明是生产安全、信息安全还是其他安全方向。"
+    },
+    {
+      "occupation_id": "SNO-28aab04f2ff7105005ee",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“公司业务培训生”仅说明银行公司业务方向，未明确具体金融业务职能。"
+    },
+    {
+      "occupation_id": "SNO-2f6c3eaa94fbaa29b523",
+      "status": "mapped",
+      "target_category_id": "L06-07-02",
+      "reason": "“化学药分析高级科研员”明确药物分析科研，归药物发现与药理。"
+    },
+    {
+      "occupation_id": "SNO-c958d0482f9a79114d6f",
+      "status": "mapped",
+      "target_category_id": "L01-06-02",
+      "reason": "“固件开发工程师”明确固件开发，归固件与底层驱动。"
+    },
+    {
+      "occupation_id": "SNO-3c85c19689f2fe062297",
+      "status": "mapped",
+      "target_category_id": "L19-01-03",
+      "reason": "“应收专员”明确应收核算，归业务往来会计。"
+    },
+    {
+      "occupation_id": "SNO-3cf70924382c7e8a7baf",
+      "status": "mapped",
+      "target_category_id": "L06-02",
+      "reason": "“前端冷却开发工程师”明确冷却开发，归热流体与动力工程。"
+    },
+    {
+      "occupation_id": "SNO-04ca857d7bbf128e6898",
+      "status": "mapped",
+      "target_category_id": "L20-02",
+      "reason": "“投资管理专员”明确投资管理，归投资交易与资产管理。"
+    },
+    {
+      "occupation_id": "SNO-8ac8a92a9e1ac5f2ec43",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“服务管培生”仅说明服务方向，未明确具体服务职能或最终岗位。"
+    },
+    {
+      "occupation_id": "SNO-7f71cee970416473f09c",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "reason": "“开发管培生”含培养身份，但方向为AI、C语言、Java等开发，归通用软件研发。"
+    },
+    {
+      "occupation_id": "SNO-e56a6a40e39f8dfa69ec",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "reason": "“高中教师”明确学科教学，但未说明具体学科，归学科与通识教学。"
+    },
+    {
+      "occupation_id": "SNO-b5aa74285371d75ea3e2",
+      "status": "mapped",
+      "target_category_id": "L25-04",
+      "reason": "“电力交易办事员”明确电力交易运行，归能源运行与调度。"
+    },
+    {
+      "occupation_id": "SNO-75c1e00bcabe3678f3e7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“产品工程师”未说明是数字产品、实体产品还是其他产品方向。"
+    },
+    {
+      "occupation_id": "SNO-006371d2cd9c1a2c15b0",
+      "status": "mapped",
+      "target_category_id": "L27-07",
+      "reason": "“行李员”明确为交通地面服务，归交通运行与地面服务。"
+    },
+    {
+      "occupation_id": "SNO-ce77cb49fbb8d4a690ca",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "reason": "“智驾模型开发”明确模型开发，但未说明视觉、预测等具体算法方向。"
+    }
+  ]
+}

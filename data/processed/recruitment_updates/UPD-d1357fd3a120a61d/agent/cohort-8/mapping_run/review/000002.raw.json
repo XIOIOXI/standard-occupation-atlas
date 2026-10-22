@@ -1,0 +1,28 @@
+{
+  "id": "72987ed8-0700-4f4b-bc93-920a2c020293",
+  "object": "chat.completion",
+  "created": 1792596254,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-4291269db60a7d98f25591e30ede84f9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量监督归L04-03生产质量管理二级合理，未强行下探三级，可接受。\"},{\"occupation_id\":\"UP-6ad1145f65e9fad24ad663cd105dddce\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"计量检测明确对应L04-04-03计量与校准，三级直达合理。\"},{\"occupation_id\":\"UP-eb144eed2a12e984529201856205ac2c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"化验分析归L04-04-02化学与生物检测合理。\"},{\"occupation_id\":\"UP-43eec86cd55dd15f9a3e41bd4967a8b5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"采样为检验检测样品采集环节，方向未明，停在L04-04二级合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 18096,
+    "completion_tokens": 251,
+    "total_tokens": 18347,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 1584
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

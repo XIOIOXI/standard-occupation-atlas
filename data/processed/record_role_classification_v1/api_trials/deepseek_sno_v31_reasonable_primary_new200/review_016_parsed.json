@@ -1,0 +1,85 @@
+{
+  "raw_response_file": "review_016_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-5167ef12f622b5af0574",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "解决方案工程师归售前技术与解决方案L14-09，符合目录范围，标题依据合理。"
+    },
+    {
+      "occupation_id": "SNO-87897b6b39f55b071d55",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "云服务开发工程师方向未明确，归通用软件研发L01-11合理，符合目录规则。"
+    },
+    {
+      "occupation_id": "SNO-9380088e8af3a3272e22",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "仅有Java语言名称，方向未说明，归L01-11符合目录明确规则。"
+    },
+    {
+      "occupation_id": "SNO-18167c3951b5d69c87ec",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "远程技术支持归IT支持L03-06，符合目录范围，主归属合理。"
+    },
+    {
+      "occupation_id": "SNO-f3b85697546945a0b571",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "采购工程师归采购与供应商管理L16-01，管培生为修饰，符合目录规则。"
+    },
+    {
+      "occupation_id": "SNO-4bb7547833fbbef805c9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数字化转型专员归信息化管理L03-07，符合目录范围，主归属合理。"
+    },
+    {
+      "occupation_id": "SNO-9402b168d32a3c20feb2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智驾规控算法归机器学习与算法研发L02-05，三级细分有依据，合理。"
+    },
+    {
+      "occupation_id": "SNO-0c785b48430ef2078262",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "交易服务岗职能方向不明确，无法确认是金融交易服务还是公共资源交易服务，需进一步确认。"
+    },
+    {
+      "occupation_id": "SNO-a15da9cbb00aada6c828",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "化学教师归学科与通识教学L22-02，三级细分合理。"
+    },
+    {
+      "occupation_id": "SNO-9a92038d67d4cba95b99",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "嵌入式软件开发归嵌入式与固件开发L01-06，符合目录范围。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 10924,
+    "cached_input_tokens": 9216,
+    "uncached_input_tokens": 1708,
+    "output_tokens": 571,
+    "reasoning_tokens": 0,
+    "total_tokens": 11495
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0006264479999999999
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

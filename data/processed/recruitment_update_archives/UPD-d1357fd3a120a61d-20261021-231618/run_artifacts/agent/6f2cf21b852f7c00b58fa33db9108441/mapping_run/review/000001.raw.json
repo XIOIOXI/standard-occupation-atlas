@@ -1,0 +1,28 @@
+{
+  "id": "326c7b6f-a919-4414-9ea9-16bdf1a1910b",
+  "object": "chat.completion",
+  "created": 1792571208,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-6f2cf21b852f7c00b58fa33db9108441\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L27-07\",\"issue\":\"机场运行岗归交通运行与地面服务L27-07合理，二级直达，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16993,
+    "completion_tokens": 77,
+    "total_tokens": 17070,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 481
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

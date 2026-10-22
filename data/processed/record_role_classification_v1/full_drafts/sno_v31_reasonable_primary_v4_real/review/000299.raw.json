@@ -1,0 +1,28 @@
+{
+  "id": "d5616a67-bc77-4530-a0fd-ac645df38a3c",
+  "object": "chat.completion",
+  "created": 1791881121,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-a7447a1a599049c8fe51\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L16-02\",\"issue\":\"标题为供应链运营（售后），核心是供应链运营而非售后技术服务，应归供应链规划与管理L16-02。\"},{\"occupation_id\":\"TG-ca72ad9781843a81fced\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L19-05\",\"issue\":\"标题仅说明审计实习生，未指明内部或外部审计，应停在L19-05审计二级，不应推断为外部审计。\"},{\"occupation_id\":\"TG-6008d94c7fc005a2ab52\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-277983056ea1448fcf28\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-7d2cfe6c79fdafb04807\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d790a22241ddb1e8a3a0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-5daac23ac9d839e55f95\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-80bee6baff1f2cc61e33\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-296db4b683d6c84e886b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-e09e1b52f78466603d56\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3472b95dd0e6be749385\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4b987c5b83772ba75497\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3ddfb67caf8817bf5ae2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d4b4eee80f779dd5a01d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-c1b5d475818cc1037777\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8b5d6367af0f19a15ca3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-8d7fbafd305a22edcfa6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-96c31d4f06109bc44acf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-82d63cf28f9521fe6a08\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f82d8d83a1ac35e2bd6e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19868,
+    "completion_tokens": 805,
+    "total_tokens": 20673,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3356
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

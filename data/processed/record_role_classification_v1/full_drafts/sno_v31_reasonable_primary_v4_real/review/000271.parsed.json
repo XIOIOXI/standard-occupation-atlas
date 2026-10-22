@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-28303e87e9f732b5f00d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-669762714286998cb9f7",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-0e88e0b2109f1ef538b4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-0897e31bdc86c27d0987",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-22888235d60bcb1273e4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-2144b93f263bf8ea7d20",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-cb9529cd925242991f30",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-8826dbf3a574e62f22fa",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-369f022d348786191213",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-5fba093f030bb29fab01",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-86a8ce36a9e3f63aa531",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-b7c634ea84412df16fe1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-04e58d17a15b5f1caf6c",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L06-01-03",
+      "issue": "设备开发属于机械设备设计研发，而非工业设备安装调试作业，应归入L06-01-03机械设备设计。"
+    },
+    {
+      "occupation_id": "TG-f979b39483265dec86e7",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L24-10-02",
+      "issue": "幕墙生产拆单属于建筑装修施工范畴，归入L23-08印刷与包装作业明显错分，应归入L24-10-02装修与安装工种。"
+    },
+    {
+      "occupation_id": "TG-774c8d1bb7ce21121397",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-dd8feaa32fbf2c62905a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-62ffc40ed6184d59fae1",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-ea0c9255e857f5066f48",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-0efb3a20951d2d3ff2f6",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-51526e1a532bd2761c9e",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ],
+  "raw_response_file": "000271.raw.json",
+  "usage": {
+    "input_tokens": 19545,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3033,
+    "output_tokens": 814,
+    "reasoning_tokens": 0,
+    "total_tokens": 20359
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.001985772
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

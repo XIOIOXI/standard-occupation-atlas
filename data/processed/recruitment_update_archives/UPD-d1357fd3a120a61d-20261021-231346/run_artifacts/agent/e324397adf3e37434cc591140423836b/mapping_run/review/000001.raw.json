@@ -1,0 +1,28 @@
+{
+  "id": "34a74f70-5212-4a78-8069-54097deab257",
+  "object": "chat.completion",
+  "created": 1792571473,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-e324397adf3e37434cc591140423836b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"安全环保与劳动监察岗归入L25-07安全健康与职业防护合理，二级直达，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17050,
+    "completion_tokens": 73,
+    "total_tokens": 17123,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 538
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

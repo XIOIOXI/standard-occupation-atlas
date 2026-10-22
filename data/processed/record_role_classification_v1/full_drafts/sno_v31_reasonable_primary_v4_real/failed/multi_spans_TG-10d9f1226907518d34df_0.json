@@ -1,0 +1,41 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-10d9f1226907518d34df",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "IT/数据/通信工程师",
+  "child_title": "IT工程师",
+  "source_span": {
+    "text": "IT",
+    "start": 0,
+    "end": 2
+  },
+  "raw_decision": {
+    "original_record_id": "TG-10d9f1226907518d34df",
+    "case": "A",
+    "child_titles": [
+      "IT工程师",
+      "数据工程师",
+      "通信工程师"
+    ],
+    "source_spans": [
+      {
+        "text": "IT",
+        "start": 0,
+        "end": 2
+      },
+      {
+        "text": "数据",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "text": "通信工程师",
+        "start": 6,
+        "end": 11
+      }
+    ],
+    "reason": "标题由斜杠分隔的三个独立岗位组成，可拆分为IT工程师、数据工程师和通信工程师。"
+  }
+}

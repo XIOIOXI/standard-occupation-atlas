@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 110,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "5bb2ae94-1a38-4207-8f4a-27dda1c613b8",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751784,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25005,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1709,
+    "output_tokens": 3684,
+    "reasoning_tokens": 0,
+    "total_tokens": 28689
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002536638
+  },
+  "observed_at_utc": "2026-10-11T20:49:45.266907+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-051c2a8774537a6197a9",
+      "target_category_id": "互联网/AI/internet-data-development/data-platform",
+      "status": "mapped",
+      "reason": "数据治理与分析工程师核心职责为数据治理与数据分析，归入数据开发下的大数据平台与治理。"
+    },
+    {
+      "occupation_id": "SNO-134c6ef362c3512c1217",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "通信协议工程师属于通信系统研发，归入无线与通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-89851540dbbcfe31c860",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-graphics",
+      "status": "mapped",
+      "reason": "3D引擎开发通常涉及图形与高性能计算，归入C++下的图形与高性能计算。"
+    },
+    {
+      "occupation_id": "SNO-5eb9001fb8e23b8004e4",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资类管培生核心方向为投资，归入投融资下的股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-28adcfa103ca8539588f",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "自适应光学设计师属于光学工程细分方向，目录中无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-e2db8e9a466e5b9d1444",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场方向管培生核心为市场营销，归入品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-02d44306fd5fd41c73d8",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“抽卡”名称含义不明确，无法判断具体职业职责。"
+    },
+    {
+      "occupation_id": "SNO-260b7be0a7ac290479ba",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“运检人员”缺少行业或设备类型信息，无法确定具体运维检修方向。"
+    },
+    {
+      "occupation_id": "SNO-278c4c53d1dd5ce11e37",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "校招培训生未说明具体职能方向，无法归入具体职业类别。"
+    },
+    {
+      "occupation_id": "SNO-067ec1425aeae40a1fe0",
+      "target_category_id": "教育培训/edu-admin/edu-admin-institution",
+      "status": "mapped",
+      "reason": "计算机教学实验中心建设支撑属于教育机构行政与教学支持，归入教育机构行政。"
+    },
+    {
+      "occupation_id": "SNO-97185d70a9cc34d25fd8",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "原料外贸业务员核心为外贸销售与客户开发，归入海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-79ad9cbeee67040536fa",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "Product Application Engineer通常为产品应用与售前技术支持，归入售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-b213e2b99e8aa90a31ff",
+      "target_category_id": null,
+      "status": "taxonomy_gap",
+      "reason": "船舶总体工程师属于船舶与海洋工程，目录中无对应类别。"
+    },
+    {
+      "occupation_id": "SNO-6222da42da11184ccc07",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "研发管培—系统工程师核心为系统与基础设施方向，归入基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-748b466b67c17cc30ae3",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "初中戏剧教师属于基础教育教学，归入基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-45d724f1f1b5df31876c",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "AI实施工程师核心为AI项目交付与实施，归入项目交付与实施。"
+    },
+    {
+      "occupation_id": "SNO-2bf6afafb14698f93caf",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "Agent架构师通常涉及大模型与智能体架构，归入大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-90de32ea891cf27a4430",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“研发分析”缺少行业与技术方向信息，无法确定具体研发分析领域。"
+    },
+    {
+      "occupation_id": "SNO-a27c98fa01cbd1230171",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "驻点运维工程师核心为现场运维与技术支持，归入技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-64a6eff0febf956f644b",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "嵌入式软件开发工程师方向属于嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-5e34c9aff87afd6dea21",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "道路工程管理属于工程管理下的施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-158a390963fa62ed6682",
+      "target_category_id": "设计/design-visual-interaction/design-interaction",
+      "status": "mapped",
+      "reason": "UIUX设计师核心为交互与体验设计，归入交互与体验设计。"
+    },
+    {
+      "occupation_id": "SNO-1c37cee34f6035a0f368",
+      "target_category_id": "互联网/AI/internet-python/python-backend",
+      "status": "mapped",
+      "reason": "Python工程师通常为Python后端与应用开发，归入后端与应用开发。"
+    },
+    {
+      "occupation_id": "SNO-3a0b79914542bc9d2fa2",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "设计管培生（平面方向）核心为平面与视觉设计，归入品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-4ae743553220605993c6",
+      "target_category_id": "采购/贸易/trade-import-export/import-export-development",
+      "status": "mapped",
+      "reason": "国际商务专员核心为国际市场与客户开发，归入国际市场与客户开发。"
+    },
+    {
+      "occupation_id": "SNO-e95366bffbe10a1a10c5",
+      "target_category_id": "医疗健康/health-pharma-production/pharma-manufacturing-quality",
+      "status": "mapped",
+      "reason": "药品检验岗（QC）属于药品质量与验证。"
+    },
+    {
+      "occupation_id": "SNO-42ed97eb85990224e107",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“公用工程”缺少行业与具体职责信息，无法确定是能源、建筑还是生产制造方向。"
+    },
+    {
+      "occupation_id": "SNO-2f767e246a5c7e259ab9",
+      "target_category_id": "设计/design-art-3d-animation/art-animation",
+      "status": "mapped",
+      "reason": "3D特效设计属于动画与特效。"
+    },
+    {
+      "occupation_id": "SNO-f2fdbde80ad85e0fa05e",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "财富产品通常属于金融投资与财富管理，归入股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-85d3248f86594d526d11",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-customer",
+      "status": "mapped",
+      "reason": "国际技术支持工程师核心为客户技术支持，归入客户技术支持。"
+    },
+    {
+      "occupation_id": "SNO-6debce9318602f5b8139",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "综合管理岗涵盖金融、经济、会计、财务、管理、法律、评估、人力资源等多个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-272e1df6e568b9492454",
+      "target_category_id": "销售/sales-finance/financial-sales-wealth",
+      "status": "mapped",
+      "reason": "营销培训生（公司金融/小微金融/零售金融方向）核心为金融营销，归入财富与理财销售。"
+    },
+    {
+      "occupation_id": "SNO-718ac24d86e9fcbaba52",
+      "target_category_id": "生产制造/manufacturing-food-rd/food-rd-product",
+      "status": "mapped",
+      "reason": "乳品研发管培生核心为食品配方与产品研发。"
+    },
+    {
+      "occupation_id": "SNO-10b74147d25a97016e6e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“海外工程”缺少具体工程类型与职责信息，无法确定归入建筑、能源还是其他工程类别。"
+    },
+    {
+      "occupation_id": "SNO-c8c459ebc545d86afed0",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "程序培训生未说明具体技术方向，无法确定是开发、测试还是其他程序类岗位。"
+    },
+    {
+      "occupation_id": "SNO-587fe59057b8cc767ec7",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-freight",
+      "status": "mapped",
+      "reason": "物流专员核心为货运与物流操作。"
+    },
+    {
+      "occupation_id": "SNO-02f8ec2a620d2af743aa",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“检测开发”缺少行业与检测对象信息，无法确定具体检测开发方向。"
+    },
+    {
+      "occupation_id": "SNO-3a525f40fb41a7f52427",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "软件则试工程师为软件测试工程师的错别字，归入功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-c2155abe4ead75364646",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "自动驾驶数据工程师核心为自动驾驶数据工程，归入数据工程与数仓。"
+    },
+    {
+      "occupation_id": "SNO-e6f6968c65ae68ed0182",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中英语致师为高中英语教师，属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-f6aeba5e5bafbe7cfeee",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "基金部核心为基金相关业务，归入基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-070747c645ac63e762b1",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "热设计工程师属于机械结构与产品设计中的热设计方向。"
+    },
+    {
+      "occupation_id": "SNO-00cb16cb233325c619eb",
+      "target_category_id": "设计/design-visual-interaction/design-interaction",
+      "status": "mapped",
+      "reason": "体验交互设计师核心为交互与体验设计。"
+    },
+    {
+      "occupation_id": "SNO-dca504de04aefb1fa116",
+      "target_category_id": "采购/贸易/trade-clerk/trade-clerk-coordination",
+      "status": "mapped",
+      "reason": "语言类商务助理核心为外贸跟单与客户协调。"
+    },
+    {
+      "occupation_id": "SNO-226cfd4ea6984359285d",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "宁波分行运营培训生属于银行零售与综合银行运营方向。"
+    },
+    {
+      "occupation_id": "SNO-76c9d03eef2468099656",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“管环里”名称无法识别，缺少有效职业信息。"
+    },
+    {
+      "occupation_id": "SNO-8580db51af06d66ed9a5",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "工务运维操作技能核心为设备维修与安装。"
+    },
+    {
+      "occupation_id": "SNO-6b323a9fab0688119230",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "法务审计同时包含法务与审计两个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-7a0d8606df6941cbd69f",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "“综合保障员”职责范围不明确，无法确定具体职业类别。"
+    },
+    {
+      "occupation_id": "SNO-541b9106627ece047c5a",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "机器人算法研究员核心为机器人与具身智能算法。"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-b70d3670ba151371b1f8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题含“解决方案”但未明确售前、产品还是咨询方向，review合理。"
+    },
+    {
+      "occupation_id": "TG-5875211ba64293f13ee9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "AI算法专家方向未明，归L02-05合理。"
+    },
+    {
+      "occupation_id": "TG-bb3b3015a815af122b12",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "定向培养生仅知银行分行，职能未明，review合理。"
+    },
+    {
+      "occupation_id": "TG-55d0c0506a8546cf5f4f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "审计实习未区分内外部，归L19-05合理。"
+    },
+    {
+      "occupation_id": "TG-9e85fc49db1f816aca54",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "多专业职能并列，multi_role合理。"
+    },
+    {
+      "occupation_id": "TG-d769cdb30fd64dc10b96",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "算法研究员方向未明，归L02-05合理。"
+    },
+    {
+      "occupation_id": "TG-66ee7d32c2c6aa754763",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "酿造机理研究归食品饮料研发L06-06-01合理。"
+    },
+    {
+      "occupation_id": "TG-169c5690d158a4e4e0cb",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "流体力学仿真归热流体与动力工程L06-02合理。"
+    },
+    {
+      "occupation_id": "TG-fbe6255b32c99910d8f9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "疑似工艺开发，归L06-08合理。"
+    },
+    {
+      "occupation_id": "TG-b43dcb9e21de6daa4bf0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "实验室与野外站技术岗归科研技术支持L07-03合理。"
+    },
+    {
+      "occupation_id": "TG-7f8e2216d043331a901a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "中小学数学教师归L22-02-02合理。"
+    },
+    {
+      "occupation_id": "TG-6a96ac6197185c78ed66",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数字电路/信号处理归数字芯片设计L05-02-01合理。"
+    },
+    {
+      "occupation_id": "TG-f18981eb5931558d2a43",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "专区运营归产品与平台运营L14-01合理。"
+    },
+    {
+      "occupation_id": "TG-8098e30b126e04f9025a",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "动物生物安全风险防范归L25-07合理。"
+    },
+    {
+      "occupation_id": "TG-4c880707fb8519096f9d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "国内管培生归L32-01合理。"
+    },
+    {
+      "occupation_id": "TG-14cafcca85b17fc324ab",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "财务类管培生已明确财务职能，归L19-07合理。"
+    },
+    {
+      "occupation_id": "TG-41e690d496cd6d761532",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "储备项目经理领域未明，归L10-06合理。"
+    },
+    {
+      "occupation_id": "TG-25610785c7097a11c51f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "专业课教师学科未明，归L22-10合理。"
+    },
+    {
+      "occupation_id": "TG-e075c0d8fe6865d0a47f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "系统运维岗归L03-01合理。"
+    },
+    {
+      "occupation_id": "TG-519c89d7d945799248ad",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "环保工程师方向未明，归L25-05合理。"
+    }
+  ],
+  "raw_response_file": "000166.raw.json",
+  "usage": {
+    "input_tokens": 19570,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 3058,
+    "output_tokens": 983,
+    "reasoning_tokens": 0,
+    "total_tokens": 20553
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0021960720000000003
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

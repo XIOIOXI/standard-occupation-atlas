@@ -1,0 +1,337 @@
+{
+  "results": [
+    {
+      "original_record_id": "TG-c4b8d693ccc1ad45699a",
+      "case": "A",
+      "child_titles": [
+        "项目管理",
+        "运营管理",
+        "客户管理",
+        "资产管理",
+        "人力资源",
+        "法务管理",
+        "财务管理"
+      ],
+      "source_spans": [
+        {
+          "text": "项目管理",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "运营管理",
+          "start": 4,
+          "end": 8
+        },
+        {
+          "text": "客户管理",
+          "start": 8,
+          "end": 12
+        },
+        {
+          "text": "资产管理",
+          "start": 12,
+          "end": 16
+        },
+        {
+          "text": "人力资源",
+          "start": 16,
+          "end": 20
+        },
+        {
+          "text": "法务管理",
+          "start": 20,
+          "end": 24
+        },
+        {
+          "text": "财务管理",
+          "start": 24,
+          "end": 28
+        }
+      ],
+      "reason": "标题由多个独立岗位名称直接拼接而成，无连接词，可明确拆分为多个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-1f3ab84fba3100ba254a",
+      "case": "A",
+      "child_titles": [
+        "各县市区分公司金融网点柜员",
+        "客户经理"
+      ],
+      "source_spans": [
+        {
+          "text": "各县市区分公司金融网点柜员",
+          "start": 0,
+          "end": 14
+        },
+        {
+          "text": "客户经理",
+          "start": 15,
+          "end": 19
+        }
+      ],
+      "reason": "标题由斜杠分隔的两个独立岗位名称组成，可明确拆分。"
+    },
+    {
+      "original_record_id": "TG-e5ffa8f6e2c1916afc0e",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，无法拆分为多个独立岗位。"
+    },
+    {
+      "original_record_id": "TG-e54c7a65b3e057157880",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠连接的是同一岗位的不同方向，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-5d9bd7f162ed1ef363af",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为方向说明，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-bdfe9de85d83ef1afc3b",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠连接的是同一岗位的不同方向，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-49a0ce96affe1cecefef",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为专业方向说明，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-c73beba9ad121f7706a5",
+      "case": "A",
+      "child_titles": [
+        "分析技术员",
+        "测试技术员",
+        "工艺技术员",
+        "质量技术员"
+      ],
+      "source_spans": [
+        {
+          "text": "分析技术员",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "测试技术员",
+          "start": 6,
+          "end": 11
+        },
+        {
+          "text": "工艺技术员",
+          "start": 12,
+          "end": 17
+        },
+        {
+          "text": "质量技术员",
+          "start": 18,
+          "end": 23
+        }
+      ],
+      "reason": "标题由空格分隔的多个独立岗位名称组成，可明确拆分。"
+    },
+    {
+      "original_record_id": "TG-15fd8cd7f875b6f39ee1",
+      "case": "A",
+      "child_titles": [
+        "财务管理",
+        "审计",
+        "材料类"
+      ],
+      "source_spans": [
+        {
+          "text": "财务管理",
+          "start": 0,
+          "end": 4
+        },
+        {
+          "text": "审计",
+          "start": 5,
+          "end": 7
+        },
+        {
+          "text": "材料类",
+          "start": 9,
+          "end": 12
+        }
+      ],
+      "reason": "标题由斜杠和反斜杠分隔的多个独立岗位名称组成，可明确拆分。"
+    },
+    {
+      "original_record_id": "TG-fd986517d97e49158b0a",
+      "case": "A",
+      "child_titles": [
+        "技术&研发类",
+        "销售类",
+        "市场类",
+        "职能类",
+        "产品类",
+        "管培生类"
+      ],
+      "source_spans": [
+        {
+          "text": "技术&研发类",
+          "start": 0,
+          "end": 6
+        },
+        {
+          "text": "销售类",
+          "start": 7,
+          "end": 10
+        },
+        {
+          "text": "市场类",
+          "start": 11,
+          "end": 14
+        },
+        {
+          "text": "职能类",
+          "start": 15,
+          "end": 18
+        },
+        {
+          "text": "产品类",
+          "start": 19,
+          "end": 22
+        },
+        {
+          "text": "管培生类",
+          "start": 23,
+          "end": 27
+        }
+      ],
+      "reason": "标题由空格分隔的多个独立岗位类别组成，可明确拆分。"
+    },
+    {
+      "original_record_id": "TG-05d506919ed0ef05a4f5",
+      "case": "A",
+      "child_titles": [
+        "驻省分财务BP",
+        "网络与信息安全工程师"
+      ],
+      "source_spans": [
+        {
+          "text": "驻省分财务BP",
+          "start": 0,
+          "end": 7
+        },
+        {
+          "text": "网络与信息安全工程师",
+          "start": 7,
+          "end": 18
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接拼接而成，无连接词，可明确拆分。"
+    },
+    {
+      "original_record_id": "TG-9de0ebc0b322fdafd162",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为方向说明，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-e8a5652fb754268f2bb4",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠连接的是同一岗位的不同方向，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-b74cf85acf361ba5c565",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠连接的是同一岗位的不同方向，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-bcc4e45241ab8d0482d0",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠连接的是同一岗位的不同方向，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-dab859fa587c46b26a5d",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠连接的是同一岗位的不同方向，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-08d319e293de20dbc1be",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，括号内为方向说明，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-84902c450abbb91fada7",
+      "case": "A",
+      "child_titles": [
+        "信息科技类校招生",
+        "市场营销类校招生"
+      ],
+      "source_spans": [
+        {
+          "text": "信息科技类校招生",
+          "start": 0,
+          "end": 8
+        },
+        {
+          "text": "市场营销类校招生",
+          "start": 8,
+          "end": 16
+        }
+      ],
+      "reason": "标题由两个独立岗位名称直接拼接而成，无连接词，可明确拆分。"
+    },
+    {
+      "original_record_id": "TG-9f180980b6325622924d",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠连接的是同一岗位的不同方向，无法拆分为独立岗位。"
+    },
+    {
+      "original_record_id": "TG-eb2a76a07f1c1c04e3cb",
+      "case": "B",
+      "child_titles": [],
+      "source_spans": [],
+      "reason": "标题为单一岗位名称，斜杠连接的是同一岗位的不同方向，无法拆分为独立岗位。"
+    }
+  ],
+  "raw_response_file": "000007.raw.json",
+  "usage": {
+    "input_tokens": 837,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 837,
+    "output_tokens": 2311,
+    "reasoning_tokens": 0,
+    "total_tokens": 3148
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0030242999999999997
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

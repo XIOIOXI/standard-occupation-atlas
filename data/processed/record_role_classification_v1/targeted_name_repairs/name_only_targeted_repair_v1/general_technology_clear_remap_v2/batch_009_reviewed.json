@@ -1,0 +1,147 @@
+{
+  "batch_number": 9,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 26649,
+    "cached_input_tokens": 25088,
+    "uncached_input_tokens": 1561,
+    "output_tokens": 933,
+    "reasoning_tokens": 0,
+    "total_tokens": 27582
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000869214
+  },
+  "results": [
+    {
+      "entry_id": "SNO-674fa0d15d901b8b8059",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "FDE为缩写，名称本身无法明确职业领域，不能确定目录归属。"
+    },
+    {
+      "entry_id": "SNO-6760259e4aa17598b287",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "实验物理研发工程师为跨领域复合称谓，无法明确唯一合理目录。"
+    },
+    {
+      "entry_id": "SNO-682a8d70b4af05661ff5",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "实验技术员过于宽泛，无法确认具体职业领域。"
+    },
+    {
+      "entry_id": "SNO-683e720e2e3bc90687e7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "试验工程师为宽泛工程称谓，无法确认具体领域。"
+    },
+    {
+      "entry_id": "SNO-698f2431857aa407959b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "端开发工程师名称截断，无法确认前端或后端等具体方向。"
+    },
+    {
+      "entry_id": "SNO-6aee239040477d7dff54",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含专业清单，属于复合岗位，无法明确唯一目录。"
+    },
+    {
+      "entry_id": "SNO-6b038b72c507355f75b7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "科研工艺过于宽泛，无法确认具体职业领域。"
+    },
+    {
+      "entry_id": "SNO-6b057c9e9c55a98875ef",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "技术传播工程师-生物科技方向为复合岗位，无法明确唯一目录。"
+    },
+    {
+      "entry_id": "SNO-6b12e57b228be3b0392b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "作战管理工程师领域特殊且宽泛，无法明确目录归属。"
+    },
+    {
+      "entry_id": "SNO-6b3d34c3528d8d2332db",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "预研工程师为宽泛研发称谓，无法确认具体领域。"
+    },
+    {
+      "entry_id": "SNO-6b7a218522d1d0fcc258",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含产品技术研发与研发项目管理，属于复合岗位。"
+    },
+    {
+      "entry_id": "SNO-6b80a44d530525c3d9ca",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "物理模型设计过于宽泛，无法确认具体职业领域。"
+    },
+    {
+      "entry_id": "SNO-6b96aab727f2f5b1b6b9",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "解译方案工程师领域不明确，无法确认目录归属。"
+    },
+    {
+      "entry_id": "SNO-6bc55793a8885f42baa1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "经济技术为宽泛称谓，无法确认具体职业领域。"
+    },
+    {
+      "entry_id": "SNO-6c54114af084e0bad7c4",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "风险技术过于宽泛，无法确认具体职业领域。"
+    },
+    {
+      "entry_id": "SNO-6c5dd89cb7ce67c5d656",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "算计技术研究名称含义不明确，无法确认目录归属。"
+    },
+    {
+      "entry_id": "SNO-73f8d2473b80817c2067",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "研发设计工程师(研发部)为宽泛研发称谓，无法确认具体领域。"
+    },
+    {
+      "entry_id": "SNO-7400608d12bad3e1c1b1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "产品技术员过于宽泛，无法确认具体产品领域。"
+    },
+    {
+      "entry_id": "SNO-74482ff37bb58ccecb2f",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "国民体质与科学健身研究中心专业技术为机构岗位称谓，无法明确目录。"
+    },
+    {
+      "entry_id": "SNO-74eb7e30b0a845a2ac1b",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "无人平台设计领域不明确，无法确认具体职业方向。"
+    }
+  ]
+}

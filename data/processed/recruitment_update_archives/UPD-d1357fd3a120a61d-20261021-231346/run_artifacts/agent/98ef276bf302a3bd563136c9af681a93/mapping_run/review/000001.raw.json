@@ -1,0 +1,28 @@
+{
+  "id": "71f581d8-7661-46a0-be74-fb89b780109c",
+  "object": "chat.completion",
+  "created": 1792571711,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-98ef276bf302a3bd563136c9af681a93\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L08-01-03\", \"issue\": \"大数据产品经理属数字与技术产品管理，产品对象为数据平台/组件，归L08-01-03平台与技术产品合理；非数据开发执行岗，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17050,
+    "completion_tokens": 103,
+    "total_tokens": 17153,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 538
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

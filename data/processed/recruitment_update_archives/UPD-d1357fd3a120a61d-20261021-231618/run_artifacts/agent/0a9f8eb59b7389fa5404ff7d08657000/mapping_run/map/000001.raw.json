@@ -1,0 +1,28 @@
+{
+  "id": "1277d1fa-fcba-454c-8dc1-3d74fdd8a9c6",
+  "object": "chat.completion",
+  "created": 1792571340,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-0a9f8eb59b7389fa5404ff7d08657000\",\"status\":\"mapped\",\"target_category_id\":\"L19-03\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L19-03\",\"L19-01\",\"L19-08\"],\"title_evidence\":\"财务运营岗：标题含“财务”，指向财务职能；“运营”在此为财务运营，非业务运营。\",\"level_3_evidence\":null,\"reason\":\"“财务运营”属于财务职能内的运营/分析类工作，最直接对应财务规划与分析（L19-03）；无明确总账核算或出纳证据，故不选三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17007,
+    "completion_tokens": 155,
+    "total_tokens": 17162,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 367
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

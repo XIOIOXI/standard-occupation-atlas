@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-2768dc65edfd8106b553b8f6a25d4507",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-04-01",
+      "issue": "电商实习生归入电商店铺运营合理；实习为阶段标签，不影响职能归属。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17053,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 541,
+    "output_tokens": 76,
+    "reasoning_tokens": 0,
+    "total_tokens": 17129
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00035257199999999994
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

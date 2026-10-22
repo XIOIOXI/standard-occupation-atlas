@@ -1,0 +1,28 @@
+{
+  "id": "966e4ddf-4cd4-411a-8ed3-1552b2b2f836",
+  "object": "chat.completion",
+  "created": 1791832781,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-d92d4a0afc2c7e920354\",\"status\":\"review\",\"target_category_id\":\"L14-01\",\"reason\":\"标题仅“专区运营”，未说明专区对象（电商/游戏/平台），无法确定二级运营方向。\"},{\"occupation_id\":\"SNO-d34cf0bb21a90c4eee42\",\"status\":\"mapped\",\"target_category_id\":\"L14-09-01\",\"reason\":\"“供应链解决方案工程师”核心为售前需求诊断与方案设计，归售前解决方案设计。\"},{\"occupation_id\":\"SNO-5f43b78cf7549e2ea3a4\",\"status\":\"mapped\",\"target_category_id\":\"L02-05\",\"reason\":\"“算法工程师”核心为算法研发，安全方向为应用领域，二级归机器学习与算法研发。\"},{\"occupation_id\":\"SNO-b12ff0d486dd937b291b\",\"status\":\"review\",\"target_category_id\":\"L13-09\",\"reason\":\"“国内业务管理专员”未说明客户类型与销售职责，销售与业务运营方向不明。\"},{\"occupation_id\":\"SNO-27e63eba60eb4d40d1ac\",\"status\":\"mapped\",\"target_category_id\":\"L06-01\",\"reason\":\"“结构材料工程师”核心为结构设计，材料为对象，归机械与结构设计。\"},{\"occupation_id\":\"SNO-3e62029d76df087822b2\",\"status\":\"mapped\",\"target_category_id\":\"L22-02-02\",\"reason\":\"“初中物理教师”明确物理学科教学，归数学与自然科学教学。\"},{\"occupation_id\":\"SNO-49e5d5a10ab7fd7da7dd\",\"status\":\"review\",\"target_category_id\":\"L06-04\",\"reason\":\"“材料基因工程师”方向不明，材料研发与计算/数据方法均可能，缺少具体职责。\"},{\"occupation_id\":\"SNO-49ed7f695146c6e75112\",\"status\":\"mapped\",\"target_category_id\":\"L04-02\",\"reason\":\"“环境可靠性工程师”核心为产品环境可靠性测试验证，归硬件与产品测试。\"},{\"occupation_id\":\"SNO-d1cfe446eeb551c2e1f2\",\"status\":\"mapped\",\"target_category_id\":\"L31-01\",\"reason\":\"“市场综合监管辅助员”属公共行政监管辅助，归公共事务与基层治理。\"},{\"occupation_id\":\"SNO-7dc9e0fc04e3c2a69224\",\"status\":\"review\",\"target_category_id\":\"L22-06\",\"reason\":\"“教育服务助理”未说明教学、教务或学员服务具体方向，证据不足。\"},{\"occupation_id\":\"SNO-1303fde314c3e122be68\",\"status\":\"mapped\",\"target_category_id\":\"L14-03\",\"reason\":\"“社媒运营经理”核心为内容与新媒体账号运营，海外西葡为语言标签。\"},{\"occupation_id\":\"SNO-a47b055ca7ccc6f1a475\",\"status\":\"mapped\",\"target_category_id\":\"L04-03-03\",\"reason\":\"“软体家具质检Qc”核心为产品质量检验，管培生为培养身份标签。\"},{\"occupation_id\":\"SNO-e77e5a9120d0e52cbf8c\",\"status\":\"mapped\",\"target_category_id\":\"L05-01-01\",\"reason\":\"“电源设计工程师”核心为电路与板级电源硬件设计，归电路与板级设计。\"},{\"occupation_id\":\"SNO-2763e7df87bfddf62a76\",\"status\":\"review\",\"target_category_id\":\"L13-09\",\"reason\":\"“内贸业务”未说明客户类型与销售职责，销售方向不明确。\"},{\"occupation_id\":\"SNO-ac05f2f92fe9337ef6e6\",\"status\":\"mapped\",\"target_category_id\":\"L06-08-01\",\"reason\":\"“工艺实验室培训生”核心为制造制程工艺，培训生为培养身份标签。\"},{\"occupation_id\":\"SNO-e98479e69fcbd3b4d3ef\",\"status\":\"mapped\",\"target_category_id\":\"L02-07-01\",\"reason\":\"“训练推理优化算法工程师”核心为模型推理优化与服务部署。\"},{\"occupation_id\":\"SNO-6e9243e293d1fb83d9c1\",\"status\":\"mapped\",\"target_category_id\":\"L14-03\",\"reason\":\"“AI游戏内容运营”核心为内容运营，AI与游戏为对象标签。\"},{\"occupation_id\":\"SNO-35347c0451abe64eba4c\",\"status\":\"mapped\",\"target_category_id\":\"L02-07-01\",\"reason\":\"“AI推理工程师”核心为模型推理服务与部署优化。\"},{\"occupation_id\":\"SNO-3954f99d48d0d086082a\",\"status\":\"mapped\",\"target_category_id\":\"L03-08\",\"reason\":\"“系统建设运维及数据管理”核心为IT运维与数据管理，方向未细分。\"},{\"occupation_id\":\"SNO-d97c7f5733d3e52d2a45\",\"status\":\"mapped\",\"target_category_id\":\"L20-01-01\",\"reason\":\"“宏观研究员”核心为证券市场宏观研究，归证券与市场研究。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16324,
+    "completion_tokens": 1153,
+    "total_tokens": 17477,
+    "prompt_tokens_details": {
+      "cached_tokens": 15360
+    },
+    "prompt_cache_hit_tokens": 15360,
+    "prompt_cache_miss_tokens": 964
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

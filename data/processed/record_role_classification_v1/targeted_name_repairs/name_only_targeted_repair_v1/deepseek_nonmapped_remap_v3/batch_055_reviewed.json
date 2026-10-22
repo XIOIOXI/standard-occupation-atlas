@@ -1,0 +1,185 @@
+{
+  "batch_number": 55,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "dc9c005a-5623-44cc-b77c-0bdf6ff6fd00",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821969,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29533,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2141,
+    "output_tokens": 1314,
+    "reasoning_tokens": 0,
+    "total_tokens": 30847
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001191726
+  },
+  "results": [
+    {
+      "entry_id": "SNO-bb4a231140935c256767",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出硬件、软件、算法、市场、供应链、技术支持等多个互不兼容的独立职业方向，且无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-bb6d995724f49a72e190",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“管理”过于宽泛，缺少具体职能方向，无法确认任何一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-bbaf8352442730e92c16",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“BR”缩写含义不明确，缺少具体职责信息，无法判断职业类别。"
+    },
+    {
+      "entry_id": "SNO-bbd4c036fef19ad03d2d",
+      "status": "taxonomy_gap",
+      "target_category_id": null,
+      "reason": "党委组织部党建业务属党务工作，冻结目录无对应类别，也无法确认合适的一级或二级。"
+    },
+    {
+      "entry_id": "SNO-bc12ffbcf796b75a4c92",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“内容创作管培生”中管培生非职业，内容创作方向不明确，无法确认具体类别。"
+    },
+    {
+      "entry_id": "SNO-bc20247bbd26b04a0f82",
+      "status": "review",
+      "target_category_id": "运营/客服/ops-business",
+      "reason": "“保障运营”可确认属于运营/客服下的业务运营二级，但三级方向不足。"
+    },
+    {
+      "entry_id": "SNO-bc2f82f27d245369ef4a",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“工程师”名称过于宽泛，缺少专业方向信息，无法确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-bc38360ba50138c00013",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“认证受理”未指明认证领域，无法确定具体类别。"
+    },
+    {
+      "entry_id": "SNO-bc5930a98f3b851ffefd",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“产品工程师”职责范围宽泛，缺少行业或产品类型信息，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-bc9e6b45feb9ce7d40bd",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“学术推广总经办管培生”中管培生非职业，学术推广方向不明确，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-bcbaaf291a4d35b595fe",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“技术人员”名称过于宽泛，无法判断具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-bcc49144d7dcf1c44649",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "综合管理岗涵盖工商管理、管理科学与工程、公共管理、会计、审计等多个方向，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-bccc6d89ce84f686a21d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“运营实习生”中实习生非职业，运营方向不明确，无法确认具体类别。"
+    },
+    {
+      "entry_id": "SNO-bcd5b668be5caff9f517",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“研发设计”缺少行业或技术方向，无法归入具体研发设计类别。"
+    },
+    {
+      "entry_id": "SNO-bcf6922883bf209eb0dd",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“实习生”未说明职能方向，无法归类。"
+    },
+    {
+      "entry_id": "SNO-bcfcf2899f221e289aef",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“OPC技培生”名称含义不明确，缺少具体职业方向。"
+    },
+    {
+      "entry_id": "SNO-bd3221dfd2d28cac7c8e",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出住院医师、护理、技师、物理师等多个独立医疗岗位，无共同三级可确认。"
+    },
+    {
+      "entry_id": "SNO-bd8fb8a784b09b92f55c",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出综合柜员和客户经理两个独立职业，无共同三级可确认。"
+    },
+    {
+      "entry_id": "SNO-bdcb5cb4f331bf1ce826",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出大模型算法、多模态算法、语音算法、数据挖掘、测试开发、体验设计等多个独立职业方向，无共同三级可确认。"
+    },
+    {
+      "entry_id": "SNO-bdfe9de85d83ef1afc3b",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出算法、软件、控制三个独立职业方向，无共同三级可确认。"
+    },
+    {
+      "entry_id": "SNO-be81b985fcbbcb7dd7bb",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出课程顾问、市场运营、学习管理师、新媒体流量项目运营等多个独立职业，无共同三级可确认。"
+    },
+    {
+      "entry_id": "SNO-be8d16efdcc2a1bf8212",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称截断为“人员”，无法判断具体职业。"
+    },
+    {
+      "entry_id": "SNO-bea5df18ef44c9e81c34",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“信息技术”过于宽泛，缺少具体技术方向，无法确认类别。"
+    },
+    {
+      "entry_id": "SNO-bedb21516ec84e9a0c9e",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出财务BP、HRBP、KA销售等多个独立职业，无共同三级可确认。"
+    },
+    {
+      "entry_id": "SNO-bf2d4b216aaed8943ae0",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“综合培训生”中培训生非职业，未明确职能方向，无法确定具体职业类别。"
+    }
+  ]
+}

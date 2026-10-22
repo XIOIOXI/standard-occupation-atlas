@@ -1,0 +1,185 @@
+{
+  "batch_number": 5,
+  "processing_method": "deepseek_api_name_only_targeted_repair",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "response_metadata": {
+    "request_id": "7e2f082b-beff-4871-a971-b0bef2b26fbd",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791813077,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 1,
+  "usage": {
+    "input_tokens": 30968,
+    "cached_input_tokens": 30720,
+    "uncached_input_tokens": 248,
+    "output_tokens": 1566,
+    "reasoning_tokens": 0,
+    "total_tokens": 32534
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0010689599999999999
+  },
+  "results": [
+    {
+      "occupation_id": "SNO-92734577b6b6145e676b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "系统研发工程核心为业务服务端/系统研发，归入后端业务服务端开发合理。"
+    },
+    {
+      "occupation_id": "SNO-d6087a47e528741b0653",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI编译工程师偏向AI基础设施/编译器方向，名称未明确大模型或生成式AI，三级依据不足，保留最深可确认上级算法工程师下的大模型方向待复核。"
+    },
+    {
+      "occupation_id": "SNO-cd628a099358b6818816",
+      "decision": "keep",
+      "target_category_id": "餐饮/food-manager/restaurant-manager-operations",
+      "reason": "运营管培生（储备店长）核心为门店运营与人员管理，归入餐饮店长门店运营管理合理。"
+    },
+    {
+      "occupation_id": "SNO-1bbc909a80366c7a77b9",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列会计、工程管理、法律事务、英语翻译等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-3b3cab12516fdc707e9d",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI开发过于宽泛，未明确大模型或生成式AI，三级依据不足，保留算法工程师下大模型方向待复核。"
+    },
+    {
+      "occupation_id": "SNO-0da8e68127918994a903",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI应用工程师（AI系统软件）未明确大模型或生成式AI，三级依据不足，保留算法工程师下大模型方向待复核。"
+    },
+    {
+      "occupation_id": "SNO-615a1c10b4153019fc9d",
+      "decision": "reclassify",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "高性能并行算法工程师核心为通用算法与高性能计算，归入算法研究与通用算法比C++图形与高性能计算更贴切。"
+    },
+    {
+      "occupation_id": "SNO-8d366d89f88475291fe4",
+      "decision": "keep",
+      "target_category_id": "运营/客服/ops-business/business-ops-growth",
+      "reason": "服务策略运营核心为业务策略与增长运营，归入业务增长与策略运营合理。"
+    },
+    {
+      "occupation_id": "SNO-a7e76120b24ec88dbf7b",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "reason": "具身智能仿真工程师属于机器人与具身智能方向，归入该类别合理。"
+    },
+    {
+      "occupation_id": "SNO-e9b8067a7b27d4c2b7df",
+      "decision": "fallback_review",
+      "target_category_id": null,
+      "reason": "涉外联络专员未注明语言，不能确认英语口译，三级依据不足，无更深可确认有效上级。"
+    },
+    {
+      "occupation_id": "SNO-395381fe41d172e95ca9",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-python/python-data",
+      "reason": "AI Software Application Developer未注明Python，归入Python数据与人工智能开发依据不足，保留该方向待复核。"
+    },
+    {
+      "occupation_id": "SNO-9cf9654f9af156ed08f9",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-python/python-data",
+      "reason": "AI应用工程师（AI技术应用/AI系统软件）未注明Python，归入Python数据与人工智能开发依据不足，保留该方向待复核。"
+    },
+    {
+      "occupation_id": "SNO-c98a99864d617aa02888",
+      "decision": "fallback_review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "AI软件工程师未明确大模型或生成式AI，三级依据不足，保留算法工程师下大模型方向待复核。"
+    },
+    {
+      "occupation_id": "SNO-5100c71efe68f19f0f63",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列国际业务、产品、营销、用户增长、质量管理、人力资源等多个独立职能。"
+    },
+    {
+      "occupation_id": "SNO-0d92c09d07deee600dc9",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列主播、设计、产品等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-9c052b7ad5907c8e0a97",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列Java、Web、Android、鸿蒙、AI产品经理等多个独立技术方向。"
+    },
+    {
+      "occupation_id": "SNO-aaa4a82a88151b1079e8",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列海外营销和运营两个独立职能。"
+    },
+    {
+      "occupation_id": "SNO-11bfcf3b750ecac7082f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列集团公司总部管理培训生和子公司生产两个独立方向。"
+    },
+    {
+      "occupation_id": "SNO-3ffbe73a8998b42451f6",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列工程师和产品专员两个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-329b2a9315a9baf63bdb",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "语言大模型工程师明确属于大模型与生成式AI方向。"
+    },
+    {
+      "occupation_id": "SNO-77c7eb4b1ca6da4eab4c",
+      "decision": "keep",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "生成式AI研究员明确属于大模型与生成式AI方向。"
+    },
+    {
+      "occupation_id": "SNO-7e7d8005e5666b6dd753",
+      "decision": "reclassify",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "reason": "Android驱动工程师核心为嵌入式与固件开发，归入电子硬件嵌入式开发比C++嵌入式更贴切。"
+    },
+    {
+      "occupation_id": "SNO-435b51d1a7fb8d7cf18b",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列文创设计师与测绘技术员两个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-a7c16a0ba2b827d85d1f",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列工艺技术、研发设计、智能制造、厂务环安、IE、质量、信息技术、项目管理、生产计划、供应链、人力法务知识产权等多个独立方向。"
+    },
+    {
+      "occupation_id": "SNO-7e25185d6249b1e3d0cc",
+      "decision": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确并列财务管理、会计、普法管理等多个独立职业。"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-c8bff3c2045b45e9d592",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-deb89d651741b74cf4ee",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-bebdff6af63f00e35689",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L28-07",
+      "issue": "餐饮储备人员未明确具体工种，应归通用餐饮工作L28-07，而非面点甜品与烘焙L28-02。"
+    },
+    {
+      "occupation_id": "TG-b296320f0c27adbda146",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-e1ec61660aa7c51b54a4",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-70a5577625b6215d608b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-40231dcbc093bd6e72a0",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-bbb91981f36a96d901e5",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-47ee7ff63d9ae7f38e5e",
+      "verdict": "correction_required",
+      "suggested_target_category_id": "L32-02",
+      "issue": "门店管理培训生属综合储备与业务培养，应归L32-02，而非门店导购与营业销售L13-05。"
+    },
+    {
+      "occupation_id": "TG-58d0c98f33ac2833373f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-588e4ebdbd1f3ccd6f7b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-30e38f79e8ff14320ec3",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-cb13a2680bf68c6dfb29",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-29d743de7dfbf6f6bdda",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-b82bbdfb1b3ffa34dd01",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-baf1d40291d10bb7e7c2",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-9671b8f2bd408185301b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-9e88cdb5b504b13d7358",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-7b8346b20e8d73d5f6d8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    },
+    {
+      "occupation_id": "TG-6f6d8f7f392f6deba367",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": null
+    }
+  ],
+  "raw_response_file": "000482.raw.json",
+  "usage": {
+    "input_tokens": 19303,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 2791,
+    "output_tokens": 818,
+    "reasoning_tokens": 0,
+    "total_tokens": 20121
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0019179719999999998
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

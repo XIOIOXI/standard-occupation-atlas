@@ -1,0 +1,5172 @@
+{
+  "taxonomy_version": "mvp-taxonomy-v4.1-frozen",
+  "status": "FROZEN",
+  "created_at": "2026-09-19T20:09:08.231734+00:00",
+  "reference_workbook": "data\\taxonomy\\China_Employment_Taxonomy_3Level_v4_with_Candidates.xlsx",
+  "reference_occupation_count": 452,
+  "approved_alias_count": 13,
+  "approved_new_occupation_count": 2,
+  "occupations": [
+    {
+      "occupation_id": "OCC0001",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "软件工程师",
+      "aliases": [
+        "软件开发"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "软件开发",
+          "source_family_id": "PCF-00037",
+          "semantic_review_version": "semantic-review-v1",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0002",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "Java开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0003",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "Python开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0004",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "C/C++开发工程师",
+      "aliases": [
+        "C++开发工程师"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "C++开发工程师",
+          "source_family_id": "PCF-00014",
+          "semantic_review_version": "semantic-review-v1",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0005",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "前端开发工程师",
+      "aliases": [
+        "前端开发"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "前端开发",
+          "source_family_id": "PCF-00079",
+          "semantic_review_version": "semantic-review-v2",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0006",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "后端开发工程师",
+      "aliases": [
+        "后端开发"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "后端开发",
+          "source_family_id": "PCF-00143",
+          "semantic_review_version": "semantic-review-v2",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0007",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "全栈开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0008",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "移动端开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0009",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "Web开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0010",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "游戏开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0011",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "低代码开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0012",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "软件架构师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0013",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件开发与工程",
+      "level_3": "技术架构师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0014",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件测试与质量",
+      "level_3": "软件测试工程师",
+      "aliases": [
+        "软件测试"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "软件测试",
+          "source_family_id": "PCF-00061",
+          "semantic_review_version": "semantic-review-v2",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0015",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件测试与质量",
+      "level_3": "自动化测试工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0016",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件测试与质量",
+      "level_3": "测试开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0017",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件测试与质量",
+      "level_3": "性能测试工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0018",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件测试与质量",
+      "level_3": "质量保证工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0019",
+      "level_1": "信息技术与数字产业",
+      "level_2": "软件测试与质量",
+      "level_3": "软件质量工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0020",
+      "level_1": "信息技术与数字产业",
+      "level_2": "人工智能与机器学习",
+      "level_3": "AI算法工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0021",
+      "level_1": "信息技术与数字产业",
+      "level_2": "人工智能与机器学习",
+      "level_3": "机器学习工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0022",
+      "level_1": "信息技术与数字产业",
+      "level_2": "人工智能与机器学习",
+      "level_3": "深度学习工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0023",
+      "level_1": "信息技术与数字产业",
+      "level_2": "人工智能与机器学习",
+      "level_3": "计算机视觉算法工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0024",
+      "level_1": "信息技术与数字产业",
+      "level_2": "人工智能与机器学习",
+      "level_3": "自然语言处理工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0025",
+      "level_1": "信息技术与数字产业",
+      "level_2": "人工智能与机器学习",
+      "level_3": "语音算法工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0026",
+      "level_1": "信息技术与数字产业",
+      "level_2": "人工智能与机器学习",
+      "level_3": "推荐算法工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0027",
+      "level_1": "信息技术与数字产业",
+      "level_2": "人工智能与机器学习",
+      "level_3": "搜索算法工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0028",
+      "level_1": "信息技术与数字产业",
+      "level_2": "人工智能与机器学习",
+      "level_3": "强化学习工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0029",
+      "level_1": "信息技术与数字产业",
+      "level_2": "生成式AI与大模型",
+      "level_3": "大模型算法工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0030",
+      "level_1": "信息技术与数字产业",
+      "level_2": "生成式AI与大模型",
+      "level_3": "大模型应用工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0031",
+      "level_1": "信息技术与数字产业",
+      "level_2": "生成式AI与大模型",
+      "level_3": "生成式AI工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0032",
+      "level_1": "信息技术与数字产业",
+      "level_2": "生成式AI与大模型",
+      "level_3": "AI Agent工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0033",
+      "level_1": "信息技术与数字产业",
+      "level_2": "生成式AI与大模型",
+      "level_3": "提示词工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0034",
+      "level_1": "信息技术与数字产业",
+      "level_2": "生成式AI与大模型",
+      "level_3": "AI训练师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0035",
+      "level_1": "信息技术与数字产业",
+      "level_2": "生成式AI与大模型",
+      "level_3": "AI评测工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0036",
+      "level_1": "信息技术与数字产业",
+      "level_2": "AI产品与解决方案",
+      "level_3": "AI产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0037",
+      "level_1": "信息技术与数字产业",
+      "level_2": "AI产品与解决方案",
+      "level_3": "生成式AI产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0038",
+      "level_1": "信息技术与数字产业",
+      "level_2": "AI产品与解决方案",
+      "level_3": "AI应用产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0039",
+      "level_1": "信息技术与数字产业",
+      "level_2": "AI产品与解决方案",
+      "level_3": "AI解决方案顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0040",
+      "level_1": "信息技术与数字产业",
+      "level_2": "AI产品与解决方案",
+      "level_3": "AI解决方案架构师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0041",
+      "level_1": "信息技术与数字产业",
+      "level_2": "AI产品与解决方案",
+      "level_3": "AI售前工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0042",
+      "level_1": "信息技术与数字产业",
+      "level_2": "AI产品与解决方案",
+      "level_3": "AI实施顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0043",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据分析与数据科学",
+      "level_3": "数据分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0044",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据分析与数据科学",
+      "level_3": "商业数据分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0045",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据分析与数据科学",
+      "level_3": "数据科学家",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0046",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据分析与数据科学",
+      "level_3": "数据挖掘工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0047",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据分析与数据科学",
+      "level_3": "BI分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0048",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据分析与数据科学",
+      "level_3": "用户增长分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0049",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据分析与数据科学",
+      "level_3": "经营分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0050",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据工程与数据平台",
+      "level_3": "数据工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0051",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据工程与数据平台",
+      "level_3": "大数据开发工程师",
+      "aliases": [
+        "大数据开发"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "大数据开发",
+          "source_family_id": "PCF-00158",
+          "semantic_review_version": "semantic-review-v2",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0052",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据工程与数据平台",
+      "level_3": "数据平台工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0053",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据工程与数据平台",
+      "level_3": "ETL开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0054",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据工程与数据平台",
+      "level_3": "数据仓库工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0055",
+      "level_1": "信息技术与数字产业",
+      "level_2": "数据工程与数据平台",
+      "level_3": "数据架构师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0056",
+      "level_1": "信息技术与数字产业",
+      "level_2": "云计算与DevOps",
+      "level_3": "云计算工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0057",
+      "level_1": "信息技术与数字产业",
+      "level_2": "云计算与DevOps",
+      "level_3": "云原生工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0058",
+      "level_1": "信息技术与数字产业",
+      "level_2": "云计算与DevOps",
+      "level_3": "DevOps工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0059",
+      "level_1": "信息技术与数字产业",
+      "level_2": "云计算与DevOps",
+      "level_3": "SRE工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0060",
+      "level_1": "信息技术与数字产业",
+      "level_2": "云计算与DevOps",
+      "level_3": "容器平台工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0061",
+      "level_1": "信息技术与数字产业",
+      "level_2": "云计算与DevOps",
+      "level_3": "DevSecOps工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0062",
+      "level_1": "信息技术与数字产业",
+      "level_2": "网络与信息安全",
+      "level_3": "网络工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0063",
+      "level_1": "信息技术与数字产业",
+      "level_2": "网络与信息安全",
+      "level_3": "网络安全工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0064",
+      "level_1": "信息技术与数字产业",
+      "level_2": "网络与信息安全",
+      "level_3": "安全运营工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0065",
+      "level_1": "信息技术与数字产业",
+      "level_2": "网络与信息安全",
+      "level_3": "渗透测试工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0066",
+      "level_1": "信息技术与数字产业",
+      "level_2": "网络与信息安全",
+      "level_3": "安全研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0067",
+      "level_1": "信息技术与数字产业",
+      "level_2": "网络与信息安全",
+      "level_3": "数据安全工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0068",
+      "level_1": "信息技术与数字产业",
+      "level_2": "网络与信息安全",
+      "level_3": "隐私保护工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0069",
+      "level_1": "信息技术与数字产业",
+      "level_2": "信息化与IT服务",
+      "level_3": "IT支持工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0070",
+      "level_1": "信息技术与数字产业",
+      "level_2": "信息化与IT服务",
+      "level_3": "系统管理员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0071",
+      "level_1": "信息技术与数字产业",
+      "level_2": "信息化与IT服务",
+      "level_3": "信息化工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0072",
+      "level_1": "信息技术与数字产业",
+      "level_2": "信息化与IT服务",
+      "level_3": "ERP实施顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0073",
+      "level_1": "信息技术与数字产业",
+      "level_2": "信息化与IT服务",
+      "level_3": "CRM实施顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0074",
+      "level_1": "信息技术与数字产业",
+      "level_2": "信息化与IT服务",
+      "level_3": "IT项目经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0075",
+      "level_1": "信息技术与数字产业",
+      "level_2": "信息化与IT服务",
+      "level_3": "IT运维工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0076",
+      "level_1": "电子信息与通信产业",
+      "level_2": "通信网络",
+      "level_3": "通信工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0077",
+      "level_1": "电子信息与通信产业",
+      "level_2": "通信网络",
+      "level_3": "无线通信工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0078",
+      "level_1": "电子信息与通信产业",
+      "level_2": "通信网络",
+      "level_3": "核心网工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0079",
+      "level_1": "电子信息与通信产业",
+      "level_2": "通信网络",
+      "level_3": "传输工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0080",
+      "level_1": "电子信息与通信产业",
+      "level_2": "通信网络",
+      "level_3": "网络规划工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0081",
+      "level_1": "电子信息与通信产业",
+      "level_2": "通信网络",
+      "level_3": "通信技术支持工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0082",
+      "level_1": "电子信息与通信产业",
+      "level_2": "电子硬件与嵌入式",
+      "level_3": "硬件工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0083",
+      "level_1": "电子信息与通信产业",
+      "level_2": "电子硬件与嵌入式",
+      "level_3": "嵌入式软件工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0084",
+      "level_1": "电子信息与通信产业",
+      "level_2": "电子硬件与嵌入式",
+      "level_3": "嵌入式硬件工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0085",
+      "level_1": "电子信息与通信产业",
+      "level_2": "电子硬件与嵌入式",
+      "level_3": "电子工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0086",
+      "level_1": "电子信息与通信产业",
+      "level_2": "电子硬件与嵌入式",
+      "level_3": "PCB工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0087",
+      "level_1": "电子信息与通信产业",
+      "level_2": "电子硬件与嵌入式",
+      "level_3": "射频工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0088",
+      "level_1": "电子信息与通信产业",
+      "level_2": "电子硬件与嵌入式",
+      "level_3": "电源工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0089",
+      "level_1": "电子信息与通信产业",
+      "level_2": "芯片设计",
+      "level_3": "IC设计工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0090",
+      "level_1": "电子信息与通信产业",
+      "level_2": "芯片设计",
+      "level_3": "数字IC设计工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0091",
+      "level_1": "电子信息与通信产业",
+      "level_2": "芯片设计",
+      "level_3": "模拟IC设计工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0092",
+      "level_1": "电子信息与通信产业",
+      "level_2": "芯片设计",
+      "level_3": "SoC设计工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0093",
+      "level_1": "电子信息与通信产业",
+      "level_2": "芯片设计",
+      "level_3": "芯片验证工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0094",
+      "level_1": "电子信息与通信产业",
+      "level_2": "芯片设计",
+      "level_3": "EDA工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0095",
+      "level_1": "电子信息与通信产业",
+      "level_2": "半导体制造与封装",
+      "level_3": "半导体工艺工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0096",
+      "level_1": "电子信息与通信产业",
+      "level_2": "半导体制造与封装",
+      "level_3": "半导体设备工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0097",
+      "level_1": "电子信息与通信产业",
+      "level_2": "半导体制造与封装",
+      "level_3": "半导体封装工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0098",
+      "level_1": "电子信息与通信产业",
+      "level_2": "半导体制造与封装",
+      "level_3": "半导体测试工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0099",
+      "level_1": "电子信息与通信产业",
+      "level_2": "半导体制造与封装",
+      "level_3": "晶圆制造工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0100",
+      "level_1": "电子信息与通信产业",
+      "level_2": "光电与显示",
+      "level_3": "光学工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0101",
+      "level_1": "电子信息与通信产业",
+      "level_2": "光电与显示",
+      "level_3": "光电工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0102",
+      "level_1": "电子信息与通信产业",
+      "level_2": "光电与显示",
+      "level_3": "显示器件工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0103",
+      "level_1": "电子信息与通信产业",
+      "level_2": "光电与显示",
+      "level_3": "光学设计工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0104",
+      "level_1": "智能制造与工业",
+      "level_2": "机械设计与装备",
+      "level_3": "机械工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0105",
+      "level_1": "智能制造与工业",
+      "level_2": "机械设计与装备",
+      "level_3": "机械设计工程师",
+      "aliases": [
+        "机械设计"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "机械设计",
+          "source_family_id": "PCF-00122",
+          "semantic_review_version": "semantic-review-v2",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0106",
+      "level_1": "智能制造与工业",
+      "level_2": "机械设计与装备",
+      "level_3": "结构工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0107",
+      "level_1": "智能制造与工业",
+      "level_2": "机械设计与装备",
+      "level_3": "机电工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0108",
+      "level_1": "智能制造与工业",
+      "level_2": "机械设计与装备",
+      "level_3": "设备工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0109",
+      "level_1": "智能制造与工业",
+      "level_2": "机械设计与装备",
+      "level_3": "工艺工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0110",
+      "level_1": "智能制造与工业",
+      "level_2": "自动化与控制",
+      "level_3": "自动化工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0111",
+      "level_1": "智能制造与工业",
+      "level_2": "自动化与控制",
+      "level_3": "控制工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0112",
+      "level_1": "智能制造与工业",
+      "level_2": "自动化与控制",
+      "level_3": "PLC工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0113",
+      "level_1": "智能制造与工业",
+      "level_2": "自动化与控制",
+      "level_3": "运动控制工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0114",
+      "level_1": "智能制造与工业",
+      "level_2": "自动化与控制",
+      "level_3": "工业控制工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0115",
+      "level_1": "智能制造与工业",
+      "level_2": "机器人",
+      "level_3": "机器人研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0116",
+      "level_1": "智能制造与工业",
+      "level_2": "机器人",
+      "level_3": "机器人算法工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0117",
+      "level_1": "智能制造与工业",
+      "level_2": "机器人",
+      "level_3": "机器人应用工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0118",
+      "level_1": "智能制造与工业",
+      "level_2": "机器人",
+      "level_3": "机器人调试工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0119",
+      "level_1": "智能制造与工业",
+      "level_2": "机器人",
+      "level_3": "机器人工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0120",
+      "level_1": "智能制造与工业",
+      "level_2": "工业互联网",
+      "level_3": "工业互联网工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0121",
+      "level_1": "智能制造与工业",
+      "level_2": "工业互联网",
+      "level_3": "工业软件工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0122",
+      "level_1": "智能制造与工业",
+      "level_2": "工业互联网",
+      "level_3": "MES实施顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0123",
+      "level_1": "智能制造与工业",
+      "level_2": "工业互联网",
+      "level_3": "工业互联网解决方案工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0124",
+      "level_1": "智能制造与工业",
+      "level_2": "数字孪生与工业建模",
+      "level_3": "数字孪生工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0125",
+      "level_1": "智能制造与工业",
+      "level_2": "数字孪生与工业建模",
+      "level_3": "工业数字建模师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0126",
+      "level_1": "智能制造与工业",
+      "level_2": "数字孪生与工业建模",
+      "level_3": "三维建模工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0127",
+      "level_1": "智能制造与工业",
+      "level_2": "数字孪生与工业建模",
+      "level_3": "仿真工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0128",
+      "level_1": "智能制造与工业",
+      "level_2": "智能制造与生产",
+      "level_3": "智能制造工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0129",
+      "level_1": "智能制造与工业",
+      "level_2": "智能制造与生产",
+      "level_3": "生产计划工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0130",
+      "level_1": "智能制造与工业",
+      "level_2": "智能制造与生产",
+      "level_3": "制造工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0131",
+      "level_1": "智能制造与工业",
+      "level_2": "智能制造与生产",
+      "level_3": "精益生产工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0132",
+      "level_1": "智能制造与工业",
+      "level_2": "智能制造与生产",
+      "level_3": "生产运营工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0133",
+      "level_1": "智能制造与工业",
+      "level_2": "质量与可靠性",
+      "level_3": "质量工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0134",
+      "level_1": "智能制造与工业",
+      "level_2": "质量与可靠性",
+      "level_3": "可靠性工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0135",
+      "level_1": "智能制造与工业",
+      "level_2": "质量与可靠性",
+      "level_3": "质量体系工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0136",
+      "level_1": "智能制造与工业",
+      "level_2": "质量与可靠性",
+      "level_3": "供应商质量工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0137",
+      "level_1": "新能源与能源产业",
+      "level_2": "光伏与太阳能",
+      "level_3": "光伏工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0138",
+      "level_1": "新能源与能源产业",
+      "level_2": "光伏与太阳能",
+      "level_3": "光伏研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0139",
+      "level_1": "新能源与能源产业",
+      "level_2": "光伏与太阳能",
+      "level_3": "光伏工艺工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0140",
+      "level_1": "新能源与能源产业",
+      "level_2": "光伏与太阳能",
+      "level_3": "光伏系统工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0141",
+      "level_1": "新能源与能源产业",
+      "level_2": "风能",
+      "level_3": "风电工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0142",
+      "level_1": "新能源与能源产业",
+      "level_2": "风能",
+      "level_3": "风机研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0143",
+      "level_1": "新能源与能源产业",
+      "level_2": "风能",
+      "level_3": "风电运维工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0144",
+      "level_1": "新能源与能源产业",
+      "level_2": "储能",
+      "level_3": "储能工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0145",
+      "level_1": "新能源与能源产业",
+      "level_2": "储能",
+      "level_3": "储能系统工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0146",
+      "level_1": "新能源与能源产业",
+      "level_2": "储能",
+      "level_3": "储能产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0147",
+      "level_1": "新能源与能源产业",
+      "level_2": "储能",
+      "level_3": "储能项目工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0148",
+      "level_1": "新能源与能源产业",
+      "level_2": "电池",
+      "level_3": "电池研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0149",
+      "level_1": "新能源与能源产业",
+      "level_2": "电池",
+      "level_3": "电池工艺工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0150",
+      "level_1": "新能源与能源产业",
+      "level_2": "电池",
+      "level_3": "电池测试工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0151",
+      "level_1": "新能源与能源产业",
+      "level_2": "电池",
+      "level_3": "电池材料工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0152",
+      "level_1": "新能源与能源产业",
+      "level_2": "电池",
+      "level_3": "电池结构工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0153",
+      "level_1": "新能源与能源产业",
+      "level_2": "氢能与燃料电池",
+      "level_3": "氢能工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0154",
+      "level_1": "新能源与能源产业",
+      "level_2": "氢能与燃料电池",
+      "level_3": "燃料电池工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0155",
+      "level_1": "新能源与能源产业",
+      "level_2": "氢能与燃料电池",
+      "level_3": "制氢工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0156",
+      "level_1": "新能源与能源产业",
+      "level_2": "氢能与燃料电池",
+      "level_3": "氢能系统工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0157",
+      "level_1": "新能源与能源产业",
+      "level_2": "电力与电网",
+      "level_3": "电力工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0158",
+      "level_1": "新能源与能源产业",
+      "level_2": "电力与电网",
+      "level_3": "电气工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0159",
+      "level_1": "新能源与能源产业",
+      "level_2": "电力与电网",
+      "level_3": "电网工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0160",
+      "level_1": "新能源与能源产业",
+      "level_2": "电力与电网",
+      "level_3": "继电保护工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0161",
+      "level_1": "新能源与能源产业",
+      "level_2": "电力与电网",
+      "level_3": "变电工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0162",
+      "level_1": "新能源与能源产业",
+      "level_2": "电力与电网",
+      "level_3": "配电工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0163",
+      "level_1": "新能源与能源产业",
+      "level_2": "绿色低碳与ESG",
+      "level_3": "碳管理师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0164",
+      "level_1": "新能源与能源产业",
+      "level_2": "绿色低碳与ESG",
+      "level_3": "碳核算员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0165",
+      "level_1": "新能源与能源产业",
+      "level_2": "绿色低碳与ESG",
+      "level_3": "碳排放管理师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0166",
+      "level_1": "新能源与能源产业",
+      "level_2": "绿色低碳与ESG",
+      "level_3": "ESG分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0167",
+      "level_1": "新能源与能源产业",
+      "level_2": "绿色低碳与ESG",
+      "level_3": "可持续发展规划师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0168",
+      "level_1": "汽车与智能交通",
+      "level_2": "整车研发",
+      "level_3": "汽车研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0169",
+      "level_1": "汽车与智能交通",
+      "level_2": "整车研发",
+      "level_3": "汽车结构工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0170",
+      "level_1": "汽车与智能交通",
+      "level_2": "整车研发",
+      "level_3": "汽车底盘工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0171",
+      "level_1": "汽车与智能交通",
+      "level_2": "整车研发",
+      "level_3": "汽车动力系统工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0172",
+      "level_1": "汽车与智能交通",
+      "level_2": "整车研发",
+      "level_3": "汽车试验工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0173",
+      "level_1": "汽车与智能交通",
+      "level_2": "智能驾驶",
+      "level_3": "自动驾驶算法工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0174",
+      "level_1": "汽车与智能交通",
+      "level_2": "智能驾驶",
+      "level_3": "智能驾驶工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0175",
+      "level_1": "汽车与智能交通",
+      "level_2": "智能驾驶",
+      "level_3": "感知算法工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0176",
+      "level_1": "汽车与智能交通",
+      "level_2": "智能驾驶",
+      "level_3": "规划控制算法工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0177",
+      "level_1": "汽车与智能交通",
+      "level_2": "智能驾驶",
+      "level_3": "智能座舱工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0178",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车电子",
+      "level_3": "汽车电子工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0179",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车电子",
+      "level_3": "车载软件工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0180",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车电子",
+      "level_3": "车载系统工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0181",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车电子",
+      "level_3": "汽车电子测试工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0182",
+      "level_1": "汽车与智能交通",
+      "level_2": "新能源汽车",
+      "level_3": "新能源汽车工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0183",
+      "level_1": "汽车与智能交通",
+      "level_2": "新能源汽车",
+      "level_3": "三电工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0184",
+      "level_1": "汽车与智能交通",
+      "level_2": "新能源汽车",
+      "level_3": "电驱工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0185",
+      "level_1": "汽车与智能交通",
+      "level_2": "新能源汽车",
+      "level_3": "热管理工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0186",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车制造与质量",
+      "level_3": "汽车制造工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0187",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车制造与质量",
+      "level_3": "汽车工艺工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0188",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车制造与质量",
+      "level_3": "汽车质量工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0189",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车制造与质量",
+      "level_3": "汽车供应商质量工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0190",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车销售与服务",
+      "level_3": "汽车销售顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0191",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车销售与服务",
+      "level_3": "汽车产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0192",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车销售与服务",
+      "level_3": "售后服务顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0193",
+      "level_1": "汽车与智能交通",
+      "level_2": "汽车销售与服务",
+      "level_3": "汽车服务工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0194",
+      "level_1": "汽车与智能交通",
+      "level_2": "智能交通",
+      "level_3": "智能交通工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0195",
+      "level_1": "汽车与智能交通",
+      "level_2": "智能交通",
+      "level_3": "交通数据分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0196",
+      "level_1": "汽车与智能交通",
+      "level_2": "智能交通",
+      "level_3": "交通规划工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0197",
+      "level_1": "汽车与智能交通",
+      "level_2": "智能交通",
+      "level_3": "智慧交通解决方案顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0198",
+      "level_1": "航空航天与低空经济",
+      "level_2": "航空航天",
+      "level_3": "航空航天工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0199",
+      "level_1": "航空航天与低空经济",
+      "level_2": "航空航天",
+      "level_3": "飞行器设计工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0200",
+      "level_1": "航空航天与低空经济",
+      "level_2": "航空航天",
+      "level_3": "航空电子工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0201",
+      "level_1": "航空航天与低空经济",
+      "level_2": "航空航天",
+      "level_3": "航天器工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0202",
+      "level_1": "航空航天与低空经济",
+      "level_2": "航空航天",
+      "level_3": "航天动力工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0203",
+      "level_1": "航空航天与低空经济",
+      "level_2": "无人机与低空技术",
+      "level_3": "无人机研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0204",
+      "level_1": "航空航天与低空经济",
+      "level_2": "无人机与低空技术",
+      "level_3": "无人机飞控工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0205",
+      "level_1": "航空航天与低空经济",
+      "level_2": "无人机与低空技术",
+      "level_3": "无人机应用工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0206",
+      "level_1": "航空航天与低空经济",
+      "level_2": "无人机与低空技术",
+      "level_3": "低空经济解决方案顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0207",
+      "level_1": "航空航天与低空经济",
+      "level_2": "无人机与低空技术",
+      "level_3": "低空运营规划师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0208",
+      "level_1": "航空航天与低空经济",
+      "level_2": "卫星与空间信息",
+      "level_3": "卫星工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0209",
+      "level_1": "航空航天与低空经济",
+      "level_2": "卫星与空间信息",
+      "level_3": "卫星导航工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0210",
+      "level_1": "航空航天与低空经济",
+      "level_2": "卫星与空间信息",
+      "level_3": "遥感工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0211",
+      "level_1": "航空航天与低空经济",
+      "level_2": "卫星与空间信息",
+      "level_3": "空间信息工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0212",
+      "level_1": "先进材料与化工",
+      "level_2": "材料研发",
+      "level_3": "材料研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0213",
+      "level_1": "先进材料与化工",
+      "level_2": "材料研发",
+      "level_3": "材料工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0214",
+      "level_1": "先进材料与化工",
+      "level_2": "材料研发",
+      "level_3": "高分子材料工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0215",
+      "level_1": "先进材料与化工",
+      "level_2": "材料研发",
+      "level_3": "复合材料工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0216",
+      "level_1": "先进材料与化工",
+      "level_2": "材料研发",
+      "level_3": "金属材料工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0217",
+      "level_1": "先进材料与化工",
+      "level_2": "半导体与电子材料",
+      "level_3": "电子材料工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0218",
+      "level_1": "先进材料与化工",
+      "level_2": "半导体与电子材料",
+      "level_3": "半导体材料工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0219",
+      "level_1": "先进材料与化工",
+      "level_2": "半导体与电子材料",
+      "level_3": "封装材料工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0220",
+      "level_1": "先进材料与化工",
+      "level_2": "化工与过程工程",
+      "level_3": "化工工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0221",
+      "level_1": "先进材料与化工",
+      "level_2": "化工与过程工程",
+      "level_3": "化工工艺工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0222",
+      "level_1": "先进材料与化工",
+      "level_2": "化工与过程工程",
+      "level_3": "化学工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0223",
+      "level_1": "先进材料与化工",
+      "level_2": "化工与过程工程",
+      "level_3": "过程工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0224",
+      "level_1": "先进材料与化工",
+      "level_2": "新材料产业化",
+      "level_3": "材料应用工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0225",
+      "level_1": "先进材料与化工",
+      "level_2": "新材料产业化",
+      "level_3": "材料技术支持工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0226",
+      "level_1": "先进材料与化工",
+      "level_2": "新材料产业化",
+      "level_3": "材料产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0227",
+      "level_1": "生物医药与生命科学",
+      "level_2": "生物技术",
+      "level_3": "生物工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0228",
+      "level_1": "生物医药与生命科学",
+      "level_2": "生物技术",
+      "level_3": "生物技术研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0229",
+      "level_1": "生物医药与生命科学",
+      "level_2": "生物技术",
+      "level_3": "分子生物学研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0230",
+      "level_1": "生物医药与生命科学",
+      "level_2": "生物技术",
+      "level_3": "细胞培养工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0231",
+      "level_1": "生物医药与生命科学",
+      "level_2": "生物技术",
+      "level_3": "发酵工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0232",
+      "level_1": "生物医药与生命科学",
+      "level_2": "药物研发",
+      "level_3": "药物研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0233",
+      "level_1": "生物医药与生命科学",
+      "level_2": "药物研发",
+      "level_3": "药物化学研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0234",
+      "level_1": "生物医药与生命科学",
+      "level_2": "药物研发",
+      "level_3": "药理研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0235",
+      "level_1": "生物医药与生命科学",
+      "level_2": "药物研发",
+      "level_3": "临床前研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0236",
+      "level_1": "生物医药与生命科学",
+      "level_2": "临床与注册",
+      "level_3": "临床研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0237",
+      "level_1": "生物医药与生命科学",
+      "level_2": "临床与注册",
+      "level_3": "临床项目经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0238",
+      "level_1": "生物医药与生命科学",
+      "level_2": "临床与注册",
+      "level_3": "注册专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0239",
+      "level_1": "生物医药与生命科学",
+      "level_2": "临床与注册",
+      "level_3": "医学事务专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0240",
+      "level_1": "生物医药与生命科学",
+      "level_2": "临床与注册",
+      "level_3": "药物警戒专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0241",
+      "level_1": "生物医药与生命科学",
+      "level_2": "生物数据",
+      "level_3": "生物信息工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0242",
+      "level_1": "生物医药与生命科学",
+      "level_2": "生物数据",
+      "level_3": "生物信息分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0243",
+      "level_1": "生物医药与生命科学",
+      "level_2": "生物数据",
+      "level_3": "医学数据分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0244",
+      "level_1": "生物医药与生命科学",
+      "level_2": "生物数据",
+      "level_3": "临床数据管理员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0245",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗器械研发",
+      "level_3": "医疗器械研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0246",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗器械研发",
+      "level_3": "医疗器械注册工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0247",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗器械研发",
+      "level_3": "医疗器械测试工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0248",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗器械研发",
+      "level_3": "医疗器械结构工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0249",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗信息化",
+      "level_3": "医疗信息化工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0250",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗信息化",
+      "level_3": "医疗信息产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0251",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗信息化",
+      "level_3": "医学信息工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0252",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗信息化",
+      "level_3": "医院信息系统实施顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0253",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医学检验与诊断",
+      "level_3": "医学检验技术员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0254",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医学检验与诊断",
+      "level_3": "体外诊断研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0255",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医学检验与诊断",
+      "level_3": "诊断试剂研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0256",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗服务",
+      "level_3": "临床医生",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0257",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗服务",
+      "level_3": "护理人员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0258",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗服务",
+      "level_3": "医学影像技师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0259",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗服务",
+      "level_3": "康复治疗师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0260",
+      "level_1": "医疗健康与医疗器械",
+      "level_2": "医疗服务",
+      "level_3": "健康管理师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0261",
+      "level_1": "金融与金融科技",
+      "level_2": "银行",
+      "level_3": "银行客户经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0262",
+      "level_1": "金融与金融科技",
+      "level_2": "银行",
+      "level_3": "公司金融客户经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0263",
+      "level_1": "金融与金融科技",
+      "level_2": "银行",
+      "level_3": "零售金融客户经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0264",
+      "level_1": "金融与金融科技",
+      "level_2": "银行",
+      "level_3": "银行产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0265",
+      "level_1": "金融与金融科技",
+      "level_2": "银行",
+      "level_3": "银行运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0266",
+      "level_1": "金融与金融科技",
+      "level_2": "证券与资本市场",
+      "level_3": "证券研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0267",
+      "level_1": "金融与金融科技",
+      "level_2": "证券与资本市场",
+      "level_3": "投资顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0268",
+      "level_1": "金融与金融科技",
+      "level_2": "证券与资本市场",
+      "level_3": "基金研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0269",
+      "level_1": "金融与金融科技",
+      "level_2": "证券与资本市场",
+      "level_3": "投资经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0270",
+      "level_1": "金融与金融科技",
+      "level_2": "证券与资本市场",
+      "level_3": "量化研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0271",
+      "level_1": "金融与金融科技",
+      "level_2": "保险",
+      "level_3": "保险产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0272",
+      "level_1": "金融与金融科技",
+      "level_2": "保险",
+      "level_3": "保险精算师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0273",
+      "level_1": "金融与金融科技",
+      "level_2": "保险",
+      "level_3": "保险核保员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0274",
+      "level_1": "金融与金融科技",
+      "level_2": "保险",
+      "level_3": "保险理赔员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0275",
+      "level_1": "金融与金融科技",
+      "level_2": "保险",
+      "level_3": "保险业务经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0276",
+      "level_1": "金融与金融科技",
+      "level_2": "金融科技",
+      "level_3": "金融科技产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0277",
+      "level_1": "金融与金融科技",
+      "level_2": "金融科技",
+      "level_3": "金融数据分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0278",
+      "level_1": "金融与金融科技",
+      "level_2": "金融科技",
+      "level_3": "金融科技开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0279",
+      "level_1": "金融与金融科技",
+      "level_2": "金融科技",
+      "level_3": "量化开发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0280",
+      "level_1": "金融与金融科技",
+      "level_2": "风险与合规",
+      "level_3": "风险管理师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0281",
+      "level_1": "金融与金融科技",
+      "level_2": "风险与合规",
+      "level_3": "合规专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0282",
+      "level_1": "金融与金融科技",
+      "level_2": "风险与合规",
+      "level_3": "反洗钱专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0283",
+      "level_1": "金融与金融科技",
+      "level_2": "风险与合规",
+      "level_3": "内控专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0284",
+      "level_1": "金融与金融科技",
+      "level_2": "财务与会计",
+      "level_3": "会计",
+      "aliases": [
+        "财务会计岗"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "财务会计岗",
+          "source_family_id": "PCF-00042",
+          "semantic_review_version": "semantic-review-v2",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0285",
+      "level_1": "金融与金融科技",
+      "level_2": "财务与会计",
+      "level_3": "财务分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0286",
+      "level_1": "金融与金融科技",
+      "level_2": "财务与会计",
+      "level_3": "财务经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0287",
+      "level_1": "金融与金融科技",
+      "level_2": "财务与会计",
+      "level_3": "税务专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0288",
+      "level_1": "金融与金融科技",
+      "level_2": "财务与会计",
+      "level_3": "审计师",
+      "aliases": [
+        "审计岗"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "审计岗",
+          "source_family_id": "PCF-00032",
+          "semantic_review_version": "semantic-review-v2",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0289",
+      "level_1": "商业与企业服务",
+      "level_2": "产品管理",
+      "level_3": "产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0290",
+      "level_1": "商业与企业服务",
+      "level_2": "产品管理",
+      "level_3": "产品专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0291",
+      "level_1": "商业与企业服务",
+      "level_2": "产品管理",
+      "level_3": "B端产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0292",
+      "level_1": "商业与企业服务",
+      "level_2": "产品管理",
+      "level_3": "C端产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0293",
+      "level_1": "商业与企业服务",
+      "level_2": "产品管理",
+      "level_3": "平台产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0294",
+      "level_1": "商业与企业服务",
+      "level_2": "产品管理",
+      "level_3": "产品运营经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0295",
+      "level_1": "商业与企业服务",
+      "level_2": "项目管理",
+      "level_3": "项目经理",
+      "aliases": [
+        "项目管理岗"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "项目管理岗",
+          "source_family_id": "PCF-00011",
+          "semantic_review_version": "semantic-review-v1",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0296",
+      "level_1": "商业与企业服务",
+      "level_2": "项目管理",
+      "level_3": "项目管理专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0297",
+      "level_1": "商业与企业服务",
+      "level_2": "项目管理",
+      "level_3": "PMO专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0298",
+      "level_1": "商业与企业服务",
+      "level_2": "项目管理",
+      "level_3": "技术项目经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0299",
+      "level_1": "商业与企业服务",
+      "level_2": "项目管理",
+      "level_3": "实施项目经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0300",
+      "level_1": "商业与企业服务",
+      "level_2": "商业分析与战略",
+      "level_3": "商业分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0301",
+      "level_1": "商业与企业服务",
+      "level_2": "商业分析与战略",
+      "level_3": "战略分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0302",
+      "level_1": "商业与企业服务",
+      "level_2": "商业分析与战略",
+      "level_3": "经营分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0303",
+      "level_1": "商业与企业服务",
+      "level_2": "商业分析与战略",
+      "level_3": "战略规划专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0304",
+      "level_1": "商业与企业服务",
+      "level_2": "咨询",
+      "level_3": "管理咨询顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0305",
+      "level_1": "商业与企业服务",
+      "level_2": "咨询",
+      "level_3": "数字化咨询顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0306",
+      "level_1": "商业与企业服务",
+      "level_2": "咨询",
+      "level_3": "技术咨询顾问",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0307",
+      "level_1": "商业与企业服务",
+      "level_2": "咨询",
+      "level_3": "行业研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0308",
+      "level_1": "商业与企业服务",
+      "level_2": "人力资源",
+      "level_3": "人力资源专员",
+      "aliases": [
+        "人力资源管理岗"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "人力资源管理岗",
+          "source_family_id": "PCF-00118",
+          "semantic_review_version": "semantic-review-v2",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0309",
+      "level_1": "商业与企业服务",
+      "level_2": "人力资源",
+      "level_3": "招聘专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0310",
+      "level_1": "商业与企业服务",
+      "level_2": "人力资源",
+      "level_3": "培训与发展专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0311",
+      "level_1": "商业与企业服务",
+      "level_2": "人力资源",
+      "level_3": "薪酬绩效专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0312",
+      "level_1": "商业与企业服务",
+      "level_2": "人力资源",
+      "level_3": "HRBP",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0313",
+      "level_1": "商业与企业服务",
+      "level_2": "法务与合规",
+      "level_3": "法务专员",
+      "aliases": [
+        "法务岗"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "法务岗",
+          "source_family_id": "PCF-00017",
+          "semantic_review_version": "semantic-review-v1",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0314",
+      "level_1": "商业与企业服务",
+      "level_2": "法务与合规",
+      "level_3": "合同管理专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0315",
+      "level_1": "商业与企业服务",
+      "level_2": "法务与合规",
+      "level_3": "合规经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0316",
+      "level_1": "商业与企业服务",
+      "level_2": "法务与合规",
+      "level_3": "知识产权专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0317",
+      "level_1": "市场营销与传媒",
+      "level_2": "市场营销",
+      "level_3": "市场营销专员",
+      "aliases": [
+        "市场专员"
+      ],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      },
+      "approved_alias_provenance": [
+        {
+          "alias": "市场专员",
+          "source_family_id": "PCF-00019",
+          "semantic_review_version": "semantic-review-v1",
+          "governance_status": "recommended_for_approval",
+          "approved_for_mvp": true
+        }
+      ]
+    },
+    {
+      "occupation_id": "OCC0318",
+      "level_1": "市场营销与传媒",
+      "level_2": "市场营销",
+      "level_3": "市场经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0319",
+      "level_1": "市场营销与传媒",
+      "level_2": "市场营销",
+      "level_3": "整合营销专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0320",
+      "level_1": "市场营销与传媒",
+      "level_2": "市场营销",
+      "level_3": "市场研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0321",
+      "level_1": "市场营销与传媒",
+      "level_2": "品牌",
+      "level_3": "品牌经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0322",
+      "level_1": "市场营销与传媒",
+      "level_2": "品牌",
+      "level_3": "品牌策划",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0323",
+      "level_1": "市场营销与传媒",
+      "level_2": "品牌",
+      "level_3": "品牌运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0324",
+      "level_1": "市场营销与传媒",
+      "level_2": "广告与公关",
+      "level_3": "广告策划",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0325",
+      "level_1": "市场营销与传媒",
+      "level_2": "广告与公关",
+      "level_3": "媒介策划",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0326",
+      "level_1": "市场营销与传媒",
+      "level_2": "广告与公关",
+      "level_3": "公关专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0327",
+      "level_1": "市场营销与传媒",
+      "level_2": "广告与公关",
+      "level_3": "公共关系经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0328",
+      "level_1": "市场营销与传媒",
+      "level_2": "内容与媒体",
+      "level_3": "内容运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0329",
+      "level_1": "市场营销与传媒",
+      "level_2": "内容与媒体",
+      "level_3": "新媒体运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0330",
+      "level_1": "市场营销与传媒",
+      "level_2": "内容与媒体",
+      "level_3": "编辑",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0331",
+      "level_1": "市场营销与传媒",
+      "level_2": "内容与媒体",
+      "level_3": "记者",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0332",
+      "level_1": "市场营销与传媒",
+      "level_2": "内容与媒体",
+      "level_3": "视频内容运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0333",
+      "level_1": "市场营销与传媒",
+      "level_2": "数字营销",
+      "level_3": "数字营销专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0334",
+      "level_1": "市场营销与传媒",
+      "level_2": "数字营销",
+      "level_3": "SEO专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0335",
+      "level_1": "市场营销与传媒",
+      "level_2": "数字营销",
+      "level_3": "SEM专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0336",
+      "level_1": "市场营销与传媒",
+      "level_2": "数字营销",
+      "level_3": "社交媒体运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0337",
+      "level_1": "市场营销与传媒",
+      "level_2": "数字营销",
+      "level_3": "增长营销专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0338",
+      "level_1": "电子商务与零售",
+      "level_2": "电商运营",
+      "level_3": "电商运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0339",
+      "level_1": "电子商务与零售",
+      "level_2": "电商运营",
+      "level_3": "店铺运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0340",
+      "level_1": "电子商务与零售",
+      "level_2": "电商运营",
+      "level_3": "平台运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0341",
+      "level_1": "电子商务与零售",
+      "level_2": "电商运营",
+      "level_3": "电商产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0342",
+      "level_1": "电子商务与零售",
+      "level_2": "跨境电商",
+      "level_3": "跨境电商运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0343",
+      "level_1": "电子商务与零售",
+      "level_2": "跨境电商",
+      "level_3": "跨境电商产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0344",
+      "level_1": "电子商务与零售",
+      "level_2": "跨境电商",
+      "level_3": "海外市场运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0345",
+      "level_1": "电子商务与零售",
+      "level_2": "跨境电商",
+      "level_3": "国际贸易专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0346",
+      "level_1": "电子商务与零售",
+      "level_2": "用户增长与会员",
+      "level_3": "用户增长运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0347",
+      "level_1": "电子商务与零售",
+      "level_2": "用户增长与会员",
+      "level_3": "用户运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0348",
+      "level_1": "电子商务与零售",
+      "level_2": "用户增长与会员",
+      "level_3": "会员运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0349",
+      "level_1": "电子商务与零售",
+      "level_2": "用户增长与会员",
+      "level_3": "CRM运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0350",
+      "level_1": "电子商务与零售",
+      "level_2": "零售与消费",
+      "level_3": "零售运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0351",
+      "level_1": "电子商务与零售",
+      "level_2": "零售与消费",
+      "level_3": "门店运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0352",
+      "level_1": "电子商务与零售",
+      "level_2": "零售与消费",
+      "level_3": "商业运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0353",
+      "level_1": "电子商务与零售",
+      "level_2": "零售与消费",
+      "level_3": "消费品产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0354",
+      "level_1": "物流与供应链",
+      "level_2": "供应链管理",
+      "level_3": "供应链管理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0355",
+      "level_1": "物流与供应链",
+      "level_2": "供应链管理",
+      "level_3": "供应链分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0356",
+      "level_1": "物流与供应链",
+      "level_2": "供应链管理",
+      "level_3": "供应链计划专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0357",
+      "level_1": "物流与供应链",
+      "level_2": "采购与寻源",
+      "level_3": "采购专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0358",
+      "level_1": "物流与供应链",
+      "level_2": "采购与寻源",
+      "level_3": "战略采购",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0359",
+      "level_1": "物流与供应链",
+      "level_2": "采购与寻源",
+      "level_3": "采购工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0360",
+      "level_1": "物流与供应链",
+      "level_2": "采购与寻源",
+      "level_3": "供应商开发",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0361",
+      "level_1": "物流与供应链",
+      "level_2": "物流与运输",
+      "level_3": "物流管理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0362",
+      "level_1": "物流与供应链",
+      "level_2": "物流与运输",
+      "level_3": "运输管理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0363",
+      "level_1": "物流与供应链",
+      "level_2": "物流与运输",
+      "level_3": "物流规划师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0364",
+      "level_1": "物流与供应链",
+      "level_2": "物流与运输",
+      "level_3": "物流运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0365",
+      "level_1": "物流与供应链",
+      "level_2": "仓储与配送",
+      "level_3": "仓储管理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0366",
+      "level_1": "物流与供应链",
+      "level_2": "仓储与配送",
+      "level_3": "仓储运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0367",
+      "level_1": "物流与供应链",
+      "level_2": "仓储与配送",
+      "level_3": "配送管理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0368",
+      "level_1": "物流与供应链",
+      "level_2": "仓储与配送",
+      "level_3": "物流设备工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0369",
+      "level_1": "建筑与房地产",
+      "level_2": "建筑设计",
+      "level_3": "建筑设计师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0370",
+      "level_1": "建筑与房地产",
+      "level_2": "建筑设计",
+      "level_3": "建筑方案设计师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0371",
+      "level_1": "建筑与房地产",
+      "level_2": "建筑设计",
+      "level_3": "建筑施工图设计师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0372",
+      "level_1": "建筑与房地产",
+      "level_2": "土木与结构",
+      "level_3": "土木工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0373",
+      "level_1": "建筑与房地产",
+      "level_2": "土木与结构",
+      "level_3": "结构工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0374",
+      "level_1": "建筑与房地产",
+      "level_2": "土木与结构",
+      "level_3": "岩土工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0375",
+      "level_1": "建筑与房地产",
+      "level_2": "工程管理",
+      "level_3": "工程项目经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0376",
+      "level_1": "建筑与房地产",
+      "level_2": "工程管理",
+      "level_3": "工程造价师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0377",
+      "level_1": "建筑与房地产",
+      "level_2": "工程管理",
+      "level_3": "施工管理工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0378",
+      "level_1": "建筑与房地产",
+      "level_2": "工程管理",
+      "level_3": "工程监理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0379",
+      "level_1": "建筑与房地产",
+      "level_2": "城市规划",
+      "level_3": "城市规划师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0380",
+      "level_1": "建筑与房地产",
+      "level_2": "城市规划",
+      "level_3": "城市更新规划师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0381",
+      "level_1": "建筑与房地产",
+      "level_2": "城市规划",
+      "level_3": "景观设计师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0382",
+      "level_1": "建筑与房地产",
+      "level_2": "房地产",
+      "level_3": "房地产策划",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0383",
+      "level_1": "建筑与房地产",
+      "level_2": "房地产",
+      "level_3": "房地产项目经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0384",
+      "level_1": "建筑与房地产",
+      "level_2": "房地产",
+      "level_3": "房地产招商主管",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0385",
+      "level_1": "建筑与房地产",
+      "level_2": "房地产",
+      "level_3": "房地产投资分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0386",
+      "level_1": "教育与人力资本",
+      "level_2": "基础教育",
+      "level_3": "中小学教师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0387",
+      "level_1": "教育与人力资本",
+      "level_2": "基础教育",
+      "level_3": "学科教师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0388",
+      "level_1": "教育与人力资本",
+      "level_2": "基础教育",
+      "level_3": "班主任",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0389",
+      "level_1": "教育与人力资本",
+      "level_2": "高等教育",
+      "level_3": "高校教师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0390",
+      "level_1": "教育与人力资本",
+      "level_2": "高等教育",
+      "level_3": "高校科研人员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0391",
+      "level_1": "教育与人力资本",
+      "level_2": "高等教育",
+      "level_3": "实验教师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0392",
+      "level_1": "教育与人力资本",
+      "level_2": "职业教育",
+      "level_3": "职业培训师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0393",
+      "level_1": "教育与人力资本",
+      "level_2": "职业教育",
+      "level_3": "职业教育课程开发",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0394",
+      "level_1": "教育与人力资本",
+      "level_2": "职业教育",
+      "level_3": "实训教师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0395",
+      "level_1": "教育与人力资本",
+      "level_2": "教育产品与科技",
+      "level_3": "教育产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0396",
+      "level_1": "教育与人力资本",
+      "level_2": "教育产品与科技",
+      "level_3": "学习产品运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0397",
+      "level_1": "教育与人力资本",
+      "level_2": "教育产品与科技",
+      "level_3": "教育技术工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0398",
+      "level_1": "教育与人力资本",
+      "level_2": "教育产品与科技",
+      "level_3": "课程设计师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0399",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "旅游",
+      "level_3": "旅游产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0400",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "旅游",
+      "level_3": "旅游策划",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0401",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "旅游",
+      "level_3": "旅游运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0402",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "酒店与餐饮",
+      "level_3": "酒店运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0403",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "酒店与餐饮",
+      "level_3": "酒店经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0404",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "酒店与餐饮",
+      "level_3": "餐饮运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0405",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "酒店与餐饮",
+      "level_3": "餐饮产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0406",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "文化创意",
+      "level_3": "文化创意策划",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0407",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "文化创意",
+      "level_3": "策展人",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0408",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "文化创意",
+      "level_3": "文创产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0409",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "文化创意",
+      "level_3": "文化项目经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0410",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "影视与娱乐",
+      "level_3": "影视制作",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0411",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "影视与娱乐",
+      "level_3": "编导",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0412",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "影视与娱乐",
+      "level_3": "制片",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0413",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "影视与娱乐",
+      "level_3": "艺人经纪",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0414",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "体育",
+      "level_3": "体育运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0415",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "体育",
+      "level_3": "赛事运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0416",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "体育",
+      "level_3": "运动数据分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0417",
+      "level_1": "文化旅游体育与娱乐",
+      "level_2": "体育",
+      "level_3": "体育项目经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0418",
+      "level_1": "农业食品与消费产业",
+      "level_2": "现代农业",
+      "level_3": "农业技术员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0419",
+      "level_1": "农业食品与消费产业",
+      "level_2": "现代农业",
+      "level_3": "农业工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0420",
+      "level_1": "农业食品与消费产业",
+      "level_2": "现代农业",
+      "level_3": "智慧农业工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0421",
+      "level_1": "农业食品与消费产业",
+      "level_2": "现代农业",
+      "level_3": "农业数据分析师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0422",
+      "level_1": "农业食品与消费产业",
+      "level_2": "食品研发",
+      "level_3": "食品研发工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0423",
+      "level_1": "农业食品与消费产业",
+      "level_2": "食品研发",
+      "level_3": "食品工艺工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0424",
+      "level_1": "农业食品与消费产业",
+      "level_2": "食品研发",
+      "level_3": "食品配方工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0425",
+      "level_1": "农业食品与消费产业",
+      "level_2": "食品安全",
+      "level_3": "食品安全工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0426",
+      "level_1": "农业食品与消费产业",
+      "level_2": "食品安全",
+      "level_3": "食品质量工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0427",
+      "level_1": "农业食品与消费产业",
+      "level_2": "食品安全",
+      "level_3": "食品检测员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0428",
+      "level_1": "农业食品与消费产业",
+      "level_2": "快消品",
+      "level_3": "快消品产品经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0429",
+      "level_1": "农业食品与消费产业",
+      "level_2": "快消品",
+      "level_3": "快消品品牌经理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0430",
+      "level_1": "农业食品与消费产业",
+      "level_2": "快消品",
+      "level_3": "快消品销售",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0431",
+      "level_1": "环境生态与资源",
+      "level_2": "环境工程",
+      "level_3": "环境工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0432",
+      "level_1": "环境生态与资源",
+      "level_2": "环境工程",
+      "level_3": "水处理工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0433",
+      "level_1": "环境生态与资源",
+      "level_2": "环境工程",
+      "level_3": "大气治理工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0434",
+      "level_1": "环境生态与资源",
+      "level_2": "环境工程",
+      "level_3": "固废处理工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0435",
+      "level_1": "环境生态与资源",
+      "level_2": "环境监测",
+      "level_3": "环境监测工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0436",
+      "level_1": "环境生态与资源",
+      "level_2": "环境监测",
+      "level_3": "环境检测员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0437",
+      "level_1": "环境生态与资源",
+      "level_2": "环境监测",
+      "level_3": "生态监测工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0438",
+      "level_1": "环境生态与资源",
+      "level_2": "资源与地质",
+      "level_3": "地质工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0439",
+      "level_1": "环境生态与资源",
+      "level_2": "资源与地质",
+      "level_3": "矿业工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0440",
+      "level_1": "环境生态与资源",
+      "level_2": "资源与地质",
+      "level_3": "资源勘查工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0441",
+      "level_1": "环境生态与资源",
+      "level_2": "生态保护",
+      "level_3": "生态工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0442",
+      "level_1": "环境生态与资源",
+      "level_2": "生态保护",
+      "level_3": "自然资源规划师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0443",
+      "level_1": "环境生态与资源",
+      "level_2": "生态保护",
+      "level_3": "生态修复工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0444",
+      "level_1": "公共管理与社会服务",
+      "level_2": "公共管理",
+      "level_3": "公务员/行政管理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0445",
+      "level_1": "公共管理与社会服务",
+      "level_2": "公共管理",
+      "level_3": "公共事务专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0446",
+      "level_1": "公共管理与社会服务",
+      "level_2": "公共管理",
+      "level_3": "政策研究员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0447",
+      "level_1": "公共管理与社会服务",
+      "level_2": "公共安全与应急",
+      "level_3": "应急管理专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0448",
+      "level_1": "公共管理与社会服务",
+      "level_2": "公共安全与应急",
+      "level_3": "安全工程师",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0449",
+      "level_1": "公共管理与社会服务",
+      "level_2": "公共安全与应急",
+      "level_3": "消防安全管理",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0450",
+      "level_1": "公共管理与社会服务",
+      "level_2": "社会服务",
+      "level_3": "社会工作者",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0451",
+      "level_1": "公共管理与社会服务",
+      "level_2": "社会服务",
+      "level_3": "社区服务专员",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0452",
+      "level_1": "公共管理与社会服务",
+      "level_2": "社会服务",
+      "level_3": "公共服务运营",
+      "aliases": [],
+      "provenance": {
+        "source": "reference_workbook",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0453",
+      "level_1": "金融与金融科技",
+      "level_2": "财务与会计",
+      "level_3": "财务专员",
+      "aliases": [],
+      "occupation_domain_links": [
+        {
+          "level_1": "金融与金融科技",
+          "level_2": "财务与会计",
+          "relationship_type": "canonical"
+        }
+      ],
+      "provenance": {
+        "source_family_id": "PCF-00009",
+        "semantic_review_version": "semantic-review-v2",
+        "governance_status": "recommended_for_approval",
+        "approved_for_mvp": true
+      }
+    },
+    {
+      "occupation_id": "OCC0454",
+      "level_1": "信息技术与数字产业",
+      "level_2": "信息化与IT服务",
+      "level_3": "技术服务工程师",
+      "aliases": [],
+      "occupation_domain_links": [
+        {
+          "level_1": "信息技术与数字产业",
+          "level_2": "信息化与IT服务",
+          "relationship_type": "canonical"
+        },
+        {
+          "level_1": "电子信息与通信产业",
+          "level_2": "通信网络",
+          "relationship_type": "applicable"
+        }
+      ],
+      "provenance": {
+        "source_family_id": "PCF-00051",
+        "semantic_review_version": "semantic-review-v2",
+        "governance_status": "recommended_for_approval",
+        "approved_for_mvp": true
+      }
+    }
+  ],
+  "freeze_policy": "No P2/P3 review or automatic expansion during MVP; reopen only for a demonstrated systemic taxonomy bug."
+}

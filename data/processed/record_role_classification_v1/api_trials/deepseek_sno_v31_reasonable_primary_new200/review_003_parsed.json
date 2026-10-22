@@ -1,0 +1,85 @@
+{
+  "raw_response_file": "review_003_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-f9e19f8b0f4f0a92b329",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "CV算法工程师归L02-05机器学习与算法研发，标题依据充分，符合目录范围。"
+    },
+    {
+      "occupation_id": "SNO-19bfebc186a313e9df7f",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "数据挖掘算法工程师归L02-05机器学习与算法研发，合理。"
+    },
+    {
+      "occupation_id": "SNO-58f21b8dadc0ed3eb0d8",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "SoC前端设计工程师归L05-02芯片与集成电路设计，合理。"
+    },
+    {
+      "occupation_id": "SNO-cf6e00dc0a05b466ceb9",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "法规管理员归L30-03合规与内部控制，合理。"
+    },
+    {
+      "occupation_id": "SNO-a3072c0a30b2071a505b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "营销支持归L12-07通用市场营销，合理。"
+    },
+    {
+      "occupation_id": "SNO-94d4535b85443bcc8604",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "智能化交付工程师归L10-03客户实施与交付管理，合理。"
+    },
+    {
+      "occupation_id": "SNO-95377d4aadd55054b0db",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "产品培训生已明确产品职能，归L08-07通用产品规划，合理。"
+    },
+    {
+      "occupation_id": "SNO-9c54faf19f7e6b05f087",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "管培生(分公司总经理岗位方向)归L11-01企业与业务综合管理，合理。"
+    },
+    {
+      "occupation_id": "SNO-3fb72d8c23956eb38794",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "青岛分行培训生仅行业与培训生身份，未明确职能，review合理。"
+    },
+    {
+      "occupation_id": "SNO-a619ee13e556f9127f41",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "实验员归L07-03实验与科研技术支持，合理。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 10846,
+    "cached_input_tokens": 9216,
+    "uncached_input_tokens": 1630,
+    "output_tokens": 545,
+    "reasoning_tokens": 0,
+    "total_tokens": 11391
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000599148
+  },
+  "attempts": 1,
+  "normalization": "only nullable empty strings to null"
+}

@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-2466e7e1d68a0e04fddcb9c809579dbd",
+      "verdict": "pass",
+      "suggested_target_category_id": "L02-03",
+      "issue": "数据工程师主归属数据工程与数据平台开发（L02-03）合理；标题未说明数仓、管道或计算平台方向，停在二级符合规则。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17097,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 585,
+    "output_tokens": 103,
+    "reasoning_tokens": 0,
+    "total_tokens": 17200
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000398172
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

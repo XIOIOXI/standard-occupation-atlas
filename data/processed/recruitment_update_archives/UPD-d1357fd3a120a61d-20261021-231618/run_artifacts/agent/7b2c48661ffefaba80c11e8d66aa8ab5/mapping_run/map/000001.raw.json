@@ -1,0 +1,28 @@
+{
+  "id": "587391d3-bdfe-42c4-83e3-b4d68e2f7fe6",
+  "object": "chat.completion",
+  "created": 1792571297,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-7b2c48661ffefaba80c11e8d66aa8ab5\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L20-08\",\"L14-07\",\"L13-02\"],\"title_evidence\":\"分(支)行基层网点综合服务岗：银行基层网点综合服务，未明确具体业务方向\",\"level_3_evidence\":null,\"reason\":\"银行网点综合服务岗可能涉及柜面业务操作（L20-08金融运营与交易清算）、客户咨询办理（L14-07客服与客户支持）或个人客户销售（L13-02），标题未提供足够证据确定主要职能，故标review。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16932,
+    "completion_tokens": 164,
+    "total_tokens": 17096,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 292
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

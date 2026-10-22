@@ -1,0 +1,28 @@
+{
+  "id": "465d6e38-3b30-44da-9ba6-1ab6943d519b",
+  "object": "chat.completion",
+  "created": 1791881561,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-64f12215e5331feb9524\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-30df19592db986e050de\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f3bc92d7f9b134ee2b5f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-4b0450e876819c558daa\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L05-02-02\",\"issue\":\"硅光芯片光电封装属于光电子/混合信号芯片设计与封装，归模拟与混合信号设计更合理，而非数字芯片物理设计。\"},{\"occupation_id\":\"TG-ef6338e818dc793c2ef6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-81d4859dac66cd917c4c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1799d087f764efc4b11c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-99f3ce9b3337928dfb97\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-09a9beb236659c0f044f\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L05-02-02\",\"issue\":\"硅光芯片属于光电子/光子集成芯片，归模拟与混合信号设计更合理，而非数字芯片设计。\"},{\"occupation_id\":\"TG-f9d9c0aedd50afbba1a3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-36d060febceb222c8d80\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0155fb37658625c8dd0c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-10cf02ceb25d8dc42663\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-a15f6fc3d136cdca3a65\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-00a69fdfceb886cdabd8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-1c553a1c5f1adacf7308\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-80312bcaa448d496d017\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-05a14f14b170c9b4665d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-bdcb5cb4f331bf1ce826\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0ed491855a51852c7d1f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19617,
+    "completion_tokens": 808,
+    "total_tokens": 20425,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3105
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

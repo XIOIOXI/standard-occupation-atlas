@@ -1,0 +1,28 @@
+{
+  "id": "3660b482-6e0c-45e9-911f-a4095eba1cb4",
+  "object": "chat.completion",
+  "created": 1792596192,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-cc4b8d9946edc01aea19ccba807ebb62\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L09-04\",\"issue\":\"版师助理属服装打版技术岗，归服装饰品与纺织设计合理。\"},{\"occupation_id\":\"UP-99bb9f94fa14ccb2b7d4565758d44059\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-05\",\"issue\":\"零售场景形象顾问以搭配建议促成销售为主，归门店导购与营业销售合理；化妆造型为备选。\"},{\"occupation_id\":\"UP-134426c75ee9a745ccb2f5152ca3eef1\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L09-04\",\"issue\":\"女装设计归服装饰品与纺织设计合理。\"},{\"occupation_id\":\"UP-ffecca3ad190b780ec3be74cbac769b2\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L09-04\",\"issue\":\"男装设计归服装饰品与纺织设计合理。\"},{\"occupation_id\":\"UP-66a005647660d84141ca339aadae6566\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L09-01\",\"issue\":\"平面设计归视觉与品牌设计合理。\"},{\"occupation_id\":\"UP-3984f090d432d0beb96fa1025897f08f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-04-01\",\"issue\":\"电商运营实习生归电商店铺运营合理。\"},{\"occupation_id\":\"UP-94ce0a64f9fa0c150a52165e2e82283d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"仅“工程实习生”方向不明，review合理。\"},{\"occupation_id\":\"UP-7da1151aecaaaefc29ff89078c2a3aaa\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L09-01\",\"issue\":\"品牌视觉设计归视觉与品牌设计合理。\"},{\"occupation_id\":\"UP-2768dc65edfd8106b553b8f6a25d4507\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-04\",\"issue\":\"电商方向未细分，停在电商与商品运营二级合理。\"},{\"occupation_id\":\"UP-8c8912db8557c41adfe5832714abaf44\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L14-03\",\"issue\":\"新媒体实习归内容与新媒体运营合理。\"},{\"occupation_id\":\"UP-23487f083cd794f2e145b177c74884a1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"AI自动化职责边界不清，review合理。\"},{\"occupation_id\":\"UP-f9883892ae5412402449db14e3839f75\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L13-01\",\"issue\":\"国际销售归企业客户销售二级合理。\"},{\"occupation_id\":\"UP-f80baafb846e1305e61ba4311a2f1a5e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发方向未明确，review合理。\"},{\"occupation_id\":\"UP-9879b1c2bfd4ed206b6e1a3e0705f86f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"质量方向未明确，review合理。\"},{\"occupation_id\":\"UP-c1961fcd4b368879fc1f754d445742fc\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L23-09-02\",\"issue\":\"设备技术员归工业设备维修保全合理。\"},{\"occupation_id\":\"UP-aa7fade3c1377a87f342c3bbe74522fd\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L06-08-01\",\"issue\":\"工艺技术员归制造制程工程合理。\"},{\"occupation_id\":\"UP-d81dfe277986e30a2b041e4e87354acb\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L19-05-02\",\"issue\":\"德勤审计与鉴证归外部审计合理。\"},{\"occupation_id\":\"UP-ad41248eb8c6eaf37b08f653502cc4a3\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"咨询会计职责混合不明，review合理。\"},{\"occupation_id\":\"UP-e0b43c4d53f4bc35d10d2b5bbedf710e\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L19-05-02\",\"issue\":\"德勤审计岗归外部审计合理。\"},{\"occupation_id\":\"UP-98ef276bf302a3bd563136c9af681a93\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L08-01-03\",\"issue\":\"大数据产品经理归平台与技术产品合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 22725,
+    "completion_tokens": 1129,
+    "total_tokens": 23854,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 6213
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

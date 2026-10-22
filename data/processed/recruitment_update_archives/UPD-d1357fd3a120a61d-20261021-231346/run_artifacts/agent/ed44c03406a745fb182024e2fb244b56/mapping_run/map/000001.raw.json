@@ -1,0 +1,28 @@
+{
+  "id": "1f9b4ddb-cddb-41c3-ac95-dd71ebcd6adf",
+  "object": "chat.completion",
+  "created": 1792571906,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-ed44c03406a745fb182024e2fb244b56\",\"status\":\"mapped\",\"target_category_id\":\"L19-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L19-08\",\"L19-01\",\"L19-03\"],\"title_evidence\":\"标题为“财务专员”，明确财务职能但未说明具体方向（核算、分析、资金等）\",\"level_3_evidence\":null,\"reason\":\"“财务专员”仅确认财务职能，未提供会计核算、财务分析等具体方向证据，按规则归入通用财务工作 L19-08。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16952,
+    "completion_tokens": 140,
+    "total_tokens": 17092,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 312
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

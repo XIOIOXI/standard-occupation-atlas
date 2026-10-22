@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 164,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "48e44280-f925-46d3-8f8d-670f97413949",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751752,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24996,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1700,
+    "output_tokens": 4072,
+    "reasoning_tokens": 0,
+    "total_tokens": 29068
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0027680879999999997
+  },
+  "observed_at_utc": "2026-10-11T20:49:12.848186+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-09a9beb236659c0f044f",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "硅光芯片研究员核心职责为芯片设计与研究，归入半导体/芯片下的芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-f9d9c0aedd50afbba1a3",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "研究交易员核心为证券交易与研究，归入证券/基金/期货下的交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-36d060febceb222c8d80",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称仅为“/高级工程师”，缺少技术方向或行业信息，无法确定具体职业类别。"
+    },
+    {
+      "occupation_id": "SNO-58246ff1be0d938798f4",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "地质专责核心为地质勘查与测绘，归入能源/地质下的地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-40ffed5e50954a89fca4",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "GTM通常指Go-To-Market，核心为市场进入与品牌策略，归入市场/营销下的品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-ba9051bc41bd68faeb00",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法律专责核心为公司法律事务与合规，归入法律服务下的公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-00a69fdfceb886cdabd8",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "营销管理类管培生核心为市场营销管理，归入市场/营销下的品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-1c553a1c5f1adacf7308",
+      "target_category_id": "互联网/AI/internet-security/security-network",
+      "status": "mapped",
+      "reason": "网络安全运营核心为网络与基础设施安全运营，归入网络/系统安全下的网络与基础设施安全。"
+    },
+    {
+      "occupation_id": "SNO-b3278aff5505094066bb",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "实习助理顾问核心为咨询辅助工作，归入咨询/调研下的管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-05a14f14b170c9b4665d",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "农业技术员核心为农作物与农业技术，归入农业/林业技术员下的农作物与农业技术。"
+    },
+    {
+      "occupation_id": "SNO-bdcb5cb4f331bf1ce826",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出大模型算法、多模态算法、语音算法、数据挖掘、测试开发、体验设计等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-fc548d5f5a012e89dff0",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "会计制单核心为会计凭证与账务处理，归入会计下的总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-607e6fd68b6d375f78cf",
+      "target_category_id": "互联网/AI/internet-sales-support/presales-solution",
+      "status": "mapped",
+      "reason": "解决方案工程师核心为售前与解决方案支持，归入销售技术支持下的售前与解决方案支持。"
+    },
+    {
+      "occupation_id": "SNO-092993c7f8d964cbf978",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "总行高潜校招生通常为银行零售与综合业务培养，归入银行下的零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-57df1f50b6c8c073d3b2",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "数据仓库工程师核心为数据工程与数仓建设，归入数据开发下的数据工程与数仓。"
+    },
+    {
+      "occupation_id": "SNO-a88890e2208208e9bcd5",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "行业拓展工程师核心为客户开发与行业拓展销售，归入销售下的客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-6fb4e0f924786be27d83",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "售后技术工程师核心为技术支持与客户交付，归入运维/技术支持下的技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-41cd171465c6e5ee2c6f",
+      "target_category_id": "生活服务/零售/service-retail/retail-store",
+      "status": "mapped",
+      "reason": "热风零售管培生核心为零售门店运营与导购，归入零售下的门店运营与导购。"
+    },
+    {
+      "occupation_id": "SNO-e31be055f0a261b9b108",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "量化策略核心为证券量化交易策略，归入证券/基金/期货下的基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-1d625e7b338705806bdb",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "国际电商中台软件开发核心为业务服务端开发，归入后端开发下的业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-f1ce0326f151e52e8b9f",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-engineering",
+      "status": "mapped",
+      "reason": "环保员核心为环保工程与治理，归入环保下的环保工程与治理。"
+    },
+    {
+      "occupation_id": "SNO-d9a36294ea673b3d19a6",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "风道设计工程师核心为机械结构与产品设计，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-dfb04d6d007bfb6d22dd",
+      "target_category_id": "运营/客服/ops-copywriting/copy-brand",
+      "status": "mapped",
+      "reason": "品牌策划/文案管培生核心为品牌与广告文案策划，归入文案策划下的品牌与广告文案。"
+    },
+    {
+      "occupation_id": "SNO-809731fa2d1876b65f59",
+      "target_category_id": "金融/financial-risk/finance-control-risk",
+      "status": "mapped",
+      "reason": "反洗钱助理核心为金融风险与合规管理，归入风控合规清算下的金融风险与合规管理。"
+    },
+    {
+      "occupation_id": "SNO-34621667ecb161f27fd7",
+      "target_category_id": "运营/客服/ops-business/business-ops-process",
+      "status": "mapped",
+      "reason": "路演技术运营核心为业务流程运营支持，归入业务运营下的业务流程运营。"
+    },
+    {
+      "occupation_id": "SNO-5309f1d442592528f5ff",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-analysis",
+      "status": "mapped",
+      "reason": "工艺/分析方法开发核心为化学分析与质量控制，归入化工下的化学分析与质量控制。"
+    },
+    {
+      "occupation_id": "SNO-e0661ff9c073287e174e",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电子应用工程师核心为电路与硬件设计应用，归入电子/硬件开发下的电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-46c15f968f28be9b2d06",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "金融工程分析师核心为证券研究与投资分析，归入证券/基金/期货下的证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-cbf83ea65ba2758426d1",
+      "target_category_id": "设计/design-art-3d-animation/art-2d",
+      "status": "mapped",
+      "reason": "美术核心为二维美术与原画，归入美术/3D/动画下的二维美术与原画。"
+    },
+    {
+      "occupation_id": "SNO-9c42e22fc74be9e9720b",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "能动设计师核心为机械结构与产品设计，归入机械设计/制造下的机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-6ac6f4fc303bbb672f5c",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "量化开发核心为证券量化交易系统开发，归入证券/基金/期货下的基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-0492a05b8319d0822ad8",
+      "target_category_id": "互联网/AI/internet-python/python-automation",
+      "status": "mapped",
+      "reason": "工具开发工程师核心为自动化与工具开发，归入Python下的自动化与工具开发。"
+    },
+    {
+      "occupation_id": "SNO-7b36d14d275957d72e6b",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "营销管培生核心为市场营销管理，归入市场/营销下的品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-a949b076007be649591c",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "土建专员核心为施工现场管理，归入工程管理下的施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-e13542114146aa70220c",
+      "target_category_id": "人力/行政/法务/people-hr/hr-reward",
+      "status": "mapped",
+      "reason": "薪酬福利核心为薪酬福利管理，归入人力资源下的薪酬福利。"
+    },
+    {
+      "occupation_id": "SNO-024710bc40d911468caf",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "蛋白质科学助理研究员核心为生物医药研发，归入生物医药下的生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-2e2ddb7f648318934591",
+      "target_category_id": "医疗健康/health-pharma-production/pharma-manufacturing-process",
+      "status": "mapped",
+      "reason": "制剂管培生-生产核心为药品生产与工艺，归入药品生产下的药品生产与工艺。"
+    },
+    {
+      "occupation_id": "SNO-2a2b9fe0a57f876f0b0e",
+      "target_category_id": "运营/客服/ops-social-media/media-video",
+      "status": "mapped",
+      "reason": "带贷直播管培生核心为直播运营，归入新媒体运营下的短视频与直播运营。"
+    },
+    {
+      "occupation_id": "SNO-7da88502cbd78fb3e866",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "GTM管培生核心为市场进入与品牌策略，归入市场/营销下的品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-a860867a7480c6eaed1c",
+      "target_category_id": "互联网/AI/internet-data-development/data-engineering",
+      "status": "mapped",
+      "reason": "大数据挖掘与分析工程师核心为数据工程与数仓，归入数据开发下的数据工程与数仓。"
+    },
+    {
+      "occupation_id": "SNO-d2909f1647e7c891a828",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称仅为“其他”，无法确定具体职业类别。"
+    },
+    {
+      "occupation_id": "SNO-6876d4e7c90095e905c9",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "实验室技术核心为生物医药研发实验，归入生物医药下的生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-6f0b61c2a8aa884ad401",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-visual",
+      "status": "mapped",
+      "reason": "多媒体工程师核心为交互与可视化开发，归入前端/移动开发下的交互与可视化开发。"
+    },
+    {
+      "occupation_id": "SNO-a526d89c2f74709769d8",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "固收信用研究员核心为证券研究与投资分析，归入证券/基金/期货下的证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-899b5c9de07ba48c41d5",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-robotics",
+      "status": "mapped",
+      "reason": "系统控制算法研究工程师核心为机器人与具身智能算法，归入算法工程师下的机器人与具身智能。"
+    },
+    {
+      "occupation_id": "SNO-b639b0aee963b2e793aa",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "财务管培生核心为会计与财务核算，归入会计下的总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-43264abde74463fc47d3",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "高频策略研发核心为证券量化交易策略研发，归入证券/基金/期货下的基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-5184acc80cd444904439",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-cost",
+      "status": "mapped",
+      "reason": "全过程咨询工程师核心为工程造价与合同管理，归入工程管理下的工程造价与合同管理。"
+    },
+    {
+      "occupation_id": "SNO-6913cf728cce5a17c986",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-growth",
+      "status": "mapped",
+      "reason": "市场推广/运营经理核心为增长与数字营销，归入市场/营销下的增长与数字营销。"
+    },
+    {
+      "occupation_id": "SNO-97cab4387079cd8e106c",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-research",
+      "status": "mapped",
+      "reason": "情报研究核心为市场与社会调研，归入咨询/调研下的市场与社会调研。"
+    }
+  ]
+}

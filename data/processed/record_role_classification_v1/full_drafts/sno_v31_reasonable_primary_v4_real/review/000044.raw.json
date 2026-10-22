@@ -1,0 +1,28 @@
+{
+  "id": "a3b60b0a-762f-4b87-bf2b-36df651f504b",
+  "object": "chat.completion",
+  "created": 1791880300,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-53b2bcb741a114f61bc5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题并列多个职能方向，multi_role合理。\"},{\"occupation_id\":\"TG-67cef595d96edcabc4c8\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"网络安全与隐私保护归L03-05合理，未细分三级可接受。\"},{\"occupation_id\":\"TG-29319c28efd7ac399f25\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"销售助理归L13-08销售运营与商务支持合理。\"},{\"occupation_id\":\"TG-6480eba58adebd961f26\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"教练员场景不明，review合理。\"},{\"occupation_id\":\"TG-bbdc68d263031f46e0a9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工艺设备岗归L06-08工艺与制造工程合理。\"},{\"occupation_id\":\"TG-4e5a908c6d62ce157b6b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"全栈工程师归L01-03合理，AI产品为领域标签。\"},{\"occupation_id\":\"TG-da7813fd9b1a3117f19f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"定量分析师行业不明，review合理。\"},{\"occupation_id\":\"TG-15d5213ebb8816e4a325\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"建筑电气归L24-04合理。\"},{\"occupation_id\":\"TG-48868d390d75627ba53c\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"变电站通信设计归L05-05-02有线与光通信技术合理。\"},{\"occupation_id\":\"TG-57efaeecba04d18658e9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"猎头顾问归L18-01招聘与人才配置合理。\"},{\"occupation_id\":\"TG-15eaa3babe2614bb1c6d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题并列信息调研与新药化学研究，multi_role合理。\"},{\"occupation_id\":\"TG-860fe99624b5456683d6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"海外营销管培生最终职能不明，review合理。\"},{\"occupation_id\":\"TG-98f249e6f1ea67b84adf\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"住院医师规培归L21-01临床诊疗合理。\"},{\"occupation_id\":\"TG-d0226fac6ac4686b9f42\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"水工结构设计师归L24-03-02水利工程合理。\"},{\"occupation_id\":\"TG-5b7b7dc95de44bed8f89\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"地基基础检测归L04-04-01物理性能与可靠性检测合理。\"},{\"occupation_id\":\"TG-1983a7dbf447c23a15ad\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"互联网产品运营归L14-01产品与平台运营合理。\"},{\"occupation_id\":\"TG-9dc3dbc91c1ce13d478a\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"标题并列财务与法律，multi_role合理。\"},{\"occupation_id\":\"TG-2ca6b52efa706b90cb77\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"机械维修储备岗归L23-09-02工业设备维修保全合理。\"},{\"occupation_id\":\"TG-1da0592ca05a568fa6e2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"储备干部岗归L32-02综合储备与业务培养合理。\"},{\"occupation_id\":\"TG-51615961f2329a69c7af\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合建设岗职能不明，review合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19593,
+    "completion_tokens": 979,
+    "total_tokens": 20572,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3081
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

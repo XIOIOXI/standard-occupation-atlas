@@ -1,0 +1,185 @@
+{
+  "batch_number": 46,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "801146f8-aee7-4c70-8309-73b5a4e363f7",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821922,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29657,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2265,
+    "output_tokens": 1369,
+    "reasoning_tokens": 0,
+    "total_tokens": 31026
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0012433260000000001
+  },
+  "results": [
+    {
+      "entry_id": "SNO-93a19d3f60e94e6c38d6",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出旅游管理、设计学、动物医学、公共管理等多个互不兼容的职业方向，且无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-93cf1c4095f851ca8ec5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "系统论证岗职责不明确，缺少具体行业或技术方向，无法确认任何一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-93dd663962a384ef5d76",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科技管培生缺少具体技术方向，无法确认归入研发、产品还是其他科技岗位，不能确定一级或二级。"
+    },
+    {
+      "entry_id": "SNO-943a39afa92964736bc5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "信息化技术过于宽泛，缺少具体技术方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-945702410de88969fdde",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含机械、电气、算法、电池热管理等多个独立研发方向，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-94730a1a9213d3bb57f4",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "原子制造大科学装置研究员属于科研装置研究，名称不足以支持互联网/AI算法研究与通用算法三级类别，无法确认合适一级或二级。"
+    },
+    {
+      "entry_id": "SNO-95087301c7612d46d6b0",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出品牌增长、客户生意发展、研发、人力资源、供应链、财务等多个独立部门岗位，且为实习岗，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-951b79af745c7c0d04f1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称仅为学历要求，无法识别具体职业，不能确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-95377d4aadd55054b0db",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "产品培训生未指明产品领域，无法确定具体产品经理三级类别，也不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-953dd8dc66ed4b5e316d",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含管培生与酒店系统开发管培生，职责不单一，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-959e90450cf18dc6b157",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "商业和服务业人员过于宽泛，缺少具体岗位职责信息，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-959f2a1cc703b7c5d8b9",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出设备维修员和生产计划专员两个独立职业，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-960b4afb3c44ca81fb60",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "系统研发工程师缺少具体系统方向，无法确定三级类别，也不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-967a84baa8cb041a8546",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "全球运营专员职责范围不明确，缺少具体运营方向，无法确认一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-975433407c370723b5b9",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "命题管理未说明行业或考试类型，无法确定具体类别。"
+    },
+    {
+      "entry_id": "SNO-9767a91de8e7dbc19cea",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "助理工程师（管培生方向）未指明具体技术领域，无法确定细分方向，也不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-9782666d2ee0d7113186",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时列出电气、机械、模具设计三个独立职业方向，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-97d669a82a84dc1836af",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科研岗（二）缺少具体研究领域，无法确定细分方向，也不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-9846c305a1ec7a0898a5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "理工类管培生未明确具体职能方向，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-98688f4f5687d38c0a61",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "集团管培生-数字化智能化方向范围较宽，缺少具体技术或业务方向，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-987d169f2d65719717d7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "拉美市场管培生为轮岗培养项目，具体职业方向不明确，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-98b9f34f453b30ab93d8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "合同管理与商品规划为两个独立职业，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-98d6145877274c9b3992",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明显列出机电联调、PLC调试、机床检测、操作编程、技术支持等多个独立职业方向，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-98f55adfc8b486388bf5",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出财务、投资、审计等多个独立方向，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-99017f620737821ff3c5",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出审计鉴证、税务、咨询多个独立服务岗位，无共同一级或二级可确认。"
+    }
+  ]
+}

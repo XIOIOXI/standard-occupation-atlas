@@ -1,0 +1,303 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-2ed4db1aa8e59e7c7858",
+      "status": "mapped",
+      "target_category_id": "L16-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-04",
+        "L16-05",
+        "L13-04"
+      ],
+      "title_evidence": "进出口业务岗",
+      "level_3_evidence": null,
+      "reason": "标题明确为进出口业务，属于国际贸易履约执行，归 L16-04 进出口与贸易执行。"
+    },
+    {
+      "occupation_id": "TG-a1239a1c52279d372655",
+      "status": "mapped",
+      "target_category_id": "L05-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-03",
+        "L05-07"
+      ],
+      "title_evidence": "电气工程岗",
+      "level_3_evidence": null,
+      "reason": "标题明确为电气工程，归 L05-03 电气工程。"
+    },
+    {
+      "occupation_id": "TG-0c03fc8e3634a0203da8",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L19-05",
+        "L30-03",
+        "L04-03"
+      ],
+      "title_evidence": "稽查员",
+      "level_3_evidence": null,
+      "reason": "稽查员可能指内部审计、合规稽查或生产质量稽查，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-132e26c227763d1237d6",
+      "status": "mapped",
+      "target_category_id": "L05-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-01-02",
+        "L05-01-01",
+        "L05-05-01"
+      ],
+      "title_evidence": "电磁兼容仿真设计师",
+      "level_3_evidence": "电子系统集成",
+      "reason": "电磁兼容仿真属于电子系统集成层面的硬件方案与系统级设计，归 L05-01-02。"
+    },
+    {
+      "occupation_id": "TG-c14231fd70cc49588613",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-01",
+        "L06-01-02",
+        "L06-01-01"
+      ],
+      "title_evidence": "机械结构设计",
+      "level_3_evidence": null,
+      "reason": "标题明确为机械结构设计，归 L06-01 机械与结构设计；未细分到具体三级。"
+    },
+    {
+      "occupation_id": "TG-ae3ac24dc7e4aa2acd4b",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L01-06",
+        "L05-05-03"
+      ],
+      "title_evidence": "无线软件开发工程师",
+      "level_3_evidence": null,
+      "reason": "标题为软件开发工程师，无线为领域标签，未明确前后端或嵌入式方向，归 L01-11 通用软件研发。"
+    },
+    {
+      "occupation_id": "TG-ad9605f9b5233f5425db",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L01-06",
+        "L05-05-03"
+      ],
+      "title_evidence": "无线软件开发工程师（校招/实习生）",
+      "level_3_evidence": null,
+      "reason": "校招/实习生为招聘标签，核心职能仍为无线软件开发，方向未明确，归 L01-11 通用软件研发。"
+    },
+    {
+      "occupation_id": "TG-d9ae08cdda129bd29024",
+      "status": "mapped",
+      "target_category_id": "L25-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-02",
+        "L25-01"
+      ],
+      "title_evidence": "钻井工程师",
+      "level_3_evidence": null,
+      "reason": "钻井属于资源开采现场技术，归 L25-02 采矿与资源开采。"
+    },
+    {
+      "occupation_id": "TG-3344e92ddbc8104826dc",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L04-03",
+        "L04-04",
+        "L21-07"
+      ],
+      "title_evidence": "质控专员",
+      "level_3_evidence": null,
+      "reason": "质控专员可能指生产质量管理、检验检测或临床质控，行业与方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-361535f91cd637c44f49",
+      "status": "mapped",
+      "target_category_id": "L02-05-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-02",
+        "L02-06-03",
+        "L02-05-07"
+      ],
+      "title_evidence": "大模型算法实习生",
+      "level_3_evidence": "自然语言处理",
+      "reason": "大模型算法研发属于自然语言处理范畴，含大模型训练，归 L02-05-02。"
+    },
+    {
+      "occupation_id": "TG-463e8d5ee12ce7a47568",
+      "status": "mapped",
+      "target_category_id": "L02-05-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-02",
+        "L02-06-03",
+        "L02-05-07"
+      ],
+      "title_evidence": "大模型算法实习生（北京）",
+      "level_3_evidence": "自然语言处理",
+      "reason": "北京为地点标签，核心为大模型算法研发，归 L02-05-02 自然语言处理。"
+    },
+    {
+      "occupation_id": "TG-5dfde12d2099cffef6fc",
+      "status": "mapped",
+      "target_category_id": "L02-05-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L02-05-02",
+        "L02-06-03",
+        "L02-05-07"
+      ],
+      "title_evidence": "大模型算法岗",
+      "level_3_evidence": "自然语言处理",
+      "reason": "大模型算法岗属于自然语言处理方向，归 L02-05-02。"
+    },
+    {
+      "occupation_id": "TG-925f6af299b275d6c2de",
+      "status": "mapped",
+      "target_category_id": "L04-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-05",
+        "L04-04"
+      ],
+      "title_evidence": "认证工程师",
+      "level_3_evidence": null,
+      "reason": "认证工程师属于产品认证与质量体系工作，归 L04-05。"
+    },
+    {
+      "occupation_id": "TG-9c5d429a3384372a0d87",
+      "status": "mapped",
+      "target_category_id": "L25-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-04",
+        "L23-09-02",
+        "L06-02"
+      ],
+      "title_evidence": "热动检修岗",
+      "level_3_evidence": null,
+      "reason": "热动检修属于电站等能源设施运行维护，归 L25-04 能源运行与调度。"
+    },
+    {
+      "occupation_id": "TG-6f928f0e1f63ff390c82",
+      "status": "mapped",
+      "target_category_id": "L06-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-07-02",
+        "L06-07-01",
+        "L06-07-03"
+      ],
+      "title_evidence": "高级药化研究员",
+      "level_3_evidence": "药物发现与药理",
+      "reason": "药化研究员从事药物化学与药物发现，归 L06-07-02。"
+    },
+    {
+      "occupation_id": "TG-d9b6eb0dc988173013ad",
+      "status": "mapped",
+      "target_category_id": "L06-07-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-07-02",
+        "L06-07-01",
+        "L06-07-03"
+      ],
+      "title_evidence": "药化研究员",
+      "level_3_evidence": "药物发现与药理",
+      "reason": "药化研究员从事药物化学与药物发现，归 L06-07-02。"
+    },
+    {
+      "occupation_id": "TG-40416ed591371aa0e4d9",
+      "status": "mapped",
+      "target_category_id": "L17-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L17-07",
+        "L16-06",
+        "L17-01"
+      ],
+      "title_evidence": "物流",
+      "level_3_evidence": null,
+      "reason": "标题仅“物流”，确认货物流转工作但方向未说明，归 L17-07 通用物流作业。"
+    },
+    {
+      "occupation_id": "TG-9650be176354aeeb9f16",
+      "status": "mapped",
+      "target_category_id": "L17-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L17-07",
+        "L16-06",
+        "L17-01"
+      ],
+      "title_evidence": "物流岗",
+      "level_3_evidence": null,
+      "reason": "标题仅“物流岗”，方向未说明，归 L17-07 通用物流作业。"
+    },
+    {
+      "occupation_id": "TG-0dfd7d75886079c52793",
+      "status": "mapped",
+      "target_category_id": "L05-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-01-01",
+        "L05-01-02",
+        "L23-09-01"
+      ],
+      "title_evidence": "电子技术员",
+      "level_3_evidence": "电路与板级设计",
+      "reason": "电子技术员通常从事电路板级硬件技术工作，归 L05-01-01。"
+    },
+    {
+      "occupation_id": "TG-9b956c8390b4d5f1118e",
+      "status": "mapped",
+      "target_category_id": "L14-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-07",
+        "L14-07-01",
+        "L14-08"
+      ],
+      "title_evidence": "客户服务专员",
+      "level_3_evidence": null,
+      "reason": "客户服务专员属于客服与客户支持，归 L14-07；未细分到具体三级。"
+    }
+  ],
+  "raw_response_file": "000588.raw.json",
+  "usage": {
+    "input_tokens": 17332,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 820,
+    "output_tokens": 2655,
+    "reasoning_tokens": 0,
+    "total_tokens": 19987
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003531072
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

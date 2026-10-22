@@ -1,0 +1,28 @@
+{
+  "id": "1b8c55b0-850d-4b71-a567-e5b773f64544",
+  "object": "chat.completion",
+  "created": 1792571313,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-af597d28a2a10511d9bfb049c21f68ae\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L20-08\",\"issue\":\"银行综合柜员归金融运营与交易清算（L20-08）合理，属柜面业务操作，非客服咨询办理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16996,
+    "completion_tokens": 85,
+    "total_tokens": 17081,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 484
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

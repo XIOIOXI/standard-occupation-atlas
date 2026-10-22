@@ -1,0 +1,28 @@
+{
+  "id": "5957a54b-908c-40d5-a15c-ae1253999b2e",
+  "object": "chat.completion",
+  "created": 1792571872,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-a6708c762b8abc625e4f9b21f161404a\",\"status\":\"mapped\",\"target_category_id\":\"L13-09\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L13-09\",\"L13-01\",\"L13-02\",\"L32-01\",\"L32-02\"],\"title_evidence\":\"标题明确为“销售管培生”，销售职能已确认；管培生为培养标签，不改变销售职能归属。\",\"level_3_evidence\":null,\"reason\":\"“销售管培生”已明确销售职能，但未说明客户类型（企业客户/个人客户）或销售方向，按规则归入通用销售 L13-09；管培生仅为培养形式标签，不据此推断跨职能轮岗，故不归 L32。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16979,
+    "completion_tokens": 186,
+    "total_tokens": 17165,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 339
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

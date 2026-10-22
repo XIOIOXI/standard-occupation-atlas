@@ -1,0 +1,28 @@
+{
+  "id": "8efc7dc3-6942-451e-a59c-a2e785a5098d",
+  "object": "chat.completion",
+  "created": 1792571433,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-7fb8e8d25d26f96afaa11c91d4773656\",\"status\":\"mapped\",\"target_category_id\":\"L18-03-01\",\"target_level\":\"level_3\",\"candidate_category_ids\":[\"L18-03-01\",\"L18-03-02\",\"L18-09\"],\"title_evidence\":\"培训助理：培训职能明确，属企业内部培训支持\",\"level_3_evidence\":\"员工培训与学习发展：内部培训及学习项目\",\"reason\":\"标题明确为培训助理，制造业企业内部培训属人力资源下员工培训与学习发展；助理为层级标签，不改变职能归属。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16957,
+    "completion_tokens": 146,
+    "total_tokens": 17103,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 317
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

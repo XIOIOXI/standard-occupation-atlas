@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_004_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-741a768f67a709a3a54b",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "标题明确为新能源研发工程师，归入L25-03能源系统与工艺工程符合目录范围，无更直接专门类别。"
+    },
+    {
+      "occupation_id": "SNO-ad75b05b0c4e14fde23d",
+      "verdict": "pass",
+      "suggested_target_category_id": null,
+      "issue": "空港物流属货物流转与运输组织，归入L17-01物流调度与运输管理有标题依据且符合目录范围。"
+    },
+    {
+      "occupation_id": "SNO-18d0e05d910ecfaf252c",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "“运营班操作”未明确是生产运营还是业务运营，缺乏可用职能线索，无法确定归属。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11389,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 637,
+    "output_tokens": 200,
+    "reasoning_tokens": 0,
+    "total_tokens": 11589
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000247806
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

@@ -1,0 +1,243 @@
+{
+  "raw_response_file": "map_008_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-a1f75950577ae6603b38",
+      "status": "mapped",
+      "target_category_id": "L22-02-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "高中政治教师",
+      "level_3_evidence": "政治属于人文与社会学科教学",
+      "reason": "标题明确为高中政治教师，属于学科教学，政治归入人文与社会学科教学。"
+    },
+    {
+      "occupation_id": "SNO-5801c19e621a43665a6b",
+      "status": "mapped",
+      "target_category_id": "L16-01-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "零售商品培训生",
+      "level_3_evidence": "零售商品培训生涉及零售商品选品与采购",
+      "reason": "标题明确为零售商品培训生，核心职能为零售商品采购与选品，归入零售选品与买手。"
+    },
+    {
+      "occupation_id": "SNO-8826dbf3a574e62f22fa",
+      "status": "mapped",
+      "target_category_id": "L06-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "稀贵稀散金属团队博士研究员",
+      "level_3_evidence": "稀贵稀散金属属于金属材料研究",
+      "reason": "标题明确为稀贵稀散金属团队博士研究员，属于金属材料研发。"
+    },
+    {
+      "occupation_id": "SNO-5acd569030c9dfdae2c6",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "/经理",
+      "level_3_evidence": null,
+      "reason": "标题仅为“/经理”，无法识别具体职能或领域，属于无效文本。"
+    },
+    {
+      "occupation_id": "SNO-864fd7b61c046f18cbca",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-08",
+        "L14-01"
+      ],
+      "title_evidence": "芯片运营",
+      "level_3_evidence": null,
+      "reason": "标题为“芯片运营”，可能指芯片制造运营或产品运营，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "SNO-1913c4fcaecf2ecc7ac2",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "售后工程师(安装调试)",
+      "level_3_evidence": null,
+      "reason": "标题明确为售后工程师，职责为安装调试，属于售后技术服务。"
+    },
+    {
+      "occupation_id": "SNO-697c9d4b28ff97b49842",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-09",
+        "L05-07",
+        "L01-11"
+      ],
+      "title_evidence": "应用技术工程师",
+      "level_3_evidence": null,
+      "reason": "标题为“应用技术工程师”，未说明具体技术领域或职能，可能为售前技术支持、电子技术应用或软件开发，需人工确认。"
+    },
+    {
+      "occupation_id": "SNO-99017f620737821ff3c5",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L19-05",
+        "L19-06",
+        "L11-04"
+      ],
+      "title_evidence": "审计及鉴证服务税务服务咨询服务",
+      "level_3_evidence": null,
+      "reason": "标题包含审计、税务、咨询多个职能，属于多角色岗位。"
+    },
+    {
+      "occupation_id": "SNO-504136786d57e3f5dd9f",
+      "status": "mapped",
+      "target_category_id": "L06-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "先进材料工程开发工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确为先进材料工程开发，属于材料研发，但未细分金属或高分子，归入二级。"
+    },
+    {
+      "occupation_id": "SNO-5914036aadfca790f788",
+      "status": "mapped",
+      "target_category_id": "L05-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "电子设计工程师",
+      "level_3_evidence": "电子设计通常涉及电路与板级设计",
+      "reason": "标题明确为电子设计工程师，属于电路与板级设计。"
+    },
+    {
+      "occupation_id": "SNO-08ebc4449421242f3675",
+      "status": "mapped",
+      "target_category_id": "L14-04-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "亚马逊英语运营专员",
+      "level_3_evidence": "亚马逊运营属于电商店铺运营",
+      "reason": "标题明确为亚马逊英语运营专员，属于电商店铺运营。"
+    },
+    {
+      "occupation_id": "SNO-df3b618ed3e18631f5c9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L04-03",
+        "L14-11"
+      ],
+      "title_evidence": "质量与运营",
+      "level_3_evidence": null,
+      "reason": "标题为“质量与运营”，可能指生产质量管理或业务运营，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "SNO-bc99af2718d587a60eff",
+      "status": "mapped",
+      "target_category_id": "L22-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "教务运营",
+      "level_3_evidence": null,
+      "reason": "标题明确为教务运营，属于教学辅助与学员服务。"
+    },
+    {
+      "occupation_id": "SNO-e89d6e88d568b177bd23",
+      "status": "non_role_text",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "本次校园",
+      "level_3_evidence": null,
+      "reason": "标题为“本次校园”，无法识别具体职能，属于无效文本。"
+    },
+    {
+      "occupation_id": "SNO-2742eeab9ee29e675a47",
+      "status": "mapped",
+      "target_category_id": "L01-07-04",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "分布式存储开发工程师",
+      "level_3_evidence": "分布式存储属于中间件与基础框架",
+      "reason": "标题明确为分布式存储开发工程师，属于中间件与基础框架开发。"
+    },
+    {
+      "occupation_id": "SNO-b3ec0e590c66e26a70d9",
+      "status": "mapped",
+      "target_category_id": "L01-06-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "控制系统软件开发",
+      "level_3_evidence": "控制系统软件开发通常属于嵌入式应用开发",
+      "reason": "标题明确为控制系统软件开发，属于嵌入式应用开发。"
+    },
+    {
+      "occupation_id": "SNO-63138d3fb03b5a3bcfeb",
+      "status": "mapped",
+      "target_category_id": "L02-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "大数据分析高级研究员",
+      "level_3_evidence": null,
+      "reason": "标题明确为大数据分析高级研究员，属于数据分析，但未细分具体方向，归入二级。"
+    },
+    {
+      "occupation_id": "SNO-c5ab66ba05cff1d680fb",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "客户经理(含小语种)",
+      "level_3_evidence": null,
+      "reason": "标题明确为客户经理，属于企业客户销售，但未细分直客或重点客户，归入二级。"
+    },
+    {
+      "occupation_id": "SNO-22132637b23ddf147c28",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-01",
+        "L14-07",
+        "L14-08"
+      ],
+      "title_evidence": "客户顾问",
+      "level_3_evidence": null,
+      "reason": "标题为“客户顾问”，可能指销售、客服或客户成功，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "SNO-ee38fcda6f9f417c3ca4",
+      "status": "mapped",
+      "target_category_id": "L14-10",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "售后助理工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确为售后助理工程师，属于售后技术服务。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17374,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 734,
+    "output_tokens": 2349,
+    "reasoning_tokens": 0,
+    "total_tokens": 19723
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0015694199999999998
+  },
+  "attempts": 1,
+  "post_processing": "none"
+}

@@ -1,0 +1,185 @@
+{
+  "batch_number": 47,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "30e144d8-75e8-41b1-95b9-6f30c5fd2474",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821928,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29752,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2360,
+    "output_tokens": 1602,
+    "reasoning_tokens": 0,
+    "total_tokens": 31354
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0013973759999999999
+  },
+  "results": [
+    {
+      "entry_id": "SNO-99023a1a9feabdd35163",
+      "status": "multi_role",
+      "target_category_id": "汽车",
+      "reason": "名称逐项列出车身设计、内外饰设计、底盘设计、产品企划、电子开发、车辆性能开发、新能源动力总成、试验试制、项目管理、设计成本、整车集成、信息安保、整车控制器开发等多个互不兼容的独立汽车研发岗位，可确认共同一级为汽车。"
+    },
+    {
+      "entry_id": "SNO-992af508d52224f092ba",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含电商运营与机械/工艺工程师两个互不兼容的独立职业方向，分属运营/客服与生产制造，无共同一级或二级。"
+    },
+    {
+      "entry_id": "SNO-99490ab914b52e268177",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出研发设计、生产/质量、行政类专员（采购、商务、财务、行政、文字）、技术员等多个互不兼容的独立岗位，横跨多个一级类别，无共同上级。"
+    },
+    {
+      "entry_id": "SNO-994b5219d344d9c61b81",
+      "status": "multi_role",
+      "target_category_id": "互联网/AI",
+      "reason": "名称列出大模型算法、端到端算法、VLA算法、规划控制算法、决策算法、预测算法、系统算法、环境感知算法、定位及建图算法、云平台后端开发、嵌入式系统开发、智能驾驶平台软件开发等多个互不兼容的独立技术岗位，可确认共同一级为互联网/AI。"
+    },
+    {
+      "entry_id": "SNO-994ba3f5040d794e9e45",
+      "status": "review",
+      "target_category_id": "咨询/翻译/法律/consult-other-language/other-translation-written",
+      "reason": "印尼语审核（短剧相关）核心为印尼语笔译与本地化审核，可归入其他语种翻译下的笔译与本地化；'实习生'非职业，不影响语种方向判断。"
+    },
+    {
+      "entry_id": "SNO-99aea2f9131ad6dad0e5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "名称仅为'技能'，过于笼统，缺少具体职业或技术方向，无法确认任何一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-99b27449614896209ab6",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "高级仿真工程师属于通用算法与仿真研究，可归入算法工程师下的算法研究与通用算法。"
+    },
+    {
+      "entry_id": "SNO-99ce2a9811dfe1af67ad",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时列出管培生（业务方向）与管培生（研究方向）两个不同方向，且'管培生'本身非职业，无法确认共同职业类别。"
+    },
+    {
+      "entry_id": "SNO-99dbdce76a6853e556dc",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "reason": "上位机软件开发工程师核心为业务服务端/应用软件开发，可归入后端开发下的业务服务端开发。"
+    },
+    {
+      "entry_id": "SNO-99e434a425847e9fba18",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "'-管培生'未说明职能方向，且管培生本身非职业，无法确定具体类别。"
+    },
+    {
+      "entry_id": "SNO-99f5e9c0d4bb749aced6",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "质量研究员所属行业不明确，无法判断是生产制造、医药还是其他领域，不能确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-9a3fcfede54ee1c70cdd",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "'类管培生'未指明具体职能方向，且管培生本身非职业，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-9a5e96c1f7c555fec16b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "'专技'为专业技术岗位泛称，缺少具体技术方向，无法确认任何一级或二级类别。"
+    },
+    {
+      "entry_id": "SNO-9a79736f6c0dd7419a99",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "技术研发管培生未说明技术方向，且管培生本身非职业，无法确定具体类别。"
+    },
+    {
+      "entry_id": "SNO-9a798bfc4fd940e546fd",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "基础研究员未说明研究领域，无法确定具体职业类别。"
+    },
+    {
+      "entry_id": "SNO-9acb93f6718336b4456c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "架构培训生方向不明确，缺少具体技术领域信息，且培训生本身非职业。"
+    },
+    {
+      "entry_id": "SNO-9b2f1ddd17d7be61567d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "翻译管培生未明确语种，缺少具体翻译语言信息，无法确定三级类别。"
+    },
+    {
+      "entry_id": "SNO-9b43b66e050f91b57f39",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "总监储备为管理培训生性质，缺少具体职能方向，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-9b574aef2d7d0d5db34c",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-embedded",
+      "reason": "Linux高级嵌入式软件工程师核心为嵌入式与实时开发，可归入C++下的嵌入式与实时开发。"
+    },
+    {
+      "entry_id": "SNO-9b598b9340bd2bd05ee8",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-frontend-mobile",
+      "reason": "AI全栈体验工程师核心为前端与体验开发，可确认二级为前端/移动开发，但'全栈'与'体验'不足以确定具体三级。"
+    },
+    {
+      "entry_id": "SNO-9bb3d2985d7fb7d2b3ed",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "'智·先锋培训生项目'名称笼统，缺少具体职业方向，且培训生项目本身非职业。"
+    },
+    {
+      "entry_id": "SNO-9bb882c6229ac143d2c0",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "'数据管理'可能涉及数据治理、数据开发或数据运营，缺少具体方向，无法确定三级类别。"
+    },
+    {
+      "entry_id": "SNO-9bd023a61291795d52a7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "'业务'名称过于宽泛，缺少具体行业或职能信息，无法确认任何类别。"
+    },
+    {
+      "entry_id": "SNO-9bf0b769de931adfa33b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "'实习人员'未说明具体职业方向，且实习本身非职业，无法归类。"
+    },
+    {
+      "entry_id": "SNO-9c052b7ad5907c8e0a97",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出Java、Web、Android、鸿蒙、AI产品经理等多个互不兼容的独立技术方向，分属互联网/AI与产品，无共同一级或二级。"
+    }
+  ]
+}

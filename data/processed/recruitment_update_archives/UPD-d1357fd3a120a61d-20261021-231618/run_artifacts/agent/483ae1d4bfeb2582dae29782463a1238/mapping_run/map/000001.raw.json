@@ -1,0 +1,28 @@
+{
+  "id": "1acbbe46-b30e-4252-aa94-6360af86e881",
+  "object": "chat.completion",
+  "created": 1792571282,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-483ae1d4bfeb2582dae29782463a1238\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L32-02\",\"L20-11\"],\"title_evidence\":\"定向通用岗\",\"level_3_evidence\":null,\"reason\":\"“定向通用岗”仅表明银行定向通用岗位，未说明具体职能（柜面运营、营销、信贷等均可能），且无明确培养轮岗证据；不能仅凭银行行业推断金融业务方向，故列为review，候选综合储备培养或通用金融业务。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16941,
+    "completion_tokens": 139,
+    "total_tokens": 17080,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 301
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

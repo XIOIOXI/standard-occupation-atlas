@@ -1,0 +1,28 @@
+{
+  "id": "3ebe94ae-bc63-4617-a61b-dec66f6c70ba",
+  "object": "chat.completion",
+  "created": 1792571722,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-f738483b0784f268455be8179b910a3a\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L02-04\", \"issue\": \"标题明确为数据治理开发工程师，核心职能为数据治理（标准、质量、元数据、资产），主归属 L02-04 合理；虽含开发属性，但治理为主，不归 L02-03 数据平台开发，判定通过。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17038,
+    "completion_tokens": 118,
+    "total_tokens": 17156,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 526
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

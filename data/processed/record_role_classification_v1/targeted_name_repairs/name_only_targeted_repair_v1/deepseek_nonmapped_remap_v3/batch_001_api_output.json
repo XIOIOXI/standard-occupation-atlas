@@ -1,0 +1,28 @@
+{
+  "id": "821004db-f82d-4670-9de4-d6c769cc9cc9",
+  "object": "chat.completion",
+  "created": 1791821590,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"entry_id\":\"ABNORMAL:RRG-00189a3fa0aaa43b5e81\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称是多个互不兼容职业大类（专业技术、市场营销、财务、行政支持、运营、企管、信息化研发、安全、法务、管理、客户服务、人力资源、生产、党建宣传、纪检）的罗列，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-01dba99f5e7b11139295\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"名称含“项目交付及测试工程师岗”，可确认属于互联网/AI领域，但后续为专业清单且截断，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-0261fa26a3a783dfd8bf\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“助理工程师”过于宽泛，括号内为多学科专业清单且截断，无法确认任何一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-02f2cfcbfd04c0beb9d7\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“材料多尺度仿真工程师”名称截断，且无法确认属于哪个一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-02f7ba2418583c60f74d\",\"status\":\"review\",\"target_category_id\":\"供应链/物流\",\"reason\":\"“仓储物流管培生”可确认属于供应链/物流一级，但“管培生”非职业且括号内为专业清单，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-063f37e663d7048055e7\",\"status\":\"review\",\"target_category_id\":\"人力/行政/法务\",\"reason\":\"“人力管培生”可确认属于人力/行政/法务一级，但“管培生”非职业且括号内为专业清单，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-07488647d4a3801e6f4a\",\"status\":\"review\",\"target_category_id\":\"影视/传媒\",\"reason\":\"“采编岗”可确认属于影视/传媒一级，但括号内为多学科专业清单且截断，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-075d453772ce9c215b78\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"“管理培训生”非职业，且列出金融投资类、金融科技类、金融业务类多个方向，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-080238bbb77af3a9cbb2\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"“信息科技方向管培生”可确认属于互联网/AI一级，但“管培生”非职业且括号内为专业清单，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-0857dfdc7a5d777fd1ab\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称含“产品研发”与“营销类:市场营销”两个互不兼容职业，且截断，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-08ca5430c7c78b967e23\",\"status\":\"review\",\"target_category_id\":\"人力/行政/法务\",\"reason\":\"“综合人力助理”可确认属于人力/行政/法务一级，但括号内为专业清单且截断，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-08d319e293de20dbc1be\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"“总部管培生”非职业，且列出商品类、运营类、设计类、技术类、供应链类、职能类多个方向，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-091a2d52b4d9fbd4a020\",\"status\":\"review\",\"target_category_id\":\"影视/传媒\",\"reason\":\"“媒资管理岗”可确认属于影视/传媒一级，但括号内为多学科专业清单且截断，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-0947b603ca7ba59b1a04\",\"status\":\"review\",\"target_category_id\":\"电子/电气/通信\",\"reason\":\"“应用工程师”结合微电子、集成电路、电子信息等专业可确认属于电子/电气/通信一级，但括号截断，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-0a30eb391de5494de61c\",\"status\":\"review\",\"target_category_id\":null,\"reason\":\"“企划管培生”中“管培生”非职业，括号内为多领域专业清单且截断，无法确认任何一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-0b4bfa25ed40cf3d91f4\",\"status\":\"review\",\"target_category_id\":\"咨询/翻译/法律\",\"reason\":\"“法务管理”可确认属于咨询/翻译/法律一级，但名称截断，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-0de414ed530358e03ad8\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"“教育类”后接会计、财务、法学、新闻传播、数字媒体、动画、影视制作、能源、环境、物流、安全、消防、电气等多领域专业清单且截断，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-0e6ee662e8d98c16840a\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"“全栈开发工程师”可确认属于互联网/AI一级，但括号内为专业清单且截断，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-0ed73965f31fc41f1b66\",\"status\":\"multi_role\",\"target_category_id\":\"金融\",\"reason\":\"“金融科技岗”列出软件开发、AI算法、测试等多个互不兼容职业，共同上级可确认到金融一级。\"},{\"entry_id\":\"ABNORMAL:RRG-0f7b15a48ad438b7fd73\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出金融投资类、财务资金类、法务类、综合管理多个互不兼容职业，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-100f5b434a54c703d910\",\"status\":\"multi_role\",\"target_category_id\":null,\"reason\":\"“管培生”非职业，且列出技术类、供应链、运营类、职能类多个方向，无共同可确认的一级或二级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-1138799d9a1b5560ca85\",\"status\":\"review\",\"target_category_id\":\"咨询/翻译/法律\",\"reason\":\"“咨询顾问(内控与风险管...)”可确认属于咨询/翻译/法律一级，但名称截断，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-1346f75afa05a8221cd6\",\"status\":\"review\",\"target_category_id\":\"互联网/AI\",\"reason\":\"“管培生”非职业，但括号内计算机、人工智能、软件工程可确认属于互联网/AI一级，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-13eb43c835a184fbab64\",\"status\":\"review\",\"target_category_id\":\"咨询/翻译/法律\",\"reason\":\"“韩语管培生”中“管培生”非职业，但韩语可确认属于咨询/翻译/法律一级，无法确定三级类别。\"},{\"entry_id\":\"ABNORMAL:RRG-151597725845311c71aa\",\"status\":\"review\",\"target_category_id\":\"供应链/物流\",\"reason\":\"“物流规划岗”可确认属于供应链/物流一级，但括号内为多领域专业清单，无法确定三级类别。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 30591,
+    "completion_tokens": 1782,
+    "total_tokens": 32373,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 30591
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

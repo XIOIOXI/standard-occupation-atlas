@@ -1,0 +1,28 @@
+{
+  "id": "54554e73-5258-47a4-aea1-1b20d26a7aff",
+  "object": "chat.completion",
+  "created": 1792571580,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-54c60d51e663d16e2bd07c4f275448d9\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L03-06\",\"L14-10\",\"L14-09\"],\"title_evidence\":\"标题仅为“技术支持”，未说明是内部IT支持、客户售后技术支持还是售前技术支持\",\"level_3_evidence\":null,\"reason\":\"“技术支持”为泛化称谓，可能对应企业内部IT支持（L03-06）、客户售后技术服务（L14-10）或售前技术方案支持（L14-09），标题证据不足以唯一确定二级方向，需人工确认具体职责。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16978,
+    "completion_tokens": 163,
+    "total_tokens": 17141,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 338
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

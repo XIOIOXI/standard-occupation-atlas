@@ -1,0 +1,35 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-1f3ab84fba3100ba254a",
+  "child_index": 0,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "各县市区分公司金融网点柜员/客户经理",
+  "child_title": "各县市区分公司金融网点柜员",
+  "source_span": {
+    "text": "各县市区分公司金融网点柜员",
+    "start": 0,
+    "end": 14
+  },
+  "raw_decision": {
+    "original_record_id": "TG-1f3ab84fba3100ba254a",
+    "case": "A",
+    "child_titles": [
+      "各县市区分公司金融网点柜员",
+      "客户经理"
+    ],
+    "source_spans": [
+      {
+        "text": "各县市区分公司金融网点柜员",
+        "start": 0,
+        "end": 14
+      },
+      {
+        "text": "客户经理",
+        "start": 15,
+        "end": 19
+      }
+    ],
+    "reason": "标题由斜杠分隔的两个独立岗位名称组成，可明确拆分。"
+  }
+}

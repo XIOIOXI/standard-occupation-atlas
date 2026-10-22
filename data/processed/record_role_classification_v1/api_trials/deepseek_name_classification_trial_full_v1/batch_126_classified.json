@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 126,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "7235ca3a-7759-405f-8c8c-a799013e9418",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751347,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25096,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1800,
+    "output_tokens": 3759,
+    "reasoning_tokens": 0,
+    "total_tokens": 28855
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002595288
+  },
+  "observed_at_utc": "2026-10-11T20:42:27.415019+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-dc0e54e4c3ddc93a1a5b",
+      "target_category_id": "教育培训/edu-teacher/teacher-higher",
+      "status": "mapped",
+      "reason": "教研室教师通常指高校或研究机构中从事教学与研究工作的教师，归入高等教育教学。"
+    },
+    {
+      "occupation_id": "SNO-a033f0097ed4d5694020",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "总经理秘书核心职责为文书处理、日程协调与行政支持，归入文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-4ea4d8af25cb687e9815",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "选矿设计与采矿设计属于矿业工程机械设计范畴，归入机械结构与产品设计。"
+    },
+    {
+      "occupation_id": "SNO-0e6dc2066e563df6b891",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "实习律师从事法律实务，通常涉及公司法务与合规，归入公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-3620169f1459a0a2b6d4",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "植保栽培属于农作物与农业技术领域，归入农作物与农业技术。"
+    },
+    {
+      "occupation_id": "SNO-b23f3af53f1433eaa987",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "status": "mapped",
+      "reason": "大模型训练与调优工程师专注于大语言模型训练与优化，归入大模型与生成式AI。"
+    },
+    {
+      "occupation_id": "SNO-3bab205572ebb2cea893",
+      "target_category_id": "供应链/物流/supply-logistics/logistics-transport",
+      "status": "mapped",
+      "reason": "站务员负责运输站点的调度与运营，归入运输调度与线路运营。"
+    },
+    {
+      "occupation_id": "SNO-049ce957bcd7b5c57a3b",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "status": "mapped",
+      "reason": "C/C++开发通常涉及系统与底层开发，归入系统与底层开发。"
+    },
+    {
+      "occupation_id": "SNO-b95442677da46112322f",
+      "target_category_id": "人力/行政/法务/people-clerk/clerk-document",
+      "status": "mapped",
+      "reason": "行政综合岗负责综合行政事务，归入文档与档案文员。"
+    },
+    {
+      "occupation_id": "SNO-4946ac9e9f95818de9f4",
+      "target_category_id": "房地产/建筑/estate-development/realestate-dev-investment",
+      "status": "mapped",
+      "reason": "土地储备涉及土地获取与投资拓展，归入土地与项目投资拓展。"
+    },
+    {
+      "occupation_id": "SNO-6f898416725139dac19d",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "人工智能应用技术设计属于算法研究与通用算法范畴。"
+    },
+    {
+      "occupation_id": "SNO-74a7202ae3c8cc1d3150",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-growth",
+      "status": "mapped",
+      "reason": "市场岗负责一线市场推广与需求接入，归入增长与数字营销。"
+    },
+    {
+      "occupation_id": "SNO-65796e381da0201fb012",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-risk",
+      "status": "mapped",
+      "reason": "AI量化研究员将AI应用于金融量化，归入金融与风控算法。"
+    },
+    {
+      "occupation_id": "SNO-9ed4b32626cec7cbfc79",
+      "target_category_id": "生产制造/manufacturing-quality/quality-system",
+      "status": "mapped",
+      "reason": "质量保证工程师负责质量体系与审核，归入质量体系与审核。"
+    },
+    {
+      "occupation_id": "SNO-d37cddc9648df19ae4b0",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "投资助理协助投资分析，归入股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-b464d4a0546a92b179ab",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "AI算法软件开发工程师从事AI算法研发，归入算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-680662fb3f29fca5ceca",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "四化管理员通常负责生产运营与精益改善，归入生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-f95c439e1010216baddb",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-1f5d2dab34221c5c5097",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分行管理培训生通常培养为银行零售与综合业务管理，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-08daff98754e5095a49b",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "产品经理（高校数字校园方向）负责平台与企业产品，归入平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-765b2a4e0e6ae665a311",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "消防技术员负责安全生产管理，归入安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-7ce90d66714522d4640e",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "零售金融市场营销属于银行零售业务，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-c3939643b4d6c66f6100",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "软件开发技术通常指后端业务服务端开发，归入业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-da44bb35c3bd63fcc668",
+      "target_category_id": "销售/sales-course/course-sales-education",
+      "status": "mapped",
+      "reason": "课程规划顾问负责教育课程咨询与销售，归入教育课程顾问。"
+    },
+    {
+      "occupation_id": "SNO-319e5dbc4254eca0dbac",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "视觉创意设计师负责品牌与视觉设计。"
+    },
+    {
+      "occupation_id": "SNO-44013037f70cb27fc250",
+      "target_category_id": "销售/sales-trade/trade-sales-development",
+      "status": "mapped",
+      "reason": "海外项目商务负责海外客户开发与商务拓展，归入海外客户开发。"
+    },
+    {
+      "occupation_id": "SNO-da4875ef0616ee1291c1",
+      "target_category_id": "能源/环保/农业/energy-aquaculture/aquaculture-livestock",
+      "status": "mapped",
+      "reason": "放养管控培生涉及畜禽养殖管理，归入畜禽养殖技术。"
+    },
+    {
+      "occupation_id": "SNO-e5021e3ec11e18d9ccd1",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "检测岗负责质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-50a41af9cc4880e5b711",
+      "target_category_id": "金融/financial-investment/investment-financing-investment",
+      "status": "mapped",
+      "reason": "FA业务部分析师从事财务顾问与投资分析，归入股权与投资分析。"
+    },
+    {
+      "occupation_id": "SNO-00d405adcdac12ede826",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "科研技术岗范围宽泛，缺少具体技术方向或行业信息，无法确定三级分类。"
+    },
+    {
+      "occupation_id": "SNO-e3e4ad12afa33e062829",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "表型组平台科研人员从事生物医药研究，归入生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-c8fdbf9bef979a0a2c4f",
+      "target_category_id": "互联网/AI/internet-security/security-governance",
+      "status": "mapped",
+      "reason": "安全策略运营负责安全治理与合规策略，归入安全治理与合规。"
+    },
+    {
+      "occupation_id": "SNO-4528033a52ffac1999b1",
+      "target_category_id": "生产制造/manufacturing-food-rd/food-rd-product",
+      "status": "mapped",
+      "reason": "食品管培生通常培养为食品研发或生产管理，归入食品配方与产品研发。"
+    },
+    {
+      "occupation_id": "SNO-148dc69d576d18c4e001",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产管培生培养方向为生产计划与调度，归入生产计划与调度。"
+    },
+    {
+      "occupation_id": "SNO-e24671f330d19a097c8c",
+      "target_category_id": "互联网/AI/internet-backend/backend-platform",
+      "status": "mapped",
+      "reason": "核心系统开发工程师负责平台与中间件开发，归入平台与中间件开发。"
+    },
+    {
+      "occupation_id": "SNO-80368e791b06054d00f9",
+      "target_category_id": "房地产/建筑/estate-development/realestate-dev-development",
+      "status": "mapped",
+      "reason": "城市综合开发属于房地产开发与报建。"
+    },
+    {
+      "occupation_id": "SNO-6d1b8d6ef5e8669d8a07",
+      "target_category_id": "金融/financial-securities/securities-research",
+      "status": "mapped",
+      "reason": "财富管理与机构业务涉及证券研究与投资顾问。"
+    },
+    {
+      "occupation_id": "SNO-ba476d4b3de70bcd49c4",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "助理工程师岗位涵盖化学、新材料、财务、过控、网络工程、土木建筑等多个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-556d7be61010de5f67c3",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": "宣传工作负责品牌公关与传播。"
+    },
+    {
+      "occupation_id": "SNO-5558fcbe8409401fb25c",
+      "target_category_id": "互联网/AI/internet-backend/backend-service",
+      "status": "mapped",
+      "reason": "后端研发工程师负责业务服务端开发。"
+    },
+    {
+      "occupation_id": "SNO-d8c20b6daa23bd83fe4e",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "会计与热动为两个独立职业方向，无法由单一类别承接。"
+    },
+    {
+      "occupation_id": "SNO-8f946a5b6c87491fd73b",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场经理负责品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-44e00dc7ab22f13f949b",
+      "target_category_id": "产品/product-internet/product-platform",
+      "status": "mapped",
+      "reason": "物流IT产品经理负责平台与企业产品。"
+    },
+    {
+      "occupation_id": "SNO-43341a2881cacaa38bcd",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "管培生涵盖计算机、人工智能、软件工程、电气工程、电子信息、自动化、管理科学与工程等多个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-72f97b70e93d9c65997a",
+      "target_category_id": "采购/贸易/trade-clerk/trade-clerk-coordination",
+      "status": "mapped",
+      "reason": "外贸外勤专员负责外贸跟单与客户协调。"
+    },
+    {
+      "occupation_id": "SNO-fb3326f573a5a555f21c",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "并口模拟设计经理属于芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-d304c3ec00950afc4ba4",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "智能驾驶测试工程师负责功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-e0a9a29e99cb48f45df9",
+      "target_category_id": "产品/product-cosmetics/beauty-brand",
+      "status": "mapped",
+      "reason": "品牌发展与产品开发涉及品牌与市场产品，归入品牌与市场产品。"
+    },
+    {
+      "occupation_id": "SNO-8b76a904746feacaf290",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "农产品检验属于质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-33bf7050ada06334e20d",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "施工组织设计属于施工现场管理。"
+    }
+  ]
+}

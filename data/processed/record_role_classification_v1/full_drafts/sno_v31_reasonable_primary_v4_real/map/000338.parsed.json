@@ -1,0 +1,305 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-578600dfe3bdecdec298",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-05",
+        "L18-06",
+        "L18-09"
+      ],
+      "title_evidence": "综合办公岗位",
+      "level_3_evidence": null,
+      "reason": "标题仅表明综合办公，可能涉及行政、文书等，但无法确定具体职能方向，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-7e015e7207b260dec300",
+      "status": "mapped",
+      "target_category_id": "L03-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-01",
+        "L03-02",
+        "L03-03"
+      ],
+      "title_evidence": "网络&服务器管理岗",
+      "level_3_evidence": null,
+      "reason": "标题明确包含网络和服务器管理，属于系统与服务器运维及网络工程运维，但未细分到具体三级，归入系统与服务器运维。"
+    },
+    {
+      "occupation_id": "TG-2075d44ec36f21ccba32",
+      "status": "mapped",
+      "target_category_id": "L18-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L18-05",
+        "L18-06",
+        "L18-09"
+      ],
+      "title_evidence": "行政储备岗",
+      "level_3_evidence": null,
+      "reason": "标题明确为行政储备岗，属于行政与办公事务，储备性质不改变职能归属。"
+    },
+    {
+      "occupation_id": "TG-99cc3402e64baa1a3647",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09",
+        "L13-02",
+        "L13-01"
+      ],
+      "title_evidence": "菁鲤计划培训生(营销)",
+      "level_3_evidence": null,
+      "reason": "标题明确为营销培训生，属于销售职能，但未说明客户类型，归入通用销售。"
+    },
+    {
+      "occupation_id": "TG-e0f66abc493ee5c9d109",
+      "status": "mapped",
+      "target_category_id": "L24-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L24-07",
+        "L24-08",
+        "L24-10"
+      ],
+      "title_evidence": "施工管理工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确为施工管理工程师，属于施工组织与工程管理。"
+    },
+    {
+      "occupation_id": "TG-2b7716418b5aa1abf9a8",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L09-08",
+        "L24-01",
+        "L06-01"
+      ],
+      "title_evidence": "设计技术岗",
+      "level_3_evidence": null,
+      "reason": "标题仅表明设计技术，未说明设计领域，可能涉及工业设计、建筑设计等，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-dd380f936663d4f551e3",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L08-07",
+        "L04-06",
+        "L23-10"
+      ],
+      "title_evidence": "产品管控岗",
+      "level_3_evidence": null,
+      "reason": "标题为产品管控，可能涉及产品管理、质量控制等，职能方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-50ab5e46f9d62ba07053",
+      "status": "mapped",
+      "target_category_id": "L15-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L15-09"
+      ],
+      "title_evidence": "巴松大管演奏岗",
+      "level_3_evidence": null,
+      "reason": "标题明确为巴松大管演奏，属于表演演奏，归入表演配音与模特。"
+    },
+    {
+      "occupation_id": "TG-66f2bed0affcf2e491ee",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-08-01",
+        "L06-08-03",
+        "L05-01-01"
+      ],
+      "title_evidence": "器件/电极工艺工程师",
+      "level_3_evidence": "制造制程工程",
+      "reason": "标题明确为器件/电极工艺工程师，属于制造制程工程。"
+    },
+    {
+      "occupation_id": "TG-d1970abb56949a00d0ad",
+      "status": "mapped",
+      "target_category_id": "L06-08-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L06-08-01",
+        "L06-08-02",
+        "L23-04"
+      ],
+      "title_evidence": "轧钢工程师",
+      "level_3_evidence": "制造制程工程",
+      "reason": "轧钢工程师属于金属加工工艺，归入制造制程工程。"
+    },
+    {
+      "occupation_id": "TG-896ccf982e3bac4680fa",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L22-10"
+      ],
+      "title_evidence": "精品小课堂管培生",
+      "level_3_evidence": null,
+      "reason": "标题为管培生，但未明确最终职能方向，可能涉及教育或综合培养，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-55647c7041e6ec41950e",
+      "status": "mapped",
+      "target_category_id": "L22-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L22-02",
+        "L22-02-01",
+        "L22-02-02",
+        "L22-02-03"
+      ],
+      "title_evidence": "小初高文化课老师",
+      "level_3_evidence": null,
+      "reason": "标题明确为文化课老师，属于学科与通识教学，但未说明具体学科，归入学科与通识教学。"
+    },
+    {
+      "occupation_id": "TG-dd18e6c84ecf2cfc3820",
+      "status": "mapped",
+      "target_category_id": "L05-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-04",
+        "L01-06-01",
+        "L02-05-06"
+      ],
+      "title_evidence": "机器人控制工程师（校招/实习生）",
+      "level_3_evidence": null,
+      "reason": "机器人控制工程师属于自动化与控制工程，归入自动化与控制工程。"
+    },
+    {
+      "occupation_id": "TG-200a0ea0286330e1d2e4",
+      "status": "mapped",
+      "target_category_id": "L20-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L20-01-01",
+        "L20-01-02",
+        "L11-04-01"
+      ],
+      "title_evidence": "资本市场与咨询部门实习生",
+      "level_3_evidence": "证券与市场研究",
+      "reason": "资本市场与咨询部门实习生，涉及资本市场研究，归入证券与市场研究。"
+    },
+    {
+      "occupation_id": "TG-a06cd6707c590246bd2f",
+      "status": "mapped",
+      "target_category_id": "L22-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L22-02-02",
+        "L22-02-04",
+        "L22-02"
+      ],
+      "title_evidence": "科学教师",
+      "level_3_evidence": "数学与自然科学教学",
+      "reason": "科学教师通常教授自然科学，归入数学与自然科学教学。"
+    },
+    {
+      "occupation_id": "TG-4648f0f3aab50e0d9856",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01",
+        "L32-02"
+      ],
+      "title_evidence": "总行运营储备生",
+      "level_3_evidence": null,
+      "reason": "总行运营储备生，可能涉及银行运营或综合培养，职能方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-7f68f065b2aa9c1dd5e9",
+      "status": "mapped",
+      "target_category_id": "L05-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L05-01-01",
+        "L05-01-02",
+        "L05-02-01"
+      ],
+      "title_evidence": "硬件电路设计工程师",
+      "level_3_evidence": "电路与板级设计",
+      "reason": "硬件电路设计工程师，明确为电路与板级设计。"
+    },
+    {
+      "occupation_id": "TG-e31624700aef0a533b1d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L03-06",
+        "L03-01",
+        "L18-05"
+      ],
+      "title_evidence": "终端管理专员",
+      "level_3_evidence": null,
+      "reason": "终端管理专员可能涉及IT终端管理或行政资产管理，职能方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-772937ff6e2deb70cfe3",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-11",
+        "L11-07",
+        "L13-09"
+      ],
+      "title_evidence": "北亚运营",
+      "level_3_evidence": null,
+      "reason": "北亚运营，可能涉及业务运营、市场运营等，职能方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-c58ff3b875eafcc21c30",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L04-05",
+        "L07-04",
+        "L21-09"
+      ],
+      "title_evidence": "审评员（生物科学类、电气类、电子信息和计算机类、临床医学类、中医学类、药学类、生物医学工程、生物工程）",
+      "level_3_evidence": null,
+      "reason": "审评员涉及多个专业领域，可能从事技术审评或认证，职能方向不明确，需人工确认。"
+    }
+  ],
+  "raw_response_file": "000338.raw.json",
+  "usage": {
+    "input_tokens": 17382,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 870,
+    "output_tokens": 2619,
+    "reasoning_tokens": 0,
+    "total_tokens": 20001
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0035028719999999998
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

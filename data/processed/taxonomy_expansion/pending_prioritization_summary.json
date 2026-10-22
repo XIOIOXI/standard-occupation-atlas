@@ -1,0 +1,18 @@
+{
+  "pending_candidates_reviewed": 6874,
+  "candidate_family_count": 6733,
+  "priority_tier_counts": {
+    "P0": 22,
+    "P1": 107,
+    "P2": 463,
+    "P3": 6141
+  },
+  "p0_p1_family_count": 129,
+  "llm_review_units_if_one_per_family": 129,
+  "management_trainee_family_count": 11,
+  "p0_upper_bound_accepted_units": 866,
+  "p0_p1_upper_bound_accepted_units": 2404,
+  "score_formula": "40 log occurrence + 30 log companies + 10 log locations + 20 industry spread; company and occurrence are log-scaled to limit single-company repetition.",
+  "tier_thresholds": "P0 >=75; P1 >=55; P2 >=30; P3 <30",
+  "estimate_note": "Impact is an upper bound only; no candidate is assumed to become a new occupation."
+}

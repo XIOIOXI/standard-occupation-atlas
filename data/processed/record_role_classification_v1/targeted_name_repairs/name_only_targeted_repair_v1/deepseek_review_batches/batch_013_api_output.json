@@ -1,0 +1,28 @@
+{
+  "id": "96ad14d6-abea-411b-8f9b-6c49a7b1e7c7",
+  "object": "chat.completion",
+  "created": 1791813236,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"SNO-4537f7dffb09ca6a1845\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人应用开发工程师核心为机器人应用与具身智能方向，与机器人与具身智能类别匹配。\"},{\"occupation_id\":\"SNO-4ab8278ed44d7b5510af\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"推荐助理名称仅含推荐方向，未明确算法工程职责，三级依据不足，最深可确认上级为算法研究与通用算法。\"},{\"occupation_id\":\"SNO-66d55f64e6072baca554\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"网络软件开发工程师核心为服务端软件开发，归入业务服务端开发合理。\"},{\"occupation_id\":\"SNO-9f16b5b07234fe27d043\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"机器人基础架构软件工程师核心为机器人软件基础架构，与机器人与具身智能匹配。\"},{\"occupation_id\":\"SNO-dc97f6a1fa851e71f768\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"姿轨控设计师为航天器姿态轨道控制，与机器人与具身智能边界不完全一致，三级依据不足，最深可确认上级为机器人与具身智能。\"},{\"occupation_id\":\"SNO-a68d4f70601e632e40bd\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-robotics\",\"reason\":\"研发工程师(软件方向,机器人方向)核心为机器人软件开发，归入机器人与具身智能合理。\"},{\"occupation_id\":\"SNO-4c87a129052ee6bea14a\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-backend/backend-finance\",\"reason\":\"后台开发工程师(行情方向)属于金融行情类后端开发，与金融与行业后端开发匹配。\"},{\"occupation_id\":\"SNO-584b755cdc0acf5be083\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"架构工程师名称未明确平台与中间件方向，三级依据不足，最深可确认上级为平台与中间件开发。\"},{\"occupation_id\":\"SNO-15ccbdd0953f3c5669a3\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-service\",\"reason\":\"软件开发工程师(全职/实习)未明确后端或服务端方向，三级依据不足，最深可确认上级为业务服务端开发。\"},{\"occupation_id\":\"SNO-88aff1d6acae85bfd301\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-backend/backend-platform\",\"reason\":\"数字化系统架构工程师名称未明确平台与中间件方向，三级依据不足，最深可确认上级为平台与中间件开发。\"},{\"occupation_id\":\"SNO-a34c26184610c0787285\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-vision\",\"reason\":\"视觉软件工程师(激光精密)核心为计算机视觉方向，与计算机视觉与三维感知匹配。\"},{\"occupation_id\":\"SNO-38e180941eaee8544fc0\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"推荐系统工程师属于推荐算法方向，归入算法研究与通用算法合理。\"},{\"occupation_id\":\"SNO-88d55a17f1680d03e4ff\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称明确列出硬件和软件开发两个独立职业方向，属于多职业。\"},{\"occupation_id\":\"SNO-d260f8b7349f7d47289f\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"AI管培生为培养项目而非明确算法工程职责，三级依据不足，最深可确认上级为算法研究与通用算法。\"},{\"occupation_id\":\"SNO-ddae0c399cc38ada74ca\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-frontend-mobile/frontend-mobile\",\"reason\":\"终端鸿蒙开发工程师属于移动端与客户端开发，匹配合理。\"},{\"occupation_id\":\"SNO-c0ddd4f0079d963fb10d\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出系统策划、数值策划、产品运营、媒体专员等多个独立职业，属于多职业。\"},{\"occupation_id\":\"SNO-3a964fd742114e2d21d6\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出海外广告投放和广告创意策划两个独立职业，属于多职业。\"},{\"occupation_id\":\"SNO-eb44b489625cddad0f06\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出人工智能、无人系统、计算机电子、光学陀螺、液压系统、机电产品、软件测试、机械加工、企业管理、机械结构设计等多个独立职业，属于多职业。\"},{\"occupation_id\":\"SNO-1c8a86a277aba0cf90c8\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出房屋建筑、基础设施、新能源、运营支持、建筑设计、综合管理等多个独立职业方向，属于多职业。\"},{\"occupation_id\":\"SNO-6b26defe0c8360aacd3f\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出活动策划、平面设计、三维设计、AIGC设计多个独立职业，属于多职业。\"},{\"occupation_id\":\"SNO-d19f59518f8886bd5aec\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-llm\",\"reason\":\"AIGC生成师核心为大模型与生成式AI应用，与大模型与生成式AI匹配。\"},{\"occupation_id\":\"SNO-645b357a175998dc250e\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-ops-support/ops-support\",\"reason\":\"售后运维工程师核心为技术支持与客户交付，归入技术支持与客户交付合理。\"},{\"occupation_id\":\"SNO-fe2a8ce16c85b82aef46\",\"decision\":\"fallback_review\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-research\",\"reason\":\"工业AI工程师名称未明确具体算法方向，三级依据不足，最深可确认上级为算法研究与通用算法。\"},{\"occupation_id\":\"SNO-3bc8898b24f2f2f1e189\",\"decision\":\"keep\",\"target_category_id\":\"互联网/AI/internet-algorithm/algorithm-driving\",\"reason\":\"自动驾驶系统工程师属于自动驾驶与智能交通，匹配合理。\"},{\"occupation_id\":\"SNO-f997325050da58b5e8ef\",\"decision\":\"multi_role\",\"target_category_id\":null,\"reason\":\"名称列出人工智能数智化建设、发电运行技术、设备运维检修、工程技术实施、能源技术创新等多个独立方向，属于多职业。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 31106,
+    "completion_tokens": 1622,
+    "total_tokens": 32728,
+    "prompt_tokens_details": {
+      "cached_tokens": 27264
+    },
+    "prompt_cache_hit_tokens": 27264,
+    "prompt_cache_miss_tokens": 3842
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

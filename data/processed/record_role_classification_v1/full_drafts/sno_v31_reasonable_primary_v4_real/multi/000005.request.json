@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-1f77aa1324c53996d2e6\", \"title\": \"AI导演/制作AI研发工程师\"}, {\"original_record_id\": \"TG-6c4c39269c6c661f5250\", \"title\": \"设备维护岗（化学类、材料类、机械、电子类、自动化、电气、软件类、统计、泰语、英语、工业工程、质量管理）\"}, {\"original_record_id\": \"TG-dcdd04b6f48bbcc58adb\", \"title\": \"硬件/软件开发\"}, {\"original_record_id\": \"TG-90ac150b21b9bd500fab\", \"title\": \"研发产品工艺海外销售\"}, {\"original_record_id\": \"TG-3733cf6825865e70a06a\", \"title\": \"设计师（建筑学、城市规划、工民建、暖通、给排水、电气等）\"}, {\"original_record_id\": \"TG-08299f51642c33bd7e47\", \"title\": \"UE交互设计师游戏策划\"}, {\"original_record_id\": \"TG-c33184aaf9ac3a33de2c\", \"title\": \"算法类软件研发类产品类解决方案/项目类职能类海外岗位\"}, {\"original_record_id\": \"TG-a502e73f4aeb5ad94a40\", \"title\": \"产品策划/运营\"}, {\"original_record_id\": \"TG-662c91c30ad6dd772858\", \"title\": \"暖通/电气工程师\"}, {\"original_record_id\": \"TG-88ae488c14d184010c34\", \"title\": \"建筑设计城乡规划设计景观设计室内设计结构设计给排水设计电气设计暖通设计\"}, {\"original_record_id\": \"TG-0f7b15a48ad438b7fd73\", \"title\": \"金融投资类财务资金类法务类综合管理\"}, {\"original_record_id\": \"TG-a529caaabd5a65487b0c\", \"title\": \"营销倍优生电商运营倍优生市场倍优生健康研究倍优生工艺技术倍优生科学交流倍优生原料技术倍优生包装技术倍优生产品研发倍优生数智化倍优生 AI应用倍优生国际战略采购倍优生\"}, {\"original_record_id\": \"TG-d2d2a5b5e42b8152a2c8\", \"title\": \"零售类 人力资源 客户关系 公关传播 商品策划 商品运营 电商运营 品牌摄影 展示设计 服装搭配 服装设计\"}, {\"original_record_id\": \"TG-c013d0369586affcd63b\", \"title\": \"软件开发工程师(C++、Java、web前端、Android、嵌入式驱动开发、图形图像、网络通信、仿真验证)\"}, {\"original_record_id\": \"TG-ef07076a92381e6ddeae\", \"title\": \"财务管理法务管理党群管理信息技术业务管理生产管理工程管理轮机驾驶设备管理航运管理\"}, {\"original_record_id\": \"TG-48de96acce9ab20f8a20\", \"title\": \"生管/采购管理师\"}, {\"original_record_id\": \"TG-d678b5212ab096012010\", \"title\": \"后端/版图工程师\"}, {\"original_record_id\": \"TG-4bb3d262ec4a10a6956e\", \"title\": \"西医 / 法硕教辅老师\"}, {\"original_record_id\": \"TG-478087419b00acc76506\", \"title\": \"车身设计内外饰设计底盘设计产品企划电子开发车辆性能开发新能源动力总成试验试制开发项目管理设计成本整车集成开发信息安保 整车控制器开发\"}, {\"original_record_id\": \"TG-e2dab295bf1069eede59\", \"title\": \"前后端开发财务助理\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-1f77aa1324c53996d2e6",
+    "TG-6c4c39269c6c661f5250",
+    "TG-dcdd04b6f48bbcc58adb",
+    "TG-90ac150b21b9bd500fab",
+    "TG-3733cf6825865e70a06a",
+    "TG-08299f51642c33bd7e47",
+    "TG-c33184aaf9ac3a33de2c",
+    "TG-a502e73f4aeb5ad94a40",
+    "TG-662c91c30ad6dd772858",
+    "TG-88ae488c14d184010c34",
+    "TG-0f7b15a48ad438b7fd73",
+    "TG-a529caaabd5a65487b0c",
+    "TG-d2d2a5b5e42b8152a2c8",
+    "TG-c013d0369586affcd63b",
+    "TG-ef07076a92381e6ddeae",
+    "TG-48de96acce9ab20f8a20",
+    "TG-d678b5212ab096012010",
+    "TG-4bb3d262ec4a10a6956e",
+    "TG-478087419b00acc76506",
+    "TG-e2dab295bf1069eede59"
+  ]
+}

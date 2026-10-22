@@ -1,0 +1,342 @@
+{
+  "results": [
+    {
+      "occupation_id": "CR-baf910f36c9cf34b3529",
+      "status": "mapped",
+      "target_category_id": "L15-03-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L15-03-01",
+        "L12-01-02"
+      ],
+      "title_evidence": "文案策划",
+      "level_3_evidence": "文案策划中的“文案”直接对应商业文案",
+      "reason": "文案策划核心为商业文案创作，归商业文案；若侧重营销活动策划可候选L12-01-02。"
+    },
+    {
+      "occupation_id": "CR-e4a5c4c1bd1d5cf2726f",
+      "status": "mapped",
+      "target_category_id": "L23-09-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L23-09-01",
+        "L04-02"
+      ],
+      "title_evidence": "集成调试",
+      "level_3_evidence": "集成调试通常指设备/系统安装后的集成与调试",
+      "reason": "集成调试最直接对应工业设备安装调试；若为产品测试验证可候选L04-02。"
+    },
+    {
+      "occupation_id": "CR-65de36b24cdc76b4c5e1",
+      "status": "mapped",
+      "target_category_id": "L04-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L04-01-02",
+        "L04-01-01"
+      ],
+      "title_evidence": "测校开发",
+      "level_3_evidence": "测校开发含测试与校准开发，偏向测试工具/自动化开发",
+      "reason": "测校开发核心为测试相关开发，归测试开发与自动化；若仅功能测试可候选L04-01-01。"
+    },
+    {
+      "occupation_id": "CR-cfdff8e5379e18c24444",
+      "status": "mapped",
+      "target_category_id": "L03-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L03-06",
+        "L14-10"
+      ],
+      "title_evidence": "技术支持",
+      "reason": "技术支持通常指内部IT或产品技术支持，最直接归信息技术支持；若为售后客户技术支持可候选L14-10。"
+    },
+    {
+      "occupation_id": "CR-ecbcb2fd17548345656e",
+      "status": "mapped",
+      "target_category_id": "L13-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L13-01-02",
+        "L13-01-01"
+      ],
+      "title_evidence": "客户经理",
+      "level_3_evidence": "客户经理通常负责既有客户关系维护与业务扩展",
+      "reason": "客户经理以客户关系与业务扩展为主，归重点客户管理；若为直接开拓新客户可候选L13-01-01。"
+    },
+    {
+      "occupation_id": "CR-06ac4b984d049d29293b",
+      "status": "mapped",
+      "target_category_id": "L11-04-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L11-04-02",
+        "L11-04-01"
+      ],
+      "title_evidence": "咨询服务",
+      "level_3_evidence": "咨询服务通常指对外提供专业行业或业务咨询",
+      "reason": "咨询服务最直接归行业与业务咨询；若为战略管理咨询可候选L11-04-01。"
+    },
+    {
+      "occupation_id": "CR-e22b25ceeb90143e411c",
+      "status": "mapped",
+      "target_category_id": "L05-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-01",
+        "L06-01"
+      ],
+      "title_evidence": "仪器研发类",
+      "reason": "仪器研发通常涉及电子硬件与系统，归电子硬件研发；若为机械结构仪器可候选L06-01。"
+    },
+    {
+      "occupation_id": "CR-335bf55175102781cf55",
+      "status": "mapped",
+      "target_category_id": "L04-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-05",
+        "L04-04"
+      ],
+      "title_evidence": "综合评价工程师",
+      "reason": "综合评价工程师通常从事质量体系、认证或综合评价，归标准认证与质量体系；若为检测评价可候选L04-04。"
+    },
+    {
+      "occupation_id": "CR-fda5f83e6e2ca8c0ebd4",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-08",
+        "L14-11",
+        "L18-09"
+      ],
+      "title_evidence": "业务支持类",
+      "reason": "业务支持类职能方向不明确，可能为销售运营、业务运营或组织支持，无法唯一确定。"
+    },
+    {
+      "occupation_id": "CR-05e4d3b305e3d5f670c4",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-01",
+        "L24-07"
+      ],
+      "title_evidence": "现场管理师",
+      "reason": "现场管理师通常指生产现场管理，归生产计划与现场管理；若为施工现场管理可候选L24-07。"
+    },
+    {
+      "occupation_id": "CR-9502e5a98f71c11418f7",
+      "status": "mapped",
+      "target_category_id": "L24-01-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L24-01-01",
+        "L24-01-02"
+      ],
+      "title_evidence": "设计规划师",
+      "level_3_evidence": "设计规划师通常指建筑方案设计",
+      "reason": "设计规划师最直接归建筑设计；若为城乡规划可候选L24-01-02。"
+    },
+    {
+      "occupation_id": "CR-82d08909669c5af1e051",
+      "status": "mapped",
+      "target_category_id": "L19-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-08",
+        "L20-11"
+      ],
+      "title_evidence": "财务金融岗",
+      "reason": "财务金融岗同时涉及财务与金融，最直接归通用财务工作；若侧重金融业务可候选L20-11。"
+    },
+    {
+      "occupation_id": "CR-23edd96242ef239b3e3c",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L02-01",
+        "L02-09",
+        "L11-05"
+      ],
+      "title_evidence": "分析类",
+      "reason": "分析类未说明分析对象，可能为数据分析、商业分析或市场研究，无法唯一确定。"
+    },
+    {
+      "occupation_id": "CR-9303449c256ce6701026",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L19-08",
+        "L30-05"
+      ],
+      "title_evidence": "专业职能类",
+      "reason": "专业职能类过于宽泛，可能为人力、财务、法务等，无法唯一确定。"
+    },
+    {
+      "occupation_id": "CR-c1c96048eca16f08a001",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L19-08",
+        "L30-05"
+      ],
+      "title_evidence": "职能类",
+      "reason": "职能类未说明具体职能方向，无法唯一确定。"
+    },
+    {
+      "occupation_id": "CR-fdb0050392137a60a4a8",
+      "status": "mapped",
+      "target_category_id": "L10-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L10-03",
+        "L14-11"
+      ],
+      "title_evidence": "运营交付类",
+      "reason": "运营交付类最直接归客户实施与交付管理；若为业务运营可候选L14-11。"
+    },
+    {
+      "occupation_id": "CR-f0b2177b7fb8f2f4cd98",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L13-04",
+        "L15-11",
+        "L12-07"
+      ],
+      "title_evidence": "国际化类",
+      "reason": "国际化类可能为国际商务、翻译或海外市场，职能方向不明确。"
+    },
+    {
+      "occupation_id": "CR-0250233c23a67e7cbf0f",
+      "status": "mapped",
+      "target_category_id": "L06-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-09",
+        "L05-07"
+      ],
+      "title_evidence": "研发技术员",
+      "reason": "研发技术员未说明研发方向，归通用工业技术研发；若为电子电气研发可候选L05-07。"
+    },
+    {
+      "occupation_id": "CR-536d48c772c1033d60fb",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01",
+        "L15-04"
+      ],
+      "title_evidence": "短剧管培生",
+      "reason": "短剧管培生为管培项目且最终职业方向未明确，归跨职能管理培训与轮岗；若明确为短剧编导可候选L15-04。"
+    },
+    {
+      "occupation_id": "CR-ceb3ddc187982b546b36",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11",
+        "L02-09"
+      ],
+      "title_evidence": "数字化科技类",
+      "reason": "数字化科技类通常指软件开发但方向未说明，归通用软件研发；若侧重数据AI可候选L02-09。"
+    },
+    {
+      "occupation_id": "CR-9a245b8dbfc332ccaaf3",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-09",
+        "L19-08",
+        "L30-05"
+      ],
+      "title_evidence": "职能类",
+      "reason": "职能类未说明具体职能方向，无法唯一确定。"
+    },
+    {
+      "occupation_id": "CR-50216cec7c83d1beb08b",
+      "status": "mapped",
+      "target_category_id": "L08-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-03",
+        "L20-11"
+      ],
+      "title_evidence": "产品存续类",
+      "reason": "产品存续类通常指金融产品存续期管理，归金融产品设计；若为金融运营可候选L20-11。"
+    },
+    {
+      "occupation_id": "CR-900132bb9d393d37bec3",
+      "status": "mapped",
+      "target_category_id": "L08-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L08-07",
+        "L01-11"
+      ],
+      "title_evidence": "产品开发",
+      "reason": "产品开发未说明产品类型，归通用产品规划；若为软件开发可候选L01-11。"
+    },
+    {
+      "occupation_id": "CR-646f488ad79690a61a5c",
+      "status": "mapped",
+      "target_category_id": "L32-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-02",
+        "L05-04"
+      ],
+      "title_evidence": "自动化储备",
+      "reason": "自动化储备为储备培养且主要职能未明确，归综合储备与业务培养；若明确为自动化技术可候选L05-04。"
+    },
+    {
+      "occupation_id": "CR-ac5dbfc3cc773e1d5fb5",
+      "status": "mapped",
+      "target_category_id": "L11-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-01",
+        "L11-07"
+      ],
+      "title_evidence": "经管",
+      "reason": "经管通常指经营管理，归企业与业务综合管理；若为经营分析可候选L11-07。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17574,
+    "cached_input_tokens": 17408,
+    "uncached_input_tokens": 166,
+    "output_tokens": 2432,
+    "reasoning_tokens": 0,
+    "total_tokens": 20006
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0015363240000000002
+  },
+  "response_metadata": {
+    "request_id": "ca5c4377-a8ea-4dca-be99-fdac9ae7a81d",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791895496,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0b146bde-fa89-4f67-b5ec-8fd68257592d",
+  "object": "chat.completion",
+  "created": 1792571721,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-f738483b0784f268455be8179b910a3a\",\"status\":\"mapped\",\"target_category_id\":\"L02-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L02-04\",\"L02-03\"],\"title_evidence\":\"标题明确为“数据治理开发工程师”，核心职能是数据治理（数据标准、质量、元数据、数据资产），同时含开发属性\",\"level_3_evidence\":null,\"reason\":\"“数据治理”直接对应 L02-04 数据治理与数据管理（数据标准、主数据、质量、元数据与数据资产管理），该二级无三级细分，故目标为 L02-04；虽含“开发”字样，但治理职能为主，不归数据平台开发 L02-03。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16934,
+    "completion_tokens": 184,
+    "total_tokens": 17118,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 294
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

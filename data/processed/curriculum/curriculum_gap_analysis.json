@@ -1,0 +1,996 @@
+{
+  "provenance": {
+    "source_mapping": "data/processed/curriculum/market_curriculum_mapping.json",
+    "api_calls": 0,
+    "analysis_type": "deterministic structural curriculum gap candidate selection",
+    "interpretation_boundary": "not_observed means no frozen curriculum-text evidence was observed; it is not confirmation of curriculum absence."
+  },
+  "input_mapping_entries": 2727,
+  "relevance_tested_candidate_count_before_final_cap": 995,
+  "priority_counts": {
+    "high": 19,
+    "medium": 976
+  },
+  "final_actionable_candidates": [
+    {
+      "normalized_skill": "软件开发",
+      "skill_type": "hard",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 385,
+      "curriculum_status": "not_observed",
+      "program_relevance": "high",
+      "priority": "high",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 54,
+        "representative_job_group_ids": [
+          "JG2-9c1fa55e314b5ce5",
+          "JG2-515971026fd212b2",
+          "JG2-b94238d79f707e02",
+          "JG2-129a7a7ae8cbb180",
+          "JG2-c8b6c1f57826acbd",
+          "JG2-8513a60e7f348ae2",
+          "JG2-64ba1e5b54bfec37",
+          "JG2-f9abf8f22e597d25",
+          "JG2-fbc92a5738ec2308",
+          "JG2-3471d55c89e4da30",
+          "JG2-58f049baa3bd4f8c",
+          "JG2-9a5b6955c606fd01",
+          "JG2-bb726514d1021a45",
+          "JG2-010aa0bcbc22242d",
+          "JG2-b0a45f5d02f593b9",
+          "JG2-62eb635d2b4f2d44",
+          "JG2-f2be6e7087ae272c",
+          "JG2-fa8ef14b8f21a234",
+          "JG2-1cad24292949d706",
+          "JG2-18bbf67399b0cdee"
+        ],
+        "representative_domains": [
+          "l1:信息技术与数字产业",
+          "l1:电子信息与通信产业",
+          "raw:科技",
+          "raw:国企",
+          "l1:金融与金融科技"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "program_keyword_relevance",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "网络安全与隐私保护",
+      "skill_type": "hard",
+      "skill_scope": "domain_specific",
+      "market_demand_weight": 251,
+      "curriculum_status": "not_observed",
+      "program_relevance": "high",
+      "priority": "high",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 18,
+        "representative_job_group_ids": [
+          "JG2-9c1fa55e314b5ce5",
+          "JG2-a7bd96a8a891cfc4",
+          "JG2-515971026fd212b2",
+          "JG2-b94238d79f707e02",
+          "JG2-129a7a7ae8cbb180",
+          "JG2-c8b6c1f57826acbd",
+          "JG2-2d613073f735044a",
+          "JG2-da3f3c00e8908b65",
+          "JG2-e644ca759eed2990",
+          "JG2-fbc92a5738ec2308",
+          "JG2-58f049baa3bd4f8c",
+          "JG2-2f4bfd150d0974e6",
+          "JG2-62eb635d2b4f2d44",
+          "JG2-f9db8499739f0da2",
+          "JG2-fa8ef14b8f21a234",
+          "JG2-3607a92a16a42840",
+          "JG2-39c6df9486a2e036",
+          "JG2-c4fc7dd9f5c17683"
+        ],
+        "representative_domains": [
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "domain_specific",
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "program_keyword_relevance",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "数据分析",
+      "skill_type": "hard",
+      "skill_scope": "domain_specific",
+      "market_demand_weight": 203,
+      "curriculum_status": "not_observed",
+      "program_relevance": "high",
+      "priority": "high",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 51,
+        "representative_job_group_ids": [
+          "JG2-649aee4463df48a8",
+          "JG2-70da0f8d95ae8984",
+          "JG2-0df99ba69d815c60",
+          "JG2-2f4bfd150d0974e6",
+          "JG2-7864b5aaa6e7d81a",
+          "JG2-676d18fccb5ea219",
+          "JG2-94c748a5b8ff22d1",
+          "JG2-ac60fa95dde1ebdf",
+          "JG2-18bbf67399b0cdee",
+          "JG2-88bfc6d69f8f4787",
+          "JG2-03c0fc11c4f234ce",
+          "JG2-68997b9b7707e215",
+          "JG2-105b4ee75a5921c2",
+          "JG2-4035d2ed976a11e0",
+          "JG2-4336172b712de260",
+          "JG2-6320cbf2f056bd49",
+          "JG2-8ea0c6eac316d4f3",
+          "JG2-8f8a4db97a4c8228",
+          "JG2-ab8e5aff8b436c36",
+          "JG2-fe1953a8a7241985"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业",
+          "raw:国企",
+          "raw:科技"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "domain_specific",
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "program_keyword_relevance",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "算法设计与优化",
+      "skill_type": "hard",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 142,
+      "curriculum_status": "not_observed",
+      "program_relevance": "high",
+      "priority": "high",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 11,
+        "representative_job_group_ids": [
+          "JG2-9f8eb045334dace3",
+          "JG2-a7bd96a8a891cfc4",
+          "JG2-8de3d38be8aa2734",
+          "JG2-c8b6c1f57826acbd",
+          "JG2-58f049baa3bd4f8c",
+          "JG2-62abce1e15c831dd",
+          "JG2-99aac21d3b9c03ff",
+          "JG2-2562f8a1f99f7178",
+          "JG2-2db756066fd82423",
+          "JG2-80756482cd225527",
+          "JG2-928e6e6041d41b19"
+        ],
+        "representative_domains": [
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业",
+          "raw:科技",
+          "l1:金融与金融科技",
+          "raw:信息数据"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "program_keyword_relevance",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "嵌入式系统开发",
+      "skill_type": "hard",
+      "skill_scope": "domain_specific",
+      "market_demand_weight": 100,
+      "curriculum_status": "not_observed",
+      "program_relevance": "high",
+      "priority": "high",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 22,
+        "representative_job_group_ids": [
+          "JG2-f9abf8f22e597d25",
+          "JG2-7ad23c82502b4836",
+          "JG2-b1affb353aaed046",
+          "JG2-89e834f80ce78924",
+          "JG2-08a4bdf168b0be9a",
+          "JG2-1be5ab3f289e2dfb",
+          "JG2-29517183312acfd9",
+          "JG2-20c7deaf86c9062b",
+          "JG2-4ddf1fe5ffc9bc75",
+          "JG2-3863f7f8c47e1190",
+          "JG2-5c0530e0507a3246",
+          "JG2-04ebcf3b62ada060",
+          "JG2-39bb23004cda5eae",
+          "JG2-7571a39f6a7adb87",
+          "JG2-82dbfd4361003786",
+          "JG2-cca9429427dead5d",
+          "JG2-cdd1ccf11d3e7b22",
+          "JG2-055ea25771c5f22a",
+          "JG2-38ae7fea0fe9762d",
+          "JG2-5a8a2fe30366637e"
+        ],
+        "representative_domains": [
+          "raw:科技",
+          "l1:信息技术与数字产业",
+          "l1:电子信息与通信产业",
+          "raw:其他,科技",
+          "raw:国企"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "domain_specific",
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "program_keyword_relevance",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "AI模型开发",
+      "skill_type": "hard",
+      "skill_scope": "domain_specific",
+      "market_demand_weight": 100,
+      "curriculum_status": "not_observed",
+      "program_relevance": "high",
+      "priority": "high",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 7,
+        "representative_job_group_ids": [
+          "JG2-9c1fa55e314b5ce5",
+          "JG2-b94238d79f707e02",
+          "JG2-249729682184e92a",
+          "JG2-da3f3c00e8908b65",
+          "JG2-62eb635d2b4f2d44",
+          "JG2-3b9711a3599b70e0",
+          "JG2-39c6df9486a2e036"
+        ],
+        "representative_domains": [
+          "l1:信息技术与数字产业",
+          "l1:电子信息与通信产业",
+          "raw:信息数据"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "domain_specific",
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "program_keyword_relevance",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "软件测试",
+      "skill_type": "hard",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 97,
+      "curriculum_status": "not_observed",
+      "program_relevance": "high",
+      "priority": "high",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 18,
+        "representative_job_group_ids": [
+          "JG2-3a8be819fb5593d2",
+          "JG2-d3609ea8f58c255b",
+          "JG2-f369fb4eb492c19b",
+          "JG2-b5514ddf132c6608",
+          "JG2-0ece4c8c1ff145f2",
+          "JG2-16b569d82b5921b4",
+          "JG2-40a996e8d614570d",
+          "JG2-a997c19d9bb74b7c",
+          "JG2-f870dcf65bd3291e",
+          "JG2-ca6ba47143116d0d",
+          "JG2-d9157661ac674c8a",
+          "JG2-14dfa9a11d2d9068",
+          "JG2-4ef83b1bd5d5ef63",
+          "JG2-ada0dbb8dcaeb2d1",
+          "JG2-bb32e27ade3352d1",
+          "JG2-e3c3eff30d5c66a1",
+          "JG2-08593ba5a33673f3",
+          "JG2-53f0b1eee0b3a6f7"
+        ],
+        "representative_domains": [
+          "raw:科技",
+          "l1:信息技术与数字产业",
+          "raw:国企",
+          "l1:电子信息与通信产业",
+          "raw:事业单位"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "program_keyword_relevance",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "算法设计与优化",
+      "skill_type": "hard",
+      "skill_scope": "domain_specific",
+      "market_demand_weight": 96,
+      "curriculum_status": "not_observed",
+      "program_relevance": "high",
+      "priority": "high",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 9,
+        "representative_job_group_ids": [
+          "JG2-b94238d79f707e02",
+          "JG2-249729682184e92a",
+          "JG2-da3f3c00e8908b65",
+          "JG2-e644ca759eed2990",
+          "JG2-9a5b6955c606fd01",
+          "JG2-2f4bfd150d0974e6",
+          "JG2-62eb635d2b4f2d44",
+          "JG2-39c6df9486a2e036",
+          "JG2-6c6829511f460ed4"
+        ],
+        "representative_domains": [
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业",
+          "raw:智能硬件机器人"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "domain_specific",
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "program_keyword_relevance",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "软件开发",
+      "skill_type": "hard",
+      "skill_scope": "domain_specific",
+      "market_demand_weight": 88,
+      "curriculum_status": "not_observed",
+      "program_relevance": "high",
+      "priority": "high",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 17,
+        "representative_job_group_ids": [
+          "JG2-db98606f1e07cfdf",
+          "JG2-da3f3c00e8908b65",
+          "JG2-2be160f656882e78",
+          "JG2-2f4bfd150d0974e6",
+          "JG2-6fa0b26052d191ab",
+          "JG2-ba082e77b735744d",
+          "JG2-196992a05e212104",
+          "JG2-9e06a05f951afed9",
+          "JG2-fea7ad7d586ec965",
+          "JG2-0512b9b48f63fc42",
+          "JG2-928e6e6041d41b19",
+          "JG2-dcc1031e5e8ec3ea",
+          "JG2-441b1f77d509edb0",
+          "JG2-7d884744509b4e9e",
+          "JG2-cfca11df399365a0",
+          "JG2-d9478709286a3cd6",
+          "JG2-fde6021ba76184ea"
+        ],
+        "representative_domains": [
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业",
+          "raw:科技",
+          "raw:国企",
+          "raw:数码产品"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "domain_specific",
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "program_keyword_relevance",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "数据分析与处理",
+      "skill_type": "hard",
+      "skill_scope": "domain_specific",
+      "market_demand_weight": 83,
+      "curriculum_status": "not_observed",
+      "program_relevance": "high",
+      "priority": "high",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 4,
+        "representative_job_group_ids": [
+          "JG2-9f8eb045334dace3",
+          "JG2-8de3d38be8aa2734",
+          "JG2-83e0df86395b72cf",
+          "JG2-35b90f6416a97069"
+        ],
+        "representative_domains": [
+          "l1:信息技术与数字产业",
+          "raw:科技",
+          "l1:金融与金融科技",
+          "l1:电子信息与通信产业"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "domain_specific",
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "program_keyword_relevance",
+        "relevant_domain"
+      ]
+    },
+    {
+      "normalized_skill": "问题解决",
+      "skill_type": "soft",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 1151,
+      "curriculum_status": "not_observed",
+      "program_relevance": "medium",
+      "priority": "medium",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 244,
+        "representative_job_group_ids": [
+          "JG2-b94238d79f707e02",
+          "JG2-6421bc59aa9444ca",
+          "JG2-8de3d38be8aa2734",
+          "JG2-3d700d9abeb667b0",
+          "JG2-4c95e9164a79bee1",
+          "JG2-6669d3cad5a63bcd",
+          "JG2-25cfb0d39c447230",
+          "JG2-4a31cf68b4708ea9",
+          "JG2-7502f997eb08ca4f",
+          "JG2-ac0603b707dc3a88",
+          "JG2-ac3a721af1f14907",
+          "JG2-ca5ce9aa64d0f65c",
+          "JG2-114d7cb3d8b8fd31",
+          "JG2-333d8b6117e6e605",
+          "JG2-653620e19d61c3cf",
+          "JG2-91a8241bb53dcba2",
+          "JG2-b9a2aadccaccc2c8",
+          "JG2-f9abf8f22e597d25",
+          "JG2-0a4a1cb67d4552ce",
+          "JG2-70da0f8d95ae8984"
+        ],
+        "representative_domains": [
+          "raw:科技",
+          "l1:电子信息与通信产业",
+          "l1:信息技术与数字产业",
+          "l1:金融与金融科技",
+          "raw:国企"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "沟通能力",
+      "skill_type": "soft",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 368,
+      "curriculum_status": "not_observed",
+      "program_relevance": "medium",
+      "priority": "medium",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 61,
+        "representative_job_group_ids": [
+          "JG2-6ac667674719b9d3",
+          "JG2-f9ba2c4fd86ab926",
+          "JG2-cd8d9e5763ec3c3a",
+          "JG2-c9c0ad50915f6a42",
+          "JG2-3d700d9abeb667b0",
+          "JG2-83e0df86395b72cf",
+          "JG2-70da0f8d95ae8984",
+          "JG2-06ca70e4a082380f",
+          "JG2-4f4c41c7f0b3ab92",
+          "JG2-69843a6ea9aafc82",
+          "JG2-6d504e76c3b45c9d",
+          "JG2-7864b5aaa6e7d81a",
+          "JG2-ad57c5f7f1aacb02",
+          "JG2-c77399b93e4646bc",
+          "JG2-053bdbd5328d388f",
+          "JG2-1be5ab3f289e2dfb",
+          "JG2-72ceae519e87aa78",
+          "JG2-829ad1fe1f6590ae",
+          "JG2-839f7c5025b7b156",
+          "JG2-cd02ce1660b6b115"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "raw:事业单位",
+          "raw:国企",
+          "l1:信息技术与数字产业",
+          "l1:新能源与能源产业"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "沟通协调能力",
+      "skill_type": "soft",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 352,
+      "curriculum_status": "not_observed",
+      "program_relevance": "medium",
+      "priority": "medium",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 74,
+        "representative_job_group_ids": [
+          "JG2-3ac538b0ed6989a5",
+          "JG2-d3609ea8f58c255b",
+          "JG2-f369fb4eb492c19b",
+          "JG2-dc7ea0e6e7d04a12",
+          "JG2-41143b5095eeaa91",
+          "JG2-8a3400342a1cbb99",
+          "JG2-70929d5accdf1dcc",
+          "JG2-18a3294137628dc0",
+          "JG2-be87db7a44f66472",
+          "JG2-5d082f12f7671e21",
+          "JG2-ffaa5599b87926d8",
+          "JG2-dcf6e6694a878fb1",
+          "JG2-de53c4b493a0f799",
+          "JG2-efcb8ec7ff4d381f",
+          "JG2-88bfc6d69f8f4787",
+          "JG2-d8ba9007dd3977b7",
+          "JG2-e835b060e5535366",
+          "JG2-03c0fc11c4f234ce",
+          "JG2-0ece4c8c1ff145f2",
+          "JG2-10b73f04efa91aa3"
+        ],
+        "representative_domains": [
+          "raw:国企",
+          "l1:金融与金融科技",
+          "raw:科技",
+          "l1:信息技术与数字产业",
+          "l1:电子信息与通信产业"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "Communication Skills",
+      "skill_type": "soft",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 303,
+      "curriculum_status": "not_observed",
+      "program_relevance": "medium",
+      "priority": "medium",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 65,
+        "representative_job_group_ids": [
+          "JG2-812565c012b3d547",
+          "JG2-25a47ecffa18e507",
+          "JG2-f9e6495f0eb1ba76",
+          "JG2-ac0603b707dc3a88",
+          "JG2-114d7cb3d8b8fd31",
+          "JG2-9ab068ab79515214",
+          "JG2-2e57896a5d4d240a",
+          "JG2-cd571c9d59101857",
+          "JG2-f9382972111b786c",
+          "JG2-13ac587b182b065f",
+          "JG2-514a19b6f84cc12d",
+          "JG2-d35ec40ba88f0665",
+          "JG2-0addc487fd701f8f",
+          "JG2-230ba8b7457031b2",
+          "JG2-24309e18e15ac071",
+          "JG2-4654601c6232434b",
+          "JG2-ad77e45fc29a8421",
+          "JG2-b4cc75ce660908ca",
+          "JG2-0fdb28654ed0100a",
+          "JG2-2d7caa63ddc1661f"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "raw:事业单位",
+          "l1:电子信息与通信产业",
+          "l1:教育与人力资本",
+          "raw:科技"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "项目管理",
+      "skill_type": "soft",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 242,
+      "curriculum_status": "not_observed",
+      "program_relevance": "medium",
+      "priority": "medium",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 50,
+        "representative_job_group_ids": [
+          "JG2-4c95e9164a79bee1",
+          "JG2-3f7904a687ab3816",
+          "JG2-80926f8c81c1303b",
+          "JG2-649aee4463df48a8",
+          "JG2-e34c692480c1dddc",
+          "JG2-0df99ba69d815c60",
+          "JG2-19017177ded06f52",
+          "JG2-e27ec76446abb6c3",
+          "JG2-9b84cc7ed1441e7b",
+          "JG2-676d18fccb5ea219",
+          "JG2-86f5bd14f09d8d80",
+          "JG2-54d0f91e29ca5376",
+          "JG2-839f7c5025b7b156",
+          "JG2-3bb7a98a6529a36d",
+          "JG2-4ddf1fe5ffc9bc75",
+          "JG2-68a1f807ceeb32c1",
+          "JG2-dce85ad8dfcd920d",
+          "JG2-4847aa5ab9bc145b",
+          "JG2-49908feace8b63c8",
+          "JG2-5082702a6cf48e2a"
+        ],
+        "representative_domains": [
+          "raw:科技",
+          "raw:国企",
+          "l1:电子信息与通信产业",
+          "l1:智能制造与工业",
+          "l1:信息技术与数字产业"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "跨部门协作",
+      "skill_type": "soft",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 193,
+      "curriculum_status": "not_observed",
+      "program_relevance": "medium",
+      "priority": "medium",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 43,
+        "representative_job_group_ids": [
+          "JG2-3173f8ac038e59a2",
+          "JG2-e34c692480c1dddc",
+          "JG2-0df99ba69d815c60",
+          "JG2-ab4d43128176b9b7",
+          "JG2-b8b1a6403785e28a",
+          "JG2-226185c56846863f",
+          "JG2-01805d2feb9c0f04",
+          "JG2-4a09e48efd347ae2",
+          "JG2-65e486abbb189651",
+          "JG2-a8a966035300e726",
+          "JG2-f5fd9d42b580b0a2",
+          "JG2-230ba8b7457031b2",
+          "JG2-256430f478439211",
+          "JG2-2ee88730b7a2ea33",
+          "JG2-fd43106e2b42592f",
+          "JG2-27781c0d4e5376cf",
+          "JG2-49908feace8b63c8",
+          "JG2-6525bdf7236fcc6a",
+          "JG2-be32087fcae67779",
+          "JG2-f0f48cb452782d1d"
+        ],
+        "representative_domains": [
+          "l1:电子信息与通信产业",
+          "l1:金融与金融科技",
+          "l1:信息技术与数字产业",
+          "raw:其他",
+          "l1:智能制造与工业"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "Attention to Detail",
+      "skill_type": "soft",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 160,
+      "curriculum_status": "not_observed",
+      "program_relevance": "medium",
+      "priority": "medium",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 33,
+        "representative_job_group_ids": [
+          "JG2-812565c012b3d547",
+          "JG2-25a47ecffa18e507",
+          "JG2-ac0603b707dc3a88",
+          "JG2-114d7cb3d8b8fd31",
+          "JG2-71ec3f0b830fac34",
+          "JG2-4d47c3991efc7c5b",
+          "JG2-f37e9412061a64b1",
+          "JG2-94d278cd530a0c53",
+          "JG2-d1517a8cce8bc9c5",
+          "JG2-0f03a040be799d22",
+          "JG2-6eaaa7f2d6ce924e",
+          "JG2-0fb97fda99d55140",
+          "JG2-330e86858485a46a",
+          "JG2-3461e156b7640814",
+          "JG2-37b62d0311a6c434",
+          "JG2-3f953b4b1905bab9",
+          "JG2-5284d2cd37bcfe62",
+          "JG2-549b4b070c770098",
+          "JG2-6a74f22fc57895fc",
+          "JG2-9942d8bd18a4016e"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "raw:国企",
+          "raw:科技",
+          "l1:电子信息与通信产业",
+          "l1:建筑与房地产"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "跨部门沟通协调",
+      "skill_type": "soft",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 158,
+      "curriculum_status": "not_observed",
+      "program_relevance": "medium",
+      "priority": "medium",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 33,
+        "representative_job_group_ids": [
+          "JG2-a23785ca8fa78e6b",
+          "JG2-5d98c1dbae8d5e22",
+          "JG2-19017177ded06f52",
+          "JG2-7ad23c82502b4836",
+          "JG2-7f6f51e1ff255f6e",
+          "JG2-10aa905f1d7b6cd0",
+          "JG2-2117fffcb81a043e",
+          "JG2-94c748a5b8ff22d1",
+          "JG2-b2a8d6a9a07c0d9e",
+          "JG2-0fd9668ebe70f6d3",
+          "JG2-f8a01400cc6a52e9",
+          "JG2-3bb7a98a6529a36d",
+          "JG2-9e22a143a674388f",
+          "JG2-fb6207514c155ba1",
+          "JG2-bc875235fe49198c",
+          "JG2-fd6b9e48dfd3d616",
+          "JG2-11603c6bbcc261c6",
+          "JG2-464a9a4e5932cead",
+          "JG2-7575d763d2733ea5",
+          "JG2-8120e0b2535bfb8e"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "raw:科技",
+          "l1:信息技术与数字产业",
+          "raw:国企",
+          "l1:电子信息与通信产业"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "金融产品知识",
+      "skill_type": "hard",
+      "skill_scope": "domain_specific",
+      "market_demand_weight": 156,
+      "curriculum_status": "not_observed",
+      "program_relevance": "medium",
+      "priority": "medium",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 12,
+        "representative_job_group_ids": [
+          "JG2-6ac667674719b9d3",
+          "JG2-f9ba2c4fd86ab926",
+          "JG2-cd8d9e5763ec3c3a",
+          "JG2-c9c0ad50915f6a42",
+          "JG2-baa613f8119eb08d",
+          "JG2-5d082f12f7671e21",
+          "JG2-e835b060e5535366",
+          "JG2-26f33af5c7945467",
+          "JG2-cf468479ad8900be",
+          "JG2-72373adb10a2a066",
+          "JG2-7caf9213848d6950",
+          "JG2-39cab8106f1ae692"
+        ],
+        "representative_domains": [
+          "l1:金融与金融科技",
+          "l1:智能制造与工业"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "domain_specific",
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    },
+    {
+      "normalized_skill": "跨团队协作",
+      "skill_type": "soft",
+      "skill_scope": "occupation_core",
+      "market_demand_weight": 146,
+      "curriculum_status": "not_observed",
+      "program_relevance": "medium",
+      "priority": "medium",
+      "market_evidence_summary": {
+        "supporting_job_group_count": 26,
+        "representative_job_group_ids": [
+          "JG2-a7bd96a8a891cfc4",
+          "JG2-249729682184e92a",
+          "JG2-64ba1e5b54bfec37",
+          "JG2-61657789a343df46",
+          "JG2-62eb635d2b4f2d44",
+          "JG2-fa8ef14b8f21a234",
+          "JG2-66cae5f1c9bd1352",
+          "JG2-3b9711a3599b70e0",
+          "JG2-69d6b55a4f30fc91",
+          "JG2-9d8183cbc82cdda4",
+          "JG2-3e0fd2052404c550",
+          "JG2-541623830776334b",
+          "JG2-a742ea324848cd52",
+          "JG2-07f4c0fe79b47aa0",
+          "JG2-2149a14ab2b271b7",
+          "JG2-5e844e757999bb24",
+          "JG2-6d0628b0131d7e3e",
+          "JG2-81499fda63f1eec3",
+          "JG2-a0f9fb44f80a970b",
+          "JG2-01b5873a99afea34"
+        ],
+        "representative_domains": [
+          "l1:信息技术与数字产业",
+          "l1:电子信息与通信产业",
+          "raw:科技",
+          "l1:新能源与能源产业",
+          "raw:游戏"
+        ]
+      },
+      "curriculum_evidence_summary": {
+        "evidence_count": 0,
+        "evidence": []
+      },
+      "reason_codes": [
+        "high_market_demand",
+        "not_observed_in_curriculum",
+        "occupation_core",
+        "relevant_domain",
+        "strong_recruitment_evidence"
+      ]
+    }
+  ],
+  "final_cap": {
+    "high": 10,
+    "medium": 10,
+    "selected_high": 10,
+    "selected_medium": 10
+  }
+}

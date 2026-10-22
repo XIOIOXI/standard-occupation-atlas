@@ -1,0 +1,28 @@
+{
+  "id": "bb65b45e-6c6b-414e-98c2-f398f5c58c92",
+  "object": "chat.completion",
+  "created": 1791880462,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-8a71902ecdd87983d6c6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ffa5b6e13d8ea1a1de86\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"巡检员未说明行业与对象，能源运行与调度证据不足，建议review\"},{\"occupation_id\":\"TG-f0947d368b70d02363bd\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-63c0d8c31928f5d59048\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-fade1c378c5743a44a86\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-f02080963af8f12396c6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-b3a26b683e69daccb5b9\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-3d4e2e8044c6fec0a26e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-ddc7bed7a17f0fbb9c9f\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-bcae5fb01408235f767d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d328e62f07a21fd98d9b\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-98f55adfc8b486388bf5\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-45d4921359262d5d4746\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-0c9e296105c5c2e75443\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-203e4c0f723a85943b76\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-fd9262fa3188c46e983c\",\"verdict\":\"unresolved\",\"suggested_target_category_id\":null,\"issue\":\"新能源业务岗未说明技术或业务方向，无法确认属能源技术还是业务拓展，建议review\"},{\"occupation_id\":\"TG-d82c6660ab938bb85c83\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-68f478183f936a194ac0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-d48d2813c9158dab9ac6\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null},{\"occupation_id\":\"TG-aef7c52fd47c659a9885\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":null}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 19850,
+    "completion_tokens": 784,
+    "total_tokens": 20634,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3338
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

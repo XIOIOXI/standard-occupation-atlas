@@ -1,0 +1,28 @@
+{
+  "id": "51b8b0d6-ec03-4a68-ab5a-85ebd5533e78",
+  "object": "chat.completion",
+  "created": 1792571923,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"results\":[{\"occupation_id\":\"UP-b5a8f6fcb9f3d15d2c587fdbb9ba5b38\",\"status\":\"mapped\",\"target_category_id\":\"L06-08\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L06-08\",\"L05-02\"],\"title_evidence\":\"封装工程师：半导体封装属于芯片制造后道工艺，涉及封装工艺开发与制程\",\"level_3_evidence\":null,\"reason\":\"封装工程师在半导体行业通常负责封装工艺/制程开发与优化，属于制造工艺工程范畴，归 L06-08 工艺与制造工程（level_2）。虽与芯片相关，但非芯片设计（L05-02），故不选三级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16960,
+    "completion_tokens": 170,
+    "total_tokens": 17130,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 320
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

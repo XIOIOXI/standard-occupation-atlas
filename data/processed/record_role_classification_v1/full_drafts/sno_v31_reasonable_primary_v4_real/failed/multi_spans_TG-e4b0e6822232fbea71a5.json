@@ -1,0 +1,24 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-e4b0e6822232fbea71a5",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-e4b0e6822232fbea71a5",
+    "case": "A",
+    "child_titles": [
+      "住院医师",
+      "护理应届生",
+      "技师",
+      "物理师"
+    ],
+    "source_spans": [
+      {
+        "text": "住院医师护理应届生技师 物理师",
+        "start": 0,
+        "end": 14
+      }
+    ],
+    "reason": "标题由多个独立岗位名称拼接，可拆分。"
+  }
+}

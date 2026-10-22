@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-0e6a4a8d59eef0b905ebb3277a1eb6e3",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L11-06",
+        "L11-03",
+        "L11-02"
+      ],
+      "title_evidence": "产业发展部办事员：部门为产业发展部，岗位为办事员，未说明具体职责",
+      "level_3_evidence": null,
+      "reason": "“产业发展部”指向产业规划/投资发展类职能，但“办事员”为泛化事务岗，无法确定是产业投资拓展、经营分析还是战略规划，故列候选待确认。"
+    },
+    {
+      "occupation_id": "UP-e013e0d9fe564d4b2c4c4d4faca82acd",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L26-01",
+        "L26-03",
+        "L26-07",
+        "L26-08"
+      ],
+      "title_evidence": "技术员：仅“技术员”，无专业方向；公司行业为农林牧渔",
+      "level_3_evidence": null,
+      "reason": "“技术员”为泛化技术岗，虽公司属农林牧渔，但无法区分种植、养殖、农机或通用农业技术方向，故列候选待确认。"
+    }
+  ],
+  "raw_response_file": "000002.raw.json",
+  "usage": {
+    "input_tokens": 17179,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 539,
+    "output_tokens": 297,
+    "reasoning_tokens": 0,
+    "total_tokens": 17476
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00030897
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

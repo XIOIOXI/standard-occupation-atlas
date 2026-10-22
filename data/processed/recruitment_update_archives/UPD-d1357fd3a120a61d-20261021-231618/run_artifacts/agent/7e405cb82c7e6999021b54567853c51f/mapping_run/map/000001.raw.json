@@ -1,0 +1,28 @@
+{
+  "id": "1928258f-652b-4c2c-8b52-c46ef6fa6be1",
+  "object": "chat.completion",
+  "created": 1792571911,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-7e405cb82c7e6999021b54567853c51f\",\"status\":\"mapped\",\"target_category_id\":\"L23-01\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L23-01\",\"L16-03\",\"L04-03\"],\"title_evidence\":\"量产产品生产管控工程师：量产产品生产管控，涉及生产现场与量产管控\",\"level_3_evidence\":null,\"reason\":\"标题明确为量产产品生产管控，核心职责为量产阶段生产现场管控与生产管理，归生产计划与现场管理（L23-01）；非需求物料计划（L16-03）或质量工程（L04-03）。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16958,
+    "completion_tokens": 158,
+    "total_tokens": 17116,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 318
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

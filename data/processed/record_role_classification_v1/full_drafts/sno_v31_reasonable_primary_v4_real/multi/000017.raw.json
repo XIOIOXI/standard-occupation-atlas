@@ -1,0 +1,28 @@
+{
+  "id": "df5d974d-a0fd-499d-adb9-3f9985a4ff82",
+  "object": "chat.completion",
+  "created": 1791883658,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"original_record_id\":\"TG-79fb7fbfde9dd6a07853\",\"case\":\"D\",\"child_titles\":[],\"source_spans\":[],\"reason\":\"标题为单一岗位名称，无拆分依据。\"},{\"original_record_id\":\"TG-2caa1b5aa9826ad81121\",\"case\":\"D\",\"child_titles\":[],\"source_spans\":[],\"reason\":\"标题为单一岗位名称，无拆分依据。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 167,
+    "completion_tokens": 101,
+    "total_tokens": 268,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 167
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

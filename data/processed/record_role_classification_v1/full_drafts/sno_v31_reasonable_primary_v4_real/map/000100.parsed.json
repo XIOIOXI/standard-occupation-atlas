@@ -1,0 +1,242 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-893d2f27f2460451ef04",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-02",
+        "L06-09",
+        "L01-11"
+      ],
+      "title_evidence": "岗研发储备岗",
+      "level_3_evidence": null,
+      "reason": "标题含“研发储备”，但未说明具体研发方向（软件、机械、电子等），无法确定唯一职能，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-d9fff8f91dc6e509912d",
+      "status": "mapped",
+      "target_category_id": "L06-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "机械设计员",
+      "level_3_evidence": null,
+      "reason": "标题明确为机械设计，属于机械与结构设计，无进一步细分证据，归 L06-01。"
+    },
+    {
+      "occupation_id": "TG-d938cfb46c086f6dc354",
+      "status": "mapped",
+      "target_category_id": "L02-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "AI算法开发培训生",
+      "level_3_evidence": null,
+      "reason": "标题明确为AI算法开发，属于机器学习与算法研发，培训生为培养标签，不改变职能归属。"
+    },
+    {
+      "occupation_id": "TG-2dd58d396798a4bc8643",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L05-07",
+        "L06-09",
+        "L01-11",
+        "L07-05"
+      ],
+      "title_evidence": "助理工程师（专业要求：物理学、光学工程、核科学与技术、电气工程、电子科学与技术、机械工程、仪器科学与技术、控制科学与工程、信息与通信工程、计算机科学与技术、动力工程及工程热......",
+      "level_3_evidence": null,
+      "reason": "标题仅“助理工程师”，专业要求覆盖多个工程领域，无法确定具体职能方向，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-5ea1be4c6e9a4ef7eca9",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "模板工艺工程师(机电类、自动化类、智能制造等相关专业)",
+      "level_3_evidence": null,
+      "reason": "标题明确为模板工艺工程师，属于工艺与制造工程，无进一步细分证据，归 L06-08。"
+    },
+    {
+      "occupation_id": "TG-a9b3d416b73c891f5f64",
+      "status": "mapped",
+      "target_category_id": "L04-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "光学检测技术岗",
+      "level_3_evidence": null,
+      "reason": "标题明确为光学检测技术，属于检验检测与实验分析，无进一步细分证据，归 L04-04。"
+    },
+    {
+      "occupation_id": "TG-644defbfe562f06af8aa",
+      "status": "mapped",
+      "target_category_id": "L01-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "云服务器开发工程师 (Java)",
+      "level_3_evidence": null,
+      "reason": "标题明确为云服务器开发，属于后端开发，Java为语言标签，无进一步细分证据，归 L01-02。"
+    },
+    {
+      "occupation_id": "TG-17088da82b7984702f45",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "客户经理(小语种)",
+      "level_3_evidence": null,
+      "reason": "客户经理通常为企业客户销售，小语种为语言标签，无进一步细分证据，归 L13-01。"
+    },
+    {
+      "occupation_id": "TG-584833899a0d0b2804ad",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-08",
+        "L23-10",
+        "L04-02"
+      ],
+      "title_evidence": "海外PE工程师",
+      "level_3_evidence": null,
+      "reason": "PE可指工艺工程师或产品工程师，海外为地点标签，具体职能方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-96a9739164dfb939c5cd",
+      "status": "mapped",
+      "target_category_id": "L01-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "技术经理(JAVA方向)",
+      "level_3_evidence": null,
+      "reason": "技术经理（JAVA方向）通常承担软件架构与技术管理职责，归软件架构 L01-09。"
+    },
+    {
+      "occupation_id": "TG-a7d8e1f1690cd0c401fc",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "KOL运营",
+      "level_3_evidence": null,
+      "reason": "KOL运营属于内容与新媒体运营，归 L14-03。"
+    },
+    {
+      "occupation_id": "TG-b7e9b2bf6302b74880ce",
+      "status": "mapped",
+      "target_category_id": "L01-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "嵌入式1inux软件工程师",
+      "level_3_evidence": null,
+      "reason": "标题明确为嵌入式Linux软件工程师，属于嵌入式与固件开发，无进一步细分证据，归 L01-06。"
+    },
+    {
+      "occupation_id": "TG-b3f6b8f380ed873e75bb",
+      "status": "mapped",
+      "target_category_id": "L02-05-01",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "机器视觉工程师",
+      "level_3_evidence": "机器视觉工程师",
+      "reason": "机器视觉工程师直接对应计算机视觉，归 L02-05-01。"
+    },
+    {
+      "occupation_id": "TG-41330feef6ab07170049",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "客户经理（经济方向）",
+      "level_3_evidence": null,
+      "reason": "客户经理通常为企业客户销售，经济方向为专业标签，无进一步细分证据，归 L13-01。"
+    },
+    {
+      "occupation_id": "TG-958e33cf8ae98e7e19d0",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L16-01",
+        "L17-02",
+        "L23-09"
+      ],
+      "title_evidence": "物资设备岗",
+      "level_3_evidence": null,
+      "reason": "物资设备岗可能涉及采购、仓储或设备管理，具体职能方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-b7de5b4145f9b066548f",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "多职能队员",
+      "level_3_evidence": null,
+      "reason": "标题明确为多职能，无法归入单一职业类别。"
+    },
+    {
+      "occupation_id": "TG-d131a7fc4e0a4276270c",
+      "status": "mapped",
+      "target_category_id": "L23-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "主要职能：生产各工序的管理培训生",
+      "level_3_evidence": null,
+      "reason": "标题明确为生产各工序的管理培训生，属于生产计划与现场管理，归 L23-01。"
+    },
+    {
+      "occupation_id": "TG-4753a7adffa045dfd807",
+      "status": "mapped",
+      "target_category_id": "L05-02-03",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "开发工程师(DFT)",
+      "level_3_evidence": "DFT",
+      "reason": "DFT（可测试性设计）属于芯片设计验证，归 L05-02-03。"
+    },
+    {
+      "occupation_id": "TG-0d7aa03d18587b36ab1e",
+      "status": "mapped",
+      "target_category_id": "L10-01-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [],
+      "title_evidence": "政企信息化项目经理",
+      "level_3_evidence": "政企信息化项目经理",
+      "reason": "政企信息化项目经理直接对应信息化建设项目，归 L10-01-02。"
+    },
+    {
+      "occupation_id": "TG-682cfaea2a063483b41a",
+      "status": "mapped",
+      "target_category_id": "L02-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "大数据开发工程师（AI方向）",
+      "level_3_evidence": null,
+      "reason": "大数据开发工程师属于数据工程与数据平台开发，AI方向为方向标签，无进一步细分证据，归 L02-03。"
+    }
+  ],
+  "raw_response_file": "000100.raw.json",
+  "usage": {
+    "input_tokens": 17415,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 903,
+    "output_tokens": 2406,
+    "reasoning_tokens": 0,
+    "total_tokens": 19821
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0032571719999999996
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only"
+}

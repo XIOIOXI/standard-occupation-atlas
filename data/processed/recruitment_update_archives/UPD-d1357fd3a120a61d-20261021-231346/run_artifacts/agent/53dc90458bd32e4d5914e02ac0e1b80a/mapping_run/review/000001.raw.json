@@ -1,0 +1,28 @@
+{
+  "id": "e7e1eed1-bc5b-4225-869e-b7e35e9376e9",
+  "object": "chat.completion",
+  "created": 1792571936,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-53dc90458bd32e4d5914e02ac0e1b80a\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L04-03\",\"issue\":\"质量工程师在半导体制造企业归生产质量管理L04-03合理，标题未明确细分方向，停二级恰当。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17044,
+    "completion_tokens": 82,
+    "total_tokens": 17126,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 532
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 138,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "5ad73bb1-c800-4423-bd69-7a751eb33500",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751468,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25042,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1746,
+    "output_tokens": 3459,
+    "reasoning_tokens": 0,
+    "total_tokens": 28501
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002407188
+  },
+  "observed_at_utc": "2026-10-11T20:44:28.554462+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-ae87aa898dd7e64dce27",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "核心职责为幼儿园财务，属于会计/财务核算范畴。"
+    },
+    {
+      "occupation_id": "SNO-2c602572ea707d810b0b",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "综合培养生职责不明确，缺少具体业务方向信息。"
+    },
+    {
+      "occupation_id": "SNO-062766a5b54428e5c818",
+      "target_category_id": "销售/sales-management/sales-management-team",
+      "status": "mapped",
+      "reason": "销售管理专员属于销售团队管理或销售管理职能。"
+    },
+    {
+      "occupation_id": "SNO-c461ab942a340b9c8efe",
+      "target_category_id": "运营/客服/ops-service/service-frontline",
+      "status": "mapped",
+      "reason": "游戏公会客服属于一线客服与客户支持。"
+    },
+    {
+      "occupation_id": "SNO-7b7aa629d71f3d48cfb1",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "供应链管理工程师核心为供应链计划与协同。"
+    },
+    {
+      "occupation_id": "SNO-67a8a5bf61b8fc569e87",
+      "target_category_id": "房地产/建筑/estate-city/urban-planning-design",
+      "status": "mapped",
+      "reason": "城市更新属于城市设计与更新范畴。"
+    },
+    {
+      "occupation_id": "SNO-2a38ad56491659959ef7",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安全消防应急专员属于安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-7ef094a9deadaced55f7",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "燃油系统工程师属于汽车整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-669c3ce3e7e6ab682b1c",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "应用数学岗位职责不明确，缺少具体应用方向。"
+    },
+    {
+      "occupation_id": "SNO-cc482ece4c7f3292981f",
+      "target_category_id": "能源/环保/农业/energy-agriculture/agri-forestry-agriculture",
+      "status": "mapped",
+      "reason": "育种科研员属于农作物与农业技术。"
+    },
+    {
+      "occupation_id": "SNO-edf5f4a985c7a582f911",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-driving",
+      "status": "mapped",
+      "reason": "智能驾驶软件开发属于自动驾驶与智能交通算法。"
+    },
+    {
+      "occupation_id": "SNO-9b3e69e2ea55445f3e40",
+      "target_category_id": "咨询/翻译/法律/consult-other-language/other-translation-written",
+      "status": "mapped",
+      "reason": "葡萄牙语/匈牙利语翻译属于其他语种笔译与本地化。"
+    },
+    {
+      "occupation_id": "SNO-6c01974b9cbda5c14fba",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量储备工程师属于质量检验与过程控制。"
+    },
+    {
+      "occupation_id": "SNO-83ac0a9084d51862282e",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "国际市场管培生职责不明确，缺少具体业务方向。"
+    },
+    {
+      "occupation_id": "SNO-045821f6b8555293ed4e",
+      "target_category_id": "金融/financial-claims/claims-property",
+      "status": "mapped",
+      "reason": "理赔管培生属于保险理赔方向。"
+    },
+    {
+      "occupation_id": "SNO-f6226e134dd259afe221",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电子/FPGA工程师属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-b08a851ff877a65ca752",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "组合经理属于基金期货交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-8cea9d3396497e12d240",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "上车身开发属于汽车整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-4a0f574065d4bc70978b",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-support",
+      "status": "mapped",
+      "reason": "运维服务工程师属于技术支持与客户交付。"
+    },
+    {
+      "occupation_id": "SNO-ef61d186ab61a25cd924",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明显列出导演、编剧、编导、AI剪辑师、AI制作师等多个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-5a29a63d46a71b9a9759",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人力资源部外事助理属于员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-d07c5d0b9abcdd682866",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "移动端开发工程师属于移动端与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-9af043aee0e490a7b5c0",
+      "target_category_id": "运营/客服/ops-business/business-ops-growth",
+      "status": "mapped",
+      "reason": "业务策略属于业务增长与策略运营。"
+    },
+    {
+      "occupation_id": "SNO-fce4fb10a03c5202975f",
+      "target_category_id": "生产制造/manufacturing-chemical/chemical-process",
+      "status": "mapped",
+      "reason": "化工应用工程师属于化工工艺与生产。"
+    },
+    {
+      "occupation_id": "SNO-e427981d3a8c31f65303",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "总裁办助理(管培生方向)职责不明确，缺少具体业务方向。"
+    },
+    {
+      "occupation_id": "SNO-cdbc77488ec794dc364e",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "宁波分行培训生属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-e123fe22b88fd11df8a5",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "厂区技术岗位职责不明确，缺少具体技术方向。"
+    },
+    {
+      "occupation_id": "SNO-edf3e005feef1baa4b12",
+      "target_category_id": "运营/客服/ops-cross-border/cross-platform",
+      "status": "mapped",
+      "reason": "海外电商业务经理属于跨境平台运营。"
+    },
+    {
+      "occupation_id": "SNO-afa897f1a3fc59842420",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-geology",
+      "status": "mapped",
+      "reason": "盆地分析属于地质勘查与测绘。"
+    },
+    {
+      "occupation_id": "SNO-ee3b2e1d1a83ba8caae8",
+      "target_category_id": "互联网/AI/internet-data-development/data-application",
+      "status": "mapped",
+      "reason": "产品数据管理工程师属于数据应用与分析开发。"
+    },
+    {
+      "occupation_id": "SNO-0dad02134c7c447ce395",
+      "target_category_id": "运营/客服/ops-product/prodops-user",
+      "status": "mapped",
+      "reason": "用户运营实习属于用户与会员运营。"
+    },
+    {
+      "occupation_id": "SNO-57741e0148ed0a8d1b1f",
+      "target_category_id": "产品/product-game/game-production",
+      "status": "mapped",
+      "reason": "项目制作属于游戏制作与项目管理。"
+    },
+    {
+      "occupation_id": "SNO-1fe546919b5217500b54",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "生物教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-75ff2b41e86348a51514",
+      "target_category_id": "教育培训/edu-assistant/teaching-assistant-operation",
+      "status": "mapped",
+      "reason": "学习管理师属于课程运营与学员服务。"
+    },
+    {
+      "occupation_id": "SNO-c7cb96aa9c8b5f189fa0",
+      "target_category_id": "设计/design-art-3d-animation/art-3d",
+      "status": "mapped",
+      "reason": "游戏模型设计师属于三维建模与材质。"
+    },
+    {
+      "occupation_id": "SNO-f01932bfd657c1568128",
+      "target_category_id": "互联网/AI/internet-java/java-server",
+      "status": "mapped",
+      "reason": "研发培训生(Java后端)属于服务端与企业应用开发。"
+    },
+    {
+      "occupation_id": "SNO-9c2d196943352a89383e",
+      "target_category_id": "产品/product-internet/product-ai",
+      "status": "mapped",
+      "reason": "助理AI产品属于人工智能与数据产品。"
+    },
+    {
+      "occupation_id": "SNO-082737e041f0e27d51e5",
+      "target_category_id": "财务/审计/税务/finance-tax/tax-compliance",
+      "status": "mapped",
+      "reason": "税务管理属于税务申报与合规。"
+    },
+    {
+      "occupation_id": "SNO-1a16eb6624a66eea95b0",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "相干测试工程师属于功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-f1ca6d08f0323b049252",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "电子学设计师属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-5a7619a9c38b1f2c7886",
+      "target_category_id": "销售/sales-clerk/retail-clerk-sales",
+      "status": "mapped",
+      "reason": "商品销售属于门店销售与陈列。"
+    },
+    {
+      "occupation_id": "SNO-34d5c583ab8feb6b27ef",
+      "target_category_id": "销售/sales-realestate/estate-sales-leasing",
+      "status": "mapped",
+      "reason": "产业园招商专员属于商业招商与租赁。"
+    },
+    {
+      "occupation_id": "SNO-01fd1b725f3d445c1db1",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-circuit",
+      "status": "mapped",
+      "reason": "传感器技术开发属于电路与硬件设计。"
+    },
+    {
+      "occupation_id": "SNO-4d823f5dcbc2dc317d67",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "武汉分行培训生属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-395f6e04b6792b3a481a",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "长沙分行零售业务培训生属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-c1c24f65e3f7076918b1",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "零售金融方向定向培养生属于零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-818811a3cf5840bcf4f9",
+      "target_category_id": "金融/financial-risk/finance-control-risk",
+      "status": "mapped",
+      "reason": "特殊资产处置属于金融风险与合规管理。"
+    },
+    {
+      "occupation_id": "SNO-9f9d3b9864d577b0bd95",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "专业技术基层管理职责不明确，缺少具体技术方向。"
+    },
+    {
+      "occupation_id": "SNO-7c6e30cb1d48b250df4a",
+      "target_category_id": "影视/传媒/media-film/film-post",
+      "status": "mapped",
+      "reason": "海外剪辑师属于后期剪辑与特效。"
+    },
+    {
+      "occupation_id": "SNO-ac4b16fc76b84232b695",
+      "target_category_id": "房地产/建筑/estate-management/engineering-mgmt-site",
+      "status": "mapped",
+      "reason": "电力监理工程师属于施工现场管理。"
+    }
+  ]
+}

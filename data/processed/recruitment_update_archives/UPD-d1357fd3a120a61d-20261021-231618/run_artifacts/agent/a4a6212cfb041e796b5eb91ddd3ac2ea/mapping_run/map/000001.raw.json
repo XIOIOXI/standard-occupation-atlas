@@ -1,0 +1,28 @@
+{
+  "id": "63850e58-407d-4afa-86f3-cc82f26e3b38",
+  "object": "chat.completion",
+  "created": 1792571476,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-a4a6212cfb041e796b5eb91ddd3ac2ea\",\"status\":\"mapped\",\"target_category_id\":\"L25-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L25-04\",\"L25-03\",\"L23-09-02\",\"L03-01\"],\"title_evidence\":\"生产运维岗：生产设施运行维护，结合能源/化工/环保行业背景\",\"level_3_evidence\":null,\"reason\":\"“生产运维”指能源生产设施运行与调度维护，最直接对应能源运行与调度（L25-04）；无证据细分到具体三级，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16972,
+    "completion_tokens": 150,
+    "total_tokens": 17122,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 332
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

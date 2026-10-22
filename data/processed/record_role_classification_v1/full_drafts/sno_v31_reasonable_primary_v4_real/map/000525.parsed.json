@@ -1,0 +1,274 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-cc6d53b4902fd9a0ea46",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-01",
+        "L05-01",
+        "L09-03"
+      ],
+      "title_evidence": "设计工程师",
+      "level_3_evidence": null,
+      "reason": "标题仅含“设计工程师”，未说明设计对象（机械结构、电子硬件或产品外观），无法唯一确定二级职能，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-06abca2836afb635d4e9",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08"
+      ],
+      "title_evidence": "材料工艺岗",
+      "level_3_evidence": null,
+      "reason": "“材料工艺”属于制造工艺与制程范畴，归入工艺与制造工程（L06-08）。"
+    },
+    {
+      "occupation_id": "TG-a94cce926e5d0345b7c9",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08"
+      ],
+      "title_evidence": "材料工艺",
+      "level_3_evidence": null,
+      "reason": "“材料工艺”属于制造工艺与制程范畴，归入工艺与制造工程（L06-08）。"
+    },
+    {
+      "occupation_id": "TG-e70426c5b35432991710",
+      "status": "mapped",
+      "target_category_id": "L14-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-04"
+      ],
+      "title_evidence": "电商运营助理专员",
+      "level_3_evidence": null,
+      "reason": "“电商运营”明确指向电商与商品运营（L14-04），助理为职级标签不影响归类。"
+    },
+    {
+      "occupation_id": "TG-80c706184349ee588f17",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L02-01",
+        "L20-01",
+        "L11-05"
+      ],
+      "title_evidence": "/校招分析师",
+      "level_3_evidence": null,
+      "reason": "“分析师”未说明分析领域（数据分析、投资研究或商业研究），校招为招聘标签，无法唯一确定职能。"
+    },
+    {
+      "occupation_id": "TG-26433635a67566065d16",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L02-01",
+        "L20-01",
+        "L11-05"
+      ],
+      "title_evidence": "分析师",
+      "level_3_evidence": null,
+      "reason": "“分析师”未说明分析领域，无法唯一确定职能，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-17fae551bbfc943d0f9b",
+      "status": "mapped",
+      "target_category_id": "L13-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-04"
+      ],
+      "title_evidence": "生态拓展经理",
+      "level_3_evidence": null,
+      "reason": "“生态拓展”属于以商业合作与收入拓展为主的商务拓展，归入 L13-04。"
+    },
+    {
+      "occupation_id": "TG-08e08454ad888b258bd1",
+      "status": "mapped",
+      "target_category_id": "L13-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-06"
+      ],
+      "title_evidence": "招商岗",
+      "level_3_evidence": null,
+      "reason": "“招商”明确指向商业招商与租赁销售，归入 L13-06。"
+    },
+    {
+      "occupation_id": "TG-8f9f1ad7d52c8b13dcc7",
+      "status": "mapped",
+      "target_category_id": "L22-07",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L22-07"
+      ],
+      "title_evidence": "人工智能培训课程开发岗",
+      "level_3_evidence": null,
+      "reason": "“培训课程开发”属于课程与教学研发（L22-07），人工智能为课程内容标签。"
+    },
+    {
+      "occupation_id": "TG-194986ee5401b2ed949a",
+      "status": "mapped",
+      "target_category_id": "L02-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-03"
+      ],
+      "title_evidence": "金融数据工程师",
+      "level_3_evidence": null,
+      "reason": "“数据工程师”属于数据工程与数据平台开发（L02-03），金融为行业标签。"
+    },
+    {
+      "occupation_id": "TG-2dcc06104248a1f41b89",
+      "status": "mapped",
+      "target_category_id": "L02-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-03"
+      ],
+      "title_evidence": "金融数据开发",
+      "level_3_evidence": null,
+      "reason": "“数据开发”属于数据工程与数据平台开发（L02-03），金融为行业标签。"
+    },
+    {
+      "occupation_id": "TG-2d89ccbf4e1634c6912e",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09"
+      ],
+      "title_evidence": "国际销售",
+      "level_3_evidence": null,
+      "reason": "“国际销售”仅说明销售地域，未说明客户类型（企业或个人），归入通用销售 L13-09。"
+    },
+    {
+      "occupation_id": "TG-5581c37caf0e20d9fe3b",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09"
+      ],
+      "title_evidence": "区域销售岗",
+      "level_3_evidence": null,
+      "reason": "“区域销售”仅说明销售区域，未说明客户类型，归入通用销售 L13-09。"
+    },
+    {
+      "occupation_id": "TG-fe65933d1c010db96cda",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-09"
+      ],
+      "title_evidence": "区域销售",
+      "level_3_evidence": null,
+      "reason": "“区域销售”仅说明销售区域，未说明客户类型，归入通用销售 L13-09。"
+    },
+    {
+      "occupation_id": "TG-5d04140a9e7e7f2aaf07",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L05-01",
+        "L05-02"
+      ],
+      "title_evidence": "器件工程师",
+      "level_3_evidence": null,
+      "reason": "“器件”可能指电子元器件硬件设计或芯片器件研发，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-923b86473e73f0cd5604",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L05-01",
+        "L05-02"
+      ],
+      "title_evidence": "器件研发工程师",
+      "level_3_evidence": null,
+      "reason": "“器件研发”可能指电子元器件硬件研发或芯片器件研发，方向不明确，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-9fc655ea7c5fc0f0a837",
+      "status": "mapped",
+      "target_category_id": "L05-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-04"
+      ],
+      "title_evidence": "伺服控制设计师",
+      "level_3_evidence": null,
+      "reason": "“伺服控制”属于自动化与控制工程（L05-04）。"
+    },
+    {
+      "occupation_id": "TG-772a7abbf2b97aba4ee7",
+      "status": "mapped",
+      "target_category_id": "L22-02-02",
+      "target_level": "level_3",
+      "candidate_category_ids": [
+        "L22-02-02"
+      ],
+      "title_evidence": "中学生物教师",
+      "level_3_evidence": "生物属于数学与自然科学教学（L22-02-02）",
+      "reason": "“中学生物教师”明确为生物学科教学，归入数学与自然科学教学三级。"
+    },
+    {
+      "occupation_id": "TG-3f5a8d5bb8214e602da8",
+      "status": "mapped",
+      "target_category_id": "L02-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-06"
+      ],
+      "title_evidence": "AI应用工程师",
+      "level_3_evidence": null,
+      "reason": "“AI应用工程师”属于大模型与智能应用工程（L02-06），未明确具体三级方向。"
+    },
+    {
+      "occupation_id": "TG-635e7563bf144e70ae86",
+      "status": "mapped",
+      "target_category_id": "L02-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-06"
+      ],
+      "title_evidence": "AI 应用工程师",
+      "level_3_evidence": null,
+      "reason": "“AI 应用工程师”属于大模型与智能应用工程（L02-06），未明确具体三级方向。"
+    }
+  ],
+  "raw_response_file": "000525.raw.json",
+  "usage": {
+    "input_tokens": 17328,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 816,
+    "output_tokens": 2400,
+    "reasoning_tokens": 0,
+    "total_tokens": 19728
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.003223872
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

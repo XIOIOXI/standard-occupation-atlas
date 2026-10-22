@@ -1,0 +1,275 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-ac88016e507fd573963d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L13-05",
+        "L14-06"
+      ],
+      "title_evidence": "业态门店管培生",
+      "level_3_evidence": null,
+      "reason": "标题含“管培生”且“业态门店”仅表明行业/场所，未明确具体职能，符合L32-01中“仅行业或领域不足以确定职能时标review”的规则；同时存在门店销售或运营的可能，故列为review。"
+    },
+    {
+      "occupation_id": "TG-69d9420d21a98e77beef",
+      "status": "mapped",
+      "target_category_id": "L25-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L25-01"
+      ],
+      "title_evidence": "地质灾害调查监测岗",
+      "level_3_evidence": null,
+      "reason": "地质灾害调查监测属于地质勘探与资源评价范畴，直接匹配L25-01。"
+    },
+    {
+      "occupation_id": "TG-80cf1a8edc513334a97c",
+      "status": "mapped",
+      "target_category_id": "L04-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-02"
+      ],
+      "title_evidence": "机器人系统测试",
+      "level_3_evidence": null,
+      "reason": "机器人系统测试属于硬件与产品测试，直接匹配L04-02。"
+    },
+    {
+      "occupation_id": "TG-aa42a985b4edb0cb1b65",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L01-11"
+      ],
+      "title_evidence": "软件开发工程师（C++方向）",
+      "level_3_evidence": null,
+      "reason": "标题明确为软件开发，但仅给出编程语言C++方向，未说明具体开发领域，符合L01-11通用软件研发的归类规则。"
+    },
+    {
+      "occupation_id": "TG-7f3130c073b09239c2ac",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-02",
+        "L20-08",
+        "L13-04"
+      ],
+      "title_evidence": "黄河流域事业部交易岗",
+      "level_3_evidence": null,
+      "reason": "“交易岗”可能指金融交易执行（L20-02）或一般商务交易，但“黄河流域事业部”未明确行业与职能，证据不足，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-aabb008adea11bc2cb1d",
+      "status": "mapped",
+      "target_category_id": "L23-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L23-09"
+      ],
+      "title_evidence": "基地维修技术员培训生",
+      "level_3_evidence": null,
+      "reason": "基地维修技术员属于工业设备维修保全，匹配L23-09；培训生为培养标签，不改变职能归属。"
+    },
+    {
+      "occupation_id": "TG-590742cddebcb3c74fa3",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-01"
+      ],
+      "title_evidence": "机构销售(理工科、国际关系、宏观经济、金融、经济学、数理统计、市场营销、管理)",
+      "level_3_evidence": null,
+      "reason": "机构销售属于企业客户销售，直接匹配L13-01；括号内为专业要求，不影响职能归类。"
+    },
+    {
+      "occupation_id": "TG-7b3e7ec13d15b48c4e54",
+      "status": "mapped",
+      "target_category_id": "L19-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L19-08"
+      ],
+      "title_evidence": "财务管培生（理工类专业、专业......",
+      "level_3_evidence": null,
+      "reason": "标题明确为财务管培生，财务职能已确认但具体方向未说明，归入L19-08通用财务工作；管培生为培养标签。"
+    },
+    {
+      "occupation_id": "TG-b25df70905a3999a58cb",
+      "status": "multi_role",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-03",
+        "L02-01"
+      ],
+      "title_evidence": "新媒体内容策划制作与数据分析岗",
+      "level_3_evidence": null,
+      "reason": "标题同时包含新媒体内容策划制作（L14-03）与数据分析（L02-01）两项不同职能，属于多角色岗位，无法唯一归类。"
+    },
+    {
+      "occupation_id": "TG-6307baeb99e3c7389640",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-06",
+        "L18-09"
+      ],
+      "title_evidence": "部门专员岗",
+      "level_3_evidence": null,
+      "reason": "“部门专员”未说明具体部门与职能，无法确定归属，需人工补充信息。"
+    },
+    {
+      "occupation_id": "TG-0e76257aa6853ef09e0c",
+      "status": "mapped",
+      "target_category_id": "L13-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L13-04"
+      ],
+      "title_evidence": "商务BD助理",
+      "level_3_evidence": null,
+      "reason": "商务BD助理属于商务拓展与合作，直接匹配L13-04。"
+    },
+    {
+      "occupation_id": "TG-e59e4e54d96059803363",
+      "status": "mapped",
+      "target_category_id": "L06-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L06-08"
+      ],
+      "title_evidence": "工艺工程师(OP)",
+      "level_3_evidence": null,
+      "reason": "工艺工程师属于工艺与制造工程，直接匹配L06-08。"
+    },
+    {
+      "occupation_id": "TG-1415596f9e3e49671db1",
+      "status": "mapped",
+      "target_category_id": "L21-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L21-05"
+      ],
+      "title_evidence": "康复治疗师",
+      "level_3_evidence": null,
+      "reason": "康复治疗师属于临床康复与治疗，直接匹配L21-05。"
+    },
+    {
+      "occupation_id": "TG-e9f96190b0610ecca013",
+      "status": "mapped",
+      "target_category_id": "L11-05",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-05"
+      ],
+      "title_evidence": "消费研究岗",
+      "level_3_evidence": null,
+      "reason": "消费研究属于商业研究与市场调研，直接匹配L11-05。"
+    },
+    {
+      "occupation_id": "TG-d4b3f841f9b7ba3a80d6",
+      "status": "mapped",
+      "target_category_id": "L26-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L26-01"
+      ],
+      "title_evidence": "酿造作物研究科研岗",
+      "level_3_evidence": null,
+      "reason": "酿造作物研究属于农业与种植技术，直接匹配L26-01。"
+    },
+    {
+      "occupation_id": "TG-b53a77bb03aa8348b5c6",
+      "status": "mapped",
+      "target_category_id": "L07-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L07-01"
+      ],
+      "title_evidence": "物理研究员",
+      "level_3_evidence": null,
+      "reason": "物理研究员属于自然科学基础研究，直接匹配L07-01。"
+    },
+    {
+      "occupation_id": "TG-9508b111cb3aff862f9b",
+      "status": "mapped",
+      "target_category_id": "L14-03",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L14-03"
+      ],
+      "title_evidence": "社交平台内容运营",
+      "level_3_evidence": null,
+      "reason": "社交平台内容运营属于内容与新媒体运营，直接匹配L14-03。"
+    },
+    {
+      "occupation_id": "TG-a7581fefe1949026236b",
+      "status": "mapped",
+      "target_category_id": "L11-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L11-04"
+      ],
+      "title_evidence": "数智化咨询顾问",
+      "level_3_evidence": null,
+      "reason": "数智化咨询顾问属于管理与专业咨询，直接匹配L11-04。"
+    },
+    {
+      "occupation_id": "TG-0f1d17fb459c5213f008",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L30-03",
+        "L31-01",
+        "L19-05"
+      ],
+      "title_evidence": "调查治理岗（文件规定毕业2年内的择业期毕业生，视同应届生）",
+      "level_3_evidence": null,
+      "reason": "“调查治理岗”职能方向不明确，可能涉及合规内控、公共治理或审计调查，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-5da9558c12025311c1a0",
+      "status": "mapped",
+      "target_category_id": "L04-06",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L04-06"
+      ],
+      "title_evidence": "/质量工程师",
+      "level_3_evidence": null,
+      "reason": "质量工程师属于测试与质量工作，但未说明具体方向，归入L04-06通用测试与质量工作。"
+    }
+  ],
+  "raw_response_file": "000254.raw.json",
+  "usage": {
+    "input_tokens": 17389,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 877,
+    "output_tokens": 2474,
+    "reasoning_tokens": 0,
+    "total_tokens": 19863
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.0033309719999999998
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "validation_failures": []
+}

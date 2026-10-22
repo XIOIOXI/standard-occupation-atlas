@@ -1,0 +1,147 @@
+{
+  "batch_number": 1,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 27207,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 27207,
+    "output_tokens": 1133,
+    "reasoning_tokens": 0,
+    "total_tokens": 28340
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00476085
+  },
+  "results": [
+    {
+      "entry_id": "ABNORMAL:RRG-0261fa26a3a783dfd8bf",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“助理工程师”为宽泛称谓，无法明确唯一职业方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-02f2cfcbfd04c0beb9d7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“材料多尺度仿真工程师”为跨领域复合岗位，名称不足以明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-1660860c4719c06220a6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“会计”与所列专业混杂，无法明确唯一职业方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-1abedb662dc1201b29eb",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“综合柜员岗”为宽泛称谓，无法明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-2547ccf6a6705322a76c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“安全交付工程师”为复合岗位，无法明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-2f0d03b936ba23b327f1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“自动化技术工程师”为宽泛称谓，无法明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-30984abf8444f12a25ab",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“外贸业务员”为宽泛称谓，无法明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-336caffb65033014ef4c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“PE工程师”为缩写宽泛称谓，无法明确唯一职业方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-360f1069d01b7086ba6c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“AGENT工程师”为宽泛称谓，无法明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-3ab81fed74c9cc53f540",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称为岗位编号加截断的专业清单，无法明确唯一职业方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-3f45df92402fe506b76a",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“测量助理工程”名称截断，无法明确唯一职业方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-4eeec5b3a31d53bfaec2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“仿真工程师”为宽泛称谓，无法明确唯一职业方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-518477d6c22050d9f863",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“营销研发”为复合岗位，无法明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-7314106e1ca62acfbe37",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“正高级工程师”为宽泛称谓，无法明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-749963935cfed8fd1124",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“综合管理”为宽泛称谓，无法明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-758331d3a1bf8fbf27b1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“助理工程师”为宽泛称谓，无法明确唯一职业方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-7822853512700dfc38ba",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“技术工程师”为宽泛称谓，无法明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-7f80296f2e43fa32ca03",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "“前期开发项目助理”为宽泛称谓，无法明确唯一职业方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-99c08b70f5a870df6c0d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“生产操作”为宽泛称谓，无法明确唯一三级方向。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-b0b99ffadee6b7d4e345",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "名称含截断的专业清单，且“版图工程师”不足以明确唯一三级方向。"
+    }
+  ]
+}

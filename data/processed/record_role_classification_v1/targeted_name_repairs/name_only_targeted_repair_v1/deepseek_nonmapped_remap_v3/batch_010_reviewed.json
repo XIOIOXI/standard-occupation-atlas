@@ -1,0 +1,185 @@
+{
+  "batch_number": 10,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "f7003b38-9c8d-4311-8582-9693c163ef37",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821711,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 30200,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2808,
+    "output_tokens": 1645,
+    "reasoning_tokens": 0,
+    "total_tokens": 31845
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001490376
+  },
+  "results": [
+    {
+      "entry_id": "ABNORMAL:RRG-e07d012a83b00f6b3528",
+      "status": "review",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "reason": "名称可识别为人力助理，但含实习生及截断专业清单，三级方向不明确，归人力资源下员工关系与人力运营。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-e0f32c573ab88f44147f",
+      "status": "review",
+      "target_category_id": "销售/sales-management",
+      "reason": "渠道经理可确认属于销售管理，但截断无法判断团队管理或策略渠道三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-e224db5010908ac20d52",
+      "status": "review",
+      "target_category_id": "教育培训/edu-arts",
+      "reason": "美术教师可确认属于文化艺术培训，但括号内英语翻译等专业截断，无法确定具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-e441a5c7a82618a1d9c5",
+      "status": "review",
+      "target_category_id": "市场/公关/广告/marketing-general",
+      "reason": "市场策划专员可确认属于市场/营销，但专业清单截断，无法确定品牌、增长、研究或渠道三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-e4819a0aa67baa7709fe",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出材料研发、检测分析、计算机开发、仪器研发、综合评价、业务支持等多个互不兼容职业，且无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-e59a3214bc31ae7f8da0",
+      "status": "review",
+      "target_category_id": "生产制造",
+      "reason": "稀贵稀散金属团队硕士研究员指向材料/冶金研发，但目录无对应三级，仅能确认生产制造一级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-e84efeb8445b23f2ec3a",
+      "status": "review",
+      "target_category_id": "教育培训/edu-teacher",
+      "reason": "初中体育教师可确认属于教师，但括号内物理、生物、地理等学科截断，无法确定具体三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-e8ea33727363931a2efd",
+      "status": "review",
+      "target_category_id": "金融/financial-banking",
+      "reason": "小微客户经理可确认属于银行，但专业清单截断，无法确定零售综合或投行资管三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-e941787bdb609a45c1f1",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出化学研发、化工研发、生物研发、生产、分析、制剂、专业职能、集团管培生等多个互不兼容职业，无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-eaaa943deaf86678ce6d",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出电子与通信、计算机、机械与控制、会计财务金融税务、建筑土木工程等多个互不兼容职业，无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-eb1c3632fd3d7e8073e4",
+      "status": "review",
+      "target_category_id": "财务/审计/税务/finance-accounting",
+      "reason": "名称含会计，但前缀截断无法判断总账、成本、税务或报表三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-eb2e153e5abec6e63780",
+      "status": "review",
+      "target_category_id": "生产制造/manufacturing-operations",
+      "reason": "生产运营工程师可确认属于生产营运，但截断无法判断计划调度或精益改善三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-f26d0c8a56eb746a59fa",
+      "status": "review",
+      "target_category_id": "产品",
+      "reason": "产品专员可确认属于产品，但括号内生化医药农食专业截断，无法确定硬件、金融、化妆品、游戏或互联网产品三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-f4d25717792d703cbd8d",
+      "status": "review",
+      "target_category_id": "产品/product-internet",
+      "reason": "大模型产品经理可确认属于互联网产品经理，但名称截断且含实习，无法确定人工智能与数据产品三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-f56fe2d55bb56c8b8aa2",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "音视频软件应用工程师可确认属于互联网/AI，但专业清单截断，无法确定具体技术方向三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-f572cf496e9a5ea028ba",
+      "status": "review",
+      "target_category_id": "人力/行政/法务/people-hr",
+      "reason": "人力资源助理可确认属于人力资源，但专业清单截断，无法确定招聘、培训、薪酬或员工关系三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-f687ab17eeeca9584bd7",
+      "status": "review",
+      "target_category_id": "采购/贸易/trade-procurement",
+      "reason": "采购专员可确认属于采购，但专业截断，无法确定供应商开发或采购执行三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-f7043af708d3e5157114",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出策划、技术、美术、运营、法务、表现等多个互不兼容职业，无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-f80b2d394a8ae5e6d0bd",
+      "status": "review",
+      "target_category_id": "互联网/AI/internet-test",
+      "reason": "测试工程师可确认属于测试，但专业清单截断，无法确定功能、性能或安全测试三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-f8725d5eef32517c2567",
+      "status": "review",
+      "target_category_id": "财务/审计/税务/finance-audit",
+      "reason": "审计可确认属于审计，但截断无法判断外部财务审计或内部控制内审三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-f911838c06e926b65397",
+      "status": "multi_role",
+      "target_category_id": "财务/审计/税务",
+      "reason": "名称明确列出财务管理和审计两个独立职业，共同上级可确认到财务/审计/税务。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-fa1b82a7907c467efee8",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出消防工程、安全工程、会计、税收、审计、金融等多个互不兼容职业，无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-fab2dfafd852376fb64a",
+      "status": "review",
+      "target_category_id": "生产制造/manufacturing-quality",
+      "reason": "质量工程师可确认属于质量管理，但专业清单截断，无法确定质量体系或质量检验三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-fb43a2ea16e99e5ac593",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出研发、业务管理、综合管理、技术、检测、市场、管培生等多个互不兼容职业，无共同可确认上级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-fb7ff1b3544b3a9ec9da",
+      "status": "review",
+      "target_category_id": "人力/行政/法务",
+      "reason": "总经理助理可确认属于人力/行政/法务，但专业截断且助理方向不明确，无法确定具体三级。"
+    }
+  ]
+}

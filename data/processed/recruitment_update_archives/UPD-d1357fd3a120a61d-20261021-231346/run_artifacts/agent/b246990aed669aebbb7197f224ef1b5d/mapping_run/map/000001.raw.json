@@ -1,0 +1,28 @@
+{
+  "id": "e6275132-3957-4399-a388-1e7ae0357a99",
+  "object": "chat.completion",
+  "created": 1792571606,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-b246990aed669aebbb7197f224ef1b5d\",\"status\":\"mapped\",\"target_category_id\":\"L09-04\",\"target_level\":\"level_2\",\"candidate_category_ids\":[\"L09-04\"],\"title_evidence\":\"女装设计助理：女装设计属于服装设计方向\",\"level_3_evidence\":null,\"reason\":\"标题明确为女装设计助理，职责方向为服装设计，归入服装饰品与纺织设计（L09-04）；该二级无三级细分，故停在二级。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16979,
+    "completion_tokens": 128,
+    "total_tokens": 17107,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 339
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

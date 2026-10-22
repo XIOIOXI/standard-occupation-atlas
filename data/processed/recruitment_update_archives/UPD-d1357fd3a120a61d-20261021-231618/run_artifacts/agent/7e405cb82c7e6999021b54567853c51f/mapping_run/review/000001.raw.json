@@ -1,0 +1,28 @@
+{
+  "id": "a9563823-1641-4a09-a503-6b337364d65d",
+  "object": "chat.completion",
+  "created": 1792571913,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-7e405cb82c7e6999021b54567853c51f\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L23-01\",\"issue\":\"量产产品生产管控工程师归生产计划与现场管理（L23-01）合理，职责为量产阶段生产现场管控，无明显错分。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17042,
+    "completion_tokens": 86,
+    "total_tokens": 17128,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 530
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

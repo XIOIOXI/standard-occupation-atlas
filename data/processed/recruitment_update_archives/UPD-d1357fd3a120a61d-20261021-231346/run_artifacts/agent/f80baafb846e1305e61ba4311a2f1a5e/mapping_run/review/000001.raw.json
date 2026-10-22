@@ -1,0 +1,28 @@
+{
+  "id": "93efa47b-a72f-4049-9b8d-34d9ed9ccf5d",
+  "object": "chat.completion",
+  "created": 1792571675,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-f80baafb846e1305e61ba4311a2f1a5e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"研发实习生方向未明，结合医疗/医药/生物行业背景，候选覆盖生物技术研发、药物研发、临床研究及检测等，保留review合理；不要求唯一答案。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17076,
+    "completion_tokens": 93,
+    "total_tokens": 17169,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 564
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

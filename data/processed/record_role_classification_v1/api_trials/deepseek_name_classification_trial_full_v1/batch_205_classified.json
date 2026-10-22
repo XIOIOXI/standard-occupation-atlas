@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 205,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "a6014f96-6a11-4f0a-abfb-96ef87faef21",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751578,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 24922,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1626,
+    "output_tokens": 2619,
+    "reasoning_tokens": 0,
+    "total_tokens": 27541
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.0018851879999999999
+  },
+  "observed_at_utc": "2026-10-11T20:46:19.202063+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-2ef349083d028e3fe3dd",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "系统集成工程师通常负责系统集成与基础设施部署，归入运维/技术支持下的基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-e064210205db9ade930c",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "系统集成研发工程师核心为系统集成研发，归入基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-6c4d7336c8d44edaca7f",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "初中地理教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-d6deb31b98eac140eef7",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "研发校招生未说明技术方向，无法确定具体研发类别。"
+    },
+    {
+      "occupation_id": "SNO-773bca1de8a41f4bebb8",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "图像算法工程师属于计算机视觉与三维感知。"
+    },
+    {
+      "occupation_id": "SNO-bac1b022f3a4b3064acc",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-vision",
+      "status": "mapped",
+      "reason": "图像算法开发属于计算机视觉与三维感知。"
+    },
+    {
+      "occupation_id": "SNO-d997c0569be259657b44",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "PC软件工程师通常指桌面客户端开发，归入移动端与客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-e854b125fd26359ddf99",
+      "target_category_id": "销售/sales-business/sales-admin-support",
+      "status": "mapped",
+      "reason": "商务管理偏向销售支持与商务协调。"
+    },
+    {
+      "occupation_id": "SNO-c7cd6c1ffe553a045ec0",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "中学教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-ab7204f43584f0f9e323",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "数字逻辑设计工程师属于芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-ac1587d231dcc0372df7",
+      "target_category_id": "互联网/AI/internet-ops-support/ops-infrastructure",
+      "status": "mapped",
+      "reason": "SRE/基础设施工程师属于基础设施与云运维。"
+    },
+    {
+      "occupation_id": "SNO-6b3571ef19d6a901ceed",
+      "target_category_id": "教育培训/edu-sports/sports-training-sports",
+      "status": "mapped",
+      "reason": "乒乓球教练员属于专项运动训练。"
+    },
+    {
+      "occupation_id": "SNO-126455d7503d05a90310",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "运营柜员通常为银行柜面岗位，归入零售与综合银行。"
+    },
+    {
+      "occupation_id": "SNO-0c3e49c482e1ae67da83",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "语文教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-8d6cc7b95728749799ec",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-external",
+      "status": "mapped",
+      "reason": "金融审计属于外部与财务审计。"
+    },
+    {
+      "occupation_id": "SNO-b462fda741e30bd0eec5",
+      "target_category_id": "咨询/翻译/法律/consult-research/consulting-management",
+      "status": "mapped",
+      "reason": "管理咨询属于管理与行业咨询。"
+    },
+    {
+      "occupation_id": "SNO-5c2953d7ba2f2b3a34a6",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称仅为/助理，信息不足无法判断职业方向。"
+    },
+    {
+      "occupation_id": "SNO-650a8d0f8e795b8da291",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "助理名称过于宽泛，缺少职能方向。"
+    },
+    {
+      "occupation_id": "SNO-e56cf4fc91de8a290de5",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "初级助理名称过于宽泛，缺少职能方向。"
+    },
+    {
+      "occupation_id": "SNO-e36ba1023f0ef5090eaa",
+      "target_category_id": "能源/环保/农业/energy-environment/environment-engineering",
+      "status": "mapped",
+      "reason": "环保专员属于环保工程与治理。"
+    },
+    {
+      "occupation_id": "SNO-24648385af0e25b36419",
+      "target_category_id": "咨询/翻译/法律/consult-legal/legal-corporate",
+      "status": "mapped",
+      "reason": "法务类属于公司法务与合规。"
+    },
+    {
+      "occupation_id": "SNO-58557c8118505f4bb9f5",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-research",
+      "status": "mapped",
+      "reason": "制剂研究员属于生物医药研发。"
+    },
+    {
+      "occupation_id": "SNO-75f34a8e9eab40088ce0",
+      "target_category_id": "财务/审计/税务/finance-cashier/cashier-payment",
+      "status": "mapped",
+      "reason": "出纳员属于资金收付与结算。"
+    },
+    {
+      "occupation_id": "SNO-7aff39015d5f47411ce3",
+      "target_category_id": "财务/审计/税务/finance-cashier/cashier-payment",
+      "status": "mapped",
+      "reason": "储备出纳员核心为出纳，属于资金收付与结算。"
+    },
+    {
+      "occupation_id": "SNO-9b4e1a002357234a651c",
+      "target_category_id": "财务/审计/税务/finance-audit/audit-external",
+      "status": "mapped",
+      "reason": "审计类属于外部与财务审计。"
+    },
+    {
+      "occupation_id": "SNO-baaef97790e208b74c91",
+      "target_category_id": "生产制造/manufacturing-general-worker/general-worker-assembly",
+      "status": "mapped",
+      "reason": "装配工程师属于装配与生产线作业。"
+    },
+    {
+      "occupation_id": "SNO-3dbebbe9a9464f946b7b",
+      "target_category_id": "医疗健康/health-doctor/medical-clinical",
+      "status": "mapped",
+      "reason": "口腔医生属于临床诊疗。"
+    },
+    {
+      "occupation_id": "SNO-a4ffa41854098d21d759",
+      "target_category_id": "能源/环保/农业/energy-geology/energy-geology-energy",
+      "status": "mapped",
+      "reason": "油气田开发属于能源开发与工程。"
+    },
+    {
+      "occupation_id": "SNO-361170edf183170c813c",
+      "target_category_id": "人力/行政/法务/people-hr/hr-relations",
+      "status": "mapped",
+      "reason": "人事专员属于员工关系与人力运营。"
+    },
+    {
+      "occupation_id": "SNO-975433407c370723b5b9",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "命题管理未说明行业或考试类型，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-be5e30de4861e9232e26",
+      "target_category_id": "产品/product-internet/product-ai",
+      "status": "mapped",
+      "reason": "IT管培生(AI产品方向)属于人工智能与数据产品。"
+    },
+    {
+      "occupation_id": "SNO-a7e31a6c32f2e0719ce5",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "历史教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-6f306e8dabd51332e0ca",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "数字设计工程师通常指数字芯片设计，属于芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-1c3d351e8249df3e98b0",
+      "target_category_id": "互联网/AI/internet-test/test-functional",
+      "status": "mapped",
+      "reason": "研发测试工程师属于功能与自动化测试。"
+    },
+    {
+      "occupation_id": "SNO-49159745c67b27ca6166",
+      "target_category_id": "市场/公关/广告/marketing-pr/pr-media-public-relations",
+      "status": "mapped",
+      "reason": "公共关系专员属于品牌公关与传播。"
+    },
+    {
+      "occupation_id": "SNO-2e33d0b41226e3762518",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "IE工程师属于生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-28c5c1730d968ab3a87d",
+      "target_category_id": "财务/审计/税务/finance-accounting/acct-general",
+      "status": "mapped",
+      "reason": "总账会计属于总账与财务核算。"
+    },
+    {
+      "occupation_id": "SNO-518846a5b69a73decf0a",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "营销储备偏向客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-08b8081e7779f571733a",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "振动噪音工程师通常属于整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-559c05d8f5770ae3f3df",
+      "target_category_id": "房地产/建筑/estate-architecture/architecture-architecture",
+      "status": "mapped",
+      "reason": "给排水设计属于建筑方案与施工图设计。"
+    },
+    {
+      "occupation_id": "SNO-9e5491aee517ec885a69",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称仅为/副总经理，缺少行业与职能信息。"
+    },
+    {
+      "occupation_id": "SNO-409c2b256a04279fddd6",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "副总经理名称过于宽泛，缺少行业与职能方向。"
+    },
+    {
+      "occupation_id": "SNO-f415bf7b07a9b2c07029",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "IT名称过于宽泛，无法确定具体技术方向。"
+    },
+    {
+      "occupation_id": "SNO-5f485ffb73419b016319",
+      "target_category_id": "生产制造/manufacturing-safety/production-safety-safety",
+      "status": "mapped",
+      "reason": "安全技术员属于安全生产管理。"
+    },
+    {
+      "occupation_id": "SNO-359a734e84f8b7822507",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "调试工程师通常属于自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-b564e67ea188c7b13fda",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-improvement",
+      "status": "mapped",
+      "reason": "智能制造偏向生产运营与精益改善。"
+    },
+    {
+      "occupation_id": "SNO-ec309ab207ef7fa31b13",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "服务名称过于宽泛，缺少具体服务方向。"
+    },
+    {
+      "occupation_id": "SNO-e809fbb6172bfc5f72b5",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "研发员未说明技术或行业方向，无法确定具体类别。"
+    },
+    {
+      "occupation_id": "SNO-e17bbff0c3f399eb0b01",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "科技研发名称过于宽泛，缺少具体技术方向。"
+    },
+    {
+      "occupation_id": "SNO-7e708dd49f0a4215f9f1",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "设备管理未说明设备类型或行业，无法确定具体类别。"
+    }
+  ]
+}

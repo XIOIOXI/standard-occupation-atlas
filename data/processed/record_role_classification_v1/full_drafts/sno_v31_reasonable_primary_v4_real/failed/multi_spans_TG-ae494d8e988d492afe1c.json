@@ -1,0 +1,24 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-ae494d8e988d492afe1c",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-ae494d8e988d492afe1c",
+    "case": "A",
+    "child_titles": [
+      "市场营销管理储备",
+      "新媒体运营",
+      "电商直播运营",
+      "摄影专员"
+    ],
+    "source_spans": [
+      {
+        "text": "市场营销管理储备新媒体运营电商直播运营摄影专员",
+        "start": 0,
+        "end": 24
+      }
+    ],
+    "reason": "标题由多个独立岗位名称直接拼接，可拆分。"
+  }
+}

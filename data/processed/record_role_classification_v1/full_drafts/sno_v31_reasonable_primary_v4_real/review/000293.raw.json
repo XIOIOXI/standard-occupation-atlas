@@ -1,0 +1,28 @@
+{
+  "id": "65354b8b-02b8-4f44-a406-6447b10c9387",
+  "object": "chat.completion",
+  "created": 1791881102,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"records\":[{\"occupation_id\":\"TG-95ef3c9c88b05ca78507\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"管培生且供应链数字化与成本双方向，review合理。\"},{\"occupation_id\":\"TG-14b36e8b7b35bf1685b2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"摆线减速器属机械传动，L06-01-01合理。\"},{\"occupation_id\":\"TG-7d365d0ede850f4553c1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"杂志社编辑归图书与出版编辑，合理。\"},{\"occupation_id\":\"TG-06de5d07d3b224dd52dc\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L32-01\",\"issue\":\"物流管培生属培养轮岗性质，应归L32-01而非直接定岗仓储。\"},{\"occupation_id\":\"TG-155256312b2e6a4b3084\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"供应链管培生归供应链规划与管理，合理。\"},{\"occupation_id\":\"TG-60956a76c307becda8a0\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"债券承做归投行业务，合理。\"},{\"occupation_id\":\"TG-6f792f690dd0421a2c7d\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"工艺整合工程师归制造制程工程，合理。\"},{\"occupation_id\":\"TG-a4652f186101c8f8356d\",\"verdict\":\"correction_required\",\"suggested_target_category_id\":\"L32-01\",\"issue\":\"铁路货运项目部管培生属培养轮岗性质，应归L32-01。\"},{\"occupation_id\":\"TG-9ed8e57132d2bab95b62\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"加工工艺工程师归制造制程工程，合理。\"},{\"occupation_id\":\"TG-98679787cdd5afa8323e\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"综合柜员归金融运营与交易清算，合理。\"},{\"occupation_id\":\"TG-ba175f865beb7a90d118\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"大科学装置研究员归自然科学基础研究，合理。\"},{\"occupation_id\":\"TG-9934ffc0a8bddd104c78\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"网络数据智能工程师归预测与统计学习，可接受。\"},{\"occupation_id\":\"TG-5d31534252fd9e8c92b1\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"软件开发岗方向未说明，归通用软件研发，合理。\"},{\"occupation_id\":\"TG-3c27e263a6cfc6383516\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"博士研究员领域未说明，归通用科学研究，合理。\"},{\"occupation_id\":\"TG-e30a8d37b665747e2457\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"矿物加工技术管理归采矿与资源开采，合理。\"},{\"occupation_id\":\"TG-d6026afbcc160240e838\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"营销岗方向未明确，归通用销售，合理。\"},{\"occupation_id\":\"TG-8bfecaf8551487279690\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"市场条线产品策略分析师归营销与销售数据分析，合理。\"},{\"occupation_id\":\"TG-4884c2e8a608ba2278d7\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"技术开发岗方向未说明，归通用软件研发，合理。\"},{\"occupation_id\":\"TG-f59a3a246023a37c69c2\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"信息网络专员方向未明确，归通用信息技术运维，合理。\"},{\"occupation_id\":\"TG-54e111211ce19b769073\",\"verdict\":\"pass\",\"suggested_target_category_id\":null,\"issue\":\"品牌与传播专员归品牌管理，合理。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 20016,
+    "completion_tokens": 989,
+    "total_tokens": 21005,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 3504
+  },
+  "system_fingerprint": "aeb56401ca74e127821c4f9126dcb669"
+}

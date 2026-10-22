@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-9dcc33fc2ab9cdda3639a213cc692ec9",
+      "status": "mapped",
+      "target_category_id": "L16-02",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L16-02",
+        "L16-03",
+        "L16-01",
+        "L32-01"
+      ],
+      "title_evidence": "标题明确为“供应链部门管理培训生”，职能方向为供应链管理，且属于部门定向培养而非跨职能轮岗",
+      "level_3_evidence": null,
+      "reason": "标题直接指向供应链职能，L16-02供应链规划与管理覆盖供需协同与供应链策略，为最直接二级归属；虽含“管理培训生”字样，但已明确供应链部门职能，不归L32跨职能轮岗。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16974,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 334,
+    "output_tokens": 171,
+    "reasoning_tokens": 0,
+    "total_tokens": 17145
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00040524
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

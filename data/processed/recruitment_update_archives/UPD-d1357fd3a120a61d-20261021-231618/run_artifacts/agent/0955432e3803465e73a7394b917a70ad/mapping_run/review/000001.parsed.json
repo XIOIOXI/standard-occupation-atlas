@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-0955432e3803465e73a7394b917a70ad",
+      "verdict": "pass",
+      "suggested_target_category_id": "L06-07-02",
+      "issue": "AI蛋白研发工程师核心为蛋白研发，AI为方法标签，归生物与药物研发下的药物发现与药理合理；候选L06-07-01生物技术研发亦合理，不要求唯一答案。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17029,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 517,
+    "output_tokens": 110,
+    "reasoning_tokens": 0,
+    "total_tokens": 17139
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000386172
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

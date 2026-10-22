@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-11b052c321e2b06db756c44a73087bdc",
+      "status": "mapped",
+      "target_category_id": "L26-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L26-01",
+        "L06-07-01"
+      ],
+      "title_evidence": "标题为“育种研发工程师”，公司行业为农林牧渔，核心职责指向育种研发。",
+      "level_3_evidence": null,
+      "reason": "育种研发属于农业与种植技术（L26-01）范畴，标题明确为育种研发，行业背景一致；虽涉及生物技术，但育种是农业技术核心，故归L26-01。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16936,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 296,
+    "output_tokens": 155,
+    "reasoning_tokens": 0,
+    "total_tokens": 17091
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00037464
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

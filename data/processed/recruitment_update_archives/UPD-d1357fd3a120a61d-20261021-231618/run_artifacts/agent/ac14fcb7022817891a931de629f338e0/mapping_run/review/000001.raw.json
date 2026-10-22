@@ -1,0 +1,28 @@
+{
+  "id": "a30c0f96-4627-4750-a2c1-bf2aab1fd034",
+  "object": "chat.completion",
+  "created": 1792571241,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\": \"json_object\", \"records\": [{\"occupation_id\": \"UP-ac14fcb7022817891a931de629f338e0\", \"verdict\": \"pass\", \"suggested_target_category_id\": \"L06-01\", \"issue\": \"结构分析与仿真计算工程师归机械与结构设计（L06-01）合理，二级直达，无需修正。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17007,
+    "completion_tokens": 86,
+    "total_tokens": 17093,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 495
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

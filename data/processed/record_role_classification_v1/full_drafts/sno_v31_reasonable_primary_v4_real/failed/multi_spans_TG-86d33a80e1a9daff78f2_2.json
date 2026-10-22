@@ -1,0 +1,77 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-86d33a80e1a9daff78f2",
+  "child_index": 2,
+  "error": "unicode_source_span_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "title": "现场作业方向 技术服务及项目管理方向市场营销方向经营分析方向 人力资源方向财务管理方向法务方向IT技术方向外部资源及供应链管理方向",
+  "child_title": "市场营销方向",
+  "source_span": {
+    "text": "市场营销方向",
+    "start": 19,
+    "end": 25
+  },
+  "raw_decision": {
+    "original_record_id": "TG-86d33a80e1a9daff78f2",
+    "case": "A",
+    "child_titles": [
+      "现场作业方向",
+      "技术服务及项目管理方向",
+      "市场营销方向",
+      "经营分析方向",
+      "人力资源方向",
+      "财务管理方向",
+      "法务方向",
+      "IT技术方向",
+      "外部资源及供应链管理方向"
+    ],
+    "source_spans": [
+      {
+        "text": "现场作业方向",
+        "start": 0,
+        "end": 6
+      },
+      {
+        "text": "技术服务及项目管理方向",
+        "start": 7,
+        "end": 18
+      },
+      {
+        "text": "市场营销方向",
+        "start": 19,
+        "end": 25
+      },
+      {
+        "text": "经营分析方向",
+        "start": 26,
+        "end": 32
+      },
+      {
+        "text": "人力资源方向",
+        "start": 33,
+        "end": 39
+      },
+      {
+        "text": "财务管理方向",
+        "start": 40,
+        "end": 46
+      },
+      {
+        "text": "法务方向",
+        "start": 47,
+        "end": 51
+      },
+      {
+        "text": "IT技术方向",
+        "start": 52,
+        "end": 58
+      },
+      {
+        "text": "外部资源及供应链管理方向",
+        "start": 59,
+        "end": 71
+      }
+    ],
+    "reason": "标题由多个独立岗位方向以空格分隔，可拆分为多个独立岗位。"
+  }
+}

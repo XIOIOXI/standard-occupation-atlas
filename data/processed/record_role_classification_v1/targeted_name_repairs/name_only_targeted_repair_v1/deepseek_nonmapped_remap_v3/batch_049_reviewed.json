@@ -1,0 +1,185 @@
+{
+  "batch_number": 49,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "39960ecb-d949-4d94-90e0-9ab15f19a374",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821939,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29588,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2196,
+    "output_tokens": 1363,
+    "reasoning_tokens": 0,
+    "total_tokens": 30951
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001229376
+  },
+  "results": [
+    {
+      "entry_id": "SNO-9f06e7226c3290bd0bbc",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "先进材料与工艺研究员涉及材料与制造工艺，但冻结目录无材料或先进制造工艺对应三级，且无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-9f180980b6325622924d",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出软件研发工程师与硬件研发工程师两个互不兼容的独立职业，且无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-9f3d358fb491a621b84f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "设备技术管理培训生中“培训生”非职业，设备技术方向不明确，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-9f5a33f7f1124f957563",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "客户经理类明确分为金融科技方向与金融业务方向两个独立职业方向，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-9f87178cf64efaf7c38d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "海外事业部营销管培生为管培生项目，核心职业方向不明确，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-9f9d3b9864d577b0bd95",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "专业技术基层管理职责宽泛，缺少具体技术方向，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-9fe560a830a0f9932fee",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科技人员过于宽泛，别名专业清单不构成职业方向，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a092d99ba5e3fb291bc4",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "reason": "人工智能工程师属于算法工程师，通用方向对应算法研究与通用算法三级。"
+    },
+    {
+      "entry_id": "SNO-a09bc0e5e73646276ed9",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称明确列出工艺、质量、运营、管理多个独立制造职能，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-a0e11ad0fcbead9da3fe",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称同时包含商品运营、后端产品开发工程师、门店运营多个独立职责，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-a0fb0910f79fb1a3034c",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "锦英管培生为管培生项目，缺少具体职能方向，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a10eccae11f6344b0937",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "技术负责人/总监职责宽泛，缺少具体技术领域，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a12b55de628d2460a0a1",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "公司培训生为培训生项目，缺少具体职能方向，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a13ae023ff48dbb5984a",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "名称列出C/C++开发、嵌入式开发、Web开发、移动应用开发、软件测试、硬件开发、营销管培生等多个独立职业，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-a13b062d598f09d2d156",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "主任仿真工程师缺少行业与技术方向，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a1974a25495534966308",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "经办职责不明确，缺少具体业务领域，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a1d7a12db154065b1718",
+      "status": "multi_role",
+      "target_category_id": null,
+      "reason": "科技培养生涵盖新技术研发、前后端开发、大数据应用、人工智能、算法模型等多个独立技术方向，无共同一级或二级可确认。"
+    },
+    {
+      "entry_id": "SNO-a1f5d5fcbdc4d510cdff",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "员工名称过于笼统，无法判断具体职业，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a29491c7b2269542f828",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "工管部管理员职责不明确，缺少具体管理方向，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a2b33bcfbf2ffc5736bb",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "资源管理职责范围不明确，可能涉及人力、项目、供应链或IT资源，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a2b8de26514c068f59e5",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "主任软件工程师未明确技术方向，无法确定三级类别，也无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a2c938378886ecca3aad",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "设计技术未指明设计领域，无法确定具体三级类别，也无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a30cff18b6b79a628591",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "生态产品工程师职责方向不明确，缺少具体产品领域，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a3233c10fa3e495eaf86",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "“展翼计划”科技岗位名称过于笼统，缺少具体技术方向，无法确认一级或二级。"
+    },
+    {
+      "entry_id": "SNO-a33eb03caaf2d4684937",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "集团管培生-数字化智能化方向为管培生项目，核心职业方向不明确，无法确认一级或二级。"
+    }
+  ]
+}

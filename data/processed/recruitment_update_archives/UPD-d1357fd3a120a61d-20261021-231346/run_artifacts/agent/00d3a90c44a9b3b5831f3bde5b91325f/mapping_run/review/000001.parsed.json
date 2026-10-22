@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-00d3a90c44a9b3b5831f3bde5b91325f",
+      "verdict": "pass",
+      "suggested_target_category_id": "L32-01",
+      "issue": "集团管培生属真实培养项目且最终职能方向未明确，归L32-01合理；原始组合标题中的其他并列岗位不影响本岗位判定。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17030,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 518,
+    "output_tokens": 94,
+    "reasoning_tokens": 0,
+    "total_tokens": 17124
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000367272
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

@@ -1,0 +1,334 @@
+{
+  "results": [
+    {
+      "occupation_id": "TG-386f58fc2b7d52e7e637",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "总行财富条线培训生",
+      "level_3_evidence": null,
+      "reason": "标题含“财富条线”与“培训生”，指向银行财富管理业务，但未明确具体职能（销售、产品、运营等），且“培训生”不足以确定跨职能轮岗，需人工确认。"
+    },
+    {
+      "occupation_id": "TG-b713c85f16d2520c8a53",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L25-03",
+        "L25-04",
+        "L25-09"
+      ],
+      "title_evidence": "专业技术岗（省内外新能源项目）",
+      "level_3_evidence": null,
+      "reason": "标题仅说明新能源项目专业技术岗，未明确是能源系统设计、运行调度还是其他方向，无法唯一确定二级类别。"
+    },
+    {
+      "occupation_id": "TG-b99283642594d818d62f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "分公司专业岗",
+      "level_3_evidence": null,
+      "reason": "标题仅“分公司专业岗”，无任何职能或行业线索，无法判断职业方向。"
+    },
+    {
+      "occupation_id": "TG-60f23673d981c0d5636a",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "工程师实习生",
+      "level_3_evidence": null,
+      "reason": "标题仅“工程师实习生”，未说明工程领域（软件、硬件、机械等），无法确定具体职能。"
+    },
+    {
+      "occupation_id": "TG-d456a4b44717115f895a",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "总行管培生(综合方向)",
+      "level_3_evidence": null,
+      "reason": "标题明确为“管培生”且“综合方向”，符合跨职能管理培训与轮岗定义，最终职业方向未明确。"
+    },
+    {
+      "occupation_id": "TG-1149c9d9187eccaec25e",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "海外管培生",
+      "level_3_evidence": null,
+      "reason": "标题为“海外管培生”，属于管理培训生项目，未明确具体职能方向，符合跨职能管理培训与轮岗。"
+    },
+    {
+      "occupation_id": "TG-bd032be738e25c1aa2de",
+      "status": "mapped",
+      "target_category_id": "L13-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01"
+      ],
+      "title_evidence": "营销管培生（电子信息工程、计算机、材料、生物医药、通信、机械等理工科专业优先）",
+      "level_3_evidence": null,
+      "reason": "标题明确“营销管培生”，核心职能为营销/销售，虽为管培生但已明确专业职能，应归销售类；客户类型未说明，归通用销售。"
+    },
+    {
+      "occupation_id": "TG-bec5456690815cd07218",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L20-11",
+        "L32-01"
+      ],
+      "title_evidence": "福州分行培训生",
+      "level_3_evidence": null,
+      "reason": "标题仅“分行培训生”，未说明具体业务条线或职能，无法确定是金融业务还是跨职能轮岗。"
+    },
+    {
+      "occupation_id": "TG-952963d91f664197b649",
+      "status": "mapped",
+      "target_category_id": "L20-08",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01"
+      ],
+      "title_evidence": "昆明分行运营培训生",
+      "level_3_evidence": null,
+      "reason": "标题明确“运营培训生”，银行运营通常指柜面、交易后台、清算等金融运营业务，归金融运营与交易清算。"
+    },
+    {
+      "occupation_id": "TG-8d80e507401f8f6a284d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L04-04",
+        "L16-01",
+        "L23-10"
+      ],
+      "title_evidence": "样品专员",
+      "level_3_evidence": null,
+      "reason": "标题“样品专员”可能涉及样品管理、检测或采购，但未明确具体职能，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-064b507e5e95bff5f5fa",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L05-07",
+        "L06-09"
+      ],
+      "title_evidence": "高级应用工程师",
+      "level_3_evidence": null,
+      "reason": "标题“高级应用工程师”未说明应用领域（软件、硬件、工业等），无法确定具体职能。"
+    },
+    {
+      "occupation_id": "TG-c41ee54aefb19f966549",
+      "status": "mapped",
+      "target_category_id": "L02-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-03"
+      ],
+      "title_evidence": "架构数据分析工程师",
+      "level_3_evidence": null,
+      "reason": "标题含“数据分析”，核心职能为数据分析；虽含“架构”但未明确数据平台开发，归数据分析。"
+    },
+    {
+      "occupation_id": "TG-82c47db78df401029d7f",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [],
+      "title_evidence": "总监/经理",
+      "level_3_evidence": null,
+      "reason": "标题仅“总监/经理”，无行业或职能线索，无法判断职业方向。"
+    },
+    {
+      "occupation_id": "TG-a0fb0910f79fb1a3034c",
+      "status": "mapped",
+      "target_category_id": "L32-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [],
+      "title_evidence": "锦英管培生",
+      "level_3_evidence": null,
+      "reason": "标题为“锦英管培生”，属于管理培训生项目，未明确具体职能方向，符合跨职能管理培训与轮岗。"
+    },
+    {
+      "occupation_id": "TG-5adee72634f1bb06051d",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L06-09",
+        "L08-02",
+        "L09-03"
+      ],
+      "title_evidence": "产品研发设计岗",
+      "level_3_evidence": null,
+      "reason": "标题“产品研发设计岗”可能涉及实体产品研发或设计，但未说明产品类型和具体职能，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-fb6ebb769abf42657dfb",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L25-04",
+        "L23-10"
+      ],
+      "title_evidence": "全能值班员",
+      "level_3_evidence": null,
+      "reason": "标题“全能值班员”可能指能源设施运行值班或生产值班，但未明确行业和具体职责，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-48531267c9e63d452d56",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L14-10",
+        "L03-06",
+        "L24-12"
+      ],
+      "title_evidence": "驻场专员（2人）",
+      "level_3_evidence": null,
+      "reason": "标题“驻场专员”未说明驻场场景和具体职责，可能涉及售后技术支持、IT支持或物业设施管理，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-556362a691b14f6e726f",
+      "status": "mapped",
+      "target_category_id": "L02-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01"
+      ],
+      "title_evidence": "AI+FINTECH 培训生",
+      "level_3_evidence": null,
+      "reason": "标题明确“AI+FINTECH”，核心职能为人工智能与金融科技，但未说明具体技术方向，归通用数据与人工智能工作。"
+    },
+    {
+      "occupation_id": "TG-d71081e18b592a4a93ee",
+      "status": "mapped",
+      "target_category_id": "L13-04",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01"
+      ],
+      "title_evidence": "商务BD管培生",
+      "level_3_evidence": null,
+      "reason": "标题明确“商务BD”，核心职能为商务拓展与合作，虽为管培生但已明确专业职能，归商务拓展与合作。"
+    },
+    {
+      "occupation_id": "TG-5967c4816f2fce0fcd65",
+      "status": "mapped",
+      "target_category_id": "L20-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L02-01"
+      ],
+      "title_evidence": "分析师助理（实习生）",
+      "level_3_evidence": null,
+      "reason": "标题“分析师助理”未说明分析领域，但结合常见语境多指金融/投资分析，且“助理”不替代专业职能，归投资研究与分析。"
+    },
+    {
+      "occupation_id": "TG-88d55a17f1680d03e4ff",
+      "status": "mapped",
+      "target_category_id": "L01-11",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L05-01"
+      ],
+      "title_evidence": "硬件/软件开发工程师",
+      "level_3_evidence": null,
+      "reason": "标题含“软件开发”，核心职能为软件开发，但未说明具体方向，归通用软件研发；硬件部分为并列选项，不改变主归属。"
+    },
+    {
+      "occupation_id": "TG-a71532d691ae7e8cee51",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L18-03",
+        "L22-10"
+      ],
+      "title_evidence": "综合培训岗",
+      "level_3_evidence": null,
+      "reason": "标题“综合培训岗”可能指企业内部培训或外部教学培训，但未明确场景，无法唯一确定。"
+    },
+    {
+      "occupation_id": "TG-8758db5b5a08c5214ab7",
+      "status": "mapped",
+      "target_category_id": "L13-01",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01"
+      ],
+      "title_evidence": "天津分行公司业务培训生",
+      "level_3_evidence": null,
+      "reason": "标题明确“公司业务培训生”，银行公司业务通常指企业客户业务，核心职能为企业客户销售/服务，归企业客户销售。"
+    },
+    {
+      "occupation_id": "TG-d260f8b7349f7d47289f",
+      "status": "mapped",
+      "target_category_id": "L02-09",
+      "target_level": "level_2",
+      "candidate_category_ids": [
+        "L32-01"
+      ],
+      "title_evidence": "AI管培生",
+      "level_3_evidence": null,
+      "reason": "标题明确“AI管培生”，核心职能为人工智能，但未说明具体技术方向，归通用数据与人工智能工作。"
+    },
+    {
+      "occupation_id": "TG-e292fd76ac9f668ea9e9",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L01-11",
+        "L05-07",
+        "L32-01"
+      ],
+      "title_evidence": "技术培训生",
+      "level_3_evidence": null,
+      "reason": "标题仅“技术培训生”，未说明技术领域（软件、硬件、工业等），无法确定具体职能。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 17634,
+    "cached_input_tokens": 17408,
+    "uncached_input_tokens": 226,
+    "output_tokens": 3123,
+    "reasoning_tokens": 0,
+    "total_tokens": 20757
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001959924
+  },
+  "response_metadata": {
+    "request_id": "3e71525c-16e8-4803-9fea-d6a703286feb",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791894902,
+    "finish_reason": "stop"
+  },
+  "attempts": 1
+}

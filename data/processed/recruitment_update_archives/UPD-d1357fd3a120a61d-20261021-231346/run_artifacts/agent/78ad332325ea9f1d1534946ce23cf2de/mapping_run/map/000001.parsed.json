@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-78ad332325ea9f1d1534946ce23cf2de",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L32-01",
+        "L32-02",
+        "L13-04",
+        "L16-04"
+      ],
+      "title_evidence": "标题为“国际业务管培生”，含“管培生”培养性质，但“国际业务”未明确是商务拓展、外贸执行还是其他职能",
+      "level_3_evidence": null,
+      "reason": "管培生身份明确，但“国际业务”方向模糊，可能对应跨职能轮岗培养（L32-01/02），也可能偏向商务拓展（L13-04）或进出口贸易执行（L16-04），无法唯一确定正式目标，需人工复核。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16979,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 339,
+    "output_tokens": 180,
+    "reasoning_tokens": 0,
+    "total_tokens": 17159
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00041754000000000004
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

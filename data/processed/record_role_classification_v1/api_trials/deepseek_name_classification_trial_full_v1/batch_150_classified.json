@@ -1,0 +1,340 @@
+{
+  "schema_version": "deepseek-name-classification-trial-batch-v1",
+  "batch_number": 150,
+  "processing_method": "deepseek_api_name_only",
+  "prompt_profile": "full_v4",
+  "model_requested": "deepseek-flash",
+  "response_metadata": {
+    "request_id": "60635926-d14e-4648-b0de-61dbcfa2b908",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791751592,
+    "finish_reason": "stop"
+  },
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "source_v4_path": "data\\processed\\record_role_classification_v1\\name_registry\\standard_occupation_to_original_names_final_deterministic_v4.json",
+  "taxonomy_path": "data\\processed\\record_role_classification_v1\\catalog_mappings\\taxonomy_embedding_texts_v1.json",
+  "batch_input_count": 50,
+  "usage": {
+    "input_tokens": 25021,
+    "cached_input_tokens": 23296,
+    "uncached_input_tokens": 1725,
+    "output_tokens": 3466,
+    "reasoning_tokens": 0,
+    "total_tokens": 28487
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.002408238
+  },
+  "observed_at_utc": "2026-10-11T20:46:32.712880+00:00",
+  "results": [
+    {
+      "occupation_id": "SNO-e3f98b643210947ceed6",
+      "target_category_id": "影视/传媒/media-film/film-production",
+      "status": "mapped",
+      "reason": "媒资专员负责媒体资产管理，属于影视媒体制作范畴。"
+    },
+    {
+      "occupation_id": "SNO-d13d2001ea4fac1ffe3b",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-mobile",
+      "status": "mapped",
+      "reason": "终端软件工程师通常指移动端或客户端开发。"
+    },
+    {
+      "occupation_id": "SNO-4834d93708ec45994e79",
+      "target_category_id": "供应链/物流/supply-chain/supply-chain-planning",
+      "status": "mapped",
+      "reason": "物流解决方案工程师涉及供应链计划与优化。"
+    },
+    {
+      "occupation_id": "SNO-560a8304396e5cb05fb8",
+      "target_category_id": "房地产/建筑/estate-worker/construction-worker-structural",
+      "status": "mapped",
+      "reason": "土建施工员属于建筑施工现场管理。"
+    },
+    {
+      "occupation_id": "SNO-171ecf460312dfc60c22",
+      "target_category_id": "医疗健康/health-biomedicine/biomedicine-production",
+      "status": "mapped",
+      "reason": "发酵技术员属于生物医药生产工艺。"
+    },
+    {
+      "occupation_id": "SNO-7f225f96fe4951296aea",
+      "target_category_id": "运营/客服/ops-category/category-ops-planning",
+      "status": "mapped",
+      "reason": "类目运营负责品类规划与选品。"
+    },
+    {
+      "occupation_id": "SNO-9445780d344f03c14082",
+      "target_category_id": "互联网/AI/internet-project-management/project-delivery",
+      "status": "mapped",
+      "reason": "SAP实施运维顾问属于企业软件项目交付与实施。"
+    },
+    {
+      "occupation_id": "SNO-5bc213b154ef54c39905",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明确列出游戏客户端和后端开发两个独立职业方向。"
+    },
+    {
+      "occupation_id": "SNO-7ae76591c6ed9eafa873",
+      "target_category_id": "生产制造/manufacturing-mechanical/mechanical-design",
+      "status": "mapped",
+      "reason": "工艺管道设计属于机械设计制造领域。"
+    },
+    {
+      "occupation_id": "SNO-d64ff9df5332ca3a60b2",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称仅为“实习”，缺少具体职业方向信息。"
+    },
+    {
+      "occupation_id": "SNO-21709f3a4a0727bc11b9",
+      "target_category_id": "生产制造/manufacturing-quality/quality-control",
+      "status": "mapped",
+      "reason": "质量工程师属于质量管理与检验控制。"
+    },
+    {
+      "occupation_id": "SNO-687fadd679e39d84c4ad",
+      "target_category_id": "设计/design-visual-interaction/design-visual",
+      "status": "mapped",
+      "reason": "造型色彩设计师属于视觉设计范畴。"
+    },
+    {
+      "occupation_id": "SNO-cc15d9fdf28805f8aa86",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-process",
+      "status": "mapped",
+      "reason": "PDK工程师属于半导体芯片制造工艺。"
+    },
+    {
+      "occupation_id": "SNO-9caefc30b8f4de677d59",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "MOSFET研发工程师属于半导体芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-2bd01691c23f4d95e3e2",
+      "target_category_id": "电子/电气/通信/electronic-communication/telecom-wireless",
+      "status": "mapped",
+      "reason": "天线系统设计工程师属于无线通信系统研发。"
+    },
+    {
+      "occupation_id": "SNO-8572986e3fb041691034",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-control",
+      "status": "mapped",
+      "reason": "中压一次开关柜研发属于电气控制与自动化设计。"
+    },
+    {
+      "occupation_id": "SNO-e4d341f4cd2afe6354f7",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-maintenance",
+      "status": "mapped",
+      "reason": "设备专训生通常培养设备维修与操作技能。"
+    },
+    {
+      "occupation_id": "SNO-6188b688da95bdd4b0af",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "银行运营培训生属于零售与综合银行业务。"
+    },
+    {
+      "occupation_id": "SNO-82bfa90e2cb66ca88ab3",
+      "target_category_id": "生产制造/manufacturing-technician/skilled-worker-machining",
+      "status": "mapped",
+      "reason": "冷作工艺属于机械加工与设备操作。"
+    },
+    {
+      "occupation_id": "SNO-fcef3f597397a02da515",
+      "target_category_id": "电子/电气/通信/electronic-hardware/hardware-dev-embedded",
+      "status": "mapped",
+      "reason": "ISP工程师通常涉及图像信号处理，属于嵌入式与固件开发。"
+    },
+    {
+      "occupation_id": "SNO-7b239579b9b48beaf8e6",
+      "target_category_id": "医疗健康/health-pharma-production/pharma-manufacturing-process",
+      "status": "mapped",
+      "reason": "医药管培生通常培养药品生产与工艺管理。"
+    },
+    {
+      "occupation_id": "SNO-09437c473ce14038bfda",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "物理实验教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-632c776a00078640b630",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "分行营销培训生属于银行零售与综合业务。"
+    },
+    {
+      "occupation_id": "SNO-ba5c645992fb5358538e",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "电芯工艺技术员属于生产制造工艺与计划。"
+    },
+    {
+      "occupation_id": "SNO-8c4f744aff124269939c",
+      "target_category_id": "金融/financial-securities/securities-trading",
+      "status": "mapped",
+      "reason": "股票交易属于证券交易与运营。"
+    },
+    {
+      "occupation_id": "SNO-5ef0475bac2edfd3fb72",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "采购开发管培生属于供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-4fea38ae4d4726e8907e",
+      "target_category_id": "金融/financial-risk/finance-control-risk",
+      "status": "mapped",
+      "reason": "反欺诈情报分析师属于金融风险与合规管理。"
+    },
+    {
+      "occupation_id": "SNO-b2009b347d6f2df01e70",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "预测规划算法工程师属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-278245e8f5d9b8ceae0f",
+      "target_category_id": "采购/贸易/trade-procurement/procurement-sourcing",
+      "status": "mapped",
+      "reason": "战略采购属于供应商开发与寻源。"
+    },
+    {
+      "occupation_id": "SNO-2ae88db82498c1fd1349",
+      "target_category_id": "电子/电气/通信/electronic-semiconductor/chip-design",
+      "status": "mapped",
+      "reason": "MEMS工程师属于半导体芯片设计。"
+    },
+    {
+      "occupation_id": "SNO-9d6b687c36f1f9fc2287",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "客户营销属于客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-18aad7cb2376beda8c29",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "业务储备生属于银行零售与综合业务。"
+    },
+    {
+      "occupation_id": "SNO-b00545bd43296c3bc727",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称“U培生”含义不明确，缺少具体职业方向。"
+    },
+    {
+      "occupation_id": "SNO-86056cd39fd2d4f6f447",
+      "target_category_id": "市场/公关/广告/marketing-general/marketing-brand",
+      "status": "mapped",
+      "reason": "市场运营与品牌公关专员属于品牌与市场策略。"
+    },
+    {
+      "occupation_id": "SNO-a4c261b985e773fff063",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "变电/接触网检修员属于自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-0a71166f7c8cb9ef6f34",
+      "target_category_id": "教育培训/edu-teacher/teacher-k12",
+      "status": "mapped",
+      "reason": "高中语文教师属于基础教育教学。"
+    },
+    {
+      "occupation_id": "SNO-9473f894d9a3f4a3dd13",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "创新行业经理属于客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-ae867c0035d33782620c",
+      "target_category_id": "教育培训/edu-assistant/teaching-assistant-classroom",
+      "status": "mapped",
+      "reason": "辅导老师属于课堂与作业辅导。"
+    },
+    {
+      "occupation_id": "SNO-4d9bf7506fe4f1f030cf",
+      "target_category_id": "电子/电气/通信/electronic-automation/automation-equipment",
+      "status": "mapped",
+      "reason": "标准产品调试工程师属于自动化设备与现场调试。"
+    },
+    {
+      "occupation_id": "SNO-df9221e0ae31be595b67",
+      "target_category_id": "互联网/AI/internet-machine-learning/ml-deep",
+      "status": "mapped",
+      "reason": "AI助理研究员属于深度学习与模型训练。"
+    },
+    {
+      "occupation_id": "SNO-72ed531f776136a189ff",
+      "target_category_id": "互联网/AI/internet-frontend-mobile/frontend-web",
+      "status": "mapped",
+      "reason": "前端设计属于Web与前端开发。"
+    },
+    {
+      "occupation_id": "SNO-3bb9060dc3c40979b5c8",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-research",
+      "status": "mapped",
+      "reason": "CAD/CAM软件算法工程师属于算法研究与通用算法。"
+    },
+    {
+      "occupation_id": "SNO-73019a6f9547e4c35a7b",
+      "target_category_id": "汽车/auto-rd-manufacturing/automotive-rd-rd",
+      "status": "mapped",
+      "reason": "车门设计属于汽车整车与零部件研发。"
+    },
+    {
+      "occupation_id": "SNO-1f962984f350640928db",
+      "target_category_id": "金融/financial-banking/bank-retail",
+      "status": "mapped",
+      "reason": "公司业务培训生属于银行零售与综合业务。"
+    },
+    {
+      "occupation_id": "SNO-1902782fbba51ee1f94d",
+      "target_category_id": "互联网/AI/internet-security/security-network",
+      "status": "mapped",
+      "reason": "网络安全专员属于网络与基础设施安全。"
+    },
+    {
+      "occupation_id": "SNO-530dfd90e1d401b9aa84",
+      "target_category_id": "销售/sales-general/general-sales-customer",
+      "status": "mapped",
+      "reason": "政企大客户经理属于客户开发与直销。"
+    },
+    {
+      "occupation_id": "SNO-3742f7d62b5175d37936",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明确列出审计和税务两个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-bd8fb8a784b09b92f55c",
+      "target_category_id": null,
+      "status": "multi_role",
+      "reason": "名称明确列出综合柜员和客户经理两个独立职业。"
+    },
+    {
+      "occupation_id": "SNO-f9646903d3f38c4e8c6d",
+      "target_category_id": null,
+      "status": "review",
+      "reason": "名称“团队搭建”含义模糊，缺少具体职业信息。"
+    },
+    {
+      "occupation_id": "SNO-04664547e29f98815c20",
+      "target_category_id": "生产制造/manufacturing-operations/manufacturing-ops-planning",
+      "status": "mapped",
+      "reason": "生产工艺技术员属于生产计划与调度。"
+    }
+  ]
+}

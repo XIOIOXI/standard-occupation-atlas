@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_002_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-09b70120c117f7063fcc",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "“平度办事处业务”仅表明办事处业务身份，未说明销售、运营或其他具体职能，无可用职能线索，维持 unresolved。"
+    },
+    {
+      "occupation_id": "SNO-f7538f218c7f1dfd7fc7",
+      "verdict": "pass",
+      "suggested_target_category_id": "L13-07",
+      "issue": "“客户主管”可合理理解为客户销售团队管理，归销售管理 L13-07 有标题依据且符合目录范围。"
+    },
+    {
+      "occupation_id": "SNO-9e0e40d2e6771547d880",
+      "verdict": "pass",
+      "suggested_target_category_id": "L12-02",
+      "issue": "标题明确含品牌职能，品牌管理 L12-02 为直接归属，符合目录范围。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11455,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 703,
+    "output_tokens": 203,
+    "reasoning_tokens": 0,
+    "total_tokens": 11658
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.000259506
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

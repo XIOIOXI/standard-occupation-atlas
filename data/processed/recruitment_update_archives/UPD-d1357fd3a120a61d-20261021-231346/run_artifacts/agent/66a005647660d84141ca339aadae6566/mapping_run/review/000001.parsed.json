@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-66a005647660d84141ca339aadae6566",
+      "verdict": "pass",
+      "suggested_target_category_id": "L09-01",
+      "issue": "平面设计实习生归入视觉与品牌设计（L09-01）合理，方向明确，无三级细分，映射正确。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 17036,
+    "cached_input_tokens": 16512,
+    "uncached_input_tokens": 524,
+    "output_tokens": 89,
+    "reasoning_tokens": 0,
+    "total_tokens": 17125
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.000363072
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

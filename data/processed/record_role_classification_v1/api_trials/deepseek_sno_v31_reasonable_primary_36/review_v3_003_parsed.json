@@ -1,0 +1,43 @@
+{
+  "raw_response_file": "review_v3_003_raw_response.json",
+  "results": [
+    {
+      "occupation_id": "SNO-b34d318554be524ed36a",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-01",
+      "issue": "标题含“运营”，IP指向内容/数字产品运营，管培生为培养身份修饰，归产品与平台运营有标题依据且符合目录范围。"
+    },
+    {
+      "occupation_id": "SNO-40221954ae855fa39330",
+      "verdict": "unresolved",
+      "suggested_target_category_id": null,
+      "issue": "“技能操作”未说明行业或具体工种，无法确定生产制造或生活服务等方向，无可用职能线索。"
+    },
+    {
+      "occupation_id": "SNO-2e6e48e3280e8474a2ea",
+      "verdict": "pass",
+      "suggested_target_category_id": "L14-01",
+      "issue": "标题明确为运营职能，技术修饰指向数字产品/平台技术运营，归产品与平台运营有标题依据且符合目录范围。"
+    }
+  ],
+  "usage": {
+    "input_tokens": 11413,
+    "cached_input_tokens": 10752,
+    "uncached_input_tokens": 661,
+    "output_tokens": 208,
+    "reasoning_tokens": 0,
+    "total_tokens": 11621
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00025620600000000003
+  },
+  "attempts": 1,
+  "post_processing": "nullable_empty_string_to_null"
+}

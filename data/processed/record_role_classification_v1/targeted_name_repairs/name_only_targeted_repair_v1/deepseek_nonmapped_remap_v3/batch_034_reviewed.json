@@ -1,0 +1,185 @@
+{
+  "batch_number": 34,
+  "processing_method": "deepseek_api_name_only_nonmapped_remap",
+  "model_requested": "deepseek-flash",
+  "batch_input_count": 25,
+  "attempts": 1,
+  "validation_retry_count": 0,
+  "response_metadata": {
+    "request_id": "f5f130ba-7090-4908-82b1-8586f1f2e17e",
+    "model": "deepseek-flash",
+    "object": "chat.completion",
+    "created": 1791821861,
+    "finish_reason": "stop"
+  },
+  "usage": {
+    "input_tokens": 29512,
+    "cached_input_tokens": 27392,
+    "uncached_input_tokens": 2120,
+    "output_tokens": 1346,
+    "reasoning_tokens": 0,
+    "total_tokens": 30858
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.001207776
+  },
+  "results": [
+    {
+      "entry_id": "SNO-5f71ae1e34740c1580ca",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "开发工程师未指明技术栈或方向，无法确定具体三级类别，但可确认属于互联网/AI开发领域。"
+    },
+    {
+      "entry_id": "SNO-5f73f2b29e081cc4419d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "策划管培生未说明策划领域，且管培生为培养身份而非职业，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-5f7c9327a4696f61097d",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "应用工程师涵盖生命科学、理化、数字化多个方向，职责范围不明确，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-5fdac66fdd7a70a46dde",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "驻场专员缺少行业和职能信息，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-5ff652a9306ff4c140ae",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "高训中心工作人员仅表明工作机构，未明确具体职业职责，无法判断归属。"
+    },
+    {
+      "entry_id": "SNO-601ff6332c293473bc24",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "AI工具链编译器开发工程师核心为编译器与底层系统开发，符合系统与底层开发。"
+    },
+    {
+      "entry_id": "SNO-603205576ec73f974655",
+      "status": "multi_role",
+      "target_category_id": "咨询/翻译/法律",
+      "reason": "名称列出电学专利代理师、机械专利代理师、涉外专利代理师、律师助理等多个独立职业，共同上级可确认至咨询/翻译/法律。"
+    },
+    {
+      "entry_id": "SNO-603ef16103428a0ac53e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "监测员(B)缺少行业与监测对象信息，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-6042c596405dc994d30b",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-algorithm/algorithm-llm",
+      "reason": "Agent应用指基于大模型/智能体的应用开发，符合大模型与生成式AI。"
+    },
+    {
+      "entry_id": "SNO-604f9868696e8f7fdf45",
+      "status": "review",
+      "target_category_id": "市场/公关/广告",
+      "reason": "市场与品牌部管培生可确认属于市场/公关/广告领域，但未指明具体细分方向。"
+    },
+    {
+      "entry_id": "SNO-6067536cf747ac5c3e16",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "数字化建设管理范围宽泛，缺少具体技术或业务方向，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-60877606fb1b029db1f6",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "方向管培生未明确具体方向，且管培生为培养身份，无法确定职业类别。"
+    },
+    {
+      "entry_id": "SNO-60cb096ff84425482b5b",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "数字智能化管理职责宽泛，缺少具体技术或管理方向，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-60d8fe8bb06bae38b858",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "研发与工艺类管培生未明确行业或技术方向，缺少具体研发领域信息。"
+    },
+    {
+      "entry_id": "SNO-60fdd9f2c93cf5680ca9",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "立用工程师名称疑似截断或错字，无法判断具体职业。"
+    },
+    {
+      "entry_id": "SNO-6114bed19302d9c4c318",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "个人IP业务职责不明确，可能涉及运营、市场或销售，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-6129274cd53c78fe89f7",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "智慧水利名称宽泛，缺少具体技术或工程方向信息，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-612ae6923b3ab0367b9e",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "科技风险管理可能属于金融风控、IT安全或合规，名称未明确行业或技术方向，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-620962fedc9be59e757f",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "工程工程师名称过于宽泛，缺少具体工程领域信息，无法确定细分方向。"
+    },
+    {
+      "entry_id": "SNO-621fadb9bee70f5fda68",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "指挥系统设计方向不明确，缺少具体技术领域信息，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-6220253d68fdb3972993",
+      "status": "mapped",
+      "target_category_id": "互联网/AI/internet-cpp/cpp-system",
+      "reason": "编译软件工程师核心为编译器与底层系统开发，符合系统与底层开发。"
+    },
+    {
+      "entry_id": "SNO-625814c8c945a9a31648",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "大健康类为行业领域名称，缺少具体职业职能，无法确定分类。"
+    },
+    {
+      "entry_id": "SNO-62623c228fcc46ce5d3c",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "助理软件工程师未明确技术栈或开发方向，无法确定三级类别，但可确认属于互联网/AI开发领域。"
+    },
+    {
+      "entry_id": "SNO-6274dc1dd7b2cf0c5479",
+      "status": "review",
+      "target_category_id": null,
+      "reason": "助理研究员岗2缺少研究领域信息，无法确定类别。"
+    },
+    {
+      "entry_id": "SNO-62c34767cc8fe09c4446",
+      "status": "review",
+      "target_category_id": "互联网/AI",
+      "reason": "(助理)软件工程师未明确技术栈或开发方向，无法归入具体三级类别，但可确认属于互联网/AI开发领域。"
+    }
+  ]
+}

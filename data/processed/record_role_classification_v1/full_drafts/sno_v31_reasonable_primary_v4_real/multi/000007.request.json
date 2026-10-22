@@ -1,0 +1,46 @@
+{
+  "prompt_version": "sno-v3.1-reasonable-primary-v3-full",
+  "body_without_key": {
+    "model": "deepseek-flash",
+    "messages": [
+      {
+        "role": "system",
+        "content": "多岗位判别JSON results: original_record_id,case(A|B|C|D),child_titles(字符串数组),source_spans([{text,start,end}]),reason。仅A拆分；斜杠顿号多词不能单独证明A；Unicode start含end不含，切片必须等于text；B/C/D子岗位为空。"
+      },
+      {
+        "role": "user",
+        "content": "{\"records\": [{\"original_record_id\": \"TG-c4b8d693ccc1ad45699a\", \"title\": \"项目管理运营管理客户管理资产管理人力资源法务管理财务管理\"}, {\"original_record_id\": \"TG-1f3ab84fba3100ba254a\", \"title\": \"各县市区分公司金融网点柜员/客户经理\"}, {\"original_record_id\": \"TG-e5ffa8f6e2c1916afc0e\", \"title\": \"新媒体和电商运营岗\"}, {\"original_record_id\": \"TG-e54c7a65b3e057157880\", \"title\": \"充电桩结构/测试工程师\"}, {\"original_record_id\": \"TG-5d9bd7f162ed1ef363af\", \"title\": \"科技培养生（新技术研发、前后端开发、大数据应用、人工智能、算法模型）\"}, {\"original_record_id\": \"TG-bdfe9de85d83ef1afc3b\", \"title\": \"算法/软件/控制工程师\"}, {\"original_record_id\": \"TG-49a0ce96affe1cecefef\", \"title\": \"生产经营开发岗位（消防工程，安全工程（消防方向）, 会计学，税收学，审计学，金融学，财......\"}, {\"original_record_id\": \"TG-c73beba9ad121f7706a5\", \"title\": \"分析技术员 测试技术员 工艺技术员 质量技术员\"}, {\"original_record_id\": \"TG-15fd8cd7f875b6f39ee1\", \"title\": \"财务管理/审计\\\\\\\\材料类\"}, {\"original_record_id\": \"TG-fd986517d97e49158b0a\", \"title\": \"技术&研发类 销售类 市场类 职能类 产品类 管培生类\"}, {\"original_record_id\": \"TG-05d506919ed0ef05a4f5\", \"title\": \"驻省分财务BP网络与信息安全工程师\"}, {\"original_record_id\": \"TG-9de0ebc0b322fdafd162\", \"title\": \"新媒体运营（商务BD方向）（15名）\"}, {\"original_record_id\": \"TG-e8a5652fb754268f2bb4\", \"title\": \"合成/制剂/中药工艺研究员\"}, {\"original_record_id\": \"TG-b74cf85acf361ba5c565\", \"title\": \"质量（QE）工程师/测量工程师\"}, {\"original_record_id\": \"TG-bcc4e45241ab8d0482d0\", \"title\": \"产品市场 / 运营\"}, {\"original_record_id\": \"TG-dab859fa587c46b26a5d\", \"title\": \"金融/市场/物流岗\"}, {\"original_record_id\": \"TG-08d319e293de20dbc1be\", \"title\": \"总部管培生(商品类、运营类、设计类、技术类、供应链类职能类)\"}, {\"original_record_id\": \"TG-84902c450abbb91fada7\", \"title\": \"信息科技类校招生市场营销类校招生\"}, {\"original_record_id\": \"TG-9f180980b6325622924d\", \"title\": \"软件/硬件研发工程师\"}, {\"original_record_id\": \"TG-eb2a76a07f1c1c04e3cb\", \"title\": \"AI+能源算法/产品/解决方案工程师\"}]}"
+      }
+    ],
+    "response_format": {
+      "type": "json_object"
+    },
+    "thinking": {
+      "type": "disabled"
+    },
+    "temperature": 0,
+    "max_tokens": 6000
+  },
+  "input_ids": [
+    "TG-c4b8d693ccc1ad45699a",
+    "TG-1f3ab84fba3100ba254a",
+    "TG-e5ffa8f6e2c1916afc0e",
+    "TG-e54c7a65b3e057157880",
+    "TG-5d9bd7f162ed1ef363af",
+    "TG-bdfe9de85d83ef1afc3b",
+    "TG-49a0ce96affe1cecefef",
+    "TG-c73beba9ad121f7706a5",
+    "TG-15fd8cd7f875b6f39ee1",
+    "TG-fd986517d97e49158b0a",
+    "TG-05d506919ed0ef05a4f5",
+    "TG-9de0ebc0b322fdafd162",
+    "TG-e8a5652fb754268f2bb4",
+    "TG-b74cf85acf361ba5c565",
+    "TG-bcc4e45241ab8d0482d0",
+    "TG-dab859fa587c46b26a5d",
+    "TG-08d319e293de20dbc1be",
+    "TG-84902c450abbb91fada7",
+    "TG-9f180980b6325622924d",
+    "TG-eb2a76a07f1c1c04e3cb"
+  ]
+}

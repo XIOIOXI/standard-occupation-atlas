@@ -1,0 +1,28 @@
+{
+  "id": "cac68d49-93d8-425e-9774-402b28622861",
+  "object": "chat.completion",
+  "created": 1792571902,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"type\":\"json_object\",\"records\":[{\"occupation_id\":\"UP-2a62ac4e4fadf1d8ab2afb9501bb8b50\",\"verdict\":\"pass\",\"suggested_target_category_id\":\"L23-01\",\"issue\":\"生产计划工程师归L23-01生产计划与现场管理合理；与L16-03需求与物料计划存在边界，但生产排产更贴近L23-01，可接受。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 17036,
+    "completion_tokens": 101,
+    "total_tokens": 17137,
+    "prompt_tokens_details": {
+      "cached_tokens": 16512
+    },
+    "prompt_cache_hit_tokens": 16512,
+    "prompt_cache_miss_tokens": 524
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

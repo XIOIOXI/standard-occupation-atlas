@@ -1,0 +1,28 @@
+{
+  "id": "b10c5bb8-acf5-46c2-a56c-1eff38591a8e",
+  "object": "chat.completion",
+  "created": 1792571590,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-d595a369c7ebdaa97e867f6f8e0ff34b\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L32-01\",\"L32-02\",\"L13-05\",\"L13-07\"],\"title_evidence\":\"零售管培生RMT，含零售与管培生字样，但未说明具体职能方向\",\"level_3_evidence\":null,\"reason\":\"零售管培生属于培养项目，最终职能方向未明确；零售可能指向门店销售/零售管理，但无直接证据确定具体职能，按规则不得仅凭管培推断，标review并给出跨职能培养与零售销售管理候选。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16984,
+    "completion_tokens": 164,
+    "total_tokens": 17148,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 344
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

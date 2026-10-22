@@ -1,0 +1,781 @@
+{
+  "batch_id": "UPD-928edbafddb766be",
+  "source_file_name": "WEB-3d795a30385b.csv",
+  "source_checksum": "2968b06465148ddaeafe8b612711323a376ab29c66a0aeafc3c4b9f46025893f",
+  "baseline_snapshot_id": "all-imported-snapshots:2",
+  "created_at": "2026-10-21T08:11:35.261998+00:00",
+  "mapping_mode": "cached",
+  "status": "completed",
+  "counts": {
+    "new_atomic_jobs": 16,
+    "involved_recruitment_records": 11,
+    "duplicate_atomic_jobs_within_file": 1,
+    "classified": 0,
+    "pending": 16,
+    "failed": 0,
+    "reused_classification": 0,
+    "model_classification_requested": 0,
+    "agent_tool_calls": 28
+  },
+  "items": [
+    {
+      "atomic_key": "798fbfc6731c270cc16c2171bb4f45a6",
+      "source_record_key": "9871e2e7f93d606b50990d61a3801283",
+      "source_record_id": "edd7605ddc8e53f9348ab76a",
+      "title_unit": "市场运营类（市场营销、营销策划、政企业务拓展类、集客客户经理、投资运营类等）",
+      "raw_job_title": "网络技术类（网络维护、通信技术、前端运维、规划设计、软件开发、数据分析、开发工程师、支撑工程师等）、市场运营类（市场营销、营销策划、政企业务拓展类、集客客户经理、投资运营类等）、媒体运营类、职能管理类......",
+      "company_name": "中国广电山东网络有限公司",
+      "company_type": "央国企",
+      "location": "青岛, 淄博, 济南, 全国多地",
+      "industry_category": "电子/通信/半导体",
+      "recruitment_session": "2027届, 2026届, 2025届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "http://gzw.shandong.gov.cn/articles/ch00223/202610/933ee398-2f4d-4260-a98c-97f53e3e36e3.html",
+      "announcement_url": "http://gzw.shandong.gov.cn/articles/ch00223/202610/933ee398-2f4d-4260-a98c-97f53e3e36e3.html",
+      "source_updated_at": "2026-10-10",
+      "updated_at_original_text": "2026/10/10",
+      "source_record_ids_in_file": [
+        "edd7605ddc8e53f9348ab76a"
+      ],
+      "agent_trace": [
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "a796909f0aa69d5f690dc194bf825060",
+      "source_record_key": "409e7d6f118e69ef4fd381c28f83adb3",
+      "source_record_id": "267b8497f104d7bbc0a11af8",
+      "title_unit": "管理培训生岗位",
+      "raw_job_title": "管理培训生岗,金融科技岗,系统管理岗,软件开发岗,纪检管理岗,诉讼管理岗,督导管理岗,反洗钱合规管理岗,远程服务专员岗,贷款放款人工审核岗,管理培训生岗位,金融科技类岗位,市场营销类岗位,柜面操作类岗",
+      "company_name": "中国光大银行",
+      "company_type": "银行",
+      "location": "北京, 天津, 石家庄, 呼和浩特, 沈阳, 大连, 长春, 上海, 南京, 无锡, 苏州, 杭州, 宁波, 合肥, 福州, 厦门",
+      "industry_category": "金融业",
+      "recruitment_session": "2027届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://eoap.cebbank.com/uiap/wt/CEB/zpzh/campus",
+      "announcement_url": "https://mp.weixin.qq.com/s/UtUf-pvzU30O1w3kPSU65g",
+      "source_updated_at": "2026-10-08",
+      "updated_at_original_text": "2026/10/08",
+      "source_record_ids_in_file": [
+        "267b8497f104d7bbc0a11af8"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "管理培训生岗",
+              "金融科技岗",
+              "系统管理岗",
+              "软件开发岗",
+              "纪检管理岗",
+              "诉讼管理岗",
+              "督导管理岗",
+              "反洗钱合规管理岗",
+              "远程服务专员岗",
+              "贷款放款人工审核岗",
+              "管理培训生岗位",
+              "柜面操作类岗"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "2c7b2f18e951e23e282c0822dc43a606",
+      "source_record_key": "a7d11606dd4e69657eb558ae2c78633c",
+      "source_record_id": "3916bde997c739ce0e1ed088",
+      "title_unit": "化学工程与工艺",
+      "raw_job_title": "未明确招聘岗位冶金工程、矿物加工工程、机械工程、机械设计制造及其自动化、电气工程及其自动化、无机非金属材料工程、化学工程与工艺、能源化学工程、铁道工程、人工智能、计算机科学与技术、给排水科学与工程",
+      "company_name": "泉州闽光",
+      "company_type": "央国企",
+      "location": "泉州",
+      "industry_category": "制造业",
+      "recruitment_session": "2027届, 2026届, 2025届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://mp.weixin.qq.com/s/hyVrntEg_KcPRg6yCidCZQ",
+      "announcement_url": "https://mp.weixin.qq.com/s/hyVrntEg_KcPRg6yCidCZQ",
+      "source_updated_at": "2026-10-02",
+      "updated_at_original_text": "2026/10/02",
+      "source_record_ids_in_file": [
+        "3916bde997c739ce0e1ed088"
+      ],
+      "agent_trace": [
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "c353c12b51aaa68d98db0510f460b33c",
+      "source_record_key": "62183be5187c710d0340cb94f0cf558a",
+      "source_record_id": "437aab26fa8d8431bc7608e1",
+      "title_unit": "生",
+      "raw_job_title": "博士管培生、资深应用工程师 (水产方向)、应用工程师 (分子生物学/微生物方向)、算法工程师、系统集成工程师、系统工程师、机械工程师、整机测试工程师、电子工程师、工艺工程师、工艺技术员、软件工程师、生",
+      "company_name": "瀚辰光翼",
+      "company_type": "民企",
+      "location": "成都",
+      "industry_category": "医疗/医药/生物",
+      "recruitment_session": "2027届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://s.xinrenxinshi.com/recruitGate/list#/ey=0ebdb204894d766d8f15cca7c83a574481c766",
+      "announcement_url": "https://mp.weixin.qq.com/s/zaXlK51Rfpu_LvtPEraJCQ",
+      "source_updated_at": "2026-10-01",
+      "updated_at_original_text": "2026/10/01",
+      "source_record_ids_in_file": [
+        "437aab26fa8d8431bc7608e1"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "博士管培生",
+              "资深应用工程师 (水产方向)",
+              "应用工程师 (分子生物学/微生物方向)",
+              "算法工程师",
+              "系统集成工程师",
+              "系统工程师",
+              "机械工程师",
+              "整机测试工程师",
+              "电子工程师",
+              "工艺工程师",
+              "工艺技术员",
+              "软件工程师",
+              "生"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "2b7355451e07ce8b0faa644e8ca7e3a8",
+      "source_record_key": "f64ede9740dafd3ac55214c7112b50ae",
+      "source_record_id": "5ecdaf20586a66013b54553e",
+      "title_unit": "会计学",
+      "raw_job_title": "融资助理经济学大类、会计学、财务管理、审计学、会计、审计",
+      "company_name": "南昌高投城市建设开发有限公司",
+      "company_type": "央国企",
+      "location": "南昌",
+      "industry_category": "房地产/建筑",
+      "recruitment_session": "2027届, 2026届, 2025届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://www.ncrczpw.com/kaoshi/489.html",
+      "announcement_url": "https://www.ncrczpw.com/kaoshi/489.html",
+      "source_updated_at": "2026-09-30",
+      "updated_at_original_text": "2026/09/30",
+      "source_record_ids_in_file": [
+        "5ecdaf20586a66013b54553e"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "融资助理经济学大类",
+              "会计学",
+              "审计学",
+              "会计",
+              "审计"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "e776c6bb313e52ae13b3c177dcefd60f",
+      "source_record_key": "f64ede9740dafd3ac55214c7112b50ae",
+      "source_record_id": "5ecdaf20586a66013b54553e",
+      "title_unit": "审计学",
+      "raw_job_title": "融资助理经济学大类、会计学、财务管理、审计学、会计、审计",
+      "company_name": "南昌高投城市建设开发有限公司",
+      "company_type": "央国企",
+      "location": "南昌",
+      "industry_category": "房地产/建筑",
+      "recruitment_session": "2027届, 2026届, 2025届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://www.ncrczpw.com/kaoshi/489.html",
+      "announcement_url": "https://www.ncrczpw.com/kaoshi/489.html",
+      "source_updated_at": "2026-09-30",
+      "updated_at_original_text": "2026/09/30",
+      "source_record_ids_in_file": [
+        "5ecdaf20586a66013b54553e"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "融资助理经济学大类",
+              "会计学",
+              "审计学",
+              "会计",
+              "审计"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "d1dbb8d67273b7d64646567c0b74a4c3",
+      "source_record_key": "d5f798dce69b865010d9916b8ae07dfd",
+      "source_record_id": "0dbb537326fabf6e0cbf5d47",
+      "title_unit": "未告知岗位",
+      "raw_job_title": "未告知岗位，电气工程、电力系统及其自动化、能源与动力工程、新能源科学与工程、热能工程、储能科学与工程、材料科学与工程、化学、机械工程、计算机科学与技术、软件工程、人工智能、控制科学与工程、数据科学与大......",
+      "company_name": "中国绿发",
+      "company_type": "央国企",
+      "location": "北京, 天津, 呼和浩特, 乌海, 鄂尔多斯, 朝阳, 吉林, 上海, 溧阳, 昆山, 泰州, 杭州, 福州, 济南, 海口",
+      "industry_category": "能源/化工/环保, 房地产/建筑",
+      "recruitment_session": "2027届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://zhaopin.cgdg.com/",
+      "announcement_url": "https://mp.weixin.qq.com/s/lRX70FAusNO_9Vntcfur3g",
+      "source_updated_at": "2026-09-30",
+      "updated_at_original_text": "2026/09/30",
+      "source_record_ids_in_file": [
+        "0dbb537326fabf6e0cbf5d47"
+      ],
+      "agent_trace": [
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "20e2a4bceda6dafd74e564f82ac9dccd",
+      "source_record_key": "86236f092d92cbf52766c095a1772d4a",
+      "source_record_id": "22004f525609cf71a043b03e",
+      "title_unit": "会计学",
+      "raw_job_title": "信息工程、车辆工程、机械电子工程、机械工艺技术、材料成型及控制工程、环境工程、会计学、财务管理、审计学、电气工程及其自动化、计算机科学与技术、软件工程、经济学、金融学、法学、工程管理、汉语言文学、新闻学、供应链管理、工业工程、通信工程、机械制造及其自动化",
+      "company_name": "陕西建设机械股份有限公司",
+      "company_type": "央国企",
+      "location": "西安",
+      "industry_category": "电子/通信/半导体, 制造业",
+      "recruitment_session": "2027届, 2025届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://webhr.shccig.com/zpApp/",
+      "announcement_url": "https://mp.weixin.qq.com/s/49gNqGrOUCwydjbYskiHeA",
+      "source_updated_at": "2026-09-24",
+      "updated_at_original_text": "2026/09/24",
+      "source_record_ids_in_file": [
+        "22004f525609cf71a043b03e"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "会计学",
+              "审计学"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "37e4043eb63cbb8980687c58ee2f631e",
+      "source_record_key": "86236f092d92cbf52766c095a1772d4a",
+      "source_record_id": "22004f525609cf71a043b03e",
+      "title_unit": "审计学",
+      "raw_job_title": "信息工程、车辆工程、机械电子工程、机械工艺技术、材料成型及控制工程、环境工程、会计学、财务管理、审计学、电气工程及其自动化、计算机科学与技术、软件工程、经济学、金融学、法学、工程管理、汉语言文学、新闻学、供应链管理、工业工程、通信工程、机械制造及其自动化",
+      "company_name": "陕西建设机械股份有限公司",
+      "company_type": "央国企",
+      "location": "西安",
+      "industry_category": "电子/通信/半导体, 制造业",
+      "recruitment_session": "2027届, 2025届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://webhr.shccig.com/zpApp/",
+      "announcement_url": "https://mp.weixin.qq.com/s/49gNqGrOUCwydjbYskiHeA",
+      "source_updated_at": "2026-09-24",
+      "updated_at_original_text": "2026/09/24",
+      "source_record_ids_in_file": [
+        "22004f525609cf71a043b03e"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "会计学",
+              "审计学"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "dfb37426e8b5c8094a8ce1ba05597fe8",
+      "source_record_key": "cf0659d8afb3626cfa674c05bf2c80e8",
+      "source_record_id": "cc2083e06904a2a19c188094",
+      "title_unit": "产品工程师",
+      "raw_job_title": "Product Engineer、产品工程师、Product Engineer-产品工程师-直播业务、Product Engineer-产品工程师-媒体服务",
+      "company_name": "小红书-设计岗位",
+      "company_type": "民企",
+      "location": "北京, 上海",
+      "industry_category": "文化/传媒/广告/体育",
+      "recruitment_session": "2027届, 2025届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://job.xiaohongshu.com/campus/position/21486",
+      "announcement_url": "https://mp.weixin.qq.com/s/Ta63QPGbpiyQzF3irvyHoQ",
+      "source_updated_at": "2026-09-23",
+      "updated_at_original_text": "2026/09/23",
+      "source_record_ids_in_file": [
+        "cc2083e06904a2a19c188094"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "Product Engineer",
+              "产品工程师",
+              "Product Engineer-产品工程师-直播业务",
+              "Product Engineer-产品工程师-媒体服务"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "5e73e6e2a3293d480043406b3754f733",
+      "source_record_key": "a78a3285de32101d2229a35c697224ed",
+      "source_record_id": "4bd8a6ab5a9417a7d80bf885",
+      "title_unit": "Product Engineer",
+      "raw_job_title": "Product Engineer、产品工程师、Product Engineer-产品工程师-直播业务、Product Engineer-产品工程师-媒体服务",
+      "company_name": "小红书Product Engineer 产品工程师",
+      "company_type": "民企",
+      "location": "北京, 上海",
+      "industry_category": "文化/传媒/广告/体育",
+      "recruitment_session": "2027届, 2025届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://job.xiaohongshu.com/campus/position/21486",
+      "announcement_url": "https://mp.weixin.qq.com/s/Ta63QPGbpiyQzF3irvyHoQ",
+      "source_updated_at": "2026-09-23",
+      "updated_at_original_text": "2026/09/23",
+      "source_record_ids_in_file": [
+        "4bd8a6ab5a9417a7d80bf885"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "Product Engineer",
+              "产品工程师",
+              "Product Engineer-产品工程师-直播业务",
+              "Product Engineer-产品工程师-媒体服务"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "639596a0a4be13b1eb7c2f7f7f22855c",
+      "source_record_key": "a78a3285de32101d2229a35c697224ed",
+      "source_record_id": "4bd8a6ab5a9417a7d80bf885",
+      "title_unit": "产品工程师",
+      "raw_job_title": "Product Engineer、产品工程师、Product Engineer-产品工程师-直播业务、Product Engineer-产品工程师-媒体服务",
+      "company_name": "小红书Product Engineer 产品工程师",
+      "company_type": "民企",
+      "location": "北京, 上海",
+      "industry_category": "文化/传媒/广告/体育",
+      "recruitment_session": "2027届, 2025届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://job.xiaohongshu.com/campus/position/21486",
+      "announcement_url": "https://mp.weixin.qq.com/s/Ta63QPGbpiyQzF3irvyHoQ",
+      "source_updated_at": "2026-09-23",
+      "updated_at_original_text": "2026/09/23",
+      "source_record_ids_in_file": [
+        "4bd8a6ab5a9417a7d80bf885"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "Product Engineer",
+              "产品工程师",
+              "Product Engineer-产品工程师-直播业务",
+              "Product Engineer-产品工程师-媒体服务"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "c31669e17645841de771f573dc1313c0",
+      "source_record_key": "a78a3285de32101d2229a35c697224ed",
+      "source_record_id": "4bd8a6ab5a9417a7d80bf885",
+      "title_unit": "Product Engineer-产品工程师-直播业务",
+      "raw_job_title": "Product Engineer、产品工程师、Product Engineer-产品工程师-直播业务、Product Engineer-产品工程师-媒体服务",
+      "company_name": "小红书Product Engineer 产品工程师",
+      "company_type": "民企",
+      "location": "北京, 上海",
+      "industry_category": "文化/传媒/广告/体育",
+      "recruitment_session": "2027届, 2025届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://job.xiaohongshu.com/campus/position/21486",
+      "announcement_url": "https://mp.weixin.qq.com/s/Ta63QPGbpiyQzF3irvyHoQ",
+      "source_updated_at": "2026-09-23",
+      "updated_at_original_text": "2026/09/23",
+      "source_record_ids_in_file": [
+        "4bd8a6ab5a9417a7d80bf885"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "Product Engineer",
+              "产品工程师",
+              "Product Engineer-产品工程师-直播业务",
+              "Product Engineer-产品工程师-媒体服务"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "8e03915eaca4e7e73098128376380cbe",
+      "source_record_key": "a78a3285de32101d2229a35c697224ed",
+      "source_record_id": "4bd8a6ab5a9417a7d80bf885",
+      "title_unit": "Product Engineer-产品工程师-媒体服务",
+      "raw_job_title": "Product Engineer、产品工程师、Product Engineer-产品工程师-直播业务、Product Engineer-产品工程师-媒体服务",
+      "company_name": "小红书Product Engineer 产品工程师",
+      "company_type": "民企",
+      "location": "北京, 上海",
+      "industry_category": "文化/传媒/广告/体育",
+      "recruitment_session": "2027届, 2025届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://job.xiaohongshu.com/campus/position/21486",
+      "announcement_url": "https://mp.weixin.qq.com/s/Ta63QPGbpiyQzF3irvyHoQ",
+      "source_updated_at": "2026-09-23",
+      "updated_at_original_text": "2026/09/23",
+      "source_record_ids_in_file": [
+        "4bd8a6ab5a9417a7d80bf885"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "Product Engineer",
+              "产品工程师",
+              "Product Engineer-产品工程师-直播业务",
+              "Product Engineer-产品工程师-媒体服务"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "a9cb67146ea6524aa87e8b33049da464",
+      "source_record_key": "bb11967486c3035f8e5259f2a3816f24",
+      "source_record_id": "b7d55b150c10fd28cd7553eb",
+      "title_unit": "经理助理",
+      "raw_job_title": "总行管理培训生，总行职能岗位（金融市场），总行金融科技岗位（应用开发），总行金融科技岗位（软件测试），总行金融科技岗位（SRE运维），总行金融科技岗位（数据开发），总行金融科技岗位（数据分析），总行金融科技岗位（算法工程），业务培训生，客户经理，运营岗，固收助理研究员，权益助理研究员，渠道销售经理助理，基金运营助理，助理交易员，合规/审计经理助理，风控经理助理，产品经理助理，应用支持经理助理，客户渠道岗，金融科技岗，运营管理岗，科技培训生",
+      "company_name": "上海银行",
+      "company_type": "银行",
+      "location": "北京, 天津, 上海, 南京, 无锡, 常州, 苏州, 南通, 盐城, 泰州, 杭州, 宁波, 温州, 绍兴, 深圳, 成都",
+      "industry_category": "金融业",
+      "recruitment_session": "2027届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://bosc.zhiye.com/campus/jobs",
+      "announcement_url": "https://mp.weixin.qq.com/s/ZMOgKGAPNuUcN21uoRwS6g",
+      "source_updated_at": "2026-09-22",
+      "updated_at_original_text": "2026/09/22",
+      "source_record_ids_in_file": [
+        "b7d55b150c10fd28cd7553eb",
+        "b7d55b150c10fd28cd7553eb"
+      ],
+      "agent_trace": [
+        {
+          "action": "request_split",
+          "reason": "原始岗位文本包含多个岗位线索，先读取程序拆分结果。",
+          "result": {
+            "terminal": false,
+            "accepted_units": [
+              "总行管理培训生",
+              "业务培训生",
+              "客户经理",
+              "运营岗",
+              "固收助理研究员",
+              "权益助理研究员",
+              "渠道销售",
+              "经理助理",
+              "基金运营助理",
+              "助理交易员",
+              "合规/审计",
+              "经理助理",
+              "风控经理助理",
+              "产品经理助理",
+              "应用支持经理助理",
+              "客户渠道岗",
+              "金融科技岗",
+              "运营管理岗",
+              "科技培训生"
+            ],
+            "outcome": "split_checked"
+          }
+        },
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    },
+    {
+      "atomic_key": "a02b333e8b0cbc01b335a0a31a1fc118",
+      "source_record_key": "7990e9d3a18e538efb91f25309b172ba",
+      "source_record_id": "a00ac3469150f4cdc06cdf89",
+      "title_unit": "电商运营",
+      "raw_job_title": "电商运营、供应链、电商内容、组织发展",
+      "company_name": "曼伦商贸",
+      "company_type": "外企",
+      "location": "上海",
+      "industry_category": "贸易/批发/零售",
+      "recruitment_session": "2027届, 2026届",
+      "recruitment_batch": "秋招",
+      "recruitment_url": "https://app.mokahr.com/campus-recruitment/manon/168534#/",
+      "announcement_url": "https://mp.weixin.qq.com/s/V-_fB44LucTGMrnGW2eHjQ",
+      "source_updated_at": "2026-09-21",
+      "updated_at_original_text": "2026/09/21",
+      "source_record_ids_in_file": [
+        "a00ac3469150f4cdc06cdf89"
+      ],
+      "agent_trace": [
+        {
+          "action": "hold",
+          "reason": "缺少可验证依据或模型工具不可用，保留待确认。",
+          "result": {
+            "terminal": true,
+            "mapping": null,
+            "outcome": "held"
+          }
+        }
+      ],
+      "result_status": "pending",
+      "retry_eligible": false,
+      "mapping_status": "agent_hold",
+      "reason": "受限决策循环未取得经程序校验的分类；保留待确认。"
+    }
+  ]
+}

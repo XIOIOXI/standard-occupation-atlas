@@ -1,0 +1,25 @@
+{
+  "stage": "multi",
+  "original_record_id": "TG-b47132b28c8b91f43d75",
+  "error": "child_title_and_source_span_count_mismatch",
+  "action": "hold_multi_role_without_child_expansion",
+  "raw_decision": {
+    "original_record_id": "TG-b47132b28c8b91f43d75",
+    "case": "A",
+    "child_titles": [
+      "技术研发",
+      "电商平台&销售",
+      "用户运营",
+      "供应链",
+      "职能支持"
+    ],
+    "source_spans": [
+      {
+        "text": "技术研发电商平台&销售用户运营供应链 职能支持",
+        "start": 0,
+        "end": 23
+      }
+    ],
+    "reason": "多个岗位类别并列，可独立作为岗位，符合拆分条件。"
+  }
+}

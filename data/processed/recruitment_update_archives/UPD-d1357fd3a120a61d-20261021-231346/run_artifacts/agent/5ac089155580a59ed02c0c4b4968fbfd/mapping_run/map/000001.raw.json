@@ -1,0 +1,28 @@
+{
+  "id": "5b3dd6ee-e5b7-4fc3-85fb-d77f9c7f21d8",
+  "object": "chat.completion",
+  "created": 1792571201,
+  "model": "deepseek-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "{\"results\":[{\"occupation_id\":\"UP-5ac089155580a59ed02c0c4b4968fbfd\",\"status\":\"review\",\"target_category_id\":null,\"target_level\":null,\"candidate_category_ids\":[\"L27-07\",\"L27-09\"],\"title_evidence\":\"管制运行岗，机场集团招聘，属机场运行管制方向\",\"level_3_evidence\":null,\"reason\":\"机场管制运行属交通运行组织与地面服务范畴，但目录中L27-07为交通运行与地面服务（含机场地面、交通运行组织），L27-08为船舶航空与轨道专业操作（航空飞行操作），管制运行更接近运行指挥调度而非飞行操作，证据不足以唯一确定二级，列review候选。\"}]}"
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 16949,
+    "completion_tokens": 163,
+    "total_tokens": 17112,
+    "prompt_tokens_details": {
+      "cached_tokens": 16640
+    },
+    "prompt_cache_hit_tokens": 16640,
+    "prompt_cache_miss_tokens": 309
+  },
+  "system_fingerprint": "e72d3c7f663d3e1383b00b3884cb4501"
+}

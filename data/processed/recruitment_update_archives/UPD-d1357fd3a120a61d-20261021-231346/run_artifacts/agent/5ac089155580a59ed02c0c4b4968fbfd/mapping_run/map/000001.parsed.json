@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "occupation_id": "UP-5ac089155580a59ed02c0c4b4968fbfd",
+      "status": "review",
+      "target_category_id": null,
+      "target_level": null,
+      "candidate_category_ids": [
+        "L27-07",
+        "L27-09"
+      ],
+      "title_evidence": "管制运行岗，机场集团招聘，属机场运行管制方向",
+      "level_3_evidence": null,
+      "reason": "机场管制运行属交通运行组织与地面服务范畴，但目录中L27-07为交通运行与地面服务（含机场地面、交通运行组织），L27-08为船舶航空与轨道专业操作（航空飞行操作），管制运行更接近运行指挥调度而非飞行操作，证据不足以唯一确定二级，列review候选。"
+    }
+  ],
+  "raw_response_file": "000001.raw.json",
+  "usage": {
+    "input_tokens": 16949,
+    "cached_input_tokens": 16640,
+    "uncached_input_tokens": 309,
+    "output_tokens": 163,
+    "reasoning_tokens": 0,
+    "total_tokens": 17112
+  },
+  "cost": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.006,
+      "uncached_input_per_million_usd": 0.3,
+      "output_per_million_usd": 1.2
+    },
+    "estimated_usd": 0.00038814
+  },
+  "attempts": 1,
+  "normalization": "nullable whitespace only",
+  "envelope_normalization": null,
+  "validation_failures": []
+}

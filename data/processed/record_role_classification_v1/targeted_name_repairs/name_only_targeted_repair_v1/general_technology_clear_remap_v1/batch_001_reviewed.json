@@ -1,0 +1,147 @@
+{
+  "batch_number": 1,
+  "processing_method": "deepseek_api_name_only_clear_category_review",
+  "model_requested": "deepseek-flash",
+  "input_count": 20,
+  "attempts": 1,
+  "usage": {
+    "input_tokens": 18749,
+    "cached_input_tokens": 0,
+    "uncached_input_tokens": 18749,
+    "output_tokens": 1080,
+    "reasoning_tokens": 0,
+    "total_tokens": 19829
+  },
+  "cost_estimate": {
+    "basis": "reported_usage_times_documented_deepseek_flash_rates; provider does not return billed currency",
+    "beijing_price_window": "off_peak",
+    "rates_usd_per_million_tokens": {
+      "cached_input_per_million_usd": 0.003,
+      "uncached_input_per_million_usd": 0.15,
+      "output_per_million_usd": 0.6
+    },
+    "estimated_usd": 0.00346035
+  },
+  "results": [
+    {
+      "entry_id": "ABNORMAL:RRG-0261fa26a3a783dfd8bf",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "岗位名称含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-02f2cfcbfd04c0beb9d7",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "材料多尺度仿真工程师为跨领域仿真岗位，名称本身不足以唯一映射到现有三级。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-1660860c4719c06220a6",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "岗位名称含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-1abedb662dc1201b29eb",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "综合柜员岗含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-2547ccf6a6705322a76c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "安全交付工程师含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-2f0d03b936ba23b327f1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "自动化技术工程师含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-30984abf8444f12a25ab",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "外贸业务员含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-336caffb65033014ef4c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "PE工程师为宽泛称谓，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-360f1069d01b7086ba6c",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "AGENT工程师含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-3ab81fed74c9cc53f540",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "岗位3为编号式宽泛称谓且含专业清单，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-3f45df92402fe506b76a",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "测量助理工程名称截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-4eeec5b3a31d53bfaec2",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "仿真工程师为宽泛称谓，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-518477d6c22050d9f863",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "营销研发含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-7314106e1ca62acfbe37",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "正高级工程师含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-749963935cfed8fd1124",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "综合管理含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-758331d3a1bf8fbf27b1",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "助理工程师为宽泛称谓，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-7822853512700dfc38ba",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "技术工程师含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-7f80296f2e43fa32ca03",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "前期开发项目助理为宽泛称谓，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-99c08b70f5a870df6c0d",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "生产操作含专业清单且被截断，无法唯一映射到具体三级职业。"
+    },
+    {
+      "entry_id": "ABNORMAL:RRG-b0b99ffadee6b7d4e345",
+      "decision": "keep",
+      "target_category_id": null,
+      "reason": "版图工程师含专业清单且被截断，无法唯一映射到具体三级职业。"
+    }
+  ]
+}
